@@ -154,7 +154,7 @@ function renderAbout(){
   view.innerHTML = `
     <article class="prose">
       <h2>About findmybc.app</h2>
-      <p>A neutral, non-commercial finder for Business Central apps on the Microsoft Marketplace. Describe what isn't working, answer a few questions, and get a short list of apps whose listings say they handle it.</p>
+      <p>A neutral, non-commercial finder for Business Central apps on the Microsoft Marketplace. Describe what you need or what isn't working, answer a few questions, and get a short list of apps whose listings say they handle it.</p>
       <h3>Where the information comes from</h3>
       <p>Only from each app's own Microsoft Marketplace listing. We read every listing and describe it in our own words, with a link to the original. If a listing doesn't mention something, we show it as "not mentioned": we can't tell whether the app does it. The catalog is refreshed every month.</p>
       <p>We don't reproduce Marketplace listings. App names belong to their publishers; every summary is our own interpretation.</p>
@@ -179,10 +179,10 @@ function renderAbout(){
 function renderHome(){
   view.innerHTML = `
     <section class="hero">
-      <h1><span class="hl">Describe the problem.</span> Find the Business Central apps that solve it.</h1>
+      <h1><span class="hl">Describe the business need.</span> Find the Business Central apps that claim to solve it.</h1>
       <p>You don't need to know what the app is called. It's free, independent and takes about two minutes.</p>
       <form class="ask" id="ask">
-        <textarea id="q" rows="1" placeholder="Describe what's slow, manual or broken" aria-label="Describe your problem">${esc(S.query)}</textarea>
+        <textarea id="q" rows="1" placeholder="Describe what you need, or what isn't working" aria-label="Describe your business need">${esc(S.query)}</textarea>
         <button class="btn" type="submit">Find apps</button>
       </form>
       <p class="where">Showing apps for <b>${S.country ? esc(regionName(S.country)) : 'any country'}</b> · <button type="button" id="where-change">${S.country ? 'Change' : 'Choose your country'}</button></p>
@@ -203,7 +203,7 @@ function renderHome(){
         </div>
       </div>
       <div class="proof">
-        <p><b>${S.apps.length.toLocaleString('en')}</b> Business Central apps from <b>${new Set(S.apps.map(a => a.p)).size.toLocaleString('en')}</b> publishers, mapped to the problems they solve.</p>
+        <p><b>${S.apps.length.toLocaleString('en')}</b> Business Central apps from <b>${new Set(S.apps.map(a => a.p)).size.toLocaleString('en')}</b> publishers, mapped to the business needs they serve.</p>
         <ul class="trust"><li>No sign-up</li><li>No paid rankings</li><li>Refreshed monthly from Microsoft Marketplace</li></ul>
         <p class="partners"><b>Partners:</b> run it together with a customer, then send them the shortlist link.</p>
       </div>
@@ -470,7 +470,7 @@ function renderBrowse(){
   const order = [...areas.keys()].sort((a, b) => ix(a) - ix(b));
   view.innerHTML = `
     <section class="step">
-      <button class="back" onclick="location.hash='#/'">← Describe a problem instead</button>
+      <button class="back" onclick="location.hash='#/'">← Describe your need instead</button>
       <h2>Browse by process need</h2>
       <input class="search" id="bs" placeholder="Search process needs or app names" autocomplete="off">
       <div id="bres"></div>

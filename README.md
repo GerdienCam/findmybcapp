@@ -1,8 +1,8 @@
 # findmybc.app
 
-Describe the problem. Find the Business Central apps that solve it.
+Describe the business need. Find the Business Central apps that claim to solve it.
 
-findmybc.app is an independent, non-commercial finder for Business Central apps on the Microsoft Marketplace. You describe what's slow, manual or broken in your own words, answer up to five quick questions, and get a short list of apps whose listings say they handle it, with what each listing doesn't mention.
+findmybc.app is an independent, non-commercial finder for Business Central apps on the Microsoft Marketplace. You describe what your business needs, or what isn't working, in your own words, answer up to five quick questions, and get a short list of apps whose listings say they handle it, with what each listing doesn't mention.
 
 Not affiliated with or endorsed by Microsoft.
 
