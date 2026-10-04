@@ -178,12 +178,13 @@ function renderAbout(){
 function renderHome(){
   view.innerHTML = `
     <section class="hero">
-      <h1><span class="hl">Describe the problem.</span> Find the Business Central app that fixes it.</h1>
-      <p>No keywords. No categories.</p>
+      <h1><span class="hl">Describe the problem.</span> Find the Business Central apps that solve it.</h1>
+      <p>You don't need to know what the app is called. It's free, independent and takes about two minutes.</p>
       <form class="ask" id="ask">
         <textarea id="q" rows="1" placeholder="Describe what's slow, manual or broken" aria-label="Describe your problem">${esc(S.query)}</textarea>
         <button class="btn" type="submit">Find apps</button>
       </form>
+      <p class="where">Showing apps for <b>${S.country ? esc(regionName(S.country)) : 'any country'}</b> · <button type="button" id="where-change">${S.country ? 'Change' : 'Choose your country'}</button></p>
       <div class="examples"><span class="rlabel">Try</span>${EXAMPLES.map(e => `<button class="ex" type="button">${esc(e)}</button>`).join('')}</div>
       <div class="showcase">
         <ol class="how">
@@ -202,9 +203,11 @@ function renderHome(){
       </div>
       <div class="proof">
         <p><b>${S.apps.length.toLocaleString('en')}</b> Business Central apps from <b>${new Set(S.apps.map(a => a.p)).size.toLocaleString('en')}</b> publishers, mapped to the problems they solve.</p>
-        <ul class="trust"><li>Independent</li><li>No paid rankings</li><li>Refreshed monthly from Microsoft Marketplace</li></ul>
+        <ul class="trust"><li>No sign-up</li><li>No paid rankings</li><li>Refreshed monthly from Microsoft Marketplace</li></ul>
+        <p class="partners"><b>Partners:</b> run it together with a customer, then send them the shortlist link.</p>
       </div>
     </section>`;
+  $('#where-change').onclick = e => { e.stopPropagation(); $('#country-btn').click(); };
   const ta = $('#q');
   const fit = () => { ta.style.height = 'auto'; ta.style.height = ta.scrollHeight + 'px'; };
   ta.addEventListener('input', fit); fit();
