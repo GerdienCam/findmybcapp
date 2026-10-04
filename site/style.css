@@ -45,9 +45,10 @@ main{flex:1;width:100%;max-width:880px;margin:0 auto;padding:0 20px 64px}
 .foot{display:flex;flex-wrap:wrap;gap:6px 24px;align-items:center;justify-content:center;text-align:center;padding:14px 24px;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
 
 /* hero / ask */
-.hero{padding:72px 0 28px;text-align:left}
+.hero{padding:48px 0 28px;text-align:left}
 .hero h1{font-size:clamp(32px,5vw,48px);line-height:1.08;letter-spacing:-.025em;margin:0 0 14px;font-weight:800;text-wrap:balance}
 .hero h1 .hl{background:linear-gradient(transparent 60%, var(--sun-soft) 60%, var(--sun-soft) 92%, transparent 92%);-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:0 .06em}
+.hero .h1sub{display:block;margin-top:10px;font-size:clamp(22px,2.8vw,30px);line-height:1.2;letter-spacing:-.015em;font-weight:700}
 .hero p{font-size:19px;color:var(--muted);margin:0;max-width:56ch}
 .ask{margin-top:28px;background:var(--wash);border:2px solid transparent;border-radius:16px;padding:6px 6px 6px 20px;display:flex;gap:10px;align-items:center;transition:border-color .15s}
 .ask:focus-within{border-color:var(--cyan);background:#fff;box-shadow:0 8px 30px rgba(0,128,140,.12)}

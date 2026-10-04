@@ -179,7 +179,7 @@ function renderAbout(){
 function renderHome(){
   view.innerHTML = `
     <section class="hero">
-      <h1><span class="hl">Describe the business need.</span> Find the Business Central apps that claim to solve it.</h1>
+      <h1><span class="hl">Describe the business need.</span> <span class="h1sub">Find the Business Central apps that claim to solve it.</span></h1>
       <p>You don't need to know what the app is called. It's free, independent and takes about two minutes.</p>
       <form class="ask" id="ask">
         <textarea id="q" rows="1" placeholder="Describe what you need, or what isn't working" aria-label="Describe your business need">${esc(S.query)}</textarea>
