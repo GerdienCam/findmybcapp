@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.alpha_solutions_ag|AID.asmf2|PAPPID.27988cc9-fd34-44d9-82df-429cf7c7b368",
+  "guid": "27988cc9-fd34-44d9-82df-429cf7c7b368",
+  "publisherId": "alpha_solutions_ag",
+  "offerId": "asmf2",
+  "source": {
+    "name": "Aproda Manufacturing (ASMF)",
+    "publisher": "Aproda AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alpha_solutions_ag%7CAID.asmf2%7CPAPPID.27988cc9-fd34-44d9-82df-429cf7c7b368",
+    "lastModified": "2026-01-30T17:01:53.4251327+00:00",
+    "appVersion": "27.0.0.42",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aproda.ch/aproda-manufacturing",
+    "sourceHash": "sha256:f0961aec06758c5518ea5df8196bec1cb74c579d434fe11ce9b411f78b0b38ed"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f0961aec06758c5518ea5df8196bec1cb74c579d434fe11ce9b411f78b0b38ed",
+    "mappedOn": null,
+    "summary": "Production registration of time, output and consumption plus item costing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-subcontracting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-costing",
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Registers time, output and consumption on production",
+      "Assigns employees in registrations",
+      "Barcode scanning for times and output",
+      "Records setup, run and stop time",
+      "Records scrap quantity",
+      "Configurable registration wizards",
+      "Barcode on work center group and production order",
+      "FactBox with posted setup/run/stop times on routing line",
+      "Statistics comparing target and actual times",
+      "External work text carried into subcontracting purchase order",
+      "Shows subcontracting purchase order and invoice lines on routing line",
+      "Production order number carried into stock transfers from order planning",
+      "Default location/bin for output",
+      "Requires Premium edition"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

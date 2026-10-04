@@ -1,0 +1,56 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.e-conomic-integration|PAPPID.270af7da-4ed7-49d6-ac6d-4173219c8c95",
+  "guid": "270af7da-4ed7-49d6-ac6d-4173219c8c95",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "e-conomic-integration",
+  "source": {
+    "name": "Visma e-conomic Integration",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.e-conomic-integration%7CPAPPID.270af7da-4ed7-49d6-ac6d-4173219c8c95",
+    "lastModified": "2025-09-04T07:54:20.4216842+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://knowledgebase.hubbroker.net/article/kiwdkp4g16-e-conomic-export-customer-invoices",
+    "sourceHash": "sha256:d16c71eca055431f846da7401753b8d2f694a17ae81f336657dd9cf7fd36baab"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d16c71eca055431f846da7401753b8d2f694a17ae81f336657dd9cf7fd36baab",
+    "mappedOn": null,
+    "summary": "Syncs financial data and orders with Visma e-conomic",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Real-time transfer of customers, suppliers, products, orders and invoices with Visma e-conomic",
+      "Two-way integration",
+      "Keeps invoices, payments and balances aligned",
+      "Custom mapping and rules",
+      "Sync error handling and monitoring"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Visma e-conomic"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

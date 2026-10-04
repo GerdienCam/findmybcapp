@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.skconsulting|AID.it_00014|PAPPID.1d62efba-a364-4e27-9738-8273ee96b070",
+  "guid": "1d62efba-a364-4e27-9738-8273ee96b070",
+  "publisherId": "skconsulting",
+  "offerId": "it_00014",
+  "source": {
+    "name": "Fisqal - Multinational VAT",
+    "publisher": "SK Consulting S.A.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.skconsulting%7CAID.it_00014%7CPAPPID.1d62efba-a364-4e27-9738-8273ee96b070",
+    "lastModified": "2026-09-25T10:39:17.0703001+00:00",
+    "appVersion": "28.0.148.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://skc.lu/apps",
+    "sourceHash": "sha256:db9dfba33a39a86214fe7037496a6802c767c0a71b31a2082dc2693a0b0efbed"
+  },
+  "mapping": {
+    "sourceHash": "sha256:db9dfba33a39a86214fe7037496a6802c767c0a71b31a2082dc2693a0b0efbed",
+    "mappedOn": null,
+    "summary": "Handles several VAT registration numbers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Stores multiple VAT registration numbers for own company, customers and vendors",
+      "Handles EU triangular transactions",
+      "Auto-fills VAT registration no. and posting groups on documents by scenario",
+      "Intercompany VAT for reporting",
+      "VAT registration numbers flow to VAT entries and posted documents",
+      "Compatible with standard Alternative Customer VAT Registration No. module",
+      "Predefined purchase/sales scenarios with default posting groups",
+      "Assisted setup wizard or manual configuration"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

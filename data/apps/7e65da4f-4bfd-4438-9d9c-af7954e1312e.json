@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.columbus-estonia|AID.alternative_units|PAPPID.7e65da4f-4bfd-4438-9d9c-af7954e1312e",
+  "guid": "7e65da4f-4bfd-4438-9d9c-af7954e1312e",
+  "publisherId": "columbus-estonia",
+  "offerId": "alternative_units",
+  "source": {
+    "name": "Alternative Units",
+    "publisher": "OIXIO Estonia",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.columbus-estonia%7CAID.alternative_units%7CPAPPID.7e65da4f-4bfd-4438-9d9c-af7954e1312e",
+    "lastModified": "2025-10-08T08:17:54.880149+00:00",
+    "appVersion": "25.0.251008.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.oixio.eu/units/units_index.en/",
+    "sourceHash": "sha256:9f60b73d2de0b3f939e9e2e296df8392c6df994771f97d269f227f3b609f15e5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9f60b73d2de0b3f939e9e2e296df8392c6df994771f97d269f227f3b609f15e5",
+    "mappedOn": null,
+    "summary": "Manages item quantities in alternative units with conversion",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-search-navigation"
+    ],
+    "claims": [
+      "Defines alternative units and conversion logic in Inventory Setup",
+      "Quantity of each alternative unit per base unit on the item card",
+      "Logs unit conversion values for traceability",
+      "Rounding rules up to five decimals",
+      "Supports alternative units on transfers, returns, and blanket or standard sales and purchase orders",
+      "Factbox showing quantities in alternative units"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

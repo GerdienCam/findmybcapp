@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.business_development_christoph_krieg|AID.365businessaddressvalidation|PAPPID.e4664942-0212-41a2-aa2d-cf376adb84a6",
+  "guid": "e4664942-0212-41a2-aa2d-cf376adb84a6",
+  "publisherId": "business_development_christoph_krieg",
+  "offerId": "365businessaddressvalidation",
+  "source": {
+    "name": "365 business Address Validation",
+    "publisher": "365 business development",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365businessaddressvalidation%7CPAPPID.e4664942-0212-41a2-aa2d-cf376adb84a6",
+    "lastModified": "2026-08-19T08:39:39.3347088+00:00",
+    "appVersion": "18.11.153.27165",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365businessdev.com/en-US/365-business-address-validation/",
+    "sourceHash": "sha256:84a57850b5d9782328104268d6e417825282827523bfa8496f41b7cc4f69ee0b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:84a57850b5d9782328104268d6e417825282827523bfa8496f41b7cc4f69ee0b",
+    "mappedOn": null,
+    "summary": "Validates and corrects addresses in BC",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Checks and corrects addresses worldwide against reference databases",
+      "Auto-complete of address or business name while typing",
+      "Validates addresses from online shops or marketplaces",
+      "Address prediction free in sandboxes"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "365 business API"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

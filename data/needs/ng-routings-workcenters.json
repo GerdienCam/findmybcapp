@@ -1,0 +1,185 @@
+{
+  "id": "ng-routings-workcenters",
+  "order": 86,
+  "label": "Setting up routings, work centers and capacity",
+  "description": "Defining production processes, routings, machines, work centers and correcting times.",
+  "type": "bpc",
+  "area": "Manufacturing",
+  "relevance": "medium",
+  "statements": [
+    "Setting up routings, work centers and capacity",
+    "Defining production processes, routings, machines, work centers and correcting times.",
+    "We are new to manufacturing in BC and don't know how to set up routings",
+    "How do I describe the steps a product goes through on the shop floor in Business Central?",
+    "Our production steps live in the foreman's head, nothing is written down in the system",
+    "routing setup help BC manufacturing",
+    "Is there an app that makes it easier to build and maintain routings with work instructions attached?",
+    "We need to decide if we run make to order or make to stock and how BC should handle each",
+    "Our operators want drawings and instructions linked to each operation on the production order",
+    "We mix batch production and assembly and are not sure which BC module to use for what",
+    "Setting up setup time, run time and wait time per operation is confusing",
+    "We want one standard way of producing each product across both our factories",
+    "Can BC handle process manufacturing like mixing and filling, or is it only for discrete parts?",
+    "Our routings are copied from an old system and half of them are wrong",
+    "How do I set up work centers and machine centers in Business Central?",
+    "We need each machine registered with its own hourly rate and capacity",
+    "Our work center calendars don't reflect that we run two shifts on some lines",
+    "We want to track which operators are certified to run which machines",
+    "Is there a way to register tools and moulds as a limited production resource?",
+    "machine center capacity setup",
+    "When a machine goes down for a week, how do we tell BC there is less capacity?",
+    "We want to link employees to work centers so labor hours land on the right place",
+    "Our outside painter should appear as a work center with its own lead time",
+    "Can I set efficiency and capacity per machine so plans are realistic?",
+    "We added a new laser cutter and don't know how to model it in BC",
+    "We have a shared assembly area that limits how many jobs can run at once",
+    "The run times on our routings are way off compared to what operators actually need",
+    "We did a time study and need to update hundreds of routing lines",
+    "One operation is always the bottleneck and we want to add a parallel machine",
+    "Our standard times have not been updated in ten years",
+    "Is there an app that compares actual operation times to the routing and suggests new values?",
+    "We changed how we weld a product and the route in BC still shows the old way"
+  ],
+  "questions": [
+    {
+      "id": "goal",
+      "text": "What is the main problem with your routings today?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Too much manual work building routings for product variants",
+          "patterns": [
+            "configurator",
+            "characteristic",
+            "generates routings",
+            "routing calculated"
+          ]
+        },
+        {
+          "label": "Hard to see and maintain BOMs and routings together",
+          "patterns": [
+            "(bom|routing).{0,40}item card",
+            "item card.{0,40}(bom|routing)",
+            "one page",
+            "combined view",
+            "(routing|bom)s? (and|with) .{0,10}versions",
+            "versions? .{0,20}(bom|routing)",
+            "copy (production bom|routings)"
+          ]
+        },
+        {
+          "label": "Setup and run times don't match reality",
+          "patterns": [
+            "actual vs expected",
+            "variance",
+            "changeover",
+            "standard deviation",
+            "edit setup"
+          ]
+        },
+        {
+          "label": "Operators lack instructions or details at the machine",
+          "patterns": [
+            "instructions",
+            "shop floor screens",
+            "manufacturing information to employees",
+            "job overview"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Too much manual work building routings for product variants": 0.25,
+        "Hard to see and maintain BOMs and routings together": 0.17,
+        "Setup and run times don't match reality": 0.17,
+        "Operators lack instructions or details at the machine": 0.33
+      }
+    },
+    {
+      "id": "resources",
+      "text": "Besides machines, what do your routings need to plan or cost?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Tools and fixtures",
+          "patterns": [
+            "\\btools?\\b"
+          ]
+        },
+        {
+          "label": "People (personnel and labor)",
+          "patterns": [
+            "personnel",
+            "labou?r"
+          ]
+        },
+        {
+          "label": "Separate cost per machine or equipment",
+          "patterns": [
+            "machine cent(er|re)s? .{0,20}cost",
+            "cost per machine",
+            "unit cost per machine",
+            "calculates their costs"
+          ]
+        },
+        {
+          "label": "Nothing extra / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Tools and fixtures": 0.25,
+        "People (personnel and labor)": 0.25,
+        "Separate cost per machine or equipment": 0.17
+      }
+    },
+    {
+      "id": "variants",
+      "text": "Do you make many variants of the same product to customer spec?",
+      "options": [
+        {
+          "label": "Yes, configured to order",
+          "patterns": [
+            "configurator",
+            "characteristic",
+            "conditionally",
+            "by formulas"
+          ]
+        },
+        {
+          "label": "No, or not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, configured to order": 0.25
+      }
+    },
+    {
+      "id": "changeover",
+      "text": "Does setup time depend on what ran on the machine before?",
+      "help": "For example cleaning between colors or flavors.",
+      "options": [
+        {
+          "label": "Yes, changeovers vary",
+          "patterns": [
+            "changeover",
+            "setup time matrix",
+            "dynamic setup",
+            "from one product to another"
+          ]
+        },
+        {
+          "label": "No, or not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, changeovers vary": 0.08
+      }
+    }
+  ]
+}

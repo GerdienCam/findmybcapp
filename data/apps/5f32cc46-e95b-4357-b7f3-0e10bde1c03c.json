@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.youngpartners1588093205397|AID.navitrans_365_transwide_connector|PAPPID.5f32cc46-e95b-4357-b7f3-0e10bde1c03c",
+  "guid": "5f32cc46-e95b-4357-b7f3-0e10bde1c03c",
+  "publisherId": "youngpartners1588093205397",
+  "offerId": "navitrans_365_transwide_connector",
+  "source": {
+    "name": "Navitrans 365 Transwide Connector",
+    "publisher": "Navitrans",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_transwide_connector%7CPAPPID.5f32cc46-e95b-4357-b7f3-0e10bde1c03c",
+    "lastModified": "2026-09-30T20:01:22.8722081+00:00",
+    "appVersion": "28.5.0.80075",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navitrans.eu/our-services/tms/",
+    "sourceHash": "sha256:9a6f7e669814c8e712141ac1bfd20ad8e8db4131722a6ace8fb7d1c053941bf7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9a6f7e669814c8e712141ac1bfd20ad8e8db4131722a6ace8fb7d1c053941bf7",
+    "mappedOn": null,
+    "summary": "Connects Navitrans 365 with Transwide",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-transport-planning"
+    ],
+    "claims": [
+      "Navitrans 365 module/connector named in listing",
+      "Part of Navitrans 365 TMS covering order registration to invoicing",
+      "FTL and LTL transport orders created from templates",
+      "Planning tools with capacity, combination and qualification checks",
+      "Prices are set automatically from tariff tables or fixed prices",
+      "Works with subcontractors and charters",
+      "Automatic invoicing combining orders on invoices",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "SE",
+      "SI"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Transwide"
+    ],
+    "requires": [
+      "Navitrans 365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

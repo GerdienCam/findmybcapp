@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.codeunit|AID.connect2ongoingwms|PAPPID.850dd798-baf7-48c8-9e93-8281f66bb641",
+  "guid": "850dd798-baf7-48c8-9e93-8281f66bb641",
+  "publisherId": "codeunit",
+  "offerId": "connect2ongoingwms",
+  "source": {
+    "name": "connect2OngoingWMS",
+    "publisher": "Codeunit",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2ongoingwms%7CPAPPID.850dd798-baf7-48c8-9e93-8281f66bb641",
+    "lastModified": "2026-06-10T02:38:51.134335+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.codeunit.io/get-in-touch",
+    "sourceHash": "sha256:96a4524e1de197cef48ffc0684fd9cfeb5ec1af168f796010c96fffd16e2ef16"
+  },
+  "mapping": {
+    "sourceHash": "sha256:96a4524e1de197cef48ffc0684fd9cfeb5ec1af168f796010c96fffd16e2ef16",
+    "mappedOn": null,
+    "summary": "Syncs orders and inventory with Ongoing WMS",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability",
+      "ng-customer-returns",
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Sends sales orders and consignments to Ongoing WMS with order IDs written back",
+      "Sends purchase and return orders to Ongoing WMS",
+      "Sends production and assembly orders to Ongoing WMS and receives completion",
+      "Syncs articles, prices, dangerous goods data and attributes",
+      "Receives tracking details, carrier codes and optional shipment labels",
+      "Reflects WMS status changes incl. cancellations on BC orders",
+      "Order changes pushed to WMS before picking starts",
+      "Received PO lines post purchase receipts; returns post sales return receipts",
+      "Lot, serial and expiry dates exchanged with WMS",
+      "WMS adjustments, reclassifications and moves post as BC inventory transactions",
+      "OmniConnect Portal to monitor flows, get notified and resubmit failed transactions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Ongoing WMS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

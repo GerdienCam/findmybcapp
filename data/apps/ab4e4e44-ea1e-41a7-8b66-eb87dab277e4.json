@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.naviona_4717541|AID.naviona_business_central_mobile_solutions|PAPPID.ab4e4e44-ea1e-41a7-8b66-eb87dab277e4",
+  "guid": "ab4e4e44-ea1e-41a7-8b66-eb87dab277e4",
+  "publisherId": "naviona_4717541",
+  "offerId": "naviona_business_central_mobile_solutions",
+  "source": {
+    "name": "Naviona Mobile Solutions",
+    "publisher": "Naviona",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.naviona_4717541%7CAID.naviona_business_central_mobile_solutions%7CPAPPID.ab4e4e44-ea1e-41a7-8b66-eb87dab277e4",
+    "lastModified": "2026-09-10T01:34:19.7636485+00:00",
+    "appVersion": "2.3.0.15",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://naviona.com/docs/mobile-solutions/",
+    "sourceHash": "sha256:3bb1eb02689f5d0e007d2882ba780fe2ba1d43c0cbbcd31549cacb737bc95a85"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3bb1eb02689f5d0e007d2882ba780fe2ba1d43c0cbbcd31549cacb737bc95a85",
+    "mappedOn": null,
+    "summary": "Mobile execution of warehouse and manufacturing tasks",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels",
+      "ng-stock-counting",
+      "ng-receiving-putaway"
+    ],
+    "claims": [
+      "Captures production, inventory and warehouse transactions on barcode scanners, tablets and smartphones",
+      "Reports production output and operations",
+      "Records labor and machine activity",
+      "Processes receiving, picking, transfers and movements",
+      "Prints labels through BarTender Cloud",
+      "Inventory, shipping and manufacturing labels",
+      "Supports cycle counts and inventory audits",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "BarTender Cloud"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

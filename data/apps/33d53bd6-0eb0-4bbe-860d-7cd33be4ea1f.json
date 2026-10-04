@@ -1,0 +1,51 @@
+{
+  "appId": "PUBID.kibromwendemitservices1773834730715|AID.job-queue-control-center|PAPPID.33d53bd6-0eb0-4bbe-860d-7cd33be4ea1f",
+  "guid": "33d53bd6-0eb0-4bbe-860d-7cd33be4ea1f",
+  "publisherId": "kibromwendemitservices1773834730715",
+  "offerId": "job-queue-control-center",
+  "source": {
+    "name": "Job Queue Control Center",
+    "publisher": "Kibrom Wendem IT Services",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kibromwendemitservices1773834730715%7CAID.job-queue-control-center%7CPAPPID.33d53bd6-0eb0-4bbe-860d-7cd33be4ea1f",
+    "lastModified": "2026-05-27T08:51:38.2268209+00:00",
+    "appVersion": "1.1.1.26",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bcjobmonitor.com/",
+    "sourceHash": "sha256:63a3bee0ffdd78d5b5780a65aba069a4b58b8f67a859778509f7150581db97e8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:63a3bee0ffdd78d5b5780a65aba069a4b58b8f67a859778509f7150581db97e8",
+    "mappedOn": null,
+    "summary": "Control center for job queue monitoring",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Detects job queue failures and sends alerts",
+      "Controlled recovery of selected jobs"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

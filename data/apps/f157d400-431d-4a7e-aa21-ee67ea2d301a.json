@@ -1,0 +1,114 @@
+{
+  "appId": "PUBID.boyumitas1653294915711|AID.boyumit_perfion_releaseto365bc|PAPPID.f157d400-431d-4a7e-aa21-ee67ea2d301a",
+  "guid": "f157d400-431d-4a7e-aa21-ee67ea2d301a",
+  "publisherId": "boyumitas1653294915711",
+  "offerId": "boyumit_perfion_releaseto365bc",
+  "source": {
+    "name": "Perfion PIM - Release2ERP",
+    "publisher": "Boyum IT Solutions A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.boyumitas1653294915711%7CAID.boyumit_perfion_releaseto365bc%7CPAPPID.f157d400-431d-4a7e-aa21-ee67ea2d301a",
+    "lastModified": "2026-06-23T09:44:27.1286201+00:00",
+    "appVersion": "3.4.19.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.boyum-solutions.com/contact-us/",
+    "sourceHash": "sha256:3db251b35f6550c335cc616bff21c3b427ee21331543255f7e13ce2970694566"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3db251b35f6550c335cc616bff21c3b427ee21331543255f7e13ce2970694566",
+    "mappedOn": null,
+    "summary": "Releases product information from Perfion PIM into BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-product-portfolio-launch"
+    ],
+    "claims": [
+      "Automatic release of products to BC when criteria are met",
+      "Required BC fields filled automatically",
+      "Release when all business-critical info is available",
+      "Supplier product updates flow into Perfion first",
+      "Perfion as master data source to update BC",
+      "Requires a Perfion solution"
+    ],
+    "countries": [
+      "AE",
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "BG",
+      "BR",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "HK",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SG",
+      "SI",
+      "SK",
+      "TH",
+      "TR",
+      "TW",
+      "UA",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Perfion"
+    ],
+    "requires": [
+      "Perfion"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

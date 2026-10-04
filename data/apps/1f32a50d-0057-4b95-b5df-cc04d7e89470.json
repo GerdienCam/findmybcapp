@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.subcontracting|PAPPID.1f32a50d-0057-4b95-b5df-cc04d7e89470",
+  "guid": "1f32a50d-0057-4b95-b5df-cc04d7e89470",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "subcontracting",
+  "source": {
+    "name": "Subcontracting",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.subcontracting%7CPAPPID.1f32a50d-0057-4b95-b5df-cc04d7e89470",
+    "lastModified": "2026-07-07T04:23:28.7707731+00:00",
+    "appVersion": "28.3.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?linkid=2345593",
+    "sourceHash": "sha256:2931b1a1a31e8f4b7d1b991997ab0d5f4b18659b4cee15021afe1a7c74a3c8ed"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2931b1a1a31e8f4b7d1b991997ab0d5f4b18659b4cee15021afe1a7c74a3c8ed",
+    "mappedOn": null,
+    "summary": "Outsources production operations to subcontractors with logistics and pricing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subcontracting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-production-costing",
+      "ng-shop-floor-reporting"
+    ],
+    "claims": [
+      "Work centers can be assigned to a subcontractor vendor",
+      "Subcontracting worksheet creates purchase orders in bulk",
+      "Transfers components and WIP to/from subcontractors with transfer orders",
+      "Supports chains of outsourced operations",
+      "Sets subcontracting prices per quantity, date, item, work center and vendor",
+      "Per-unit or per-time pricing with volume discounts",
+      "Receives output via purchase orders or warehouse receipts with lot/serial capture",
+      "Undo receipt",
+      "Posting subcontracting PO registers output and consumption automatically",
+      "Subcontractor Dispatch List report",
+      "Overview of components held at each subcontractor",
+      "Requires Premium edition"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

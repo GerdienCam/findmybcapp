@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.estonian_dynamics_partners|AID.est-bank-formats|PAPPID.2df65f5f-6fde-483e-adb6-aa19b6fcfcd0",
+  "guid": "2df65f5f-6fde-483e-adb6-aa19b6fcfcd0",
+  "publisherId": "estonian_dynamics_partners",
+  "offerId": "est-bank-formats",
+  "source": {
+    "name": "Banking Formats localization for Estonia",
+    "publisher": "Estonian Dynamics Partners",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.est-bank-formats%7CPAPPID.2df65f5f-6fde-483e-adb6-aa19b6fcfcd0",
+    "lastModified": "2026-06-16T15:03:10.508624+00:00",
+    "appVersion": "26.0.26167.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicspartnersee.github.io/apps/estonian-banking-formats/docs/en-US/help",
+    "sourceHash": "sha256:fef288ed4473667a0633c8053adfff8360fa2f82aaa8f250d5cff10f3eff81cd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fef288ed4473667a0633c8053adfff8360fa2f82aaa8f250d5cff10f3eff81cd",
+    "mappedOn": null,
+    "summary": "Estonian banking formats for BC",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-ux-document-layouts"
+    ],
+    "claims": [
+      "Payment reference numbers on sales and service invoices",
+      "Estonian sales document layouts",
+      "Estonian SEPA payment format",
+      "Estonian SEPA statement format",
+      "Matches payments to posted invoices using reference and registration numbers",
+      "Payment reconciliation journal shows whether reference no. matches",
+      "Not available in Czechia, Liechtenstein, Italy, San Marino and Switzerland",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "EE"
+    ],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

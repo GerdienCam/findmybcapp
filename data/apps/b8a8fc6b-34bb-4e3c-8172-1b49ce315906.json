@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.tinx-it|AID.tinx-amazon-connector|PAPPID.b8a8fc6b-34bb-4e3c-8172-1b49ce315906",
+  "guid": "b8a8fc6b-34bb-4e3c-8172-1b49ce315906",
+  "publisherId": "tinx-it",
+  "offerId": "tinx-amazon-connector",
+  "source": {
+    "name": "Tinx Amazon Connector",
+    "publisher": "Tinx-IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-amazon-connector%7CPAPPID.b8a8fc6b-34bb-4e3c-8172-1b49ce315906",
+    "lastModified": "2026-09-24T12:59:57.3030225+00:00",
+    "appVersion": "28.1.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.tinx-it.com/",
+    "sourceHash": "sha256:e47a02d100fe373409abc0c4187e6d08e907a505c15571c9033ea218a1a9d8ba"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e47a02d100fe373409abc0c4187e6d08e907a505c15571c9033ea218a1a9d8ba",
+    "mappedOn": null,
+    "summary": "Syncs Amazon orders, settlements and FBA inventory",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Imports Amazon FBA and FBM orders",
+      "Matches SKUs against items or against item cross references",
+      "Downloads Amazon settlement data as financial information",
+      "Authenticates via a Private App in Seller Central",
+      "Syncs inventory, settlements and orders live",
+      "Sync logs with email error alerts",
+      "Fixed monthly fee of EUR 259, no transaction or user fees",
+      "Free 1-hour setup support call for trial users"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Amazon"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

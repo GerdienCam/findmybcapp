@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.inventio-it|AID.smartean|PAPPID.c2945322-4bb5-418c-b1ef-178ab6fcee73",
+  "guid": "c2945322-4bb5-418c-b1ef-178ab6fcee73",
+  "publisherId": "inventio-it",
+  "offerId": "smartean",
+  "source": {
+    "name": "SMARTean",
+    "publisher": "Inventio.IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.inventio-it%7CAID.smartean%7CPAPPID.c2945322-4bb5-418c-b1ef-178ab6fcee73",
+    "lastModified": "2026-09-29T13:10:29.3384895+00:00",
+    "appVersion": "1.1.20260616.1",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.inventio.it/en-us/smartean/documentation/",
+    "sourceHash": "sha256:94ff68aec9f1461eb106a0961d12abb3822c5323c0eac868a3bd0dc7112c74a7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:94ff68aec9f1461eb106a0961d12abb3822c5323c0eac868a3bd0dc7112c74a7",
+    "mappedOn": null,
+    "summary": "Sends EAN/OIOUBL e-invoices with attachments",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends invoices and credit notes as EAN/OIOUBL",
+      "View EAN documents as PDF and track status in BC",
+      "Attach extra documents to the sending",
+      "Marks required fields before posting invoice/credit note",
+      "Auto-updates missing CVR numbers on customers with GLN/EAN",
+      "Delivery status per document, also on posted invoice",
+      "Easy resending",
+      "Shows failed documents (e.g. wrong EAN or profile code)",
+      "Targets public sector recipients in Denmark, Greenland and Faroe Islands",
+      "Usage (document sending) billed separately"
+    ],
+    "countries": [
+      "DK",
+      "FO",
+      "GL"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "OIOUBL"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_transaction",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

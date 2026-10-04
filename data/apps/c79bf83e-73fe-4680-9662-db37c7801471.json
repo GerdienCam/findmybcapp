@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.timetrackcentral|AID.ttc_professional|PAPPID.c79bf83e-73fe-4680-9662-db37c7801471",
+  "guid": "c79bf83e-73fe-4680-9662-db37c7801471",
+  "publisherId": "timetrackcentral",
+  "offerId": "ttc_professional",
+  "source": {
+    "name": "Time Track Central - Professional",
+    "publisher": "Time Track Central",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.timetrackcentral%7CAID.ttc_professional%7CPAPPID.c79bf83e-73fe-4680-9662-db37c7801471",
+    "lastModified": "2026-09-17T12:03:50.9004955+00:00",
+    "appVersion": "25.0.20260917.2",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.timetrackcentral.com/",
+    "sourceHash": "sha256:98816593ca0c2df5e29490f2a9f6f24ddf0a473980cf74a36013739285a77ef2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:98816593ca0c2df5e29490f2a9f6f24ddf0a473980cf74a36013739285a77ef2",
+    "mappedOn": null,
+    "summary": "Time sheets, absence, expenses and payroll export",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-employee-expenses",
+      "ng-hr-payroll-comp",
+      "ng-proj-planning"
+    ],
+    "claims": [
+      "Web app (SPA) to manage and approve time sheets",
+      "Absence management",
+      "Resource capacity management",
+      "Payroll exports",
+      "Streamlines hour registration in projects",
+      "Builds on standard BC time sheet and absence functionality",
+      "Employees need no BC user or Microsoft license",
+      "Professional edition includes expenses add-on"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

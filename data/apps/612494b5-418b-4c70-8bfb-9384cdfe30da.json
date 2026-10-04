@@ -1,0 +1,64 @@
+{
+  "appId": "TYPE.connect|PUBID.beehexacorp1632107602169|AID.hexasync_wix_ms_business_central|PAPPID.612494b5-418b-4c70-8bfb-9384cdfe30da",
+  "guid": "612494b5-418b-4c70-8bfb-9384cdfe30da",
+  "publisherId": "beehexacorp1632107602169",
+  "offerId": "hexasync_wix_ms_business_central",
+  "source": {
+    "name": "HexaSync Wix Connector",
+    "publisher": "Beehexa Corp",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.beehexacorp1632107602169%7CAID.hexasync_wix_ms_business_central%7CPAPPID.612494b5-418b-4c70-8bfb-9384cdfe30da",
+    "lastModified": "2026-07-21T15:00:32.8170355+00:00",
+    "appVersion": "2.1.1.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://app-az.hexasync.com/login",
+    "sourceHash": "sha256:d1910a9343ce497031545965f0b37e2140f97a0d4a4800f522e986e74bf4b780"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d1910a9343ce497031545965f0b37e2140f97a0d4a4800f522e986e74bf4b780",
+    "mappedOn": null,
+    "summary": "Syncs orders and products with Wix",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Syncs sales orders, customer details, products and inventory between BC and Wix",
+      "Tracks orders, inventory, products, categories and customers",
+      "Middleware platform that transfers data between systems",
+      "Message queue based architecture",
+      "Cell-based field mapping between systems",
+      "Monitors each sync transaction for success or failure and the reason",
+      "Configurable task schedulers",
+      "Customizable sync tasks",
+      "Requires a HexaSync account"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Wix",
+      "HexaSync"
+    ],
+    "requires": [
+      "HexaSync"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

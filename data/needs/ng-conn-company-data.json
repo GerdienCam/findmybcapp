@@ -1,0 +1,194 @@
+{
+  "id": "ng-conn-company-data",
+  "order": 193,
+  "label": "Company lookup, credit ratings and address data",
+  "description": "Filling and monitoring customer and vendor data from business registers (CVR, Brreg, KVK and others), credit agencies (Creditsafe, D&B, Risika, Proff, Atradius) and address/postcode services.",
+  "type": "connector",
+  "area": "Connecting other systems",
+  "relevance": "medium",
+  "statements": [
+    "Company lookup, credit ratings and address data",
+    "Filling and monitoring customer and vendor data from business registers (CVR, Brreg, KVK and others), credit agencies (Creditsafe, D&B, Risika, Proff, Atradius) and address/postcode services.",
+    "Type a CVR number and fill in the rest of the customer automatically",
+    "credit check new customers",
+    "We found out a customer went bankrupt from the newspaper",
+    "Look up company data from the business register",
+    "Creditsafe integration with BC",
+    "Alert me if a customer's credit rating drops",
+    "Postcode lookup so addresses are right first time",
+    "Validate vendor company numbers against the official register",
+    "Credit insurance limits from Atradius in BC",
+    "Set credit limits based on the rating automatically",
+    "Company names and addresses change and we never notice",
+    "Check a new vendor is a real company before paying"
+  ],
+  "questions": [
+    {
+      "id": "what",
+      "text": "What do you want to check or fill in automatically?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Company name, address and register data",
+          "patterns": [
+            "register",
+            "registry",
+            "\\bcvr\\b",
+            "corporate",
+            "company (info|name|search|details|data|lookup)",
+            "master data",
+            "brønnøysund",
+            "nzbn",
+            "regon",
+            "d-u-n-s",
+            "fills? (name|address|contact)"
+          ]
+        },
+        {
+          "label": "Postal address validation",
+          "patterns": [
+            "address (valid|check|lookup|predict)",
+            "auto-?complete",
+            "postcode",
+            "geocod",
+            "addresses (worldwide|from)",
+            "what3words"
+          ]
+        },
+        {
+          "label": "EU VAT numbers (VIES)",
+          "patterns": [
+            "vies",
+            "vat (number|registration|valid|status)"
+          ]
+        },
+        {
+          "label": "Credit rating and risk",
+          "patterns": [
+            "credit",
+            "risk",
+            "bankrupt",
+            "payment (history|marks)"
+          ]
+        },
+        {
+          "label": "Sanctions / export screening",
+          "patterns": [
+            "sanction",
+            "screening",
+            "denied persons"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Company name, address and register data": 0.69,
+        "Postal address validation": 0.2,
+        "EU VAT numbers (VIES)": 0.29,
+        "Credit rating and risk": 0.37,
+        "Sanctions / export screening": 0.06
+      }
+    },
+    {
+      "id": "monitor",
+      "text": "Should existing customers and vendors be re-checked automatically?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, ongoing monitoring and alerts",
+          "patterns": [
+            "monitor",
+            "daily",
+            "schedul",
+            "job queue",
+            "alert",
+            "notif",
+            "periodic",
+            "watchlist",
+            "bulk",
+            "permanently"
+          ]
+        },
+        {
+          "label": "No, a lookup when we create them is enough",
+          "patterns": [
+            "creat",
+            "search",
+            "look ?up",
+            "fills?",
+            "auto-?complete",
+            "at point of entry"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, ongoing monitoring and alerts": 0.54,
+        "No, a lookup when we create them is enough": 0.74
+      }
+    },
+    {
+      "id": "block",
+      "text": "What should happen when a customer or vendor turns risky or invalid?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Block orders or payments automatically",
+          "patterns": [
+            "block"
+          ]
+        },
+        {
+          "label": "Just warn me",
+          "patterns": [
+            "warn",
+            "alert",
+            "notif",
+            "signal",
+            "approval",
+            "flag"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Block orders or payments automatically": 0.11,
+        "Just warn me": 0.37
+      }
+    },
+    {
+      "id": "finance",
+      "text": "Do you want financial figures on the customer/vendor card?",
+      "help": "Credit score, key figures, annual reports.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "credit (score|rating|report|limit|info)",
+            "financial (key figures|info|insight|data|reports)",
+            "annual report",
+            "key figures"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.37
+      }
+    }
+  ]
+}

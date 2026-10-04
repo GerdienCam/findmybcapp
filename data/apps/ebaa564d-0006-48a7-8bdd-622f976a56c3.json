@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.navbizdoo1640860583806|AID.navbiz_mrp_material_requirements_planning|PAPPID.ebaa564d-0006-48a7-8bdd-622f976a56c3",
+  "guid": "ebaa564d-0006-48a7-8bdd-622f976a56c3",
+  "publisherId": "navbizdoo1640860583806",
+  "offerId": "navbiz_mrp_material_requirements_planning",
+  "source": {
+    "name": "NavBiz MRP - Material Requirements Planning",
+    "publisher": "NavBiz d.o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navbizdoo1640860583806%7CAID.navbiz_mrp_material_requirements_planning%7CPAPPID.ebaa564d-0006-48a7-8bdd-622f976a56c3",
+    "lastModified": "2024-11-22T06:38:00.5518161+00:00",
+    "appVersion": "23.0.20231120.103806",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://navbiz.hr/info/",
+    "sourceHash": "sha256:108dee2d1214678dc4fd48e1c90fe40ea8f57f1ab72b3782e41c71775951d992"
+  },
+  "mapping": {
+    "sourceHash": "sha256:108dee2d1214678dc4fd48e1c90fe40ea8f57f1ab72b3782e41c71775951d992",
+    "mappedOn": null,
+    "summary": "Material requirements planning",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Works out which materials and components a product needs for manufacturing",
+      "Plan generated from production forecast or sales budget (item budget) entries",
+      "Overview of components needed, grouped by production BOM",
+      "Overview showing the total quantity needed for each item",
+      "Includes stock at default location, open purchase order quantities and safety stock",
+      "Creates purchase orders from the calculation",
+      "Purchase proposal report by vendor",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

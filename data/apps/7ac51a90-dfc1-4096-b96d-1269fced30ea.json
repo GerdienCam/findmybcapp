@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.asqit|AID.pricelist-approvals|PAPPID.7ac51a90-dfc1-4096-b96d-1269fced30ea",
+  "guid": "7ac51a90-dfc1-4096-b96d-1269fced30ea",
+  "publisherId": "asqit",
+  "offerId": "pricelist-approvals",
+  "source": {
+    "name": "Price List Approvals",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.pricelist-approvals%7CPAPPID.7ac51a90-dfc1-4096-b96d-1269fced30ea",
+    "lastModified": "2026-07-16T04:11:10.9831772+00:00",
+    "appVersion": "28.0.3.26071",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/approvalsuiteapps",
+    "sourceHash": "sha256:5d43033df126946d1220a85fcd640362d7adc2dc189456de9f129284050b42b6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5d43033df126946d1220a85fcd640362d7adc2dc189456de9f129284050b42b6",
+    "mappedOn": null,
+    "summary": "Approval workflow for sales and purchase price lists",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-pricing"
+    ],
+    "claims": [
+      "Approve sales and purchase price lists before activating",
+      "Restricts changes to approved price lists",
+      "Tracks price list approval status",
+      "Checks for price duplicates before approval"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

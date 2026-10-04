@@ -1,0 +1,324 @@
+{
+  "id": "ng-ux-email-sending",
+  "order": 175,
+  "label": "Emailing documents and reports automatically",
+  "description": "Sending invoices, statements and reports by email: templates, multiple recipients per document type, extra attachments, batch and scheduled sending, sent-mail tracking, email accounts (SMTP, SendGrid) and SMS.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "high",
+  "statements": [
+    "Emailing documents and reports automatically",
+    "Sending invoices, statements and reports by email: templates, multiple recipients per document type, extra attachments, batch and scheduled sending, sent-mail tracking, email accounts (SMTP, SendGrid) and SMS.",
+    "Invoices should go out by email the moment we post them",
+    "The invoice email goes to the wrong person at the customer",
+    "We need different email addresses for invoices, order confirmations and reminders",
+    "email invoice automatically on posting",
+    "Can we attach our terms and conditions PDF to every quote email?",
+    "Statements to 400 customers, one by one, takes a whole day",
+    "I'd like to see which invoice emails were actually sent",
+    "The email body is so plain, we want a template with our branding",
+    "schedule report by email every Monday",
+    "Can BC send the aged debtors report to me every morning?",
+    "Email subject should contain the invoice number and customer PO",
+    "CC our sales rep on every order confirmation",
+    "Batch send all posted invoices from today in one go",
+    "Emails from BC end up in spam",
+    "We want to send from a shared mailbox, not the user's own",
+    "Bulk email remittance advices to vendors after the payment run",
+    "Combine the invoice and the delivery note into one PDF in the email",
+    "Edit the email in Outlook before it goes out",
+    "Customers want an SMS when the order ships",
+    "Mail queue so posting isn't slowed down by sending"
+  ],
+  "questions": [
+    {
+      "id": "when",
+      "text": "When should documents go out?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Automatically when posted or released",
+          "patterns": [
+            "on (posting|release)",
+            "at (document )?posting",
+            "when (posted|documents are posted)",
+            "after posting",
+            "automatically (e-?mails|sends?|after)",
+            "auto-email",
+            "instantly",
+            "process-based",
+            "triggered",
+            "document sending profile",
+            "posting or"
+          ]
+        },
+        {
+          "label": "In scheduled batches (e.g. nightly)",
+          "patterns": [
+            "schedul",
+            "job queue",
+            "nightly",
+            "overnight",
+            "batch",
+            "bulk",
+            "mass",
+            "recurring",
+            "interval"
+          ]
+        },
+        {
+          "label": "One by one, after I review the email",
+          "patterns": [
+            "preview",
+            "edit\\w* .*before sending",
+            "before sending",
+            "confirmation before",
+            "in outlook",
+            "one[- ]click",
+            "manual"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Automatically when posted or released": 0.17,
+        "In scheduled batches (e.g. nightly)": 0.38,
+        "One by one, after I review the email": 0.21
+      }
+    },
+    {
+      "id": "what",
+      "text": "What do you mainly send by email?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Invoices and credit memos",
+          "patterns": [
+            "invoice",
+            "credit (memo|note)"
+          ]
+        },
+        {
+          "label": "Customer statements and reminders",
+          "patterns": [
+            "statement",
+            "reminder",
+            "overdue",
+            "collection",
+            "past-due"
+          ]
+        },
+        {
+          "label": "Purchase orders and remittance advice",
+          "patterns": [
+            "purchase (order|document)",
+            "remittance",
+            "\\bpos\\b",
+            "to suppliers",
+            "to vendors",
+            "vendor (remittance|balance)"
+          ]
+        },
+        {
+          "label": "Scheduled reports to staff",
+          "patterns": [
+            "any report",
+            "schedul\\w* (recurring )?reports?",
+            "report emails",
+            "reports? (daily|on a schedule)",
+            "to department",
+            "user groups",
+            "scheduled report",
+            "emails? any"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Invoices and credit memos": 0.38,
+        "Customer statements and reminders": 0.28,
+        "Purchase orders and remittance advice": 0.19,
+        "Scheduled reports to staff": 0.04
+      }
+    },
+    {
+      "id": "setup",
+      "text": "Which of these do you need for outgoing emails?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Different recipients per document type",
+          "patterns": [
+            "recipients? per",
+            "(e-?mail )?addresses? per",
+            "(cc|bcc)[^;]*per (customer|document)",
+            "recipients? (rules|by)",
+            "multiple (e-?mail )?(recipients|addresses)",
+            "separate .*(e-?mail )?address",
+            "different (e-?mail )?addresses",
+            "different persons",
+            "points? of contact",
+            "distribution lists",
+            "per-contact",
+            "default recipients",
+            "communication matrix",
+            "to whom",
+            "dynamic recipients"
+          ]
+        },
+        {
+          "label": "Extra files like terms and conditions",
+          "patterns": [
+            "attach",
+            "terms (and|&) conditions",
+            "t&c",
+            "merg",
+            "appendic",
+            "quick parts"
+          ]
+        },
+        {
+          "label": "A log of what was sent and delivered",
+          "patterns": [
+            "\\blog",
+            "history",
+            "track",
+            "audit trail",
+            "status",
+            "delivered",
+            "read receipt",
+            "open, click",
+            "overview of all sent",
+            "sent (emails|items)"
+          ]
+        },
+        {
+          "label": "Email text in the customer's language",
+          "patterns": [
+            "language",
+            "multilingual",
+            "translat",
+            "greek"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Different recipients per document type": 0.22,
+        "Extra files like terms and conditions": 0.45,
+        "A log of what was sent and delivered": 0.35,
+        "Email text in the customer's language": 0.16
+      }
+    },
+    {
+      "id": "channel",
+      "text": "How do you want emails sent?",
+      "help": "Ask IT if unsure.",
+      "multi": true,
+      "options": [
+        {
+          "label": "From Outlook or each user's own mailbox",
+          "patterns": [
+            "outlook",
+            "own (e-?mail|microsoft 365)",
+            "integrates with office 365",
+            "gmail"
+          ]
+        },
+        {
+          "label": "Through a bulk email service (SendGrid, Azure, SMTP)",
+          "patterns": [
+            "sendgrid",
+            "azure communication",
+            "millions",
+            "smtp\\b(?!2fax)"
+          ]
+        },
+        {
+          "label": "Also by fax, print or digital mailbox",
+          "patterns": [
+            "fax",
+            "\\bprint",
+            "e-boks",
+            "lettershop",
+            "sms"
+          ]
+        },
+        {
+          "label": "As e-invoices as well as PDF",
+          "patterns": [
+            "e-?document",
+            "electronic (document|invoice)",
+            "xrechnung",
+            "zugferd",
+            "peppol",
+            "\\bean\\b"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "From Outlook or each user's own mailbox": 0.07,
+        "Through a bulk email service (SendGrid, Azure, SMTP)": 0.08,
+        "Also by fax, print or digital mailbox": 0.18,
+        "As e-invoices as well as PDF": 0.13
+      }
+    },
+    {
+      "id": "combine",
+      "text": "Do customers want several documents bundled or protected?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Several documents in one email or PDF",
+          "patterns": [
+            "groups? (multiple|invoices)",
+            "consolidat",
+            "combines?\\b",
+            "combined",
+            "merges? (attachments|multiple|outstanding|documents)",
+            "merging",
+            "pdf merge",
+            "one email",
+            "multiple documents on one",
+            "in one pdf",
+            "single pdf",
+            "zipped"
+          ]
+        },
+        {
+          "label": "Password-protected or signed PDFs",
+          "patterns": [
+            "password",
+            "encrypts? (pdf|files)",
+            "\\bsign(s|ing|ed)? (of )?pdfs?",
+            "digitally signs",
+            "e-?seal"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Several documents in one email or PDF": 0.17,
+        "Password-protected or signed PDFs": 0.04
+      }
+    }
+  ]
+}

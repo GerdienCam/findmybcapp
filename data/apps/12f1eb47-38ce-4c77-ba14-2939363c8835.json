@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.advania|AID.advania_document_sending_service|PAPPID.12f1eb47-38ce-4c77-ba14-2939363c8835",
+  "guid": "12f1eb47-38ce-4c77-ba14-2939363c8835",
+  "publisherId": "advania",
+  "offerId": "advania_document_sending_service",
+  "source": {
+    "name": "Advania Document Sending Service",
+    "publisher": "Advania",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advania%7CAID.advania_document_sending_service%7CPAPPID.12f1eb47-38ce-4c77-ba14-2939363c8835",
+    "lastModified": "2026-09-30T21:40:25.8879184+00:00",
+    "appVersion": "29.0.71.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.d365bc.is/documentsendingservice",
+    "sourceHash": "sha256:a19ebfec53f823d363e18050e13142746efa81d0479b64f57d581941014fa0b8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a19ebfec53f823d363e18050e13142746efa81d0479b64f57d581941014fa0b8",
+    "mappedOn": null,
+    "summary": "Emails sales documents as attachments",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-einvoicing"
+    ],
+    "claims": [
+      "Sends sales orders, invoices, credit memos, return receipts and purchase orders as email attachments via SMTP",
+      "Sending queue processed by job queue, by email or to E-Gateway",
+      "Sends invoices and credit memos as PDF or e-document",
+      "Sends purchase orders and reminders as PDF",
+      "Sends customer statements as PDF",
+      "Creates PDF documents for chosen customers",
+      "Verifies shipment date"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DE",
+      "DK",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "IE",
+      "IS",
+      "NO",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

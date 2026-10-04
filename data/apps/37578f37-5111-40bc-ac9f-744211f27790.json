@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.shipitlimited1742346367585|AID.starshipit|PAPPID.37578f37-5111-40bc-ac9f-744211f27790",
+  "guid": "37578f37-5111-40bc-ac9f-744211f27790",
+  "publisherId": "shipitlimited1742346367585",
+  "offerId": "starshipit",
+  "source": {
+    "name": "Starshipit Integration",
+    "publisher": "Starshipit",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.shipitlimited1742346367585%7CAID.starshipit%7CPAPPID.37578f37-5111-40bc-ac9f-744211f27790",
+    "lastModified": "2025-05-06T16:35:34.5406081+00:00",
+    "appVersion": "1.4.0.8",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.starshipit.com/",
+    "sourceHash": "sha256:86df33f31bf895de8aacd18d4bf54d5a4784cacca79c60717e3fcef31c1a999e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:86df33f31bf895de8aacd18d4bf54d5a4784cacca79c60717e3fcef31c1a999e",
+    "mappedOn": null,
+    "summary": "Writes Starshipit shipping data back to BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns"
+    ],
+    "claims": [
+      "Allows Starshipit to write back to BC",
+      "Integrates with DHL Express, FedEx, UPS, Australia Post, Royal Mail and more",
+      "Generates labels, packing slips, manifests and customs documents",
+      "Automation for cheapest option or live rate comparison",
+      "Tracking notifications and tracking pages",
+      "Branded self-service returns"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Starshipit",
+      "DHL Express",
+      "FedEx",
+      "UPS",
+      "Australia Post",
+      "Royal Mail"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

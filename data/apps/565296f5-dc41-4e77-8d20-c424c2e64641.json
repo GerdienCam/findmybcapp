@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.appower|AID.pwr_qw|PAPPID.565296f5-dc41-4e77-8d20-c424c2e64641",
+  "guid": "565296f5-dc41-4e77-8d20-c424c2e64641",
+  "publisherId": "appower",
+  "offerId": "pwr_qw",
+  "source": {
+    "name": "Queue Watchdog",
+    "publisher": "APPower",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.appower%7CAID.pwr_qw%7CPAPPID.565296f5-dc41-4e77-8d20-c424c2e64641",
+    "lastModified": "2024-11-21T23:46:40.6944+00:00",
+    "appVersion": "1.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.appower.io/",
+    "sourceHash": "sha256:e0b8e42af6ebec4515b6bdcca2fc79c87a17e091ca7e695df6703a8b82980cd6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e0b8e42af6ebec4515b6bdcca2fc79c87a17e091ca7e695df6703a8b82980cd6",
+    "mappedOn": null,
+    "summary": "Job queue monitoring with notifications and auto-restart",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Real-time notifications when a job queue entry has a problem",
+      "Tracks job queue entry status changes: start, completion, pause, error",
+      "Alerts to multiple recipients via email or Role Center",
+      "Automatically restarts failed job queue tasks"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

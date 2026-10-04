@@ -1,0 +1,209 @@
+{
+  "id": "ng-hr-employee-records",
+  "order": 128,
+  "label": "Keeping employee records and HR changes current",
+  "description": "Creating employee records from hires and maintaining them through promotions, transfers, life events, HR cases and employment verification.",
+  "type": "bpc",
+  "area": "People & payroll",
+  "relevance": "medium",
+  "statements": [
+    "Keeping employee records and HR changes current",
+    "Creating employee records from hires and maintaining them through promotions, transfers, life events, HR cases and employment verification.",
+    "Employee data is spread over Excel, the payroll system and BC",
+    "Employees should update their own address and bank details",
+    "Is there an HR app for BC with a proper employee card?",
+    "employee master data BC",
+    "When someone moves, payroll still uses the old address",
+    "We need to store contracts and certificates on the employee",
+    "The employee card in Business Central is too basic for HR",
+    "Emergency contacts for staff are not kept anywhere",
+    "We want a change log on employee data so we see who changed a salary bank account",
+    "Keep employee records in sync between BC and our payroll provider",
+    "Self-service portal where employees see and correct their own info",
+    "Who has the latest phone number for each of our technicians?",
+    "When we hire someone we create them in three different systems",
+    "Turn the accepted candidate into an employee card without retyping everything",
+    "Import our existing employees into Business Central",
+    "employment contract template new hire",
+    "Hiring part-timers and hourly staff needs a different setup than salaried staff",
+    "Generate the employment contract from the employee data",
+    "The bank asks for confirmation of employment for an employee's mortgage",
+    "employment verification letter",
+    "We write employment certificates by hand in Word every time",
+    "Generate a letter confirming start date, job title and salary",
+    "Former employees ask for proof they worked here",
+    "Managers need to quickly check if someone is still employed and since when",
+    "Employees send requests to HR by email and things get forgotten",
+    "Track HR cases like complaints and disputes confidentially",
+    "HR ticket system",
+    "We want each staff request to HR to have an owner and a deadline",
+    "Need a record of every disciplinary case and what was decided",
+    "One queue for everything employees ask HR for",
+    "An employee got married and changed name, and all her records must update",
+    "When a staff member has a baby their leave and benefits change",
+    "life events HR",
+    "Track events like marriage or a new child that affect pension or insurance",
+    "Employee moves to part-time after parental leave and needs new benefits",
+    "Register a change for an employee that takes effect next quarter",
+    "An employee moved department and nobody updated the department dimension for payroll",
+    "Transfer staff between our two companies in BC",
+    "employee transfer",
+    "When someone changes location, their manager and cost center must change on the same date",
+    "A manager asks to move a person to his team",
+    "Hybrid workers: track who works from home on which days",
+    "Promotions are agreed in meetings and never recorded properly",
+    "Manager requests a promotion and HR plus finance must approve",
+    "promotion approval workflow",
+    "We want a history of each employee's titles and promotions",
+    "Annual promotion round for 40 people, all done in spreadsheets",
+    "Who was promoted this year and into which roles?"
+  ],
+  "questions": [
+    {
+      "id": "payroll",
+      "text": "Do you also want payroll calculated in Business Central?",
+      "options": [
+        {
+          "label": "Yes, payroll too",
+          "patterns": [
+            "payroll",
+            "salary calc",
+            "wages"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, payroll too": 0.58
+      }
+    },
+    {
+      "id": "source",
+      "text": "Do you already use a separate HR system?",
+      "help": "For example Personio, HiBob or BambooHR.",
+      "options": [
+        {
+          "label": "Yes, connect it to BC",
+          "patterns": [
+            "personio",
+            "hibob",
+            "bamboo",
+            "lookio",
+            "\\bsync"
+          ]
+        },
+        {
+          "label": "No, keep HR inside BC",
+          "patterns": [
+            "employee card",
+            "employee data",
+            "employee database",
+            "employee and job records",
+            "employee information",
+            "employee contract"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, connect it to BC": 0.21,
+        "No, keep HR inside BC": 0.53
+      }
+    },
+    {
+      "id": "selfservice",
+      "text": "Should employees request leave or update details themselves?",
+      "options": [
+        {
+          "label": "Yes, employee self-service",
+          "patterns": [
+            "self-service",
+            "time-off request",
+            "personal dashboard",
+            "portal",
+            "mobile app"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, employee self-service": 0.42
+      }
+    },
+    {
+      "id": "processes",
+      "text": "Which HR tasks besides records matter to you?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Recruitment",
+          "patterns": [
+            "recruit",
+            "applicant",
+            "candidate",
+            "\\bats\\b"
+          ]
+        },
+        {
+          "label": "Appraisals and performance",
+          "patterns": [
+            "apprais",
+            "performance",
+            "360",
+            "goal setting"
+          ]
+        },
+        {
+          "label": "Shifts, timesheets, attendance",
+          "patterns": [
+            "shift",
+            "timesheet",
+            "roster",
+            "attendance",
+            "working time",
+            "work schedule",
+            "time tracking"
+          ]
+        },
+        {
+          "label": "Employee loans and end-of-service",
+          "patterns": [
+            "loan",
+            "end-of-service",
+            "gratuity"
+          ]
+        },
+        {
+          "label": "Org chart and positions",
+          "patterns": [
+            "organi[sz]ation chart",
+            "org structure",
+            "hierarch",
+            "positions?\\b",
+            "manning table"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Recruitment": 0.21,
+        "Appraisals and performance": 0.21,
+        "Shifts, timesheets, attendance": 0.58,
+        "Employee loans and end-of-service": 0.21,
+        "Org chart and positions": 0.42
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.applibra|AID.al_discounts_and_pricing|PAPPID.dd217c29-3357-4886-acf0-10e03a04ce59",
+  "guid": "dd217c29-3357-4886-acf0-10e03a04ce59",
+  "publisherId": "applibra",
+  "offerId": "al_discounts_and_pricing",
+  "source": {
+    "name": "AL Discounts and Pricing",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_discounts_and_pricing%7CPAPPID.dd217c29-3357-4886-acf0-10e03a04ce59",
+    "lastModified": "2026-06-17T08:15:20.6491824+00:00",
+    "appVersion": "25.0.26.6121708",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsapplab.com/apps/al-advanced-discounts-and-pricing",
+    "sourceHash": "sha256:5ef239d7484317dd92e514d27fe1a7dd4ea5fb440d3e95bb6cb9514b0765d827"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ef239d7484317dd92e514d27fe1a7dd4ea5fb440d3e95bb6cb9514b0765d827",
+    "mappedOn": null,
+    "summary": "Advanced price and discount control on sales and purchase documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Works on sales and purchase quotes, orders and invoices",
+      "Multi-level compound discounts on the header (e.g. 10% + 5%)",
+      "Payment discounts driven by payment terms",
+      "Invoice discount with manual override",
+      "Forced compound discounts and forced unit prices per line",
+      "Forced prices and discounts inherited when copying from source document",
+      "Prices and discounts shown on printed and PDF documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

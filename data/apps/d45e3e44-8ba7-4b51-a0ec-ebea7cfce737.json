@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.horsawayit|AID.hor_itemcontribution|PAPPID.d45e3e44-8ba7-4b51-a0ec-ebea7cfce737",
+  "guid": "d45e3e44-8ba7-4b51-a0ec-ebea7cfce737",
+  "publisherId": "horsawayit",
+  "offerId": "hor_itemcontribution",
+  "source": {
+    "name": "Item Contribution",
+    "publisher": "Horsa Way",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_itemcontribution%7CPAPPID.d45e3e44-8ba7-4b51-a0ec-ebea7cfce737",
+    "lastModified": "2026-10-01T15:40:17.4688635+00:00",
+    "appVersion": "5.5.10000.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://blog.horsaway.it/app-item-contribution/",
+    "sourceHash": "sha256:b3d5bf1fcf02424b031e150dd1bf2f1811e138f70237d6c1db8f8a1e60a6af82"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b3d5bf1fcf02424b031e150dd1bf2f1811e138f70237d6c1db8f8a1e60a6af82",
+    "mappedOn": null,
+    "summary": "Calculates contributions, including environmental fees, on sales and purchases",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-loc-epr-packaging",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Calculates environmental contributions in sales and purchases",
+      "Supports CONAI, CONOU and CONOE contributions",
+      "Automatic calculation on documents split by material category",
+      "Exemptions per customer, supplier and item",
+      "60-day free trial"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.dynamicsdevelopmentcenterspzoo|AID.imq|PAPPID.c913c6d0-314e-4ac5-a2b7-317fa363ebcc",
+  "guid": "c913c6d0-314e-4ac5-a2b7-317fa363ebcc",
+  "publisherId": "dynamicsdevelopmentcenterspzoo",
+  "offerId": "imq",
+  "source": {
+    "name": "Invoice Mail Queue",
+    "publisher": "EIP Dynamics Sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicsdevelopmentcenterspzoo%7CAID.imq%7CPAPPID.c913c6d0-314e-4ac5-a2b7-317fa363ebcc",
+    "lastModified": "2024-11-22T04:18:26.6028782+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicseip.com/docs/invoice-mail-queue-eng/",
+    "sourceHash": "sha256:4d773a1b161993ecf5a891f6eea03587ca96c7611e9d1800c03b429ab7002f4d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4d773a1b161993ecf5a891f6eea03587ca96c7611e9d1800c03b429ab7002f4d",
+    "mappedOn": null,
+    "summary": "Queues and sends invoice emails created during posting",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Queues emails created at document posting",
+      "Messages auto-created for recipients with Send Email option on customer or document",
+      "List view to send, edit addresses or exclude messages",
+      "Send all queued emails with one button"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.sasba|PAPPID.f54f9aa4-65b5-4b17-bfb4-97180d27e2f1",
+  "guid": "f54f9aa4-65b5-4b17-bfb4-97180d27e2f1",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "sasba",
+  "source": {
+    "name": "EV Tecto - Service Agreement",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.sasba%7CPAPPID.f54f9aa4-65b5-4b17-bfb4-97180d27e2f1",
+    "lastModified": "2026-09-10T16:36:11.4188475+00:00",
+    "appVersion": "10006.80.218813.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/365Con/overview",
+    "sourceHash": "sha256:6c994ef35fe91d753d09aeb6912cecfaad890966fe6b25e9801a380c872956d5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6c994ef35fe91d753d09aeb6912cecfaad890966fe6b25e9801a380c872956d5",
+    "mappedOn": null,
+    "summary": "Service agreement management for EV Tecto",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-contracts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-construction",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-assets",
+      "ng-maintenance-planned",
+      "ng-svc-field-execution"
+    ],
+    "claims": [
+      "Create and maintain individual service agreements",
+      "Installations with grouping and equipment configuration",
+      "Service kits for inspections",
+      "Inspection interval",
+      "Work instructions and task notes",
+      "Preferred resources",
+      "Handles emergency call-outs",
+      "Handles ongoing inspections",
+      "Purchases linked directly to agreement",
+      "Full integration with mobile solution"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EV Tecto"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

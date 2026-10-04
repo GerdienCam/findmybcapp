@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.risikaas1767799327944|AID.risika-as-bc-app|PAPPID.b33ed11d-6959-4291-9f03-bb5f8a45f6f9",
+  "guid": "b33ed11d-6959-4291-9f03-bb5f8a45f6f9",
+  "publisherId": "risikaas1767799327944",
+  "offerId": "risika-as-bc-app",
+  "source": {
+    "name": "Risika - Credit Insights for Business Central",
+    "publisher": "Risika A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.risikaas1767799327944%7CAID.risika-as-bc-app%7CPAPPID.b33ed11d-6959-4291-9f03-bb5f8a45f6f9",
+    "lastModified": "2026-05-08T13:11:39.6983524+00:00",
+    "appVersion": "2700.0.48.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://risika.com/knowledge/help/business-central-integration-features/",
+    "sourceHash": "sha256:70fb13aae10f189c682e0900912d027f2e6a8232095411b49e1c50df550f9a9f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:70fb13aae10f189c682e0900912d027f2e6a8232095411b49e1c50df550f9a9f",
+    "mappedOn": null,
+    "summary": "Credit information on customers and suppliers from Risika",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding",
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "B2B credit ratings and financial data for Nordic companies",
+      "Credit scores for customers and suppliers",
+      "Auto-populates company details from name lookup without CVR number",
+      "Daily updates and alerts when a customer's financial health changes",
+      "Covers Denmark, Sweden, Norway and Finland",
+      "Debtor and creditor files updated automatically",
+      "Identifies healthy high-potential companies for sales"
+    ],
+    "countries": [
+      "DK",
+      "FI",
+      "GB",
+      "NO",
+      "SE"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Risika"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

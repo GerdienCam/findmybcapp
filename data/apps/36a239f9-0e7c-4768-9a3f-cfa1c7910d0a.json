@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.erpwareltd|AID.dcx-cis|PAPPID.36a239f9-0e7c-4768-9a3f-cfa1c7910d0a",
+  "guid": "36a239f9-0e7c-4768-9a3f-cfa1c7910d0a",
+  "publisherId": "erpwareltd",
+  "offerId": "dcx-cis",
+  "source": {
+    "name": "DCX - Construction Industry Scheme",
+    "publisher": "ERP Ware",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpwareltd%7CAID.dcx-cis%7CPAPPID.36a239f9-0e7c-4768-9a3f-cfa1c7910d0a",
+    "lastModified": "2026-07-09T11:48:13.8658832+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamics-connect.co.uk/Apps/dcx-customer-portal",
+    "sourceHash": "sha256:071f1130a4678cbbb253eb5b61b25e05b8e2e711603e0a588f6269ff42cbfc73"
+  },
+  "mapping": {
+    "sourceHash": "sha256:071f1130a4678cbbb253eb5b61b25e05b8e2e711603e0a588f6269ff42cbfc73",
+    "mappedOn": null,
+    "summary": "UK Construction Industry Scheme deductions, VAT and HMRC reporting",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-construction",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Automatically calculates CIS deductions on subcontractor payments and invoices using HMRC verification status",
+      "Generates monthly CIS returns to HMRC",
+      "Subcontractor payment and deduction statements (Payment Certificates)",
+      "Subcontractor insurance tracking with reminders for expiring policies",
+      "Keeps logs of returns, verifications and changes to the tax rate",
+      "Annual summaries",
+      "Dedicated CIS Role Centre and cues"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "languages": [],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [
+      "HMRC"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

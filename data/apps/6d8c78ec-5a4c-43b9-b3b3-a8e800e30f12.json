@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.goprodoo1579609051569|AID.gopro_loaners|PAPPID.6d8c78ec-5a4c-43b9-b3b3-a8e800e30f12",
+  "guid": "6d8c78ec-5a4c-43b9-b3b3-a8e800e30f12",
+  "publisherId": "goprodoo1579609051569",
+  "offerId": "gopro_loaners",
+  "source": {
+    "name": "Loaners",
+    "publisher": "GoPro doo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.goprodoo1579609051569%7CAID.gopro_loaners%7CPAPPID.6d8c78ec-5a4c-43b9-b3b3-a8e800e30f12",
+    "lastModified": "2025-09-18T14:15:04.4137536+00:00",
+    "appVersion": "22.0.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/145/Loaners",
+    "sourceHash": "sha256:d35635554be06031fe6f5dc51f829f61a24a9952950e2072bc029d61e61cd0b9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d35635554be06031fe6f5dc51f829f61a24a9952950e2072bc029d61e61cd0b9",
+    "mappedOn": null,
+    "summary": "Tracks loaned equipment and prints loan documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-consignment",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Links bins to customer, vendor, contact or employee",
+      "Lends inventory using standard transfer orders",
+      "Overview of lent inventory",
+      "Prints loan receipts"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

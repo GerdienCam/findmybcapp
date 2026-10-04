@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.extensionsforcelimited1647259189111|AID.tms-shippers|PAPPID.83e2e47e-de69-46f5-8e03-347521beda86",
+  "guid": "83e2e47e-de69-46f5-8e03-347521beda86",
+  "publisherId": "extensionsforcelimited1647259189111",
+  "offerId": "tms-shippers",
+  "source": {
+    "name": "Shipper TMS",
+    "publisher": "Extensions Lab",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.tms-shippers%7CPAPPID.83e2e47e-de69-46f5-8e03-347521beda86",
+    "lastModified": "2026-10-01T10:41:31.8034228+00:00",
+    "appVersion": "28.5.1.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://stms.extensions-lab.com/",
+    "sourceHash": "sha256:fd8799d21cda2089f58491f791c4a4abe561d5555f3451502e965e20c751553c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fd8799d21cda2089f58491f791c4a4abe561d5555f3451502e965e20c751553c",
+    "mappedOn": null,
+    "summary": "Transportation management: loads, routes, carriers, freight costs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-freight-cost-audit",
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Creates transport requests from sales, purchase, transfer and posted documents",
+      "Workflow from source document to transport request, planned load and transport order",
+      "Builds loads checking weight, volume, floor space, compartments, delivery windows and driver/vehicle conflicts",
+      "Plans inbound pickups, outbound deliveries and transfers between locations",
+      "Controls incompatible goods and truck compartments",
+      "Calculates stop sequence and route distance using Azure Maps or Google Maps",
+      "Compares configured carrier rates and creates freight charge lines",
+      "Allocates freight costs to source documents by weight, distance, volume or floor space",
+      "Prints loading manifests, packing lists, bills of lading and CMR forms",
+      "Publishes dispatch data to telematics providers",
+      "Provides APIs for external systems",
+      "Visual timeline planning board",
+      "Supports own fleet and external carriers",
+      "License needed only for users working with TMS"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "ro",
+      "tr"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Google Maps",
+      "Azure Maps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

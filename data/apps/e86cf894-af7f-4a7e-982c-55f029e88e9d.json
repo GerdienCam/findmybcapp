@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.connamix|AID.cnxtm|PAPPID.e86cf894-af7f-4a7e-982c-55f029e88e9d",
+  "guid": "e86cf894-af7f-4a7e-982c-55f029e88e9d",
+  "publisherId": "connamix",
+  "offerId": "cnxtm",
+  "source": {
+    "name": "CXTIME",
+    "publisher": "CONNAMIX GmbH & Co.KG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.connamix%7CAID.cnxtm%7CPAPPID.e86cf894-af7f-4a7e-982c-55f029e88e9d",
+    "lastModified": "2026-06-24T08:28:18.7530438+00:00",
+    "appVersion": "28.1.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.connamix.com/cxtime/",
+    "sourceHash": "sha256:93a7260ef46bc3d5b575cd2d2a6200134b1dcb735ea237a37826c5f710867e91"
+  },
+  "mapping": {
+    "sourceHash": "sha256:93a7260ef46bc3d5b575cd2d2a6200134b1dcb735ea237a37826c5f710867e91",
+    "mappedOn": null,
+    "summary": "Records employee working time, breaks and absences",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-payroll-comp"
+    ],
+    "claims": [
+      "Manual or automatic clock-in, breaks and clock-out",
+      "Clocking via terminal, app or PC login",
+      "Absence management: vacation requests, sickness, home office, business travel",
+      "Approval by managers",
+      "Daily, weekly and monthly overviews",
+      "Export to Excel, PDF, CSV",
+      "Connects to payroll systems",
+      "Time recording in BC and Power Apps"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power Apps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

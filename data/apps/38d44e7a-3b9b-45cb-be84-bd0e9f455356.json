@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.projestspa|AID.prog001|PAPPID.38d44e7a-3b9b-45cb-be84-bd0e9f455356",
+  "guid": "38d44e7a-3b9b-45cb-be84-bd0e9f455356",
+  "publisherId": "projestspa",
+  "offerId": "prog001",
+  "source": {
+    "name": "Advanced Project Management by Innovio",
+    "publisher": "INNOVIO SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.projestspa%7CAID.prog001%7CPAPPID.38d44e7a-3b9b-45cb-be84-bd0e9f455356",
+    "lastModified": "2026-10-01T05:51:16.7626961+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.innoviogroup.com/software/app/advanced-projects-management",
+    "sourceHash": "sha256:5b5a88695e3fc43a8cca6062cd5be0774c880c2c42f68ec6d5dfa6afd4dd9ba6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5b5a88695e3fc43a8cca6062cd5be0774c880c2c42f68ec6d5dfa6afd4dd9ba6",
+    "mappedOn": null,
+    "summary": "Turns sales quotes and orders into planned projects",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-estimate-contract",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-billing",
+      "ng-proj-costs"
+    ],
+    "claims": [
+      "Creates a project from a quote or sales order in one action",
+      "Project templates define task structure and default dimensions",
+      "Quote-to-order conversion can auto-create the project",
+      "Order Template Matrix rules map sales lines to project tasks and planning lines",
+      "Sales line changes sync to planning lines and planning dates flow back to the order",
+      "Blocks changes that break alignment and reports incomplete lines before shipping",
+      "Posts revenue on the project from sales invoices/credit memos incl. partial invoicing and returns",
+      "Moves job cost from goods receipt to purchase invoice",
+      "Creates recurring planning lines in bulk for a date range",
+      "Cumulative job invoicing grouped by bill-to customer and project"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "ArchitectureAndConstruction",
+      "ProfessionalServices"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

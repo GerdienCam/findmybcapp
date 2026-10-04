@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.implantacinygestindenegociossl1666769549262|AID.settle|PAPPID.1736a953-fdb8-4237-a018-2e37d848227e",
+  "guid": "1736a953-fdb8-4237-a018-2e37d848227e",
+  "publisherId": "implantacinygestindenegociossl1666769549262",
+  "offerId": "settle",
+  "source": {
+    "name": "Settle GL Entries",
+    "publisher": "IMPLANTACION Y GESTION DE NEGOCIOS SL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.implantacinygestindenegociossl1666769549262%7CAID.settle%7CPAPPID.1736a953-fdb8-4237-a018-2e37d848227e",
+    "lastModified": "2026-04-09T12:07:24.7163661+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ignsl.es/contacto/",
+    "sourceHash": "sha256:2e0c87fbbd18d7aae82690498d2cb5fe97574e06ae97e1375fa9afde49380bed"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2e0c87fbbd18d7aae82690498d2cb5fe97574e06ae97e1375fa9afde49380bed",
+    "mappedOn": null,
+    "summary": "Matches G/L entries with each other to show open entries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-period-close"
+    ],
+    "claims": [
+      "Match debit and credit G/L entries",
+      "Show only open G/L entries",
+      "Traceable matching history"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

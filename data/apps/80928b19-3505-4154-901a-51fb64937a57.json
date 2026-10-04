@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.inventio-it|AID.smartfinance|PAPPID.80928b19-3505-4154-901a-51fb64937a57",
+  "guid": "80928b19-3505-4154-901a-51fb64937a57",
+  "publisherId": "inventio-it",
+  "offerId": "smartfinance",
+  "source": {
+    "name": "SMARTfinance",
+    "publisher": "Inventio.IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.inventio-it%7CAID.smartfinance%7CPAPPID.80928b19-3505-4154-901a-51fb64937a57",
+    "lastModified": "2026-09-01T05:08:55.5287305+00:00",
+    "appVersion": "1.0.20260127.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.inventio.it/da-dk/smartfinance/documentation/",
+    "sourceHash": "sha256:4d5f712590d30e5946483d79db6b286559c1351358a0757ae74f1bc10b0f5ac6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4d5f712590d30e5946483d79db6b286559c1351358a0757ae74f1bc10b0f5ac6",
+    "mappedOn": null,
+    "summary": "Bookkeeping and financial management tools for accountants and auditors",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-journals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax",
+      "ng-financial-statements"
+    ],
+    "claims": [
+      "Simulates general journal posting outcome before posting",
+      "Copies posted financial entries to current journal",
+      "Checks VAT entries posted in wrong period",
+      "Copies remaining customer and vendor balances for reset",
+      "Balance reports"
+    ],
+    "countries": [
+      "DK",
+      "GL",
+      "IS",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

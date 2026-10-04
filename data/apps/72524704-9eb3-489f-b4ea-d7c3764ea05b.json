@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.allium|AID.pimics-vendor-catalog|PAPPID.72524704-9eb3-489f-b4ea-d7c3764ea05b",
+  "guid": "72524704-9eb3-489f-b4ea-d7c3764ea05b",
+  "publisherId": "allium",
+  "offerId": "pimics-vendor-catalog",
+  "source": {
+    "name": "Pimics - Vendor Catalog",
+    "publisher": "Allium",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.allium%7CAID.pimics-vendor-catalog%7CPAPPID.72524704-9eb3-489f-b4ea-d7c3764ea05b",
+    "lastModified": "2026-09-21T06:48:14.9688765+00:00",
+    "appVersion": "14.0.1.17341",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.pimics.com/",
+    "sourceHash": "sha256:7e0d4b63b36a2543d257e5a23d6ee015903fda4181f4c095ef3efda20e870c45"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7e0d4b63b36a2543d257e5a23d6ee015903fda4181f4c095ef3efda20e870c45",
+    "mappedOn": null,
+    "summary": "Imports vendor catalog data into Pimics product data",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "Imports supplier product data and price lists",
+      "Imports Excel files in supplier-specific formats",
+      "Selective, controlled takeover of imported data",
+      "Automatic data quality check before takeover",
+      "Supplier data kept separately from BC master data"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Pimics PIM"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

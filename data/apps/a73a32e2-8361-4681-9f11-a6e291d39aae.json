@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionsecuritybanking|PAPPID.a73a32e2-8361-4681-9f11-a6e291d39aae",
+  "guid": "a73a32e2-8361-4681-9f11-a6e291d39aae",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionsecuritybanking",
+  "source": {
+    "name": "VisionSecurity for Banking",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionsecuritybanking%7CPAPPID.a73a32e2-8361-4681-9f11-a6e291d39aae",
+    "lastModified": "2026-07-27T06:47:56.4192674+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.visionpeople.dk/help/a73a32e2-8361-4681-9f11-a6e291d39aae/index",
+    "sourceHash": "sha256:05a6d9711bc86067ce390260dd8db9715f0b347f691ab6e59395a656a7010120"
+  },
+  "mapping": {
+    "sourceHash": "sha256:05a6d9711bc86067ce390260dd8db9715f0b347f691ab6e59395a656a7010120",
+    "mappedOn": null,
+    "summary": "Blocks restricted payments from Continia Banking export",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Blocks restricted payment lines from bank export",
+      "Enforces Restriction of Payment across payment journal",
+      "Checks at suggest, validate and export",
+      "No additional configuration"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia Banking"
+    ],
+    "requires": [
+      "VisionSecurity",
+      "Continia Banking - Export"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

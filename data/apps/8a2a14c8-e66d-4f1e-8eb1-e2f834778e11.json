@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.erpgruppen|AID.truckplanner_connect_orders|PAPPID.8a2a14c8-e66d-4f1e-8eb1-e2f834778e11",
+  "guid": "8a2a14c8-e66d-4f1e-8eb1-e2f834778e11",
+  "publisherId": "erpgruppen",
+  "offerId": "truckplanner_connect_orders",
+  "source": {
+    "name": "Truckplanner Connect Orders",
+    "publisher": "ERPgruppen",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpgruppen%7CAID.truckplanner_connect_orders%7CPAPPID.8a2a14c8-e66d-4f1e-8eb1-e2f834778e11",
+    "lastModified": "2026-08-28T09:15:30.2311125+00:00",
+    "appVersion": "2800.4.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://truckplanner.com/en/support-2/",
+    "sourceHash": "sha256:3589789553df0ca35d368f27360fa4ec0d5dadc4f9defcd3cfdccde4d2a7163d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3589789553df0ca35d368f27360fa4ec0d5dadc4f9defcd3cfdccde4d2a7163d",
+    "mappedOn": null,
+    "summary": "Transport booking and freight handling with Truckplanner",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Freight booking directly from sales orders and invoices",
+      "Select specific freight lines for delivery",
+      "Automatic delivery confirmation back in BC",
+      "Supports multiple carriers and deliveries",
+      "Priced DKK 320/month for one carrier or DKK 500/month unlimited carriers"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Truckplanner"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

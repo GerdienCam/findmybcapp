@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.galaxsolutionslimited1652155003033|AID.galax_glae|PAPPID.c718e89d-1b2a-49ab-9c64-b113e8963706",
+  "guid": "c718e89d-1b2a-49ab-9c64-b113e8963706",
+  "publisherId": "galaxsolutionslimited1652155003033",
+  "offerId": "galax_glae",
+  "source": {
+    "name": "Galax General Ledger - Apply Entries",
+    "publisher": "Galax Solutions Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.galaxsolutionslimited1652155003033%7CAID.galax_glae%7CPAPPID.c718e89d-1b2a-49ab-9c64-b113e8963706",
+    "lastModified": "2024-11-21T07:12:29.750182+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://galax.com.hk/contact-us/",
+    "sourceHash": "sha256:6ebfcaef9707b45cec7a14c1dc6fa78678daeacf6b83f3eddbdd760efcd81595"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6ebfcaef9707b45cec7a14c1dc6fa78678daeacf6b83f3eddbdd760efcd81595",
+    "mappedOn": null,
+    "summary": "Applies and reconciles general ledger entries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bank-reconciliation"
+    ],
+    "claims": [
+      "Reconciles general ledger entries by auto-matching",
+      "Reconciles general ledger entries by manual matching",
+      "Dimension setup for filtering reconciliation",
+      "Highlights mismatched receivables and payables",
+      "Applies bank, customer, vendor or activity entries",
+      "Custom grouping for reconciliation",
+      "Exports reconciliation results to Excel"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

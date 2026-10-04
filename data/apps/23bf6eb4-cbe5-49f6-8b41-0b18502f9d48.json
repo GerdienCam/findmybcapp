@@ -1,0 +1,94 @@
+{
+  "appId": "PUBID.invinetsistemes2003sl|AID.conector_b2brouter_v1|PAPPID.23bf6eb4-cbe5-49f6-8b41-0b18502f9d48",
+  "guid": "23bf6eb4-cbe5-49f6-8b41-0b18502f9d48",
+  "publisherId": "invinetsistemes2003sl",
+  "offerId": "conector_b2brouter_v1",
+  "source": {
+    "name": "B2Bconnector",
+    "publisher": "B2Brouter Global, S.L.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.invinetsistemes2003sl%7CAID.conector_b2brouter_v1%7CPAPPID.23bf6eb4-cbe5-49f6-8b41-0b18502f9d48",
+    "lastModified": "2026-09-22T11:06:36.0115215+00:00",
+    "appVersion": "27.0.0.129",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.b2brouter.net/global/integrate-erp/",
+    "sourceHash": "sha256:ab65a6bc0b230b95fbc1286e03da05514c4ca386a92451175b98dbd59d8daa9e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ab65a6bc0b230b95fbc1286e03da05514c4ca386a92451175b98dbd59d8daa9e",
+    "mappedOn": null,
+    "summary": "Sends and receives cross-border e-invoices via B2Brouter",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends and receives e-invoices from within BC",
+      "Automatic conversion to country-specific formats",
+      "Digital signature handled automatically",
+      "Real-time invoice status in BC",
+      "Connected to Peppol and FACe networks",
+      "Sends to private and public sector clients",
+      "Dedicated project manager for setup"
+    ],
+    "countries": [
+      "AD",
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "BG",
+      "BH",
+      "CA",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "LI",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "SA",
+      "SG",
+      "US"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "B2Brouter",
+      "Peppol",
+      "FACe"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

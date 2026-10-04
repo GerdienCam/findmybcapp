@@ -1,0 +1,253 @@
+{
+  "id": "ng-production-scheduling",
+  "order": 89,
+  "label": "Scheduling jobs and checking machine capacity",
+  "description": "Finite scheduling of jobs on machines/lines and releasing orders and paperwork to the floor.",
+  "type": "bpc",
+  "area": "Manufacturing",
+  "relevance": "high",
+  "statements": [
+    "Scheduling jobs and checking machine capacity",
+    "Finite scheduling of jobs on machines/lines and releasing orders and paperwork to the floor.",
+    "We need a visual planning board to drag production orders between machines",
+    "Is there a Gantt chart for production scheduling in Business Central?",
+    "Our planner schedules the factory in a giant Excel sheet every morning",
+    "BC loads machines with infinite capacity and our plans are never realistic",
+    "finite capacity scheduling app",
+    "We want to sequence jobs to minimise color changes on the painting line",
+    "How can I see which machine is overloaded next week?",
+    "When a rush order comes in, I need to see what gets pushed back",
+    "We want to plan maintenance downtime on a machine so jobs are not scheduled then",
+    "The shop floor needs a daily list of what to run on each machine in what order",
+    "Can we schedule by shift and tell operators which jobs they have tomorrow?",
+    "Changeover times between products are not considered when BC schedules",
+    "We need to know realistic finish dates for production orders to promise customers",
+    "Our bottleneck machine should drive the schedule of everything else",
+    "drag and drop production planning board BC",
+    "Every time I reschedule one order, the whole plan gets messed up",
+    "We want to group similar jobs to save setup time on the CNC",
+    "Is there a TV screen display showing the current schedule per work center?",
+    "Production orders are released but nobody knows the order to work on them",
+    "We run three shifts and need the schedule to respect the shift calendar and holidays",
+    "When we release a production order, the warehouse doesn't know what to pick",
+    "We print job cards and drawings by hand for every released production order",
+    "How do I release many production orders at once in BC?",
+    "We want a check that all materials are in stock before an order can be released",
+    "release production order shop paper print",
+    "Our operators need the routing, drawings and instructions in one packet",
+    "Can releasing a production order create the warehouse pick automatically?",
+    "Orders get released before the components arrive and then sit on the floor",
+    "We want barcodes printed on the production order papers",
+    "Is there an app that shows a material shortage check before releasing orders?",
+    "Released orders should appear on the shop floor tablet without printing",
+    "Who released this production order and when? We have no control over it",
+    "We take orders without knowing if our machines can actually produce them in time",
+    "rough cut capacity planning",
+    "How do I see the load on each work center for the next 12 weeks in BC?",
+    "Our bottleneck machine is always overbooked and we find out too late",
+    "Will we have enough warehouse space when the autumn stock arrives?",
+    "We want to know if we need a second shift or a new machine next year",
+    "Is there an app that shows capacity versus load per machine as a graph?",
+    "Set up work center calendars and capacity so planning is realistic",
+    "Our planning assumes unlimited capacity and the dates are fantasy",
+    "Pallet places will run out before Christmas, we need to plan storage capacity",
+    "Compare demand forecast with production capacity per month",
+    "Minimum and maximum batch sizes per item so planning does not suggest silly quantities"
+  ],
+  "questions": [
+    {
+      "id": "how",
+      "text": "How do you want to plan production?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Drag orders on a visual board or Gantt",
+          "patterns": [
+            "gantt",
+            "drag",
+            "graphical",
+            "planning board",
+            "schedule board",
+            "visual (advanced )?production (schedul|planner|planning)",
+            "visuali[sz]es scheduled"
+          ]
+        },
+        {
+          "label": "Let the system optimise against capacity",
+          "patterns": [
+            "finite",
+            "\\baps\\b",
+            "optimi[sz]",
+            "constraint",
+            "theory of constraints"
+          ]
+        },
+        {
+          "label": "Sequence orders to cut changeovers",
+          "patterns": [
+            "sequenc",
+            "changeover",
+            "setup time"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Drag orders on a visual board or Gantt": 0.49,
+        "Let the system optimise against capacity": 0.28,
+        "Sequence orders to cut changeovers": 0.3
+      }
+    },
+    {
+      "id": "shopfloor",
+      "text": "Do you also want operators to report work on the shop floor?",
+      "help": "Start/stop, output, scrap, time on a terminal or tablet.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, shop floor capture too",
+          "patterns": [
+            "shop ?floor (terminal|execution|data|management|activity)",
+            "shopfloor",
+            "terminal",
+            "operator",
+            "barcode",
+            "\\bmes\\b",
+            "output journal",
+            "time (recording|capture)",
+            "labou?r (reporting|and time|capture)",
+            "labou?r, output"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, shop floor capture too": 0.26
+      }
+    },
+    {
+      "id": "materials",
+      "text": "Should the schedule check material availability?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, flag shortages before releasing",
+          "patterns": [
+            "material availability",
+            "shortage",
+            "component availability",
+            "raw materials",
+            "against materials",
+            "synchroni[sz]es procurement",
+            "bought-in",
+            "purchase items"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, flag shortages before releasing": 0.3
+      }
+    },
+    {
+      "id": "capacity",
+      "text": "Do shifts, absences or machine downtime change your capacity often?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, shifts and downtime matter",
+          "patterns": [
+            "shift",
+            "absence",
+            "downtime",
+            "calendar",
+            "roster",
+            "overtime",
+            "maintenance"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, shifts and downtime matter": 0.21
+      }
+    },
+    {
+      "id": "where",
+      "text": "Is a separate planning system synced to BC acceptable?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Keep everything inside BC",
+          "patterns": [
+            "no external",
+            "without (external|integrations)",
+            "in bc\\b",
+            "inside bc",
+            "no separate",
+            "in business central"
+          ]
+        },
+        {
+          "label": "A connected external planner is fine",
+          "patterns": [
+            "connector",
+            "separately licensed",
+            "requires (etagis aps|separate mobiscroll) licen",
+            "\\bsaas\\b",
+            "web app",
+            "windows client",
+            "rob-ex",
+            "etagis",
+            "pearlchain",
+            "integration between"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Keep everything inside BC": 0.09,
+        "A connected external planner is fine": 0.19
+      }
+    },
+    {
+      "id": "ai",
+      "text": "Would you like an AI assistant to answer planning questions?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, AI or Copilot help",
+          "patterns": [
+            "\\bai\\b",
+            "copilot",
+            "natural language",
+            "natural-language"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, AI or Copilot help": 0.09
+      }
+    }
+  ]
+}

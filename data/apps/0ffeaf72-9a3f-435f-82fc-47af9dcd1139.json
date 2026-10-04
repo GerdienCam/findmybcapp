@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_batchposting|PAPPID.0ffeaf72-9a3f-435f-82fc-47af9dcd1139",
+  "guid": "0ffeaf72-9a3f-435f-82fc-47af9dcd1139",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_batchposting",
+  "source": {
+    "name": "Fusion5 Batch Posting",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_batchposting%7CPAPPID.0ffeaf72-9a3f-435f-82fc-47af9dcd1139",
+    "lastModified": "2026-08-18T10:04:04.2737439+00:00",
+    "appVersion": "2700.8.20260818.170504",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/486670518/Batch+Posting",
+    "sourceHash": "sha256:2ebc1f25e12952bd6ec6044bcd5851f88a6a3d9d26fcdfae9bf65cb33c6c6f79"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2ebc1f25e12952bd6ec6044bcd5851f88a6a3d9d26fcdfae9bf65cb33c6c6f79",
+    "mappedOn": null,
+    "summary": "Extended batch posting with emailing and recurring invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Sends documents to customer email from batch post",
+      "Plans and generates recurring invoices with multiple setups"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

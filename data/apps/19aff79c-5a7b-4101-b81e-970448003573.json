@@ -1,0 +1,52 @@
+{
+  "appId": "PUBID.kiessystemsgmbh1635864836319|AID.kies-systems-license-manager|PAPPID.19aff79c-5a7b-4101-b81e-970448003573",
+  "guid": "19aff79c-5a7b-4101-b81e-970448003573",
+  "publisherId": "kiessystemsgmbh1635864836319",
+  "offerId": "kies-systems-license-manager",
+  "source": {
+    "name": "KS License Manager",
+    "publisher": "Kies Systems GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kiessystemsgmbh1635864836319%7CAID.kies-systems-license-manager%7CPAPPID.19aff79c-5a7b-4101-b81e-970448003573",
+    "lastModified": "2025-10-27T12:04:17.8551128+00:00",
+    "appVersion": "27.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://kies-systems.atlassian.net/wiki/spaces/WDB/overview",
+    "sourceHash": "sha256:7c8cc3e3e0704fcbfbf1c52be6ec3864e9df15d26277a9e5a0cc209242322d4e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7c8cc3e3e0704fcbfbf1c52be6ec3864e9df15d26277a9e5a0cc209242322d4e",
+    "mappedOn": null,
+    "summary": "License manager for Kies Systems apps",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-licensing",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Shows all licenses purchased from Kies Systems or reseller",
+      "Mandatory for KS Mobility Suite"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "License manager dependency for Kies Systems apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

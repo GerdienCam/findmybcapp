@@ -1,0 +1,59 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.export-edi-pricecatalogue|PAPPID.7c4498b4-cb7e-414b-af85-6d1d51bdf53e",
+  "guid": "7c4498b4-cb7e-414b-af85-6d1d51bdf53e",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "export-edi-pricecatalogue",
+  "source": {
+    "name": "Automatic Export of Price Catalogue",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.export-edi-pricecatalogue%7CPAPPID.7c4498b4-cb7e-414b-af85-6d1d51bdf53e",
+    "lastModified": "2026-07-16T09:48:29.2063168+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://knowledgebase.hubbroker.net/article/lx9peye7o1-microsoft-dynamics-365-export-price-catalogue-to-customer",
+    "sourceHash": "sha256:62107cd05efca4edae20ab05bfa7cddbcc8f960a4dc1628d1338be804a846896"
+  },
+  "mapping": {
+    "sourceHash": "sha256:62107cd05efca4edae20ab05bfa7cddbcc8f960a4dc1628d1338be804a846896",
+    "mappedOn": null,
+    "summary": "Exports price catalogues to customers via EDI platform",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-assortment-catalogs"
+    ],
+    "claims": [
+      "Automatically exports price catalogues from BC to customers' systems",
+      "Validates and converts data to the format required by local standards or the customer",
+      "Tracks and monitors exported catalogues in the iPaaS",
+      "REST API data integration"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "HubBroker iPaaS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

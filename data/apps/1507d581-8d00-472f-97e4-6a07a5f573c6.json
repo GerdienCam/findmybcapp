@@ -1,0 +1,87 @@
+{
+  "appId": "PUBID.innoqubitsoftwaresl1638027829374|AID.docuten-connect|PAPPID.1507d581-8d00-472f-97e4-6a07a5f573c6",
+  "guid": "1507d581-8d00-472f-97e4-6a07a5f573c6",
+  "publisherId": "innoqubitsoftwaresl1638027829374",
+  "offerId": "docuten-connect",
+  "source": {
+    "name": "Docuten Connect",
+    "publisher": "InnoQubit Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.innoqubitsoftwaresl1638027829374%7CAID.docuten-connect%7CPAPPID.1507d581-8d00-472f-97e4-6a07a5f573c6",
+    "lastModified": "2026-06-04T07:18:01.0038463+00:00",
+    "appVersion": "28.0.1.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.innoqubit.com/es-ES/DocutenConnect/Introduction/",
+    "sourceHash": "sha256:02b4a5b477f43d0392fc8a8f4f58a03f6840ff92cb5b0717b6927448a40221dd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:02b4a5b477f43d0392fc8a8f4f58a03f6840ff92cb5b0717b6927448a40221dd",
+    "mappedOn": null,
+    "summary": "Sends PDF documents for digital signature via Docuten",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends PDF documents from BC for digital signature via Docuten",
+      "Tracks the signature process and downloads the signed PDF",
+      "eIDAS compliant electronic signature",
+      "Requires registration on the InnoQubit portal for API credentials",
+      "7-day free trial with limited documents"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "RS",
+      "SE",
+      "TW",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Docuten"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.navtilus|AID.415c0aa3-64b6-43e5-bdaf-60bf18f51b92|PAPPID.415c0aa3-64b6-43e5-bdaf-60bf18f51b92",
+  "guid": "415c0aa3-64b6-43e5-bdaf-60bf18f51b92",
+  "publisherId": "navtilus",
+  "offerId": "415c0aa3-64b6-43e5-bdaf-60bf18f51b92",
+  "source": {
+    "name": "Extended Producer Responsibility - Packaging - VANA API Connector",
+    "publisher": "Navtilus",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navtilus%7CAID.415c0aa3-64b6-43e5-bdaf-60bf18f51b92%7CPAPPID.415c0aa3-64b6-43e5-bdaf-60bf18f51b92",
+    "lastModified": "2026-04-29T09:17:03.3619447+00:00",
+    "appVersion": "1.1.13.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.navtilus.dk/epr-packaging/introduction/",
+    "sourceHash": "sha256:614f073f19eb1680c63606aeab8f0d53312d955bb6708416904fed5134a347d3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:614f073f19eb1680c63606aeab8f0d53312d955bb6708416904fed5134a347d3",
+    "mappedOn": null,
+    "summary": "Reports packaging EPR data to Danish VANA",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-loc-epr-packaging",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Add-on to Navtilus EPR Packaging app, not standalone",
+      "Reports packaging data to VANA via API directly from BC",
+      "Only reports for categories you have an agreement for",
+      "Logs all submissions",
+      "Minimum 2 licenses"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "VANA"
+    ],
+    "requires": [
+      "Navtilus Extended Producer Responsibility - Packaging"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

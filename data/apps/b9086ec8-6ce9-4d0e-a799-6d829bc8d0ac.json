@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.belwaregmbh2|AID.connector-365-smtp2fax|PAPPID.b9086ec8-6ce9-4d0e-a799-6d829bc8d0ac",
+  "guid": "b9086ec8-6ce9-4d0e-a799-6d829bc8d0ac",
+  "publisherId": "belwaregmbh2",
+  "offerId": "connector-365-smtp2fax",
+  "source": {
+    "name": "Connector 365 SMTP2FAX",
+    "publisher": "BELWARE GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector-365-smtp2fax%7CPAPPID.b9086ec8-6ce9-4d0e-a799-6d829bc8d0ac",
+    "lastModified": "2024-11-19T22:17:14.7299184+00:00",
+    "appVersion": "1.1.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Freemium",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.belware.de/en-us/apps/smtp2fax/",
+    "sourceHash": "sha256:be5210f22c9e1afcd556d85f26fa0dfce36c737e80b428ddead590e87012a917"
+  },
+  "mapping": {
+    "sourceHash": "sha256:be5210f22c9e1afcd556d85f26fa0dfce36c737e80b428ddead590e87012a917",
+    "mappedOn": null,
+    "summary": "Sends documents by fax via SMTP2FAX",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-messaging"
+    ],
+    "claims": [
+      "Faxes documents from BC with one click via SMTP2FAX",
+      "Different fax numbers per document type",
+      "Central and per-document fax logging incl. success status",
+      "Priced per user per month or year"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SMTP2FAX"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

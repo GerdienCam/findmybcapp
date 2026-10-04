@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.xpandukrainellc1586796763481|AID.xpand_portal_connector|PAPPID.1dc0b17f-9c30-440e-b693-26485c4a25a9",
+  "guid": "1dc0b17f-9c30-440e-b693-26485c4a25a9",
+  "publisherId": "xpandukrainellc1586796763481",
+  "offerId": "xpand_portal_connector",
+  "source": {
+    "name": "Xpand Portal Connector",
+    "publisher": "Xpand Ukraine LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xpandukrainellc1586796763481%7CAID.xpand_portal_connector%7CPAPPID.1dc0b17f-9c30-440e-b693-26485c4a25a9",
+    "lastModified": "2026-05-28T15:51:09.2004699+00:00",
+    "appVersion": "25.4100.3.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.xpandsoftware.com/xpand-portal/xpand-portal-overview.htm",
+    "sourceHash": "sha256:d120a3fdd0f2395ea5aa3f3244847a02964508f826b6cd30553a7614a7a4a6ca"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d120a3fdd0f2395ea5aa3f3244847a02964508f826b6cd30553a7614a7a4a6ca",
+    "mappedOn": null,
+    "summary": "Integrates BC with Xpand Portal",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Out-of-the-box integration with Xpand Portal",
+      "Xpand Portal modules: Receivables, Order and Customer Care Management"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IT",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Xpand Portal"
+    ],
+    "requires": [
+      "Xpand Portal"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

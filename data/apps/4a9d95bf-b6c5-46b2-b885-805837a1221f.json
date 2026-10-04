@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.newtechnologyresearch|AID.docusign|PAPPID.4a9d95bf-b6c5-46b2-b885-805837a1221f",
+  "guid": "4a9d95bf-b6c5-46b2-b885-805837a1221f",
+  "publisherId": "newtechnologyresearch",
+  "offerId": "docusign",
+  "source": {
+    "name": "DocuSign for Dynamics 365 Business Central",
+    "publisher": "New Technology Research",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.newtechnologyresearch%7CAID.docusign%7CPAPPID.4a9d95bf-b6c5-46b2-b885-805837a1221f",
+    "lastModified": "2026-09-06T10:31:50.2387551+00:00",
+    "appVersion": "1.2.1.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://claude.ai/code/artifact/74d116f8-e6b4-422d-9001-a0e5c0a3dda8?org=2e94f12e-674f-40c4-9190-92ffa84eac96",
+    "sourceHash": "sha256:c3752a5effbddfcf95d2107a0c9dcda0c4a6ee081aee95fac7c38128fa279856"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c3752a5effbddfcf95d2107a0c9dcda0c4a6ee081aee95fac7c38128fa279856",
+    "mappedOn": null,
+    "summary": "Sends documents for DocuSign e-signature",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Send quotes, orders and other documents for signature from BC",
+      "Uses own Report Selections layouts, different report per document type",
+      "Combine several files into one agreement with page order",
+      "Default recipient structure per document type",
+      "Envelope list with sender, recipient, source document and status",
+      "Downloads the signed copy as a single combined PDF, or cancels the agreement",
+      "Send from individual user account or one central account",
+      "Enable per document type, 10+ document types",
+      "Templates instead of BC reports",
+      "Envelope status from the record",
+      "Signed documents attached to source record",
+      "Reminders and envelope expiration dates",
+      "Requires separate DocuSign subscription with API access",
+      "Requires Business Central 28.0 or later",
+      "Calls provider API directly without third-party service",
+      "Signers, cc or certified delivery recipients"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "DocuSign"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

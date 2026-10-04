@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.mdc_nordic|AID.mdc_import|PAPPID.3a367491-6633-4c5b-a570-d8c64fe5e265",
+  "guid": "3a367491-6633-4c5b-a570-d8c64fe5e265",
+  "publisherId": "mdc_nordic",
+  "offerId": "mdc_import",
+  "source": {
+    "name": "MDC Import",
+    "publisher": "MDC Nordic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mdc_nordic%7CAID.mdc_import%7CPAPPID.3a367491-6633-4c5b-a570-d8c64fe5e265",
+    "lastModified": "2026-08-21T10:47:54.1548387+00:00",
+    "appVersion": "28.1.0.3515",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://mdcnordic.com/en/bc-apps/mdc-import/",
+    "sourceHash": "sha256:a5efa7319eecb9616eb05687be58c094e8dc3548a5738fa2c237bec4024fe330"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a5efa7319eecb9616eb05687be58c094e8dc3548a5738fa2c237bec4024fe330",
+    "mappedOn": null,
+    "summary": "Automates Excel data imports",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-journals"
+    ],
+    "claims": [
+      "Maps Excel columns to BC fields with create/update/delete",
+      "Value translation from source formats",
+      "Workbook validation: password, formulas, sheet protection",
+      "Approval sheets required before import",
+      "SFTP, Azure Functions and Blob Storage file automation",
+      "Job queue background imports",
+      "Audit trail down to field values",
+      "Protects imported records from unauthorized edit/delete",
+      "Test mode before production"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SFTP",
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

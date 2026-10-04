@@ -1,0 +1,358 @@
+{
+  "id": "ng-replenishment-planning",
+  "order": 44,
+  "label": "Knowing what to buy or reorder, and when",
+  "description": "Procurement planning, aggregate supply, balancing supply and demand, projected stock levels, distribution planning and reacting to supply signals.",
+  "type": "bpc",
+  "area": "Planning & budgets",
+  "relevance": "high",
+  "statements": [
+    "Knowing what to buy or reorder, and when",
+    "Procurement planning, aggregate supply, balancing supply and demand, projected stock levels, distribution planning and reacting to supply signals.",
+    "Our buyer spends every Monday working out what to order from each supplier",
+    "Is there an app that suggests purchase orders based on sales, stock and lead time?",
+    "purchase suggestions Business Central",
+    "The requisition worksheet gives us way too many lines to make sense of",
+    "We want order proposals grouped per vendor with minimum order quantities respected",
+    "How do we plan purchases for items that go straight from the supplier to the customer",
+    "We keep ordering too late because nobody remembers the supplier lead time is 12 weeks",
+    "replenishment planning for wholesaler",
+    "We want to fill a container from China with the right mix of items each month",
+    "Can BC calculate how much to order so we hit a full pallet or truck?",
+    "Buyers order from gut feeling and we end up with too much of some items and none of others",
+    "Plan the components we need to buy for the production orders coming up",
+    "Import planned purchase orders from our external planning tool into BC",
+    "We want order suggestions to take open sales orders and the forecast into account",
+    "Which items do I need to order this week to avoid running out",
+    "Order planning is done in Excel exports and re-typed into purchase orders",
+    "We want to see suggested order dates based on when the goods must arrive",
+    "Planning worksheet keeps suggesting tiny orders every day instead of one weekly order",
+    "MRP for purchased items",
+    "How do we plan purchasing across several companies in BC in one go?",
+    "Our key suppliers want a 12 month forecast of what we will buy from them",
+    "We want to send each supplier a rolling purchase forecast so they can reserve capacity",
+    "purchase forecast to vendors",
+    "How much raw material will we need per quarter in total, not item by item",
+    "Our sister company produces for us and needs our supply forecast every month",
+    "Is there an app to create and import supply forecasts per vendor in BC?",
+    "Monthly volume plan by product family for the next year so the factory can plan staff",
+    "We need a top-down view of how much we must buy and make to meet next year's sales plan",
+    "The supplier keeps asking what to expect and we just send them last year's numbers",
+    "Import our production forecast from the planning spreadsheet into Business Central",
+    "Rough plan of tonnes per month to buy from our steel suppliers",
+    "How do we split next year's expected volume between our two main suppliers",
+    "We need a monthly S&OP process where sales, purchasing and production agree a plan",
+    "Our MRP run in BC gives hundreds of suggestions and we do not trust them",
+    "How do we see if planned supply covers forecast plus open orders across all items",
+    "sales and operations planning app",
+    "We either have too much stock or not enough, never the right balance",
+    "Is there a planning tool better than the standard BC planning worksheet?",
+    "Sales promises big volumes but nobody checks if production and suppliers can deliver",
+    "We want one coordinated plan across purchasing, production and transfers",
+    "master planning for small manufacturer",
+    "When demand jumps, how do we decide what to make, what to buy and what to delay",
+    "The planning run ignores our forecast and only looks at sales orders",
+    "Show me where demand exceeds supply in the next three months",
+    "When will this item run out based on open sales orders and what is on order",
+    "We need to see stock per item week by week for the next three months",
+    "projected inventory per item",
+    "How do I see future available stock in BC, not just what is on the shelf today?",
+    "We find out about shortages when the warehouse cannot pick the order",
+    "What should our safety stock be per item, we just picked numbers years ago",
+    "Is there an app that calculates reorder points and min max levels for us?",
+    "We want a warning a few weeks before an item goes below zero",
+    "Our stock value is too high, how much will we hold at year end if we keep buying like this",
+    "Projected available balance per location",
+    "Item availability by period only shows one item at a time, we need it for all items",
+    "Set safety stock based on lead time and how much demand varies",
+    "Which items will we be overstocked on next quarter",
+    "The CFO wants to know how much cash will be tied up in inventory over the next six months",
+    "Can we see expected stock levels if the forecast is right and nothing else is ordered",
+    "Out of stock warning for items with long lead times",
+    "We set reorder points once and never update them when sales change",
+    "Show me a graph of expected stock for this item including incoming purchase orders",
+    "inventory projection and service level targets",
+    "Planner wants a list of items that will be short in the next four weeks, ranked by urgency",
+    "We have a central warehouse and four shops and need to plan what to send each shop every week",
+    "How do we replenish our branch warehouses from the main warehouse automatically in BC?",
+    "distribution requirements planning",
+    "Transfer orders between locations are made by hand from Excel lists",
+    "Our sister company in Sweden orders from us and we need to plan those intercompany flows",
+    "We want to plan which incoming supplier goods go straight out to customers without put away",
+    "Is there an app that suggests transfers when one warehouse is short and another has too much?",
+    "Should we ship from the Danish or the German warehouse, we need rules for that",
+    "Plan stock levels per location so each warehouse covers its own region",
+    "transfer planning between locations Business Central",
+    "We want a weekly distribution plan for our depots based on their sales",
+    "Goods sit in the wrong warehouse while customers wait in the other region",
+    "Supplier says goods are three weeks late, which customer orders are hit?",
+    "We want an alert when a big order comes in that we cannot cover from stock or incoming",
+    "How do I change dates on lots of purchase and production orders at once after a delay",
+    "supply chain disruption alerts",
+    "Demand suddenly doubled on one item and we only noticed when stock hit zero",
+    "Is there an app that flags supply problems and suggests what to reschedule?",
+    "When a customer cancels a big order, we need to cancel or push out the purchases tied to it",
+    "Several small orders for the same item should be combined into one after plans change",
+    "We want to see the knock-on effect of a late container on all open orders",
+    "A late supplier delivery should automatically update the date we promised our customers",
+    "Our planners spend the day firefighting instead of planning",
+    "Reschedule messages from planning are ignored because there are too many of them",
+    "We keep running out of best sellers because we reorder from suppliers too late",
+    "How do I know what to reorder from suppliers each week without a spreadsheet?",
+    "The requisition worksheet in BC gives purchase suggestions nobody trusts",
+    "Is there a forecasting app for Business Central that suggests purchase quantities?",
+    "reorder point min max BC",
+    "Our buyer orders by gut feeling and we have way too much stock",
+    "Planning worksheet action messages for purchases make no sense to us",
+    "We want reorder suggestions that account for supplier lead times and seasonality",
+    "Supplier shipped only half, how do we handle the backorder and reorder the rest?",
+    "Can we see which purchases we need to place to cover open sales orders?",
+    "Planned purchase orders from MRP need checking before they become real POs",
+    "We need to group reorder suggestions by vendor and meet the supplier's minimum order quantities",
+    "Demand forecasting for wholesale purchasing in BC",
+    "Which purchase orders should I expedite, postpone or cancel when demand changes?",
+    "Excel replenishment model exported from BC every Monday to decide what to buy",
+    "We import from Asian suppliers with 12 week lead times and always get the timing wrong",
+    "Safety stock levels are set once and never updated, so we buy too little or too much",
+    "Short receipts from vendors mess up our planning because the rest never shows as missing",
+    "Container planning: we want to fill a full container per supplier",
+    "Every Monday our purchaser spends four hours going through items one by one in BC to decide what to order, we have 8,000 SKUs and it just doesn't scale"
+  ],
+  "questions": [
+    {
+      "id": "goal",
+      "text": "What do you most need help with?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Forecasting future demand",
+          "patterns": [
+            "forecast",
+            "predict"
+          ]
+        },
+        {
+          "label": "Setting reorder points and safety stock",
+          "patterns": [
+            "reorder point",
+            "safety stock",
+            "minimum stock",
+            "min(imum)? (stock|order level)",
+            "economic order",
+            "\\beoq\\b",
+            "minmax",
+            "maximum inventory",
+            "planning parameter"
+          ]
+        },
+        {
+          "label": "Turning needs into purchase orders",
+          "patterns": [
+            "purchase (order|proposal|suggestion)s?",
+            "generates? purchase",
+            "creates? (purchase )?orders",
+            "requisition"
+          ]
+        },
+        {
+          "label": "Spotting shortages early",
+          "patterns": [
+            "shortage",
+            "stock-?out",
+            "below zero",
+            "negative (inventory|availability)",
+            "supply issues",
+            "critical stock",
+            "delivery failures",
+            "out-of-stock",
+            "future inventory"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Forecasting future demand": 0.4,
+        "Setting reorder points and safety stock": 0.44,
+        "Turning needs into purchase orders": 0.33,
+        "Spotting shortages early": 0.15
+      }
+    },
+    {
+      "id": "make",
+      "text": "Do you produce or assemble any of your items?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, we manufacture or assemble",
+          "patterns": [
+            "production",
+            "manufactur",
+            "assembly",
+            "\\bmrp\\b",
+            "\\bmps\\b",
+            "\\bbom\\b",
+            "components?"
+          ]
+        },
+        {
+          "label": "No, we only buy and resell",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we manufacture or assemble": 0.4
+      }
+    },
+    {
+      "id": "locations",
+      "text": "Do you stock items in more than one warehouse or location?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, several locations",
+          "patterns": [
+            "locations?\\b",
+            "multi-site",
+            "hub and spoke",
+            "transfer orders?",
+            "redistribution",
+            "warehouses",
+            "\\bsku"
+          ]
+        },
+        {
+          "label": "No, one warehouse / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, several locations": 0.44
+      }
+    },
+    {
+      "id": "where",
+      "text": "Where should the planning happen?",
+      "help": "Some apps work inside BC, others connect to a specialist planning system.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "requisition worksheet",
+            "planning worksheet",
+            "item card",
+            "stockkeeping unit",
+            "writes .* to",
+            "in bc\\b",
+            "inside bc",
+            "directly in bc",
+            "within (the )?bc",
+            "standard item fields",
+            "job queue"
+          ]
+        },
+        {
+          "label": "In a specialist planning tool (EazyStock, Netstock, Slim4, AGR...)",
+          "patterns": [
+            "eazystock",
+            "netstock",
+            "slim4",
+            "slimstock",
+            "\\bagr\\b",
+            "madden",
+            "powerpredictive",
+            "any erp"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inside Business Central": 0.48,
+        "In a specialist planning tool (EazyStock, Netstock, Slim4, AGR...)": 0.17
+      }
+    },
+    {
+      "id": "auto",
+      "text": "Should planning run by itself on a schedule?",
+      "help": "For example overnight, so suggestions are ready in the morning.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, run automatically",
+          "patterns": [
+            "job queue",
+            "schedul",
+            "overnight",
+            "unattended",
+            "nightly",
+            "automatic(ally)? (transfer|creat|import)",
+            "every \\d+ minutes"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, run automatically": 0.17
+      }
+    },
+    {
+      "id": "vendor",
+      "text": "Do supplier terms shape your orders?",
+      "help": "Minimum order quantities, full containers, free-freight limits.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, MOQ, containers or freight limits matter",
+          "patterns": [
+            "\\bmoq\\b",
+            "minimum order",
+            "container",
+            "free freight",
+            "vendor (spend )?thresholds?",
+            "vendor targets",
+            "order costs"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, MOQ, containers or freight limits matter": 0.15
+      }
+    },
+    {
+      "id": "abc",
+      "text": "Do you want items ranked by importance (ABC/XYZ) to set stock levels?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, classify items",
+          "patterns": [
+            "\\babc\\b",
+            "\\bxyz\\b",
+            "item classification"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, classify items": 0.1
+      }
+    }
+  ]
+}

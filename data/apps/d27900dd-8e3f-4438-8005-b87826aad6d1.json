@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.npsdoo1580466836471|AID.amcc-nps|PAPPID.d27900dd-8e3f-4438-8005-b87826aad6d1",
+  "guid": "d27900dd-8e3f-4438-8005-b87826aad6d1",
+  "publisherId": "npsdoo1580466836471",
+  "offerId": "amcc-nps",
+  "source": {
+    "name": "Advanced Manufacturing Cost Calculation",
+    "publisher": "NPS d.o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.npsdoo1580466836471%7CAID.amcc-nps%7CPAPPID.d27900dd-8e3f-4438-8005-b87826aad6d1",
+    "lastModified": "2026-09-29T13:13:01.4470773+00:00",
+    "appVersion": "28.0.70.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://github.com/NPSBeograd/NPS-Support/wiki",
+    "sourceHash": "sha256:e207bb691730c9e5f952595cffc4ac09fe6ea9b40016594cc71272d5d6497ff8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e207bb691730c9e5f952595cffc4ac09fe6ea9b40016594cc71272d5d6497ff8",
+    "mappedOn": null,
+    "summary": "Detailed costing of manufacturing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Production cost mapping and calculation",
+      "Adjusts capacity cost afterwards for each production order",
+      "Filters capacity cost posted to G/L using shortcut dimensions 3-8",
+      "Requires Premium edition"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

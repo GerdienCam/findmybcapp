@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.naveksaas1606382180343|AID.mto365|PAPPID.c55b2c1c-0ca7-4e9a-a8cd-50f5f41d1387",
+  "guid": "c55b2c1c-0ca7-4e9a-a8cd-50f5f41d1387",
+  "publisherId": "naveksaas1606382180343",
+  "offerId": "mto365",
+  "source": {
+    "name": "NAVEKSA MakeToOrder 365",
+    "publisher": "NAVEKSA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.naveksaas1606382180343%7CAID.mto365%7CPAPPID.c55b2c1c-0ca7-4e9a-a8cd-50f5f41d1387",
+    "lastModified": "2026-06-01T11:45:24.2270783+00:00",
+    "appVersion": "25.8.10.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://naveksa.com/solutions-365/",
+    "sourceHash": "sha256:b183984c2335dfcde419aed7aa6a2abb968116151f61a7816422f1205664d47c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b183984c2335dfcde419aed7aa6a2abb968116151f61a7816422f1205664d47c",
+    "mappedOn": null,
+    "summary": "Handles date changes in make-to-order production orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning"
+    ],
+    "claims": [
+      "Updates all underlying suborders when a production order due date changes",
+      "Removes and re-establishes reservations during date changes",
+      "Supports multi-level structures with intermediate items",
+      "Respects the production calendar when updating dates",
+      "Works in standard BC without integrations or extra setup",
+      "Supports the three latest major BC releases",
+      "Available for cloud and on-premises",
+      "Requires the Premium edition of Business Central"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "fr",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

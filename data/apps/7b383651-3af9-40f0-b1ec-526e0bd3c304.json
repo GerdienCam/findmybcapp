@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.to-increasebv|AID.bc-jms-vjs-integration|PAPPID.7b383651-3af9-40f0-b1ec-526e0bd3c304",
+  "guid": "7b383651-3af9-40f0-b1ec-526e0bd3c304",
+  "publisherId": "to-increasebv",
+  "offerId": "bc-jms-vjs-integration",
+  "source": {
+    "name": "IEM-Visual Job Scheduler Integration",
+    "publisher": "STAEDEAN",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.to-increasebv%7CAID.bc-jms-vjs-integration%7CPAPPID.7b383651-3af9-40f0-b1ec-526e0bd3c304",
+    "lastModified": "2026-06-08T16:10:47.6112987+00:00",
+    "appVersion": "24.0.107889.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.staedean.com/products/project-control-suite-microsoft-dynamics-bc/",
+    "sourceHash": "sha256:8b77e09b181e6d76db3bd282726e46d92b3e515e3b2511f111639c107af7ec07"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8b77e09b181e6d76db3bd282726e46d92b3e515e3b2511f111639c107af7ec07",
+    "mappedOn": null,
+    "summary": "Integrates Project Control Suite with Netronic Visual Job Scheduler",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-proj-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-industrial-manufacturing"
+    ],
+    "claims": [
+      "Synchronises PCS data model with Netronic Visual Job Scheduler",
+      "Drag bars to reschedule and add resources to project tasks",
+      "Resource and histogram views show capacity and load",
+      "Edit resource planning in Gantt charts and save to PCS",
+      "Shows over- and under-assignments of resources"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LU",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Netronic Visual Job Scheduler"
+    ],
+    "requires": [
+      "IEM-Project Control Suite",
+      "Netronic Visual Job Scheduler"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

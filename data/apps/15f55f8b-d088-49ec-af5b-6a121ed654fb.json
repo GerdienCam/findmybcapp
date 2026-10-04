@@ -1,0 +1,52 @@
+{
+  "appId": "PUBID.illumera|AID.item_planner|PAPPID.15f55f8b-d088-49ec-af5b-6a121ed654fb",
+  "guid": "15f55f8b-d088-49ec-af5b-6a121ed654fb",
+  "publisherId": "illumera",
+  "offerId": "item_planner",
+  "source": {
+    "name": "Item Planner",
+    "publisher": "Illumera Business Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.illumera%7CAID.item_planner%7CPAPPID.15f55f8b-d088-49ec-af5b-6a121ed654fb",
+    "lastModified": "2026-08-25T11:24:52.8025751+00:00",
+    "appVersion": "28.2.35.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.illumera.se/apps/itemplanner/",
+    "sourceHash": "sha256:682df499c95f00e0f181eee3120dab06177b9621e32096207c97d5dab1f76621"
+  },
+  "mapping": {
+    "sourceHash": "sha256:682df499c95f00e0f181eee3120dab06177b9621e32096207c97d5dab1f76621",
+    "mappedOn": null,
+    "summary": "Overview of supply and demand per item",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Uses item card planning parameters to calculate supply/demand position",
+      "Filters and colors to show needs",
+      "Generates purchase orders from calculated need"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

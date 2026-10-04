@@ -1,0 +1,187 @@
+{
+  "id": "ng-vert-leasing-finance",
+  "order": 216,
+  "label": "Solutions for leasing, lending and financial firms",
+  "description": "Industry solutions for lessors and lenders (lease and loan contracts, schedules, asset finance), investment and wealth management, insurance brokers and similar financial businesses.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for leasing, lending and financial firms",
+    "Industry solutions for lessors and lenders (lease and loan contracts, schedules, asset finance), investment and wealth management, insurance brokers and similar financial businesses.",
+    "We lease vehicles to customers and need contract management",
+    "leasing software Business Central",
+    "Loan schedules with interest and instalments",
+    "Hire purchase contracts for equipment",
+    "Family office investment accounting",
+    "Insurance broker managing policies and commissions",
+    "Operating and finance leases as the lessor",
+    "Asset finance company replacing an old system",
+    "Portfolio management with securities",
+    "Deposits and loans for members",
+    "End of lease buyouts and returns",
+    "Interest calculation on customer loans"
+  ],
+  "questions": [
+    {
+      "id": "business",
+      "text": "What does your company finance or manage?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Vehicle leasing",
+          "patterns": [
+            "vehicle",
+            "\\bcars?\\b",
+            "fuel",
+            "mileage",
+            "fleet"
+          ]
+        },
+        {
+          "label": "Leasing contracts (any asset)",
+          "patterns": [
+            "leas"
+          ]
+        },
+        {
+          "label": "Loans, credit or deposits",
+          "patterns": [
+            "\\bloans?\\b",
+            "credit",
+            "deposit",
+            "mortgage",
+            "hire purchase",
+            "bonded debt"
+          ]
+        },
+        {
+          "label": "Investments and securities",
+          "patterns": [
+            "invest",
+            "portfolio",
+            "securit",
+            "equities",
+            "financial instrument",
+            "shares?\\b",
+            "dividend"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Vehicle leasing": 0.28,
+        "Leasing contracts (any asset)": 0.64,
+        "Loans, credit or deposits": 0.4,
+        "Investments and securities": 0.2
+      }
+    },
+    {
+      "id": "lease_type",
+      "text": "Which lease types do you write?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Financial leasing",
+          "patterns": [
+            "financ\\w* leas",
+            "finance lease",
+            "leasing, loan and hire purchase"
+          ]
+        },
+        {
+          "label": "Operational / full-service leasing",
+          "patterns": [
+            "operational",
+            "operating",
+            "full-service"
+          ]
+        },
+        {
+          "label": "Hire purchase",
+          "patterns": [
+            "hire purchase",
+            "purchase contracts"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Financial leasing": 0.24,
+        "Operational / full-service leasing": 0.12,
+        "Hire purchase": 0.16
+      }
+    },
+    {
+      "id": "addons",
+      "text": "Do you re-invoice extras like fuel cards, insurance or service?",
+      "options": [
+        {
+          "label": "Yes, add-on services on the contract",
+          "patterns": [
+            "fuel card",
+            "insurance",
+            "re-invoic",
+            "add-on services",
+            "services to installments",
+            "service & maintenance"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, add-on services on the contract": 0.24
+      }
+    },
+    {
+      "id": "collections",
+      "text": "Do you need late fees, reminders or penalties on contracts?",
+      "options": [
+        {
+          "label": "Yes, late payment handling",
+          "patterns": [
+            "late (payment|fee)",
+            "reminder",
+            "penalt",
+            "collection"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, late payment handling": 0.2
+      }
+    },
+    {
+      "id": "reporting",
+      "text": "Do you report on your portfolio in Power BI?",
+      "options": [
+        {
+          "label": "Yes, Power BI",
+          "patterns": [
+            "power bi"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, Power BI": 0.2
+      }
+    }
+  ]
+}

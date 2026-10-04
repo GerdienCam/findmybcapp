@@ -1,0 +1,149 @@
+{
+  "id": "ng-accruals-deferrals",
+  "order": 48,
+  "label": "Accruals and spreading costs over months",
+  "description": "Month-end accruals and deferral schedules for prepaid costs and income.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "medium",
+  "statements": [
+    "Accruals and spreading costs over months",
+    "Month-end accruals and deferral schedules for prepaid costs and income.",
+    "Every month end we book accruals by hand and forget to reverse them",
+    "accrual journal auto reverse",
+    "We need to accrue for services used this month that won't be invoiced until next month",
+    "Is there an app that tracks all open accruals and reverses them automatically?",
+    "Accrued bonuses and holiday pay need booking every month",
+    "Revenue for work done but not yet invoiced has to be accrued",
+    "Our accruals spreadsheet is the only record of what we have accrued",
+    "Accrue the electricity bill every month based on estimates",
+    "Auditors asked for a list of all accruals with support",
+    "Want accruals that release automatically when the real invoice arrives",
+    "Accrue interest on loans monthly",
+    "How to set up accrual schemes in BC?",
+    "We pay insurance yearly and want it expensed monthly automatically",
+    "deferral templates BC",
+    "Software licenses paid upfront need to be spread over 12 months",
+    "Is there an app that handles prepaid expenses better than BC deferrals?",
+    "A customer paid for a year of support and we need to defer the income",
+    "Deferral schedule on a purchase invoice line",
+    "Our prepaid expense schedule lives in Excel",
+    "How do I change a deferral schedule that's already posted?",
+    "Deferral start date should be the service start, not the invoice date",
+    "Show the remaining balance of each prepaid item",
+    "Annual trade show cost paid in January should hit the month of the show",
+    "Need deferrals with uneven amounts per month"
+  ],
+  "questions": [
+    {
+      "id": "what",
+      "text": "What do you need to accrue or spread out?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Goods or services received but not yet invoiced",
+          "patterns": [
+            "receipt",
+            "received not invoiced",
+            "grni",
+            "to be received",
+            "invoices to receive",
+            "invoices/credit memos to receive",
+            "expected cost"
+          ]
+        },
+        {
+          "label": "Prepaid costs or income spread over months",
+          "patterns": [
+            "deferral",
+            "spread",
+            "competence"
+          ]
+        },
+        {
+          "label": "Rebates, bonuses or freight",
+          "patterns": [
+            "rebate",
+            "bonus",
+            "freight"
+          ]
+        },
+        {
+          "label": "Subscription revenue or loan interest",
+          "patterns": [
+            "revenue recognition",
+            "asc 606",
+            "ifrs 15",
+            "subscription",
+            "\\bloan",
+            "interest expense",
+            "accrued interest"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Goods or services received but not yet invoiced": 0.42,
+        "Prepaid costs or income spread over months": 0.47,
+        "Rebates, bonuses or freight": 0.16,
+        "Subscription revenue or loan interest": 0.11
+      }
+    },
+    {
+      "id": "ledger",
+      "text": "Should accruals hit the real ledger, or a separate simulated one for interim reports?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Real G/L, reversed automatically",
+          "patterns": [
+            "auto(matic(ally)?)?[- ]?revers",
+            "revers\\w* (accrual )?automatically",
+            "reversed and replaced",
+            "automatic reversal"
+          ]
+        },
+        {
+          "label": "Simulated ledger for interim statements",
+          "patterns": [
+            "simulat"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Real G/L, reversed automatically": 0.21,
+        "Simulated ledger for interim statements": 0.21
+      }
+    },
+    {
+      "id": "alloc",
+      "text": "Do you also need to split amounts across accounts or departments?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, allocate by percentage",
+          "patterns": [
+            "allocat",
+            "percentage weight",
+            "cost cent"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, allocate by percentage": 0.21
+      }
+    }
+  ]
+}

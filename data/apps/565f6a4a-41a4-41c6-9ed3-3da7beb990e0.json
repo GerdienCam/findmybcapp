@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex00915_advanceddocumentreportingforcommission|PAPPID.565f6a4a-41a4-41c6-9ed3-3da7beb990e0",
+  "guid": "565f6a4a-41a4-41c6-9ed3-3da7beb990e0",
+  "publisherId": "eos_solutions",
+  "offerId": "ex00915_advanceddocumentreportingforcommission",
+  "source": {
+    "name": "Advanced Document Reporting for Commission",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex00915_advanceddocumentreportingforcommission%7CPAPPID.565f6a4a-41a4-41c6-9ed3-3da7beb990e0",
+    "lastModified": "2026-04-10T12:55:14.1156851+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/commissions-cms.html",
+    "sourceHash": "sha256:7705eb6fc7b1c36c6ca0a291b4de6580f8b95af222cfe98bb108320dcb615551"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7705eb6fc7b1c36c6ca0a291b4de6580f8b95af222cfe98bb108320dcb615551",
+    "mappedOn": null,
+    "summary": "Sends invoices to salespersons for commission",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-commissions"
+    ],
+    "claims": [
+      "Emails invoices to the involved sales persons",
+      "Free with EOS ADR and EOS Commissions subscriptions"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Advanced Document Reporting",
+      "EOS Commissions"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

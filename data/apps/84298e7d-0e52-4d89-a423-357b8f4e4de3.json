@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.manda|AID.easyflow-baseapp|PAPPID.84298e7d-0e52-4d89-a423-357b8f4e4de3",
+  "guid": "84298e7d-0e52-4d89-a423-357b8f4e4de3",
+  "publisherId": "manda",
+  "offerId": "easyflow-baseapp",
+  "source": {
+    "name": "easyFlow: Core Application",
+    "publisher": "ManDa GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.manda%7CAID.easyflow-baseapp%7CPAPPID.84298e7d-0e52-4d89-a423-357b8f4e4de3",
+    "lastModified": "2026-07-20T13:24:56.7473805+00:00",
+    "appVersion": "28.3.206.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.manda.gmbh/easyflow/",
+    "sourceHash": "sha256:4548f66ca06b7c3d6fc12d2029de3ac3268a5a4984d293cac2b1709ad2ba6c25"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4548f66ca06b7c3d6fc12d2029de3ac3268a5a4984d293cac2b1709ad2ba6c25",
+    "mappedOn": null,
+    "summary": "Imports data from various portals into workflows",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-conn-marketplaces"
+    ],
+    "claims": [
+      "Imports XML, JSON, Excel and TXT files on demand or on a schedule",
+      "Imports sales or purchase documents via mapping",
+      "Transfers customer and order information into BC master data",
+      "Links products to multiple SKUs for order import",
+      "Creates imported orders as BC sales orders",
+      "Uploads BC invoice data to platforms",
+      "Transfers shipping confirmations including tracking numbers",
+      "Imports and processes journals (payments)",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "de"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

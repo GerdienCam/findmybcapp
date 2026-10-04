@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.nprogressiondoo1666616266569|AID.sendgrid|PAPPID.ec730987-81ab-436e-891c-ec9de45c354f",
+  "guid": "ec730987-81ab-436e-891c-ec9de45c354f",
+  "publisherId": "nprogressiondoo1666616266569",
+  "offerId": "sendgrid",
+  "source": {
+    "name": "SendGrid Mailing Connector",
+    "publisher": "Nprogression",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nprogressiondoo1666616266569%7CAID.sendgrid%7CPAPPID.ec730987-81ab-436e-891c-ec9de45c354f",
+    "lastModified": "2025-05-30T20:35:40.9107602+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nprogression.com/pdf/d365-sendgrid",
+    "sourceHash": "sha256:24a7f6f8a2320d7a80fa1af34e3e848a9cfeba39973f36495ba514ed5ae57e2a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:24a7f6f8a2320d7a80fa1af34e3e848a9cfeba39973f36495ba514ed5ae57e2a",
+    "mappedOn": null,
+    "summary": "Sends emails to customers and vendors via SendGrid",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends BC emails to customers and vendors through SendGrid",
+      "Handles mass sending, even millions of emails",
+      "Email log with open, click-through and bounce rates",
+      "Domain authentication with SPF, DKIM and DMARC",
+      "Mass sending of key documents and notifications"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SendGrid"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

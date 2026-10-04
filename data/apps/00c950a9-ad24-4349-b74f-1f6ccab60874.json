@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.nab|AID.test_transactability|PAPPID.00c950a9-ad24-4349-b74f-1f6ccab60874",
+  "guid": "00c950a9-ad24-4349-b74f-1f6ccab60874",
+  "publisherId": "nab",
+  "offerId": "test_transactability",
+  "source": {
+    "name": "Test Transactability",
+    "publisher": "SmartApps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nab%7CAID.test_transactability%7CPAPPID.00c950a9-ad24-4349-b74f-1f6ccab60874",
+    "lastModified": "2025-09-15T19:38:53.0709761+00:00",
+    "appVersion": "27.0.20.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://pipelineweb.z6.web.core.windows.net/SmartAppsDocs/pr/7164/transactability/",
+    "sourceHash": "sha256:4fea20863f749b4deeb1aadf7ebbf32d02b30810f371fb9d15d227132c78e026"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4fea20863f749b4deeb1aadf7ebbf32d02b30810f371fb9d15d227132c78e026",
+    "mappedOn": null,
+    "summary": "Test app for AppSource transact capabilities",
+    "shape": "other",
+    "primary": [
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Internal app to test AppSource transact capabilities"
+    ],
+    "countries": [
+      "DK",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": true,
+    "hideReason": "Internal test app; not intended for use by others than SmartApps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

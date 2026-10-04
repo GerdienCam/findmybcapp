@@ -1,0 +1,189 @@
+{
+  "id": "ng-vert-fashion",
+  "order": 214,
+  "label": "Solutions for fashion, apparel and furniture",
+  "description": "Industry solutions for fashion, apparel, footwear and furniture: style/colour/size matrices, seasons and collections, pre-orders and drops, wholesale and retail.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for fashion, apparel and furniture",
+    "Industry solutions for fashion, apparel, footwear and furniture: style/colour/size matrices, seasons and collections, pre-orders and drops, wholesale and retail.",
+    "Every colour and size is a separate item and it's chaos",
+    "fashion ERP on Business Central",
+    "Size matrix order entry",
+    "Pre-orders for next season's collection",
+    "Furniture with fabrics and finishes as options",
+    "Fashion wholesale with agents and showrooms",
+    "Collections and seasons on items",
+    "Delivery windows per collection",
+    "Size curves when buying from factories",
+    "Joor or NuORDER orders into BC",
+    "Apparel brand selling wholesale and in our own stores",
+    "Footwear with widths and sizes"
+  ],
+  "questions": [
+    {
+      "id": "platform",
+      "text": "Do you already run a fashion add-on in Business Central?",
+      "options": [
+        {
+          "label": "K3 Pebblestone",
+          "patterns": [
+            "k3",
+            "pebblestone"
+          ]
+        },
+        {
+          "label": "FaVa or LS Central",
+          "patterns": [
+            "fava",
+            "ls central"
+          ]
+        },
+        {
+          "label": "No, looking for a full solution",
+          "patterns": [
+            "fully integrated fashion",
+            "fashion solution",
+            "covers all the needs of fashion",
+            "style master",
+            "smart templates",
+            "retail extension",
+            "advanced variant"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "K3 Pebblestone": 0.43,
+        "FaVa or LS Central": 0.13,
+        "No, looking for a full solution": 0.22
+      }
+    },
+    {
+      "id": "area",
+      "text": "Which part of the business needs help?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Sizes, colours and variants",
+          "patterns": [
+            "size",
+            "colou?r",
+            "variant"
+          ]
+        },
+        {
+          "label": "Seasons and collections",
+          "patterns": [
+            "season",
+            "collection"
+          ]
+        },
+        {
+          "label": "Landed cost and retail price",
+          "patterns": [
+            "landed cost",
+            "rrp",
+            "recommended retail",
+            "margin"
+          ]
+        },
+        {
+          "label": "Production and sampling",
+          "patterns": [
+            "manufactur",
+            "production",
+            "\\bbom",
+            "measurement",
+            "pdm",
+            "plm"
+          ]
+        },
+        {
+          "label": "Webshop or B2B ordering",
+          "patterns": [
+            "e-?commerce",
+            "webshop",
+            "magento",
+            "sana commerce",
+            "colect",
+            "\\becom"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sizes, colours and variants": 0.7,
+        "Seasons and collections": 0.43,
+        "Landed cost and retail price": 0.13,
+        "Production and sampling": 0.3,
+        "Webshop or B2B ordering": 0.3
+      }
+    },
+    {
+      "id": "model",
+      "text": "How do you mainly sell?",
+      "options": [
+        {
+          "label": "Wholesale to stores",
+          "patterns": [
+            "wholesale",
+            "brand owner",
+            "pre-sales",
+            "bulk order",
+            "agents",
+            "credit limit",
+            "private label"
+          ]
+        },
+        {
+          "label": "Own shops or retail",
+          "patterns": [
+            "retailers?\\b",
+            "for retail",
+            "retail extension",
+            "\\bpos\\b",
+            "several stores",
+            "to stores"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Wholesale to stores": 0.22,
+        "Own shops or retail": 0.13
+      }
+    },
+    {
+      "id": "matrix",
+      "text": "Do you enter orders in a size/colour grid?",
+      "options": [
+        {
+          "label": "Yes, matrix order entry",
+          "patterns": [
+            "matrix",
+            "model assistant"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, matrix order entry": 0.35
+      }
+    }
+  ]
+}

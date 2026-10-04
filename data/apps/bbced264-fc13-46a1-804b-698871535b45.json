@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.mercuriusit|AID.mitl_procon|PAPPID.bbced264-fc13-46a1-804b-698871535b45",
+  "guid": "bbced264-fc13-46a1-804b-698871535b45",
+  "publisherId": "mercuriusit",
+  "offerId": "mitl_procon",
+  "source": {
+    "name": "ProCon",
+    "publisher": "MERCURIUS IT LTD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mercuriusit%7CAID.mitl_procon%7CPAPPID.bbced264-fc13-46a1-804b-698871535b45",
+    "lastModified": "2026-08-11T16:12:26.219688+00:00",
+    "appVersion": "1.0.0.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mercuriusit.com/procon-unified-project-and-contract-for-dynamics-365-business-central/",
+    "sourceHash": "sha256:739a3c2254c13e4137db486ec2b4732b046ddf2734660dbaa9c1bc7ac4101df3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:739a3c2254c13e4137db486ec2b4732b046ddf2734660dbaa9c1bc7ac4101df3",
+    "mappedOn": null,
+    "summary": "Project costing, contracts, procurement and billing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-billing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-materials-subcontract",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-estimate-contract",
+      "ng-proj-costs"
+    ],
+    "claims": [
+      "Converts sales quotes into structured projects in one click",
+      "Auto-creates project tasks and planning lines",
+      "Links purchase and sales orders to project tasks",
+      "Milestone billing and task-based payment requests",
+      "Validation controls in vendor payment processing",
+      "Manages retention in contracts, purchasing and sales",
+      "Role-based access and audit trail"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

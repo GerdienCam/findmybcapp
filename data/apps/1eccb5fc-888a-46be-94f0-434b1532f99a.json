@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.aia-add-connector-app|PAPPID.1eccb5fc-888a-46be-94f0-434b1532f99a",
+  "guid": "1eccb5fc-888a-46be-94f0-434b1532f99a",
+  "publisherId": "fenwicksoftware",
+  "offerId": "aia-add-connector-app",
+  "source": {
+    "name": "Advanced Item Availability for Adv Default Dim",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.aia-add-connector-app%7CPAPPID.1eccb5fc-888a-46be-94f0-434b1532f99a",
+    "lastModified": "2026-04-07T03:55:26.9839544+00:00",
+    "appVersion": "26.0.260401.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/advanced-item-availability/docs",
+    "sourceHash": "sha256:f8c7f15740f8bfd82f4f6b35a5b4c175959fa583830fdf1f4dc9ad896fa79ecf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f8c7f15740f8bfd82f4f6b35a5b4c175959fa583830fdf1f4dc9ad896fa79ecf",
+    "mappedOn": null,
+    "summary": "Adds default dimension filters to item availability",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Filters item availability pages by default dimension values"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Advanced Item Availability",
+      "Advanced Default Dimensions"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two Fenwick products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

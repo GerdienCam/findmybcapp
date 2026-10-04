@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_assettracker|PAPPID.d8169b6b-9293-4789-9faf-4a220aaf6a45",
+  "guid": "d8169b6b-9293-4789-9faf-4a220aaf6a45",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_assettracker",
+  "source": {
+    "name": "Asset Tracker",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_assettracker%7CPAPPID.d8169b6b-9293-4789-9faf-4a220aaf6a45",
+    "lastModified": "2025-12-19T04:43:33.1909583+00:00",
+    "appVersion": "25.0.0.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.nubetech.it/it_IT/asset-tracker",
+    "sourceHash": "sha256:d21771628ff5d044009098b2599173d310d3f58992ed05a0d4296b7b388852fb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d21771628ff5d044009098b2599173d310d3f58992ed05a0d4296b7b388852fb",
+    "mappedOn": null,
+    "summary": "Tracks expiry dates for assets, services and documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-svc-contracts",
+        "confidence": "low"
+      },
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-fa-register",
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Tracks expiry dates tied to items, work centers, machine centers, resources and fixed assets",
+      "Stores categories, costs, notes, serial numbers, contacts and assigned users for each tracked asset",
+      "FactBox shows active tracked assets on cards and lists",
+      "Automated reminder emails based on configurable notice periods",
+      "Each email includes an auto-generated Expiring Assets PDF summary",
+      "Optionally attaches documents like contracts and certificates to reminders",
+      "Covers warranties, certifications, licenses, contracts and service agreements"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

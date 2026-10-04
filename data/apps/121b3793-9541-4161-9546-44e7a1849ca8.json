@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.1700139460848|AID.cbex-money-look-integration|PAPPID.121b3793-9541-4161-9546-44e7a1849ca8",
+  "guid": "121b3793-9541-4161-9546-44e7a1849ca8",
+  "publisherId": "1700139460848",
+  "offerId": "cbex-money-look-integration",
+  "source": {
+    "name": "CBEX口座情報連携 (MoneyLook BIZ連携)",
+    "publisher": "Charon Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1700139460848%7CAID.cbex-money-look-integration%7CPAPPID.121b3793-9541-4161-9546-44e7a1849ca8",
+    "lastModified": "2026-08-17T01:49:25.2445755+00:00",
+    "appVersion": "28.3.0.2",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://charon-inc.co.jp/contact/",
+    "sourceHash": "sha256:6574018e31fe199216965dc2620de55f2f0a2d6d5ca66d3f179bfc4cffa9521c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6574018e31fe199216965dc2620de55f2f0a2d6d5ca66d3f179bfc4cffa9521c",
+    "mappedOn": null,
+    "summary": "Imports bank and credit card transactions from MoneyLook BIZ for journals and reconciliation",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Integrates with MoneyLook BIZ account aggregation service by SBI Business Solutions via API",
+      "Automatically retrieves bank and credit card transactions from banks nationwide",
+      "Creates cash receipt and disbursement journals from transaction data",
+      "Bank account reconciliation",
+      "Fully automated journals including account determination with BC Copilot and matching journal",
+      "Scheduled automatic retrieval",
+      "Requires separate MoneyLook BIZ contract",
+      "Plans priced by number of bank accounts; credit cards and e-money unlimited"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "languages": [
+      "ja"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "MoneyLook BIZ"
+    ],
+    "requires": [
+      "MoneyLook BIZ"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

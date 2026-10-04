@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.ls_retail|AID.de8e9890-cae8-4840-8a56-c6863f02ceab|PAPPID.82bf9360-dc7a-4c0b-a8bc-39902929565d",
+  "guid": "82bf9360-dc7a-4c0b-a8bc-39902929565d",
+  "publisherId": "ls_retail",
+  "offerId": "de8e9890-cae8-4840-8a56-c6863f02ceab",
+  "source": {
+    "name": "Duty free add-on for LS Central",
+    "publisher": "LS Retail",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.de8e9890-cae8-4840-8a56-c6863f02ceab%7CPAPPID.82bf9360-dc7a-4c0b-a8bc-39902929565d",
+    "lastModified": "2026-09-30T10:40:13.508037+00:00",
+    "appVersion": "28.1.4.107",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.lscentral.lsretail.com/Content/Product-Overview/LS-Duty-Free.htm",
+    "sourceHash": "sha256:8cc82cd0a527069d1c5588526d6a29ba57a642f978fb7474af2664e4fe864b40"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8cc82cd0a527069d1c5588526d6a29ba57a642f978fb7474af2664e4fe864b40",
+    "mappedOn": null,
+    "summary": "Implementation services for LS Central Duty Free add-on",
+    "shape": "other",
+    "primary": [
+      {
+        "need": "ng-vert-retail",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-implementation"
+    ],
+    "claims": [
+      "Duty Free add-on manages tax, pricing and custom rules by traveler destination and nationality",
+      "Captures boarding card by scanner or manual input and passport data",
+      "Tax-free, pricing and discount rules",
+      "Supports security tamper-evident bags (STEB)",
+      "Rules by destination for in-transit passengers and flights with multiple legs",
+      "Flight-time alerts and currency conversion",
+      "Implementation services include data import, testing, training and go-live support"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": true,
+    "hideReason": "Implementation services offer for the LS Central Duty Free add-on, not an app itself",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

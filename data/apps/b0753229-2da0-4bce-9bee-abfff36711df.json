@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.ktc-karlsruhetechnologyconsultinggmbh1595962004014|AID.d365bc_0010|PAPPID.b0753229-2da0-4bce-9bee-abfff36711df",
+  "guid": "b0753229-2da0-4bce-9bee-abfff36711df",
+  "publisherId": "ktc-karlsruhetechnologyconsultinggmbh1595962004014",
+  "offerId": "d365bc_0010",
+  "source": {
+    "name": "ContractPlus",
+    "publisher": "KTC - Karlsruhe Technology Consulting GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ktc-karlsruhetechnologyconsultinggmbh1595962004014%7CAID.d365bc_0010%7CPAPPID.b0753229-2da0-4bce-9bee-abfff36711df",
+    "lastModified": "2026-09-18T07:05:46.494373+00:00",
+    "appVersion": "2.12.13649.543",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ktc.de/bc/app/cnp",
+    "sourceHash": "sha256:8acee15521c7dfb44a5952b4d3b2594b12fb8d01fc0df52ea34f850437f8a01d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8acee15521c7dfb44a5952b4d3b2594b12fb8d01fc0df52ea34f850437f8a01d",
+    "mappedOn": null,
+    "summary": "Contract management and invoicing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-contracts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-contracts",
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Manages customer, supplier, partner and direct contracts",
+      "Automatically creates purchase and sales invoices from contracts",
+      "Periodic billing per calendar month or year",
+      "Creates purchase side automatically for resellers",
+      "Audit trail, recurrence and responsibilities on contracts",
+      "Evaluation by contract categories and dimensions",
+      "Orders and invoices created from the contract card and linked",
+      "Contract responsibilities delegated to employees or teams",
+      "Generated orders feed sales forecast",
+      "Link original documents; optional SharePoint DMS"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "pl",
+      "pt"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

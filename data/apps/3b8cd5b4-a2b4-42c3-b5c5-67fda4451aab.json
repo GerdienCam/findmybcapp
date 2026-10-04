@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.shiptheory|AID.shiptheory-app|PAPPID.3b8cd5b4-a2b4-42c3-b5c5-67fda4451aab",
+  "guid": "3b8cd5b4-a2b4-42c3-b5c5-67fda4451aab",
+  "publisherId": "shiptheory",
+  "offerId": "shiptheory-app",
+  "source": {
+    "name": "Shiptheory",
+    "publisher": "Shiptheory",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.shiptheory%7CAID.shiptheory-app%7CPAPPID.3b8cd5b4-a2b4-42c3-b5c5-67fda4451aab",
+    "lastModified": "2026-10-01T12:32:47.91074+00:00",
+    "appVersion": "1.5.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.shiptheory.com/support/home",
+    "sourceHash": "sha256:756901f3ff505f9afe2b5136ff19daaaa9b51445f25cf784f9b2afbb5f15635e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:756901f3ff505f9afe2b5136ff19daaaa9b51445f25cf784f9b2afbb5f15635e",
+    "mappedOn": null,
+    "summary": "Connects BC to parcel and pallet carriers via Shiptheory",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns",
+      "ng-esg"
+    ],
+    "claims": [
+      "Connects to 100+ parcel and pallet carriers",
+      "Shipping rules engine auto-selects services",
+      "One-click carrier labels from BC",
+      "Carriers include UPS, FedEx, DHL, Royal Mail, Evri, Palletways",
+      "Customer dispatch notifications with tracking",
+      "Tracking information visible in BC",
+      "Customisable returns portal",
+      "Address validation automation",
+      "AI generated handwritten notes",
+      "Carbon offsetting of shipments",
+      "50 selling channel integrations"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Shiptheory",
+      "UPS",
+      "FedEx",
+      "DHL",
+      "Royal Mail",
+      "Evri",
+      "Palletways"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

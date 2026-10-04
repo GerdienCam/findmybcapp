@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.clarityukraine1657050202465|AID.clrt_erp_suite_for_it_industry|PAPPID.8483f33a-269c-47ec-833d-82287c96d15f",
+  "guid": "8483f33a-269c-47ec-833d-82287c96d15f",
+  "publisherId": "clarityukraine1657050202465",
+  "offerId": "clrt_erp_suite_for_it_industry",
+  "source": {
+    "name": "ERP Suite for IT (Main Unit)",
+    "publisher": "Clarity Ukraine",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.clarityukraine1657050202465%7CAID.clrt_erp_suite_for_it_industry%7CPAPPID.8483f33a-269c-47ec-833d-82287c96d15f",
+    "lastModified": "2026-05-12T12:19:25.1953926+00:00",
+    "appVersion": "27.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://clarity-team.com/en/contacts/",
+    "sourceHash": "sha256:6f3942f88f13593dc98e33a2e688bb5f9876cb5afeade93f32fb6212a3924b8f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6f3942f88f13593dc98e33a2e688bb5f9876cb5afeade93f32fb6212a3924b8f",
+    "mappedOn": null,
+    "summary": "Project accounting, contracts, payroll and cost allocation for IT companies",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-professional-services",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-wip",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-billing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cost-allocation",
+      "ng-proj-estimate-contract",
+      "ng-hr-payroll-comp",
+      "ng-proj-time"
+    ],
+    "claims": [
+      "Links each project to a customer contract and inherits discounts, payment terms, price lists and billing rules",
+      "Tracks project activities by contract",
+      "Captures the customer PO number at project level for invoicing",
+      "Posts delivered but not yet invoiced project work as Unbilled Revenue entries",
+      "Payroll engine with benefits, allowances, bonuses and deductions",
+      "Allocates costs across projects by metrics, quantities, hours, percentages or custom rules",
+      "Allocation G/L entries carry dimensions for allocation object and base",
+      "Assigns employees to specific project tasks for timesheets",
+      "Builds invoices from real usage, project rules or contract terms",
+      "Works with other Clarity Ukraine extensions (time reporting, cost allocation, payroll, multi-company exchange)",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "uk"
+    ],
+    "industries": [
+      "IT services",
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

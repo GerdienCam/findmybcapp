@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.huboneas1673858993138|AID.bigapp|PAPPID.9a66b42c-a7c1-4870-997a-839fde19efdd",
+  "guid": "9a66b42c-a7c1-4870-997a-839fde19efdd",
+  "publisherId": "huboneas1673858993138",
+  "offerId": "bigapp",
+  "source": {
+    "name": "BigApp",
+    "publisher": "Hubone AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.huboneas1673858993138%7CAID.bigapp%7CPAPPID.9a66b42c-a7c1-4870-997a-839fde19efdd",
+    "lastModified": "2026-09-30T06:47:16.3344814+00:00",
+    "appVersion": "29.42.141.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://hubone.no/bigapp",
+    "sourceHash": "sha256:cdcfac3bb28cae9479cea77b813afa3d53e30208329aea137663ad79b513855c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cdcfac3bb28cae9479cea77b813afa3d53e30208329aea137663ad79b513855c",
+    "mappedOn": null,
+    "summary": "Project management, CRM, leads and quotes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-billing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-pipeline",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-wip",
+      "ng-proj-time",
+      "ng-nonconformance-capa",
+      "ng-subscription-billing"
+    ],
+    "claims": [
+      "CRM and lead management with quote/purchase request templates",
+      "Pipeline for quotes and projects in sales phase",
+      "Capacity forecasting and master planning",
+      "Create/connect Teams channels from BC",
+      "Project milestones and WBS codes",
+      "Create purchase orders, picks and assembly/production orders from project",
+      "Several bill-to customers per project",
+      "Repetitive (subscription) invoicing",
+      "Time registration with approval",
+      "Activate projects as fixed assets",
+      "Invoices or credits a project directly, no planning lines required",
+      "Deposit handling",
+      "Individual contracts for recurring invoicing like maintenance or storage fees",
+      "Service reports and repair orders",
+      "Material and measurement certificates and drawing revisions",
+      "Non conformance registration"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

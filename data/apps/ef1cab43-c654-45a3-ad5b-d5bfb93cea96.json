@@ -1,0 +1,95 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.fcp-inventory-restrictions|PAPPID.ef1cab43-c654-45a3-ad5b-d5bfb93cea96",
+  "guid": "ef1cab43-c654-45a3-ad5b-d5bfb93cea96",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "fcp-inventory-restrictions",
+  "source": {
+    "name": "Inventory Restrictions",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.fcp-inventory-restrictions%7CPAPPID.ef1cab43-c654-45a3-ad5b-d5bfb93cea96",
+    "lastModified": "2026-04-10T07:18:36.5806223+00:00",
+    "appVersion": "27.5.17759.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.nicsystemslearning.com/help/inventory-restrictions",
+    "sourceHash": "sha256:b0708db50a04cc187bb0fac555c81354e0be60f588260cb7a2323867da1274c0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b0708db50a04cc187bb0fac555c81354e0be60f588260cb7a2323867da1274c0",
+    "mappedOn": null,
+    "summary": "Excludes expired, recalled or inspected inventory from transactions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-hold",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Restriction codes for lot, serial or package tracked items",
+      "Restriction codes define which transaction types are blocked",
+      "Control which users may add or remove restrictions",
+      "Bin-level restrictions inherited by items in the bin",
+      "Quarantine bins for restricted inventory",
+      "Restriction groups auto-applied on receipt or output",
+      "Job queue auto-restricts lots nearing expiry",
+      "Option to exclude restricted stock from availability",
+      "Restrictions worksheet by package, lot or serial number",
+      "Split lots into sub-lots and merge back",
+      "Restricts recalled items (with Item Recalls app)",
+      "Blocks items under or failing inspection (with Quality Inspections app)"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution",
+      "Food",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

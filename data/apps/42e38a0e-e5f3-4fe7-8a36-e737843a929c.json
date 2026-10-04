@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.woongjin1784525260741|AID.wjmsd|PAPPID.42e38a0e-e5f3-4fe7-8a36-e737843a929c",
+  "guid": "42e38a0e-e5f3-4fe7-8a36-e737843a929c",
+  "publisherId": "woongjin1784525260741",
+  "offerId": "wjmsd",
+  "source": {
+    "name": "Korea VAT Localization",
+    "publisher": "WoongJin",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.woongjin1784525260741%7CAID.wjmsd%7CPAPPID.42e38a0e-e5f3-4fe7-8a36-e737843a929c",
+    "lastModified": "2026-09-08T06:40:13.7554569+00:00",
+    "appVersion": "1.0.0.5",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://woongjin.com/customer/contact.do",
+    "sourceHash": "sha256:2f0c70bd26515e4067ed7f7069729d2b7ca2d5393273f8a0d3065f4597f2e263"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2f0c70bd26515e4067ed7f7069729d2b7ca2d5393273f8a0d3065f4597f2e263",
+    "mappedOn": null,
+    "summary": "Korean VAT, tax invoices and e-invoicing",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Korean Tax Invoice issuance aligned with NTS (SmartBill, BaroBill) formats",
+      "Electronic tax invoice generation and transmission",
+      "Korean VAT return reporting formats",
+      "Standard and simplified tax invoice types",
+      "Business registration number validation",
+      "Multi-entity support for Korean and non-Korean operations",
+      "Integrates with BC G/L, Sales and Purchasing"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "languages": [
+      "en",
+      "ko"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SmartBill",
+      "BaroBill",
+      "Korean NTS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

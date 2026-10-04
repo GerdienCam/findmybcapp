@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.nubetechspa|AID.e-document_connector_universal_hub|PAPPID.9e3bfa4c-ec5e-41bd-9a32-240e80566a15",
+  "guid": "9e3bfa4c-ec5e-41bd-9a32-240e80566a15",
+  "publisherId": "nubetechspa",
+  "offerId": "e-document_connector_universal_hub",
+  "source": {
+    "name": "E-Document Connector - Universal Hub",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.e-document_connector_universal_hub%7CPAPPID.9e3bfa4c-ec5e-41bd-9a32-240e80566a15",
+    "lastModified": "2026-09-10T11:18:23.3656239+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.nubetech.it/en_US/e-document-connector-universal-hub/manuale-e-document-connector-universal-hub",
+    "sourceHash": "sha256:95818b2b532dff37607e1e6484e520eb165a343c66cd5eb6be89074182d5d293"
+  },
+  "mapping": {
+    "sourceHash": "sha256:95818b2b532dff37607e1e6484e520eb165a343c66cd5eb6be89074182d5d293",
+    "mappedOn": null,
+    "summary": "Connects E-Documents to digital document exchange services",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Extends BC E-Document framework with ARXivar integration",
+      "Sends outgoing e-invoices with attachments",
+      "Receives incoming e-invoices and XML documents",
+      "Tracks delivery outcomes, errors, notifications and status of documents",
+      "Views invoices in PDF or HTML",
+      "Creates vendors, along with their bank accounts, from XML it receives",
+      "Traceability through E-Document logs"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Abletech ARXivar"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

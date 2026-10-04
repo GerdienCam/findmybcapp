@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.systemconnectaps1614781393914|AID.paymentconnect|PAPPID.e96e4b69-e358-42c1-b6ac-bca78c0a7741",
+  "guid": "e96e4b69-e358-42c1-b6ac-bca78c0a7741",
+  "publisherId": "systemconnectaps1614781393914",
+  "offerId": "paymentconnect",
+  "source": {
+    "name": "PaymentConnect",
+    "publisher": "SystemConnect",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemconnectaps1614781393914%7CAID.paymentconnect%7CPAPPID.e96e4b69-e358-42c1-b6ac-bca78c0a7741",
+    "lastModified": "2026-09-29T12:07:55.3554549+00:00",
+    "appVersion": "28.0.0.18",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://systemconnect.dk/paymentconnecthelp/",
+    "sourceHash": "sha256:58f704c359d50a6d5beb7e8aa51246e357b9a640658588edd52aff9b95711f3f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:58f704c359d50a6d5beb7e8aa51246e357b9a640658588edd52aff9b95711f3f",
+    "mappedOn": null,
+    "summary": "Bank payments in ISO 20022 format",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Creates ISO 20022 pain.001 payment files from vendor payment journal",
+      "Supports Nordea, Bankdata, Danske Bank, SDC and BEC",
+      "Danish FIK71/73/75 payments",
+      "Imports and posts incoming FIK files",
+      "Combines multiple invoices into one payment per vendor and emails Excel specification",
+      "Optional on-screen confirmation before export",
+      "Bank-specific parameters set up without code",
+      "Works with BC built-in vendor payment module"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Nordea",
+      "Bankdata",
+      "Danske Bank",
+      "SDC",
+      "BEC"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

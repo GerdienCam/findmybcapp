@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_advanced_finance_ww|PAPPID.ad9c8a79-c463-4a8b-85ab-ee8146114c9c",
+  "guid": "ad9c8a79-c463-4a8b-85ab-ee8146114c9c",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_advanced_finance_ww",
+  "source": {
+    "name": "Dynavision Advanced Finance",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_advanced_finance_ww%7CPAPPID.ad9c8a79-c463-4a8b-85ab-ee8146114c9c",
+    "lastModified": "2026-10-02T09:47:45.8940752+00:00",
+    "appVersion": "28.0.0.46210",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Advanced_Finance_WW_and_BE_Manual.pdf",
+    "sourceHash": "sha256:e1b4b0c55808c98cdc6fc2f646304eea1908144924681d5ae6e2c389d0cf1dce"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e1b4b0c55808c98cdc6fc2f646304eea1908144924681d5ae6e2c389d0cf1dce",
+    "mappedOn": null,
+    "summary": "Collection of finance productivity features",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding",
+      "ng-conn-company-data",
+      "ng-customer-payments",
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "SWIFT/BIC generator for bank accounts",
+      "Approval of vendor bank accounts",
+      "Fills address from EU VIES VAT number validation",
+      "Suggests country from IBAN",
+      "Source name on G/L entries",
+      "Suggests payment reference on payment journals",
+      "Checks invoice document amount when posting purchase invoices",
+      "Approval of posted purchase invoices for payment",
+      "Visual application of customer and vendor entries",
+      "Credit collection management",
+      "Attaches invoice PDFs when mailing reminders",
+      "Separate BE version for Belgian functionality"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "FR",
+      "GB",
+      "NZ",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "VIES"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

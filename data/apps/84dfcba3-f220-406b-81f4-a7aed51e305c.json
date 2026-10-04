@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.dynamics-eshop|AID.b2c|PAPPID.84dfcba3-f220-406b-81f4-a7aed51e305c",
+  "guid": "84dfcba3-f220-406b-81f4-a7aed51e305c",
+  "publisherId": "dynamics-eshop",
+  "offerId": "b2c",
+  "source": {
+    "name": "B2C eCommerce for Dynamics 365 Business Central",
+    "publisher": "Dynamics eShop Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics-eshop%7CAID.b2c%7CPAPPID.84dfcba3-f220-406b-81f4-a7aed51e305c",
+    "lastModified": "2026-08-05T04:37:58.0636304+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamicseshop.com/contact-us/",
+    "sourceHash": "sha256:85d54e542cc5304c0646a0ba66f14c57a193fbf9bf1d76159fb2e9de8052a951"
+  },
+  "mapping": {
+    "sourceHash": "sha256:85d54e542cc5304c0646a0ba66f14c57a193fbf9bf1d76159fb2e9de8052a951",
+    "mappedOn": null,
+    "summary": "B2C webshop integrated with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "B2C storefront using BC as system of record",
+      "Catalog and categories sourced from BC",
+      "Responsive storefront across devices",
+      "Online ordering with order status",
+      "Multiple payment methods",
+      "Shipping carrier integration and tracking",
+      "Promotions, discounts and coupons",
+      "Customer order history access",
+      "Also for NAV and Finance and Operations"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics eShop"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

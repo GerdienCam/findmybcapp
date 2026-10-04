@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dms-orderbase-time-management|PAPPID.f5b4db1e-9cb0-4d3f-b98b-e7e6eff9ddb1",
+  "guid": "f5b4db1e-9cb0-4d3f-b98b-e7e6eff9ddb1",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dms-orderbase-time-management",
+  "source": {
+    "name": "Aptean Equipment DMS x orderbase Time Management",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-orderbase-time-management%7CPAPPID.f5b4db1e-9cb0-4d3f-b98b-e7e6eff9ddb1",
+    "lastModified": "2026-07-08T13:16:58.1099822+00:00",
+    "appVersion": "2603.260500.20260708.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:dd0e23dc19382f5642bc46472dd093ac69621cccbf792b3a8740f9ed7ea60f3c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dd0e23dc19382f5642bc46472dd093ac69621cccbf792b3a8740f9ed7ea60f3c",
+    "mappedOn": null,
+    "summary": "Connects Aptean Equipment DMS service with orderbase Time Management",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-close-invoice",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers",
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "Time tracking of factory data capture via orderbase",
+      "Setup of roundings and surcharges",
+      "Transfers times to service orders",
+      "View and correct order-related times in the order"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "orderbase Time Management"
+    ],
+    "requires": [
+      "Aptean Equipment DMS",
+      "orderbase Time Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

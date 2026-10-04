@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.powerbi-gold-finance-app|PAPPID.bea515ab-b88c-4e41-8fd7-9b0fad11efc1",
+  "guid": "bea515ab-b88c-4e41-8fd7-9b0fad11efc1",
+  "publisherId": "fenwicksoftware",
+  "offerId": "powerbi-gold-finance-app",
+  "source": {
+    "name": "Finance Connector for Power BI",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.powerbi-gold-finance-app%7CPAPPID.bea515ab-b88c-4e41-8fd7-9b0fad11efc1",
+    "lastModified": "2026-06-09T07:01:16.4662763+00:00",
+    "appVersion": "26.0.260409.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/power-bi-gold-for-finance/docs/",
+    "sourceHash": "sha256:5e0f7eb503678407a932626dbfff0ad3669379d69629630f951aba518afff2d8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5e0f7eb503678407a932626dbfff0ad3669379d69629630f951aba518afff2d8",
+    "mappedOn": null,
+    "summary": "Ready-made finance reports for Power BI",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Data connections for exporting finance data to Power BI",
+      "G/L reports filtered by G/L account category, date range or budget",
+      "Slice by shortcut dimensions",
+      "Out of the box balance sheet, income statement, profitability and liquidity measures",
+      "DSO, DPO, DSI and inventory turnover measures",
+      "Requires Power BI Gold Finance"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [
+      "Power BI Gold Finance"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.business_development_christoph_krieg|AID.365businessbanking|PAPPID.2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb",
+  "guid": "2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb",
+  "publisherId": "business_development_christoph_krieg",
+  "offerId": "365businessbanking",
+  "source": {
+    "name": "365 business Banking",
+    "publisher": "365 business development",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365businessbanking%7CPAPPID.2ddb5a5d-a539-46f7-8c68-2e37cf7d0dfb",
+    "lastModified": "2026-09-28T09:07:13.5357151+00:00",
+    "appVersion": "18.3.543.28299",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://docs.365businessdev.com/en-us/365-business-banking/",
+    "sourceHash": "sha256:979370c7c367a88d02aae206b18ad35fca61e707327c1a48942ace3f2e13b185"
+  },
+  "mapping": {
+    "sourceHash": "sha256:979370c7c367a88d02aae206b18ad35fca61e707327c1a48942ace3f2e13b185",
+    "mappedOn": null,
+    "summary": "Bank account connection for transactions and payments",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-payment-providers"
+    ],
+    "claims": [
+      "Connects to 4,000+ banks in 10+ European countries",
+      "Multi-bank support",
+      "XS2A PSD2, FinTS/HBCI and web scraping interfaces",
+      "Connects PayPal, Mollie, Stripe",
+      "Imports and applies bank transactions",
+      "Covers direct debits, SEPA credit transfers and payments in real time",
+      "Standing orders for recurring payments",
+      "Suggests G/L account, customer or vendor from ZKA/SEPA purpose codes",
+      "Uses finAPI open banking provider",
+      "25 payment instructions per user license per month"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "finAPI",
+      "PayPal",
+      "Mollie",
+      "Stripe"
+    ],
+    "requires": [
+      "365 business API"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

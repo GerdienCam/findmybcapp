@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.powerbi-gold-manufacturing-app|PAPPID.617c41aa-fd7a-4dfa-8c90-dcca27236043",
+  "guid": "617c41aa-fd7a-4dfa-8c90-dcca27236043",
+  "publisherId": "fenwicksoftware",
+  "offerId": "powerbi-gold-manufacturing-app",
+  "source": {
+    "name": "Manufacturing Connector for Power BI",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.powerbi-gold-manufacturing-app%7CPAPPID.617c41aa-fd7a-4dfa-8c90-dcca27236043",
+    "lastModified": "2026-06-09T08:40:05.2263883+00:00",
+    "appVersion": "26.0.260409.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/power-bi-gold-for-manufacturing/docs/",
+    "sourceHash": "sha256:0c8ad92bd718ab9dab6d727421867f3d1ab9f2cd75cf657dbd436b7acff696cc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0c8ad92bd718ab9dab6d727421867f3d1ab9f2cd75cf657dbd436b7acff696cc",
+    "mappedOn": null,
+    "summary": "Power BI manufacturing reports from BC data",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters"
+    ],
+    "claims": [
+      "Reports on production orders, work centers and items for manufacturing",
+      "50+ pre-built standard measures",
+      "Capacity measures: run times, setup times, available/used, utilization",
+      "Expected vs actual consumption and output measures",
+      "Filter by dimensions 1 through 8"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

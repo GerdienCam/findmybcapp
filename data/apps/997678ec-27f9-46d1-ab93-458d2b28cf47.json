@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.fcp-over-shipping|PAPPID.997678ec-27f9-46d1-ab93-458d2b28cf47",
+  "guid": "997678ec-27f9-46d1-ab93-458d2b28cf47",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "fcp-over-shipping",
+  "source": {
+    "name": "Over Shipping",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.fcp-over-shipping%7CPAPPID.997678ec-27f9-46d1-ab93-458d2b28cf47",
+    "lastModified": "2025-10-28T03:38:51.7767261+00:00",
+    "appVersion": "27.0.16290.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.nicsystemslearning.com/help/over-shipping",
+    "sourceHash": "sha256:6c8001abb245471d29e02242717787e2b367261d706303fca7f67828c554524c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6c8001abb245471d29e02242717787e2b367261d706303fca7f67828c554524c",
+    "mappedOn": null,
+    "summary": "Rules for shipping above ordered quantities",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Over-shipping tolerance percentages by item, customer or item-customer",
+      "Default over-shipping tolerance",
+      "Supports partial shipments within total tolerance",
+      "Built into sales order and warehouse shipment process",
+      "Blocks shipments exceeding tolerance",
+      "Over-shipment frequency tracked via Customer Insights app"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

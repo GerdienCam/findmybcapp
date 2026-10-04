@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.reloadinnovacionsl1623250116909|AID.d365_bc_003|PAPPID.f5fde11b-80c5-4f22-a923-6c2fe52a86b6",
+  "guid": "f5fde11b-80c5-4f22-a923-6c2fe52a86b6",
+  "publisherId": "reloadinnovacionsl1623250116909",
+  "offerId": "d365_bc_003",
+  "source": {
+    "name": "Business Central Storage Optimizer",
+    "publisher": "Reload Innovacion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.reloadinnovacionsl1623250116909%7CAID.d365_bc_003%7CPAPPID.f5fde11b-80c5-4f22-a923-6c2fe52a86b6",
+    "lastModified": "2026-08-12T07:30:02.1656228+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://rinnovacion.com/index.php/contacto/",
+    "sourceHash": "sha256:aa7fa3ac82eb3c27874e3267a8a791a98bc944a7b8b102d140cf10477290a98f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:aa7fa3ac82eb3c27874e3267a8a791a98bc944a7b8b102d140cf10477290a98f",
+    "mappedOn": null,
+    "summary": "Stores documents in Azure to reduce database size",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Stores BC documents in an Azure storage account",
+      "Documents do not consume BC database space",
+      "Supports any file format including images and video",
+      "View PDFs inside BC without downloading",
+      "Share documents via web links in email or Teams",
+      "30-day free trial then monthly or annual subscription"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

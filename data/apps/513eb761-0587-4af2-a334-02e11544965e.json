@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.alterna|AID.513eb761-0587-4af2-a334-02e11544965e|PAPPID.513eb761-0587-4af2-a334-02e11544965e",
+  "guid": "513eb761-0587-4af2-a334-02e11544965e",
+  "publisherId": "alterna",
+  "offerId": "513eb761-0587-4af2-a334-02e11544965e",
+  "source": {
+    "name": "IX Connector",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.513eb761-0587-4af2-a334-02e11544965e%7CPAPPID.513eb761-0587-4af2-a334-02e11544965e",
+    "lastModified": "2026-07-21T16:00:38.1678119+00:00",
+    "appVersion": "1.8.24.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/ix-connector/",
+    "sourceHash": "sha256:a0e9a1fa94b6a53f80a994c72f07890d0c6d6addb722ceaac04807c3c9d482f2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a0e9a1fa94b6a53f80a994c72f07890d0c6d6addb722ceaac04807c3c9d482f2",
+    "mappedOn": null,
+    "summary": "Sends and receives Italian electronic invoices via IX-FE",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Transmits Italian e-invoice files to SDI via Abletech IX-FE",
+      "Sends XML from sales and services, single or multiple",
+      "Receives XML files into Incoming Documents",
+      "Retrieves transmission status in BC",
+      "Works with the Electronic Invoicing for Italy app",
+      "Requires Abletech IX-FE subscription"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Abletech IX-FE",
+      "SDI"
+    ],
+    "requires": [
+      "Abletech IX-FE"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.curabisaps1668520554988|AID.project_management|PAPPID.b24d892a-052c-426d-90ef-c0a191c105a4",
+  "guid": "b24d892a-052c-426d-90ef-c0a191c105a4",
+  "publisherId": "curabisaps1668520554988",
+  "offerId": "project_management",
+  "source": {
+    "name": "Project Management 365 App",
+    "publisher": "Curabis ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.curabisaps1668520554988%7CAID.project_management%7CPAPPID.b24d892a-052c-426d-90ef-c0a191c105a4",
+    "lastModified": "2026-08-11T13:44:23.9769827+00:00",
+    "appVersion": "28.0.2.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://curabis.dk/en/apps-for-business-central/project-management-365-app/",
+    "sourceHash": "sha256:362bf6cbfc7d09c8173c8ca795f8b96d58c56a5a0b2e171cbe20c7c9a53f633b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:362bf6cbfc7d09c8173c8ca795f8b96d58c56a5a0b2e171cbe20c7c9a53f633b",
+    "mappedOn": null,
+    "summary": "Project management with time registration and invoicing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-planning",
+      "ng-proj-billing"
+    ],
+    "claims": [
+      "Time registration on projects in BC",
+      "Overview of customer and internal projects",
+      "Break projects into subtasks"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

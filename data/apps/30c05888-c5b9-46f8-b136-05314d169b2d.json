@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_bincontentpertracking|PAPPID.30c05888-c5b9-46f8-b136-05314d169b2d",
+  "guid": "30c05888-c5b9-46f8-b136-05314d169b2d",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_bincontentpertracking",
+  "source": {
+    "name": "Bin Content Per Tracking",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_bincontentpertracking%7CPAPPID.30c05888-c5b9-46f8-b136-05314d169b2d",
+    "lastModified": "2025-11-03T10:44:22.7222625+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-detailed-bin-content/",
+    "sourceHash": "sha256:0e1bde5d8500499e6c16be4290d219f4157cb63efda5842f48b59c4a06be8502"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0e1bde5d8500499e6c16be4290d219f4157cb63efda5842f48b59c4a06be8502",
+    "mappedOn": null,
+    "summary": "Shows bin content per lot and serial number",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-warehouse-setup"
+    ],
+    "claims": [
+      "Shows bin content per item, variant and location broken down by lot, serial and parcel number",
+      "Builds detailed records from each warehouse movement entry",
+      "Rebuilds historical data via Fill Detailed Bin Content report",
+      "Drill into movements from Quantity (Base)",
+      "Option to retain zero-quantity rows with Fixed field",
+      "List shows all location-bin-tracking combos where an item is stocked"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

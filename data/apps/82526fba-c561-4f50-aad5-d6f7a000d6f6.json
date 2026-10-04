@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.tecman|AID.clever-payment-plan|PAPPID.82526fba-c561-4f50-aad5-d6f7a000d6f6",
+  "guid": "82526fba-c561-4f50-aad5-d6f7a000d6f6",
+  "publisherId": "tecman",
+  "offerId": "clever-payment-plan",
+  "source": {
+    "name": "Clever Payment Plan",
+    "publisher": "Clever Dynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecman%7CAID.clever-payment-plan%7CPAPPID.82526fba-c561-4f50-aad5-d6f7a000d6f6",
+    "lastModified": "2026-02-24T13:33:41.1531128+00:00",
+    "appVersion": "2.2.0.139943",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cleverdynamics.com/other-clever-apps/payment-plan/user-guide-payment-plans/about-payment-plans",
+    "sourceHash": "sha256:5ef754f7e8646328f9c04c207a4426fa2d5e2639b47da664b97488cb2f77341c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ef754f7e8646328f9c04c207a4426fa2d5e2639b47da664b97488cb2f77341c",
+    "mappedOn": null,
+    "summary": "Customer payment plans",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-automation"
+    ],
+    "claims": [
+      "Extends standard prepayments into payment plans",
+      "Payment plan templates assigned on customer card",
+      "Invoice triggers on release, first or last shipment, or delivery date",
+      "Invoices by percentage of order value or fixed amount",
+      "Override payment terms for orders on plans",
+      "Auto-create payment plans on sales order release",
+      "Fact box showing posted and remaining to invoice",
+      "Exclude invoices from being sent",
+      "Scheduled invoice creation via job queue",
+      "Invoice reversals creating applied credit memos"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

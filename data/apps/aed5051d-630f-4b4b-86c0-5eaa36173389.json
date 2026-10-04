@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.mpriseagriwarebv|AID.agriware-loading-api|PAPPID.aed5051d-630f-4b4b-86c0-5eaa36173389",
+  "guid": "aed5051d-630f-4b4b-86c0-5eaa36173389",
+  "publisherId": "mpriseagriwarebv",
+  "offerId": "agriware-loading-api",
+  "source": {
+    "name": "Agriware 365 Loading Connector",
+    "publisher": "Mprise Agriware B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mpriseagriwarebv%7CAID.agriware-loading-api%7CPAPPID.aed5051d-630f-4b4b-86c0-5eaa36173389",
+    "lastModified": "2026-09-28T12:39:21.005172+00:00",
+    "appVersion": "28.28.5.271675",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.agriware.cloud/",
+    "sourceHash": "sha256:8686f7c9b8822eecdb1497908e6a6db91e3447e29be4685485c76f2613f431f9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8686f7c9b8822eecdb1497908e6a6db91e3447e29be4685485c76f2613f431f9",
+    "mappedOn": null,
+    "summary": "Links Agriware 365 Loading with Agriware 365 Operations",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Schedules load orders in Agriware 365 Operations and assigns work to available teams",
+      "Loading and shipping registered via the Logistics mobile app",
+      "Scanning of pallets and trolleys",
+      "Results returned to BC in aggregated form to update status and inventory",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Horticulture"
+    ],
+    "connectsTo": [
+      "Agriware 365 Operations"
+    ],
+    "requires": [
+      "Agriware 365 Loading",
+      "Agriware 365 Operations"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

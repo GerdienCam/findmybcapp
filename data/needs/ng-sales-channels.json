@@ -1,0 +1,230 @@
+{
+  "id": "ng-sales-channels",
+  "order": 21,
+  "label": "Selling through webshops, marketplaces and resellers",
+  "description": "Connecting web shops, marketplaces and B2B portals, defining new channels and the product catalogs shown there.",
+  "type": "bpc",
+  "area": "CRM & quotes",
+  "relevance": "medium",
+  "statements": [
+    "Selling through webshops, marketplaces and resellers",
+    "Connecting web shops, marketplaces and B2B portals, defining new channels and the product catalogs shown there.",
+    "We want to start selling on Amazon and eBay but run everything from Business Central",
+    "Is there a connector between Shopify and BC that keeps products, stock and prices in sync?",
+    "B2B webshop for our trade customers connected to BC",
+    "Our customers want to log in and order themselves instead of emailing our sales team",
+    "We sell through our own webshop, two marketplaces and distributors, and each channel is managed in a different spreadsheet",
+    "Stock levels shown on our online store are wrong because they only update once a day from BC",
+    "How do we show different prices and assortments on the webshop vs to our wholesale customers?",
+    "WooCommerce integration Business Central",
+    "We're opening a second retail shop and need it to run on the same system as the wholesale business",
+    "Can't see sales by channel because webshop sales and rep sales all look the same in BC",
+    "Want a dealer portal where our resellers see their prices, stock and order history",
+    "Our Magento shop and BC have separate product data and nobody knows which one is right",
+    "We are opening our first physical shop next to the warehouse, what do we need in BC?",
+    "Want to start selling by phone through a small call center team",
+    "We're launching a B2B webshop and need it set up as its own channel",
+    "new sales channel setup",
+    "How do we separate store sales, phone sales and online sales in our numbers?",
+    "Is there an app to add a retail point of sale channel to Business Central?",
+    "Should we sell direct, through distributors, or online, we need to work out our sales strategy",
+    "We want to decide which customer segments and regions to focus our sales team on next year",
+    "sales strategy planning template",
+    "Our growth has stalled and management wants a plan for where new sales will come from",
+    "How do we use our BC sales history to decide which markets to push",
+    "Is there an app that helps plan sales strategy per region and channel?"
+  ],
+  "questions": [
+    {
+      "id": "buyer",
+      "text": "Who buys through the new channel?",
+      "help": "Pick every type of buyer you want to reach.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Fashion wholesale buyers (Joor, NuORDER)",
+          "patterns": [
+            "joor",
+            "nuorder",
+            "fashion",
+            "seasonal"
+          ]
+        },
+        {
+          "label": "Business customers on a B2B portal",
+          "patterns": [
+            "\\bb2b\\b",
+            "customer portals?",
+            "customer-specific catalog",
+            "corporate account"
+          ]
+        },
+        {
+          "label": "Dealers or resellers",
+          "patterns": [
+            "dealer",
+            "reseller",
+            "\\bit channel\\b",
+            "itk channel",
+            "distributors"
+          ]
+        },
+        {
+          "label": "Shoppers in stores or on marketplaces",
+          "patterns": [
+            "marketplace",
+            "point of sale",
+            "retail receipt",
+            "per store",
+            "gift card"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Fashion wholesale buyers (Joor, NuORDER)": 0.25,
+        "Business customers on a B2B portal": 0.5,
+        "Dealers or resellers": 0.25,
+        "Shoppers in stores or on marketplaces": 0.25
+      }
+    },
+    {
+      "id": "portal_shows",
+      "text": "What must buyers see in the channel?",
+      "help": "Pick what your buyers ask for most.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Live stock availability",
+          "patterns": [
+            "inventory",
+            "\\bstock\\b",
+            "availability"
+          ]
+        },
+        {
+          "label": "Their own prices or catalog",
+          "patterns": [
+            "customer-specific",
+            "price sheets",
+            "defined pricing",
+            "pricing engine",
+            "rule-based pricing",
+            "prices"
+          ]
+        },
+        {
+          "label": "Order status and tracking",
+          "patterns": [
+            "order status",
+            "status tracking",
+            "tracking",
+            "order confirmations?",
+            "order overview"
+          ]
+        },
+        {
+          "label": "Invoices and online payment",
+          "patterns": [
+            "access invoices",
+            "payment gateway",
+            "outstanding balances"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Live stock availability": 0.38,
+        "Their own prices or catalog": 0.5,
+        "Order status and tracking": 0.5,
+        "Invoices and online payment": 0.12
+      }
+    },
+    {
+      "id": "order_routes",
+      "text": "How else do orders reach you besides the portal?",
+      "help": "Pick any other order routes you need handled.",
+      "multi": true,
+      "options": [
+        {
+          "label": "EDI",
+          "patterns": [
+            "\\bedi\\b"
+          ]
+        },
+        {
+          "label": "Sales reps or agents entering orders",
+          "patterns": [
+            "sales reps?",
+            "sales agents",
+            "sales rep orders"
+          ]
+        },
+        {
+          "label": "Punch-out or eProcurement",
+          "patterns": [
+            "punch-?out",
+            "e-?procurement"
+          ]
+        },
+        {
+          "label": "Marketplaces",
+          "patterns": [
+            "marketplace"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "EDI": 0.25,
+        "Sales reps or agents entering orders": 0.25,
+        "Punch-out or eProcurement": 0.25,
+        "Marketplaces": 0.25
+      }
+    },
+    {
+      "id": "product_data",
+      "text": "Do you also need to publish rich product data (images, variants)?",
+      "help": "For example sizes, colours or a PIM.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, product data and images",
+          "patterns": [
+            "\\bpim\\b",
+            "product data",
+            "images",
+            "size variants",
+            "ict products"
+          ]
+        },
+        {
+          "label": "No, prices and stock are enough",
+          "patterns": [
+            "real-time availability",
+            "inventory availability",
+            "pricing; carts",
+            "defined pricing"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, product data and images": 0.5,
+        "No, prices and stock are enough": 0.25
+      }
+    }
+  ]
+}

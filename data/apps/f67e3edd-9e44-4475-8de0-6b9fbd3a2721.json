@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.naveksaas1606382180343|AID.itp365|PAPPID.f67e3edd-9e44-4475-8de0-6b9fbd3a2721",
+  "guid": "f67e3edd-9e44-4475-8de0-6b9fbd3a2721",
+  "publisherId": "naveksaas1606382180343",
+  "offerId": "itp365",
+  "source": {
+    "name": "NAVEKSA ItemPlanning 365",
+    "publisher": "NAVEKSA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.naveksaas1606382180343%7CAID.itp365%7CPAPPID.f67e3edd-9e44-4475-8de0-6b9fbd3a2721",
+    "lastModified": "2026-06-01T11:46:40.3732023+00:00",
+    "appVersion": "26.9.2.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://naveksa.com/itemplanning-365",
+    "sourceHash": "sha256:62b7b7621a8095d41f6a7ffb565d68ddbc586a1eac3f69fd7c33967b4f2298f9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:62b7b7621a8095d41f6a7ffb565d68ddbc586a1eac3f69fd7c33967b4f2298f9",
+    "mappedOn": null,
+    "summary": "Material planning and shortage management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-order-allocation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning",
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Instant item availability status on open sales and production orders",
+      "Creates orders/requisitions directly from shortage items",
+      "Delivery availability timeline inquiry for items, products and capacity (promise dates)",
+      "Handles planning with limited or constrained resources",
+      "What-if simulation of order changes",
+      "Critical items analysis",
+      "Alerts on a timeline for safety stock and negative inventory",
+      "Works within the BC planning worksheet",
+      "Available for cloud and on-premises",
+      "Requires the Premium edition of Business Central"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "fr",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

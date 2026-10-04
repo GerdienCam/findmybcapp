@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.bngteam1617812213777|AID.connectbooster|PAPPID.262a2174-4dda-48a9-b023-354ff6f37d44",
+  "guid": "262a2174-4dda-48a9-b023-354ff6f37d44",
+  "publisherId": "bngteam1617812213777",
+  "offerId": "connectbooster",
+  "source": {
+    "name": "ConnectBooster",
+    "publisher": "BNG Team/ConnectBooster",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bngteam1617812213777%7CAID.connectbooster%7CPAPPID.262a2174-4dda-48a9-b023-354ff6f37d44",
+    "lastModified": "2026-09-03T01:32:29.2315133+00:00",
+    "appVersion": "4.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.connectbooster.com/contact/",
+    "sourceHash": "sha256:052a1de4cc53c9fadedd9367999edd99ed36e28bff412c78e44ff5b410ad0bfb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:052a1de4cc53c9fadedd9367999edd99ed36e28bff412c78e44ff5b410ad0bfb",
+    "mappedOn": null,
+    "summary": "Billing automation and ACH/card payment collection",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-collections",
+      "ng-conn-payment-providers"
+    ],
+    "claims": [
+      "Syncs BC invoices to client portal",
+      "Accepts credit card and ACH payments",
+      "AutoPay rules for recurring invoices",
+      "Reconciles payments to BC and marks invoices paid",
+      "Automated past-due invoice and statement reminders",
+      "PayNow without login",
+      "Schedule future payments",
+      "Stores payment methods in PCI-compliant gateway",
+      "On schedule, pulls credit memos, invoices, contact emails and payment history"
+    ],
+    "countries": [
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ConnectBooster"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

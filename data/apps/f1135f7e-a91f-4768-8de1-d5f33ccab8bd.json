@@ -1,0 +1,83 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-mobile-service|PAPPID.f1135f7e-a91f-4768-8de1-d5f33ccab8bd",
+  "guid": "f1135f7e-a91f-4768-8de1-d5f33ccab8bd",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-mobile-service",
+  "source": {
+    "name": "BeyondMobileService",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-mobile-service%7CPAPPID.f1135f7e-a91f-4768-8de1-d5f33ccab8bd",
+    "lastModified": "2026-09-24T12:41:59.531056+00:00",
+    "appVersion": "2026.9.223.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/mobileservice/preface/about.html",
+    "sourceHash": "sha256:fca136394ac8c62729f0005cab533254103dc2740ce2e52365800e66f91386ac"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fca136394ac8c62729f0005cab533254103dc2740ce2e52365800e66f91386ac",
+    "mappedOn": null,
+    "summary": "Mobile processing of service orders with time recording for Beyond Service",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-close-invoice",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Process service orders on mobile devices",
+      "Record working hours, travel times and break times per order",
+      "Create orders from the mobile app",
+      "Access customer address and contact phone number",
+      "Display problem and solution descriptions",
+      "Capture customer digital signature on completion"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Beyond Service"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

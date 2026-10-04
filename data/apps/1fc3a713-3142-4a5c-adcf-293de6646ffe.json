@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.lithuaniandynamicspartners|AID.ivaz_for_lithuania|PAPPID.1fc3a713-3142-4a5c-adcf-293de6646ffe",
+  "guid": "1fc3a713-3142-4a5c-adcf-293de6646ffe",
+  "publisherId": "lithuaniandynamicspartners",
+  "offerId": "ivaz_for_lithuania",
+  "source": {
+    "name": "i.VAZ for Lithuania",
+    "publisher": "Lithuanian Dynamics Partners",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lithuaniandynamicspartners%7CAID.ivaz_for_lithuania%7CPAPPID.1fc3a713-3142-4a5c-adcf-293de6646ffe",
+    "lastModified": "2026-07-20T11:39:12.6818219+00:00",
+    "appVersion": "27.0.4.16",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicspartners.lt/help/help-for-iVAZ/",
+    "sourceHash": "sha256:79b4a1f513f70a21ca514e534d75236ad53da46ab452a4085ec71bf5b2ac71cc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:79b4a1f513f70a21ca514e534d75236ad53da46ab452a4085ec71bf5b2ac71cc",
+    "mappedOn": null,
+    "summary": "Creates i.VAZ transport document XML for Lithuanian tax authority",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Creates i.VAZ transport document XML for the State Tax Inspectorate",
+      "Transport documents from posted sales shipments, invoices, transfer shipments, return shipments and purchase credit memos",
+      "Download transport document XML to device",
+      "Transfer XML to i.VAZ via web services"
+    ],
+    "countries": [
+      "LT"
+    ],
+    "languages": [
+      "lt"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "i.VAZ"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.deltanexx|AID.e-doc_connector_storecove|PAPPID.72b8fd84-d8df-4d98-b5f2-66a218f49e10",
+  "guid": "72b8fd84-d8df-4d98-b5f2-66a218f49e10",
+  "publisherId": "deltanexx",
+  "offerId": "e-doc_connector_storecove",
+  "source": {
+    "name": "E-Document Connector - Storecove",
+    "publisher": "Deltanexx",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.deltanexx%7CAID.e-doc_connector_storecove%7CPAPPID.72b8fd84-d8df-4d98-b5f2-66a218f49e10",
+    "lastModified": "2026-09-08T11:07:47.912294+00:00",
+    "appVersion": "26.0.20260907.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://deltanexx.com/storecove-e-invoicing/",
+    "sourceHash": "sha256:21209eec8c8a77fc5e95e4f3a9c2ba36080d6b332092ec10100b8fd06b7c31cc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:21209eec8c8a77fc5e95e4f3a9c2ba36080d6b332092ec10100b8fd06b7c31cc",
+    "mappedOn": null,
+    "summary": "Sends and receives e-invoices via Storecove network",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Supports Peppol, DBNAlliance, SDI and ZUGFeRD",
+      "Plugs into the standard E-Document Service as a service integration",
+      "Sends outgoing e-documents to Storecove",
+      "Receives incoming e-documents into BC",
+      "Sends and receives approve/reject messages",
+      "Real-time status updates via access points",
+      "Also available for Dynamics NAV"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Storecove",
+      "Peppol",
+      "DBNAlliance",
+      "SDI"
+    ],
+    "requires": [
+      "Storecove"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.bc4allaps|AID.wrenchtime_ask_andy|PAPPID.cecc4d60-624b-4cf3-bec0-9b3308f93f2a",
+  "guid": "cecc4d60-624b-4cf3-bec0-9b3308f93f2a",
+  "publisherId": "bc4allaps",
+  "offerId": "wrenchtime_ask_andy",
+  "source": {
+    "name": "WrenchTime Ask Andy",
+    "publisher": "bc4all ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bc4allaps%7CAID.wrenchtime_ask_andy%7CPAPPID.cecc4d60-624b-4cf3-bec0-9b3308f93f2a",
+    "lastModified": "2026-09-27T21:03:17.3687929+00:00",
+    "appVersion": "1.0.226.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://wrenchtime.io/docs/",
+    "sourceHash": "sha256:f337559d968b48bd2448dd509ba105de925ae470f5f2a190d7821887cdc0f2d2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f337559d968b48bd2448dd509ba105de925ae470f5f2a190d7821887cdc0f2d2",
+    "mappedOn": null,
+    "summary": "AI assistant answering maintenance questions from WrenchTime data",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-ai-assistant",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-maintenance-planned"
+    ],
+    "claims": [
+      "Answers plain-language questions from WrenchTime work orders, assets, spare parts and history",
+      "Lets users explore failure patterns, asset history and how well preventive work performs, without building reports",
+      "Supports root-cause analysis, incident reviews and shift handovers",
+      "Runs inside the BC tenant, no external service",
+      "Requires active WrenchTime Pro subscription"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "WrenchTime Pro"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.abakion|AID.assign_quantity|PAPPID.4ed4a9df-5cf5-459a-9575-13606c7d7682",
+  "guid": "4ed4a9df-5cf5-459a-9575-13606c7d7682",
+  "publisherId": "abakion",
+  "offerId": "assign_quantity",
+  "source": {
+    "name": "Assign Quantity",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.assign_quantity%7CPAPPID.4ed4a9df-5cf5-459a-9575-13606c7d7682",
+    "lastModified": "2026-05-05T09:01:06.145057+00:00",
+    "appVersion": "28.0.202618.163717",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/assign-quantity/#howto",
+    "sourceHash": "sha256:fee95c21b9b7faa079e923a42de3c91a5e2e17f58fdd55d6a02bfa87d34cecbd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fee95c21b9b7faa079e923a42de3c91a5e2e17f58fdd55d6a02bfa87d34cecbd",
+    "mappedOn": null,
+    "summary": "Allocates and reserves inventory to sales orders for reliable order promises",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-order-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Checks if an item is available in time and quantity the customer requires",
+      "Automatic re-planning and reservation juggling behind the scenes",
+      "Offers alternatives such as a later delivery date when items are unavailable",
+      "Soft reservations prioritising first-entered sales orders",
+      "Reassign all demand orders in one go when supply changes",
+      "Easy change of assigned quantities on sales orders"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.misba|PAPPID.922af3e9-1c1e-401f-8d23-7f94df169b09",
+  "guid": "922af3e9-1c1e-401f-8d23-7f94df169b09",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "misba",
+  "source": {
+    "name": "EV Tecto - Mobile",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.misba%7CPAPPID.922af3e9-1c1e-401f-8d23-7f94df169b09",
+    "lastModified": "2026-09-11T12:02:13.6236178+00:00",
+    "appVersion": "10006.80.218813.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/365Con/overview",
+    "sourceHash": "sha256:9594d06cd92e0bc44c7fe6285ba2108dab1108f3c118eb9ac009294489026835"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9594d06cd92e0bc44c7fe6285ba2108dab1108f3c118eb9ac009294489026835",
+    "mappedOn": null,
+    "summary": "Mobile integration hub for EV Tecto work cards and time registration",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-construction",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-time",
+      "ng-svc-field-execution"
+    ],
+    "claims": [
+      "Required to integrate EV Tecto with a mobile solution",
+      "Work cards extended with processing, planning groups, task types and transfer to case",
+      "Jobs extended with ready-mobile flag and work type filter",
+      "Resources extended with mobile user, planning group, responsible and password",
+      "Items extended with external prices",
+      "Resource work types control which work types each employee can register time for"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EV Tecto - Core"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

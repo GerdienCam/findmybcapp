@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.smart-businessllc2412077-2412077|AID.smart_payroll|PAPPID.0ee1231d-3a90-4828-8c71-0e1463563c42",
+  "guid": "0ee1231d-3a90-4828-8c71-0e1463563c42",
+  "publisherId": "smart-businessllc2412077-2412077",
+  "offerId": "smart_payroll",
+  "source": {
+    "name": "SMART Payroll",
+    "publisher": "SMART business LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_payroll%7CPAPPID.0ee1231d-3a90-4828-8c71-0e1463563c42",
+    "lastModified": "2026-09-10T18:57:16.8804229+00:00",
+    "appVersion": "1.17.153857.260910",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.smart-it.com/en/smart-payroll/",
+    "sourceHash": "sha256:8f225b502707ad07ff7e1bfb5909c9092fc99fa5c7e57588b7338209cfdc9e0a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8f225b502707ad07ff7e1bfb5909c9092fc99fa5c7e57588b7338209cfdc9e0a",
+    "mappedOn": null,
+    "summary": "Core HR plus payroll",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-time-shifts",
+      "ng-hr-absence-leave",
+      "ng-hr-employee-expenses",
+      "ng-hr-org-policies"
+    ],
+    "claims": [
+      "Labor and civil contract types",
+      "Actual and budget positions",
+      "Position analytics: categories, grades, statistics groups",
+      "HR orders and contract printed forms",
+      "Working calendars, shifts and timesheets",
+      "Vacation balances, schedules and reserves",
+      "Travel orders and advance statements",
+      "Formula designer for custom payroll calculations",
+      "Advance, preliminary and final payroll in any currency",
+      "Expense allocation posting",
+      "Not available in CA, CZ, IT, MX, UK, US"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "ka",
+      "pl",
+      "ru",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

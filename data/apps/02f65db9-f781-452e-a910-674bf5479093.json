@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.auziliumas1600196934458|AID.auzilium_base|PAPPID.02f65db9-f781-452e-a910-674bf5479093",
+  "guid": "02f65db9-f781-452e-a910-674bf5479093",
+  "publisherId": "auziliumas1600196934458",
+  "offerId": "auzilium_base",
+  "source": {
+    "name": "Auzilium Base",
+    "publisher": "Auzilium AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.auziliumas1600196934458%7CAID.auzilium_base%7CPAPPID.02f65db9-f781-452e-a910-674bf5479093",
+    "lastModified": "2026-10-01T07:59:12.2788624+00:00",
+    "appVersion": "1.28.4.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.evidi.com/no/kontakt",
+    "sourceHash": "sha256:ab120f83678993f737cec3f42525cbf8fa6165af9822fccc5512d96e74448389"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ab120f83678993f737cec3f42525cbf8fa6165af9822fccc5512d96e74448389",
+    "mappedOn": null,
+    "summary": "File transfer to FTP/SFTP and extended email history",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Transfers files from BC to FTP or SFTP servers via Azure Functions",
+      "Function libraries that extend standard BC with dialogs, price calculation, Excel export and email sending",
+      "Detailed email sending history"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Functions",
+      "FTP",
+      "SFTP"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Library/base app for developers and dependent Auzilium extensions",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.nab|AID.storypoint|PAPPID.ef1e6d32-de0a-4af3-aafb-349ef90e2387",
+  "guid": "ef1e6d32-de0a-4af3-aafb-349ef90e2387",
+  "publisherId": "nab",
+  "offerId": "storypoint",
+  "source": {
+    "name": "StoryPoint",
+    "publisher": "SmartApps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nab%7CAID.storypoint%7CPAPPID.ef1e6d32-de0a-4af3-aafb-349ef90e2387",
+    "lastModified": "2026-07-22T20:56:32.0596829+00:00",
+    "appVersion": "27.2.38.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.smartappsford365.com/storypoint/",
+    "sourceHash": "sha256:e8af72317f2d1c5eee67b5275d664418f665bd6c27e2c1112a3201c8896107d2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e8af72317f2d1c5eee67b5275d664418f665bd6c27e2c1112a3201c8896107d2",
+    "mappedOn": null,
+    "summary": "Time and expense tracking with project invoicing from phone",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-billing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-costs",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Time reporting and expense registration on mobile or web",
+      "Expenses are charged to projects and paid to employees",
+      "Invoices reported time and expenses with one click",
+      "Uses standard BC projects; compatible with project-based apps",
+      "Combine with Parrot for fixed and variable costs on one invoice",
+      "30-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "fi",
+      "no",
+      "sv"
+    ],
+    "industries": [
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

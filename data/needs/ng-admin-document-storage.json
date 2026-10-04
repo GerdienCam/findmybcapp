@@ -1,0 +1,357 @@
+{
+  "id": "ng-admin-document-storage",
+  "order": 149,
+  "label": "Storing documents, drawings and attachments",
+  "description": "Attachment storage, SharePoint/blob archiving and finding documents.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "high",
+  "statements": [
+    "Storing documents, drawings and attachments",
+    "Attachment storage, SharePoint/blob archiving and finding documents.",
+    "Attachments in BC are eating our database storage and Microsoft wants us to buy more",
+    "Can we store attachments in SharePoint instead of inside Business Central?",
+    "We need a proper document management system connected to BC",
+    "Nobody can find the signed contract for a customer, it's somewhere on a shared drive",
+    "document archive SharePoint business central",
+    "We want every posted invoice PDF saved automatically to a folder per customer",
+    "Drag and drop files onto a sales order in BC and have them stored properly",
+    "Is there an app that links OneDrive folders to customers, vendors and items?",
+    "Attachments disappear when a quote becomes an order",
+    "Item drawings and spec sheets should live on the item card, not in someone's inbox",
+    "We have to keep documents for ten years, where do we put them so BC can still find them?",
+    "Store files in Azure Blob storage from BC",
+    "Our auditors want to click a posted entry and see the scanned original document",
+    "Searching inside attached PDFs from BC would save us hours",
+    "Different departments save documents in different places and nobody uses the same folder structure",
+    "We want version control on documents attached to BC records",
+    "Moving off our old on-prem file server, documents linked from NAV need a new home",
+    "Can attachments flow from the purchase order to the posted receipt and invoice automatically?",
+    "Product images for the webshop are stored in three places and never match",
+    "Want a DMS for BC with permissions so HR documents are not visible to everyone",
+    "Attachments on purchase invoices are blowing up our database size",
+    "We want all BC attachments stored in SharePoint instead of inside the database",
+    "Is there an app that moves document attachments to Azure Blob storage?",
+    "attachments sharepoint business central",
+    "Our PDFs and scanned documents take up more space than all our transactions",
+    "Can we store files in OneDrive or SharePoint and just keep a link in BC?",
+    "We don't want to pay Microsoft for extra database capacity just to store PDFs",
+    "How do we migrate existing attachments out of BC without breaking the links on posted documents?",
+    "Need a folder structure in SharePoint per customer and per vendor created automatically from BC",
+    "Azure blob storage for BC files",
+    "When we archive documents we want them in our document management system, not in BC",
+    "Item pictures and drawings are huge, where should they live?",
+    "Our IT policy says documents must be in SharePoint with our retention labels, not in the ERP",
+    "As a partner I want one standard setup for external file storage for all my customers",
+    "Is it possible to keep incoming document files on a file share for on-prem BC?",
+    "Attachments from the old NAV system need to be stored somewhere BC can still reach",
+    "We need versioning on drawings and contracts, which BC attachments don't give us",
+    "Who sets up the SharePoint connection and permissions so BC can write files there?",
+    "Store email attachments from vendors outside BC but still see them from the purchase invoice",
+    "external file storage connector BC",
+    "Drawings, photos and site reports are scattered across SharePoint, email and USB sticks",
+    "How do I attach documents to a job in BC and see them from the task?",
+    "SharePoint folder per project from BC",
+    "We want a folder created automatically in SharePoint when a new job is created",
+    "Site photos from phones should land on the right project",
+    "Is there a document management app for BC jobs with version control?",
+    "Nobody can find the latest version of the drawing",
+    "Lessons learned from past projects are never written down or reused",
+    "We need the signed handover documents stored with the project",
+    "Search across all project documents by customer or job number",
+    "Old projects' documents need to be kept for 10 years",
+    "Engineers keep their own copies of project files on their laptop"
+  ],
+  "questions": [
+    {
+      "id": "storage",
+      "text": "Where should your documents be stored?",
+      "help": "Pick every place you already use or want to use.",
+      "multi": true,
+      "options": [
+        {
+          "label": "SharePoint / Microsoft 365",
+          "patterns": [
+            "sharepoint",
+            "onedrive",
+            "microsoft 365",
+            "teams"
+          ]
+        },
+        {
+          "label": "Azure storage",
+          "patterns": [
+            "azure (blob|files?|storage|file share)"
+          ]
+        },
+        {
+          "label": "Other cloud or own servers (AWS S3, Wasabi, FTP, file server)",
+          "patterns": [
+            "\\bs3\\b",
+            "wasabi",
+            "cloudflare",
+            "hetzner",
+            "\\bs?ftp\\b",
+            "file ?server",
+            "(local|the|a) file ?system",
+            "smb",
+            "on-?prem.{0,30}(server|files)",
+            "own servers"
+          ]
+        },
+        {
+          "label": "A dedicated DMS (ELO, DocuWare, M-Files, d.velop...)",
+          "patterns": [
+            "\\belo\\b",
+            "docuware",
+            "m-files",
+            "d\\.velop",
+            "therefore",
+            "arxivar",
+            "saperion",
+            "shareflex",
+            "jobrouter",
+            "mayan",
+            "arxeia",
+            "\\becm\\b"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "SharePoint / Microsoft 365": 0.43,
+        "Azure storage": 0.23,
+        "Other cloud or own servers (AWS S3, Wasabi, FTP, file server)": 0.09,
+        "A dedicated DMS (ELO, DocuWare, M-Files, d.velop...)": 0.3
+      }
+    },
+    {
+      "id": "autoarchive",
+      "text": "Should BC file documents automatically?",
+      "help": "For example every posted invoice saved as PDF without anyone clicking.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, outgoing documents when posted, printed or emailed",
+          "patterns": [
+            "automatic(ally)? (archiv|stor|upload|export|filing|pdf)",
+            "archiv\\w* (automatically|on posting|in background|at printing)",
+            "(on|when) (posting|printing|print)",
+            "print report",
+            "report archiving",
+            "outgoing (bc )?documents",
+            "outbound documents",
+            "sent invoices",
+            "outgoing invoices",
+            "archives? (generated|posted|outgoing|fully)"
+          ]
+        },
+        {
+          "label": "Yes, incoming documents and emails",
+          "patterns": [
+            "incoming (documents|invoices|mail|files)",
+            "inbound documents",
+            "e-?mails? (from|into|directly)",
+            "outlook",
+            "inbox",
+            "document capture",
+            "\\bocr\\b",
+            "scan"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, outgoing documents when posted, printed or emailed": 0.22,
+        "Yes, incoming documents and emails": 0.21
+      }
+    },
+    {
+      "id": "compliance",
+      "text": "Do you need a legally compliant archive?",
+      "help": "Some countries require tamper-proof storage of bookkeeping documents for years.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Audit-proof archive with retention rules (GoBD, bookkeeping act)",
+          "patterns": [
+            "audit-?(proof|compliant)",
+            "gobd",
+            "bookkeeping act",
+            "legally required",
+            "legal backup",
+            "tamper",
+            "revision-controlled",
+            "compliant archiv",
+            "retention"
+          ]
+        },
+        {
+          "label": "Version history",
+          "patterns": [
+            "version"
+          ]
+        },
+        {
+          "label": "Not needed / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Audit-proof archive with retention rules (GoBD, bookkeeping act)": 0.15,
+        "Version history": 0.1
+      }
+    },
+    {
+      "id": "capture",
+      "text": "How do your people add documents?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Drag and drop files onto a record",
+          "patterns": [
+            "drag(-| and | & |&)drop",
+            "drop ?zone"
+          ]
+        },
+        {
+          "label": "Straight from Outlook emails",
+          "patterns": [
+            "outlook",
+            "e-?mails? (from|into|directly)",
+            "drag.{0,30}e-?mails?",
+            "archives? e-?mails"
+          ]
+        },
+        {
+          "label": "Photos from a phone or tablet",
+          "patterns": [
+            "camera",
+            "take pictures",
+            "photos?",
+            "mobile access",
+            "mobile"
+          ]
+        },
+        {
+          "label": "Scanning paper with barcodes",
+          "patterns": [
+            "barcode",
+            "\\bqr\\b",
+            "scan"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Drag and drop files onto a record": 0.24,
+        "Straight from Outlook emails": 0.11,
+        "Photos from a phone or tablet": 0.07,
+        "Scanning paper with barcodes": 0.06
+      }
+    },
+    {
+      "id": "findaccess",
+      "text": "Who needs to find and open the documents?",
+      "multi": true,
+      "options": [
+        {
+          "label": "People without a BC licence",
+          "patterns": [
+            "non-bc users",
+            "without bc access",
+            "users without",
+            "business partners can upload",
+            "external part",
+            "third-party applications",
+            "outside (of )?(bc|business central)",
+            "via bc, sharepoint, teams",
+            "share .{0,30}(web links|externally)",
+            "accessible from bc, outlook or sharepoint"
+          ]
+        },
+        {
+          "label": "Search by content or tags",
+          "patterns": [
+            "full-?text",
+            "search",
+            "metadata",
+            "tag",
+            "keyword"
+          ]
+        },
+        {
+          "label": "Strict access rights per document",
+          "patterns": [
+            "permission",
+            "access control",
+            "security",
+            "role-based",
+            "restricted",
+            "rights"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "People without a BC licence": 0.07,
+        "Search by content or tags": 0.34,
+        "Strict access rights per document": 0.2
+      }
+    },
+    {
+      "id": "dbspace",
+      "text": "Are attachments eating up your BC storage quota?",
+      "help": "BC online has a database storage limit; attachments count against it.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, move existing attachments out of BC",
+          "patterns": [
+            "migrat",
+            "moves? (attachments|document files)",
+            "moves? .{0,30}out of (the )?(bc|business central)",
+            "copy files back",
+            "restores? on demand"
+          ]
+        },
+        {
+          "label": "Yes, keep new files outside the BC database",
+          "patterns": [
+            "offload",
+            "database (size|space|storage|load)",
+            "storage (quota|costs|consumption|growth)",
+            "cut storage",
+            "reduc\\w* .{0,25}(storage|database)",
+            "free (up )?(database )?space",
+            "saves? database",
+            "not (use|consume) bc database",
+            "outside (of )?(the )?(bc|business central)('s)? database",
+            "instead of (the )?(bc|business central) database",
+            "not the bc database"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, move existing attachments out of BC": 0.07,
+        "Yes, keep new files outside the BC database": 0.17
+      }
+    }
+  ]
+}

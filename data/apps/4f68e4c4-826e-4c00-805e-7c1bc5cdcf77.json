@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.vistascloudllc1646347477273|AID.10_combinepdfattachmentssalesinvoicelist|PAPPID.4f68e4c4-826e-4c00-805e-7c1bc5cdcf77",
+  "guid": "4f68e4c4-826e-4c00-805e-7c1bc5cdcf77",
+  "publisherId": "vistascloudllc1646347477273",
+  "offerId": "10_combinepdfattachmentssalesinvoicelist",
+  "source": {
+    "name": "VISTAS Combine PDF Attachment - Sales Invoice List",
+    "publisher": "Vistas Cloud LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.vistascloudllc1646347477273%7CAID.10_combinepdfattachmentssalesinvoicelist%7CPAPPID.4f68e4c4-826e-4c00-805e-7c1bc5cdcf77",
+    "lastModified": "2024-11-03T21:24:30.2143367+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://vistascloud.com/contact-us/",
+    "sourceHash": "sha256:5c34cb7682b8f0bb520d72469e5b5bc3e345800c5aa492489b3388d27f412395"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5c34cb7682b8f0bb520d72469e5b5bc3e345800c5aa492489b3388d27f412395",
+    "mappedOn": null,
+    "summary": "Combines PDF attachments when sending sales invoices",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Combines selected PDF attachments with the invoice when posting and sending",
+      "Uses PDFs attached under Document Attachment of the sales invoice",
+      "Adds a 'VS Post and Send' action",
+      "Supports Business Central Essentials and Premium",
+      "Offered in every country where Business Central is available"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.edi-electronic-data-interchange|PAPPID.135c854f-4f7a-4d00-a5c2-4da28fbdef78",
+  "guid": "135c854f-4f7a-4d00-a5c2-4da28fbdef78",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "edi-electronic-data-interchange",
+  "source": {
+    "name": "EDI (Electronic Data Interchange)",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.edi-electronic-data-interchange%7CPAPPID.135c854f-4f7a-4d00-a5c2-4da28fbdef78",
+    "lastModified": "2026-07-16T12:20:19.099313+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://knowledgebase.hubbroker.net/article/ci4o5w16ob-hub-broker",
+    "sourceHash": "sha256:dae4868de615445739d3df64a8f79f6829487433ec816af20b3d9c7046a7a4a2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dae4868de615445739d3df64a8f79f6829487433ec816af20b3d9c7046a7a4a2",
+    "mappedOn": null,
+    "summary": "EDI integration service for orders and invoices",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exchanges purchase orders, credit memos, invoices and shipping notices via EDI",
+      "Connects with suppliers, customers and logistics partners",
+      "Supports EDIFACT, X12, XML, CSV and JSON",
+      "Error monitoring for mapping and transmission errors"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

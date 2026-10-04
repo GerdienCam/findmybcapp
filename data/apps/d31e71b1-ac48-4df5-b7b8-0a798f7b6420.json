@@ -1,0 +1,99 @@
+{
+  "appId": "PUBID.foodware365|AID.aptean_production_over-pick|PAPPID.d31e71b1-ac48-4df5-b7b8-0a798f7b6420",
+  "guid": "d31e71b1-ac48-4df5-b7b8-0a798f7b6420",
+  "publisherId": "foodware365",
+  "offerId": "aptean_production_over-pick",
+  "source": {
+    "name": "Aptean Production Over Pick for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_production_over-pick%7CPAPPID.d31e71b1-ac48-4df5-b7b8-0a798f7b6420",
+    "lastModified": "2026-09-29T10:18:42.5050407+00:00",
+    "appVersion": "2602.2.344210.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/OUP/",
+    "sourceHash": "sha256:e1dd4f4e283cb7fb8a7442f694e8373609aa04bf0bd713224d620baccde0b59d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e1dd4f4e283cb7fb8a7442f694e8373609aa04bf0bd713224d620baccde0b59d",
+    "mappedOn": null,
+    "summary": "Production picking tolerance for food and beverage",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-shop-floor-reporting"
+    ],
+    "claims": [
+      "Production BOM lines get over- and under-pick tolerances, as a percentage or unlimited",
+      "Allows over-pick within tolerance (e.g. 25 kg bag for 24 kg need)",
+      "Zeroes remaining component quantity when under-pick within tolerance",
+      "Tolerances shown on warehouse and inventory pick reports",
+      "Automatically adjusts production order components after picking",
+      "Keeps original component quantities for picked vs expected comparison",
+      "Integrates with Shop Floor Control from Aptean for Food and Beverage"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

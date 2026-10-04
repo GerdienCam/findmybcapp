@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.ibbinnovations|AID.ibb-reports|PAPPID.31139095-5a7f-4622-a706-1152b2f3ce1c",
+  "guid": "31139095-5a7f-4622-a706-1152b2f3ce1c",
+  "publisherId": "ibbinnovations",
+  "offerId": "ibb-reports",
+  "source": {
+    "name": "IBB Reports for Business Central",
+    "publisher": "IBB Innovations, LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ibbinnovations%7CAID.ibb-reports%7CPAPPID.31139095-5a7f-4622-a706-1152b2f3ce1c",
+    "lastModified": "2026-07-28T07:45:59.397129+00:00",
+    "appVersion": "1.9.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://stibbrptaddindev.z20.web.core.windows.net/support.html",
+    "sourceHash": "sha256:cdaf2f29b083bef38195a23737e4deca4f7041655813beffbbf758c5ba87a1ec"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cdaf2f29b083bef38195a23737e4deca4f7041655813beffbbf758c5ba87a1ec",
+    "mappedOn": null,
+    "summary": "Live BC data in Excel for financial reporting and consolidation",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-excel-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Excel functions pull live BC data",
+      "Nothing installed in BC, uses standard API",
+      "G/L amounts by account, period and dimension",
+      "Trial balance, balance sheet and income statement that reconcile themselves",
+      "Multi-company consolidation",
+      "Burst distribution of personalized reports per recipient",
+      "Scheduling and alerts",
+      "Queries run with user's BC permissions",
+      "Entra single sign-on, stores no BC records",
+      "Starter, Pro and Enterprise plans"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Excel",
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

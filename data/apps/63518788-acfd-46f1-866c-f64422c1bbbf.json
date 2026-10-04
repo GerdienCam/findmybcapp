@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-complaint-mgmt|PAPPID.63518788-acfd-46f1-866c-f64422c1bbbf",
+  "guid": "63518788-acfd-46f1-866c-f64422c1bbbf",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-complaint-mgmt",
+  "source": {
+    "name": "Powerblox Complaint Management",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-complaint-mgmt%7CPAPPID.63518788-acfd-46f1-866c-f64422c1bbbf",
+    "lastModified": "2026-07-21T15:24:28.2153905+00:00",
+    "appVersion": "26.0.2.65931",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/Complaints",
+    "sourceHash": "sha256:a6bf539cf23ee1623d7a0605b748837174d758a9f20a728d9ca12ef990e1422f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a6bf539cf23ee1623d7a0605b748837174d758a9f20a728d9ca12ef990e1422f",
+    "mappedOn": null,
+    "summary": "Customer and vendor complaint handling",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-returns",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-nonconformance-capa",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-returns-credits",
+      "ng-case-resolve"
+    ],
+    "claims": [
+      "Registers complaints from customers, vendors and internal staff",
+      "Assigns tasks to BC users",
+      "Custom workflows per complaint type",
+      "Blocks invoice reminders automatically during complaints",
+      "Detailed complaint info per item",
+      "Creates credit memos and returns from complaints",
+      "Consolidates customer complaints into vendor complaints",
+      "Tracks complaint expenses",
+      "Integrates with Powerblox Quality Control"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

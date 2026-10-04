@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.navbizdoo1640860583806|AID.navbiz_extended_manufacturing_disassembly|PAPPID.57b7812a-a4ba-4dff-9cd6-28bb3e1beedb",
+  "guid": "57b7812a-a4ba-4dff-9cd6-28bb3e1beedb",
+  "publisherId": "navbizdoo1640860583806",
+  "offerId": "navbiz_extended_manufacturing_disassembly",
+  "source": {
+    "name": "NavBiz Extended Manufacturing - Disassembly",
+    "publisher": "NavBiz d.o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navbizdoo1640860583806%7CAID.navbiz_extended_manufacturing_disassembly%7CPAPPID.57b7812a-a4ba-4dff-9cd6-28bb3e1beedb",
+    "lastModified": "2026-08-28T13:11:24.9036047+00:00",
+    "appVersion": "28.1.20260828.101155",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://navbiz.hr/info/",
+    "sourceHash": "sha256:498699ade64eb8dcfbe5c19b847e62988c2d06e1c3d37303f88296fb18a40835"
+  },
+  "mapping": {
+    "sourceHash": "sha256:498699ade64eb8dcfbe5c19b847e62988c2d06e1c3d37303f88296fb18a40835",
+    "mappedOn": null,
+    "summary": "Disassembly customizations and reports for manufacturing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning"
+    ],
+    "claims": [
+      "For companies that disassemble or cut raw materials into semi-finished or finished products",
+      "Production Disassembly list/card defines output products by percentage of one raw material",
+      "Production Disassembly is assigned on the item card",
+      "Released production orders automatically recognized as disassembly orders based on item card",
+      "Refreshing the order fills disassembly output lines with estimated quantities",
+      "All disassembly order lines drawn into the production journal for fast posting",
+      "Report of expected vs finished quantity by defined percentage",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

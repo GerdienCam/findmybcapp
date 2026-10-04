@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.navidainformationssysteme1611067488644|AID.analysis_mode_for_power_bi|PAPPID.377cb8e1-8ce4-4fc2-ae36-9b529f637391",
+  "guid": "377cb8e1-8ce4-4fc2-ae36-9b529f637391",
+  "publisherId": "navidainformationssysteme1611067488644",
+  "offerId": "analysis_mode_for_power_bi",
+  "source": {
+    "name": "BC2Fab - AI Insights",
+    "publisher": "navida",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navidainformationssysteme1611067488644%7CAID.analysis_mode_for_power_bi%7CPAPPID.377cb8e1-8ce4-4fc2-ae36-9b529f637391",
+    "lastModified": "2026-09-15T13:48:26.2617185+00:00",
+    "appVersion": "1.5.3.3",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://docs.bc2fab.com/analysis-mode/install.html",
+    "sourceHash": "sha256:0291392c54948cc8c71d1931b8c33e330af122109bc1b4d707e7cec75c863a7c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0291392c54948cc8c71d1931b8c33e330af122109bc1b4d707e7cec75c863a7c",
+    "mappedOn": null,
+    "summary": "AI sales insights and Power BI analysis in BC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-analytics",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-ai-assistant",
+      "ng-ux-excel-reporting"
+    ],
+    "claims": [
+      "Figures are computed live by the Power BI engine using the signed-in user's identity",
+      "Ready-made sales report with net sales, gross profit, order income, backlog and expected net sales vs prior year",
+      "AI writes interpretation of what moved and why per report and KPI",
+      "Break down KPIs by categories, customers, salespeople or dimensions",
+      "Chat answers questions with live figures and shows the DAX queries run",
+      "Exports breakdown as live Excel pivot or PDF",
+      "Analysis mode on any Power BI semantic model",
+      "Copilot creates analyses from plain language",
+      "Applies model permissions together with row-level security",
+      "Works with Power BI Pro, no Premium capacity required",
+      "AI runs on customer's own Azure OpenAI resource (bring your own key)",
+      "Requires Business Central online",
+      "Sales report needs a sales model built on navida sales template (BC2Fab or NAVBI)",
+      "Analysis users need a Power BI Pro license",
+      "Personal analysis tabs saved per user"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power BI",
+      "Microsoft Fabric",
+      "Azure OpenAI"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

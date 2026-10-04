@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.wiselausnirehf1587117975659|AID.wisee-invoices|PAPPID.ccc8cfa8-083f-4af3-8fc9-25c82cb2f903",
+  "guid": "ccc8cfa8-083f-4af3-8fc9-25c82cb2f903",
+  "publisherId": "wiselausnirehf1587117975659",
+  "offerId": "wisee-invoices",
+  "source": {
+    "name": "Wise e-Invoices",
+    "publisher": "Wise",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wiselausnirehf1587117975659%7CAID.wisee-invoices%7CPAPPID.ccc8cfa8-083f-4af3-8fc9-25c82cb2f903",
+    "lastModified": "2026-09-17T12:17:16.2651855+00:00",
+    "appVersion": "28.0.20260917.111",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://documents.wise.is/help/wnrl/Wise_e-Invoices_AppSourceHelp_IS.pdf",
+    "sourceHash": "sha256:2342bc6764332c14ab8a69d1d9cac156cd88785b56174a6e0687e580e861ba66"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2342bc6764332c14ab8a69d1d9cac156cd88785b56174a6e0687e580e861ba66",
+    "mappedOn": null,
+    "summary": "Sends and receives electronic invoices and credit memos",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Sends and receives electronic invoices and credit memos",
+      "Sends sales invoices with attachments electronically",
+      "Receives purchase invoices with attachments electronically",
+      "Routes incoming invoices to Wise Approvals, a journal, a purchase invoice or a Wise Banking payment",
+      "Requires a PEPPOL Access Point contract with Wise"
+    ],
+    "countries": [
+      "IS"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PEPPOL",
+      "Wise Approvals",
+      "Wise Banking"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

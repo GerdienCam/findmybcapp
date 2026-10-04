@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.goprodoo1579609051569|AID.gopro_vehicledealer|PAPPID.627f8284-c072-476f-bb1a-c43e80110523",
+  "guid": "627f8284-c072-476f-bb1a-c43e80110523",
+  "publisherId": "goprodoo1579609051569",
+  "offerId": "gopro_vehicledealer",
+  "source": {
+    "name": "Vehicle Dealer Management",
+    "publisher": "GoPro doo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.goprodoo1579609051569%7CAID.gopro_vehicledealer%7CPAPPID.627f8284-c072-476f-bb1a-c43e80110523",
+    "lastModified": "2026-03-30T13:59:16.41667+00:00",
+    "appVersion": "26.0.10.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/159/Vehicle-Service-Management",
+    "sourceHash": "sha256:7d7b504851e68a7abf89894681b36fbb02e9ac65102a665ddc4c0fccec0ab943"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7d7b504851e68a7abf89894681b36fbb02e9ac65102a665ddc4c0fccec0ab943",
+    "mappedOn": null,
+    "summary": "Sales of new and used vehicles with vehicle cards",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-dealers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-assets"
+    ],
+    "claims": [
+      "Vehicle card with VIN, make, model, year, registration, engine details",
+      "Creates an item from the vehicle card",
+      "Tracks history of vehicle status",
+      "Creates service orders for vehicle maintenance",
+      "Supports Essentials and Premium editions",
+      "Available worldwide"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sr"
+    ],
+    "industries": [
+      "Automotive"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

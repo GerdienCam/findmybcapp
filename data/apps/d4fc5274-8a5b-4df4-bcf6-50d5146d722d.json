@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.detailed-overheads-app|PAPPID.d4fc5274-8a5b-4df4-bcf6-50d5146d722d",
+  "guid": "d4fc5274-8a5b-4df4-bcf6-50d5146d722d",
+  "publisherId": "fenwicksoftware",
+  "offerId": "detailed-overheads-app",
+  "source": {
+    "name": "Detailed Overheads",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.detailed-overheads-app%7CPAPPID.d4fc5274-8a5b-4df4-bcf6-50d5146d722d",
+    "lastModified": "2026-09-28T00:17:20.3841368+00:00",
+    "appVersion": "28.0.260924.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/detailed-overheads/docs",
+    "sourceHash": "sha256:bcef297b079a676df065686d1e2bbe0fa850114cb1c09c795ec3d4d4a074e2f7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bcef297b079a676df065686d1e2bbe0fa850114cb1c09c795ec3d4d4a074e2f7",
+    "mappedOn": null,
+    "summary": "Categorizes overhead and indirect costs for production costing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Creates overhead groups assigned to items and work/machine centers",
+      "Auto-calculates indirect cost % and overhead rate from detail",
+      "Links Indirect Cost Value Entries to Detailed Overhead Value Entries so they can be analyzed",
+      "Posts overhead recoveries to dedicated G/L recovery accounts per overhead group",
+      "Integrated with standard cost worksheet; suggests new rates using an adjustment factor",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

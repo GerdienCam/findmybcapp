@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.nmatrixconsultingservicespteltd1615266682374|AID.nmxovership|PAPPID.b09a4160-f614-4599-a24c-d86d6722e49f",
+  "guid": "b09a4160-f614-4599-a24c-d86d6722e49f",
+  "publisherId": "nmatrixconsultingservicespteltd1615266682374",
+  "offerId": "nmxovership",
+  "source": {
+    "name": "Sales Order Over Shipments",
+    "publisher": "NMATRIX CONSULTING SERVICES PTE. LTD.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nmatrixconsultingservicespteltd1615266682374%7CAID.nmxovership%7CPAPPID.b09a4160-f614-4599-a24c-d86d6722e49f",
+    "lastModified": "2025-08-15T04:10:56.0609197+00:00",
+    "appVersion": "26.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nmatrixcs.com/Features.html",
+    "sourceHash": "sha256:b5d3d6aadb7013d91648a441a25eddf8b81f5fcd4cd054c5c86d447a96469c67"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b5d3d6aadb7013d91648a441a25eddf8b81f5fcd4cd054c5c86d447a96469c67",
+    "mappedOn": null,
+    "summary": "Allows overshipping on sales orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Ship more than the sales order quantity",
+      "Essentials and Premium; all countries; English (US)"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

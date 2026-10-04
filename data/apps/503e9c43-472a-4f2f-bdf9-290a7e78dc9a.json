@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.draycir1663749715587|AID.spindledocumentdistribution|PAPPID.503e9c43-472a-4f2f-bdf9-290a7e78dc9a",
+  "guid": "503e9c43-472a-4f2f-bdf9-290a7e78dc9a",
+  "publisherId": "draycir1663749715587",
+  "offerId": "spindledocumentdistribution",
+  "source": {
+    "name": "Spindle Document Distribution",
+    "publisher": "Draycir",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.draycir1663749715587%7CAID.spindledocumentdistribution%7CPAPPID.503e9c43-472a-4f2f-bdf9-290a7e78dc9a",
+    "lastModified": "2025-10-01T14:42:31.2339839+00:00",
+    "appVersion": "1.0.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://draycir.freshdesk.com/support/solutions/folders/6000045986/",
+    "sourceHash": "sha256:15379517233fa1a4a517bb3c71273281c90b8416caf94664e2ca2b6b1fc895c0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:15379517233fa1a4a517bb3c71273281c90b8416caf94664e2ca2b6b1fc895c0",
+    "mappedOn": null,
+    "summary": "Distributes finance documents via Spindle",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-payment-providers"
+    ],
+    "claims": [
+      "Automated distribution of financial documents to customers, vendors and stakeholders",
+      "Customisable templates for invoices, purchase orders, receipts and statements",
+      "Online card payment option for customers",
+      "Extracts data directly from BC",
+      "Requires Spindle browser extension and a Spindle Document Distribution product"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Spindle Document Distribution"
+    ],
+    "requires": [
+      "Spindle Document Distribution Browser Extension",
+      "Spindle Document Distribution or Spindle Document Distribution Cloud"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.infostudi|AID.infostudi_cost_accounting|PAPPID.93fd1648-f3d4-4db5-b983-2d4dafa580b8",
+  "guid": "93fd1648-f3d4-4db5-b983-2d4dafa580b8",
+  "publisherId": "infostudi",
+  "offerId": "infostudi_cost_accounting",
+  "source": {
+    "name": "InfoStudiCostAccounting",
+    "publisher": "Info Studi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.infostudi%7CAID.infostudi_cost_accounting%7CPAPPID.93fd1648-f3d4-4db5-b983-2d4dafa580b8",
+    "lastModified": "2025-09-29T06:42:34.0150642+00:00",
+    "appVersion": "1.0.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.infostudi.it/cost-accounting/costaccounting-help",
+    "sourceHash": "sha256:152b6913818dff8638009bbc8d2c28aa1f3a04c66e9bb881bca3ae52b1dd1812"
+  },
+  "mapping": {
+    "sourceHash": "sha256:152b6913818dff8638009bbc8d2c28aa1f3a04c66e9bb881bca3ae52b1dd1812",
+    "mappedOn": null,
+    "summary": "Cost accounting and allocation of costs and revenues",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-accruals-deferrals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-budget-vs-actual"
+    ],
+    "claims": [
+      "Allocates costs and revenues to the right period (competence)",
+      "Shows costs and revenues not yet accrued in cost accounting (invoices to receive/issue)",
+      "Budget amounts on chart of cost centers and cost objects",
+      "Recurring cost entries that self-delete",
+      "Delete a range of cost entries without touching G/L entries",
+      "Copy or reverse cost entries",
+      "Make Global Dimension 1 mandatory on income statement G/L accounts",
+      "Change cost center and cost object on posted cost entries",
+      "Post with both cost accounting dimensions without allocations",
+      "Number series in cost journal",
+      "Available in all countries except Italy"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

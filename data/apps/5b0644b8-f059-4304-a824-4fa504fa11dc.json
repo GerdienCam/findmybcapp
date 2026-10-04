@@ -1,0 +1,70 @@
+{
+  "appId": "TYPE.connect|PUBID.avironindustriesinc1760459145841|AID.aviron-business-central-ap-automation|PAPPID.5b0644b8-f059-4304-a824-4fa504fa11dc",
+  "guid": "5b0644b8-f059-4304-a824-4fa504fa11dc",
+  "publisherId": "avironindustriesinc1760459145841",
+  "offerId": "aviron-business-central-ap-automation",
+  "source": {
+    "name": "Aviron AP Automation- Procure-to-Pay workflow",
+    "publisher": "Aviron Industries Inc",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.avironindustriesinc1760459145841%7CAID.aviron-business-central-ap-automation%7CPAPPID.5b0644b8-f059-4304-a824-4fa504fa11dc",
+    "lastModified": "2026-09-08T07:41:46.3382621+00:00",
+    "appVersion": "1.0.2.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.aviron.ai/",
+    "sourceHash": "sha256:a788a11785b109a71d248b2d92505b70803acb1eae8bfecbb0f6302586961514"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a788a11785b109a71d248b2d92505b70803acb1eae8bfecbb0f6302586961514",
+    "mappedOn": null,
+    "summary": "AI agents automating procure-to-pay and AP",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-purchase-orders",
+      "ng-admin-copilot-agents"
+    ],
+    "claims": [
+      "Invoice capture from email, portals and EDI",
+      "Header and line level data extraction",
+      "Automatic 3-way matching to POs and receipts",
+      "AI-suggested resolutions for exceptions",
+      "Generates purchase requisitions from natural language requests",
+      "GL coding suggested from historical patterns",
+      "Automated PO creation",
+      "Routes approvals by org hierarchy, cost centers and spend thresholds",
+      "Touchless processing for in-policy matches",
+      "Tolerance and contract validation rules",
+      "Workflow logic written in plain English, versioned and editable without code",
+      "Agents learn from human corrections",
+      "SOC 2 Type II certified with immutable audit trails"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

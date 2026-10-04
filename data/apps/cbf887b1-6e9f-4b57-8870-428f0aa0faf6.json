@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.cosmoconsultag|AID.withholding_tax_localization_bc|PAPPID.cbf887b1-6e9f-4b57-8870-428f0aa0faf6",
+  "guid": "cbf887b1-6e9f-4b57-8870-428f0aa0faf6",
+  "publisherId": "cosmoconsultag",
+  "offerId": "withholding_tax_localization_bc",
+  "source": {
+    "name": "COSMO Withholding Tax Localization",
+    "publisher": "COSMO CONSULT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.withholding_tax_localization_bc%7CPAPPID.cbf887b1-6e9f-4b57-8870-428f0aa0faf6",
+    "lastModified": "2026-07-02T06:03:45.2172088+00:00",
+    "appVersion": "26.0.9.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.cosmoconsult.com/en/contact",
+    "sourceHash": "sha256:a3f421b51afc9559da246155fc2011ae4a8c964cee8417c2dd46b9b9fad6486a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a3f421b51afc9559da246155fc2011ae4a8c964cee8417c2dd46b9b9fad6486a",
+    "mappedOn": null,
+    "summary": "Withholding tax for the Philippines and Thailand",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Withholding tax for the Philippines and Thailand",
+      "WHT posting groups for partners and products",
+      "WHT posting setup per Philippine BIR or Thai rules",
+      "Real-time WHT calculation on purchases",
+      "Audit-ready WHT entries",
+      "Pre-built Philippine BIR form reports"
+    ],
+    "countries": [
+      "PH",
+      "TH"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.systemsolutions|AID.label-printer|PAPPID.8d7458bf-1155-429e-b22f-a4234d00e2af",
+  "guid": "8d7458bf-1155-429e-b22f-a4234d00e2af",
+  "publisherId": "systemsolutions",
+  "offerId": "label-printer",
+  "source": {
+    "name": "Label Printer",
+    "publisher": "System Solutions LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemsolutions%7CAID.label-printer%7CPAPPID.8d7458bf-1155-429e-b22f-a4234d00e2af",
+    "lastModified": "2026-02-20T06:59:26.739108+00:00",
+    "appVersion": "2.7.2.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://syssolutionsllc.com/user-guides/",
+    "sourceHash": "sha256:a6d01208b252674e5d88a51f6ca1a86b40300d98ef2486f574956e1dc392dd27"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a6d01208b252674e5d88a51f6ca1a86b40300d98ef2486f574956e1dc392dd27",
+    "mappedOn": null,
+    "summary": "Creates and prints item labels with barcodes",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Prints labels containing text, numbers and barcodes",
+      "Shelf/item price labels based on price changes with not-yet-printed filters",
+      "Labels from sales orders, invoices and posted invoices",
+      "Labels from purchase orders and posted purchase invoices",
+      "Labels per unit of measure",
+      "Print per quantity on hand, received or sold",
+      "Switch label layout on the fly"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

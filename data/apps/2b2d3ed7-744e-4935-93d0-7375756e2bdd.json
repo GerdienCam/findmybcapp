@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.autocontas|AID.pas_2021_2|PAPPID.2b2d3ed7-744e-4935-93d0-7375756e2bdd",
+  "guid": "2b2d3ed7-744e-4935-93d0-7375756e2bdd",
+  "publisherId": "autocontas",
+  "offerId": "pas_2021_2",
+  "source": {
+    "name": "Parcels",
+    "publisher": "Aricoma Systems a.s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.autocontas%7CAID.pas_2021_2%7CPAPPID.2b2d3ed7-744e-4935-93d0-7375756e2bdd",
+    "lastModified": "2026-09-29T13:05:00.7563092+00:00",
+    "appVersion": "28.5.54151.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/Solutions/parcels.html",
+    "sourceHash": "sha256:81447a47da5d6e69f1889b61c6806ef1bbfeb7e42a8a679540c6547727957c6b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:81447a47da5d6e69f1889b61c6806ef1bbfeb7e42a8a679540c6547727957c6b",
+    "mappedOn": null,
+    "summary": "Creates shipments and labels via Balikobot.cz carriers",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Prepares and dispatches customer shipments",
+      "Electronic data exchange with carriers",
+      "Online tracking of delivery progress and result",
+      "Integrates with the Balikobot.cz service",
+      "Carriers include DHL, DPD, GLS, Zásilkovna, Czech Post and Slovak Post",
+      "Supports shipping from Czech Republic, Slovakia and Hungary"
+    ],
+    "countries": [
+      "CZ",
+      "HU",
+      "SK"
+    ],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Balikobot.cz",
+      "DHL",
+      "DPD",
+      "GLS",
+      "Zásilkovna",
+      "Czech Post",
+      "Slovak Post"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

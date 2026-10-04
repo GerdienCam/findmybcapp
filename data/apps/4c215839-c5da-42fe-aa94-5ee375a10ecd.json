@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.it_integro|AID.bc_eb-dk_001|PAPPID.4c215839-c5da-42fe-aa94-5ee375a10ecd",
+  "guid": "4c215839-c5da-42fe-aa94-5ee375a10ecd",
+  "publisherId": "it_integro",
+  "offerId": "bc_eb-dk_001",
+  "source": {
+    "name": "Electronic Banking Extension DK",
+    "publisher": "IT.integro sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.it_integro%7CAID.bc_eb-dk_001%7CPAPPID.4c215839-c5da-42fe-aa94-5ee375a10ecd",
+    "lastModified": "2026-08-11T09:31:47.3170407+00:00",
+    "appVersion": "1.7.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.it.integro.pl/en-us/electronic-banking/index.html",
+    "sourceHash": "sha256:c1877168a343a4367072107c7f7527cfb526cf22ead800ac3d3d3898128492a9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c1877168a343a4367072107c7f7527cfb526cf22ead800ac3d3d3898128492a9",
+    "mappedOn": null,
+    "summary": "Danish bank integration for payments and statements",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exchanges payment proposals and bank statements with Danish banks",
+      "Integrates with Danish BC localization",
+      "Supports SEPA, MT, CSV, XML file exchange, web services and host-to-host SFTP",
+      "Copilot-powered bank statement reconciliation",
+      "Bank statement import with automated mapping",
+      "Remittance advice",
+      "User roles, workflow and approval steps"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Danish banks"
+    ],
+    "requires": [
+      "Electronic Banking Base App"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.norriq-1020462|AID.cdh_connector|PAPPID.70d465ba-2674-4139-9192-db946e36557f",
+  "guid": "70d465ba-2674-4139-9192-db946e36557f",
+  "publisherId": "norriq-1020462",
+  "offerId": "cdh_connector",
+  "source": {
+    "name": "Cloud Data Hub Connector",
+    "publisher": "NORRIQ",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.norriq-1020462%7CAID.cdh_connector%7CPAPPID.70d465ba-2674-4139-9192-db946e36557f",
+    "lastModified": "2026-09-16T13:11:12.4873119+00:00",
+    "appVersion": "1.0.0.26",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://earlyaccess.care.norriq.com/",
+    "sourceHash": "sha256:83f6aa38ac4957c47a0f9f5b134aa30cc9999eeedc47c22c71ffb39819538331"
+  },
+  "mapping": {
+    "sourceHash": "sha256:83f6aa38ac4957c47a0f9f5b134aa30cc9999eeedc47c22c71ffb39819538331",
+    "mappedOn": null,
+    "summary": "Integrates BC with NORRIQ Cloud Data Hub for B2B webshops",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-assortment-catalogs",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Access to customer data, pricing, discounts and inventory via Cloud Data Hub",
+      "Manage customer assortments and private labels",
+      "View webshop orders and identify order errors",
+      "Essentials and Premium; English (US)"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "NORRIQ Cloud Data Hub"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

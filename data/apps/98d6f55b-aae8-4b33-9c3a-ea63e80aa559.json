@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.nas_conception|AID.nc365_tdsic|PAPPID.98d6f55b-aae8-4b33-9c3a-ea63e80aa559",
+  "guid": "98d6f55b-aae8-4b33-9c3a-ea63e80aa559",
+  "publisherId": "nas_conception",
+  "offerId": "nc365_tdsic",
+  "source": {
+    "name": "NC365 TD SYNNEX ION connect",
+    "publisher": "NAS conception GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nas_conception%7CAID.nc365_tdsic%7CPAPPID.98d6f55b-aae8-4b33-9c3a-ea63e80aa559",
+    "lastModified": "2026-04-01T15:05:08.6165253+00:00",
+    "appVersion": "27.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nasconception.de/nc365-tdsynnex-ion-connect",
+    "sourceHash": "sha256:373a4e4edbd85426e3ab225c6838ac7183a5fb0b702bd42253887ca6c3d219cd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:373a4e4edbd85426e3ab225c6838ac7183a5fb0b702bd42253887ca6c3d219cd",
+    "mappedOn": null,
+    "summary": "Imports StreamOne ION subscription data for billing",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Creates subscriptions and customer subscription contracts from StreamOne ION data",
+      "Meant for licenses in Microsoft Cloud that are booked through TD SYNNEX",
+      "Future quantity changes updated automatically in existing contracts",
+      "Integrates customer, order and subscription data from StreamOne ION",
+      "Activate or deactivate automatic contract renewals",
+      "Feeds BC's Subscription Billing module",
+      "Price 49 EUR per month"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "GB",
+      "IT",
+      "NL",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "no",
+      "sv"
+    ],
+    "industries": [
+      "Microsoft CSP resellers"
+    ],
+    "connectsTo": [
+      "TD SYNNEX StreamOne ION"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

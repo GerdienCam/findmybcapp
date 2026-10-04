@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.wiselausnirehf1587117975659|AID.wisetravelexpenses|PAPPID.a90fee55-9378-4e68-a503-edaf26f0029b",
+  "guid": "a90fee55-9378-4e68-a503-edaf26f0029b",
+  "publisherId": "wiselausnirehf1587117975659",
+  "offerId": "wisetravelexpenses",
+  "source": {
+    "name": "Wise Travel Expenses",
+    "publisher": "Wise",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wiselausnirehf1587117975659%7CAID.wisetravelexpenses%7CPAPPID.a90fee55-9378-4e68-a503-edaf26f0029b",
+    "lastModified": "2026-09-29T13:08:54.3108975+00:00",
+    "appVersion": "28.0.20260929.12",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://wise.is/en/contact-us/",
+    "sourceHash": "sha256:2a20b4e5d708d57f632da2ea64cdaa08040c60386004ddd679214b67a3589250"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2a20b4e5d708d57f632da2ea64cdaa08040c60386004ddd679214b67a3589250",
+    "mappedOn": null,
+    "summary": "Manages employee travel expenses",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-currency"
+    ],
+    "claims": [
+      "Tracks all costs for employee travel",
+      "Connects hotel expenses and fares to trips",
+      "One or more trips linked to multiple settlements",
+      "Currency rates retrieved from the currency table",
+      "Electronic submission of cash payments and payslips"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

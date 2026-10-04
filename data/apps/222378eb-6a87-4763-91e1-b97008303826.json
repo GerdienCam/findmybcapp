@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.1611654064837|AID.replication_common_instances|PAPPID.222378eb-6a87-4763-91e1-b97008303826",
+  "guid": "222378eb-6a87-4763-91e1-b97008303826",
+  "publisherId": "1611654064837",
+  "offerId": "replication_common_instances",
+  "source": {
+    "name": "Replication Common Entities",
+    "publisher": "Dynamic Aspect Partners Pty Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1611654064837%7CAID.replication_common_instances%7CPAPPID.222378eb-6a87-4763-91e1-b97008303826",
+    "lastModified": "2026-07-23T08:06:00.9942739+00:00",
+    "appVersion": "1.0.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicaspect.com.au/contact",
+    "sourceHash": "sha256:e9f225983ac70b1e948045e23cf3f58ddcfdf1ca888fba2068d2ccb6ba3eedd1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e9f225983ac70b1e948045e23cf3f58ddcfdf1ca888fba2068d2ccb6ba3eedd1",
+    "mappedOn": null,
+    "summary": "Replicates master data and other records between companies or tenants",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Replicates any BC entity between companies or tenants",
+      "Syncs data between different environments (databases/tenants)",
+      "Template/base company pushes changes to dependent companies",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

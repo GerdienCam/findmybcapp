@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.horsawayit|AID.hor_service|PAPPID.39b7b543-dd5e-496a-b54e-9a3ce3a94bd7",
+  "guid": "39b7b543-dd5e-496a-b54e-9a3ce3a94bd7",
+  "publisherId": "horsawayit",
+  "offerId": "hor_service",
+  "source": {
+    "name": "Service",
+    "publisher": "Horsa Way",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_service%7CPAPPID.39b7b543-dd5e-496a-b54e-9a3ce3a94bd7",
+    "lastModified": "2026-10-01T15:39:38.1739081+00:00",
+    "appVersion": "5.5.10000.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://blog.horsaway.it/app-service/",
+    "sourceHash": "sha256:38425ffa3b44ca0a715a050f3a117bcef3f25189e83e933a3b026f1922466aca"
+  },
+  "mapping": {
+    "sourceHash": "sha256:38425ffa3b44ca0a715a050f3a117bcef3f25189e83e933a3b026f1922466aca",
+    "mappedOn": null,
+    "summary": "Service and rental management covering service business processes",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-svc-requests",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-svc-dispatch",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-field-execution",
+      "ng-svc-analytics"
+    ],
+    "claims": [
+      "Work orders and quotes",
+      "Models and service items",
+      "Maintenance plans per model generating scheduled proposals",
+      "Graphical resource planning for intervention assignment",
+      "Customizable service prices and specific billing",
+      "Service cost and revenue analysis",
+      "Spare parts and checklist activities on work orders",
+      "Android mobile app with offline mode",
+      "60-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

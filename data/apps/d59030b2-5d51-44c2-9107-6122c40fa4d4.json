@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.orderbase|AID.ocg_vpe|PAPPID.d59030b2-5d51-44c2-9107-6122c40fa4d4",
+  "guid": "d59030b2-5d51-44c2-9107-6122c40fa4d4",
+  "publisherId": "orderbase",
+  "offerId": "ocg_vpe",
+  "source": {
+    "name": "orderbase VariPlus extended",
+    "publisher": "orderbase consulting GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.orderbase%7CAID.ocg_vpe%7CPAPPID.d59030b2-5d51-44c2-9107-6122c40fa4d4",
+    "lastModified": "2026-08-07T14:38:20.6493001+00:00",
+    "appVersion": "28.0.26.10",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.orderbase.de/en/addons/variplus/",
+    "sourceHash": "sha256:f2d85786716a45a45beb7b1dd5801cd3bde6f1683e12603d6ab01ee0ac1aa7c5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f2d85786716a45a45beb7b1dd5801cd3bde6f1683e12603d6ab01ee0ac1aa7c5",
+    "mappedOn": null,
+    "summary": "Generates BOM and routing variants with plausibility checks",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Formula system for items following a basic scheme with varying specifications",
+      "Checks chosen parameters for plausibility and creates BOMs and routings",
+      "Dynamic creation of routings",
+      "Global variables and sales line parameters including price",
+      "Automatic inserted extended texts",
+      "Variant inheritance and purchases included",
+      "Requires BC Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

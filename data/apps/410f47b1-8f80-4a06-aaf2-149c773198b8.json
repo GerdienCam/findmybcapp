@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.dynaway|AID.dynaway_eam_bc|PAPPID.410f47b1-8f80-4a06-aaf2-149c773198b8",
+  "guid": "410f47b1-8f80-4a06-aaf2-149c773198b8",
+  "publisherId": "dynaway",
+  "offerId": "dynaway_eam_bc",
+  "source": {
+    "name": "Dynaway EAM",
+    "publisher": "Dynaway A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.dynaway_eam_bc%7CPAPPID.410f47b1-8f80-4a06-aaf2-149c773198b8",
+    "lastModified": "2026-08-28T11:12:37.4079732+00:00",
+    "appVersion": "2607.0.1508.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.dynaway.com/eam-bc/",
+    "sourceHash": "sha256:bb1f6dc5e227b871863cd7ec3d43f31deb4c9f987fb9050a953d12f3227a8b59"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bb1f6dc5e227b871863cd7ec3d43f31deb4c9f987fb9050a953d12f3227a8b59",
+    "mappedOn": null,
+    "summary": "Enterprise asset management and maintenance",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-field-execution",
+      "ng-hr-health-safety",
+      "ng-fa-register"
+    ],
+    "claims": [
+      "Automates inventory management and controls spare parts",
+      "Posts labor, spare parts and expense costs to general ledger",
+      "Purchase requisitions and purchase orders from maintenance",
+      "Time sheet registrations",
+      "Work with external contractors",
+      "Relates maintenance costs to projects/jobs",
+      "Bills end-customers, or re-bills between intercompany entities",
+      "Counter-, calendar- and measurement-based preventive maintenance",
+      "Drag and drop work scheduling boards",
+      "Mobile work execution with offline capabilities",
+      "Analytics and reporting packages in Power BI and Excel",
+      "Assisted setup guide and free license registration",
+      "Audit trails for health and safety compliance",
+      "Automatic resource/work allocation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Energy",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Power BI",
+      "Excel"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

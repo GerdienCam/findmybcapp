@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_nzbn_lookup_service|PAPPID.197c78d3-7abf-4480-aab3-7745fb9eac9e",
+  "guid": "197c78d3-7abf-4480-aab3-7745fb9eac9e",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_nzbn_lookup_service",
+  "source": {
+    "name": "Fusion5 NZBN Lookup Service",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_nzbn_lookup_service%7CPAPPID.197c78d3-7abf-4480-aab3-7745fb9eac9e",
+    "lastModified": "2026-03-09T16:05:13.3318523+00:00",
+    "appVersion": "2600.2.20260310.11719",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://topaz-gitadmin.github.io/Manual/AddOns-Integration/NZBN/NZBN-Manual/",
+    "sourceHash": "sha256:f19a1fb4192665eb6aeae7000a9582d65b0a9c87ffdb6b07678c0528f844842c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f19a1fb4192665eb6aeae7000a9582d65b0a9c87ffdb6b07678c0528f844842c",
+    "mappedOn": null,
+    "summary": "Looks up New Zealand business numbers and addresses",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Retrieves NZBN, GST registration no. and registered address",
+      "Searches entities by legal or trading name via NZBN API",
+      "Requires MBIE Cloud API subscription key, renewed annually",
+      "Available on customer, vendor and company information cards"
+    ],
+    "countries": [
+      "NZ"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "NZBN Register",
+      "MBIE Cloud API"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

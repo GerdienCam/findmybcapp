@@ -1,0 +1,246 @@
+{
+  "id": "ng-vert-professional-services",
+  "order": 213,
+  "label": "Solutions for law firms, accountants and consultancies",
+  "description": "Industry solutions for professional services firms: matters and engagements, time and fees, practice management for law and accounting firms, IT resellers and MSPs, media agencies.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for law firms, accountants and consultancies",
+    "Industry solutions for professional services firms: matters and engagements, time and fees, practice management for law and accounting firms, IT resellers and MSPs, media agencies.",
+    "Law firm looking for case management on BC",
+    "Accounting practice managing client engagements",
+    "Consultancy with time, expenses and fixed-fee projects",
+    "Matter-based billing and trust accounting",
+    "IT reseller with licences, hardware and services",
+    "MSP billing from our PSA tool",
+    "Media agency with campaigns and bookings",
+    "Utilization of our consultants is unknown",
+    "Professional services firm, 80 people, moving from spreadsheets",
+    "Debt collection cases for clients",
+    "Engineering consultancy with project budgets",
+    "Work in progress for client matters"
+  ],
+  "questions": [
+    {
+      "id": "firm",
+      "text": "What kind of firm are you?",
+      "options": [
+        {
+          "label": "Law firm",
+          "patterns": [
+            "law firm",
+            "lawyer",
+            "legal",
+            "attorney",
+            "debt collection",
+            "bankrupt"
+          ]
+        },
+        {
+          "label": "Accounting or audit firm",
+          "patterns": [
+            "accountant",
+            "accounting firm",
+            "accounting practice",
+            "cpa",
+            "revisor",
+            "caseware"
+          ]
+        },
+        {
+          "label": "IT services or MSP",
+          "patterns": [
+            "\\bit industry",
+            "\\bmsps?\\b",
+            "connectwise",
+            "autotask",
+            "ticket"
+          ]
+        },
+        {
+          "label": "Consulting or other project work",
+          "patterns": [
+            "consult",
+            "professional services",
+            "project"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Law firm": 0.32,
+        "Accounting or audit firm": 0.16,
+        "IT services or MSP": 0.12,
+        "Consulting or other project work": 0.52
+      }
+    },
+    {
+      "id": "time",
+      "text": "Where do your people record their time?",
+      "multi": true,
+      "options": [
+        {
+          "label": "In a separate PSA tool (TimeLog, ConnectWise, Autotask)",
+          "patterns": [
+            "timelog",
+            "connectwise",
+            "autotask"
+          ]
+        },
+        {
+          "label": "On phone or web, with a timer",
+          "patterns": [
+            "mobile",
+            "web-based",
+            "timer",
+            "start/stop"
+          ]
+        },
+        {
+          "label": "From Outlook",
+          "patterns": [
+            "outlook"
+          ]
+        },
+        {
+          "label": "In Business Central time sheets",
+          "patterns": [
+            "time ?sheet",
+            "time recording",
+            "time capture",
+            "time and expense",
+            "time & expense",
+            "registration of time",
+            "billable time"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "In a separate PSA tool (TimeLog, ConnectWise, Autotask)": 0.16,
+        "On phone or web, with a timer": 0.16,
+        "From Outlook": 0.12,
+        "In Business Central time sheets": 0.44
+      }
+    },
+    {
+      "id": "wip",
+      "text": "Do you need work in progress and revenue recognition?",
+      "help": "Unbilled work valued and posted before invoicing.",
+      "options": [
+        {
+          "label": "Yes, WIP",
+          "patterns": [
+            "\\bwip\\b",
+            "work in progress",
+            "unbilled",
+            "revenue recognition"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, WIP": 0.28
+      }
+    },
+    {
+      "id": "intake",
+      "text": "Do new clients need conflict or KYC checks?",
+      "options": [
+        {
+          "label": "Yes, conflict and KYC checks",
+          "patterns": [
+            "conflict",
+            "\\bkyc\\b",
+            "\\baml\\b",
+            "know-your-customer"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, conflict and KYC checks": 0.16
+      }
+    },
+    {
+      "id": "plan",
+      "text": "Do you plan who works on what ahead of time?",
+      "options": [
+        {
+          "label": "Yes, resource planning",
+          "patterns": [
+            "resource planning",
+            "resource allocation",
+            "capacity",
+            "resource management",
+            "planning"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, resource planning": 0.24
+      }
+    },
+    {
+      "id": "bill",
+      "text": "How do you bill clients?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Hours worked (time and material)",
+          "patterns": [
+            "time & material",
+            "invoice time",
+            "invoices from time",
+            "time entries.*invoice",
+            "billable time",
+            "into (bc )?invoices"
+          ]
+        },
+        {
+          "label": "Fixed price or prepaid",
+          "patterns": [
+            "fixed price",
+            "prepaid",
+            "value-based"
+          ]
+        },
+        {
+          "label": "Per-client billing rules",
+          "patterns": [
+            "billing rules",
+            "flexible invoicing",
+            "consolidated invoicing"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Hours worked (time and material)": 0.28,
+        "Fixed price or prepaid": 0.08,
+        "Per-client billing rules": 0.16
+      }
+    }
+  ]
+}

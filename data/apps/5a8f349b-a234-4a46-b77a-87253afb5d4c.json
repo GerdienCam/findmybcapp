@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.aritma|AID.ari-finance-manager-dk|PAPPID.5a8f349b-a234-4a46-b77a-87253afb5d4c",
+  "guid": "5a8f349b-a234-4a46-b77a-87253afb5d4c",
+  "publisherId": "aritma",
+  "offerId": "ari-finance-manager-dk",
+  "source": {
+    "name": "Aritma Finance Manager Denmark",
+    "publisher": "Aritma AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aritma%7CAID.ari-finance-manager-dk%7CPAPPID.5a8f349b-a234-4a46-b77a-87253afb5d4c",
+    "lastModified": "2026-09-25T14:09:57.9388788+00:00",
+    "appVersion": "26.24.35.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aritma.com/support",
+    "sourceHash": "sha256:d9732b9791c3eeb53f6de9e09d29b27f9d7b89b7e745355ab1b823b0e6b8aca3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d9732b9791c3eeb53f6de9e09d29b27f9d7b89b7e745355ab1b823b0e6b8aca3",
+    "mappedOn": null,
+    "summary": "Danish banking integration for payments and bank reconciliation",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Handles outgoing payments, received payments and bank reconciliation",
+      "API support for all Scandinavian banks",
+      "One legal entity can bank with several banks"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en",
+      "fi",
+      "nb",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

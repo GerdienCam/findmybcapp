@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.activebusinesstechnology1600700277153|AID.mytools|PAPPID.ec4b4625-1c81-4ae7-bc96-3b791a018f80",
+  "guid": "ec4b4625-1c81-4ae7-bc96-3b791a018f80",
+  "publisherId": "activebusinesstechnology1600700277153",
+  "offerId": "mytools",
+  "source": {
+    "name": "myTools",
+    "publisher": "ACTIVE BUSINESS & TECHNOLOGY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.activebusinesstechnology1600700277153%7CAID.mytools%7CPAPPID.ec4b4625-1c81-4ae7-bc96-3b791a018f80",
+    "lastModified": "2026-05-18T15:37:07.9318136+00:00",
+    "appVersion": "25.0.1.21788",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://grupoactive.es/es/software/erp/business-central",
+    "sourceHash": "sha256:d5ac60226f8fd2ca6a001eda202c4f7cb89bcb2030607961576d96d52c0043ab"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d5ac60226f8fd2ca6a001eda202c4f7cb89bcb2030607961576d96d52c0043ab",
+    "mappedOn": null,
+    "summary": "Toolset for data management, FTP/SFTP downloads, labeling and printing",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-printing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Runs Insert, Update, Delete and Modify queries against local SQL databases",
+      "File management on servers via a dedicated service",
+      "Uploads and downloads files from FTP and SFTP servers without extra components",
+      "Downloads multiple files to the user device (requires local service)",
+      "Generates labels in GS1-128, EAN13, DataMatrix and QR",
+      "Direct printing to a printer via a service on the print server"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "languages": [
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "FTP/SFTP",
+      "SQL Server"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

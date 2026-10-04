@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.bcility1636664056498|AID.bcility-dodo-payments|PAPPID.1cc252de-ab6a-4bb1-a0a8-5fd3e1cafeae",
+  "guid": "1cc252de-ab6a-4bb1-a0a8-5fd3e1cafeae",
+  "publisherId": "bcility1636664056498",
+  "offerId": "bcility-dodo-payments",
+  "source": {
+    "name": "Dodo Payments",
+    "publisher": "BCILITY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcility1636664056498%7CAID.bcility-dodo-payments%7CPAPPID.1cc252de-ab6a-4bb1-a0a8-5fd3e1cafeae",
+    "lastModified": "2026-04-13T12:36:42.1755512+00:00",
+    "appVersion": "27.0.1.12",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcility.com/about-us/",
+    "sourceHash": "sha256:cc101c3ba4337e4bd7dc5a65f607548f97554b00674f82964aec3e6b1b7d9921"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cc101c3ba4337e4bd7dc5a65f607548f97554b00674f82964aec3e6b1b7d9921",
+    "mappedOn": null,
+    "summary": "Creates payment links and processes payments via Dodo Payments",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-subscription-billing"
+    ],
+    "claims": [
+      "Creates Dodo Payments checkout sessions from sales orders, posted sales invoices and sales invoices",
+      "One-click payment link creation from supported documents",
+      "Tracks payment history and status for each document",
+      "Real-time payment status refresh in BC",
+      "Supports one-time and subscription products in one checkout",
+      "Configurable recurring billing frequency daily to yearly",
+      "Free trial days configurable per product line",
+      "Each line gets a tax category: e-book, SaaS, digital products or EdTech",
+      "Purchasing Power Parity pricing support",
+      "Switch between Dodo test and live environments",
+      "Configurable return URL after payment",
+      "No card data passes through BC",
+      "Masked API key storage"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dodo Payments"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

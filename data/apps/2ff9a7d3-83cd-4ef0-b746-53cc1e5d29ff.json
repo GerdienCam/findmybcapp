@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.b2f|AID.b2f_prqst|PAPPID.2ff9a7d3-83cd-4ef0-b746-53cc1e5d29ff",
+  "guid": "2ff9a7d3-83cd-4ef0-b746-53cc1e5d29ff",
+  "publisherId": "b2f",
+  "offerId": "b2f_prqst",
+  "source": {
+    "name": "B2F Purchase Request Management",
+    "publisher": "B2F",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_prqst%7CPAPPID.2ff9a7d3-83cd-4ef0-b746-53cc1e5d29ff",
+    "lastModified": "2026-09-24T08:00:44.911264+00:00",
+    "appVersion": "28.0.22819.22819",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2024/11/PurReqUserManual.pdf",
+    "sourceHash": "sha256:0613cbed01896dc32432ea4b4c2fe528975c4c4ab62946ef1880bbd97af4ac4f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0613cbed01896dc32432ea4b4c2fe528975c4c4ab62946ef1880bbd97af4ac4f",
+    "mappedOn": null,
+    "summary": "Purchase requests, approvals, quotes and orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Purchase requests with customizable categories (consumables, raw materials)",
+      "Line status tracking Open, Awaiting Approval, Completed",
+      "Automated approval and release workflow with revisions for rejected requests",
+      "Consolidate requests, assign vendors and currency for quoting",
+      "Side-by-side quote price comparison",
+      "Direct purchase order creation for urgent needs",
+      "Tracks outstanding and received quantities per line",
+      "Procurement reports on vendor performance, costs and fulfillment"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

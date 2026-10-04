@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.dexprosolutionsgmbh|AID.72374|PAPPID.b9c8c9cc-8cd1-41cc-bf86-7da37ac74c71",
+  "guid": "b9c8c9cc-8cd1-41cc-bf86-7da37ac74c71",
+  "publisherId": "dexprosolutionsgmbh",
+  "offerId": "72374",
+  "source": {
+    "name": "DEXPRO FREEZE",
+    "publisher": "DEXPRO Solutions GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dexprosolutionsgmbh%7CAID.72374%7CPAPPID.b9c8c9cc-8cd1-41cc-bf86-7da37ac74c71",
+    "lastModified": "2026-09-10T12:44:54.4879027+00:00",
+    "appVersion": "1.29.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.squeeze.one/books/freeze-for-dynamics-365-bc-de-de",
+    "sourceHash": "sha256:779308a4da85a3aac1d5fcf0d29324be72ce55b674fd139febda34eb74241dbc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:779308a4da85a3aac1d5fcf0d29324be72ce55b674fd139febda34eb74241dbc",
+    "mappedOn": null,
+    "summary": "Accesses audit-proof archived documents from BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Audit-proof archive accessible inside BC",
+      "Documents linked automatically to business objects",
+      "Full-text and index search",
+      "GoBD-compliant archiving with retention periods",
+      "Automatic archiving on posting, print and mail",
+      "Archive service operated in Germany",
+      "Search from mobile apps or web clients",
+      "Extendable to full DMS"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DEXPRO FREEZE"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "per_transaction",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

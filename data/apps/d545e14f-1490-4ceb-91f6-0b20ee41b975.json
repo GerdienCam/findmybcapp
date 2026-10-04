@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.autocontas|AID.aea_2024_3|PAPPID.d545e14f-1490-4ceb-91f6-0b20ee41b975",
+  "guid": "d545e14f-1490-4ceb-91f6-0b20ee41b975",
+  "publisherId": "autocontas",
+  "offerId": "aea_2024_3",
+  "source": {
+    "name": "GP Tom Integration",
+    "publisher": "Aricoma Systems a.s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.autocontas%7CAID.aea_2024_3%7CPAPPID.d545e14f-1490-4ceb-91f6-0b20ee41b975",
+    "lastModified": "2026-09-29T13:09:01.6189243+00:00",
+    "appVersion": "28.5.54151.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/Solutions/GPTom-Integration.html",
+    "sourceHash": "sha256:1c52bd8e09fbd74b22dcb68670a5c79dcf619477988f87de821d7b9a4cdd824d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1c52bd8e09fbd74b22dcb68670a5c79dcf619477988f87de821d7b9a4cdd824d",
+    "mappedOn": null,
+    "summary": "Integrates GP Tom payment terminals",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos"
+    ],
+    "claims": [
+      "Accepts card payments through a mobile payment terminal",
+      "Connects to the payment system Tom from Global Payments",
+      "Pre-prepared payment form, ready after setup of access credentials",
+      "Integration can be added to any BC page",
+      "Works with the BC mobile app and a terminal with printer",
+      "Works on BC online and on-premises",
+      "Terminal can also be used standalone without BC"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Global Payments Tom"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

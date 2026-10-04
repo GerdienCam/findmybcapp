@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.efoqus-5058796|AID.replicator|PAPPID.18a4d438-88d1-44ee-a38d-3c0ea0d77338",
+  "guid": "18a4d438-88d1-44ee-a38d-3c0ea0d77338",
+  "publisherId": "efoqus-5058796",
+  "offerId": "replicator",
+  "source": {
+    "name": "Cloud Replicator",
+    "publisher": "hougaard.com",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.efoqus-5058796%7CAID.replicator%7CPAPPID.18a4d438-88d1-44ee-a38d-3c0ea0d77338",
+    "lastModified": "2026-06-26T22:35:20.6669275+00:00",
+    "appVersion": "1.0.0.124",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.hougaard.com/cloudreplicator",
+    "sourceHash": "sha256:6eca42184d5ce7853e46c4fc277d250bde4bf062b0696d547144c2ca99e942bd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6eca42184d5ce7853e46c4fc277d250bde4bf062b0696d547144c2ca99e942bd",
+    "mappedOn": null,
+    "summary": "Replicates BC data to cloud database for reporting",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Replicates to Azure Table Storage and Cosmos DB Table/Core API",
+      "Aggregates multiple companies into a single database",
+      "Scheduled daily incremental replication",
+      "Up to 100 parallel tasks per tenant",
+      "Flattens table structures",
+      "Populates all dimensions on transactional tables"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "no",
+      "ru",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Table Storage",
+      "Cosmos DB",
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

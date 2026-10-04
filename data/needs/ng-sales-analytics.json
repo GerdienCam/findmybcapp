@@ -1,0 +1,243 @@
+{
+  "id": "ng-sales-analytics",
+  "order": 24,
+  "label": "Tracking sales performance and targets",
+  "description": "Sales and revenue analysis by product, customer and rep, sales targets and which deals pay off.",
+  "type": "bpc",
+  "area": "CRM & quotes",
+  "relevance": "medium",
+  "statements": [
+    "Tracking sales performance and targets",
+    "Sales and revenue analysis by product, customer and rep, sales targets and which deals pay off.",
+    "Sales manager wants a dashboard of sales per rep against target",
+    "We can't see sales this month vs same month last year without exporting to Excel",
+    "sales KPI dashboard Business Central",
+    "Which customers bought less this year than last year?",
+    "Average order value per sales channel",
+    "Power BI sales reports for BC that work out of the box",
+    "Reps want to see their own customers' sales on their phone",
+    "Track customer churn, customers who stopped ordering",
+    "Sales by region and product group every Monday morning in my inbox",
+    "Customer lifetime value for our B2B customers",
+    "How are we tracking against the sales budget this quarter?",
+    "Spot customers whose order frequency is dropping before they leave",
+    "Revenue by customer and product group from BC without an Excel pivot",
+    "MRR and ARR reporting for our subscription business",
+    "revenue by item category report",
+    "Revenue growth month over month and year over year for the board",
+    "Revenue forecast vs actual by business line",
+    "Which share of revenue is recurring vs one-off project sales?",
+    "Revenue split by country and currency, reported in DKK",
+    "Net revenue after credit notes and rebates per customer",
+    "Revenue per service type for our consulting and support business",
+    "Recurring revenue churn and expansion each month",
+    "Revenue by dimension in BC doesn't add up because half the lines have no dimension",
+    "CFO wants a revenue bridge explaining the change from last year",
+    "We win lots of quotes but I suspect we lose money on half of them",
+    "How profitable are our quotes before we send them?",
+    "quote win rate report",
+    "What percentage of our quotes turn into orders, per rep?",
+    "Which types of customers and products do we usually win and lose?",
+    "Want to see margin on quotes vs margin on the final invoiced orders",
+    "How long does it take from first contact to order on average?",
+    "Is there a sales funnel report from lead to invoice for Business Central?",
+    "We want to know which sales activities actually lead to orders",
+    "Show me lost deals by reason and competitor for the last year",
+    "Our quoted prices are getting lower every year, we need to see the trend",
+    "Which lead sources give us the most profitable customers?",
+    "I want to ask questions about our sales data without building a Power BI report every time",
+    "Which customers are buying less this year than last year and why?",
+    "sales analysis BC Excel",
+    "Is there an AI tool that can explain our sales trends from BC data?",
+    "We want to see seasonality in sales per product group",
+    "Sales manager wants to slice sales by region, rep, item and month in one view",
+    "Which customers buy together and in what order?",
+    "Our sales data is in BC, the webshop and an old system, we can't analyze it together",
+    "Drill from total sales down to the individual invoice lines",
+    "How do price changes affect how much our customers buy?",
+    "We need customer purchase history analysis before every key account meeting",
+    "Item sales statistics in BC are too limited for what we need",
+    "BC has no place to put a sales budget per salesperson",
+    "We want each rep to see their monthly target and how far they are",
+    "sales targets per salesperson",
+    "Is there an app for sales budgets by customer and item group?",
+    "Our sales targets live in an Excel file the sales manager updates once a quarter",
+    "Need targets split by month, region and product category",
+    "How do we compare actual sales to the target in real time?",
+    "Want a dashboard showing target vs actual for each rep",
+    "Targets should be in both revenue and margin, not just turnover",
+    "We set yearly goals per key account and want to track them",
+    "Sales managers need to adjust targets mid-year when a rep changes territory",
+    "Can we set quantity goals for new products, like 500 units in Q1?",
+    "Which 20 percent of our customers bring 80 percent of our margin",
+    "ABC analysis of customers",
+    "We want to group customers by how often and how much they buy",
+    "Which customers have stopped buying from us in the last six months",
+    "Is there an app for customer segmentation using BC sales data?",
+    "Sales per industry and region so we know which markets to focus on",
+    "RFM analysis for B2B customers",
+    "We want to see which customers buy only one product line and could buy more",
+    "Our customer list has 5,000 accounts and no idea which ones matter",
+    "Customer lifetime value per segment",
+    "Market share per region compared with our sales",
+    "Map where our customers are located and what they buy"
+  ],
+  "questions": [
+    {
+      "id": "where",
+      "text": "Where do you want to look at your sales numbers?",
+      "help": "Inside Business Central screens, or in Power BI.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "inside (bc|business central)",
+            "embedded in bc",
+            "role ?cent",
+            "no external",
+            "embedded inside",
+            "right inside",
+            "home page"
+          ]
+        },
+        {
+          "label": "In Power BI",
+          "patterns": [
+            "power ?bi"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inside Business Central": 0.21,
+        "In Power BI": 0.21
+      }
+    },
+    {
+      "id": "focus",
+      "text": "What do you most want to follow?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Salesperson targets and performance",
+          "patterns": [
+            "target",
+            "per salesperson",
+            "salesperson performance"
+          ]
+        },
+        {
+          "label": "Margin and profit",
+          "patterns": [
+            "margin",
+            "gross profit",
+            "profit"
+          ]
+        },
+        {
+          "label": "Customer behaviour and churn",
+          "patterns": [
+            "churn",
+            "lifetime value",
+            "payment behaviour",
+            "pay days",
+            "sales drop",
+            "inactive customers",
+            "buying behaviour"
+          ]
+        },
+        {
+          "label": "Quotes, orders and backlog",
+          "patterns": [
+            "booking",
+            "quotes? created",
+            "backlog",
+            "order income",
+            "orders created"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Salesperson targets and performance": 0.32,
+        "Margin and profit": 0.42,
+        "Customer behaviour and churn": 0.26,
+        "Quotes, orders and backlog": 0.16
+      }
+    },
+    {
+      "id": "alerts",
+      "text": "Do you want warnings when something goes off track?",
+      "help": "For example low margin orders or customers buying less.",
+      "options": [
+        {
+          "label": "Yes, alerts or flags",
+          "patterns": [
+            "alert",
+            "notification",
+            "flags",
+            "red/green",
+            "triggers action",
+            "threshold"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, alerts or flags": 0.26
+      }
+    },
+    {
+      "id": "ai",
+      "text": "Would you like AI to explain what changed in the numbers?",
+      "options": [
+        {
+          "label": "Yes, AI insights",
+          "patterns": [
+            "\\bai\\b",
+            "co-?pilot",
+            "ai-driven",
+            "openai"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, AI insights": 0.16
+      }
+    },
+    {
+      "id": "dims",
+      "text": "Do you need to split sales by your own dimensions?",
+      "help": "Dimensions like department, region or project.",
+      "options": [
+        {
+          "label": "Yes, by dimensions",
+          "patterns": [
+            "dimension"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, by dimensions": 0.32
+      }
+    }
+  ]
+}

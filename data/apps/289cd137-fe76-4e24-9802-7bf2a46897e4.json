@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.foodware365|AID.aptean_edi_lifesciences_bridge|PAPPID.289cd137-fe76-4e24-9802-7bf2a46897e4",
+  "guid": "289cd137-fe76-4e24-9802-7bf2a46897e4",
+  "publisherId": "foodware365",
+  "offerId": "aptean_edi_lifesciences_bridge",
+  "source": {
+    "name": "Aptean EDI Bridge for Life Sciences",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_edi_lifesciences_bridge%7CPAPPID.289cd137-fe76-4e24-9802-7bf2a46897e4",
+    "lastModified": "2026-07-27T07:24:09.832587+00:00",
+    "appVersion": "2601.0.332257.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/edi",
+    "sourceHash": "sha256:a0cce5ab7757facf39ea765ec4849b409a6f028086e3fb97931584f9013bacea"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a0cce5ab7757facf39ea765ec4849b409a6f028086e3fb97931584f9013bacea",
+    "mappedOn": null,
+    "summary": "EDI exchange with trading partners for life sciences",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-vert-life-sciences"
+    ],
+    "claims": [
+      "Automatic order creation from EDI",
+      "Shipment notifications and invoices sent automatically when posted",
+      "Meets trading partner EDI standards",
+      "Managed service: partner onboarding, testing, monitoring and issue handling",
+      "One invoice, one contract, single point of contact"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Life sciences"
+    ],
+    "connectsTo": [
+      "Aptean EDI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

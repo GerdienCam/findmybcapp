@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcalbanianlocalization-is|PAPPID.459eafec-fc57-4501-89f8-5a60ebb15e26",
+  "guid": "459eafec-fc57-4501-89f8-5a60ebb15e26",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcalbanianlocalization-is",
+  "source": {
+    "name": "Albanian Localization",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcalbanianlocalization-is%7CPAPPID.459eafec-fc57-4501-89f8-5a60ebb15e26",
+    "lastModified": "2026-03-24T15:29:13.154167+00:00",
+    "appVersion": "26.15.135.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/services/localization/",
+    "sourceHash": "sha256:5ecd38c9709a3afaf580baeead5fa1e31d8fdaecb9d99c9aecdc95ae61a81637"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ecd38c9709a3afaf580baeead5fa1e31d8fdaecb9d99c9aecdc95ae61a81637",
+    "mappedOn": null,
+    "summary": "Albanian financial and tax localization",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lang-ui-language"
+    ],
+    "claims": [
+      "VAT classification setup",
+      "VAT sales/purchase ledgers",
+      "Monthly VAT declaration",
+      "Voiding documents and hiding them from VAT ledgers",
+      "Proforma invoices",
+      "Customer/vendor detail trial balance by currency",
+      "Cash receipt/payment reports"
+    ],
+    "countries": [
+      "AL"
+    ],
+    "languages": [
+      "en",
+      "sq"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

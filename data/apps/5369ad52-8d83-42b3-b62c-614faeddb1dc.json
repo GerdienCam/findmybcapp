@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.gld-dmd-connector-app|PAPPID.5369ad52-8d83-42b3-b62c-614faeddb1dc",
+  "guid": "5369ad52-8d83-42b3-b62c-614faeddb1dc",
+  "publisherId": "fenwicksoftware",
+  "offerId": "gld-dmd-connector-app",
+  "source": {
+    "name": "Good Looking Documents for Discontinued Master Data",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.gld-dmd-connector-app%7CPAPPID.5369ad52-8d83-42b3-b62c-614faeddb1dc",
+    "lastModified": "2026-03-16T11:04:56.4337591+00:00",
+    "appVersion": "26.4.260305.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/good-looking-documents/docs/",
+    "sourceHash": "sha256:a8ffde63eacdee3d418f7a273090957775ef2b2f271faf835965aac145d8fca9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a8ffde63eacdee3d418f7a273090957775ef2b2f271faf835965aac145d8fca9",
+    "mappedOn": null,
+    "summary": "Bridges Good Looking Documents and Discontinued Master Data",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Leaves discontinued contacts out of emails created through Good Looking Documents"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Fenwick Good Looking Documents",
+      "Fenwick Discontinued Master Data"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Connector app between two Fenwick apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

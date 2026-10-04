@@ -1,0 +1,50 @@
+{
+  "appId": "PUBID.langapicompany1671495449069|AID.rutter|PAPPID.53e5d980-b185-42a1-a5a1-ad9cd5712307",
+  "guid": "53e5d980-b185-42a1-a5a1-ad9cd5712307",
+  "publisherId": "langapicompany1671495449069",
+  "offerId": "rutter",
+  "source": {
+    "name": "AccountLink",
+    "publisher": "Rutter",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.langapicompany1671495449069%7CAID.rutter%7CPAPPID.53e5d980-b185-42a1-a5a1-ad9cd5712307",
+    "lastModified": "2026-09-02T12:38:40.1201117+00:00",
+    "appVersion": "22.4.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.rutter.com/",
+    "sourceHash": "sha256:af9c27efe8f662c94b72b618530f4ce2709556287c3a337d80311c5a5c5880f4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:af9c27efe8f662c94b72b618530f4ce2709556287c3a337d80311c5a5c5880f4",
+    "mappedOn": null,
+    "summary": "Extends BC APIs for Rutter accounting integration",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exposes additional BC API operations required by Rutter's accounting API"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Rutter"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "API extension/dependency to connect BC to Rutter; no standalone end-user functionality",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

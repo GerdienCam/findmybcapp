@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.it_integro|AID.bc_aic_001|PAPPID.7ff6448a-6455-4d50-b731-5a0ecf4f1004",
+  "guid": "7ff6448a-6455-4d50-b731-5a0ecf4f1004",
+  "publisherId": "it_integro",
+  "offerId": "bc_aic_001",
+  "source": {
+    "name": "Advanced Intercompany",
+    "publisher": "IT.integro sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.it_integro%7CAID.bc_aic_001%7CPAPPID.7ff6448a-6455-4d50-b731-5a0ecf4f1004",
+    "lastModified": "2026-09-03T12:28:06.8232035+00:00",
+    "appVersion": "4.4.3.102",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.it.integro.pl/pl-pl/AdvancedIntercompany/index.html",
+    "sourceHash": "sha256:c0a90aacea08e1fc546261deaa7dd3f3a6319e598905a4c0072785de85b5b2c1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c0a90aacea08e1fc546261deaa7dd3f3a6319e598905a4c0072785de85b5b2c1",
+    "mappedOn": null,
+    "summary": "Manages and tracks intercompany transactions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Real-time exchange of sales/purchase documents between group companies",
+      "Combines EDI and web services for document sync",
+      "Exchanges orders, invoices, credit memos plus shipment and G/L posting notifications",
+      "Supports drop shipments",
+      "Receiver verifies orders on delivery dates, quantities and prices before approval",
+      "Processing status visible to intercompany users",
+      "Selectable exchanged fields and mapping for currency, resource code, item charges",
+      "Dimensions defined separately per company",
+      "Receiving company auto-posts receipt to in-transit location and creates transfer order"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "fr",
+      "nl",
+      "pl",
+      "pt"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

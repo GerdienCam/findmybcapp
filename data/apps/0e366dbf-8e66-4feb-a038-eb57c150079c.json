@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.jemel|AID.jemel_idealo|PAPPID.0e366dbf-8e66-4feb-a038-eb57c150079c",
+  "guid": "0e366dbf-8e66-4feb-a038-eb57c150079c",
+  "publisherId": "jemel",
+  "offerId": "jemel_idealo",
+  "source": {
+    "name": "Idealo Connector",
+    "publisher": "JEMEL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jemel%7CAID.jemel_idealo%7CPAPPID.0e366dbf-8e66-4feb-a038-eb57c150079c",
+    "lastModified": "2026-06-04T12:24:51.8664838+00:00",
+    "appVersion": "27.0.17.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://jemel.lv/docs/idealo-connector",
+    "sourceHash": "sha256:01feaa75bd00b67155a1ec5270cfc4db9b997ee0c00e28d0521d3dd39eb57088"
+  },
+  "mapping": {
+    "sourceHash": "sha256:01feaa75bd00b67155a1ec5270cfc4db9b997ee0c00e28d0521d3dd39eb57088",
+    "mappedOn": null,
+    "summary": "Integrates with Idealo.de price comparison and marketplace",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Publishes product listings from BC to Idealo.de",
+      "Synchronises product information and pricing to Idealo",
+      "Manage Idealo listings and track performance from BC",
+      "Standard plan up to 5 users; more on request",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Idealo"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

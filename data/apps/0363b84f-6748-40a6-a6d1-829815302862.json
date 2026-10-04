@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.vertex|PAPPID.0363b84f-6748-40a6-a6d1-829815302862",
+  "guid": "0363b84f-6748-40a6-a6d1-829815302862",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "vertex",
+  "source": {
+    "name": "Vertex Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.vertex%7CPAPPID.0363b84f-6748-40a6-a6d1-829815302862",
+    "lastModified": "2025-03-03T13:02:04.4978864+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:86f9a481e06d48d6c5d615c2e9a5244c5c920df4e0112673c3e6cedd081eb2cd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:86f9a481e06d48d6c5d615c2e9a5244c5c920df4e0112673c3e6cedd081eb2cd",
+    "mappedOn": null,
+    "summary": "Sales tax calculation via Vertex",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Integrates the Vertex O Series V2 tax calculator with BC",
+      "Handles complex tax rules and rates",
+      "Automates the sync"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Vertex O Series"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

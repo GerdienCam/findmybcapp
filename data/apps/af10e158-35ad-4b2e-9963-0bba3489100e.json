@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.sana-commerce|AID.sc_pfs_row|PAPPID.af10e158-35ad-4b2e-9963-0bba3489100e",
+  "guid": "af10e158-35ad-4b2e-9963-0bba3489100e",
+  "publisherId": "sana-commerce",
+  "offerId": "sc_pfs_row",
+  "source": {
+    "name": "Sana Commerce (RoW) - K3 Pebblestone Connector",
+    "publisher": "Sana Commerce",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sana-commerce%7CAID.sc_pfs_row%7CPAPPID.af10e158-35ad-4b2e-9963-0bba3489100e",
+    "lastModified": "2024-11-22T10:19:00.321421+00:00",
+    "appVersion": "10.0.70.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.sana-commerce.com/Content/Home.htm",
+    "sourceHash": "sha256:5bf893f37ceb8e8ff0998a85be6793e9a8fc332f939f14bae7bf171811bcd84c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5bf893f37ceb8e8ff0998a85be6793e9a8fc332f939f14bae7bf171811bcd84c",
+    "mappedOn": null,
+    "summary": "Integrates K3 Pebblestone fashion data with Sana Commerce",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-fashion",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Connects Pebblestone functions to the Sana Commerce add-on",
+      "Handles Pebblestone size and color in the Sana webshop",
+      "Streamlines ordering and checkout"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Fashion"
+    ],
+    "connectsTo": [
+      "Sana Commerce",
+      "K3 Pebblestone"
+    ],
+    "requires": [
+      "Sana Commerce",
+      "K3 Pebblestone Fashion"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

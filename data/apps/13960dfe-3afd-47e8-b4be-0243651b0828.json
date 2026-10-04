@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.bricklead1692180953470|AID.bri_adl|PAPPID.13960dfe-3afd-47e8-b4be-0243651b0828",
+  "guid": "13960dfe-3afd-47e8-b4be-0243651b0828",
+  "publisherId": "bricklead1692180953470",
+  "offerId": "bri_adl",
+  "source": {
+    "name": "Associated Document Lines",
+    "publisher": "BRICKLEAD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bricklead1692180953470%7CAID.bri_adl%7CPAPPID.13960dfe-3afd-47e8-b4be-0243651b0828",
+    "lastModified": "2026-06-19T14:48:31.9529019+00:00",
+    "appVersion": "25.0.9666.33969",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.bricklead.eu/en-us/apps/adl/",
+    "sourceHash": "sha256:145689ff88d0972b82734dc9840866883519e121824d0458617056b0b76265ef"
+  },
+  "mapping": {
+    "sourceHash": "sha256:145689ff88d0972b82734dc9840866883519e121824d0458617056b0b76265ef",
+    "mappedOn": null,
+    "summary": "Automatically adds extra lines like surcharges and taxes to documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-loc-epr-packaging"
+    ],
+    "claims": [
+      "Automatic additional lines on sales, purchase and service documents",
+      "Taxes and surcharges such as eco taxes and legal surcharges",
+      "Automatically add services like installation or training",
+      "Cross-sell mandatory/optional accessories",
+      "Filtering on header, lines, item, customer or vendor",
+      "Requires new sales price experience",
+      "New line as item, resource or G/L account",
+      "Formula on amount, quantity, unit price, volume, weight",
+      "Linked line updates/deletes with source line",
+      "Supports Essential and Premium"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

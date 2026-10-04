@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.macaliaps|AID.macalioioulbsproom|PAPPID.3405531e-666b-406f-8f9b-9e8c52eae21c",
+  "guid": "3405531e-666b-406f-8f9b-9e8c52eae21c",
+  "publisherId": "macaliaps",
+  "offerId": "macalioioulbsproom",
+  "source": {
+    "name": "Macali OIOubl Sproom",
+    "publisher": "Macali ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.macaliaps%7CAID.macalioioulbsproom%7CPAPPID.3405531e-666b-406f-8f9b-9e8c52eae21c",
+    "lastModified": "2026-06-03T10:44:12.8706789+00:00",
+    "appVersion": "28.3.0.19",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://macali.crunch.help/da/sproom-oioubl-business-central",
+    "sourceHash": "sha256:611c1f8885c7efc7a6fabd1ffd207468df088fe5b06f959b699f853e25f9cf58"
+  },
+  "mapping": {
+    "sourceHash": "sha256:611c1f8885c7efc7a6fabd1ffd207468df088fe5b06f959b699f853e25f9cf58",
+    "mappedOn": null,
+    "summary": "Sends and receives OIOUBL documents via Sproom",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-billing",
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Sends OIOUBL electronic invoices via Sproom",
+      "OIOUBL 3.0 ready",
+      "Add your own fields to the OIOUBL invoice",
+      "Attach documents such as PDFs and images",
+      "Sends FIK 71 payment ID with the invoice",
+      "Comment lines are included",
+      "Bulk sending via job queue",
+      "Attaches PDF invoice",
+      "Project invoices and extended project invoicing",
+      "CVR number invoicing",
+      "30-day free trial",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Sproom"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

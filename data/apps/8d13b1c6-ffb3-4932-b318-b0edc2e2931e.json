@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.abakion|AID.sendcloud_shipping_connector|PAPPID.8d13b1c6-ffb3-4932-b318-b0edc2e2931e",
+  "guid": "8d13b1c6-ffb3-4932-b318-b0edc2e2931e",
+  "publisherId": "abakion",
+  "offerId": "sendcloud_shipping_connector",
+  "source": {
+    "name": "Sendcloud Shipping Connector",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.sendcloud_shipping_connector%7CPAPPID.8d13b1c6-ffb3-4932-b318-b0edc2e2931e",
+    "lastModified": "2026-05-07T06:35:00.6856581+00:00",
+    "appVersion": "28.0.202619.164561",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/sendcloud/#howto",
+    "sourceHash": "sha256:221bd5245e5c463d346f78cbb3cba5efe4bad6a8cc88d41673ad57ba9e18b315"
+  },
+  "mapping": {
+    "sourceHash": "sha256:221bd5245e5c463d346f78cbb3cba5efe4bad6a8cc88d41673ad57ba9e18b315",
+    "mappedOn": null,
+    "summary": "Creates Sendcloud shipments, labels and tracking",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Creates waybills and arranges Sendcloud shipping with track & trace",
+      "Calculates weight, dimensions, volume and tariffs",
+      "Built on Shipping Manager app plus Power Automate connector",
+      "One waybill per delivery address with predefined packages",
+      "Arrange pickup from BC",
+      "Label and track & trace number saved on the waybill",
+      "Pickup number bundles several waybills"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Sendcloud",
+      "Power Automate"
+    ],
+    "requires": [
+      "Shipping Manager"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

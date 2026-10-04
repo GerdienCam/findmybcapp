@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.navertica|AID.nvr-onestopshop-cz|PAPPID.052c8b75-c2f9-40b3-b34b-96ddbb6b2324",
+  "guid": "052c8b75-c2f9-40b3-b34b-96ddbb6b2324",
+  "publisherId": "navertica",
+  "offerId": "nvr-onestopshop-cz",
+  "source": {
+    "name": "Navertica One Stop Shop",
+    "publisher": "NAVERTICA a.s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.nvr-onestopshop-cz%7CPAPPID.052c8b75-c2f9-40b3-b34b-96ddbb6b2324",
+    "lastModified": "2026-03-17T02:47:40.1213706+00:00",
+    "appVersion": "26.2.311025.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.navertica.com/",
+    "sourceHash": "sha256:e3c9ce29dbd768a6defcfe057bee69a67c3340517efbae76276cbc292f239cec"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e3c9ce29dbd768a6defcfe057bee69a67c3340517efbae76276cbc292f239cec",
+    "mappedOn": null,
+    "summary": "EU One Stop Shop VAT for cross-border B2C sales",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop"
+    ],
+    "claims": [
+      "Automatically assigns VAT posting groups from shipping origin and destination country",
+      "Webshop can send the VAT % while BC resolves VAT posting groups",
+      "OSS flag on customers and sales documents with VAT registration validations",
+      "Item VAT setup mapping destination country and effective date to VAT product posting group",
+      "OSS statement card suggests lines from VAT entries",
+      "XML export currently supports Czech EI1 format",
+      "Prints OSS statement to Word template with summaries by country and VAT rate",
+      "Correction and exclude-from-export flags",
+      "OSS reporting currency per VAT business posting group with dated OSS exchange rates",
+      "Audit trail from documents to VAT entries to OSS statement"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

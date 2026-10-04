@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.insight-works|AID.f4938bf6-4995-4143-bcb6-08bd55b7cf91|PAPPID.f4938bf6-4995-4143-bcb6-08bd55b7cf91",
+  "guid": "f4938bf6-4995-4143-bcb6-08bd55b7cf91",
+  "publisherId": "insight-works",
+  "offerId": "f4938bf6-4995-4143-bcb6-08bd55b7cf91",
+  "source": {
+    "name": "Order Fulfillment Worksheet",
+    "publisher": "Insight Works",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.f4938bf6-4995-4143-bcb6-08bd55b7cf91%7CPAPPID.f4938bf6-4995-4143-bcb6-08bd55b7cf91",
+    "lastModified": "2026-07-20T18:11:05.4949379+00:00",
+    "appVersion": "1.6.9694.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://app.dmsiworks.com/order-fulfillment-worksheet/product-help/",
+    "sourceHash": "sha256:ccd41aeb593fca2caed173efccf3c6acc9a0eafc2bc86d2c96b7d4921972d58f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ccd41aeb593fca2caed173efccf3c6acc9a0eafc2bc86d2c96b7d4921972d58f",
+    "mappedOn": null,
+    "summary": "Shows which orders can ship today based on stock",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-order-allocation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Shows what can ship today including partial shipments and backorders",
+      "Creates and combines warehouse shipments and picks in one click",
+      "Single screen to filter and sort outstanding orders",
+      "Filter in-stock orders sorted by carrier service for pickup times",
+      "Grouping by customer, region and planned ship date",
+      "Line detail showing what blocks an order",
+      "Identifies backorders that can now be filled after receipt",
+      "Prioritize oldest orders or split stock across orders"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

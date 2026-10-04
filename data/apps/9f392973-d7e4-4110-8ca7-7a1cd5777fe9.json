@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.schedulemrp|PAPPID.9f392973-d7e4-4110-8ca7-7a1cd5777fe9",
+  "guid": "9f392973-d7e4-4110-8ca7-7a1cd5777fe9",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "schedulemrp",
+  "source": {
+    "name": "Schedule MRP",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.schedulemrp%7CPAPPID.9f392973-d7e4-4110-8ca7-7a1cd5777fe9",
+    "lastModified": "2026-05-25T05:35:53.6869381+00:00",
+    "appVersion": "1.0.0.5",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://matchbusinesscentral.com/pages/schedulemrp",
+    "sourceHash": "sha256:4626b178f9c48c414d0556465ed4350e941dae528a27dd59664c2236a0507b91"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4626b178f9c48c414d0556465ed4350e941dae528a27dd59664c2236a0507b91",
+    "mappedOn": null,
+    "summary": "Schedules automatic MRP calculation runs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-job-queue-setup",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning"
+    ],
+    "claims": [
+      "Runs MRP calculations unattended on a schedule",
+      "Saves regenerative plan settings per worksheet/planner",
+      "Links worksheet to a job queue entry for timed MRP runs",
+      "Run history with one-click replay",
+      "Generates purchase, production, assembly and transfer suggestions"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

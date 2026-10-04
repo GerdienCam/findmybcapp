@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.vsd|AID.doc_stash|PAPPID.54e47702-6b35-4f63-9ee4-49a9ba5f4fd0",
+  "guid": "54e47702-6b35-4f63-9ee4-49a9ba5f4fd0",
+  "publisherId": "vsd",
+  "offerId": "doc_stash",
+  "source": {
+    "name": "DocStash",
+    "publisher": "Verosoft Design INC. (VSD)",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.vsd%7CAID.doc_stash%7CPAPPID.54e47702-6b35-4f63-9ee4-49a9ba5f4fd0",
+    "lastModified": "2025-10-06T18:08:07.455329+00:00",
+    "appVersion": "23.0.0.11",
+    "pricingTypes": [
+      "Free"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.verosoftdesign.com/software-products/docstash",
+    "sourceHash": "sha256:f68ddbc8fdc533e7c073e9afa98c676115d2658a7f6b517c298f7e008bc9e742"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f68ddbc8fdc533e7c073e9afa98c676115d2658a7f6b517c298f7e008bc9e742",
+    "mappedOn": null,
+    "summary": "Creates and stores documents in SharePoint",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Connects SharePoint and sets default archiving options per BC table",
+      "Define file/folder storage patterns and structures",
+      "Fact box shows SharePoint path, uploaded documents and document count",
+      "Upload documents to SharePoint from the fact box",
+      "Edit SharePoint document metadata from the fact box",
+      "Metadata mapping to SharePoint for search",
+      "Automatic file renaming on upload",
+      "Supports Essentials and Premium",
+      "In-app Help Center access and setup/training guide"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

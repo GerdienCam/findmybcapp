@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.horsawayit|AID.hor_edi|PAPPID.fe912895-81f4-4955-b2ae-abacaf0ebf9b",
+  "guid": "fe912895-81f4-4955-b2ae-abacaf0ebf9b",
+  "publisherId": "horsawayit",
+  "offerId": "hor_edi",
+  "source": {
+    "name": "EDI",
+    "publisher": "Horsa Way",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_edi%7CPAPPID.fe912895-81f4-4955-b2ae-abacaf0ebf9b",
+    "lastModified": "2026-10-01T15:40:36.4902523+00:00",
+    "appVersion": "5.5.10000.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://blog.horsaway.it/app-edi/",
+    "sourceHash": "sha256:7e4e15e994bea605a8314368990eb29500f77c258ada4bc43a9e3d509ca3fa4d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7e4e15e994bea605a8314368990eb29500f77c258ada4bc43a9e3d509ca3fa4d",
+    "mappedOn": null,
+    "summary": "EDI engine for document exchange like orders and invoices",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "EDIFACT exchange of invoices, orders and shipping documents",
+      "Automates exchanges via job queue",
+      "Detailed communication log",
+      "Authenticates customers, vendors and partners",
+      "Manages cross-references",
+      "60-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

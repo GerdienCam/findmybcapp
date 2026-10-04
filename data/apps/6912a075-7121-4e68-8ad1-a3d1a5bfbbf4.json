@@ -1,0 +1,61 @@
+{
+  "appId": "TYPE.connect|PUBID.gurusoftas1611136080642|AID.gurusoftplugins|PAPPID.6912a075-7121-4e68-8ad1-a3d1a5bfbbf4",
+  "guid": "6912a075-7121-4e68-8ad1-a3d1a5bfbbf4",
+  "publisherId": "gurusoftas1611136080642",
+  "offerId": "gurusoftplugins",
+  "source": {
+    "name": "Gurusoft Integration with plugins - Microsoft Dynamics NAV and Business Central On-Prem",
+    "publisher": "Gurusoft AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.gurusoftas1611136080642%7CAID.gurusoftplugins%7CPAPPID.6912a075-7121-4e68-8ad1-a3d1a5bfbbf4",
+    "lastModified": "2024-11-21T22:11:11.8149234+00:00",
+    "appVersion": "40.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.gurusoft.no/integrasjon-erp-systemer?parent=10091",
+    "sourceHash": "sha256:96b24a2e926ed34be919d1d377725d1b4285976b56ed02146127b654ad63875c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:96b24a2e926ed34be919d1d377725d1b4285976b56ed02146127b654ad63875c",
+    "mappedOn": null,
+    "summary": "Gurusoft integration for NAV and BC on-premises",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Plugins for NAV and BC on-premises to integrate with Gurusoft",
+      "Integration without programming",
+      "Syncs core data, product information, customer data and orders to Gurusoft Ecommerce and PIM",
+      "Software installed on NAV servers",
+      "Starter pack for mapping BC to Gurusoft with full integration responsibility"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Gurusoft eCommerce",
+      "Gurusoft PIM",
+      "Microsoft Dynamics NAV"
+    ],
+    "requires": [],
+    "deployment": "onprem",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

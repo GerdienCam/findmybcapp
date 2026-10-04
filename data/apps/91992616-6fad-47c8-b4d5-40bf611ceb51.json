@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.newtechnologyresearch|AID.jobqueuealerts|PAPPID.91992616-6fad-47c8-b4d5-40bf611ceb51",
+  "guid": "91992616-6fad-47c8-b4d5-40bf611ceb51",
+  "publisherId": "newtechnologyresearch",
+  "offerId": "jobqueuealerts",
+  "source": {
+    "name": "Job Queue Alerts for Business Central",
+    "publisher": "New Technology Research",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.newtechnologyresearch%7CAID.jobqueuealerts%7CPAPPID.91992616-6fad-47c8-b4d5-40bf611ceb51",
+    "lastModified": "2026-09-14T09:40:51.0587341+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://claude.ai/code/artifact/e6d49b97-2d19-4a42-8a3b-ea1e28e8e84e?org=2e94f12e-674f-40c4-9190-92ffa84eac96",
+    "sourceHash": "sha256:87f975f68d3ebb1b308beeed35216b0d6dde25c9995a94a95411e2ae5da452a4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:87f975f68d3ebb1b308beeed35216b0d6dde25c9995a94a95411e2ae5da452a4",
+    "mappedOn": null,
+    "summary": "Alerts on failed job queue entries",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Alerts via email, Microsoft Teams or Slack",
+      "Email through BC's own email accounts",
+      "Deep link to failing entry in right company",
+      "No alert while BC retries remain; throttled to one per hour or digest",
+      "Rules per job, per category or global with severity",
+      "Minimum severity per recipient address",
+      "Automatic restart with cap, minimum delay and stop on repeated error",
+      "Watchdog detects stuck jobs In Process or overdue Ready",
+      "Incident log with bulk acknowledge and retry delivery",
+      "Send Test Alert and Create Test Job",
+      "Requires BC 28.0 or later",
+      "Alert recipients need no license"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Teams",
+      "Slack"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

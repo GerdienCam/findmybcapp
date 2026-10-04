@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.abakion|AID.dhl_shipping_connector|PAPPID.29bfe24a-e01d-4bfa-afc0-f199d91f40fc",
+  "guid": "29bfe24a-e01d-4bfa-afc0-f199d91f40fc",
+  "publisherId": "abakion",
+  "offerId": "dhl_shipping_connector",
+  "source": {
+    "name": "DHL eCommerce Shipping Connector",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.dhl_shipping_connector%7CPAPPID.29bfe24a-e01d-4bfa-afc0-f199d91f40fc",
+    "lastModified": "2026-05-07T06:34:07.3074082+00:00",
+    "appVersion": "28.0.202619.164537",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/dhl-ecommerce/",
+    "sourceHash": "sha256:e4e88f3a797947f1c79ac793443b070acfb6184aec515b4cb7cedf45677eda21"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e4e88f3a797947f1c79ac793443b070acfb6184aec515b4cb7cedf45677eda21",
+    "mappedOn": null,
+    "summary": "Books DHL shipments, prints labels, tracks parcels",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Creates waybills and arranges DHL eCommerce shipping",
+      "Calculates weight, dimensions, volume and tariffs",
+      "Built on Shipping Manager app plus Power Automate connector",
+      "One waybill per delivery address with predefined packages",
+      "Arrange pickup from BC",
+      "Prints label; label and track & trace number saved on waybill",
+      "Pickup number bundles several waybills"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DHL eCommerce",
+      "Power Automate"
+    ],
+    "requires": [
+      "Shipping Manager"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

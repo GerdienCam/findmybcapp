@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.bcsitera|AID.exp_rep|PAPPID.baba15c8-17f8-4cdd-a8c9-f39f3a7aa3e0",
+  "guid": "baba15c8-17f8-4cdd-a8c9-f39f3a7aa3e0",
+  "publisherId": "bcsitera",
+  "offerId": "exp_rep",
+  "source": {
+    "name": "Expense Reports",
+    "publisher": "DIGMATIX",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.exp_rep%7CPAPPID.baba15c8-17f8-4cdd-a8c9-f39f3a7aa3e0",
+    "lastModified": "2026-08-18T20:14:36.5330144+00:00",
+    "appVersion": "25.0.26230.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.itera.ee/apps/expense-reports/docs/en-US/help",
+    "sourceHash": "sha256:25da250e3e56672e06941674e8dc7002201f668dc26f37b7a2b8166ec47f3612"
+  },
+  "mapping": {
+    "sourceHash": "sha256:25da250e3e56672e06941674e8dc7002201f668dc26f37b7a2b8166ec47f3612",
+    "mappedOn": null,
+    "summary": "Digitized expense reports with approvals via CostPocket",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Connects to CostPocket digitization partner",
+      "Daily allowances",
+      "Expense report approvals",
+      "Multi-currency documents",
+      "Default G/L accounts per expense type and subtype",
+      "Posts debt entries to employees for employee-paid documents",
+      "Edit dimensions, VAT posting groups and amounts",
+      "Posted reports archived with pictures",
+      "Manual expense reporting without digitization",
+      "Take document picture from BC"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "et",
+      "fi",
+      "lt",
+      "lv",
+      "no"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "CostPocket"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

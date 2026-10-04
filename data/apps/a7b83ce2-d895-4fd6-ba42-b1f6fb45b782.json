@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.qualia|AID.qtwf|PAPPID.a7b83ce2-d895-4fd6-ba42-b1f6fb45b782",
+  "guid": "a7b83ce2-d895-4fd6-ba42-b1f6fb45b782",
+  "publisherId": "qualia",
+  "offerId": "qtwf",
+  "source": {
+    "name": "0 - Code Advanced Workflow",
+    "publisher": "QUALIA Technik GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.qualia%7CAID.qtwf%7CPAPPID.a7b83ce2-d895-4fd6-ba42-b1f6fb45b782",
+    "lastModified": "2026-07-23T03:11:26.7879158+00:00",
+    "appVersion": "1.1.0.5",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.qualiatechnik.de/advanced-workflow?utm_source=appsource&utm_medium=listinghelplink&utm_campaign=advanced-work-flow&utm_content=support",
+    "sourceHash": "sha256:4bf68d63825df9ed446b1579a3b02cbaa3ce29d4ea235eab2ced3a44140a07f1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4bf68d63825df9ed446b1579a3b02cbaa3ce29d4ea235eab2ced3a44140a07f1",
+    "mappedOn": null,
+    "summary": "Multi-step workflows with tasks and approvals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-automation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-onboard-offboard",
+      "ng-period-close"
+    ],
+    "claims": [
+      "Sequential, parallel, conditional and dependent tasks by configuration",
+      "Tasks go to roles, teams or individual users",
+      "Real-time progress tracking with completion percentage",
+      "Escalation rules and due-date reminders",
+      "Built-in business rules engine with 10 action types",
+      "Audit trail of every task",
+      "Templates for onboarding, purchase approvals, vendor setup, credit reviews, month-end",
+      "Runs on BC online and on-premises"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

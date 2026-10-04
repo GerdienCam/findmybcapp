@@ -1,0 +1,100 @@
+{
+  "appId": "PUBID.foodware365|AID.foodware_365_production_preparation_and_scheduling|PAPPID.7d963d3c-97a7-4de9-b857-3fab78a3ca7a",
+  "guid": "7d963d3c-97a7-4de9-b857-3fab78a3ca7a",
+  "publisherId": "foodware365",
+  "offerId": "foodware_365_production_preparation_and_scheduling",
+  "source": {
+    "name": "Aptean Production Scheduling for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_production_preparation_and_scheduling%7CPAPPID.7d963d3c-97a7-4de9-b857-3fab78a3ca7a",
+    "lastModified": "2026-09-29T10:18:45.2403312+00:00",
+    "appVersion": "2604.2.344188.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/PSG/",
+    "sourceHash": "sha256:2e34b6cb0893f64abf21e9442d61f0f75ddc308bad1c4322a1267c51cba7654c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2e34b6cb0893f64abf21e9442d61f0f75ddc308bad1c4322a1267c51cba7654c",
+    "mappedOn": null,
+    "summary": "Scheduling of production for the food and beverage industry",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters"
+    ],
+    "claims": [
+      "Manual or automatic scheduling based on attributes",
+      "Capacity load per resource per period",
+      "Shows overlap or slack between production orders",
+      "Sequence by sorting numbers, scheduling attributes or manual adjustment",
+      "Add maintenance downtime or overtime",
+      "Split production orders",
+      "Component availability view",
+      "Requires BC Premium"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.team-vision-bulgaria|AID.tv_bgf|PAPPID.60f22e7a-e9e7-4f36-ad15-489f69610327",
+  "guid": "60f22e7a-e9e7-4f36-ad15-489f69610327",
+  "publisherId": "team-vision-bulgaria",
+  "offerId": "tv_bgf",
+  "source": {
+    "name": "Bulgarian Localization Basic",
+    "publisher": "Team VISION - BULGARIA Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.team-vision-bulgaria%7CAID.tv_bgf%7CPAPPID.60f22e7a-e9e7-4f36-ad15-489f69610327",
+    "lastModified": "2026-09-24T10:21:48.7285144+00:00",
+    "appVersion": "28.0.2609.03",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://team-vision.bg/en/support/",
+    "sourceHash": "sha256:d43790c5bd5baf9850cd011bb280fc127868c03cfe8b07a4b72ba3ad177b3055"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d43790c5bd5baf9850cd011bb280fc127868c03cfe8b07a4b72ba3ad177b3055",
+    "mappedOn": null,
+    "summary": "Bulgarian localization",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting",
+      "ng-conn-company-data"
+    ],
+    "claims": [
+      "Bulgarian VAT sales documents",
+      "VAT purchase and sales ledgers",
+      "VAT monthly declaration",
+      "VIES declaration",
+      "Intrastat receipt and shipment reports",
+      "Identification number entry and validity check for customers and vendors"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

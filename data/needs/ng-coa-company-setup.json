@@ -1,0 +1,210 @@
+{
+  "id": "ng-coa-company-setup",
+  "order": 46,
+  "label": "Setting up companies, accounts and dimensions",
+  "description": "Company and entity structure, fiscal periods, chart of accounts and dimension design.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "medium",
+  "statements": [
+    "Setting up companies, accounts and dimensions",
+    "Company and entity structure, fiscal periods, chart of accounts and dimension design.",
+    "We just bought a second company and need to add it to Business Central",
+    "Should each of our three legal entities be its own company in BC or one company with dimensions?",
+    "How do we close down a company in BC that we sold last year without losing the history?",
+    "We are opening a subsidiary in Germany, what is the cleanest way to set it up in BC?",
+    "new company setup BC copy from existing",
+    "Is there an app that copies setup, chart of accounts and master data from one BC company to a new one?",
+    "Our departments and cost centers are a mess because nobody planned the structure from the start",
+    "We need a consolidation company in BC but don't know how to structure it",
+    "Our group has a holding company and four operating companies, how should that look in BC?",
+    "Merging two of our companies into one, what happens to the data in BC?",
+    "Want to keep master data like customers and items in sync across all our BC companies",
+    "Setting up business units for each branch office",
+    "Our fiscal year runs July to June, how do we set that up in BC?",
+    "We report in 4-4-5 weeks but BC only seems to do calendar months",
+    "Need to change our financial year end date after the acquisition",
+    "accounting periods 13 periods per year",
+    "We want weekly periods for retail reporting alongside the monthly ones",
+    "How do we create the old fiscal years so we can load historical balances?",
+    "Our chart of accounts has 900 accounts and nobody knows which ones to use",
+    "We want to restructure the chart of accounts without losing history in BC",
+    "How many dimensions should we use and what should they be?",
+    "Is there an app that lets us have more than 8 shortcut dimensions in BC?",
+    "We need the same chart of accounts in all our companies and keep it in sync",
+    "Renumber G/L accounts in Business Central",
+    "Our parent company needs a group chart of accounts mapped to our local Danish one",
+    "Dimension values get created randomly by users and the list is a mess",
+    "We need a local statutory chart of accounts plus an IFRS one",
+    "Block old G/L accounts so people stop using them",
+    "Want to use dimensions for project, department and product line but don't know how to start",
+    "mapping chart of accounts to standard account plan",
+    "We're opening a new subsidiary and need a new company in BC set up like the others",
+    "Copying setup from one BC company to another is a manual nightmare",
+    "How do we split one BC company into separate branches with their own users?",
+    "responsibility centers business central",
+    "Is there an app that keeps master data and setup in sync across all our BC companies?",
+    "We have 12 companies and every one has slightly different setup",
+    "Users should only see orders for their own branch",
+    "We want a group hierarchy so management can see across all companies",
+    "Merging two acquired companies into our BC environment",
+    "How many companies vs one company with dimensions, what do others do?",
+    "Create a new BC company for each country, setup template",
+    "Our sales team structure in BC doesn't match the real teams any more"
+  ],
+  "questions": [
+    {
+      "id": "goal",
+      "text": "What do you need help with right now?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Copying a company for testing or training",
+          "patterns": [
+            "copy of a company",
+            "copies a company",
+            "training and user testing"
+          ]
+        },
+        {
+          "label": "Running several businesses inside one BC company",
+          "patterns": [
+            "multiple (business )?entit",
+            "business groups?",
+            "multiple companies",
+            "company identifier",
+            "one bc company",
+            "within one company"
+          ]
+        },
+        {
+          "label": "Quickly creating setup data (number series, accounts)",
+          "patterns": [
+            "initialis",
+            "initializ",
+            "generates a chart",
+            "generates data",
+            "number series and default posting"
+          ]
+        },
+        {
+          "label": "Checking an existing setup for mistakes",
+          "patterns": [
+            "health check",
+            "balance checks",
+            "missing posting group",
+            "preview postings",
+            "warnings?\\b",
+            "setups review"
+          ]
+        },
+        {
+          "label": "Reporting under a local or group chart of accounts",
+          "patterns": [
+            "local chart",
+            "secondary .*chart",
+            "statutory",
+            "saf-t"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Copying a company for testing or training": 0.22,
+        "Running several businesses inside one BC company": 0.22,
+        "Quickly creating setup data (number series, accounts)": 0.22,
+        "Checking an existing setup for mistakes": 0.22,
+        "Reporting under a local or group chart of accounts": 0.11
+      }
+    },
+    {
+      "id": "entities",
+      "text": "How many legal entities or business units do you run?",
+      "options": [
+        {
+          "label": "Several, and we want them in one BC company",
+          "patterns": [
+            "multiple (business )?entit",
+            "business groups?",
+            "multiple companies",
+            "company identifier",
+            "one bc company",
+            "within one company",
+            "segregat"
+          ]
+        },
+        {
+          "label": "One, or each in its own BC company",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Several, and we want them in one BC company": 0.22
+      }
+    },
+    {
+      "id": "local-coa",
+      "text": "Do you report under a second chart of accounts (local statutory, group or SAF-T)?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "local chart",
+            "secondary .*chart",
+            "statutory",
+            "saf-t",
+            "group .*account structure"
+          ]
+        },
+        {
+          "label": "No or not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.11
+      }
+    },
+    {
+      "id": "stage",
+      "text": "Are you setting up a new company or tidying an existing one?",
+      "options": [
+        {
+          "label": "Setting up a new company",
+          "patterns": [
+            "initialis",
+            "initializ",
+            "generates a chart",
+            "copies a company",
+            "copy of a company",
+            "implementations",
+            "bulk imports"
+          ]
+        },
+        {
+          "label": "Reviewing or understanding an existing setup",
+          "patterns": [
+            "health check",
+            "balance checks",
+            "t-accounts",
+            "analysis",
+            "preview postings",
+            "warnings?\\b",
+            "review"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Setting up a new company": 0.44,
+        "Reviewing or understanding an existing setup": 0.22
+      }
+    }
+  ]
+}

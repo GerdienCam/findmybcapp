@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.pack-it-for-difot-connector-app|PAPPID.2a6702c2-d3ab-499a-858a-87bec48b836b",
+  "guid": "2a6702c2-d3ab-499a-858a-87bec48b836b",
+  "publisherId": "fenwicksoftware",
+  "offerId": "pack-it-for-difot-connector-app",
+  "source": {
+    "name": "Pack-It for DIFOT",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.pack-it-for-difot-connector-app%7CPAPPID.2a6702c2-d3ab-499a-858a-87bec48b836b",
+    "lastModified": "2026-03-24T07:25:35.5722177+00:00",
+    "appVersion": "26.0.260319.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/difot/docs/",
+    "sourceHash": "sha256:22583d039c7d0d40a6588b6c6c43b32f3c835142bca5392578167077c1ff8f8e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:22583d039c7d0d40a6588b6c6c43b32f3c835142bca5392578167077c1ff8f8e",
+    "mappedOn": null,
+    "summary": "Connects Fenwick Pack-It and DIFOT",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-warehouse-kpis",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Connects Pack-It and DIFOT"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Fenwick Pack-It",
+      "Fenwick DIFOT"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Connector app between two Fenwick apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

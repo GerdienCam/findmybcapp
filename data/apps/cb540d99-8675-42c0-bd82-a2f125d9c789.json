@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.eskape37550|AID.docuware_bc_gateway|PAPPID.cb540d99-8675-42c0-bd82-a2f125d9c789",
+  "guid": "cb540d99-8675-42c0-bd82-a2f125d9c789",
+  "publisherId": "eskape37550",
+  "offerId": "docuware_bc_gateway",
+  "source": {
+    "name": "DocuWare BC Gateway",
+    "publisher": "ESKAPE",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eskape37550%7CAID.docuware_bc_gateway%7CPAPPID.cb540d99-8675-42c0-bd82-a2f125d9c789",
+    "lastModified": "2026-09-30T12:11:23.1343427+00:00",
+    "appVersion": "1.0.0.65",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.eskape.fr/docuware-bc-gateway/",
+    "sourceHash": "sha256:350f806dbad1c49769c599c814150f3c3db41006b596a499629532d5be733ffd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:350f806dbad1c49769c599c814150f3c3db41006b596a499629532d5be733ffd",
+    "mappedOn": null,
+    "summary": "Connects Business Central to DocuWare document archives",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-loc-einvoicing"
+    ],
+    "claims": [
+      "Bidirectional mapping of BC tables to DocuWare cabinets",
+      "Access DocuWare documents directly from BC",
+      "Automatic archiving of invoices, purchase orders and accounting documents",
+      "Real-time bidirectional synchronisation",
+      "Invoice/receipt reconciliation",
+      "Compatible with French PA (e-invoicing platform) obligations with dedicated module",
+      "Automates document validation and circulation",
+      "Mobile and web consultation from BC or DocuWare",
+      "Available only in French"
+    ],
+    "countries": [],
+    "languages": [
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DocuWare"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

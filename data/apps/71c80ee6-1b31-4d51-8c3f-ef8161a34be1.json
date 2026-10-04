@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.it_integro|AID.bc_cdm_001|PAPPID.71c80ee6-1b31-4d51-8c3f-ef8161a34be1",
+  "guid": "71c80ee6-1b31-4d51-8c3f-ef8161a34be1",
+  "publisherId": "it_integro",
+  "offerId": "bc_cdm_001",
+  "source": {
+    "name": "Cash Desk Management",
+    "publisher": "IT.integro sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.it_integro%7CAID.bc_cdm_001%7CPAPPID.71c80ee6-1b31-4d51-8c3f-ef8161a34be1",
+    "lastModified": "2026-09-18T10:38:34.7525524+00:00",
+    "appVersion": "2.3.0.28005",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.it.integro.pl/en-us/cash-desk-management/",
+    "sourceHash": "sha256:0d31901878181a3a0d3da8e635d41aec458d50b55a85b261976cfd9d1512426f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0d31901878181a3a0d3da8e635d41aec458d50b55a85b261976cfd9d1512426f",
+    "mappedOn": null,
+    "summary": "Cash desk operations and cash balance control",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "low"
+      },
+      {
+        "need": "ng-journals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Cash desk card with authorized cashier, currency, number series and posting group",
+      "Enter, post and print cash receipts and withdrawals",
+      "Multiple cash desks in different currencies",
+      "Settle receivables and payables directly",
+      "Blocks posting causing negative cash balance",
+      "Dimensions on cash desk documents",
+      "Cash desk receipt, withdrawal and periodic reports",
+      "Extra users EUR 10/user/month"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

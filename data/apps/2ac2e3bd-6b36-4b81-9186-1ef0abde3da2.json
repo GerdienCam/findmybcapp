@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.columbuslietuva|AID.bc-leasing-basic|PAPPID.2ac2e3bd-6b36-4b81-9186-1ef0abde3da2",
+  "guid": "2ac2e3bd-6b36-4b81-9186-1ef0abde3da2",
+  "publisherId": "columbuslietuva",
+  "offerId": "bc-leasing-basic",
+  "source": {
+    "name": "OIXIO Leasing | Loans",
+    "publisher": "UAB OIXIO",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.columbuslietuva%7CAID.bc-leasing-basic%7CPAPPID.2ac2e3bd-6b36-4b81-9186-1ef0abde3da2",
+    "lastModified": "2024-11-22T07:19:11.773552+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://oixio.eu/help-oixio-leasing-loans/",
+    "sourceHash": "sha256:59a9c3b64b63264ed83a8bad1c0e63dfa2575ea8fee75f73e27685374ce355a9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:59a9c3b64b63264ed83a8bad1c0e63dfa2575ea8fee75f73e27685374ce355a9",
+    "mappedOn": null,
+    "summary": "Manages leasing and consumer credit contracts",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-leasing-finance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-collections"
+    ],
+    "claims": [
+      "Configurable financial products and additional services",
+      "Lease/credit proposals with versions, status tracking and history",
+      "Contracts with sureties, guarantees and special conditions",
+      "Asset acquisition, payment to supplier and export of outgoing payments",
+      "Periodic invoice creation for contracts",
+      "Incoming payments posted and linked to contracts",
+      "Late payment interest calculation and customer reminders",
+      "Early buy-out calculation and transfer of ownership at contract end",
+      "Integrated with General Ledger, Fixed Assets, Purchasing and Sales",
+      "Covers both leasing and consumer credit contracts"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Consumer credit",
+      "Leasing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

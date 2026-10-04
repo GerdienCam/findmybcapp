@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_sage300_payroll_integration|PAPPID.8b4cd363-2b78-4fbe-ab31-1bb6352671ed",
+  "guid": "8b4cd363-2b78-4fbe-ab31-1bb6352671ed",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_sage300_payroll_integration",
+  "source": {
+    "name": "Linc Sage300 Payroll Integration",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_sage300_payroll_integration%7CPAPPID.8b4cd363-2b78-4fbe-ab31-1bb6352671ed",
+    "lastModified": "2026-09-21T09:32:00.7206473+00:00",
+    "appVersion": "26.26.2455.431",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-Sage300-Payroll-Integration/",
+    "sourceHash": "sha256:e3e5d303a8007320514f718910b0aa97a1724a79c1bade8579a68d3d757d96d2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e3e5d303a8007320514f718910b0aa97a1724a79c1bade8579a68d3d757d96d2",
+    "mappedOn": null,
+    "summary": "Imports Sage 300 Payroll transactions into BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Imports payroll transactions from Sage300 Payroll via web service/API",
+      "Custom mappings for payroll transactions",
+      "Turns payroll transactions into BC journals",
+      "Automated via job queue entries"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Sage 300 Payroll"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

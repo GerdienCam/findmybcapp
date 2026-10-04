@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.printiq|AID.offer-printiq-customer-sync|PAPPID.ad244210-7384-44aa-9c12-91d4ebb99224",
+  "guid": "ad244210-7384-44aa-9c12-91d4ebb99224",
+  "publisherId": "printiq",
+  "offerId": "offer-printiq-customer-sync",
+  "source": {
+    "name": "printIQ Customer Sync",
+    "publisher": "IQ New Zealand Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.printiq%7CAID.offer-printiq-customer-sync%7CPAPPID.ad244210-7384-44aa-9c12-91d4ebb99224",
+    "lastModified": "2026-08-04T09:38:23.6717582+00:00",
+    "appVersion": "2.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://teams.printiq.com/business-central/customer-sync/help/index.html",
+    "sourceHash": "sha256:3fb503e713907d48f8d12098352ef700e33c7b2a529d7856775ff279220e125e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3fb503e713907d48f8d12098352ef700e33c7b2a529d7856775ff279220e125e",
+    "mappedOn": null,
+    "summary": "Syncs printIQ customer records with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-printing-packaging",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "One-way customer sync from printIQ into BC",
+      "Matches records on printIQ customer code",
+      "Creates missing BC customers and updates configured details",
+      "User controls when synchronisation runs",
+      "Never deletes BC customers automatically",
+      "API credential stored in BC secure storage",
+      "Requires printIQ API access and BC online",
+      "Vendor, invoice, order and two-way sync not included"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Printing"
+    ],
+    "connectsTo": [
+      "printIQ"
+    ],
+    "requires": [
+      "printIQ"
+    ],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

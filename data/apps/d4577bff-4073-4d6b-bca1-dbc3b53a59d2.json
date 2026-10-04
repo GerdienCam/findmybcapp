@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.b2f|AID.b2f_loc|PAPPID.d4577bff-4073-4d6b-bca1-dbc3b53a59d2",
+  "guid": "d4577bff-4073-4d6b-bca1-dbc3b53a59d2",
+  "publisherId": "b2f",
+  "offerId": "b2f_loc",
+  "source": {
+    "name": "B2F Turkish Localization - Türkiye Lokalizasyonu",
+    "publisher": "B2F",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_loc%7CPAPPID.d4577bff-4073-4d6b-bca1-dbc3b53a59d2",
+    "lastModified": "2026-09-24T08:05:40.3545375+00:00",
+    "appVersion": "28.0.22819.22819",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/06/app-turkey-localization-pdf.pdf",
+    "sourceHash": "sha256:714f2b0ee23d6163583c13db18bde9e9d92e33ac7511151721d9bacbfce1c8cc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:714f2b0ee23d6163583c13db18bde9e9d92e33ac7511151721d9bacbfce1c8cc",
+    "mappedOn": null,
+    "summary": "Turkish tax, accounting and e-invoicing requirements",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-financial-statements",
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Turkish accounting and tax legislation compliance",
+      "VAT control and reverse charge",
+      "Separates G/L transactions by document dates and types",
+      "Exchange rate updating and voucher renumbering",
+      "Year closing activities",
+      "Check and promissory note transactions",
+      "Legal reports: inventory reports, VAT statements, trial balance, big sales/big purchases (BA-BS), legal printouts"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

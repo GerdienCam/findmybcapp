@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-catalogue-import|PAPPID.ce6b6f2c-73dc-4c27-ba5b-a6e17da708ce",
+  "guid": "ce6b6f2c-73dc-4c27-ba5b-a6e17da708ce",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-catalogue-import",
+  "source": {
+    "name": "Powerblox Catalog Import",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-catalogue-import%7CPAPPID.ce6b6f2c-73dc-4c27-ba5b-a6e17da708ce",
+    "lastModified": "2024-11-22T03:34:40.9530124+00:00",
+    "appVersion": "20.0.9.19641",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/catalog_import",
+    "sourceHash": "sha256:a90a4943bb377fe473fe625d4e735a1af7aec31c209aa97ab3b2144bec3f9a0f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a90a4943bb377fe473fe625d4e735a1af7aec31c209aa97ab3b2144bec3f9a0f",
+    "mappedOn": null,
+    "summary": "Imports vendor price catalogs from Excel",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-import-excel",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Imports vendor catalogs from Excel",
+      "Custom templates matching the vendor's Excel file",
+      "Validates Excel data before import",
+      "Distinguishes inventory and non-inventory items"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

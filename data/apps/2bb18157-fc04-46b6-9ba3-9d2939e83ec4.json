@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.orgavision|AID.sanction_list_screening|PAPPID.2bb18157-fc04-46b6-9ba3-9d2939e83ec4",
+  "guid": "2bb18157-fc04-46b6-9ba3-9d2939e83ec4",
+  "publisherId": "orgavision",
+  "offerId": "sanction_list_screening",
+  "source": {
+    "name": "Sanction list screening",
+    "publisher": "Orgavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.orgavision%7CAID.sanction_list_screening%7CPAPPID.2bb18157-fc04-46b6-9ba3-9d2939e83ec4",
+    "lastModified": "2026-09-11T15:39:47.5001698+00:00",
+    "appVersion": "25.2.5.3",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.orgavision.app/en/sanction-list-screening/",
+    "sourceHash": "sha256:e73cbe5ad84e27957ac753982b05a043ac2717700b94962cbdeb8474b9618b97"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e73cbe5ad84e27957ac753982b05a043ac2717700b94962cbdeb8474b9618b97",
+    "mappedOn": null,
+    "summary": "Screens contacts and master data against sanction lists",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-audit-compliance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Screens contacts, vendors, customers and delivery addresses against sanction lists on create or change",
+      "Automatic sanction list updates from an official source",
+      "Scheduled re-check of existing business contacts",
+      "Manual online individual check",
+      "Automatic check with every list update",
+      "Email notification to defined people on possible hits",
+      "Immutable documentation and history per tested contact"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

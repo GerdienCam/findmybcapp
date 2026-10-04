@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.d365globalptyltd1665883818849|AID.d365_financial_lease_management|PAPPID.96577704-74cb-4ffa-8265-18c334bf58ac",
+  "guid": "96577704-74cb-4ffa-8265-18c334bf58ac",
+  "publisherId": "d365globalptyltd1665883818849",
+  "offerId": "d365_financial_lease_management",
+  "source": {
+    "name": "d365 Financial Lease Management for Business Central",
+    "publisher": "d365.Global Pty Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.d365globalptyltd1665883818849%7CAID.d365_financial_lease_management%7CPAPPID.96577704-74cb-4ffa-8265-18c334bf58ac",
+    "lastModified": "2025-10-06T11:07:24.0549632+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://d365.global/help",
+    "sourceHash": "sha256:a20cc63a7048bff8ea28ff504743088662219fe4b9483b61a01e4c5a076638f0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a20cc63a7048bff8ea28ff504743088662219fe4b9483b61a01e4c5a076638f0",
+    "mappedOn": null,
+    "summary": "Finance lease management with payments and interest",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-leasing-finance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-leases"
+    ],
+    "claims": [
+      "Calculates periodic lease payments from asset value, term and nominal rate",
+      "Fixed-term and variable-rate leases",
+      "Posts IFRS/GAAP compliant lease recognition, interest income and principal entries",
+      "Automated amortization schedules",
+      "Reports covering interest, lease income and outstanding balances",
+      "Works in BC GL journals"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Financial services",
+      "Leasing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

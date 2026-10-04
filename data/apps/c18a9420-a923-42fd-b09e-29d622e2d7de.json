@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.alterna|AID.c18a9420-a923-42fd-b09e-29d622e2d7de|PAPPID.c18a9420-a923-42fd-b09e-29d622e2d7de",
+  "guid": "c18a9420-a923-42fd-b09e-29d622e2d7de",
+  "publisherId": "alterna",
+  "offerId": "c18a9420-a923-42fd-b09e-29d622e2d7de",
+  "source": {
+    "name": "Quick Sending Manager for EWS",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.c18a9420-a923-42fd-b09e-29d622e2d7de%7CPAPPID.c18a9420-a923-42fd-b09e-29d622e2d7de",
+    "lastModified": "2026-07-22T01:24:04.8045601+00:00",
+    "appVersion": "1.4.10.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/quick-sending-manager-for-ews/",
+    "sourceHash": "sha256:7946f790e6a60d6409a9b9300f28984b2e944a7f4dad3885e910abc3ecdc4f81"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7946f790e6a60d6409a9b9300f28984b2e944a7f4dad3885e910abc3ecdc4f81",
+    "mappedOn": null,
+    "summary": "Sends EWS warehouse shipments through Quick Sending Manager",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Emails EWS posted shipments via Quick Sending Manager",
+      "Body templates and attachments per EWS shipment type",
+      "Free; requires Quick Sending Manager and Extended Warehouse Suite"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Quick Sending Manager",
+      "Extended Warehouse Suite"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

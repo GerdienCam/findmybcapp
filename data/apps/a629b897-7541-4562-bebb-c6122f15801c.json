@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.origo|AID.origo_cloud_events_core|PAPPID.a629b897-7541-4562-bebb-c6122f15801c",
+  "guid": "a629b897-7541-4562-bebb-c6122f15801c",
+  "publisherId": "origo",
+  "offerId": "origo_cloud_events_core",
+  "source": {
+    "name": "Origo Cloud Events Core",
+    "publisher": "Origo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.origo_cloud_events_core%7CPAPPID.a629b897-7541-4562-bebb-c6122f15801c",
+    "lastModified": "2026-08-31T09:18:32.6116996+00:00",
+    "appVersion": "28.2.6.195",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://origopublic.blob.core.windows.net/help/Cloud%20Events/bc27/en-US/index.html",
+    "sourceHash": "sha256:9121a5c8b9071f8bf5d45e7f10120f44391f0bcb8fd6cf568883b7db2a4de825"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9121a5c8b9071f8bf5d45e7f10120f44391f0bcb8fd6cf568883b7db2a4de825",
+    "mappedOn": null,
+    "summary": "REST API exposing BC data and operations as Cloud Events",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "More than 80 message types are built in, covering Metadata, Data, Purchasing, Inventory, Finance and Sales",
+      "Synchronous and asynchronous processing with retry and cancellation",
+      "Field-level access restrictions per user or application",
+      "Custom message types can be added from own extensions",
+      "Self-documenting API with Help message types",
+      "Operations include reading records, posting documents, checking credit limits and managing approvals"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

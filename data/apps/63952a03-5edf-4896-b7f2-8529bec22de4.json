@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.curabisaps1668520554988|AID.retail_management|PAPPID.63952a03-5edf-4896-b7f2-8529bec22de4",
+  "guid": "63952a03-5edf-4896-b7f2-8529bec22de4",
+  "publisherId": "curabisaps1668520554988",
+  "offerId": "retail_management",
+  "source": {
+    "name": "Retail Management 365 app",
+    "publisher": "Curabis ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.curabisaps1668520554988%7CAID.retail_management%7CPAPPID.63952a03-5edf-4896-b7f2-8529bec22de4",
+    "lastModified": "2026-07-23T13:44:44.9996818+00:00",
+    "appVersion": "27.0.3.571",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.curabis.dk/en/contact/",
+    "sourceHash": "sha256:1b15fe63df931b2b09aa95a8d89c8a1a67792771f08e23e06bcc0c6c0a088f2b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1b15fe63df931b2b09aa95a8d89c8a1a67792771f08e23e06bcc0c6c0a088f2b",
+    "mappedOn": null,
+    "summary": "Covers loyalty programs, rentals, gift cards and POS sales",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-retail",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loyalty",
+      "ng-conn-payment-providers"
+    ],
+    "claims": [
+      "Gift card and voucher management",
+      "Rental module with deposit receipt and settlement",
+      "Customer loyalty program management",
+      "Cash and inventory status reconciliation",
+      "Integrated payment terminal support",
+      "Power BI reporting",
+      "Sales to known and unknown customers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Power BI",
+      "Payment terminals"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

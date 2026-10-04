@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.soakas1728587597590|AID.soaktaxandcbam|PAPPID.f8f41a2d-1f60-46e2-9e7a-39e057e5e4fc",
+  "guid": "f8f41a2d-1f60-46e2-9e7a-39e057e5e4fc",
+  "publisherId": "soakas1728587597590",
+  "offerId": "soaktaxandcbam",
+  "source": {
+    "name": "Soak Taxes and CBAM",
+    "publisher": "SOAK A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.soakas1728587597590%7CAID.soaktaxandcbam%7CPAPPID.f8f41a2d-1f60-46e2-9e7a-39e057e5e4fc",
+    "lastModified": "2026-04-06T04:17:11.3196301+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://extentions.soak.dk/soak-taxes-business-central-documentation/",
+    "sourceHash": "sha256:3379ddbaa8b82d3fe3a63a8f2a023576235e1aa85484d034e6c6a8b4e7dc0046"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3379ddbaa8b82d3fe3a63a8f2a023576235e1aa85484d034e6c6a8b4e7dc0046",
+    "mappedOn": null,
+    "summary": "Excise tax settlements and CBAM reporting from sales",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-esg"
+    ],
+    "claims": [
+      "Flags sales of taxable goods to customers who are subject to taxes",
+      "Supports tax settlements based on sales transactions",
+      "Volume pricing for 20+ users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Automotive",
+      "Consumer goods",
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

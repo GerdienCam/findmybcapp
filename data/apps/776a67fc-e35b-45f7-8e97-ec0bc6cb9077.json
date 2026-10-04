@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.qualia|AID.bc-smart-agents|PAPPID.776a67fc-e35b-45f7-8e97-ec0bc6cb9077",
+  "guid": "776a67fc-e35b-45f7-8e97-ec0bc6cb9077",
+  "publisherId": "qualia",
+  "offerId": "bc-smart-agents",
+  "source": {
+    "name": "Smart Agents for D365 Business Central",
+    "publisher": "QUALIA Technik GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.qualia%7CAID.bc-smart-agents%7CPAPPID.776a67fc-e35b-45f7-8e97-ec0bc6cb9077",
+    "lastModified": "2026-06-01T11:34:14.372701+00:00",
+    "appVersion": "3.0.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://smart.agent.net.ai/docs",
+    "sourceHash": "sha256:49b50ad8e07f392179596e35dbd3281d0683ac477b28f9b18e41c10d20b09f16"
+  },
+  "mapping": {
+    "sourceHash": "sha256:49b50ad8e07f392179596e35dbd3281d0683ac477b28f9b18e41c10d20b09f16",
+    "mappedOn": null,
+    "summary": "Platform to build AI assistants using BC tables and APIs",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-copilot-agents",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-ai-assistant",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-developer-tools",
+      "ng-collections",
+      "ng-bank-reconciliation"
+    ],
+    "claims": [
+      "Unlimited AI assistants using any table, report or API as tools",
+      "Agents perform tasks: post invoice, reconcile bank, run aged-AR report, draft replies",
+      "Figures traceable to source BC records",
+      "Drafts overdue reminders with live aging and attached statement",
+      "Bank reconciliation and journal preparation for month-end",
+      "Runs picks, receipts and put-aways from chat",
+      "Reads inbound email and drafts replies with live BC status",
+      "Interactive charts inside BC from natural-language questions",
+      "Model choice per agent: OpenAI, Anthropic Claude, Google Gemini, Mistral",
+      "EU-hosted Mistral option for data residency",
+      "No-code Agent Studio with templates, tools, policies, autonomy and rules",
+      "SDK: call agents from AL code (codeunit, page action, job)",
+      "Agents defined as JSON and shipped inside partner apps",
+      "Agents never exceed user permissions; every action logged",
+      "EU hosting, GDPR-aligned, DPA on request",
+      "Free starter credits; billed via AppSource or prepaid credits"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "OpenAI",
+      "Anthropic Claude",
+      "Google Gemini",
+      "Mistral"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_transaction",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_edi_logistic_management|PAPPID.07f5d28b-0aef-4ff7-8ba3-187fe0243260",
+  "guid": "07f5d28b-0aef-4ff7-8ba3-187fe0243260",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_edi_logistic_management",
+  "source": {
+    "name": "m+m EDI with Logistic Management",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_edi_logistic_management%7CPAPPID.07f5d28b-0aef-4ff7-8ba3-187fe0243260",
+    "lastModified": "2026-06-07T14:41:03.8431274+00:00",
+    "appVersion": "28.0.371203.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:dd005e642b22fb3b7959ec75c2f5ac3d0115dd6842892c1a259d90191eb06045"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dd005e642b22fb3b7959ec75c2f5ac3d0115dd6842892c1a259d90191eb06045",
+    "mappedOn": null,
+    "summary": "Adds EDI processes to m+m logistic management",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-transport-planning"
+    ],
+    "claims": [
+      "Classifies shipment plannings as EDI-relevant",
+      "Filter shipment planning by EDI relevance in overviews",
+      "Supported BC editions as stated"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m EDI Base",
+      "m+m Logistic Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

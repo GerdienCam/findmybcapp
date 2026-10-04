@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.b2f|AID.b2f_dam|PAPPID.8620e395-9ba7-4e39-a6cf-65de78475a39",
+  "guid": "8620e395-9ba7-4e39-a6cf-65de78475a39",
+  "publisherId": "b2f",
+  "offerId": "b2f_dam",
+  "source": {
+    "name": "B2F Deferral & Allocation Management",
+    "publisher": "B2F",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_dam%7CPAPPID.8620e395-9ba7-4e39-a6cf-65de78475a39",
+    "lastModified": "2026-09-24T07:58:41.7868958+00:00",
+    "appVersion": "28.0.22819.22819",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.b2f.com.tr/en/app-allocation-deferral/",
+    "sourceHash": "sha256:4e1cf3af037980aa5e3238a8c136fe560d991cdd4ebaede63a9304060707251b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4e1cf3af037980aa5e3238a8c136fe560d991cdd4ebaede63a9304060707251b",
+    "mappedOn": null,
+    "summary": "Deferral and allocation of amounts across G/L accounts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-accruals-deferrals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Allocates amounts across multiple ledger account combinations by percentage",
+      "Unlimited allocation terms, totals must equal 100%",
+      "Separated ledger entries for deferrals and allocations",
+      "Multiple statuses on the Deferral & Allocation Card",
+      "Usable on documents, journals and fixed assets"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

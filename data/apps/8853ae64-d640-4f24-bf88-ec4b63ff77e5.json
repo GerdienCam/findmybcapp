@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.navappyazlmvedanmanlkltdti1582460298798|AID.bc-napppar|PAPPID.8853ae64-d640-4f24-bf88-ec4b63ff77e5",
+  "guid": "8853ae64-d640-4f24-bf88-ec4b63ff77e5",
+  "publisherId": "navappyazlmvedanmanlkltdti1582460298798",
+  "offerId": "bc-napppar",
+  "source": {
+    "name": "Payment Request",
+    "publisher": "Navapp Yazilim ve Danismanlik Anonim Sirketi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navappyazlmvedanmanlkltdti1582460298798%7CAID.bc-napppar%7CPAPPID.8853ae64-d640-4f24-bf88-ec4b63ff77e5",
+    "lastModified": "2026-09-08T11:38:53.060633+00:00",
+    "appVersion": "28.0.260716.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-payment-request",
+    "sourceHash": "sha256:317cff43b6c56934e474ac4fdd50a1f2553fcc2caa7a5d966edb1cae48d82439"
+  },
+  "mapping": {
+    "sourceHash": "sha256:317cff43b6c56934e474ac4fdd50a1f2553fcc2caa7a5d966edb1cae48d82439",
+    "mappedOn": null,
+    "summary": "Prepares and manages recurring supplier payments and repayments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Payment request documents for supplier payments, loan paybacks and employee advances",
+      "Payment requests go through approval processes",
+      "Requests built from open entries so posted payments auto-apply to open transactions",
+      "Prepares bank payment instructions after approval"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

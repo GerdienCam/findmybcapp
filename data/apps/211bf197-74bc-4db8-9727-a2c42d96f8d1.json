@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.xenatusglobal|AID.xgl_extended_reports_features|PAPPID.211bf197-74bc-4db8-9727-a2c42d96f8d1",
+  "guid": "211bf197-74bc-4db8-9727-a2c42d96f8d1",
+  "publisherId": "xenatusglobal",
+  "offerId": "xgl_extended_reports_features",
+  "source": {
+    "name": "Xenatus Extended Reports and Features",
+    "publisher": "Xenatus Global",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xenatusglobal%7CAID.xgl_extended_reports_features%7CPAPPID.211bf197-74bc-4db8-9727-a2c42d96f8d1",
+    "lastModified": "2026-05-26T06:56:47.1972128+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.xenatusglobal.com/localizations",
+    "sourceHash": "sha256:864fb8e89f73079601aae582065963d76b80b73f874f3498ae70f94b05cc9508"
+  },
+  "mapping": {
+    "sourceHash": "sha256:864fb8e89f73079601aae582065963d76b80b73f874f3498ae70f94b05cc9508",
+    "mappedOn": null,
+    "summary": "Gap-filler reports and features",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-custom-fields",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-conn-esignature",
+      "ng-admin-document-storage",
+      "ng-financial-statements"
+    ],
+    "claims": [
+      "Up to 10 extra custom fields on customers, vendors, salespeople, locations, items",
+      "Custom fields linked to dimensions with auto-created dimension values",
+      "Dimension groups to fill multiple dimensions at once",
+      "Automatic application of customer and vendor entries by criteria",
+      "Transaction currency columns in G/L entries",
+      "Stores attachments in SharePoint with folder hierarchy",
+      "DocuSign e-signature on sales quotes with status update",
+      "Extended financial, receivables, payables and inventory reports"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint",
+      "DocuSign"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

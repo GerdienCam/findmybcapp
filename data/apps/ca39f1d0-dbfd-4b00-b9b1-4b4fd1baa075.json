@@ -1,0 +1,108 @@
+{
+  "appId": "PUBID.dynamicweb|AID.dynamicweb-d365bc-integration-add-in|PAPPID.ca39f1d0-dbfd-4b00-b9b1-4b4fd1baa075",
+  "guid": "ca39f1d0-dbfd-4b00-b9b1-4b4fd1baa075",
+  "publisherId": "dynamicweb",
+  "offerId": "dynamicweb-d365bc-integration-add-in",
+  "source": {
+    "name": "Dynamicweb Plug-In Unit",
+    "publisher": "Dynamicweb",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicweb%7CAID.dynamicweb-d365bc-integration-add-in%7CPAPPID.ca39f1d0-dbfd-4b00-b9b1-4b4fd1baa075",
+    "lastModified": "2026-09-28T13:32:27.4398306+00:00",
+    "appVersion": "1.2.0.68",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://doc.dynamicweb.com/documentation-9/integration/integration-framework/erp-plug-in-units/business-central-cloud",
+    "sourceHash": "sha256:0ac0c561040dc0a6ebcd98338283094713c67fade8e1d89e3a7f4dc226cf21e2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0ac0c561040dc0a6ebcd98338283094713c67fade8e1d89e3a7f4dc226cf21e2",
+    "mappedOn": null,
+    "summary": "Integrates Dynamicweb commerce and PIM platform with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "Real-time integration between Dynamicweb and BC",
+      "Customer-specific catalogues, prices and terms from BC on the website",
+      "Self-service portals for re-orders and returns",
+      "B2B and B2C commerce"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "ID",
+      "IN",
+      "IS",
+      "IT",
+      "LV",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "RO",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "ar",
+      "da",
+      "de",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fil",
+      "fr",
+      "id",
+      "is",
+      "it",
+      "ms",
+      "nl",
+      "no",
+      "ro",
+      "sv",
+      "th"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dynamicweb"
+    ],
+    "requires": [
+      "Dynamicweb All-In-One Platform"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

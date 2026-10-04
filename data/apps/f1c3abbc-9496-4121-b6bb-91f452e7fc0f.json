@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.lisba|PAPPID.f1c3abbc-9496-4121-b6bb-91f452e7fc0f",
+  "guid": "f1c3abbc-9496-4121-b6bb-91f452e7fc0f",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "lisba",
+  "source": {
+    "name": "EV Tecto - 365Løn",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.lisba%7CPAPPID.f1c3abbc-9496-4121-b6bb-91f452e7fc0f",
+    "lastModified": "2026-09-10T15:47:30.0486554+00:00",
+    "appVersion": "10006.80.218813.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/EV/overview",
+    "sourceHash": "sha256:6530c01fe3de20d293e521f4928bc7da4ff2c3ead3695955ad3363c9355ca194"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6530c01fe3de20d293e521f4928bc7da4ff2c3ead3695955ad3363c9355ca194",
+    "mappedOn": null,
+    "summary": "Payroll integration between EV Tecto and 365Løn",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-construction",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-costs"
+    ],
+    "claims": [
+      "Integrates 365Løn payroll with EV Tecto, Danish market only",
+      "Auto-creates resources from employees using templates",
+      "Updates resource personal information",
+      "Maps work types to pay types/absence codes",
+      "Calculates hourly rate per work type per day, incl. average for salaried staff",
+      "Daily automatic rate calculation via job queue",
+      "Transfers calculated rates to EV Tecto purchase price lists",
+      "Transfers project entries to payroll, only unstamped entries",
+      "Stamps transferred project entries with date, user and reference",
+      "Integrates with EV Crono"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [
+      "365Løn"
+    ],
+    "requires": [
+      "EV Tecto",
+      "365Løn"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

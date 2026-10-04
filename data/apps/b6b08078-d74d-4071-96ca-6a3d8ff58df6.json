@@ -1,0 +1,50 @@
+{
+  "appId": "PUBID.visoldoo1583614906948|AID.salespricecustomization|PAPPID.b6b08078-d74d-4071-96ca-6a3d8ff58df6",
+  "guid": "b6b08078-d74d-4071-96ca-6a3d8ff58df6",
+  "publisherId": "visoldoo1583614906948",
+  "offerId": "salespricecustomization",
+  "source": {
+    "name": "Sales Price Customization",
+    "publisher": "VISOL d.o.o",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visoldoo1583614906948%7CAID.salespricecustomization%7CPAPPID.b6b08078-d74d-4071-96ca-6a3d8ff58df6",
+    "lastModified": "2026-04-17T13:48:36.4416015+00:00",
+    "appVersion": "1.0.0.2025030401",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://visollegaldocs.blob.core.windows.net/visol/D365BCSUPPORTPRODUCTLIFECYCLE.pdf",
+    "sourceHash": "sha256:61c9e8baccda09b43c039bd25134877b59ff6eae7a00e7fe132e5b31700750bf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:61c9e8baccda09b43c039bd25134877b59ff6eae7a00e7fe132e5b31700750bf",
+    "mappedOn": null,
+    "summary": "Calculates additional sales price discounts on invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Discount and unit price per item discount group on sales invoice",
+      "Set up on sales price lists, activated on sales invoices",
+      "Group discount based on combined quantity of several items"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

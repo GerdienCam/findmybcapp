@@ -1,0 +1,91 @@
+{
+  "appId": "PUBID.softera_baltic|AID.softera_delivery|PAPPID.1b16fcdc-106d-4ec2-a05a-1cb614a8897e",
+  "guid": "1b16fcdc-106d-4ec2-a05a-1cb614a8897e",
+  "publisherId": "softera_baltic",
+  "offerId": "softera_delivery",
+  "source": {
+    "name": "Softera Delivery",
+    "publisher": "Softera Baltic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softera_baltic%7CAID.softera_delivery%7CPAPPID.1b16fcdc-106d-4ec2-a05a-1cb614a8897e",
+    "lastModified": "2026-04-27T07:36:58.824968+00:00",
+    "appVersion": "109.0.27.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://instrukcijos.softera.lt/docs/softera-delivery",
+    "sourceHash": "sha256:5f367814c65350edebfb146c48ae35360f885e0245d7d0287b7647e9c7fe7c64"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5f367814c65350edebfb146c48ae35360f885e0245d7d0287b7647e9c7fe7c64",
+    "mappedOn": null,
+    "summary": "Connects BC with shipping agents",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Integrates BC with the multisiuntos parcel management platform",
+      "Retrieves and stores tracking numbers and labels in BC",
+      "Supports DHL, DHL Express, Deutsche Post, FedEx, TNT, DPD, Venipak, Omniva, Posti, LP Express, InPost, Itella",
+      "Initiates parcels from within BC",
+      "Priced per company by number of carriers, from 50 EUR/month",
+      "One-month free trial",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DK",
+      "EE",
+      "ES",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IE",
+      "IT",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "RS",
+      "SE",
+      "SI"
+    ],
+    "languages": [
+      "en",
+      "lt"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "multisiuntos",
+      "DPD",
+      "Venipak",
+      "Omniva",
+      "Posti",
+      "LP Express",
+      "InPost",
+      "Itella",
+      "FedEx",
+      "DHL",
+      "TNT",
+      "Deutsche Post"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.nav24spzoo1579516366010|AID.n24_transport_cost|PAPPID.5b1a598f-f497-4b7a-84d9-e27ef0b0665b",
+  "guid": "5b1a598f-f497-4b7a-84d9-e27ef0b0665b",
+  "publisherId": "nav24spzoo1579516366010",
+  "offerId": "n24_transport_cost",
+  "source": {
+    "name": "N24 Transport Cost",
+    "publisher": "Nav24 Sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nav24spzoo1579516366010%7CAID.n24_transport_cost%7CPAPPID.5b1a598f-f497-4b7a-84d9-e27ef0b0665b",
+    "lastModified": "2026-09-04T12:52:58.2168114+00:00",
+    "appVersion": "27.0.2.33",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.nav24.pl/en-US/Transport-Cost/",
+    "sourceHash": "sha256:a2feccea2b34ca6b3626c9766690de65d7283cb3f6e7c4372fd8184943a4a583"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a2feccea2b34ca6b3626c9766690de65d7283cb3f6e7c4372fd8184943a4a583",
+    "mappedOn": null,
+    "summary": "Tracks and allocates freight costs, matches carrier invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-freight-cost-audit",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-cost-allocation"
+    ],
+    "claims": [
+      "Creates transport costs from sales orders, quotes, purchase orders and warehouse documents",
+      "Transport cost lifecycle stages Planned, Estimated, Confirmed, Allocated",
+      "Guided wizard to match shipping agent purchase invoices to transport costs, including bulk invoices",
+      "Allocates transport costs by weight, quantity or manually via item charge assignments",
+      "Shipping agent price catalog with net and gross prices on shipping agent services",
+      "Compares estimated vs actual freight cost with variance amount and percentage",
+      "Separates transport margin from product margin",
+      "Transport cost FactBox on sales orders, quotes, purchase orders and posted sales invoices"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

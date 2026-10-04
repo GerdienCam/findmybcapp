@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.norriq-1020462|AID.aow|PAPPID.a3481171-882d-4f41-a273-ec0c8d75ea3a",
+  "guid": "a3481171-882d-4f41-a273-ec0c8d75ea3a",
+  "publisherId": "norriq-1020462",
+  "offerId": "aow",
+  "source": {
+    "name": "Advanced Online Warehouse Management Suite",
+    "publisher": "NORRIQ",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.norriq-1020462%7CAID.aow%7CPAPPID.a3481171-882d-4f41-a273-ec0c8d75ea3a",
+    "lastModified": "2024-11-22T07:00:16.8170663+00:00",
+    "appVersion": "20.2022401.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.drink-it.com/support",
+    "sourceHash": "sha256:f79b5df011f5c471218650fa2bd31bbdf5fbd355e86a95836033e492aaa035da"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f79b5df011f5c471218650fa2bd31bbdf5fbd355e86a95836033e492aaa035da",
+    "mappedOn": null,
+    "summary": "Mobile scanning warehouse management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Android scanner app for warehouse processes",
+      "Print mixed content or license plate labels from scanner",
+      "Bin picking sequence, exclusivity and auto FEFO pick on scanner",
+      "License plate integration and warehouse entries on scanner"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "LU",
+      "NL",
+      "NO",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Advanced Warehouse Management Suite",
+      "Online Warehouse Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

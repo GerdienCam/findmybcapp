@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.x-linkas1700470462467|AID.xli_dandomainlink|PAPPID.9770e669-c544-46d8-bff7-fcf56e306fed",
+  "guid": "9770e669-c544-46d8-bff7-fcf56e306fed",
+  "publisherId": "x-linkas1700470462467",
+  "offerId": "xli_dandomainlink",
+  "source": {
+    "name": "DanDomainLink",
+    "publisher": "X-link A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.x-linkas1700470462467%7CAID.xli_dandomainlink%7CPAPPID.9770e669-c544-46d8-bff7-fcf56e306fed",
+    "lastModified": "2025-12-16T16:12:56.0204686+00:00",
+    "appVersion": "1.1.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.xli.dk/",
+    "sourceHash": "sha256:b970fd03f4f2ffed8b60890b28df06b636f87958fe1be8875f4a534426c6b308"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b970fd03f4f2ffed8b60890b28df06b636f87958fe1be8875f4a534426c6b308",
+    "mappedOn": null,
+    "summary": "Syncs DanDomain webshop customers, products and orders",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Syncs items, customers and orders between DanDomain and BC",
+      "Master data changes in BC sync automatically to the webshop",
+      "New webshop orders imported automatically",
+      "New webshop users imported for approval",
+      "Syncs item info, EAN, category and attributes",
+      "Syncs prices and discounts incl. new and old price experience",
+      "Syncs stock per location or total",
+      "Variants with prices and stock",
+      "Two-way customer creation/maintenance",
+      "Orders sync with lines, delivery info, comments and tracking number",
+      "Danish market only, requires Danish localization"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DanDomain"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

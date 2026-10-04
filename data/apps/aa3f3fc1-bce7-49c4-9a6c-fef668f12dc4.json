@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.portableintelligenceinc1622478766398|AID.rf-plus-bc|PAPPID.aa3f3fc1-bce7-49c4-9a6c-fef668f12dc4",
+  "guid": "aa3f3fc1-bce7-49c4-9a6c-fef668f12dc4",
+  "publisherId": "portableintelligenceinc1622478766398",
+  "offerId": "rf-plus-bc",
+  "source": {
+    "name": "RF Plus WMS for Business Central",
+    "publisher": "Portable Intelligence Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.portableintelligenceinc1622478766398%7CAID.rf-plus-bc%7CPAPPID.aa3f3fc1-bce7-49c4-9a6c-fef668f12dc4",
+    "lastModified": "2026-09-15T00:53:36.5612841+00:00",
+    "appVersion": "26.2.2.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://portable-intelligence.com/wp-content/uploads/RF-Plus-BC-SOP.pdf",
+    "sourceHash": "sha256:baee790c6d1b3bf74abbad88ca68b6622d80cc5a8c87908c9d3c35aea9acdf9c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:baee790c6d1b3bf74abbad88ca68b6622d80cc5a8c87908c9d3c35aea9acdf9c",
+    "mappedOn": null,
+    "summary": "Barcode warehouse management on handhelds",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-barcode-labels",
+      "ng-stock-counting",
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Runs on ruggedized handheld computers with barcoding",
+      "PO receiving and putaway",
+      "Capture images during receiving and picking",
+      "Warehouse movements",
+      "Inventory count",
+      "Inventory lookup by item, bin and lot/serial",
+      "Verify item during pick",
+      "Wave order picking",
+      "License plate (LPN) based shipping",
+      "Prints item, bin, PO, shipping, consumption and output labels",
+      "Production material consumption and output journal",
+      "Requires registration on RF Plus portal for handheld app"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DK",
+      "GB",
+      "NL",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "NiceLabel",
+      "Bartender"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

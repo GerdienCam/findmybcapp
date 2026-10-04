@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.bcility1636664056498|AID.bcility-document-attachments-external-storage|PAPPID.ac4faa79-04cb-4862-856c-92fd86b69d45",
+  "guid": "ac4faa79-04cb-4862-856c-92fd86b69d45",
+  "publisherId": "bcility1636664056498",
+  "offerId": "bcility-document-attachments-external-storage",
+  "source": {
+    "name": "Document Attachments - External Storage PRO/Extended version",
+    "publisher": "BCILITY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcility1636664056498%7CAID.bcility-document-attachments-external-storage%7CPAPPID.ac4faa79-04cb-4862-856c-92fd86b69d45",
+    "lastModified": "2026-05-11T10:43:49.595807+00:00",
+    "appVersion": "28.1.1.11",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcility.com/about-us/",
+    "sourceHash": "sha256:558b94f912e08960b78e711fe85ffbf23dbd4b06f1895b54bd86feb18f0f07ff"
+  },
+  "mapping": {
+    "sourceHash": "sha256:558b94f912e08960b78e711fe85ffbf23dbd4b06f1895b54bd86feb18f0f07ff",
+    "mappedOn": null,
+    "summary": "Stores document attachments in external cloud storage",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Uploads attachments to Azure Blob Storage or SharePoint automatically on insert",
+      "Bulk upload/download and ZIP download",
+      "Copy files back to internal storage",
+      "File size limits and allowed file type rules with default-deny",
+      "SHA-256/SHA-512/SHA-1 checksums and integrity verification on download",
+      "Tamper evidence report",
+      "Restricted attachments limited to authorized users, with auto-restriction rules",
+      "Hash-based duplicate detection with warn or block",
+      "Transparent compression of eligible files",
+      "Audit log of upload, download, delete and integrity checks",
+      "Storage sync and company migration reports",
+      "Storage statistics by table and extension"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage",
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

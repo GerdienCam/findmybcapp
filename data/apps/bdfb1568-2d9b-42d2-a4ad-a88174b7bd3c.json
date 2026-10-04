@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.scapta1708358347670|AID.xpr365_printvis_for_bigcommerce|PAPPID.bdfb1568-2d9b-42d2-a4ad-a88174b7bd3c",
+  "guid": "bdfb1568-2d9b-42d2-a4ad-a88174b7bd3c",
+  "publisherId": "scapta1708358347670",
+  "offerId": "xpr365_printvis_for_bigcommerce",
+  "source": {
+    "name": "XPR365 PrintVis for BigCommerce",
+    "publisher": "XPR365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.scapta1708358347670%7CAID.xpr365_printvis_for_bigcommerce%7CPAPPID.bdfb1568-2d9b-42d2-a4ad-a88174b7bd3c",
+    "lastModified": "2026-07-22T11:38:26.3270106+00:00",
+    "appVersion": "28.0.20260722.100543",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://learn.xpr365.com/en/printvisForBigCommerce/index.html",
+    "sourceHash": "sha256:332dac054eae9ed02bd2fe4c59a0483cbf5154d270e71d0db853843faf147a87"
+  },
+  "mapping": {
+    "sourceHash": "sha256:332dac054eae9ed02bd2fe4c59a0483cbf5154d270e71d0db853843faf147a87",
+    "mappedOn": null,
+    "summary": "Connects PrintVis with BigCommerce",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-printing-packaging",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs product catalog (items, variants, categories) to BigCommerce",
+      "Pushes inventory and price updates",
+      "Imports orders with customer and payment info",
+      "Customer creation and matching for B2C and B2B",
+      "Order status and shipment updates back to BigCommerce",
+      "Maps orders to PrintVis structures for quoting and job creation",
+      "Configurable field mappings",
+      "Optional Application Insights telemetry",
+      "Single or multiple storefronts",
+      "Per-tenant license"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Packaging",
+      "Printing"
+    ],
+    "connectsTo": [
+      "BigCommerce",
+      "PrintVis"
+    ],
+    "requires": [
+      "PrintVis",
+      "XPR365 BigCommerce",
+      "XPR365 BigCommerce Communication Layer"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

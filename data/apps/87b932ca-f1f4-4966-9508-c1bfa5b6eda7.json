@@ -1,0 +1,51 @@
+{
+  "appId": "PUBID.chift1750973837678|AID.chift_bc|PAPPID.87b932ca-f1f4-4966-9508-c1bfa5b6eda7",
+  "guid": "87b932ca-f1f4-4966-9508-c1bfa5b6eda7",
+  "publisherId": "chift1750973837678",
+  "offerId": "chift_bc",
+  "source": {
+    "name": "Chift",
+    "publisher": "Chift",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.chift1750973837678%7CAID.chift_bc%7CPAPPID.87b932ca-f1f4-4966-9508-c1bfa5b6eda7",
+    "lastModified": "2026-07-13T08:39:57.2012605+00:00",
+    "appVersion": "26.1.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.chift.app/en/articles/9404745-dynamics-365-business-central",
+    "sourceHash": "sha256:73057a0a08fc0c74a1d6109c03340a0b889c8ae0bc7e9598411c7609e9c86911"
+  },
+  "mapping": {
+    "sourceHash": "sha256:73057a0a08fc0c74a1d6109c03340a0b889c8ae0bc7e9598411c7609e9c86911",
+    "mappedOn": null,
+    "summary": "Extends BC APIs for Chift financial data integration",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Expands default BC APIs for Chift unified accounting API",
+      "Connectivity to external financial platforms"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Chift"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "API enabler for software editors using Chift, not an end-user app",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

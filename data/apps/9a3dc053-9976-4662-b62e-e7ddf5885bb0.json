@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_tabletpos_integration|PAPPID.9a3dc053-9976-4662-b62e-e7ddf5885bb0",
+  "guid": "9a3dc053-9976-4662-b62e-e7ddf5885bb0",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_tabletpos_integration",
+  "source": {
+    "name": "Linc TabletPOS Integration",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_tabletpos_integration%7CPAPPID.9a3dc053-9976-4662-b62e-e7ddf5885bb0",
+    "lastModified": "2026-09-18T14:09:43.3104542+00:00",
+    "appVersion": "26.26.2452.628",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-TabletPos-Integration",
+    "sourceHash": "sha256:fce1ce2b9a38b18ab01f6ac1dfb3194f3b6a3046305d9d4983f5260faf31a6b8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fce1ce2b9a38b18ab01f6ac1dfb3194f3b6a3046305d9d4983f5260faf31a6b8",
+    "mappedOn": null,
+    "summary": "Imports transactions from TabletPOS",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Imports transactions from TabletPOS via web service/API",
+      "Custom mappings for imported transactions",
+      "Turns transactions into sales or purchase documents",
+      "Automated via job queue entries"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "TabletPOS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

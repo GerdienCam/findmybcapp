@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.easysoftwareag1586262779954|AID.easy4dyn365_bc_service|PAPPID.4272ec73-9c25-47d1-9824-ac8b02eaeb00",
+  "guid": "4272ec73-9c25-47d1-9824-ac8b02eaeb00",
+  "publisherId": "easysoftwareag1586262779954",
+  "offerId": "easy4dyn365_bc_service",
+  "source": {
+    "name": "ECM Service",
+    "publisher": "EASY SOFTWARE AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.easysoftwareag1586262779954%7CAID.easy4dyn365_bc_service%7CPAPPID.4272ec73-9c25-47d1-9824-ac8b02eaeb00",
+    "lastModified": "2026-09-17T11:43:41.3777567+00:00",
+    "appVersion": "28.3.260917.1090",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://myeasy.me/docster-backend/ebc/en-US/content/addons/service/",
+    "sourceHash": "sha256:48c284c0a334394da3c12cf6d2db4202a6d238083b8306294562c5253235cf41"
+  },
+  "mapping": {
+    "sourceHash": "sha256:48c284c0a334394da3c12cf6d2db4202a6d238083b8306294562c5253235cf41",
+    "mappedOn": null,
+    "summary": "Archives service management documents in EASY ECM",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-requests"
+    ],
+    "claims": [
+      "Archives outgoing service quotes, orders, invoices, credit memos and shipments",
+      "Supports service contracts and contract quotes",
+      "Assign incoming documents by upload or barcode scan",
+      "Generates barcode labels used to scan and assign documents when archiving",
+      "Up to three configurable FactBoxes",
+      "Archive and email a service document in one step",
+      "Assisted setup wizard"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "EASY Archive"
+    ],
+    "requires": [
+      "ECM Base Application"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

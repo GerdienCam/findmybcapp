@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_partial_delivery_assistent|PAPPID.f63750a9-9f06-4549-acc9-db23e67d5cf7",
+  "guid": "f63750a9-9f06-4549-acc9-db23e67d5cf7",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_partial_delivery_assistent",
+  "source": {
+    "name": "m+m Partial Delivery Assistant",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_partial_delivery_assistent%7CPAPPID.f63750a9-9f06-4549-acc9-db23e67d5cf7",
+    "lastModified": "2026-06-06T09:49:40.0000454+00:00",
+    "appVersion": "28.0.370855.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:3344ceeb7746157b723608b60bc0a94d33cfc3433f8269ebaaa7fdf27e81cf59"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3344ceeb7746157b723608b60bc0a94d33cfc3433f8269ebaaa7fdf27e81cf59",
+    "mappedOn": null,
+    "summary": "Deletes remaining partially delivered warehouse lines after posting",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Automatically deletes remaining partially delivered warehouse lines after posting",
+      "Applies to warehouse shipment and warehouse receipt lines",
+      "Works on Essentials and Premium editions"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

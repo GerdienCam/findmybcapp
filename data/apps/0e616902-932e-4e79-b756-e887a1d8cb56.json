@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.wiselausnirehf1587117975659|AID.wiseagreements|PAPPID.0e616902-932e-4e79-b756-e887a1d8cb56",
+  "guid": "0e616902-932e-4e79-b756-e887a1d8cb56",
+  "publisherId": "wiselausnirehf1587117975659",
+  "offerId": "wiseagreements",
+  "source": {
+    "name": "Wise Agreements",
+    "publisher": "Wise",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wiselausnirehf1587117975659%7CAID.wiseagreements%7CPAPPID.0e616902-932e-4e79-b756-e887a1d8cb56",
+    "lastModified": "2026-10-01T14:23:42.9139209+00:00",
+    "appVersion": "27.0.20261001.36",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.wise.is/ams/uppsetningarasto",
+    "sourceHash": "sha256:2800eb88e1a5270ba9f443457fe6253c4c6133ee62f4a57eb1dffede06307a4f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2800eb88e1a5270ba9f443457fe6253c4c6133ee62f4a57eb1dffede06307a4f",
+    "mappedOn": null,
+    "summary": "Tracks agreements and their history",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-contracts",
+      "ng-vert-property"
+    ],
+    "claims": [
+      "Tracks all customer agreements and their history",
+      "Periodic invoicing based on agreement line periods",
+      "Agreements in any currency",
+      "Index-linked agreements",
+      "Comments on agreements and email notifications",
+      "Creates a purchase invoice whenever a sales invoice is produced from an agreement"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DK",
+      "GB",
+      "IE",
+      "IS",
+      "NZ",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [
+      "Equipment rental",
+      "Rental"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

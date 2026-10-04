@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.asqit|AID.item-journal-approvals|PAPPID.82da0ec8-68d4-4034-9c9c-fc4cfb7d1747",
+  "guid": "82da0ec8-68d4-4034-9c9c-fc4cfb7d1747",
+  "publisherId": "asqit",
+  "offerId": "item-journal-approvals",
+  "source": {
+    "name": "Item Movement Approvals",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.item-journal-approvals%7CPAPPID.82da0ec8-68d4-4034-9c9c-fc4cfb7d1747",
+    "lastModified": "2026-07-16T14:59:23.6406646+00:00",
+    "appVersion": "28.0.6.26072",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/approvalsuiteapps",
+    "sourceHash": "sha256:cc8c93ce11ffa21a4e86cfba81aaeeb77b3e3cd5c0a6d487f655964fd8cee703"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cc8c93ce11ffa21a4e86cfba81aaeeb77b3e3cd5c0a6d487f655964fd8cee703",
+    "mappedOn": null,
+    "summary": "Approval workflows for item journals and inventory documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-counting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements",
+      "ng-admin-permissions"
+    ],
+    "claims": [
+      "Approve item journal batches before posting",
+      "Approve physical inventory orders before posting",
+      "Approve transfer orders before posting",
+      "Approve inventory shipments and receipts before posting",
+      "Approval limits based on journal or document value",
+      "Uses standard Approval User Setup",
+      "Find approvals from item registers and ledger entries for audit",
+      "Approval status on the batch list"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

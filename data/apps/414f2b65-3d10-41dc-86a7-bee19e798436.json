@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-surcharge|PAPPID.414f2b65-3d10-41dc-86a7-bee19e798436",
+  "guid": "414f2b65-3d10-41dc-86a7-bee19e798436",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-surcharge",
+  "source": {
+    "name": "Powerblox Surcharge Automation",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-surcharge%7CPAPPID.414f2b65-3d10-41dc-86a7-bee19e798436",
+    "lastModified": "2026-08-23T15:03:10.862989+00:00",
+    "appVersion": "25.0.5.67743",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/surcharge_automation",
+    "sourceHash": "sha256:313537e190408dfd0b101aee3c64447339fd2874bc2f0693765d4d82cd98ff83"
+  },
+  "mapping": {
+    "sourceHash": "sha256:313537e190408dfd0b101aee3c64447339fd2874bc2f0693765d4d82cd98ff83",
+    "mappedOn": null,
+    "summary": "Automates surcharges on items and documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-epr-packaging"
+    ],
+    "claims": [
+      "Handles environmental taxes, recycling fees, freight and packaging surcharges",
+      "Item surcharges appear automatically on documents",
+      "Item surcharge calculated on quantity",
+      "Adds surcharge line types to sales and purchase documents",
+      "Document surcharges by customer, vendor or group, on document amount",
+      "Tiered surcharges, either flat amounts or percentages",
+      "Validity periods",
+      "Prorating for partial shipments"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

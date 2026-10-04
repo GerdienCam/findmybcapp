@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.eos_solutions|AID.eos09601_eoswinedeliveriesandvinification|PAPPID.af64f9fa-ed9d-4ccc-a577-107b6f4bdda9",
+  "guid": "af64f9fa-ed9d-4ccc-a577-107b6f4bdda9",
+  "publisherId": "eos_solutions",
+  "offerId": "eos09601_eoswinedeliveriesandvinification",
+  "source": {
+    "name": "EOS WINE Deliveries and Vinification",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.eos09601_eoswinedeliveriesandvinification%7CPAPPID.af64f9fa-ed9d-4ccc-a577-107b6f4bdda9",
+    "lastModified": "2026-09-09T15:58:13.9960874+00:00",
+    "appVersion": "28.0.24.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ex09601-eos-wine-deliveries-and-vinification.html",
+    "sourceHash": "sha256:c2676267f3eaa9c172fc42ab5d40a68c4aa21f4a5d09b82dae4cc8349b4d0d78"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c2676267f3eaa9c172fc42ab5d40a68c4aa21f4a5d09b82dae4cc8349b4d0d78",
+    "mappedOn": null,
+    "summary": "Manages grape deliveries and wine production from vineyard to winery",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bom-formula-engineering",
+      "ng-receiving-putaway"
+    ],
+    "claims": [
+      "Grape delivery registration with wine-specific fields",
+      "Winemaking specification defining yields, timelines and processing rules",
+      "Guides winemaking from crushing to finished wine",
+      "Full traceability: batches, wines, musts and grapes are traced end to end",
+      "Links received grapes to winemaking activities",
+      "Winemaking bill of materials",
+      "Free trial period available"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Wine"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EOS FOOD Deliveries"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

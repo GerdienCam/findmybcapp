@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.ls_retail|AID.2e6c0fa9-d096-4daa-9224-0811a09964a2|PAPPID.75618fa1-415d-4a07-9de1-8f9fbd29e2ee",
+  "guid": "75618fa1-415d-4a07-9de1-8f9fbd29e2ee",
+  "publisherId": "ls_retail",
+  "offerId": "2e6c0fa9-d096-4daa-9224-0811a09964a2",
+  "source": {
+    "name": "Shopify BC connector for LS Central",
+    "publisher": "LS Retail",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.2e6c0fa9-d096-4daa-9224-0811a09964a2%7CPAPPID.75618fa1-415d-4a07-9de1-8f9fbd29e2ee",
+    "lastModified": "2026-09-01T18:10:46.9300205+00:00",
+    "appVersion": "28.2.3.4060",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.lscentral.lsretail.com/Content/LS-Retail/eCommerce/BC-Shopify/About.htm",
+    "sourceHash": "sha256:75f4534b2f5584063675893bfee218529fee1b3eed4d808e6456e2f041ec0936"
+  },
+  "mapping": {
+    "sourceHash": "sha256:75f4534b2f5584063675893bfee218529fee1b3eed4d808e6456e2f041ec0936",
+    "mappedOn": null,
+    "summary": "Extends Shopify connector with LS Central features",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Add-on for Microsoft's Shopify connector",
+      "Supports LS Central customer orders, retail items and product variants in Shopify",
+      "Syncs product details, inventory and sales data automatically between BC and Shopify",
+      "Requires version 28.0 or later"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Shopify"
+    ],
+    "requires": [
+      "LS Central",
+      "Shopify Connector"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

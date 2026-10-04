@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.singhammeritconsultingag1598359803264|AID.1001|PAPPID.c12f11e8-b5a0-4450-a3f5-110b6cd46d1e",
+  "guid": "c12f11e8-b5a0-4450-a3f5-110b6cd46d1e",
+  "publisherId": "singhammeritconsultingag1598359803264",
+  "offerId": "1001",
+  "source": {
+    "name": "DYCE Subscription & Recurring Billing",
+    "publisher": "Singhammer IT Consulting AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1001%7CPAPPID.c12f11e8-b5a0-4450-a3f5-110b6cd46d1e",
+    "lastModified": "2026-08-08T09:25:20.3679576+00:00",
+    "appVersion": "2026.7.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.dyce.cloud/docs/srb",
+    "sourceHash": "sha256:92b64fa29a9e10c36f4f7e3bf6678d44d0df6e958738eb84087b033de43e9474"
+  },
+  "mapping": {
+    "sourceHash": "sha256:92b64fa29a9e10c36f4f7e3bf6678d44d0df6e958738eb84087b033de43e9474",
+    "mappedOn": null,
+    "summary": "Subscription and recurring billing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals",
+      "ng-svc-contracts"
+    ],
+    "claims": [
+      "One sales offer can include recurring items as well as one-time ones",
+      "Recurring services and service objects created automatically on shipment",
+      "Assign services to customer contracts",
+      "Billing proposal and invoice from a template",
+      "Sell bundles and hide components",
+      "Automated accrual posting and revenue periodization",
+      "Invoice accompanying certificate with day-accurate periods and prices",
+      "Immediate or planned future contract price updates"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

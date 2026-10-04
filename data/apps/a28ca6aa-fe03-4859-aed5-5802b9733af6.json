@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.spolandkkarbowiakbdoruchspolkacywilna1607528556434|AID.quickbridge|PAPPID.a28ca6aa-fe03-4859-aed5-5802b9733af6",
+  "guid": "a28ca6aa-fe03-4859-aed5-5802b9733af6",
+  "publisherId": "spolandkkarbowiakbdoruchspolkacywilna1607528556434",
+  "offerId": "quickbridge",
+  "source": {
+    "name": "QuickBridge",
+    "publisher": "Data Courage",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.spolandkkarbowiakbdoruchspolkacywilna1607528556434%7CAID.quickbridge%7CPAPPID.a28ca6aa-fe03-4859-aed5-5802b9733af6",
+    "lastModified": "2026-09-10T05:15:15.4491322+00:00",
+    "appVersion": "1.0.1.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.datacourage.com/support",
+    "sourceHash": "sha256:e15e37786e992363694563f7ae5bee10361ebcc56b1e623a4fd461685242bc6e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e15e37786e992363694563f7ae5bee10361ebcc56b1e623a4fd461685242bc6e",
+    "mappedOn": null,
+    "summary": "Publishes BC tables as REST API endpoints",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bi-dashboards",
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "Publishes selected BC tables and fields as read-only REST API endpoints",
+      "Supports tables and fields from installed extensions",
+      "Pull-based access for Fabric, Power BI and Azure Data Factory",
+      "Incremental extraction using modification fields",
+      "Secured by Entra ID, OAuth and BC permission sets",
+      "No predefined destination database"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Fabric",
+      "Power BI",
+      "Azure Data Factory"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

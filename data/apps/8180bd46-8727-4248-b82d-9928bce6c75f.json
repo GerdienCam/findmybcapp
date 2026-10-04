@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.jemel|AID.jemel_shopify_connect|PAPPID.8180bd46-8727-4248-b82d-9928bce6c75f",
+  "guid": "8180bd46-8727-4248-b82d-9928bce6c75f",
+  "publisherId": "jemel",
+  "offerId": "jemel_shopify_connect",
+  "source": {
+    "name": "JEMEL Shopify Connect",
+    "publisher": "JEMEL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jemel%7CAID.jemel_shopify_connect%7CPAPPID.8180bd46-8727-4248-b82d-9928bce6c75f",
+    "lastModified": "2026-06-04T12:25:28.8899132+00:00",
+    "appVersion": "26.0.21.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://jemel.lv/docs/shopify-connect",
+    "sourceHash": "sha256:0c72db76193145846dce117944db7346476cc82245173b07ed28870b7013fea8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0c72db76193145846dce117944db7346476cc82245173b07ed28870b7013fea8",
+    "mappedOn": null,
+    "summary": "Connects Shopify web store with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Imports new sales orders, plus fulfillments from Shopify",
+      "Updates Shopify order status when sales order is released",
+      "Sends new or updated items to Shopify",
+      "Imports new or updated items from Shopify",
+      "Sends new customers to Shopify",
+      "Sends inventory levels to Shopify",
+      "Each flow can be skipped",
+      "Supports any BC edition"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Shopify"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

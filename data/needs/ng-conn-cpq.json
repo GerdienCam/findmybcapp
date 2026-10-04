@@ -1,0 +1,215 @@
+{
+  "id": "ng-conn-cpq",
+  "order": 196,
+  "label": "Configuring complex products when quoting (CPQ)",
+  "description": "Product configurators and configure-price-quote tools that build valid variants, prices and quotes, then create BC orders, BOMs and production orders.",
+  "type": "connector",
+  "area": "Connecting other systems",
+  "relevance": "medium",
+  "statements": [
+    "Configuring complex products when quoting (CPQ)",
+    "Product configurators and configure-price-quote tools that build valid variants, prices and quotes, then create BC orders, BOMs and production orders.",
+    "Only two people here know which options can be combined",
+    "product configurator for Business Central",
+    "Quoting a custom machine takes us a week",
+    "Sales sells combinations production can't build",
+    "We want dealers to configure and price products themselves online",
+    "CPQ that creates the BOM and production order",
+    "3D configurator on our website connected to BC",
+    "Rules for options, dimensions and prices in one place",
+    "Every variant becomes a new item number and it's out of control",
+    "Kitchen layouts and quotes from a configurator",
+    "Quote errors cost us margin on custom orders",
+    "Guided selling for our sales team"
+  ],
+  "questions": [
+    {
+      "id": "output",
+      "text": "What should a finished configuration create in BC?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "A new item or variant",
+          "patterns": [
+            "item code",
+            "variant",
+            "creates? (customized )?items",
+            "item number",
+            "new items",
+            "missing configured item",
+            "derived item"
+          ]
+        },
+        {
+          "label": "BOM and routing",
+          "patterns": [
+            "\\bbom",
+            "routing"
+          ]
+        },
+        {
+          "label": "Production or assembly order",
+          "patterns": [
+            "production order",
+            "assembly order",
+            "production orders"
+          ]
+        },
+        {
+          "label": "A sales quote or order",
+          "patterns": [
+            "sales quote",
+            "quotes? (and|or) (sales )?orders",
+            "quotes, opportunities",
+            "generates quotes",
+            "quote generation",
+            "creates? sales orders",
+            "sales orders?",
+            "quotation",
+            "quote-to-order"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "A new item or variant": 0.5,
+        "BOM and routing": 0.58,
+        "Production or assembly order": 0.22,
+        "A sales quote or order": 0.53
+      }
+    },
+    {
+      "id": "who",
+      "text": "Who will configure the product?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Our own sales staff in BC",
+          "patterns": [
+            "sales (quote|order|line)",
+            "quotes and orders",
+            "order lines",
+            "sales or assembly lines",
+            "internal sales"
+          ]
+        },
+        {
+          "label": "Customers or dealers, self-service online",
+          "patterns": [
+            "portal",
+            "self-service",
+            "end customers",
+            "dealers",
+            "distributors",
+            "e-?commerce",
+            "customer-facing"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Our own sales staff in BC": 0.5,
+        "Customers or dealers, self-service online": 0.11
+      }
+    },
+    {
+      "id": "where",
+      "text": "Do you want the configurator inside BC or a separate CPQ platform connected to it?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "^(?![\\s\\S]*(synchroni[sz]|connector|portal|integration service|imports? .* configurations|posts autoquotes|native app))[\\s\\S]*config"
+          ]
+        },
+        {
+          "label": "Separate CPQ connected to BC",
+          "patterns": [
+            "synchroni[sz]",
+            "connector",
+            "portal",
+            "integration service",
+            "imports? .*configurations",
+            "posts autoquotes",
+            "sync"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inside Business Central": 0.64,
+        "Separate CPQ connected to BC": 0.31
+      }
+    },
+    {
+      "id": "price",
+      "text": "How is the price of a configured product set?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Built up from component costs",
+          "patterns": [
+            "cost",
+            "component-based",
+            "margin"
+          ]
+        },
+        {
+          "label": "Price list or surcharges per option",
+          "patterns": [
+            "price matrix",
+            "surcharge",
+            "characteristic values",
+            "features",
+            "dynamic options, pricing",
+            "quantity breaks"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Built up from component costs": 0.31,
+        "Price list or surcharges per option": 0.19
+      }
+    },
+    {
+      "id": "visual",
+      "text": "Do customers need to see the product (drawing, image, 3D)?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, visual or 3D",
+          "patterns": [
+            "3d",
+            "image",
+            "svg",
+            "diagram",
+            "picture",
+            "\\bcad\\b"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, visual or 3D": 0.17
+      }
+    }
+  ]
+}

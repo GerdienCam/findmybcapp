@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.asqit|AID.vendor-bank-approvals|PAPPID.bbc8c4f4-7736-4a96-a387-637585f36614",
+  "guid": "bbc8c4f4-7736-4a96-a387-637585f36614",
+  "publisherId": "asqit",
+  "offerId": "vendor-bank-approvals",
+  "source": {
+    "name": "Vendor Bank Approvals",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.vendor-bank-approvals%7CPAPPID.bbc8c4f4-7736-4a96-a387-637585f36614",
+    "lastModified": "2026-08-21T14:29:47.8061493+00:00",
+    "appVersion": "28.0.8.26081",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/approvalsuiteapps",
+    "sourceHash": "sha256:c6375094ba8e29bfa6d67e10ef43038ef0ec2013b12ecd357bbb21dfa9cb2a8d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c6375094ba8e29bfa6d67e10ef43038ef0ec2013b12ecd357bbb21dfa9cb2a8d",
+    "mappedOn": null,
+    "summary": "Approval workflow for vendor bank account changes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Approval of vendor bank account changes",
+      "Blocks unapproved bank accounts in payment journals and payment file export",
+      "Tracks changes to vendor bank accounts",
+      "Attach documents to vendor bank accounts",
+      "Automatic reminder emails for unapproved bank accounts",
+      "API to retrieve bank approval statuses",
+      "Configurable protected fields on approved bank accounts"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

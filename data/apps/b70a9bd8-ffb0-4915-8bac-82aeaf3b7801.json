@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.xtensionit|AID.xteshipnshift|PAPPID.b70a9bd8-ffb0-4915-8bac-82aeaf3b7801",
+  "guid": "b70a9bd8-ffb0-4915-8bac-82aeaf3b7801",
+  "publisherId": "xtensionit",
+  "offerId": "xteshipnshift",
+  "source": {
+    "name": "nShift Ship Connector by XtensionIT",
+    "publisher": "XtensionIT Aps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xteshipnshift%7CPAPPID.b70a9bd8-ffb0-4915-8bac-82aeaf3b7801",
+    "lastModified": "2026-09-30T08:06:51.3795011+00:00",
+    "appVersion": "5.9.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.xtensionit.com/en/shipmentconnector/overview/",
+    "sourceHash": "sha256:a5b9541dafa274dfa9fc40af879a99f02105daf36fc9f1223c99641b5caf3eb8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a5b9541dafa274dfa9fc40af879a99f02105daf36fc9f1223c99641b5caf3eb8",
+    "mappedOn": null,
+    "summary": "Shipments, tracking and customs via nShift",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Multi-carrier shipping directly from BC via nShift Ship",
+      "Waybill creation, label printing, track & trace and customs documents",
+      "Updates sales documents with parcel numbers and track & trace",
+      "Shipment status lookup from posted shipment for customer service",
+      "Real-time freight rate comparison",
+      "Automatic printing of shipping documents",
+      "Track & trace links for customers",
+      "Return handling and reverse logistics",
+      "Customs information for carriers",
+      "Extenders available for Dangerous Goods and Tasklet Mobile WMS"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "DK",
+      "FI",
+      "NL",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "nShift Ship"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

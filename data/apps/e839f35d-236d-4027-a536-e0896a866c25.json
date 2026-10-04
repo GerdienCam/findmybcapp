@@ -1,0 +1,70 @@
+{
+  "appId": "TYPE.connect|PUBID.fourvision|AID.advanced-hrm-bc|PAPPID.e839f35d-236d-4027-a536-e0896a866c25",
+  "guid": "e839f35d-236d-4027-a536-e0896a866c25",
+  "publisherId": "fourvision",
+  "offerId": "advanced-hrm-bc",
+  "source": {
+    "name": "Advanced HRM for Dynamics 365 Business Central",
+    "publisher": "FourVision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.fourvision%7CAID.advanced-hrm-bc%7CPAPPID.e839f35d-236d-4027-a536-e0896a866c25",
+    "lastModified": "2025-03-02T23:46:42.9587609+00:00",
+    "appVersion": "4.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://portal.fourvision.com/",
+    "sourceHash": "sha256:70e6bddb34e0f7ddc700d1f7b522a4007c7bdadb1eac8e5c550b98d67d12fa69"
+  },
+  "mapping": {
+    "sourceHash": "sha256:70e6bddb34e0f7ddc700d1f7b522a4007c7bdadb1eac8e5c550b98d67d12fa69",
+    "mappedOn": null,
+    "summary": "End-to-end HR from recruitment onward",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-performance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-recruiting",
+      "ng-hr-onboard-offboard",
+      "ng-hr-absence-leave",
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "Recruitment projects with applications connected to a recruitment system",
+      "Boarding templates and guides for on-, cross- and offboarding",
+      "Central employee data used by all modules",
+      "Request workflows for hiring requisitions, transfers and position creation",
+      "Secure employee e-profile for documents accessible to HR, managers and employees",
+      "Performance cycles with goal setting, skills, behaviours and 360-degree feedback",
+      "Succession planning to find key players and positions",
+      "Performance-based merit increases or bonuses",
+      "Timesheets, leave and sickness registration",
+      "Accessible through Microsoft Teams and Outlook",
+      "Employee self-service"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Teams",
+      "Outlook"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

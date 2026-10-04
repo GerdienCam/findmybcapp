@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evmp|PAPPID.d58a9764-e042-4aef-8bb3-c7c9dfb21668",
+  "guid": "d58a9764-e042-4aef-8bb3-c7c9dfb21668",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evmp",
+  "source": {
+    "name": "EV Mail",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evmp%7CPAPPID.d58a9764-e042-4aef-8bb3-c7c9dfb21668",
+    "lastModified": "2026-09-24T13:29:12.8391825+00:00",
+    "appVersion": "10005.0.0.2900",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support",
+    "sourceHash": "sha256:7f86d885faddaf8c3ae85213776706684c29c6683425866d22565c2c088f303a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7f86d885faddaf8c3ae85213776706684c29c6683425866d22565c2c088f303a",
+    "mappedOn": null,
+    "summary": "Controls how outgoing documents are emailed",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-einvoicing",
+      "ng-ux-printing",
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Per-customer definition of how and to whom documents are delivered",
+      "Separate invoicing, shipping and accounting email addresses plus unlimited recipients",
+      "Per-customer attachment and compression settings",
+      "Language-based email templates",
+      "Suggests email recipients on sales documents, overridable before posting",
+      "Batch sends posted documents per Document Sending Profile",
+      "Activity and email log entries per sent document",
+      "Document Exchange Status shows delivered vs failed",
+      "Transmission errors logged; fix recipient and resend",
+      "PDF merge and zip compression",
+      "Sends via Email, OIOUBL/PEPPOL, WANS or Cloud Printing",
+      "Azure Blob Storage integration"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "IE",
+      "IT",
+      "JP",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PH",
+      "PL",
+      "SE",
+      "TH",
+      "TR",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

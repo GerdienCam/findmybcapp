@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.orangoab1603187061105|AID.orango_easyintegrate|PAPPID.54801bc0-9353-49de-b3d5-bbec4184ab5d",
+  "guid": "54801bc0-9353-49de-b3d5-bbec4184ab5d",
+  "publisherId": "orangoab1603187061105",
+  "offerId": "orango_easyintegrate",
+  "source": {
+    "name": "EasyIntegrate",
+    "publisher": "Fellowmind Business Applications AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.orangoab1603187061105%7CAID.orango_easyintegrate%7CPAPPID.54801bc0-9353-49de-b3d5-bbec4184ab5d",
+    "lastModified": "2026-08-24T12:11:22.1994304+00:00",
+    "appVersion": "28.3.52162.29",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://analytics.clickdimensions.com/cn/ap8g0/easyintegrate",
+    "sourceHash": "sha256:3a978981aba0965213414d84ebdf46614bef81488cd675f97dfadbc6a48d25c6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3a978981aba0965213414d84ebdf46614bef81488cd675f97dfadbc6a48d25c6",
+    "mappedOn": null,
+    "summary": "Integrates BC with webshops",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-edi",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Integration framework for e-commerce, EDI, sales, purchasing and warehousing flows",
+      "Ready-made integrations to web shops and third-party warehouses (3PL)",
+      "Does not affect the BC installation"
+    ],
+    "countries": [
+      "CH",
+      "DE",
+      "DK",
+      "FI",
+      "FR",
+      "GB",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Jetshop",
+      "Magento"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

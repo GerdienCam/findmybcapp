@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.navipartner|AID.nb-retail-appsource|PAPPID.992c2309-cca4-43cb-9e41-911f482ec088",
+  "guid": "992c2309-cca4-43cb-9e41-911f482ec088",
+  "publisherId": "navipartner",
+  "offerId": "nb-retail-appsource",
+  "source": {
+    "name": "NP Retail",
+    "publisher": "NaviPartner",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navipartner%7CAID.nb-retail-appsource%7CPAPPID.992c2309-cca4-43cb-9e41-911f482ec088",
+    "lastModified": "2026-10-01T11:44:42.6005421+00:00",
+    "appVersion": "2800.151.0.10000",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.navipartner.com/product/retail-gettingstarted-intro/",
+    "sourceHash": "sha256:af6ef7bd419c6a489eb20dd60dea31a1d94d16d157bab65a4e21426164aa8c02"
+  },
+  "mapping": {
+    "sourceHash": "sha256:af6ef7bd419c6a489eb20dd60dea31a1d94d16d157bab65a4e21426164aa8c02",
+    "mappedOn": null,
+    "summary": "POS and retail operations",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-retail",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-payment-providers",
+      "ng-loyalty"
+    ],
+    "claims": [
+      "POS built directly into BC without integration or intermediate systems",
+      "Payments by mobile, contactless, loyalty cards, gift cards, foreign exchange, debit cards and cash",
+      "Supports more than 200 payment terminals",
+      "Sell and redeem gift cards and vouchers across stores",
+      "Checkout at counter or mPOS anywhere in store",
+      "SaaS model with adjustable seats",
+      "Fiscalization compliance per market available on request",
+      "Onboarding workshops including price management",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

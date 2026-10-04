@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_price_calculation_with_unit_conversion|PAPPID.cfd1ffae-f9bc-4f09-9f62-013c99586ef7",
+  "guid": "cfd1ffae-f9bc-4f09-9f62-013c99586ef7",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_price_calculation_with_unit_conversion",
+  "source": {
+    "name": "m+m Price Calculation with Unit Conversion",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_price_calculation_with_unit_conversion%7CPAPPID.cfd1ffae-f9bc-4f09-9f62-013c99586ef7",
+    "lastModified": "2026-10-01T13:15:32.6244886+00:00",
+    "appVersion": "28.0.375605.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:6ad50c8725155e73dea3733551d92bd5e1bd96277aab734521eda45b5ec72367"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6ad50c8725155e73dea3733551d92bd5e1bd96277aab734521eda45b5ec72367",
+    "mappedOn": null,
+    "summary": "Adds unit conversion to m+m price calculation",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-pricing"
+    ],
+    "claims": [
+      "Adds unit conversion fields to the m+m price calculation",
+      "Charges customers/vendors in different units",
+      "Works on Essentials and Premium editions"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Price Calculation",
+      "m+m Unit Conversion"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

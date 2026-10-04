@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.validisuklimited1678982155084|AID.validis|PAPPID.bce9a15e-dee6-4955-a933-a58f0aecbcb2",
+  "guid": "bce9a15e-dee6-4955-a933-a58f0aecbcb2",
+  "publisherId": "validisuklimited1678982155084",
+  "offerId": "validis",
+  "source": {
+    "name": "Validis",
+    "publisher": "VALIDIS UK LIMITED",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.validisuklimited1678982155084%7CAID.validis%7CPAPPID.bce9a15e-dee6-4955-a933-a58f0aecbcb2",
+    "lastModified": "2025-10-14T10:15:51.0228107+00:00",
+    "appVersion": "1.5.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.validis.com/hc/en-gb",
+    "sourceHash": "sha256:f617797e0c565cec4d63da59d9816d73a6bc3b00fe21792fb809521845d72c66"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f617797e0c565cec4d63da59d9816d73a6bc3b00fe21792fb809521845d72c66",
+    "mappedOn": null,
+    "summary": "API endpoints for Validis financial data extraction",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-audit-compliance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Creates API endpoints so Validis can connect to BC",
+      "Extracts and standardizes live accounting data for audits, M&A and corporate lending",
+      "Gives accounting firms and financial institutions transaction-level data",
+      "Connects via portal or API"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Validis"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

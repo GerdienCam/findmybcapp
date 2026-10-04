@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcfancourierintegr-is|PAPPID.3c6b716a-5fa0-4982-9b56-8664c8d4172c",
+  "guid": "3c6b716a-5fa0-4982-9b56-8664c8d4172c",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcfancourierintegr-is",
+  "source": {
+    "name": "FAN Courier Integration",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcfancourierintegr-is%7CPAPPID.3c6b716a-5fa0-4982-9b56-8664c8d4172c",
+    "lastModified": "2024-11-21T06:40:38.5111739+00:00",
+    "appVersion": "21.2.12.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:59838e2a001ae36a075b15e1c23c90c2f6a06016b34ffa959153cc96093f17c5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:59838e2a001ae36a075b15e1c23c90c2f6a06016b34ffa959153cc96093f17c5",
+    "mappedOn": null,
+    "summary": "Books FAN Courier shipments from BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Shipping requests and labels with FAN Courier",
+      "Stores FAN Courier offices and services",
+      "Shipment requests from almost any BC document type",
+      "Combine documents into one shipment",
+      "Track and evaluate shipments",
+      "Stores and reprints waybills",
+      "Shipment history table"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "ro"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "FAN Courier"
+    ],
+    "requires": [
+      "Couriers Integration Base"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

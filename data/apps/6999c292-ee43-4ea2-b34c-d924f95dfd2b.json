@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.profactoas1585665701232|AID.global_master|PAPPID.6999c292-ee43-4ea2-b34c-d924f95dfd2b",
+  "guid": "6999c292-ee43-4ea2-b34c-d924f95dfd2b",
+  "publisherId": "profactoas1585665701232",
+  "offerId": "global_master",
+  "source": {
+    "name": "Global Master",
+    "publisher": "ProFacto A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.profactoas1585665701232%7CAID.global_master%7CPAPPID.6999c292-ee43-4ea2-b34c-d924f95dfd2b",
+    "lastModified": "2026-03-30T12:34:43.0225935+00:00",
+    "appVersion": "24.0.0.14",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://profacto.dk/en/global-master/",
+    "sourceHash": "sha256:21e23e62ab757d046e3c84ad676170e79d5764e179953b1f870d13c90587a86e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:21e23e62ab757d046e3c84ad676170e79d5764e179953b1f870d13c90587a86e",
+    "mappedOn": null,
+    "summary": "Synchronizes master data between companies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Automatically shares master data across companies",
+      "Syncs chart of accounts and items across entities",
+      "Works across companies in different databases",
+      "Available in Denmark and Finland"
+    ],
+    "countries": [
+      "DK",
+      "FI"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

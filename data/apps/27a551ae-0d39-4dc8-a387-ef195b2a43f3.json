@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.semineai|AID.seminebcconnector|PAPPID.27a551ae-0d39-4dc8-a387-ef195b2a43f3",
+  "guid": "27a551ae-0d39-4dc8-a387-ef195b2a43f3",
+  "publisherId": "semineai",
+  "offerId": "seminebcconnector",
+  "source": {
+    "name": "SEMINE - Intelligent Accounts Payable for Dynamics 365 Business Central",
+    "publisher": "Semine AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.semineai%7CAID.seminebcconnector%7CPAPPID.27a551ae-0d39-4dc8-a387-ef195b2a43f3",
+    "lastModified": "2026-08-13T11:54:31.0682732+00:00",
+    "appVersion": "28.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://semine.com/en/integrations/microsoft-dynamics-bc",
+    "sourceHash": "sha256:f7f7e7c73c3530a3e939f21925230f7382c0fd5ee15bd8bcc5e3d611920de5d7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f7f7e7c73c3530a3e939f21925230f7382c0fd5ee15bd8bcc5e3d611920de5d7",
+    "mappedOn": null,
+    "summary": "Connects SEMINE AI accounts payable automation with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Syncs supplier master, chart of accounts and dimensions to SEMINE",
+      "Transfers approved invoices from SEMINE to BC",
+      "Purchase order and goods receipt matching down to line level",
+      "Updates purchase orders in BC with invoice information",
+      "AI suggests accounts, dimensions, VAT and accruals",
+      "AI learns on line items",
+      "Touchless three-way matching for PO and cost invoices",
+      "Deviation management with views and warnings",
+      "Automation centre for auto-approval, auto-posting and accruals",
+      "Approval routing by hierarchy in SEMINE or BC",
+      "Mobile approval apps for iOS and Android",
+      "Cloud application on Microsoft Azure"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SEMINE"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

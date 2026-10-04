@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.the_expensify_connector|PAPPID.bf8e74e8-e9dd-4426-accf-81ec1e7be08e",
+  "guid": "bf8e74e8-e9dd-4426-accf-81ec1e7be08e",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "the_expensify_connector",
+  "source": {
+    "name": "Expensify Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.the_expensify_connector%7CPAPPID.bf8e74e8-e9dd-4426-accf-81ec1e7be08e",
+    "lastModified": "2026-07-07T16:22:09.4251554+00:00",
+    "appVersion": "1.0.0.31",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:cece07b6c7d2d5093cccf3828fa02bcbc0f73f916f60a0716e42421ef57cb81e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cece07b6c7d2d5093cccf3828fa02bcbc0f73f916f60a0716e42421ef57cb81e",
+    "mappedOn": null,
+    "summary": "Imports expenses from Expensify",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Downloads masters from Expensify",
+      "Downloads expenses from Expensify",
+      "Downloads receipts from Expensify"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Expensify"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

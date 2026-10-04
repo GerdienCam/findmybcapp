@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.smart-businessllc2412077-2412077|AID.smart_external_file_connector|PAPPID.472d5cd0-fbda-4aa2-b679-a6c494b022c0",
+  "guid": "472d5cd0-fbda-4aa2-b679-a6c494b022c0",
+  "publisherId": "smart-businessllc2412077-2412077",
+  "offerId": "smart_external_file_connector",
+  "source": {
+    "name": "SMART External File Storage -​ On-Premises Connector",
+    "publisher": "SMART business LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_external_file_connector%7CPAPPID.472d5cd0-fbda-4aa2-b679-a6c494b022c0",
+    "lastModified": "2025-12-12T14:36:58.3898177+00:00",
+    "appVersion": "1.0.120781.251210",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.smart-it.com/",
+    "sourceHash": "sha256:b02617568daadf9b17fc4e0525e83c1a6eaca7b1edfe020cc92b2a658c961bca"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b02617568daadf9b17fc4e0525e83c1a6eaca7b1edfe020cc92b2a658c961bca",
+    "mappedOn": null,
+    "summary": "Links BC to on-premises file storage via secure web API",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "File operations via WebAPI deployed in your IIS",
+      "OAuth 2.0 authentication",
+      "Files stay on your own servers",
+      "Standard File Account API; switch between On-Prem and SharePoint without refactoring"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "IIS",
+      "on-premises file systems"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

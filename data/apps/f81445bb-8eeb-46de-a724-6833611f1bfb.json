@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.novasoftfzco1594619964948|AID.nova-bc-008|PAPPID.f81445bb-8eeb-46de-a724-6833611f1bfb",
+  "guid": "f81445bb-8eeb-46de-a724-6833611f1bfb",
+  "publisherId": "novasoftfzco1594619964948",
+  "offerId": "nova-bc-008",
+  "source": {
+    "name": "NOVACON: Consignment App for Business Central",
+    "publisher": "NOVASOFT FZCO",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.novasoftfzco1594619964948%7CAID.nova-bc-008%7CPAPPID.f81445bb-8eeb-46de-a724-6833611f1bfb",
+    "lastModified": "2026-09-09T19:18:03.0263912+00:00",
+    "appVersion": "25.0.0.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://novasoft.global/support/",
+    "sourceHash": "sha256:39a62b1d29f715bdb0f46f5eba827c3e0d0fd187719c423536e86d4c03247a6e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:39a62b1d29f715bdb0f46f5eba827c3e0d0fd187719c423536e86d4c03247a6e",
+    "mappedOn": null,
+    "summary": "Consignment inventory and sales management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-consignment",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vendor-consignment",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Tracks consignment inventory and stock levels in BC",
+      "Automatically generates transactions when consigned goods are sold",
+      "Reports on consignment inventory turnover and stock levels",
+      "Sales, payments and inventory adjustments posted automatically to accounting"
+    ],
+    "countries": [
+      "SA"
+    ],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

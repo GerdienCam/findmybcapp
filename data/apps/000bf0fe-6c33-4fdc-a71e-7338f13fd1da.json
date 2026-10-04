@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.sbs-group|AID.change_tracking|PAPPID.000bf0fe-6c33-4fdc-a71e-7338f13fd1da",
+  "guid": "000bf0fe-6c33-4fdc-a71e-7338f13fd1da",
+  "publisherId": "sbs-group",
+  "offerId": "change_tracking",
+  "source": {
+    "name": "Change Tracking",
+    "publisher": "Velosio",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbs-group%7CAID.change_tracking%7CPAPPID.000bf0fe-6c33-4fdc-a71e-7338f13fd1da",
+    "lastModified": "2026-07-29T23:27:32.8083753+00:00",
+    "appVersion": "1.11.10011.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.plumblineconsulting.com/dynamics-365-business-central/change-tracking/",
+    "sourceHash": "sha256:8fd0ecdf7aa7a4ece86780b4a0cc91d6635e8ac2862f6a9a61e1621d92ea219b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8fd0ecdf7aa7a4ece86780b4a0cc91d6635e8ac2862f6a9a61e1621d92ea219b",
+    "mappedOn": null,
+    "summary": "Audit history of record changes",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-change-log",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Shows who changed a record, when and the previous value",
+      "Drill into line item changes",
+      "Compare relationships between a record and its source record",
+      "Conditional filtering of records",
+      "Search changes by primary key",
+      "Full change history per record",
+      "Basic tier: up to 25 tracked tables",
+      "Advanced tier: unlimited tracked tables"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

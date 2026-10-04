@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.scapta1708358347670|AID.21167f45-5d68-4abf-99bf-6b06cf45b01f|PAPPID.21167f45-5d68-4abf-99bf-6b06cf45b01f",
+  "guid": "21167f45-5d68-4abf-99bf-6b06cf45b01f",
+  "publisherId": "scapta1708358347670",
+  "offerId": "21167f45-5d68-4abf-99bf-6b06cf45b01f",
+  "source": {
+    "name": "XPR365 BigCommerce",
+    "publisher": "XPR365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.scapta1708358347670%7CAID.21167f45-5d68-4abf-99bf-6b06cf45b01f%7CPAPPID.21167f45-5d68-4abf-99bf-6b06cf45b01f",
+    "lastModified": "2026-10-01T14:26:03.8510997+00:00",
+    "appVersion": "28.3.20261001.133048",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://learn.xpr365.com/en/bigcommerce/index.html",
+    "sourceHash": "sha256:0204fe68e29121f9ca098c0385671f5bd99e89c0ef32de00cc12392710e8d51b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0204fe68e29121f9ca098c0385671f5bd99e89c0ef32de00cc12392710e8d51b",
+    "mappedOn": null,
+    "summary": "Integrates BigCommerce store",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exports BC customers to BigCommerce and imports BigCommerce customers",
+      "Maps customer addresses to customers or ship-to addresses",
+      "Exports items and imports products and variants",
+      "Maps product variants to item variants",
+      "Syncs prices and stock",
+      "Manages catalog trees, categories, meta and custom fields",
+      "Imports orders as BC sales documents",
+      "Syncs payment status and fulfillment",
+      "Sends shipments to BigCommerce",
+      "Basic plan: one B2C shop; Pro: B2C+B2B; Enterprise: 3 shops",
+      "Plans include yearly remote service hours"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "BigCommerce"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

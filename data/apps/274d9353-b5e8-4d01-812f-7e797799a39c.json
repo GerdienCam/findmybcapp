@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.jemel|AID.bank_gateway|PAPPID.274d9353-b5e8-4d01-812f-7e797799a39c",
+  "guid": "274d9353-b5e8-4d01-812f-7e797799a39c",
+  "publisherId": "jemel",
+  "offerId": "bank_gateway",
+  "source": {
+    "name": "Bank Gateway",
+    "publisher": "JEMEL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jemel%7CAID.bank_gateway%7CPAPPID.274d9353-b5e8-4d01-812f-7e797799a39c",
+    "lastModified": "2026-09-16T18:40:50.4595753+00:00",
+    "appVersion": "27.0.150.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://jemel.lv/docs/bank-gateway",
+    "sourceHash": "sha256:6cd047303edf57c80ce795b5256063b853fbee72d3ec31e72b395d60d6b0829a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6cd047303edf57c80ce795b5256063b853fbee72d3ec31e72b395d60d6b0829a",
+    "mappedOn": null,
+    "summary": "Direct bank API for payments, statements and matching",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Direct bank API connection with mutual TLS, no middleware",
+      "Sends SEPA Credit Transfer pain.001 from payment journal lines",
+      "Validates company data, SWIFT, IBAN and amount before submission",
+      "Live payment status on journal line: accepted, settled, rejected",
+      "Imports camt.053 end-of-day and camt.052 intraday statements via API",
+      "Scheduled unattended daily statement import via job queue",
+      "Four-tier IBAN- and history-based matching proposes customer, vendor or employee",
+      "Match reason shown in FactBox; posting stays manual",
+      "Certificate stored encrypted with 30-day expiry warning and sandbox mode",
+      "Logs every API call with full request/response XML",
+      "Supports Swedbank Baltic Gateway for Latvia, Estonia, Lithuania",
+      "Supports SEB Baltic Gateway",
+      "Included with JEMEL Latvian Localization license"
+    ],
+    "countries": [
+      "EE",
+      "LT",
+      "LV"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Swedbank",
+      "SEB"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

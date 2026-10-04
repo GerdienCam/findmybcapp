@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.xenatusglobal|AID.xgl_contractsmanagement|PAPPID.e78b4827-bd12-45c6-a377-0c45cdf2b855",
+  "guid": "e78b4827-bd12-45c6-a377-0c45cdf2b855",
+  "publisherId": "xenatusglobal",
+  "offerId": "xgl_contractsmanagement",
+  "source": {
+    "name": "Xenatus-Contracts",
+    "publisher": "Xenatus Global",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xenatusglobal%7CAID.xgl_contractsmanagement%7CPAPPID.e78b4827-bd12-45c6-a377-0c45cdf2b855",
+    "lastModified": "2026-09-29T20:14:18.0177248+00:00",
+    "appVersion": "28.5.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.xenatusglobal.com/contact",
+    "sourceHash": "sha256:00f7bbf72faee04c582fcce445d1ac623c5f9ffede8551b1296e7e222e014960"
+  },
+  "mapping": {
+    "sourceHash": "sha256:00f7bbf72faee04c582fcce445d1ac623c5f9ffede8551b1296e7e222e014960",
+    "mappedOn": null,
+    "summary": "Central contract repository with invoice generation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-contracts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast",
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Single repository for contracts initiating sales and purchase invoicing",
+      "Group contracts generating multiple linked contracts",
+      "Generates sales and purchase orders per line frequency",
+      "Contract creates a sales quote for approval",
+      "Mass price increase across contracts",
+      "Cash flow insight of future revenue and costs",
+      "Multi-currency",
+      "Up to 8 dimensions on contracts inherited to transactions",
+      "Contract renewal with versioning",
+      "Automatically releases sales orders"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

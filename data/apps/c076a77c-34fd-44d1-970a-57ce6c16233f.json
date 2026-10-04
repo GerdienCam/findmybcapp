@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.jemel|AID.jml_uk_delivery_dpd|PAPPID.c076a77c-34fd-44d1-970a-57ce6c16233f",
+  "guid": "c076a77c-34fd-44d1-970a-57ce6c16233f",
+  "publisherId": "jemel",
+  "offerId": "jml_uk_delivery_dpd",
+  "source": {
+    "name": "DPD UK Connector",
+    "publisher": "JEMEL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jemel%7CAID.jml_uk_delivery_dpd%7CPAPPID.c076a77c-34fd-44d1-970a-57ce6c16233f",
+    "lastModified": "2026-06-10T20:17:53.2238791+00:00",
+    "appVersion": "27.0.13.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://jemel.lv/docs/uk-delivery",
+    "sourceHash": "sha256:712e96b13c67efe687b4c22102baa4f08dc735ef0f51f055ef8559124dee407f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:712e96b13c67efe687b4c22102baa4f08dc735ef0f51f055ef8559124dee407f",
+    "mappedOn": null,
+    "summary": "Books DPD UK shipments and labels",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates shipment registrations from BC",
+      "Cancels shipments",
+      "Downloads labels and attaches them to sales shipments",
+      "Real-time tracking updates in BC",
+      "Setup wizard for preferences and API credentials",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DPD UK"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

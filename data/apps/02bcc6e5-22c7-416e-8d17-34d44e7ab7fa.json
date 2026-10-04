@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.insight-works|AID.02bcc6e5-22c7-416e-8d17-34d44e7ab7fa|PAPPID.02bcc6e5-22c7-416e-8d17-34d44e7ab7fa",
+  "guid": "02bcc6e5-22c7-416e-8d17-34d44e7ab7fa",
+  "publisherId": "insight-works",
+  "offerId": "02bcc6e5-22c7-416e-8d17-34d44e7ab7fa",
+  "source": {
+    "name": "Maintenance Manager",
+    "publisher": "Insight Works",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.02bcc6e5-22c7-416e-8d17-34d44e7ab7fa%7CPAPPID.02bcc6e5-22c7-416e-8d17-34d44e7ab7fa",
+    "lastModified": "2026-06-05T04:34:50.2543139+00:00",
+    "appVersion": "1.6.9651.1",
+    "pricingTypes": [
+      "Free",
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://app.dmsiworks.com/maintenance-manager/product-help/",
+    "sourceHash": "sha256:918f04499c7923c302d3bf0c3008bba763103d86d3402e89520d93019c4cb452"
+  },
+  "mapping": {
+    "sourceHash": "sha256:918f04499c7923c302d3bf0c3008bba763103d86d3402e89520d93019c4cb452",
+    "mappedOn": null,
+    "summary": "Asset maintenance management (CMMS)",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-health-safety",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Tracks equipment, machinery and other assets",
+      "Schedules one-time and recurring maintenance tasks",
+      "Maintenance work orders with instructions and resource allocation",
+      "Manages maintenance parts inventory",
+      "Attach manuals and schematics to maintenance tasks",
+      "Mobile access for technicians to update tasks and record time",
+      "Maintenance history for analysis",
+      "Stores safety standards per process",
+      "Maintenance schedule alerts",
+      "Requires Premium edition",
+      "Only maintenance users need a license; viewers and time/material recorders do not"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

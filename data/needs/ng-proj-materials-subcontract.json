@@ -1,0 +1,181 @@
+{
+  "id": "ng-proj-materials-subcontract",
+  "order": 101,
+  "label": "Materials and subcontractors for projects",
+  "description": "Buying, tracking and producing materials for projects and managing subcontracted work.",
+  "type": "bpc",
+  "area": "Projects",
+  "relevance": "medium",
+  "statements": [
+    "Materials and subcontractors for projects",
+    "Buying, tracking and producing materials for projects and managing subcontracted work.",
+    "How do I create a purchase order directly from job planning lines?",
+    "project purchase order BC",
+    "We want to buy materials for a specific job and have them reserved for it",
+    "Site managers order materials by phone and the PO isn't linked to the job",
+    "Is there an app to request materials for a project and get them approved?",
+    "We need to see what has been ordered versus what was budgeted on each job",
+    "Materials delivered straight to the site should be costed to the job on receipt",
+    "Get quotes from suppliers for the materials list of a project",
+    "Purchase lines need job number and task filled in automatically",
+    "Avoid ordering the same material twice for a project",
+    "Want a list of open purchase orders per project",
+    "Our buyers don't know which job the requested items are for",
+    "Materials leave the warehouse for jobs and nobody records it",
+    "How do I post item usage to a job in BC?",
+    "material consumption on jobs",
+    "Unused materials come back from site but are never returned to stock in BC",
+    "We need a van stock for each crew that's charged to jobs as used",
+    "Want to scan items out of the warehouse to a project with a handheld",
+    "Our job costs miss materials because the item journal is posted weeks late",
+    "Is there an app to pick materials for a project and post them to the job?",
+    "Reserve stock for an upcoming job so sales doesn't sell it",
+    "We need to see planned versus used materials per job",
+    "Materials taken from one project and used on another need to move cost",
+    "Site staff should be able to log material usage on their phone",
+    "We build custom units for each project and need the production order linked to the job",
+    "engineer to order BC",
+    "How do we get the cost of an assembly order onto the project in Business Central?",
+    "Each project has its own one-off bill of materials",
+    "Is there an app for project based manufacturing in BC?",
+    "We fabricate steel parts for construction jobs and production cost never reaches the job",
+    "We use lots of subcontractors on jobs and can't see their committed costs",
+    "subcontractor management construction BC",
+    "Subcontractor invoices need to be checked against the agreed amount per job",
+    "How do we track progress claims from subcontractors on a project?",
+    "Is there an app to manage subcontracts and retention on projects?",
+    "We need to hold back 5 percent retention on subcontractor payments until completion",
+    "Subcontractor hours should be recorded on the job like our own staff",
+    "Want a list of all subcontracts per project with value, invoiced and remaining",
+    "Subcontractors need to have valid insurance before working on our sites",
+    "Purchase order for a subcontractor covering a whole work package",
+    "Subcontractors bill more than agreed and we only notice later",
+    "Compare subcontractor quotes for the electrical part of a project"
+  ],
+  "questions": [
+    {
+      "id": "need",
+      "text": "What do you need to handle on your projects?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Buying materials for a project",
+          "patterns": [
+            "purchase (orders?|requests?)",
+            "request for quote",
+            "procure",
+            "requisition"
+          ]
+        },
+        {
+          "label": "Producing or assembling items for a project",
+          "patterns": [
+            "production orders?",
+            "manufactur",
+            "\\bbom\\b",
+            "assembly orders?"
+          ]
+        },
+        {
+          "label": "Picking stock from the warehouse to the site",
+          "patterns": [
+            "warehouse",
+            "withdrawals?",
+            "picks?\\b",
+            "transfer orders?",
+            "shipments?"
+          ]
+        },
+        {
+          "label": "Paying subcontractors",
+          "patterns": [
+            "subcontract"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Buying materials for a project": 0.5,
+        "Producing or assembling items for a project": 0.42,
+        "Picking stock from the warehouse to the site": 0.42,
+        "Paying subcontractors": 0.33
+      }
+    },
+    {
+      "id": "sub",
+      "text": "How are your subcontractors paid?",
+      "options": [
+        {
+          "label": "From hours they log on the project",
+          "patterns": [
+            "approved (project )?(time|hours)",
+            "self-billing"
+          ]
+        },
+        {
+          "label": "Per contract or fixed price",
+          "patterns": [
+            "subcontractor contracts?",
+            "fixed price",
+            "retention",
+            "contracts management"
+          ]
+        },
+        {
+          "label": "Not sure / no subcontractors",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "From hours they log on the project": 0.17,
+        "Per contract or fixed price": 0.17
+      }
+    },
+    {
+      "id": "field",
+      "text": "Do people on site or in the warehouse register material use themselves?",
+      "help": "For example scanning items on a phone or handheld.",
+      "options": [
+        {
+          "label": "Yes, foremen or workers order or withdraw materials",
+          "patterns": [
+            "foreman",
+            "handheld|barcode|web app",
+            "material (orders|withdrawals)"
+          ]
+        },
+        {
+          "label": "No, the office does it",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, foremen or workers order or withdraw materials": 0.17
+      }
+    },
+    {
+      "id": "approve",
+      "text": "Do project purchases go through a request and approval step?",
+      "options": [
+        {
+          "label": "Yes, requests need approval",
+          "patterns": [
+            "purchase requests?",
+            "validation controls in vendor payment"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, requests need approval": 0.17
+      }
+    }
+  ]
+}

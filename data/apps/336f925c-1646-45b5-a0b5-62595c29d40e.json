@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.asqit|AID.vendor-approvals|PAPPID.336f925c-1646-45b5-a0b5-62595c29d40e",
+  "guid": "336f925c-1646-45b5-a0b5-62595c29d40e",
+  "publisherId": "asqit",
+  "offerId": "vendor-approvals",
+  "source": {
+    "name": "Vendor Approvals",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.vendor-approvals%7CPAPPID.336f925c-1646-45b5-a0b5-62595c29d40e",
+    "lastModified": "2026-06-18T08:08:50.2411356+00:00",
+    "appVersion": "27.0.7.26051",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/approvalsuiteapps",
+    "sourceHash": "sha256:59eaa5395f1c1a1408cc2ec534b1c0127d2124e5acfbf3e32b8714e325acf3da"
+  },
+  "mapping": {
+    "sourceHash": "sha256:59eaa5395f1c1a1408cc2ec534b1c0127d2124e5acfbf3e32b8714e325acf3da",
+    "mappedOn": null,
+    "summary": "Approval of new vendors and restricts changes on vendor cards",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Blocks unapproved vendors on purchase documents and journals",
+      "Tracks vendor approval status",
+      "Required fields on vendor accounts",
+      "Protects sensitive vendor data from unapproved changes",
+      "Select which fields to protect on approved vendors",
+      "Approval request when unblocking vendors",
+      "Option to protect remit addresses",
+      "Restricts deletion of approved vendors"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

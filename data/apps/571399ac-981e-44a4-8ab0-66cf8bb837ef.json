@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.foodware365|AID.foodware_365_sublot_management|PAPPID.571399ac-981e-44a4-8ab0-66cf8bb837ef",
+  "guid": "571399ac-981e-44a4-8ab0-66cf8bb837ef",
+  "publisherId": "foodware365",
+  "offerId": "foodware_365_sublot_management",
+  "source": {
+    "name": "Aptean Sublot Management for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_sublot_management%7CPAPPID.571399ac-981e-44a4-8ab0-66cf8bb837ef",
+    "lastModified": "2026-09-29T10:02:27.6367373+00:00",
+    "appVersion": "2602.3.344301.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/SUL/",
+    "sourceHash": "sha256:b12d3606c8d6752fdd2a6b3e9d3cdabdd215ab698ee9174bf21cdfb92d2145cb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b12d3606c8d6752fdd2a6b3e9d3cdabdd215ab698ee9174bf21cdfb92d2145cb",
+    "mappedOn": null,
+    "summary": "Sublots within lots with traceability",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Creates sublots from quantity and reason code",
+      "Sublot history and origins on lot information card",
+      "Report on vendor quality performance by reason code",
+      "Split articles within a lot into a new lot number"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

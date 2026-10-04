@@ -1,0 +1,229 @@
+{
+  "id": "ng-vert-fresh-produce-horticulture",
+  "order": 212,
+  "label": "Solutions for horticulture, agriculture and fresh produce",
+  "description": "Industry solutions for growers, breeders, flower and plant traders, farms and fresh produce packers: crop and batch tracking, auction and Floricode/Floriday data, grading and packing, grower settlements.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for horticulture, agriculture and fresh produce",
+    "Industry solutions for growers, breeders, flower and plant traders, farms and fresh produce packers: crop and batch tracking, auction and Floricode/Floriday data, grading and packing, grower settlements.",
+    "We grow plants and BC can't track batches in the greenhouse",
+    "flower trading software Floriday",
+    "Potato and onion packing with grading",
+    "Grower settlements based on what we sold",
+    "Floricode product data for our assortment",
+    "Farm ERP for crops and livestock",
+    "Fresh produce trader with daily prices",
+    "Plant breeder licences and royalties",
+    "Auction clock sales into BC",
+    "Vineyard and grape deliveries",
+    "Seasonal availability from growers",
+    "Fruit packing station with quality checks"
+  ],
+  "questions": [
+    {
+      "id": "business",
+      "text": "What best describes your business?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Grower or breeder (greenhouse, nursery)",
+          "patterns": [
+            "greenhouse",
+            "breeder",
+            "sowing",
+            "potting",
+            "plant passport",
+            "plant material",
+            "horticultur",
+            "living material",
+            "produced plants",
+            "scouted variet",
+            "nurser"
+          ]
+        },
+        {
+          "label": "Flower and plant trader",
+          "patterns": [
+            "flor",
+            "flower",
+            "floriday",
+            "auction"
+          ]
+        },
+        {
+          "label": "Fruit and vegetable trader or processor",
+          "patterns": [
+            "fresh",
+            "fruit",
+            "vegetable",
+            "grade out",
+            "pack out",
+            "agrio"
+          ]
+        },
+        {
+          "label": "Arable farming, grain, field crops",
+          "patterns": [
+            "grain",
+            "field mapping",
+            "field data",
+            "by area, field",
+            "seeds",
+            "fertiliz",
+            "land area",
+            "cadastral",
+            "plot of land"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Grower or breeder (greenhouse, nursery)": 0.32,
+        "Flower and plant trader": 0.18,
+        "Fruit and vegetable trader or processor": 0.18,
+        "Arable farming, grain, field crops": 0.11
+      }
+    },
+    {
+      "id": "auction",
+      "text": "Do you trade via Floriday or the Dutch flower auctions?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "floriday",
+            "floricode",
+            "florecom",
+            "floraholland",
+            "auction",
+            "vmp"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.18
+      }
+    },
+    {
+      "id": "pricing",
+      "text": "How do you pay growers for produce?",
+      "options": [
+        {
+          "label": "After grading / pack-out (grower return)",
+          "patterns": [
+            "grade out",
+            "pack out",
+            "grower return",
+            "account sales",
+            "grading and quality"
+          ]
+        },
+        {
+          "label": "Fixed purchase price",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "After grading / pack-out (grower return)": 0.14
+      }
+    },
+    {
+      "id": "weigh",
+      "text": "Do you weigh incoming goods at a weighbridge?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "weigh"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.14
+      }
+    },
+    {
+      "id": "floor",
+      "text": "Do workers register work on mobile devices?",
+      "options": [
+        {
+          "label": "Yes, on the work floor",
+          "patterns": [
+            "mobile",
+            "\\bapps? for",
+            "work app",
+            "scann",
+            "logistics app",
+            "offline"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, on the work floor": 0.32
+      }
+    },
+    {
+      "id": "outbound",
+      "text": "Do you load trolleys or pallets for many customers daily?",
+      "options": [
+        {
+          "label": "Yes, need load planning",
+          "patterns": [
+            "load order",
+            "loading",
+            "trolley",
+            "load optim",
+            "load structure",
+            "logistics planning",
+            "plans transport"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, need load planning": 0.29
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-adv-cost|PAPPID.da84c651-9488-45fd-9c5d-c419484ab0ca",
+  "guid": "da84c651-9488-45fd-9c5d-c419484ab0ca",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-adv-cost",
+  "source": {
+    "name": "Powerblox Advanced Costing",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-adv-cost%7CPAPPID.da84c651-9488-45fd-9c5d-c419484ab0ca",
+    "lastModified": "2026-05-22T14:21:45.0730028+00:00",
+    "appVersion": "20.0.32.62642",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/advanced_costing",
+    "sourceHash": "sha256:b38d90ddd1df6dc120318ad5b6f526ba3abdf34ec1c6155940948a7747832c08"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b38d90ddd1df6dc120318ad5b6f526ba3abdf34ec1c6155940948a7747832c08",
+    "mappedOn": null,
+    "summary": "Landed cost calculation for true item cost",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-product-performance"
+    ],
+    "claims": [
+      "Calculates off-balance true (landed) cost per item",
+      "Landed cost categories for items",
+      "Supplements or reductions per item, category, landed cost category or vendor",
+      "Covers handling fees, currency conversion, insurance and taxes",
+      "Deducts expected year-end discounts",
+      "Computed off the balance sheet"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

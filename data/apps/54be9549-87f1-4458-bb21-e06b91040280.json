@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.continentalexchangesolutionsinc1665170299319|AID.xe_currency_data_free|PAPPID.54be9549-87f1-4458-bb21-e06b91040280",
+  "guid": "54be9549-87f1-4458-bb21-e06b91040280",
+  "publisherId": "continentalexchangesolutionsinc1665170299319",
+  "offerId": "xe_currency_data_free",
+  "source": {
+    "name": "Xe Currency Data",
+    "publisher": "Dandelion Payments, Inc., DBA Xe",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continentalexchangesolutionsinc1665170299319%7CAID.xe_currency_data_free%7CPAPPID.54be9549-87f1-4458-bb21-e06b91040280",
+    "lastModified": "2026-04-01T07:32:04.1225153+00:00",
+    "appVersion": "1.1.9.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.xe.com/hc/en-gb/articles/9436217976593-How-to-set-up-Xe-s-API-connection",
+    "sourceHash": "sha256:3a983e58464758bbb272eabf41c417f61680c0ee810922ba85649d46ed27105c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3a983e58464758bbb272eabf41c417f61680c0ee810922ba85649d46ed27105c",
+    "mappedOn": null,
+    "summary": "Imports currency exchange rates from Xe",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exchange rates for 220+ currencies",
+      "Rates sourced from central banks and 100+ financial providers",
+      "Rates refreshed as often as every 60 seconds",
+      "Includes precious metals and select cryptocurrencies",
+      "Historical data back to 1998"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Xe"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

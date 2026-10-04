@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.logicvisionbv1659359031668|AID.fuelvision365_trips|PAPPID.8f3f6ceb-76c1-c77e-2d70-03166a706fe6",
+  "guid": "8f3f6ceb-76c1-c77e-2d70-03166a706fe6",
+  "publisherId": "logicvisionbv1659359031668",
+  "offerId": "fuelvision365_trips",
+  "source": {
+    "name": "FuelVision365 Trips",
+    "publisher": "Logic Vision B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.logicvisionbv1659359031668%7CAID.fuelvision365_trips%7CPAPPID.8f3f6ceb-76c1-c77e-2d70-03166a706fe6",
+    "lastModified": "2026-08-19T11:39:12.4898006+00:00",
+    "appVersion": "3.0.0.26080401",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.logicvision.nl/en/support",
+    "sourceHash": "sha256:a56e70c2a27ea8cb36c9a99fd2ac93725e2aae78d72740befcef33bbcfc4e2c8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a56e70c2a27ea8cb36c9a99fd2ac93725e2aae78d72740befcef33bbcfc4e2c8",
+    "mappedOn": null,
+    "summary": "Truck load and delivery trips for fuel distribution",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-utilities-energy-waste",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-transport-planning",
+      "ng-ap-invoice-capture",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Records products, quantities and times loaded or unloaded",
+      "Automatically generates trip receipts",
+      "Creates purchase order per load entry",
+      "Matches purchase invoice to load by load number",
+      "Integrates with tanker truck onboard computer or handheld",
+      "Imports tank telemetry data",
+      "Alert when customer tank is nearly empty",
+      "Requires FuelVision365 CORE"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Energy"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "FuelVision365 Core"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

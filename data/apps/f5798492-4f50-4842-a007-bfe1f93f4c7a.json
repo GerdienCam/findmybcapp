@@ -1,0 +1,107 @@
+{
+  "appId": "PUBID.tecman|AID.clever-shipment-management|PAPPID.f5798492-4f50-4842-a007-bfe1f93f4c7a",
+  "guid": "f5798492-4f50-4842-a007-bfe1f93f4c7a",
+  "publisherId": "tecman",
+  "offerId": "clever-shipment-management",
+  "source": {
+    "name": "Clever Shipment Management",
+    "publisher": "Clever Dynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecman%7CAID.clever-shipment-management%7CPAPPID.f5798492-4f50-4842-a007-bfe1f93f4c7a",
+    "lastModified": "2026-08-17T09:00:43.5679771+00:00",
+    "appVersion": "1.6.7.158324",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cleverdynamics.com/clever-wms/shipment-management/user-guide",
+    "sourceHash": "sha256:d3badafc662e4aeaa9dbee2fa2b3d3df4655f503a3093ced2157160df9db6f43"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d3badafc662e4aeaa9dbee2fa2b3d3df4655f503a3093ced2157160df9db6f43",
+    "mappedOn": null,
+    "summary": "Plans how and when to ship or collect products",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-shipping-carriers",
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Determines best shipping method from weight, volume, value, postcode and date",
+      "Drop order route optimisation with mapping services",
+      "Reverse drop order picking and loading",
+      "Driver manifest",
+      "One-click picks and paperwork per route",
+      "Move shipments between agents or vehicles",
+      "Integrates with PODFather electronic proof of delivery",
+      "What3Words location integration"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "HR",
+      "HU",
+      "ID",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "LV",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PH",
+      "PL",
+      "RS",
+      "SE",
+      "SG",
+      "SI",
+      "TH",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [
+      "PODFather",
+      "What3Words"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

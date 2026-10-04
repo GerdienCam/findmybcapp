@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.material-staging|PAPPID.e60a8902-46b1-4c77-9382-124127622aff",
+  "guid": "e60a8902-46b1-4c77-9382-124127622aff",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "material-staging",
+  "source": {
+    "name": "Material Staging",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.material-staging%7CPAPPID.e60a8902-46b1-4c77-9382-124127622aff",
+    "lastModified": "2026-01-20T08:38:47.0908727+00:00",
+    "appVersion": "27.2.17096.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.nicsystemslearning.com/help/material-staging",
+    "sourceHash": "sha256:1e4fc77c93ebbf689fdfe05678cfb3ad2a9257adc165d7099bf4a9149e2d267b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1e4fc77c93ebbf689fdfe05678cfb3ad2a9257adc165d7099bf4a9149e2d267b",
+    "mappedOn": null,
+    "summary": "Stages materials for production orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Kit group codes auto-group items into kits in staging area",
+      "Bulk unit of measure for moving bulk items",
+      "Kit group codes flow to production BOMs and orders, adjustable",
+      "Suggested kits for selected production orders",
+      "Batch-based kits (with Production Batching app)",
+      "Move prepared kits to production-in bin",
+      "Per-user license"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "appId": "PUBID.cosmoconsultag|AID.cc_product_data_management|PAPPID.e6ae6d0f-9583-489d-80be-3f3214958a4c",
+  "guid": "e6ae6d0f-9583-489d-80be-3f3214958a4c",
+  "publisherId": "cosmoconsultag",
+  "offerId": "cc_product_data_management",
+  "source": {
+    "name": "COSMO Product Data Management",
+    "publisher": "COSMO CONSULT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.cc_product_data_management%7CPAPPID.e6ae6d0f-9583-489d-80be-3f3214958a4c",
+    "lastModified": "2026-07-24T12:10:03.2823401+00:00",
+    "appVersion": "8.4.0.356009",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/product-data-management/",
+    "sourceHash": "sha256:8dacb60105275844625b5550e583d6ed4eb8cf564543b4b49ae84f69421e2dd6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8dacb60105275844625b5550e583d6ed4eb8cf564543b4b49ae84f69421e2dd6",
+    "mappedOn": null,
+    "summary": "Product data management for drawings and engineering changes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Manages technical drawings with traceability of where a drawing is used",
+      "Manages drawing revisions",
+      "Status management prevents use of old drawings",
+      "Documented engineering change management",
+      "Connects to more than 30 CAD, PLM and PDM systems",
+      "Manages mechanical, electrical and electronics documents under the same rules",
+      "Drawing revision creation is mostly automatic",
+      "Assigns drawings to items, BOMs, production, sales, purchase and service documents"
+    ],
+    "countries": [
+      "AO",
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CL",
+      "CO",
+      "CR",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HK",
+      "HR",
+      "HU",
+      "IE",
+      "IL",
+      "IN",
+      "IT",
+      "JM",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hu",
+      "pl",
+      "sv",
+      "zh"
+    ],
+    "industries": [
+      "Discrete manufacturing",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "CAD",
+      "PDM",
+      "PLM"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

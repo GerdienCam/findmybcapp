@@ -1,0 +1,87 @@
+{
+  "appId": "PUBID.truecommerce|AID.truecommerce_365businesscentraleu|PAPPID.2a37a448-d2fe-4333-bcb9-4ebf8419cdf6",
+  "guid": "2a37a448-d2fe-4333-bcb9-4ebf8419cdf6",
+  "publisherId": "truecommerce",
+  "offerId": "truecommerce_365businesscentraleu",
+  "source": {
+    "name": "TrueCommerce EDI and eCommerce (Europe)",
+    "publisher": "TrueCommerce",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.truecommerce%7CAID.truecommerce_365businesscentraleu%7CPAPPID.2a37a448-d2fe-4333-bcb9-4ebf8419cdf6",
+    "lastModified": "2026-09-30T08:49:35.6941397+00:00",
+    "appVersion": "10.0.0.85",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.truecommerce.com/integrations/erp/microsoft-dynamics-365-business-central/?utm_campaign=channel+microsoft&utm_source=appsource.microsoft.com&utm_medium=referral",
+    "sourceHash": "sha256:8c07bddcd7d58ae764a44115a2821357cd5b64ada6345175c59dce3135704ce7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8c07bddcd7d58ae764a44115a2821357cd5b64ada6345175c59dce3135704ce7",
+    "mappedOn": null,
+    "summary": "EDI and e-commerce integration via TrueCommerce",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop",
+      "ng-conn-marketplaces",
+      "ng-conn-3pl",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Network of 180,000+ trading partners",
+      "Integrates Shopify and Amazon Seller Central",
+      "24/7 emergency support and weekday support 8-20 ET",
+      "No-code integration without modifying BC",
+      "Syncs sales orders, invoicing and shipping data",
+      "Handles dropship and eCommerce orders",
+      "Sends order acknowledgments, invoices and shipment notices",
+      "Packing for ASN compliance",
+      "Shipment reconciliation with 3PLs",
+      "Shares live inventory with trading partners",
+      "Validates transaction fields before sending",
+      "GS1-128 trading partner labels",
+      "Tracks outbound EDI transactions linked to ERP documents"
+    ],
+    "countries": [
+      "AU",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "fr"
+    ],
+    "industries": [
+      "Consumer goods",
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "TrueCommerce",
+      "Shopify",
+      "Amazon Seller Central"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

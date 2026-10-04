@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.alerts-sms-connector-app|PAPPID.e44f8944-1e3d-4ee4-b7eb-9174197aa092",
+  "guid": "e44f8944-1e3d-4ee4-b7eb-9174197aa092",
+  "publisherId": "fenwicksoftware",
+  "offerId": "alerts-sms-connector-app",
+  "source": {
+    "name": "Alerts for SMS Integrator",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.alerts-sms-connector-app%7CPAPPID.e44f8944-1e3d-4ee4-b7eb-9174197aa092",
+    "lastModified": "2026-02-02T09:28:20.1547747+00:00",
+    "appVersion": "22.3.260129.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/alerts/docs/",
+    "sourceHash": "sha256:af761748a4b15a8795611dc71475ce0354d7edb72f6df6f21d97eb3300681481"
+  },
+  "mapping": {
+    "sourceHash": "sha256:af761748a4b15a8795611dc71475ce0354d7edb72f6df6f21d97eb3300681481",
+    "mappedOn": null,
+    "summary": "Sends Alerts app notifications via SMS Integrator",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-alerts",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-conn-messaging"
+    ],
+    "claims": [
+      "Sends Alerts via SMS through SMS Integrator",
+      "SMS text personalised with field values"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Twilio"
+    ],
+    "requires": [
+      "Alerts",
+      "SMS Integrator"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two Fenwick products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

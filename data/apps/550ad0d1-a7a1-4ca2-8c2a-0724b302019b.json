@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.duvekagmbh1711374674329|AID.0004|PAPPID.550ad0d1-a7a1-4ca2-8c2a-0724b302019b",
+  "guid": "550ad0d1-a7a1-4ca2-8c2a-0724b302019b",
+  "publisherId": "duvekagmbh1711374674329",
+  "offerId": "0004",
+  "source": {
+    "name": "duveka Manufacturing",
+    "publisher": "duveka GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0004%7CPAPPID.550ad0d1-a7a1-4ca2-8c2a-0724b302019b",
+    "lastModified": "2026-10-01T10:37:27.9029409+00:00",
+    "appVersion": "26.2.239.30274",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://duveka.net/Manufacturing",
+    "sourceHash": "sha256:03e3bea94b74a5c67aa32162b25f78bf8dbe6e6bc3a3c5db11cfb2222664bf11"
+  },
+  "mapping": {
+    "sourceHash": "sha256:03e3bea94b74a5c67aa32162b25f78bf8dbe6e6bc3a3c5db11cfb2222664bf11",
+    "mappedOn": null,
+    "summary": "Configurable products, complex BOMs, CAD integration and variant production",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning",
+      "ng-vert-industrial-manufacturing"
+    ],
+    "claims": [
+      "Configures products from sales or assembly lines",
+      "Automatically creates variant items, BOMs and routings",
+      "Multi-level BOM view and maintenance",
+      "Edit, import and manage BOMs in Excel workbooks",
+      "Single-use BOMs and routings for customer-specific orders",
+      "BOM materials overview plus warnings, import/export and advanced copy",
+      "Imports CAD BOMs from SolidWorks preserving multi-level structures",
+      "Property-driven BOM components and quantities",
+      "Production orders use variant-specific BOMs with multi-level explosion"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "nl",
+      "uk"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "SolidWorks",
+      "Microsoft Excel"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

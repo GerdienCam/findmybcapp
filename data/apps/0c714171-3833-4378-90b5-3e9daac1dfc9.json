@@ -1,0 +1,83 @@
+{
+  "appId": "PUBID.golden_edi|AID.goldenedi|PAPPID.0c714171-3833-4378-90b5-3e9daac1dfc9",
+  "guid": "0c714171-3833-4378-90b5-3e9daac1dfc9",
+  "publisherId": "golden_edi",
+  "offerId": "goldenedi",
+  "source": {
+    "name": "Golden EDI",
+    "publisher": "Golden EDI AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.golden_edi%7CAID.goldenedi%7CPAPPID.0c714171-3833-4378-90b5-3e9daac1dfc9",
+    "lastModified": "2026-09-24T14:09:23.3881901+00:00",
+    "appVersion": "29.0.160.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://goldenedi.com/contact",
+    "sourceHash": "sha256:84f218a13d017229e796976864d0434f03aab92878a197773283e7272a45fd29"
+  },
+  "mapping": {
+    "sourceHash": "sha256:84f218a13d017229e796976864d0434f03aab92878a197773283e7272a45fd29",
+    "mappedOn": null,
+    "summary": "EDI solution with prepacked business flows",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-einvoicing",
+      "ng-conn-3pl"
+    ],
+    "claims": [
+      "Handles order response, order, 3PL, shipping advice, purchase invoice, invoice and price-list flows",
+      "Workspace for consistency control, monitoring and status updates",
+      "No-code setup of new EDI partners with pre-packed content",
+      "Two-tier cloud service in Azure with translators",
+      "Supports EDIFACT, PEPPOL, X12, XML, CSV",
+      "Connections via FTP, SFTP, AS2, API, HTTP, e-mail",
+      "Free freemium to automate PDF documents"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HU",
+      "IN",
+      "IS",
+      "IT",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

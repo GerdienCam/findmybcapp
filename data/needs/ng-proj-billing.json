@@ -1,0 +1,286 @@
+{
+  "id": "ng-proj-billing",
+  "order": 102,
+  "label": "Invoicing customers for project work",
+  "description": "Billing projects by milestone, progress, or time and material.",
+  "type": "bpc",
+  "area": "Projects",
+  "relevance": "high",
+  "statements": [
+    "Invoicing customers for project work",
+    "Billing projects by milestone, progress, or time and material.",
+    "We bill 30 percent on order, 40 on delivery and 30 on completion, and do it by hand",
+    "milestone billing BC",
+    "How do I set up a payment schedule for a fixed price job in Business Central?",
+    "We forget to invoice milestones when the project manager doesn't tell finance",
+    "Want to invoice when a phase is marked complete on the job",
+    "Is there an app for progress billing on construction projects?",
+    "Customers want an AIA style progress claim with percent complete per line",
+    "We need retention held on our customer invoices until handover",
+    "How do we invoice a deposit on a project before work starts?",
+    "Credit a milestone invoice that was sent too early",
+    "Monthly stage payments on long projects need a schedule we can follow",
+    "Finance can't see which milestones are due to be invoiced this month",
+    "Our fixed price projects are billed in installments but BC wants item lines",
+    "The milestone invoice should show previous invoiced amounts and what is left",
+    "Billing plan per project contract with dates and amounts",
+    "Customer pays upfront deposit and later invoices need to deduct it",
+    "stage payments construction invoicing",
+    "We want milestone invoices to go out automatically on the planned date",
+    "Approval from the client on each milestone before we invoice it",
+    "Valuation based invoicing for building contracts",
+    "Turning a month of hours and expenses into customer invoices takes our bookkeeper three days",
+    "time and material billing BC",
+    "How do I create a sales invoice from job planning lines?",
+    "Our project invoices need to list each consultant's hours with notes",
+    "Is there an app for better project invoice layouts in Business Central?",
+    "We want to review and adjust billable lines before invoicing the client",
+    "Unbilled hours pile up because nobody knows what is ready to invoice",
+    "Invoice several jobs for the same customer on one invoice",
+    "Customers want a time report attached to every invoice",
+    "We need to write off some billable hours before invoicing without losing the cost",
+    "Credit a project invoice and put the hours back as billable",
+    "Monthly billing run for all time and material projects",
+    "Expenses should be rebilled with a 10 percent markup",
+    "Not to exceed limits, we must stop billing when the contract cap is reached",
+    "Project invoice should group lines by task instead of one line per entry",
+    "Want to see unbilled work in progress per project",
+    "Invoices to public sector clients need the project reference and e-invoice format",
+    "We bill in the client's currency but cost in ours",
+    "Consultants approve the invoice draft before it goes to the client",
+    "job invoice draft review"
+  ],
+  "questions": [
+    {
+      "id": "model",
+      "text": "How do you charge customers for project work?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Hours and costs (time & material)",
+          "patterns": [
+            "time (&|and) materials?",
+            "hours (to be )?invoic",
+            "billable hours",
+            "unbilled hours",
+            "hours for invoicing",
+            "hours to invoice",
+            "recorded hours",
+            "imports hours",
+            "time entr",
+            "time record",
+            "time registration",
+            "worklog",
+            "tracked time",
+            "time tracking",
+            "timesheets and payroll",
+            "for timesheets",
+            "reported time"
+          ]
+        },
+        {
+          "label": "Fixed price",
+          "patterns": [
+            "fixed.price",
+            "fixed fee",
+            "fixed prepaid"
+          ]
+        },
+        {
+          "label": "Milestones or % of progress",
+          "patterns": [
+            "milestone",
+            "progress (billing|invoic)",
+            "invoicing based on work progress",
+            "percentage.of.completion",
+            "installments"
+          ]
+        },
+        {
+          "label": "Deposits / prepayments up front",
+          "patterns": [
+            "prepay",
+            "deposit",
+            "advance (billing|payment)",
+            "on-account"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Hours and costs (time & material)": 0.6,
+        "Fixed price": 0.14,
+        "Milestones or % of progress": 0.3,
+        "Deposits / prepayments up front": 0.19
+      }
+    },
+    {
+      "id": "timesource",
+      "text": "Where does your team log hours today?",
+      "multi": true,
+      "options": [
+        {
+          "label": "In Business Central or a BC add-on",
+          "patterns": [
+            "time registration",
+            "time (entry|entries)",
+            "time recording",
+            "time reporting",
+            "log time",
+            "timesheets and payroll",
+            "for timesheets"
+          ]
+        },
+        {
+          "label": "Jira / Tempo",
+          "patterns": [
+            "jira",
+            "tempo"
+          ]
+        },
+        {
+          "label": "Another tool (Harvest, Clockify, TimeLog, Microbizz...)",
+          "patterns": [
+            "harvest",
+            "clockify",
+            "timelog",
+            "microbizz",
+            "plainstaff",
+            "youtrack"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "In Business Central or a BC add-on": 0.33,
+        "Jira / Tempo": 0.12,
+        "Another tool (Harvest, Clockify, TimeLog, Microbizz...)": 0.16
+      }
+    },
+    {
+      "id": "approval",
+      "text": "Does someone review before the customer is invoiced?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, approve hours / time entries",
+          "patterns": [
+            "approv\\w* (of )?(time|hours|services)",
+            "time registration with approval",
+            "time approval",
+            "only approved",
+            "approved time",
+            "electronic approval",
+            "review, release"
+          ]
+        },
+        {
+          "label": "Yes, approve invoice proposals or drafts",
+          "patterns": [
+            "invoice proposals",
+            "proforma",
+            "invoice drafts",
+            "invoice draft"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, approve hours / time entries": 0.12,
+        "Yes, approve invoice proposals or drafts": 0.12
+      }
+    },
+    {
+      "id": "control",
+      "text": "What else must the project billing handle?",
+      "multi": true,
+      "options": [
+        {
+          "label": "WIP and revenue recognition",
+          "patterns": [
+            "\\bwip\\b",
+            "work in progress",
+            "revenue recognition",
+            "percentage.of.completion",
+            "unbilled revenue",
+            "earned value"
+          ]
+        },
+        {
+          "label": "Change orders / extra work",
+          "patterns": [
+            "change orders?",
+            "extra work",
+            "scope changes"
+          ]
+        },
+        {
+          "label": "Retention",
+          "patterns": [
+            "retention"
+          ]
+        },
+        {
+          "label": "Budget vs actual",
+          "patterns": [
+            "budget"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "WIP and revenue recognition": 0.28,
+        "Change orders / extra work": 0.09,
+        "Retention": 0.12,
+        "Budget vs actual": 0.42
+      }
+    },
+    {
+      "id": "industry",
+      "text": "What kind of projects do you run?",
+      "options": [
+        {
+          "label": "Construction / engineering",
+          "patterns": [
+            "construction",
+            "site",
+            "subcontract",
+            "\\beto\\b"
+          ]
+        },
+        {
+          "label": "Consulting, IT, legal or other services",
+          "patterns": [
+            "consult",
+            "professional services",
+            "\\bpsa\\b",
+            "\\bit industry",
+            "jira",
+            "lawyer"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Construction / engineering": 0.14,
+        "Consulting, IT, legal or other services": 0.26
+      }
+    }
+  ]
+}

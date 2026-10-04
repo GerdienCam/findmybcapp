@@ -1,0 +1,87 @@
+{
+  "appId": "PUBID.trimitdevelopmentas1583754646521|AID.trimit_shop_floor|PAPPID.8d425df5-ac94-408c-ba9b-b7c0058bb3d5",
+  "guid": "8d425df5-ac94-408c-ba9b-b7c0058bb3d5",
+  "publisherId": "trimitdevelopmentas1583754646521",
+  "offerId": "trimit_shop_floor",
+  "source": {
+    "name": "TRIMIT Shop Floor",
+    "publisher": "TRIMIT Development A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trimitdevelopmentas1583754646521%7CAID.trimit_shop_floor%7CPAPPID.8d425df5-ac94-408c-ba9b-b7c0058bb3d5",
+    "lastModified": "2026-08-25T13:12:25.1271824+00:00",
+    "appVersion": "26.1.1.100",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://documentation.trimit.com/",
+    "sourceHash": "sha256:458df51f1706eac3bd544b3390c3b365441f2adf0b5a69aafd958d20610dc812"
+  },
+  "mapping": {
+    "sourceHash": "sha256:458df51f1706eac3bd544b3390c3b365441f2adf0b5a69aafd958d20610dc812",
+    "mappedOn": null,
+    "summary": "Time and material registration on production orders",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-time-shifts",
+      "ng-vert-fashion"
+    ],
+    "claims": [
+      "Registers time on tasks related to production orders",
+      "Clock-in/clock-out and absence registration",
+      "Real-time calculation of work time, overtime and absence",
+      "Check and adjust time transactions before payroll transfer (interface required)",
+      "Available in cloud and on-premise"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "nl"
+    ],
+    "industries": [
+      "Fashion",
+      "Furniture",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "TRIMIT"
+    ],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

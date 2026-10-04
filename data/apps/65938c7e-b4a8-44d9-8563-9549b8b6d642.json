@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.bcility1636664056498|AID.bcility-external-file-storage-hetzner|PAPPID.65938c7e-b4a8-44d9-8563-9549b8b6d642",
+  "guid": "65938c7e-b4a8-44d9-8563-9549b8b6d642",
+  "publisherId": "bcility1636664056498",
+  "offerId": "bcility-external-file-storage-hetzner",
+  "source": {
+    "name": "External File Storage - Hetzner Object Storage Connector",
+    "publisher": "BCILITY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcility1636664056498%7CAID.bcility-external-file-storage-hetzner%7CPAPPID.65938c7e-b4a8-44d9-8563-9549b8b6d642",
+    "lastModified": "2026-01-06T02:24:08.7191696+00:00",
+    "appVersion": "27.0.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcility.com/about-us/",
+    "sourceHash": "sha256:5ca5f922efa03cf558753e735f50c7ab2b761e9a5de45f88b633f561c8cbb265"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ca5f922efa03cf558753e735f50c7ab2b761e9a5de45f88b633f561c8cbb265",
+    "mappedOn": null,
+    "summary": "Hetzner Object Storage for BC External File Storage",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Stores BC files in Hetzner Object Storage, all regions",
+      "Upload and download files to buckets",
+      "Create, list and delete folders",
+      "Multiple accounts",
+      "Accounts auto-disabled when a sandbox is created"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Hetzner Object Storage"
+    ],
+    "requires": [
+      "External File Storage Module"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

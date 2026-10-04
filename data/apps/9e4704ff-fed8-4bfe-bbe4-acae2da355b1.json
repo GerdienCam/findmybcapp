@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.cost_control_software|AID.customer_deposits|PAPPID.9e4704ff-fed8-4bfe-bbe4-acae2da355b1",
+  "guid": "9e4704ff-fed8-4bfe-bbe4-acae2da355b1",
+  "publisherId": "cost_control_software",
+  "offerId": "customer_deposits",
+  "source": {
+    "name": "Customer Deposits",
+    "publisher": "Cost Control Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cost_control_software%7CAID.customer_deposits%7CPAPPID.9e4704ff-fed8-4bfe-bbe4-acae2da355b1",
+    "lastModified": "2026-10-02T01:19:00.7850729+00:00",
+    "appVersion": "2.0.1.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://costcontrolsoftware.com/customer-deposits/",
+    "sourceHash": "sha256:081440ef122603a146c3ce1b85d7e352735f720c89153668e92aba92898ba9c3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:081440ef122603a146c3ce1b85d7e352735f720c89153668e92aba92898ba9c3",
+    "mappedOn": null,
+    "summary": "Records and tracks customer deposits on sales orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Records deposits on cash receipt journal and applies them to sales orders",
+      "Separate customer deposit ledger",
+      "Posts deposits to separate G/L account from receivables",
+      "Request a deposit from sales order / order confirmation",
+      "Apply old deposits to new sales orders",
+      "Priced at USD 4 per user per month"
+    ],
+    "countries": [
+      "AE",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "MX",
+      "NL",
+      "NZ",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

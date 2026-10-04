@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bclslocfisclscentral-is|PAPPID.7326e286-4fa0-4679-923f-a284ad15b4ea",
+  "guid": "7326e286-4fa0-4679-923f-a284ad15b4ea",
+  "publisherId": "intelligentsystems",
+  "offerId": "bclslocfisclscentral-is",
+  "source": {
+    "name": "Bulgarian Localization and Fiscalization for LS Central",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bclslocfisclscentral-is%7CPAPPID.7326e286-4fa0-4679-923f-a284ad15b4ea",
+    "lastModified": "2026-09-21T12:37:42.1835541+00:00",
+    "appVersion": "28.12.173.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:155d02ba8df96f9561b814d4be6f96604f899223b666f0b97c05a80cc6ccef44"
+  },
+  "mapping": {
+    "sourceHash": "sha256:155d02ba8df96f9561b814d4be6f96604f899223b666f0b97c05a80cc6ccef44",
+    "mappedOn": null,
+    "summary": "Bulgarian localization and fiscal printer integration for LS Central",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Fiscal receipt sent to fiscal printer on LS Central POS posting",
+      "Money in and money out",
+      "Return receipts, X/Z reports and periodic reports",
+      "Prints loyalty info, vouchers and coupons",
+      "Issue invoice/credit memo directly from POS",
+      "Back-office invoices and credit memos for POS transactions"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Fiscal printers"
+    ],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

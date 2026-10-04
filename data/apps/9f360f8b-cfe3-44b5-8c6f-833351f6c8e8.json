@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.bewo1704977042191|AID.bewo-cem-addon|PAPPID.9f360f8b-cfe3-44b5-8c6f-833351f6c8e8",
+  "guid": "9f360f8b-cfe3-44b5-8c6f-833351f6c8e8",
+  "publisherId": "bewo1704977042191",
+  "offerId": "bewo-cem-addon",
+  "source": {
+    "name": "BeWo - CEM Add-on",
+    "publisher": "BeWo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bewo1704977042191%7CAID.bewo-cem-addon%7CPAPPID.9f360f8b-cfe3-44b5-8c6f-833351f6c8e8",
+    "lastModified": "2025-07-03T14:32:19.8994623+00:00",
+    "appVersion": "24.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.bewo.io/",
+    "sourceHash": "sha256:c256dd1d6a8ab58001dba83358ed88e7f043cc0a5864a36a61513f9adce46e34"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c256dd1d6a8ab58001dba83358ed88e7f043cc0a5864a36a61513f9adce46e34",
+    "mappedOn": null,
+    "summary": "Makes BeWo compatible with Continia Expense Management",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-esg",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Makes BeWo compatible with Continia Expense Management",
+      "Requires BeWo and Continia Expense Management"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Continia Expense Management"
+    ],
+    "requires": [
+      "BeWo",
+      "Continia Expense Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": true,
+    "hideReason": "Compatibility add-on between BeWo and Continia Expense Management; no standalone function",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

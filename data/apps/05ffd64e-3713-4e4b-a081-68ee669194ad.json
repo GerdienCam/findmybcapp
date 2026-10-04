@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.caztaps1613739557990|AID.eazy_work|PAPPID.05ffd64e-3713-4e4b-a081-68ee669194ad",
+  "guid": "05ffd64e-3713-4e4b-a081-68ee669194ad",
+  "publisherId": "caztaps1613739557990",
+  "offerId": "eazy_work",
+  "source": {
+    "name": "EAZYwork",
+    "publisher": "Dynamics-Inspire ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.caztaps1613739557990%7CAID.eazy_work%7CPAPPID.05ffd64e-3713-4e4b-a081-68ee669194ad",
+    "lastModified": "2026-09-14T16:03:31.3446202+00:00",
+    "appVersion": "28.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsinspire.dk/om-os/kontakt/",
+    "sourceHash": "sha256:724d56ed2c8c0d6ad6d82dd91907bccd0fb01705ec9d112e661e8454d372a929"
+  },
+  "mapping": {
+    "sourceHash": "sha256:724d56ed2c8c0d6ad6d82dd91907bccd0fb01705ec9d112e661e8454d372a929",
+    "mappedOn": null,
+    "summary": "Project finance, change orders and invoicing for construction",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-construction",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-change-scope",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-billing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-wip",
+      "ng-proj-budget",
+      "ng-proj-status-reporting",
+      "ng-proj-materials-subcontract"
+    ],
+    "claims": [
+      "Covers change orders approved by the customer, plus agreements for extra work",
+      "Customer approval workflows for additional work",
+      "Real-time tracking of budgets, actuals, forecasts and contribution margins",
+      "Progress billing, contractual, usage-based and ad-hoc invoicing",
+      "Project periods and WIP calculations",
+      "Pre-registration of project purchase invoices before posting",
+      "Project-based purchase approval",
+      "Project templates for fast project creation",
+      "Project and supplier guarantee management",
+      "Piecework (Akkord) administration and settlement",
+      "Connects to payroll systems and wage exports",
+      "Sigma budget import",
+      "Project account schedules and Excel export",
+      "Forecast deviation management",
+      "Role centers for site staff and project managers",
+      "Subcontractor and temporary workforce management"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [
+      "Sigma"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

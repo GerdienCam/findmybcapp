@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.simplyd|AID.sd-safe|PAPPID.1acc1a1a-1141-4afd-a6eb-573c1839ad27",
+  "guid": "1acc1a1a-1141-4afd-a6eb-573c1839ad27",
+  "publisherId": "simplyd",
+  "offerId": "sd-safe",
+  "source": {
+    "name": "SD Interface Creditsafe",
+    "publisher": "Simply Dynamics Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.sd-safe%7CPAPPID.1acc1a1a-1141-4afd-a6eb-573c1839ad27",
+    "lastModified": "2026-02-19T02:13:35.3661138+00:00",
+    "appVersion": "2.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-interface-creditsafe/",
+    "sourceHash": "sha256:e6a55ac4d960e1a619c59266cea2bee737bfcc8b4d57a51dade2f3efc0095444"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e6a55ac4d960e1a619c59266cea2bee737bfcc8b4d57a51dade2f3efc0095444",
+    "mappedOn": null,
+    "summary": "Creditsafe credit data on customers and vendors",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding",
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Search Creditsafe companies and view registered details",
+      "Shows credit rating and recommended credit limit",
+      "Link existing customers and vendors to Creditsafe results",
+      "Create customers and vendors from Creditsafe data",
+      "Credit info FactBox on customers, vendors, sales and purchase orders",
+      "Scheduled refresh via job queue",
+      "Compare and update addresses with Creditsafe data",
+      "View or download full credit reports",
+      "Requires own Creditsafe account"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Creditsafe"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

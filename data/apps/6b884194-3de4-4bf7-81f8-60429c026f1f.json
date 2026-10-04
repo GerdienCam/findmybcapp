@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.oiosba|PAPPID.6b884194-3de4-4bf7-81f8-60429c026f1f",
+  "guid": "6b884194-3de4-4bf7-81f8-60429c026f1f",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "oiosba",
+  "source": {
+    "name": "EV Tecto - OIOUBL",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.oiosba%7CPAPPID.6b884194-3de4-4bf7-81f8-60429c026f1f",
+    "lastModified": "2026-09-10T10:37:19.9569818+00:00",
+    "appVersion": "10006.80.218813.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/EV/overview",
+    "sourceHash": "sha256:baad377c7276044c7989d66e564ac6885e0695094fa39d0e8945038ed4ce45c2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:baad377c7276044c7989d66e564ac6885e0695094fa39d0e8945038ed4ce45c2",
+    "mappedOn": null,
+    "summary": "OIOUBL e-documents for EV Tecto",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-construction",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-costs",
+      "ng-loc-einvoicing"
+    ],
+    "claims": [
+      "Integrates EV Tecto with Continia Document Capture",
+      "Reference string support",
+      "Purchase allocation on job",
+      "Vendor entry overview",
+      "Jobs show purchase costs to be approved"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "EV Tecto - Core",
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

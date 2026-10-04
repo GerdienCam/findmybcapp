@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.d365globalptyltd1665883818849|AID.d365_rebates_management_v2|PAPPID.598dd303-bf52-4103-ae4a-1f3543490ceb",
+  "guid": "598dd303-bf52-4103-ae4a-1f3543490ceb",
+  "publisherId": "d365globalptyltd1665883818849",
+  "offerId": "d365_rebates_management_v2",
+  "source": {
+    "name": "Rebates Management in Supply Chain Management",
+    "publisher": "d365.Global Pty Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.d365globalptyltd1665883818849%7CAID.d365_rebates_management_v2%7CPAPPID.598dd303-bf52-4103-ae4a-1f3543490ceb",
+    "lastModified": "2026-09-24T17:43:32.3628934+00:00",
+    "appVersion": "25.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://d365.global/help",
+    "sourceHash": "sha256:079008be11e3358f787bc6455860096c96b847699456d9d93732aaf785814d4d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:079008be11e3358f787bc6455860096c96b847699456d9d93732aaf785814d4d",
+    "mappedOn": null,
+    "summary": "Volume-based rebates for customers and suppliers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-rebates",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Customer sales volume targets by retailer and item group",
+      "Automatically issues sales credit notes when targets met",
+      "Applies credits to open retailer invoices",
+      "Supplier rebate agreements with purchase volume targets",
+      "Automatically issues purchase credit notes to suppliers",
+      "Monthly, quarterly or annual targets",
+      "Tiered or stepped rebate structures",
+      "Accrues rebates during the period and posts to G/L",
+      "Rebate reports by period, partner, item or type with audit logs"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

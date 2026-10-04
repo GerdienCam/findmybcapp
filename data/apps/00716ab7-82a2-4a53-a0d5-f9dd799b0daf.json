@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.binary-stream-software|AID.easy_currency_exchange_utility_for_d365bc|PAPPID.00716ab7-82a2-4a53-a0d5-f9dd799b0daf",
+  "guid": "00716ab7-82a2-4a53-a0d5-f9dd799b0daf",
+  "publisherId": "binary-stream-software",
+  "offerId": "easy_currency_exchange_utility_for_d365bc",
+  "source": {
+    "name": "Easy Currency Exchange Utility",
+    "publisher": "Binary Stream Software Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binary-stream-software%7CAID.easy_currency_exchange_utility_for_d365bc%7CPAPPID.00716ab7-82a2-4a53-a0d5-f9dd799b0daf",
+    "lastModified": "2026-06-10T16:02:10.7958587+00:00",
+    "appVersion": "1.16.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/ECEHelp/ECE.htm",
+    "sourceHash": "sha256:b4167d1c45d7d1c86931839f14a846084fd5da661513847e3b2074b3a4af0f10"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b4167d1c45d7d1c86931839f14a846084fd5da661513847e3b2074b3a4af0f10",
+    "mappedOn": null,
+    "summary": "Imports daily exchange rates automatically",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Populates London Close exchange rates daily",
+      "Connector to open Exchange API including historical rates",
+      "Automatic and periodic updates of the BC exchange rate table",
+      "Configurable frequency, base currency and target currency",
+      "Update at scheduled time or on demand",
+      "Handles multiple companies with their own base currency"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Open Exchange API"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

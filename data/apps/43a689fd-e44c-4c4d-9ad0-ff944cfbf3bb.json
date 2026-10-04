@@ -1,0 +1,65 @@
+{
+  "appId": "TYPE.connect|PUBID.seerdynamicstechnologies1681408030348|AID.bc_purchase_request_rfq|PAPPID.43a689fd-e44c-4c4d-9ad0-ff944cfbf3bb",
+  "guid": "43a689fd-e44c-4c4d-9ad0-ff944cfbf3bb",
+  "publisherId": "seerdynamicstechnologies1681408030348",
+  "offerId": "bc_purchase_request_rfq",
+  "source": {
+    "name": "Purchase Request & RFQ on Business central",
+    "publisher": "SEER DYNAMICS TECHNOLOGIES",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.seerdynamicstechnologies1681408030348%7CAID.bc_purchase_request_rfq%7CPAPPID.43a689fd-e44c-4c4d-9ad0-ff944cfbf3bb",
+    "lastModified": "2025-07-22T02:36:04.6401365+00:00",
+    "appVersion": "1.1.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://seerdynamics.com/license/",
+    "sourceHash": "sha256:8c75a90819909322d87e6b8d1ca11cf5b20d46ad63da251ff4a33338ab98f8bd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8c75a90819909322d87e6b8d1ca11cf5b20d46ad63da251ff4a33338ab98f8bd",
+    "mappedOn": null,
+    "summary": "Handles vendor RFQs and purchase requests, including approvals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Employees submit purchase requests stating quantity, justification and item",
+      "Approvals in several levels, driven by configurable rules",
+      "Real-time request and approval status",
+      "Sends RFQs from approved requests to more than one vendor",
+      "Record and compare vendor quotations",
+      "Auto-convert winning RFQ to purchase order",
+      "Capture vendor pricing and delivery terms in BC",
+      "Audit trail for procurement decisions",
+      "Role-based or department-wise approval hierarchies",
+      "Email notifications and escalation",
+      "Reports on purchase cycle time and vendor competitiveness",
+      "Uses standard purchasing and vendor tables"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

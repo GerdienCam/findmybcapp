@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.horsawayit|AID.hor_omnichannel|PAPPID.e85928ef-b493-4a34-a310-a44debdc08e5",
+  "guid": "e85928ef-b493-4a34-a310-a44debdc08e5",
+  "publisherId": "horsawayit",
+  "offerId": "hor_omnichannel",
+  "source": {
+    "name": "Omnichannel",
+    "publisher": "Horsa Way",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_omnichannel%7CPAPPID.e85928ef-b493-4a34-a310-a44debdc08e5",
+    "lastModified": "2026-10-01T15:44:07.9018024+00:00",
+    "appVersion": "5.5.10000.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://blog.horsaway.it/app-omnichannel/",
+    "sourceHash": "sha256:98beda5885d17febb51c2544dbe7a4a61b93e7fc95fc3a765b2ac91098e2d68c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:98beda5885d17febb51c2544dbe7a4a61b93e7fc95fc3a765b2ac91098e2d68c",
+    "mappedOn": null,
+    "summary": "Manages omnichannel sales across channels in BC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-channels",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos",
+      "ng-conn-webshop"
+    ],
+    "claims": [
+      "Each point of sale is a channel with its own EDI profile",
+      "Unique list of all omnichannel orders",
+      "Order list fed from retail receipts, instant invoices and returns",
+      "Daily cash reports per store with correction of declared amounts",
+      "Handles coupons, vouchers and gift cards on order lines",
+      "Check order rules on header and lines",
+      "Creates sales orders and matches or creates customers",
+      "Applies order and customer templates per channel",
+      "Gets marketplace commissions",
+      "Dropshipment",
+      "60-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.delcitinc|AID.delcitinc_retail_pos|PAPPID.3e8dc8e4-dcdd-4aa8-a41d-614d966677ed",
+  "guid": "3e8dc8e4-dcdd-4aa8-a41d-614d966677ed",
+  "publisherId": "delcitinc",
+  "offerId": "delcitinc_retail_pos",
+  "source": {
+    "name": "Delcit Retail POS",
+    "publisher": "Delcit Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.delcitinc%7CAID.delcitinc_retail_pos%7CPAPPID.3e8dc8e4-dcdd-4aa8-a41d-614d966677ed",
+    "lastModified": "2026-05-28T18:47:52.6332812+00:00",
+    "appVersion": "1.0.0.8",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.delcit.com/solutions/digital-commerce-with-omni-channel/",
+    "sourceHash": "sha256:ba05f7ecf4aa81396a9d0b7c0129835b9a3e2f5a71a8e7ade8fa9e40fb9d0827"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ba05f7ecf4aa81396a9d0b7c0129835b9a3e2f5a71a8e7ade8fa9e40fb9d0827",
+    "mappedOn": null,
+    "summary": "Point of sale for retail integrated with BC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-retail",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements",
+      "ng-customer-returns"
+    ],
+    "claims": [
+      "In-store POS checkout inside BC without third-party POS software",
+      "Price adjustments and discounts at POS",
+      "Multiple payment methods",
+      "Return and exchange management",
+      "Stock transfer between stores and replenishment",
+      "Inventory count and auditing",
+      "Staff scheduling, time tracking and shift management",
+      "Role-based access control",
+      "Multi-store management",
+      "Cash management and transaction audit trail",
+      "Store performance dashboards and sales reports",
+      "Free one-month trial"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

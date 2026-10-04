@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.x-linkas1700470462467|AID.xli_sproomlink|PAPPID.8f8f2a93-159d-499f-9caa-24e1dd16781a",
+  "guid": "8f8f2a93-159d-499f-9caa-24e1dd16781a",
+  "publisherId": "x-linkas1700470462467",
+  "offerId": "xli_sproomlink",
+  "source": {
+    "name": "SproomLink",
+    "publisher": "X-link A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.x-linkas1700470462467%7CAID.xli_sproomlink%7CPAPPID.8f8f2a93-159d-499f-9caa-24e1dd16781a",
+    "lastModified": "2025-08-07T09:36:36.1974381+00:00",
+    "appVersion": "1.0.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.xli.dk/",
+    "sourceHash": "sha256:77de76750f10b3d8b3e702b6d57924c1625df63e24baff2f7b45461e91442641"
+  },
+  "mapping": {
+    "sourceHash": "sha256:77de76750f10b3d8b3e702b6d57924c1625df63e24baff2f7b45461e91442641",
+    "mappedOn": null,
+    "summary": "Exchanges electronic documents via Sproom.net",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Sends electronic documents to Sproom via API",
+      "Sproom converts to OIOUBL, PEPPOL, EDIFACT",
+      "Choose per customer which customers receive e-documents",
+      "Send via CVR or GLN (EAN) number",
+      "Automatic, manual or job-queue sending",
+      "Attach PDF copy and extra attachments",
+      "FIK payment info in documents",
+      "Supports invoice, service invoice, credit memo and service credit memo",
+      "Sends to DK, GL, FO, NO, SE, DE",
+      "Requires a Sproom account and API access"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Sproom"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

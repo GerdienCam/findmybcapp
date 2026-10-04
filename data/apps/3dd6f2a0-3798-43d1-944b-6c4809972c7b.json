@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.compusoft|AID.gl_revaluation_for_d365_business_central|PAPPID.3dd6f2a0-3798-43d1-944b-6c4809972c7b",
+  "guid": "3dd6f2a0-3798-43d1-944b-6c4809972c7b",
+  "publisherId": "compusoft",
+  "offerId": "gl_revaluation_for_d365_business_central",
+  "source": {
+    "name": "GL Revaluation for D365 Business Central",
+    "publisher": "Compusoft Advisors",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.compusoft%7CAID.gl_revaluation_for_d365_business_central%7CPAPPID.3dd6f2a0-3798-43d1-944b-6c4809972c7b",
+    "lastModified": "2026-07-22T19:25:12.5107246+00:00",
+    "appVersion": "22.0.0.10",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.compusoftadvisors.com/contact-us/",
+    "sourceHash": "sha256:64a4775b1a918d3aabf93b334a9c36f9ec97d7811e90ffec94280a48b037cdc6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:64a4775b1a918d3aabf93b334a9c36f9ec97d7811e90ffec94280a48b037cdc6",
+    "mappedOn": null,
+    "summary": "Foreign currency revaluation of G/L accounts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-period-close"
+    ],
+    "claims": [
+      "Foreign currency revaluation of balance sheet G/L accounts",
+      "Configured on the chart of accounts",
+      "Dimension-wise revaluation",
+      "Revaluation for all currencies in one run, monthly or yearly",
+      "Approval of revaluation output, multi-document approval",
+      "Rejection of revalued entries with remarks",
+      "Approved entries posted automatically",
+      "History log of approved, rejected and posted revaluation entries"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

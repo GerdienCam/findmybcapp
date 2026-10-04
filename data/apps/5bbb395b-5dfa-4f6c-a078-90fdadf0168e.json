@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.columbuslietuva|AID.oixio-transport|PAPPID.5bbb395b-5dfa-4f6c-a078-90fdadf0168e",
+  "guid": "5bbb395b-5dfa-4f6c-a078-90fdadf0168e",
+  "publisherId": "columbuslietuva",
+  "offerId": "oixio-transport",
+  "source": {
+    "name": "OIXIO Company Transport Accounting",
+    "publisher": "UAB OIXIO",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.columbuslietuva%7CAID.oixio-transport%7CPAPPID.5bbb395b-5dfa-4f6c-a078-90fdadf0168e",
+    "lastModified": "2026-03-23T02:57:22.8029132+00:00",
+    "appVersion": "1.0.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://oixio.eu/company-transport-accounting-help/",
+    "sourceHash": "sha256:be3c1ecbcfe8e8d9e386701411845af3f55eb7605ad3673cff65390b09254bc6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:be3c1ecbcfe8e8d9e386701411845af3f55eb7605ad3673cff65390b09254bc6",
+    "mappedOn": null,
+    "summary": "Fleet management for own or rented vehicles, routes and costs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-payroll-comp",
+      "ng-ap-invoice-capture",
+      "ng-cost-allocation"
+    ],
+    "claims": [
+      "Vehicle register with make, type, fuel type and consumption rates",
+      "Driving routes and route segments",
+      "Waybill entry and printing",
+      "Fuel consumption calculated from rates, driving conditions and cargo load",
+      "Imports data on fuel purchase invoices out of supplier-provided files",
+      "Links fuel purchases to vehicles and waybills",
+      "Fuel write-offs broken down by fuel type and vehicle",
+      "Vehicle KPIs: fuel, inspection costs, depreciation, hours, km with cargo",
+      "Vehicle documents with validity monitoring and expiry alerts",
+      "Tire accounting with mileage limits and residual value",
+      "Driver wages calculated from waybill data",
+      "For own fleets or rented transport"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "lt"
+    ],
+    "industries": [
+      "Fleet",
+      "Logistics",
+      "Transport"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

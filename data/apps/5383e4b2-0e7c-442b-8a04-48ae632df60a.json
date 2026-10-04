@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.bluesoftwareas|AID.bluedelivery|PAPPID.5383e4b2-0e7c-442b-8a04-48ae632df60a",
+  "guid": "5383e4b2-0e7c-442b-8a04-48ae632df60a",
+  "publisherId": "bluesoftwareas",
+  "offerId": "bluedelivery",
+  "source": {
+    "name": "Blue Delivery",
+    "publisher": "Blue Software AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bluesoftwareas%7CAID.bluedelivery%7CPAPPID.5383e4b2-0e7c-442b-8a04-48ae632df60a",
+    "lastModified": "2026-06-17T07:14:10.8233281+00:00",
+    "appVersion": "4.0.0.12",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bluesoftware.no/wp-content/uploads/2026/05/Blue-Delivery-Manual.pdf",
+    "sourceHash": "sha256:d8b6a863d0661644df7cd0905c7692551f6aa2c3d030b6c5f4730bd138ead652"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d8b6a863d0661644df7cd0905c7692551f6aa2c3d030b6c5f4730bd138ead652",
+    "mappedOn": null,
+    "summary": "Registers goods structures, books transport and receives labels",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Register goods units on quotes, orders, invoices, transfers, picks and shipments",
+      "Packing structure: what is packed in what",
+      "Lot and serial number support",
+      "Dangerous goods",
+      "Book transport with carrier directly from BC",
+      "Receive labels and freight documents into BC automatically",
+      "Supports Bring and multi-carriers nShift and Logistra Cargonizer",
+      "Requires Blue Goods"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "es",
+      "no"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Bring",
+      "nShift",
+      "Logistra Cargonizer"
+    ],
+    "requires": [
+      "Blue Goods"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

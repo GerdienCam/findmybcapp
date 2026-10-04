@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.codadot|AID.negative_sales|PAPPID.1149aa1c-08f2-4e47-ba20-884f1a8543a2",
+  "guid": "1149aa1c-08f2-4e47-ba20-884f1a8543a2",
+  "publisherId": "codadot",
+  "offerId": "negative_sales",
+  "source": {
+    "name": "Negative Sales",
+    "publisher": "Codadot",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codadot%7CAID.negative_sales%7CPAPPID.1149aa1c-08f2-4e47-ba20-884f1a8543a2",
+    "lastModified": "2025-11-30T17:02:24.1019173+00:00",
+    "appVersion": "2.0.20251130.231",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://docs.codadot.nl/",
+    "sourceHash": "sha256:a7256e550c734c37d0630792e87b29afc75c2febf3a2e4efc308cba98963ac4c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a7256e550c734c37d0630792e87b29afc75c2febf3a2e4efc308cba98963ac4c",
+    "mappedOn": null,
+    "summary": "Posts negative sales invoices where customer is paid",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns"
+    ],
+    "claims": [
+      "Creates and posts negative sales invoices",
+      "Corrects negative sales invoices through credit memos with positive amounts",
+      "Handles exchanges for cheaper product in a single document",
+      "Buy items from customers (trade-ins, buy-back) without journals",
+      "Configurable G/L account posting for negative lines (sales or credit memo account)",
+      "Override G/L accounts per line or whole document",
+      "Filter conditions that must be met before posting, can be disabled temporarily",
+      "Logs who posted which negative sales invoice",
+      "Only users posting negative invoices need a license"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

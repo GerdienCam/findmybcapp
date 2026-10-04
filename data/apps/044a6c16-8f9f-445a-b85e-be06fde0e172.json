@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.succeedit_5140844|AID.bank_transactions|PAPPID.044a6c16-8f9f-445a-b85e-be06fde0e172",
+  "guid": "044a6c16-8f9f-445a-b85e-be06fde0e172",
+  "publisherId": "succeedit_5140844",
+  "offerId": "bank_transactions",
+  "source": {
+    "name": "Bank Transactions",
+    "publisher": "SucceedIT B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.succeedit_5140844%7CAID.bank_transactions%7CPAPPID.044a6c16-8f9f-445a-b85e-be06fde0e172",
+    "lastModified": "2026-09-16T13:01:35.4637468+00:00",
+    "appVersion": "28.0.68.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.succeedit.nl/en/business-central-apps/bank-transactions/",
+    "sourceHash": "sha256:451635f89b1be0779f9bbd23b011697c36f500fc199da18d38c4210b14e03137"
+  },
+  "mapping": {
+    "sourceHash": "sha256:451635f89b1be0779f9bbd23b011697c36f500fc199da18d38c4210b14e03137",
+    "mappedOn": null,
+    "summary": "Processes bank statements and posts payments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-payment-providers"
+    ],
+    "claims": [
+      "Automatically imports bank statements",
+      "Matches payments to open invoices on reference numbers, amounts and customer data",
+      "Imports PSP payments and specifications from Mollie and Adyen",
+      "Links bank and PSP accounts to balance sheet accounts",
+      "Condensed posting and dimension compression",
+      "Import, check, reconciliation and posting automated via job queue",
+      "Live PSD2 bank connections to Benelux banks via Bizcuit",
+      "Interface for manual corrections",
+      "Bizcuit integration costs extra per month",
+      "30-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Mollie",
+      "Adyen",
+      "Bizcuit"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.wisefish1707821097531|AID.wisefishlabelprinting|PAPPID.46ba4d1a-fa10-4c33-9c0c-30f40ef5c584",
+  "guid": "46ba4d1a-fa10-4c33-9c0c-30f40ef5c584",
+  "publisherId": "wisefish1707821097531",
+  "offerId": "wisefishlabelprinting",
+  "source": {
+    "name": "Wisefish Label Printing",
+    "publisher": "Wisefish",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wisefish1707821097531%7CAID.wisefishlabelprinting%7CPAPPID.46ba4d1a-fa10-4c33-9c0c-30f40ef5c584",
+    "lastModified": "2026-05-27T16:24:02.9290317+00:00",
+    "appVersion": "27.1.20260527.8",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.wisefish.com/contact",
+    "sourceHash": "sha256:a37477c598e59519bb344b0b898d1f64afc6016bb68d64a4ed7102aff3a6d8be"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a37477c598e59519bb344b0b898d1f64afc6016bb68d64a4ed7102aff3a6d8be",
+    "mappedOn": null,
+    "summary": "Prints pallet labels from Wisefish to local printer",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "One-click barcode label printing from Wisefish",
+      "Prints pallet labels on any local printer",
+      "Supports BarTender from Seagull Scientific for custom labels",
+      "Requires BarTender 2022 Automation or higher on premises"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "is",
+      "no"
+    ],
+    "industries": [
+      "Seafood"
+    ],
+    "connectsTo": [
+      "BarTender"
+    ],
+    "requires": [
+      "Wisefish",
+      "BarTender"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

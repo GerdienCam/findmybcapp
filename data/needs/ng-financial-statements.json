@@ -1,0 +1,237 @@
+{
+  "id": "ng-financial-statements",
+  "order": 57,
+  "label": "Building P&L, balance sheet and statutory reports",
+  "description": "Financial statements, analysis and distribution of results and mandatory statutory filings.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "high",
+  "statements": [
+    "Building P&L, balance sheet and statutory reports",
+    "Financial statements, analysis and distribution of results and mandatory statutory filings.",
+    "Building a decent P&L in BC account schedules is way too hard",
+    "Is there a financial reporting app for BC that our controller can use without a consultant?",
+    "Every month we export trial balance to Excel and build the reports there",
+    "financial report designer BC",
+    "We want a balance sheet and P&L with drill down to the entries",
+    "Our board pack takes three days to put together each month",
+    "We need monthly management accounts with columns for month, YTD and last year",
+    "P&L by department side by side",
+    "Is there something like Jet Reports for Business Central?",
+    "Cash flow statement using the indirect method from BC data",
+    "Power BI finance reports for Business Central",
+    "Our financial reports break every time we add a new G/L account",
+    "We want the P&L layout in Excel but refreshed live from BC",
+    "Financial statements in both local currency and euro",
+    "Owner wants a one page P&L every Monday in his inbox",
+    "Need an income statement per project and per product line",
+    "Year end financial statements for the accountant",
+    "Trial balance export for our external accountant",
+    "Report showing actual versus last year with variances",
+    "We have 25 Excel reports linked to BC and they break after every update",
+    "Why did our gross margin drop this quarter? We need to dig into it",
+    "Spot unusual movements in the P&L before the board does",
+    "Automatically email the monthly financial statements to the management team",
+    "financial analysis BC Power BI",
+    "We want to analyse the P&L by customer, product and region in one place",
+    "Can AI find outliers and anomalies in our financial data?",
+    "Is there an app to schedule and distribute financial reports as PDF?",
+    "Trend analysis of key P&L lines over the last 24 months",
+    "Analyse results across all our companies without exporting",
+    "Owner wants explanations of what changed since last month, not just numbers",
+    "Variance analysis between this year and last year by account",
+    "We need interactive dashboards for the management review",
+    "We have to file 1099s for our contractors and BC's process is painful",
+    "1099 e-filing from Business Central",
+    "Annual report must be submitted to the business register in XBRL format",
+    "Is there an app that produces the statutory annual accounts straight from BC?",
+    "Intrastat reporting every month takes hours",
+    "Our local auditor needs the statutory chart of accounts report",
+    "We need 1099s for several companies at once",
+    "Government statistics office wants a quarterly survey from our accounts",
+    "Statutory reports in each country where we have a subsidiary",
+    "Year end filing for the tax authority with the financial data in their format",
+    "Export financial data to our tax preparer",
+    "Do we need to file anything special to the national bank about foreign payments?"
+  ],
+  "questions": [
+    {
+      "id": "where",
+      "text": "Where do you want to build and read your financial reports?",
+      "multi": true,
+      "options": [
+        {
+          "label": "In Excel",
+          "patterns": [
+            "excel[- ]based|excel (add-in|functions)|connects excel|in excel",
+            "spreadsheets?"
+          ]
+        },
+        {
+          "label": "In Power BI dashboards",
+          "patterns": [
+            "power ?bi"
+          ]
+        },
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "inside business central",
+            "natively in bc|runs natively",
+            "account schedules?|financial reports? (row|exposed|indicator)|open any financial report",
+            "trial balance (with|reports)|detailed trial balances",
+            "balance sheet preview|printed forms?|\\bprints\\b",
+            "replacing standard (bc )?reports",
+            "t-type|t-accounts",
+            "role ?cent(er|re)"
+          ]
+        },
+        {
+          "label": "In a separate reporting or planning tool",
+          "patterns": [
+            "boardeaser|xpna|solver|finance insights|acterys",
+            "web portal",
+            "data warehouse"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "In Excel": 0.19,
+        "In Power BI dashboards": 0.19,
+        "Inside Business Central": 0.55,
+        "In a separate reporting or planning tool": 0.16
+      }
+    },
+    {
+      "id": "companies",
+      "text": "Do you report across more than one company?",
+      "options": [
+        {
+          "label": "Yes, combined or consolidated",
+          "patterns": [
+            "multi(ple)?[- ]compan",
+            "cross-company",
+            "consolidat",
+            "multi-entity|entities",
+            "across (multiple )?companies|intercompany"
+          ]
+        },
+        {
+          "label": "No, one company",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, combined or consolidated": 0.26
+      }
+    },
+    {
+      "id": "statutory",
+      "text": "Do you need statements in a local statutory or accounting-standard format?",
+      "help": "For example a national balance sheet layout, IFRS or a second chart of accounts.",
+      "options": [
+        {
+          "label": "Local statutory layouts",
+          "patterns": [
+            "statutory",
+            "accounting act",
+            "fiscal financial statements",
+            "china|chinese|ukrain|iceland",
+            "local chart of accounts|saf-t"
+          ]
+        },
+        {
+          "label": "IFRS or parallel books",
+          "patterns": [
+            "ifrs",
+            "parallel"
+          ]
+        },
+        {
+          "label": "No, standard reports are fine",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Local statutory layouts": 0.19,
+        "IFRS or parallel books": 0.06
+      }
+    },
+    {
+      "id": "what",
+      "text": "Beyond P&L and balance sheet, what else do you need?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Cash flow statement",
+          "patterns": [
+            "cash ?flow statement|cash flow entries|cash flow\\b(?! forecast)"
+          ]
+        },
+        {
+          "label": "Budgets, forecasts and planning",
+          "patterns": [
+            "budget",
+            "forecast",
+            "planning"
+          ]
+        },
+        {
+          "label": "Accruals and month-end adjustments",
+          "patterns": [
+            "accruals?",
+            "deferrals?",
+            "simulat",
+            "period close|month-?end"
+          ]
+        },
+        {
+          "label": "Drill-down by dimension or account detail",
+          "patterns": [
+            "dimensions?",
+            "drill[- ]?down",
+            "turnovers?",
+            "correspondence",
+            "breakdown|broken down"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Cash flow statement": 0.16,
+        "Budgets, forecasts and planning": 0.23,
+        "Accruals and month-end adjustments": 0.16,
+        "Drill-down by dimension or account detail": 0.48
+      }
+    },
+    {
+      "id": "share",
+      "text": "Should reports be sent out automatically to managers or the board?",
+      "options": [
+        {
+          "label": "Yes, scheduled distribution",
+          "patterns": [
+            "scheduled (financial )?reports|scheduling and alerts",
+            "distribution",
+            "emailed|to email",
+            "burst"
+          ]
+        },
+        {
+          "label": "No, people open them themselves",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, scheduled distribution": 0.13
+      }
+    }
+  ]
+}

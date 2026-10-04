@@ -1,0 +1,229 @@
+{
+  "id": "ng-ux-data-entry",
+  "order": 168,
+  "label": "Faster everyday data entry and bulk changes",
+  "description": "Cutting clicks in daily entry: default values, posting defaults, copying documents in bulk, mass updates and renames, Excel-like editing and general productivity bundles.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "high",
+  "statements": [
+    "Faster everyday data entry and bulk changes",
+    "Cutting clicks in daily entry: default values, posting defaults, copying documents in bulk, mass updates and renames, Excel-like editing and general productivity bundles.",
+    "Entering an order takes way too many clicks",
+    "BC is so slow to work in compared to our old system, everything is three screens deep",
+    "Can I change a field on 500 items at once instead of opening each card?",
+    "mass update field values",
+    "We rename customer numbers all the time and it takes ages one by one",
+    "Our bookkeeper types the same description on every journal line every month",
+    "Is there a way to copy 40 sales orders at once for next month?",
+    "Users keep forgetting to set the posting date to today and post into last month",
+    "I want to edit lines like in Excel, tab tab tab, not open every record",
+    "bulk copy documents",
+    "Every time we post the order we have to pick Ship and Invoice, can that be the default?",
+    "Our staff want a bunch of small time savers, is there a productivity pack for BC?",
+    "Find and replace a value across all vendors",
+    "Switching from C5 and people complain everything takes longer to type in",
+    "We need default values in journals per user so they stop filling the same fields",
+    "Can we batch rename our item numbers to the new numbering scheme?",
+    "Fill down a value on many lines at once",
+    "Too much manual retyping when the same order comes in every week",
+    "I just want BC to remember what I usually enter",
+    "posting description template"
+  ],
+  "questions": [
+    {
+      "id": "pain",
+      "text": "Which daily task wastes the most clicks?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Changing or renaming many records at once",
+          "patterns": [
+            "renam",
+            "find (&|and) replace",
+            "search and replace",
+            "bulk (add|update|edit|delete)",
+            "mass updat",
+            "batch update",
+            "merge records",
+            "bulk delete",
+            "delete records"
+          ]
+        },
+        {
+          "label": "Copying documents",
+          "patterns": [
+            "bulk cop",
+            "copy (service )?orders",
+            "skip source-reference",
+            "copies lines",
+            "multiple versions of the same order",
+            "copying documents"
+          ]
+        },
+        {
+          "label": "Entering order lines",
+          "patterns": [
+            "scan",
+            "barcode",
+            "suggest",
+            "search column",
+            "related items",
+            "serial number",
+            "\\bDMC\\b",
+            "natural language",
+            "document lines as csv",
+            "pick items",
+            "quick order"
+          ]
+        },
+        {
+          "label": "Filling in the same defaults again and again",
+          "patterns": [
+            "default",
+            "preselect",
+            "remembers",
+            "sets posting date",
+            "posting date rules",
+            "update posting",
+            "predefin",
+            "templates?\\b(?! structure)"
+          ]
+        },
+        {
+          "label": "Writing long texts on documents",
+          "patterns": [
+            "long texts?",
+            "multiline",
+            "continuous text",
+            "full text fields"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Changing or renaming many records at once": 0.25,
+        "Copying documents": 0.23,
+        "Entering order lines": 0.21,
+        "Filling in the same defaults again and again": 0.23,
+        "Writing long texts on documents": 0.08
+      }
+    },
+    {
+      "id": "scanner",
+      "text": "Do you use barcode scanners when entering orders or stock?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "barcode",
+            "scann",
+            "rfid",
+            "\\bDMC\\b"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.06
+      }
+    },
+    {
+      "id": "excel",
+      "text": "Do you want to move data in and out via Excel or CSV files?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "excel",
+            "\\bcsv\\b",
+            "\\bjson\\b",
+            "import and export",
+            "import/export",
+            "master data import"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.12
+      }
+    },
+    {
+      "id": "who",
+      "text": "Is this for everyday users or for an admin or super user cleaning up data?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Admin / super user",
+          "patterns": [
+            "any table",
+            "table editor",
+            "any business central table",
+            "multiple tables",
+            "across tables",
+            "run object",
+            "super users",
+            "bypass validation",
+            "validation triggers"
+          ]
+        },
+        {
+          "label": "Everyday users",
+          "patterns": [
+            "sales (and|&) purchase",
+            "sales orders?",
+            "purchase orders?",
+            "document lines",
+            "journal"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Admin / super user": 0.15,
+        "Everyday users": 0.52
+      }
+    },
+    {
+      "id": "scope",
+      "text": "Would a broad bundle of many small improvements suit you?",
+      "multi": false,
+      "options": [
+        {
+          "label": "A broad bundle",
+          "patterns": [
+            "bundle",
+            "100\\+",
+            "starter pack",
+            "set of (tools|functionalities)",
+            "key features",
+            "enhancements?"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "A broad bundle": 0.15
+      }
+    }
+  ]
+}

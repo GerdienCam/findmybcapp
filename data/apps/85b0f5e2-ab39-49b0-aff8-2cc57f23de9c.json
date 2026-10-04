@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.naviona_4717541|AID.naviona_business_central_demand_forecasting|PAPPID.85b0f5e2-ab39-49b0-aff8-2cc57f23de9c",
+  "guid": "85b0f5e2-ab39-49b0-aff8-2cc57f23de9c",
+  "publisherId": "naviona_4717541",
+  "offerId": "naviona_business_central_demand_forecasting",
+  "source": {
+    "name": "Naviona Demand Forecasting",
+    "publisher": "Naviona",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.naviona_4717541%7CAID.naviona_business_central_demand_forecasting%7CPAPPID.85b0f5e2-ab39-49b0-aff8-2cc57f23de9c",
+    "lastModified": "2026-08-31T05:24:29.555234+00:00",
+    "appVersion": "1.0.1.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://naviona.com/docs/demand-forecasting/",
+    "sourceHash": "sha256:802bfc0f9a863919f72cb91bc995b18fd462cdc27292d42cb5b01c5ae0cd0216"
+  },
+  "mapping": {
+    "sourceHash": "sha256:802bfc0f9a863919f72cb91bc995b18fd462cdc27292d42cb5b01c5ae0cd0216",
+    "mappedOn": null,
+    "summary": "Automated demand forecasting for inventory planning",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-replenishment-planning"
+    ],
+    "claims": [
+      "Generates forecasts from historical demand data in BC",
+      "Uses Microsoft's forecasting models",
+      "Compares multiple forecasting models before selecting one",
+      "Evaluates different historical periods",
+      "Forecast settings saved at item or SKU level",
+      "Automatically refreshes forecasts via job queue",
+      "Seasonal demand forecasting",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_labelmanagement|PAPPID.f4d2f67e-211b-463c-886c-eaba5a36c759",
+  "guid": "f4d2f67e-211b-463c-886c-eaba5a36c759",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_labelmanagement",
+  "source": {
+    "name": "Fusion5 Label Management (ZPL)",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_labelmanagement%7CPAPPID.f4d2f67e-211b-463c-886c-eaba5a36c759",
+    "lastModified": "2026-06-01T19:43:14.9330016+00:00",
+    "appVersion": "2700.4.20260602.33253",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/487162217/Label+Management+ZPL+Labels",
+    "sourceHash": "sha256:2735fbc4cf451395530c3f26300bafb9d1a8ac0d9dab89ece548ca9c52c05fac"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2735fbc4cf451395530c3f26300bafb9d1a8ac0d9dab89ece548ca9c52c05fac",
+    "mappedOn": null,
+    "summary": "Label management for Zebra ZPL printers",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "Label definitions in ZPL with variables and conditions",
+      "Label previews via Labelary API",
+      "Field variables pull values from tables; function variables for computed values",
+      "Conditional label lines",
+      "For Zebra printers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Zebra Printers",
+      "Labelary API"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

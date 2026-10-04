@@ -1,0 +1,231 @@
+{
+  "id": "ng-case-intake",
+  "order": 121,
+  "label": "Turning customer emails and calls into tickets",
+  "description": "Creating support cases from email, phone, portal or manually, capturing details, types and attachments, and merging duplicates.",
+  "type": "bpc",
+  "area": "Customer service",
+  "relevance": "high",
+  "statements": [
+    "Turning customer emails and calls into tickets",
+    "Creating support cases from email, phone, portal or manually, capturing details, types and attachments, and merging duplicates.",
+    "Customer complaints come in by email and get lost in someone's inbox",
+    "Is there an app that turns emails to support@ into tickets in Business Central?",
+    "email to ticket Business Central",
+    "We want customers to submit problems through a web form on our website and have it create a case",
+    "Our shared support mailbox has 400 unread emails and we don't know which ones are handled",
+    "When a customer calls, we want the case created automatically with their customer record from BC",
+    "We'd like a customer portal where clients can log issues and see the status",
+    "Helpdesk app for BC that creates tickets from Outlook",
+    "Chat on our website should create a support case if we can't answer straight away",
+    "Customer replies to the ticket email should go onto the same case, not create a new one",
+    "We need a ticketing system that knows who the customer is from their email address",
+    "Our webshop customers write to us on email, Facebook and phone, and nothing is in one place",
+    "We want every incoming customer email to get a case number automatically",
+    "Can incoming phone calls pop up the customer and create a case in Business Central?",
+    "Customers should be able to report a problem by scanning a QR code on the product",
+    "support ticket system integrated with Business Central customers",
+    "We use Freshdesk and Zendesk style tools but they don't talk to BC, we want tickets inside BC",
+    "Our dealers send warranty claims by email with attachments and someone retypes them",
+    "We want customer return requests from the webshop to create a case for customer service first",
+    "How do we stop support emails from customers falling through the cracks when someone is on holiday?",
+    "We have no way to log customer complaints in Business Central",
+    "Is there a complaint register app for BC?",
+    "customer complaint log",
+    "Our sales reps hear about customer problems on the phone and it never gets written down",
+    "We need to register customer complaints for our ISO 9001 audit",
+    "When a customer disputes an invoice, where do we log it so finance and sales both see it?",
+    "We want to create a case from the customer card, sales order or posted invoice with one click",
+    "Warranty claims from customers are tracked in a spreadsheet and we keep losing them",
+    "Customer service wants to log every inquiry, even simple questions, so we can see the volume",
+    "Is there an app to register a customer issue against an item and a posted shipment?",
+    "We need a simple case list per customer so the account manager sees all open issues",
+    "Our customers call about late deliveries and we want to record each one",
+    "Log customer feedback and complaints with a case number we can give the customer",
+    "Customer complaints currently go into the comment field on the customer card, which is useless",
+    "We want to register product complaints from customers and link them to the lot",
+    "A customer calls saying the goods arrived damaged and wants a replacement, where do we start in BC?",
+    "We sell machines and need to log warranty cases per serial number",
+    "Can support create a case on behalf of a customer and see their open orders and invoices next to it?",
+    "customer case management in BC without Dynamics 365 Customer Service",
+    "We want something lighter than a full CRM to log customer issues inside Business Central",
+    "When a customer complains we write it on a sticky note and lose half the details",
+    "We want to link a customer complaint to the sales order, item and serial number in BC",
+    "capture complaint details item serial number",
+    "Support staff forget to ask for the order number and have to call the customer back",
+    "Is there an app with a proper complaint form that pulls the customer and item from Business Central?",
+    "We need mandatory fields when registering a customer issue, like product and priority",
+    "Our customer issues don't record which contact person reported them",
+    "We want to capture the lot number on every quality complaint from a customer",
+    "How do we record which customer, which shipment and what went wrong in one place?",
+    "Complaint registration with photos of the damaged goods from the customer",
+    "Customers' warranty claims should capture purchase date and invoice number",
+    "We want a structured description of the customer's problem, not a wall of text",
+    "The customer sent photos of the damage and they're in someone's inbox, not on the case",
+    "We want to attach documents and photos to customer complaints in Business Central",
+    "case attachments and notes",
+    "Link a customer complaint to the sales order, shipment and credit memo so we see the full story",
+    "Our notes on customer issues are scattered across emails, Teams and paper",
+    "Is there an app that stores files on customer cases in SharePoint?",
+    "We want an internal note on a customer case that the customer never sees",
+    "Customer cases should show related return orders and service orders",
+    "I need to see every complaint linked to a specific item or lot number",
+    "We want a full history log on the customer case: who changed what and when",
+    "Attach the supplier's test report to the customer's complaint",
+    "Customer issue documentation for audits",
+    "The customer emailed three times and now we have three tickets for the same problem",
+    "merge duplicate support tickets",
+    "How do I combine two customer cases so the history is in one place?",
+    "Different colleagues opened separate cases for the same customer complaint",
+    "We want duplicate tickets closed automatically and pointed to the main one",
+    "Is there a way to merge customer cases without losing the emails on either?",
+    "We can't report on complaints because everyone types free text instead of choosing a category",
+    "We want case types like complaint, question, warranty claim and invoice query with different rules",
+    "customer complaint categories and priorities",
+    "Is there a way to set priority rules so a complaint from a top customer is always high priority?",
+    "We need reason codes for customer complaints that make sense across sales and support",
+    "Warranty claims should require a serial number but general questions shouldn't",
+    "How should we categorize customer issues so we can see what is going wrong?",
+    "Different response deadlines for complaints versus simple questions",
+    "We want a fixed list of root causes support must pick when they register a customer issue",
+    "Our ISO auditor asked how we classify customer complaints and we had no answer",
+    "Need subcategories under product complaints, like damaged, wrong item, not working",
+    "Complaint types with an escalation rule for safety-related issues",
+    "We want every customer complaint to go through the same steps so nothing is skipped",
+    "Is there a way to force support staff to complete investigation before they can close a case?",
+    "case stages for customer complaints",
+    "Our customer service process is different for each person, we want one standard flow",
+    "We need a guided checklist for handling warranty claims from customers",
+    "Complaint handling stages like received, investigating, waiting on customer, resolved"
+  ],
+  "questions": [
+    {
+      "id": "channel",
+      "text": "How do cases reach you today?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Email",
+          "patterns": [
+            "e-?mail",
+            "outlook",
+            "inbox",
+            "mailbox"
+          ]
+        },
+        {
+          "label": "Web or mobile form",
+          "patterns": [
+            "submission form",
+            "mobile",
+            "web",
+            "any device"
+          ]
+        },
+        {
+          "label": "A helpdesk tool (e.g. Zendesk)",
+          "patterns": [
+            "zendesk",
+            "help ?desk"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Email": 0.44,
+        "Web or mobile form": 0.33,
+        "A helpdesk tool (e.g. Zendesk)": 0.22
+      }
+    },
+    {
+      "id": "kind",
+      "text": "What are the cases mostly about?",
+      "options": [
+        {
+          "label": "Complaints and quality issues",
+          "patterns": [
+            "complain",
+            "non ?conformanc",
+            "claim",
+            "nonconformity",
+            "ncr"
+          ]
+        },
+        {
+          "label": "General customer questions/support",
+          "patterns": [
+            "support",
+            "ticket",
+            "help desk",
+            "delivery status",
+            "case queue"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Complaints and quality issues": 0.78,
+        "General customer questions/support": 0.44
+      }
+    },
+    {
+      "id": "escalation",
+      "text": "Do you need deadlines and automatic escalation?",
+      "options": [
+        {
+          "label": "Yes, SLAs and escalation",
+          "patterns": [
+            "sla",
+            "escalat",
+            "deadline",
+            "overdue"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, SLAs and escalation": 0.44
+      }
+    },
+    {
+      "id": "rootcause",
+      "text": "Do you track causes and corrective actions?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "root cause",
+            "corrective",
+            "cause",
+            "error group",
+            "link actions"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.33
+      }
+    }
+  ]
+}

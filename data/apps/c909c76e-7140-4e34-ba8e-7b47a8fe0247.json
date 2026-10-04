@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-ecm-connect-shareflex-documents|PAPPID.c909c76e-7140-4e34-ba8e-7b47a8fe0247",
+  "guid": "c909c76e-7140-4e34-ba8e-7b47a8fe0247",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-ecm-connect-shareflex-documents",
+  "source": {
+    "name": "Aptean ECM Connect x Shareflex Documents",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-ecm-connect-shareflex-documents%7CPAPPID.c909c76e-7140-4e34-ba8e-7b47a8fe0247",
+    "lastModified": "2026-09-01T07:37:13.2278999+00:00",
+    "appVersion": "2603.260800.20260825.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:772c08685a8b075cf40c727e71d63d664ef70a86dc69cb1d6ef0d11fd9341db1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:772c08685a8b075cf40c727e71d63d664ef70a86dc69cb1d6ef0d11fd9341db1",
+    "mappedOn": null,
+    "summary": "Exchanges outbound documents with Shareflex Documents",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "Fully automated export of outbound documents",
+      "Fully automated export of attached documents",
+      "Links Business Central straight to Shareflex",
+      "Uses the Microsoft Graph API",
+      "Fully based on Microsoft 365 technology"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Shareflex Documents",
+      "Microsoft Graph API",
+      "Microsoft 365"
+    ],
+    "requires": [
+      "Aptean ECM Connect"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

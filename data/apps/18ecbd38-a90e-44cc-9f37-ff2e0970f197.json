@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.yazlmvedanmanlkhizmetlerianonimirketi1684754676139|AID.customer_risk_mgt|PAPPID.18ecbd38-a90e-44cc-9f37-ff2e0970f197",
+  "guid": "18ecbd38-a90e-44cc-9f37-ff2e0970f197",
+  "publisherId": "yazlmvedanmanlkhizmetlerianonimirketi1684754676139",
+  "offerId": "customer_risk_mgt",
+  "source": {
+    "name": "Customer Risk Management",
+    "publisher": "Myron Yazılım Ve Danışmanlık Hizmetleri Anonim Şirketi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yazlmvedanmanlkhizmetlerianonimirketi1684754676139%7CAID.customer_risk_mgt%7CPAPPID.18ecbd38-a90e-44cc-9f37-ff2e0970f197",
+    "lastModified": "2026-04-10T07:56:14.5890729+00:00",
+    "appVersion": "1.27.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://myronsoft.com.tr/en/contact/",
+    "sourceHash": "sha256:0d7b510f2f5218d0b15054f33cdd5763e8df0cc054c2b1dbd4543dea787a7cd7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0d7b510f2f5218d0b15054f33cdd5763e8df0cc054c2b1dbd4543dea787a7cd7",
+    "mappedOn": null,
+    "summary": "Customer credit limits in multiple currencies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-currency"
+    ],
+    "claims": [
+      "Customer credit limits defined in different currencies",
+      "Calculates credit limit in LCY using currency code and currency rate type",
+      "Blocks customers in line with specified limits",
+      "Supports Essential and Premium editions",
+      "Available in English (US) and Turkish"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

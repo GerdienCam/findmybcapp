@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.creditsafeserviceslimited1613402303405|AID.creditsafe_connect|PAPPID.87065c5a-1a10-4e8e-8024-8f7ce7badc0a",
+  "guid": "87065c5a-1a10-4e8e-8024-8f7ce7badc0a",
+  "publisherId": "creditsafeserviceslimited1613402303405",
+  "offerId": "creditsafe_connect",
+  "source": {
+    "name": "Creditsafe Connect",
+    "publisher": "Creditsafe Services Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.creditsafeserviceslimited1613402303405%7CAID.creditsafe_connect%7CPAPPID.87065c5a-1a10-4e8e-8024-8f7ce7badc0a",
+    "lastModified": "2026-09-18T12:18:10.8664054+00:00",
+    "appVersion": "27.6.125.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.creditsafe.com/se/sv/kontakt/kundservice/kontakta-oss.html",
+    "sourceHash": "sha256:3e611958067e963dcabc6d882d3e16f1b313053513ad3ce58663f600a52a7317"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3e611958067e963dcabc6d882d3e16f1b313053513ad3ce58663f600a52a7317",
+    "mappedOn": null,
+    "summary": "Credit reports and company data for customers and suppliers",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Credit reports from over 200 countries",
+      "Appends company address and credit details to customer and vendor records",
+      "Refresh data on existing accounts",
+      "Credit policy implemented as rules in BC",
+      "Checks new customers on entry and existing ones on schedule or at order entry",
+      "Approval workflow for orders failing credit check",
+      "Demo mode in sandbox with limited requests",
+      "Requires agreement with Creditsafe"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "NL",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "nb",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Creditsafe"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

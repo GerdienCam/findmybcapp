@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evaveba|PAPPID.2c0d8e23-2bd5-4317-a866-aa0acf6a443e",
+  "guid": "2c0d8e23-2bd5-4317-a866-aa0acf6a443e",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evaveba",
+  "source": {
+    "name": "EV Avero - Banking",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evaveba%7CPAPPID.2c0d8e23-2bd5-4317-a866-aa0acf6a443e",
+    "lastModified": "2026-05-08T08:03:47.3618963+00:00",
+    "appVersion": "2.0.190184.2700",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/vidensbank/wiki/business-central/",
+    "sourceHash": "sha256:053d5a34ce54485888fc33668c6ca21756eb8b2fd7a03d050db869e579bccf3b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:053d5a34ce54485888fc33668c6ca21756eb8b2fd7a03d050db869e579bccf3b",
+    "mappedOn": null,
+    "summary": "Extracts payment data from electronic purchase documents in EV Avero",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-utilities-energy-waste"
+    ],
+    "claims": [
+      "Extracts payment details from electronic purchase documents",
+      "Payments processed as directed by supplier invoice"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Utilities"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EV Avero"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

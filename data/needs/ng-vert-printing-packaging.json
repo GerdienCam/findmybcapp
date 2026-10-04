@@ -1,0 +1,146 @@
+{
+  "id": "ng-vert-printing-packaging",
+  "order": 217,
+  "label": "Solutions for printers, packaging and media",
+  "description": "Print MIS/ERP for commercial printers, label and packaging manufacturers (estimating, job ticketing, prepress, shop floor), plus publishing and media sales solutions.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for printers, packaging and media",
+    "Print MIS/ERP for commercial printers, label and packaging manufacturers (estimating, job ticketing, prepress, shop floor), plus publishing and media sales solutions.",
+    "Print shop needing estimating and job tickets on BC",
+    "print MIS for Business Central",
+    "Quoting print jobs with paper, ink and press time",
+    "Packaging manufacturer with die cuts and plates",
+    "Label printer company needs a proper ERP",
+    "Shop floor data from our presses",
+    "Publisher selling subscriptions and ads",
+    "Media agency bookings and billing",
+    "Corrugated boxes made to order",
+    "Job costing per print order",
+    "Proof approvals with customers",
+    "Apparel printing on demand"
+  ],
+  "questions": [
+    {
+      "id": "business",
+      "text": "What kind of business are you?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Printer, packaging or label maker",
+          "patterns": [
+            "print (jobs?|mis|packaging)",
+            "printvis",
+            "printiq",
+            "printing",
+            "packaging",
+            "crates",
+            "embroider"
+          ]
+        },
+        {
+          "label": "Publisher",
+          "patterns": [
+            "publish",
+            "subscription",
+            "onix",
+            "royalt",
+            "knkmedia"
+          ]
+        },
+        {
+          "label": "Media or advertising agency",
+          "patterns": [
+            "media (booking|agenc|owners)",
+            "campaign"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Printer, packaging or label maker": 0.71,
+        "Publisher": 0.21,
+        "Media or advertising agency": 0.07
+      }
+    },
+    {
+      "id": "mis",
+      "text": "Which print MIS do you run or plan to run?",
+      "multi": false,
+      "options": [
+        {
+          "label": "PrintVis",
+          "patterns": [
+            "printvis"
+          ]
+        },
+        {
+          "label": "printIQ",
+          "patterns": [
+            "printiq"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "PrintVis": 0.57,
+        "printIQ": 0.07
+      }
+    },
+    {
+      "id": "iot",
+      "text": "Do you want press and machine data captured automatically?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, connect machines (IoT, JDF)",
+          "patterns": [
+            "iot",
+            "\\bjdf",
+            "moxa",
+            "moneo"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, connect machines (IoT, JDF)": 0.29
+      }
+    },
+    {
+      "id": "web",
+      "text": "Do customers order online, through a web shop or web-to-print?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "web2",
+            "e-?commerce",
+            "bigcommerce",
+            "storefront",
+            "submit print orders"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.21
+      }
+    }
+  ]
+}

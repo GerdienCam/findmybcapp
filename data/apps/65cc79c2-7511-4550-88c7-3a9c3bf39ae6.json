@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.navtech|AID.ntgautofleetmgt|PAPPID.65cc79c2-7511-4550-88c7-3a9c3bf39ae6",
+  "guid": "65cc79c2-7511-4550-88c7-3a9c3bf39ae6",
+  "publisherId": "navtech",
+  "offerId": "ntgautofleetmgt",
+  "source": {
+    "name": "NavFlo AutoFleet Management",
+    "publisher": "NavTech Group Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navtech%7CAID.ntgautofleetmgt%7CPAPPID.65cc79c2-7511-4550-88c7-3a9c3bf39ae6",
+    "lastModified": "2024-11-22T02:16:52.3930088+00:00",
+    "appVersion": "1.23.0.10",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://navtech365.net/categories/70-autofleet-management",
+    "sourceHash": "sha256:91eea38cbc7303f5c9409891f0fc065d313c514e5cb058c2abf8b44b630e3b6c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:91eea38cbc7303f5c9409891f0fc065d313c514e5cb058c2abf8b44b630e3b6c",
+    "mappedOn": null,
+    "summary": "Manages company vehicle fleet",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage",
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Fleet maintenance and usage tracking",
+      "Incident management",
+      "Vehicle document management",
+      "Insurance and service agenda",
+      "Tire management",
+      "Vehicle statistics",
+      "Reporting and journey log",
+      "Mobile application",
+      "Timely task reminders",
+      "Free trial up to 2 vehicles",
+      "Standard plan up to 30 vehicles at 30 EUR/month",
+      "Premium plan unlimited vehicles at 50 EUR/month"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Transport and Logistics"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

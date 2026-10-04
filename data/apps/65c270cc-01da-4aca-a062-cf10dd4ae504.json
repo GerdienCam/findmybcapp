@@ -1,0 +1,77 @@
+{
+  "appId": "TYPE.connect|PUBID.ls_retail|AID.lscentral_mobileinventory|PAPPID.65c270cc-01da-4aca-a062-cf10dd4ae504",
+  "guid": "65c270cc-01da-4aca-a062-cf10dd4ae504",
+  "publisherId": "ls_retail",
+  "offerId": "lscentral_mobileinventory",
+  "source": {
+    "name": "Mobile Inventory for LS Central",
+    "publisher": "LS Retail",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.ls_retail%7CAID.lscentral_mobileinventory%7CPAPPID.65c270cc-01da-4aca-a062-cf10dd4ae504",
+    "lastModified": "2025-02-27T00:08:04.4810795+00:00",
+    "appVersion": "2024.10.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.lscentral.lsretail.com/",
+    "sourceHash": "sha256:465c2135ac4c52c6ff166a8a9531ede4de862a25aa0487bb2d59e5c08bb3ba4b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:465c2135ac4c52c6ff166a8a9531ede4de862a25aa0487bb2d59e5c08bb3ba4b",
+    "mappedOn": null,
+    "summary": "Mobile inventory tasks for LS Central",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-retail",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-receiving-putaway",
+      "ng-stock-movements",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Barcode scanning on mobile device sends data straight to LS Central",
+      "Lets users look up master data for items, customers and vendors",
+      "Manage purchase orders on mobile",
+      "Handles picking and receiving on sales, transfer and purchase documents",
+      "Make purchase requests from vendors",
+      "Perform stock transfers",
+      "Stock counting including cycle counts",
+      "Adjust stock levels without reason codes",
+      "Expand inventory prepacks",
+      "Print labels from the device",
+      "Receive ASN documents with container handling",
+      "Add texts and pictures",
+      "Offline capability with sync when network is available",
+      "Runs on Android",
+      "Requires LS Central and Commerce Service for LS Central"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "LS Central"
+    ],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

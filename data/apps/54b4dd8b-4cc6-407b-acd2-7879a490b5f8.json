@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.ls_retail|AID.2441ad3d-cd15-498e-9e90-4a3684e6e8b9|PAPPID.54b4dd8b-4cc6-407b-acd2-7879a490b5f8",
+  "guid": "54b4dd8b-4cc6-407b-acd2-7879a490b5f8",
+  "publisherId": "ls_retail",
+  "offerId": "2441ad3d-cd15-498e-9e90-4a3684e6e8b9",
+  "source": {
+    "name": "LS Pay for Business Central",
+    "publisher": "LS Retail",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.2441ad3d-cd15-498e-9e90-4a3684e6e8b9%7CPAPPID.54b4dd8b-4cc6-407b-acd2-7879a490b5f8",
+    "lastModified": "2026-09-23T14:33:30.8445464+00:00",
+    "appVersion": "1.1.0.16",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.lspay.lsretail.com/",
+    "sourceHash": "sha256:efa4955375ce0cf50e424addcd309e839da8bd6f0c70ace29f0911277f10caec"
+  },
+  "mapping": {
+    "sourceHash": "sha256:efa4955375ce0cf50e424addcd309e839da8bd6f0c70ace29f0911277f10caec",
+    "mappedOn": null,
+    "summary": "EFT card payments from BC back office",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "EMV and PCI compliant EFT payments in the BC back office",
+      "Accepts card-present and card-not-present payments via a payment terminal connected to BC",
+      "Takes payment on sales orders and sales invoices",
+      "Handles voids and refunds on sales return orders and credit memos",
+      "Prints payment receipts",
+      "Users can connect to multiple payment terminals",
+      "Choice of payment service providers",
+      "No POS required"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Hospitality",
+      "Retail"
+    ],
+    "connectsTo": [
+      "LS Pay"
+    ],
+    "requires": [
+      "EFT Extension for LS Pay",
+      "LS Pay Service"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

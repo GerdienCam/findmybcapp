@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.ecodelas1585264231154|AID.excflexpos|PAPPID.4c64fff4-fde6-4beb-b907-7e47bf3cb8fe",
+  "guid": "4c64fff4-fde6-4beb-b907-7e47bf3cb8fe",
+  "publisherId": "ecodelas1585264231154",
+  "offerId": "excflexpos",
+  "source": {
+    "name": "Ecodel Exclusive - FlexPOS Integration",
+    "publisher": "Ecodel",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ecodelas1585264231154%7CAID.excflexpos%7CPAPPID.4c64fff4-fde6-4beb-b907-7e47bf3cb8fe",
+    "lastModified": "2026-08-14T07:26:23.4846428+00:00",
+    "appVersion": "28.0.260814.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.erphotel.com/hc/da/articles/360007301557",
+    "sourceHash": "sha256:b316b11362b65249bf079c74bca771f5374cb2514f4711ed13549b92e01e9e7b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b316b11362b65249bf079c74bca771f5374cb2514f4711ed13549b92e01e9e7b",
+    "mappedOn": null,
+    "summary": "Syncs master data and transactions with FlexPOS backoffice",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Imports sales transactions, item movements and cash-ups from FlexPOS",
+      "One automatically posted sales invoice per transaction",
+      "Daily cash-ups imported and posted automatically",
+      "Automatic posting can be switched off",
+      "Exports items with prices, campaigns, barcodes and deposit items",
+      "Item/price info for electronic shelf labels",
+      "Exports customers including credit sales",
+      "Each till linked to a location and/or dimension",
+      "Automated via job queue"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "FlexPOS"
+    ],
+    "requires": [
+      "FlexPOS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

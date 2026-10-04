@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.yokoy|AID.yokoy-business-central-connector|PAPPID.f9235fca-232a-4a20-864e-03e9c5764d82",
+  "guid": "f9235fca-232a-4a20-864e-03e9c5764d82",
+  "publisherId": "yokoy",
+  "offerId": "yokoy-business-central-connector",
+  "source": {
+    "name": "Perk Spend Management Connector",
+    "publisher": "Yokoy",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yokoy%7CAID.yokoy-business-central-connector%7CPAPPID.f9235fca-232a-4a20-864e-03e9c5764d82",
+    "lastModified": "2026-09-22T07:04:37.4057499+00:00",
+    "appVersion": "3.0.14.30",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.perk.com/hc/en-us/articles/22004183966108-About-the-Perk-Spend-Management-Connector-for-MS-Dynamics-365-Business-Central",
+    "sourceHash": "sha256:f9cc3f6d266eff1fb980cc4b8a64cde2cf16a028e49f5b66314b1382a6f16a5a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f9cc3f6d266eff1fb980cc4b8a64cde2cf16a028e49f5b66314b1382a6f16a5a",
+    "mappedOn": null,
+    "summary": "Syncs invoice and expense spend management with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-procurement-spend"
+    ],
+    "claims": [
+      "AI-driven expense management with fraud prevention",
+      "Real-time control of global card spend",
+      "Automatically matches card transactions with receipts",
+      "Invoice approvals with custom workflows",
+      "AI-powered invoice management for accounts payable"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Perk (Yokoy)"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.1700139460848|AID.bc-vone-integration|PAPPID.a67b1dd7-3860-4e8c-ac41-b34804e05a7c",
+  "guid": "a67b1dd7-3860-4e8c-ac41-b34804e05a7c",
+  "publisherId": "1700139460848",
+  "offerId": "bc-vone-integration",
+  "source": {
+    "name": "CBEX入金自動消込 (V-ONE連携)",
+    "publisher": "Charon Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1700139460848%7CAID.bc-vone-integration%7CPAPPID.a67b1dd7-3860-4e8c-ac41-b34804e05a7c",
+    "lastModified": "2026-09-29T05:13:46.1217668+00:00",
+    "appVersion": "28.4.0.2",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://charon-inc.co.jp/product/business-central/",
+    "sourceHash": "sha256:6cf8400568a3720adeba1d8735480f41b667cdc817b6b70bee000c31b2745067"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6cf8400568a3720adeba1d8735480f41b667cdc817b6b70bee000c31b2745067",
+    "mappedOn": null,
+    "summary": "Automates customer payment matching and AR clearing via V-ONE cloud",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-collections"
+    ],
+    "claims": [
+      "Integrates BC with R&AC V-ONE Cloud payment matching system via API",
+      "V-ONE uses AI (machine learning) for receivables matching",
+      "Configures how payment journals are posted per V-ONE payment category",
+      "Sends BC receivables to V-ONE via API",
+      "Syncs customer master to V-ONE",
+      "Returns matching results to BC as journal entries, including fund transfers and bill maturity",
+      "Scheduled fully automatic sync",
+      "Plans tied to V-ONE edition with minimum licence counts"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "languages": [
+      "ja"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "V-ONE Cloud"
+    ],
+    "requires": [
+      "V-ONE Cloud"
+    ],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

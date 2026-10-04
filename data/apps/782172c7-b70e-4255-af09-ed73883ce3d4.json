@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.mdc_nordic|AID.invoicelink|PAPPID.782172c7-b70e-4255-af09-ed73883ce3d4",
+  "guid": "782172c7-b70e-4255-af09-ed73883ce3d4",
+  "publisherId": "mdc_nordic",
+  "offerId": "invoicelink",
+  "source": {
+    "name": "Invoice Link - Automate Sales Invoices from Continia Vendor Invoices",
+    "publisher": "MDC Nordic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mdc_nordic%7CAID.invoicelink%7CPAPPID.782172c7-b70e-4255-af09-ed73883ce3d4",
+    "lastModified": "2025-11-04T11:54:57.4266764+00:00",
+    "appVersion": "26.1.0.2316",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://mdcnordic.com/en/bc-apps/invoicelink/",
+    "sourceHash": "sha256:43b985c9e12bfd8e243dd4334b3a8c629378e5c6de98d66c6ce43aacd1c9d5ab"
+  },
+  "mapping": {
+    "sourceHash": "sha256:43b985c9e12bfd8e243dd4334b3a8c629378e5c6de98d66c6ce43aacd1c9d5ab",
+    "mappedOn": null,
+    "summary": "Creates customer invoices from Continia-captured vendor invoices",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Creates customer sales invoices from vendor invoices captured in Continia",
+      "OCR data and custom field mapping identify the customer",
+      "Include/exclude customers or subscriptions via Tenant ID mapping",
+      "No external APIs; data stays in BC",
+      "Aimed at Continia resellers"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

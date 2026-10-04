@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.bricklead1692180953470|AID.bri_tdf|PAPPID.52429049-2dbb-4e7c-8f13-3ed21dc58020",
+  "guid": "52429049-2dbb-4e7c-8f13-3ed21dc58020",
+  "publisherId": "bricklead1692180953470",
+  "offerId": "bri_tdf",
+  "source": {
+    "name": "Trading File",
+    "publisher": "BRICKLEAD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bricklead1692180953470%7CAID.bri_tdf%7CPAPPID.52429049-2dbb-4e7c-8f13-3ed21dc58020",
+    "lastModified": "2026-07-31T15:47:59.2341261+00:00",
+    "appVersion": "27.0.9700.35058",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.bricklead.eu/en-us/apps/tdf/",
+    "sourceHash": "sha256:f217bc119ca3c95cf8e9a1581e3b2981d0c9b5049b4543dc5d09d0497e344ae6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f217bc119ca3c95cf8e9a1581e3b2981d0c9b5049b4543dc5d09d0497e344ae6",
+    "mappedOn": null,
+    "summary": "Manages trading files for high-volume commodity trades",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-wholesale-trading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-contracts"
+    ],
+    "claims": [
+      "Contract management for commodity trading",
+      "Purchasing and selling controlled by valid contracts",
+      "Auto-create purchase/sales documents from contracts",
+      "Optional or mandatory control steps",
+      "Supports Essential and Premium"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Commodity trading"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

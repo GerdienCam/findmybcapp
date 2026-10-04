@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.msesoftwaregmbh1653230793499|AID.itscope365|PAPPID.4069c27f-f2b5-478c-acd3-10c10217457c",
+  "guid": "4069c27f-f2b5-478c-acd3-10c10217457c",
+  "publisherId": "msesoftwaregmbh1653230793499",
+  "offerId": "itscope365",
+  "source": {
+    "name": "ITscope2Dynamics",
+    "publisher": "mse Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.msesoftwaregmbh1653230793499%7CAID.itscope365%7CPAPPID.4069c27f-f2b5-478c-acd3-10c10217457c",
+    "lastModified": "2026-09-23T11:17:20.0831739+00:00",
+    "appVersion": "26.3.9.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.itscope2dynamics.cloud/en/help",
+    "sourceHash": "sha256:4ca3aa59a633d3c69ce64cb1b31b44afb5008a3ed827d96794694fc194f8e10d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4ca3aa59a633d3c69ce64cb1b31b44afb5008a3ed827d96794694fc194f8e10d",
+    "mappedOn": null,
+    "summary": "Connects ITscope for IT channel sales and eProcurement",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-channels",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Connects BC to the ITscope trading platform",
+      "Access to data of over 3.5 million ICT products and over 400 distributors",
+      "eProcurement for the IT channel",
+      "Individual customer portals for digital sales without a shop system"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "IT distribution"
+    ],
+    "connectsTo": [
+      "ITscope"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

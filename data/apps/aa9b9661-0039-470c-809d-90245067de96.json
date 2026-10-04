@@ -1,0 +1,52 @@
+{
+  "appId": "PUBID.jcdas1740746058749|AID.xml_attachments_for_documents|PAPPID.aa9b9661-0039-470c-809d-90245067de96",
+  "guid": "aa9b9661-0039-470c-809d-90245067de96",
+  "publisherId": "jcdas1740746058749",
+  "offerId": "xml_attachments_for_documents",
+  "source": {
+    "name": "XML Attachments for Documents",
+    "publisher": "JCD A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jcdas1740746058749%7CAID.xml_attachments_for_documents%7CPAPPID.aa9b9661-0039-470c-809d-90245067de96",
+    "lastModified": "2026-09-04T07:50:08.556913+00:00",
+    "appVersion": "1.0.20260904.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://jcd.dk/microsoft-dynamics/xml-attachments-for-digital-documents-in-business-central/",
+    "sourceHash": "sha256:a8b3e5fd9f3eb1ba76711164b1da760647fe93abc1806c7b6c7462cac6364c25"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a8b3e5fd9f3eb1ba76711164b1da760647fe93abc1806c7b6c7462cac6364c25",
+    "mappedOn": null,
+    "summary": "Stores posted documents as XML attachments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Stores posted purchase and sales digital documents as XML instead of PDF",
+      "Replaces the PDF attachment created when Digital Document is enabled",
+      "Applied automatically during posting"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

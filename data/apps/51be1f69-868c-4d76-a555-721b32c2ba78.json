@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.retailitsolutions1607633599823|AID.rts_vensafe|PAPPID.51be1f69-868c-4d76-a555-721b32c2ba78",
+  "guid": "51be1f69-868c-4d76-a555-721b32c2ba78",
+  "publisherId": "retailitsolutions1607633599823",
+  "offerId": "rts_vensafe",
+  "source": {
+    "name": "RTS Vensafe",
+    "publisher": "RTS Business Solutions ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.retailitsolutions1607633599823%7CAID.rts_vensafe%7CPAPPID.51be1f69-868c-4d76-a555-721b32c2ba78",
+    "lastModified": "2026-07-15T10:32:14.2601534+00:00",
+    "appVersion": "28.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://rts-business-solutions.github.io/vensafe-docs/index",
+    "sourceHash": "sha256:b2b1a5ffdf22aac2198508dd92edb0a474751b855552566f12b19b8bf0df41d6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b2b1a5ffdf22aac2198508dd92edb0a474751b855552566f12b19b8bf0df41d6",
+    "mappedOn": null,
+    "summary": "Vending machine dispensing integrated with LS Central",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Integrates Vensafe vending/dispensing machines with LS Central and BC",
+      "Registers, validates and reconciles dispensed items in POS transactions",
+      "Fits service companies, hospitals, retail and industrial warehouses",
+      "Connects with the product catalogue and with POS operations"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Healthcare",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Vensafe"
+    ],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

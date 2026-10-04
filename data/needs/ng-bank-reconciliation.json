@@ -1,0 +1,237 @@
+{
+  "id": "ng-bank-reconciliation",
+  "order": 52,
+  "label": "Connecting banks and matching statements",
+  "description": "Bank connections, banking rules, and reconciling bank statements to the books.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "high",
+  "statements": [
+    "Connecting banks and matching statements",
+    "Bank connections, banking rules, and reconciling bank statements to the books.",
+    "We download statements from the online bank and import them by hand every day",
+    "Is there an app that connects BC directly to our bank so statements come in automatically?",
+    "The bank feed in BC stopped working after the provider was discontinued",
+    "Our bank only supports CAMT.053, can BC read that?",
+    "We have accounts in six banks across four countries and none talk to BC",
+    "bank integration Business Central",
+    "We need positive pay files sent to the bank for check fraud protection",
+    "Setting up a new bank account in BC with the right posting accounts",
+    "Our bank changed its statement format and the import broke",
+    "We are taking a new credit line and need it set up as a bank account in BC",
+    "Want a single connection to all our Nordic banks",
+    "How do we get the bank's MT940 files into Business Central?",
+    "Bank reconciliation takes our bookkeeper two full days every month",
+    "The automatic matching in BC only finds about half the lines",
+    "Is there a better bank rec app for Business Central?",
+    "Our bank balance in BC never agrees with the actual bank statement",
+    "We have hundreds of card transactions a day and reconciling them is impossible",
+    "bank rec auto match",
+    "We need to see which bank entries have been reconciled and which are still open",
+    "Bank fees and interest have to be posted by hand during reconciliation",
+    "The difference between bank and BC is 312 euros and we can't find it",
+    "Want rules like 'always post this text from the bank to this account'",
+    "Reconciling our credit card account against the card statement",
+    "Our bank rec is three months behind",
+    "Is there a way to reconcile daily instead of at month end?",
+    "Uncleared checks keep piling up and we never know which ones are still outstanding",
+    "One deposit at the bank is actually 40 separate payments in BC",
+    "Need a printed bank reconciliation report for the auditor showing outstanding items",
+    "PayPal and Stripe payouts are netted with fees and we can't match them to the bank",
+    "Reconcile the petty cash account",
+    "We undid a bank reconciliation by mistake, how do we reverse it?",
+    "Can AI suggest matches for bank statement lines that the standard rules miss?",
+    "How do we tune the matching rules so bank rec finds more matches automatically?",
+    "We want one company in the group to pay all suppliers for the others",
+    "Who should be allowed to change bank account details in BC?",
+    "Need a policy for which bank accounts each company uses for what",
+    "bank matching rules tolerance",
+    "We want to set an overdraft limit per bank account and get warned before we hit it"
+  ],
+  "questions": [
+    {
+      "id": "feed",
+      "text": "How do your bank transactions get into BC today?",
+      "help": "An automatic feed needs no file download.",
+      "options": [
+        {
+          "label": "Automatically, straight from the bank",
+          "patterns": [
+            "direct (bank|integration|connection)|directly from the bank|connects? (bc )?to (over |more than )?[0-9,]+",
+            "(bank )?feeds?\\b",
+            "open banking|psd2|xs2a",
+            "host-?2-?host|host-to-host|ebics",
+            "\\bapi\\b",
+            "real[- ]time import|automatic(ally)? (real-time )?import|automatic\\w* retriev|automatically retrieves|scheduled (unattended |automatic )|job queue scheduled|daily (automatic )?(bank )?statement import|prior-day|appears automatically",
+            "web services?\\b[^.]*transactions|retrieves bank transactions"
+          ]
+        },
+        {
+          "label": "We download a statement file and import it",
+          "patterns": [
+            "\\bcsv\\b|excel and csv|xlsx|\\bqbo\\b|\\bqif\\b|\\bofx\\b",
+            "mt ?940|mk940|camt|norma 43",
+            "statement (file )?formats?|flat files|statement files|bank statement file",
+            "downloaded bank statement",
+            "manual import",
+            "imports? bank statements in (many|any) formats?|in any format",
+            "ocr import of bank statements"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Automatically, straight from the bank": 0.45,
+        "We download a statement file and import it": 0.32
+      }
+    },
+    {
+      "id": "matching",
+      "text": "What should the app do once transactions are in BC?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Match them to open invoices and payments automatically",
+          "patterns": [
+            "auto-?match|automatch",
+            "automatic (bank )?reconciliation|statements and reconciliation",
+            "automatic(ally)? match|automated (transaction )?matching|matching rules|automatically reconcil|auto-reconcil|automated reconciliation",
+            "match\\w* (bank )?(payments|transactions|entries) (to|with)|matches (payments|bank|transactions)",
+            "auto-applies|applies bank transactions|pre-applied|match rate",
+            "\\b(ai|copilot)\\b[^.]*reconcil|ai-powered (payment )?reconcil",
+            "proposes customer, vendor|identifies counterpart|searches counterparty"
+          ]
+        },
+        {
+          "label": "Post bank fees, interest and recurring items automatically",
+          "patterns": [
+            "fees?\\b[^.]*(post|automatic|separat|fixed g/l)|(post|separat)\\w*[^.]*(fees|charges|interest)",
+            "bank charges",
+            "recurring payments matched|recurring transactions",
+            "text mapping",
+            "reason codes?",
+            "posts missing transactions|identifies and posts",
+            "account determination",
+            "suggests g/l account",
+            "automated posting|accounting robot|automates postings"
+          ]
+        },
+        {
+          "label": "Help me reconcile by hand, with checks against mistakes",
+          "patterns": [
+            "manual(ly)? (reconcil|correction)|reconcile unmatched entries manually|interface for manual",
+            "manual reconciliation|automatic or manual",
+            "tick off",
+            "colou?r coding",
+            "difference(s)? (counter|workflow)|reconciliation differences",
+            "running balance",
+            "suspense account",
+            "undo|revers(e|ing)"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Match them to open invoices and payments automatically": 0.42,
+        "Post bank fees, interest and recurring items automatically": 0.17,
+        "Help me reconcile by hand, with checks against mistakes": 0.12
+      }
+    },
+    {
+      "id": "sources",
+      "text": "Besides bank accounts, what else must be reconciled?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Payment providers (PayPal, Stripe, Adyen, Klarna...)",
+          "patterns": [
+            "paypal|stripe|mollie|adyen|klarna",
+            "\\bpsps?\\b|payment provider|payment platform",
+            "pos terminal"
+          ]
+        },
+        {
+          "label": "Credit card statements",
+          "patterns": [
+            "credit card|card transactions|card expenses|amex|american express"
+          ]
+        },
+        {
+          "label": "Bank accounts only / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Payment providers (PayPal, Stripe, Adyen, Klarna...)": 0.11,
+        "Credit card statements": 0.12
+      }
+    },
+    {
+      "id": "scale",
+      "text": "How many bank accounts and companies are involved?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Several banks",
+          "patterns": [
+            "multi-?bank|multiple banks|different banks|several banks|across multiple banks",
+            "[0-9,]+\\+? (sepa )?(banks|financial institutions)",
+            "all (ebics-compatible|scandinavian) banks|almost all danish|any bank\\b(?! account)|banks nationwide",
+            "bank aggregation|bank consolidation"
+          ]
+        },
+        {
+          "label": "Several companies in BC",
+          "patterns": [
+            "multi-?compan|multiple bc companies|other companies|all entities|all companies|one license per tenant"
+          ]
+        },
+        {
+          "label": "One bank, one company / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Several banks": 0.27,
+        "Several companies in BC": 0.08
+      }
+    },
+    {
+      "id": "extras",
+      "text": "Should the same app handle more than reconciliation?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Send payments to the bank",
+          "patterns": [
+            "(send|sends|push|pushes|transmits|initiat\\w*)[^.]*payments?|payment (file )?export|exports? [^.]*payment|payments? (from|to) (the )?bank"
+          ]
+        },
+        {
+          "label": "Cash position and forecasting",
+          "patterns": [
+            "forecast",
+            "cash (position|pooling|management)|liquidity",
+            "bank balances?|account balances|balances of|daily bank balance|financial position",
+            "treasury"
+          ]
+        },
+        {
+          "label": "Just reconciliation / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Send payments to the bank": 0.32,
+        "Cash position and forecasting": 0.24
+      }
+    }
+  ]
+}

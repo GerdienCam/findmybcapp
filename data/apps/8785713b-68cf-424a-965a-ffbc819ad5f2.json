@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.codadot|AID.vat_margin_scheme|PAPPID.8785713b-68cf-424a-965a-ffbc819ad5f2",
+  "guid": "8785713b-68cf-424a-965a-ffbc819ad5f2",
+  "publisherId": "codadot",
+  "offerId": "vat_margin_scheme",
+  "source": {
+    "name": "VAT Margin Scheme",
+    "publisher": "Codadot",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codadot%7CAID.vat_margin_scheme%7CPAPPID.8785713b-68cf-424a-965a-ffbc819ad5f2",
+    "lastModified": "2026-07-21T19:03:36.5256017+00:00",
+    "appVersion": "1.3.20250702.198",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://docs.codadot.nl/",
+    "sourceHash": "sha256:b50582aaa188d4504a4deecf035277af0557ed4b9162f613c936bc448e21ef66"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b50582aaa188d4504a4deecf035277af0557ed4b9162f613c936bc448e21ef66",
+    "mappedOn": null,
+    "summary": "Handles VAT margin scheme for second-hand goods trading",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Automatically calculates VAT on the profit margin for second-hand goods",
+      "Supports Globalization and Individualization margin methods",
+      "Complies with EU and UK margin scheme regulations",
+      "Sales documents in foreign currencies",
+      "Configurable VAT posting group combinations where the scheme applies",
+      "Override VAT product posting group per serial number",
+      "Determines initial purchase price from item ledger and value entries",
+      "VAT entries reflect margin and VAT on margin instead of full line amount",
+      "Invoices show zero VAT to customer while VAT is posted correctly",
+      "Prints serial numbers on sales documents without report changes"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IT",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "RO",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [
+      "Retail",
+      "Second-hand goods"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

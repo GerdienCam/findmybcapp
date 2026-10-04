@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.on720comas1662298129006|AID.expense720_se|PAPPID.dc9f94d1-7ea6-46b0-8db3-421566c8acfb",
+  "guid": "dc9f94d1-7ea6-46b0-8db3-421566c8acfb",
+  "publisherId": "on720comas1662298129006",
+  "offerId": "expense720_se",
+  "source": {
+    "name": "Expense720 (SE)",
+    "publisher": "ON720.COM",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on720comas1662298129006%7CAID.expense720_se%7CPAPPID.dc9f94d1-7ea6-46b0-8db3-421566c8acfb",
+    "lastModified": "2026-10-01T20:18:48.129036+00:00",
+    "appVersion": "28.5.261001.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.on720.com/expense720",
+    "sourceHash": "sha256:d01d95c9d811c11de5fe7196ab3449dba5ebfb6453d24ef0233349db3dfc0e10"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d01d95c9d811c11de5fe7196ab3449dba5ebfb6453d24ef0233349db3dfc0e10",
+    "mappedOn": null,
+    "summary": "Automates incoming invoice handling",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Drag-and-drop attachments in BC",
+      "Integrated document viewing",
+      "Custom approval workflows with amount limits",
+      "AI recognition of type, invoice number, dates and amounts",
+      "Email notifications of pending approvals",
+      "Web approval app with single sign-on",
+      "Creates payments from approved expenses into payment journal"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

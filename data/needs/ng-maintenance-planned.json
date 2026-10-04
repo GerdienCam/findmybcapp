@@ -1,0 +1,322 @@
+{
+  "id": "ng-maintenance-planned",
+  "order": 34,
+  "label": "Scheduling planned maintenance on our equipment",
+  "description": "Maintenance strategy, forecasting, scheduling and preventive or predictive maintenance on internal equipment.",
+  "type": "bpc",
+  "area": "Fixed assets & maintenance",
+  "relevance": "high",
+  "statements": [
+    "Scheduling planned maintenance on our equipment",
+    "Maintenance strategy, forecasting, scheduling and preventive or predictive maintenance on internal equipment.",
+    "We fix machines when they break, we want a proper maintenance plan instead",
+    "Which of our machines should be on fixed service intervals and which only on demand?",
+    "Starting with planned maintenance for our production equipment, where do we begin?",
+    "maintenance strategy for own equipment",
+    "Our insurer requires a documented maintenance plan for the forklifts and cranes",
+    "Should we service trucks by kilometres or by months?",
+    "We want to see how many maintenance hours we will need next quarter",
+    "Which spare parts will we need for planned maintenance this year?",
+    "maintenance forecast hours and parts",
+    "Workers raise maintenance requests on paper and we can't plan from them",
+    "Want maintenance rounds planned for the whole plant",
+    "Forecast technician workload from our maintenance plans",
+    "We plan machine maintenance on a whiteboard and things get missed",
+    "Is there a maintenance planning app for Business Central?",
+    "Our forklift service dates are in someone's head",
+    "We need to block the machine in production planning while it's being maintained",
+    "maintenance scheduling BC",
+    "Want a calendar of all maintenance jobs for our own equipment",
+    "Technicians need to see their maintenance jobs for the week on a phone",
+    "Vehicle inspections due dates keep getting missed and we get fined",
+    "How do we assign maintenance work orders to our in-house technicians?",
+    "Maintenance jobs and production orders compete for the same machine",
+    "We want reminders when a service is due on a truck or crane",
+    "CMMS that integrates with Business Central",
+    "External contractors do some of our maintenance and we need to book them",
+    "Scheduled maintenance should happen during planned downtime only",
+    "Maintenance planner spends a day each week juggling jobs in Excel",
+    "Want to drag and drop maintenance jobs on a planning board",
+    "Safety checks on ladders and lifting gear need scheduling every six months",
+    "Can a maintenance job be created automatically when a machine reaches a counter value?",
+    "Building maintenance like HVAC filters and fire alarms, we need a schedule",
+    "Maintenance team works across three sites and we can't see who is where",
+    "We need a maintenance plan for every machine with fixed intervals",
+    "Preventive maintenance app for BC",
+    "Our maintenance technicians fill in paper checklists that end up in a drawer",
+    "We want to log which spare parts were used for each service on our machines",
+    "Planned servicing every 500 operating hours, how do we track hours in BC?",
+    "Want a work order for each planned maintenance job with tasks to tick off",
+    "Machine maintenance history, who did what and when",
+    "preventive maintenance work orders",
+    "ISO audit needs proof that we serviced the equipment as planned",
+    "Spare parts for maintenance are taken from stock without being registered",
+    "Technician hours on maintenance should be posted as cost on the machine",
+    "Our fleet of 30 vans needs services, tire changes and inspections tracked",
+    "Recurring maintenance tasks should generate themselves each month",
+    "Maintenance on our own production line, not customer equipment",
+    "Want technicians to record maintenance on a tablet next to the machine",
+    "Calibration of our measuring tools needs to happen and be documented yearly",
+    "Lubrication and filter changes on machines need to be done on time",
+    "Can we see overdue planned maintenance at a glance?",
+    "Maintenance performed by an outside company should be registered on the asset",
+    "Lockout and safety steps need to be part of the maintenance checklist",
+    "Our machines have sensors, can BC create a maintenance job when vibration gets too high?",
+    "predictive maintenance BC",
+    "Want to use temperature readings to plan repairs before breakdowns",
+    "Machine counters should automatically update in BC",
+    "Condition based maintenance instead of fixed intervals",
+    "Get an alert when a machine shows signs of failure"
+  ],
+  "questions": [
+    {
+      "id": "trigger",
+      "text": "What should decide when a machine gets serviced?",
+      "help": "Pick all that apply to your equipment.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Fixed dates or intervals (every 3 months...)",
+          "patterns": [
+            "calendar[- ](intervals?|based)",
+            "calendar,",
+            "interval",
+            "by time",
+            "time-based",
+            "\\btime,",
+            "recurring",
+            "with frequency",
+            "frequency in",
+            "periodic",
+            "standing orders",
+            "maintenance plans? (for|per)",
+            "maintenance schedules",
+            "preventive maintenance (plans|scheduling|auto)",
+            "scheduled proposals"
+          ]
+        },
+        {
+          "label": "Usage: hours, counters or output",
+          "patterns": [
+            "meter",
+            "counter",
+            "usage",
+            "run ?time",
+            "runtime",
+            "run hours",
+            "\\boutput\\b",
+            "cycles",
+            "working load",
+            "production quantity"
+          ]
+        },
+        {
+          "label": "Condition or sensor data",
+          "patterns": [
+            "(time, usage or |by )condition",
+            "condition-based",
+            "condition monitoring",
+            "sensor",
+            "predictive",
+            "monitoring of parameters",
+            "object monitoring",
+            "measurement",
+            "health",
+            "working load"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Fixed dates or intervals (every 3 months...)": 0.43,
+        "Usage: hours, counters or output": 0.43,
+        "Condition or sensor data": 0.23
+      }
+    },
+    {
+      "id": "mobile",
+      "text": "Do technicians need to work from a phone or tablet?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "mobile",
+            "android",
+            "\\bios\\b",
+            "power app",
+            "offline",
+            "mobi\\b",
+            "handheld",
+            "gps"
+          ]
+        },
+        {
+          "label": "Yes, often without signal (offline)",
+          "patterns": [
+            "offline"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.3,
+        "Yes, often without signal (offline)": 0.1
+      }
+    },
+    {
+      "id": "production",
+      "text": "Do you run production in Business Central that maintenance must fit around?",
+      "help": "E.g. machine downtime should block production capacity.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, link maintenance to production",
+          "patterns": [
+            "production",
+            "work cent",
+            "machine cent",
+            "capacity",
+            "printvis"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, link maintenance to production": 0.27
+      }
+    },
+    {
+      "id": "parts",
+      "text": "Do you keep spare parts in stock for maintenance?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, track spare parts",
+          "patterns": [
+            "spare",
+            "parts inventory",
+            "parts and",
+            "maintenance parts",
+            "consumables",
+            "inventory and parts",
+            "components per machine"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, track spare parts": 0.47
+      }
+    },
+    {
+      "id": "planning",
+      "text": "Do you need a visual planning board for technicians?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, drag-and-drop scheduling",
+          "patterns": [
+            "drag and drop work",
+            "drag unscheduled",
+            "drag and drop$",
+            "workload planning",
+            "gantt",
+            "scheduling board",
+            "calendar board",
+            "graphical resource",
+            "technician scheduling",
+            "resource planning",
+            "resource calendar",
+            "work allocation"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, drag-and-drop scheduling": 0.27
+      }
+    },
+    {
+      "id": "contractors",
+      "text": "Do external contractors do some of the maintenance?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, track contractor work and costs",
+          "patterns": [
+            "contractor",
+            "external (maintenance|service)",
+            "service provider",
+            "vendor (services|management|spend)",
+            "subcontract"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, track contractor work and costs": 0.23
+      }
+    },
+    {
+      "id": "equipment",
+      "text": "What kind of equipment are you maintaining?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Production machines and plant",
+          "patterns": [
+            "machine",
+            "plant",
+            "production",
+            "work cent",
+            "manufactur"
+          ]
+        },
+        {
+          "label": "Vehicles and fleet",
+          "patterns": [
+            "vehicle",
+            "fleet",
+            "truck"
+          ]
+        },
+        {
+          "label": "Instruments needing calibration or certificates",
+          "patterns": [
+            "calibrat",
+            "certif",
+            "expir"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Production machines and plant": 0.47,
+        "Vehicles and fleet": 0.13,
+        "Instruments needing calibration or certificates": 0.07
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-collective-invoice|PAPPID.7a474d36-a3b3-4d9b-b15c-2cca69a9bde1",
+  "guid": "7a474d36-a3b3-4d9b-b15c-2cca69a9bde1",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-collective-invoice",
+  "source": {
+    "name": "Powerblox Collective Invoicing",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-collective-invoice%7CPAPPID.7a474d36-a3b3-4d9b-b15c-2cca69a9bde1",
+    "lastModified": "2026-08-31T11:14:52.9972147+00:00",
+    "appVersion": "24.0.5.68022",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/collective_invoicing",
+    "sourceHash": "sha256:d431dd2640c4fd4eb839a5f71a6510e9c4e1c64e68def46917d2112cf95e6f09"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d431dd2640c4fd4eb839a5f71a6510e9c4e1c64e68def46917d2112cf95e6f09",
+    "mappedOn": null,
+    "summary": "Groups invoices for collective invoicing to customers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-construction"
+    ],
+    "claims": [
+      "Groups invoices by sell-to, bill-to, order, shipment, ship-to, construction site or custom address",
+      "Billing schedules and comments per invoice group",
+      "Generates invoices automatically from delivered items",
+      "Construction sites as invoice grouping",
+      "Custom text between shipments on invoices"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

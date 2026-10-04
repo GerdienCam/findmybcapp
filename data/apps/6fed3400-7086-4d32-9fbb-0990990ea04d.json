@@ -1,0 +1,71 @@
+{
+  "appId": "TYPE.connect|PUBID.7282785|AID.bluesnap_ar_automation_2024|PAPPID.6fed3400-7086-4d32-9fbb-0990990ea04d",
+  "guid": "6fed3400-7086-4d32-9fbb-0990990ea04d",
+  "publisherId": "7282785",
+  "offerId": "bluesnap_ar_automation_2024",
+  "source": {
+    "name": "AR Automation and Payments by BlueSnap",
+    "publisher": "BlueSnap Inc",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.7282785%7CAID.bluesnap_ar_automation_2024%7CPAPPID.6fed3400-7086-4d32-9fbb-0990990ea04d",
+    "lastModified": "2025-03-11T11:01:12.851557+00:00",
+    "appVersion": "9.7.2.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.bluesnap.com/",
+    "sourceHash": "sha256:97d51e8543493a141ed1c6e606b081378613c53a005fca36f6adad745b28b1b8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:97d51e8543493a141ed1c6e606b081378613c53a005fca36f6adad745b28b1b8",
+    "mappedOn": null,
+    "summary": "AR automation, payments and customer portal via BlueSnap",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Automated dunning that escalates by predefined criteria",
+      "Scheduled reminders for upcoming and overdue invoices",
+      "Customer auto-pay enrollment",
+      "Credit cards, ACH, PAD, SEPA and compliant surcharging",
+      "Payments in over 100 currencies",
+      "Branded self-service portal to pay invoices, view statements and credits",
+      "Payment links and virtual terminal",
+      "PCI DSS Level 1 compliance",
+      "Bidirectional sync with Business Central",
+      "Automatic payment reconciliation",
+      "Reporting on receivables trends and revenue projection"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "BlueSnap"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

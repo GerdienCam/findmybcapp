@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.universalprintintegration|PAPPID.2654d7e7-9afd-4947-9e02-6bb8f3e0cd04",
+  "guid": "2654d7e7-9afd-4947-9e02-6bb8f3e0cd04",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "universalprintintegration",
+  "source": {
+    "name": "Universal Print Integration",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.universalprintintegration%7CPAPPID.2654d7e7-9afd-4947-9e02-6bb8f3e0cd04",
+    "lastModified": "2024-11-21T21:23:47.5974765+00:00",
+    "appVersion": "19.0.29894.30050",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.microsoft.com/en-us/dynamics365/business-central/ui-specify-printer-selection-reports#set-up-universal-print",
+    "sourceHash": "sha256:db9470609c53c6d81e34dd40430f6506b6a3fb81d435e95d848ed6b8cba705b7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:db9470609c53c6d81e34dd40430f6506b6a3fb81d435e95d848ed6b8cba705b7",
+    "mappedOn": null,
+    "summary": "Prints to any printer via Microsoft 365 Universal Print",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-printing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Prints to printers set up in Microsoft 365 Universal Print",
+      "Printers configured on the Printer Management page",
+      "Admins configure print jobs per task or user",
+      "Friendly names and defaults for cloud printers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Universal Print"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.estonian_dynamics_partners|AID.est-bus-reg|PAPPID.19121b63-2ce6-4cac-a7bb-968634bcfde0",
+  "guid": "19121b63-2ce6-4cac-a7bb-968634bcfde0",
+  "publisherId": "estonian_dynamics_partners",
+  "offerId": "est-bus-reg",
+  "source": {
+    "name": "Business Register localization for Estonia",
+    "publisher": "Estonian Dynamics Partners",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.est-bus-reg%7CPAPPID.19121b63-2ce6-4cac-a7bb-968634bcfde0",
+    "lastModified": "2026-05-10T15:26:40.9034239+00:00",
+    "appVersion": "22.1.26128.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicspartnersee.github.io/apps/estonian-business-register/docs/en-US/help",
+    "sourceHash": "sha256:22eafc2082c7bdefac0a79807e9830d60454e840f9cfa9fd1489b325336c3c80"
+  },
+  "mapping": {
+    "sourceHash": "sha256:22eafc2082c7bdefac0a79807e9830d60454e840f9cfa9fd1489b325336c3c80",
+    "mappedOn": null,
+    "summary": "Updates customer/vendor data from Estonian Business Register",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Searches and updates customer, vendor and contact info from the Estonian Business Register",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "EE"
+    ],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Estonian Business Register"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

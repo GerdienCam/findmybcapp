@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.asqit|AID.employee-approvals|PAPPID.2b0d6e45-21f0-4cdb-98a0-06fb8cc7dcc0",
+  "guid": "2b0d6e45-21f0-4cdb-98a0-06fb8cc7dcc0",
+  "publisherId": "asqit",
+  "offerId": "employee-approvals",
+  "source": {
+    "name": "Employee Approvals",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.employee-approvals%7CPAPPID.2b0d6e45-21f0-4cdb-98a0-06fb8cc7dcc0",
+    "lastModified": "2026-07-15T11:02:07.2595371+00:00",
+    "appVersion": "28.0.2.26071",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/approvalsuiteapps",
+    "sourceHash": "sha256:ab32207b13787916bd48af59d39e04152a0c2dee349439346c3d41116c67c6bc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ab32207b13787916bd48af59d39e04152a0c2dee349439346c3d41116c67c6bc",
+    "mappedOn": null,
+    "summary": "Approval control for employee bank details used in payments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-employee-records"
+    ],
+    "claims": [
+      "Approval of employee bank detail changes",
+      "Required employee fields checked before approval",
+      "Blocks unapproved employees in payment journals and payment file export",
+      "Tracks changes to employee bank details"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

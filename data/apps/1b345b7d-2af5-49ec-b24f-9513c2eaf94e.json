@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.lessoras1646310006069|AID.navi_1020000|PAPPID.1b345b7d-2af5-49ec-b24f-9513c2eaf94e",
+  "guid": "1b345b7d-2af5-49ec-b24f-9513c2eaf94e",
+  "publisherId": "lessoras1646310006069",
+  "offerId": "navi_1020000",
+  "source": {
+    "name": "Lessor Integration",
+    "publisher": "LESSOR A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lessoras1646310006069%7CAID.navi_1020000%7CPAPPID.1b345b7d-2af5-49ec-b24f-9513c2eaf94e",
+    "lastModified": "2024-11-22T11:04:14.835798+00:00",
+    "appVersion": "1.2.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.lessor.dk/om-lessor/support/",
+    "sourceHash": "sha256:0fde2dd84c38e5488c984658e6ef05599de789c5ae555458e4a28e4696935e16"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0fde2dd84c38e5488c984658e6ef05599de789c5ae555458e4a28e4696935e16",
+    "mappedOn": null,
+    "summary": "Integrates LessorLøn payroll data with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Transfers dimensions from BC to LessorLøn",
+      "Transfers G/L accounts from BC to LessorLøn",
+      "Transfers payroll G/L entries from LessorLøn to BC",
+      "Transfers employee master data from LessorLøn to BC",
+      "Transfers job entries from BC to LessorLøn"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "LessorLøn"
+    ],
+    "requires": [
+      "LessorLøn"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

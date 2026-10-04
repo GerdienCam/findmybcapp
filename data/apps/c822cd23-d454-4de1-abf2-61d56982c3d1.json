@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.navax_consulting|AID.nccht|PAPPID.c822cd23-d454-4de1-abf2-61d56982c3d1",
+  "guid": "c822cd23-d454-4de1-abf2-61d56982c3d1",
+  "publisherId": "navax_consulting",
+  "offerId": "nccht",
+  "source": {
+    "name": "NAVAX Knowledge Assistant",
+    "publisher": "NAVAX Consulting GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navax_consulting%7CAID.nccht%7CPAPPID.c822cd23-d454-4de1-abf2-61d56982c3d1",
+    "lastModified": "2026-09-20T10:58:46.1624359+00:00",
+    "appVersion": "28.1.1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.navax.app/help.php?AppID=NCCHT",
+    "sourceHash": "sha256:963e113153b3fde3fb7e6f78c3fc7dcc7391c3c59085e36f227083553be476a4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:963e113153b3fde3fb7e6f78c3fc7dcc7391c3c59085e36f227083553be476a4",
+    "mappedOn": null,
+    "summary": "AI assistant answering questions from internal knowledge base",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-ai-assistant",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-case-knowledge",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-support",
+      "ng-admin-training-adoption"
+    ],
+    "claims": [
+      "Answers user questions only from your own knowledge base, no internet access",
+      "Builds knowledge base from PDFs, URLs, TXT and MD files",
+      "Runs in customer's own Azure tenant with full tenant isolation",
+      "Self-service knowledge management without developer",
+      "Monitoring and auditability of answer sources",
+      "Native inside BC interface",
+      "States AI Act compliance"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

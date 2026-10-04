@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://findmybc.app/schema/publisher.schema.json",
+  "title": "Publisher file (publisher-data/<publisher-slug>/<stem>.json)",
+  "description": "Facts a publisher adds where AppSource falls short. Supplements only, never a second description. Every field except appName feeds matching, so every value must be checkable.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["appId", "appName", "countries", "languages", "extends", "worksWellWith", "showLogo", "logoUrl"],
+  "properties": {
+    "appId": {"type": "string", "description": "AppSource ID of this app. Do not change."},
+    "appName": {"type": "string", "description": "For reading only. Kept in sync by the build. Do not change."},
+    "countries": {
+      "description": "Extra countries the app supports, beyond what AppSource states. ISO 3166-1 alpha-2, uppercase. Example: NO",
+      "type": "array", "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[A-Z]{2}$"}
+    },
+    "languages": {
+      "description": "Extra UI languages, beyond what AppSource states. ISO 639-1, lowercase, optional region. Example: nb, de-CH",
+      "type": "array", "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[a-z]{2}(-[A-Z]{2})?$"}
+    },
+    "extends": {
+      "description": "AppSource IDs of apps this app is a genuine extension of. Implies the customer has that app.",
+      "type": "array", "uniqueItems": true, "items": {"type": "string"}
+    },
+    "worksWellWith": {
+      "description": "AppSource IDs of apps this app is known to work well alongside. Softer than extends.",
+      "type": "array", "uniqueItems": true, "items": {"type": "string"}
+    },
+    "showLogo": {"type": "boolean", "description": "Consent to show your logo. Default false."},
+    "logoUrl": {
+      "description": "Your own hosted logo, https. Shown only when showLogo is true.",
+      "type": ["string", "null"], "pattern": "^https://"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.developmentforbusinesssolutionsslu1728297442086|AID.0037|PAPPID.f5583983-f72e-4059-8a23-01328e10388c",
+  "guid": "f5583983-f72e-4059-8a23-01328e10388c",
+  "publisherId": "developmentforbusinesssolutionsslu1728297442086",
+  "offerId": "0037",
+  "source": {
+    "name": "Pack envio almacen",
+    "publisher": "d4b",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.developmentforbusinesssolutionsslu1728297442086%7CAID.0037%7CPAPPID.f5583983-f72e-4059-8a23-01328e10388c",
+    "lastModified": "2025-10-09T03:43:55.0801933+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://d4bsolutions.com/ficha-de-producto/enviosalmacen/",
+    "sourceHash": "sha256:20f48183cd5069d7000e5ef0bb9c55bd0b9ec43875cc9bfc55762f26d42fd7f1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:20f48183cd5069d7000e5ef0bb9c55bd0b9ec43875cc9bfc55762f26d42fd7f1",
+    "mappedOn": null,
+    "summary": "Shows sales order data on warehouse shipments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-search-navigation"
+    ],
+    "claims": [
+      "Shows customer name, ship-to address and requested delivery date on warehouse shipments",
+      "Available on warehouse shipment list/card and posted shipment list/card"
+    ],
+    "countries": [],
+    "languages": [
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

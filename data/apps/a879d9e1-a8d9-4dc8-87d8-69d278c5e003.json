@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex006combine_warehouseshipment_cws|PAPPID.a879d9e1-a8d9-4dc8-87d8-69d278c5e003",
+  "guid": "a879d9e1-a8d9-4dc8-87d8-69d278c5e003",
+  "publisherId": "eos_solutions",
+  "offerId": "ex006combine_warehouseshipment_cws",
+  "source": {
+    "name": "Combine Warehouse Shipment",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex006combine_warehouseshipment_cws%7CPAPPID.a879d9e1-a8d9-4dc8-87d8-69d278c5e003",
+    "lastModified": "2026-07-31T12:10:53.8896983+00:00",
+    "appVersion": "28.0.19.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/combine-warehouse-shipment.html",
+    "sourceHash": "sha256:b8e029ef2965e94a94983bfd159c0cc58ff2a387e7a704a6cd6fd12efd454a2e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b8e029ef2965e94a94983bfd159c0cc58ff2a387e7a704a6cd6fd12efd454a2e",
+    "mappedOn": null,
+    "summary": "Combines orders into warehouse shipments by grouping criteria",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking"
+    ],
+    "claims": [
+      "Combines orders into warehouse shipments by configurable grouping criteria",
+      "Applies to sales orders, purchase returns, transfers and service shipments",
+      "Grouping by document header and line fields",
+      "Grouping per location",
+      "Choice of report for printing shipment",
+      "Dedicated number series for combined shipments",
+      "Extend grouping criteria with custom fields"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

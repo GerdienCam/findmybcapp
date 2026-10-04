@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_vendor_portal|PAPPID.e9c2dc7b-6dff-433c-b94e-34aa26c7afec",
+  "guid": "e9c2dc7b-6dff-433c-b94e-34aa26c7afec",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_vendor_portal",
+  "source": {
+    "name": "Vendor Portal",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_vendor_portal%7CPAPPID.e9c2dc7b-6dff-433c-b94e-34aa26c7afec",
+    "lastModified": "2026-03-26T07:02:51.6980052+00:00",
+    "appVersion": "26.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nubetech.helpjuice.com/en_US/vendor-portal/vendor-web-portal",
+    "sourceHash": "sha256:55b5d398ba4a66513ac33ec800da4efa1b98e80faa5338997d04d73968a9bb19"
+  },
+  "mapping": {
+    "sourceHash": "sha256:55b5d398ba4a66513ac33ec800da4efa1b98e80faa5338997d04d73968a9bb19",
+    "mappedOn": null,
+    "summary": "Vendor self-service portal for documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Vendors access their own purchase documents in a web portal",
+      "Views filtered by authenticated vendor",
+      "Vendors download document PDFs",
+      "Vendors confirm or propose delivery dates on open order lines",
+      "Buyer accepts or rejects proposed dates in BC",
+      "Vendors enter notes on order lines visible in BC",
+      "Covers posted credit memos, invoices, receipts, blanket orders, orders and quotes",
+      "Per-vendor notifications, banners and navigation bar",
+      "Configurable cost visibility, password duration and multilingual labels"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

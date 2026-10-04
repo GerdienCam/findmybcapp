@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.erpwareltd|AID.dcx-auto-mail|PAPPID.819939c5-94f0-4ad4-b631-675e80074007",
+  "guid": "819939c5-94f0-4ad4-b631-675e80074007",
+  "publisherId": "erpwareltd",
+  "offerId": "dcx-auto-mail",
+  "source": {
+    "name": "DCX - Auto Mail",
+    "publisher": "ERP Ware",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpwareltd%7CAID.dcx-auto-mail%7CPAPPID.819939c5-94f0-4ad4-b631-675e80074007",
+    "lastModified": "2026-06-25T08:41:43.2845562+00:00",
+    "appVersion": "27.0.25.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamics-connect.co.uk/Apps/dcx-auto-mail",
+    "sourceHash": "sha256:24b83f2499dc940c96aa568831cffe45e3ec213b34ce40518689a6cb04722530"
+  },
+  "mapping": {
+    "sourceHash": "sha256:24b83f2499dc940c96aa568831cffe45e3ec213b34ce40518689a6cb04722530",
+    "mappedOn": null,
+    "summary": "Automates emails to customers triggered by BC events",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-collections"
+    ],
+    "claims": [
+      "Automatically emails statements, invoices and credit memos on posting or via job queue",
+      "Scheduled consolidated monthly customer statements with inclusion/exclusion rules",
+      "Central HTML templates, subjects and signatures",
+      "Log of sent items, attachments and delivery outcomes",
+      "Configurable without code",
+      "Overnight batch runs via Job Queue",
+      "Uses BC native email and Exchange Online",
+      "Works in cloud and on-premises with app registration"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Exchange Online"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

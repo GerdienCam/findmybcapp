@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-rental-digando|PAPPID.0777b590-fd95-43c8-a692-1d0fa383fa4d",
+  "guid": "0777b590-fd95-43c8-a692-1d0fa383fa4d",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-rental-digando",
+  "source": {
+    "name": "Aptean Rental x Digando",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-rental-digando%7CPAPPID.0777b590-fd95-43c8-a692-1d0fa383fa4d",
+    "lastModified": "2026-09-01T05:31:49.4264453+00:00",
+    "appVersion": "2603.260500.20260602.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:07919d5cc3de6f4f60128be659bfe357600fd1e651cd2e96e1d765eddee51310"
+  },
+  "mapping": {
+    "sourceHash": "sha256:07919d5cc3de6f4f60128be659bfe357600fd1e651cd2e96e1d765eddee51310",
+    "mappedOn": null,
+    "summary": "Connects Aptean Rental to Digando rental marketplace",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-marketplaces",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Imports new bookings and changes from Digando",
+      "Sends delivery and return updates back to Digando",
+      "Cancel bookings in both systems",
+      "Auto-creates contracts or quotes from bookings by rules",
+      "Create and deactivate products in Digando from Aptean Rental",
+      "Regularly sends availability to Digando",
+      "Transaction log of all interface traffic"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [
+      "Digando"
+    ],
+    "requires": [
+      "Aptean Rental"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

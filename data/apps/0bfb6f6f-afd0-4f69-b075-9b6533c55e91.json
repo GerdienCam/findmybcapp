@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.goprodoo1579609051569|AID.gopro_shop_floor_barcode_data_collection|PAPPID.0bfb6f6f-afd0-4f69-b075-9b6533c55e91",
+  "guid": "0bfb6f6f-afd0-4f69-b075-9b6533c55e91",
+  "publisherId": "goprodoo1579609051569",
+  "offerId": "gopro_shop_floor_barcode_data_collection",
+  "source": {
+    "name": "MES - Shop Floor Barcode Data Collection",
+    "publisher": "GoPro doo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.goprodoo1579609051569%7CAID.gopro_shop_floor_barcode_data_collection%7CPAPPID.0bfb6f6f-afd0-4f69-b075-9b6533c55e91",
+    "lastModified": "2026-05-15T10:54:01.4799359+00:00",
+    "appVersion": "26.0.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/131/MES-%E2%80%93-Shop-Floor-Barcode-Data-Collection",
+    "sourceHash": "sha256:6c970603380a7a08739bbdcdf48778f5e437ccd5a08229accbb5e6d161b7aa83"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6c970603380a7a08739bbdcdf48778f5e437ccd5a08229accbb5e6d161b7aa83",
+    "mappedOn": null,
+    "summary": "Shop floor barcode capture of consumption, output and scrap",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices",
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "Barcode capture of consumption, output, scrap and rework time",
+      "Logs operation start/end by scanning production traveller barcode",
+      "Identifies person starting and completing operation",
+      "Works on desktops, tablets, phones and handheld scanners",
+      "Automatic posting of time and finished quantities in real time",
+      "Handles operations across several machines and executes orders in combination",
+      "Employees clock in and clock out against production orders"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sr"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

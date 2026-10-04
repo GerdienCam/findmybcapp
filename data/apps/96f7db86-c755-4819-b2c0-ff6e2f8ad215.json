@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.mooreinsight|AID.mi-key-vault-link|PAPPID.96f7db86-c755-4819-b2c0-ff6e2f8ad215",
+  "guid": "96f7db86-c755-4819-b2c0-ff6e2f8ad215",
+  "publisherId": "mooreinsight",
+  "offerId": "mi-key-vault-link",
+  "source": {
+    "name": "MI - Key Vault Link",
+    "publisher": "Moore Insight",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mooreinsight%7CAID.mi-key-vault-link%7CPAPPID.96f7db86-c755-4819-b2c0-ff6e2f8ad215",
+    "lastModified": "2026-09-10T05:57:53.4432139+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://moore-insight-apps.com/apps/bc-extensions/key-vault-link",
+    "sourceHash": "sha256:0bef418db7c5aea864fb7fcc24696c4f6cc115c3a320be66c5f705c85bb20e37"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0bef418db7c5aea864fb7fcc24696c4f6cc115c3a320be66c5f705c85bb20e37",
+    "mappedOn": null,
+    "summary": "Authenticates with Azure Key Vault for secure secret storage",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-admin-it-compliance"
+    ],
+    "claims": [
+      "Retrieves client ID, secret and tenant ID from Azure Key Vault at runtime",
+      "OAuth 2.0 client credentials flow for Microsoft Graph",
+      "Reference implementation retrieves all M365 users",
+      "Reusable by other BC extensions"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Key Vault",
+      "Microsoft Graph"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

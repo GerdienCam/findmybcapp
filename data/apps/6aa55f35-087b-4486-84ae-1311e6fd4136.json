@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.goprodoo1579609051569|AID.gopro_bc_multicurrencypricing|PAPPID.6aa55f35-087b-4486-84ae-1311e6fd4136",
+  "guid": "6aa55f35-087b-4486-84ae-1311e6fd4136",
+  "publisherId": "goprodoo1579609051569",
+  "offerId": "gopro_bc_multicurrencypricing",
+  "source": {
+    "name": "Multi-Currency Pricing",
+    "publisher": "GoPro doo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.goprodoo1579609051569%7CAID.gopro_bc_multicurrencypricing%7CPAPPID.6aa55f35-087b-4486-84ae-1311e6fd4136",
+    "lastModified": "2025-04-30T10:03:58.808754+00:00",
+    "appVersion": "23.2.13.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/153/Multi-Currency-Pricing",
+    "sourceHash": "sha256:d3c8ca96de3eea84ee6b622f961207f069c7f113af159a455b659d52911d8d58"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d3c8ca96de3eea84ee6b622f961207f069c7f113af159a455b659d52911d8d58",
+    "mappedOn": null,
+    "summary": "Item prices in foreign currency with LCY posting",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-currency"
+    ],
+    "claims": [
+      "Prices and discounts recorded in any currency",
+      "Postings and ledgers kept in local currency",
+      "Price currency code, date and exchange rate on documents",
+      "Sync of posting date and price currency date",
+      "Shows the line amount and price list price in currency on sales lines",
+      "Use agreed price differing from price list"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

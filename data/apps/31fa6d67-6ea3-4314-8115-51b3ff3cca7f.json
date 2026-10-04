@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.advanced-prepayments-app|PAPPID.31fa6d67-6ea3-4314-8115-51b3ff3cca7f",
+  "guid": "31fa6d67-6ea3-4314-8115-51b3ff3cca7f",
+  "publisherId": "fenwicksoftware",
+  "offerId": "advanced-prepayments-app",
+  "source": {
+    "name": "Advanced Prepayments",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.advanced-prepayments-app%7CPAPPID.31fa6d67-6ea3-4314-8115-51b3ff3cca7f",
+    "lastModified": "2026-09-28T00:18:33.2278604+00:00",
+    "appVersion": "26.0.260918.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/advanced-prepayments/docs",
+    "sourceHash": "sha256:b83acbfa4075a74f61046003b245dfd1718f29cfb9ecadd56b782a648031d52e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b83acbfa4075a74f61046003b245dfd1718f29cfb9ecadd56b782a648031d52e",
+    "mappedOn": null,
+    "summary": "Enhances prepayment handling",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "FactBox with prepayment invoiced, to invoice, tax and total amounts",
+      "Prepayment Amount to Invoice field",
+      "Fixed prepayment amounts in addition to percentage",
+      "Bulk Update Prepayment action across lines",
+      "Update prepayment amount without credit and re-create",
+      "VAT on prepayments derived from order lines"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

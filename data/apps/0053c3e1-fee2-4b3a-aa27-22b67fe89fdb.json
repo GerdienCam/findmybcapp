@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.quality-inspections|PAPPID.0053c3e1-fee2-4b3a-aa27-22b67fe89fdb",
+  "guid": "0053c3e1-fee2-4b3a-aa27-22b67fe89fdb",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "quality-inspections",
+  "source": {
+    "name": "Quality Inspections",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.quality-inspections%7CPAPPID.0053c3e1-fee2-4b3a-aa27-22b67fe89fdb",
+    "lastModified": "2025-11-26T06:10:31.3606814+00:00",
+    "appVersion": "27.1.16749.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.nicsystemslearning.com/help/quality-inspections",
+    "sourceHash": "sha256:0c740ee428c7f90700cedc470cc757d7787f020eb338718f25e62e6a0d56c8b9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0c740ee428c7f90700cedc470cc757d7787f020eb338718f25e62e6a0d56c8b9",
+    "mappedOn": null,
+    "summary": "Quality inspections for receipts, shipments, production",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-quality-hold",
+      "ng-nonconformance-capa"
+    ],
+    "claims": [
+      "Default data for quality UoM, categories, tests and values",
+      "Tests in number, text or option format with pass criteria from templates",
+      "Inspections for items, resources or fixed assets across sales, purchasing, warehouse, production",
+      "Inspections on item ledger entries and serial, lot, package numbers",
+      "Capture results with notes or images",
+      "Auto-create tasks for failed tests",
+      "Tracks who completes each test; only approved users verify",
+      "Quality inspector role center with due and overdue tests",
+      "Block items under inspection (with Inventory Restrictions app)"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

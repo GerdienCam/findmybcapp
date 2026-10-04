@@ -1,0 +1,98 @@
+{
+  "appId": "PUBID.hivecpq1704789766279|AID.hivecpqproductconfigurator-businesscentral|PAPPID.c3525696-f337-4712-b925-d1c524be0121",
+  "guid": "c3525696-f337-4712-b925-d1c524be0121",
+  "publisherId": "hivecpq1704789766279",
+  "offerId": "hivecpqproductconfigurator-businesscentral",
+  "source": {
+    "name": "Hive CPQ for Microsoft Dynamics 365 Business Central",
+    "publisher": "Hive CPQ",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hivecpq1704789766279%7CAID.hivecpqproductconfigurator-businesscentral%7CPAPPID.c3525696-f337-4712-b925-d1c524be0121",
+    "lastModified": "2026-09-04T14:34:19.1616473+00:00",
+    "appVersion": "1.1.6.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://hivecpq.com/en/integrations/cpq-for-dynamics-business-central",
+    "sourceHash": "sha256:542d16e90b238bce4bde9477dfb5a210f5719b34804b6908b03f6f2bc7b0f14e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:542d16e90b238bce4bde9477dfb5a210f5719b34804b6908b03f6f2bc7b0f14e",
+    "mappedOn": null,
+    "summary": "Product configuration and quoting via Hive CPQ",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "3D configuration of complex products",
+      "One-click quote generation and order placement",
+      "Data synchronized with BC",
+      "Low-code configurator setup and maintenance",
+      "For internal sales, distributors and end customers",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hu",
+      "it",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sv",
+      "tr",
+      "zh"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Hive CPQ"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

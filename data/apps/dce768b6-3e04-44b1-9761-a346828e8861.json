@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.fg15|PAPPID.dce768b6-3e04-44b1-9761-a346828e8861",
+  "guid": "dce768b6-3e04-44b1-9761-a346828e8861",
+  "publisherId": "fenwicksoftware",
+  "offerId": "fg15",
+  "source": {
+    "name": "Discontinued Master Data",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.fg15%7CPAPPID.dce768b6-3e04-44b1-9761-a346828e8861",
+    "lastModified": "2026-08-31T13:01:03.1390163+00:00",
+    "appVersion": "24.4.260825.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/discontinued-master-data/docs",
+    "sourceHash": "sha256:a8e9e65b645dce49c78b004aa2563751337ddcf993574782a1392ddad6a4fe19"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a8e9e65b645dce49c78b004aa2563751337ddcf993574782a1392ddad6a4fe19",
+    "mappedOn": null,
+    "summary": "Hides discontinued master data records without deleting them",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-product-phase-out",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Hides obsolete records without deleting them",
+      "Discontinues customers, vendors, contacts, items, variants, locations, service items, resources, G/L accounts and dimensions",
+      "Auto-discontinues flagged customers, vendors and items when inventory/balance reaches 0",
+      "Restore discontinued records at any time"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

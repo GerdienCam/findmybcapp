@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.equerralimited|AID.equerra-elevate-labels|PAPPID.869acc8d-6e57-4027-a80f-82d1bd1588ec",
+  "guid": "869acc8d-6e57-4027-a80f-82d1bd1588ec",
+  "publisherId": "equerralimited",
+  "offerId": "equerra-elevate-labels",
+  "source": {
+    "name": "Elevate Labels",
+    "publisher": "Equerra Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.equerralimited%7CAID.equerra-elevate-labels%7CPAPPID.869acc8d-6e57-4027-a80f-82d1bd1588ec",
+    "lastModified": "2026-08-28T14:22:26.7142595+00:00",
+    "appVersion": "28.0.40.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.equerra.com/docs/elevatelabels",
+    "sourceHash": "sha256:977a9d8afa18908b2ffa1ec6b377d7a77d30bb04039c3c419ca61fbae921be63"
+  },
+  "mapping": {
+    "sourceHash": "sha256:977a9d8afa18908b2ffa1ec6b377d7a77d30bb04039c3c419ca61fbae921be63",
+    "mappedOn": null,
+    "summary": "Label templates auto-printed or sent by HTTP or email",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "Label template designer from any source table with joins and filters",
+      "Writes output as fixed-width text, TXT, JSON or CSV",
+      "Auto-print on posting shipments, receipts and transfers",
+      "Delivery by HTTP to printer/endpoint or by email",
+      "Custom HTTP headers, credentials and printer endpoints",
+      "Print log with retention policy support",
+      "Per-template user permissions",
+      "API page to request labels externally",
+      "Requires BC online 28.0 or later"
+    ],
+    "countries": [
+      "NZ"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

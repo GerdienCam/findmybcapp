@@ -1,0 +1,176 @@
+{
+  "id": "ng-loyalty",
+  "order": 115,
+  "label": "Running a customer loyalty or points program",
+  "description": "Designing and running loyalty, points and member programs for customers.",
+  "type": "bpc",
+  "area": "CRM & quotes",
+  "relevance": "medium",
+  "statements": [
+    "Running a customer loyalty or points program",
+    "Designing and running loyalty, points and member programs for customers.",
+    "We want to give our shop customers points they can spend on their next purchase",
+    "Is there a loyalty app that works with our BC POS and webshop?",
+    "loyalty program setup",
+    "How should we design tiers, like silver and gold customers with different benefits?",
+    "We'd like a stamp card style reward but digital",
+    "Want trade customers to earn rewards based on yearly spend, not just retail shoppers",
+    "What's the simplest loyalty scheme a small retail chain can run on Business Central?",
+    "Should points expire, and how do we account for unused points in the books?",
+    "We want a members-only price for registered customers",
+    "Designing a referral reward when customers bring in new customers",
+    "Our competitors all have loyalty cards and we're losing repeat shoppers",
+    "Need the loyalty rules to work the same in all our stores and online",
+    "We want our shop customers to collect points every time they buy",
+    "Is there a loyalty card app that works with Business Central and our POS?",
+    "loyalty points BC",
+    "Customers ask how many points they have and we can't tell them",
+    "Our webshop and our stores keep separate loyalty balances, we want one",
+    "How do we give a member discount automatically when a loyalty customer buys in store?",
+    "We need to correct someone's points balance after a returned purchase",
+    "Want silver and gold member levels based on how much people spend per year",
+    "Points should expire after 12 months but we track it in a spreadsheet",
+    "Issuing plastic or digital membership cards to customers",
+    "Our club members get birthday vouchers, and right now it's all manual",
+    "Customers want to redeem points online and in the shop"
+  ],
+  "questions": [
+    {
+      "id": "pos",
+      "text": "Where do your customers buy?",
+      "help": "Pick every till or shop the loyalty program must cover.",
+      "multi": true,
+      "options": [
+        {
+          "label": "LS Central POS",
+          "patterns": [
+            "ls central"
+          ]
+        },
+        {
+          "label": "Shopify or another webshop",
+          "patterns": [
+            "shopify",
+            "bigcommerce",
+            "woocommerce",
+            "commerce cloud",
+            "online and in-store"
+          ]
+        },
+        {
+          "label": "Other POS (LS Express, Square, Lightspeed, Clover)",
+          "patterns": [
+            "ls express",
+            "square",
+            "lightspeed",
+            "clover"
+          ]
+        },
+        {
+          "label": "Normal BC sales orders and invoices",
+          "patterns": [
+            "sales orders",
+            "invoices"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "LS Central POS": 0.38,
+        "Shopify or another webshop": 0.25,
+        "Other POS (LS Express, Square, Lightspeed, Clover)": 0.25,
+        "Normal BC sales orders and invoices": 0.25
+      }
+    },
+    {
+      "id": "rewards",
+      "text": "What do you want to reward customers with?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Points",
+          "patterns": [
+            "points?\\b"
+          ]
+        },
+        {
+          "label": "Gift cards or store credit",
+          "patterns": [
+            "gift cards?",
+            "store credits?",
+            "card balance"
+          ]
+        },
+        {
+          "label": "Coupons, vouchers and offers",
+          "patterns": [
+            "coupons?",
+            "vouchers?",
+            "bonus checks",
+            "adds offers"
+          ]
+        },
+        {
+          "label": "Membership tiers",
+          "patterns": [
+            "membership"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Points": 0.75,
+        "Gift cards or store credit": 0.38,
+        "Coupons, vouchers and offers": 0.5,
+        "Membership tiers": 0.12
+      }
+    },
+    {
+      "id": "engagement",
+      "text": "How do you want to reach loyalty members?",
+      "help": "Beyond collecting and redeeming rewards.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Targeted campaigns and personal messages",
+          "patterns": [
+            "campaign",
+            "personali[sz]ed",
+            "segmentation",
+            "targeted"
+          ]
+        },
+        {
+          "label": "Our own customer mobile app",
+          "patterns": [
+            "mobile app",
+            "push notification"
+          ]
+        },
+        {
+          "label": "Digital receipts with offers",
+          "patterns": [
+            "digital receipts?",
+            "branded digital"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Targeted campaigns and personal messages": 0.38,
+        "Our own customer mobile app": 0.12,
+        "Digital receipts with offers": 0.12
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.knk|AID.knkintegrationplatform|PAPPID.f0832870-c1de-4dea-92fc-8f573b8a5e8d",
+  "guid": "f0832870-c1de-4dea-92fc-8f573b8a5e8d",
+  "publisherId": "knk",
+  "offerId": "knkintegrationplatform",
+  "source": {
+    "name": "knkIntegration Platform",
+    "publisher": "knk Business Software AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.knk%7CAID.knkintegrationplatform%7CPAPPID.f0832870-c1de-4dea-92fc-8f573b8a5e8d",
+    "lastModified": "2026-09-24T10:19:43.7375853+00:00",
+    "appVersion": "28.4.118585.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://knk.com/wp-content/uploads/2022/06/Documentation-knk-Integration-Platform-KIP-V-1.0.pdf",
+    "sourceHash": "sha256:c43e385f5c46c3b7eb13d73fbe493c7d9337b414b70b905a6a9494cd6a18d0bc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c43e385f5c46c3b7eb13d73fbe493c7d9337b414b70b905a6a9494cd6a18d0bc",
+    "mappedOn": null,
+    "summary": "Interface framework for data exchange with external systems",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-data-migration",
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "No-code import/export interfaces defined in a table of fields",
+      "Select recipient and data format per interface",
+      "Connects to standard or custom applications",
+      "Scheduled automated imports and exports",
+      "Detailed interface monitoring",
+      "Custom AL logic with full code access to each transfer phase",
+      "Helper library, scripting and field mapping",
+      "Data migration from Excel"
+    ],
+    "countries": [
+      "DE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.9altitudes|AID.36d81b99-9d60-4c40-9984-152e4351ffa9|PAPPID.7f36c4f6-197b-43d9-a71a-cc784d351176",
+  "guid": "7f36c4f6-197b-43d9-a71a-cc784d351176",
+  "publisherId": "9altitudes",
+  "offerId": "36d81b99-9d60-4c40-9984-152e4351ffa9",
+  "source": {
+    "name": "9A Advanced Manufacturing - Product Dimensions",
+    "publisher": "9altitudes",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.9altitudes%7CAID.36d81b99-9d60-4c40-9984-152e4351ffa9%7CPAPPID.7f36c4f6-197b-43d9-a71a-cc784d351176",
+    "lastModified": "2026-09-11T15:32:37.2931547+00:00",
+    "appVersion": "27.4.87.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://9altitudes.com/product/9a-advanced-manufacturing",
+    "sourceHash": "sha256:d0399fc9651c368e4fbdb29c1b2074d8f22532ac25baf62dcc9e20906fc9ad03"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d0399fc9651c368e4fbdb29c1b2074d8f22532ac25baf62dcc9e20906fc9ad03",
+    "mappedOn": null,
+    "summary": "Handles items with multiple attributes/dimensions across production, warehouse and pricing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability",
+      "ng-sales-commissions",
+      "ng-customer-returns",
+      "ng-production-planning"
+    ],
+    "claims": [
+      "Adds specifications to items and transactions for attribute-based manufacturing",
+      "Item tracing on specifications",
+      "Sales prices driven by item attributes and unit of measure",
+      "Warehouse transform activities for cutting/dividing",
+      "Shipment worksheets and transfer order planning tools",
+      "Layout planning for multiple production orders",
+      "Shop floor output worksheet",
+      "Agent and seller commissions",
+      "Sales invoices can be posted per shipment or as a batch",
+      "Lifecycles for items, vendors, customers and documents",
+      "Complaint process for customers, vendors and items",
+      "NiceLabel integration"
+    ],
+    "countries": [
+      "BE",
+      "DK",
+      "FR",
+      "NL",
+      "SI"
+    ],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "NiceLabel",
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

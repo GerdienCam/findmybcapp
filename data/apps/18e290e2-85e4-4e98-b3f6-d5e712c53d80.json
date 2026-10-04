@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.tinx-it|AID.tinx-magento-connector|PAPPID.18e290e2-85e4-4e98-b3f6-d5e712c53d80",
+  "guid": "18e290e2-85e4-4e98-b3f6-d5e712c53d80",
+  "publisherId": "tinx-it",
+  "offerId": "tinx-magento-connector",
+  "source": {
+    "name": "Tinx Magento 2 Connector",
+    "publisher": "Tinx-IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-magento-connector%7CPAPPID.18e290e2-85e4-4e98-b3f6-d5e712c53d80",
+    "lastModified": "2026-09-24T10:47:51.6971367+00:00",
+    "appVersion": "28.1.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.tinx-it.com/",
+    "sourceHash": "sha256:dded0afea7c2ac9ef56088e9d8c2ba110121fa6c9bf94acce89ec8bc693ab5f7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dded0afea7c2ac9ef56088e9d8c2ba110121fa6c9bf94acce89ec8bc693ab5f7",
+    "mappedOn": null,
+    "summary": "Syncs Magento products, inventory and orders with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Real-time sync of orders, customers, inventory and products with Magento 2",
+      "Supports B2C and B2B webshops",
+      "Product information management: texts, cross-sell, up-sell, pictures",
+      "Attributes on items and customers",
+      "Order import with customer assignment, guest ordering supported",
+      "Sends tracking information to webshop customers",
+      "Sync history log with email notification on errors",
+      "Fixed monthly fee from EUR 369"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Magento",
+      "Adobe Commerce"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

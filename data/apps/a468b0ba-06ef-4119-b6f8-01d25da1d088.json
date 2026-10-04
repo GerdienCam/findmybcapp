@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.posoneas1663056030259|AID.retail365-addon|PAPPID.a468b0ba-06ef-4119-b6f8-01d25da1d088",
+  "guid": "a468b0ba-06ef-4119-b6f8-01d25da1d088",
+  "publisherId": "posoneas1663056030259",
+  "offerId": "retail365-addon",
+  "source": {
+    "name": "POS ONE - RETAIL365",
+    "publisher": "POS-ONE A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.posoneas1663056030259%7CAID.retail365-addon%7CPAPPID.a468b0ba-06ef-4119-b6f8-01d25da1d088",
+    "lastModified": "2026-06-02T02:58:51.8667667+00:00",
+    "appVersion": "28.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://posone365.com/",
+    "sourceHash": "sha256:a621b58089280d57422c6284feb956fe0fff7e60d8b5181ba60a414b21279be0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a621b58089280d57422c6284feb956fe0fff7e60d8b5181ba60a414b21279be0",
+    "mappedOn": null,
+    "summary": "Retail variant matrix, pricing, store distribution and purchasing",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-retail",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data",
+      "ng-stock-movements",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Creates items with variants from models",
+      "Purchase/sales prices and discounts menu",
+      "Model Order Matrix generates standard BC documents",
+      "Warehouse transfers for Essentials users",
+      "Store distribution keys for stock movement"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "POS365 Integration"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

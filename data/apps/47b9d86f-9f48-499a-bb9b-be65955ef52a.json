@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.jrsdynamicsinfosolutionsllp1720168519830|AID.jrs00003|PAPPID.47b9d86f-9f48-499a-bb9b-be65955ef52a",
+  "guid": "47b9d86f-9f48-499a-bb9b-be65955ef52a",
+  "publisherId": "jrsdynamicsinfosolutionsllp1720168519830",
+  "offerId": "jrs00003",
+  "source": {
+    "name": "JRS E-Invoice & E-Way Bill",
+    "publisher": "JRS Dynamics Info Solutions LLP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jrsdynamicsinfosolutionsllp1720168519830%7CAID.jrs00003%7CPAPPID.47b9d86f-9f48-499a-bb9b-be65955ef52a",
+    "lastModified": "2025-06-20T09:11:55.6713861+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://jrsdynamics.com/contact-us/",
+    "sourceHash": "sha256:43ef59bea2b19404b8ead6554c11e22deb2d88788d6c5b450530ad0c4edb8661"
+  },
+  "mapping": {
+    "sourceHash": "sha256:43ef59bea2b19404b8ead6554c11e22deb2d88788d6c5b450530ad0c4edb8661",
+    "mappedOn": null,
+    "summary": "Indian GST e-invoice and e-way bill integration",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Generates and uploads e-invoices and e-way bills to IRP and NIC portals",
+      "Fetches and stores IRN and QR code",
+      "Dashboard of e-invoice and e-way bill status",
+      "Pre-submission GST validation",
+      "Supports B2B, export invoices, credit/debit notes",
+      "Multi-company and multi-GSTIN"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "IRP",
+      "NIC"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

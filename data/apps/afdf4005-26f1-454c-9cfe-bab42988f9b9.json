@@ -1,0 +1,66 @@
+{
+  "appId": "TYPE.connect|PUBID.gurusoftas1611136080642|AID.gurusoftintegrations|PAPPID.afdf4005-26f1-454c-9cfe-bab42988f9b9",
+  "guid": "afdf4005-26f1-454c-9cfe-bab42988f9b9",
+  "publisherId": "gurusoftas1611136080642",
+  "offerId": "gurusoftintegrations",
+  "source": {
+    "name": "Gurusoft eCommerce for Dynamics 365 Business Central",
+    "publisher": "Gurusoft AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.gurusoftas1611136080642%7CAID.gurusoftintegrations%7CPAPPID.afdf4005-26f1-454c-9cfe-bab42988f9b9",
+    "lastModified": "2024-11-19T21:34:43.8251443+00:00",
+    "appVersion": "40.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.gurusoft.no/integrasjon-erp-systemer?parent=10091",
+    "sourceHash": "sha256:29037bfe54587d9b9fd6caf9e9d8d60fe277cf7ab9c3fce7c22e9c274ca454ad"
+  },
+  "mapping": {
+    "sourceHash": "sha256:29037bfe54587d9b9fd6caf9e9d8d60fe277cf7ab9c3fce7c22e9c274ca454ad",
+    "mappedOn": null,
+    "summary": "Integrates Gurusoft e-commerce/PIM with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-mkt-campaigns",
+      "ng-assortment-catalogs"
+    ],
+    "claims": [
+      "Integrates Gurusoft eCommerce/PIM with BC",
+      "Combined PIM, online shop, customer service, sales tools and content marketing",
+      "Gurusoft Integration software handles data flow between BC and Gurusoft Ecommerce",
+      "Cloud services and data storage located in Norway",
+      "Design engine to adapt webshop front end",
+      "Administrators build content pages themselves",
+      "PIM pulls data from industry directories, manufacturers and suppliers"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Gurusoft eCommerce",
+      "Gurusoft PIM"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

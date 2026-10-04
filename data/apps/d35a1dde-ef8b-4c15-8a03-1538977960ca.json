@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.nubetechspa|AID.origins_operation_extended|PAPPID.d35a1dde-ef8b-4c15-8a03-1538977960ca",
+  "guid": "d35a1dde-ef8b-4c15-8a03-1538977960ca",
+  "publisherId": "nubetechspa",
+  "offerId": "origins_operation_extended",
+  "source": {
+    "name": "ORIGINS Operation Extended",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.origins_operation_extended%7CPAPPID.d35a1dde-ef8b-4c15-8a03-1538977960ca",
+    "lastModified": "2026-10-01T14:01:42.524148+00:00",
+    "appVersion": "26.2610.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-origins-operation-extended/",
+    "sourceHash": "sha256:77fbf80adcb9969d6bf8604b234b7ce92e91c1e75960b6ff96b1a55e2cb2c1f4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:77fbf80adcb9969d6bf8604b234b7ce92e91c1e75960b6ff96b1a55e2cb2c1f4",
+    "mappedOn": null,
+    "summary": "Bundle of extended operational features; unclear specifics",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-rebates",
+      "ng-supplier-rebates",
+      "ng-freight-cost-audit",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Inventory costing scenarios",
+      "Tolerance in receiving and shipments",
+      "Promo and extra discounts",
+      "Customer and vendor bonus",
+      "Sales configuration",
+      "Shipment dashboard",
+      "Transport cost management",
+      "Automatic parcel movements",
+      "Critical purchases worksheet",
+      "Purchase requests",
+      "Product codificator",
+      "Components management worksheet"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

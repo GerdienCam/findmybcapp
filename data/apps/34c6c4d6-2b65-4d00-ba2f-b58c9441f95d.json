@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_undoing_production_with_unit_conversion|PAPPID.34c6c4d6-2b65-4d00-ba2f-b58c9441f95d",
+  "guid": "34c6c4d6-2b65-4d00-ba2f-b58c9441f95d",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_undoing_production_with_unit_conversion",
+  "source": {
+    "name": "m+m Undoing Production with Unit Conversion",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_undoing_production_with_unit_conversion%7CPAPPID.34c6c4d6-2b65-4d00-ba2f-b58c9441f95d",
+    "lastModified": "2026-06-06T23:04:13.5131808+00:00",
+    "appVersion": "28.0.370982.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:ce2339690f3b0f39c5894b3259612744ba5f85bf7358c83a2f98f54aa5ecade3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ce2339690f3b0f39c5894b3259612744ba5f85bf7358c83a2f98f54aa5ecade3",
+    "mappedOn": null,
+    "summary": "Cancels production entries with unit conversion fields",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Cancelled production entries carry the unit conversion fields",
+      "Transfers unit conversion data from original to new entry on cancel"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Undoing Production",
+      "m+m Unit Conversion"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

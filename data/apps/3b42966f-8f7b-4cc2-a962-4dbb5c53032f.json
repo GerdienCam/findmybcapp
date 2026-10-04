@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.business_dynamics_pro|AID.bdp_containerq|PAPPID.3b42966f-8f7b-4cc2-a962-4dbb5c53032f",
+  "guid": "3b42966f-8f7b-4cc2-a962-4dbb5c53032f",
+  "publisherId": "business_dynamics_pro",
+  "offerId": "bdp_containerq",
+  "source": {
+    "name": "BDP ContainerQ License Plate",
+    "publisher": "Business Dynamics Pro Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_dynamics_pro%7CAID.bdp_containerq%7CPAPPID.3b42966f-8f7b-4cc2-a962-4dbb5c53032f",
+    "lastModified": "2026-08-17T05:57:26.9483377+00:00",
+    "appVersion": "1.0.38.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dynamicspro.ca/cq/",
+    "sourceHash": "sha256:ee100460f3b481e8a69dfbf0d39c82a1e83136205fbc96f0127b7c1b701753bc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ee100460f3b481e8a69dfbf0d39c82a1e83136205fbc96f0127b7c1b701753bc",
+    "mappedOn": null,
+    "summary": "License plate and pallet management for loads",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "License plate entity for pallet, tote, carton or container",
+      "Plates verified against BC inventory / package item tracking",
+      "3D visual container builder with items placed by real dimensions",
+      "Tree and grid views",
+      "Multi-level nesting of containers",
+      "SSCC-18 and GS1-128 label printing",
+      "Append-only event log audit trail",
+      "Works standalone, coexists with BDP WarehouseQ"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "id": "ng-sales-invoicing",
+  "order": 16,
+  "label": "Creating and sending invoices to customers",
+  "description": "Issuing and delivering sales invoices and credit notes, prepayment invoices and the invoicing rules and payment terms behind them.",
+  "type": "bpc",
+  "area": "Sales & receivables",
+  "relevance": "high",
+  "statements": [
+    "Creating and sending invoices to customers",
+    "Issuing and delivering sales invoices and credit notes, prepayment invoices and the invoicing rules and payment terms behind them.",
+    "We need to send e-invoices to our public sector customers via PEPPOL",
+    "Our customers want invoices from us as e-invoices, not PDFs",
+    "Sales invoice layout in BC looks terrible and we can't change it ourselves",
+    "Emailing invoices to customers one by one takes all afternoon",
+    "Is there an app to send invoices to customers automatically to the right invoice email address?",
+    "customer invoice email batch send",
+    "We ship daily but want to invoice each customer once a week for all shipments",
+    "Some customers require their PO number and our delivery note number on the invoice or they won't pay",
+    "Invoicing a customer for services without a sales order, like a quick one-off bill",
+    "Big retail customers demand our invoices through their EDI system",
+    "We forget to invoice shipped orders and find them months later",
+    "Need invoices to customers in their own language and currency",
+    "OIOUBL invoices to Danish public customers from BC",
+    "Customers ask for a copy of an old invoice and we have to dig it out and email it manually",
+    "Want customers to download their invoices from a portal",
+    "How do we attach the delivery note and timesheet PDF to the invoice email to the customer?",
+    "Posting invoices for hundreds of shipped orders every evening",
+    "Invoices need a payment QR code or FIK code so customers pay correctly",
+    "Our e-invoices to customers get rejected and we don't know why",
+    "Invoices from different companies in BC need different logos and layouts",
+    "We made a mistake on a posted customer invoice and need to correct it",
+    "Customer was overcharged, how do I give a partial credit note in BC?",
+    "credit memo to customer for price difference",
+    "Sales reps promise customers credits and finance finds out weeks later",
+    "Want approval before anyone issues a credit note to a customer over 5,000",
+    "Customer credit memos need a reason code so we can see why we're giving money back",
+    "Goodwill credit for a customer complaint without the goods coming back",
+    "Credit notes to customers have to be sent as e-invoices too",
+    "Cancel a posted sales invoice and reissue it with the right address",
+    "Customer credit note isn't applied to the invoice so their statement looks wrong",
+    "How do we credit one line of a customer invoice without crediting the whole thing?",
+    "We give customers a credit for late delivery and track it nowhere",
+    "We require 30 percent deposit from customers before we order materials",
+    "Prepayment invoices in BC are confusing and the final invoice deduction never looks right",
+    "customer deposit on sales order",
+    "How do we make sure we only ship once the customer has paid in advance?",
+    "Webshop customers pay upfront and we need that payment tied to the order in BC",
+    "Customer paid a deposit, then changed the order, now the prepayment is wrong",
+    "Want to send a proforma invoice and track whether the customer paid it",
+    "Deposits for special order items in our shop",
+    "Stage payments from customers on large orders: 40 percent on order, 60 on delivery",
+    "Customer prepayments sit on the wrong account and the balance sheet doesn't show them",
+    "Need a list of all customer orders waiting for prepayment",
+    "Customer paid upfront but we can only deliver half, how do we handle the rest?",
+    "We want to shorten customer payment terms from 60 to 30 days, how do others do it?",
+    "Should we offer customers 2 percent discount for paying within 8 days?",
+    "No consistency in payment terms, every customer has a different deal",
+    "Want to move customers from monthly invoices to invoicing every shipment",
+    "customer payment terms setup",
+    "Need to decide which customers must pay by direct debit and which can pay by bank transfer"
+  ],
+  "questions": [
+    {
+      "id": "upfront",
+      "text": "Do customers pay part of the order before you deliver or finish?",
+      "help": "Deposits, prepayments, down payments or milestone payments.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, a deposit or prepayment up front",
+          "patterns": [
+            "prepay",
+            "deposit",
+            "advance payment",
+            "down ?payment",
+            "upfront"
+          ]
+        },
+        {
+          "label": "Yes, in milestone or progress payments",
+          "patterns": [
+            "milestone",
+            "progress (payment|billing|invoic)",
+            "several terms",
+            "payment plan"
+          ]
+        },
+        {
+          "label": "They pay in instalments after the invoice",
+          "patterns": [
+            "instal?l?ments?",
+            "split(s)? (an |posted )?(sales )?invoice",
+            "scheduled payments",
+            "partial payments",
+            "annuity"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, a deposit or prepayment up front": 0.25,
+        "Yes, in milestone or progress payments": 0.19,
+        "They pay in instalments after the invoice": 0.12
+      }
+    },
+    {
+      "id": "delivery",
+      "text": "How do your invoices reach customers?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Email (PDF)",
+          "patterns": [
+            "e-?mail delivery",
+            "pdf e-?mail",
+            "customer e-?mail",
+            "post and send",
+            "posting and sending",
+            "sends customer invoices",
+            "dispatch of (sales )?invoices",
+            "e-?mail dispatch"
+          ]
+        },
+        {
+          "label": "E-invoice (PEPPOL, OIOUBL, EAN, EDI, Finvoice)",
+          "patterns": [
+            "\\be-?invoic",
+            "peppol",
+            "oioubl",
+            "\\bean\\b",
+            "\\bedi\\b",
+            "finvoice",
+            "\\bubl\\b",
+            "customers' systems"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Email (PDF)": 0.12,
+        "E-invoice (PEPPOL, OIOUBL, EAN, EDI, Finvoice)": 0.08
+      }
+    },
+    {
+      "id": "grouping",
+      "text": "How often do you invoice a customer?",
+      "help": "Per order, or many deliveries collected on one invoice.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Collect many shipments or orders on one invoice",
+          "patterns": [
+            "combin\\w* (posted )?(sales )?shipments",
+            "shipments into",
+            "collective invoic",
+            "cumulative invoic",
+            "consolidat",
+            "invoice group",
+            "grouping (codes|fields|criteria)",
+            "group documents",
+            "one invoice (per customer|for multiple)",
+            "by order or customer",
+            "combine orders"
+          ]
+        },
+        {
+          "label": "On a fixed rhythm (weekly, monthly, recurring)",
+          "patterns": [
+            "weekly",
+            "monthly",
+            "bi-weekly",
+            "invoicing frequency",
+            "invoice frequency",
+            "recurring invoic",
+            "billing schedules",
+            "closing.period"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Collect many shipments or orders on one invoice": 0.17,
+        "On a fixed rhythm (weekly, monthly, recurring)": 0.1
+      }
+    },
+    {
+      "id": "volume",
+      "text": "Do you create lots of invoices in one go?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, from an Excel file or spreadsheet",
+          "patterns": [
+            "excel"
+          ]
+        },
+        {
+          "label": "Yes, automatically in batch or on a schedule",
+          "patterns": [
+            "batch (invoic|post|creat|operation)",
+            "from batch post",
+            "job queue",
+            "automatic billing",
+            "automatic dispatch",
+            "creates multiple sales invoices",
+            "generates and sends",
+            "bulk cop",
+            "bulk e-?mail",
+            "individually or in batch",
+            "scheduled invoice creation",
+            "auto-posts",
+            "recurring invoices"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, from an Excel file or spreadsheet": 0.04,
+        "Yes, automatically in batch or on a schedule": 0.29
+      }
+    }
+  ]
+}

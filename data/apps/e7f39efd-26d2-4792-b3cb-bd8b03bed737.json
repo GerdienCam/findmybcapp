@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.smart-businessllc2412077-2412077|AID.smart_payroll_connector_for_hibob|PAPPID.e7f39efd-26d2-4792-b3cb-bd8b03bed737",
+  "guid": "e7f39efd-26d2-4792-b3cb-bd8b03bed737",
+  "publisherId": "smart-businessllc2412077-2412077",
+  "offerId": "smart_payroll_connector_for_hibob",
+  "source": {
+    "name": "SMART Payroll Connector for HiBob",
+    "publisher": "SMART business LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_payroll_connector_for_hibob%7CPAPPID.e7f39efd-26d2-4792-b3cb-bd8b03bed737",
+    "lastModified": "2026-08-05T07:32:04.6382437+00:00",
+    "appVersion": "1.0.144476.260805",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.smart-it.com/",
+    "sourceHash": "sha256:72beafa8414ff2523a2747962325db5c3d53d88631c5baa0943bf5fa827060a4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:72beafa8414ff2523a2747962325db5c3d53d88631c5baa0943bf5fa827060a4",
+    "mappedOn": null,
+    "summary": "Transfers HiBob HR data to SMART Payroll",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-payroll-comp",
+      "ng-hr-onboard-offboard",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Transfers org units, job titles, directories and termination reasons from HiBob",
+      "Creates employee records with addresses and documents",
+      "Automates hiring: positions, employment contracts, bank accounts",
+      "Transfers on job, department, rate or salary changes",
+      "Employee terminations synced",
+      "Choose fields and processes to integrate",
+      "Custom HiBob fields supported",
+      "Filtering rules for transferred records"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "HiBob"
+    ],
+    "requires": [
+      "SMART Payroll"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

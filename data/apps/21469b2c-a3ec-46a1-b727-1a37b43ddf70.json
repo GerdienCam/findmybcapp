@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.wsb_solutions|AID.document_archive|PAPPID.21469b2c-a3ec-46a1-b727-1a37b43ddf70",
+  "guid": "21469b2c-a3ec-46a1-b727-1a37b43ddf70",
+  "publisherId": "wsb_solutions",
+  "offerId": "document_archive",
+  "source": {
+    "name": "Document Archive",
+    "publisher": "Apportunix",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.document_archive%7CPAPPID.21469b2c-a3ec-46a1-b727-1a37b43ddf70",
+    "lastModified": "2026-09-22T09:15:39.8225012+00:00",
+    "appVersion": "1.112.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.apportunix.com/app/document-archive",
+    "sourceHash": "sha256:6be99880ec05b77171762254c1b5b8bf9b1e125a729f9b51c1d78d1f028119fa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6be99880ec05b77171762254c1b5b8bf9b1e125a729f9b51c1d78d1f028119fa",
+    "mappedOn": null,
+    "summary": "Document management and attachment storage",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Stores documents in Azure File Share, Azure Blob Storage or SharePoint",
+      "Attach files to customers, vendors, items, documents and posted documents",
+      "Drag-and-drop upload incl. from Outlook classic",
+      "Automatically archives generated PDFs when printing, emailing, saving or downloading",
+      "Document categories, user permissions, retention policies and custom folder structures",
+      "Not available in Myanmar"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint",
+      "Azure Blob Storage",
+      "Azure File Share"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex08902_powerwmsforpackinglist|PAPPID.b6985c05-8b13-4c34-ab7c-ed15d92d0217",
+  "guid": "b6985c05-8b13-4c34-ab7c-ed15d92d0217",
+  "publisherId": "eos_solutions",
+  "offerId": "ex08902_powerwmsforpackinglist",
+  "source": {
+    "name": "Power WMS for Packing List",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex08902_powerwmsforpackinglist%7CPAPPID.b6985c05-8b13-4c34-ab7c-ed15d92d0217",
+    "lastModified": "2026-04-13T15:54:00.756286+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/power-wms.html",
+    "sourceHash": "sha256:79d6a19228127606e2da40ec6f289e08a08c78562e2ba0951394e44e2703c18c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:79d6a19228127606e2da40ec6f289e08a08c78562e2ba0951394e44e2703c18c",
+    "mappedOn": null,
+    "summary": "Mobile warehouse picking and packing list creation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Creates packing lists by choosing containers",
+      "Composes packing list from items in the shipment",
+      "Suggests the right containers plus how many items to place in each",
+      "Prints the packing list",
+      "Multi-language and multi-company",
+      "Barcodes on warehouse activities",
+      "Needs EOS Packing List as well as EOS Power WMS",
+      "Premium edition only"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Power WMS",
+      "EOS Packing List"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

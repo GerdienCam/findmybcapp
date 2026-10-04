@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.wsb_solutions|AID.status_management|PAPPID.49772d79-9298-41b9-a516-99fe9dee3e66",
+  "guid": "49772d79-9298-41b9-a516-99fe9dee3e66",
+  "publisherId": "wsb_solutions",
+  "offerId": "status_management",
+  "source": {
+    "name": "Status Management",
+    "publisher": "Apportunix",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.status_management%7CPAPPID.49772d79-9298-41b9-a516-99fe9dee3e66",
+    "lastModified": "2026-09-22T09:02:44.9623781+00:00",
+    "appVersion": "1.72.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.statusmanagement.apportunix.com/",
+    "sourceHash": "sha256:9aa50714eedd093792165d523fe7cf1d423bcd2e90f85c4de8b882ad5541863d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9aa50714eedd093792165d523fe7cf1d423bcd2e90f85c4de8b882ad5541863d",
+    "mappedOn": null,
+    "summary": "Lifecycle status control for master data and documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-automation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-product-phase-out",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Custom lifecycle statuses for items, customers, vendors and jobs",
+      "Statuses for purchase, sales and service documents",
+      "Permissions per status by user group",
+      "Mandatory fields per status incl. document lines",
+      "Allow or block posting per status",
+      "Auto release/open on status change",
+      "Converts existing data to new statuses",
+      "Status logging",
+      "APIs and Power Platform integration"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

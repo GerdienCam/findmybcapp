@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.sbcdynamicserp1637715412860|AID.acumenscontractinstallmentpaymentsww|PAPPID.76e07de9-8433-475c-bd01-7b2b148b2bf8",
+  "guid": "76e07de9-8433-475c-bd01-7b2b148b2bf8",
+  "publisherId": "sbcdynamicserp1637715412860",
+  "offerId": "acumenscontractinstallmentpaymentsww",
+  "source": {
+    "name": "Acumens Contract & Installment Payments (WW)",
+    "publisher": "SBC Dynamics ERP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumenscontractinstallmentpaymentsww%7CPAPPID.76e07de9-8433-475c-bd01-7b2b148b2bf8",
+    "lastModified": "2026-08-10T08:18:44.3636732+00:00",
+    "appVersion": "24.1023.1.3",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.sbcdynamicserp.com/acumens-flexible-contract-payments-summary/",
+    "sourceHash": "sha256:b85a14cfbaabdd785f1a86e5518d89d1e030ae69993058b2e20315deb9993297"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b85a14cfbaabdd785f1a86e5518d89d1e030ae69993058b2e20315deb9993297",
+    "mappedOn": null,
+    "summary": "Manages contracts and installment payment agreements",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-contracts",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Prepayment schedules for customer and vendor agreements",
+      "Milestones by percentage of contract value with automatic amount and tax",
+      "Payment schedules start at quote or order stage",
+      "Schedule lines carried forward from quote to order",
+      "Sequential posting: each milestone must be posted before the next invoice",
+      "Reverse a posted prepayment with a matched credit memo",
+      "Ties prepayments to work order numbers visible on ledger entries",
+      "Fact boxes with contract value, invoiced, paid and unscheduled balance"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

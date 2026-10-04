@@ -1,0 +1,89 @@
+{
+  "appId": "PUBID.armadadynamicsas1615984193301|AID.eqm365rental-tasklet|PAPPID.11076bb7-7351-44c3-bc70-5b7d085be904",
+  "guid": "11076bb7-7351-44c3-bc70-5b7d085be904",
+  "publisherId": "armadadynamicsas1615984193301",
+  "offerId": "eqm365rental-tasklet",
+  "source": {
+    "name": "EQM 365 Rental - Tasklet WMS",
+    "publisher": "Armada Dynamics AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.armadadynamicsas1615984193301%7CAID.eqm365rental-tasklet%7CPAPPID.11076bb7-7351-44c3-bc70-5b7d085be904",
+    "lastModified": "2026-09-13T17:59:13.2643997+00:00",
+    "appVersion": "28.5.202637.81461",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.armadadynamics.no/en/support/knowledge-database",
+    "sourceHash": "sha256:9b909523d127ec48f635a7173201733dca59b02b492e0360c99dd99b5f36fa47"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9b909523d127ec48f635a7173201733dca59b02b492e0360c99dd99b5f36fa47",
+    "mappedOn": null,
+    "summary": "Tasklet WMS handling for EQM 365 Rental",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking"
+    ],
+    "claims": [
+      "Mobile WMS support for rental shipment, collection and pick",
+      "Warehouse tasks on mobile devices via Tasklet Mobile WMS"
+    ],
+    "countries": [
+      "AE",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "GB",
+      "IS",
+      "LT",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "PL",
+      "QA",
+      "SE",
+      "SI",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en",
+      "nb"
+    ],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [
+      "Tasklet Mobile WMS"
+    ],
+    "requires": [
+      "EQM 365 Rental",
+      "Tasklet Mobile WMS"
+    ],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

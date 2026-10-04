@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.appower|AID.pwr_rf|PAPPID.7c9a52b0-cc3f-4ec9-94d5-4eb921253b4c",
+  "guid": "7c9a52b0-cc3f-4ec9-94d5-4eb921253b4c",
+  "publisherId": "appower",
+  "offerId": "pwr_rf",
+  "source": {
+    "name": "Rapid Forecast",
+    "publisher": "APPower",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.appower%7CAID.pwr_rf%7CPAPPID.7c9a52b0-cc3f-4ec9-94d5-4eb921253b4c",
+    "lastModified": "2026-06-05T19:24:07.9692879+00:00",
+    "appVersion": "1.1.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.appower.io/",
+    "sourceHash": "sha256:1a36be0f6b2729d55f36feb9a6b9ad360a75ea6ad2f21df76ea95632d238496a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1a36be0f6b2729d55f36feb9a6b9ad360a75ea6ad2f21df76ea95632d238496a",
+    "mappedOn": null,
+    "summary": "Monthly budget forecasting across departments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-budget-build",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-budget-control"
+    ],
+    "claims": [
+      "Several forecasts, each tied to a different G/L budget, for scenario work",
+      "Departments access only their own forecasts",
+      "Accounts shown with budget headings instead of account names",
+      "Locks closed financial periods against edits",
+      "Checks forecasts against a reference budget",
+      "Reverses amount sign on passive accounts for non-accountants",
+      "Saves forecast into the G/L budget for open periods"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

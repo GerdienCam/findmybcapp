@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.novasoftfzco1594619964948|AID.nova-bc-002|PAPPID.272433af-3ee6-4ee7-996f-37f0bbf33a12",
+  "guid": "272433af-3ee6-4ee7-996f-37f0bbf33a12",
+  "publisherId": "novasoftfzco1594619964948",
+  "offerId": "nova-bc-002",
+  "source": {
+    "name": "NOVAZATCA: Saudi e-Invoicing/ZATCA Integration",
+    "publisher": "NOVASOFT FZCO",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.novasoftfzco1594619964948%7CAID.nova-bc-002%7CPAPPID.272433af-3ee6-4ee7-996f-37f0bbf33a12",
+    "lastModified": "2026-07-21T15:16:58.1123072+00:00",
+    "appVersion": "27.0.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://novasoft.global/support/",
+    "sourceHash": "sha256:028477cdb103ae93fba6e292f73bed390975ef23d9de02fb0980164c2cf09f9f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:028477cdb103ae93fba6e292f73bed390975ef23d9de02fb0980164c2cf09f9f",
+    "mappedOn": null,
+    "summary": "Saudi ZATCA e-invoicing for Business Central and LS Central",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Integrates BC and LS Central with Saudi ZATCA e-invoicing",
+      "Automates generation and submission of tax-related reports to ZATCA",
+      "Automates calculation of VAT, zakat and customs duties",
+      "Provides real-time visibility of tax liabilities and compliance status",
+      "Keeps an audit trail of transactions",
+      "FATOORA integration with Business Central"
+    ],
+    "countries": [
+      "SA"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "ZATCA",
+      "LS Central",
+      "FATOORA"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

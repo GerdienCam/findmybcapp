@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.duvekagmbh1711374674329|AID.0008|PAPPID.b697beaf-b8d0-47ed-99f4-9a14d68d08d5",
+  "guid": "b697beaf-b8d0-47ed-99f4-9a14d68d08d5",
+  "publisherId": "duvekagmbh1711374674329",
+  "offerId": "0008",
+  "source": {
+    "name": "duveka FTP Client",
+    "publisher": "duveka GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0008%7CPAPPID.b697beaf-b8d0-47ed-99f4-9a14d68d08d5",
+    "lastModified": "2026-09-23T20:28:52.5279257+00:00",
+    "appVersion": "26.2.102.29173",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://duveka.net/FTPClient",
+    "sourceHash": "sha256:b665e4f446638ed5b183210cb4638df4e065a7140dc30165d2e5a9e8875f3e73"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b665e4f446638ed5b183210cb4638df4e065a7140dc30165d2e5a9e8875f3e73",
+    "mappedOn": null,
+    "summary": "File transfers over SFTP, FTPS and FTP",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-edi"
+    ],
+    "claims": [
+      "Supports FTP, FTPS and SFTP",
+      "Multiple FTP profiles",
+      "Upload and download files",
+      "Lists remote directories",
+      "Connection test on setup card",
+      "SSH key authentication for SFTP",
+      "Delete, rename, move files and create directories",
+      "Profiles callable from pages, jobs or custom AL code",
+      "No additional middleware needed"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "FTP",
+      "FTPS",
+      "SFTP"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

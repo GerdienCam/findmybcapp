@@ -1,0 +1,57 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.pdf-edi-orders|PAPPID.271ee0ce-fecc-4730-b920-e77f716646f3",
+  "guid": "271ee0ce-fecc-4730-b920-e77f716646f3",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "pdf-edi-orders",
+  "source": {
+    "name": "Automatic Import of PDF Orders",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.pdf-edi-orders%7CPAPPID.271ee0ce-fecc-4730-b920-e77f716646f3",
+    "lastModified": "2026-09-29T11:20:45.3091932+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://knowledgebase.hubbroker.net/article/1h5ezr1j2d-microsoft-dynamics-365-import-customer-orders",
+    "sourceHash": "sha256:10aee58893a26078cb00d663038c45efc647ecf130fa8596311fd7f0d03cf8ba"
+  },
+  "mapping": {
+    "sourceHash": "sha256:10aee58893a26078cb00d663038c45efc647ecf130fa8596311fd7f0d03cf8ba",
+    "mappedOn": null,
+    "summary": "Imports PDF sales orders via HubBroker",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-edi"
+    ],
+    "claims": [
+      "Imports PDF orders into BC",
+      "Turns PDF orders into data formats that are already approved",
+      "Tracks imported PDF orders in the iPaaS",
+      "REST API data integration"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "HubBroker iPaaS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

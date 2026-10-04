@@ -1,0 +1,166 @@
+{
+  "id": "ng-ux-custom-fields",
+  "order": 171,
+  "label": "Adding our own fields without a developer",
+  "description": "Adding custom fields, attributes and extra columns to cards, documents and pages through setup instead of AL development, and showing hidden standard fields.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "medium",
+  "statements": [
+    "Adding our own fields without a developer",
+    "Adding custom fields, attributes and extra columns to cards, documents and pages through setup instead of AL development, and showing hidden standard fields.",
+    "We need three extra fields on the customer card and our partner wants to quote a project",
+    "add custom field without code",
+    "Is there a way to show a field that's hidden on the page?",
+    "We track things in Excel because BC has no field for them",
+    "Can we add attributes to vendors, not just items?",
+    "I'd like a dropdown field on sales orders for delivery type",
+    "Every small field change costs us a developer invoice",
+    "custom fields on documents",
+    "We want our own columns on the item list",
+    "Can users create fields themselves and have them on reports?",
+    "Need a field for the customer's internal reference on every invoice",
+    "Attributes for contacts and jobs like we have on items"
+  ],
+  "questions": [
+    {
+      "id": "where",
+      "text": "Where do you need the extra fields?",
+      "multi": true,
+      "options": [
+        {
+          "label": "On customers, vendors and items",
+          "patterns": [
+            "customers?",
+            "vendors?",
+            "items?",
+            "master data"
+          ]
+        },
+        {
+          "label": "On sales and purchase documents",
+          "patterns": [
+            "sales (and purchase )?(documents?|header|quotes|orders?)",
+            "purchase (order|request|header|documents?)",
+            "document headers",
+            "transaction tables",
+            "invoices"
+          ]
+        },
+        {
+          "label": "On lots, serial numbers or fixed assets",
+          "patterns": [
+            "\\blots?\\b",
+            "serial",
+            "fixed assets?"
+          ]
+        },
+        {
+          "label": "On any table or page",
+          "patterns": [
+            "any table",
+            "any (table/)?page",
+            "standard and custom tables",
+            "tables, pages"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "On customers, vendors and items": 0.7,
+        "On sales and purchase documents": 0.48,
+        "On lots, serial numbers or fixed assets": 0.26,
+        "On any table or page": 0.17
+      }
+    },
+    {
+      "id": "extras",
+      "text": "Besides plain fields, what else do you need?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Calculated or lookup fields",
+          "patterns": [
+            "calculated",
+            "lookup",
+            "formula"
+          ]
+        },
+        {
+          "label": "Show hidden standard fields",
+          "patterns": [
+            "hidden"
+          ]
+        },
+        {
+          "label": "Fields on printed reports and invoices",
+          "patterns": [
+            "reports?\\b",
+            "invoices without report",
+            "document layouts"
+          ]
+        },
+        {
+          "label": "Mandatory fields",
+          "patterns": [
+            "mandatory",
+            "required"
+          ]
+        },
+        {
+          "label": "Filter and search lists by the fields",
+          "patterns": [
+            "filter",
+            "search"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Calculated or lookup fields": 0.26,
+        "Show hidden standard fields": 0.09,
+        "Fields on printed reports and invoices": 0.26,
+        "Mandatory fields": 0.26,
+        "Filter and search lists by the fields": 0.17
+      }
+    },
+    {
+      "id": "connect",
+      "text": "Where else should the new field values show up?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Carried onto orders and invoices",
+          "patterns": [
+            "propagat",
+            "flow",
+            "transfer\\w* (field )?(data|values?)",
+            "value transfer",
+            "transfers the ticket"
+          ]
+        },
+        {
+          "label": "In other systems, via API or Power BI",
+          "patterns": [
+            "\\bapis?\\b",
+            "power bi"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Carried onto orders and invoices": 0.35,
+        "In other systems, via API or Power BI": 0.22
+      }
+    }
+  ]
+}

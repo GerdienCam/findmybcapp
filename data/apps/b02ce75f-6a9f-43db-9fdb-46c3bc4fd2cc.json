@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.terna|AID.reactor-mobile-logistics|PAPPID.b02ce75f-6a9f-43db-9fdb-46c3bc4fd2cc",
+  "guid": "b02ce75f-6a9f-43db-9fdb-46c3bc4fd2cc",
+  "publisherId": "terna",
+  "offerId": "reactor-mobile-logistics",
+  "source": {
+    "name": "BE-terna Reactor Mobile Logistics",
+    "publisher": "BE-terna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.terna%7CAID.reactor-mobile-logistics%7CPAPPID.b02ce75f-6a9f-43db-9fdb-46c3bc4fd2cc",
+    "lastModified": "2026-09-01T05:57:04.526513+00:00",
+    "appVersion": "23.6.81.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://be-terna.helpjuice.com/en_US/be-terna-reactor-add-ons/be-terna-reactor-mobile-logistics",
+    "sourceHash": "sha256:5c80d2eeb4ec994997829b6b4f7fd2a77c011b2b2edfc770d0f6513fffaec2b3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5c80d2eeb4ec994997829b6b4f7fd2a77c011b2b2edfc770d0f6513fffaec2b3",
+    "mappedOn": null,
+    "summary": "Mobile warehouse logistics",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Inventory put-aways and picks on mobile",
+      "Warehouse put-aways and picks",
+      "Inventory and warehouse movements",
+      "Bin selection by scan, dropdown or manual input",
+      "Validation prevents over-processing",
+      "Location and user filters for task assignment",
+      "Built on BE-terna Reactor Platform"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "BE-terna Reactor Platform"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

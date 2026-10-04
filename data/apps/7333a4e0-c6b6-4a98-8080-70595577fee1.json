@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.mpriseagriwarebv|AID.agriware-api|PAPPID.7333a4e0-c6b6-4a98-8080-70595577fee1",
+  "guid": "7333a4e0-c6b6-4a98-8080-70595577fee1",
+  "publisherId": "mpriseagriwarebv",
+  "offerId": "agriware-api",
+  "source": {
+    "name": "Agriware 365 Business Essentials Connector",
+    "publisher": "Mprise Agriware B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mpriseagriwarebv%7CAID.agriware-api%7CPAPPID.7333a4e0-c6b6-4a98-8080-70595577fee1",
+    "lastModified": "2026-09-28T12:38:51.204074+00:00",
+    "appVersion": "28.28.5.271675",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.agriware.cloud/",
+    "sourceHash": "sha256:c0d849fcc20ac0ff623c1ec5195362962d60354c7932b97d3a7a9c87a5ebf3c9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c0d849fcc20ac0ff623c1ec5195362962d60354c7932b97d3a7a9c87a5ebf3c9",
+    "mappedOn": null,
+    "summary": "Integrates Agriware Business Essentials with Agriware Operations",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-field-execution"
+    ],
+    "claims": [
+      "Extendable API data exchange framework",
+      "Schedules work orders and inspections in Agriware 365 Operations",
+      "Online and offline mobile registration",
+      "Creates items from newly scouted varieties",
+      "Pictures on items, inspections and jobs",
+      "Inbound/outbound processing with error handling"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Horticulture"
+    ],
+    "connectsTo": [
+      "Agriware 365 Operations"
+    ],
+    "requires": [
+      "Agriware 365 Business Essentials"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

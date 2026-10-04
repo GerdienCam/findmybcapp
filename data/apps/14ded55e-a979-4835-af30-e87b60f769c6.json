@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evevipo|PAPPID.14ded55e-a979-4835-af30-e87b60f769c6",
+  "guid": "14ded55e-a979-4835-af30-e87b60f769c6",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evevipo",
+  "source": {
+    "name": "EV Evita - Portal",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evevipo%7CPAPPID.14ded55e-a979-4835-af30-e87b60f769c6",
+    "lastModified": "2026-09-10T12:15:49.5742181+00:00",
+    "appVersion": "5.1.218883.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/vidensbank/wiki/business-central/",
+    "sourceHash": "sha256:eef2dd311834a6c6a6babc9e9d55d76da8abb6019edd66094ed4c19b62a9e8c2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eef2dd311834a6c6a6babc9e9d55d76da8abb6019edd66094ed4c19b62a9e8c2",
+    "mappedOn": null,
+    "summary": "Customer portal for EV Evita utilities solution",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-utilities-energy-waste",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-case-customer-updates"
+    ],
+    "claims": [
+      "Customer self-service portal with secure login and real-time EV Evita data",
+      "Customers see current and historical water consumption",
+      "Self-service move-in and move-out registration",
+      "Customers view invoices, attachments and balance",
+      "Correspondence module with messages shown on BC role center",
+      "Secure login with MitID",
+      "Administrator login for external parties such as real estate agents and landlords"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [],
+    "industries": [
+      "Utilities"
+    ],
+    "connectsTo": [
+      "MitID"
+    ],
+    "requires": [
+      "EV Evita"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

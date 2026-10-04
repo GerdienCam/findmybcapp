@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.bc_salesorderagent|PAPPID.23b1772f-b8b8-4e87-9339-9ff7cbb2364b",
+  "guid": "23b1772f-b8b8-4e87-9339-9ff7cbb2364b",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "bc_salesorderagent",
+  "source": {
+    "name": "Sales Order Agent",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.bc_salesorderagent%7CPAPPID.23b1772f-b8b8-4e87-9339-9ff7cbb2364b",
+    "lastModified": "2025-11-13T13:31:55.4109903+00:00",
+    "appVersion": "27.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?linkid=868966",
+    "sourceHash": "sha256:d4110dd11999396dab8a1d89bcea5e4c9481a93c672c0ace9e866a925bad1525"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d4110dd11999396dab8a1d89bcea5e4c9481a93c672c0ace9e866a925bad1525",
+    "mappedOn": null,
+    "summary": "AI agent captures sales orders from customer e-mails",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-copilot-agents",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "AI analyzes customer requests received via email",
+      "Multi-turn email conversations to clarify requests",
+      "Checks item availability",
+      "Creates a PDF sales quote with items, prices, taxes and delivery dates",
+      "Sends the quote on to the customer for approval",
+      "Converts quote to sales order on confirmation"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "pt"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

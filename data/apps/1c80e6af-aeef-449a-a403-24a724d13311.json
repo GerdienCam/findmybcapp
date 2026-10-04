@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.esc_bvba|AID.retail_pos_connector|PAPPID.1c80e6af-aeef-449a-a403-24a724d13311",
+  "guid": "1c80e6af-aeef-449a-a403-24a724d13311",
+  "publisherId": "esc_bvba",
+  "offerId": "retail_pos_connector",
+  "source": {
+    "name": "Retail POS Connector",
+    "publisher": "ESC bvba",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.esc_bvba%7CAID.retail_pos_connector%7CPAPPID.1c80e6af-aeef-449a-a403-24a724d13311",
+    "lastModified": "2026-09-16T15:28:11.0651383+00:00",
+    "appVersion": "28.1.20260916.132133",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://alistar.net/nl/support/",
+    "sourceHash": "sha256:6eaa8a9ff22a82b303f99208e00988d3a1cc2e75b193bfcf987c2ee47f99e063"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6eaa8a9ff22a82b303f99208e00988d3a1cc2e75b193bfcf987c2ee47f99e063",
+    "mappedOn": null,
+    "summary": "Connects BC to a retail point of sale system",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Syncs items with categories, barcodes and PLU to the POS",
+      "Synchronizes item prices, plus an optional price for reusable packaging",
+      "Handles POS receipts for B2B and B2C customers",
+      "Processes payments with different payment methods",
+      "Processes cash movements",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

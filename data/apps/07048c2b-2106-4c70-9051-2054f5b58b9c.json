@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.prodware-israel|AID.vat_il|PAPPID.07048c2b-2106-4c70-9051-2054f5b58b9c",
+  "guid": "07048c2b-2106-4c70-9051-2054f5b58b9c",
+  "publisherId": "prodware-israel",
+  "offerId": "vat_il",
+  "source": {
+    "name": "VAT Israel for Microsoft Dynamics 365 Business Central",
+    "publisher": "ABRA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.prodware-israel%7CAID.vat_il%7CPAPPID.07048c2b-2106-4c70-9051-2054f5b58b9c",
+    "lastModified": "2025-08-26T19:23:30.6002906+00:00",
+    "appVersion": "21.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc-guide.abra.page/en/user-guide/",
+    "sourceHash": "sha256:33649137c9fa6cc70dedeb40080d17c5d7c668c30bb90ed572eef846682176ad"
+  },
+  "mapping": {
+    "sourceHash": "sha256:33649137c9fa6cc70dedeb40080d17c5d7c668c30bb90ed572eef846682176ad",
+    "mappedOn": null,
+    "summary": "Israeli VAT reporting",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Israeli VAT statement covering sales and purchases for the VAT period",
+      "Exports PCN 874 file of the periodic VAT report to the authorities",
+      "Define periodic VAT reports"
+    ],
+    "countries": [
+      "IL"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

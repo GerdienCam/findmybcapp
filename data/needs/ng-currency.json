@@ -1,0 +1,233 @@
+{
+  "id": "ng-currency",
+  "order": 51,
+  "label": "Currencies and exchange rate revaluation",
+  "description": "Currency policies, automatic exchange rate updates and period-end currency revaluation.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "medium",
+  "statements": [
+    "Currencies and exchange rate revaluation",
+    "Currency policies, automatic exchange rate updates and period-end currency revaluation.",
+    "We type the exchange rates into BC by hand every morning",
+    "Is there an app that updates currency exchange rates automatically from the central bank?",
+    "We need an additional reporting currency because the parent company reports in USD",
+    "Exchange rate service in BC stopped working",
+    "Which rate should we use for budgets, average or month end?",
+    "We trade in 14 currencies and maintaining rates is a full time job",
+    "Our group wants all companies to use the same official ECB rates",
+    "auto update exchange rates daily",
+    "Changing our local currency after moving the company to the euro zone",
+    "Can BC use a different exchange rate for customs and VAT than for bookkeeping?",
+    "We need historic exchange rates loaded for the last five years",
+    "Can we get exchange rates from our bank's feed instead of the default provider?",
+    "Adjust exchange rates batch job posts strange gains and losses",
+    "We need unrealized currency gains and losses calculated at month end",
+    "Revalue our USD bank account at the closing rate",
+    "currency revaluation month end",
+    "Open vendor invoices in euros need revaluing every month",
+    "Can we preview the exchange rate adjustment before posting it?",
+    "Revaluation should reverse automatically at the start of next month",
+    "Customer balances in foreign currency are valued at old rates on the balance sheet",
+    "We need realized and unrealized FX split clearly for the auditor",
+    "Revalue foreign currency G/L accounts like loans in USD",
+    "Exchange rate adjustment with dimensions goes to the wrong department",
+    "Is there an app that handles currency revaluation better than the standard batch job?"
+  ],
+  "questions": [
+    {
+      "id": "need",
+      "text": "What is your main currency headache?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Keying in exchange rates by hand",
+          "patterns": [
+            "(download|import|fetch|update|populate|collect|get)s? [\\w ,]*(exchange )?rates",
+            "exchange rates? (from|via|for)",
+            "rates from",
+            "rate provider",
+            "refreshed"
+          ]
+        },
+        {
+          "label": "Revaluing foreign currency balances at period end",
+          "patterns": [
+            "revalu",
+            "exchange (rate )?adjustment",
+            "currency effects"
+          ]
+        },
+        {
+          "label": "Seeing the original currency on G/L entries",
+          "patterns": [
+            "(original|transaction) currency",
+            "amounts in currency",
+            "currency code fields to g/l"
+          ]
+        },
+        {
+          "label": "Quoting or invoicing in another currency",
+          "patterns": [
+            "document currency"
+          ]
+        },
+        {
+          "label": "Converting to euro or hedging currency risk",
+          "patterns": [
+            "euro conversion|convert[\\w ]* to (euro|the euro)|converts all bc financial data",
+            "hedg"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Keying in exchange rates by hand": 0.57,
+        "Revaluing foreign currency balances at period end": 0.17,
+        "Seeing the original currency on G/L entries": 0.1,
+        "Quoting or invoicing in another currency": 0.07,
+        "Converting to euro or hedging currency risk": 0.1
+      }
+    },
+    {
+      "id": "source",
+      "text": "Where should your exchange rates come from?",
+      "help": "Auditors or tax rules often dictate the source.",
+      "multi": true,
+      "options": [
+        {
+          "label": "European Central Bank (ECB)",
+          "patterns": [
+            "\\becb\\b",
+            "european central bank(?!s)"
+          ]
+        },
+        {
+          "label": "Our own national central bank",
+          "patterns": [
+            "directly from central banks",
+            "\\d+\\+ central banks",
+            "central bank of",
+            "riksbank",
+            "nationalbank",
+            "norges bank",
+            "bank of (england|lithuania)",
+            "\\bnbp\\b",
+            "\\bcnb\\b",
+            "\\bbnr\\b",
+            "\\bmnb\\b",
+            "\\bcbrt\\b",
+            "monetary authority",
+            "lithuania central bank"
+          ]
+        },
+        {
+          "label": "A commercial feed (XE, OANDA, Open Exchange...)",
+          "patterns": [
+            "\\bxe\\b",
+            "oanda",
+            "open ?exchange",
+            "floatrates",
+            "\\bfloat\\b",
+            "subscribed provider",
+            "100\\+ financial providers"
+          ]
+        },
+        {
+          "label": "Tax authority rates (e.g. HMRC)",
+          "patterns": [
+            "hmrc",
+            "tax authorit"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "European Central Bank (ECB)": 0.2,
+        "Our own national central bank": 0.23,
+        "A commercial feed (XE, OANDA, Open Exchange...)": 0.3,
+        "Tax authority rates (e.g. HMRC)": 0.07
+      }
+    },
+    {
+      "id": "subscription",
+      "text": "Do you already pay for an exchange rate service?",
+      "options": [
+        {
+          "label": "Yes, we have XE, OANDA or similar",
+          "patterns": [
+            "requires (an? )?(oanda|xe|exchange rate) subscription",
+            "subscribed provider",
+            "from oanda and xe",
+            "(from )?ecb, oanda"
+          ]
+        },
+        {
+          "label": "No, we want free official sources",
+          "patterns": [
+            "no accounts or api keys",
+            "no external provider subscription",
+            "free of charge",
+            "official (daily )?(ecb )?(exchange )?rates",
+            "directly from central banks",
+            "central bank of",
+            "(ecb|riksbank|nationalbank|bank of lithuania|cbrt|monetary authority|hmrc)"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we have XE, OANDA or similar": 0.1,
+        "No, we want free official sources": 0.4
+      }
+    },
+    {
+      "id": "timing",
+      "text": "Which rates do you need loaded?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Fresh rates automatically every day",
+          "patterns": [
+            "daily",
+            "hourly",
+            "60 seconds",
+            "job queue",
+            "scheduled",
+            "automatic(ally)? (and periodic )?(update|download|import)"
+          ]
+        },
+        {
+          "label": "Historical rates for past dates",
+          "patterns": [
+            "histor",
+            "back to (19|20)\\d\\d",
+            "specific dates?",
+            "date period",
+            "rate history",
+            "work date"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Fresh rates automatically every day": 0.47,
+        "Historical rates for past dates": 0.33
+      }
+    }
+  ]
+}

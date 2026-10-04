@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.nolanbusinesssolutionsplc1635777129432|AID.erequest|PAPPID.5dc61188-5dbb-472f-b7c4-f21a3cc227f9",
+  "guid": "5dc61188-5dbb-472f-b7c4-f21a3cc227f9",
+  "publisherId": "nolanbusinesssolutionsplc1635777129432",
+  "offerId": "erequest",
+  "source": {
+    "name": "Nolan eRequest",
+    "publisher": "NOLAN BUSINESS SOLUTIONS PLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nolanbusinesssolutionsplc1635777129432%7CAID.erequest%7CPAPPID.5dc61188-5dbb-472f-b7c4-f21a3cc227f9",
+    "lastModified": "2026-09-18T09:17:51.4535289+00:00",
+    "appVersion": "1.0.0.53",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nolanbusinesssolutions.co.uk/knowledgebase/nolan-cloud-services/",
+    "sourceHash": "sha256:6f96f19910f4c029c7bfa133cfa42a66bf3990ef12020d34cb4c20b12a4c0ddf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6f96f19910f4c029c7bfa133cfa42a66bf3990ef12020d34cb4c20b12a4c0ddf",
+    "mappedOn": null,
+    "summary": "Purchase requisitions with approvals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-office-teams",
+      "ng-budget-control",
+      "ng-ap-invoice-capture",
+      "ng-procurement-spend"
+    ],
+    "claims": [
+      "Submit requisitions and approve within Microsoft Teams",
+      "Electronic audit trail of requisitions",
+      "Permission levels by role, user or item",
+      "Customizable data entry forms",
+      "Multi-level approval workflows",
+      "Automatic purchase order creation in BC",
+      "Multi-entity and multi-currency",
+      "Budget validation on approval",
+      "Automated invoice approvals",
+      "Hosted on Azure, accessible on any device"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Teams"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

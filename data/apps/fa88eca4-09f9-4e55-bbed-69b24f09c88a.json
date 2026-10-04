@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_wms|PAPPID.fa88eca4-09f9-4e55-bbed-69b24f09c88a",
+  "guid": "fa88eca4-09f9-4e55-bbed-69b24f09c88a",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_wms",
+  "source": {
+    "name": "ORIGINS WMS",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_wms%7CPAPPID.fa88eca4-09f9-4e55-bbed-69b24f09c88a",
+    "lastModified": "2025-11-03T10:42:07.1877625+00:00",
+    "appVersion": "25.2509.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-wms/",
+    "sourceHash": "sha256:3051a400615a49de97af088fd8310261e1d0da5747254e500a7715f9cc7fd156"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3051a400615a49de97af088fd8310261e1d0da5747254e500a7715f9cc7fd156",
+    "mappedOn": null,
+    "summary": "Mobile warehouse management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Mobile web app accessible from any browser",
+      "Scans 1D and 2D barcodes",
+      "Supports pick, put-away, movement and inventory checks",
+      "Runs on Android and iOS"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

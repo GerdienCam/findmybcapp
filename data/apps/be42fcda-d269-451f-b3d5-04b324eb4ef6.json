@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.publicholidays|PAPPID.be42fcda-d269-451f-b3d5-04b324eb4ef6",
+  "guid": "be42fcda-d269-451f-b3d5-04b324eb4ef6",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "publicholidays",
+  "source": {
+    "name": "PublicHolidays",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.publicholidays%7CPAPPID.be42fcda-d269-451f-b3d5-04b324eb4ef6",
+    "lastModified": "2026-05-25T06:37:14.8239442+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://matchbusinesscentral.com/pages/PublicHolidays",
+    "sourceHash": "sha256:2a48e489404060a8534d1d9923c050ade5890696225ba95bfdd67f574a617a3b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2a48e489404060a8534d1d9923c050ade5890696225ba95bfdd67f574a617a3b",
+    "mappedOn": null,
+    "summary": "Fills public holidays into base calendars",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-hr-org-policies",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-general-setup"
+    ],
+    "claims": [
+      "Fills public holidays into base calendar non-working days by country",
+      "Adds holiday descriptions to non-working days",
+      "Updates multiple calendars in one click",
+      "Requires companion MatchBC extensions"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

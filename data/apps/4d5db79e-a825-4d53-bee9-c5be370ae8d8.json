@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.xtensionit|AID.xtefava|PAPPID.4d5db79e-a825-4d53-bee9-c5be370ae8d8",
+  "guid": "4d5db79e-a825-4d53-bee9-c5be370ae8d8",
+  "publisherId": "xtensionit",
+  "offerId": "xtefava",
+  "source": {
+    "name": "FaVa",
+    "publisher": "XtensionIT Aps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xtefava%7CPAPPID.4d5db79e-a825-4d53-bee9-c5be370ae8d8",
+    "lastModified": "2026-09-25T12:47:17.5581293+00:00",
+    "appVersion": "1.0.20260925.3",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://fava.twoday.dk/",
+    "sourceHash": "sha256:6def3859f9daddb678c2b779910e6fb862df383808e5e30fa3b3da923224d48f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6def3859f9daddb678c2b779910e6fb862df383808e5e30fa3b3da923224d48f",
+    "mappedOn": null,
+    "summary": "Advanced item variant handling for fashion and textile",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-fashion",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Multi-dimensional item structure (color, size) with assortments",
+      "Matrix order entry on purchase and sales",
+      "Automatic item substitution across sales orders",
+      "Sales seasons and delivery periods down to variant level",
+      "Brand control on customer and salesperson level",
+      "Available only in Danish",
+      "Depends on LS Central"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [
+      "Fashion",
+      "Textile"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

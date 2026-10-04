@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.simplyd|AID.sd-stol|PAPPID.e82c291f-abb0-47ec-8898-e5c403033fbe",
+  "guid": "e82c291f-abb0-47ec-8898-e5c403033fbe",
+  "publisherId": "simplyd",
+  "offerId": "sd-stol",
+  "source": {
+    "name": "SD Stores Logistics",
+    "publisher": "Simply Dynamics Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.sd-stol%7CPAPPID.e82c291f-abb0-47ec-8898-e5c403033fbe",
+    "lastModified": "2025-10-01T11:18:40.5230044+00:00",
+    "appVersion": "4.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-stores-logistics/",
+    "sourceHash": "sha256:cd16023c88cd677680c002b7a1c0dc2bc0f2ae3939fb90fd0d04eca5626f4805"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cd16023c88cd677680c002b7a1c0dc2bc0f2ae3939fb90fd0d04eca5626f4805",
+    "mappedOn": null,
+    "summary": "Plans orders onto delivery routes, manifests and loads",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-freight-cost-audit"
+    ],
+    "claims": [
+      "Drop sales, purchase and transfer orders on an embedded Google map to build routes",
+      "Visual load map planner",
+      "Queued document list to create manifests",
+      "Vehicle capacity planning on manifests",
+      "Calculates shipping agent charges and creates POs or purchase invoices",
+      "Print manifest documents and keep manifest history"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "IE",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "NZ",
+      "PT",
+      "SE",
+      "TR",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Google Maps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

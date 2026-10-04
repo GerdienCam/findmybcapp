@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.navidainformationssysteme1611067488644|AID.nbi_bc_pb_connector|PAPPID.b987d68d-ab70-4b03-9ff2-157a337d8e55",
+  "guid": "b987d68d-ab70-4b03-9ff2-157a337d8e55",
+  "publisherId": "navidainformationssysteme1611067488644",
+  "offerId": "nbi_bc_pb_connector",
+  "source": {
+    "name": "NAVBI Connector for Power BI",
+    "publisher": "navida",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navidainformationssysteme1611067488644%7CAID.nbi_bc_pb_connector%7CPAPPID.b987d68d-ab70-4b03-9ff2-157a337d8e55",
+    "lastModified": "2026-02-13T19:30:11.9997863+00:00",
+    "appVersion": "1.7.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navbi.com/",
+    "sourceHash": "sha256:b68a63ded58690ccb211c3977a4238e17ada2cadd39e0b2d3b8bd5c8cba5e568"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b68a63ded58690ccb211c3977a4238e17ada2cadd39e0b2d3b8bd5c8cba5e568",
+    "mappedOn": null,
+    "summary": "Exposes BC data for analysis in Power BI",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-analytics"
+    ],
+    "claims": [
+      "API queries optimized for retrieving complex data into Power BI",
+      "Covers sales, purchasing, inventory, receivables, cash flow and finance",
+      "No configuration required",
+      "Queries for sales/service invoices and credits can be combined into a sales fact table",
+      "Pre-built reporting templates available from the publisher"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

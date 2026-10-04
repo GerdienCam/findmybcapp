@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.asqit|AID.customer-payment-plans|PAPPID.3add055a-ef33-4d32-81b2-abfcf54941cc",
+  "guid": "3add055a-ef33-4d32-81b2-abfcf54941cc",
+  "publisherId": "asqit",
+  "offerId": "customer-payment-plans",
+  "source": {
+    "name": "Customer Payment Plans",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.customer-payment-plans%7CPAPPID.3add055a-ef33-4d32-81b2-abfcf54941cc",
+    "lastModified": "2026-07-22T03:34:13.0159813+00:00",
+    "appVersion": "24.0.1.10",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/customerpaymentplans",
+    "sourceHash": "sha256:6f49e7ddcf863d39aca94f994f6af75561876f98404a8137047b84b8580e4a48"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6f49e7ddcf863d39aca94f994f6af75561876f98404a8137047b84b8580e4a48",
+    "mappedOn": null,
+    "summary": "Customer payment plans for overdue debt collection",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Payment plans covering one or more invoices and one or more payments",
+      "Payment plans update automatically once invoices are written off, credited or paid",
+      "Identifies late and fulfilled payment plans",
+      "Confirmation email on plan activation",
+      "Automated communication on late or closed plans",
+      "Assign a credit controller to a payment plan"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

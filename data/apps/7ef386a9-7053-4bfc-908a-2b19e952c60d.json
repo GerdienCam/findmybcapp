@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.nab|AID.spider|PAPPID.7ef386a9-7053-4bfc-908a-2b19e952c60d",
+  "guid": "7ef386a9-7053-4bfc-908a-2b19e952c60d",
+  "publisherId": "nab",
+  "offerId": "spider",
+  "source": {
+    "name": "Spider",
+    "publisher": "SmartApps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nab%7CAID.spider%7CPAPPID.7ef386a9-7053-4bfc-908a-2b19e952c60d",
+    "lastModified": "2026-09-18T12:46:33.4316474+00:00",
+    "appVersion": "27.6.72.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.smartappsford365.com/spider/",
+    "sourceHash": "sha256:4f5aa52101591a7d31f356526e48897cbebad33fa7ad9946c730f7737f42062d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4f5aa52101591a7d31f356526e48897cbebad33fa7ad9946c730f7737f42062d",
+    "mappedOn": null,
+    "summary": "Integration, change log and web services for external systems",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures",
+      "ng-ux-import-excel",
+      "ng-ux-custom-fields"
+    ],
+    "claims": [
+      "Logs changes for external systems to extract via web services and API pages",
+      "Master data set up in one company synchronized to all companies with feedback on errors",
+      "Import text files posting directly to G/L or FA entries without code",
+      "Integration queue shows file stage and history; files kept until committed",
+      "Correct data and retry failed jobs keeping the original",
+      "Extra fields store external info without customization",
+      "Out-of-the-box Swebase SIE and reconciliation import",
+      "Functions can be triggered from Eagle for multi-company",
+      "30-day free trial"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Swebase"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

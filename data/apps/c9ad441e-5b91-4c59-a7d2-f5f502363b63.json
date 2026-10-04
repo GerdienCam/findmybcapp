@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.lanhamassociates|AID.lanham_edi_ona01|PAPPID.c9ad441e-5b91-4c59-a7d2-f5f502363b63",
+  "guid": "c9ad441e-5b91-4c59-a7d2-f5f502363b63",
+  "publisherId": "lanhamassociates",
+  "offerId": "lanham_edi_ona01",
+  "source": {
+    "name": "Lanham EDI W1",
+    "publisher": "Lanham Associates",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lanhamassociates%7CAID.lanham_edi_ona01%7CPAPPID.c9ad441e-5b91-4c59-a7d2-f5f502363b63",
+    "lastModified": "2026-09-30T17:10:36.6616496+00:00",
+    "appVersion": "28.3.1.2025",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lanhamedi.helpdocsonline.com/edigettingstarted",
+    "sourceHash": "sha256:3f7df3cffcfaaf90ca58e7307e3a932986dfa2b3b4c96b1c801c4142502e70cc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3f7df3cffcfaaf90ca58e7307e3a932986dfa2b3b4c96b1c801c4142502e70cc",
+    "mappedOn": null,
+    "summary": "EDI trading partner compliance for orders, shipments and invoices",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Mapping and cross-reference inside BC without external translator",
+      "Supports X12, XML, automotive, UCS, EDIFACT and delimited files",
+      "GS1-128, AIAG and custom labels",
+      "Direct communication or via Lanham VAN",
+      "Mapping can be done in-house, by partner, or outsourced to Lanham Services",
+      "Orders in, invoices out compliant with trading partners"
+    ],
+    "countries": [
+      "AU",
+      "DK",
+      "GB",
+      "IE",
+      "NL",
+      "NZ",
+      "SE"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Automotive",
+      "Distribution"
+    ],
+    "connectsTo": [
+      "Lanham VAN"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

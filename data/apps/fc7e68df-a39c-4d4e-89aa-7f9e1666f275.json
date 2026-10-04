@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.tinx-it|AID.tinx-woocommerce-connector|PAPPID.fc7e68df-a39c-4d4e-89aa-7f9e1666f275",
+  "guid": "fc7e68df-a39c-4d4e-89aa-7f9e1666f275",
+  "publisherId": "tinx-it",
+  "offerId": "tinx-woocommerce-connector",
+  "source": {
+    "name": "Tinx WooCommerce Connector",
+    "publisher": "Tinx-IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-woocommerce-connector%7CPAPPID.fc7e68df-a39c-4d4e-89aa-7f9e1666f275",
+    "lastModified": "2026-09-24T10:50:17.4885125+00:00",
+    "appVersion": "28.1.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.tinx-it.com/",
+    "sourceHash": "sha256:fa2bb2333021bc9399e5df44527fed544aa1af4836bf24d55a0bb17d0e3450d7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fa2bb2333021bc9399e5df44527fed544aa1af4836bf24d55a0bb17d0e3450d7",
+    "mappedOn": null,
+    "summary": "Syncs WooCommerce products, inventory and orders",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Real-time sync of orders, customers, inventory and products",
+      "Syncs product attributes and terms",
+      "Customer sync for B2B and B2C buyers",
+      "Automated order import including guest orders",
+      "Product information management in BC: texts, cross-sell, up-sell, multiple images",
+      "Email alerts for sync errors",
+      "Fixed monthly fee of EUR 309, no transaction or user fees",
+      "Fixed scope, fixed price implementation packages"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "WooCommerce"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

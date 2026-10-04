@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.simplyd|AID.sd-focs|PAPPID.fd0bca45-6733-43a9-afa1-abc6e94beb76",
+  "guid": "fd0bca45-6733-43a9-afa1-abc6e94beb76",
+  "publisherId": "simplyd",
+  "offerId": "sd-focs",
+  "source": {
+    "name": "SD Catch Weight",
+    "publisher": "Simply Dynamics Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.sd-focs%7CPAPPID.fd0bca45-6733-43a9-afa1-abc6e94beb76",
+    "lastModified": "2026-04-15T11:17:47.9360979+00:00",
+    "appVersion": "3.0.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-catch-weight",
+    "sourceHash": "sha256:ca59d95691283cd340c8b1b6953246c2384caee5ee98356c754a5b8a4f8c9300"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ca59d95691283cd340c8b1b6953246c2384caee5ee98356c754a5b8a4f8c9300",
+    "mappedOn": null,
+    "summary": "Tracks variable catch weight items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-quality-hold"
+    ],
+    "claims": [
+      "Unit tracking of KG / variable-weight items",
+      "Actual weight determines price",
+      "Tolerance check of quantity vs catch weight unit",
+      "Minimum expiration date rules on goods intake by supplier",
+      "Minimum expiration date rules on goods out by customer",
+      "Shelf life alerts: freeze down items or move to a campaign location"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Food"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

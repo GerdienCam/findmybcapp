@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.visba|PAPPID.4cd88d10-ed0d-4438-a212-550eba83093e",
+  "guid": "4cd88d10-ed0d-4438-a212-550eba83093e",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "visba",
+  "source": {
+    "name": "EV Tecto - Wholesale",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.visba%7CPAPPID.4cd88d10-ed0d-4438-a212-550eba83093e",
+    "lastModified": "2026-09-10T10:36:32.8253354+00:00",
+    "appVersion": "10006.80.218813.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/EV/overview",
+    "sourceHash": "sha256:519576050fe32219c4aa96cdcb4b1ab9bac1811ccd123046bd3fdffd4b521828"
+  },
+  "mapping": {
+    "sourceHash": "sha256:519576050fe32219c4aa96cdcb4b1ab9bac1811ccd123046bd3fdffd4b521828",
+    "mappedOn": null,
+    "summary": "Imports wholesaler item prices and discounts",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-construction",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Imports and updates wholesaler price lists",
+      "Imports and updates discounts",
+      "Imports and updates item information",
+      "Imports items, prices and discounts straight from wholesalers"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EV Tecto"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

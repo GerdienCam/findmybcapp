@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.abakion|AID.dsv_cargowrite_3pl_connector|PAPPID.8772f7f4-3292-4bd7-8c7a-d9eb5f2825fa",
+  "guid": "8772f7f4-3292-4bd7-8c7a-d9eb5f2825fa",
+  "publisherId": "abakion",
+  "offerId": "dsv_cargowrite_3pl_connector",
+  "source": {
+    "name": "DSV CargoWrite 3PL Connector",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.dsv_cargowrite_3pl_connector%7CPAPPID.8772f7f4-3292-4bd7-8c7a-d9eb5f2825fa",
+    "lastModified": "2026-06-24T14:37:48.42299+00:00",
+    "appVersion": "28.0.202619.164632",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/danske-fragtmaend/#howto",
+    "sourceHash": "sha256:02b97015305cdae91bf972ab3dbc678790712c389d9d3c996e112bb132487a55"
+  },
+  "mapping": {
+    "sourceHash": "sha256:02b97015305cdae91bf972ab3dbc678790712c389d9d3c996e112bb132487a55",
+    "mappedOn": null,
+    "summary": "Integrates DSV CargoWrite 3PL warehouse with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Built on 3PL Manager app plus Power Automate connector",
+      "Transfers sales orders and warehouse shipments to the 3PL",
+      "Sends purchase orders to the 3PL warehouse",
+      "Automatic status updates on shipment completion",
+      "3PL status visible on document",
+      "New 3PL integrations configurable within a few days"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DSV CargoWrite",
+      "Power Automate"
+    ],
+    "requires": [
+      "3PL Manager"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

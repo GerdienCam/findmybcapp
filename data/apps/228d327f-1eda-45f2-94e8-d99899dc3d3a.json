@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.mpsba|PAPPID.228d327f-1eda-45f2-94e8-d99899dc3d3a",
+  "guid": "228d327f-1eda-45f2-94e8-d99899dc3d3a",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "mpsba",
+  "source": {
+    "name": "EV Tecto - Mail",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.mpsba%7CPAPPID.228d327f-1eda-45f2-94e8-d99899dc3d3a",
+    "lastModified": "2026-09-11T12:01:40.777436+00:00",
+    "appVersion": "10006.80.218950.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/365Con/overview",
+    "sourceHash": "sha256:5e53dea8d300ab0721a5ff169449bf57968869046573767306bad4cc5f9309b8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5e53dea8d300ab0721a5ff169449bf57968869046573767306bad4cc5f9309b8",
+    "mappedOn": null,
+    "summary": "Connects SBA 365Construction with EV Mail for invoicing",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-construction",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-billing"
+    ],
+    "claims": [
+      "Integrates EV Tecto/365Construction with EV Mail",
+      "Job contracts automatically get an invoice copy",
+      "Mail to job contracts and mail queue"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EV Tecto - Core",
+      "EV Mail"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex027_emabudgetallocation|PAPPID.bc160018-9717-4924-954c-641bbf9ce78f",
+  "guid": "bc160018-9717-4924-954c-641bbf9ce78f",
+  "publisherId": "eos_solutions",
+  "offerId": "ex027_emabudgetallocation",
+  "source": {
+    "name": "EMA Budget allocation",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex027_emabudgetallocation%7CPAPPID.bc160018-9717-4924-954c-641bbf9ce78f",
+    "lastModified": "2026-08-07T14:39:15.8155176+00:00",
+    "appVersion": "28.0.17.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ema-budget-allocation-eba.html",
+    "sourceHash": "sha256:f19d25374d3a16cef5f87d242500b6ff2fe3b1b801a99154535d4df666a03a32"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f19d25374d3a16cef5f87d242500b6ff2fe3b1b801a99154535d4df666a03a32",
+    "mappedOn": null,
+    "summary": "Budget-based allocations and work/machine center tariffs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-budget-build"
+    ],
+    "claims": [
+      "Determines work/machine center tariffs from budget data",
+      "Allocation and driver handling for budget data",
+      "Analysis scenarios for budget data with drill-down",
+      "Requires EOS Inventory Valuation and Costing and EOS EMA"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Inventory Valuation and Costing",
+      "EOS Extended Management Accounting"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

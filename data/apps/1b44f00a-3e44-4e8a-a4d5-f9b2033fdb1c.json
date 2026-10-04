@@ -1,0 +1,83 @@
+{
+  "appId": "PUBID.advania|AID.advania_web_connection|PAPPID.1b44f00a-3e44-4e8a-a4d5-f9b2033fdb1c",
+  "guid": "1b44f00a-3e44-4e8a-a4d5-f9b2033fdb1c",
+  "publisherId": "advania",
+  "offerId": "advania_web_connection",
+  "source": {
+    "name": "Advania API",
+    "publisher": "Advania",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advania%7CAID.advania_web_connection%7CPAPPID.1b44f00a-3e44-4e8a-a4d5-f9b2033fdb1c",
+    "lastModified": "2026-09-30T19:47:22.177766+00:00",
+    "appVersion": "29.0.54.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.d365bc.is/api",
+    "sourceHash": "sha256:2c85481ca73b53c3dce2ccd5ba643e12cb9859da363e405496023542c59621df"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2c85481ca73b53c3dce2ccd5ba643e12cb9859da363e405496023542c59621df",
+    "mappedOn": null,
+    "summary": "Manages API integrations between BC and webstores and other systems",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Integration with Tactica Integrator",
+      "Use Tactica Integrator as PIM",
+      "Connection to WooCommerce",
+      "Depends on Advania Base"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DE",
+      "DK",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "IE",
+      "IS",
+      "NO",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Tactica Integrator",
+      "WooCommerce"
+    ],
+    "requires": [
+      "Advania Base"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

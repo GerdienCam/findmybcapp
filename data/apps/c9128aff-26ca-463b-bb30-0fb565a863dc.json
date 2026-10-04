@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.mindquad_solutions_2592164|AID.mq_xtend_quality_control_management|PAPPID.c9128aff-26ca-463b-bb30-0fb565a863dc",
+  "guid": "c9128aff-26ca-463b-bb30-0fb565a863dc",
+  "publisherId": "mindquad_solutions_2592164",
+  "offerId": "mq_xtend_quality_control_management",
+  "source": {
+    "name": "Quality control management",
+    "publisher": "MindQuad Solutions Private Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mindquad_solutions_2592164%7CAID.mq_xtend_quality_control_management%7CPAPPID.c9128aff-26ca-463b-bb30-0fb565a863dc",
+    "lastModified": "2026-06-18T06:44:40.7834068+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mindquad.com/contact-us/",
+    "sourceHash": "sha256:cbb798efdd3d1c80438cdbc66d5cb9d8cdd54779fd1e1da22d9e328c8fc41548"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cbb798efdd3d1c80438cdbc66d5cb9d8cdd54779fd1e1da22d9e328c8fc41548",
+    "mappedOn": null,
+    "summary": "Inward, in-process QC and quarantine stock",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-hold",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-returns-credits",
+      "ng-scrap-rework"
+    ],
+    "claims": [
+      "QC setup per product, SKU and item-vendor",
+      "Inward QC before or after GRN",
+      "Quality test groups with sampling and mandatory tests",
+      "In-process QC on machine or work center",
+      "Quarantine: stock under QC unavailable for issue or sale",
+      "Handles rework, rejection and on-hold quantities",
+      "Auto-creates purchase return orders for rejected quantities",
+      "Single and multi-location QC setup"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.dotapp|AID.softwarelicensesmanager|PAPPID.33cd8ae1-02c2-4fd7-818a-a368cb8f290b",
+  "guid": "33cd8ae1-02c2-4fd7-818a-a368cb8f290b",
+  "publisherId": "dotapp",
+  "offerId": "softwarelicensesmanager",
+  "source": {
+    "name": "Software Licenses Manager",
+    "publisher": "Dot App Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dotapp%7CAID.softwarelicensesmanager%7CPAPPID.33cd8ae1-02c2-4fd7-818a-a368cb8f290b",
+    "lastModified": "2026-08-04T12:59:00.8713225+00:00",
+    "appVersion": "2.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dotapp.atlassian.net/servicedesk/customer/portal/6",
+    "sourceHash": "sha256:fd3ecc05e1685be3c93e25b01d3e2acb30ec69aa07c764945180f5b335996416"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fd3ecc05e1685be3c93e25b01d3e2acb30ec69aa07c764945180f5b335996416",
+    "mappedOn": null,
+    "summary": "Manages software product licenses for vendors and resellers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals",
+      "ng-sales-channels",
+      "ng-case-intake",
+      "ng-conn-webshop"
+    ],
+    "claims": [
+      "Manages software license sales lifecycle: trials, new sales, renewals, up- and cross-sell",
+      "Reseller network management",
+      "Automated invoicing and reminders",
+      "Deal protection for resellers",
+      "B2B web portal for resellers to manage customers, quotes, orders, invoices and licenses",
+      "Integration with Jira Service Desk for support",
+      "Includes Report Builder for customizable reports",
+      "Built-in online store to sell and renew licenses",
+      "Up- and cross-sell campaigns"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Software vendors and resellers"
+    ],
+    "connectsTo": [
+      "Jira Service Desk",
+      "ESET",
+      "B2B Web Portal"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

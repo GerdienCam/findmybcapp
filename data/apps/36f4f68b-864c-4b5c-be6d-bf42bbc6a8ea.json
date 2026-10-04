@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.bookings|PAPPID.36f4f68b-864c-4b5c-be6d-bf42bbc6a8ea",
+  "guid": "36f4f68b-864c-4b5c-be6d-bf42bbc6a8ea",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "bookings",
+  "source": {
+    "name": "Bookings",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.bookings%7CPAPPID.36f4f68b-864c-4b5c-be6d-bf42bbc6a8ea",
+    "lastModified": "2026-06-26T15:49:59.7463924+00:00",
+    "appVersion": "1.0.0.21",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://matchbusinesscentral.com/pages/Bookings",
+    "sourceHash": "sha256:e134d15b797897eaa122675df01fb3bd054a54318a79efb528e6023cec2aa561"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e134d15b797897eaa122675df01fb3bd054a54318a79efb528e6023cec2aa561",
+    "mappedOn": null,
+    "summary": "Two-way calendar sync with Outlook and Google",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-office-teams",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Bookings record in BC mirroring external calendar entries",
+      "Two-way sync with Outlook and Google Calendar",
+      "Create, update or delete bookings in BC pushed back to calendar",
+      "Ready-to-use Power Automate flows; Power Automate licence required"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Outlook",
+      "Google Calendar",
+      "Power Automate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

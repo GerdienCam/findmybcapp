@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-outbound-log|PAPPID.3b9bad84-ea29-476c-9dec-9ee0553fd027",
+  "guid": "3b9bad84-ea29-476c-9dec-9ee0553fd027",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-outbound-log",
+  "source": {
+    "name": "Powerblox Outbound Logistics",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-outbound-log%7CPAPPID.3b9bad84-ea29-476c-9dec-9ee0553fd027",
+    "lastModified": "2026-06-12T17:22:28.3092566+00:00",
+    "appVersion": "26.0.2.63804",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/outbound_logistics",
+    "sourceHash": "sha256:9779b69a9e649241960015795150dc51acb33779284d3c097da44d607baacef7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9779b69a9e649241960015795150dc51acb33779284d3c097da44d607baacef7",
+    "mappedOn": null,
+    "summary": "Tour planning, picking and truck loading",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking",
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Tour planning dashboard",
+      "Truck plans generated from ready-to-ship sales orders",
+      "Defines picking sort sequence",
+      "Own fleet or external partners",
+      "Multi-warehouse planning incl. frozen, cold and ambient",
+      "Pickup time slots",
+      "Cross-dock functionality",
+      "Packing for small parcels",
+      "Prints labels, loading lists and CMR documents"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.yaveon|AID.pe365automotive|PAPPID.3c6a08bd-ee51-40c4-b652-892dc9f0b24d",
+  "guid": "3c6a08bd-ee51-40c4-b652-892dc9f0b24d",
+  "publisherId": "yaveon",
+  "offerId": "pe365automotive",
+  "source": {
+    "name": "Yaveon 365 Automotive",
+    "publisher": "Yaveon GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pe365automotive%7CPAPPID.3c6a08bd-ee51-40c4-b652-892dc9f0b24d",
+    "lastModified": "2026-09-16T17:04:47.3625043+00:00",
+    "appVersion": "13.5.131.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/auto/index.html",
+    "sourceHash": "sha256:588434e87153edcc6508ba9f1b1fbbcf9a9b88c8b862127588847060cad6251b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:588434e87153edcc6508ba9f1b1fbbcf9a9b88c8b862127588847060cad6251b",
+    "mappedOn": null,
+    "summary": "Automotive supplier EDI, VDA and Odette processes",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels",
+      "ng-vert-industrial-manufacturing"
+    ],
+    "claims": [
+      "Native EDI without external converter or EDI service provider",
+      "Supports VDA, Global, Odette and ANSI X12 standards",
+      "Supports VDA4905, VDA4913, VDA4984 and other mappings loaded from Yaveon Shop",
+      "Transmission via OFTP2 or AS2 tracked to recipient",
+      "Shipment orders, cumulative figures, release periods, load carrier accounts",
+      "Goods labels VDA, GTL, ODETTE, AIAG and SSCC",
+      "Consignment documents such as forwarding order and CMR",
+      "Fully automated dispatch planning",
+      "Handles DELFOR, DELINS and DELJIT call-offs",
+      "Message types per business partner configurable",
+      "Supports unloading points, DUNS numbers, routing codes, sequence numbers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Automotive"
+    ],
+    "connectsTo": [
+      "OFTP2",
+      "AS2"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

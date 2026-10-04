@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.1700139460848|AID.jp-nta-integration|PAPPID.76080567-dc21-4c8d-a355-886eea944145",
+  "guid": "76080567-dc21-4c8d-a355-886eea944145",
+  "publisherId": "1700139460848",
+  "offerId": "jp-nta-integration",
+  "source": {
+    "name": "CBEX 国税庁API連携 / CBEX Japan National Tax Agenency Integration",
+    "publisher": "Charon Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1700139460848%7CAID.jp-nta-integration%7CPAPPID.76080567-dc21-4c8d-a355-886eea944145",
+    "lastModified": "2026-08-13T08:27:35.8127112+00:00",
+    "appVersion": "28.3.0.2",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://charon-inc.co.jp/product/business-central/cbex-japan-national-tax-agency-api-connection/",
+    "sourceHash": "sha256:902af0b4e1378cd54044cc87714274fd535f314b4f435de34c62a299462fa940"
+  },
+  "mapping": {
+    "sourceHash": "sha256:902af0b4e1378cd54044cc87714274fd535f314b4f435de34c62a299462fa940",
+    "mappedOn": null,
+    "summary": "Verifies Japanese tax registration numbers and company data via NTA API",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Searches corporate information by company name via Corporate Number System API",
+      "Registers and updates customer/vendor master from NTA corporate data",
+      "Prevents duplicate master registration",
+      "Retrieves and validates qualified invoice registration numbers when creating customers/vendors",
+      "Validates registration numbers on already posted VAT entries, e.g. expense claims without vendor master",
+      "Records the validation result for input tax deductibility",
+      "Setup for full-width/half-width conversion and field mapping"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "languages": [
+      "en",
+      "ja"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Japan National Tax Agency Qualified Invoice Number Web-API",
+      "Japan Corporate Number System Web-API"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

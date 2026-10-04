@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.goprodoo1579609051569|AID.gopro_travel_orders|PAPPID.9fdde2d9-3ba8-4e25-b496-3cea15f40989",
+  "guid": "9fdde2d9-3ba8-4e25-b496-3cea15f40989",
+  "publisherId": "goprodoo1579609051569",
+  "offerId": "gopro_travel_orders",
+  "source": {
+    "name": "Travel Orders",
+    "publisher": "GoPro doo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.goprodoo1579609051569%7CAID.gopro_travel_orders%7CPAPPID.9fdde2d9-3ba8-4e25-b496-3cea15f40989",
+    "lastModified": "2026-05-21T08:28:57.1726208+00:00",
+    "appVersion": "26.0.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/125/Travel-Orders",
+    "sourceHash": "sha256:4d0635106ed158149861301107e585c4fdb140b8d3df89a93f78fe152c9515ae"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4d0635106ed158149861301107e585c4fdb140b8d3df89a93f78fe152c9515ae",
+    "mappedOn": null,
+    "summary": "Business travel orders per Serbian requirements",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Meets Serbian travel order requirements",
+      "Daily wages per business travel",
+      "Travel expense types, company vehicles, fuel price lists, own-vehicle nontaxable amounts",
+      "Creates travel orders with costs and daily wages",
+      "Controls total hours vs daily wage hours",
+      "Release, print and post travel orders",
+      "Posts advance payments for business travels",
+      "Assigns travel costs to ledger accounts automatically"
+    ],
+    "countries": [
+      "RS"
+    ],
+    "languages": [
+      "en",
+      "sr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

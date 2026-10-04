@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.certify_connector|PAPPID.bbad0b18-9607-45b2-af65-aba3e9243bdd",
+  "guid": "bbad0b18-9607-45b2-af65-aba3e9243bdd",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "certify_connector",
+  "source": {
+    "name": "Certify Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.certify_connector%7CPAPPID.bbad0b18-9607-45b2-af65-aba3e9243bdd",
+    "lastModified": "2024-11-21T22:22:08.9159201+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:5145c08fab8dc922e42f17f5d885189373a9ba818d2f497d4faf9450f0105eb0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5145c08fab8dc922e42f17f5d885189373a9ba818d2f497d4faf9450f0105eb0",
+    "mappedOn": null,
+    "summary": "Imports Certify expenses",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Imports transactions from Certify expense management",
+      "One-way integration that only pulls data from Certify",
+      "Auto-downloads transactions via job queue"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Certify"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

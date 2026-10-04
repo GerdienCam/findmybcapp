@@ -1,0 +1,107 @@
+{
+  "appId": "PUBID.cegekaspa|AID.18103755-ww|PAPPID.5e029b54-435a-430c-bd74-7b37a7f45aba",
+  "guid": "5e029b54-435a-430c-bd74-7b37a7f45aba",
+  "publisherId": "cegekaspa",
+  "offerId": "18103755-ww",
+  "source": {
+    "name": "Cegeka Treasury Connector",
+    "publisher": "CEGEKA s.p.a",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cegekaspa%7CAID.18103755-ww%7CPAPPID.5e029b54-435a-430c-bd74-7b37a7f45aba",
+    "lastModified": "2025-12-03T21:02:17.2107619+00:00",
+    "appVersion": "26.0.0.2918",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://cegekabusinesscentral.azurewebsites.net/solution/CGK-FNA/en-US/FNA/index.html",
+    "sourceHash": "sha256:2f0c8fd6dc0d3a96527124e5655d7ed1a08f052b9a01647e400761fc2ba35cf3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2f0c8fd6dc0d3a96527124e5655d7ed1a08f052b9a01647e400761fc2ba35cf3",
+    "mappedOn": null,
+    "summary": "Integrates treasury software with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-cash-forecast",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Links BC with external treasury software",
+      "Automated posting of receipts and payments",
+      "Online financial position",
+      "Flexible interfacing with different treasury tools"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "HR",
+      "HU",
+      "ID",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "LT",
+      "LV",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PH",
+      "PL",
+      "RS",
+      "SE",
+      "SG",
+      "SI",
+      "TH",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DocFinance"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

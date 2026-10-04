@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.improjects1600264753714|AID.icg_pos_connector|PAPPID.30207cac-b1d2-4182-b64c-a355cde04450",
+  "guid": "30207cac-b1d2-4182-b64c-a355cde04450",
+  "publisherId": "improjects1600264753714",
+  "offerId": "icg_pos_connector",
+  "source": {
+    "name": "ICGPOS Connector",
+    "publisher": "IM-PROJECTS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.improjects1600264753714%7CAID.icg_pos_connector%7CPAPPID.30207cac-b1d2-4182-b64c-a355cde04450",
+    "lastModified": "2026-06-05T03:48:07.3747846+00:00",
+    "appVersion": "1.0.1.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://icgconnector.help.im-projects.com/",
+    "sourceHash": "sha256:7e4422043bb5d6a7077760651e05b98611e7fedccf62ffa1e053ac2b04d4fb66"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7e4422043bb5d6a7077760651e05b98611e7fedccf62ffa1e053ac2b04d4fb66",
+    "mappedOn": null,
+    "summary": "Integrates ICG POS with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail",
+      "ng-vert-hospitality"
+    ],
+    "claims": [
+      "Integrates ICG FrontRetail or FrontRest POS with BC",
+      "Adapts to retail, size/color, supermarket and restaurant POS"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NZ",
+      "PT",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [
+      "Food",
+      "Hospitality",
+      "Retail"
+    ],
+    "connectsTo": [
+      "ICG FrontRetail",
+      "ICG FrontRest"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

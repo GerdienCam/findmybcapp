@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex04606_purchaserequestforengineeringtoorder|PAPPID.1cc7dcdf-d07f-4fa2-a871-c5387629e8ae",
+  "guid": "1cc7dcdf-d07f-4fa2-a871-c5387629e8ae",
+  "publisherId": "eos_solutions",
+  "offerId": "ex04606_purchaserequestforengineeringtoorder",
+  "source": {
+    "name": "Purchase Request for Engineering to order",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex04606_purchaserequestforengineeringtoorder%7CPAPPID.1cc7dcdf-d07f-4fa2-a871-c5387629e8ae",
+    "lastModified": "2026-09-21T07:23:13.7397637+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ex046-purchase-request.html",
+    "sourceHash": "sha256:bb3783cbd24c05995f1b1f70f6663c5785d7ff76fe3ad564fc3cb43a4f4dba82"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bb3783cbd24c05995f1b1f70f6663c5785d7ff76fe3ad564fc3cb43a4f4dba82",
+    "mappedOn": null,
+    "summary": "Manages purchase requests for engineering to order job structures",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-materials-subcontract",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-industrial-manufacturing"
+    ],
+    "claims": [
+      "Purchase requests from job structures, with check, approve and convert",
+      "Create orders/quotes directly from purchase requests",
+      "Multiple orders/quotes with item vendor preview",
+      "Archive closed purchase requests",
+      "Group several requests into one",
+      "Premium edition only",
+      "Costs nothing, but EOS Engineering to order and EOS Purchase Request are both required"
+    ],
+    "countries": [
+      "AE",
+      "AU",
+      "BR",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "IN",
+      "IT",
+      "NL",
+      "RO",
+      "SM",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "it"
+    ],
+    "industries": [
+      "Engineer-to-order"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EOS Purchase Request",
+      "EOS Engineering to order"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

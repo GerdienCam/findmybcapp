@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.go4logistics|AID.go4logistics_go4exportaccounting|PAPPID.913a5d8d-6af8-4c70-916b-c1f116aa5dc2",
+  "guid": "913a5d8d-6af8-4c70-916b-c1f116aa5dc2",
+  "publisherId": "go4logistics",
+  "offerId": "go4logistics_go4exportaccounting",
+  "source": {
+    "name": "Go4TMS - Export Accounting",
+    "publisher": "Go4Logistics NV",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.go4logistics%7CAID.go4logistics_go4exportaccounting%7CPAPPID.913a5d8d-6af8-4c70-916b-c1f116aa5dc2",
+    "lastModified": "2026-09-03T13:07:38.3712394+00:00",
+    "appVersion": "28.1.11.73",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.go4logistics.be/en/help/",
+    "sourceHash": "sha256:80d30aecba4c64d6e59f23d3d64255bcc2069dda2307b82d4c191a5dbdd326a9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:80d30aecba4c64d6e59f23d3d64255bcc2069dda2307b82d4c191a5dbdd326a9",
+    "mappedOn": null,
+    "summary": "Exports Go4TMS accounting data to external finance systems",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-transport-logistics"
+    ],
+    "claims": [
+      "Exports posted sales invoices/credit memos to XML manually",
+      "External financial system can pull data via API",
+      "Automated push export via job queue",
+      "Custom XML structure may be developed per financial system"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Transport and logistics"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Go4TMS - Transport Software"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

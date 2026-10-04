@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_semi_items_w_routing_status_ov|PAPPID.07780c1a-395a-4bd3-8c6b-c57612f1e735",
+  "guid": "07780c1a-395a-4bd3-8c6b-c57612f1e735",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_semi_items_w_routing_status_ov",
+  "source": {
+    "name": "m+m Semifinished Items with Routing Status Overview",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_semi_items_w_routing_status_ov%7CPAPPID.07780c1a-395a-4bd3-8c6b-c57612f1e735",
+    "lastModified": "2026-09-28T21:25:05.6888188+00:00",
+    "appVersion": "28.0.375501.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:4ed551565a7ca23679df5b4395b95476019fd06296dc1023aad6d3b14302bf04"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4ed551565a7ca23679df5b4395b95476019fd06296dc1023aad6d3b14302bf04",
+    "mappedOn": null,
+    "summary": "Adds semifinished items to routing status overview",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-scheduling"
+    ],
+    "claims": [
+      "Adds semi-finished item production order lines to the Routing Status Overview",
+      "Shows operations, status and finished quantities of semi-finished items"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Semifinished Items",
+      "m+m Routing Status Overview"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

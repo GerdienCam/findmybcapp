@@ -1,0 +1,94 @@
+{
+  "appId": "PUBID.foodware365|AID.foodware_365_over_and_underdelivery|PAPPID.94232ace-4665-46e8-bf24-65a9d32849b0",
+  "guid": "94232ace-4665-46e8-bf24-65a9d32849b0",
+  "publisherId": "foodware365",
+  "offerId": "foodware_365_over_and_underdelivery",
+  "source": {
+    "name": "Aptean Over Under Delivery for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_over_and_underdelivery%7CPAPPID.94232ace-4665-46e8-bf24-65a9d32849b0",
+    "lastModified": "2026-09-23T04:46:43.1793408+00:00",
+    "appVersion": "2602.2.344218.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/OUD/",
+    "sourceHash": "sha256:95dbb00d4f5e81eee5bf5134bb3208986d15f641d7eb68a3ecd6ababbb0c157e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:95dbb00d4f5e81eee5bf5134bb3208986d15f641d7eb68a3ecd6ababbb0c157e",
+    "mappedOn": null,
+    "summary": "Allowed over/under delivery tolerances per vendor",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-quality-compliance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Allowed over/under delivery deviation per vendor",
+      "Deviation by item or percentage",
+      "Warehouse notified on unpermitted deviation",
+      "Vendor delivery accuracy calculated from received vs ordered"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

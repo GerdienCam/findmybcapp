@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.insight-works|AID.769adc1c-0616-432d-ad55-e2d81a080ae9|PAPPID.769adc1c-0616-432d-ad55-e2d81a080ae9",
+  "guid": "769adc1c-0616-432d-ad55-e2d81a080ae9",
+  "publisherId": "insight-works",
+  "offerId": "769adc1c-0616-432d-ad55-e2d81a080ae9",
+  "source": {
+    "name": "Quality Inspector",
+    "publisher": "Insight Works",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.769adc1c-0616-432d-ad55-e2d81a080ae9%7CPAPPID.769adc1c-0616-432d-ad55-e2d81a080ae9",
+    "lastModified": "2026-09-18T14:23:08.7440444+00:00",
+    "appVersion": "7.27.9756.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://app.dmsiworks.com/quality-inspector/product-help/",
+    "sourceHash": "sha256:3139302d4e0ec3e5912d0ebc43159bc911b23ddec529f4363996be6ee88c9c6d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3139302d4e0ec3e5912d0ebc43159bc911b23ddec529f4363996be6ee88c9c6d",
+    "mappedOn": null,
+    "summary": "Quality control inspections to reduce rework",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-hold",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-quality-analysis",
+      "ng-receiving-putaway"
+    ],
+    "claims": [
+      "Configurable inspection templates with entry forms, attributes and pass/fail criteria",
+      "Several test plans, each with its own trigger criteria",
+      "Automatically created and ad hoc inspections",
+      "Supports various test result types",
+      "Mobile-friendly UI for phone and tablet clients",
+      "Captures pictures with automatic OneDrive upload",
+      "Stores test values and document attachments on inspections",
+      "Inbound receiving inspections of purchased items",
+      "Retesting support",
+      "Requires tests before specific activities",
+      "Blocks lot transactions based on test grades",
+      "Exports test values for use in Excel or Power BI",
+      "Power Platform integration of inspection data"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

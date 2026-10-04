@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_subscriptionsalesmanager|PAPPID.ee6890da-37cd-4259-8240-d44ed40e3d0f",
+  "guid": "ee6890da-37cd-4259-8240-d44ed40e3d0f",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_subscriptionsalesmanager",
+  "source": {
+    "name": "Subscription Sales Manager",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_subscriptionsalesmanager%7CPAPPID.ee6890da-37cd-4259-8240-d44ed40e3d0f",
+    "lastModified": "2026-05-05T04:27:21.9454029+00:00",
+    "appVersion": "26.2604.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.nubetech.it/documentation-sales-contract/",
+    "sourceHash": "sha256:48fe4a884d0760558d96c966b28269ff86aab7a8cede9091d4dbc4091895689a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:48fe4a884d0760558d96c966b28269ff86aab7a8cede9091d4dbc4091895689a",
+    "mappedOn": null,
+    "summary": "Sales contracts generating recurring orders and invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sales contracts that generate sales orders or invoices",
+      "Contract has validity dates, billing frequency and billing type",
+      "Choose order or invoice as generated document in setup",
+      "Links contract entries to existing orders or invoices",
+      "Tracks posted vs pending invoiced amounts"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

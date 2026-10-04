@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.ci-ai-connector-app|PAPPID.da921ca0-ef7c-4896-b837-6e5bb8f44fe6",
+  "guid": "da921ca0-ef7c-4896-b837-6e5bb8f44fe6",
+  "publisherId": "fenwicksoftware",
+  "offerId": "ci-ai-connector-app",
+  "source": {
+    "name": "Cargo Import for Advanced Inventory",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.ci-ai-connector-app%7CPAPPID.da921ca0-ef7c-4896-b837-6e5bb8f44fe6",
+    "lastModified": "2026-04-14T06:56:53.8809583+00:00",
+    "appVersion": "26.0.260326.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/cargo-import/docs",
+    "sourceHash": "sha256:9049ffdda678963a2b8019e7c6a420d474e9284e0d165dc5de4ce38407ffd923"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9049ffdda678963a2b8019e7c6a420d474e9284e0d165dc5de4ce38407ffd923",
+    "mappedOn": null,
+    "summary": "Connects Cargo Import with Advanced Inventory",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Rules and filters for purchase and transfer orders in Cargo Import"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Cargo Import",
+      "Advanced Inventory"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two Fenwick products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

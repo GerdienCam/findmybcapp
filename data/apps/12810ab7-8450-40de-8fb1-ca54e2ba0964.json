@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcreplicationmanagement-is|PAPPID.12810ab7-8450-40de-8fb1-ca54e2ba0964",
+  "guid": "12810ab7-8450-40de-8fb1-ca54e2ba0964",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcreplicationmanagement-is",
+  "source": {
+    "name": "Master Data and Documents Replication Management",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcreplicationmanagement-is%7CPAPPID.12810ab7-8450-40de-8fb1-ca54e2ba0964",
+    "lastModified": "2025-10-20T20:24:07.3712502+00:00",
+    "appVersion": "24.7.62.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:0e0778829501ed3fe7089db5678017ac7b1981459c2573e096d8d407a9be9b73"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0e0778829501ed3fe7089db5678017ac7b1981459c2573e096d8d407a9be9b73",
+    "mappedOn": null,
+    "summary": "Replicates master data and documents across subsidiary companies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Designates a master company where master data is maintained and replicated to selected receiving companies",
+      "Replicates master data between companies in the same database or across databases/environments via web services",
+      "Unlimited number of tables can be set up for replication",
+      "When an original entry changes, sends the data held in linked master data tables",
+      "ETL-style field value transformation per receiving company",
+      "Optionally runs insert/delete/modify triggers in the destination company",
+      "Changes sent in real time or on a schedule",
+      "Replicates pictures, notes and links",
+      "Exchanges documents between group companies, not only master data",
+      "One-way synchronization recommended"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

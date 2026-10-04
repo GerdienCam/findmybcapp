@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.lanhamassociates|AID.e-ship_and_e-receive|PAPPID.f8750ab4-1d72-455d-b773-5b487a0ac106",
+  "guid": "f8750ab4-1d72-455d-b773-5b487a0ac106",
+  "publisherId": "lanhamassociates",
+  "offerId": "e-ship_and_e-receive",
+  "source": {
+    "name": "Lanham E-Ship and E-Receive",
+    "publisher": "Lanham Associates",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lanhamassociates%7CAID.e-ship_and_e-receive%7CPAPPID.f8750ab4-1d72-455d-b773-5b487a0ac106",
+    "lastModified": "2026-08-28T15:37:22.4097457+00:00",
+    "appVersion": "28.1.23.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ebchelplanhamassoc.helpdocsonline.com/home",
+    "sourceHash": "sha256:a2426afbe144b970cc435ef732d8b2c6f9634c4c45039db91ab6f51b37b83ba9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a2426afbe144b970cc435ef732d8b2c6f9634c4c45039db91ab6f51b37b83ba9",
+    "mappedOn": null,
+    "summary": "Packing, shipping and barcode receiving",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Packing and shipping inside Business Central",
+      "Pack line scanning for shipping accuracy",
+      "Rate shopping for package carriers and LTL (addressed need)",
+      "Barcode scanning in receiving",
+      "Updates PO receipts and inventory automatically from scans",
+      "Generates item barcodes on receipt",
+      "Works without full warehouse management structure"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DK",
+      "GB",
+      "NL",
+      "NZ",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.telosteamprebenrasmussen|AID.telosteam_palette_integration|PAPPID.36164672-bba3-436e-98df-6e9a38889e5d",
+  "guid": "36164672-bba3-436e-98df-6e9a38889e5d",
+  "publisherId": "telosteamprebenrasmussen",
+  "offerId": "telosteam_palette_integration",
+  "source": {
+    "name": "Telos Team Palette Integration",
+    "publisher": "Telos Team ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.telosteamprebenrasmussen%7CAID.telosteam_palette_integration%7CPAPPID.36164672-bba3-436e-98df-6e9a38889e5d",
+    "lastModified": "2026-06-29T14:18:25.0784655+00:00",
+    "appVersion": "4.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://online.superoffice.com/cust11537/CS/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=dk&&noCookies=true&action=viewKbCategory&id=16",
+    "sourceHash": "sha256:4e543191dea1ebd86264e54de368c211aa278f5db07ae09d86da9811e972bf2f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4e543191dea1ebd86264e54de368c211aa278f5db07ae09d86da9811e972bf2f",
+    "mappedOn": null,
+    "summary": "Integrates BC with Palette invoice workflow",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Two-way integration with Palette invoice workflow via web services",
+      "Purchase order matching",
+      "Handles variance amounts",
+      "Supports POs without items",
+      "VAT handling incl. zero-rated companies and corrections",
+      "Multiple companies, accruals, assets, preliminary booking, partial payments",
+      "Dimensions, currencies and project integration",
+      "Returns payment dates and voucher numbers to Palette",
+      "Lookup from BC to Palette invoices",
+      "Logs communication between Palette and BC"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Palette"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

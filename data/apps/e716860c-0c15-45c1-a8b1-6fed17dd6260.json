@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.go_sweet_spot_integration|PAPPID.e716860c-0c15-45c1-a8b1-6fed17dd6260",
+  "guid": "e716860c-0c15-45c1-a8b1-6fed17dd6260",
+  "publisherId": "thetasystemslimited",
+  "offerId": "go_sweet_spot_integration",
+  "source": {
+    "name": "GoSweetSpot Integration",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.go_sweet_spot_integration%7CPAPPID.e716860c-0c15-45c1-a8b1-6fed17dd6260",
+    "lastModified": "2026-06-02T20:05:28.933876+00:00",
+    "appVersion": "26.0.4.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/GSSI",
+    "sourceHash": "sha256:4ee3f1966d9564526d8d67cd630b2461e942127066ac9601ea2bc71505408323"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4ee3f1966d9564526d8d67cd630b2461e942127066ac9601ea2bc71505408323",
+    "mappedOn": null,
+    "summary": "Shipping via GoSweetSpot",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Synchronises shipping packages between GoSweetSpot and BC",
+      "Shipping address validation",
+      "Transfers order details from BC to GoSweetSpot",
+      "Tracking information and links in BC",
+      "Premium: automatically identifies best freight option",
+      "Premium: creates shipments and prints labels when posting warehouse shipments",
+      "Requires a GoSweetSpot subscription",
+      "Only available in Australia and New Zealand"
+    ],
+    "countries": [
+      "AU",
+      "NZ"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "GoSweetSpot"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

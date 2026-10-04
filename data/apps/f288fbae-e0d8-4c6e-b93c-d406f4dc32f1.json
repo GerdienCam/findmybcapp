@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_customermonitor|PAPPID.f288fbae-e0d8-4c6e-b93c-d406f4dc32f1",
+  "guid": "f288fbae-e0d8-4c6e-b93c-d406f4dc32f1",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_customermonitor",
+  "source": {
+    "name": "Customer Monitor",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_customermonitor%7CPAPPID.f288fbae-e0d8-4c6e-b93c-d406f4dc32f1",
+    "lastModified": "2025-12-01T09:36:23.6346417+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.nubetech.it/en_US/monitor-clienti",
+    "sourceHash": "sha256:f0bd5855ec457c6ed426a68e7cd94755f47947bc77b3196efa9d63b602b9b1fe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f0bd5855ec457c6ed426a68e7cd94755f47947bc77b3196efa9d63b602b9b1fe",
+    "mappedOn": null,
+    "summary": "One place to monitor sales orders of customers and how they are fulfilled",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-order-allocation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-search-navigation"
+    ],
+    "claims": [
+      "Single page overview of sales order lines across customers",
+      "Filters by customer, country, ship-to, order, item, variant, location, dates and agent",
+      "Fulfillability status based on stock and incoming supply",
+      "Shows shipments in preparation and warehouse shipment numbers",
+      "Divides each line into shipped and outstanding quantities",
+      "Update shipping, requested, promised and planned dates from one dialog",
+      "Date filters support BC date formulas"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

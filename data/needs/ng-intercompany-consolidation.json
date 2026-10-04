@@ -1,0 +1,270 @@
+{
+  "id": "ng-intercompany-consolidation",
+  "order": 54,
+  "label": "Intercompany and group consolidation",
+  "description": "Booking transactions between own companies and consolidating and eliminating group financials.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "high",
+  "statements": [
+    "Intercompany and group consolidation",
+    "Booking transactions between own companies and consolidating and eliminating group financials.",
+    "When one of our companies invoices another we post everything twice by hand",
+    "Intercompany in BC is clumsy and the two sides never match",
+    "Is there an app that makes intercompany postings automatic between BC companies?",
+    "Our intercompany balances differ every month and finding why takes days",
+    "intercompany automation BC",
+    "A purchase order in company A should create a sales order in company B",
+    "We charge management fees to our subsidiaries every month",
+    "One company pays an invoice on behalf of another and we need both sides booked",
+    "Intercompany loan between parent and subsidiary with interest",
+    "The intercompany inbox and outbox confuse everyone",
+    "Our companies are in different BC environments, can intercompany still work?",
+    "Recharging shared costs like IT and rent to the other group companies",
+    "Intercompany across currencies, DKK company selling to the EUR company",
+    "We need intercompany reconciliation before we can consolidate",
+    "Drop shipment from our warehouse company to our sales company's customer",
+    "How do we transfer stock between two legal entities with an invoice?",
+    "Intercompany journal so finance can post both sides in one go",
+    "Our IC partner setup broke after we added a new company",
+    "Want to see all open intercompany balances across the group on one page",
+    "Every month end we chase the other companies to book their side",
+    "Group consolidation is done in Excel and takes a week every month",
+    "Is there a consolidation app for Business Central?",
+    "We need a consolidated P&L and balance sheet for our five companies",
+    "Eliminating intercompany sales and receivables is manual and error prone",
+    "consolidation BC multiple companies",
+    "Our subsidiaries are in different currencies and translation to EUR is a pain",
+    "Some of our companies are on BC and one is on another system, can we still consolidate?",
+    "Minority interest and partial ownership need to be handled in the group accounts",
+    "The standard consolidation in BC is too basic for us",
+    "Consolidate companies across different BC environments and tenants",
+    "Board wants group figures on day 3 after month end",
+    "We need eliminations for intercompany profit in stock",
+    "Consolidated cash flow statement for the group",
+    "Map each subsidiary's chart of accounts to the group chart",
+    "Run consolidation for a holding company with 12 entities",
+    "Elimination entries should be kept separate from the companies' own books",
+    "Historical rate for equity and average rate for P&L in the consolidation",
+    "We want consolidated reporting without building a separate consolidation company",
+    "Group reporting for our bank covenants",
+    "Consolidated budget versus actual for the whole group"
+  ],
+  "questions": [
+    {
+      "id": "setup",
+      "text": "How are your group companies set up in Business Central?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Separate companies in one environment",
+          "patterns": [
+            "same (tenant|database)",
+            "within the same tenant",
+            "in the same database"
+          ]
+        },
+        {
+          "label": "Different environments, tenants or databases",
+          "patterns": [
+            "(across|different|between|multiple|any number of) tenants",
+            "multitenant",
+            "companies and tenants",
+            "(across|different|external) (multiple )?environments",
+            "or environment\\b",
+            "across databases",
+            "different (bc )?(subscriptions|servers|databases)",
+            "odata",
+            "web services?",
+            "secure api"
+          ]
+        },
+        {
+          "label": "Several legal entities inside one company",
+          "patterns": [
+            "(in|within) (a )?(single|one) (bc|business central) company",
+            "entities in one",
+            "single instance",
+            "global dimension 1",
+            "business groups?"
+          ]
+        },
+        {
+          "label": "Other ERP systems too",
+          "patterns": [
+            "other erp",
+            "\\bsap\\b",
+            "any primary accounting system",
+            "other systems",
+            "group consolidation system"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Separate companies in one environment": 0.07,
+        "Different environments, tenants or databases": 0.24,
+        "Several legal entities inside one company": 0.09,
+        "Other ERP systems too": 0.11
+      }
+    },
+    {
+      "id": "flow",
+      "text": "What needs to move between companies?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Sales and purchase orders and invoices",
+          "patterns": [
+            "\\borders?\\b",
+            "invoices?",
+            "credit (memo|note)s?"
+          ]
+        },
+        {
+          "label": "Master data (items, customers, vendors)",
+          "patterns": [
+            "master (data|record|company)",
+            "replicat",
+            "central(ised|ized)? (maintenance|setup|data)",
+            "shared? (customer|master)",
+            "single copy"
+          ]
+        },
+        {
+          "label": "Journals and G/L entries",
+          "patterns": [
+            "journal",
+            "g/l",
+            "general ledger",
+            "ledger entries"
+          ]
+        },
+        {
+          "label": "Stock visibility and transfers",
+          "patterns": [
+            "inventory",
+            "availability",
+            "stock transfer",
+            "\\bwarehouses\\b",
+            "warehouse (documents|receipts?|integration)",
+            "drop ?ship"
+          ]
+        },
+        {
+          "label": "Project costs and hours",
+          "patterns": [
+            "project",
+            "resource hours",
+            "time entries"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sales and purchase orders and invoices": 0.47,
+        "Master data (items, customers, vendors)": 0.29,
+        "Journals and G/L entries": 0.4,
+        "Stock visibility and transfers": 0.29,
+        "Project costs and hours": 0.07
+      }
+    },
+    {
+      "id": "consol",
+      "text": "Do you need group consolidation or eliminations for reporting?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, consolidated statements or eliminations",
+          "patterns": [
+            "consolidat",
+            "eliminat",
+            "group (financial )?report",
+            "ownership percentage"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, consolidated statements or eliminations": 0.27
+      }
+    },
+    {
+      "id": "tracking",
+      "text": "Do lot or serial numbers need to follow goods between companies?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "\\blots?\\b",
+            "serial",
+            "item tracking",
+            "batch tracking"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.16
+      }
+    },
+    {
+      "id": "dropship",
+      "text": "Does one company ship directly to the other's customers?",
+      "help": "Drop shipment or direct delivery.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "drop ?shipments?",
+            "direct delivery",
+            "special order"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.18
+      }
+    },
+    {
+      "id": "currency",
+      "text": "Do your group companies use different currencies?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "currenc",
+            "exchange rate"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.16
+      }
+    }
+  ]
+}

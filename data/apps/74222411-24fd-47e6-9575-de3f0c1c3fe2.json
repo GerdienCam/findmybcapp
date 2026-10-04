@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.cap_vision|AID.74222411-24fd-47e6-9575-de3f0c1c3fe2|PAPPID.74222411-24fd-47e6-9575-de3f0c1c3fe2",
+  "guid": "74222411-24fd-47e6-9575-de3f0c1c3fe2",
+  "publisherId": "cap_vision",
+  "offerId": "74222411-24fd-47e6-9575-de3f0c1c3fe2",
+  "source": {
+    "name": "CAP Sales - Pay On Sales Order",
+    "publisher": "Cap Vision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cap_vision%7CAID.74222411-24fd-47e6-9575-de3f0c1c3fe2%7CPAPPID.74222411-24fd-47e6-9575-de3f0c1c3fe2",
+    "lastModified": "2026-07-01T14:41:45.855988+00:00",
+    "appVersion": "27.202607.46085.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.capvision-cloud.fr/fr-FR/cap-sales-payonsalesorder/index.html",
+    "sourceHash": "sha256:15decd2b15847c9d8ac643821a3c69e48eead51ac02ee7a3c3052d42f37e1aa2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:15decd2b15847c9d8ac643821a3c69e48eead51ac02ee7a3c3052d42f37e1aa2",
+    "mappedOn": null,
+    "summary": "Records customer payments on sales orders, posted at invoicing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Record payments on sales orders before invoicing",
+      "Payment posted and applied with invoice",
+      "Cancel or modify payments after posting"
+    ],
+    "countries": [
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "IT",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

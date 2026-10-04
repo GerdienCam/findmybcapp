@@ -1,0 +1,161 @@
+{
+  "id": "ng-stock-movements",
+  "order": 68,
+  "label": "Moving stock between locations and bins",
+  "description": "Transfers and internal movements of stock between locations, bins and warehouses.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "high",
+  "statements": [
+    "Moving stock between locations and bins",
+    "Transfers and internal movements of stock between locations, bins and warehouses.",
+    "Transfer orders in BC take too many steps just to move a box to the other shop",
+    "We need to move stock between our two warehouses and see it in transit",
+    "Is there an app to scan items from one bin to another?",
+    "When someone moves a pallet nobody updates the bin in BC",
+    "We want the pick bins replenished from bulk automatically before they run empty",
+    "Our shops call the central warehouse for stock and it is all done by email",
+    "bin to bin transfer scanner",
+    "Stock that is on the truck between warehouses disappears from both locations",
+    "We need to move goods to a different company in our group and the paperwork is a nightmare",
+    "How do I move quantity from one bin to another in BC without a warehouse document?",
+    "We want a simple mobile screen to move stock between locations",
+    "Our retail stores need to be restocked from the warehouse every week based on what they sold",
+    "The reclassification journal is too confusing for our warehouse staff",
+    "We want to know who moved the item and when",
+    "Interwarehouse transfers take two days to show in the system",
+    "Is there a way to create transfer orders in bulk for many items?",
+    "replenish pick locations from reserve",
+    "The showroom borrows stock from the main warehouse and it is never moved in the system",
+    "We need to move lots and serial numbers between locations and keep the tracking",
+    "Our warehouse staff move stock all day but BC still thinks it is in the receiving area"
+  ],
+  "questions": [
+    {
+      "id": "units",
+      "text": "Do you move stock as pallets, boxes or containers you want to track as one unit?",
+      "options": [
+        {
+          "label": "Yes, track whole pallets/boxes",
+          "patterns": [
+            "license plat",
+            "handling unit",
+            "packag",
+            "pallet",
+            "container",
+            "\\blpns?\\b"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, track whole pallets/boxes": 0.57
+      }
+    },
+    {
+      "id": "scan",
+      "text": "Do your warehouse staff use handheld scanners?",
+      "options": [
+        {
+          "label": "Yes, scanners or mobile",
+          "patterns": [
+            "barcode",
+            "scann",
+            "mobile",
+            "handheld",
+            "pdas?\\b",
+            "\\bscans?\\b"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, scanners or mobile": 0.64
+      }
+    },
+    {
+      "id": "kind",
+      "text": "What kind of movement is the problem?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Transfers between locations",
+          "patterns": [
+            "transfer order",
+            "transfers?\\b.*location",
+            "between (locations|warehouses)",
+            "transfer route",
+            "transfer system",
+            "stock transfer"
+          ]
+        },
+        {
+          "label": "Moves inside the warehouse (bins, zones)",
+          "patterns": [
+            "\\bbins?\\b",
+            "zone",
+            "staging",
+            "between warehouses, zones"
+          ]
+        },
+        {
+          "label": "Inbound shipments and containers in transit",
+          "patterns": [
+            "container number",
+            "bill of lading",
+            "cross-?dock",
+            "in-transit",
+            "transshipment",
+            "shipping container",
+            "asn"
+          ]
+        },
+        {
+          "label": "Items sent out for repair or return",
+          "patterns": [
+            "returnable",
+            "repair",
+            "gate pass"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Transfers between locations": 0.57,
+        "Moves inside the warehouse (bins, zones)": 0.36,
+        "Inbound shipments and containers in transit": 0.43,
+        "Items sent out for repair or return": 0.07
+      }
+    },
+    {
+      "id": "approve",
+      "text": "Must someone approve or confirm transfers?",
+      "options": [
+        {
+          "label": "Yes, approval or receipt confirmation",
+          "patterns": [
+            "approv",
+            "acknowledg",
+            "validat"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, approval or receipt confirmation": 0.21
+      }
+    }
+  ]
+}

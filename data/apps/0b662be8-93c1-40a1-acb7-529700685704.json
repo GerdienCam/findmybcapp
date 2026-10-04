@@ -1,0 +1,111 @@
+{
+  "appId": "PUBID.foodware365|AID.aptean_trade_management|PAPPID.0b662be8-93c1-40a1-acb7-529700685704",
+  "guid": "0b662be8-93c1-40a1-acb7-529700685704",
+  "publisherId": "foodware365",
+  "offerId": "aptean_trade_management",
+  "source": {
+    "name": "Aptean Trade Management for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_trade_management%7CPAPPID.0b662be8-93c1-40a1-acb7-529700685704",
+    "lastModified": "2026-09-29T10:03:26.8452398+00:00",
+    "appVersion": "2603.2.344319.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/TMT/",
+    "sourceHash": "sha256:5d3e1a686d6f6ef2ec98d7126146ef185c60cada57b4e7fd2af46b431723e1aa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5d3e1a686d6f6ef2ec98d7126146ef185c60cada57b4e7fd2af46b431723e1aa",
+    "mappedOn": null,
+    "summary": "Customer trade agreements and rates for food and beverage",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-rebates",
+      "ng-sales-commissions",
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Separate trade plan per trade agreement",
+      "Calculates rebates, royalties, billbacks and payables",
+      "Applied to document or captured as accruals",
+      "Pays accrued amounts via invoices or sales credit memos",
+      "Multi-level rates based on minimums",
+      "Mark-ups/discounts per item, item group, customer, customer group, ship-to and UoM",
+      "Fixed per UoM, percentage or per gross/net weight",
+      "Calculation levels define sequence of trade agreements",
+      "Manual price/discount override during sales order entry",
+      "Agreements indefinite or time-bound"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "ET",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "LU",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

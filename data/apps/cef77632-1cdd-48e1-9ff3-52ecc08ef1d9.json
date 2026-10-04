@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.dynaway|AID.dynaway-forms-bc|PAPPID.cef77632-1cdd-48e1-9ff3-52ecc08ef1d9",
+  "guid": "cef77632-1cdd-48e1-9ff3-52ecc08ef1d9",
+  "publisherId": "dynaway",
+  "offerId": "dynaway-forms-bc",
+  "source": {
+    "name": "Dynaway Forms",
+    "publisher": "Dynaway A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.dynaway-forms-bc%7CPAPPID.cef77632-1cdd-48e1-9ff3-52ecc08ef1d9",
+    "lastModified": "2026-08-28T09:46:28.8000436+00:00",
+    "appVersion": "2607.0.1508.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.dynaway.com/eam-bc/work-order-checklist/manage/",
+    "sourceHash": "sha256:5cfae46a36b8f9056a9b42b2e7387c05c2c9d842ee1f3e8093bda9fc3bfc7b7f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5cfae46a36b8f9056a9b42b2e7387c05c2c9d842ee1f3e8093bda9fc3bfc7b7f",
+    "mappedOn": null,
+    "summary": "Forms base module for Dynaway Safe Work and EAM",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-hr-health-safety",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Cannot be used stand-alone; requires Dynaway Safe Work or EAM",
+      "Form designer/builder"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Dynaway EAM",
+      "Dynaway Safe Work"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Base module dependency for Dynaway Safe Work / EAM; not usable stand-alone",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

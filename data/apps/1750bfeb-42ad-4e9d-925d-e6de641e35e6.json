@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_b2b|PAPPID.1750bfeb-42ad-4e9d-925d-e6de641e35e6",
+  "guid": "1750bfeb-42ad-4e9d-925d-e6de641e35e6",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_b2b",
+  "source": {
+    "name": "NBT_B2B",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_b2b%7CPAPPID.1750bfeb-42ad-4e9d-925d-e6de641e35e6",
+    "lastModified": "2026-10-01T14:01:54.1787435+00:00",
+    "appVersion": "26.2610.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.nubetech.it/en_US/b2b-documentazione",
+    "sourceHash": "sha256:b877b2395dcbd77d280d75750e725fac877f54316fcb12315737d28629d4d4fd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b877b2395dcbd77d280d75750e725fac877f54316fcb12315737d28629d4d4fd",
+    "mappedOn": null,
+    "summary": "B2B portal for customer and agent orders",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-channels",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-assortment-catalogs"
+    ],
+    "claims": [
+      "Customers view stock and prices, build carts and place orders on a B2B portal",
+      "Portal also used by sales agents",
+      "Customer-specific catalogs",
+      "Real-time availability and pricing; carts inserted into BC",
+      "Order overview with status and reorder of past purchases",
+      "Minimum order amounts, password expiration and custom shipping date calculations",
+      "Logs all portal accesses",
+      "Authorized shipping companies per customer with carrier and date selection at checkout"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

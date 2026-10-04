@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.alterna|AID.9cd64c63-a27d-4dd8-abbf-5f2507d3260e|PAPPID.9cd64c63-a27d-4dd8-abbf-5f2507d3260e",
+  "guid": "9cd64c63-a27d-4dd8-abbf-5f2507d3260e",
+  "publisherId": "alterna",
+  "offerId": "9cd64c63-a27d-4dd8-abbf-5f2507d3260e",
+  "source": {
+    "name": "Data Access Hub",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.9cd64c63-a27d-4dd8-abbf-5f2507d3260e%7CPAPPID.9cd64c63-a27d-4dd8-abbf-5f2507d3260e",
+    "lastModified": "2026-09-23T07:44:12.0307428+00:00",
+    "appVersion": "1.2.11.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/data-access-hub/",
+    "sourceHash": "sha256:ee372d6736744f4eca63311e0889d7cad5ee51801cb0313d30ed9b40e57f72d5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ee372d6736744f4eca63311e0889d7cad5ee51801cb0313d30ed9b40e57f72d5",
+    "mappedOn": null,
+    "summary": "Publishes BC data APIs for KepleriA Power BI app",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Publishes BC data as APIs for KepleriA in a Box Power BI models",
+      "Covers sales, purchase, inventory, ledger entries, projects, production, cash flow",
+      "Ready-to-use datasets, reports and dashboards per business area",
+      "Requires KepleriA in a Box subscription"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Power BI",
+      "KepleriA in a Box"
+    ],
+    "requires": [
+      "KepleriA in a Box"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.multisoft|AID.wmsshipitconnector|PAPPID.f8b24419-dbf6-4c44-83a6-4abeb7867e37",
+  "guid": "f8b24419-dbf6-4c44-83a6-4abeb7867e37",
+  "publisherId": "multisoft",
+  "offerId": "wmsshipitconnector",
+  "source": {
+    "name": "WMS MobileNAV - ShipIT 365 Connector",
+    "publisher": "MULTISOFT KFT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.multisoft%7CAID.wmsshipitconnector%7CPAPPID.f8b24419-dbf6-4c44-83a6-4abeb7867e37",
+    "lastModified": "2026-07-09T08:25:46.1411988+00:00",
+    "appVersion": "1.0.0.26",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://partner.multisoft.hu/help-wms-mobilenav/",
+    "sourceHash": "sha256:63bfe488ea70349614d447a2e615db78f2ff727e1a54ecbb401cbe79eccc9e23"
+  },
+  "mapping": {
+    "sourceHash": "sha256:63bfe488ea70349614d447a2e615db78f2ff727e1a54ecbb401cbe79eccc9e23",
+    "mappedOn": null,
+    "summary": "Links WMS MobileNAV with ShipIT 365 for carrier shipping",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Connects mobile device directly to 1,400 carriers through ShipIT 365",
+      "Book transport and print shipping labels from the warehouse on mobile",
+      "No need to log into carrier sites",
+      "No switching between apps on the mobile device"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ShipIT 365 (idyn)"
+    ],
+    "requires": [
+      "WMS MobileNAV",
+      "ShipIT 365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.braintree_vox|AID.bc_workflow_pack|PAPPID.59c07e95-8cf3-4b8b-ab5c-2e0ed9155261",
+  "guid": "59c07e95-8cf3-4b8b-ab5c-2e0ed9155261",
+  "publisherId": "braintree_vox",
+  "offerId": "bc_workflow_pack",
+  "source": {
+    "name": "Workflow Pack",
+    "publisher": "Braintree by Vox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.braintree_vox%7CAID.bc_workflow_pack%7CPAPPID.59c07e95-8cf3-4b8b-ab5c-2e0ed9155261",
+    "lastModified": "2026-08-28T14:23:45.6878292+00:00",
+    "appVersion": "27.0.20260806.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://braintree-brainworx.github.io/BC-Workflow-Pack/",
+    "sourceHash": "sha256:fee48e35b954e52fb9f9ec985710d7bddd4990db2e5e77f34365e3151bb25fd6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fee48e35b954e52fb9f9ec985710d7bddd4990db2e5e77f34365e3151bb25fd6",
+    "mappedOn": null,
+    "summary": "Advanced approval workflow templates",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-budget-build",
+      "ng-journals",
+      "ng-stock-counting"
+    ],
+    "claims": [
+      "G/L budget approval workflow",
+      "Journal batch total amount as workflow condition",
+      "Item journal approval with attachments on lines",
+      "Physical inventory order approval",
+      "Sales margin approval when below threshold per location/posting group/item"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "appId": "PUBID.foodware365|AID.profiles|PAPPID.47e67431-7e02-4efa-bd61-51b7ae02e9f6",
+  "guid": "47e67431-7e02-4efa-bd61-51b7ae02e9f6",
+  "publisherId": "foodware365",
+  "offerId": "profiles",
+  "source": {
+    "name": "Aptean Profiles for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.profiles%7CPAPPID.47e67431-7e02-4efa-bd61-51b7ae02e9f6",
+    "lastModified": "2026-08-26T05:38:02.9248775+00:00",
+    "appVersion": "2601.1.339378.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/PRO",
+    "sourceHash": "sha256:9a0453562604b792d46a80ee48368e8d04dd5893b93df5328c94a2acdcbe10d7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9a0453562604b792d46a80ee48368e8d04dd5893b93df5328c94a2acdcbe10d7",
+    "mappedOn": null,
+    "summary": "Predefined profiles for order picking and fulfillment",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-order-allocation"
+    ],
+    "claims": [
+      "Customer profiles set required lots, items, certificates and attribute values for sales orders",
+      "Include and exclude filters define customer profiles",
+      "Different profiles by season or other variable",
+      "Shows lots available to fulfil an order given customer requirements",
+      "Works with Aptean Trading Board to filter inventory by profile"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Aptean Food & Beverage ERP"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

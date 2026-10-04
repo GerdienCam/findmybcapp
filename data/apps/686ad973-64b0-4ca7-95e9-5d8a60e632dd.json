@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.relateit|AID.atradius_flow_2|PAPPID.686ad973-64b0-4ca7-95e9-5d8a60e632dd",
+  "guid": "686ad973-64b0-4ca7-95e9-5d8a60e632dd",
+  "publisherId": "relateit",
+  "offerId": "atradius_flow_2",
+  "source": {
+    "name": "AtradiusFlow",
+    "publisher": "RelateIT A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.relateit%7CAID.atradius_flow_2%7CPAPPID.686ad973-64b0-4ca7-95e9-5d8a60e632dd",
+    "lastModified": "2026-09-21T09:39:27.8387853+00:00",
+    "appVersion": "3.1.0.9",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://atradius-flow.com/help-center",
+    "sourceHash": "sha256:66c6cd6b059c7ed8ac9de4f1bad209dfa768fee7e3bd1a1e61a254d436ac161b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:66c6cd6b059c7ed8ac9de4f1bad209dfa768fee7e3bd1a1e61a254d436ac161b",
+    "mappedOn": null,
+    "summary": "Credit insurance administration with Atradius",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-company-data",
+      "ng-collections"
+    ],
+    "claims": [
+      "Integrates real-time Atradius credit insurance data",
+      "Apply for and manage credit limits with automatic updates and decision notifications",
+      "Lists pending applications and customers with sales but no Atradius limit",
+      "Handles discretionary credit limits",
+      "Report non-payment cases",
+      "Structured credit limit approval flow",
+      "Updates Atradius limits on customer cards and distributes across multiple debtors",
+      "Calculates premium bases",
+      "Shows cost of capital on sales orders and invoices",
+      "Monitors customer payment performance",
+      "Tracks group credit exposure across company groups",
+      "Dashboard with key credit metrics",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [
+      "BE",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "HK",
+      "IT",
+      "LV"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Atradius"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

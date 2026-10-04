@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.tecman|AID.clever-wms-plus|PAPPID.8dbd26ab-de63-40e6-9224-7caab8427f56",
+  "guid": "8dbd26ab-de63-40e6-9224-7caab8427f56",
+  "publisherId": "tecman",
+  "offerId": "clever-wms-plus",
+  "source": {
+    "name": "Clever WMS Plus",
+    "publisher": "Clever Dynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecman%7CAID.clever-wms-plus%7CPAPPID.8dbd26ab-de63-40e6-9224-7caab8427f56",
+    "lastModified": "2026-08-28T11:27:35.3962132+00:00",
+    "appVersion": "1.3.4.159508",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cleverdynamics.com/clever-wms/clever-warehouse-plus/user-guide/setup/bin-formats",
+    "sourceHash": "sha256:06cb1f6d551d171c3cb2b29583d843adcd2b60a6df060ad37f2fe7fccee771cb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:06cb1f6d551d171c3cb2b29583d843adcd2b60a6df060ad37f2fe7fccee771cb",
+    "mappedOn": null,
+    "summary": "Extra warehouse rules and logic to maximize capacity",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-warehouse-setup",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-warehouse-kpis",
+      "ng-stock-movements",
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Pick rules prioritising time-sensitive orders or courier collection times",
+      "Bin rules, e.g. separate bins per variant",
+      "Minimum distance rules for contamination-risk products",
+      "Visibility and location of stock about to expire",
+      "Automated pick bin replenishment",
+      "Bulk orders fulfilled from bulk locations",
+      "Employee output summaries",
+      "Warehouse heatmap of popular bins"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "appId": "PUBID.improjects1600264753714|AID.im_pos_connector_foundation|PAPPID.ba468edf-d03d-4232-bdb4-da0ad47e208c",
+  "guid": "ba468edf-d03d-4232-bdb4-da0ad47e208c",
+  "publisherId": "improjects1600264753714",
+  "offerId": "im_pos_connector_foundation",
+  "source": {
+    "name": "POS Connector Foundation",
+    "publisher": "IM-PROJECTS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.improjects1600264753714%7CAID.im_pos_connector_foundation%7CPAPPID.ba468edf-d03d-4232-bdb4-da0ad47e208c",
+    "lastModified": "2026-10-01T07:45:07.7069414+00:00",
+    "appVersion": "1.0.0.38",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://posconnectorfoundation.help.im-projects.com/",
+    "sourceHash": "sha256:28e3de838ee1615a2f02b1b78d9ee23249830737368d71fc56f926d668e7c5dd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:28e3de838ee1615a2f02b1b78d9ee23249830737368d71fc56f926d668e7c5dd",
+    "mappedOn": null,
+    "summary": "Integrates external POS systems for sales and promotions",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-hospitality",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Sales-based integration between an external POS system and BC",
+      "Sales documents, promotions, loyalty and payments handled in the external POS",
+      "BC manages all back-office operations",
+      "Suitable for chains with multiple points of sale",
+      "Supports size and color products for fashion retailers",
+      "Supports Standard and Premium editions"
+    ],
+    "countries": [
+      "DE",
+      "DO",
+      "ES",
+      "FR",
+      "GB",
+      "IT",
+      "MX",
+      "PT"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "pt"
+    ],
+    "industries": [
+      "Catering",
+      "Fashion",
+      "Hospitality",
+      "Hotels",
+      "Restaurants",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

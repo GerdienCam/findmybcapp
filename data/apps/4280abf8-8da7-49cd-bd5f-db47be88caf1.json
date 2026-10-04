@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.alpha_solutions_ag|AID.asms|PAPPID.4280abf8-8da7-49cd-bd5f-db47be88caf1",
+  "guid": "4280abf8-8da7-49cd-bd5f-db47be88caf1",
+  "publisherId": "alpha_solutions_ag",
+  "offerId": "asms",
+  "source": {
+    "name": "Aproda Equipment and Tools Solution (ASMS)",
+    "publisher": "Aproda AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alpha_solutions_ag%7CAID.asms%7CPAPPID.4280abf8-8da7-49cd-bd5f-db47be88caf1",
+    "lastModified": "2026-08-12T14:03:05.5299842+00:00",
+    "appVersion": "27.0.0.86",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aproda.ch/aproda-equipment-tool",
+    "sourceHash": "sha256:838d4c4f95ed046cbbb07862c4ea930482a167bffccd361fecd95713a28e038d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:838d4c4f95ed046cbbb07862c4ea930482a167bffccd361fecd95713a28e038d",
+    "mappedOn": null,
+    "summary": "Equipment and tools trade, rental and service management",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-equipment-dealers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-order-allocation",
+      "ng-svc-requests",
+      "ng-ux-automation"
+    ],
+    "claims": [
+      "Workflows for different kinds of sales processes",
+      "Move to the next workflow step with a button",
+      "Automated order backlog allocation",
+      "Item types for machines, supplementary items and components",
+      "Creates service orders within the sales module",
+      "Creates and manages rental machines",
+      "Registers service labor on sales orders"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Equipment trade",
+      "Rental",
+      "Service"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

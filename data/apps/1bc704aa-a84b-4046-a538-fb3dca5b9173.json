@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.finance-pack-app|PAPPID.1bc704aa-a84b-4046-a538-fb3dca5b9173",
+  "guid": "1bc704aa-a84b-4046-a538-fb3dca5b9173",
+  "publisherId": "fenwicksoftware",
+  "offerId": "finance-pack-app",
+  "source": {
+    "name": "Fenwick Apps Finance Pack",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.finance-pack-app%7CPAPPID.1bc704aa-a84b-4046-a538-fb3dca5b9173",
+    "lastModified": "2026-07-05T23:32:04.5040132+00:00",
+    "appVersion": "26.0.260618.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/pack/finance/",
+    "sourceHash": "sha256:67bec82eaaf1967036686a1903501dde06638bde5cd9ea7eb5c17e883e4dc150"
+  },
+  "mapping": {
+    "sourceHash": "sha256:67bec82eaaf1967036686a1903501dde06638bde5cd9ea7eb5c17e883e4dc150",
+    "mappedOn": null,
+    "summary": "Finance suite: approvals, cash flow and financial tools",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Bundle of four apps: Advanced Approvals, Dimension Updater, GL Expected Cost Posting, Cash Flow Statement",
+      "Approval templates for item journals, vendor bank accounts and blocking of master data",
+      "User-specific approval limits and leave scheduling",
+      "Batch dimension and salesperson/purchaser updates on posted documents and ledger entries",
+      "Accrual entry on receipt for services and non-inventory items",
+      "Cash flow statement built from Cash Flow entries, Budgets and Account Schedules"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.team-vision-bulgaria|AID.tv_trade_policy|PAPPID.a44a5b24-e3c7-4094-8ddb-1d6821ca69c2",
+  "guid": "a44a5b24-e3c7-4094-8ddb-1d6821ca69c2",
+  "publisherId": "team-vision-bulgaria",
+  "offerId": "tv_trade_policy",
+  "source": {
+    "name": "Trade Policies",
+    "publisher": "Team VISION - BULGARIA Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.team-vision-bulgaria%7CAID.tv_trade_policy%7CPAPPID.a44a5b24-e3c7-4094-8ddb-1d6821ca69c2",
+    "lastModified": "2026-09-03T11:41:13.5441687+00:00",
+    "appVersion": "28.0.2609.01",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://team-vision.bg/en/support/",
+    "sourceHash": "sha256:1177e1cb55225224ef85cacbba5d95f8e26f67bd742054ad41cdfc50d46fa829"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1177e1cb55225224ef85cacbba5d95f8e26f67bd742054ad41cdfc50d46fa829",
+    "mappedOn": null,
+    "summary": "Trade policies, promotions and partner contracts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-rolecenters"
+    ],
+    "claims": [
+      "Multi-level discount matrices by customer, customer group, item, item group and manufacturer",
+      "Splits discount into company and manufacturer discount %",
+      "Promotions triggered by quantity or sales amount thresholds",
+      "Automatic free bonus items",
+      "Promotion documents with draft, release and posting lifecycle",
+      "Location-specific promotions",
+      "Investment contract tracking with contracted, active and overdue balances",
+      "Applies policies automatically on sales quotes, orders and invoices",
+      "Dedicated role center for commercial managers and operators"
+    ],
+    "countries": [],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

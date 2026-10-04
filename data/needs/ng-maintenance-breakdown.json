@@ -1,0 +1,277 @@
+{
+  "id": "ng-maintenance-breakdown",
+  "order": 35,
+  "label": "Breakdowns, downtime and maintenance cost",
+  "description": "Corrective repairs, maintenance budgets, uptime monitoring, utilisation and cost per machine.",
+  "type": "bpc",
+  "area": "Fixed assets & maintenance",
+  "relevance": "medium",
+  "statements": [
+    "Breakdowns, downtime and maintenance cost",
+    "Corrective repairs, maintenance budgets, uptime monitoring, utilisation and cost per machine.",
+    "We need a maintenance budget per machine and per site",
+    "maintenance budget",
+    "Maintenance spend always ends up way over budget and nobody sees it coming",
+    "How much should we budget for vehicle servicing next year?",
+    "Want planned maintenance jobs to feed the budget automatically",
+    "Separate budget for planned and unplanned repairs",
+    "When a machine breaks, operators tell someone in the hallway and it gets forgotten",
+    "We need a simple way for staff to report a broken machine",
+    "breakdown repair work order",
+    "Want to log every breakdown with cause and downtime",
+    "Repair costs on our machines are posted somewhere in G/L and we can't see them per machine",
+    "Is there an app where operators scan a QR code on the machine to report a fault?",
+    "Urgent repairs need to override planned maintenance",
+    "External repair company invoices should be linked to the asset they fixed",
+    "Our van broke down, how do we track repair cost and days off the road?",
+    "Repair history per machine so we know which ones keep failing",
+    "Spare parts used for emergency repairs need to come out of stock",
+    "Facility issues like leaking roofs and broken doors need tickets",
+    "Which machines break down most often?",
+    "machine downtime tracking",
+    "We want mean time between failures on our equipment",
+    "Machine availability per week, we track it on paper",
+    "Dashboard of our equipment health",
+    "Are our maintenance efforts reducing breakdowns?",
+    "What did we spend on repairs per machine last year?",
+    "Maintenance costs are posted to one G/L account and we can't split them per asset",
+    "maintenance cost per asset",
+    "Is this old truck now costing more to repair than it's worth?",
+    "Want maintenance costs per vehicle including parts, labour and external invoices",
+    "Planned vs unplanned maintenance cost split",
+    "Maintenance cost per site for management",
+    "We need to know total cost of ownership per asset",
+    "Repair invoices from garages should be linked to the vehicle",
+    "Report showing maintenance cost vs budget per machine",
+    "Which asset types have the highest maintenance cost?",
+    "Our accountant wants a dimension per asset just to track repair costs",
+    "We need to track machine hours and van mileage in BC",
+    "Which of our excavators are standing idle?",
+    "asset utilization report",
+    "Want to charge equipment use to projects by the day",
+    "Kilometre readings for our company cars are in a spreadsheet",
+    "Should we sell machines that are hardly used?",
+    "Equipment booking so two projects don't plan the same crane",
+    "Utilization of our trucks per week",
+    "Internal rental of tools between departments with usage charges",
+    "We need counters on assets that drivers update on a phone",
+    "How often is each meeting room and company car booked?",
+    "Equipment usage should feed into maintenance planning"
+  ],
+  "questions": [
+    {
+      "id": "trigger",
+      "text": "What should trigger planned maintenance?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Calendar (every X weeks)",
+          "patterns": [
+            "calendar",
+            "\\btime\\b",
+            "interval",
+            "recurring",
+            "frequency",
+            "preventive maintenance plans",
+            "by time"
+          ]
+        },
+        {
+          "label": "Usage (hours, km, cycles, meter readings)",
+          "patterns": [
+            "meter",
+            "usage",
+            "counter",
+            "runtime",
+            "cycles",
+            "\\boutput\\b",
+            "hours, km"
+          ]
+        },
+        {
+          "label": "Condition or sensor readings",
+          "patterns": [
+            "(usage|time),? or condition",
+            "condition[- ]based",
+            "equipment condition",
+            "monitoring of parameters",
+            "object monitoring",
+            "sensing",
+            "predictive",
+            "severity trigger",
+            "health"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Calendar (every X weeks)": 0.52,
+        "Usage (hours, km, cycles, meter readings)": 0.48,
+        "Condition or sensor readings": 0.38
+      }
+    },
+    {
+      "id": "requests",
+      "text": "How do breakdowns and repair needs get reported?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Staff file a request that maintenance approves",
+          "patterns": [
+            "(work|maintenance|service) requests?",
+            "requests? (intake|management)",
+            "work and request",
+            "create (maintenance )?requests"
+          ]
+        },
+        {
+          "label": "Technicians work on a phone or tablet",
+          "patterns": [
+            "mobile",
+            "\\bapp\\b",
+            "offline",
+            "technicians attach photos",
+            "gps"
+          ]
+        },
+        {
+          "label": "By email",
+          "patterns": [
+            "e-?mail"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Staff file a request that maintenance approves": 0.33,
+        "Technicians work on a phone or tablet": 0.38,
+        "By email": 0.1
+      }
+    },
+    {
+      "id": "kpis",
+      "text": "What do you most need to see afterwards?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Downtime and reliability (MTTR, MTBF)",
+          "patterns": [
+            "downtime",
+            "mttr",
+            "mtbf",
+            "failure",
+            "reliability",
+            "uptime"
+          ]
+        },
+        {
+          "label": "Cost per machine or asset",
+          "patterns": [
+            "cost per",
+            "costs? per (asset|machine|activity)",
+            "asset-level cost",
+            "total cost",
+            "cost evaluati",
+            "cost lines",
+            "maintenance costs",
+            "posts? (labor|material)"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Downtime and reliability (MTTR, MTBF)": 0.29,
+        "Cost per machine or asset": 0.38
+      }
+    },
+    {
+      "id": "production",
+      "text": "Does maintenance need to fit around production planning in BC?",
+      "options": [
+        {
+          "label": "Yes, we plan production in BC",
+          "patterns": [
+            "production",
+            "machine cent"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we plan production in BC": 0.19
+      }
+    },
+    {
+      "id": "external",
+      "text": "Do outside contractors or bought-in parts play a big part?",
+      "options": [
+        {
+          "label": "Yes, we use contractors or buy parts per job",
+          "patterns": [
+            "contractor",
+            "external service provider",
+            "vendor (services|management|spend)",
+            "purchase requisition",
+            "purchase orders",
+            "purchase documents"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we use contractors or buy parts per job": 0.33
+      }
+    },
+    {
+      "id": "objects",
+      "text": "What do you mainly maintain?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Machines and plant equipment",
+          "patterns": [
+            "machine",
+            "plant",
+            "equipment",
+            "mold",
+            "tools"
+          ]
+        },
+        {
+          "label": "Vehicles and fleet",
+          "patterns": [
+            "vehicle",
+            "fleet",
+            "tire",
+            "waybill",
+            "gps"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Machines and plant equipment": 0.43,
+        "Vehicles and fleet": 0.19
+      }
+    }
+  ]
+}

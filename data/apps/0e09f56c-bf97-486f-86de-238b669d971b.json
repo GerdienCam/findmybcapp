@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.origo|AID.origo_cloud_events_documentexchange|PAPPID.0e09f56c-bf97-486f-86de-238b669d971b",
+  "guid": "0e09f56c-bf97-486f-86de-238b669d971b",
+  "publisherId": "origo",
+  "offerId": "origo_cloud_events_documentexchange",
+  "source": {
+    "name": "Origo Cloud Events DocEx",
+    "publisher": "Origo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.origo_cloud_events_documentexchange%7CPAPPID.0e09f56c-bf97-486f-86de-238b669d971b",
+    "lastModified": "2026-09-01T14:59:08.3787163+00:00",
+    "appVersion": "28.1.87.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://origopublic.blob.core.windows.net/help/Cloud%20Events%20DocEx/bc28/en-US/index.html",
+    "sourceHash": "sha256:40d82897dc8edc7320d14ce05aa86cb42e0c20bd1ab53052c35387a9a4160f08"
+  },
+  "mapping": {
+    "sourceHash": "sha256:40d82897dc8edc7320d14ce05aa86cb42e0c20bd1ab53052c35387a9a4160f08",
+    "mappedOn": null,
+    "summary": "E-invoicing and document exchange via Peppol networks",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Send and receive e-invoices via Advania, Unimaze and InExchange",
+      "Peppol BIS 3.0 compliance",
+      "Advania inbox management, PDF retrieval, OCR and XML conversion",
+      "Unimaze payment registration, rejection handling and validation",
+      "InExchange delivery tracking and buyer/seller lookup",
+      "Generates UBL 2.1 XML for orders, invoices, credit notes, statements and despatch advices",
+      "Use multiple providers simultaneously",
+      "Callable by MCP-compatible clients and REST callers",
+      "Requires BC 28.0 or later"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Peppol",
+      "Advania",
+      "Unimaze",
+      "InExchange"
+    ],
+    "requires": [
+      "Origo Cloud Events Core"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

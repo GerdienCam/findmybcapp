@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.1646983474339|AID.cnpack|PAPPID.2e4abe99-246f-4bf8-8d26-6c121cf4f8e7",
+  "guid": "2e4abe99-246f-4bf8-8d26-6c121cf4f8e7",
+  "publisherId": "1646983474339",
+  "offerId": "cnpack",
+  "source": {
+    "name": "Weihan China Financial Localization Package",
+    "publisher": "广州微翰计算机科技有限公司",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1646983474339%7CAID.cnpack%7CPAPPID.2e4abe99-246f-4bf8-8d26-6c121cf4f8e7",
+    "lastModified": "2024-11-20T22:32:33.6503953+00:00",
+    "appVersion": "1.0.0.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://en.weihansoft.com/news/100.html",
+    "sourceHash": "sha256:4c38764f35b6644775b1fc6c9bcf109a030f1bb94fea48f35564f2b04fce7352"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4c38764f35b6644775b1fc6c9bcf109a030f1bb94fea48f35564f2b04fce7352",
+    "mappedOn": null,
+    "summary": "Chinese statutory accounting and financial statements for PRC compliance",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-einvoicing"
+    ],
+    "claims": [
+      "China statutory financial statements including bi-column balance sheet and cash flow statement",
+      "Prints vouchers in Chinese layout familiar to auditors",
+      "Commonly used detailed ledger reports for local accountants",
+      "Exports order information to Golden Tax System for issuing official Fapiao invoices",
+      "Imports issued invoices from Golden Tax System back into BC",
+      "Supports China Accounting Principle"
+    ],
+    "countries": [
+      "CN"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Golden Tax System"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

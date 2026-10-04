@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.systemsolutions|AID.shiprush-usps-ups-fedex|PAPPID.7c9e6bad-cecf-4075-88d3-77c12ad3bbba",
+  "guid": "7c9e6bad-cecf-4075-88d3-77c12ad3bbba",
+  "publisherId": "systemsolutions",
+  "offerId": "shiprush-usps-ups-fedex",
+  "source": {
+    "name": "ShipRush Integration",
+    "publisher": "System Solutions LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemsolutions%7CAID.shiprush-usps-ups-fedex%7CPAPPID.7c9e6bad-cecf-4075-88d3-77c12ad3bbba",
+    "lastModified": "2026-09-07T08:04:42.7716949+00:00",
+    "appVersion": "1.6.1.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://syssolutionsllc.com/user-guides/shiprush-integration-for-d365-business-central/",
+    "sourceHash": "sha256:6d6e42600b07a58874ed2d6a259fa168d045640c5a854a8d467f70ef9e0ddfc5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6d6e42600b07a58874ed2d6a259fa168d045640c5a854a8d467f70ef9e0ddfc5",
+    "mappedOn": null,
+    "summary": "Rate shopping and shipping labels via ShipRush",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Ship USPS, UPS, FedEx and LTL freight carriers",
+      "Ship from sales orders, warehouse picks, POS transactions",
+      "Print shipping labels from any carrier",
+      "Real-time carrier rate shopping with discounted rates",
+      "Optionally pass shipping charges to customers",
+      "Records shipping charges and tracking in BC",
+      "Custom emails, tracking pages and packing slips",
+      "Supports USB scales such as Dymo, Fairbanks, Mettler Toledo",
+      "Requires ShipRush Speedy or Warehouse plan"
+    ],
+    "countries": [
+      "US"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "ShipRush",
+      "USPS",
+      "UPS",
+      "FedEx"
+    ],
+    "requires": [
+      "ShipRush"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

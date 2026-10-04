@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_test_certificate_mgt_aided_data_mgt|PAPPID.3e668064-fe57-4660-8c70-4691f8c0270a",
+  "guid": "3e668064-fe57-4660-8c70-4691f8c0270a",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_test_certificate_mgt_aided_data_mgt",
+  "source": {
+    "name": "m+m Test Certificate Management with Aided Data Management",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_test_certificate_mgt_aided_data_mgt%7CPAPPID.3e668064-fe57-4660-8c70-4691f8c0270a",
+    "lastModified": "2026-06-07T11:51:46.3576251+00:00",
+    "appVersion": "28.0.371175.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:73fcbf92826e691effd681ab26dc306c848b300515e952ebab8eff69545b9cae"
+  },
+  "mapping": {
+    "sourceHash": "sha256:73fcbf92826e691effd681ab26dc306c848b300515e952ebab8eff69545b9cae",
+    "mappedOn": null,
+    "summary": "Test certificate rules that can block deliveries",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-quality-hold"
+    ],
+    "claims": [
+      "Uses Aided Data Management rules for test certificates",
+      "Creates generic test templates by rules",
+      "Stops delivery without a positive test",
+      "Creates a report from the test result"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Test Certificate Management",
+      "m+m Aided Data Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

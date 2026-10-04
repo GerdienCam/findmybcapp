@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.knowledgeandstrategy|AID.ks_quality_management|PAPPID.90189566-06f9-43da-97c7-d1d8e72f7bc3",
+  "guid": "90189566-06f9-43da-97c7-d1d8e72f7bc3",
+  "publisherId": "knowledgeandstrategy",
+  "offerId": "ks_quality_management",
+  "source": {
+    "name": "KS Quality Management",
+    "publisher": "Knowledge & Strategy Information Co., Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.knowledgeandstrategy%7CAID.ks_quality_management%7CPAPPID.90189566-06f9-43da-97c7-d1d8e72f7bc3",
+    "lastModified": "2025-10-16T08:17:51.6252267+00:00",
+    "appVersion": "1.1.100.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.ksinform.com/bc/HelpDocumentation_KSFin.pdf",
+    "sourceHash": "sha256:3506e1e78b7ca15afd6511ec361a0bda082c81c804ab6b1b74bc2bda2c7ed704"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3506e1e78b7ca15afd6511ec361a0bda082c81c804ab6b1b74bc2bda2c7ed704",
+    "mappedOn": null,
+    "summary": "Quality inspections for procurement and manufacturing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-nonconformance-capa",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-hold",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-quality-analysis",
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Multi-criteria inspections with pass/fail",
+      "Corrective action plans with accountability",
+      "Disposition: accept, quarantine, rework, scrap, return",
+      "Production order inspection automation",
+      "Vendor receipt quality gates",
+      "Return merchandise authorization processing",
+      "Quality-aware availability and blocking",
+      "Assembly component and finished goods inspection",
+      "Location-based QC on transfer orders",
+      "Inspections created automatically from BC transactions",
+      "Power Automate workflow templates",
+      "Email notifications and Teams quality reviews",
+      "Quality KPI dashboards",
+      "Cost of quality tracking",
+      "Supplier scorecards",
+      "Audit trail reports",
+      "Role-based security: admin, inspector, read-only",
+      "RESTful API endpoints",
+      "Essentials plan: purchase and inventory inspection only; Premium adds sales return, assembly, manufacturing"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

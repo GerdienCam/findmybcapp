@@ -1,0 +1,182 @@
+{
+  "id": "ng-ux-correct-posted",
+  "order": 185,
+  "label": "Correcting mistakes on posted documents",
+  "description": "Changing or deleting fields on posted documents and entries (texts, external numbers, dates, references) under control, and super-user data editing.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "medium",
+  "statements": [
+    "Correcting mistakes on posted documents",
+    "Changing or deleting fields on posted documents and entries (texts, external numbers, dates, references) under control, and super-user data editing.",
+    "Typo in the external document number on a posted invoice",
+    "edit posted sales invoice fields",
+    "Why do I have to make a credit memo just to fix a text?",
+    "Wrong due date on a posted purchase invoice",
+    "We need to change the 'your reference' after posting",
+    "Super user needs to fix data that BC won't let us touch",
+    "Delete a posted document that was created by mistake in a test",
+    "Correct the shipping address on a posted shipment",
+    "Edit posted data with a log of what was changed",
+    "Changing a description on a ledger entry",
+    "Posted the payment with the wrong text",
+    "Is there a safe way to change posted data?"
+  ],
+  "questions": [
+    {
+      "id": "how",
+      "text": "How do you want to fix a mistake on a posted document?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Edit or delete the posted record directly",
+          "patterns": [
+            "modify",
+            "delete",
+            "\\bedits?\\b",
+            "edit any",
+            "change (serial|payment)",
+            "modifying"
+          ]
+        },
+        {
+          "label": "Reverse it with correcting entries",
+          "patterns": [
+            "revers",
+            "reposting",
+            "undo receipt",
+            "reopen"
+          ]
+        },
+        {
+          "label": "Only fix descriptions, dimensions or terms",
+          "patterns": [
+            "dimension",
+            "posting description",
+            "payment terms",
+            "source code",
+            "comments"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Edit or delete the posted record directly": 0.47,
+        "Reverse it with correcting entries": 0.41,
+        "Only fix descriptions, dimensions or terms": 0.29
+      }
+    },
+    {
+      "id": "what",
+      "text": "What usually needs correcting?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Sales and purchase documents",
+          "patterns": [
+            "sales",
+            "purchase",
+            "invoice",
+            "credit memo",
+            "posted documents"
+          ]
+        },
+        {
+          "label": "G/L and ledger entries",
+          "patterns": [
+            "g/l",
+            "ledger entr",
+            "general ledger",
+            "posted transactions",
+            "vat settlement"
+          ]
+        },
+        {
+          "label": "Production, stock or serial numbers",
+          "patterns": [
+            "production",
+            "consumption",
+            "serial",
+            "inventory",
+            "stock"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sales and purchase documents": 0.47,
+        "G/L and ledger entries": 0.47,
+        "Production, stock or serial numbers": 0.35
+      }
+    },
+    {
+      "id": "audit",
+      "text": "Do auditors need a log of who changed what?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, log every change",
+          "patterns": [
+            "log",
+            "track",
+            "history",
+            "audit",
+            "revert",
+            "undone"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, log every change": 0.41
+      }
+    },
+    {
+      "id": "who",
+      "text": "Who will make the corrections?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Finance users in daily work",
+          "patterns": [
+            "no setup required",
+            "credit memo",
+            "payment terms",
+            "posting description",
+            "comments",
+            "permissions, posting dates",
+            "preview"
+          ]
+        },
+        {
+          "label": "Only admins or our partner",
+          "patterns": [
+            "administrator",
+            "partner",
+            "developer",
+            "password",
+            "restrict",
+            "admin"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Finance users in daily work": 0.35,
+        "Only admins or our partner": 0.35
+      }
+    }
+  ]
+}

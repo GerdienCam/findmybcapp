@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.centralsolutions1591256491708|AID.cs_delivery_plans|PAPPID.1d0c89b4-7ae3-4dff-ae8e-a4821786e898",
+  "guid": "1d0c89b4-7ae3-4dff-ae8e-a4821786e898",
+  "publisherId": "centralsolutions1591256491708",
+  "offerId": "cs_delivery_plans",
+  "source": {
+    "name": "CS Delivery Plans",
+    "publisher": "Central Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cs_delivery_plans%7CPAPPID.1d0c89b4-7ae3-4dff-ae8e-a4821786e898",
+    "lastModified": "2026-05-12T05:03:11.6633699+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://central-solutions.nl/cs-delivery-plans-help-en/",
+    "sourceHash": "sha256:fc15376504009b04ae8787d66a34e0bfa29d748bd89bba0f84b2de4f20c8af6c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fc15376504009b04ae8787d66a34e0bfa29d748bd89bba0f84b2de4f20c8af6c",
+    "mappedOn": null,
+    "summary": "Allocates available inventory to sales orders and combines deliveries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-order-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds",
+      "ng-allocation-picking",
+      "ng-conn-3pl"
+    ],
+    "claims": [
+      "Delivery worksheet showing partial/complete deliverability",
+      "Automatic reservation by delivery date, customer priority or order date",
+      "One-click reservations per selected priority",
+      "Credit check with user authorization before shipment",
+      "Combines orders for the same delivery address into one warehouse document",
+      "3PL warehouse documents with extra source information",
+      "Separate view of reservations on inventory and planned receipts",
+      "Creates warehouse documents from the worksheet",
+      "Fixed per-tenant pricing based on minimum 100 users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

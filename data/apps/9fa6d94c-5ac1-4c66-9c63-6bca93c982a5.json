@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.succeedit_5140844|AID.business_central_advanced_integrations|PAPPID.9fa6d94c-5ac1-4c66-9c63-6bca93c982a5",
+  "guid": "9fa6d94c-5ac1-4c66-9c63-6bca93c982a5",
+  "publisherId": "succeedit_5140844",
+  "offerId": "business_central_advanced_integrations",
+  "source": {
+    "name": "Advanced Integration",
+    "publisher": "SucceedIT B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.succeedit_5140844%7CAID.business_central_advanced_integrations%7CPAPPID.9fa6d94c-5ac1-4c66-9c63-6bca93c982a5",
+    "lastModified": "2026-07-31T09:50:35.6671777+00:00",
+    "appVersion": "27.0.20260724.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.succeedit.nl/en/business-central-apps/advanced-integrations/",
+    "sourceHash": "sha256:ede3ef049dd1542476cfbe22255f4cdcba03ebaeccbafc6bd22bf6d2642e0625"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ede3ef049dd1542476cfbe22255f4cdcba03ebaeccbafc6bd22bf6d2642e0625",
+    "mappedOn": null,
+    "summary": "Custom webhooks and API endpoints for integration",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-3pl"
+    ],
+    "claims": [
+      "Customizable webhook notifications to external systems with criteria",
+      "Inventory receipt endpoint posts to warehouse receipts or purchase orders",
+      "Inventory shipment endpoint posts to warehouse shipments or sales orders",
+      "Stock mutation endpoint from external WMS to inventory journal",
+      "Price list endpoint for exporting BC price lists",
+      "30-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

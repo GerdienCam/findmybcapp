@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.navertica|AID.nvr-workreg-work|PAPPID.2ddbc4f9-9df7-479b-8b8b-7e395c154d49",
+  "guid": "2ddbc4f9-9df7-479b-8b8b-7e395c154d49",
+  "publisherId": "navertica",
+  "offerId": "nvr-workreg-work",
+  "source": {
+    "name": "Navertica Work Registration Work",
+    "publisher": "NAVERTICA a.s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.nvr-workreg-work%7CPAPPID.2ddbc4f9-9df7-479b-8b8b-7e395c154d49",
+    "lastModified": "2026-03-05T13:44:57.8601304+00:00",
+    "appVersion": "26.1.309492.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.navertica.com/en-us/Work%20Registration%20-%20Work/Index/",
+    "sourceHash": "sha256:040844220ce3add15e73db19919a4997b8b69a1d52c4c47b91500812efe7d39d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:040844220ce3add15e73db19919a4997b8b69a1d52c4c47b91500812efe7d39d",
+    "mappedOn": null,
+    "summary": "Employee attendance records",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-payroll-comp",
+      "ng-proj-time"
+    ],
+    "claims": [
+      "Terminal login and logout recorded as activity entries",
+      "Work registration entries from posted activity entries or manual journal",
+      "Optionally creates resource ledger entries with work registration entries",
+      "Works on desktop, tablet and phone",
+      "Data can be used to calculate wages",
+      "Card IDs for users and employee groups",
+      "Work types to classify what employees work on",
+      "Parallel work registration option",
+      "Cancel or correct work registration entries",
+      "Supports Essentials and Premium editions; Premium not required"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

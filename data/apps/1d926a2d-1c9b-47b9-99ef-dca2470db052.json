@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionattachdc|PAPPID.1d926a2d-1c9b-47b9-99ef-dca2470db052",
+  "guid": "1d926a2d-1c9b-47b9-99ef-dca2470db052",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionattachdc",
+  "source": {
+    "name": "VisionAttach for Document Capture",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionattachdc%7CPAPPID.1d926a2d-1c9b-47b9-99ef-dca2470db052",
+    "lastModified": "2026-03-27T10:44:47.1804636+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.visionpeople.dk/help/1d926a2d-1c9b-47b9-99ef-dca2470db052/index",
+    "sourceHash": "sha256:d372b903968510c5af1a40ada1b54fe83037e872aa68ad41846ae42ae333d64d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d372b903968510c5af1a40ada1b54fe83037e872aa68ad41846ae42ae333d64d",
+    "mappedOn": null,
+    "summary": "Combines Continia Document Capture with BC attachments",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Unified viewer shows Document Capture documents (PDF, TIFF) and attachments",
+      "Combined Documents factbox on list pages",
+      "Drag-and-drop upload on all document pages",
+      "Works across purchase and sales documents incl. posted",
+      "Supports general journals and G/L entries",
+      "Automatic configuration, no setup required"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "VisionAttach",
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "id": "ng-vert-nonprofit-education",
+  "order": 222,
+  "label": "Solutions for nonprofits, associations and education",
+  "description": "Solutions for nonprofits and NGOs (grants, funds, donors), member associations and sports clubs, and schools and universities (students, enrolment, fees).",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "low",
+  "statements": [
+    "Solutions for nonprofits, associations and education",
+    "Solutions for nonprofits and NGOs (grants, funds, donors), member associations and sports clubs, and schools and universities (students, enrolment, fees).",
+    "Grant and fund accounting for our charity",
+    "membership system for our association on BC",
+    "Student fees and enrolment",
+    "Donor management linked to finance",
+    "Sports club memberships and bookings",
+    "Restricted funds reporting for the board"
+  ],
+  "questions": [
+    {
+      "id": "kind",
+      "text": "What kind of organisation are you?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Nonprofit, charity or NGO",
+          "patterns": [
+            "nonprofit",
+            "non-profit",
+            "charit",
+            "\\bngo\\b",
+            "grant",
+            "donor",
+            "\\bfunds?\\b",
+            "fundrais"
+          ]
+        },
+        {
+          "label": "Member association or sports club",
+          "patterns": [
+            "member",
+            "association",
+            "sports club",
+            "professional organi[sz]ation"
+          ]
+        },
+        {
+          "label": "School, college, university or childcare",
+          "patterns": [
+            "student",
+            "universit",
+            "college",
+            "education",
+            "institution",
+            "learning",
+            "childcare",
+            "child-centric"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Nonprofit, charity or NGO": 0.4,
+        "Member association or sports club": 0.2,
+        "School, college, university or childcare": 0.4
+      }
+    },
+    {
+      "id": "need",
+      "text": "What is the main job you need help with?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Fund and grant accounting",
+          "patterns": [
+            "fund accounting",
+            "fund ledger",
+            "grant",
+            "restricted fund",
+            "by fund",
+            "fund balances"
+          ]
+        },
+        {
+          "label": "Donors and fundraising",
+          "patterns": [
+            "donor",
+            "donation",
+            "fundrais",
+            "giving"
+          ]
+        },
+        {
+          "label": "Members, events and bookings",
+          "patterns": [
+            "member",
+            "\\bevents?\\b",
+            "booking",
+            "member reservation",
+            "conference"
+          ]
+        },
+        {
+          "label": "Enrolment, attendance and fee billing",
+          "patterns": [
+            "enrol",
+            "admission",
+            "attendance",
+            "billing",
+            "fee collection",
+            "student billing"
+          ]
+        },
+        {
+          "label": "Courses, exams and online learning",
+          "patterns": [
+            "course",
+            "exam",
+            "grading",
+            "grades",
+            "assessment",
+            "learning",
+            "lecture"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Fund and grant accounting": 0.33,
+        "Donors and fundraising": 0.2,
+        "Members, events and bookings": 0.33,
+        "Enrolment, attendance and fee billing": 0.33,
+        "Courses, exams and online learning": 0.4
+      }
+    },
+    {
+      "id": "portal",
+      "text": "Should students, parents or members be able to sign up or pay online?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, via a web portal or our website",
+          "patterns": [
+            "portal",
+            "via website",
+            "online payment",
+            "self-register",
+            "online hostel booking",
+            "online giving",
+            "microsoft bookings"
+          ]
+        },
+        {
+          "label": "No, staff handle it in BC",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, via a web portal or our website": 0.27
+      }
+    },
+    {
+      "id": "approve",
+      "text": "Do you need approvals for applications, costs or budgets?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, approval workflows",
+          "patterns": [
+            "approval"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, approval workflows": 0.2
+      }
+    }
+  ]
+}

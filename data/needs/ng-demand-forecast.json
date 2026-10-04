@@ -1,0 +1,276 @@
+{
+  "id": "ng-demand-forecast",
+  "order": 43,
+  "label": "Forecasting what we will sell",
+  "description": "Sales and item demand forecasting and agreeing one consensus forecast.",
+  "type": "bpc",
+  "area": "Planning & budgets",
+  "relevance": "high",
+  "statements": [
+    "Forecasting what we will sell",
+    "Sales and item demand forecasting and agreeing one consensus forecast.",
+    "Our sales reps forecast in their own Excel files and nobody can add them up",
+    "We want each sales rep to enter expected sales per customer per month",
+    "sales forecast per customer",
+    "How do we import our sales forecast from Excel into Business Central?",
+    "Management asks what we will sell next quarter and I have to guess from last year",
+    "Is there an app that predicts the coming months' sales from our BC sales history?",
+    "We want to forecast sales per region and product group for the next 12 months",
+    "Our sister company buys from us and we need their sales forecast in our system",
+    "The sales forecast lives in a spreadsheet that is outdated the moment it is saved",
+    "rolling 12 month sales forecast",
+    "Export our sales history so our external forecasting tool can use it",
+    "Key account managers know about big deals coming but that never makes it into the forecast",
+    "We never know how much of each item customers will order next month",
+    "Is there an app that calculates a demand forecast per item from BC sales history?",
+    "demand forecasting Business Central",
+    "Our seasonal items always run out in spring and pile up in autumn",
+    "The production forecast in BC has to be typed in by hand item by item",
+    "We want the system to suggest a forecast and let the planner adjust it",
+    "How do I forecast demand for 3,000 items without doing them one at a time in Excel",
+    "Forecast per item and per location for our three warehouses",
+    "We need to take trends and seasonality into account, not just last year's average",
+    "New items have no history, how do we forecast them",
+    "Customers order in big irregular lumps, so a simple average gives silly forecasts",
+    "AI forecasting of item demand for wholesale",
+    "We want to forecast spare parts that sell only a few times a year",
+    "Our buyer guesses quantities from gut feeling and we either run out or overstock",
+    "Can Business Central use machine learning to predict item sales?",
+    "We need a weekly demand forecast per SKU for our fast movers",
+    "Promotions and one-off big orders distort our history and ruin the forecast",
+    "How much will our customers order of each product over the next 6 months",
+    "Demand forecast that feeds MRP in BC",
+    "Is there a way for key customers to share their expected orders with us so we can plan stock?",
+    "Sales says one number, purchasing says another, and we never agree on the forecast",
+    "We want a monthly meeting where everyone signs off on one demand plan",
+    "forecast approval workflow",
+    "How do we let sales adjust the system forecast and keep track of who changed what",
+    "Is there an app for collaborative forecasting where reps, marketing and planners all contribute?",
+    "The final forecast lives in someone's email and nobody knows which version is current",
+    "Every time marketing runs a promotion we run out of stock because purchasing did not know",
+    "How do we add the expected extra sales from a campaign into our forecast",
+    "promotion uplift forecast",
+    "We want a campaign calendar that purchasing and the warehouse can see in advance",
+    "Plan next year's campaigns by month with budget and expected sales lift",
+    "Is there an app that links planned sales campaigns in BC to item demand?"
+  ],
+  "questions": [
+    {
+      "id": "where",
+      "text": "Where should the forecast be calculated?",
+      "help": "Some apps forecast inside BC, others connect BC to a separate planning tool.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "inside (microsoft dynamics 365 )?business central",
+            "data in bc\\b",
+            "from item ledger",
+            "historical (demand )?data in bc",
+            "no data leaves",
+            "forecast worksheet",
+            "forecasting worksheet",
+            "demand forecast calculated",
+            "generates forecasts from historical",
+            "forecasts from historical",
+            "item budgets and forecasts generated",
+            "populates item budgets",
+            "flexible forecast|one line per item",
+            "(on|from) historical (item )?data"
+          ]
+        },
+        {
+          "label": "In a separate planning tool connected to BC",
+          "patterns": [
+            "madden",
+            "eazystock",
+            "powerpredictive",
+            "forecastx",
+            "\\bagr\\b",
+            "\\bwair\\b",
+            "slim4",
+            "cloud app connected",
+            "integrates with any erp",
+            "exports? (bc )?data to"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inside Business Central": 0.45,
+        "In a separate planning tool connected to BC": 0.41
+      }
+    },
+    {
+      "id": "output",
+      "text": "What should the forecast update for you?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Reorder points and safety stock",
+          "patterns": [
+            "reorder point",
+            "safety stock",
+            "reorder quantit",
+            "planning parameters",
+            "minimum order level",
+            "maximum inventory"
+          ]
+        },
+        {
+          "label": "Purchase or production order proposals",
+          "patterns": [
+            "order proposal",
+            "purchase proposal",
+            "recommended order",
+            "create production orders",
+            "transfers purchase",
+            "approved purchase orders",
+            "indicates when to replenish"
+          ]
+        },
+        {
+          "label": "BC demand forecast / MRP planning",
+          "patterns": [
+            "production forecast",
+            "demand forecast overview",
+            "mrp",
+            "mps",
+            "demand planning tables",
+            "synchroni[sz]es? (sales budget and )?(with )?(production|demand) forecast",
+            "calculate plan"
+          ]
+        },
+        {
+          "label": "Sales or item budgets",
+          "patterns": [
+            "budget"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Reorder points and safety stock": 0.32,
+        "Purchase or production order proposals": 0.23,
+        "BC demand forecast / MRP planning": 0.27,
+        "Sales or item budgets": 0.14
+      }
+    },
+    {
+      "id": "method",
+      "text": "How should the forecast be worked out?",
+      "multi": false,
+      "options": [
+        {
+          "label": "AI or machine learning",
+          "patterns": [
+            "ai-(powered|driven|generated)",
+            "azure ai",
+            "with ai\\b",
+            "machine learning",
+            "cortana",
+            "microsoft's forecasting models"
+          ]
+        },
+        {
+          "label": "Statistical methods with seasonality",
+          "patterns": [
+            "statistical",
+            "seasonal",
+            "best[- ]fitting forecast method",
+            "picks best method",
+            "multi-formula",
+            "six forecasting algorithms",
+            "compares multiple forecasting models",
+            "back-test"
+          ]
+        },
+        {
+          "label": "Simple formulas I can adjust",
+          "patterns": [
+            "formula",
+            "adjustment factor",
+            "forecast adjustments",
+            "adjust historical",
+            "averaging and adjustments",
+            "adjusting budgets by percentage"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "AI or machine learning": 0.36,
+        "Statistical methods with seasonality": 0.36,
+        "Simple formulas I can adjust": 0.36
+      }
+    },
+    {
+      "id": "extras",
+      "text": "Do any of these matter in your planning?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Seasonal items or campaigns",
+          "patterns": [
+            "season",
+            "promotion",
+            "campaign(?!-based discount)"
+          ]
+        },
+        {
+          "label": "Forecasts per customer",
+          "patterns": [
+            "customer-specific",
+            "customer forecast"
+          ]
+        },
+        {
+          "label": "Several warehouses or locations",
+          "patterns": [
+            "location",
+            "multi-site",
+            "warehouse",
+            "hub and spoke",
+            "redistribution"
+          ]
+        },
+        {
+          "label": "Editing forecasts in Excel",
+          "patterns": [
+            "excel"
+          ]
+        },
+        {
+          "label": "ABC classification of items",
+          "patterns": [
+            "\\babc\\b",
+            "classification"
+          ]
+        },
+        {
+          "label": "None of these",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Seasonal items or campaigns": 0.23,
+        "Forecasts per customer": 0.09,
+        "Several warehouses or locations": 0.36,
+        "Editing forecasts in Excel": 0.18,
+        "ABC classification of items": 0.18
+      }
+    }
+  ]
+}

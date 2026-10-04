@@ -1,0 +1,312 @@
+{
+  "id": "ng-budget-build",
+  "order": 40,
+  "label": "Building and loading the yearly budget",
+  "description": "Developing budgets with departments, preliminary versions, spreading over periods and dimensions, revenue forecasts, approval and loading figures into BC.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "high",
+  "statements": [
+    "Building and loading the yearly budget",
+    "Developing budgets with departments, preliminary versions, spreading over periods and dimensions, revenue forecasts, approval and loading figures into BC.",
+    "Our budget is a 40-tab Excel file that breaks every year",
+    "We want department managers to enter their own budget figures and submit them for review",
+    "budgeting and planning tool for Business Central",
+    "Is there an app for budgeting P&L, balance sheet and cash flow together?",
+    "We need several versions of the budget, original and two reforecasts",
+    "Driver-based budget: headcount times salary, volume times price",
+    "Budgeting takes us three months every autumn",
+    "How do we budget per department, project and month without endless spreadsheets?",
+    "We want to budget sales per customer and item and have it roll up into the P&L",
+    "Our managers want to comment on and explain each budget line before it is approved",
+    "Consolidated budget for our group of five companies",
+    "Each department head emails me their numbers and I copy them into BC by hand",
+    "Every autumn we build the budget in 40 Excel sheets and it's a nightmare",
+    "Is there a budgeting app for BC where department heads enter their own numbers?",
+    "We want to start next year's budget from this year's actuals plus 5 percent",
+    "budget planning tool Business Central",
+    "Department managers email their budgets back in different formats",
+    "We need to plan headcount and salary cost per department for next year",
+    "How do we budget for new machines and other capex alongside the P&L?",
+    "Want a zero based budget for overhead costs this year",
+    "Our budget process takes three months and is outdated before it's finished",
+    "Can AI suggest a first draft budget from our history?",
+    "We need to budget revenue per customer group and product line",
+    "Budget per dimension, department and project, in one place",
+    "Is there something better than G/L budgets in BC for planning?",
+    "The board wants a three scenario budget: base, optimistic and pessimistic",
+    "Sales managers should enter their revenue targets and finance does the costs",
+    "We need a budgeted balance sheet and cash flow, not just the P&L",
+    "Want to plan budgets in Excel but keep them linked to BC accounts",
+    "Budget workflow where each cost center owner submits and finance consolidates",
+    "Planning the budget for a new branch we open in spring",
+    "Small company, just want a simple monthly budget for the P&L",
+    "We want a draft budget version separate from the final one",
+    "Keep a preliminary budget that nobody reports against yet",
+    "How do we store several budget drafts in BC before choosing one?",
+    "draft budget version",
+    "First rough budget to show the owner before we go into detail",
+    "Can we copy a draft budget into the final budget once it's agreed?",
+    "We have the annual budget per account but need it spread over 12 months",
+    "Spread the budget with seasonality, not just evenly",
+    "budget phasing by month",
+    "Split the total marketing budget across our four regions",
+    "Is there an app to distribute budget by last year's monthly pattern?",
+    "We budget at company level and need it broken down per department",
+    "Spreading revenue budget by working days in each month",
+    "Our budget is yearly but reporting is monthly, so the monthly variance is meaningless",
+    "Allocate shared cost budget to departments by headcount",
+    "Need to break the budget down per dimension for the department managers",
+    "Can BC spread a budget line evenly when I enter an annual amount?",
+    "Phase the budget per quarter for the bank",
+    "Importing the budget from Excel into G/L budgets keeps failing",
+    "We need to reforecast the budget every quarter and keep the original version",
+    "Copy last year's budget into this year and adjust it",
+    "budget import excel BC",
+    "Typing the budget into BC account by account takes forever",
+    "We want budgets from projects and fixed assets pulled into the G/L budget",
+    "How do we keep both the original budget and the revised forecast in BC?",
+    "Update the budget mid-year after we lost a big customer",
+    "Copy actuals into a budget as the starting point",
+    "We have budgets for 6 companies to load and want one import file",
+    "Budget lines with dimensions don't come through when we import",
+    "Need a latest estimate that combines actuals to date and budget for the rest of the year",
+    "We need the CFO to approve each department's budget before it is final",
+    "budget approval workflow",
+    "Lock the budget once the board has approved it",
+    "Who approved this budget and when?",
+    "Department heads submit, controller reviews, CEO approves",
+    "Stop people changing the budget after approval",
+    "The CFO wants a revenue forecast for the rest of the year every month",
+    "We reforecast revenue each quarter and it takes a week of spreadsheet work",
+    "revenue forecast for the P&L",
+    "How do we forecast recurring revenue from our subscriptions and service contracts?",
+    "Is there an app that projects revenue from order backlog, contracts and history in BC?",
+    "We want a revenue forecast by business unit to feed the financial plan",
+    "Bottom up revenue forecast from customers rolled into the P&L",
+    "Our bank needs a revenue projection with the loan application",
+    "Project the revenue we will invoice next month from open sales orders and projects",
+    "Year-end revenue estimate based on what we have invoiced so far plus trend",
+    "We need revenue forecasts in EUR and DKK across our companies",
+    "Forecasted revenue should update automatically when new orders are booked",
+    "How much money does each department get to run with next year",
+    "We need to split the operating budget between our three sites fairly",
+    "operating budget allocation",
+    "Management wants to move funds from marketing to sales mid-year and keep track of it",
+    "Is there a way to give each project and department a spending envelope and see what is left?",
+    "Our department heads do not know what they are allowed to spend"
+  ],
+  "questions": [
+    {
+      "id": "entry",
+      "text": "Where should people type in their budget figures?",
+      "help": "Pick all that would work for you.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Directly in BC pages",
+          "patterns": [
+            "budget matrix",
+            "accounts-by-months matrix",
+            "created in business central",
+            "saves forecast into the g/l budget",
+            "budget entry in"
+          ]
+        },
+        {
+          "label": "In Excel",
+          "patterns": [
+            "excel add-in",
+            "excel-like",
+            "from excel",
+            "excel import",
+            "excel desktop",
+            "excel export/import",
+            "integrates with excel",
+            "two-way power bi/excel"
+          ]
+        },
+        {
+          "label": "In a web portal outside BC",
+          "patterns": [
+            "web interface",
+            "web-based",
+            "browser-based",
+            "web portal",
+            "online budgeting",
+            "requires a website"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Directly in BC pages": 0.27,
+        "In Excel": 0.47,
+        "In a web portal outside BC": 0.27
+      }
+    },
+    {
+      "id": "what",
+      "text": "What kind of budget are you building?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Financial (G/L accounts)",
+          "patterns": [
+            "g/l budget",
+            "g/l journal and budget",
+            "by account",
+            "chart of accounts",
+            "financial report",
+            "budget headings"
+          ]
+        },
+        {
+          "label": "Sales or item budgets",
+          "patterns": [
+            "sales budget",
+            "item budget"
+          ]
+        },
+        {
+          "label": "Spending limits on purchases",
+          "patterns": [
+            "budget validation on pos",
+            "spending",
+            "expenditure"
+          ]
+        },
+        {
+          "label": "Statistical or non-financial figures",
+          "patterns": [
+            "statistical"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Financial (G/L accounts)": 0.53,
+        "Sales or item budgets": 0.2,
+        "Spending limits on purchases": 0.07,
+        "Statistical or non-financial figures": 0.07
+      }
+    },
+    {
+      "id": "departments",
+      "text": "Do department heads each fill in their own part of the budget?",
+      "options": [
+        {
+          "label": "Yes, departments contribute",
+          "patterns": [
+            "department heads",
+            "departments access only their own",
+            "budget owners",
+            "department budgets"
+          ]
+        },
+        {
+          "label": "No, finance does it centrally / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, departments contribute": 0.2
+      }
+    },
+    {
+      "id": "control",
+      "text": "How tightly do you control budget versions?",
+      "help": "Approval, locking and a log of who changed what.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Approval step before it's final",
+          "patterns": [
+            "approv",
+            "submitted",
+            "workflow"
+          ]
+        },
+        {
+          "label": "Lock approved budget or closed periods",
+          "patterns": [
+            "lock"
+          ]
+        },
+        {
+          "label": "Log every change",
+          "patterns": [
+            "audit trail",
+            "tracking of budget changes",
+            "adjustments logged",
+            "version control",
+            "log entries"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Approval step before it's final": 0.33,
+        "Lock approved budget or closed periods": 0.13,
+        "Log every change": 0.27
+      }
+    },
+    {
+      "id": "companies",
+      "text": "Do you budget across several companies?",
+      "options": [
+        {
+          "label": "Yes, several companies or a group",
+          "patterns": [
+            "consolidat",
+            "multi-company",
+            "multiple companies",
+            "cross-company",
+            "intercompany"
+          ]
+        },
+        {
+          "label": "No, one company / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, several companies or a group": 0.4
+      }
+    },
+    {
+      "id": "forecast",
+      "text": "Do you want help generating the forecast itself?",
+      "options": [
+        {
+          "label": "Yes, from history or AI",
+          "patterns": [
+            "\\bai\\b",
+            "copilot",
+            "seasonality",
+            "from prior budgets or ledger",
+            "from sales price data",
+            "copy and index",
+            "populates"
+          ]
+        },
+        {
+          "label": "No, we enter numbers ourselves / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, from history or AI": 0.4
+      }
+    }
+  ]
+}

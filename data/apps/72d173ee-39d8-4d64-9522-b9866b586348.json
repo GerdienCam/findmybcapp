@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.1646983474339|AID.srmsolution|PAPPID.72d173ee-39d8-4d64-9522-b9866b586348",
+  "guid": "72d173ee-39d8-4d64-9522-b9866b586348",
+  "publisherId": "1646983474339",
+  "offerId": "srmsolution",
+  "source": {
+    "name": "Weihan SRM Integration",
+    "publisher": "广州微翰计算机科技有限公司",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1646983474339%7CAID.srmsolution%7CPAPPID.72d173ee-39d8-4d64-9522-b9866b586348",
+    "lastModified": "2024-11-21T21:05:55.9253926+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://en.weihansoft.com/news/100.html",
+    "sourceHash": "sha256:c93f9803bfaf81f5963971b4b0530eaae82dd9e97d2c095a43ed69920f37c2b6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c93f9803bfaf81f5963971b4b0530eaae82dd9e97d2c095a43ed69920f37c2b6",
+    "mappedOn": null,
+    "summary": "Integrates BC with Weihan supplier relationship management portal",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-supplier-contracts"
+    ],
+    "claims": [
+      "Integrates BC with Weihan SRM vendor platform",
+      "Shares purchasing, warehousing, QC and finance data with vendors on the platform",
+      "Vendor lifecycle management: admission, creation, development, elimination",
+      "Returns, QC, delivery, contracts, plus inquiry and bidding",
+      "Automates e-contract, invoicing, reconciliation and ordering workflows"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Weihan SRM"
+    ],
+    "requires": [
+      "Weihan Supplier Relationship Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.alna_business|AID.ssp_alna_hr_office|PAPPID.ad118807-860b-45e4-b331-f570ac163ccd",
+  "guid": "ad118807-860b-45e4-b331-f570ac163ccd",
+  "publisherId": "alna_business",
+  "offerId": "ssp_alna_hr_office",
+  "source": {
+    "name": "Alna Employee Self Service Portal Administration",
+    "publisher": "Alna Business",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alna_business%7CAID.ssp_alna_hr_office%7CPAPPID.ad118807-860b-45e4-b331-f570ac163ccd",
+    "lastModified": "2026-09-28T13:28:23.8797223+00:00",
+    "appVersion": "220.1.7.17",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.alna.lt/business/en/solutions/alna-hr-office",
+    "sourceHash": "sha256:3db09317d3b4c7a34c4b32c4e9d7066f713d0f263932ab059ea03fa73adb27bb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3db09317d3b4c7a34c4b32c4e9d7066f713d0f263932ab059ea03fa73adb27bb",
+    "mappedOn": null,
+    "summary": "Administers HR employee self-service portal processes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-employee-records"
+    ],
+    "claims": [
+      "Employee self-service portal website administered from BC",
+      "Employees see vacation balance to date and year-end",
+      "Monthly password-protected salary slips",
+      "Employees update personal details",
+      "Managers see subordinates' data and vacation balance",
+      "Vacation, business trip and HR request approval workflow"
+    ],
+    "countries": [
+      "DK",
+      "EE",
+      "FI",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "lt"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Alna Self Service Portal"
+    ],
+    "requires": [
+      "Alna HR Office"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

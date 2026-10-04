@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.fiftytwoas|AID.52leasingmigration|PAPPID.5af06fe0-f90d-4a19-9aa5-37d202aa6294",
+  "guid": "5af06fe0-f90d-4a19-9aa5-37d202aa6294",
+  "publisherId": "fiftytwoas",
+  "offerId": "52leasingmigration",
+  "source": {
+    "name": "52LEASING Migration",
+    "publisher": "Fiftytwo A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fiftytwoas%7CAID.52leasingmigration%7CPAPPID.5af06fe0-f90d-4a19-9aa5-37d202aa6294",
+    "lastModified": "2026-09-16T10:13:29.1830118+00:00",
+    "appVersion": "26.8.0.5359",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://52leasing.com/produktvideo/",
+    "sourceHash": "sha256:ad3b7e9a68c33c57aef5e8f51a01b93378a10eb7404585a3f617d50e816aa35f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ad3b7e9a68c33c57aef5e8f51a01b93378a10eb7404585a3f617d50e816aa35f",
+    "mappedOn": null,
+    "summary": "Migrates existing agreements into 52LEASING",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-leasing-finance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Migrates existing lease agreements into 52LEASING"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [
+      "Financial services",
+      "Leasing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "52LEASING"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

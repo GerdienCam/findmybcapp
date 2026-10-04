@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.konica-minolta-de-bs|AID.alternate-positions|PAPPID.846c3f6a-b090-4fa5-bc4d-b91f60b6b400",
+  "guid": "846c3f6a-b090-4fa5-bc4d-b91f60b6b400",
+  "publisherId": "konica-minolta-de-bs",
+  "offerId": "alternate-positions",
+  "source": {
+    "name": "Alternate Positions",
+    "publisher": "Konica Minolta Business Solutions Deutschland GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.konica-minolta-de-bs%7CAID.alternate-positions%7CPAPPID.846c3f6a-b090-4fa5-bc4d-b91f60b6b400",
+    "lastModified": "2026-09-16T04:52:11.1331641+00:00",
+    "appVersion": "1.0.6752.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "http://apps.dynamics.azure.it.konicaminolta.de/AlternatePositions/en-US/intro.html",
+    "sourceHash": "sha256:1fdba18ce271cb64db5bdda5704963908cb1b547ea5ac8ea3065b06019f6ac0a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1fdba18ce271cb64db5bdda5704963908cb1b547ea5ac8ea3065b06019f6ac0a",
+    "mappedOn": null,
+    "summary": "Alternate positions on sales quotes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Alternate Position flag on sales quote lines",
+      "Alternate lines excluded from quote totals and discount base",
+      "Setup controls whether alternate lines are copied to the sales order",
+      "Supports all countries"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.tasklet_factory|AID.mobile_wms|PAPPID.a5727ce6-368c-49e2-84cb-1a6052f0551c",
+  "guid": "a5727ce6-368c-49e2-84cb-1a6052f0551c",
+  "publisherId": "tasklet_factory",
+  "offerId": "mobile_wms",
+  "source": {
+    "name": "Tasklet Mobile WMS",
+    "publisher": "Tasklet Factory",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tasklet_factory%7CAID.mobile_wms%7CPAPPID.a5727ce6-368c-49e2-84cb-1a6052f0551c",
+    "lastModified": "2026-09-10T17:43:22.288928+00:00",
+    "appVersion": "5.69.280.287",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://taskletfactory.atlassian.net/wiki/x/QZS0B",
+    "sourceHash": "sha256:7c21cb759562816253e04d8049e117416c1ac3a3184cdffea2d09ab863ac28ff"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7c21cb759562816253e04d8049e117416c1ac3a3184cdffea2d09ab863ac28ff",
+    "mappedOn": null,
+    "summary": "Mobile warehouse management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-stock-movements",
+      "ng-shop-floor-reporting",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Mobile barcode scanning for warehouse processes",
+      "Real-time synchronization with BC",
+      "Works online or offline",
+      "Android barcode scanners",
+      "Receiving and put-away",
+      "Picking and shipping",
+      "License plating",
+      "Inventory counting and adjustments",
+      "Moves and unplanned moves",
+      "Label printing",
+      "Item and bin lookup",
+      "Production and assembly",
+      "Attach images",
+      "More than 24 languages"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.applibra|AID.al_payment_management_outstanding_balances|PAPPID.1ed06b75-4a8c-4c9a-bc86-dd911b046416",
+  "guid": "1ed06b75-4a8c-4c9a-bc86-dd911b046416",
+  "publisherId": "applibra",
+  "offerId": "al_payment_management_outstanding_balances",
+  "source": {
+    "name": "AL Payment Management & Outstanding Balances",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_payment_management_outstanding_balances%7CPAPPID.1ed06b75-4a8c-4c9a-bc86-dd911b046416",
+    "lastModified": "2025-11-12T08:34:19.5809693+00:00",
+    "appVersion": "25.0.25.9261549",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsapplab.com/apps/al-payment-and-outstanding-balances/help",
+    "sourceHash": "sha256:6019f3798441aca97e0c167e611844554a39326f1379b445668d2c192002d9fb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6019f3798441aca97e0c167e611844554a39326f1379b445668d2c192002d9fb",
+    "mappedOn": null,
+    "summary": "Changes payment terms on posted invoices and shows outstanding balances",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-correct-posted",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-collections"
+    ],
+    "claims": [
+      "Shows outstanding transactions per customer or document via Financial Entries",
+      "Changes payment terms on already posted sales invoices"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

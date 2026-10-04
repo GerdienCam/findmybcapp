@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.amr-app|PAPPID.70e0655a-82d2-46fe-b122-18bf3e7c0d2d",
+  "guid": "70e0655a-82d2-46fe-b122-18bf3e7c0d2d",
+  "publisherId": "fenwicksoftware",
+  "offerId": "amr-app",
+  "source": {
+    "name": "Advanced Manufacturing Reports",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.amr-app%7CPAPPID.70e0655a-82d2-46fe-b122-18bf3e7c0d2d",
+    "lastModified": "2026-08-31T00:36:25.4750895+00:00",
+    "appVersion": "26.0.260826.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/advanced-manufacturing-reports/",
+    "sourceHash": "sha256:d43c62c0e338aa90caf6a704ba279a315f2b6e65624a187349a6125a68cc7a6a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d43c62c0e338aa90caf6a704ba279a315f2b6e65624a187349a6125a68cc7a6a",
+    "mappedOn": null,
+    "summary": "Reports manufacturing costs and variances",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-period-close"
+    ],
+    "claims": [
+      "Multi-level cost explosion of BOM with costs rolled up per level",
+      "Prod. Order Variance report: material, capacity, overhead and subcontracting variances per production order",
+      "Detailed Prod. Order Variance per operation and component",
+      "Drill-down from Standard Cost Worksheet to component and routing costs"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

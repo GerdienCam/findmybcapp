@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.soliteabusinesssolutionssro1584442662364|AID.fieldwork_handheld_app|PAPPID.040bbff2-b91e-4954-bdfe-98f3fb655bae",
+  "guid": "040bbff2-b91e-4954-bdfe-98f3fb655bae",
+  "publisherId": "soliteabusinesssolutionssro1584442662364",
+  "offerId": "fieldwork_handheld_app",
+  "source": {
+    "name": "Seyfor Mobile Device",
+    "publisher": "Seyfor, a. s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.soliteabusinesssolutionssro1584442662364%7CAID.fieldwork_handheld_app%7CPAPPID.040bbff2-b91e-4954-bdfe-98f3fb655bae",
+    "lastModified": "2026-06-09T10:19:20.0788661+00:00",
+    "appVersion": "26.0.1.45",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docsd365.seyfor.com/en-us",
+    "sourceHash": "sha256:39b2d22b04373a4dfc51c6e9a1624d6ebcdc1a7e9184f896fa0231095144e1fc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:39b2d22b04373a4dfc51c6e9a1624d6ebcdc1a7e9184f896fa0231095144e1fc",
+    "mappedOn": null,
+    "summary": "Configurable mobile UI for warehouse and other processes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking",
+      "ng-stock-counting",
+      "ng-shop-floor-reporting"
+    ],
+    "claims": [
+      "Preconfigured mobile processes: receipt, inventory pick, reclassification, consumption, physical inventory",
+      "Runs in BC web and mobile client, no extra app",
+      "No offline mode",
+      "Customizable to support any BC process"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "appId": "TYPE.connect|PUBID.opmetrixlimited1604456051210|AID.opmetrix_connector|PAPPID.b0004420-b3fb-4d52-96fc-e249d2d4606e",
+  "guid": "b0004420-b3fb-4d52-96fc-e249d2d4606e",
+  "publisherId": "opmetrixlimited1604456051210",
+  "offerId": "opmetrix_connector",
+  "source": {
+    "name": "Opmetrix Connector",
+    "publisher": "Opmetrix Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.opmetrixlimited1604456051210%7CAID.opmetrix_connector%7CPAPPID.b0004420-b3fb-4d52-96fc-e249d2d4606e",
+    "lastModified": "2026-07-21T09:32:50.7387711+00:00",
+    "appVersion": "3.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "http://help.opmetrix.com/",
+    "sourceHash": "sha256:cd11175595916d9bd35062f8f82986cb5bd0082534f798870be2293fd49468c9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cd11175595916d9bd35062f8f82986cb5bd0082534f798870be2293fd49468c9",
+    "mappedOn": null,
+    "summary": "Integrates Opmetrix field sales CRM",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Connects BC to Opmetrix consumer goods CRM for mobile sales and merchandising teams",
+      "Requires an Opmetrix user account",
+      "Demo login available in-app"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "FJ",
+      "GB",
+      "IE",
+      "IN",
+      "MY",
+      "NZ",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Consumer goods"
+    ],
+    "connectsTo": [
+      "Opmetrix CRM"
+    ],
+    "requires": [
+      "Opmetrix CRM"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

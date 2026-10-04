@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.msesoftwaregmbh1653230793499|AID.autoflow-receive|PAPPID.67693bbb-48b4-4322-b39b-517c1252d8f4",
+  "guid": "67693bbb-48b4-4322-b39b-517c1252d8f4",
+  "publisherId": "msesoftwaregmbh1653230793499",
+  "offerId": "autoflow-receive",
+  "source": {
+    "name": "AutoFlow Receive",
+    "publisher": "mse Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.msesoftwaregmbh1653230793499%7CAID.autoflow-receive%7CPAPPID.67693bbb-48b4-4322-b39b-517c1252d8f4",
+    "lastModified": "2026-10-01T20:21:15.3956315+00:00",
+    "appVersion": "27.0.4.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.autoflow365.app/",
+    "sourceHash": "sha256:d5f8e969fbf3dd545b512900fa1c5a3687876cf88832d8d18f89216f9fd41db1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d5f8e969fbf3dd545b512900fa1c5a3687876cf88832d8d18f89216f9fd41db1",
+    "mappedOn": null,
+    "summary": "Automates purchase invoice processing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-einvoicing"
+    ],
+    "claims": [
+      "Imports invoices from an Outlook mailbox, SharePoint or any system with an API into incoming documents",
+      "Parses e-invoice XML and reads PDFs via OCR",
+      "Incoming document extended with header fields and a lines table",
+      "Four matching rulesets: G/L account, posted receipt line, subscription contract line, text matching",
+      "Creates purchase invoices or credit memos only once matching is complete",
+      "Uses standard BC approval workflows and dimensions",
+      "DMS archiving can fire after posting, after approval or on arrival",
+      "Blind posting where rules are unambiguous",
+      "Posts recurring bills as one line to the correct G/L account",
+      "Matches recurring items to subscription contract lines"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Outlook",
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

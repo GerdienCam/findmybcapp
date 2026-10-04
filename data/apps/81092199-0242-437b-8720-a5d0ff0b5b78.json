@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.bcsitera|AID.realtime-bank|PAPPID.81092199-0242-437b-8720-a5d0ff0b5b78",
+  "guid": "81092199-0242-437b-8720-a5d0ff0b5b78",
+  "publisherId": "bcsitera",
+  "offerId": "realtime-bank",
+  "source": {
+    "name": "Realtime Bank",
+    "publisher": "DIGMATIX",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.realtime-bank%7CPAPPID.81092199-0242-437b-8720-a5d0ff0b5b78",
+    "lastModified": "2026-09-29T13:55:44.2322983+00:00",
+    "appVersion": "25.4.26253.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.itera.ee/apps/realtime-bank/docs/et-EE/help",
+    "sourceHash": "sha256:9c481af6504b2c9ca795d20f65b0abc6e36c70f503f4a2e6c27812319bbee459"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9c481af6504b2c9ca795d20f65b0abc6e36c70f503f4a2e6c27812319bbee459",
+    "mappedOn": null,
+    "summary": "Real-time bank transactions and payment transmission",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Transmits payments directly to the bank",
+      "Loads bank transactions in real time",
+      "Shows current bank balance inside BC",
+      "Auto-applies transactions to open invoices or cost accounts",
+      "Auto-posts high-confidence matches",
+      "Supports Swedbank, SEB Baltic, LHV, Coop Bank and Luminor"
+    ],
+    "countries": [
+      "EE"
+    ],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Swedbank",
+      "SEB",
+      "LHV",
+      "Coop Bank",
+      "Luminor"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

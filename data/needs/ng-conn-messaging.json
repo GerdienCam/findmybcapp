@@ -1,0 +1,191 @@
+{
+  "id": "ng-conn-messaging",
+  "order": 194,
+  "label": "SMS, WhatsApp and phone integration",
+  "description": "Sending SMS and WhatsApp messages and documents from BC, telephony/CTI integration showing the caller's record, and messaging to deskless workers.",
+  "type": "connector",
+  "area": "Connecting other systems",
+  "relevance": "medium",
+  "statements": [
+    "SMS, WhatsApp and phone integration",
+    "Sending SMS and WhatsApp messages and documents from BC, telephony/CTI integration showing the caller's record, and messaging to deskless workers.",
+    "Customers want a text message when their order is ready",
+    "send SMS from Business Central",
+    "Send the invoice by WhatsApp",
+    "When the phone rings I want the customer card to pop up",
+    "Delivery drivers should get their jobs by message",
+    "WhatsApp is how our customers talk to us, can BC use it?",
+    "Twilio integration for BC",
+    "SMS reminders for appointments and pickups",
+    "Click to call from the contact card",
+    "Omnichannel inbox linked to BC customers",
+    "Bulk SMS to customers about a delay",
+    "Log calls against the customer automatically"
+  ],
+  "questions": [
+    {
+      "id": "channel",
+      "text": "How do you want to reach customers or staff from BC?",
+      "multi": true,
+      "options": [
+        {
+          "label": "SMS text messages",
+          "patterns": [
+            "\\bsms\\b",
+            "text messages"
+          ]
+        },
+        {
+          "label": "WhatsApp",
+          "patterns": [
+            "whatsapp"
+          ]
+        },
+        {
+          "label": "Phone calls (show who is calling)",
+          "patterns": [
+            "incoming call",
+            "caller",
+            "\\bcti\\b",
+            "telephon",
+            "\\btapi\\b",
+            "calls\\b"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "SMS text messages": 0.58,
+        "WhatsApp": 0.42,
+        "Phone calls (show who is calling)": 0.17
+      }
+    },
+    {
+      "id": "provider",
+      "text": "Do you already use one of these services?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Twilio",
+          "patterns": [
+            "twilio"
+          ]
+        },
+        {
+          "label": "Microsoft Teams calling or a TAPI phone system",
+          "patterns": [
+            "microsoft teams",
+            "teams calling",
+            "\\btapi\\b"
+          ]
+        },
+        {
+          "label": "STARFACE",
+          "patterns": [
+            "starface"
+          ]
+        },
+        {
+          "label": "Trengo",
+          "patterns": [
+            "trengo"
+          ]
+        },
+        {
+          "label": "None of these / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Twilio": 0.17,
+        "Microsoft Teams calling or a TAPI phone system": 0.08,
+        "STARFACE": 0.08,
+        "Trengo": 0.08
+      }
+    },
+    {
+      "id": "trigger",
+      "text": "Should messages go out automatically, or does someone click send?",
+      "options": [
+        {
+          "label": "Automatically, e.g. when an invoice is posted",
+          "patterns": [
+            "automatically (when|on) .{0,30}post",
+            "automatically on posting",
+            "on posting",
+            "recurring job queue",
+            "sent in batches"
+          ]
+        },
+        {
+          "label": "Someone clicks send on the document",
+          "patterns": [
+            "one[- ]click",
+            "send with one click",
+            "sms actions on",
+            "send sms from",
+            "send from",
+            "sent from",
+            "from (sales|customer|contact)",
+            "works from sales"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Automatically, e.g. when an invoice is posted": 0.25,
+        "Someone clicks send on the document": 0.5
+      }
+    },
+    {
+      "id": "attachments",
+      "text": "Should the invoice or order go along as a PDF?",
+      "options": [
+        {
+          "label": "Yes, attach the document",
+          "patterns": [
+            "attach",
+            "\\bpdf"
+          ]
+        },
+        {
+          "label": "No, just a text message",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, attach the document": 0.33
+      }
+    },
+    {
+      "id": "tracking",
+      "text": "Do you need to see if a message was delivered or answered?",
+      "options": [
+        {
+          "label": "Yes, delivery status and replies",
+          "patterns": [
+            "delivery status",
+            "inbound",
+            "receives?\\b",
+            "status tracking",
+            "logging and status updates",
+            "traceability"
+          ]
+        },
+        {
+          "label": "No, or not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, delivery status and replies": 0.33
+      }
+    }
+  ]
+}

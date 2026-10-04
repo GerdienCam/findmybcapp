@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.continia365|AID.continia-opplus|PAPPID.88cf5d4c-8afc-4a98-9cb7-212196c51d74",
+  "guid": "88cf5d4c-8afc-4a98-9cb7-212196c51d74",
+  "publisherId": "continia365",
+  "offerId": "continia-opplus",
+  "source": {
+    "name": "Continia OPplus",
+    "publisher": "Continia Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.continia-opplus%7CPAPPID.88cf5d4c-8afc-4a98-9cb7-212196c51d74",
+    "lastModified": "2026-09-30T13:47:20.5353074+00:00",
+    "appVersion": "29.0.0.214511",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.continia.com/en-us/continia-opplus",
+    "sourceHash": "sha256:2c0a3350bc1d69c2c37d075b28ba5ea83e2ecb680acc571930943ecd44115ea5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2c0a3350bc1d69c2c37d075b28ba5ea83e2ecb680acc571930943ecd44115ea5",
+    "mappedOn": null,
+    "summary": "Payment, banking, VAT, ledger and reporting modules for finance",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-gl-reconciliation",
+      "ng-fa-depreciation",
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Imports bank statements and payment advices in any format",
+      "Open entries reconciled during import",
+      "Recurring payments matched and applied by accounting rules",
+      "Payment proposals and outgoing payments in one step for any direction or format",
+      "Supports ISO payment types including SEPA",
+      "G/L open entries with key-date list, subsequent clearing and partial reconciliation",
+      "Extended fixed assets: quantities, partial retirement, acquisition cost correction, separate scrap and sale"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

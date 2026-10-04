@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.ship-it-app|PAPPID.5cae7a38-9747-4094-a9be-36c43ef8ff08",
+  "guid": "5cae7a38-9747-4094-a9be-36c43ef8ff08",
+  "publisherId": "fenwicksoftware",
+  "offerId": "ship-it-app",
+  "source": {
+    "name": "Deliver-It with SmartFreight",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.ship-it-app%7CPAPPID.5cae7a38-9747-4094-a9be-36c43ef8ff08",
+    "lastModified": "2026-09-13T23:42:09.3880289+00:00",
+    "appVersion": "26.0.260909.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/ship-it/smartfreight/docs/",
+    "sourceHash": "sha256:34ea99be6e27d862f6d09d49eae149cb4f8b8acd647eb886e6e5935117419e11"
+  },
+  "mapping": {
+    "sourceHash": "sha256:34ea99be6e27d862f6d09d49eae149cb4f8b8acd647eb886e6e5935117419e11",
+    "mappedOn": null,
+    "summary": "Estimates, consigns and tracks Pack-It packages via SmartFreight",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-freight-cost-audit"
+    ],
+    "claims": [
+      "Integrates with SmartFreight",
+      "Calculates shipping cost per agent and service and compares options",
+      "Real-time shipment tracking",
+      "Cancel shipments not yet manifested",
+      "Preferred carrier and service selection assigned to customers"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SmartFreight"
+    ],
+    "requires": [
+      "Fenwick Pack-It"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

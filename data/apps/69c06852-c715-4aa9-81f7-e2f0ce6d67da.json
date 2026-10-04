@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.ait-rp-connector-app|PAPPID.69c06852-c715-4aa9-81f7-e2f0ce6d67da",
+  "guid": "69c06852-c715-4aa9-81f7-e2f0ce6d67da",
+  "publisherId": "fenwicksoftware",
+  "offerId": "ait-rp-connector-app",
+  "source": {
+    "name": "Attach-It for Receivables - Payables",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.ait-rp-connector-app%7CPAPPID.69c06852-c715-4aa9-81f7-e2f0ce6d67da",
+    "lastModified": "2026-04-27T09:27:52.5951115+00:00",
+    "appVersion": "26.0.260327.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/attach-it/docs",
+    "sourceHash": "sha256:5709e4be00e5ed601945e533e7009f429fcf912b407fd0fe8ed2bfd1b99da756"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5709e4be00e5ed601945e533e7009f429fcf912b407fd0fe8ed2bfd1b99da756",
+    "mappedOn": null,
+    "summary": "Connects Attach-It attachments to Receivables-Payables",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Adds Attach-It upload and attachment FactBoxes to aging overview pages"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Attach-It",
+      "Receivables - Payables"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two Fenwick products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

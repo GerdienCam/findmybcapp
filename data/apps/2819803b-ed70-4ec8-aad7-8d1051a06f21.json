@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.on720comas1662298129006|AID.pay720_dk|PAPPID.2819803b-ed70-4ec8-aad7-8d1051a06f21",
+  "guid": "2819803b-ed70-4ec8-aad7-8d1051a06f21",
+  "publisherId": "on720comas1662298129006",
+  "offerId": "pay720_dk",
+  "source": {
+    "name": "Pay720 (DK)",
+    "publisher": "ON720.COM",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on720comas1662298129006%7CAID.pay720_dk%7CPAPPID.2819803b-ed70-4ec8-aad7-8d1051a06f21",
+    "lastModified": "2026-09-04T08:47:08.3194212+00:00",
+    "appVersion": "28.4.260904.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.on720.com/da/apps",
+    "sourceHash": "sha256:24d4e85ee85671a0b1cd42282b983c11f1591fb0b279d4dc829ad706f8fe453b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:24d4e85ee85671a0b1cd42282b983c11f1591fb0b279d4dc829ad706f8fe453b",
+    "mappedOn": null,
+    "summary": "MobilePay collection and posting integration",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends Vipps MobilePay payment requests from invoices",
+      "Registers payments automatically when customer pays",
+      "Auto-matches payments to customers and invoices",
+      "Posts incoming payments automatically",
+      "Status of payment requests and received payments",
+      "English supported in app"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Vipps MobilePay"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

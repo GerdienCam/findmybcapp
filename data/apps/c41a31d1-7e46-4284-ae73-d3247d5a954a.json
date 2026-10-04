@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.anveogroup-1403319|AID.anveo_sales_app|PAPPID.c41a31d1-7e46-4284-ae73-d3247d5a954a",
+  "guid": "c41a31d1-7e46-4284-ae73-d3247d5a954a",
+  "publisherId": "anveogroup-1403319",
+  "offerId": "anveo_sales_app",
+  "source": {
+    "name": "Anvaigo Sales App",
+    "publisher": "conion media GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.anveogroup-1403319%7CAID.anveo_sales_app%7CPAPPID.c41a31d1-7e46-4284-ae73-d3247d5a954a",
+    "lastModified": "2026-01-22T08:46:05.0947835+00:00",
+    "appVersion": "1.0.3.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://anvaigo.cc/docs-app",
+    "sourceHash": "sha256:46ab21ebc158baff31f9717c1fca1d156a6304fbd491cc704db8983f8a6e70e3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:46ab21ebc158baff31f9717c1fca1d156a6304fbd491cc704db8983f8a6e70e3",
+    "mappedOn": null,
+    "summary": "Mobile offline quote and order entry for field sales",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Mobile quote and order entry for field sales",
+      "Notes and photos with meeting reports",
+      "Works offline",
+      "Integrates with Business Central Online",
+      "No-code/low-code configuration"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

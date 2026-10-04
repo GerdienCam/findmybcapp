@@ -1,0 +1,235 @@
+{
+  "id": "ng-vert-food-beverage",
+  "order": 203,
+  "label": "Solutions for food and beverage companies",
+  "description": "Industry solutions for food and beverage manufacturers and distributors: catch weight, lot and shelf life, recipes and specifications, allergens, quality control, deposits and excise, breweries and wineries.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "high",
+  "statements": [
+    "Solutions for food and beverage companies",
+    "Industry solutions for food and beverage manufacturers and distributors: catch weight, lot and shelf life, recipes and specifications, allergens, quality control, deposits and excise, breweries and wineries.",
+    "We're a food manufacturer and standard BC doesn't understand shelf life",
+    "ERP for food and beverage on Business Central",
+    "We sell cheese by the piece but invoice by weight",
+    "Allergen info and ingredient declarations for every recipe",
+    "A recall drill took us two days, the auditor was not impressed",
+    "Brewery software that works with BC",
+    "Bottle and crate deposits on every invoice",
+    "First expiry first out picking for fresh products",
+    "We're a beverage wholesaler with excise duties and empties",
+    "Recipes with yield and scaling, not BOMs",
+    "Supermarkets demand traceability from farm to shelf",
+    "BRC and IFS audits need specs and quality records",
+    "Microbrewery, what's a sensible BC setup?",
+    "Price claims and rebates with grocery chains",
+    "Random weight items in the warehouse",
+    "Food wholesale with drop shipments and vendor catalogs",
+    "Wine production from grape delivery to bottling",
+    "Our F&B partner says we need an industry solution, which ones exist?",
+    "Meat processing with carcass breakdown",
+    "Coffee roaster, small, needs lots and recipes"
+  ],
+  "questions": [
+    {
+      "id": "business",
+      "text": "What best describes your business?",
+      "multi": true,
+      "options": [
+        {
+          "label": "We make food or drinks",
+          "patterns": [
+            "manufactur",
+            "production",
+            "recipe",
+            "brewer",
+            "winemaking",
+            "distiller",
+            "batch"
+          ]
+        },
+        {
+          "label": "We distribute or wholesale",
+          "patterns": [
+            "wholesale",
+            "distribut",
+            "trading",
+            "trade agreement",
+            "call plan",
+            "order entry"
+          ]
+        },
+        {
+          "label": "Kitchen or catering",
+          "patterns": [
+            "kitchen",
+            "catering",
+            "meal"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "We make food or drinks": 0.53,
+        "We distribute or wholesale": 0.2,
+        "Kitchen or catering": 0.02
+      }
+    },
+    {
+      "id": "alcohol",
+      "text": "Do you sell alcoholic drinks or goods subject to excise duty?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "excise",
+            "alcohol",
+            "brewer",
+            "wine",
+            "distill",
+            "bonded"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.12
+      }
+    },
+    {
+      "id": "weight",
+      "text": "Do you sell products where each unit weighs a bit different (meat, cheese, fish)?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, price by actual weight",
+          "patterns": [
+            "catch ?-?weight",
+            "random weight",
+            "actual weight",
+            "dual unit",
+            "price based on weight",
+            "weigh scale",
+            "\\bweigh\\b",
+            "variable(-| )weight",
+            "stocktakes by weight"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, price by actual weight": 0.12
+      }
+    },
+    {
+      "id": "track",
+      "text": "What must you track on your products?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Allergens, ingredients and nutrition",
+          "patterns": [
+            "allergen",
+            "nutrition",
+            "ingredient"
+          ]
+        },
+        {
+          "label": "Lots, expiry and traceability",
+          "patterns": [
+            "\\blots?\\b",
+            "expir",
+            "shelf life",
+            "traceability",
+            "lot trac",
+            "full trac"
+          ]
+        },
+        {
+          "label": "Quality checks and inspections",
+          "patterns": [
+            "quality",
+            "inspection",
+            "non-?conform",
+            "certificates? of analysis",
+            "\\bQC\\b"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Allergens, ingredients and nutrition": 0.17,
+        "Lots, expiry and traceability": 0.39,
+        "Quality checks and inspections": 0.2
+      }
+    },
+    {
+      "id": "deposits",
+      "text": "Do you handle returnable packaging like kegs, crates or pallets with deposits?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "deposit",
+            "empties",
+            "returnable",
+            "crates",
+            "kegs"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.11
+      }
+    },
+    {
+      "id": "scope",
+      "text": "Do you want a complete food and beverage suite rather than a single add-on?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Complete suite",
+          "patterns": [
+            "bundle",
+            "includes all",
+            "included apps",
+            "modular solution",
+            "suite",
+            "core set",
+            "entire food",
+            "foundational",
+            "top-tier solution",
+            "comprehensive solution",
+            "solution (specifically created|developed specifically)",
+            "manage your (entire )?food"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Complete suite": 0.17
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.opexis|AID.uscheduler-production|PAPPID.be71c0d4-2c64-4b1f-9ba3-e81ddd1e5b83",
+  "guid": "be71c0d4-2c64-4b1f-9ba3-e81ddd1e5b83",
+  "publisherId": "opexis",
+  "offerId": "uscheduler-production",
+  "source": {
+    "name": "uTools - uScheduler Production",
+    "publisher": "OPEXIS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.opexis%7CAID.uscheduler-production%7CPAPPID.be71c0d4-2c64-4b1f-9ba3-e81ddd1e5b83",
+    "lastModified": "2026-10-01T09:04:56.2365229+00:00",
+    "appVersion": "1.11.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://opexis.nl/",
+    "sourceHash": "sha256:e0e6e13b6a1af39be116788cfcf57e7fbfa02c056018372b47fa17779446bf55"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e0e6e13b6a1af39be116788cfcf57e7fbfa02c056018372b47fa17779446bf55",
+    "mappedOn": null,
+    "summary": "Drag-and-drop production planning board",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters"
+    ],
+    "claims": [
+      "Visual planning board with day grid, Gantt and full-year capacity overview",
+      "Drag operations onto work centers and days; schedule written straight to the production order",
+      "Production orders that are released land in a backlog that is not yet planned",
+      "Capacity calculated from operator rosters, absences and breaks",
+      "Shop-calendar holidays close the day",
+      "Backlog search and filter by work center and due window, showing overdue",
+      "Order context including BOM, drawings and shop floor activity log from the board",
+      "Saved views per planner",
+      "Closed loop with uShopfloor showing execution status on the board",
+      "No separate planning database beside BC",
+      "Requires uTools Base Application and uTools subscription"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "uTools Base Application"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

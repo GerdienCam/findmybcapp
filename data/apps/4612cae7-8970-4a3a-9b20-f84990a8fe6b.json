@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.tesba|PAPPID.4612cae7-8970-4a3a-9b20-f84990a8fe6b",
+  "guid": "4612cae7-8970-4a3a-9b20-f84990a8fe6b",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "tesba",
+  "source": {
+    "name": "EV Tecto - Crono",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.tesba%7CPAPPID.4612cae7-8970-4a3a-9b20-f84990a8fe6b",
+    "lastModified": "2026-09-24T08:23:09.1804246+00:00",
+    "appVersion": "10006.80.221882.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/365Con/overview",
+    "sourceHash": "sha256:6a7c24157236e2f92f16b00b753db5edeb800f0a15447b01fd24099dae9daa6f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6a7c24157236e2f92f16b00b753db5edeb800f0a15447b01fd24099dae9daa6f",
+    "mappedOn": null,
+    "summary": "Integrates EV Tecto with EV Crono time registration",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-construction",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-proj-time",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-field-execution",
+      "ng-proj-billing"
+    ],
+    "claims": [
+      "Integrates EV Tecto with EV Crono Connector (formerly 365Time Connector)",
+      "Create projects from the mobile client",
+      "Lets users raise work orders in the mobile client",
+      "Imports time and material registrations and invoice texts",
+      "Project task accounting",
+      "Imports flags for supplier purchases",
+      "Piecework and piecework participants",
+      "Links to completed QA forms",
+      "Automated invoicing handling on task completion"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [
+      "EV Crono"
+    ],
+    "requires": [
+      "EV Tecto - Core",
+      "EV Crono Connector"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.2control|AID.compliance-fieldsecurity|PAPPID.a6445f6e-b8cd-49ac-81b0-174656511165",
+  "guid": "a6445f6e-b8cd-49ac-81b0-174656511165",
+  "publisherId": "2control",
+  "offerId": "compliance-fieldsecurity",
+  "source": {
+    "name": "Compliance Field Security",
+    "publisher": "2-Controlware",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.2control%7CAID.compliance-fieldsecurity%7CPAPPID.a6445f6e-b8cd-49ac-81b0-174656511165",
+    "lastModified": "2026-09-29T11:22:23.1735312+00:00",
+    "appVersion": "7.2.20261029.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://wiki-apps.2-controlware.com/",
+    "sourceHash": "sha256:612ade230656c7ca859b03c433835c7558080e395f4f14d2e3a3108b218724f0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:612ade230656c7ca859b03c433835c7558080e395f4f14d2e3a3108b218724f0",
+    "mappedOn": null,
+    "summary": "Field, filter and action level security for segregation of duties",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-permissions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Authorization at field, filter and action level",
+      "Restrict users from reading data such as order prices or G/L accounts by hiding records",
+      "Authorize user groups to filtered records for edit or view",
+      "Allow initial filling of fields to support master data templates",
+      "Authorize almost every action in BC",
+      "Linked to permission sets with 'modify all fields except' / 'modify no fields except' settings",
+      "Hide records on a page"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

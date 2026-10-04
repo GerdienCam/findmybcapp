@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.systemconnectaps1614781393914|AID.docuworks|PAPPID.83ecb31d-daea-4e18-971b-3f227d031102",
+  "guid": "83ecb31d-daea-4e18-971b-3f227d031102",
+  "publisherId": "systemconnectaps1614781393914",
+  "offerId": "docuworks",
+  "source": {
+    "name": "DocuWorks",
+    "publisher": "SystemConnect",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemconnectaps1614781393914%7CAID.docuworks%7CPAPPID.83ecb31d-daea-4e18-971b-3f227d031102",
+    "lastModified": "2026-10-01T06:03:32.8566711+00:00",
+    "appVersion": "28.0.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://systemconnect.dk/docuworkshelp",
+    "sourceHash": "sha256:fbbe80dc431cb6819de084fd454ac803ece769d9d5a86701b69f9ba561afa0e6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fbbe80dc431cb6819de084fd454ac803ece769d9d5a86701b69f9ba561afa0e6",
+    "mappedOn": null,
+    "summary": "OCR/AI capture and approval of incoming invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Automatically fetches incoming invoices and credit memos",
+      "OCR and AI read vendor, amount, VAT, due date and payment details",
+      "Matches documents to vendor by VAT registration number",
+      "Approval flow with one or more users, in app or by email",
+      "Matches invoices to open purchase receipts and return shipments",
+      "Creates purchase invoice or credit memo including freight and rounding amounts",
+      "Suggests G/L account for non-PO vendors based on history",
+      "Posts to general journal or purchase document",
+      "Background processing via job queue"
+    ],
+    "countries": [],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

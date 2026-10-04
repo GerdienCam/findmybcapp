@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.difot-app|PAPPID.dbf0fa97-9fa9-42a6-809f-55fc5ca79eaf",
+  "guid": "dbf0fa97-9fa9-42a6-809f-55fc5ca79eaf",
+  "publisherId": "fenwicksoftware",
+  "offerId": "difot-app",
+  "source": {
+    "name": "DIFOT",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.difot-app%7CPAPPID.dbf0fa97-9fa9-42a6-809f-55fc5ca79eaf",
+    "lastModified": "2026-09-29T09:45:06.7441433+00:00",
+    "appVersion": "26.0.260910.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/apps/difot-reporting/docs/",
+    "sourceHash": "sha256:d0f503dd57e1242fc439eb3a509e99648ec625b5be43d83e57496697565e2992"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d0f503dd57e1242fc439eb3a509e99648ec625b5be43d83e57496697565e2992",
+    "mappedOn": null,
+    "summary": "Tracks delivery in full on time for sales and receipts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-warehouse-kpis",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-quality-compliance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality",
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Automatically records if a delivery arrived punctually and complete",
+      "Captures DIFOT data at document and line level for shipments and receipts",
+      "Compares planned vs actual delivery days and fulfillment %",
+      "Measures vendor reliability as well as customer delivery performance",
+      "On sales and purchase orders, makes the requested delivery/receipt date a mandatory field",
+      "Free Power BI app for DIFOT analysis and trends"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

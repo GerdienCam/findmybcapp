@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.softera_baltic|AID.softera-fdc|PAPPID.74bca3f4-05cf-4e67-a823-45aac6b79294",
+  "guid": "74bca3f4-05cf-4e67-a823-45aac6b79294",
+  "publisherId": "softera_baltic",
+  "offerId": "softera-fdc",
+  "source": {
+    "name": "Softera FDC",
+    "publisher": "Softera Baltic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softera_baltic%7CAID.softera-fdc%7CPAPPID.74bca3f4-05cf-4e67-a823-45aac6b79294",
+    "lastModified": "2026-07-10T12:25:24.81389+00:00",
+    "appVersion": "105.33.27.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://instrukcijos.softera.lt/docs/fdc",
+    "sourceHash": "sha256:5ad0fd4a602b9871b55a2949461b3c7472d3b2dcc74a6b92aaa74ab831194ebd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ad0fd4a602b9871b55a2949461b3c7472d3b2dcc74a6b92aaa74ab831194ebd",
+    "mappedOn": null,
+    "summary": "Shop floor data capture for production order postings",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-time-shifts",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Posts production order consumption without journals",
+      "Posts routing operations on production orders without output journals",
+      "Shop floor supervisor can review and correct entries before posting later",
+      "Supports several manufacturing locations with employee time tracking per location",
+      "Automatically closes employee sessions based on shift times",
+      "Tracks employee time spent on machines",
+      "Compatible with Cosmo Consult Advanced Manufacturing pack for posting work packages",
+      "Mobile device use on the shop floor via To-Increase Dynamics Anywhere",
+      "Requires Premium edition"
+    ],
+    "countries": [
+      "CA",
+      "DK",
+      "EE",
+      "GB",
+      "IE",
+      "LT",
+      "LV",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "lt"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

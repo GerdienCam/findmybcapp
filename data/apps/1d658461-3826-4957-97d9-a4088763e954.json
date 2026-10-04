@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.madhda3303|AID.procureplus|PAPPID.1d658461-3826-4957-97d9-a4088763e954",
+  "guid": "1d658461-3826-4957-97d9-a4088763e954",
+  "publisherId": "madhda3303",
+  "offerId": "procureplus",
+  "source": {
+    "name": "Procure+ Advance Purchasing",
+    "publisher": "Madhda Business Solutions Private Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.madhda3303%7CAID.procureplus%7CPAPPID.1d658461-3826-4957-97d9-a4088763e954",
+    "lastModified": "2026-09-09T19:08:08.6161617+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://madhda.com/add-ons/procureplus-advance-purchasing/",
+    "sourceHash": "sha256:39b74091a0a8d61601372f4f0390b420427ded916e155228faed0f7d7b3d54ec"
+  },
+  "mapping": {
+    "sourceHash": "sha256:39b74091a0a8d61601372f4f0390b420427ded916e155228faed0f7d7b3d54ec",
+    "mappedOn": null,
+    "summary": "Procurement from request through vendor selection to PO",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-budget-control",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-procurement-spend"
+    ],
+    "claims": [
+      "Automates purchase requisitions, approvals and PO generation",
+      "End-to-end flow from request through vendor selection to purchase order",
+      "Budget control to prevent overspending",
+      "Centralized vendor management",
+      "Real-time procurement reporting and analytics"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

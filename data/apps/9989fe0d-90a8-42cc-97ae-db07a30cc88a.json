@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_lightspeed_integration|PAPPID.9989fe0d-90a8-42cc-97ae-db07a30cc88a",
+  "guid": "9989fe0d-90a8-42cc-97ae-db07a30cc88a",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_lightspeed_integration",
+  "source": {
+    "name": "Linc Lightspeed Integration",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_lightspeed_integration%7CPAPPID.9989fe0d-90a8-42cc-97ae-db07a30cc88a",
+    "lastModified": "2026-09-18T10:53:52.6796114+00:00",
+    "appVersion": "26.26.2452.621",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-Lightspeed-Integration",
+    "sourceHash": "sha256:07eddac250d0673d2c7831501b554010057b0f1ede21190ef34be6ef90a76ecb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:07eddac250d0673d2c7831501b554010057b0f1ede21190ef34be6ef90a76ecb",
+    "mappedOn": null,
+    "summary": "Imports Lightspeed transactions with custom mappings",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Imports transactions from Lightspeed via web service/API",
+      "Custom mappings for imported transactions",
+      "Turns transactions into sales or purchase documents",
+      "Automated via job queue entries"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Lightspeed"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

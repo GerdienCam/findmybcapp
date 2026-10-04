@@ -1,0 +1,199 @@
+{
+  "id": "ng-mkt-campaigns",
+  "order": 114,
+  "label": "Running email campaigns, newsletters and events",
+  "description": "Selecting audiences, creating content and landing pages, sending campaigns and running events.",
+  "type": "bpc",
+  "area": "Marketing",
+  "relevance": "high",
+  "statements": [
+    "Running email campaigns, newsletters and events",
+    "Selecting audiences, creating content and landing pages, sending campaigns and running events.",
+    "We want to send a newsletter to our customers straight from Business Central",
+    "Is there a Mailchimp integration for BC that syncs our contacts?",
+    "email marketing app for Business Central",
+    "Our marketing person exports contacts to Excel every time she sends a mailing",
+    "How can we send an SMS to customers when a promotion starts?",
+    "We'd like to send a personalized offer to each customer with their own prices",
+    "BC campaign prices only work if someone remembers to activate them",
+    "Want to schedule a series of follow-up emails after someone downloads a brochure",
+    "Can we send a bulk email to all contacts in a segment with a PDF attached?",
+    "We run Facebook and LinkedIn ads but nothing connects back to our customer data",
+    "newsletter sending from BC",
+    "Sending 3,000 emails through Outlook gets us blocked as spam",
+    "Our customers should get a mail about new products in the categories they usually buy",
+    "We want a spring discount campaign that applies automatically on sales orders for selected customers",
+    "Is there a way to send printed mailings with labels generated from BC contacts?",
+    "How do we run a drip campaign for prospects without buying a full marketing platform?",
+    "We want to text our retail customers a discount code for the weekend",
+    "Our shop wants to push a notification to app users when the sale starts",
+    "Marketing automation that writes back opens and clicks onto the contact in BC",
+    "Every campaign we run means copying contacts between three systems and something always breaks",
+    "Our campaign ended but the special prices were still active two weeks later",
+    "Want one overview of all campaigns running right now and their status",
+    "How do we pause an email campaign mid-way if we find a mistake?",
+    "active campaigns dashboard",
+    "Several promotions overlap and nobody checks if they conflict",
+    "Need alerts when a running ad campaign is overspending its daily budget",
+    "I need a list of all customers who bought from a certain product group last year but not this year",
+    "How do I build a mailing list in BC from contacts with a certain industry and region?",
+    "segments in Business Central",
+    "We want to send the offer only to customers who haven't ordered in six months",
+    "Our marketing lists live in Excel and are always out of date",
+    "Is there an app that keeps campaign audiences updated automatically as customers change?",
+    "We bought a list of prospects and need to import them for one campaign",
+    "Want to exclude customers with overdue invoices from the promotion mailing",
+    "Can I pick contacts by their job title, for example only purchasing managers?",
+    "Each salesperson wants a different target list for their territory",
+    "Dynamic customer segments based on sales history",
+    "We need to target customers who bought the old model and might want to upgrade",
+    "We never agree on a theme for our campaigns and end up with something generic",
+    "Need help coming up with a slogan for the spring promotion",
+    "campaign messaging ideas",
+    "Our messages differ on the website, in emails and in what sales reps say",
+    "Want a shared place where marketing and sales agree the key points of a campaign",
+    "How do we tailor the same campaign message for installers versus end customers?",
+    "We want to make nice newsletter templates without hiring a designer",
+    "Is there a tool that turns our item data and pictures into a printable brochure?",
+    "marketing email templates",
+    "Making a product flyer takes days because we copy item details by hand",
+    "Need short videos of our products for social media",
+    "Want email templates with our branding that sales can use for offers",
+    "We need a simple landing page for each campaign with a sign-up form",
+    "How do we get leads from our campaign page straight into BC contacts?",
+    "campaign landing page builder",
+    "Every promotion needs a web page and our web agency takes weeks",
+    "Want a page where trade show visitors can request a quote",
+    "Can we make a microsite for the new product launch without a developer?",
+    "We do three trade shows a year and plan each one from scratch in spreadsheets",
+    "Need a registration page for our customer day",
+    "event planning tool for small company",
+    "How do we invite selected customers to our open house and track who signed up?",
+    "Want a checklist and budget template for trade show preparation",
+    "We're hosting a product launch event and need invitations sent from our CRM",
+    "We collect business cards at trade shows and half of them never get into the system",
+    "How do we check in guests at our customer event and log attendance in BC?",
+    "event registration and attendance",
+    "Want to send a thank you email to everyone who came to our open house",
+    "Need to know which customers attended the seminar and which ones bought afterwards",
+    "Is there an app to scan visitor badges at our stand and create contacts?"
+  ],
+  "questions": [
+    {
+      "id": "what",
+      "text": "What do you want to run?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Email campaigns or newsletters",
+          "patterns": [
+            "e-?mail",
+            "newsletter"
+          ]
+        },
+        {
+          "label": "Events, courses or conferences",
+          "patterns": [
+            "event",
+            "conference",
+            "course",
+            "ticket"
+          ]
+        },
+        {
+          "label": "Loyalty programs and coupons in store",
+          "patterns": [
+            "loyalty",
+            "coupon",
+            "\\bpos\\b"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Email campaigns or newsletters": 0.45,
+        "Events, courses or conferences": 0.18,
+        "Loyalty programs and coupons in store": 0.18
+      }
+    },
+    {
+      "id": "tool",
+      "text": "Which email marketing tool do you use today?",
+      "options": [
+        {
+          "label": "Mailchimp",
+          "patterns": [
+            "mailchimp"
+          ]
+        },
+        {
+          "label": "Klaviyo, Yotpo or Salesforce Marketing",
+          "patterns": [
+            "klaviyo",
+            "yotpo",
+            "salesforce marketing"
+          ]
+        },
+        {
+          "label": "Voyado or Diller (with LS Central)",
+          "patterns": [
+            "voyado",
+            "diller"
+          ]
+        },
+        {
+          "label": "None yet, we want to send from the app",
+          "patterns": [
+            "email editor",
+            "sends birthday emails",
+            "transactional emails"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Mailchimp": 0.18,
+        "Klaviyo, Yotpo or Salesforce Marketing": 0.27,
+        "Voyado or Diller (with LS Central)": 0.18,
+        "None yet, we want to send from the app": 0.18
+      }
+    },
+    {
+      "id": "signup",
+      "text": "Do people need to sign up or pay online?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Sign-up forms or subscription lists",
+          "patterns": [
+            "signup",
+            "sign-up",
+            "subscriptions",
+            "registration"
+          ]
+        },
+        {
+          "label": "Online payment or tickets",
+          "patterns": [
+            "payment",
+            "ticket"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sign-up forms or subscription lists": 0.36,
+        "Online payment or tickets": 0.18
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "TYPE.connect|PUBID.centerstageinc1690983912338|AID.99minds|PAPPID.c4cd524c-bcc2-4d92-975b-a96e04f133d1",
+  "guid": "c4cd524c-bcc2-4d92-975b-a96e04f133d1",
+  "publisherId": "centerstageinc1690983912338",
+  "offerId": "99minds",
+  "source": {
+    "name": "99minds for Microsoft Dynamics 365 Business Central",
+    "publisher": "iPaaS.com",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.centerstageinc1690983912338%7CAID.99minds%7CPAPPID.c4cd524c-bcc2-4d92-975b-a96e04f133d1",
+    "lastModified": "2026-05-29T03:47:15.1348076+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.ipaas.com/en/collections/11125914-99minds",
+    "sourceHash": "sha256:70765bbe13d3f777b7a78a74c61d506c593e4a4f335cbe068c4c05b5fb5fcb39"
+  },
+  "mapping": {
+    "sourceHash": "sha256:70765bbe13d3f777b7a78a74c61d506c593e4a4f335cbe068c4c05b5fb5fcb39",
+    "mappedOn": null,
+    "summary": "Loyalty points, gift cards and memberships via 99minds",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loyalty",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Loyalty points, gift cards, store credits and memberships across online and in-store",
+      "Syncs customer data including membership levels, reward point and store credit balances",
+      "Syncs sales orders to update reward point, store credit and gift card balances",
+      "Handles cancelled or refunded transactions in data flows",
+      "Works natively in Shopify, BigCommerce, Salesforce Commerce Cloud, WooCommerce",
+      "Works in POS systems such as Square, Shopify POS, Lightspeed, Clover",
+      "Integration runs via iPaaS.com platform"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Consumer Goods",
+      "Retail"
+    ],
+    "connectsTo": [
+      "99minds",
+      "iPaaS.com",
+      "Shopify",
+      "BigCommerce",
+      "WooCommerce",
+      "Square POS",
+      "Lightspeed POS",
+      "Clover",
+      "Stripe"
+    ],
+    "requires": [
+      "iPaaS.com",
+      "99minds"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

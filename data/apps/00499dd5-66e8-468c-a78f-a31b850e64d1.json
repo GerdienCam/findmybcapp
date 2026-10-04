@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.dimosoftware1660731956460|AID.dimomaint_cmms_stock_integration|PAPPID.00499dd5-66e8-468c-a78f-a31b850e64d1",
+  "guid": "00499dd5-66e8-468c-a78f-a31b850e64d1",
+  "publisherId": "dimosoftware1660731956460",
+  "offerId": "dimomaint_cmms_stock_integration",
+  "source": {
+    "name": "DIMO Maint CMMS",
+    "publisher": "DimoMaint",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dimosoftware1660731956460%7CAID.dimomaint_cmms_stock_integration%7CPAPPID.00499dd5-66e8-468c-a78f-a31b850e64d1",
+    "lastModified": "2026-04-02T16:20:21.0994972+00:00",
+    "appVersion": "1.0.26.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dimomaint.com/cmms-selection/mx-store/connector/erp-microsoft-dynamics-365-business-central/",
+    "sourceHash": "sha256:9a03e2a05113226b48fbcd9ba02a9cb0672b9c79c0bb1cce3ccc6d7887c1672e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9a03e2a05113226b48fbcd9ba02a9cb0672b9c79c0bb1cce3ccc6d7887c1672e",
+    "mappedOn": null,
+    "summary": "Integrates DIMO Maint CMMS for asset maintenance",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-parts",
+      "ng-fa-register"
+    ],
+    "claims": [
+      "Integrates DIMO Maint CMMS with BC",
+      "Multi-tree asset structure, geographical and functional",
+      "History of operations per asset",
+      "Preventive, corrective and regulatory work requests",
+      "Meter-based and calendar-based preventive maintenance",
+      "Fault diagnostic help: effect-cause-remedy and fault tree",
+      "Visual workload planning with drag and drop",
+      "Manage subcontractor contracts",
+      "Spare parts inventory with multi-store and multi-supplier",
+      "Assign spare parts directly on work orders",
+      "Purchase requisition, order and receipt of parts",
+      "ADFS authentication and Web Services API"
+    ],
+    "countries": [
+      "FR",
+      "MY",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DIMO Maint"
+    ],
+    "requires": [
+      "DIMO Maint CMMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

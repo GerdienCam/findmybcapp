@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_edi|PAPPID.e985998f-000d-4f51-96ca-e72734e66594",
+  "guid": "e985998f-000d-4f51-96ca-e72734e66594",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_edi",
+  "source": {
+    "name": "EDI Suite",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_edi%7CPAPPID.e985998f-000d-4f51-96ca-e72734e66594",
+    "lastModified": "2026-06-05T11:41:56.3411207+00:00",
+    "appVersion": "25.2604.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-nbt_edi/",
+    "sourceHash": "sha256:d2296ce1f1b2f98f2ec5fb3f9f75b16b2840e0dd6162aa4282d769ca83ea8b2b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d2296ce1f1b2f98f2ec5fb3f9f75b16b2840e0dd6162aa4282d769ca83ea8b2b",
+    "mappedOn": null,
+    "summary": "EDI document exchange suite",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Supports EDIFACT and EURITMO formats",
+      "Imports customer orders received by EDI (ORDERS IN)",
+      "Sends order confirmations (ORDERS RSP)",
+      "Sends despatch advices (DESADV)",
+      "Sends invoices in EDI format (INVOICE OUT)"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

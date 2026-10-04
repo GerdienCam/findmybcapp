@@ -1,0 +1,325 @@
+{
+  "id": "ng-proj-planning",
+  "order": 96,
+  "label": "Planning project tasks, schedules and people",
+  "description": "Breaking projects into tasks and schedules and planning, assigning and forecasting the resources to do them.",
+  "type": "bpc",
+  "area": "Projects",
+  "relevance": "high",
+  "statements": [
+    "Planning project tasks, schedules and people",
+    "Breaking projects into tasks and schedules and planning, assigning and forecasting the resources to do them.",
+    "Is there a Gantt chart for jobs in Business Central?",
+    "We plan tasks in MS Project and the job tasks in BC are always out of date",
+    "gantt chart BC projects",
+    "Need dependencies between job tasks so moving one moves the rest",
+    "How do I set up a task structure with headings, totals and sub tasks on a job?",
+    "Our job task lines have no dates, so we can't see a timeline",
+    "Want to import a project plan from Excel into BC job tasks",
+    "Is there an app with a timeline view of all tasks across projects?",
+    "Milestones should be visible on the project schedule",
+    "We need a work breakdown structure that also drives budgets and invoicing",
+    "When a task is delayed we can't see what else is affected",
+    "Planning task durations and start dates for 30 installation jobs in parallel",
+    "Can we sync Microsoft Planner or Project with the job tasks in BC?",
+    "Our project managers want a modern planning tool but finance needs everything in BC",
+    "Want critical path on our projects",
+    "Every new job needs the same 25 tasks typed in again",
+    "Tasks need a start and end date and percent complete in BC",
+    "Visual schedule for site work so foremen know what happens this week",
+    "We use Monday.com for tasks and BC for job costing, they don't talk",
+    "How to plan phases of a fit-out project with overlapping tasks",
+    "We have no overview of who is booked on which project next month",
+    "resource planning board for BC jobs",
+    "Is there a visual drag and drop planning board for project resources in Business Central?",
+    "Our planner uses a whiteboard to plan technicians across jobs",
+    "We overbook our consultants and only find out when they complain",
+    "Need to see capacity versus planned hours per resource per week",
+    "How do I plan a resource group like electricians instead of a named person?",
+    "We need to plan machines and vans as resources on jobs, not just people",
+    "Creating a new job by copying a previous one with all its planning lines",
+    "Is there an app to see utilization of every employee for the next 12 weeks?",
+    "We juggle 40 parallel projects and planning is all in Excel",
+    "Resource allocation across projects keeps colliding",
+    "Want to see which people are free when a new project is won",
+    "Internal projects like IT upgrades also need resource planning, not just customer jobs",
+    "Our project managers fight over the same few senior people",
+    "Planned hours on job planning lines are hard to see per resource",
+    "We plan in Microsoft Project and then retype resources into BC",
+    "capacity planning consultants",
+    "Holidays are not considered when we plan people on jobs",
+    "How many hours do we have available per skill group next quarter compared to what is sold?",
+    "We need to assign an engineer with the right certificate to each job task",
+    "Who is free next Tuesday to go to site?",
+    "assign resource to job task",
+    "How do I find a resource with a specific skill to put on a project in BC?",
+    "Employees don't know which project they're assigned to this week",
+    "We want to send each person their assignments by email or in Teams",
+    "Assigning someone who is already fully booked should give a warning",
+    "Can we borrow consultants from our sister company for a project?",
+    "Project managers request people and the resource manager approves the assignment",
+    "We need to assign a crane and an operator to the same job task",
+    "Our people want to see their own assignments on their phone",
+    "When a resource is sick we need to quickly reassign their project tasks",
+    "We can't tell if we have enough consultants for the projects in the sales pipeline",
+    "project resource forecast",
+    "Want to forecast hours per role for the next six months from planned and likely projects",
+    "Is there an app that shows demand for skills across all projects compared to our team?",
+    "Our project estimates should feed a forecast of how many people we need",
+    "We hire too late because nobody sees the project workload coming",
+    "We have 30 projects starting this year and no overview of when they all hit at once",
+    "Can we take on this new project or are we already fully booked in Q3?",
+    "project portfolio planning",
+    "Management wants a yearly plan of all projects with expected revenue and hours per month",
+    "Is there an app that shows all planned jobs in BC on one timeline?",
+    "Projects we expect to win need to be in the plan before the contract is signed"
+  ],
+  "questions": [
+    {
+      "id": "view",
+      "text": "How do you want to see the plan?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Gantt chart",
+          "patterns": [
+            "gantt"
+          ]
+        },
+        {
+          "label": "Kanban board",
+          "patterns": [
+            "kanban"
+          ]
+        },
+        {
+          "label": "Resource load or capacity view",
+          "patterns": [
+            "capacity",
+            "utili[sz]ation",
+            "workload",
+            "histogram",
+            "heatmap",
+            "overload"
+          ]
+        },
+        {
+          "label": "Drag-and-drop planning board",
+          "patterns": [
+            "drag",
+            "graphical"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Gantt chart": 0.17,
+        "Kanban board": 0.07,
+        "Resource load or capacity view": 0.45,
+        "Drag-and-drop planning board": 0.34
+      }
+    },
+    {
+      "id": "deps",
+      "text": "Do your tasks depend on each other?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, need dependencies or critical path",
+          "patterns": [
+            "dependenc",
+            "critical path"
+          ]
+        },
+        {
+          "label": "No, a task list with due dates is enough",
+          "patterns": [
+            "due date",
+            "deadline",
+            "checklist",
+            "owners and dates",
+            "lead times per step"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, need dependencies or critical path": 0.17,
+        "No, a task list with due dates is enough": 0.14
+      }
+    },
+    {
+      "id": "assign",
+      "text": "How do you pick who does a task?",
+      "multi": true,
+      "options": [
+        {
+          "label": "By skills",
+          "patterns": [
+            "skill"
+          ]
+        },
+        {
+          "label": "By who is free",
+          "patterns": [
+            "availab",
+            "double-booking",
+            "overload",
+            "who will work",
+            "workload"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "By skills": 0.1,
+        "By who is free": 0.31
+      }
+    },
+    {
+      "id": "time",
+      "text": "Should people log time against the plan?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, on the task or project",
+          "patterns": [
+            "time (registration|recording|entry|entries|tracking|and expense)",
+            "timesheet",
+            "time sheet",
+            "time (logged|registered)",
+            "registers? time"
+          ]
+        },
+        {
+          "label": "Yes, pre-filled from the plan or calendar",
+          "patterns": [
+            "auto-populates time",
+            "start/stop",
+            "automatic timesheet",
+            "adds assigned tasks to time sheets"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, on the task or project": 0.41,
+        "Yes, pre-filled from the plan or calendar": 0.07
+      }
+    },
+    {
+      "id": "start",
+      "text": "Where do new projects come from?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Templates we reuse",
+          "patterns": [
+            "template"
+          ]
+        },
+        {
+          "label": "Sales quotes or orders",
+          "patterns": [
+            "quote",
+            "sales order",
+            "crm",
+            "lead generation"
+          ]
+        },
+        {
+          "label": "Excel or CAD imports",
+          "patterns": [
+            "excel",
+            "import"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Templates we reuse": 0.38,
+        "Sales quotes or orders": 0.21,
+        "Excel or CAD imports": 0.14
+      }
+    },
+    {
+      "id": "m365",
+      "text": "Should the plan connect to Microsoft 365?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Outlook or Teams calendars and channels",
+          "patterns": [
+            "outlook",
+            "teams"
+          ]
+        },
+        {
+          "label": "SharePoint for project files",
+          "patterns": [
+            "sharepoint",
+            "microsoft 365"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Outlook or Teams calendars and channels": 0.14,
+        "SharePoint for project files": 0.07
+      }
+    },
+    {
+      "id": "ahead",
+      "text": "What do you need to look ahead on?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Staffing and capacity",
+          "patterns": [
+            "forecast(s|ing)? (resource|future|staff)",
+            "capacity forecasting",
+            "weeks ahead",
+            "resource forecast",
+            "capacity and resource planning",
+            "master planning"
+          ]
+        },
+        {
+          "label": "Project costs and budget",
+          "patterns": [
+            "budget",
+            "estimate at completion",
+            "forecast(s|ing)? resource costs",
+            "cost and revenue"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Staffing and capacity": 0.1,
+        "Project costs and budget": 0.38
+      }
+    }
+  ]
+}

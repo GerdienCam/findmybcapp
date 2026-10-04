@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.bcsitera|AID.identity-verification|PAPPID.fcd24bd8-cf4a-4b68-9fa2-977559a1d68a",
+  "guid": "fcd24bd8-cf4a-4b68-9fa2-977559a1d68a",
+  "publisherId": "bcsitera",
+  "offerId": "identity-verification",
+  "source": {
+    "name": "Smart-ID",
+    "publisher": "DIGMATIX",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.identity-verification%7CPAPPID.fcd24bd8-cf4a-4b68-9fa2-977559a1d68a",
+    "lastModified": "2026-06-26T15:46:36.9508397+00:00",
+    "appVersion": "22.0.26177.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.itera.ee/apps/smart-id/docs/en-US/help",
+    "sourceHash": "sha256:e2ab37ea07e18767f111f98f4c86a84b03ce266c87459c113be46ecd1730f9a2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e2ab37ea07e18767f111f98f4c86a84b03ce266c87459c113be46ecd1730f9a2",
+    "mappedOn": null,
+    "summary": "User identification and document signing with Smart-ID",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-users-signin"
+    ],
+    "claims": [
+      "Smart-ID identity verification when logging into BC",
+      "Sign documents in BC with Smart-ID"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Smart-ID"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

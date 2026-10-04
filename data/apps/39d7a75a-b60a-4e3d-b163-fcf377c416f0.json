@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.builddynamicsptyltd1736891494025|AID.bd_postcodes|PAPPID.39d7a75a-b60a-4e3d-b163-fcf377c416f0",
+  "guid": "39d7a75a-b60a-4e3d-b163-fcf377c416f0",
+  "publisherId": "builddynamicsptyltd1736891494025",
+  "offerId": "bd_postcodes",
+  "source": {
+    "name": "Postcode & Address Validation",
+    "publisher": "Build Dynamics Pty Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.builddynamicsptyltd1736891494025%7CAID.bd_postcodes%7CPAPPID.39d7a75a-b60a-4e3d-b163-fcf377c416f0",
+    "lastModified": "2026-08-02T18:20:09.1605156+00:00",
+    "appVersion": "28.0.1.9",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://builddynamics.com.au/support/",
+    "sourceHash": "sha256:5537cfabebc0b33cf889d7a157f2a1e1be23c7d82d83915195171adbcf553249"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5537cfabebc0b33cf889d7a157f2a1e1be23c7d82d83915195171adbcf553249",
+    "mappedOn": null,
+    "summary": "Validates and auto-completes addresses",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Google-powered address lookup and auto-complete on contact, customer, vendor cards",
+      "Validates Australian postcodes (4-character ATO mandate)",
+      "Country-specific formatting for international addresses",
+      "Auto-populates street, suburb/city, state and postcode",
+      "Geocoding and map preview",
+      "Requires a Google API key"
+    ],
+    "countries": [
+      "AU"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Google Address Validation"
+    ],
+    "requires": [
+      "License Manager (Build Dynamics)"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

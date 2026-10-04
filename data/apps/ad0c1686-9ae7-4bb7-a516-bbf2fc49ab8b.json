@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.amjsconsulting1621353404525|AID.item_journal_approval_workflow|PAPPID.ad0c1686-9ae7-4bb7-a516-bbf2fc49ab8b",
+  "guid": "ad0c1686-9ae7-4bb7-a516-bbf2fc49ab8b",
+  "publisherId": "amjsconsulting1621353404525",
+  "offerId": "item_journal_approval_workflow",
+  "source": {
+    "name": "Item Journal Approval Workflow",
+    "publisher": "AMJS CONSULTING",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.amjsconsulting1621353404525%7CAID.item_journal_approval_workflow%7CPAPPID.ad0c1686-9ae7-4bb7-a516-bbf2fc49ab8b",
+    "lastModified": "2025-03-04T14:46:38.7506822+00:00",
+    "appVersion": "25.2.27733.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Freemium",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.amjs-consulting.com/item-journal-approval-workflow/",
+    "sourceHash": "sha256:fad0d2a6a577c7a30be5e7e41e6b2d0d30f4a7466b19657319ad56f8ad25000a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fad0d2a6a577c7a30be5e7e41e6b2d0d30f4a7466b19657319ad56f8ad25000a",
+    "mappedOn": null,
+    "summary": "Approval workflow for item journals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-counting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-shop-floor-reporting",
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Approval workflows for physical inventory, item, reclassification and revaluation journals",
+      "Approval for capacity, consumption and output journals",
+      "Covers recurring journal variants",
+      "Audit trail for journal entries",
+      "Licensed only for users who send/approve item journals",
+      "Plans with minimum 5 or 10 users"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

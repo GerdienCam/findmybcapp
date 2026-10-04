@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.mdc_nordic|AID.toolpack_one_connector|PAPPID.232a3960-607e-8aba-25e7-520788a39a25",
+  "guid": "232a3960-607e-8aba-25e7-520788a39a25",
+  "publisherId": "mdc_nordic",
+  "offerId": "toolpack_one_connector",
+  "source": {
+    "name": "Toolpack One Connector",
+    "publisher": "MDC Nordic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mdc_nordic%7CAID.toolpack_one_connector%7CPAPPID.232a3960-607e-8aba-25e7-520788a39a25",
+    "lastModified": "2026-09-29T09:39:23.7453336+00:00",
+    "appVersion": "28.2.2.3701",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://mdcnordic.com/apps/toolpack-one/",
+    "sourceHash": "sha256:df56c951c9eca74b9c825efbc8823e7c50b8b93b6aa62bdaf836a99405488d36"
+  },
+  "mapping": {
+    "sourceHash": "sha256:df56c951c9eca74b9c825efbc8823e7c50b8b93b6aa62bdaf836a99405488d36",
+    "mappedOn": null,
+    "summary": "Connects BC data to Toolpack One reporting",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-budget-build",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Automated data transfer to Toolpack One via APIs",
+      "Standard (free): master data, dimensions, financial and sales data",
+      "Premium: purchasing, inventory and projects data",
+      "Microsoft Entra ID authentication",
+      "Multi-company support",
+      "Automatic access and permission management"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Toolpack One"
+    ],
+    "requires": [
+      "Toolpack One"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.esc_bvba|AID.e-commerce-connector|PAPPID.18dce0ed-f9a0-43ba-9d50-dd7a1accdc06",
+  "guid": "18dce0ed-f9a0-43ba-9d50-dd7a1accdc06",
+  "publisherId": "esc_bvba",
+  "offerId": "e-commerce-connector",
+  "source": {
+    "name": "E-Commerce Connector",
+    "publisher": "ESC bvba",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.esc_bvba%7CAID.e-commerce-connector%7CPAPPID.18dce0ed-f9a0-43ba-9d50-dd7a1accdc06",
+    "lastModified": "2026-09-16T13:35:11.210736+00:00",
+    "appVersion": "28.1.20260916.124827",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://alistar.net/nl/support/",
+    "sourceHash": "sha256:6aadc29c3d598abb7027fad9b828aa52c9a9d6071dc6c4cbbeddd0b5cb976458"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6aadc29c3d598abb7027fad9b828aa52c9a9d6071dc6c4cbbeddd0b5cb976458",
+    "mappedOn": null,
+    "summary": "Integrates multiple webshops with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-assortment-catalogs"
+    ],
+    "claims": [
+      "Configure multiple webshops with their own master data",
+      "Webshop orders pass through a buffer table, used to create sales orders",
+      "Select which items, item categories and attributes go to each webshop",
+      "Calculates and updates webshop price and inventory",
+      "Data transfer via additional apps such as Propeller Connector or a custom connector",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

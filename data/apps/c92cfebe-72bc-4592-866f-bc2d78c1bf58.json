@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.hamwicomputersoftware1675860549560|AID.bc_whatsapp_integration|PAPPID.c92cfebe-72bc-4592-866f-bc2d78c1bf58",
+  "guid": "c92cfebe-72bc-4592-866f-bc2d78c1bf58",
+  "publisherId": "hamwicomputersoftware1675860549560",
+  "offerId": "bc_whatsapp_integration",
+  "source": {
+    "name": "Business Central WhatsApp Integration",
+    "publisher": "Hamwi Computer Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hamwicomputersoftware1675860549560%7CAID.bc_whatsapp_integration%7CPAPPID.c92cfebe-72bc-4592-866f-bc2d78c1bf58",
+    "lastModified": "2026-05-25T07:54:12.7493278+00:00",
+    "appVersion": "27.20260525.1.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamics-whatsapp-integration-api.ha-consultancy.com/Documentation.pdf",
+    "sourceHash": "sha256:9010838ebffbbd9861d0cda011253c32b6487f3b5b4c8479d7176d1e70a24e03"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9010838ebffbbd9861d0cda011253c32b6487f3b5b4c8479d7176d1e70a24e03",
+    "mappedOn": null,
+    "summary": "Sends WhatsApp template messages and documents from BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Customizable WhatsApp message templates",
+      "Automatically generates and attaches BC reports to messages",
+      "Works from sales orders, customers, vendors and more",
+      "Send with one click"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "WhatsApp",
+      "WozTell"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

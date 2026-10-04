@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.visiondatabusinessconsultag1581677616921|AID.shippingpro|PAPPID.5409dbf2-fb09-46f2-959c-2b28fa9bbd97",
+  "guid": "5409dbf2-fb09-46f2-959c-2b28fa9bbd97",
+  "publisherId": "visiondatabusinessconsultag1581677616921",
+  "offerId": "shippingpro",
+  "source": {
+    "name": "Shipping Pro",
+    "publisher": "VISIONDATA business consult AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visiondatabusinessconsultag1581677616921%7CAID.shippingpro%7CPAPPID.5409dbf2-fb09-46f2-959c-2b28fa9bbd97",
+    "lastModified": "2026-10-02T09:23:54.903803+00:00",
+    "appVersion": "28.1.8.7",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.visiondata.de/dokumentationen/shipping-pro-app-de",
+    "sourceHash": "sha256:496d31d55c258ced189c224f031db79ddb3b2401189db62fadc363fffe79baef"
+  },
+  "mapping": {
+    "sourceHash": "sha256:496d31d55c258ced189c224f031db79ddb3b2401189db62fadc363fffe79baef",
+    "mappedOn": null,
+    "summary": "Multi-carrier shipping labels and daily closing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Create shipments from sales orders, transfers or warehouse shipments",
+      "Prints labels in PDF, ZPL for Zebra and PNG",
+      "Batch label printing for high volume",
+      "Access to over 80 carriers via SGS ShipIO",
+      "Customs declaration with customs values and tariff codes",
+      "Dangerous goods declarations",
+      "One-click day-end transmission to carriers",
+      "Automatic archiving of labels for returns and compliance",
+      "Addresses and item data taken over automatically"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SGS ShipIO"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

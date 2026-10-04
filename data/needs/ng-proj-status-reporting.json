@@ -1,0 +1,272 @@
+{
+  "id": "ng-proj-status-reporting",
+  "order": 98,
+  "label": "Seeing project status, progress and margin",
+  "description": "Monitoring where projects stand, budget versus actual, percent complete and quality or snag lists.",
+  "type": "bpc",
+  "area": "Projects",
+  "relevance": "high",
+  "statements": [
+    "Seeing project status, progress and margin",
+    "Monitoring where projects stand, budget versus actual, percent complete and quality or snag lists.",
+    "I have no idea if a project is making money until it's finished",
+    "project dashboard BC",
+    "We want one screen showing all open jobs with cost, billed and margin",
+    "Is there a Power BI report for Business Central jobs?",
+    "Project managers can't see their own job costs without asking finance",
+    "How much is left to spend and to bill on each project?",
+    "We need a traffic light status per project for the weekly meeting",
+    "Job profitability report that includes committed costs from open POs",
+    "Real time view of project revenue versus cost for our MD",
+    "Our job statistics page is hard to read for non-accountants",
+    "Want a cockpit for each project manager with all their jobs",
+    "Projects lose money and we only find out at year end",
+    "Monitor remaining hours versus planned hours per job",
+    "Is there an app that emails project managers when their job goes into a loss?",
+    "We need a status overview of internal projects as well as customer jobs",
+    "How much unbilled work do we have across all projects right now?",
+    "Project margin per customer and per project manager",
+    "Want status reports on projects without building them in Excel",
+    "Simple overview for site managers of what's been spent on their job",
+    "Our dashboards show G/L but we need job level numbers",
+    "We need budget versus actual per job task, with variance in percent",
+    "job budget vs actual report",
+    "Which types of projects are actually profitable for us over the last three years?",
+    "Compare estimated hours to actual hours on closed projects",
+    "Is there an analytics app for project profitability by customer, type and manager?",
+    "Want to spot strange postings on jobs, like hours far higher than normal",
+    "Our variance analysis on projects is done in Excel exports every month",
+    "Compare current project figures to the original baseline",
+    "Revenue per hour and margin per consultant across all projects",
+    "Utilization rate per employee on billable projects",
+    "Analyze why our fixed price jobs overrun by 20 percent on average",
+    "Project account statement showing all entries for the client",
+    "How far along is each project? We just guess a percentage",
+    "percent complete per job task",
+    "Project managers need to enter progress per task each month",
+    "Is there an app for earned value on projects in BC?",
+    "We want to compare planned progress to actual progress on a timeline",
+    "Which milestones were hit on time and which are late?",
+    "How do I close a job in BC when it's finished, and what has to happen first?",
+    "We have hundreds of old jobs still open because nobody closes them",
+    "Track progress against a not to exceed contract limit",
+    "Customer wants a progress report showing percent complete per phase",
+    "Progress from our Planner tasks should update the job in Business Central",
+    "Close a project phase so no more hours can be posted to it",
+    "We need a punch list per project that the client can sign off",
+    "Quality checklists on site before handover are on paper",
+    "snag list app construction",
+    "Is there an app to record defects found on a project with photos?",
+    "We want quality inspection steps on each project phase",
+    "Rework on projects is never recorded, so we can't learn from it"
+  ],
+  "questions": [
+    {
+      "id": "view",
+      "text": "How do you want to see where projects stand?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Dashboard or cockpit in Business Central",
+          "patterns": [
+            "cockpit",
+            "dashboard",
+            "overview",
+            "role center",
+            "charts?\\b"
+          ]
+        },
+        {
+          "label": "Power BI reports",
+          "patterns": [
+            "power bi"
+          ]
+        },
+        {
+          "label": "Ask questions in plain language (AI agent)",
+          "patterns": [
+            "natural-language",
+            "\\bagent\\b",
+            "on-demand project analysis"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Dashboard or cockpit in Business Central": 0.5,
+        "Power BI reports": 0.1,
+        "Ask questions in plain language (AI agent)": 0.1
+      }
+    },
+    {
+      "id": "progress",
+      "text": "How do you measure progress on a project?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Budget vs actual cost",
+          "patterns": [
+            "budget (vs|versus) actual",
+            "actual vs budget",
+            "budget, forecast and actual",
+            "compar\\w* (status )?to budget",
+            "budgeted vs actual",
+            "budget, committed and actual",
+            "variance"
+          ]
+        },
+        {
+          "label": "Margin and profitability",
+          "patterns": [
+            "margin",
+            "profitab"
+          ]
+        },
+        {
+          "label": "Percent complete / WIP",
+          "patterns": [
+            "percent",
+            "percentage of completion",
+            "\\bWIP\\b",
+            "progress"
+          ]
+        },
+        {
+          "label": "Earned value (EVM)",
+          "patterns": [
+            "earned value",
+            "\\bEVM\\b",
+            "\\bCPI\\b"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Budget vs actual cost": 0.55,
+        "Margin and profitability": 0.45,
+        "Percent complete / WIP": 0.45,
+        "Earned value (EVM)": 0.15
+      }
+    },
+    {
+      "id": "billing",
+      "text": "How do you mostly invoice your projects?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Fixed price, milestones or instalments",
+          "patterns": [
+            "fixed price",
+            "milestone",
+            "instal+ment",
+            "prepayment",
+            "lump sum"
+          ]
+        },
+        {
+          "label": "Time and materials",
+          "patterns": [
+            "time ?(&|and) material",
+            "\\bT&M\\b",
+            "timesheet",
+            "time registration",
+            "time worksheet",
+            "hours to invoice",
+            "time tracking"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Fixed price, milestones or instalments": 0.25,
+        "Time and materials": 0.45
+      }
+    },
+    {
+      "id": "changes",
+      "text": "Do customers often add extra work mid-project (change or variation orders)?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, track change orders",
+          "patterns": [
+            "change orders?",
+            "variation orders?",
+            "work orders? for scope",
+            "scope changes?",
+            "afe supplements"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, track change orders": 0.25
+      }
+    },
+    {
+      "id": "structure",
+      "text": "Do you need to roll up several projects or companies into one view?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, group projects or companies",
+          "patterns": [
+            "across companies",
+            "intercompany",
+            "consolidat",
+            "project order",
+            "master and sub",
+            "via deals",
+            "multiple projects per customer",
+            "across projects",
+            "customer profitability"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, group projects or companies": 0.45
+      }
+    },
+    {
+      "id": "subcontract",
+      "text": "Do your projects involve subcontractors or project purchasing?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "subcontract",
+            "project purchas",
+            "purchas\\w* (and|dashboard)",
+            "po lines",
+            "purchase dashboard",
+            "supply chain cockpit"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.4
+      }
+    }
+  ]
+}

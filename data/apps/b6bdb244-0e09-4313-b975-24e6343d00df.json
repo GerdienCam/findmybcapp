@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.singhammeritconsultingag1598359803264|AID.1020|PAPPID.b6bdb244-0e09-4313-b975-24e6343d00df",
+  "guid": "b6bdb244-0e09-4313-b975-24e6343d00df",
+  "publisherId": "singhammeritconsultingag1598359803264",
+  "offerId": "1020",
+  "source": {
+    "name": "DYCE Feature Suite for Subscription Billing",
+    "publisher": "Singhammer IT Consulting AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1020%7CPAPPID.b6bdb244-0e09-4313-b975-24e6343d00df",
+    "lastModified": "2026-09-27T07:24:28.3036754+00:00",
+    "appVersion": "2026.9.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.dyce.cloud/docs/appsuites/fssb",
+    "sourceHash": "sha256:faadbf8e4c385bc99e246631a64dc37c47354966236acd57091a51a0bf6913c4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:faadbf8e4c385bc99e246631a64dc37c47354966236acd57091a51a0bf6913c4",
+    "mappedOn": null,
+    "summary": "Extends Subscription Billing features",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-pricing",
+      "ng-ux-rolecenters",
+      "ng-ux-document-layouts",
+      "ng-ux-search-navigation"
+    ],
+    "claims": [
+      "Tiered pricing covering subscriptions as well as recurring service commitments",
+      "Pre-assignment of subscriptions to contracts",
+      "Direct extension of Microsoft Subscription Billing",
+      "Imports supplier price lists with history and filters",
+      "Configurable role center cues",
+      "Product bundles with control of customer-facing information",
+      "Formatted long texts and images in documents",
+      "Position numbers and print preview of unposted sales documents",
+      "Sold as bundle only"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Microsoft Subscription Billing"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

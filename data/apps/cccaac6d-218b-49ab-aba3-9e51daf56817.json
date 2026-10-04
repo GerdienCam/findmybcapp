@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_edi_package_management|PAPPID.cccaac6d-218b-49ab-aba3-9e51daf56817",
+  "guid": "cccaac6d-218b-49ab-aba3-9e51daf56817",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_edi_package_management",
+  "source": {
+    "name": "m+m EDI with Package Management",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_edi_package_management%7CPAPPID.cccaac6d-218b-49ab-aba3-9e51daf56817",
+    "lastModified": "2026-08-12T07:28:40.7736068+00:00",
+    "appVersion": "28.0.373582.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:8db02c3093ccbe903e7921121ffdce2715f161900e957a55af39f0b87974bd64"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8db02c3093ccbe903e7921121ffdce2715f161900e957a55af39f0b87974bd64",
+    "mappedOn": null,
+    "summary": "EDI packaging attributes for m+m Package Management",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "EDI packaging attributes: stacking factor, packaging type, ownership ID, loading unit label",
+      "Shown on Package Card and Purchase Order pages",
+      "Supported BC editions as stated"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m EDI Base",
+      "m+m Package Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

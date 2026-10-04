@@ -1,0 +1,105 @@
+{
+  "appId": "PUBID.centralsolutions1591256491708|AID.cs_ean_barcode_management|PAPPID.1573aaf7-c6bf-40e9-8018-eeaa0fbbc71f",
+  "guid": "1573aaf7-c6bf-40e9-8018-eeaa0fbbc71f",
+  "publisherId": "centralsolutions1591256491708",
+  "offerId": "cs_ean_barcode_management",
+  "source": {
+    "name": "CS GS1 Barcode Management",
+    "publisher": "Central Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cs_ean_barcode_management%7CPAPPID.1573aaf7-c6bf-40e9-8018-eeaa0fbbc71f",
+    "lastModified": "2026-05-12T05:24:34.4052806+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://central-solutions.nl/cs-barcode-management-help-en/",
+    "sourceHash": "sha256:7cd0f77a68d3999e9c7f3211775bfa9ae580383ade73e82385835195954bbd1f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7cd0f77a68d3999e9c7f3211775bfa9ae580383ade73e82385835195954bbd1f",
+    "mappedOn": null,
+    "summary": "Creates and validates unique GS1 EAN/UPC barcodes for items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data",
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Creates EAN or UPC-A barcodes per GS1 standards",
+      "Number series assign barcodes to items, variants and each unit of measure",
+      "Calculates GS1 check digits",
+      "Checks barcode uniqueness per item, variant and unit of measure",
+      "Blocks orders/shipments without unique, correct GS1 barcodes",
+      "Validity checks configurable per order type",
+      "Multiple barcode lengths and check-digit methods",
+      "Barcodes shown in factboxes, order lines and warehouse documents",
+      "Printable via standard BC reports"
+    ],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "DO",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

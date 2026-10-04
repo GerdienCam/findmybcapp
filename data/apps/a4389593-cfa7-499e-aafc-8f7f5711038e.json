@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.appower|AID.pwr_pca|PAPPID.a4389593-cfa7-499e-aafc-8f7f5711038e",
+  "guid": "a4389593-cfa7-499e-aafc-8f7f5711038e",
+  "publisherId": "appower",
+  "offerId": "pwr_pca",
+  "source": {
+    "name": "Production Cost Allocation",
+    "publisher": "APPower",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.appower%7CAID.pwr_pca%7CPAPPID.a4389593-cfa7-499e-aafc-8f7f5711038e",
+    "lastModified": "2026-06-26T09:43:31.6662315+00:00",
+    "appVersion": "1.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.appower.io/",
+    "sourceHash": "sha256:48020c819d4db677febb117577f5ef85e84663cf159c78e23f8f9dbcf1ac8a8c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:48020c819d4db677febb117577f5ef85e84663cf159c78e23f8f9dbcf1ac8a8c",
+    "mappedOn": null,
+    "summary": "Allocates production costs across items and orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-dimensions"
+    ],
+    "claims": [
+      "Generates parallel postings from predefined allocation configurations",
+      "Allocates costs by dimensions and source account criteria",
+      "Allocation per source entry or aggregated by day or month",
+      "Configurable source, target and balancing accounts",
+      "Creates additional G/L entries for internal cost accounting"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.progressussoftware|AID.quality-control|PAPPID.53212ab0-06b7-4eff-9e59-0d62a47298f8",
+  "guid": "53212ab0-06b7-4eff-9e59-0d62a47298f8",
+  "publisherId": "progressussoftware",
+  "offerId": "quality-control",
+  "source": {
+    "name": "Quality Control",
+    "publisher": "Plumbline Consulting LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.progressussoftware%7CAID.quality-control%7CPAPPID.53212ab0-06b7-4eff-9e59-0d62a47298f8",
+    "lastModified": "2026-01-23T03:44:37.750668+00:00",
+    "appVersion": "1.8.10003.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.velosio.com/products/",
+    "sourceHash": "sha256:614abf03b0d60ff26bc25d681f021c93504361ec238f0dac7df8c8d2b14beedf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:614abf03b0d60ff26bc25d681f021c93504361ec238f0dac7df8c8d2b14beedf",
+    "mappedOn": null,
+    "summary": "Manages quality control and quarantine status",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-hold",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Testing and quarantine for lot or serial tracked products",
+      "User-definable test groups and results",
+      "Automatic quarantine of rejected or untested products",
+      "QC results per lot or serial number",
+      "Uses item tracking to show QC results for raw material components in finished goods",
+      "Requires Premium edition",
+      "Free trial available"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "IS",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.invicesolutionsaps1637013595608|AID.invice-core|PAPPID.0e50f1ee-3bfb-4dd1-b4a1-0c6ed9562e5b",
+  "guid": "0e50f1ee-3bfb-4dd1-b4a1-0c6ed9562e5b",
+  "publisherId": "invicesolutionsaps1637013595608",
+  "offerId": "invice-core",
+  "source": {
+    "name": "Invice Core",
+    "publisher": "Invice Solutions ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.invicesolutionsaps1637013595608%7CAID.invice-core%7CPAPPID.0e50f1ee-3bfb-4dd1-b4a1-0c6ed9562e5b",
+    "lastModified": "2026-07-22T13:05:27.4352442+00:00",
+    "appVersion": "26.5.34500.16",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://invice.com/support",
+    "sourceHash": "sha256:dbd202e10770eae0781f1810da0669bef1911a42914a8cf58b7721e7361dfa01"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dbd202e10770eae0781f1810da0669bef1911a42914a8cf58b7721e7361dfa01",
+    "mappedOn": null,
+    "summary": "Licensing dependency for Invice apps",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-licensing",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Dependency app auto-installed with Invice OCR or Invice Enterprise Portal",
+      "OAuth2 Azure AD authentication",
+      "License validation every 24 hours",
+      "Supports cloud and on-premises"
+    ],
+    "countries": [],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free",
+    "hide": true,
+    "hideReason": "Pure licensing dependency app for other Invice apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

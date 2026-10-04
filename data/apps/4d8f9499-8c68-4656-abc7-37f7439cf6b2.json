@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.smart-businessllc2412077-2412077|AID.smart_fx_rates|PAPPID.4d8f9499-8c68-4656-abc7-37f7439cf6b2",
+  "guid": "4d8f9499-8c68-4656-abc7-37f7439cf6b2",
+  "publisherId": "smart-businessllc2412077-2412077",
+  "offerId": "smart_fx_rates",
+  "source": {
+    "name": "SMART FX Rates",
+    "publisher": "SMART business LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_fx_rates%7CPAPPID.4d8f9499-8c68-4656-abc7-37f7439cf6b2",
+    "lastModified": "2026-07-28T15:33:09.0771228+00:00",
+    "appVersion": "1.0.143603.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.smart-it.com/",
+    "sourceHash": "sha256:50296affc502d50c73817de1564583d428002f5282f44cdd5bd5de08862e7fc3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:50296affc502d50c73817de1564583d428002f5282f44cdd5bd5de08862e7fc3",
+    "mappedOn": null,
+    "summary": "Automates currency exchange rate imports",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-setup"
+    ],
+    "claims": [
+      "Imports exchange rates automatically from ECB, OANDA and other open APIs",
+      "Multiple data providers supported",
+      "Daily scheduled imports via job queue",
+      "Configuration page to select rate source and schedule",
+      "No conflicts with native currency features",
+      "Validation so only complete, correct data is applied"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "ECB",
+      "OANDA"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

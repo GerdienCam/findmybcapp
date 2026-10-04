@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.microapps|AID.container|PAPPID.b594ed30-6441-46f5-9b66-960f2af4a82c",
+  "guid": "b594ed30-6441-46f5-9b66-960f2af4a82c",
+  "publisherId": "microapps",
+  "offerId": "container",
+  "source": {
+    "name": "Container Shipment",
+    "publisher": "Micro Apps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microapps%7CAID.container%7CPAPPID.b594ed30-6441-46f5-9b66-960f2af4a82c",
+    "lastModified": "2026-07-22T02:50:58.4478575+00:00",
+    "appVersion": "1.0.1.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Container%20Shipment%20Manual.pdf",
+    "sourceHash": "sha256:0aff435e87029f94b965a409aa95fed9be1d9f3761b91c60b0c89b6bf495923d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0aff435e87029f94b965a409aa95fed9be1d9f3761b91c60b0c89b6bf495923d",
+    "mappedOn": null,
+    "summary": "Groups purchase lines into containers and tracks container shipments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-order-allocation"
+    ],
+    "claims": [
+      "Groups PO lines into containers and container shipments",
+      "Overview of receipt dates for attached PO lines",
+      "Shows sales orders that will ship late",
+      "Updates delivery dates on reserved sales orders when receipt date changes",
+      "Receives all attached PO lines at once",
+      "Base carriers with measurements and loading plans"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

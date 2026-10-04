@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.succeedit_5140844|AID.levy_manager|PAPPID.4674b1b0-62ee-4e7d-91c6-69779ecce118",
+  "guid": "4674b1b0-62ee-4e7d-91c6-69779ecce118",
+  "publisherId": "succeedit_5140844",
+  "offerId": "levy_manager",
+  "source": {
+    "name": "Levy Manager",
+    "publisher": "SucceedIT B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.succeedit_5140844%7CAID.levy_manager%7CPAPPID.4674b1b0-62ee-4e7d-91c6-69779ecce118",
+    "lastModified": "2026-09-16T10:21:13.3757947+00:00",
+    "appVersion": "28.0.20260916.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.succeedit.nl/en/business-central-apps/levy-manager/",
+    "sourceHash": "sha256:7d1128140e89b03928b0a595c84217409fe0ecad84116d5d9d53b939ee3b3a26"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7d1128140e89b03928b0a595c84217409fe0ecad84116d5d9d53b939ee3b3a26",
+    "mappedOn": null,
+    "summary": "Adds levies and rebates to services",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-loc-epr-packaging",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-rebates",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Levy types and subtypes with amount, percentage and net weight rates",
+      "Levy rates per country, location and date range without overlaps",
+      "Calculates levies per line, either automatically on release or by hand",
+      "Levies invoiced on sales document or posted via general journal",
+      "Assign levies to all items with matching tariff code",
+      "Translated levy descriptions on sales documents",
+      "Customer-level levy exemptions",
+      "Levy ledger entries and API pages",
+      "Rebate agreements set for a customer, a vendor or an item group",
+      "Rebate ledger entries, payout and control reports",
+      "Choose G/L and balance account for levy posting",
+      "30-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.cetas_information_tech|AID.navbuild|PAPPID.e00e9a5c-1715-428d-a2f4-58b53f0a2ad8",
+  "guid": "e00e9a5c-1715-428d-a2f4-58b53f0a2ad8",
+  "publisherId": "cetas_information_tech",
+  "offerId": "navbuild",
+  "source": {
+    "name": "NB Projects - Project Engineering & Construction Solution",
+    "publisher": "Cetas Information Technology",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cetas_information_tech%7CAID.navbuild%7CPAPPID.e00e9a5c-1715-428d-a2f4-58b53f0a2ad8",
+    "lastModified": "2026-09-28T18:10:14.6178414+00:00",
+    "appVersion": "28.0.12.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://cetastech.com/add-ons/add-ons-support/#nbprojects",
+    "sourceHash": "sha256:d7edc865d5f86e7bdb02c2635b2ed6f74dc4eddfc12dccae317f2e92d51fb84d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d7edc865d5f86e7bdb02c2635b2ed6f74dc4eddfc12dccae317f2e92d51fb84d",
+    "mappedOn": null,
+    "summary": "Construction ERP for project costing and contracting",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-construction",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-estimate-contract",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-materials-subcontract",
+      "ng-proj-planning",
+      "ng-vert-property"
+    ],
+    "claims": [
+      "Imports client BOQ and handles rate analysis and estimate revisions",
+      "Two-way integration with MS Project and Primavera",
+      "Project BOQ and baseline budgeting",
+      "Purchase requisitions against budgets and vendor self-service portal",
+      "Subcontract work order management",
+      "Project billing and revenue recognition",
+      "Site apps for assigning tasks and posting updates",
+      "Construction asset maintenance",
+      "Real estate promotion: land, bookings, customers",
+      "Multi-level approval workflows",
+      "Per named user SaaS; perpetual for on-prem"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Construction",
+      "Engineering",
+      "Real estate"
+    ],
+    "connectsTo": [
+      "Microsoft Project",
+      "Primavera"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.nab|AID.anysys|PAPPID.d459d513-c348-45de-96cc-6d0ae44f7ab9",
+  "guid": "d459d513-c348-45de-96cc-6d0ae44f7ab9",
+  "publisherId": "nab",
+  "offerId": "anysys",
+  "source": {
+    "name": "Anysys Connect",
+    "publisher": "SmartApps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nab%7CAID.anysys%7CPAPPID.d459d513-c348-45de-96cc-6d0ae44f7ab9",
+    "lastModified": "2026-09-18T06:34:09.0484067+00:00",
+    "appVersion": "25.29.86.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.smartappsford365.com/anysys-connect/",
+    "sourceHash": "sha256:6586c2c6719187fe63a7022d07200fd8234934252684818efbb8f87e0d49a2a1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6586c2c6719187fe63a7022d07200fd8234934252684818efbb8f87e0d49a2a1",
+    "mappedOn": null,
+    "summary": "Integrates Anysys supplier invoice approval and posting with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Forwards supplier invoices approved in Anysys to BC",
+      "Review, post and approve supplier invoices in Anysys"
+    ],
+    "countries": [
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "FI",
+      "FR",
+      "GB",
+      "LT",
+      "NL",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Anysys"
+    ],
+    "requires": [
+      "Anysys"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

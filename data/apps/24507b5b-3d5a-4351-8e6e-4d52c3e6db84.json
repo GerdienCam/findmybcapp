@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.alpha_solutions_ag|AID.asrt|PAPPID.24507b5b-3d5a-4351-8e6e-4d52c3e6db84",
+  "guid": "24507b5b-3d5a-4351-8e6e-4d52c3e6db84",
+  "publisherId": "alpha_solutions_ag",
+  "offerId": "asrt",
+  "source": {
+    "name": "Aproda Subscription and Rental (ASRT)",
+    "publisher": "Aproda AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alpha_solutions_ag%7CAID.asrt%7CPAPPID.24507b5b-3d5a-4351-8e6e-4d52c3e6db84",
+    "lastModified": "2026-01-30T17:01:54.4545676+00:00",
+    "appVersion": "27.0.0.76",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aproda.ch/app-subscription-rental",
+    "sourceHash": "sha256:f24ebddedacd104f4a638a259368d8adda1591b6333d64ac0112c003bf8107fa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f24ebddedacd104f4a638a259368d8adda1591b6333d64ac0112c003bf8107fa",
+    "mappedOn": null,
+    "summary": "Manages subscription billing and product rental contracts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-fa-register",
+      "ng-quality-inspection"
+    ],
+    "claims": [
+      "Rental offers, orders and contracts",
+      "Rental prices and rates",
+      "Rental item reclassification process",
+      "Connection to fixed asset accounting",
+      "Return delivery via a quality control location",
+      "Contract management",
+      "Recurring rental and contract invoices"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

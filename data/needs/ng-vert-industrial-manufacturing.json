@@ -1,0 +1,176 @@
+{
+  "id": "ng-vert-industrial-manufacturing",
+  "order": 208,
+  "label": "Solutions for machine builders and engineer-to-order",
+  "description": "Industry suites for discrete, project-based and engineer-to-order manufacturers (machinery, industrial equipment, switchboards): project-driven production, configurable products, MES and advanced planning packs.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for machine builders and engineer-to-order",
+    "Industry suites for discrete, project-based and engineer-to-order manufacturers (machinery, industrial equipment, switchboards): project-driven production, configurable products, MES and advanced planning packs.",
+    "We build machines to order and every one is different",
+    "engineer to order solution for Business Central",
+    "Project and production are two worlds in BC",
+    "Industry pack for discrete manufacturing on BC",
+    "Machine builder needing project costing across engineering and production",
+    "Our production planning in standard BC isn't enough",
+    "Switchboard manufacturer, configure and build",
+    "MES and planning on top of BC",
+    "Manufacturing partner solution with everything included",
+    "Make to order with long lead times and milestones",
+    "Plastics manufacturing with quality and cost control",
+    "Sheet metal job shop quoting from drawings"
+  ],
+  "questions": [
+    {
+      "id": "mode",
+      "text": "How do you mostly build your products?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Designed to order for each customer (ETO)",
+          "patterns": [
+            "engineer(ing)?[- ]to[- ]order",
+            "\\beto\\b",
+            "design and manufacture"
+          ]
+        },
+        {
+          "label": "Configured from options (CTO / product configurator)",
+          "patterns": [
+            "configur",
+            "\\bcpq\\b",
+            "\\bcto\\b",
+            "variant"
+          ]
+        },
+        {
+          "label": "Made to order inside customer projects",
+          "patterns": [
+            "project",
+            "\\bjobs?\\b",
+            "make-to-order",
+            "\\bmto\\b",
+            "order-related"
+          ]
+        },
+        {
+          "label": "Series or batch production",
+          "patterns": [
+            "series production",
+            "batch",
+            "make-to-stock",
+            "\\bmts\\b",
+            "process manufacturing",
+            "sequence planning"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Designed to order for each customer (ETO)": 0.14,
+        "Configured from options (CTO / product configurator)": 0.33,
+        "Made to order inside customer projects": 0.67,
+        "Series or batch production": 0.29
+      }
+    },
+    {
+      "id": "cad",
+      "text": "Do your engineers work in CAD or PLM systems that BC should link to?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "\\bcad\\b",
+            "\\bplm\\b",
+            "\\bpdm\\b",
+            "solidworks",
+            "autodesk",
+            "\\bptc\\b",
+            "design and production",
+            "product data management",
+            "drawings"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.14
+      }
+    },
+    {
+      "id": "cost",
+      "text": "Do you need to track budget vs actual cost per project or order?",
+      "help": "Budgets, WIP and estimate at completion.",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "budget",
+            "\\bwip\\b",
+            "estimate at completion",
+            "\\beac\\b",
+            "simultaneous costing",
+            "job costs",
+            "costing",
+            "actual cost"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.52
+      }
+    },
+    {
+      "id": "service",
+      "text": "Do you also service the machines you deliver?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "service"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.19
+      }
+    },
+    {
+      "id": "quote",
+      "text": "Do sales need to quote configured products with prices?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "\\bcpq\\b",
+            "quot(e|ing|ation)",
+            "price matrix"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.38
+      }
+    }
+  ]
+}

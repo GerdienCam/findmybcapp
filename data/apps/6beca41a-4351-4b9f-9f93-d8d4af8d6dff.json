@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.veisssolutionssia1704349888870|AID.email-sendgrid-connector|PAPPID.6beca41a-4351-4b9f-9f93-d8d4af8d6dff",
+  "guid": "6beca41a-4351-4b9f-9f93-d8d4af8d6dff",
+  "publisherId": "veisssolutionssia1704349888870",
+  "offerId": "email-sendgrid-connector",
+  "source": {
+    "name": "Email - SendGrid Connector",
+    "publisher": "BC Wizards",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.veisssolutionssia1704349888870%7CAID.email-sendgrid-connector%7CPAPPID.6beca41a-4351-4b9f-9f93-d8d4af8d6dff",
+    "lastModified": "2026-02-12T06:19:03.8679358+00:00",
+    "appVersion": "27.0.0.22259",
+    "pricingTypes": [
+      "Free"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.bcwizards.com/",
+    "sourceHash": "sha256:b3489e2c85a454ba02670fe8475af2cddcafb24b57043dd368b390de7a7b433c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b3489e2c85a454ba02670fe8475af2cddcafb24b57043dd368b390de7a7b433c",
+    "mappedOn": null,
+    "summary": "Sends BC emails via SendGrid",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-mkt-campaigns"
+    ],
+    "claims": [
+      "Sends email from BC through SendGrid",
+      "Personalized emails sent directly from BC",
+      "Handles large email volumes",
+      "TLS encryption and domain authentication"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SendGrid"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

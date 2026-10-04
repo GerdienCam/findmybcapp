@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.boschdatagmbh1733998274125|AID.boschdata-screenman-base|PAPPID.d921d38b-b359-47ac-b017-829fb5b4cf30",
+  "guid": "d921d38b-b359-47ac-b017-829fb5b4cf30",
+  "publisherId": "boschdatagmbh1733998274125",
+  "offerId": "boschdata-screenman-base",
+  "source": {
+    "name": "screenMAN",
+    "publisher": "BoSch Data GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.boschdatagmbh1733998274125%7CAID.boschdata-screenman-base%7CPAPPID.d921d38b-b359-47ac-b017-829fb5b4cf30",
+    "lastModified": "2025-12-12T09:25:55.9959806+00:00",
+    "appVersion": "27.0.3.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.bosch-data.de/screenman/",
+    "sourceHash": "sha256:89747f71ec0798fb69c0f004a75716f918a3bd8e3277ce1b13473d9179067dc1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:89747f71ec0798fb69c0f004a75716f918a3bd8e3277ce1b13473d9179067dc1",
+    "mappedOn": null,
+    "summary": "Compliance screening of master data addresses against sanction lists",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Checks master data addresses for compliance via AEB API",
+      "Shows check result as red/yellow/green signal",
+      "Keeps master data screening up to date permanently"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "AEB"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

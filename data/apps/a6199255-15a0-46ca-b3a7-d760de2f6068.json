@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex029_emptiesmanagement|PAPPID.a6199255-15a0-46ca-b3a7-d760de2f6068",
+  "guid": "a6199255-15a0-46ca-b3a7-d760de2f6068",
+  "publisherId": "eos_solutions",
+  "offerId": "ex029_emptiesmanagement",
+  "source": {
+    "name": "Empties Management",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex029_emptiesmanagement%7CPAPPID.a6199255-15a0-46ca-b3a7-d760de2f6068",
+    "lastModified": "2026-08-27T15:25:39.3721879+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/empties-management-epm.html",
+    "sourceHash": "sha256:484b22e6468c705ed9cadce8af687dc1dace6627c6a5027798c6b926eef44abe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:484b22e6468c705ed9cadce8af687dc1dace6627c6a5027798c6b926eef44abe",
+    "mappedOn": null,
+    "summary": "Manages empties, pallets and containers balances with customers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-consignment",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Manages empties (packages, pallets, load carriers) from order lines",
+      "Empties defined as returnable or not",
+      "Warehouse handling of empties",
+      "Charge empties to customers",
+      "Empties balance at customer site",
+      "Packaging instructions calculate empties automatically",
+      "Handling unit type is either package or load carrier",
+      "Empties summary while filling sales order",
+      "Detailed empties inventory",
+      "Requires EOS Over- and Under-Delivery Quantities"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Over- and Under-Delivery Quantities"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

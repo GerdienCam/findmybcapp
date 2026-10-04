@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.alpha_solutions_ag|AID.asfs|PAPPID.ef2763c5-e350-4d96-8065-5df6af6f502b",
+  "guid": "ef2763c5-e350-4d96-8065-5df6af6f502b",
+  "publisherId": "alpha_solutions_ag",
+  "offerId": "asfs",
+  "source": {
+    "name": "Aproda Food Solution (ASFS)",
+    "publisher": "Aproda AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alpha_solutions_ag%7CAID.asfs%7CPAPPID.ef2763c5-e350-4d96-8065-5df6af6f502b",
+    "lastModified": "2025-07-16T05:55:33.8399925+00:00",
+    "appVersion": "23.0.0.20",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aproda.ch/aproda-food",
+    "sourceHash": "sha256:f5a69df7b0985ce83ed14501be8d4d8e84047eee089c3fa2427768ed3f68a42c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f5a69df7b0985ce83ed14501be8d4d8e84047eee089c3fa2427768ed3f68a42c",
+    "mappedOn": null,
+    "summary": "Manages and calculates food item specifications",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-product-compliance",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data",
+      "ng-bom-formula-engineering"
+    ],
+    "claims": [
+      "Manages item contents, nutritional values and allergens",
+      "Calculates contents, allergens and nutrition via multi-level assembly and production BOMs",
+      "Administers item feature types",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Food",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

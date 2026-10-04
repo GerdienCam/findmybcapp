@@ -1,0 +1,208 @@
+{
+  "id": "ng-proj-budget",
+  "order": 97,
+  "label": "Setting and controlling project budgets",
+  "description": "Setting up project budgets and controlling spend against them.",
+  "type": "bpc",
+  "area": "Projects",
+  "relevance": "high",
+  "statements": [
+    "Setting and controlling project budgets",
+    "Setting up project budgets and controlling spend against them.",
+    "Our project budgets are in Excel and never match what's in BC",
+    "How do I enter a budget per job task with hours, materials and costs?",
+    "job budget BC",
+    "We need to revise the job budget but keep the original for comparison",
+    "Want a warning when posting to a job that has used its budget",
+    "Is there an app that blocks project purchases once the budget is spent?",
+    "Budget versions per project, original, revised and latest estimate",
+    "Our job planning lines are both budget and billable and it confuses everyone",
+    "We need to budget internal projects in a separate way from customer projects",
+    "Project managers want to update the remaining budget themselves without finance",
+    "We want to budget by cost type: labor, material, subcontractor, travel",
+    "When the estimate becomes the job, the budget lines should be created automatically",
+    "We have no idea how much budget is committed through open purchase orders on a job",
+    "Need budgets for multi-year projects split per year",
+    "How do I copy a budget from one job to another in Business Central?",
+    "Budget changes on projects need a history of who changed what and why",
+    "Our capital projects need a budget and spend tracking in BC",
+    "project budget import from excel",
+    "Estimate at completion needs to update the budget each month",
+    "We set budget in hours but finance wants it in money as well"
+  ],
+  "questions": [
+    {
+      "id": "industry",
+      "text": "What kind of projects do you run?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Construction",
+          "patterns": [
+            "construct",
+            "site",
+            "subcontract",
+            "capital project"
+          ]
+        },
+        {
+          "label": "Equipment manufacturing / engineer-to-order",
+          "patterns": [
+            "manufactur",
+            "\\beto\\b",
+            "\\bboms?\\b",
+            "production",
+            "assembly"
+          ]
+        },
+        {
+          "label": "Customer or service projects",
+          "patterns": [
+            "customer project",
+            "billing model",
+            "time (registration|worksheet)",
+            "programmes"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Construction": 0.38,
+        "Equipment manufacturing / engineer-to-order": 0.46,
+        "Customer or service projects": 0.15
+      }
+    },
+    {
+      "id": "versions",
+      "text": "Do you need to keep several budget versions or revisions?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "version",
+            "revision",
+            "baseline",
+            "variants?"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.54
+      }
+    },
+    {
+      "id": "billing",
+      "text": "How do you bill your projects?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Milestones, progress or retention",
+          "patterns": [
+            "milestone",
+            "progress billing",
+            "invoicing based on work progress",
+            "retention",
+            "advance"
+          ]
+        },
+        {
+          "label": "Fixed price",
+          "patterns": [
+            "fixed-?price"
+          ]
+        },
+        {
+          "label": "Several billing models",
+          "patterns": [
+            "billing models?",
+            "billing plan",
+            "contract invoice"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Milestones, progress or retention": 0.62,
+        "Fixed price": 0.08,
+        "Several billing models": 0.31
+      }
+    },
+    {
+      "id": "forecast",
+      "text": "Do you forecast the final cost (estimate at completion)?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "estimate at completion",
+            "\\beac\\b",
+            "earned value",
+            "\\bevm\\b",
+            "cost forecast"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.15
+      }
+    },
+    {
+      "id": "cash",
+      "text": "Do you plan project cash flow?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "cash ?flow"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.15
+      }
+    },
+    {
+      "id": "estimate",
+      "text": "Do you compare the budget to the original quote or estimate?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "quote",
+            "estimate",
+            "offer"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.46
+      }
+    }
+  ]
+}

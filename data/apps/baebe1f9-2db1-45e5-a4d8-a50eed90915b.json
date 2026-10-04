@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.1700139460848|AID.cbex-sku-generator|PAPPID.baebe1f9-2db1-45e5-a4d8-a50eed90915b",
+  "guid": "baebe1f9-2db1-45e5-a4d8-a50eed90915b",
+  "publisherId": "1700139460848",
+  "offerId": "cbex-sku-generator",
+  "source": {
+    "name": "CBEX SKU Generator",
+    "publisher": "Charon Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1700139460848%7CAID.cbex-sku-generator%7CPAPPID.baebe1f9-2db1-45e5-a4d8-a50eed90915b",
+    "lastModified": "2026-02-20T14:14:08.573156+00:00",
+    "appVersion": "27.0.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://charon-inc.co.jp/product/business-central/",
+    "sourceHash": "sha256:016c6eb99e02042f144af8b7a3002b4ad82134cff70a556a7bc138a81c2bfbc5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:016c6eb99e02042f144af8b7a3002b4ad82134cff70a556a7bc138a81c2bfbc5",
+    "mappedOn": null,
+    "summary": "Generates item SKUs from attribute-based rules",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-entry"
+    ],
+    "claims": [
+      "Generates SKUs for items based on attributes",
+      "User-defined rules and patterns for SKU generation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

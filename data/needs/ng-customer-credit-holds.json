@@ -1,0 +1,265 @@
+{
+  "id": "ng-customer-credit-holds",
+  "order": 14,
+  "label": "Credit limits and stopping risky orders",
+  "description": "Assessing customer credit, credit policy, blocking customers and holding/releasing orders, plus fraud and risk screening.",
+  "type": "bpc",
+  "area": "Sales & receivables",
+  "relevance": "medium",
+  "statements": [
+    "Credit limits and stopping risky orders",
+    "Assessing customer credit, credit policy, blocking customers and holding/releasing orders, plus fraud and risk screening.",
+    "We need to hold webshop orders until the payment has actually come in",
+    "Customer orders get shipped even when finance said to stop them",
+    "Is there a hold status on sales orders in BC with a reason code?",
+    "order on hold until customer pays",
+    "Credit-blocked orders sit in limbo and sales has no idea why",
+    "Want a list of all customer orders on hold and who needs to release them",
+    "The warehouse should not be able to pick a sales order that's on hold",
+    "Sales manager has to approve and release customer orders over the credit limit",
+    "Hold orders that are missing a PO number from the customer",
+    "When a hold is released the warehouse should get notified right away",
+    "We park sales orders waiting for customer artwork approval and forget about them",
+    "order hold reasons and release workflow",
+    "Customer is blocked in BC but sales reps keep creating orders for them anyway",
+    "Automatically block customers whose invoices are more than 60 days overdue",
+    "block customer for shipping but allow invoicing",
+    "We need a reason and date for why a customer was blocked",
+    "Unblock a customer automatically when the overdue amount is paid",
+    "Notify the sales rep when their customer is put on credit stop",
+    "We give new customers credit without checking them at all",
+    "Is there an app that pulls a credit score from Creditsafe or Dun and Bradstreet into the customer card?",
+    "credit limit new customer",
+    "Sales opens accounts and the credit limit is whatever the rep asks for",
+    "Want a credit application form for new trade customers with approval by finance",
+    "Review credit limits for all customers once a year based on how they pay",
+    "Credit limit for a group of related customer companies together",
+    "We need credit insurance limits from our insurer reflected on the customer in BC",
+    "A customer's credit rating dropped and nobody told us",
+    "How do we set a credit limit for a whole customer group at once?",
+    "Want the credit limit suggested from the customer's payment history and score",
+    "Credit check on B2B webshop customers before they can buy on account",
+    "We have no rule for when a customer should be put on credit stop",
+    "How many reminder levels should we have and how many days between them?",
+    "Should we charge late fees and interest on overdue customer invoices?",
+    "credit policy for new customers",
+    "Management wants a written collections policy, who calls which customer and when",
+    "Want a standard approach to credit limits for new customers based on their credit score",
+    "We had several fraudulent webshop orders shipped before anyone noticed",
+    "Want rules that flag customer orders with a delivery address different from the billing address",
+    "How do we automatically stop first orders from new customers until someone checks them?",
+    "fraud check for online orders",
+    "Need a policy for which customer orders must be reviewed before shipping, like unusually large quantities",
+    "Orders to certain countries should always go to manual review",
+    "Want a report of our riskiest customers by exposure and credit score",
+    "How much of our receivables is with customers whose rating dropped?",
+    "fraud monitoring webshop orders report",
+    "Spot customers whose order pattern suddenly changes, like huge orders to new addresses",
+    "Concentration risk, how dependent are we on our top 5 customers?",
+    "Monitor credit insurance cover vs actual exposure per customer"
+  ],
+  "questions": [
+    {
+      "id": "need",
+      "text": "What do you mainly want to control?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Hold or block orders when credit limit or overdue is hit",
+          "patterns": [
+            "block(s|ing)? (sales|customers)",
+            "holds? sales orders",
+            "credit limit exceeded",
+            "over credit limit",
+            "overdue (balances|invoices)",
+            "authori[sz]ation limits? .*release",
+            "failing credit check",
+            "prevents order approvals"
+          ]
+        },
+        {
+          "label": "Credit scores and reports on customers",
+          "patterns": [
+            "credit (score|rating|report|information|insights|info)",
+            "creditsafe",
+            "risika",
+            "skyminder",
+            "recommended credit limit"
+          ]
+        },
+        {
+          "label": "Sanction and export-control screening",
+          "patterns": [
+            "sanction",
+            "embargo",
+            "export compliance",
+            "dual-use"
+          ]
+        },
+        {
+          "label": "Trade credit insurance",
+          "patterns": [
+            "credit insurance",
+            "allianz",
+            "atradius"
+          ]
+        },
+        {
+          "label": "Bank guarantees, letters of credit or bonds",
+          "patterns": [
+            "guarantee",
+            "letters? of credit",
+            "\\bLC\\b",
+            "indemnity bond"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Hold or block orders when credit limit or overdue is hit": 0.3,
+        "Credit scores and reports on customers": 0.35,
+        "Sanction and export-control screening": 0.22,
+        "Trade credit insurance": 0.09,
+        "Bank guarantees, letters of credit or bonds": 0.13
+      }
+    },
+    {
+      "id": "monitor",
+      "text": "Should customers be re-checked automatically over time?",
+      "help": "For example daily monitoring with alerts when something changes.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, monitor automatically",
+          "patterns": [
+            "monitor",
+            "daily (updat|risk)",
+            "schedul",
+            "configurable interval",
+            "watchlist",
+            "automatic check",
+            "re-?check",
+            "on schedule"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, monitor automatically": 0.52
+      }
+    },
+    {
+      "id": "approval",
+      "text": "Should someone approve before a blocked order or a new credit limit goes through?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, with an approval step",
+          "patterns": [
+            "approv",
+            "authori[sz]ation",
+            "release orders"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, with an approval step": 0.35
+      }
+    },
+    {
+      "id": "alerts",
+      "text": "How should people see credit risk?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Automatic alerts when something changes",
+          "patterns": [
+            "notification",
+            "alerts?\\b",
+            "warnings? on",
+            "e-?mail"
+          ]
+        },
+        {
+          "label": "Credit info shown on customer and order screens",
+          "patterns": [
+            "factbox",
+            "customer cards?",
+            "risk indicators",
+            "role ?cent(er|re)",
+            "dashboard",
+            "on the customer",
+            "sales orders and invoices",
+            "visuali[sz]es"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Automatic alerts when something changes": 0.39,
+        "Credit info shown on customer and order screens": 0.3
+      }
+    },
+    {
+      "id": "vendors",
+      "text": "Do you also want to check suppliers, not only customers?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, suppliers too",
+          "patterns": [
+            "(check|screen|monitor|rating|scores?|evaluat|credit|risk|search|create)\\w*[^.;]{0,60}(vendors?|suppliers?)",
+            "(vendors?|suppliers?)[^.;]{0,40}(check|screen|monitor|risk|rating)"
+          ]
+        },
+        {
+          "label": "Customers only is fine",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, suppliers too": 0.52
+      }
+    },
+    {
+      "id": "newcust",
+      "text": "Do you want to look up and create new customers from a company register?",
+      "help": "Search by name or VAT/CVR number and pull in address and credit data.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "create (new )?customers",
+            "search (and create|companies|by name|allianz)",
+            "company search",
+            "auto-populates",
+            "appends company address",
+            "name lookup"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.3
+      }
+    }
+  ]
+}

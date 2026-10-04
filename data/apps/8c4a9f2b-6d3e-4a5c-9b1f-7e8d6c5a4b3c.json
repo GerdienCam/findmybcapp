@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond_signature_service_worksheet_bridge|PAPPID.8c4a9f2b-6d3e-4a5c-9b1f-7e8d6c5a4b3c",
+  "guid": "8c4a9f2b-6d3e-4a5c-9b1f-7e8d6c5a4b3c",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond_signature_service_worksheet_bridge",
+  "source": {
+    "name": "BeyondSignatureServiceWorksheetBridge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond_signature_service_worksheet_bridge%7CPAPPID.8c4a9f2b-6d3e-4a5c-9b1f-7e8d6c5a4b3c",
+    "lastModified": "2026-08-11T15:11:07.7523985+00:00",
+    "appVersion": "2026.5.100.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/apps/index.html",
+    "sourceHash": "sha256:95594e38882ac102982fd41449814f17bec430cb633f660860ac38804a08bf34"
+  },
+  "mapping": {
+    "sourceHash": "sha256:95594e38882ac102982fd41449814f17bec430cb633f660860ac38804a08bf34",
+    "mappedOn": null,
+    "summary": "Adds Beyond Signature signing to Beyond Service Worksheet",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-esignature"
+    ],
+    "claims": [
+      "Captures signatures on Service Item Lines during worksheet posting",
+      "Transfers signatures automatically to posted service documents",
+      "Adds technician, customer or supervisor signatures to service reports",
+      "Activates automatically with no configuration when both apps are installed",
+      "Cleans up signatures when service documents are deleted"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Beyond Signature",
+      "Beyond Service Worksheet"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcexternaldbconnector-is|PAPPID.8f86b097-1f19-45ed-918f-c369167c796a",
+  "guid": "8f86b097-1f19-45ed-918f-c369167c796a",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcexternaldbconnector-is",
+  "source": {
+    "name": "External Database Connector",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcexternaldbconnector-is%7CPAPPID.8f86b097-1f19-45ed-918f-c369167c796a",
+    "lastModified": "2026-04-16T14:20:08.9418467+00:00",
+    "appVersion": "24.11.53.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:064bc94db0a1d883327825825280c02faa62e3abbfb6a67430d43beef3c03ad3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:064bc94db0a1d883327825825280c02faa62e3abbfb6a67430d43beef3c03ad3",
+    "mappedOn": null,
+    "summary": "Exchanges data between external databases and BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "Works with ODBC databases via API on Windows Server 2016+",
+      "Supports MySQL, SQL Server, Oracle, PostgreSQL, MongoDB, MS Access",
+      "Imports from external tables/views via field mapping",
+      "Exports BC tables or queries to external databases",
+      "Executes raw queries",
+      "Data transaction log",
+      "Scheduled via job queue",
+      "Email notifications after processing"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "MySQL",
+      "Microsoft SQL Server",
+      "Oracle",
+      "PostgreSQL",
+      "MongoDB",
+      "MS Access"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

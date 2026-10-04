@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex05107_dualunitofmeasureforclosedocuments|PAPPID.02355491-232a-4a67-9000-ad6f9177a2aa",
+  "guid": "02355491-232a-4a67-9000-ad6f9177a2aa",
+  "publisherId": "eos_solutions",
+  "offerId": "ex05107_dualunitofmeasureforclosedocuments",
+  "source": {
+    "name": "Dual Unit of Measure for Close Documents",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex05107_dualunitofmeasureforclosedocuments%7CPAPPID.02355491-232a-4a67-9000-ad6f9177a2aa",
+    "lastModified": "2026-04-14T13:23:34.8228284+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/dual-unit-of-measure.html",
+    "sourceHash": "sha256:da4a4d9e4b5d102951fbb594711109e5868bf527ef29417693368d6aa40bdfff"
+  },
+  "mapping": {
+    "sourceHash": "sha256:da4a4d9e4b5d102951fbb594711109e5868bf527ef29417693368d6aa40bdfff",
+    "mappedOn": null,
+    "summary": "Posts orders in dual unit of measure",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Close sales/purchase orders without invoicing, in dual UOM",
+      "Secondary UOM quantities in sales, purchase and inventory",
+      "Handles items with weight varying per piece or lost in storage",
+      "Item availability in both units of measure",
+      "Post orders with reason code to skip invoicing",
+      "Close shipment/receipt lines from the journal",
+      "Depends on EOS Dual Unit of Measure together with EOS Close Documents without invoicing"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Food",
+      "Jewelry",
+      "Leather",
+      "Meat",
+      "Metal",
+      "Paper"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EOS Dual Unit of Measure",
+      "EOS Close Documents Without Invoicing"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

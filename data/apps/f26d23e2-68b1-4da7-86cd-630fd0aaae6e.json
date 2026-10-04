@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.ceniumasceniumscandinaviaas1604327189340|AID.ceniumerp123|PAPPID.f26d23e2-68b1-4da7-86cd-630fd0aaae6e",
+  "guid": "f26d23e2-68b1-4da7-86cd-630fd0aaae6e",
+  "publisherId": "ceniumasceniumscandinaviaas1604327189340",
+  "offerId": "ceniumerp123",
+  "source": {
+    "name": "Cenium Hospitality ERP Connector",
+    "publisher": "Cenium AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ceniumasceniumscandinaviaas1604327189340%7CAID.ceniumerp123%7CPAPPID.f26d23e2-68b1-4da7-86cd-630fd0aaae6e",
+    "lastModified": "2026-07-23T01:55:57.8755167+00:00",
+    "appVersion": "26.0.317.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.cenium.com/erpconnectorhelp",
+    "sourceHash": "sha256:611b9f7f6bb3f7f560487d201a46f07fdbb5ebc8d941f2db337525fc54e56bbf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:611b9f7f6bb3f7f560487d201a46f07fdbb5ebc8d941f2db337525fc54e56bbf",
+    "mappedOn": null,
+    "summary": "Integrates BC with Cenium hospitality software",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-hospitality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Real-time master data sync with Cenium PMS, Sales & Catering and Lifestyle",
+      "Syncs currency exchange rates, contacts, customers and items",
+      "Imports finalized statements and sales documents to G/L and receivables",
+      "Tracking-ID for traceability and audit trail"
+    ],
+    "countries": [
+      "DE",
+      "DK",
+      "IS",
+      "NO",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [
+      "Hospitality"
+    ],
+    "connectsTo": [
+      "Cenium Core PMS",
+      "Cenium Sales & Catering",
+      "Cenium Lifestyle"
+    ],
+    "requires": [
+      "Cenium Core Hospitality"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.bricklead1692180953470|AID.bri_ncm|PAPPID.dcddc15a-f61c-493d-88c4-cb2c04233c8c",
+  "guid": "dcddc15a-f61c-493d-88c4-cb2c04233c8c",
+  "publisherId": "bricklead1692180953470",
+  "offerId": "bri_ncm",
+  "source": {
+    "name": "Non Conformance Management",
+    "publisher": "BRICKLEAD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bricklead1692180953470%7CAID.bri_ncm%7CPAPPID.dcddc15a-f61c-493d-88c4-cb2c04233c8c",
+    "lastModified": "2026-07-20T14:12:52.7156368+00:00",
+    "appVersion": "27.0.9697.55066",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.bricklead.eu/en-us/apps/ncm/",
+    "sourceHash": "sha256:8cff220753c55c1364f31497e9a04c46d49103062d0d47793cd47061d83f6dd5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8cff220753c55c1364f31497e9a04c46d49103062d0d47793cd47061d83f6dd5",
+    "mappedOn": null,
+    "summary": "Tracks and resolves non-conformities in food quality processes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-nonconformance-capa",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns",
+      "ng-supplier-returns-credits"
+    ],
+    "claims": [
+      "Quality deviations linked to items, lots and serial numbers",
+      "Track source and severity",
+      "Action plans with assigned responsibilities",
+      "Generate return orders or credit memos from NC records",
+      "Audit trail for regulatory inspections",
+      "Supports GFSI, FDA and EU compliance",
+      "Customer complaint linked to posted shipment or invoice",
+      "Transport damage linked to transport order",
+      "Allergen or contamination incidents",
+      "Recall preparation documentation",
+      "Supports Essential and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl",
+      "pt"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

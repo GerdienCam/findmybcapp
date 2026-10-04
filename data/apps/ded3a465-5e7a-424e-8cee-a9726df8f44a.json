@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-recordsearchcatalogbridge-v2|PAPPID.ded3a465-5e7a-424e-8cee-a9726df8f44a",
+  "guid": "ded3a465-5e7a-424e-8cee-a9726df8f44a",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-recordsearchcatalogbridge-v2",
+  "source": {
+    "name": "BeyondRecordSearchCatalogV2Bridge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-recordsearchcatalogbridge-v2%7CPAPPID.ded3a465-5e7a-424e-8cee-a9726df8f44a",
+    "lastModified": "2026-05-20T10:06:07.5736857+00:00",
+    "appVersion": "2025.12.109.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/recordsearch/preface/preface.html",
+    "sourceHash": "sha256:1b6fabdb6affc7c41f859ad580944c6b64d99483a7b2fad67a651c109fe172a2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1b6fabdb6affc7c41f859ad580944c6b64d99483a7b2fad67a651c109fe172a2",
+    "mappedOn": null,
+    "summary": "Lets Beyond RecordSearch find Beyond Catalog items",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-search-navigation",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Beyond Catalog items shown in RecordSearch results"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Beyond RecordSearch",
+      "Beyond CatalogV2"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two BEYOND products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

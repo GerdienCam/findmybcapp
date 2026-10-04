@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.grupo_voxa|AID.administration_tools|PAPPID.db926a10-3e8d-43aa-8ba3-2f1604a331f3",
+  "guid": "db926a10-3e8d-43aa-8ba3-2f1604a331f3",
+  "publisherId": "grupo_voxa",
+  "offerId": "administration_tools",
+  "source": {
+    "name": "Administration Tools",
+    "publisher": "VOXA S.A.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.grupo_voxa%7CAID.administration_tools%7CPAPPID.db926a10-3e8d-43aa-8ba3-2f1604a331f3",
+    "lastModified": "2026-09-09T19:15:40.1808295+00:00",
+    "appVersion": "25.0.0.15",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.voxa.com.ar/contacto/",
+    "sourceHash": "sha256:fb2cb549e7b708ff29438972b574fb7f1cf2c7bb60064be6d96181b6dd6c7e99"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fb2cb549e7b708ff29438972b574fb7f1cf2c7bb60064be6d96181b6dd6c7e99",
+    "mappedOn": null,
+    "summary": "Deletes and moves data within and between companies",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-master-data-sync"
+    ],
+    "claims": [
+      "Runs any table, page, report, codeunit, XMLport or query object",
+      "Views all records of any database table",
+      "Edits database records directly in table view",
+      "Deletes records by table or individual record",
+      "Transfers records from one company to another",
+      "Deletion and transfer can be limited to a configurable date range",
+      "Logs deletion events"
+    ],
+    "countries": [],
+    "languages": [
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

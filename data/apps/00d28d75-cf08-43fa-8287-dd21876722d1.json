@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.amjsconsulting1621353404525|AID.vendor_bank_account_approval_workflow|PAPPID.00d28d75-cf08-43fa-8287-dd21876722d1",
+  "guid": "00d28d75-cf08-43fa-8287-dd21876722d1",
+  "publisherId": "amjsconsulting1621353404525",
+  "offerId": "vendor_bank_account_approval_workflow",
+  "source": {
+    "name": "Vendor Bank Approval Workflow",
+    "publisher": "AMJS CONSULTING",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.amjsconsulting1621353404525%7CAID.vendor_bank_account_approval_workflow%7CPAPPID.00d28d75-cf08-43fa-8287-dd21876722d1",
+    "lastModified": "2026-04-16T11:01:52.2785268+00:00",
+    "appVersion": "26.3.2604.16",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://amjs-consulting.com/solutions/vendor-bank",
+    "sourceHash": "sha256:28c3189f3702a427ce9afe726f267aa7c39a26b3aaa4a0b57192ec6a5456d38f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:28c3189f3702a427ce9afe726f267aa7c39a26b3aaa4a0b57192ec6a5456d38f",
+    "mappedOn": null,
+    "summary": "Approval workflow and validation for vendor bank account changes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Approval workflow for vendor bank account changes using the BC approval engine",
+      "Vendor bank accounts have Open, Pending Approval and Released statuses",
+      "Only released bank accounts can be used in payments",
+      "Blocks posting payment journal lines that use non-released vendor bank accounts",
+      "Expiration date on vendor bank accounts blocks payments after expiry",
+      "Enforces IBAN on vendor bank accounts before payment",
+      "Validates preferred bank account has Released status",
+      "Released or pending vendor bank accounts cannot be deleted",
+      "SEPA credit transfers and payment exports enforce status, IBAN and expiry checks",
+      "Validates IBANs live through external services",
+      "Retrieves bank name, address and BIC/SWIFT from IBAN",
+      "Field locking on approved bank accounts",
+      "Comments and overdue approval request management",
+      "Credentials stored in BC Isolated Storage"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "IBAN Analyzer",
+      "IBAN Rechner"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

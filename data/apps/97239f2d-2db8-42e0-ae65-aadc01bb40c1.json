@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.braintree_vox|AID.docuvault|PAPPID.97239f2d-2db8-42e0-ae65-aadc01bb40c1",
+  "guid": "97239f2d-2db8-42e0-ae65-aadc01bb40c1",
+  "publisherId": "braintree_vox",
+  "offerId": "docuvault",
+  "source": {
+    "name": "DocuVault",
+    "publisher": "Braintree by Vox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.braintree_vox%7CAID.docuvault%7CPAPPID.97239f2d-2db8-42e0-ae65-aadc01bb40c1",
+    "lastModified": "2026-07-13T05:05:25.3113628+00:00",
+    "appVersion": "26.0.20260709.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://braintree-brainworx.github.io/DocuVault/",
+    "sourceHash": "sha256:2f79aa3aa171dd8d9698e4e718455ad8b40bc649620c33fb492a4b576772bb07"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2f79aa3aa171dd8d9698e4e718455ad8b40bc649620c33fb492a4b576772bb07",
+    "mappedOn": null,
+    "summary": "Links SharePoint documents to any BC record",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "SharePoint links on any record incl. ISV and custom tables",
+      "SharePoint Documents factbox wherever standard documents functionality exists",
+      "Custom tables need developer page extensions",
+      "Migrate embedded attachments to SharePoint",
+      "Links maintained from quote to posted documents and archives",
+      "Upload multiple documents at once"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint Online"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

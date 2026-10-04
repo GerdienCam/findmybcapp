@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.logosoftbh517076|AID.salesinstallment|PAPPID.feb3b80d-e8af-4d06-b859-5cbde0be890a",
+  "guid": "feb3b80d-e8af-4d06-b859-5cbde0be890a",
+  "publisherId": "logosoftbh517076",
+  "offerId": "salesinstallment",
+  "source": {
+    "name": "Sales Installments App",
+    "publisher": "Logosoft BH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.logosoftbh517076%7CAID.salesinstallment%7CPAPPID.feb3b80d-e8af-4d06-b859-5cbde0be890a",
+    "lastModified": "2024-11-22T12:38:47.9082893+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.logosoft.ba/Microsoft-Dynamics-BC",
+    "sourceHash": "sha256:8fa23d678286a4ee0aac0b73a3ac7a47f4854af5a7a96a116cef41ef73df8a62"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8fa23d678286a4ee0aac0b73a3ac7a47f4854af5a7a96a116cef41ef73df8a62",
+    "mappedOn": null,
+    "summary": "Sales installment payment plans",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-collections",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Splits posted sales invoices into multiple installments",
+      "Closes the original invoice automatically via a transitional account and generates open installment entries",
+      "Setup of transitional accounts for original invoices and installments",
+      "Configurable maximum number of installments and due date interval between installments",
+      "Prints an annuity plan listing all generated installments for the customer"
+    ],
+    "countries": [
+      "BA"
+    ],
+    "languages": [
+      "bs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

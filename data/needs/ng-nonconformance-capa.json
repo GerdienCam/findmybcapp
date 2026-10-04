@@ -1,0 +1,233 @@
+{
+  "id": "ng-nonconformance-capa",
+  "order": 83,
+  "label": "Logging defects and fixing root causes",
+  "description": "Recording non-conformances from goods or production and running corrective and preventive actions.",
+  "type": "bpc",
+  "area": "Manufacturing",
+  "relevance": "medium",
+  "statements": [
+    "Logging defects and fixing root causes",
+    "Recording non-conformances from goods or production and running corrective and preventive actions.",
+    "When goods are faulty we email photos around and nothing is logged",
+    "We need a non-conformance report we can send to the supplier",
+    "Is there an app to register quality deviations in BC?",
+    "We want to print a red tag for defective items in the warehouse",
+    "NCR app Business Central",
+    "We need to count how often each supplier sends us bad goods",
+    "Damaged deliveries should be recorded with reason, quantity and photos",
+    "Customer complaints about product quality need to be linked to the lot",
+    "Who is responsible for each deviation and what is the status?",
+    "We want one register of all quality problems in the warehouse",
+    "Non-conformances are in Excel and we cannot report on them",
+    "We need to charge the supplier for the cost of handling defective goods",
+    "Operators find defects but there is no way to log them against the production order",
+    "We need a non-conformance report for production problems in BC",
+    "NCR app Business Central",
+    "Defects found on the line are written on a whiteboard and wiped the next day",
+    "We want to record defect type, quantity and the operation where it was found",
+    "Is there a way to link a quality problem to the lot and machine involved?",
+    "QA needs a list of all open production defects with their status",
+    "Our ISO auditor wants documented non-conformances from production",
+    "Operators should be able to take a photo of the defect and log it from a tablet",
+    "We need to notify the quality manager when a production defect is reported",
+    "Defects found at final inspection should create a report automatically",
+    "We want to see if the same defect keeps coming back on the same product",
+    "We need a CAPA log that is linked to our quality issues",
+    "Corrective actions from audits are tracked in emails and forgotten",
+    "Is there an app for corrective and preventive actions in BC?",
+    "We want to follow up that suppliers actually fix the problems we report",
+    "CAPA report",
+    "How do we document what we changed to prevent a defect coming back?",
+    "We need to track corrective actions for production defects until they are closed",
+    "CAPA management app for BC",
+    "Our quality manager tracks root cause actions in a spreadsheet",
+    "Is there a way to assign corrective actions to people with due dates?",
+    "ISO 9001 audit flagged that we don't follow up on corrective actions",
+    "We want 8D reports linked to the production orders where the problem happened",
+    "Preventive actions agreed in meetings are forgotten after a week",
+    "We need to check whether a corrective action actually fixed the problem",
+    "Root cause analysis for recurring production defects needs a proper workflow",
+    "Can we link a CAPA to the routing change that solved it?",
+    "Management wants to see open corrective actions and how late they are",
+    "The same production defect keeps coming back because nobody owns the fix"
+  ],
+  "questions": [
+    {
+      "id": "source",
+      "text": "Where do your quality problems usually come from?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Customer complaints",
+          "patterns": [
+            "customer"
+          ]
+        },
+        {
+          "label": "Supplier deliveries",
+          "patterns": [
+            "vendor",
+            "supplier",
+            "purchase receipt",
+            "incoming",
+            "purchasing"
+          ]
+        },
+        {
+          "label": "Our own production or warehouse",
+          "patterns": [
+            "production",
+            "internal",
+            "manufactur",
+            "assembly",
+            "transfer order"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Customer complaints": 0.4,
+        "Supplier deliveries": 0.6,
+        "Our own production or warehouse": 0.47
+      }
+    },
+    {
+      "id": "after",
+      "text": "What should happen once a problem is logged?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Credit note or return to the customer/supplier",
+          "patterns": [
+            "credit (memo|note)",
+            "return"
+          ]
+        },
+        {
+          "label": "Corrective and preventive actions tracked",
+          "patterns": [
+            "corrective",
+            "preventive",
+            "action plan",
+            "measures",
+            "\\b8d\\b",
+            "follow-up actions",
+            "root[- ]cause"
+          ]
+        },
+        {
+          "label": "Affected stock blocked or quarantined",
+          "patterns": [
+            "block",
+            "quarantin"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Credit note or return to the customer/supplier": 0.4,
+        "Corrective and preventive actions tracked": 0.53,
+        "Affected stock blocked or quarantined": 0.33
+      }
+    },
+    {
+      "id": "inspect",
+      "text": "Do you also need planned quality inspections, or only problem handling?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Inspections and checks too",
+          "patterns": [
+            "inspection",
+            "quality control",
+            "check sheet",
+            "sampling",
+            "control plan",
+            "quality specification",
+            "pass/fail"
+          ]
+        },
+        {
+          "label": "Only complaints and incidents",
+          "patterns": [
+            "complaint",
+            "incident"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inspections and checks too": 0.53,
+        "Only complaints and incidents": 0.67
+      }
+    },
+    {
+      "id": "trace",
+      "text": "Do you need to trace problems to lots, batches or serial numbers?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, lot/batch/serial",
+          "patterns": [
+            "\\blots?\\b",
+            "serial",
+            "batch"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, lot/batch/serial": 0.33
+      }
+    },
+    {
+      "id": "audit",
+      "text": "Do auditors or standards require formal documentation?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Audit trail / regulators (ISO, FDA...)",
+          "patterns": [
+            "audit",
+            "\\biso\\b",
+            "iso ?\\d",
+            "gfsi",
+            "fda",
+            "regulat",
+            "compliance",
+            "documented"
+          ]
+        },
+        {
+          "label": "8D reports",
+          "patterns": [
+            "\\b8d\\b"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Audit trail / regulators (ISO, FDA...)": 0.47,
+        "8D reports": 0.07
+      }
+    }
+  ]
+}

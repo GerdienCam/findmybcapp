@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_commerce7_integration|PAPPID.78257089-2506-4608-a531-9f5560210c0d",
+  "guid": "78257089-2506-4608-a531-9f5560210c0d",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_commerce7_integration",
+  "source": {
+    "name": "Linc Commerce7 Integration",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_commerce7_integration%7CPAPPID.78257089-2506-4608-a531-9f5560210c0d",
+    "lastModified": "2026-09-18T14:10:06.4288981+00:00",
+    "appVersion": "26.26.2452.630",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-Commerce7-Integration",
+    "sourceHash": "sha256:de8baa8fbbc6bb7afa091c6f636a765727f7dc3bc49cb2f847eae574edb2aa7b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:de8baa8fbbc6bb7afa091c6f636a765727f7dc3bc49cb2f847eae574edb2aa7b",
+    "mappedOn": null,
+    "summary": "Imports Commerce7 transactions with custom mappings",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop",
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Imports transactions from Commerce7 via web service/API",
+      "Custom mappings",
+      "Transactions turned into sales or purchase documents",
+      "Automated via job queue"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Commerce7"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

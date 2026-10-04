@@ -1,0 +1,221 @@
+{
+  "id": "ng-svc-dispatch",
+  "order": 107,
+  "label": "Scheduling and dispatching technicians",
+  "description": "Assigning service jobs to technicians, planning shifts and availability, and seeing where they are.",
+  "type": "bpc",
+  "area": "Field service",
+  "relevance": "high",
+  "statements": [
+    "Scheduling and dispatching technicians",
+    "Assigning service jobs to technicians, planning shifts and availability, and seeing where they are.",
+    "Our dispatcher plans technicians on a whiteboard and in Outlook",
+    "Is there a dispatch board for Business Central with drag and drop?",
+    "We need to see all technicians on a planning board and drop service orders onto them",
+    "Assigning the right technician with the right skills to each job is guesswork",
+    "Technicians drive across the region because jobs aren't planned by location",
+    "service scheduling app BC",
+    "When an urgent breakdown comes in we need to see who is closest and free",
+    "Jobs that take three days need to be booked across several days for the same technician",
+    "Some jobs need two technicians at the same time and we can't book a crew",
+    "Want automatic scheduling of service orders based on skills, area and availability",
+    "The technician should get the job on their phone the moment it's assigned",
+    "Rescheduling when a technician is sick means calling everyone again",
+    "Gantt view of service orders per technician",
+    "Customers want to book their own service slot online",
+    "We double-book technicians because the calendar isn't in BC",
+    "How can we optimize daily routes for 15 service vans?",
+    "dispatch board",
+    "The planner has no view of which jobs are still unassigned for this week",
+    "Need to plan service orders on tablet, the standard BC pages are too slow for dispatch",
+    "Booking a technician should take the travel time between jobs into account",
+    "We need an on-call rota for service technicians on weekends",
+    "Technician holidays aren't visible to the dispatcher so jobs get booked on days off",
+    "Want each technician's working hours and availability in BC",
+    "on-call schedule for field technicians",
+    "Part-time technicians and their days off are tracked on paper",
+    "Plan who covers which region each week",
+    "How do we roster technicians for 24/7 emergency service?",
+    "Training days and sick leave for service staff should block their calendar",
+    "We need a shift plan for our workshop repair team",
+    "Is there an app that combines technician calendars from Outlook with service planning?",
+    "Overtime for technicians keeps creeping up because nobody plans their week",
+    "technician roster BC",
+    "We want to split the country into service zones so technicians don't cross each other",
+    "Should we let customers pick a time slot or should dispatch decide?",
+    "Need to define which technician skills are needed for which job types before scheduling",
+    "service zones and skills setup in BC",
+    "We want rules like emergency jobs always within 4 hours and routine jobs within 5 days",
+    "Planning how to move from a whiteboard to proper scheduling rules for 25 technicians",
+    "Dispatcher can't see where the technicians are right now",
+    "GPS tracking of service vans linked to BC",
+    "Want to see technicians on a map next to today's jobs",
+    "Need proof the technician was actually at the customer site",
+    "Which technician is closest to this emergency call?",
+    "Live location of field staff on a map"
+  ],
+  "questions": [
+    {
+      "id": "assign",
+      "text": "How do you want jobs assigned to technicians?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Dispatcher drags jobs on a planning board",
+          "patterns": [
+            "drag[- ]and[- ]drop",
+            "planning board",
+            "dispatch board",
+            "graphical (resource )?(plan|sched)",
+            "gantt"
+          ]
+        },
+        {
+          "label": "Automatically, by skill, distance or availability",
+          "patterns": [
+            "auto(matic|mated)?[- ]?(schedul|allocat|assign)",
+            "automated scheduling",
+            "closest",
+            "matches technician skills",
+            "ai-powered[^.]*schedul",
+            "based on urgency"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Dispatcher drags jobs on a planning board": 0.53,
+        "Automatically, by skill, distance or availability": 0.4
+      }
+    },
+    {
+      "id": "mobile",
+      "text": "Do your technicians need an app on their phone or tablet?",
+      "help": "To see jobs, log time and parts, and get signatures on site.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, a mobile app for technicians",
+          "patterns": [
+            "mobile",
+            "\\bapp\\b[^.]*(technician|field)",
+            "field app",
+            "smartphone|tablet",
+            "on-site worksheet",
+            "check-in/out"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, a mobile app for technicians": 0.6
+      }
+    },
+    {
+      "id": "where",
+      "text": "Do you need to see technicians on a map or plan their routes?",
+      "options": [
+        {
+          "label": "Yes, maps, routes or live location",
+          "patterns": [
+            "\\broutes?\\b",
+            "routing",
+            "\\bmap\\b",
+            "gps",
+            "location tracking",
+            "closest",
+            "navigate to"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, maps, routes or live location": 0.4
+      }
+    },
+    {
+      "id": "customer",
+      "text": "Should customers be able to book visits or follow job status themselves?",
+      "options": [
+        {
+          "label": "Yes, portal, online booking or arrival notices",
+          "patterns": [
+            "portal",
+            "online appointment",
+            "schedule service",
+            "customers? real-time",
+            "sms",
+            "expected arrival",
+            "status feedback",
+            "notifications?"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, portal, online booking or arrival notices": 0.4
+      }
+    },
+    {
+      "id": "offline",
+      "text": "Do technicians often work where there is no mobile signal?",
+      "help": "Basements, plants, rural sites.",
+      "options": [
+        {
+          "label": "Yes, the app must work offline",
+          "patterns": [
+            "offline"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, the app must work offline": 0.2
+      }
+    },
+    {
+      "id": "source",
+      "text": "Where do your service jobs start in BC today?",
+      "help": "The app should pick jobs up from there.",
+      "multi": true,
+      "options": [
+        {
+          "label": "BC service orders (Service Management)",
+          "patterns": [
+            "service orders?"
+          ]
+        },
+        {
+          "label": "Sales orders or projects",
+          "patterns": [
+            "sales orders?",
+            "projects?\\b"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "BC service orders (Service Management)": 0.33,
+        "Sales orders or projects": 0.2
+      }
+    }
+  ]
+}

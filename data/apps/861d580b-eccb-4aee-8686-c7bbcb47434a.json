@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.jcdas1740746058749|AID.send_sales_documents|PAPPID.861d580b-eccb-4aee-8686-c7bbcb47434a",
+  "guid": "861d580b-eccb-4aee-8686-c7bbcb47434a",
+  "publisherId": "jcdas1740746058749",
+  "offerId": "send_sales_documents",
+  "source": {
+    "name": "Send Sales Documents",
+    "publisher": "JCD A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jcdas1740746058749%7CAID.send_sales_documents%7CPAPPID.861d580b-eccb-4aee-8686-c7bbcb47434a",
+    "lastModified": "2026-08-31T12:23:55.6303465+00:00",
+    "appVersion": "1.0.20260831.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://jcd.dk/support/",
+    "sourceHash": "sha256:22c6c67275057fe826e680d2afcf78703cb66eadc1f1c62d63798024de6a0e4f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:22c6c67275057fe826e680d2afcf78703cb66eadc1f1c62d63798024de6a0e4f",
+    "mappedOn": null,
+    "summary": "Sends posted sales documents via job queue",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-collections"
+    ],
+    "claims": [
+      "Batch-sends posted sales invoices, credit memos and issued reminders via job queue",
+      "Only sends documents not printed before and without GLN e-delivery route",
+      "Send-from posting date set in Sales & Receivables Setup",
+      "Separate job queue entry per document type"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.acadonag1632226494919|AID.acadon_configurator_for_timber365|PAPPID.73fdf5a6-c774-443f-9584-4fb395a0b7c6",
+  "guid": "73fdf5a6-c774-443f-9584-4fb395a0b7c6",
+  "publisherId": "acadonag1632226494919",
+  "offerId": "acadon_configurator_for_timber365",
+  "source": {
+    "name": "acadon configurator for Timber365",
+    "publisher": "acadon AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.acadonag1632226494919%7CAID.acadon_configurator_for_timber365%7CPAPPID.73fdf5a6-c774-443f-9584-4fb395a0b7c6",
+    "lastModified": "2026-09-26T11:07:22.8288902+00:00",
+    "appVersion": "2026.9.4.1036873",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.acadon.de/acadon_packaging/1.0.0.0/en-US/index.html",
+    "sourceHash": "sha256:c240ef8cbf947df91ee91894d22be69eba02fc2b7e09a4475eda0da948f242b0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c240ef8cbf947df91ee91894d22be69eba02fc2b7e09a4475eda0da948f242b0",
+    "mappedOn": null,
+    "summary": "Configurator generating routings and BOMs from templates for Timber365",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-metal-timber-materials",
+      "ng-vert-printing-packaging",
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Configurator creates routings and BOMs from dynamic templates",
+      "Configures crates and pallets using Excel-like formulas",
+      "Dynamic price calculation",
+      "Supports certification systems such as FSC and PEFC"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "NL"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Packaging",
+      "Timber"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "acadon Timber365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

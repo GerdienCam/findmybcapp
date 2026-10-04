@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.simplybcltd1770976137715|AID.simplybc_creditcontrol|PAPPID.b8acc303-14c1-438c-9a39-d9a852603c8b",
+  "guid": "b8acc303-14c1-438c-9a39-d9a852603c8b",
+  "publisherId": "simplybcltd1770976137715",
+  "offerId": "simplybc_creditcontrol",
+  "source": {
+    "name": "Simply Credit Control",
+    "publisher": "SimplyBC Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplybcltd1770976137715%7CAID.simplybc_creditcontrol%7CPAPPID.b8acc303-14c1-438c-9a39-d9a852603c8b",
+    "lastModified": "2026-09-22T13:03:47.691242+00:00",
+    "appVersion": "28.1.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.simplybc.com/",
+    "sourceHash": "sha256:63a2eb891109e55f710f9b34d02c5e078c706112c730b1285acd092f55e7437d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:63a2eb891109e55f710f9b34d02c5e078c706112c730b1285acd092f55e7437d",
+    "mappedOn": null,
+    "summary": "Automates collections, account blocking and payment tracking",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Controller dashboard with outstanding debt, overdue debt, average collection days and aging charts",
+      "Auto-hold blocks customers breaching overdue thresholds and grace periods",
+      "Assigns overdue invoices to users and creates follow-up tasks from chase dates",
+      "Promise-to-pay logging",
+      "Dispute flagging pauses chasing",
+      "Template collection emails with payment links and invoice attachments",
+      "Fully native in BC, no external integrations"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

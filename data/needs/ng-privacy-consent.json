@@ -1,0 +1,182 @@
+{
+  "id": "ng-privacy-consent",
+  "order": 116,
+  "label": "Customer consent, GDPR and data privacy",
+  "description": "Handling marketing consent, customer data privacy and auditing marketing compliance.",
+  "type": "bpc",
+  "area": "Marketing",
+  "relevance": "medium",
+  "statements": [
+    "Customer consent, GDPR and data privacy",
+    "Handling marketing consent, customer data privacy and auditing marketing compliance.",
+    "We have no record of which contacts agreed to receive our newsletter",
+    "How do we handle unsubscribes so they also stop getting emails from BC?",
+    "GDPR consent in Business Central",
+    "A customer asked us to delete all their personal data, how do we do that in BC?",
+    "Is there an app that tracks consent per contact and per channel, email and SMS?",
+    "Former customers keep getting our mailings even after they asked us to stop",
+    "We need to show when and how a contact gave permission to be contacted",
+    "Customer requested a copy of all data we hold about them",
+    "Want to automatically anonymize contacts we haven't dealt with in five years",
+    "Our Mailchimp unsubscribes don't sync back to the contacts in BC",
+    "How do we mark contacts as do-not-call so sales reps don't phone them?",
+    "data subject request handling for contacts",
+    "We got a complaint about spam and need to prove the person had opted in",
+    "How do we audit that unsubscribes were actually respected last year?",
+    "marketing compliance audit",
+    "Want a report of all marketing emails sent to contacts without recorded consent",
+    "Our auditor asked for evidence our promotions followed advertising rules",
+    "Need a log of who changed consent settings on contacts and when",
+    "Are we even allowed to email companies we never did business with?",
+    "We need a policy for what claims we can make about our products in ads",
+    "marketing law checklist for small business",
+    "Our marketing person keeps asking legal what's allowed and nothing is written down",
+    "We sell in five countries and the rules for direct marketing differ in each",
+    "Want a documented approach so our newsletters and cold calls don't get us fined",
+    "A former customer asked us to delete all their personal data, how do we do that in BC?",
+    "How do we anonymize old contacts and employees without breaking posted entries?",
+    "GDPR app business central",
+    "We need to classify which fields hold personal data in BC",
+    "Someone requested a copy of all data we hold about them, how do we pull that out of BC?",
+    "Can we restrict BC access to our office network only?",
+    "Employee data from people who left years ago is still in BC",
+    "Our staff need yearly compliance training and we want to track who did it",
+    "Is there a tool to mask personal data when we copy production to a sandbox?",
+    "How do we automatically delete personal data after the retention period?",
+    "Old job applicants and contact persons should be removed after two years",
+    "Which controls do we need so the partner can't see salary data?"
+  ],
+  "questions": [
+    {
+      "id": "task",
+      "text": "What do you mainly need to do with personal data?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Answer requests from individuals (access, erase)",
+          "patterns": [
+            "request",
+            "right to",
+            "data subject",
+            "portability",
+            "on request",
+            "inquir"
+          ]
+        },
+        {
+          "label": "Clean up old data automatically",
+          "patterns": [
+            "after (a )?(defined|set)",
+            "retention",
+            "schedul",
+            "inactive",
+            "outdated",
+            "date formula"
+          ]
+        },
+        {
+          "label": "Scrub test or sandbox copies",
+          "patterns": [
+            "obfuscat",
+            "sandbox",
+            "production safety",
+            "randomi"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Answer requests from individuals (access, erase)": 0.44,
+        "Clean up old data automatically": 0.44,
+        "Scrub test or sandbox copies": 0.22
+      }
+    },
+    {
+      "id": "scope",
+      "text": "Where does the personal data sit?",
+      "options": [
+        {
+          "label": "Customers, vendors and contacts only",
+          "patterns": [
+            "customer",
+            "vendor",
+            "contact"
+          ]
+        },
+        {
+          "label": "Any table, including custom or app tables",
+          "patterns": [
+            "any table",
+            "all tables",
+            "any field",
+            "select tables",
+            "tables/fields",
+            "tables and filters"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Customers, vendors and contacts only": 0.44,
+        "Any table, including custom or app tables": 0.44
+      }
+    },
+    {
+      "id": "method",
+      "text": "How should personal data be removed?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Delete it",
+          "patterns": [
+            "delet",
+            "eras"
+          ]
+        },
+        {
+          "label": "Encrypt it",
+          "patterns": [
+            "encrypt"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Delete it": 0.67,
+        "Encrypt it": 0.33
+      }
+    },
+    {
+      "id": "law",
+      "text": "Do rules beyond GDPR apply to you?",
+      "options": [
+        {
+          "label": "Yes, e.g. CCPA, NIS2 or marketplace rules",
+          "patterns": [
+            "ccpa",
+            "nis2",
+            "amazon",
+            "wayfair"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, e.g. CCPA, NIS2 or marketplace rules": 0.33
+      }
+    }
+  ]
+}

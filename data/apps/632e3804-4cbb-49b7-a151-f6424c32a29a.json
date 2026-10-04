@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.idynbv|AID.approveit|PAPPID.632e3804-4cbb-49b7-a151-f6424c32a29a",
+  "guid": "632e3804-4cbb-49b7-a151-f6424c32a29a",
+  "publisherId": "idynbv",
+  "offerId": "approveit",
+  "source": {
+    "name": "ApproveIT 365 mail and sign all your documents",
+    "publisher": "IDYN B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idynbv%7CAID.approveit%7CPAPPID.632e3804-4cbb-49b7-a151-f6424c32a29a",
+    "lastModified": "2026-07-27T14:41:54.390145+00:00",
+    "appVersion": "28.2.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://idyn.atlassian.net/wiki/spaces/AM/pages/24707349",
+    "sourceHash": "sha256:6049b06ab655790b693f8ecbd8818a3bb6c943a17497abfb69b67d19729c6e24"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6049b06ab655790b693f8ecbd8818a3bb6c943a17497abfb69b67d19729c6e24",
+    "mappedOn": null,
+    "summary": "Document signing and follow-up via Docusign and Signhost",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Sends BC documents for e-signature via Docusign or Signhost",
+      "Supports sales, purchase, service and project documents and custom documents",
+      "Additional attachments like terms and conditions (DocuSign only)",
+      "Converts signed sales quotes to orders automatically",
+      "Stores signed documents in BC or Azure Storage",
+      "Triggers BC workflows on signed documents",
+      "Real-time approval status tracking",
+      "Logs all signing and commenting actions",
+      "Requires Docusign or Signhost account",
+      "Start a flow from PowerApps"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Docusign",
+      "Signhost",
+      "Azure Storage",
+      "PowerApps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

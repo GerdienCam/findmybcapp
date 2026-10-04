@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_micros_integration|PAPPID.afbb1f48-75b1-453e-b301-2e85fe19dab8",
+  "guid": "afbb1f48-75b1-453e-b301-2e85fe19dab8",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_micros_integration",
+  "source": {
+    "name": "Linc Micros Integration",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_micros_integration%7CPAPPID.afbb1f48-75b1-453e-b301-2e85fe19dab8",
+    "lastModified": "2026-09-18T10:52:26.807096+00:00",
+    "appVersion": "26.26.2452.612",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-Micros-Integration",
+    "sourceHash": "sha256:68283ab7424e1fe7b0f19fb4986449e2691c7d5b6251197bef273d511ba4414d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:68283ab7424e1fe7b0f19fb4986449e2691c7d5b6251197bef273d511ba4414d",
+    "mappedOn": null,
+    "summary": "Imports transactions from Micros POS",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-hospitality",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Imports transactions from Micros via web service/API",
+      "Custom mappings for imported transactions",
+      "Turns transactions into sales or purchase documents",
+      "Automated via job queue entries"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Hospitality"
+    ],
+    "connectsTo": [
+      "Oracle Micros"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

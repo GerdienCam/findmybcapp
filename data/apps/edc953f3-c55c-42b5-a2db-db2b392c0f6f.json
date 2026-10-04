@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.globeaccounting1579187614233|AID.globe_lt|PAPPID.edc953f3-c55c-42b5-a2db-db2b392c0f6f",
+  "guid": "edc953f3-c55c-42b5-a2db-db2b392c0f6f",
+  "publisherId": "globeaccounting1579187614233",
+  "offerId": "globe_lt",
+  "source": {
+    "name": "Globe Lithuania",
+    "publisher": "Globe Accounting",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.globeaccounting1579187614233%7CAID.globe_lt%7CPAPPID.edc953f3-c55c-42b5-a2db-db2b392c0f6f",
+    "lastModified": "2026-10-01T09:55:00.2865338+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://globeaccounting.com/Lithuania",
+    "sourceHash": "sha256:c40a4dee0b27107096936c5a207407e2300c5c2034bf78661cc1cb07422bc1af"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c40a4dee0b27107096936c5a207407e2300c5c2034bf78661cc1cb07422bc1af",
+    "mappedOn": null,
+    "summary": "Lithuanian minimum localization with iSAF VAT returns",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "VAT return in Lithuanian iSAF XML and Excel format",
+      "Uses standard BC VAT Return functionality",
+      "SAF-T is in a separate app"
+    ],
+    "countries": [
+      "LT"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

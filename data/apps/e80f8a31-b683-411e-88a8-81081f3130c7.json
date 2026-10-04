@@ -1,0 +1,65 @@
+{
+  "appId": "TYPE.connect|PUBID.freightpopinc1681494253334|AID.freightpop-bc|PAPPID.e80f8a31-b683-411e-88a8-81081f3130c7",
+  "guid": "e80f8a31-b683-411e-88a8-81081f3130c7",
+  "publisherId": "freightpopinc1681494253334",
+  "offerId": "freightpop-bc",
+  "source": {
+    "name": "FreightPOP for BC",
+    "publisher": "FreightPOP, Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.freightpopinc1681494253334%7CAID.freightpop-bc%7CPAPPID.e80f8a31-b683-411e-88a8-81081f3130c7",
+    "lastModified": "2025-11-27T07:03:08.2720904+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.freightpop.com/contact",
+    "sourceHash": "sha256:b352fc97abd7768eb829cc35cd46e129ed30f2900f46f869ea1dc08dcacd7b53"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b352fc97abd7768eb829cc35cd46e129ed30f2900f46f869ea1dc08dcacd7b53",
+    "mappedOn": null,
+    "summary": "Transportation management across carriers via FreightPOP",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-freight-cost-audit"
+    ],
+    "claims": [
+      "Cloud TMS for parcel, FTL, LTL, rail, ocean and international air",
+      "More than 1,500 carriers",
+      "Automated rate shopping, dispatching and real-time tracking",
+      "Freight invoice auditing",
+      "Shipment pooling, palletization and route optimization",
+      "Yard management and dock scheduling",
+      "Usable as standalone TMS or integrated"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "FreightPOP"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

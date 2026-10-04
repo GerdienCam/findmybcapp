@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex04607_customdefinedfieldsforpurchaserequest|PAPPID.c0544f2f-e87d-40f4-a3f4-c4dc77ec2678",
+  "guid": "c0544f2f-e87d-40f4-a3f4-c4dc77ec2678",
+  "publisherId": "eos_solutions",
+  "offerId": "ex04607_customdefinedfieldsforpurchaserequest",
+  "source": {
+    "name": "Custom Defined Fields for Purchase Request",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex04607_customdefinedfieldsforpurchaserequest%7CPAPPID.c0544f2f-e87d-40f4-a3f4-c4dc77ec2678",
+    "lastModified": "2026-04-10T14:08:48.6595773+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ex046-purchase-request.html",
+    "sourceHash": "sha256:eda3e65252255fda6ffeb1abcabb363737db85e988e197dab9c83e83bd15f55e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eda3e65252255fda6ffeb1abcabb363737db85e988e197dab9c83e83bd15f55e",
+    "mappedOn": null,
+    "summary": "Adds custom fields to purchase requests without code",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-custom-fields",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-requisitions"
+    ],
+    "claims": [
+      "Up to 32 custom fields on purchase request cards",
+      "No developer or development license needed",
+      "Validate custom fields via lookup tables",
+      "Translate field names into multiple languages",
+      "Edit custom field values on posted documents",
+      "No cost when combined with EOS Purchase Request and EOS Custom Defined Fields"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Custom Defined Fields",
+      "EOS Purchase Request"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.builddynamicsptyltd1736891494025|AID.bd_emailmgt|PAPPID.af973e02-ccd4-4099-aa00-0ee680c61d9f",
+  "guid": "af973e02-ccd4-4099-aa00-0ee680c61d9f",
+  "publisherId": "builddynamicsptyltd1736891494025",
+  "offerId": "bd_emailmgt",
+  "source": {
+    "name": "Multiple recipients & per-document routing",
+    "publisher": "Build Dynamics Pty Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.builddynamicsptyltd1736891494025%7CAID.bd_emailmgt%7CPAPPID.af973e02-ccd4-4099-aa00-0ee680c61d9f",
+    "lastModified": "2026-08-20T05:13:05.5169585+00:00",
+    "appVersion": "28.4.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://builddynamics.com.au/extensions/email/",
+    "sourceHash": "sha256:2b656b8aa092ab1e50f8a9bae71278b8ba020b405b4d86a6081f7d593e1f5a8c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2b656b8aa092ab1e50f8a9bae71278b8ba020b405b4d86a6081f7d593e1f5a8c",
+    "mappedOn": null,
+    "summary": "Routes documents to different customer contacts per document type",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Per-contact flags for order acknowledgement, delivery, invoice, statement",
+      "Integrates with document layouts and send profiles",
+      "Fallback rules when no dedicated contact",
+      "Applies preferences in bulk to a whole group of customers",
+      "User override of recipients at send time",
+      "Logs recipients on posted document and outbox",
+      "Supports SMTP or Microsoft 365"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "License Manager (Build Dynamics)"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

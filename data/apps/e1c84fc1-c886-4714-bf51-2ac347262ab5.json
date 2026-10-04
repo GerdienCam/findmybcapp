@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.nab|AID.prrt|PAPPID.e1c84fc1-c886-4714-bf51-2ac347262ab5",
+  "guid": "e1c84fc1-c886-4714-bf51-2ac347262ab5",
+  "publisherId": "nab",
+  "offerId": "prrt",
+  "source": {
+    "name": "Parrot",
+    "publisher": "SmartApps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nab%7CAID.prrt%7CPAPPID.e1c84fc1-c886-4714-bf51-2ac347262ab5",
+    "lastModified": "2026-05-04T09:12:11.0819591+00:00",
+    "appVersion": "27.1.26.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.smartappsford365.com/parrot/",
+    "sourceHash": "sha256:c238bcf3972cacf67cdac3ce32fe8fa0feddcc2116cee852c5911cf66d509c4d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c238bcf3972cacf67cdac3ce32fe8fa0feddcc2116cee852c5911cf66d509c4d",
+    "mappedOn": null,
+    "summary": "Sales contracts and recurring invoicing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-billing"
+    ],
+    "claims": [
+      "Tracks recurring charges billed per contract periodicity",
+      "Price lists connected to recurring fees like subscriptions, leases and licenses",
+      "Contracts create standard invoices or project planning lines",
+      "Combine fixed contract and variable StoryPoint costs on one invoice",
+      "30-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "fi",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

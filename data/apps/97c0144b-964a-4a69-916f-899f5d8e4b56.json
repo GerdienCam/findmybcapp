@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionsupplyforoio|PAPPID.97c0144b-964a-4a69-916f-899f5d8e4b56",
+  "guid": "97c0144b-964a-4a69-916f-899f5d8e4b56",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionsupplyforoio",
+  "source": {
+    "name": "VisionSupply for OIO",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionsupplyforoio%7CPAPPID.97c0144b-964a-4a69-916f-899f5d8e4b56",
+    "lastModified": "2026-07-08T15:52:49.3712079+00:00",
+    "appVersion": "20.0.0.32",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.visionpeople.dk/loesninger/brancheloesninger/forsyningsvirksomheder",
+    "sourceHash": "sha256:e3227f3fb914d9bcbd2f1ff7ce1b12ab21c465a3fb38b83f04e7ab925d35b9c8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e3227f3fb914d9bcbd2f1ff7ce1b12ab21c465a3fb38b83f04e7ab925d35b9c8",
+    "mappedOn": null,
+    "summary": "Project and vendor handling for utility maintenance projects",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-utilities-energy-waste",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-costs"
+    ],
+    "claims": [
+      "Links utility consumption points, read from UTS files, to projects and tasks",
+      "Imports and exports project info and dimensions in OIO invoicing",
+      "Used for internal invoices"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Utilities"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "VisionSupply",
+      "VisionOIO Import"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

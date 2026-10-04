@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcbarcodescanning-is|PAPPID.06065b34-e517-4e6d-9c21-37f241368697",
+  "guid": "06065b34-e517-4e6d-9c21-37f241368697",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcbarcodescanning-is",
+  "source": {
+    "name": "Barcode Scanning",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcbarcodescanning-is%7CPAPPID.06065b34-e517-4e6d-9c21-37f241368697",
+    "lastModified": "2026-06-30T07:22:04.1981348+00:00",
+    "appVersion": "20.9.55.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:11e7ad45e8eb42058145e058b7bbd041eea0dc0242e85808a74687d4090535c7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:11e7ad45e8eb42058145e058b7bbd041eea0dc0242e85808a74687d4090535c7",
+    "mappedOn": null,
+    "summary": "Barcode scanning for receiving, shipping, transfers and counting",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-stock-counting",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-data-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements",
+      "ng-packing-loading",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Works with USB barcode scanners on workstations and RFID devices",
+      "Creates sales lines by scanning",
+      "Creates purchase lines by scanning",
+      "Counts goods for shipping by scanning",
+      "Receives goods by scanning on purchase document and vendor receipt",
+      "Creates transfer lines and transfers by scanning",
+      "Physical inventory counting with scanner",
+      "RFID support in sales, purchase and transfer orders"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

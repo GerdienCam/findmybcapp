@@ -1,0 +1,99 @@
+{
+  "appId": "PUBID.foodware365|AID.aptean_labeling|PAPPID.77ad69ba-8684-482c-8948-593df9341788",
+  "guid": "77ad69ba-8684-482c-8948-593df9341788",
+  "publisherId": "foodware365",
+  "offerId": "aptean_labeling",
+  "source": {
+    "name": "Aptean Labeling for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_labeling%7CPAPPID.77ad69ba-8684-482c-8948-593df9341788",
+    "lastModified": "2026-08-26T05:41:17.3482115+00:00",
+    "appVersion": "2602.6.339289.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/LBL/",
+    "sourceHash": "sha256:2837360039c5f21281a2b0a1c1217048281984073fb3dee08c5cb31420aab9ac"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2837360039c5f21281a2b0a1c1217048281984073fb3dee08c5cb31420aab9ac",
+    "mappedOn": null,
+    "summary": "Product label and barcode creation",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "Labels can include ingredients, nutritional values, lot number, item number, shipping address and customer name",
+      "Sends label output files to external label software via API",
+      "Label content can draw on fields from multiple BC tables",
+      "Label selection by combination of customers, vendors or item groups",
+      "Sets up label printers per work center, bin code, employee or location",
+      "Copies a label template to create another one",
+      "Supports customer's preferred language on labels",
+      "Integrates with NiceLabel and BarTender",
+      "Generates label output from all standard BC documents"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [
+      "NiceLabel",
+      "BarTender"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

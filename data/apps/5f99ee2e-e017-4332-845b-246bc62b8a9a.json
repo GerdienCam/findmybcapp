@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.lighthouse_experts_group|AID.purchase_invoice_import|PAPPID.5f99ee2e-e017-4332-845b-246bc62b8a9a",
+  "guid": "5f99ee2e-e017-4332-845b-246bc62b8a9a",
+  "publisherId": "lighthouse_experts_group",
+  "offerId": "purchase_invoice_import",
+  "source": {
+    "name": "Purchase Invoice Import",
+    "publisher": "Lighthouse Experts Group",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lighthouse_experts_group%7CAID.purchase_invoice_import%7CPAPPID.5f99ee2e-e017-4332-845b-246bc62b8a9a",
+    "lastModified": "2026-01-07T03:32:31.9225402+00:00",
+    "appVersion": "1.2.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lighthouseexperts.com/purchase-invoice-import-help/",
+    "sourceHash": "sha256:15fa0cbe51ca9b52f2b31189322852ad2db46efd93661f6c6ccb50c820daf37c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:15fa0cbe51ca9b52f2b31189322852ad2db46efd93661f6c6ccb50c820daf37c",
+    "mappedOn": null,
+    "summary": "Bulk imports purchase invoices and credit memos from Excel",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Bulk import of purchase invoices and credit memos from Excel",
+      "No fixed template; user picks columns and ordering",
+      "Validates required fields, codes and dimension values",
+      "Different templates per user",
+      "Custom fields can be added to the import"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Excel"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

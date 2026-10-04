@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.navax_consulting|AID.ncrc|PAPPID.2b6334c4-2225-4a1f-9de3-435f3c43acaa",
+  "guid": "2b6334c4-2225-4a1f-9de3-435f3c43acaa",
+  "publisherId": "navax_consulting",
+  "offerId": "ncrc",
+  "source": {
+    "name": "NAVAX Recurring Contracts",
+    "publisher": "NAVAX Consulting GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navax_consulting%7CAID.ncrc%7CPAPPID.2b6334c4-2225-4a1f-9de3-435f3c43acaa",
+    "lastModified": "2026-09-29T11:33:51.0684883+00:00",
+    "appVersion": "28.3.2.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navax.app/help.php?AppID=NCRC",
+    "sourceHash": "sha256:98a2e9d72887a6547bca11363a45fbe7484ab4aa2a32fb4a1c4ba9422e71b792"
+  },
+  "mapping": {
+    "sourceHash": "sha256:98a2e9d72887a6547bca11363a45fbe7484ab4aa2a32fb4a1c4ba9422e71b792",
+    "mappedOn": null,
+    "summary": "Recurring contract invoicing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-contracts"
+    ],
+    "claims": [
+      "Periodic billing with fixed term (monthly, quarterly, annually or individual) and fixed amount",
+      "Invoicing according to expenditure incurred after a fixed period",
+      "Quota contracts: agreed quantity or amount invoiced at start of term and drawn down",
+      "Vendor contracts with allocation of purchase invoices to a contract",
+      "Creates many contract invoices at the push of a button",
+      "Handles subscriptions and subscription fees",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

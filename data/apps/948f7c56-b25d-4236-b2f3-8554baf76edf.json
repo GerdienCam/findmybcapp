@@ -1,0 +1,66 @@
+{
+  "appId": "TYPE.connect|PUBID.fourvision|AID.organization-management-advanced-hrm-bc|PAPPID.948f7c56-b25d-4236-b2f3-8554baf76edf",
+  "guid": "948f7c56-b25d-4236-b2f3-8554baf76edf",
+  "publisherId": "fourvision",
+  "offerId": "organization-management-advanced-hrm-bc",
+  "source": {
+    "name": "Organization Management for Dynamics 365 Business Central",
+    "publisher": "FourVision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.fourvision%7CAID.organization-management-advanced-hrm-bc%7CPAPPID.948f7c56-b25d-4236-b2f3-8554baf76edf",
+    "lastModified": "2025-03-02T15:22:17.979214+00:00",
+    "appVersion": "4.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://portal.fourvision.com/",
+    "sourceHash": "sha256:f5645527cb870c031e1fb1a732d5b37dd1121151a65cfb63dda63ca5bd40e864"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f5645527cb870c031e1fb1a732d5b37dd1121151a65cfb63dda63ca5bd40e864",
+    "mappedOn": null,
+    "summary": "Manages organizational data in Advanced HRM",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-hr-org-policies",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-payroll-comp"
+    ],
+    "claims": [
+      "Org structure with legal entities, cost centers, departments and business units",
+      "Personnel data with workers, jobs, positions and hierarchy",
+      "Configurable HR dashboards",
+      "Interactive hierarchy tree including alternative hierarchies",
+      "Task templates and scheduled tasks for employees and managers",
+      "Compensation regions and levels",
+      "Loaned items and equipment linked to workers",
+      "Travel management with fuel and transportation types"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Teams",
+      "Outlook"
+    ],
+    "requires": [
+      "FourVision Advanced HRM"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "id": "ng-admin-data-migration",
+  "order": 140,
+  "label": "Migrating data and keeping master data clean",
+  "description": "Loading opening and historical data into BC, cleansing duplicates and validating addresses.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "high",
+  "statements": [
+    "Migrating data and keeping master data clean",
+    "Loading opening and historical data into BC, cleansing duplicates and validating addresses.",
+    "We need to move ten years of customer and vendor data from our old system into BC",
+    "Is there a tool that imports items from Excel without messing up the units of measure?",
+    "data migration to Business Central",
+    "Our item master is full of duplicates and nobody dares to clean it up",
+    "Configuration packages keep failing on import with errors I do not understand",
+    "How do we bring open customer entries and open vendor balances into BC at go-live",
+    "Customers get created with missing VAT numbers and payment terms all the time",
+    "We want mandatory fields on the customer card so sales cannot skip them",
+    "duplicate customer check",
+    "Migrating from QuickBooks, do we bring all historical transactions or just balances?",
+    "Who is allowed to change master data like item cards? Nobody knows.",
+    "Bulk update hundreds of item cards at once instead of one by one",
+    "Our addresses are a mess, half in uppercase and with wrong postal codes",
+    "We are merging two BC companies and need to combine their item lists without duplicates",
+    "Is there an app to validate master data before it is used on orders and invoices?",
+    "Setting up posting groups and all the setup tables for a new company takes forever, can we copy it?",
+    "Data quality dashboard for item and vendor master data",
+    "Our consultant spends weeks mapping fields from the old ERP, is there a faster way?",
+    "We need an approval step before anyone creates a new item card in BC",
+    "migrate open orders from old ERP at go-live",
+    "Our customer addresses are full of typos and parcels come back",
+    "Is there an app that validates addresses as we type them in BC?",
+    "post code lookup business central",
+    "Addresses print in the wrong format for foreign customers",
+    "We need US states and counties in BC for sales tax",
+    "City and post code tables in BC are incomplete for our country",
+    "Can BC auto-fill the street when we enter the post code and house number?",
+    "We want addresses checked against an official register",
+    "Ship-to addresses are entered differently by every sales rep",
+    "address format per country BC",
+    "Importing all postal codes for Scandinavia into BC",
+    "VAT number and address should be checked when we create a customer"
+  ],
+  "questions": [
+    {
+      "id": "source",
+      "text": "Where is the data coming from?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Dynamics NAV, C5 or an older BC",
+          "patterns": [
+            "\\bnav\\b",
+            "navision",
+            "dynamics nav",
+            "\\bc5\\b",
+            "legacy",
+            "bc versions"
+          ]
+        },
+        {
+          "label": "e-conomic, Visma or QuickBooks",
+          "patterns": [
+            "e-conomic",
+            "visma",
+            "quickbooks"
+          ]
+        },
+        {
+          "label": "Excel, CSV or other files",
+          "patterns": [
+            "excel",
+            "\\bcsv\\b",
+            "xlsx",
+            "json",
+            "text files"
+          ]
+        },
+        {
+          "label": "Another BC company or environment",
+          "patterns": [
+            "sandbox",
+            "another company",
+            "company to company",
+            "between (bc|companies)",
+            "across companies",
+            "across .*tenants",
+            "instances",
+            "new company"
+          ]
+        },
+        {
+          "label": "Another BC add-on (OPplus, Payment Management)",
+          "patterns": [
+            "opplus",
+            "payment management"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Dynamics NAV, C5 or an older BC": 0.25,
+        "e-conomic, Visma or QuickBooks": 0.2,
+        "Excel, CSV or other files": 0.35,
+        "Another BC company or environment": 0.2,
+        "Another BC add-on (OPplus, Payment Management)": 0.15
+      }
+    },
+    {
+      "id": "scope",
+      "text": "What do you need to bring across?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Master data (customers, vendors, items, accounts)",
+          "patterns": [
+            "master data",
+            "(migrat|import)\\w* .*(customers|chart of accounts|items|accounts)",
+            "chart of accounts"
+          ]
+        },
+        {
+          "label": "History: ledger entries and posted transactions",
+          "patterns": [
+            "ledger entries",
+            "g/l entries",
+            "historical",
+            "open (customer|purchase|sales)",
+            "posted (and unposted )?documents",
+            "transactions, bank accounts"
+          ]
+        },
+        {
+          "label": "Attachments and PDF documents",
+          "patterns": [
+            "pdf",
+            "attachment",
+            "image upload",
+            "blob",
+            "media fields"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Master data (customers, vendors, items, accounts)": 0.45,
+        "History: ledger entries and posted transactions": 0.4,
+        "Attachments and PDF documents": 0.25
+      }
+    },
+    {
+      "id": "repeat",
+      "text": "Is this a one-off move or something you'll repeat?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Repeated imports or exports (templates, schedules)",
+          "patterns": [
+            "schedul",
+            "sftp",
+            "repeatable",
+            "reusable",
+            "stored configurations",
+            "templates"
+          ]
+        },
+        {
+          "label": "Run old and new system side by side during cut-over",
+          "patterns": [
+            "delta",
+            "live-sync",
+            "iterative",
+            "bidirectio",
+            "parallel working",
+            "\\bsyncs? data"
+          ]
+        },
+        {
+          "label": "One-off / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Repeated imports or exports (templates, schedules)": 0.25,
+        "Run old and new system side by side during cut-over": 0.1
+      }
+    },
+    {
+      "id": "cleanup",
+      "text": "Do you also need to clean up data already in BC?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Merge duplicate customers, vendors or items",
+          "patterns": [
+            "merge",
+            "duplicate"
+          ]
+        },
+        {
+          "label": "Bulk edit or fix records directly",
+          "patterns": [
+            "bulk (edit|update)",
+            "find (&|and) replace",
+            "direct (view|edit)",
+            "delete obsolete"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Merge duplicate customers, vendors or items": 0.1,
+        "Bulk edit or fix records directly": 0.15
+      }
+    },
+    {
+      "id": "deploy",
+      "text": "Is your BC in the cloud or on your own servers?",
+      "options": [
+        {
+          "label": "On our own servers (on-premises)",
+          "patterns": [
+            "on-?prem"
+          ]
+        },
+        {
+          "label": "Cloud / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "On our own servers (on-premises)": 0.15
+      }
+    }
+  ]
+}

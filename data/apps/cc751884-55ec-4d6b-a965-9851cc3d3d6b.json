@@ -1,0 +1,50 @@
+{
+  "appId": "PUBID.on-point-ltd|AID.transfer-uom-free|PAPPID.cc751884-55ec-4d6b-a965-9851cc3d3d6b",
+  "guid": "cc751884-55ec-4d6b-a965-9851cc3d3d6b",
+  "publisherId": "on-point-ltd",
+  "offerId": "transfer-uom-free",
+  "source": {
+    "name": "Transfer_UOM",
+    "publisher": "On Point Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on-point-ltd%7CAID.transfer-uom-free%7CPAPPID.cc751884-55ec-4d6b-a965-9851cc3d3d6b",
+    "lastModified": "2025-05-26T12:56:41.6530082+00:00",
+    "appVersion": "25.0.0.8",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://confluence.external-share.com/content/658469/transfer_order_unit_of_measure_documentation",
+    "sourceHash": "sha256:f7833847116d944500654f21d378b7d1876ef8c6507207816b0571da87e5b89f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f7833847116d944500654f21d378b7d1876ef8c6507207816b0571da87e5b89f",
+    "mappedOn": null,
+    "summary": "Sets unit of measure on transfer order lines from item card",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-stock-movements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-entry"
+    ],
+    "claims": [
+      "Sets UOM on transfer order lines from item card Transfer UOM field"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

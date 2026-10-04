@@ -1,0 +1,253 @@
+{
+  "id": "ng-conn-payment-providers",
+  "order": 189,
+  "label": "Taking card and online payments",
+  "description": "Connecting payment service providers (Stripe, Adyen, PayPal, GoCardless, Mollie, Nets, payment terminals) to collect card, direct debit and pay-by-link payments and reconcile payouts and fees.",
+  "type": "connector",
+  "area": "Connecting other systems",
+  "relevance": "high",
+  "statements": [
+    "Taking card and online payments",
+    "Connecting payment service providers (Stripe, Adyen, PayPal, GoCardless, Mollie, Nets, payment terminals) to collect card, direct debit and pay-by-link payments and reconcile payouts and fees.",
+    "We want a pay now link on every invoice",
+    "Stripe integration with Business Central",
+    "Stripe payouts are one lump sum and we can't match them to invoices",
+    "Customers want to pay by card over the phone",
+    "Direct debit for our subscription customers",
+    "PayPal fees are posted by hand every month",
+    "How do we reconcile Adyen settlements in BC?",
+    "Payment terminal at the counter that talks to BC",
+    "GoCardless mandates linked to the customer card",
+    "Take a deposit by card before we ship",
+    "Customer portal where they can pay open invoices",
+    "Card payments from the webshop must close the invoice automatically",
+    "pay by link invoice",
+    "We want to stop chasing cheques and get paid online",
+    "Recurring card charges for monthly contracts",
+    "Which PSP has a proper BC connector?",
+    "Refunds should go back to the card and create a credit memo",
+    "Payment provider fees on a separate account",
+    "MobilePay payments matched to invoices",
+    "Surcharge for card payments"
+  ],
+  "questions": [
+    {
+      "id": "provider",
+      "text": "Which payment provider do you use or want?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Stripe",
+          "patterns": [
+            "stripe"
+          ]
+        },
+        {
+          "label": "Adyen",
+          "patterns": [
+            "adyen"
+          ]
+        },
+        {
+          "label": "PayPal",
+          "patterns": [
+            "paypal"
+          ]
+        },
+        {
+          "label": "Nordic: MobilePay, Vipps, Nets, Klarna",
+          "patterns": [
+            "mobilepay",
+            "vipps",
+            "\\bnets\\b",
+            "klarna",
+            "swish",
+            "betalingsservice",
+            "dankort"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Stripe": 0.24,
+        "Adyen": 0.12,
+        "PayPal": 0.14,
+        "Nordic: MobilePay, Vipps, Nets, Klarna": 0.14
+      }
+    },
+    {
+      "id": "how",
+      "text": "How do customers pay you?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Online via a payment link or portal",
+          "patterns": [
+            "payment link",
+            "pay-by-link",
+            "pay by link",
+            "portal",
+            "checkout",
+            "paypal link",
+            "pay with stripe",
+            "link to a secure",
+            "secure email links",
+            "link in email",
+            "links? in invoice",
+            "worldpay payment link",
+            "payment links? or qr"
+          ]
+        },
+        {
+          "label": "Card terminal in person",
+          "patterns": [
+            "payment terminal",
+            "stripe terminal",
+            "integrated terminals",
+            "pos terminal",
+            "\\beft\\b",
+            "card-present",
+            "in-person",
+            "in person",
+            "chip",
+            "contactless",
+            "card reader",
+            "touch pos",
+            "pin pad"
+          ]
+        },
+        {
+          "label": "Direct debit or recurring collection",
+          "patterns": [
+            "direct debit",
+            "recurring",
+            "mandate",
+            "auto-pay",
+            "betalingsservice",
+            "\\bach\\b",
+            "sepa",
+            "subscription"
+          ]
+        },
+        {
+          "label": "Charging a saved card",
+          "patterns": [
+            "saved",
+            "card-on-file",
+            "token",
+            "stored card",
+            "stored payment"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Online via a payment link or portal": 0.5,
+        "Card terminal in person": 0.28,
+        "Direct debit or recurring collection": 0.3,
+        "Charging a saved card": 0.18
+      }
+    },
+    {
+      "id": "recon",
+      "text": "What should happen after a payment comes in?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Auto-match payment to the invoice",
+          "patterns": [
+            "reconcil",
+            "match",
+            "cash application",
+            "auto-?post",
+            "posts? (incoming )?payments",
+            "cash receipt",
+            "registers payments",
+            "payment journal",
+            "applied"
+          ]
+        },
+        {
+          "label": "Post provider fees and payouts",
+          "patterns": [
+            "fee",
+            "payout",
+            "settlement"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Auto-match payment to the invoice": 0.52,
+        "Post provider fees and payouts": 0.32
+      }
+    },
+    {
+      "id": "channel",
+      "text": "Where do your sales happen?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Webshop or e-commerce",
+          "patterns": [
+            "e-?commerce",
+            "webshop",
+            "shopify"
+          ]
+        },
+        {
+          "label": "Shop counter / POS",
+          "patterns": [
+            "touch pos",
+            "central pos",
+            "at pos",
+            "across pos",
+            "pos integration",
+            "in-store",
+            "retail",
+            "ls central"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Webshop or e-commerce": 0.12,
+        "Shop counter / POS": 0.1
+      }
+    },
+    {
+      "id": "refunds",
+      "text": "Do you need refunds and chargebacks handled in BC?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "refund",
+            "chargeback",
+            "dispute",
+            "\\bvoid"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.24
+      }
+    }
+  ]
+}

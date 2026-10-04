@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.bcsitera|AID.automatic-emailing-of-invoices|PAPPID.36f5bb0e-70a2-427b-acfc-528e9af3afd6",
+  "guid": "36f5bb0e-70a2-427b-acfc-528e9af3afd6",
+  "publisherId": "bcsitera",
+  "offerId": "automatic-emailing-of-invoices",
+  "source": {
+    "name": "Automatic Emailing of Invoices",
+    "publisher": "DIGMATIX",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.automatic-emailing-of-invoices%7CPAPPID.36f5bb0e-70a2-427b-acfc-528e9af3afd6",
+    "lastModified": "2026-05-17T20:17:57.4322381+00:00",
+    "appVersion": "20.3.26137.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.itera.ee/apps/Automatic-Emailing-of-Invoices/docs/en-US/help",
+    "sourceHash": "sha256:253a4c98a9512bf200b92a07361b82fff02918a1147b2760b87995e83b24e530"
+  },
+  "mapping": {
+    "sourceHash": "sha256:253a4c98a9512bf200b92a07361b82fff02918a1147b2760b87995e83b24e530",
+    "mappedOn": null,
+    "summary": "Automatically emails posted sales invoices and credit memos",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Automatically emails posted sales invoices and credit memos",
+      "Controlled via document sending profile",
+      "Sending status and time shown on posted invoice list",
+      "Limits number of invoices per job queue run"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

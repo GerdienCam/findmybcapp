@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.schedulingbay|AID.pacer-production-scheduler|PAPPID.8a2f1b34-9e8d-4c5a-b671-f2d3e4a5b6c7",
+  "guid": "8a2f1b34-9e8d-4c5a-b671-f2d3e4a5b6c7",
+  "publisherId": "schedulingbay",
+  "offerId": "pacer-production-scheduler",
+  "source": {
+    "name": "Pacer Production Scheduler",
+    "publisher": "Scheduling Bay LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.schedulingbay%7CAID.pacer-production-scheduler%7CPAPPID.8a2f1b34-9e8d-4c5a-b671-f2d3e4a5b6c7",
+    "lastModified": "2026-09-09T20:32:33.9994392+00:00",
+    "appVersion": "1.0.0.5",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://schedulingbay.com/contact",
+    "sourceHash": "sha256:bf2b1819f9552fd0968356c81dfc438b32792088b24073dd25701b71b4e731fa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bf2b1819f9552fd0968356c81dfc438b32792088b24073dd25701b71b4e731fa",
+    "mappedOn": null,
+    "summary": "Finite capacity production scheduling",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters",
+      "ng-ux-ai-assistant"
+    ],
+    "claims": [
+      "Finite capacity scheduling across work centers and machine centers",
+      "Sequence-dependent setup time optimization",
+      "Scheduling by priority, due dates and material availability",
+      "Interactive Gantt chart with manual adjustments",
+      "Reschedule in seconds",
+      "Supports multiple shifts and working calendars",
+      "AI assistant answers capacity questions in natural language",
+      "AI assistant explains scheduling decisions and changes configuration",
+      "Requires Business Central Premium",
+      "No external systems needed",
+      "30-day free trial without credit card"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex051_dualunitofmeasure|PAPPID.b88a10e0-40b3-46e2-af5e-b6a732b86465",
+  "guid": "b88a10e0-40b3-46e2-af5e-b6a732b86465",
+  "publisherId": "eos_solutions",
+  "offerId": "ex051_dualunitofmeasure",
+  "source": {
+    "name": "Dual Unit of Measure",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex051_dualunitofmeasure%7CPAPPID.b88a10e0-40b3-46e2-af5e-b6a732b86465",
+    "lastModified": "2026-07-03T18:10:07.1271611+00:00",
+    "appVersion": "28.0.19.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/dual-unit-of-measure.html",
+    "sourceHash": "sha256:0dad57477b3ad743742697c2eae9773e682d40a617b16d5646a243ce8f84a4b0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0dad57477b3ad743742697c2eae9773e682d40a617b16d5646a243ce8f84a4b0",
+    "mappedOn": null,
+    "summary": "Tracks inventory and price lists in a secondary unit of measure",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage",
+      "ng-inventory-analysis",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Records and reports a second unit of measure (catch weight) on inventory transactions",
+      "Pricing and discounting by second UOM",
+      "Records the second UOM as fixed or dynamic",
+      "2nd UOM on all item and inventory transaction tables including item tracing",
+      "Tracks second UOM on production and transfer orders",
+      "Warehouse transactions processed in either UOM",
+      "Reporting by either or both UOMs",
+      "Requires EOS Over- and Under-Delivery Quantities",
+      "Free trial available"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Food processing",
+      "Jewelry",
+      "Leather goods",
+      "Metal",
+      "Paper",
+      "Textiles"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EOS Over- and Under-Delivery Quantities"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

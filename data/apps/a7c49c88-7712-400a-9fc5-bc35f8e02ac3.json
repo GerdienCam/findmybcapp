@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.zeroblu|AID.bc365_amex|PAPPID.a7c49c88-7712-400a-9fc5-bc35f8e02ac3",
+  "guid": "a7c49c88-7712-400a-9fc5-bc35f8e02ac3",
+  "publisherId": "zeroblu",
+  "offerId": "bc365_amex",
+  "source": {
+    "name": "APP365 - Transazioni AmEx American Express Italia",
+    "publisher": "ZeroBlu Srl",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.zeroblu%7CAID.bc365_amex%7CPAPPID.a7c49c88-7712-400a-9fc5-bc35f8e02ac3",
+    "lastModified": "2024-11-22T18:52:38.0229619+00:00",
+    "appVersion": "3.0.0.20",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.business-central.app/public/app365amex_help.pdf",
+    "sourceHash": "sha256:2d519efdc7a9cf59b974fbb264fe3b079f0a8e9b0beb89db3c75923933643f71"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2d519efdc7a9cf59b974fbb264fe3b079f0a8e9b0beb89db3c75923933643f71",
+    "mappedOn": null,
+    "summary": "Imports American Express transaction CSV",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-employee-expenses"
+    ],
+    "claims": [
+      "Imports AmEx Italia transaction XLSX file",
+      "Imported transactions viewable on a dedicated page",
+      "Imports debit and credit card transactions as well as account transactions",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "American Express Italia"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

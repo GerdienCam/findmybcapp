@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.focusphereltdtahcsbusinesssolutions1681463307555|AID.specialorder|PAPPID.0a163200-6b69-44bd-80c1-1e8773d64ffd",
+  "guid": "0a163200-6b69-44bd-80c1-1e8773d64ffd",
+  "publisherId": "focusphereltdtahcsbusinesssolutions1681463307555",
+  "offerId": "specialorder",
+  "source": {
+    "name": "SpecialOrder",
+    "publisher": "HCS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.focusphereltdtahcsbusinesssolutions1681463307555%7CAID.specialorder%7CPAPPID.0a163200-6b69-44bd-80c1-1e8773d64ffd",
+    "lastModified": "2025-12-10T13:48:08.6919592+00:00",
+    "appVersion": "2.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.hcs.ie/hcs-special-order/",
+    "sourceHash": "sha256:56b5101bccde676f2be260c7fcc56f67659fa7738e7e3bc78279464b3aea561e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:56b5101bccde676f2be260c7fcc56f67659fa7738e7e3bc78279464b3aea561e",
+    "mappedOn": null,
+    "summary": "Links sales orders to purchase orders for special orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-analytics",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Links sales orders to purchase orders",
+      "Shows gross profit and margin per sales line and order"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

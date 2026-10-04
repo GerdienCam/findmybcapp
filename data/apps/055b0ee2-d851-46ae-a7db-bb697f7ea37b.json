@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.inventory-essentials-app|PAPPID.055b0ee2-d851-46ae-a7db-bb697f7ea37b",
+  "guid": "055b0ee2-d851-46ae-a7db-bb697f7ea37b",
+  "publisherId": "fenwicksoftware",
+  "offerId": "inventory-essentials-app",
+  "source": {
+    "name": "Fenwick Apps Inventory Essentials Pack",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.inventory-essentials-app%7CPAPPID.055b0ee2-d851-46ae-a7db-bb697f7ea37b",
+    "lastModified": "2026-07-05T23:32:07.5137028+00:00",
+    "appVersion": "26.0.260618.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/pack/inventory-essentials/",
+    "sourceHash": "sha256:792c5ae2064de7c1ae59f1a71694fdefafceb19db2c844d27472408b4dc2f249"
+  },
+  "mapping": {
+    "sourceHash": "sha256:792c5ae2064de7c1ae59f1a71694fdefafceb19db2c844d27472408b4dc2f249",
+    "mappedOn": null,
+    "summary": "Bundle of Fenwick inventory extension apps",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability",
+      "ng-allocation-picking"
+    ],
+    "claims": [
+      "Bundle of Fenwick inventory apps at a discounted price",
+      "Item availability tools to plan and forecast items in one view",
+      "Automation for inventory picks and put-aways and item synchronisation",
+      "Control grouping and linking of purchase orders created from planning worksheet",
+      "Lets users change lot/serial numbers and expiration dates right in the lines"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

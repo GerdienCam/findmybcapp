@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.dimension_hierarchies|PAPPID.99ce5a10-0b37-41b8-a37d-ef005dc62501",
+  "guid": "99ce5a10-0b37-41b8-a37d-ef005dc62501",
+  "publisherId": "thetasystemslimited",
+  "offerId": "dimension_hierarchies",
+  "source": {
+    "name": "Dimension Hierarchies",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.dimension_hierarchies%7CPAPPID.99ce5a10-0b37-41b8-a37d-ef005dc62501",
+    "lastModified": "2026-08-04T02:02:32.6602478+00:00",
+    "appVersion": "27.0.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/DHI",
+    "sourceHash": "sha256:dbc8c9ed9104d45903618896f6f4f5b9405287f81a4b1ac4c31e930d519a07db"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dbc8c9ed9104d45903618896f6f4f5b9405287f81a4b1ac4c31e930d519a07db",
+    "mappedOn": null,
+    "summary": "Automatic dimension hierarchies",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-cost-allocation"
+    ],
+    "claims": [
+      "Parent dimension values are filled in automatically after a child dimension is entered",
+      "Multi-level hierarchies resolved recursively",
+      "One child value can map to multiple parent dimensions",
+      "Works across all standard documents, journals and master data",
+      "Hierarchies apply to the default dimensions of customers, vendors and items",
+      "Applies to project (job) task dimensions",
+      "Table exceptions to exclude tables",
+      "Choice to overwrite or preserve existing dimensions",
+      "Applies to values entered via integration",
+      "REST API to manage hierarchy rules"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "ja",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "sv",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

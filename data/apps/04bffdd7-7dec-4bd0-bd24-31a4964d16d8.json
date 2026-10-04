@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.rev_posting|PAPPID.04bffdd7-7dec-4bd0-bd24-31a4964d16d8",
+  "guid": "04bffdd7-7dec-4bd0-bd24-31a4964d16d8",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "rev_posting",
+  "source": {
+    "name": "Reversal Posting",
+    "publisher": "LODESTAR SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.rev_posting%7CPAPPID.04bffdd7-7dec-4bd0-bd24-31a4964d16d8",
+    "lastModified": "2026-07-23T06:35:17.4973697+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:b2e5b7dfdc1904ec99f8e7c5d6728568942710dbda4b1dde221d2a393ed7e815"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b2e5b7dfdc1904ec99f8e7c5d6728568942710dbda4b1dde221d2a393ed7e815",
+    "mappedOn": null,
+    "summary": "Controlled reversal of posted documents and G/L entries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-correct-posted",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-journals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Reverses posted documents and G/L entries",
+      "Automatically generates reverse entries",
+      "Honors user permissions, posting dates and accounting period restrictions"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

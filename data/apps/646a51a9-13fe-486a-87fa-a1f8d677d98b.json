@@ -1,0 +1,106 @@
+{
+  "appId": "PUBID.praxedo1653055796175|AID.praxedo_extension|PAPPID.646a51a9-13fe-486a-87fa-a1f8d677d98b",
+  "guid": "646a51a9-13fe-486a-87fa-a1f8d677d98b",
+  "publisherId": "praxedo1653055796175",
+  "offerId": "praxedo_extension",
+  "source": {
+    "name": "Praxedo — Field Service Management for Business Central",
+    "publisher": "Praxedo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.praxedo1653055796175%7CAID.praxedo_extension%7CPAPPID.646a51a9-13fe-486a-87fa-a1f8d677d98b",
+    "lastModified": "2026-09-24T15:20:24.8100559+00:00",
+    "appVersion": "25.0.260924.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.praxedo.com/erp-crm-accounting-software-connectors-apis/ms-dynamics-365-business-central/",
+    "sourceHash": "sha256:98c3eab4ab47de9300be1a890bca15814581527544731d88e351ed49dc478beb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:98c3eab4ab47de9300be1a890bca15814581527544731d88e351ed49dc478beb",
+    "mappedOn": null,
+    "summary": "Field service scheduling and routing via Praxedo",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-svc-dispatch",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-close-invoice",
+      "ng-svc-requests"
+    ],
+    "claims": [
+      "AI-powered web-based scheduling and dispatch",
+      "Mobile app for field technicians",
+      "Optimized routes for field team schedules",
+      "Digital service reports with time and material consumption",
+      "Customizable forms for service data collection",
+      "Offers customers live service tracking, automatic notifications and appointment booking online",
+      "Documents work order completion for compliance",
+      "Requires both Praxedo and BC",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [
+      "AE",
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CL",
+      "CO",
+      "CR",
+      "DE",
+      "DK",
+      "DO",
+      "EC",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GT",
+      "HN",
+      "IE",
+      "LU",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PA",
+      "PE",
+      "PT",
+      "PY",
+      "SE",
+      "SV",
+      "US",
+      "UY",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Praxedo"
+    ],
+    "requires": [
+      "Praxedo"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

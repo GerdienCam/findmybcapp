@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.alna_business|AID.alna_hr_office|PAPPID.19410846-26e3-4fa6-8c47-f8126d36e726",
+  "guid": "19410846-26e3-4fa6-8c47-f8126d36e726",
+  "publisherId": "alna_business",
+  "offerId": "alna_hr_office",
+  "source": {
+    "name": "Alna HR Office (SaaS Offer)",
+    "publisher": "Alna Business",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alna_business%7CAID.alna_hr_office%7CPAPPID.19410846-26e3-4fa6-8c47-f8126d36e726",
+    "lastModified": "2026-09-28T06:20:25.4769644+00:00",
+    "appVersion": "240.69.8.21",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.alna.lt/business/en/solutions/alna-hr-office",
+    "sourceHash": "sha256:273b4e0178bec064bea2bb5b10d6545a5c84e9013dcf1d75537f5ab3eb8f4533"
+  },
+  "mapping": {
+    "sourceHash": "sha256:273b4e0178bec064bea2bb5b10d6545a5c84e9013dcf1d75537f5ab3eb8f4533",
+    "mappedOn": null,
+    "summary": "Lithuanian HR management and payroll",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-time-shifts",
+      "ng-hr-absence-leave",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Lithuanian payroll calculation",
+      "Employee database and HR reports",
+      "Work schedules and absence accounting",
+      "Payroll payments in SEPA format",
+      "Payment file export for Lithuanian banks",
+      "Reports for government institutions",
+      "Optional employee self-service for vacation and business trip requests"
+    ],
+    "countries": [
+      "LT"
+    ],
+    "languages": [
+      "en",
+      "lt"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

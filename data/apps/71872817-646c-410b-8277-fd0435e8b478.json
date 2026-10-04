@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_advanced_item_and_price_import|PAPPID.71872817-646c-410b-8277-fd0435e8b478",
+  "guid": "71872817-646c-410b-8277-fd0435e8b478",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_advanced_item_and_price_import",
+  "source": {
+    "name": "Dynavision Advanced Item & Price Import",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_advanced_item_and_price_import%7CPAPPID.71872817-646c-410b-8277-fd0435e8b478",
+    "lastModified": "2026-10-02T09:35:46.04499+00:00",
+    "appVersion": "28.0.0.47446",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Advanced_Item_and_Price_import_Manual.pdf",
+    "sourceHash": "sha256:7cd07c4eb4b99f1ba5042ed4b572dbf93dada991677e8a070c74d1fbb116b26f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7cd07c4eb4b99f1ba5042ed4b572dbf93dada991677e8a070c74d1fbb116b26f",
+    "mappedOn": null,
+    "summary": "Imports vendor item and price lists from Excel",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Imports supplier Excel price and item lists without reformatting",
+      "Handles multi-tab, multi-header complex Excel files",
+      "Reusable import templates",
+      "Transformation rules like rounding prices, trimming, converting measures",
+      "Value mappings for countries, item categories, attributes",
+      "Calculated columns",
+      "Creates or updates items and purchase prices",
+      "Ends previous period purchase prices",
+      "Imports catalog items",
+      "Item import with BOM components",
+      "Supports custom fields and third-party tables"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

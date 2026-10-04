@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_purchaselineapproval|PAPPID.102ce5b4-750a-45d2-ab43-4f174f136562",
+  "guid": "102ce5b4-750a-45d2-ab43-4f174f136562",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_purchaselineapproval",
+  "source": {
+    "name": "Fusion5 Purchase Line Approval",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_purchaselineapproval%7CPAPPID.102ce5b4-750a-45d2-ab43-4f174f136562",
+    "lastModified": "2026-04-22T00:13:44.9676109+00:00",
+    "appVersion": "2700.5.20260422.15537",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/446595073/Purchase+Line+Approval",
+    "sourceHash": "sha256:a06740b7b9bc68d7ea962345f91de8879f5c02363c927a70ac9043a708c2c47f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a06740b7b9bc68d7ea962345f91de8879f5c02363c927a70ac9043a708c2c47f",
+    "mappedOn": null,
+    "summary": "Approves purchase document lines via Power Automate",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Line-level approval status on purchase documents",
+      "Pending Line Approval document status",
+      "Business events consumed by Power Automate",
+      "Changes to tracked fields reset approval",
+      "User-configurable tracked fields",
+      "Record Limits define which lines need approval"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power Automate"
+    ],
+    "requires": [
+      "Fusion5 Pack for Power Automate"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

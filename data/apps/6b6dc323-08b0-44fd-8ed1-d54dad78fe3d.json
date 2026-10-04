@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.alterna|AID.6b6dc323-08b0-44fd-8ed1-d54dad78fe3d|PAPPID.6b6dc323-08b0-44fd-8ed1-d54dad78fe3d",
+  "guid": "6b6dc323-08b0-44fd-8ed1-d54dad78fe3d",
+  "publisherId": "alterna",
+  "offerId": "6b6dc323-08b0-44fd-8ed1-d54dad78fe3d",
+  "source": {
+    "name": "Flexi WMS for EWS",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.6b6dc323-08b0-44fd-8ed1-d54dad78fe3d%7CPAPPID.6b6dc323-08b0-44fd-8ed1-d54dad78fe3d",
+    "lastModified": "2026-09-16T09:50:00.670862+00:00",
+    "appVersion": "2.3.8.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/flexi-wms-for-ews/",
+    "sourceHash": "sha256:a42ede7c2e6bc1235fa2f8eabf02bec4c406313576ced83ac9244bddb480f91d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a42ede7c2e6bc1235fa2f8eabf02bec4c406313576ced83ac9244bddb480f91d",
+    "mappedOn": null,
+    "summary": "Mobile warehouse handling for Extended Warehouse Suite",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-packing-loading",
+      "ng-stock-counting",
+      "ng-shop-floor-reporting"
+    ],
+    "claims": [
+      "Barcode reading for warehouse management on mobile",
+      "Android client application",
+      "Receiving via warehouse receipts",
+      "Put-away assigns locations",
+      "Picking via warehouse picks",
+      "Shipping via warehouse shipments",
+      "Positive and negative inventory adjustments",
+      "Transfers between locations and bins",
+      "Records consumption and output against released production orders",
+      "Lots, serials and expiration dates in all processes",
+      "Handling units from Extended Warehouse Suite in all processes",
+      "Assisted setup"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Flexi WMS",
+      "Extended Warehouse Suite"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

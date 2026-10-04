@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.multisoft|AID.wmsmobilenav|PAPPID.e8af7984-24eb-43bb-a518-2abdbcb32e44",
+  "guid": "e8af7984-24eb-43bb-a518-2abdbcb32e44",
+  "publisherId": "multisoft",
+  "offerId": "wmsmobilenav",
+  "source": {
+    "name": "WMS MobileNAV",
+    "publisher": "MULTISOFT KFT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.multisoft%7CAID.wmsmobilenav%7CPAPPID.e8af7984-24eb-43bb-a518-2abdbcb32e44",
+    "lastModified": "2026-09-16T10:03:30.1490608+00:00",
+    "appVersion": "1.2.0.15",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://partner.multisoft.hu/help-wms-mobilenav/",
+    "sourceHash": "sha256:994ed2efa4ed0a5b4ec787440c1e48d0e5eeaa50209b9f0f4ac7a82be8de0e8f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:994ed2efa4ed0a5b4ec787440c1e48d0e5eeaa50209b9f0f4ac7a82be8de0e8f",
+    "mappedOn": null,
+    "summary": "Mobile offline warehouse activities",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading",
+      "ng-stock-counting",
+      "ng-shipping-carriers",
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Creates warehouse documents on-site via QR codes, barcodes or RFID",
+      "Works offline and uploads changes when connected",
+      "Tote picking: parallel picks for several orders",
+      "Tracks package contents and packaging material usage",
+      "License plating to move pallets with one scan",
+      "Integrates with Sendcloud, Transsmart or EasyPost",
+      "Double inventory count with discrepancy reconciliation",
+      "Physical inventory orders with package numbers"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Sendcloud",
+      "Transsmart",
+      "EasyPost"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

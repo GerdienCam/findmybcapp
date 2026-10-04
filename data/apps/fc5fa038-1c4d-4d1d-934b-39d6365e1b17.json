@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.autocontas|AID.aea_2025_04|PAPPID.fc5fa038-1c4d-4d1d-934b-39d6365e1b17",
+  "guid": "fc5fa038-1c4d-4d1d-934b-39d6365e1b17",
+  "publisherId": "autocontas",
+  "offerId": "aea_2025_04",
+  "source": {
+    "name": "Analytics Suite",
+    "publisher": "Aricoma Systems a.s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.autocontas%7CAID.aea_2025_04%7CPAPPID.fc5fa038-1c4d-4d1d-934b-39d6365e1b17",
+    "lastModified": "2026-09-29T12:55:02.850475+00:00",
+    "appVersion": "28.5.54151.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/Solutions/analytics-suite.html",
+    "sourceHash": "sha256:f38ade9f588734d5ba44183978fcb47b0adb2adf6e2a2f41d526c856681f5174"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f38ade9f588734d5ba44183978fcb47b0adb2adf6e2a2f41d526c856681f5174",
+    "mappedOn": null,
+    "summary": "API for analyzing BC data in Power BI",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-financial-statements",
+      "ng-sales-analytics"
+    ],
+    "claims": [
+      "API from BC feeding Power BI for data visualization and analysis",
+      "Power BI dashboards covering finance, banks, receivables, sales and inventory",
+      "Multi-company data in one view",
+      "Compare data over different time periods",
+      "Mobile device access to reports",
+      "Additional data sources can be connected and data model adjusted",
+      "Analysis of project profitability and funds tied up in inventory or receivables"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex09005_productconfiguratorforongineeringtoorder|PAPPID.9c54eafd-9be0-4c3a-97e3-efab41a7543e",
+  "guid": "9c54eafd-9be0-4c3a-97e3-efab41a7543e",
+  "publisherId": "eos_solutions",
+  "offerId": "ex09005_productconfiguratorforongineeringtoorder",
+  "source": {
+    "name": "Product configurator for Engineering to Order",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex09005_productconfiguratorforongineeringtoorder%7CPAPPID.9c54eafd-9be0-4c3a-97e3-efab41a7543e",
+    "lastModified": "2026-09-21T07:44:20.3801922+00:00",
+    "appVersion": "28.0.10.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/product-configurator-cfg.html",
+    "sourceHash": "sha256:b61dbd40923bf883045ea9d6669ce051cd15875910a89a6648953cd50af0f05e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b61dbd40923bf883045ea9d6669ce051cd15875910a89a6648953cd50af0f05e",
+    "mappedOn": null,
+    "summary": "Product configuration creating item variants for engineer to order manufacturing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-industrial-manufacturing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Auto-creates item variants or item codes from characteristic combinations",
+      "Specific BOMs, routings and tasks",
+      "Budgets supporting sales quotation",
+      "Price matrix by characteristic values",
+      "Price surcharges and optionals",
+      "Search posted documents by characteristics",
+      "Depends on EOS Engineering to Order as well as EOS Product Configurator",
+      "Premium edition only"
+    ],
+    "countries": [
+      "AE",
+      "AU",
+      "BR",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "IN",
+      "IT",
+      "NL",
+      "RO",
+      "SM",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EOS Product Configurator",
+      "EOS Engineering to Order"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

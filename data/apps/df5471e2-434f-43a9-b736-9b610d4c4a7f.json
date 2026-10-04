@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.setdimensions|PAPPID.df5471e2-434f-43a9-b736-9b610d4c4a7f",
+  "guid": "df5471e2-434f-43a9-b736-9b610d4c4a7f",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "setdimensions",
+  "source": {
+    "name": "Set Dimensions",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.setdimensions%7CPAPPID.df5471e2-434f-43a9-b736-9b610d4c4a7f",
+    "lastModified": "2026-05-25T05:32:01.9126116+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://matchbusinesscentral.com/pages/set-dimensions",
+    "sourceHash": "sha256:1b6846004052c4fc8ea57cc5c1b3601e17cea8a6e5700ece2e625bca70749a8f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1b6846004052c4fc8ea57cc5c1b3601e17cea8a6e5700ece2e625bca70749a8f",
+    "mappedOn": null,
+    "summary": "Mirrors master data as dimensions for reporting",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-coa-company-setup"
+    ],
+    "claims": [
+      "Creates default dimensions one-to-one from master data automatically",
+      "Supports salesperson, location, customer, vendor, employee, resource, project, task, responsibility centre, item and fixed asset",
+      "Adds global dimensions 1 and 2 on contacts"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

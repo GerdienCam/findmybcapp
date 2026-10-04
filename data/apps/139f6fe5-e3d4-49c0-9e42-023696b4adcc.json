@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.multisoft|AID.aip|PAPPID.139f6fe5-e3d4-49c0-9e42-023696b4adcc",
+  "guid": "139f6fe5-e3d4-49c0-9e42-023696b4adcc",
+  "publisherId": "multisoft",
+  "offerId": "aip",
+  "source": {
+    "name": "Automated Invoice Processor",
+    "publisher": "MULTISOFT KFT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.multisoft%7CAID.aip%7CPAPPID.139f6fe5-e3d4-49c0-9e42-023696b4adcc",
+    "lastModified": "2026-05-30T05:19:16.4857628+00:00",
+    "appVersion": "1.0.1.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://partner.multisoft.hu/help-aip/",
+    "sourceHash": "sha256:fe5ceba8b30798f35a8b94cfa1c4de932945510f11e9ea1ea312ed8e8af48fe4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fe5ceba8b30798f35a8b94cfa1c4de932945510f11e9ea1ea312ed8e8af48fe4",
+    "mappedOn": null,
+    "summary": "Machine learning incoming invoice processing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-edi"
+    ],
+    "claims": [
+      "Machine learning fills in incoming invoice header and line data",
+      "Links to sources such as EDI, XML tables or OCR applications",
+      "Generates purchase orders and prepares data for posting",
+      "User only books the prepared invoices",
+      "Requires BC170 or later"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "hu"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

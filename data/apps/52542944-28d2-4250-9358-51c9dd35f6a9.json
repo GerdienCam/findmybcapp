@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.sim_crest|AID.autocollect|PAPPID.52542944-28d2-4250-9358-51c9dd35f6a9",
+  "guid": "52542944-28d2-4250-9358-51c9dd35f6a9",
+  "publisherId": "sim_crest",
+  "offerId": "autocollect",
+  "source": {
+    "name": "Auto Collect",
+    "publisher": "SimCrest",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sim_crest%7CAID.autocollect%7CPAPPID.52542944-28d2-4250-9358-51c9dd35f6a9",
+    "lastModified": "2025-12-17T17:11:23.7171861+00:00",
+    "appVersion": "27.1.1.37",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://simcrest.com/contactus",
+    "sourceHash": "sha256:5501d7406027625a6fe0a8707a88737d4afd02a4e035062de60b74a88702f4a1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5501d7406027625a6fe0a8707a88737d4afd02a4e035062de60b74a88702f4a1",
+    "mappedOn": null,
+    "summary": "Automates accounts receivable collection",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds"
+    ],
+    "claims": [
+      "Automated collection notices sending statements and past-due documents",
+      "Follow-up task management integrated with BC and Outlook",
+      "Shared follow-up management for collection teams",
+      "Calculates average days to collect per customer",
+      "Notifies account managers when customer accounts are on hold",
+      "Auto Email app is installed automatically as a prerequisite",
+      "Available in every country where BC is offered"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Auto Email"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

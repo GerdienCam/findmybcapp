@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.erpconnectconsultingllc1655482443679|AID.wdb|PAPPID.e57c4226-ee62-4f10-a006-0caec573412e",
+  "guid": "e57c4226-ee62-4f10-a006-0caec573412e",
+  "publisherId": "erpconnectconsultingllc1655482443679",
+  "offerId": "wdb",
+  "source": {
+    "name": "Warehouse Dashboard",
+    "publisher": "RUX Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpconnectconsultingllc1655482443679%7CAID.wdb%7CPAPPID.e57c4226-ee62-4f10-a006-0caec573412e",
+    "lastModified": "2026-09-08T21:48:51.5351238+00:00",
+    "appVersion": "27.0.0.21",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ruxsoftware.com/application/warehouse-dashboard",
+    "sourceHash": "sha256:d403ce870201b25ebfb71c99aeed1179a0b4093b3f009ef7fbc6e8f7b8b65ce3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d403ce870201b25ebfb71c99aeed1179a0b4093b3f009ef7fbc6e8f7b8b65ce3",
+    "mappedOn": null,
+    "summary": "Warehouse dashboards",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-warehouse-kpis",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Shipment dollars, orders and lines with day-of-week trends",
+      "Receipt activity trends",
+      "Adjustments and cycle/physical count monitoring",
+      "Inventory turn, age, days supply, GMROI",
+      "Vendor on-time delivery and return ratios",
+      "Back order monitoring on open sales orders",
+      "Blast email vendors with past-due PO lines"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

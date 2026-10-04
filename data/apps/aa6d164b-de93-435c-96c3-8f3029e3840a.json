@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.abakion|AID.rental_management|PAPPID.aa6d164b-de93-435c-96c3-8f3029e3840a",
+  "guid": "aa6d164b-de93-435c-96c3-8f3029e3840a",
+  "publisherId": "abakion",
+  "offerId": "rental_management",
+  "source": {
+    "name": "Rental Management",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.rental_management%7CPAPPID.aa6d164b-de93-435c-96c3-8f3029e3840a",
+    "lastModified": "2026-09-10T10:47:55.8041849+00:00",
+    "appVersion": "28.4.202637.176768",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/rental-management/#howto",
+    "sourceHash": "sha256:a03c12bb20f0cad1fc12ce7db4a79dd7881942e1672c7d8d58f9bbc463449caa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a03c12bb20f0cad1fc12ce7db4a79dd7881942e1672c7d8d58f9bbc463449caa",
+    "mappedOn": null,
+    "summary": "Equipment rental: reservations, availability, locations, rental invoicing",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Rental items rented or leased on regular sales orders",
+      "Rental and consumables on the same order",
+      "Start and end date per sales line for rental period",
+      "Converts item lines to resource lines for rental pricing",
+      "Creates transfer orders for rental dates",
+      "Rental priced by unit of measure such as days or months",
+      "Invoice on completion or via scheduled batch job weekly/monthly",
+      "Uses BC locations and serial numbers"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Rental"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

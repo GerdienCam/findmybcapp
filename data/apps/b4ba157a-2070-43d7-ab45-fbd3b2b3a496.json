@@ -1,0 +1,83 @@
+{
+  "appId": "PUBID.netivityinternetsoftware1730279310079|AID.app4salesv2|PAPPID.b4ba157a-2070-43d7-ab45-fbd3b2b3a496",
+  "guid": "b4ba157a-2070-43d7-ab45-fbd3b2b3a496",
+  "publisherId": "netivityinternetsoftware1730279310079",
+  "offerId": "app4salesv2",
+  "source": {
+    "name": "App4Sales",
+    "publisher": "OptimizersBV",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.netivityinternetsoftware1730279310079%7CAID.app4salesv2%7CPAPPID.b4ba157a-2070-43d7-ab45-fbd3b2b3a496",
+    "lastModified": "2025-12-12T13:44:46.6777329+00:00",
+    "appVersion": "2.0.0.21",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.core-suite.com/hc/en-us",
+    "sourceHash": "sha256:ae2dcda7732a4a1e05c8b2288f9e64b2d63a167a15e8d5dd9485f13aaacd2aca"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ae2dcda7732a4a1e05c8b2288f9e64b2d63a167a15e8d5dd9485f13aaacd2aca",
+    "mappedOn": null,
+    "summary": "B2B sales app for field sales reps",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-channels",
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Sales reps browse catalog, check stock and prices, create customers and place orders on mobile",
+      "Customer signature on screen",
+      "Works offline",
+      "B2B webshop with personalized assortments and customer-specific pricing",
+      "Favorites, order history and reorder",
+      "Syncs products, customers, pricing and stock with BC",
+      "Orders and new customers sync automatically",
+      "Lookbooks and digital catalogs"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "no",
+      "ru",
+      "sv"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "App4Sales"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

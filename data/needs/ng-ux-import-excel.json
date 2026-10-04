@@ -1,0 +1,276 @@
+{
+  "id": "ng-ux-import-excel",
+  "order": 177,
+  "label": "Importing data from Excel and files",
+  "description": "Getting Excel, CSV, XML and text data into journals, documents and any table with mappings and templates, plus exporting table data to files.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "high",
+  "statements": [
+    "Importing data from Excel and files",
+    "Getting Excel, CSV, XML and text data into journals, documents and any table with mappings and templates, plus exporting table data to files.",
+    "Our payroll provider sends an Excel file and we type it into the journal",
+    "import Excel into general journal",
+    "Customer sends orders as a spreadsheet and we retype every line",
+    "We get price lists from vendors in Excel every quarter",
+    "Configuration packages are too technical for our accountant",
+    "Can I import sales invoices from a CSV file from our old billing system?",
+    "import CSV to any table",
+    "We need to map columns once and reuse the import every month",
+    "Uploading 3,000 items with attributes, what's the easiest way?",
+    "AI that figures out which Excel column goes to which field",
+    "Bank file from our card provider needs to become journal lines",
+    "Edit in Excel only works on some pages",
+    "Import purchase invoices in bulk from a file",
+    "Export a table to CSV on a schedule",
+    "Our consultants built us a RapidStart package and nobody can use it",
+    "Import budget lines from Excel per dimension",
+    "We receive XML files from a portal that need to become orders",
+    "Copy-paste from Excel into document lines",
+    "Time sheets in Excel need to go onto projects",
+    "A safe staging area to check data before it hits the ledger"
+  ],
+  "questions": [
+    {
+      "id": "target",
+      "text": "What do you mostly need to import?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Journal lines (G/L, payments, items)",
+          "patterns": [
+            "journals?\\b"
+          ]
+        },
+        {
+          "label": "Sales or purchase documents",
+          "patterns": [
+            "(sales|purchase) (orders?|invoices?|documents?|docs)",
+            "invoices and credit memos",
+            "document lines",
+            "sales and purchase"
+          ]
+        },
+        {
+          "label": "Master data (items, customers, vendors)",
+          "patterns": [
+            "\\bitems?\\b",
+            "customers?",
+            "vendors?",
+            "master data",
+            "nonstock",
+            "product data"
+          ]
+        },
+        {
+          "label": "Any table, incl. custom or third-party",
+          "patterns": [
+            "any (bc )?table",
+            "any record",
+            "any bc data",
+            "various bc tables",
+            "custom (tables|pages)",
+            "third-party",
+            "into bc tables"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Journal lines (G/L, payments, items)": 0.42,
+        "Sales or purchase documents": 0.45,
+        "Master data (items, customers, vendors)": 0.53,
+        "Any table, incl. custom or third-party": 0.23
+      }
+    },
+    {
+      "id": "format",
+      "text": "What files do you receive?",
+      "help": "Pick every format you need to load.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Excel workbooks",
+          "patterns": [
+            "excel",
+            "xlsx"
+          ]
+        },
+        {
+          "label": "CSV or text files",
+          "patterns": [
+            "\\bcsv\\b",
+            "\\btext\\b",
+            "\\btxt\\b",
+            "flat files?",
+            "fixed-length"
+          ]
+        },
+        {
+          "label": "XML or JSON",
+          "patterns": [
+            "\\bxml\\b",
+            "\\bjson\\b"
+          ]
+        },
+        {
+          "label": "PDF",
+          "patterns": [
+            "\\bpdf\\b"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Excel workbooks": 0.78,
+        "CSV or text files": 0.53,
+        "XML or JSON": 0.3,
+        "PDF": 0.03
+      }
+    },
+    {
+      "id": "automation",
+      "text": "Should imports run on their own?",
+      "help": "Or does someone upload a file when needed?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, pick up files on a schedule (SFTP, SharePoint, cloud)",
+          "patterns": [
+            "schedul",
+            "job queue",
+            "sftp",
+            "\\bftp\\b",
+            "sharepoint",
+            "blob",
+            "file share",
+            "background"
+          ]
+        },
+        {
+          "label": "Yes, via API or web services",
+          "patterns": [
+            "\\brest\\b",
+            "\\bsoap\\b",
+            "web ?services?",
+            "\\bapis?\\b",
+            "power automate"
+          ]
+        },
+        {
+          "label": "No, a user uploads or pastes the file",
+          "patterns": [
+            "one click",
+            "paste",
+            "uploading data",
+            "on demand",
+            "action on",
+            "without reformatting"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, pick up files on a schedule (SFTP, SharePoint, cloud)": 0.3,
+        "Yes, via API or web services": 0.2,
+        "No, a user uploads or pastes the file": 0.2
+      }
+    },
+    {
+      "id": "mapping",
+      "text": "How different are your files from BC's layout?",
+      "help": "This decides how much mapping help you need.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Messy or changing: let AI map the columns",
+          "patterns": [
+            "\\bai\\b",
+            "copilot",
+            "automatic mapping",
+            "infers columns",
+            "matching column headers",
+            "smart field mapping"
+          ]
+        },
+        {
+          "label": "Same layout each time: reusable templates",
+          "patterns": [
+            "templates?",
+            "reusable",
+            "stored configurations",
+            "import formats",
+            "copy import settings"
+          ]
+        },
+        {
+          "label": "Values need translating (codes, accounts, dimensions)",
+          "patterns": [
+            "value (mappings?|translation)",
+            "translates? source",
+            "enum mappings",
+            "transform",
+            "dimension mappings",
+            "maps external account"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Messy or changing: let AI map the columns": 0.15,
+        "Same layout each time: reusable templates": 0.5,
+        "Values need translating (codes, accounts, dimensions)": 0.25
+      }
+    },
+    {
+      "id": "control",
+      "text": "Do you need checks before data lands in BC?",
+      "help": "Pick what your auditors or team expect.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Validate and preview rows first",
+          "patterns": [
+            "validat",
+            "preview",
+            "staging",
+            "test mode",
+            "error detection",
+            "before (data enters|writing|commit)"
+          ]
+        },
+        {
+          "label": "Approval or audit trail",
+          "patterns": [
+            "approval",
+            "audit",
+            "change log",
+            "role-based permissions",
+            "restricted to specific users"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Validate and preview rows first": 0.28,
+        "Approval or audit trail": 0.15
+      }
+    }
+  ]
+}

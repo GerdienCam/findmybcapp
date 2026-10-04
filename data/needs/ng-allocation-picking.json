@@ -1,0 +1,336 @@
+{
+  "id": "ng-allocation-picking",
+  "order": 74,
+  "label": "Releasing and picking orders in the warehouse",
+  "description": "Reserving stock to orders, releasing them to the warehouse, assigning work and picking.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "high",
+  "statements": [
+    "Releasing and picking orders in the warehouse",
+    "Reserving stock to orders, releasing them to the warehouse, assigning work and picking.",
+    "Sales orders are released but the warehouse does not see them until someone creates the pick",
+    "We want pick lists created automatically every hour for all ready orders",
+    "Is there an app to release orders to the warehouse in waves?",
+    "The warehouse gets orders randomly and cannot plan the day",
+    "Only orders that can be shipped complete should go to the warehouse",
+    "batch create warehouse picks",
+    "Creating warehouse shipments one order at a time is too slow",
+    "We want to release webshop orders to the warehouse before 2 pm cutoff automatically",
+    "Pick worksheets in BC are confusing for our team",
+    "Orders for the same customer should be released together",
+    "We need to hold back orders until payment is received before the warehouse sees them",
+    "How do we prioritise express orders when releasing to picking?",
+    "Our pickers use printed pick lists and make lots of mistakes",
+    "Is there a scanner app for picking in Business Central?",
+    "Pickers walk back and forth because the pick list is not sorted by bin",
+    "We want to pick several orders at once with a trolley",
+    "Wrong items get shipped to customers because nobody scans when picking",
+    "warehouse picking app Android BC",
+    "Picking lot numbers with the right expiry date first is impossible by hand",
+    "We need to pick materials for production orders and bring them to the line",
+    "Registering picks in BC takes longer than picking itself",
+    "How do we handle short picks when the bin is empty?",
+    "batch picking multiple orders",
+    "Pickers should be guided to the next bin on the handheld",
+    "Our webshop orders are single lines and we need fast batch picking",
+    "We want to pick transfer orders for the stores by scanning",
+    "Serial numbers must be scanned at pick for traceability",
+    "Is there a way to pick by voice or by light?",
+    "We need to know who picked what in case of complaints",
+    "Picking accuracy is 95 percent and customers are complaining",
+    "Inventory pick in BC is too slow for 400 orders a day",
+    "We want pickers to pick into totes per order",
+    "The warehouse lead hands out pick lists on paper every morning and shouts across the floor",
+    "We want to assign specific orders to specific pickers in BC",
+    "Is there a way for warehouse staff to grab the next task themselves on a scanner?",
+    "Two people end up picking the same order because nobody knows who has it",
+    "We need a task queue for the warehouse with priorities",
+    "How do we give the forklift drivers only the pallet moves and the pickers only the small items?",
+    "warehouse task assignment app BC",
+    "When someone is off sick their picks just sit there unassigned",
+    "We want to group workers into teams for inbound and outbound and route work to each team",
+    "The assigned user field on warehouse picks is not enough for us",
+    "We want the warehouse lead to see at a glance who is working on what right now",
+    "Can BC assign put-away and counting tasks to different people automatically?"
+  ],
+  "questions": [
+    {
+      "id": "capture",
+      "text": "How should warehouse staff confirm picks?",
+      "help": "Pick all that fit your warehouse.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Scanning on handhelds or phones",
+          "patterns": [
+            "scan",
+            "handheld",
+            "barcode",
+            "mobile (app|warehouse|wms|barcode|registration|device|picking|execution|web app)",
+            "android",
+            "\\bios\\b"
+          ]
+        },
+        {
+          "label": "Printed pick lists on paper",
+          "patterns": [
+            "paper(?!less)",
+            "pick (list|ticket)s?",
+            "print(s|ed)? (warehouse )?pick",
+            "picking list"
+          ]
+        },
+        {
+          "label": "Automated storage (AutoStore, Kardex, Modula, conveyors)",
+          "patterns": [
+            "autostore",
+            "kardex",
+            "modula",
+            "r[äa]nel|h[äa]nel",
+            "vertical (lift|storage|warehouse)",
+            "conveyor",
+            "automated (vertical|warehouse)",
+            "picking automation"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Scanning on handhelds or phones": 0.64,
+        "Printed pick lists on paper": 0.09,
+        "Automated storage (AutoStore, Kardex, Modula, conveyors)": 0.05
+      }
+    },
+    {
+      "id": "devices",
+      "text": "What devices will your pickers use?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Rugged Android scanners (Zebra, Honeywell...)",
+          "patterns": [
+            "android",
+            "zebra",
+            "honeywell",
+            "rugged",
+            "intermec",
+            "cipherlab",
+            "datawedge",
+            "wedge"
+          ]
+        },
+        {
+          "label": "Ordinary phones or tablets, incl. iPhone",
+          "patterns": [
+            "\\bios\\b",
+            "iphone",
+            "apple",
+            "smartphone",
+            "tablet",
+            "any (connected )?device",
+            "device-independent"
+          ]
+        },
+        {
+          "label": "Just a browser, nothing to install",
+          "patterns": [
+            "browser",
+            "web client",
+            "no app installation",
+            "web app"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Rugged Android scanners (Zebra, Honeywell...)": 0.29,
+        "Ordinary phones or tablets, incl. iPhone": 0.18,
+        "Just a browser, nothing to install": 0.06
+      }
+    },
+    {
+      "id": "tracking",
+      "text": "Do you track lots, serial numbers or expiry dates?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Lot or serial numbers",
+          "patterns": [
+            "\\blots?\\b",
+            "serial",
+            "batch(es)? (number|tracking)|batch,",
+            "package tracking",
+            "item tracking"
+          ]
+        },
+        {
+          "label": "Expiry dates, pick oldest first (FEFO/FIFO)",
+          "patterns": [
+            "fefo",
+            "fifo",
+            "expir",
+            "best-before",
+            "shelf life"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Lot or serial numbers": 0.38,
+        "Expiry dates, pick oldest first (FEFO/FIFO)": 0.23
+      }
+    },
+    {
+      "id": "pallets",
+      "text": "Do you move goods as pallets, cartons or totes you label?",
+      "options": [
+        {
+          "label": "Yes, pallets/cartons with their own label (license plates)",
+          "patterns": [
+            "license plat",
+            "\\blpn\\b",
+            "pallet",
+            "load carrier",
+            "logistic unit",
+            "tote",
+            "carton"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, pallets/cartons with their own label (license plates)": 0.23
+      }
+    },
+    {
+      "id": "strategy",
+      "text": "How do you want to organise picking work?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Pick many orders in one round (wave/batch)",
+          "patterns": [
+            "wave",
+            "batch pick",
+            "multi-?(order )?pick",
+            "tote picking",
+            "parallel picks",
+            "combine[sd]? (orders|warehouse|pick)",
+            "consolidat"
+          ]
+        },
+        {
+          "label": "Shortest walking route",
+          "patterns": [
+            "route",
+            "shortest",
+            "picking sequence",
+            "pick(ing)? path"
+          ]
+        },
+        {
+          "label": "Rush orders and carrier cut-offs first",
+          "patterns": [
+            "priorit",
+            "urgen",
+            "courier",
+            "carrier service",
+            "pickup times"
+          ]
+        },
+        {
+          "label": "Assign tasks to named workers or teams",
+          "patterns": [
+            "assign(s|ed)? (picks|warehouse activities|work)",
+            "task (list|assignment)",
+            "warehouse teams",
+            "assigns them to teams",
+            "assign\\w* .*(worker|employee|user)",
+            "worker productivity",
+            "workload"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Pick many orders in one round (wave/batch)": 0.16,
+        "Shortest walking route": 0.09,
+        "Rush orders and carrier cut-offs first": 0.08,
+        "Assign tasks to named workers or teams": 0.1
+      }
+    },
+    {
+      "id": "release",
+      "text": "Should picks be created for you when an order is released?",
+      "options": [
+        {
+          "label": "Yes, automatically",
+          "patterns": [
+            "auto(matic(ally)?)?[- ]?creat",
+            "on release\\b",
+            "when a sales order is released",
+            "pick generation",
+            "created automatically via job queue",
+            "creates.*(shipment|pick)"
+          ]
+        },
+        {
+          "label": "No, we plan from an overview of open orders",
+          "patterns": [
+            "overview of (remaining|pending|outstanding|all)",
+            "single screen",
+            "pick worksheet",
+            "kanban",
+            "ship today",
+            "job overview"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, automatically": 0.12,
+        "No, we plan from an overview of open orders": 0.08
+      }
+    },
+    {
+      "id": "connectivity",
+      "text": "Is there reliable Wi-Fi everywhere you pick?",
+      "options": [
+        {
+          "label": "No, it must work offline",
+          "patterns": [
+            "offline",
+            "without wifi",
+            "syncs later"
+          ]
+        },
+        {
+          "label": "Yes / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "No, it must work offline": 0.08
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.mpriseagriwarebv|AID.agriware-pack|PAPPID.4a7c9967-388a-49bb-984e-c2c2354e8d00",
+  "guid": "4a7c9967-388a-49bb-984e-c2c2354e8d00",
+  "publisherId": "mpriseagriwarebv",
+  "offerId": "agriware-pack",
+  "source": {
+    "name": "Agriware 365 Pick & Pack",
+    "publisher": "Mprise Agriware B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mpriseagriwarebv%7CAID.agriware-pack%7CPAPPID.4a7c9967-388a-49bb-984e-c2c2354e8d00",
+    "lastModified": "2026-09-28T12:39:07.5873122+00:00",
+    "appVersion": "28.28.5.271675",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.agriware.cloud/",
+    "sourceHash": "sha256:f7bc11610f81b6da4ffbb4149b05b3403e5bb125c626f2bfa63a83e195f0dc78"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f7bc11610f81b6da4ffbb4149b05b3403e5bb125c626f2bfa63a83e195f0dc78",
+    "mappedOn": null,
+    "summary": "Pick and pack process for Agriware 365",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Job picks of plant material from job inventory to order",
+      "Packing orders for assembled products for sales order delivery",
+      "Tracks unique containers or bags through their lifecycle",
+      "Job pick proposal from production jobs",
+      "Batch picking, pick-to-order, batch packing and pack-to-order",
+      "Lot number tracking",
+      "Mobile registration"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Horticulture"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Agriware 365 Business Essentials"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

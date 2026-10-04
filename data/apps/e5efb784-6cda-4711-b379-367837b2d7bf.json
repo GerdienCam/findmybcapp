@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.systemconnectaps1614781393914|AID.printnodeconnect|PAPPID.e5efb784-6cda-4711-b379-367837b2d7bf",
+  "guid": "e5efb784-6cda-4711-b379-367837b2d7bf",
+  "publisherId": "systemconnectaps1614781393914",
+  "offerId": "printnodeconnect",
+  "source": {
+    "name": "PrintNodeConnect",
+    "publisher": "SystemConnect",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemconnectaps1614781393914%7CAID.printnodeconnect%7CPAPPID.e5efb784-6cda-4711-b379-367837b2d7bf",
+    "lastModified": "2026-05-26T18:20:09.209349+00:00",
+    "appVersion": "27.5.0.11",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.systemconnect.dk/printnodeconnecthelp",
+    "sourceHash": "sha256:588d1d945d3d9992498419e2311302bfc17b4e54130e3ff6745b7cf7acf03b56"
+  },
+  "mapping": {
+    "sourceHash": "sha256:588d1d945d3d9992498419e2311302bfc17b4e54130e3ff6745b7cf7acf03b56",
+    "mappedOn": null,
+    "summary": "Sends print jobs via PrintNode cloud print",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-printing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends print jobs from BC to PrintNode-managed printers without on-prem print servers",
+      "Prints invoices, reports, labels and order confirmations",
+      "Configurable printer mappings and document routing rules",
+      "Print jobs processed via background queue",
+      "Detailed logging of print activity"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "PrintNode"
+    ],
+    "requires": [
+      "PrintNode"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

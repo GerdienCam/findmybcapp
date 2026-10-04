@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.applibra|AID.al_free_gift|PAPPID.e27d22e0-dbb6-43d5-a9b7-957ec49e4f89",
+  "guid": "e27d22e0-dbb6-43d5-a9b7-957ec49e4f89",
+  "publisherId": "applibra",
+  "offerId": "al_free_gift",
+  "source": {
+    "name": "AL Free Gift",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_free_gift%7CPAPPID.e27d22e0-dbb6-43d5-a9b7-957ec49e4f89",
+    "lastModified": "2026-08-31T15:37:27.3720496+00:00",
+    "appVersion": "28.0.26.8311656",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsapplab.com/apps/al-free-gift/help",
+    "sourceHash": "sha256:4123dec02f17d62790f050426037772e6c60753cf7f04379bae21ce245f48dd3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4123dec02f17d62790f050426037772e6c60753cf7f04379bae21ce245f48dd3",
+    "mappedOn": null,
+    "summary": "Handles free items and gifts with correct VAT treatment",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Manages free items and gifts with or without VAT chargeback",
+      "Multiple free gift setups linked to a 'Free Gift' charge item",
+      "Auto-creates, updates or deletes the charge line on release",
+      "Override item and VAT posting groups per setup",
+      "Supports sales orders, invoices, return orders and credit memos",
+      "Generates self-invoices for free items without VAT chargeback",
+      "Optional Italian extension integrates with AL Electronic Invoicing",
+      "Requires BC version 21.0 or higher, cloud"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

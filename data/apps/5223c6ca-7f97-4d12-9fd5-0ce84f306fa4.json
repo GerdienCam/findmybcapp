@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_d365salesintegration|PAPPID.5223c6ca-7f97-4d12-9fd5-0ce84f306fa4",
+  "guid": "5223c6ca-7f97-4d12-9fd5-0ce84f306fa4",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_d365salesintegration",
+  "source": {
+    "name": "Fusion5 Integration for D365 Sales (CE)",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_d365salesintegration%7CPAPPID.5223c6ca-7f97-4d12-9fd5-0ce84f306fa4",
+    "lastModified": "2026-06-28T07:10:43.7478294+00:00",
+    "appVersion": "2700.9.20260628.162607",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/486670698/D365+Sales+Integration",
+    "sourceHash": "sha256:9738a729d88ee41df1eaa3ab4a3537b61a1079ffe74fc8a19b36276338a68ff8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9738a729d88ee41df1eaa3ab4a3537b61a1079ffe74fc8a19b36276338a68ff8",
+    "mappedOn": null,
+    "summary": "Extra tables and fields in Dynamics 365 Sales integration",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Adds tables and fields to standard D365 Sales integration without custom development",
+      "Syncs countries/regions and customer, vendor, inventory and product posting groups",
+      "Syncs available customer credit and remaining invoice amount fields",
+      "Requires managed D365 Sales solution in Dataverse, provided with license"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 Sales",
+      "Dataverse"
+    ],
+    "requires": [
+      "Dynamics 365 Sales"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.xtensionit|AID.xteintegrationaccelerator|PAPPID.5874656e-7369-6f6e-4954-89666d16b2d6",
+  "guid": "5874656e-7369-6f6e-4954-89666d16b2d6",
+  "publisherId": "xtensionit",
+  "offerId": "xteintegrationaccelerator",
+  "source": {
+    "name": "Integration Accelerator by XtensionIT",
+    "publisher": "XtensionIT Aps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xteintegrationaccelerator%7CPAPPID.5874656e-7369-6f6e-4954-89666d16b2d6",
+    "lastModified": "2026-07-21T10:34:18.1241834+00:00",
+    "appVersion": "2.7.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.xtensionit.com/en/integrationaccelerator/overview",
+    "sourceHash": "sha256:d46f543d27c852ba387e6b05ba62cce01ac7c793c87b6c3201083eb42dfecbd9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d46f543d27c852ba387e6b05ba62cce01ac7c793c87b6c3201083eb42dfecbd9",
+    "mappedOn": null,
+    "summary": "Dynamic API and data integration framework",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures",
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "Exports data to Azure Data Lake and Microsoft Fabric",
+      "Publishes data as JSON to generic API endpoints",
+      "Create and manage API endpoints dynamically, including custom extension data",
+      "Inbound data via unbound API actions",
+      "Error logging and monitoring in BC",
+      "Job queue scheduled or real-time export/import",
+      "Shared setups across multiple companies",
+      "On-prem supported from version 22"
+    ],
+    "countries": [
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "PL"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Data Lake",
+      "Microsoft Fabric"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

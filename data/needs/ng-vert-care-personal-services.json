@@ -1,0 +1,155 @@
+{
+  "id": "ng-vert-care-personal-services",
+  "order": 223,
+  "label": "Solutions for care, clinics and personal services",
+  "description": "Small-business solutions for healthcare practices, aged care and childcare, veterinary clinics, salons and cleaning companies: clients, bookings, attendance and billing.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "low",
+  "statements": [
+    "Solutions for care, clinics and personal services",
+    "Small-business solutions for healthcare practices, aged care and childcare, veterinary clinics, salons and cleaning companies: clients, bookings, attendance and billing.",
+    "Childcare centre billing parents by attendance",
+    "veterinary clinic software on Business Central",
+    "Hair salon bookings and products",
+    "Cleaning company with sites, teams and contracts",
+    "Retirement home billing residents",
+    "Physio practice appointments and invoices"
+  ],
+  "questions": [
+    {
+      "id": "type",
+      "text": "What kind of business do you run?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Medical practice, clinic or hospital",
+          "patterns": [
+            "patient (management|profile|registration)",
+            "practitioner",
+            "hospital",
+            "healthcare provider"
+          ]
+        },
+        {
+          "label": "Aged care or childcare",
+          "patterns": [
+            "resident",
+            "retirement",
+            "child"
+          ]
+        },
+        {
+          "label": "Vet clinic or pet grooming",
+          "patterns": [
+            "animal",
+            "vet[ea]?nary",
+            "dog groom"
+          ]
+        },
+        {
+          "label": "Salon or cleaning company",
+          "patterns": [
+            "salon",
+            "cleaning"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Medical practice, clinic or hospital": 0.44,
+        "Aged care or childcare": 0.22,
+        "Vet clinic or pet grooming": 0.11,
+        "Salon or cleaning company": 0.22
+      }
+    },
+    {
+      "id": "booking",
+      "text": "Do clients book appointments with you?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, we take bookings",
+          "patterns": [
+            "booking",
+            "appointment"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we take bookings": 0.33
+      }
+    },
+    {
+      "id": "billing",
+      "text": "Who pays the bill?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Insurers, government or family share the cost",
+          "patterns": [
+            "insurance",
+            "split",
+            "subsidi",
+            "\\btpa\\b",
+            "sgb",
+            "claims"
+          ]
+        },
+        {
+          "label": "Recurring contracts or billing cycles",
+          "patterns": [
+            "billing cycles?",
+            "contract",
+            "recurring",
+            "daily rate",
+            "weekly",
+            "monthly",
+            "batch invoicing",
+            "bulk invoicing"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Insurers, government or family share the cost": 0.44,
+        "Recurring contracts or billing cycles": 0.44
+      }
+    },
+    {
+      "id": "records",
+      "text": "Do you keep health records such as allergies or vaccinations?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "allerg",
+            "vaccin",
+            "immunis",
+            "medical history",
+            "\\bemr\\b",
+            "medication"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.67
+      }
+    }
+  ]
+}

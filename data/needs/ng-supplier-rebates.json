@@ -1,0 +1,159 @@
+{
+  "id": "ng-supplier-rebates",
+  "order": 10,
+  "label": "Calculating and claiming supplier rebates",
+  "description": "Tracking volume bonuses and incentives earned from suppliers and reporting on them.",
+  "type": "bpc",
+  "area": "Purchasing & payables",
+  "relevance": "medium",
+  "statements": [
+    "Calculating and claiming supplier rebates",
+    "Tracking volume bonuses and incentives earned from suppliers and reporting on them.",
+    "We have volume bonus deals with suppliers but nobody calculates what they owe us",
+    "Our year end supplier rebates are worked out in Excel and we always forget to claim some",
+    "Is there an app for vendor rebate management in Business Central?",
+    "supplier rebate agreement setup",
+    "We want to post a monthly accrual for the supplier rebate instead of a surprise at year end",
+    "Suppliers pay retro bonuses as a credit note and we can't tie it back to our purchases",
+    "Different rebate percentages per product group and quantity tier from the same vendor, how do we calculate that?",
+    "We need to send the supplier a claim showing what we bought to earn the bonus",
+    "Marketing contributions agreed with vendors are never invoiced to them",
+    "Supplier rebates should lower our inventory cost, not just hit a random income account",
+    "The buyer negotiates bonuses with suppliers but finance never hears about them",
+    "Rebates from suppliers should be calculated automatically from posted purchase invoices",
+    "How close are we to the volume bonus threshold with our main supplier this year?",
+    "rebate report by vendor",
+    "How much year end bonus have we earned so far across all our suppliers?",
+    "We want to see which supplier bonus deals actually paid off last year",
+    "Is there a report showing earned versus received supplier rebates in BC?",
+    "Supplier bonus figures live in a spreadsheet nobody trusts; we want a dashboard"
+  ],
+  "questions": [
+    {
+      "id": "settle",
+      "text": "How do you want rebates paid out or settled?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Credit memo / credit note",
+          "patterns": [
+            "credit (memo|note)"
+          ]
+        },
+        {
+          "label": "Free stock",
+          "patterns": [
+            "free stock"
+          ]
+        },
+        {
+          "label": "Claim or report to the supplier only",
+          "patterns": [
+            "\\bclaim",
+            "settle as report",
+            "accrual only"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Credit memo / credit note": 0.62,
+        "Free stock": 0.12,
+        "Claim or report to the supplier only": 0.25
+      }
+    },
+    {
+      "id": "calc",
+      "text": "How is the rebate worked out?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Tiers or steps by volume",
+          "patterns": [
+            "tier",
+            "stepp",
+            "progressive",
+            "bracket",
+            "threshold"
+          ]
+        },
+        {
+          "label": "Fixed percentage per customer, vendor or item",
+          "patterns": [
+            "different rates",
+            "variable percentage",
+            "precise amount",
+            "per customer",
+            "fixed bracket"
+          ]
+        },
+        {
+          "label": "Sell-thru promotions funded by the supplier",
+          "patterns": [
+            "sell-?thru",
+            "promotion"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Tiers or steps by volume": 0.88,
+        "Fixed percentage per customer, vendor or item": 0.38,
+        "Sell-thru promotions funded by the supplier": 0.12
+      }
+    },
+    {
+      "id": "groups",
+      "text": "Are rebates agreed for groups, not single partners?",
+      "help": "E.g. buying groups or chains.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, buying groups or chains",
+          "patterns": [
+            "buying group",
+            "hierarch",
+            "group bonus",
+            "customer group",
+            "retailer"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, buying groups or chains": 0.62
+      }
+    },
+    {
+      "id": "paidfirst",
+      "text": "Should a rebate only count once the invoice is paid?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, only paid invoices",
+          "patterns": [
+            "after qualifying invoices are paid",
+            "only after .*paid"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, only paid invoices": 0.12
+      }
+    }
+  ]
+}

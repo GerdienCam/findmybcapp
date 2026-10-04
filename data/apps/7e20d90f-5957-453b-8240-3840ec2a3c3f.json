@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.sportcenter|PAPPID.7e20d90f-5957-453b-8240-3840ec2a3c3f",
+  "guid": "7e20d90f-5957-453b-8240-3840ec2a3c3f",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "sportcenter",
+  "source": {
+    "name": "Sport Center",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.sportcenter%7CPAPPID.7e20d90f-5957-453b-8240-3840ec2a3c3f",
+    "lastModified": "2026-06-26T18:01:54.0800507+00:00",
+    "appVersion": "1.0.0.8",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://matchbusinesscentral.com/pages/sport-center",
+    "sourceHash": "sha256:178189cc89caa4ff9deb26320d9e250fe9eddcb85fbdbcf2a0c7850e09d44fd9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:178189cc89caa4ff9deb26320d9e250fe9eddcb85fbdbcf2a0c7850e09d44fd9",
+    "mappedOn": null,
+    "summary": "Membership, bookings and admin for sports clubs",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-nonprofit-education",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-subscription-billing"
+    ],
+    "claims": [
+      "Membership management including payment status",
+      "Recurring memberships",
+      "Member reservations via Microsoft Bookings integration",
+      "Selling items and replenishment",
+      "Requires companion MatchBC extensions"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "pt",
+      "sv"
+    ],
+    "industries": [
+      "Sports clubs"
+    ],
+    "connectsTo": [
+      "Microsoft Bookings"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

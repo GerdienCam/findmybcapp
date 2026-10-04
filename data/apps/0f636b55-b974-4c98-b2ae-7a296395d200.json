@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionforecastem|PAPPID.0f636b55-b974-4c98-b2ae-7a296395d200",
+  "guid": "0f636b55-b974-4c98-b2ae-7a296395d200",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionforecastem",
+  "source": {
+    "name": "VisionForecast for Expense Management",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionforecastem%7CPAPPID.0f636b55-b974-4c98-b2ae-7a296395d200",
+    "lastModified": "2024-11-21T12:32:16.920934+00:00",
+    "appVersion": "1.0.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.visionpeople.dk/loesninger/tillaegsloesninger-og-dynamics-addons/visionforecast",
+    "sourceHash": "sha256:a61573a26cb51bac7cb73b5ee90522a5e73a728d26bbe1b998f891d3a0753650"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a61573a26cb51bac7cb73b5ee90522a5e73a728d26bbe1b998f891d3a0753650",
+    "mappedOn": null,
+    "summary": "Makes Continia expenses available in VisionForecast",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-budget-build",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Makes Continia Expense Management expenses accessible from VisionForecast"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia Expense Management"
+    ],
+    "requires": [
+      "VisionForecast",
+      "Continia Expense Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Helper bridge app between VisionForecast and Continia Expense Management; no standalone function",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

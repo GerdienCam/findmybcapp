@@ -1,0 +1,52 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_purchase_accruals|PAPPID.26d4ee97-7997-4161-93c3-76443b4a372f",
+  "guid": "26d4ee97-7997-4161-93c3-76443b4a372f",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_purchase_accruals",
+  "source": {
+    "name": "Linc Purchase Accruals",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_purchase_accruals%7CPAPPID.26d4ee97-7997-4161-93c3-76443b4a372f",
+    "lastModified": "2026-04-13T15:43:39.145468+00:00",
+    "appVersion": "26.26.2294.690",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-Purchase-Accruals",
+    "sourceHash": "sha256:5ee5d3bbc7d5de688c15a7ecf2b0da7ddde17857159b03a7de7cac59f9cd1485"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ee5d3bbc7d5de688c15a7ecf2b0da7ddde17857159b03a7de7cac59f9cd1485",
+    "mappedOn": null,
+    "summary": "Posts purchase accruals for G/L receipts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-accruals-deferrals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-period-close"
+    ],
+    "claims": [
+      "Posts purchase accruals on receipt of G/L-type purchase lines",
+      "Accruals reversed and replaced with actuals when invoiced",
+      "Covers GRNI / interim G/L expenses"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

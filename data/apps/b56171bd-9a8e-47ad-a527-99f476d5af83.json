@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.e-documents-connector-signup|PAPPID.b56171bd-9a8e-47ad-a527-99f476d5af83",
+  "guid": "b56171bd-9a8e-47ad-a527-99f476d5af83",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "e-documents-connector-signup",
+  "source": {
+    "name": "E-Document Connector - SignUp",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.e-documents-connector-signup%7CPAPPID.b56171bd-9a8e-47ad-a527-99f476d5af83",
+    "lastModified": "2026-06-04T09:58:37.9326343+00:00",
+    "appVersion": "26.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://aka.ms/bcedocuments",
+    "sourceHash": "sha256:ca683114dd05d6e85738e0de349d51dc7c9a06d956bcd972e9e762fd8871e77b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ca683114dd05d6e85738e0de349d51dc7c9a06d956bcd972e9e762fd8871e77b",
+    "mappedOn": null,
+    "summary": "Connects E-Documents to SignUp Peppol provider",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Connects BC E-Documents to the ExFlow/SignUp e-invoicing service",
+      "Uses SignUp as Peppol provider",
+      "Sends outgoing e-documents to the SignUp network",
+      "Receives incoming e-documents from SignUp",
+      "Sends and receives approval/rejection messages"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SignUp",
+      "ExFlow",
+      "PEPPOL"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.dynamics-eshop|AID.amazoneconnect|PAPPID.444788e2-4693-4f18-b84a-da20d58f9d01",
+  "guid": "444788e2-4693-4f18-b84a-da20d58f9d01",
+  "publisherId": "dynamics-eshop",
+  "offerId": "amazoneconnect",
+  "source": {
+    "name": "eConnect for Amazon",
+    "publisher": "Dynamics eShop Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics-eshop%7CAID.amazoneconnect%7CPAPPID.444788e2-4693-4f18-b84a-da20d58f9d01",
+    "lastModified": "2026-08-12T04:14:39.5036342+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamicseshop.com/contact-us/",
+    "sourceHash": "sha256:ce6a09e94e535282343b82b04e26608cf94cf7c7d909668bc129dfbc67f248b9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ce6a09e94e535282343b82b04e26608cf94cf7c7d909668bc129dfbc67f248b9",
+    "mappedOn": null,
+    "summary": "Integrates Amazon marketplace orders and inventory",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs Amazon sales orders and customers to BC",
+      "Supports merchant fulfilled and FBA orders",
+      "Simple and variant Amazon item types",
+      "Pushes item data from BC to Amazon",
+      "Inventory updates from multiple warehouse locations",
+      "Syncs fulfillment status, shipping and tracking",
+      "Syncs Amazon refunds to BC",
+      "Multi-store support",
+      "High order volumes",
+      "Email alerts for order and fulfillment activity"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Amazon"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

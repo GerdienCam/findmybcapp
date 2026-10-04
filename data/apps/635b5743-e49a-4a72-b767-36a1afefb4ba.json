@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.abakion|AID.vat_rate_per_dimension|PAPPID.635b5743-e49a-4a72-b767-36a1afefb4ba",
+  "guid": "635b5743-e49a-4a72-b767-36a1afefb4ba",
+  "publisherId": "abakion",
+  "offerId": "vat_rate_per_dimension",
+  "source": {
+    "name": "VAT Rate per Dimension",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.vat_rate_per_dimension%7CPAPPID.635b5743-e49a-4a72-b767-36a1afefb4ba",
+    "lastModified": "2026-07-22T20:34:47.8645533+00:00",
+    "appVersion": "28.0.202617.163311",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/vat-rate/#howto",
+    "sourceHash": "sha256:0a861ed3f98fb72475390db1be784d9cb7c0c389792e302183ca91e609aba289"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0a861ed3f98fb72475390db1be784d9cb7c0c389792e302183ca91e609aba289",
+    "mappedOn": null,
+    "summary": "Assigns VAT rates per dimension via posting groups",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-dimensions"
+    ],
+    "claims": [
+      "VAT/tax code configured per department or dimension",
+      "Dimension on journal, purchase or sales line sets VAT posting group",
+      "Multiple VAT rates on the same account, incl. partial or no VAT departments"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

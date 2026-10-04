@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.venturesinformationtechnologyservices1680161546686|AID.vendor_portal|PAPPID.42d98bb3-c244-46a0-b82f-8cf529dc38b8",
+  "guid": "42d98bb3-c244-46a0-b82f-8cf529dc38b8",
+  "publisherId": "venturesinformationtechnologyservices1680161546686",
+  "offerId": "vendor_portal",
+  "source": {
+    "name": "Vendor Portal",
+    "publisher": "TECH VENTURES",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.venturesinformationtechnologyservices1680161546686%7CAID.vendor_portal%7CPAPPID.42d98bb3-c244-46a0-b82f-8cf529dc38b8",
+    "lastModified": "2026-07-23T01:03:25.1163852+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.techventuresglobal.com/vendor-portal/",
+    "sourceHash": "sha256:f588899e36998d588ceb6ca0a59d19ac8c43c769cc22752aad477b5fe046e37b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f588899e36998d588ceb6ca0a59d19ac8c43c769cc22752aad477b5fe046e37b",
+    "mappedOn": null,
+    "summary": "Vendor portal for procurement",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sourcing-rfq",
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Sends registration invitations so vendors self-register in a portal",
+      "Sends RFQs to vendors in the portal; vendors submit bids and track status",
+      "Manage purchase orders and track shipments in the portal",
+      "Automates invoice processing",
+      "Approval workflows for requisitions and purchase orders",
+      "Reports on vendor performance and spending",
+      "Built on Microsoft Power Platform"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Power Platform"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

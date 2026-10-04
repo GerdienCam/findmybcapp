@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.currencyexchangerateservicessetup|PAPPID.9dcda4db-0324-4ae6-9ced-9ad823b00e6a",
+  "guid": "9dcda4db-0324-4ae6-9ced-9ad823b00e6a",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "currencyexchangerateservicessetup",
+  "source": {
+    "name": "Currency Exchange Rate Services Setup",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.currencyexchangerateservicessetup%7CPAPPID.9dcda4db-0324-4ae6-9ced-9ad823b00e6a",
+    "lastModified": "2026-05-22T16:10:56.5356922+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/currency-exchange-rate-services-setup",
+    "sourceHash": "sha256:40f6d52fd95126a519dca9c3e1f6b88557a77243a695a5d57b19beade6c17f24"
+  },
+  "mapping": {
+    "sourceHash": "sha256:40f6d52fd95126a519dca9c3e1f6b88557a77243a695a5d57b19beade6c17f24",
+    "mappedOn": null,
+    "summary": "Sets up currency exchange rate services",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Pick exchange rate provider from list, no XML/JSON setup",
+      "Generic provider Float for all currencies",
+      "Automatic triangulation for unsupported base currencies",
+      "Supports ECB, RBA, FRB and BoC providers",
+      "Shows last update and next scheduled run",
+      "Free of charge"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ECB",
+      "RBA",
+      "FRB",
+      "BoC",
+      "Float"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

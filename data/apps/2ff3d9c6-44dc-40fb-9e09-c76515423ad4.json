@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.ncienergiesfrancecommunicationsystems1607333741249|AID.axiansbmsvba|PAPPID.2ff3d9c6-44dc-40fb-9e09-c76515423ad4",
+  "guid": "2ff3d9c6-44dc-40fb-9e09-c76515423ad4",
+  "publisherId": "ncienergiesfrancecommunicationsystems1607333741249",
+  "offerId": "axiansbmsvba",
+  "source": {
+    "name": "Axians BMS Vendor Bank Account Approval Workflow",
+    "publisher": "VINCI ENERGIES FRANCE COMMUNICATION & SYSTEMS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ncienergiesfrancecommunicationsystems1607333741249%7CAID.axiansbmsvba%7CPAPPID.2ff3d9c6-44dc-40fb-9e09-c76515423ad4",
+    "lastModified": "2026-02-02T06:42:39.7409555+00:00",
+    "appVersion": "27.2.0.20260107",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.axians.fr/segment/bms/notre-offre/",
+    "sourceHash": "sha256:2917e23ed66e8a6443d8cc55acb784638930e9a87f85378a17522ec9e3671538"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2917e23ed66e8a6443d8cc55acb784638930e9a87f85378a17522ec9e3671538",
+    "mappedOn": null,
+    "summary": "Approval workflow for vendor bank accounts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Approval workflow for vendor bank accounts",
+      "Bank accounts validated before use in transactions",
+      "Visual status indicators",
+      "Workflow events, responses and conditions for vendor bank accounts",
+      "Multiple workflow instances and delegation",
+      "Errors shown with recommended actions in general and payment journals",
+      "Requires platform 24.0"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

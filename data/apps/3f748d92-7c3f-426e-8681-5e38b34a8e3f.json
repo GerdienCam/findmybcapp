@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.navidainformationssysteme1611067488644|AID.bc_2_fabric|PAPPID.3f748d92-7c3f-426e-8681-5e38b34a8e3f",
+  "guid": "3f748d92-7c3f-426e-8681-5e38b34a8e3f",
+  "publisherId": "navidainformationssysteme1611067488644",
+  "offerId": "bc_2_fabric",
+  "source": {
+    "name": "BC2Fab",
+    "publisher": "navida",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navidainformationssysteme1611067488644%7CAID.bc_2_fabric%7CPAPPID.3f748d92-7c3f-426e-8681-5e38b34a8e3f",
+    "lastModified": "2026-04-30T14:18:17.9291709+00:00",
+    "appVersion": "26.5.0.43",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.bc2fab.com/",
+    "sourceHash": "sha256:a9359c85b1a4a80099c86637d4e2abcb6b3629543be11861ba303999110a4d60"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a9359c85b1a4a80099c86637d4e2abcb6b3629543be11861ba303999110a4d60",
+    "mappedOn": null,
+    "summary": "Syncs BC data into Microsoft Fabric",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation",
+      "ng-financial-statements"
+    ],
+    "claims": [
+      "Near real-time sync of BC data into Microsoft Fabric",
+      "Combines multiple companies or tenants in one data platform",
+      "Merge BC data with other sources in Fabric",
+      "Power BI reports via Direct Lake mode without additional data movement",
+      "About 10,000 fields from 250 BC tables out-of-the-box, extendable",
+      "No coding required",
+      "Historizes fluid source tables like sales orders",
+      "Automatic translation of fields and option values",
+      "Integrates with NAVBI pre-built multi-company Power BI templates",
+      "Templates cover finance, sales, purchase and inventory"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Fabric",
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

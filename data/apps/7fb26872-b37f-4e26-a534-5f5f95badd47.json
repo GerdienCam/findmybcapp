@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.aitana_management_sl|AID.idynamics_commissions_connector_for_powerbi|PAPPID.7fb26872-b37f-4e26-a534-5f5f95badd47",
+  "guid": "7fb26872-b37f-4e26-a534-5f5f95badd47",
+  "publisherId": "aitana_management_sl",
+  "offerId": "idynamics_commissions_connector_for_powerbi",
+  "source": {
+    "name": "iDynamics Commissions Connector for Power BI",
+    "publisher": "iDynamics Business Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aitana_management_sl%7CAID.idynamics_commissions_connector_for_powerbi%7CPAPPID.7fb26872-b37f-4e26-a534-5f5f95badd47",
+    "lastModified": "2024-11-19T21:02:25.3555773+00:00",
+    "appVersion": "24.5.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.idynamics.es/en/commissions/index.html",
+    "sourceHash": "sha256:d6cf47d94356577b8c93dfb3dec6883e88206c914ed034ac0753a350f3192ef9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d6cf47d94356577b8c93dfb3dec6883e88206c914ed034ac0753a350f3192ef9",
+    "mappedOn": null,
+    "summary": "Exposes iDynamics Commissions data to Power BI reports",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-sales-commissions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exposes iDynamics Commissions data to Power BI",
+      "Feeds the iDynamics Commissions Analytics dashboard",
+      "Users can build their own Power BI dashboards from exported data"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "es",
+      "fr"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail and consumer goods"
+    ],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [
+      "iDynamics Commissions"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

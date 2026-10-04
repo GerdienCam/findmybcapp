@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.wiselausnirehf1587117975659|AID.wisebonds|PAPPID.698d246b-6f06-42bb-bde9-23a5cdee9a55",
+  "guid": "698d246b-6f06-42bb-bde9-23a5cdee9a55",
+  "publisherId": "wiselausnirehf1587117975659",
+  "offerId": "wisebonds",
+  "source": {
+    "name": "Wise Bonds",
+    "publisher": "Wise",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wiselausnirehf1587117975659%7CAID.wisebonds%7CPAPPID.698d246b-6f06-42bb-bde9-23a5cdee9a55",
+    "lastModified": "2026-10-01T10:10:18.6279695+00:00",
+    "appVersion": "28.0.20261001.34",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://wise.is/en/contact-us/",
+    "sourceHash": "sha256:c8eff99bcd29a22e20b8a53686d896f4aee6f9103992c9f783de4a3759d90624"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c8eff99bcd29a22e20b8a53686d896f4aee6f9103992c9f783de4a3759d90624",
+    "mappedOn": null,
+    "summary": "Manages bond portfolios, repayments, interest and indexation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-leasing-finance",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-journals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-currency",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Overview of bond portfolios",
+      "Manages repayment schedule per bond, payment flow and mortgages",
+      "Manages bonded debts, assets and liabilities",
+      "Posts and calculates installments, indexation, exchange rate differences, interest and late-payment interest",
+      "Integrated with daily financial accounting"
+    ],
+    "countries": [
+      "IS"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

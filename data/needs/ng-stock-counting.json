@@ -1,0 +1,181 @@
+{
+  "id": "ng-stock-counting",
+  "order": 71,
+  "label": "Stocktaking and correcting stock quantities",
+  "description": "Counting stock (cycle or full) and adjusting quantities and write-offs.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "high",
+  "statements": [
+    "Stocktaking and correcting stock quantities",
+    "Counting stock (cycle or full) and adjusting quantities and write-offs.",
+    "Our yearly stocktake takes the whole weekend with paper lists and clipboards",
+    "Is there an app to count inventory with a phone or scanner in BC?",
+    "We want to count a few bins every day instead of closing for a full stocktake",
+    "The physical inventory journal is painful to fill in for 8,000 items",
+    "cycle counting app Business Central",
+    "We count the stock but then someone has to type all numbers into BC",
+    "How do we decide which items to count more often?",
+    "Counted quantity differs from BC every time and we do not know who is right",
+    "We want blind counting so the counter does not see the expected quantity",
+    "Stocktake for our auditor needs count tags and a full trail",
+    "Can we count while the warehouse keeps picking?",
+    "We want to count high value items monthly and the rest twice a year",
+    "Counting serial and lot numbered items is a nightmare",
+    "stock count scanner offline",
+    "Our shops need to do their own stock counts and send them to head office",
+    "We need a recount when the difference is big before posting anything",
+    "ABC classification for counting frequency",
+    "Two teams counted the same aisle and we got two different journals",
+    "We want a report of count variances by value before we post them",
+    "Our inventory accuracy is terrible and we need regular counts to fix it",
+    "We keep finding broken goods and need an easy way to remove them from stock in BC",
+    "Sales reps take samples from the warehouse and it is never booked",
+    "How do we record shrinkage and theft without messing up our costs?",
+    "Positive and negative adjustments in the item journal need reason codes",
+    "Our webshop and BC show different stock and we need to sync the levels",
+    "stock adjustment reason codes",
+    "We want approval before anyone writes off more than a set amount of stock",
+    "Expiry dates on some lots were wrong and we need to correct them",
+    "Warehouse staff need a simple way to report missing items from a shelf",
+    "Our 3PL sends us a stock file every night and we need BC to match it",
+    "Is there an app to post inventory adjustments from a mobile device?",
+    "The finance team wants to see why stock was adjusted every month"
+  ],
+  "questions": [
+    {
+      "id": "method",
+      "text": "How do you want to count stock?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Scanning on handheld or mobile",
+          "patterns": [
+            "scan",
+            "barcode",
+            "handheld",
+            "mobile",
+            "rfid",
+            "android"
+          ]
+        },
+        {
+          "label": "Count sheets, paper or Excel",
+          "patterns": [
+            "excel",
+            "count sheets?",
+            "print",
+            "recording report",
+            "report layout"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Scanning on handheld or mobile": 0.42,
+        "Count sheets, paper or Excel": 0.25
+      }
+    },
+    {
+      "id": "tracking",
+      "text": "Do you count items with serial or lot numbers?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, serial or lot numbers",
+          "patterns": [
+            "serial",
+            "\\blots?\\b",
+            "item tracking",
+            "tracked items"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, serial or lot numbers": 0.42
+      }
+    },
+    {
+      "id": "approval",
+      "text": "Must someone approve stock adjustments before they are posted?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, approval before posting",
+          "patterns": [
+            "approv"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, approval before posting": 0.25
+      }
+    },
+    {
+      "id": "cadence",
+      "text": "Do you count a bit at a time (cycle counts) or all at once?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Cycle or ad hoc counts",
+          "patterns": [
+            "cycle counts?",
+            "counting period",
+            "unplanned",
+            "unscheduled",
+            "ad hoc"
+          ]
+        },
+        {
+          "label": "Full stocktake",
+          "patterns": [
+            "physical inventory",
+            "stocktak"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Cycle or ad hoc counts": 0.33,
+        "Full stocktake": 0.67
+      }
+    },
+    {
+      "id": "bins",
+      "text": "Do you store stock in bins or warehouse locations?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, bins or locations",
+          "patterns": [
+            "\\bbins?\\b",
+            "location",
+            "directed pick",
+            "put-away"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, bins or locations": 0.25
+      }
+    }
+  ]
+}

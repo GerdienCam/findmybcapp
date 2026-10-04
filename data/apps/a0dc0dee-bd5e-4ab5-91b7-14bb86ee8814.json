@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.erpwareltd|AID.dcx-ai-manufacturing-suite|PAPPID.a0dc0dee-bd5e-4ab5-91b7-14bb86ee8814",
+  "guid": "a0dc0dee-bd5e-4ab5-91b7-14bb86ee8814",
+  "publisherId": "erpwareltd",
+  "offerId": "dcx-ai-manufacturing-suite",
+  "source": {
+    "name": "DCX - AI Manufacturing Suite",
+    "publisher": "ERP Ware",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpwareltd%7CAID.dcx-ai-manufacturing-suite%7CPAPPID.a0dc0dee-bd5e-4ab5-91b7-14bb86ee8814",
+    "lastModified": "2026-08-26T08:04:55.8444429+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamics-connect.co.uk/apps/dcx-ai-manufacturing-suite/",
+    "sourceHash": "sha256:7f001b859754a259282249f0a818edb289e3c040ffe356a3edf9ad90ed1ef52f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7f001b859754a259282249f0a818edb289e3c040ffe356a3edf9ad90ed1ef52f",
+    "mappedOn": null,
+    "summary": "AI planner for manufacturing forecasting, scheduling, OEE",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-ai-assistant",
+      "ng-demand-forecast",
+      "ng-maintenance-breakdown",
+      "ng-maintenance-planned"
+    ],
+    "claims": [
+      "Manufacturing Assistant answers about at-risk orders, bottlenecks, shortages, OEE, scrap",
+      "Demand forecasting per item choosing Seasonal, Trend or Moving Average with confidence %",
+      "AI planning worksheet suggests runs rounded to order modifiers",
+      "Creates firm planned production orders and requisition lines",
+      "Visual schedule board with drag-and-drop rescheduling and routing recalculation",
+      "Capacity planning with overloads, bottleneck analysis and what-if extra shift",
+      "Capable-to-promise check exploding every BOM level",
+      "Touch, barcode-ready production terminal for labour, output, scrap, consumption and downtime",
+      "Shop floor assistant turns dictated sentence into a posting",
+      "OEE dashboard per work centre and downtime root-cause analysis",
+      "Eight alert detectors incl. late orders, shortages, overloads, scrap spikes, aged WIP",
+      "Supplier risk scores and OTIF benchmarking",
+      "Predicts maintenance needs, with checklists and maintenance orders",
+      "AI cost estimates converted to a linked sales quote",
+      "Production Planner role centre with eighteen KPI cues and optional Power BI pack",
+      "All releases, postings and changes require human confirmation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

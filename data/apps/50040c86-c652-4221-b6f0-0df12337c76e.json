@@ -1,0 +1,109 @@
+{
+  "appId": "PUBID.retailcentral|AID.retailcentral_shipping|PAPPID.50040c86-c652-4221-b6f0-0df12337c76e",
+  "guid": "50040c86-c652-4221-b6f0-0df12337c76e",
+  "publisherId": "retailcentral",
+  "offerId": "retailcentral_shipping",
+  "source": {
+    "name": "Shipping Central",
+    "publisher": "Retail Central",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.retailcentral%7CAID.retailcentral_shipping%7CPAPPID.50040c86-c652-4221-b6f0-0df12337c76e",
+    "lastModified": "2026-09-29T18:16:53.1065525+00:00",
+    "appVersion": "5.7.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://basecloud.se/",
+    "sourceHash": "sha256:0b4d32614e49a3ae0519691d77c7f249d2be7adb5b86ddcec28b91b39054bbef"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0b4d32614e49a3ae0519691d77c7f249d2be7adb5b86ddcec28b91b39054bbef",
+    "mappedOn": null,
+    "summary": "Connects BC with nShift delivery and transport management",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Connects BC to nShift transport management platform",
+      "Book, ship and track parcels from BC",
+      "Shipment booking, label printing, waybills and customs documents",
+      "Updates shipment status in BC",
+      "Requires nShift Online account, can be created in the app",
+      "Standard, consolidated or stored shipments",
+      "Multiple carriers and services",
+      "Supports envelopes, parcels, pallets and other package types",
+      "Labels printed manually or sent directly to printer",
+      "Labels as PDF or ZPL",
+      "Carrier service templates",
+      "nShift Delivery Checkout lets web customers choose shipping options",
+      "Shipping price management",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [
+      "AD",
+      "AL",
+      "BA",
+      "BE",
+      "BG",
+      "CH",
+      "CY",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LI",
+      "LT",
+      "LU",
+      "LV",
+      "MC",
+      "ME",
+      "MK",
+      "MT",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "RO",
+      "RS",
+      "SE",
+      "SI",
+      "SK",
+      "SM"
+    ],
+    "languages": [
+      "da",
+      "en",
+      "fi",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "nShift"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

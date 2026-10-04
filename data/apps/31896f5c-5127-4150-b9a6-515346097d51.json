@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.navisys1589454759342|AID.nss_logistics|PAPPID.31896f5c-5127-4150-b9a6-515346097d51",
+  "guid": "31896f5c-5127-4150-b9a6-515346097d51",
+  "publisherId": "navisys1589454759342",
+  "offerId": "nss_logistics",
+  "source": {
+    "name": "NSS Logistics",
+    "publisher": "NAVISYS s.r.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navisys1589454759342%7CAID.nss_logistics%7CPAPPID.31896f5c-5127-4150-b9a6-515346097d51",
+    "lastModified": "2026-09-25T09:39:30.2634489+00:00",
+    "appVersion": "1.0.30.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://wiki.solutions.navisys.cz/en/products/nss/nss-logistics",
+    "sourceHash": "sha256:7d219105ff5b2c44a96dff52014aff4290096a0ab54ee12ff51c54a021d5981a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7d219105ff5b2c44a96dff52014aff4290096a0ab54ee12ff51c54a021d5981a",
+    "mappedOn": null,
+    "summary": "Advanced warehouse extensions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-warehouse-setup"
+    ],
+    "claims": [
+      "Pre put-away process: goods first placed in a receipt bin, then put away to bins",
+      "Pre put-away configured on the location card",
+      "Automatically adds dates to warehouse documents",
+      "Automatically deletes warehouse documents after posting",
+      "Prefills quantities on warehouse documents",
+      "Automatic register put-away",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.prepaidservices|PAPPID.0100759b-7459-4834-9236-2564be17d747",
+  "guid": "0100759b-7459-4834-9236-2564be17d747",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "prepaidservices",
+  "source": {
+    "name": "Prepaid Services",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.prepaidservices%7CPAPPID.0100759b-7459-4834-9236-2564be17d747",
+    "lastModified": "2026-05-25T07:40:28.7696075+00:00",
+    "appVersion": "1.0.0.5",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://matchbusinesscentral.com/pages/prepaid-services",
+    "sourceHash": "sha256:96a68cf0482fa0ba11222d784161fb77cdb8b8ce2037e8b306339b9a75ded96c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:96a68cf0482fa0ba11222d784161fb77cdb8b8ce2037e8b306339b9a75ded96c",
+    "mappedOn": null,
+    "summary": "Invoices services in advance as prepaid",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-billing"
+    ],
+    "claims": [
+      "Customers prepay for services",
+      "Shows customers below defined balance limit needing invoicing",
+      "Consumption tracked by time sheets and/or project entries"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

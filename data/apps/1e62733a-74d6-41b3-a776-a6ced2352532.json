@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.alterna|AID.1e62733a-74d6-41b3-a776-a6ced2352532|PAPPID.1e62733a-74d6-41b3-a776-a6ced2352532",
+  "guid": "1e62733a-74d6-41b3-a776-a6ced2352532",
+  "publisherId": "alterna",
+  "offerId": "1e62733a-74d6-41b3-a776-a6ced2352532",
+  "source": {
+    "name": "Order Differences",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.1e62733a-74d6-41b3-a776-a6ced2352532%7CPAPPID.1e62733a-74d6-41b3-a776-a6ced2352532",
+    "lastModified": "2026-09-14T12:18:25.5861666+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/order-differences/",
+    "sourceHash": "sha256:b4a4321f1d7a6e6aa5a7525557f2a30a5e718dbfa0453077ab985573bd9285a9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b4a4321f1d7a6e6aa5a7525557f2a30a5e718dbfa0453077ab985573bd9285a9",
+    "mappedOn": null,
+    "summary": "Tracks quantity differences, shortages and substitutions on orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Registers positive and negative quantity differences on sales and purchase orders",
+      "Keeps original quantity and cumulative differences per order line",
+      "Reason codes for shortages, surpluses, substitutions, over-receipts and closures",
+      "Automatically aligns ordered with shipped or received quantities to close outstanding quantities",
+      "Line substitutions close original line and create replacement line",
+      "Tolerance codes by quantity, percentage or unlimited",
+      "Tolerance rules per customer, vendor and item combination",
+      "Difference entries ledger as audit trail",
+      "Difference journal for mass processing across documents",
+      "Preserves difference information in archived documents",
+      "Extends standard over-receipt with difference tracking"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.codeunit|AID.14f8a1cf-53e1-43d4-bb77-7c11da1fe5ab|PAPPID.0e8ae3eb-abfa-42c5-8693-2298d8aac15c",
+  "guid": "0e8ae3eb-abfa-42c5-8693-2298d8aac15c",
+  "publisherId": "codeunit",
+  "offerId": "14f8a1cf-53e1-43d4-bb77-7c11da1fe5ab",
+  "source": {
+    "name": "OmniConnect",
+    "publisher": "Codeunit",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.14f8a1cf-53e1-43d4-bb77-7c11da1fe5ab%7CPAPPID.0e8ae3eb-abfa-42c5-8693-2298d8aac15c",
+    "lastModified": "2026-10-02T07:56:26.6477821+00:00",
+    "appVersion": "28.1.17.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.codeunit.io/get-in-touch",
+    "sourceHash": "sha256:7c5d1aa7b063b2baf1de083ddeb04f82a31201bbaf2e8912d4ac0161ba769955"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7c5d1aa7b063b2baf1de083ddeb04f82a31201bbaf2e8912d4ac0161ba769955",
+    "mappedOn": null,
+    "summary": "Integration platform to connect external applications to BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos",
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Exchanges items and stock levels with eCommerce",
+      "Exchanges orders with eCommerce and POS systems",
+      "Sends shipments with tracking info to eCommerce",
+      "Email integration covering invoices, shipments and order confirmations",
+      "Includes fully managed and monitored data flows",
+      "Fully functional free trial before buying",
+      "Setup through BC Assisted Setup with Plug-n-Sell verification",
+      "Also supports Microsoft Dynamics NAV"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

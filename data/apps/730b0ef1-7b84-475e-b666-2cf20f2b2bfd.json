@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.adv_dataverse_integration|PAPPID.730b0ef1-7b84-475e-b666-2cf20f2b2bfd",
+  "guid": "730b0ef1-7b84-475e-b666-2cf20f2b2bfd",
+  "publisherId": "thetasystemslimited",
+  "offerId": "adv_dataverse_integration",
+  "source": {
+    "name": "Advanced integration with Dataverse",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.adv_dataverse_integration%7CPAPPID.730b0ef1-7b84-475e-b666-2cf20f2b2bfd",
+    "lastModified": "2026-04-08T07:28:49.9363152+00:00",
+    "appVersion": "27.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/ADI/docs/Introduction",
+    "sourceHash": "sha256:be9983b32e855d5d7356e6b6b5dbcc792e2a96b280d145c8415668d9a066fcda"
+  },
+  "mapping": {
+    "sourceHash": "sha256:be9983b32e855d5d7356e6b6b5dbcc792e2a96b280d145c8415668d9a066fcda",
+    "mappedOn": null,
+    "summary": "Advanced integration scenarios with Dataverse",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-crm",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "SystemId coupling to avoid duplicates",
+      "Field validation after integration",
+      "Sync fields to related tables",
+      "Multiple table config templates",
+      "Dimension mapping from Dataverse fields",
+      "Blob/Text conversion and timezone-aware dates",
+      "Deletion of coupled records",
+      "Shows failed, skipped and unprocessed records",
+      "Generic transaction sync via schema-less XML from Dataverse plug-in",
+      "Free in sandbox environments"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dataverse"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "appId": "PUBID.n3visionab1614113437854|AID.giftcardconnect|PAPPID.0e8a1a0e-ef7d-46a4-b2c2-4de939260103",
+  "guid": "0e8a1a0e-ef7d-46a4-b2c2-4de939260103",
+  "publisherId": "n3visionab1614113437854",
+  "offerId": "giftcardconnect",
+  "source": {
+    "name": "Giftcard Connect",
+    "publisher": "N3 Vision AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.n3visionab1614113437854%7CAID.giftcardconnect%7CPAPPID.0e8a1a0e-ef7d-46a4-b2c2-4de939260103",
+    "lastModified": "2026-07-17T11:20:51.0099971+00:00",
+    "appVersion": "22.0.0.49",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.n3vis.com/",
+    "sourceHash": "sha256:a7c0d70533a5bd74dea2c623a2538666f594fb95026d7c371ef6ce77e1873817"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a7c0d70533a5bd74dea2c623a2538666f594fb95026d7c371ef6ce77e1873817",
+    "mappedOn": null,
+    "summary": "Integrates gift card providers",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Gift cards can be created, updated, cancelled, activated and redeemed from BC",
+      "Handles gift card transactions from ecommerce and in-store",
+      "Tracks full gift card lifecycle from purchase to redemption to refund",
+      "Multiple gift card payments on one sales order/invoice",
+      "Works with PSP Connect to prioritize which payment method is refunded",
+      "Handles multi-purpose and single-purpose vouchers with correct VAT",
+      "Assisted wizard setup"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PT",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "AwardIT",
+      "Retain24",
+      "Shopify",
+      "PSP Connect"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

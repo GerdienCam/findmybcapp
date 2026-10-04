@@ -1,0 +1,183 @@
+{
+  "id": "ng-vert-seafood",
+  "order": 219,
+  "label": "Solutions for seafood and aquaculture",
+  "description": "Seafood industry solutions: fishing operations and quotas, aquaculture biomass, fish processing and yield, fresh fish trading, quality and catch certificates.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for seafood and aquaculture",
+    "Seafood industry solutions: fishing operations and quotas, aquaculture biomass, fish processing and yield, fresh fish trading, quality and catch certificates.",
+    "Fish processor needing yield and traceability",
+    "seafood ERP Business Central",
+    "Fishing vessels, catch and quota management",
+    "Salmon farming biomass and feed costs",
+    "Fresh fish trading with daily prices",
+    "Catch certificates for export",
+    "Crew settlement based on the catch",
+    "By-weight sales of fresh fish",
+    "Quality grading of fish on arrival",
+    "Seafood trader buying at auctions",
+    "Frozen fish stock in cold stores",
+    "Fish species, sizes and grades on every lot"
+  ],
+  "questions": [
+    {
+      "id": "chain",
+      "text": "Which part of the seafood chain are you in?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Fishing vessels and quota",
+          "patterns": [
+            "fishing trip",
+            "vessel",
+            "quota",
+            "trawler",
+            "fishing operations"
+          ]
+        },
+        {
+          "label": "Fish farming",
+          "patterns": [
+            "biomass",
+            "farming",
+            "aquaculture"
+          ]
+        },
+        {
+          "label": "Processing",
+          "patterns": [
+            "dissection",
+            "processing floor",
+            "production (output|data|information)",
+            "repacking",
+            "external production"
+          ]
+        },
+        {
+          "label": "Buying and selling fish",
+          "patterns": [
+            "trad(er|ing)",
+            "sales agreement",
+            "buyer board",
+            "fresh fish"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Fishing vessels and quota": 0.2,
+        "Fish farming": 0.07,
+        "Processing": 0.33,
+        "Buying and selling fish": 0.27
+      }
+    },
+    {
+      "id": "food",
+      "text": "Which food safety needs must the system cover?",
+      "multi": true,
+      "options": [
+        {
+          "label": "HACCP and quality inspections",
+          "patterns": [
+            "haccp",
+            "quality inspection",
+            "\\bqc\\b"
+          ]
+        },
+        {
+          "label": "Lot traceability and recall",
+          "patterns": [
+            "traceab",
+            "recall"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "HACCP and quality inspections": 0.33,
+        "Lot traceability and recall": 0.27
+      }
+    },
+    {
+      "id": "extra",
+      "text": "What else must it handle?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Trading between our own companies",
+          "patterns": [
+            "cross-company",
+            "between companies"
+          ]
+        },
+        {
+          "label": "CO2 figures per product or catch",
+          "patterns": [
+            "co2",
+            "carbon"
+          ]
+        },
+        {
+          "label": "Crew settlement and trip costs",
+          "patterns": [
+            "crew",
+            "trip costs",
+            "costs allocated to trips"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Trading between our own companies": 0.13,
+        "CO2 figures per product or catch": 0.13,
+        "Crew settlement and trip costs": 0.07
+      }
+    },
+    {
+      "id": "connect",
+      "text": "What do you need to connect?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Scales, label printers and scanners",
+          "patterns": [
+            "scales",
+            "printers",
+            "scanner",
+            "weighing"
+          ]
+        },
+        {
+          "label": "Production or other external systems",
+          "patterns": [
+            "\\bapi\\b",
+            "external production",
+            "fishtalk",
+            "mercatus",
+            "\\bedi\\b"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Scales, label printers and scanners": 0.07,
+        "Production or other external systems": 0.4
+      }
+    }
+  ]
+}

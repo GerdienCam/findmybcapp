@@ -1,0 +1,79 @@
+{
+  "appId": "PUBID.nab|AID.fg7654fd-h874-392o-x3d5-38532wd54p29|PAPPID.b904e394-a206-4cab-b5e8-9fdb9171fe81",
+  "guid": "b904e394-a206-4cab-b5e8-9fdb9171fe81",
+  "publisherId": "nab",
+  "offerId": "fg7654fd-h874-392o-x3d5-38532wd54p29",
+  "source": {
+    "name": "Qpick Connector",
+    "publisher": "SmartApps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nab%7CAID.fg7654fd-h874-392o-x3d5-38532wd54p29%7CPAPPID.b904e394-a206-4cab-b5e8-9fdb9171fe81",
+    "lastModified": "2026-08-11T18:03:41.9245624+00:00",
+    "appVersion": "27.55.134.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.smartappsford365.com/qpick-connector/",
+    "sourceHash": "sha256:aac86f52da8b9256545113fd2e9469e07a29b4ed04ca3a5207e65224eb593e4d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:aac86f52da8b9256545113fd2e9469e07a29b4ed04ca3a5207e65224eb593e4d",
+    "mappedOn": null,
+    "summary": "Integrates Qpick mobile WMS barcode system with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-shipping-carriers",
+      "ng-stock-counting",
+      "ng-stock-movements",
+      "ng-receiving-putaway"
+    ],
+    "claims": [
+      "Integrates Qpick mobile WMS with BC",
+      "Runs on Android 8+ or Windows devices",
+      "Local or cloud installation",
+      "Includes software for stock location labeling",
+      "Supports serial numbers, expiry dates, FIFO, lot and batch",
+      "One-click finish of single orders and consolidated orders",
+      "Prints customs declarations, delivery notes and shipping labels by scanning",
+      "Dynamic cycle counting by stock level or time period",
+      "Split pick lists by warehouse zone routes",
+      "Picking while stock taking",
+      "One-to-one, one-to-many and many-to-one item movements",
+      "Deviation handling and bin content info"
+    ],
+    "countries": [
+      "DK",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Qpick"
+    ],
+    "requires": [
+      "Qpick"
+    ],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

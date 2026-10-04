@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.dynamic-prod-setup-times-app|PAPPID.8a404374-12ad-45f8-9740-a1c4438bf5a5",
+  "guid": "8a404374-12ad-45f8-9740-a1c4438bf5a5",
+  "publisherId": "fenwicksoftware",
+  "offerId": "dynamic-prod-setup-times-app",
+  "source": {
+    "name": "Dynamic Production Setup Times",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.dynamic-prod-setup-times-app%7CPAPPID.8a404374-12ad-45f8-9740-a1c4438bf5a5",
+    "lastModified": "2026-04-14T09:44:08.0848325+00:00",
+    "appVersion": "26.0.260409.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/setup-time-matrix/docs",
+    "sourceHash": "sha256:19f3a54e9b7a516bbfd7ca4a528fe45a0c53f305b1d7b2992ee6ba8dd98de94f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:19f3a54e9b7a516bbfd7ca4a528fe45a0c53f305b1d7b2992ee6ba8dd98de94f",
+    "mappedOn": null,
+    "summary": "Sequence-dependent setup times for production scheduling",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-routings-workcenters",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Setup Time Matrix defines changeover setup times from one product to another",
+      "Schedules orders dynamically based on production sequence",
+      "Integrates with Drag and Drop Production Scheduler to visualise sequence impacts"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

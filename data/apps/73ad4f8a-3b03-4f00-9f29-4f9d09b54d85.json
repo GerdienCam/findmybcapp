@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.tech-one-global|AID.bizapps_bc_customer_birthday_alerts_app_new|PAPPID.73ad4f8a-3b03-4f00-9f29-4f9d09b54d85",
+  "guid": "73ad4f8a-3b03-4f00-9f29-4f9d09b54d85",
+  "publisherId": "tech-one-global",
+  "offerId": "bizapps_bc_customer_birthday_alerts_app_new",
+  "source": {
+    "name": "Customer Birthday Alert",
+    "publisher": "Tech One Global",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tech-one-global%7CAID.bizapps_bc_customer_birthday_alerts_app_new%7CPAPPID.73ad4f8a-3b03-4f00-9f29-4f9d09b54d85",
+    "lastModified": "2026-08-04T04:51:19.1317782+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://tog-downloads.azurewebsites.net/2022/NP-User-Manual/Birthday-Alert-Application-User-Guidance.pdf",
+    "sourceHash": "sha256:b8ffff3a8e33dc0943dbf4b2a100ccce86b36b694428a600ce5de64e4b4586b4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b8ffff3a8e33dc0943dbf4b2a100ccce86b36b694428a600ce5de64e4b4586b4",
+    "mappedOn": null,
+    "summary": "Sends birthday emails to customers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-mkt-campaigns",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-rolecenters"
+    ],
+    "claims": [
+      "Sends birthday emails to customers",
+      "Shows current and upcoming customer birthdays as role center tiles",
+      "Default and customer-specific email messages",
+      "Flags whether the customer was active in a set period",
+      "Notifies on sales documents in birthday day, week or month"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

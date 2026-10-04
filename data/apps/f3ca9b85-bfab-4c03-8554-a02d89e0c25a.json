@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.codeunit|AID.connect2omniprice|PAPPID.f3ca9b85-bfab-4c03-8554-a02d89e0c25a",
+  "guid": "f3ca9b85-bfab-4c03-8554-a02d89e0c25a",
+  "publisherId": "codeunit",
+  "offerId": "connect2omniprice",
+  "source": {
+    "name": "connect2OmniPrice",
+    "publisher": "Codeunit",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2omniprice%7CPAPPID.f3ca9b85-bfab-4c03-8554-a02d89e0c25a",
+    "lastModified": "2025-07-17T15:17:24.2169408+00:00",
+    "appVersion": "25.0.94.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.codeunit.io/get-in-touch",
+    "sourceHash": "sha256:14cbb5649d4b4011fb7817c9f60163d9bdea84930998118a42323089af65f8af"
+  },
+  "mapping": {
+    "sourceHash": "sha256:14cbb5649d4b4011fb7817c9f60163d9bdea84930998118a42323089af65f8af",
+    "mappedOn": null,
+    "summary": "Integrates OmniPrice pricing engine with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Price API delivering BC pricing to all sales channels",
+      "Supports all BC price logic",
+      "Serverless Azure microservice that scales with usage",
+      "Built on Codeunit OmniConnect integration platform"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "OmniPrice"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

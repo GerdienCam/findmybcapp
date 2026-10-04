@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.abakion|AID.6269fcb0-17f4-44ca-89fd-419fa52b8204|PAPPID.127a67f6-0f8a-43a9-a0ed-f4a7b496e53b",
+  "guid": "127a67f6-0f8a-43a9-a0ed-f4a7b496e53b",
+  "publisherId": "abakion",
+  "offerId": "6269fcb0-17f4-44ca-89fd-419fa52b8204",
+  "source": {
+    "name": "Reverse Planning",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.6269fcb0-17f4-44ca-89fd-419fa52b8204%7CPAPPID.127a67f6-0f8a-43a9-a0ed-f4a7b496e53b",
+    "lastModified": "2026-09-01T17:40:38.1437696+00:00",
+    "appVersion": "28.4.202635.175404",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/reverse-planning/#howto",
+    "sourceHash": "sha256:3d898544679f369d36a62192056bcf56dac55e4a6abf422b08552125bae6ca1e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3d898544679f369d36a62192056bcf56dac55e4a6abf422b08552125bae6ca1e",
+    "mappedOn": null,
+    "summary": "Identifies items that will cause delivery failures before reorder is possible",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "One prioritized list of items needing attention with a suggested action each",
+      "Flags items dropping below zero, safety stock or the reorder point within lead time",
+      "One line per item instead of multiple planning lines",
+      "Calculates true lead time including production items",
+      "Suggests pushing demand dates forward when supply cannot be improved",
+      "Built-in best practice planning templates; configurable per user group, item group or inventory level",
+      "No master data configuration needed to start",
+      "Supports Essential and Premium editions",
+      "Available in all BC countries"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.nab|AID.reconciliations_for_eagle|PAPPID.57bfd6b5-5c6f-4c3d-abcb-71ec802e138d",
+  "guid": "57bfd6b5-5c6f-4c3d-abcb-71ec802e138d",
+  "publisherId": "nab",
+  "offerId": "reconciliations_for_eagle",
+  "source": {
+    "name": "Reconciliations for Eagle",
+    "publisher": "SmartApps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nab%7CAID.reconciliations_for_eagle%7CPAPPID.57bfd6b5-5c6f-4c3d-abcb-71ec802e138d",
+    "lastModified": "2026-09-02T12:19:42.6228696+00:00",
+    "appVersion": "28.0.161.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.smartappsford365.com/en-us/reconciliations-for-eagle/",
+    "sourceHash": "sha256:b5c25139878f9e3be64ebb7a23e95eac48693b11425cc6932ba0b4799227ca2a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b5c25139878f9e3be64ebb7a23e95eac48693b11425cc6932ba0b4799227ca2a",
+    "mappedOn": null,
+    "summary": "Automated reconciliations with tolerances",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-period-close",
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Reconciles sales, purchases, projects, income statement and balance sheet accounts",
+      "Ledger-agnostic reconciliation engine",
+      "Scheduled recurring reconciliations with dynamic filters",
+      "Commenting, flagging and tracked reviews",
+      "Upper/lower tolerance thresholds per type or line",
+      "Exports reconciliation records for compliance",
+      "Requires and auto-installs Eagle"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "fi",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Eagle"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

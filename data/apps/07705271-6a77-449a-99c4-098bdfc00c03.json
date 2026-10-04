@@ -1,0 +1,93 @@
+{
+  "appId": "PUBID.binary-stream-software|AID.multi-entity_management_d365bc_shopify|PAPPID.07705271-6a77-449a-99c4-098bdfc00c03",
+  "guid": "07705271-6a77-449a-99c4-098bdfc00c03",
+  "publisherId": "binary-stream-software",
+  "offerId": "multi-entity_management_d365bc_shopify",
+  "source": {
+    "name": "Multi-Entity Management for Shopify Connector",
+    "publisher": "Binary Stream Software Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binary-stream-software%7CAID.multi-entity_management_d365bc_shopify%7CPAPPID.07705271-6a77-449a-99c4-098bdfc00c03",
+    "lastModified": "2026-05-15T19:19:27.8842176+00:00",
+    "appVersion": "1.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.binarystream.com/HelpFiles/MEM_D365BC_Help/Content/Topics/NAV_MEM/MEM.htm",
+    "sourceHash": "sha256:d4ea831099089bd23f300c0ba19999d13bcd3152ff2397020951ba61f54f5b42"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d4ea831099089bd23f300c0ba19999d13bcd3152ff2397020951ba61f54f5b42",
+    "mappedOn": null,
+    "summary": "Makes Binary Stream Multi-Entity Management work with the Shopify Connector",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Integrates MEM with the BC Shopify Connector",
+      "Manage Shopify shops across different MEM entities",
+      "Shared master data across entities for customer, vendor, fixed asset and item records",
+      "Consolidated real-time reporting for all entities",
+      "User-entity security layer"
+    ],
+    "countries": [
+      "AR",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "JP",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Shopify"
+    ],
+    "requires": [
+      "Binary Stream Multi-Entity Management",
+      "Shopify Connector"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

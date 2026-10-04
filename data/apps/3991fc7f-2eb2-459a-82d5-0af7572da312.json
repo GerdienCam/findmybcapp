@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.alterna|AID.3991fc7f-2eb2-459a-82d5-0af7572da312|PAPPID.3991fc7f-2eb2-459a-82d5-0af7572da312",
+  "guid": "3991fc7f-2eb2-459a-82d5-0af7572da312",
+  "publisherId": "alterna",
+  "offerId": "3991fc7f-2eb2-459a-82d5-0af7572da312",
+  "source": {
+    "name": "Budget Pro",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.3991fc7f-2eb2-459a-82d5-0af7572da312%7CPAPPID.3991fc7f-2eb2-459a-82d5-0af7572da312",
+    "lastModified": "2026-09-23T07:15:20.7034377+00:00",
+    "appVersion": "1.6.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/budget-pro/",
+    "sourceHash": "sha256:6462e356384118b13ca81ecda4d4ab5e8ace18af1f097af191d9cd6cc0241ac8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6462e356384118b13ca81ecda4d4ab5e8ace18af1f097af191d9cd6cc0241ac8",
+    "mappedOn": null,
+    "summary": "Budget control checks on transactions by dimension",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-budget-control",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-budget-vs-actual",
+      "ng-procurement-spend"
+    ],
+    "claims": [
+      "Determines budget code per document line from validity dates and dimension sets",
+      "Budget follows the document through to posting (initial, reserved, posted)",
+      "Budget per G/L account or per dimension set",
+      "Checks budget availability at quote, order, receipt and invoice",
+      "Budget monitor page with filters",
+      "Uses standard BC budget module"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

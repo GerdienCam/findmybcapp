@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.bcappmaker|AID.mass_apply_documents|PAPPID.dadae406-40af-4d38-b2c4-54c0cb8fc35a",
+  "guid": "dadae406-40af-4d38-b2c4-54c0cb8fc35a",
+  "publisherId": "bcappmaker",
+  "offerId": "mass_apply_documents",
+  "source": {
+    "name": "Appmaker Mass Write-Off Documents for AP and AR",
+    "publisher": "BC APPMAKER",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcappmaker%7CAID.mass_apply_documents%7CPAPPID.dadae406-40af-4d38-b2c4-54c0cb8fc35a",
+    "lastModified": "2024-11-21T08:36:39.4227725+00:00",
+    "appVersion": "1.2.64.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bcappmaker.com/support",
+    "sourceHash": "sha256:f2c7d3e23a06d505e632a224b991b92ed971afcfe684d94e5186788d014447cd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f2c7d3e23a06d505e632a224b991b92ed971afcfe684d94e5186788d014447cd",
+    "mappedOn": null,
+    "summary": "Mass write-off of small open customer and vendor balances",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Mass write-off of small AP and AR balances",
+      "Mass apply credits and payments to outstanding invoices by time frame and amount",
+      "Dedicated G/L account and journal batch for write-offs"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

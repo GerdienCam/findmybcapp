@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.powerbi-gold-inventory-app|PAPPID.31f36f94-f495-4d72-a254-c8c357c786ad",
+  "guid": "31f36f94-f495-4d72-a254-c8c357c786ad",
+  "publisherId": "fenwicksoftware",
+  "offerId": "powerbi-gold-inventory-app",
+  "source": {
+    "name": "Inventory Connector for Power BI",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.powerbi-gold-inventory-app%7CPAPPID.31f36f94-f495-4d72-a254-c8c357c786ad",
+    "lastModified": "2026-06-10T07:19:40.0874843+00:00",
+    "appVersion": "26.0.260409.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/business-intelligence-reporting/docs/",
+    "sourceHash": "sha256:5e5124a0fde75c06c78da82a87784ab2a793606aff3ec1c44c2fd1947ecca7bd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5e5124a0fde75c06c78da82a87784ab2a793606aff3ec1c44c2fd1947ecca7bd",
+    "mappedOn": null,
+    "summary": "Prebuilt Power BI reports on inventory",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Compatible with Power BI Gold Inventory and Inventory Valuation reports",
+      "Inventory quantity and valuation by item, location, date range and lot/serial",
+      "Measures include stock on hand, valuation and inventory turnover"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [
+      "Power BI Gold Inventory"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

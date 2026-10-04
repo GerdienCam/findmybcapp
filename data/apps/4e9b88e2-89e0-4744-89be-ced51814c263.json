@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.clarityukraine1657050202465|AID.clrt_vat_ua|PAPPID.4e9b88e2-89e0-4744-89be-ced51814c263",
+  "guid": "4e9b88e2-89e0-4744-89be-ced51814c263",
+  "publisherId": "clarityukraine1657050202465",
+  "offerId": "clrt_vat_ua",
+  "source": {
+    "name": "UA Localization for BC - VAT Management",
+    "publisher": "Clarity Ukraine",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.clarityukraine1657050202465%7CAID.clrt_vat_ua%7CPAPPID.4e9b88e2-89e0-4744-89be-ced51814c263",
+    "lastModified": "2026-09-15T09:39:49.5474205+00:00",
+    "appVersion": "28.3.0.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://clarity-team.com/en/contacts/",
+    "sourceHash": "sha256:97a4abc663d8001be32786b536bda37adafe5da6c1454cec6210eca15379f216"
+  },
+  "mapping": {
+    "sourceHash": "sha256:97a4abc663d8001be32786b536bda37adafe5da6c1454cec6210eca15379f216",
+    "mappedOn": null,
+    "summary": "Ukrainian VAT accounting compliance",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Appendix 2 forms: VAT Correction Invoices and VAT Invoices on both sales and purchase sides",
+      "Automatic sales VAT calculation by the 'First event' rule",
+      "VAT invoice when sales price is below cost price",
+      "VAT invoice accounting for write-off of goods for non-business use",
+      "Integration with the M.E.Doc fiscal VAT reporting system",
+      "Keeps a register of VAT invoices issued and received",
+      "VAT period closing function",
+      "VAT turnover report",
+      "Not supported in Italy, Czechia and San Marino"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "languages": [
+      "en",
+      "ru",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "M.E.Doc"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

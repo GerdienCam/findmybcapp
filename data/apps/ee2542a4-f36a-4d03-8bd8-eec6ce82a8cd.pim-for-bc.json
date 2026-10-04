@@ -1,0 +1,116 @@
+{
+  "appId": "PUBID.dynamicwebnorthamericainc1635282482732|AID.pim-for-bc|PAPPID.ee2542a4-f36a-4d03-8bd8-eec6ce82a8cd",
+  "guid": "ee2542a4-f36a-4d03-8bd8-eec6ce82a8cd",
+  "publisherId": "dynamicwebnorthamericainc1635282482732",
+  "offerId": "pim-for-bc",
+  "source": {
+    "name": "DynamicWeb PIM for Business Central",
+    "publisher": "DynamicWeb North America, Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicwebnorthamericainc1635282482732%7CAID.pim-for-bc%7CPAPPID.ee2542a4-f36a-4d03-8bd8-eec6ce82a8cd",
+    "lastModified": "2025-08-07T07:48:25.7167449+00:00",
+    "appVersion": "1.2.0.27",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://doc.dynamicweb.com/service-desk#sideNavTitle1-2",
+    "sourceHash": "sha256:b806d7fcfe54922ba39baf1177af627fdb6e6d32332cc936c0b45799fb038a2c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b806d7fcfe54922ba39baf1177af627fdb6e6d32332cc936c0b45799fb038a2c",
+    "mappedOn": null,
+    "summary": "Enriches product data via DynamicWeb PIM",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-assortment-catalogs",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-marketplaces",
+      "ng-ux-data-translation",
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "Inherits product data across variants, product groups and languages",
+      "Import and export product data to Excel",
+      "Supplies printed catalogs, channels and marketplaces with data",
+      "Channel-specific data feeds",
+      "Self-service frontend for partners and dealers to download product data",
+      "Validate and monitor changes using notifications and workflows",
+      "Customizable dashboards with widgets",
+      "PIM standalone or with eCommerce",
+      "Digital asset management"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "ID",
+      "IE",
+      "IN",
+      "IS",
+      "IT",
+      "LU",
+      "LV",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PT",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "ar",
+      "da",
+      "de",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fil",
+      "fr",
+      "id",
+      "is",
+      "it",
+      "ms",
+      "nl",
+      "no",
+      "sv",
+      "th"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dynamicweb PIM"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

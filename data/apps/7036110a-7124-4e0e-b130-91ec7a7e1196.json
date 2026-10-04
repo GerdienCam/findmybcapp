@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.on720comas1662298129006|AID.business720_dk|PAPPID.7036110a-7124-4e0e-b130-91ec7a7e1196",
+  "guid": "7036110a-7124-4e0e-b130-91ec7a7e1196",
+  "publisherId": "on720comas1662298129006",
+  "offerId": "business720_dk",
+  "source": {
+    "name": "Business720 (DK)",
+    "publisher": "ON720.COM",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on720comas1662298129006%7CAID.business720_dk%7CPAPPID.7036110a-7124-4e0e-b130-91ec7a7e1196",
+    "lastModified": "2026-07-14T11:44:46.1128433+00:00",
+    "appVersion": "28.3.260714.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.on720.com/da/business720",
+    "sourceHash": "sha256:47930f681d638b7214318fa0c064e5132aa2d429c22638df92661218b65dae1a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:47930f681d638b7214318fa0c064e5132aa2d429c22638df92661218b65dae1a",
+    "mappedOn": null,
+    "summary": "Creates and updates customer/vendor master data from Danish CVR",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding",
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Search companies by name or CVR number",
+      "Create customers and vendors from CVR data",
+      "Update master data of existing customers and vendors",
+      "Alerts on company status changes",
+      "Verifies VIES registrations for EU trade",
+      "Financial insight for companies with Danish CVR"
+    ],
+    "countries": [
+      "DK",
+      "GL"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "CVR",
+      "VIES"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

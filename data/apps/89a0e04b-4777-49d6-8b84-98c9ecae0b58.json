@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.eq_consulting_group|AID.eq_imagecapture_connector_w1|PAPPID.89a0e04b-4777-49d6-8b84-98c9ecae0b58",
+  "guid": "89a0e04b-4777-49d6-8b84-98c9ecae0b58",
+  "publisherId": "eq_consulting_group",
+  "offerId": "eq_imagecapture_connector_w1",
+  "source": {
+    "name": "Image Capture Connector (W1)",
+    "publisher": "EQ Consulting Group BV",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eq_consulting_group%7CAID.eq_imagecapture_connector_w1%7CPAPPID.89a0e04b-4777-49d6-8b84-98c9ecae0b58",
+    "lastModified": "2026-01-29T12:43:36.9355803+00:00",
+    "appVersion": "26.0.20260128.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://eqgroup.nl/help-en-support",
+    "sourceHash": "sha256:361ead3dc795cbf7ba251b17a1ab72d9405e7d1d36bd375adf9dba98e12645cc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:361ead3dc795cbf7ba251b17a1ab72d9405e7d1d36bd375adf9dba98e12645cc",
+    "mappedOn": null,
+    "summary": "Integrates Scansys Image Capture for document capture and archiving",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Connects Scansys Image Capture to BC",
+      "Processes freight documents, purchase invoices and packing slips",
+      "Scans physical documents",
+      "Imports digital documents from mailbox",
+      "Automatic splitting and classification",
+      "Step-by-step connection setup in minutes",
+      "Free to install, service requires paid subscription"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Scansys Image Capture"
+    ],
+    "requires": [
+      "Scansys Image Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

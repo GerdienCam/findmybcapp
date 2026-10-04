@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_rental_and_consumption|PAPPID.cb40ef17-c3e2-4f07-8a56-d753610c2528",
+  "guid": "cb40ef17-c3e2-4f07-8a56-d753610c2528",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_rental_and_consumption",
+  "source": {
+    "name": "Dynavision Rental And Consumption",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_rental_and_consumption%7CPAPPID.cb40ef17-c3e2-4f07-8a56-d753610c2528",
+    "lastModified": "2026-10-02T09:52:02.8390667+00:00",
+    "appVersion": "28.0.0.46870",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Rental_and_Consumption_Manual.pdf",
+    "sourceHash": "sha256:23e5a0eab18f45c50e527cdac56d6eecfd414bc2d8d397aa2a7c7270334f2f94"
+  },
+  "mapping": {
+    "sourceHash": "sha256:23e5a0eab18f45c50e527cdac56d6eecfd414bc2d8d397aa2a7c7270334f2f94",
+    "mappedOn": null,
+    "summary": "Manages equipment rental and consumption events",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Availability overview of rental items in and out",
+      "Reserved rental items move to a different stock and bin location",
+      "Add consumables to rental orders and bill afterwards",
+      "Calculates used vs unused consumables on return",
+      "Handles deposits for empties/reusable packaging",
+      "Calculates rental fees"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [
+      "Beverage",
+      "Wholesale"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Dynavision Drinkmaster 365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

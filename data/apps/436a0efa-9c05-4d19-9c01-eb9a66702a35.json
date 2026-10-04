@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.ibanvalidation|PAPPID.436a0efa-9c05-4d19-9c01-eb9a66702a35",
+  "guid": "436a0efa-9c05-4d19-9c01-eb9a66702a35",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "ibanvalidation",
+  "source": {
+    "name": "IBAN Validation",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.ibanvalidation%7CPAPPID.436a0efa-9c05-4d19-9c01-eb9a66702a35",
+    "lastModified": "2026-05-25T06:35:45.6394413+00:00",
+    "appVersion": "1.0.0.5",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://matchbusinesscentral.com/pages/IBAN-Validation",
+    "sourceHash": "sha256:5c4f67057723f6a0c612083588aae314f7f34cd0aebc2a8c9abd546f4fa4eeba"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5c4f67057723f6a0c612083588aae314f7f34cd0aebc2a8c9abd546f4fa4eeba",
+    "mappedOn": null,
+    "summary": "Validates IBANs and retrieves bank info",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding",
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Validates IBANs against IBANAPI.com in real time",
+      "Retrieves bank, branch, account number, address, phone for valid IBANs",
+      "Available on vendor, customer, company bank accounts, employees, company info",
+      "Free allowance: 200 full and 800 basic checks per month",
+      "Own IBANAPI.com API key usable beyond free allowance"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "IBANAPI.com"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

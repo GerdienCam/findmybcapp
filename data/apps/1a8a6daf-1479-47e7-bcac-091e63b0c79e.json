@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.curabisaps1668520554988|AID.waybill|PAPPID.1a8a6daf-1479-47e7-bcac-091e63b0c79e",
+  "guid": "1a8a6daf-1479-47e7-bcac-091e63b0c79e",
+  "publisherId": "curabisaps1668520554988",
+  "offerId": "waybill",
+  "source": {
+    "name": "Waybill 365 App",
+    "publisher": "Curabis ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.curabisaps1668520554988%7CAID.waybill%7CPAPPID.1a8a6daf-1479-47e7-bcac-091e63b0c79e",
+    "lastModified": "2026-07-23T14:14:30.4607809+00:00",
+    "appVersion": "27.0.1.25",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://curabis.dk/support-paa-business-central/",
+    "sourceHash": "sha256:a699c57cecb2701bbf6732b9c0325cb957a2a6714a3935bd8096f49578ec3a1d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a699c57cecb2701bbf6732b9c0325cb957a2a6714a3935bd8096f49578ec3a1d",
+    "mappedOn": null,
+    "summary": "Creates Danske Fragtmænd waybills and shipments",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading",
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "Creates Danske Fragtmænd waybills from released sales orders in one click",
+      "Automatic printing of waybills, labels and dispatch documents incl. PrintNode",
+      "Real-time shipment tracking stored in BC",
+      "Hazardous goods, delivery without signature, inside delivery and pallets",
+      "Role center for packing staff",
+      "Freight agreement terms embedded in workflows",
+      "Daily consolidated pickup list transmitted electronically with barcode report",
+      "Group and stamp waybills for traceability"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Danske Fragtmænd",
+      "PrintNode"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

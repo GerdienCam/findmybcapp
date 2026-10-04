@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.abakion|AID.graphical_inventory_profile|PAPPID.5c4c047b-7111-44d5-ba66-3daff1f0643b",
+  "guid": "5c4c047b-7111-44d5-ba66-3daff1f0643b",
+  "publisherId": "abakion",
+  "offerId": "graphical_inventory_profile",
+  "source": {
+    "name": "Graphical Inventory Profile",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.graphical_inventory_profile%7CPAPPID.5c4c047b-7111-44d5-ba66-3daff1f0643b",
+    "lastModified": "2026-05-05T09:03:46.0967385+00:00",
+    "appVersion": "28.0.202618.163923",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/graphical-inventory-profile/",
+    "sourceHash": "sha256:0c989cd1f33cc26df2962d02133d3f7836a4aeae4b88c3f92aa20846a82d236e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0c989cd1f33cc26df2962d02133d3f7836a4aeae4b88c3f92aa20846a82d236e",
+    "mappedOn": null,
+    "summary": "Graphical view of future item demand and supply",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Graphical overview of future inventory status per item",
+      "Shows future supply issues per product and how to address them",
+      "Accessible from purchase orders and item cards",
+      "Distinguishes requirements from forecasts vs actual orders",
+      "Hover to see each stock movement",
+      "Sales sees expected in- and out-of-stock dates"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

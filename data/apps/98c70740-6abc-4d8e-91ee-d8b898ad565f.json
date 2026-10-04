@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.golden_edi|AID.goldenedi-order-agent|PAPPID.98c70740-6abc-4d8e-91ee-d8b898ad565f",
+  "guid": "98c70740-6abc-4d8e-91ee-d8b898ad565f",
+  "publisherId": "golden_edi",
+  "offerId": "goldenedi-order-agent",
+  "source": {
+    "name": "Golden EDI Order Agent",
+    "publisher": "Golden EDI AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.golden_edi%7CAID.goldenedi-order-agent%7CPAPPID.98c70740-6abc-4d8e-91ee-d8b898ad565f",
+    "lastModified": "2026-09-30T06:48:47.0285052+00:00",
+    "appVersion": "29.0.162.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.goldenedi.com/support",
+    "sourceHash": "sha256:77e8192b78e5d8c9ca7f4f5fa14c8e64ab63088d5c7cfef9d4f6f3c1a9fc7b7a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:77e8192b78e5d8c9ca7f4f5fa14c8e64ab63088d5c7cfef9d4f6f3c1a9fc7b7a",
+    "mappedOn": null,
+    "summary": "AI converts incoming customer orders into sales orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-edi"
+    ],
+    "claims": [
+      "Converts incoming orders to validated sales orders using AI",
+      "Handles PDF, XML, PEPPOL and EDI orders",
+      "Workspace to review, resolve exceptions and approve",
+      "Auto-creates orders meeting business rules",
+      "Customer and item matching"
+    ],
+    "countries": [
+      "DE",
+      "DK",
+      "FI",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Golden EDI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

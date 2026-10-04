@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex07003_mesforhandlingunits|PAPPID.b58719bf-b1c7-4f0d-a482-860c557d3883",
+  "guid": "b58719bf-b1c7-4f0d-a482-860c557d3883",
+  "publisherId": "eos_solutions",
+  "offerId": "ex07003_mesforhandlingunits",
+  "source": {
+    "name": "MES for Handling Units",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex07003_mesforhandlingunits%7CPAPPID.b58719bf-b1c7-4f0d-a482-860c557d3883",
+    "lastModified": "2026-04-13T17:23:21.4828689+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/mes-manufacturing-execution-system.html",
+    "sourceHash": "sha256:64e8d85d222a61ede4ddafec442b8875a923dbb67fa1848627df8227e3a7a1bb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:64e8d85d222a61ede4ddafec442b8875a923dbb67fa1848627df8227e3a7a1bb",
+    "mappedOn": null,
+    "summary": "Packaging instructions and handling units from PowerMES on production orders",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Assign packaging material or a handling unit while posting output",
+      "Packaging instructions on production orders",
+      "Packaging instructions entered from department workstations",
+      "Needs EOS Power MES plus EOS Handling Units Management"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Power MES",
+      "EOS Handling Units Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

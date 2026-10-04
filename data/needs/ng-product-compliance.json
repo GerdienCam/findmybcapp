@@ -1,0 +1,289 @@
+{
+  "id": "ng-product-compliance",
+  "order": 64,
+  "label": "Product compliance data and certifications",
+  "description": "Keeping product compliance documents, regulatory data and quality certifications up to date and audit-ready.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "medium",
+  "statements": [
+    "Product compliance data and certifications",
+    "Keeping product compliance documents, regulatory data and quality certifications up to date and audit-ready.",
+    "We need to send the right safety data sheet with every chemical shipment",
+    "Is there an app to manage MSDS documents per item in BC?",
+    "dangerous goods classification on items",
+    "Packaging weight reporting for EPR is done by hand every quarter",
+    "We have to prove REACH compliance per product for our customers",
+    "Our transport documents need UN numbers and hazard classes from the item",
+    "CE marking and certificates per product are stored on a shared drive nobody can find",
+    "Plastic tax and packaging registration need material data per item",
+    "How do we block selling a product to a country where it isn't approved?",
+    "We sell batteries and electronics and need WEEE data per item",
+    "Customers ask for conflict minerals declarations per product",
+    "The regulator wants a master manufacturing record for every product",
+    "Our ISO 9001 audit is coming and we cannot show who approved which test",
+    "We need electronic signatures on quality approvals in BC",
+    "calibration records audit trail",
+    "How do we prove to the auditor that instruments were calibrated when used?",
+    "GMP requires a full log of changes to quality data",
+    "Is there an app to keep our food safety certification paperwork in order?"
+  ],
+  "questions": [
+    {
+      "id": "area",
+      "text": "Which kind of compliance do you need to handle?",
+      "help": "Pick every area that applies to your products.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Food: allergens, ingredients, nutrition",
+          "patterns": [
+            "allergen",
+            "nutrition",
+            "ingredient"
+          ]
+        },
+        {
+          "label": "Hazardous goods and safety data sheets",
+          "patterns": [
+            "hazard",
+            "dangerous goods",
+            "\\badr\\b",
+            "safety data sheets?",
+            "\\bsds\\b",
+            "msds",
+            "\\bghs\\b",
+            "un numbers"
+          ]
+        },
+        {
+          "label": "Export control, customs and origin",
+          "patterns": [
+            "export control",
+            "export restriction",
+            "embargo",
+            "customs",
+            "hs code",
+            "tariff",
+            "origin status"
+          ]
+        },
+        {
+          "label": "EU green rules: EUDR, packaging (PPWR), product passport",
+          "patterns": [
+            "eudr",
+            "deforestation",
+            "ppwr",
+            "product passport",
+            "\\bespr\\b"
+          ]
+        },
+        {
+          "label": "Certificates and audit documents (ISO, IFS, FSC...)",
+          "patterns": [
+            "certifications?",
+            "scope certificates",
+            "certificate of analysis",
+            "\\biso\\b",
+            "\\bifs\\b",
+            "compliance documents"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Food: allergens, ingredients, nutrition": 0.15,
+        "Hazardous goods and safety data sheets": 0.3,
+        "Export control, customs and origin": 0.2,
+        "EU green rules: EUDR, packaging (PPWR), product passport": 0.25,
+        "Certificates and audit documents (ISO, IFS, FSC...)": 0.15
+      }
+    },
+    {
+      "id": "source",
+      "text": "Where does your compliance data come from?",
+      "help": "Pick the main sources.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Rolled up from our own BOMs and recipes",
+          "patterns": [
+            "\\bboms?\\b",
+            "recipes"
+          ]
+        },
+        {
+          "label": "Declarations or answers from suppliers",
+          "patterns": [
+            "supplier declarations?",
+            "supplier surveys?",
+            "supplier answers",
+            "vendor eudr",
+            "single supplier"
+          ]
+        },
+        {
+          "label": "A specialist external system or registry",
+          "patterns": [
+            "connects (bc )?to",
+            "chemdox",
+            "\\bepos\\b",
+            "foodchain id",
+            "gudid",
+            "eudamed",
+            "dbh advantage",
+            "from customs authorities"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Rolled up from our own BOMs and recipes": 0.25,
+        "Declarations or answers from suppliers": 0.2,
+        "A specialist external system or registry": 0.25
+      }
+    },
+    {
+      "id": "checkpoint",
+      "text": "Where should compliance show up or block you?",
+      "help": "Pick the documents where it matters.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Sales quotes, orders and invoices",
+          "patterns": [
+            "sales (orders?|quotes?|documents?|processes)",
+            "sales order and invoice",
+            "items sold",
+            "on sales"
+          ]
+        },
+        {
+          "label": "Purchases and goods receipts",
+          "patterns": [
+            "purchase",
+            "goods receipts?"
+          ]
+        },
+        {
+          "label": "Shipping documents and labels",
+          "patterns": [
+            "delivery notes?",
+            "shipping documentation",
+            "accompanying documents",
+            "labels?\\b"
+          ]
+        },
+        {
+          "label": "Production orders",
+          "patterns": [
+            "production orders?",
+            "from production",
+            "production boms"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sales quotes, orders and invoices": 0.25,
+        "Purchases and goods receipts": 0.15,
+        "Shipping documents and labels": 0.25,
+        "Production orders": 0.15
+      }
+    },
+    {
+      "id": "output",
+      "text": "What must you hand to customers or authorities?",
+      "help": "Pick the outputs you are asked for.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Safety data sheets",
+          "patterns": [
+            "safety data sheets?",
+            "\\bsds\\b"
+          ]
+        },
+        {
+          "label": "Declarations, statements or certificates",
+          "patterns": [
+            "declaration of conformity",
+            "due diligence",
+            "certificate of analysis",
+            "conformity declarations",
+            "supplier declaration"
+          ]
+        },
+        {
+          "label": "Filings to an authority database",
+          "patterns": [
+            "gudid",
+            "eudamed",
+            "statement submission",
+            "imports hs codes"
+          ]
+        },
+        {
+          "label": "Product labels or passports",
+          "patterns": [
+            "labels?\\b",
+            "product passport",
+            "qr code"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Safety data sheets": 0.15,
+        "Declarations, statements or certificates": 0.25,
+        "Filings to an authority database": 0.1,
+        "Product labels or passports": 0.2
+      }
+    },
+    {
+      "id": "lot",
+      "text": "Do you need compliance traced per lot or batch?",
+      "help": "For example a declaration or certificate tied to a specific delivery.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, per lot or batch",
+          "patterns": [
+            "\\blots?\\b",
+            "transaction certificates"
+          ]
+        },
+        {
+          "label": "No, per item is enough",
+          "patterns": [
+            "on items",
+            "per item",
+            "item card",
+            "item master",
+            "to items"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, per lot or batch": 0.2,
+        "No, per item is enough": 0.4
+      }
+    }
+  ]
+}

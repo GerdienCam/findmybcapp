@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.anveogroup-1403319|AID.anveo_delivery_app|PAPPID.9a270408-1753-48e2-828c-9db178ce8457",
+  "guid": "9a270408-1753-48e2-828c-9db178ce8457",
+  "publisherId": "anveogroup-1403319",
+  "offerId": "anveo_delivery_app",
+  "source": {
+    "name": "Anvaigo Delivery App",
+    "publisher": "conion media GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.anveogroup-1403319%7CAID.anveo_delivery_app%7CPAPPID.9a270408-1753-48e2-828c-9db178ce8457",
+    "lastModified": "2026-01-22T08:51:09.2092653+00:00",
+    "appVersion": "1.0.2.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://anvaigo.cc/docs-app",
+    "sourceHash": "sha256:4307ebf7f15135f12fbe8a4d19b140220580275570289d530a5044ce1ec14990"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4307ebf7f15135f12fbe8a4d19b140220580275570289d530a5044ce1ec14990",
+    "mappedOn": null,
+    "summary": "Mobile app for drivers to manage deliveries and proof of delivery",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns"
+    ],
+    "claims": [
+      "Mobile delivery app for drivers with full offline capability",
+      "GPS navigation to delivery locations",
+      "Delivery proof captured as signatures or photos",
+      "Records returns and documents damages on delivery",
+      "Background synchronization with the back office",
+      "Back office can trigger invoicing immediately after delivery",
+      "Runs on iPad, iPhone and Android"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

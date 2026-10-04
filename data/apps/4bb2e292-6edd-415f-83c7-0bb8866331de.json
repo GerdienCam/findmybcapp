@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.bcility1636664056498|AID.bcility-external-file-storage-cloudflare-r2|PAPPID.4bb2e292-6edd-415f-83c7-0bb8866331de",
+  "guid": "4bb2e292-6edd-415f-83c7-0bb8866331de",
+  "publisherId": "bcility1636664056498",
+  "offerId": "bcility-external-file-storage-cloudflare-r2",
+  "source": {
+    "name": "External File Storage - Cloudflare R2 Connector",
+    "publisher": "BCILITY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcility1636664056498%7CAID.bcility-external-file-storage-cloudflare-r2%7CPAPPID.4bb2e292-6edd-415f-83c7-0bb8866331de",
+    "lastModified": "2026-01-05T13:34:31.7742876+00:00",
+    "appVersion": "27.0.0.9",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcility.com/about-us/",
+    "sourceHash": "sha256:20942bf01984b86bc7ce729008c793d7b6b0fdf5b04c4802a90a18c8ace443a9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:20942bf01984b86bc7ce729008c793d7b6b0fdf5b04c4802a90a18c8ace443a9",
+    "mappedOn": null,
+    "summary": "Connects BC external file storage to Cloudflare R2",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Stores BC files in Cloudflare R2",
+      "Can delete, move, copy, read and create files",
+      "Folder management",
+      "Multiple R2 accounts per company",
+      "Setup wizard with validation",
+      "Requires BC version 26.0 or later"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Cloudflare R2"
+    ],
+    "requires": [
+      "External File Storage Module"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.astral365|AID.astral_apply|PAPPID.61388381-d119-48ef-871a-312e4620f7b7",
+  "guid": "61388381-d119-48ef-871a-312e4620f7b7",
+  "publisherId": "astral365",
+  "offerId": "astral_apply",
+  "source": {
+    "name": "Astral Apply",
+    "publisher": "Astral 365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.astral365%7CAID.astral_apply%7CPAPPID.61388381-d119-48ef-871a-312e4620f7b7",
+    "lastModified": "2026-03-19T18:33:31.7995158+00:00",
+    "appVersion": "2.0.26.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.astral365.com/Products/AstralApply/Help",
+    "sourceHash": "sha256:3ed9d1009ecbe527bfb7221bd5bf368e3c953be772e882a4ca923a85b259c01a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3ed9d1009ecbe527bfb7221bd5bf368e3c953be772e882a4ca923a85b259c01a",
+    "mappedOn": null,
+    "summary": "Applies open general ledger entries against each other",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Apply G/L entries against each other",
+      "Auto-apply for customer, vendor and employee ledgers",
+      "Balance field on customer, vendor and employee lists highlighting zero balances with open entries",
+      "Auto-apply with one click or via job queue",
+      "Tracks auto-applied application history"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

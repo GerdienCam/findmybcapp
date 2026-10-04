@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.applibra|AID.al_catch_weight_management|PAPPID.560e637f-3490-4891-9180-566c387e6671",
+  "guid": "560e637f-3490-4891-9180-566c387e6671",
+  "publisherId": "applibra",
+  "offerId": "al_catch_weight_management",
+  "source": {
+    "name": "AL Catch Weight Management",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_catch_weight_management%7CPAPPID.560e637f-3490-4891-9180-566c387e6671",
+    "lastModified": "2026-10-02T08:44:02.1499928+00:00",
+    "appVersion": "28.0.26.10011724",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://applibra.com/apps/al-weight-management/help",
+    "sourceHash": "sha256:2bd5248259f4af3b782cf8e411e51e9b02a65de1fc8a8fc90e5a959596ef8001"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2bd5248259f4af3b782cf8e411e51e9b02a65de1fc8a8fc90e5a959596ef8001",
+    "mappedOn": null,
+    "summary": "Catch-weight handling with pricing, costing and traceability",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing",
+      "ng-lot-serial-traceability",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Dual unit of measure: handling unit and accounting (weight/volume) unit on item and lines",
+      "Price and post on actual weight",
+      "Uses standard price lists for accounting unit price",
+      "Weigh page per lot/package/pallet: manual, from dimensions or from scales",
+      "Weigh & Assign Lots captures weight and tracking in one step",
+      "Weight Ledger Entries linked to Item Ledger Entries for shrinkage/yield analysis",
+      "Spans warehouse, inventory, production, transfer, purchase and sales",
+      "Weight computed from length/width/height/diameter",
+      "Requires BC online version 28.0 or higher"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Food & Beverage",
+      "Logistics",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

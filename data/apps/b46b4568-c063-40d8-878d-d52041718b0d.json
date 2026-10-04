@@ -1,0 +1,102 @@
+{
+  "appId": "PUBID.centralsolutions1591256491708|AID.cs_transfer_management|PAPPID.b46b4568-c063-40d8-878d-d52041718b0d",
+  "guid": "b46b4568-c063-40d8-878d-d52041718b0d",
+  "publisherId": "centralsolutions1591256491708",
+  "offerId": "cs_transfer_management",
+  "source": {
+    "name": "CS Transfer Management",
+    "publisher": "Central Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cs_transfer_management%7CPAPPID.b46b4568-c063-40d8-878d-d52041718b0d",
+    "lastModified": "2026-07-21T22:26:17.4133452+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://central-solutions.nl/cs-transfer-management-help-en/",
+    "sourceHash": "sha256:297070e6d945fa60d682f2b06d9b2b8110fcae232e9fd6ad4e6e28ad4d34696d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:297070e6d945fa60d682f2b06d9b2b8110fcae232e9fd6ad4e6e28ad4d34696d",
+    "mappedOn": null,
+    "summary": "Creates combined purchase, assembly and transfer orders from templates",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-stock-movements",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Initiates the full supply chain from purchase or assembly orders via templates and transfer routes",
+      "Auto-moves posted receipts in transshipment locations to next transfer orders",
+      "Posts inventory ownership value at any point in the supply chain",
+      "Records original source numbers on item ledger entries",
+      "Shipment info on transfers: container number, bill of lading, customs invoice",
+      "Expected receipt dates at final destination on purchase orders",
+      "Container assembly from multiple purchase orders and suppliers"
+    ],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "DO",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

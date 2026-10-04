@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-mobile-rent|PAPPID.38843c03-fa0c-405b-b9e1-c8f72eb1b09d",
+  "guid": "38843c03-fa0c-405b-b9e1-c8f72eb1b09d",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-mobile-rent",
+  "source": {
+    "name": "Aptean Mobile Rental",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-mobile-rent%7CPAPPID.38843c03-fa0c-405b-b9e1-c8f72eb1b09d",
+    "lastModified": "2026-06-30T10:30:30.4338043+00:00",
+    "appVersion": "2603.260500.20260602.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.traser-software.de/en-US/aptean-mobile-rental",
+    "sourceHash": "sha256:ff488699b5930ad800e87f4736124c6068203956e0cffbe0a71c7a257ce87dca"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ff488699b5930ad800e87f4736124c6068203956e0cffbe0a71c7a257ce87dca",
+    "mappedOn": null,
+    "summary": "Mobile rental processes with checklists and signatures",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Mobile checklists for picking rental objects",
+      "Damage documentation with pictures and text",
+      "Captures customer signatures for handover and return",
+      "Filterable rental order overview and search across contracts",
+      "Edit location and bin for rental objects on return",
+      "Capture counter readings",
+      "Edit variable costs like fuel on rental objects",
+      "Partial delivery and return by editing quantities",
+      "Set damage status on return",
+      "Create new rental orders from mobile",
+      "Calls, navigation and email via other apps"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Aptean Rental"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

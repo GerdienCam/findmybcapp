@@ -1,0 +1,190 @@
+{
+  "id": "ng-vert-hospitality",
+  "order": 218,
+  "label": "Solutions for restaurants, hotels and attractions",
+  "description": "Hospitality solutions on or connected to BC: restaurant POS and kitchen display, catering and commercial kitchens, hotels and booking systems, attractions with ticketing and memberships, travel operators.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for restaurants, hotels and attractions",
+    "Hospitality solutions on or connected to BC: restaurant POS and kitchen display, catering and commercial kitchens, hotels and booking systems, attractions with ticketing and memberships, travel operators.",
+    "Restaurant group with 8 locations on BC",
+    "restaurant POS integrated with Business Central",
+    "Kitchen display and table service",
+    "Catering company planning menus and ingredients",
+    "Hotel PMS data into BC finance",
+    "Theme park ticketing and memberships",
+    "Museum with shop, café and tickets",
+    "Travel agency mid and back office",
+    "Recipes and food cost per dish",
+    "Booking system revenue posted daily",
+    "Canteen operator with contracts per site",
+    "Hospitality chain with central purchasing"
+  ],
+  "questions": [
+    {
+      "id": "business",
+      "text": "What kind of hospitality business are you?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Restaurant or café",
+          "patterns": [
+            "restaurant",
+            "caf[eé]",
+            "kitchen display",
+            "\\bpos\\b",
+            "micros",
+            "table"
+          ]
+        },
+        {
+          "label": "Hotel or resort",
+          "patterns": [
+            "hotel",
+            "resort",
+            "\\bpms\\b",
+            "room",
+            "serviced apartments"
+          ]
+        },
+        {
+          "label": "Catering, canteen or central kitchen",
+          "patterns": [
+            "caterer",
+            "canteen",
+            "meal",
+            "central kitchen",
+            "commercial kitchen",
+            "school"
+          ]
+        },
+        {
+          "label": "Attraction, tours or travel",
+          "patterns": [
+            "attraction",
+            "museum",
+            "theme park",
+            "zoo",
+            "ticket",
+            "tour",
+            "travel",
+            "b[oó]kun"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Restaurant or café": 0.53,
+        "Hotel or resort": 0.2,
+        "Catering, canteen or central kitchen": 0.27,
+        "Attraction, tours or travel": 0.27
+      }
+    },
+    {
+      "id": "existing",
+      "text": "Do you already run a booking, POS or hotel system you want to keep?",
+      "options": [
+        {
+          "label": "Yes, connect it to BC",
+          "patterns": [
+            "import",
+            "integrat",
+            "connect",
+            "sync",
+            "transfers",
+            "fetches"
+          ]
+        },
+        {
+          "label": "No, we want it all inside BC",
+          "patterns": [
+            "all-in-one",
+            "in one (database|place)",
+            "manages ingredients",
+            "one, modular",
+            "manages rooms",
+            "issues tickets",
+            "runs on stationary pos"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, connect it to BC": 0.53,
+        "No, we want it all inside BC": 0.27
+      }
+    },
+    {
+      "id": "food",
+      "text": "Do you need recipes, allergens or meal planning?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "recipe",
+            "allergen",
+            "ingredient",
+            "nutri",
+            "meal planning",
+            "menu plan"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.33
+      }
+    },
+    {
+      "id": "guests",
+      "text": "What do guests do directly with you?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Book rooms, tables or activities",
+          "patterns": [
+            "reservation",
+            "booking"
+          ]
+        },
+        {
+          "label": "Buy tickets or memberships",
+          "patterns": [
+            "ticket",
+            "membership"
+          ]
+        },
+        {
+          "label": "Order and pay at a till or table",
+          "patterns": [
+            "\\bpos\\b",
+            "pay at the table",
+            "split (the )?bill",
+            "order-taking",
+            "payments"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Book rooms, tables or activities": 0.2,
+        "Buy tickets or memberships": 0.07,
+        "Order and pay at a till or table": 0.27
+      }
+    }
+  ]
+}

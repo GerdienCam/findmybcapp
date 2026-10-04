@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.columbus-estonia|AID.failed_queue_notifier|PAPPID.ca08d526-a8e4-4afd-a74c-43fe300ab998",
+  "guid": "ca08d526-a8e4-4afd-a74c-43fe300ab998",
+  "publisherId": "columbus-estonia",
+  "offerId": "failed_queue_notifier",
+  "source": {
+    "name": "Failed Queue Notifier",
+    "publisher": "OIXIO Estonia",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.columbus-estonia%7CAID.failed_queue_notifier%7CPAPPID.ca08d526-a8e4-4afd-a74c-43fe300ab998",
+    "lastModified": "2025-08-13T10:14:07.320739+00:00",
+    "appVersion": "25.0.250813.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.oixio.eu/jobqueue/jobqueue_index.en/",
+    "sourceHash": "sha256:9dbb444f0a274d2f540eb1e228e69feb67ee8fb88b0f44190f5cf4f14dbf2d18"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9dbb444f0a274d2f540eb1e228e69feb67ee8fb88b0f44190f5cf4f14dbf2d18",
+    "mappedOn": null,
+    "summary": "Alerts and auto-restarts failed job queue entries",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Notifications about failed job queue entries",
+      "Automatically restarts failed job queue entries",
+      "Rule-based automatic job queue management",
+      "Custom job queue settings"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.erpgruppen|AID.economic_converter|PAPPID.efae6a9b-d98e-464e-ada6-bfe91b0d3a85",
+  "guid": "efae6a9b-d98e-464e-ada6-bfe91b0d3a85",
+  "publisherId": "erpgruppen",
+  "offerId": "economic_converter",
+  "source": {
+    "name": "e-conomic converter",
+    "publisher": "ERPgruppen",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpgruppen%7CAID.economic_converter%7CPAPPID.efae6a9b-d98e-464e-ada6-bfe91b0d3a85",
+    "lastModified": "2026-07-02T06:02:36.4209+00:00",
+    "appVersion": "2603.0.0.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.erpgruppen.dk/kontakt/",
+    "sourceHash": "sha256:6dfd0c78a704804e687ef3a037748676461166f08f2e41cc1600aaa4003e77a6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6dfd0c78a704804e687ef3a037748676461166f08f2e41cc1600aaa4003e77a6",
+    "mappedOn": null,
+    "summary": "Migrates data from e-conomic to BC",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-cloud-upgrade"
+    ],
+    "claims": [
+      "Migrates data from e-conomic to BC",
+      "Migrates chart of accounts, customers, vendors, items and G/L entries",
+      "Only available in Denmark",
+      "Conversion performed by publisher for a fixed fee",
+      "Optional Rackbeat inventory data migration"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "e-conomic",
+      "Rackbeat"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

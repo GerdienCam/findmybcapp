@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_cobox_connector|PAPPID.61e852b8-d9a8-4f77-8124-8304dd4ffd76",
+  "guid": "61e852b8-d9a8-4f77-8124-8304dd4ffd76",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_cobox_connector",
+  "source": {
+    "name": "Cobox Connector",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_cobox_connector%7CPAPPID.61e852b8-d9a8-4f77-8124-8304dd4ffd76",
+    "lastModified": "2026-09-17T05:08:20.696006+00:00",
+    "appVersion": "28.0.1.49207",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.cobox.cc/contact",
+    "sourceHash": "sha256:f65a80d3a9b64cba30415adb9c1a0b9c84253afcce29822f327c5066b5f8457f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f65a80d3a9b64cba30415adb9c1a0b9c84253afcce29822f327c5066b5f8457f",
+    "mappedOn": null,
+    "summary": "AI document processing and approval flows via Cobox",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "AI-based document processing via Cobox",
+      "Advanced document classification",
+      "AI driven document recognition",
+      "Approval flows"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Cobox"
+    ],
+    "requires": [
+      "Cobox"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

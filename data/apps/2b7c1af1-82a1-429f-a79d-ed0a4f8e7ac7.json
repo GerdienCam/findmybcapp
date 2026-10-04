@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.binarylabptyltd1739437691778|AID.bnlsalesassistoffer01|PAPPID.2b7c1af1-82a1-429f-a79d-ed0a4f8e7ac7",
+  "guid": "2b7c1af1-82a1-429f-a79d-ed0a4f8e7ac7",
+  "publisherId": "binarylabptyltd1739437691778",
+  "offerId": "bnlsalesassistoffer01",
+  "source": {
+    "name": "Sales Assist",
+    "publisher": "Binary Lab (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binarylabptyltd1739437691778%7CAID.bnlsalesassistoffer01%7CPAPPID.2b7c1af1-82a1-429f-a79d-ed0a4f8e7ac7",
+    "lastModified": "2026-01-08T13:28:30.0625424+00:00",
+    "appVersion": "2200.260108.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://binarylab.co.za/sales-assist",
+    "sourceHash": "sha256:d7b0bae61603d701ffb27a5496cff3a58646887f7277c22396963bf8c334d3a7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d7b0bae61603d701ffb27a5496cff3a58646887f7277c22396963bf8c334d3a7",
+    "mappedOn": null,
+    "summary": "Adds related items from a master line on sales documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-entry"
+    ],
+    "claims": [
+      "Sales Assist Groups of related items, resources, charges and accounts",
+      "Groups linked to master items or resources",
+      "Suggests related components when master item added to quote, order or invoice"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

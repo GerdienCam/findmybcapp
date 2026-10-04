@@ -1,0 +1,229 @@
+{
+  "id": "ng-vert-equipment-rental",
+  "order": 206,
+  "label": "Solutions for equipment rental companies",
+  "description": "Rental management: reservations, availability calendars, rental contracts, deliveries and returns, billing per period or usage, damage and service between hires, for equipment, tools, containers and vehicles.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "high",
+  "statements": [
+    "Solutions for equipment rental companies",
+    "Rental management: reservations, availability calendars, rental contracts, deliveries and returns, billing per period or usage, damage and service between hires, for equipment, tools, containers and vehicles.",
+    "We rent out machines and track availability on a whiteboard",
+    "rental software for Business Central",
+    "Rental invoicing per day, week and month",
+    "Which excavator is free next Tuesday?",
+    "Damage found on return needs to be charged",
+    "Off-hire and pick-up from site",
+    "Tool hire shop with a counter",
+    "Containers rented, sold and repaired",
+    "Service between rentals before the next customer",
+    "Rental contracts with meter readings",
+    "Event equipment rental with packages",
+    "Fleet utilization per machine",
+    "We do both sales and rental of the same equipment",
+    "Rent-to-own contracts",
+    "Delivery and collection planning for rented items",
+    "Insurance and deposits on hires",
+    "Credit memo when the customer returns early",
+    "Cross-rent from other rental companies",
+    "Construction machinery rental across several depots",
+    "Billing runs for 2,000 open rental contracts"
+  ],
+  "questions": [
+    {
+      "id": "what",
+      "text": "What do you rent out?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Machines, vehicles and construction equipment",
+          "patterns": [
+            "machine",
+            "construction",
+            "work platforms",
+            "equipment",
+            "vehicle",
+            "car rent"
+          ]
+        },
+        {
+          "label": "Bulk items, containers or accessories",
+          "patterns": [
+            "bulk items",
+            "mass articles",
+            "containers",
+            "accessories",
+            "non-numbered",
+            "multiple units",
+            "consumables"
+          ]
+        },
+        {
+          "label": "Tools, electronics or event gear",
+          "patterns": [
+            "tools",
+            "electronics",
+            "event",
+            "drink"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Machines, vehicles and construction equipment": 0.54,
+        "Bulk items, containers or accessories": 0.32,
+        "Tools, electronics or event gear": 0.11
+      }
+    },
+    {
+      "id": "billing",
+      "text": "How do you bill your rentals?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Per period (day, week, month)",
+          "patterns": [
+            "per (day|week|month)",
+            "days or months",
+            "weekly/monthly",
+            "recurring rental",
+            "periodic",
+            "long-term rents",
+            "mass invoicing",
+            "duration",
+            "rental (pricing|prices|rates)",
+            "rental billing"
+          ]
+        },
+        {
+          "label": "By usage (hours, fuel, wear, meter readings)",
+          "patterns": [
+            "usage",
+            "consumption",
+            "fuel",
+            "counter readings",
+            "hours used",
+            "variable"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Per period (day, week, month)": 0.39,
+        "By usage (hours, fuel, wear, meter readings)": 0.25
+      }
+    },
+    {
+      "id": "field",
+      "text": "Do your drivers or depot staff hand over and take back equipment with a phone or tablet?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, mobile check-out and return",
+          "patterns": [
+            "mobile",
+            "scanning",
+            "barcode"
+          ]
+        },
+        {
+          "label": "Yes, with customer signature",
+          "patterns": [
+            "signature",
+            "e-?sign"
+          ]
+        },
+        {
+          "label": "Yes, with photos and checklists",
+          "patterns": [
+            "checklist",
+            "pictures",
+            "protocol"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, mobile check-out and return": 0.14,
+        "Yes, with customer signature": 0.21,
+        "Yes, with photos and checklists": 0.14
+      }
+    },
+    {
+      "id": "service",
+      "text": "What happens to equipment between hires?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Planned service and maintenance",
+          "patterns": [
+            "service",
+            "maintenance",
+            "workshop",
+            "inspection",
+            "quality control"
+          ]
+        },
+        {
+          "label": "Damage and history logged per unit",
+          "patterns": [
+            "damage",
+            "complete history",
+            "service histories",
+            "rent history",
+            "location and history"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Planned service and maintenance": 0.5,
+        "Damage and history logged per unit": 0.21
+      }
+    },
+    {
+      "id": "fleet",
+      "text": "Is your fleet spread across places or companies?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Several depots or locations",
+          "patterns": [
+            "depot",
+            "locations"
+          ]
+        },
+        {
+          "label": "Across group companies, or re-rented from other suppliers",
+          "patterns": [
+            "intercompany",
+            "group companies",
+            "across companies",
+            "re-?rent"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Several depots or locations": 0.18,
+        "Across group companies, or re-rented from other suppliers": 0.11
+      }
+    }
+  ]
+}

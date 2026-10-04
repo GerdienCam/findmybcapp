@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.directionalpteltd1597118356347|AID.sl365-1|PAPPID.b51397d4-d98a-4793-875e-ee7115f763a6",
+  "guid": "b51397d4-d98a-4793-875e-ee7115f763a6",
+  "publisherId": "directionalpteltd1597118356347",
+  "offerId": "sl365-1",
+  "source": {
+    "name": "Supply Logic 365",
+    "publisher": "Directional Pte Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.directionalpteltd1597118356347%7CAID.sl365-1%7CPAPPID.b51397d4-d98a-4793-875e-ee7115f763a6",
+    "lastModified": "2026-09-19T04:06:53.5227657+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://supply-logic.com/help",
+    "sourceHash": "sha256:e7cffc40973d9346d8588c1a6fad1e10747597b2e0ad810bfc8402dbda6a1e33"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e7cffc40973d9346d8588c1a6fad1e10747597b2e0ad810bfc8402dbda6a1e33",
+    "mappedOn": null,
+    "summary": "AI-powered RFQ automation for ship suppliers",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-wholesale-trading",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sourcing-rfq",
+      "ng-admin-copilot-agents"
+    ],
+    "claims": [
+      "Uses AI to capture RFQs from email, procurement portals, PDF, Excel and images",
+      "AI matches requested items to catalogue and purchasing history",
+      "IMPA/ISSA AI item matching",
+      "Quotes with multi-currency pricing, markups and contract pricing",
+      "Vendor comparison matrix and vendor e-form for supplier pricing",
+      "Transactions linked to vessel calls via voyage marking",
+      "Vessel IMO setup",
+      "Win/loss analysis",
+      "Barcode and QR scanning with AI-assisted replenishment",
+      "Warehouse receiving, picking, packing and bin transfers",
+      "ShipServ / Procureship API connectors (optional)",
+      "Agent, commission, rebates and markup management"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Maritime",
+      "Ship supply"
+    ],
+    "connectsTo": [
+      "ShipServ",
+      "Procureship",
+      "Marine Traffic",
+      "IMPA",
+      "ISSA"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Maritime ship supply / ship chandler vertical"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

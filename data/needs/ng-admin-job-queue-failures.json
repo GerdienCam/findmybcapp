@@ -1,0 +1,246 @@
+{
+  "id": "ng-admin-job-queue-failures",
+  "order": 164,
+  "label": "Job queue failures and restarts",
+  "description": "Monitoring job queue entries, understanding errors and retrying failed or stuck jobs.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "high",
+  "statements": [
+    "Job queue failures and restarts",
+    "Monitoring job queue entries, understanding errors and retrying failed or stuck jobs.",
+    "A job queue entry failed on Friday and we only found out on Wednesday",
+    "How do I get an email when a job queue entry goes to Error?",
+    "Is there an app that monitors the BC job queue and alerts IT?",
+    "job queue monitoring",
+    "Our nightly posting job just stopped and nobody noticed for a week",
+    "Jobs say 'In Process' for hours and I can't tell if they are running or dead",
+    "We want a dashboard of all job queue entries across all our companies",
+    "As a partner I want to see failed jobs across all my customers' environments in one place",
+    "Power Automate flows that touch BC fail and the person who built them left",
+    "Can the job queue send a Teams message to IT when something breaks?",
+    "The bank import job has been on hold since the update and nobody saw it",
+    "We need to know every morning that last night's jobs all completed",
+    "Job queue entries keep turning to On Hold by themselves",
+    "Our cost adjustment didn't run all month and the inventory value is wrong",
+    "Who is responsible for watching the job queue? Right now nobody is",
+    "I want a simple traffic light showing if background tasks are healthy",
+    "Jobs failing silently in BC online",
+    "Scheduled flows into BC are failing but the alerts go to an old mailbox",
+    "Can I see the job queue status on my phone?",
+    "How do we know if a job ran but processed zero records because something upstream broke?",
+    "Every Monday I have to set failed job queue entries back to Ready by hand",
+    "Can failed jobs retry automatically a few times before they give up?",
+    "After every BC update some jobs stay on hold until someone restarts them",
+    "job queue auto restart",
+    "A job is stuck In Process forever, how do I kill it and start again?",
+    "If the nightly job fails, can it rerun only for the records it missed?",
+    "Our jobs fail when the locking timeout hits and would work fine on a second try",
+    "We want a button to restart all failed jobs at once",
+    "Jobs that failed during the night should retry before people come in",
+    "Restarting a job sometimes creates double postings, how do we avoid that?",
+    "Can a job wait 10 minutes and try again if another user has the table locked?",
+    "How many retries should we set and what happens after the last one fails?",
+    "The job queue error message just says 'something went wrong', how do we find the real cause?",
+    "Batch posting job fails on one document and nothing else gets posted",
+    "Why does the job work when I run it manually but fail in the job queue?",
+    "job queue permission error",
+    "Jobs fail since the user who created them left the company",
+    "We want the job to skip the bad records, post the rest and give us a list of what failed",
+    "Which document actually caused the posting batch to stop?",
+    "Job failed because a dialog or confirm popped up in the background",
+    "Is there a way to get the full error call stack from a failed job queue entry?",
+    "When a job fails, who should fix the data, finance or IT?",
+    "Our job fails every first of the month because the posting period isn't open yet",
+    "Jobs from an ISV app fail after their update and I need to prove it is their app"
+  ],
+  "questions": [
+    {
+      "id": "channel",
+      "text": "Where should failure alerts reach you?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Email",
+          "patterns": [
+            "e-?mail"
+          ]
+        },
+        {
+          "label": "Teams or Slack",
+          "patterns": [
+            "teams",
+            "slack"
+          ]
+        },
+        {
+          "label": "Inside BC (Role Center)",
+          "patterns": [
+            "role ?cent(er|re)",
+            "cues"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Email": 0.67,
+        "Teams or Slack": 0.08,
+        "Inside BC (Role Center)": 0.08
+      }
+    },
+    {
+      "id": "restart",
+      "text": "Should failed jobs restart by themselves?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, restart automatically",
+          "patterns": [
+            "restart",
+            "reset",
+            "recover",
+            "error to ready",
+            "repair"
+          ]
+        },
+        {
+          "label": "Yes, with retry limits or delays",
+          "patterns": [
+            "restart.*(threshold|backoff|cooldown|attempt|cap\\b|minimum delay)",
+            "(threshold|backoff|cooldown|attempt).*restart"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, restart automatically": 0.62,
+        "Yes, with retry limits or delays": 0.12
+      }
+    },
+    {
+      "id": "admin",
+      "text": "Which admin extras matter to you?",
+      "multi": true,
+      "options": [
+        {
+          "label": "One overview across companies",
+          "patterns": [
+            "multi-?compan",
+            "across (all )?companies",
+            "cross-company",
+            "intercompany",
+            "all companies",
+            "companies in tenant"
+          ]
+        },
+        {
+          "label": "Set up many jobs at once",
+          "patterns": [
+            "bulk config",
+            "mass-update",
+            "single configuration",
+            "default job queue setup",
+            "one company and select",
+            "global preferences"
+          ]
+        },
+        {
+          "label": "Daily or weekly health digest",
+          "patterns": [
+            "digest"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "One overview across companies": 0.12,
+        "Set up many jobs at once": 0.21,
+        "Daily or weekly health digest": 0.08
+      }
+    },
+    {
+      "id": "watch",
+      "text": "Besides errors, what else should be watched?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Stuck or hanging jobs",
+          "patterns": [
+            "stuck",
+            "in process",
+            "heartbeat",
+            "fail-safe",
+            "watchdog"
+          ]
+        },
+        {
+          "label": "Successful runs",
+          "patterns": [
+            "success",
+            "completion"
+          ]
+        },
+        {
+          "label": "Job chains and dependencies",
+          "patterns": [
+            "chain",
+            "dependenc"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Stuck or hanging jobs": 0.21,
+        "Successful runs": 0.17,
+        "Job chains and dependencies": 0.04
+      }
+    },
+    {
+      "id": "who",
+      "text": "How should alerts be routed?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Different people per job or owner",
+          "patterns": [
+            "per[- ]entry",
+            "per job",
+            "per controlled job",
+            "which (job queue entries|users)",
+            "owner",
+            "per recipient",
+            "per shift",
+            "responsible"
+          ]
+        },
+        {
+          "label": "Only for critical jobs or by severity",
+          "patterns": [
+            "severity",
+            "critical"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Different people per job or owner": 0.29,
+        "Only for critical jobs or by severity": 0.08
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.newtechnologyresearch|AID.loan_module|PAPPID.caea2d78-d51d-4ec4-bdd4-c6ce6d8221fe",
+  "guid": "caea2d78-d51d-4ec4-bdd4-c6ce6d8221fe",
+  "publisherId": "newtechnologyresearch",
+  "offerId": "loan_module",
+  "source": {
+    "name": "Loan Module for Dynamics 365 Business Central",
+    "publisher": "New Technology Research",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.newtechnologyresearch%7CAID.loan_module%7CPAPPID.caea2d78-d51d-4ec4-bdd4-c6ce6d8221fe",
+    "lastModified": "2026-01-20T06:43:16.6002568+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ntribs.notion.site/DocuSign-Contacts-for-Business-Central-1a63995661de8032b5b0f6b023c5241c?pvs=4",
+    "sourceHash": "sha256:69c60b2cd18dd28d9bff44f2531c1c33e7e63602c1ea2eb1dca261e0a2ffcf7d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:69c60b2cd18dd28d9bff44f2531c1c33e7e63602c1ea2eb1dca261e0a2ffcf7d",
+    "mappedOn": null,
+    "summary": "Tracks loans, schedules and interest postings",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-journals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-leasing-finance",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Loan list with finance amounts, interest percentages and principal balances",
+      "Loan header with annual interest, number of periods and payment frequency",
+      "Loan status from Open to Released",
+      "Automatically generates loan repayment schedule",
+      "Per period beginning balance, payment, principal, interest and ending balance",
+      "Export/import schedule to Excel to adjust interest",
+      "Creates payment journals from due schedule lines",
+      "Bank, interest and principal each map to their own G/L accounts"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

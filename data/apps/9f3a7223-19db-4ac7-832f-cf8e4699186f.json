@@ -1,0 +1,105 @@
+{
+  "appId": "PUBID.martitab1633951001710|AID.webconnect|PAPPID.9f3a7223-19db-4ac7-832f-cf8e4699186f",
+  "guid": "9f3a7223-19db-4ac7-832f-cf8e4699186f",
+  "publisherId": "martitab1633951001710",
+  "offerId": "webconnect",
+  "source": {
+    "name": "Web Connect",
+    "publisher": "MartIT AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.martitab1633951001710%7CAID.webconnect%7CPAPPID.9f3a7223-19db-4ac7-832f-cf8e4699186f",
+    "lastModified": "2026-09-17T18:52:01.4905287+00:00",
+    "appVersion": "1.0.201.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.combineit.se/",
+    "sourceHash": "sha256:7a373da55bf65e85d54b36d19a8e6dac51f6cfaf157ee11cc51a8ed65b637b29"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7a373da55bf65e85d54b36d19a8e6dac51f6cfaf157ee11cc51a8ed65b637b29",
+    "mappedOn": null,
+    "summary": "No-code integration platform for BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-3pl",
+      "ng-conn-edi",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Connects to any GraphQL/REST/JSON/XML API to pull and push data without code",
+      "Receives webhooks into integration queues",
+      "Maps incoming message parts to tables down to field level",
+      "Can write new records to or update records in any table that is not posted",
+      "Field-level event-triggered exports, e.g. inventory updates",
+      "In- and outboxes with automatic email monitoring on errors",
+      "HTTP client tool for Service Buses, GraphQL, REST, SOAP",
+      "Postman-like request/response viewer",
+      "Reads and writes files to Azure Blob Storage",
+      "Built-in SFTP/FTP client",
+      "Ready integrations for e-commerce platforms incl. Magento, Shopify, WooCommerce, Optimizely",
+      "Integrations to WMS systems such as Ongoing and 3PL Central",
+      "EDIFACT e-invoice and e-order with Swedish retailers like ICA, Axfood, Coop",
+      "Return system integrations (Reclaimit, Inretrn)",
+      "Data warehouse export for BI",
+      "Publisher can set up integrations and provide education"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Optimizely",
+      "Magento",
+      "Askås",
+      "Norce",
+      "Shopify",
+      "Crystalize",
+      "Centra",
+      "Netset",
+      "WooCommerce",
+      "Sitoo",
+      "Ongoing",
+      "3PL Central",
+      "NoWaste",
+      "Astro",
+      "Speed",
+      "Nyce",
+      "Millbyte",
+      "Reclaimit",
+      "Inretrn",
+      "Amazon",
+      "ICA",
+      "Axfood",
+      "Coop",
+      "Martin&Servera",
+      "Millnet",
+      "Provet Cloud",
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

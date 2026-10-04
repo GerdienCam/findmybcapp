@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.tso|AID.commcenter|PAPPID.5d841651-779f-4744-b95e-1fd37921b304",
+  "guid": "5d841651-779f-4744-b95e-1fd37921b304",
+  "publisherId": "tso",
+  "offerId": "commcenter",
+  "source": {
+    "name": "CommunicationCenter for Business Central",
+    "publisher": "TSO-DATA GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tso%7CAID.commcenter%7CPAPPID.5d841651-779f-4744-b95e-1fd37921b304",
+    "lastModified": "2026-10-01T08:44:24.8128373+00:00",
+    "appVersion": "28.2.1.620958",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.tso.de/CommunicationCenter/en/",
+    "sourceHash": "sha256:01380546a5449c0e6d9673a7174c329ae0433d797998f35e904668936b89e3be"
+  },
+  "mapping": {
+    "sourceHash": "sha256:01380546a5449c0e6d9673a7174c329ae0433d797998f35e904668936b89e3be",
+    "mappedOn": null,
+    "summary": "Centralizes customer emails and documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-case-intake",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-case-customer-updates",
+      "ng-loc-einvoicing",
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "Processes incoming emails directly in BC",
+      "AI analyzes incoming customer emails and identifies business context",
+      "Assigns emails to related customers, orders and invoices",
+      "AI response suggestions based on BC data",
+      "Answers delivery status questions with AI support",
+      "Manages shared service and support mailboxes",
+      "Create, reply and forward emails from BC",
+      "Automates recurring email and document delivery",
+      "Sends ZUGFeRD and XRechnung e-invoices",
+      "Communication history linked to business records"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

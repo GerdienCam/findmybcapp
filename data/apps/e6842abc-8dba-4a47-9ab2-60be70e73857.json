@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.production_component_subst_agent|PAPPID.e6842abc-8dba-4a47-9ab2-60be70e73857",
+  "guid": "e6842abc-8dba-4a47-9ab2-60be70e73857",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "production_component_subst_agent",
+  "source": {
+    "name": "Production Component Substitution Agent",
+    "publisher": "LODESTAR SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.production_component_subst_agent%7CPAPPID.e6842abc-8dba-4a47-9ab2-60be70e73857",
+    "lastModified": "2026-09-14T06:08:12.0255764+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:0d98f3859b58ab17465edb62da3705b649ac7b0110adbc64b1a7d618e5975446"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0d98f3859b58ab17465edb62da3705b649ac7b0110adbc64b1a7d618e5975446",
+    "mappedOn": null,
+    "summary": "AI agent for managing production component substitution",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-copilot-agents",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning",
+      "ng-ux-ai-assistant"
+    ],
+    "claims": [
+      "AI agent supports production component substitution decisions",
+      "Uses items, production orders and substitution data in BC",
+      "Considers item characteristics, variants, stock availability and production context",
+      "Setup flow to create and configure the agent",
+      "Customized pages for released production order lines, item lists and substitution entries",
+      "Public API to activate/deactivate agent and assign tasks with attachments",
+      "KPI tracking of tasks created, pending, completed, failed",
+      "Integrates with BC native agent architecture"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

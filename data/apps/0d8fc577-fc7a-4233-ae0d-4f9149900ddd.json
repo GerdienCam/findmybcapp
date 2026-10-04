@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.on-point-ltd|AID.job-queue-notifications-free|PAPPID.0d8fc577-fc7a-4233-ae0d-4f9149900ddd",
+  "guid": "0d8fc577-fc7a-4233-ae0d-4f9149900ddd",
+  "publisherId": "on-point-ltd",
+  "offerId": "job-queue-notifications-free",
+  "source": {
+    "name": "Job Queue Notifications",
+    "publisher": "On Point Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on-point-ltd%7CAID.job-queue-notifications-free%7CPAPPID.0d8fc577-fc7a-4233-ae0d-4f9149900ddd",
+    "lastModified": "2025-12-15T16:08:54.1590484+00:00",
+    "appVersion": "24.0.2.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://confluence.external-share.com/content/96335/job_queue_notifications",
+    "sourceHash": "sha256:46088f784e7217d2c2ec028c13f1f38494f8085f0ff1390b2d8dabcf79bea8c3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:46088f784e7217d2c2ec028c13f1f38494f8085f0ff1390b2d8dabcf79bea8c3",
+    "mappedOn": null,
+    "summary": "Notifications on job queue entry status",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Email notifications about job queue entry changes",
+      "Helps pinpoint job queue entry issues"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.terna|AID.reactor-mobile-physical-inventory|PAPPID.29b19f24-d77f-4ae1-83af-aae05fd0490c",
+  "guid": "29b19f24-d77f-4ae1-83af-aae05fd0490c",
+  "publisherId": "terna",
+  "offerId": "reactor-mobile-physical-inventory",
+  "source": {
+    "name": "BE-terna Reactor Mobile Physical Inventory",
+    "publisher": "BE-terna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.terna%7CAID.reactor-mobile-physical-inventory%7CPAPPID.29b19f24-d77f-4ae1-83af-aae05fd0490c",
+    "lastModified": "2026-08-03T16:54:06.1950178+00:00",
+    "appVersion": "23.8.101.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://be-terna.helpjuice.com/en_US/be-terna-reactor-mobile-physical-inventory",
+    "sourceHash": "sha256:66d41d6c5496bf3b1eaa35ccb98a838a95040520d05128c73e7402a99d8e03ec"
+  },
+  "mapping": {
+    "sourceHash": "sha256:66d41d6c5496bf3b1eaa35ccb98a838a95040520d05128c73e7402a99d8e03ec",
+    "mappedOn": null,
+    "summary": "Mobile physical inventory counting",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-stock-counting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Supports physical inventory journals and orders",
+      "Scan bin first then items",
+      "Increment or replace scan modes",
+      "Review and edit quantities after scanning",
+      "Edit quantities and delete lines in journal from mobile",
+      "Built on BE-terna Reactor Platform"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "BE-terna Reactor Platform"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

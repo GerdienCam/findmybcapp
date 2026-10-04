@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.websan-solutions-inc|AID.customeriteminvoicehistory|PAPPID.f3963745-d1dd-4ba4-8838-e17646bfb75a",
+  "guid": "f3963745-d1dd-4ba4-8838-e17646bfb75a",
+  "publisherId": "websan-solutions-inc",
+  "offerId": "customeriteminvoicehistory",
+  "source": {
+    "name": "Customer Item Invoice History",
+    "publisher": "Rand Group, LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.customeriteminvoicehistory%7CPAPPID.f3963745-d1dd-4ba4-8838-e17646bfb75a",
+    "lastModified": "2026-05-20T18:37:44.2430153+00:00",
+    "appVersion": "26.2.52.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/customer-item-invoice-history/",
+    "sourceHash": "sha256:a6d0474eba25dd7cf038155de52b9ada1101bdbebb60dc33f8ae38efebc533c8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a6d0474eba25dd7cf038155de52b9ada1101bdbebb60dc33f8ae38efebc533c8",
+    "mappedOn": null,
+    "summary": "Shows invoiced prices per customer and item",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Lists past posted invoice lines per sell-to customer/item combination",
+      "Updates current line price on quote, order or invoice from history",
+      "Creates customer-specific price record from the same page",
+      "Available globally except Czechia",
+      "Free unlimited use in sandbox environments",
+      "Assisted Setup wizard",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

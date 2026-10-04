@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.on720comas1662298129006|AID.ftp720_dk|PAPPID.39ab6265-4371-40f0-88ca-fb7b27142765",
+  "guid": "39ab6265-4371-40f0-88ca-fb7b27142765",
+  "publisherId": "on720comas1662298129006",
+  "offerId": "ftp720_dk",
+  "source": {
+    "name": "Ftp720 (DK)",
+    "publisher": "ON720.COM",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on720comas1662298129006%7CAID.ftp720_dk%7CPAPPID.39ab6265-4371-40f0-88ca-fb7b27142765",
+    "lastModified": "2026-05-18T14:45:01.3448264+00:00",
+    "appVersion": "28.0.260518.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.on720.com/",
+    "sourceHash": "sha256:43c80e196bf45a293330a8d7905ec9e34f29ce9dc65e43829481e115accf1ff1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:43c80e196bf45a293330a8d7905ec9e34f29ce9dc65e43829481e115accf1ff1",
+    "mappedOn": null,
+    "summary": "Exchanges files with FTP servers",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Configure FTP/SFTP servers in BC",
+      "Custom automated file transfer commands",
+      "Scheduled recurring uploads and downloads",
+      "Encrypted transfer protocols",
+      "Detailed transfer logs",
+      "Real-time alerts on successful or failed transfers"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "FTP",
+      "SFTP"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.innoware-1255921|AID.iw_bc_hr_payroll_ukraine|PAPPID.71988d19-be5b-493b-bde1-ee173e3c96a0",
+  "guid": "71988d19-be5b-493b-bde1-ee173e3c96a0",
+  "publisherId": "innoware-1255921",
+  "offerId": "iw_bc_hr_payroll_ukraine",
+  "source": {
+    "name": "IW HR & Payroll",
+    "publisher": "Innoware Ukraine LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.innoware-1255921%7CAID.iw_bc_hr_payroll_ukraine%7CPAPPID.71988d19-be5b-493b-bde1-ee173e3c96a0",
+    "lastModified": "2026-09-28T07:32:38.6870548+00:00",
+    "appVersion": "27.22.6496.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://innoware.com/D365BusinessCentral/UserDocumentation/D365_BusinessCentral_IW_HR&Payroll_UserDocumentation.pdf",
+    "sourceHash": "sha256:061d8d70af2676889126dab68adb7e93b174d1596a65abebc95b50f84aedb37a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:061d8d70af2676889126dab68adb7e93b174d1596a65abebc95b50f84aedb37a",
+    "mappedOn": null,
+    "summary": "HR, time and payroll according to Ukrainian legislation",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-time-shifts",
+      "ng-hr-absence-leave"
+    ],
+    "claims": [
+      "HR, time management and payroll per Ukrainian legislation",
+      "Department hierarchy and manning table",
+      "HR orders: employment, transfer, dismissal, vacation",
+      "Calendars with statutory and floating holidays",
+      "Work schedules by template and shift; timesheets with corrections",
+      "Salary calculation per employee or department with tax per legislation",
+      "Sick-leave and vacation compensation calculation",
+      "Posts payroll G/L entries with dimensions",
+      "Calculates and posts state insurance fund contributions",
+      "Payslips and statutory reports such as 1-PV and tax report",
+      "Available for cloud and on-premises"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "languages": [
+      "en",
+      "ru",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "M.E.Doc"
+    ],
+    "requires": [
+      "IW Foundation"
+    ],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

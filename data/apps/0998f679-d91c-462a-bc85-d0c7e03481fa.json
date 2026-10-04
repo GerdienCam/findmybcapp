@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionoioimportfordc|PAPPID.0998f679-d91c-462a-bc85-d0c7e03481fa",
+  "guid": "0998f679-d91c-462a-bc85-d0c7e03481fa",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionoioimportfordc",
+  "source": {
+    "name": "VisionOIO Import for Document Capture",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionoioimportfordc%7CPAPPID.0998f679-d91c-462a-bc85-d0c7e03481fa",
+    "lastModified": "2026-03-25T07:12:19.7328687+00:00",
+    "appVersion": "20.0.4.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.visionpeople.dk/loesninger/tillaegsloesninger-og-dynamics-addons/visionoio",
+    "sourceHash": "sha256:2a6bbba8b73c99049de88baa446de8493b535e3966cddd9e67ff50ab67ff8b14"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2a6bbba8b73c99049de88baa446de8493b535e3966cddd9e67ff50ab67ff8b14",
+    "mappedOn": null,
+    "summary": "Makes VisionOIO Import documents available in Continia Approval Portal",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Makes VisionOIO Import documents visible in the Continia Approval Portal"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "VisionOIO Import",
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Helper bridge app between VisionOIO Import and Continia Document Capture",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

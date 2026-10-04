@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.advanced-prices-app|PAPPID.d78663d2-982e-4f83-81da-efa2434c392b",
+  "guid": "d78663d2-982e-4f83-81da-efa2434c392b",
+  "publisherId": "fenwicksoftware",
+  "offerId": "advanced-prices-app",
+  "source": {
+    "name": "Advanced Prices",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.advanced-prices-app%7CPAPPID.d78663d2-982e-4f83-81da-efa2434c392b",
+    "lastModified": "2026-09-15T09:25:19.570791+00:00",
+    "appVersion": "27.0.260901.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/apps/advanced-prices/docs/",
+    "sourceHash": "sha256:72861658f44e1e240e6b7afe1f3b52ed470e0125bb6fb90f4954e81e2d43b706"
+  },
+  "mapping": {
+    "sourceHash": "sha256:72861658f44e1e240e6b7afe1f3b52ed470e0125bb6fb90f4954e81e2d43b706",
+    "mappedOn": null,
+    "summary": "Category-based customer and vendor pricing with history",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-rebates"
+    ],
+    "claims": [
+      "Hierarchical pricing prioritising customer/item combinations",
+      "Prices by item price groups and categories with default pricing for all customers",
+      "Overlapping prices get end dates adjusted automatically",
+      "Expired prices hidden while history retained",
+      "Campaign pricing targeted to customers or groups with discounts and dimensions",
+      "Line discounts integrated into unit price or cost",
+      "Advanced filtering and bulk actions on price lists"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

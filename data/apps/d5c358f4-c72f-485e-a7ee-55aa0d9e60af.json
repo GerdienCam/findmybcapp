@@ -1,0 +1,85 @@
+{
+  "appId": "TYPE.connect|PUBID.qbuildcorporation1603391385339|AID.cadlink_d365bc|PAPPID.d5c358f4-c72f-485e-a7ee-55aa0d9e60af",
+  "guid": "d5c358f4-c72f-485e-a7ee-55aa0d9e60af",
+  "publisherId": "qbuildcorporation1603391385339",
+  "offerId": "cadlink_d365bc",
+  "source": {
+    "name": "CADLink for Dynamics 365 Business Central",
+    "publisher": "QBuild Corporation",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.qbuildcorporation1603391385339%7CAID.cadlink_d365bc%7CPAPPID.d5c358f4-c72f-485e-a7ee-55aa0d9e60af",
+    "lastModified": "2025-08-06T14:05:27.5531959+00:00",
+    "appVersion": "24.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.qbuildsoftware.com/support/",
+    "sourceHash": "sha256:b6c18c65ae916f72042741501805761216e0e41ff89ac5756851828dfe80428e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b6c18c65ae916f72042741501805761216e0e41ff89ac5756851828dfe80428e",
+    "mappedOn": null,
+    "summary": "Imports BOM data from CAD, PDM or PLM systems",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Bi-directional sync between CAD and BC",
+      "Creates items and BOMs in BC directly with one click",
+      "Integrates with SolidWorks, Inventor, Siemens, PTC, Altium, ePlan, AutoCAD",
+      "Integrates with PDM/PLM incl. Windchill, Arena, Vault, Teamcenter, Agile",
+      "Integrates to production BOMs and/or projects",
+      "Visual discrepancy check between CAD and BC with resolution",
+      "Live search of BC items and insertion of non-CAD parts into the BOM",
+      "No server or database components",
+      "Compatible with BC cloud",
+      "Connects to attributes and templates",
+      "Fixed fee implementation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Discrete manufacturing"
+    ],
+    "connectsTo": [
+      "SolidWorks",
+      "Inventor",
+      "Solid Edge",
+      "Siemens NX",
+      "PADS",
+      "Creo",
+      "OnShape",
+      "Altium",
+      "ePlan",
+      "AutoCAD",
+      "SolidWorks PDM",
+      "3DExperience",
+      "Windchill",
+      "Arena",
+      "Fusion 360",
+      "Vault",
+      "Teamcenter",
+      "Agile PLM"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.singhammeritconsultingag1598359803264|AID.1003|PAPPID.8d7daed1-e57f-4263-b879-5386d9104150",
+  "guid": "8d7daed1-e57f-4263-b879-5386d9104150",
+  "publisherId": "singhammeritconsultingag1598359803264",
+  "offerId": "1003",
+  "source": {
+    "name": "DYCE Project Billing",
+    "publisher": "Singhammer IT Consulting AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1003%7CPAPPID.8d7daed1-e57f-4263-b879-5386d9104150",
+    "lastModified": "2026-09-27T07:27:34.6326978+00:00",
+    "appVersion": "2026.9.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.dyce.cloud/docs/pb",
+    "sourceHash": "sha256:0625af541f304e66b4b939f795485719c71e1756143a00ba7c82daf6caf9a729"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0625af541f304e66b4b939f795485719c71e1756143a00ba7c82daf6caf9a729",
+    "mappedOn": null,
+    "summary": "Sells and bills professional services projects",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-billing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-time",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-budget",
+      "ng-proj-planning"
+    ],
+    "claims": [
+      "Supports Time & Material, Fixed Price and budget-based (capped) billing",
+      "Generates project tasks and budgets from a sales order",
+      "Review, release and post employee time recordings in a central cockpit",
+      "Only approved services are billed",
+      "Automatic rounding of time entries",
+      "Surcharges for night or holiday work",
+      "Attaches service details (proof of performance) to invoices",
+      "Can be used standalone or as part of DYCE Professional Services Suite",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

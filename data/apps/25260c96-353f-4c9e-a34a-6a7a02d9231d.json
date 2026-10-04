@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.sumango_as|AID.sumango_order_matching|PAPPID.25260c96-353f-4c9e-a34a-6a7a02d9231d",
+  "guid": "25260c96-353f-4c9e-a34a-6a7a02d9231d",
+  "publisherId": "sumango_as",
+  "offerId": "sumango_order_matching",
+  "source": {
+    "name": "Sumango Order Matching PSP",
+    "publisher": "Sumango AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sumango_as%7CAID.sumango_order_matching%7CPAPPID.25260c96-353f-4c9e-a34a-6a7a02d9231d",
+    "lastModified": "2026-09-30T07:24:52.8969811+00:00",
+    "appVersion": "26.15.20260929.10",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sumango.no/hjelp",
+    "sourceHash": "sha256:cb24e4beab2983526b973e24f3e05c199ad1325791bb2c7a16c2a126075d4b96"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cb24e4beab2983526b973e24f3e05c199ad1325791bb2c7a16c2a126075d4b96",
+    "mappedOn": null,
+    "summary": "Matches PSP settlements to orders and posts fees",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bank-reconciliation"
+    ],
+    "claims": [
+      "Fetches settlement details from Vipps, Klarna, Nets, Amex, Adyen and more",
+      "Automatic reconciliation per order or payment terminal",
+      "Manual reconciliation option",
+      "Posts fees and settlements directly",
+      "For businesses with webshop, POS or customer portal integrations"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "no"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Vipps",
+      "Klarna",
+      "NETS/Teller",
+      "Nets Easy",
+      "Amex",
+      "Adyen"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "appId": "PUBID.pryme|AID.project_subcontracting_on_pgs|PAPPID.cbcecd7f-9561-4073-88bd-da44a921ab25",
+  "guid": "cbcecd7f-9561-4073-88bd-da44a921ab25",
+  "publisherId": "pryme",
+  "offerId": "project_subcontracting_on_pgs",
+  "source": {
+    "name": "Pryme Project Subcontracting on PGS",
+    "publisher": "Pryme",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pryme%7CAID.project_subcontracting_on_pgs%7CPAPPID.cbcecd7f-9561-4073-88bd-da44a921ab25",
+    "lastModified": "2026-09-07T15:17:03.296603+00:00",
+    "appVersion": "14.0.194.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.pryme.app/projectsubcontracting/",
+    "sourceHash": "sha256:50fd0ce7c4ae3c83d59fd00f6ccdb92706bc8577b6ecdc690babace675c547fa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:50fd0ce7c4ae3c83d59fd00f6ccdb92706bc8577b6ecdc690babace675c547fa",
+    "mappedOn": null,
+    "summary": "Pays subcontractors based on approved project time",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-proj-materials-subcontract",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Approved hours automatically create subcontractor statements",
+      "Self-billing purchase invoices created from statements",
+      "Validates subcontractor invoices against approved statements",
+      "Flags mismatches within set limits",
+      "Audit trail across hours, client billing and subcontractor payouts",
+      "Subcontractor usage tracking and statement report",
+      "Built on Progressus Advanced Projects"
+    ],
+    "countries": [
+      "AE",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "GB",
+      "IE",
+      "KE",
+      "LU",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en",
+      "es",
+      "sv"
+    ],
+    "industries": [
+      "Legal",
+      "ProfessionalServices"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Progressus Advanced Projects"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

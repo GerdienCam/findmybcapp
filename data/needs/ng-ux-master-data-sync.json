@@ -1,0 +1,239 @@
+{
+  "id": "ng-ux-master-data-sync",
+  "order": 178,
+  "label": "Keeping master data in sync across companies",
+  "description": "Maintaining items, customers, vendors, accounts and setup once and replicating them to other companies, environments or tenants; copying and splitting companies.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "high",
+  "statements": [
+    "Keeping master data in sync across companies",
+    "Maintaining items, customers, vendors, accounts and setup once and replicating them to other companies, environments or tenants; copying and splitting companies.",
+    "We have six companies and create every item six times",
+    "sync items between companies",
+    "Chart of accounts drifts apart between our subsidiaries",
+    "A new customer in one company should exist in the others too",
+    "Can one master company push changes to the rest?",
+    "Our Swedish and Danish companies are in different tenants and need the same items",
+    "Copy a company without the transactions to start a new entity",
+    "Setup changes in production should go to the sandbox",
+    "master data management multiple companies",
+    "Prices are updated in one company and forgotten in the other",
+    "Vendors are set up differently in each company and reports don't match",
+    "We are splitting one company into two, how do we copy the data?",
+    "Need to sync dimensions and posting groups across 12 companies",
+    "Changes should only flow one way, from HQ to the stores' companies",
+    "Copy items from another company on demand",
+    "Keep the same number series and payment terms everywhere",
+    "Approve master data changes centrally before they spread",
+    "We're adding a new country company and need all setup from the existing one",
+    "Merge two companies into one",
+    "Replicate across environments without Power Automate"
+  ],
+  "questions": [
+    {
+      "id": "data",
+      "text": "Which data must be shared?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Chart of accounts, dimensions, posting groups",
+          "patterns": [
+            "g/l account",
+            "chart of accounts",
+            "posting group",
+            "dimension"
+          ]
+        },
+        {
+          "label": "Items and prices",
+          "patterns": [
+            "item",
+            "price",
+            "product",
+            "sku"
+          ]
+        },
+        {
+          "label": "Customers, vendors and contacts",
+          "patterns": [
+            "customer",
+            "vendor",
+            "contact"
+          ]
+        },
+        {
+          "label": "Any table, including custom or app tables",
+          "patterns": [
+            "any (bc )?(table|entity|data)",
+            "custom table",
+            "extension field",
+            "other apps",
+            "isv",
+            "unlimited (number of )?tables",
+            "add-on tables"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Chart of accounts, dimensions, posting groups": 0.21,
+        "Items and prices": 0.32,
+        "Customers, vendors and contacts": 0.34,
+        "Any table, including custom or app tables": 0.23
+      }
+    },
+    {
+      "id": "where",
+      "text": "Where are the companies you want to keep in sync?",
+      "options": [
+        {
+          "label": "All in one BC environment",
+          "patterns": [
+            "same (bc )?(environment|database)",
+            "one database",
+            "within one tenant",
+            "in one database"
+          ]
+        },
+        {
+          "label": "Across environments or tenants",
+          "patterns": [
+            "tenant",
+            "environments",
+            "databases",
+            "cross[- ]environment"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "All in one BC environment": 0.11,
+        "Across environments or tenants": 0.55
+      }
+    },
+    {
+      "id": "timing",
+      "text": "How quickly must changes reach other companies?",
+      "options": [
+        {
+          "label": "Immediately",
+          "patterns": [
+            "real[- ]time",
+            "on save",
+            "immediate",
+            "on insert"
+          ]
+        },
+        {
+          "label": "On a schedule is fine",
+          "patterns": [
+            "schedul",
+            "job queue",
+            "interval",
+            "off hours"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Immediately": 0.19,
+        "On a schedule is fine": 0.23
+      }
+    },
+    {
+      "id": "lock",
+      "text": "Should subsidiaries be stopped from changing shared data?",
+      "options": [
+        {
+          "label": "Yes, lock it to the parent",
+          "patterns": [
+            "lock",
+            "block",
+            "prevents local",
+            "only change in parent",
+            "field protection",
+            "control whether subsidiaries",
+            "permission"
+          ]
+        },
+        {
+          "label": "No, changes flow both ways",
+          "patterns": [
+            "bi-?directional",
+            "both directions",
+            "two-way",
+            "both master and subscriber"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, lock it to the parent": 0.15,
+        "No, changes flow both ways": 0.09
+      }
+    },
+    {
+      "id": "docs",
+      "text": "Do you also send orders or invoices between your companies?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "(ic|intercompany) (purchase|sales|document|journal|project)",
+            "orders between companies",
+            "documents between",
+            "exchang\\w* documents",
+            "purchase documents to sales",
+            "time entries",
+            "pos, sales orders"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.13
+      }
+    },
+    {
+      "id": "external",
+      "text": "Must master data also go to non-BC systems?",
+      "help": "For example SAP, a webshop or files.",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "external systems?",
+            "third-party (systems|apps)",
+            "\\bsap\\b",
+            "other erps",
+            "e-commerce"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.09
+      }
+    }
+  ]
+}

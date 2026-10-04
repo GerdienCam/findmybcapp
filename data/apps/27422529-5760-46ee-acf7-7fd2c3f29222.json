@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.ktc-karlsruhetechnologyconsultinggmbh1595962004014|AID.d365bc_0012|PAPPID.27422529-5760-46ee-acf7-7fd2c3f29222",
+  "guid": "27422529-5760-46ee-acf7-7fd2c3f29222",
+  "publisherId": "ktc-karlsruhetechnologyconsultinggmbh1595962004014",
+  "offerId": "d365bc_0012",
+  "source": {
+    "name": "Contract SharePoint Connector",
+    "publisher": "KTC - Karlsruhe Technology Consulting GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ktc-karlsruhetechnologyconsultinggmbh1595962004014%7CAID.d365bc_0012%7CPAPPID.27422529-5760-46ee-acf7-7fd2c3f29222",
+    "lastModified": "2025-04-25T23:10:14.4249619+00:00",
+    "appVersion": "1.2.9727.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ktc.de/bc/support",
+    "sourceHash": "sha256:3144d3cd6bb9ef3873d04a7f1c9f2114d4df26182c7da974e9d46cd6b4508399"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3144d3cd6bb9ef3873d04a7f1c9f2114d4df26182c7da974e9d46cd6b4508399",
+    "mappedOn": null,
+    "summary": "Connects ContractPlus to SharePointPlus",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-contracts"
+    ],
+    "claims": [
+      "Connects ContractPlus and SharePointPlus apps",
+      "Shows contracts stored in SharePoint inside ContractPlus",
+      "Files contracts directly in SharePoint",
+      "Generates metadata including dimensions, company and environment",
+      "Requires separate SharePoint, ContractPlus and SharePointPlus licenses"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "pl",
+      "pt"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [
+      "ContractPlus",
+      "SharePointPlus"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

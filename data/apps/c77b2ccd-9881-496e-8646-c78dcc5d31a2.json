@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.jemel|AID.jemel_notify_user|PAPPID.c77b2ccd-9881-496e-8646-c78dcc5d31a2",
+  "guid": "c77b2ccd-9881-496e-8646-c78dcc5d31a2",
+  "publisherId": "jemel",
+  "offerId": "jemel_notify_user",
+  "source": {
+    "name": "Notify User",
+    "publisher": "JEMEL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jemel%7CAID.jemel_notify_user%7CPAPPID.c77b2ccd-9881-496e-8646-c78dcc5d31a2",
+    "lastModified": "2026-07-23T12:07:45.2353284+00:00",
+    "appVersion": "27.0.50.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://jemel.lv/docs/notify-user",
+    "sourceHash": "sha256:6398366d0c0c3389120a4b121d035c53e52c5e4eba8fab54c013a9606d16e531"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6398366d0c0c3389120a4b121d035c53e52c5e4eba8fab54c013a9606d16e531",
+    "mappedOn": null,
+    "summary": "Notes, notifications and tasks on records with Teams and email",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-notes-collaboration",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts",
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "Creates tracked tasks from notes on any record for multiple recipients",
+      "Tasks on recipients' Role Center with one-click navigation to source",
+      "Workflow response 'Create Notify User Notification' in BC workflow engine",
+      "Ready-made templates: Large PO Released, Vendor Bank Changed, Sales Order Released",
+      "@mentions auto-fill recipients",
+      "User task groups with claim ownership",
+      "Priority and due dates with overdue highlighting",
+      "Read receipts per recipient",
+      "Sent notifications dashboard",
+      "Email notifications from BC (Plus)",
+      "Teams channel posts via Power Automate webhooks and direct messages (Plus)",
+      "On-premises plan with all features"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Teams"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

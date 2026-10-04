@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.foodware365|AID.forecasting|PAPPID.afc9c957-f615-43d5-9141-386278248148",
+  "guid": "afc9c957-f615-43d5-9141-386278248148",
+  "publisherId": "foodware365",
+  "offerId": "forecasting",
+  "source": {
+    "name": "Aptean Forecasting for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.forecasting%7CPAPPID.afc9c957-f615-43d5-9141-386278248148",
+    "lastModified": "2026-08-26T05:37:58.5623806+00:00",
+    "appVersion": "2601.2.339236.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/FOR/",
+    "sourceHash": "sha256:3302a14f625264d88079f2fd65db145adbd0ac897713886bc0706e2f4ec69f5d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3302a14f625264d88079f2fd65db145adbd0ac897713886bc0706e2f4ec69f5d",
+    "mappedOn": null,
+    "summary": "Sales forecasting from history and supply",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning"
+    ],
+    "claims": [
+      "Forecasts from historical sales or consumption and on-hand supply",
+      "Imports and applies sales or consumption history in seconds",
+      "Accounts for daily supply and demand",
+      "Create production orders from projected shortages",
+      "Customer-specific forecasts",
+      "Configurable forecast formulas"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

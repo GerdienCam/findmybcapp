@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.admin_hub|PAPPID.19218b9d-1353-4965-8fee-91c0c1eb9da7",
+  "guid": "19218b9d-1353-4965-8fee-91c0c1eb9da7",
+  "publisherId": "thetasystemslimited",
+  "offerId": "admin_hub",
+  "source": {
+    "name": "Admin Hub - BC Center",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.admin_hub%7CPAPPID.19218b9d-1353-4965-8fee-91c0c1eb9da7",
+    "lastModified": "2026-07-09T23:56:09.7599512+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/AH",
+    "sourceHash": "sha256:b258a100cc53d33bfc012353cfce17373e3f4886261c88b51a9589d3127384c8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b258a100cc53d33bfc012353cfce17373e3f4886261c88b51a9589d3127384c8",
+    "mappedOn": null,
+    "summary": "Manages tenants, environments, updates and apps in bulk",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-extensions-env",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-updates-testing"
+    ],
+    "claims": [
+      "Create, delete and administer tenant environments",
+      "View, schedule and manage updates",
+      "Installs, updates and uninstalls apps across environments",
+      "Bulk operations across multiple tenants",
+      "Tracks history of Admin Center operations",
+      "Requires Admin Center API access"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

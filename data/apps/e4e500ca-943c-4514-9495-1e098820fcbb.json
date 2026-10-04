@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.golden_edi|AID.goldenedi-ongoing-warehouse|PAPPID.e4e500ca-943c-4514-9495-1e098820fcbb",
+  "guid": "e4e500ca-943c-4514-9495-1e098820fcbb",
+  "publisherId": "golden_edi",
+  "offerId": "goldenedi-ongoing-warehouse",
+  "source": {
+    "name": "Ongoing WMS Connector",
+    "publisher": "Golden EDI AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.golden_edi%7CAID.goldenedi-ongoing-warehouse%7CPAPPID.e4e500ca-943c-4514-9495-1e098820fcbb",
+    "lastModified": "2026-06-23T14:03:22.43163+00:00",
+    "appVersion": "23.1.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.goldenedi.com/support",
+    "sourceHash": "sha256:93d561adff6907ea7348d80ac4a2baa5b928ca50a0f349d1d8c169d71d684258"
+  },
+  "mapping": {
+    "sourceHash": "sha256:93d561adff6907ea7348d80ac4a2baa5b928ca50a0f349d1d8c169d71d684258",
+    "mappedOn": null,
+    "summary": "Connects BC with Ongoing WMS",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Item synchronization with Ongoing WMS",
+      "Syncs sales, purchase, return, transfer and assembly orders",
+      "Inventory adjustments and reconciliation",
+      "Integration monitoring and error handling in BC",
+      "Works with 3PL providers using Ongoing"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Ongoing WMS",
+      "Golden EDI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

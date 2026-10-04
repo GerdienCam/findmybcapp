@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.youngpartners1588093205397|AID.navitrans_365_timocom_connector|PAPPID.b89ad60d-a8a1-4e67-bf61-ca948553d0b9",
+  "guid": "b89ad60d-a8a1-4e67-bf61-ca948553d0b9",
+  "publisherId": "youngpartners1588093205397",
+  "offerId": "navitrans_365_timocom_connector",
+  "source": {
+    "name": "Navitrans 365 Timocom Connector",
+    "publisher": "Navitrans",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_timocom_connector%7CPAPPID.b89ad60d-a8a1-4e67-bf61-ca948553d0b9",
+    "lastModified": "2026-09-30T20:01:32.4292915+00:00",
+    "appVersion": "28.5.0.80070",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navitrans.eu/our-services/tms/",
+    "sourceHash": "sha256:5b1087c3e4928ca4124f8d2dfc5684855776cfdb40321e9ada776600b3a87c2d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5b1087c3e4928ca4124f8d2dfc5684855776cfdb40321e9ada776600b3a87c2d",
+    "mappedOn": null,
+    "summary": "Connects Navitrans to Timocom freight exchange",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-transport-planning"
+    ],
+    "claims": [
+      "Navitrans 365 module/connector named in listing",
+      "Part of Navitrans 365 TMS covering order registration to invoicing",
+      "FTL and LTL transport orders created from templates",
+      "Planning tools with capacity, combination and qualification checks",
+      "Prices automatically from tariff tables or from fixed prices",
+      "Works with subcontractors and charters",
+      "Automatic invoicing combining orders on invoices",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "SE",
+      "SI"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Timocom"
+    ],
+    "requires": [
+      "Navitrans 365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

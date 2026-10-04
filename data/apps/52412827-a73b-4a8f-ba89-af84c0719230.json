@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.bluesoftwareas|AID.norwegianbusinessregister|PAPPID.52412827-a73b-4a8f-ba89-af84c0719230",
+  "guid": "52412827-a73b-4a8f-ba89-af84c0719230",
+  "publisherId": "bluesoftwareas",
+  "offerId": "norwegianbusinessregister",
+  "source": {
+    "name": "Norwegian Business Register",
+    "publisher": "Blue Software AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bluesoftwareas%7CAID.norwegianbusinessregister%7CPAPPID.52412827-a73b-4a8f-ba89-af84c0719230",
+    "lastModified": "2026-01-16T07:46:44.8680215+00:00",
+    "appVersion": "2.0.0.13",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bluesoftware.no/wp-content/uploads/2025/08/Norwegian-Business-Register-Manual.pdf",
+    "sourceHash": "sha256:53ab310c18205ec2e95b0e3d4f73cd493c5de93c9fb2951b241614d23e76c008"
+  },
+  "mapping": {
+    "sourceHash": "sha256:53ab310c18205ec2e95b0e3d4f73cd493c5de93c9fb2951b241614d23e76c008",
+    "mappedOn": null,
+    "summary": "Creates customers, vendors and contacts using data from the Norwegian business register",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts",
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Creates customers, vendors and contacts from Brønnøysundregisteret",
+      "Search with VAT registration number or company name",
+      "Imports homepage, name, address, postal code and city",
+      "Shows industry, sector and bankruptcy notices",
+      "Links to the full register entry"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "no"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Brønnøysundregisteret"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

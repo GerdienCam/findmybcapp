@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.service_declaration_w1|PAPPID.e2ae191d-8829-44c3-a373-3749a2742d4d",
+  "guid": "e2ae191d-8829-44c3-a373-3749a2742d4d",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "service_declaration_w1",
+  "source": {
+    "name": "Service Declaration",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.service_declaration_w1%7CPAPPID.e2ae191d-8829-44c3-a373-3749a2742d4d",
+    "lastModified": "2024-11-21T20:41:51.6317341+00:00",
+    "appVersion": "21.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-how-setup-use-service-declaration",
+    "sourceHash": "sha256:8513aa6c02aabaebdc9fbbdfd624c49796546e57662c656cd7ede58210e12593"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8513aa6c02aabaebdc9fbbdfd624c49796546e57662c656cd7ede58210e12593",
+    "mappedOn": null,
+    "summary": "Intrastat-style service trade declarations for EU",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Collects statistics on trade in services among EU member states",
+      "Creates and submits Service Declaration (Intrastat for Services) files",
+      "Setup for items, item charges and resources",
+      "Checklist for validating reporting rules",
+      "Core app usable as-is only in Belgium"
+    ],
+    "countries": [
+      "BE"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

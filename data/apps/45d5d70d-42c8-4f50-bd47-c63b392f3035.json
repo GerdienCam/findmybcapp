@@ -1,0 +1,87 @@
+{
+  "appId": "PUBID.duvekagmbh1711374674329|AID.0032|PAPPID.45d5d70d-42c8-4f50-bd47-c63b392f3035",
+  "guid": "45d5d70d-42c8-4f50-bd47-c63b392f3035",
+  "publisherId": "duvekagmbh1711374674329",
+  "offerId": "0032",
+  "source": {
+    "name": "duveka Zebra ZPL Label Printing",
+    "publisher": "duveka GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0032%7CPAPPID.45d5d70d-42c8-4f50-bd47-c63b392f3035",
+    "lastModified": "2026-09-22T13:20:51.6639475+00:00",
+    "appVersion": "26.2.2.28954",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://duveka.net/ZebraZPL/",
+    "sourceHash": "sha256:5ebb33dba4f921b6b607c34dcad329b4f5365482d0d4ce9ac2cf6889b778ace5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ebb33dba4f921b6b607c34dcad329b4f5365482d0d4ce9ac2cf6889b778ace5",
+    "mappedOn": null,
+    "summary": "Designs and prints Zebra ZPL labels",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-printing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Label designer from text, box, barcode and graphic lines converted to ZPL",
+      "Live image preview before printing",
+      "Fills variables with document data when printing",
+      "Label wizard, free ZPL editing, Excel export and import",
+      "Graphic library for logos",
+      "AI creates labels and ZPL from a chat description (with duveka ClousAI)",
+      "Prints from lines on sales quotes, orders, blanket orders, return orders, shipments and transfers",
+      "Assigns labels and printers by document type and by user",
+      "Relay service sends jobs to printers without open firewall port",
+      "Print via FTP, HTTP relay or Windows printers on-premises"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "hr",
+      "hu",
+      "it",
+      "nb",
+      "nl",
+      "pl",
+      "pt",
+      "ru",
+      "sv",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Zebra printers",
+      "Elried printers",
+      "duveka ClousAI",
+      "duveka FTP Client"
+    ],
+    "requires": [
+      "duveka Core"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.abakion|AID.shipping_connector|PAPPID.f3a5d17e-7c81-4f16-89dc-70462b961641",
+  "guid": "f3a5d17e-7c81-4f16-89dc-70462b961641",
+  "publisherId": "abakion",
+  "offerId": "shipping_connector",
+  "source": {
+    "name": "Shipping Manager",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.shipping_connector%7CPAPPID.f3a5d17e-7c81-4f16-89dc-70462b961641",
+    "lastModified": "2026-09-01T10:23:24.3373255+00:00",
+    "appVersion": "28.4.202636.175758",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/shipping-manager/#howto",
+    "sourceHash": "sha256:4dfd26ac4864bf78e0831ff8212b83511dda4927092740a034d930031239d098"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4dfd26ac4864bf78e0831ff8212b83511dda4927092740a034d930031239d098",
+    "mappedOn": null,
+    "summary": "Connects to shipping brokers, packs shipments, prints labels and waybills",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Create waybills with number of packages",
+      "Arranges cheapest shipping through a broker",
+      "Compare offers from freight forwarders and arrange pickup",
+      "One waybill per delivery address with predefined packages",
+      "Carrier-specific label printing",
+      "Label and track & trace number saved on the waybill",
+      "Pickup number bundles several waybills"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

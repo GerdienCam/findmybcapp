@@ -1,0 +1,58 @@
+{
+  "appId": "TYPE.connect|PUBID.quantumquadsolutions1768544978440|AID.sharepoint_addon_offer_id|PAPPID.2f3d6139-e350-47a3-8049-38a90ea420b5",
+  "guid": "2f3d6139-e350-47a3-8049-38a90ea420b5",
+  "publisherId": "quantumquadsolutions1768544978440",
+  "offerId": "sharepoint_addon_offer_id",
+  "source": {
+    "name": "SharePoint Connector for Business central",
+    "publisher": "QuantumQuad Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.quantumquadsolutions1768544978440%7CAID.sharepoint_addon_offer_id%7CPAPPID.2f3d6139-e350-47a3-8049-38a90ea420b5",
+    "lastModified": "2026-03-27T15:04:51.9433979+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.quantumquad.in/contacttoquantumquad",
+    "sourceHash": "sha256:3b3d8af487e7a341f22d776836d55b3ecfda4a0bedf37132b291b7f30a5a7b52"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3b3d8af487e7a341f22d776836d55b3ecfda4a0bedf37132b291b7f30a5a7b52",
+    "mappedOn": null,
+    "summary": "Stores documents on SharePoint",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments",
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Stores BC documents in SharePoint instead of BC database",
+      "Attach and access documents from BC records",
+      "File type and size control on uploads",
+      "Role-based access control",
+      "Document versioning",
+      "Single SharePoint repository for all BC documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "appId": "PUBID.applibra|AID.al_no_series_update|PAPPID.a8f4d97f-6e9a-416d-a7fd-a86f2121d19a",
+  "guid": "a8f4d97f-6e9a-416d-a7fd-a86f2121d19a",
+  "publisherId": "applibra",
+  "offerId": "al_no_series_update",
+  "source": {
+    "name": "AL No. Series Update",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_no_series_update%7CPAPPID.a8f4d97f-6e9a-416d-a7fd-a86f2121d19a",
+    "lastModified": "2026-01-27T11:26:14.4084081+00:00",
+    "appVersion": "27.0.25.01141722",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsapplab.com/apps",
+    "sourceHash": "sha256:34147f7754f51e81d49a9947121856b68d23a2fee338d8d178c3c0a3bd61518e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:34147f7754f51e81d49a9947121856b68d23a2fee338d8d178c3c0a3bd61518e",
+    "mappedOn": null,
+    "summary": "Updates number series per year",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-general-setup",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Year-based update of number series via a manual report",
+      "Reference year calculated from execution date (Jan-Jun current, Jul-Dec next)",
+      "Only updates numerators whose prefix contains the two-digit year",
+      "Checks last number year against reference year",
+      "Idempotent, safe for repeated runs"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

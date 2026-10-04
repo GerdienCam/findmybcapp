@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.xtensionit|AID.xteshipwebshipper|PAPPID.de2258f6-4073-4ee3-8a73-8f4fd9f351c1",
+  "guid": "de2258f6-4073-4ee3-8a73-8f4fd9f351c1",
+  "publisherId": "xtensionit",
+  "offerId": "xteshipwebshipper",
+  "source": {
+    "name": "nShift Webshipper Connector by XtensionIT",
+    "publisher": "XtensionIT Aps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xteshipwebshipper%7CPAPPID.de2258f6-4073-4ee3-8a73-8f4fd9f351c1",
+    "lastModified": "2026-09-07T09:05:37.4710605+00:00",
+    "appVersion": "5.8.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.xtensionit.com/en/shipmentconnector/overview/",
+    "sourceHash": "sha256:67fe5deb0bd56fa7c41f9ae7fd159baff2483e17ae90ec94d65aec7d36d4e05b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:67fe5deb0bd56fa7c41f9ae7fd159baff2483e17ae90ec94d65aec7d36d4e05b",
+    "mappedOn": null,
+    "summary": "Automates shipments and tracking via nShift Webshipper",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Multi-carrier shipping directly from BC via nShift Webshipper",
+      "Waybill creation, label printing, track & trace and customs documents",
+      "Updates sales documents with parcel numbers and track & trace",
+      "Shipment status lookup from posted shipment for customer service",
+      "Real-time freight rate comparison",
+      "Automatic printing of shipping documents",
+      "Track & trace links for customers",
+      "Return handling and reverse logistics",
+      "Customs information for carriers",
+      "Extenders available for Dangerous Goods and Tasklet Mobile WMS"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "DK",
+      "FI",
+      "NL",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "nShift Webshipper"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

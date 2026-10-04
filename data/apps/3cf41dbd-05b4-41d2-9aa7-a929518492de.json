@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.estonian_dynamics_partners|AID.prepayment-management|PAPPID.3cf41dbd-05b4-41d2-9aa7-a929518492de",
+  "guid": "3cf41dbd-05b4-41d2-9aa7-a929518492de",
+  "publisherId": "estonian_dynamics_partners",
+  "offerId": "prepayment-management",
+  "source": {
+    "name": "Prepayment Management",
+    "publisher": "Estonian Dynamics Partners",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.prepayment-management%7CPAPPID.3cf41dbd-05b4-41d2-9aa7-a929518492de",
+    "lastModified": "2026-05-08T10:15:54.6772262+00:00",
+    "appVersion": "26.0.26127.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicspartnersee.github.io/apps/prepayment-management/docs/en-US/help",
+    "sourceHash": "sha256:8dfc94915d84085868434e66f7504b1e1f589785b82fd30ecdc13b70533d549b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8dfc94915d84085868434e66f7504b1e1f589785b82fd30ecdc13b70533d549b",
+    "mappedOn": null,
+    "summary": "Customer and vendor prepayment handling with a prepayment ledger",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Issues customer- and vendor-specific prepayment invoices",
+      "Treats customer prepayments as turnover subject to VAT",
+      "Prepayment ledger, deducting prepayments from main invoices",
+      "Supports standard Prepayment Unrealized VAT",
+      "Links prepayments with projects module",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "EE"
+    ],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

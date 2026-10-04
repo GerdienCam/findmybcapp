@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.erpconnectconsultingllc1655482443679|AID.has|PAPPID.d359ecc0-11e9-4b16-823e-a3cb28604977",
+  "guid": "d359ecc0-11e9-4b16-823e-a3cb28604977",
+  "publisherId": "erpconnectconsultingllc1655482443679",
+  "offerId": "has",
+  "source": {
+    "name": "History and Statistics",
+    "publisher": "RUX Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpconnectconsultingllc1655482443679%7CAID.has%7CPAPPID.d359ecc0-11e9-4b16-823e-a3cb28604977",
+    "lastModified": "2026-09-09T15:04:17.873155+00:00",
+    "appVersion": "27.0.0.35",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ruxsoftware.com/application/history-and-statistics",
+    "sourceHash": "sha256:b0a3f1892578b2e312c0d565c7bf798dc6d4659b6d5b4f2db558edf3cbe8ac3c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b0a3f1892578b2e312c0d565c7bf798dc6d4659b6d5b4f2db558edf3cbe8ac3c",
+    "mappedOn": null,
+    "summary": "History, statistics and change monitoring for vendors, customers, items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-analytics",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-change-log",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-quality-compliance",
+      "ng-inventory-analysis",
+      "ng-ux-search-navigation"
+    ],
+    "claims": [
+      "Item statistics: on hand, available, lead time, days supply, inventory age",
+      "Purchase and sales price trends",
+      "Inventory by location and bin, aging and valuation",
+      "Vendor return percentage and on-time delivery over 90 days",
+      "Customer average pay days and fulfilment days",
+      "Customer map",
+      "Enhanced change logs across master data and documents",
+      "Field monitoring",
+      "Global sales document search across posted and unposted",
+      "Saved search views"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

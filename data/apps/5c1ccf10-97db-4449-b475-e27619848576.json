@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.dynaway|AID.requests-bc|PAPPID.5c1ccf10-97db-4449-b475-e27619848576",
+  "guid": "5c1ccf10-97db-4449-b475-e27619848576",
+  "publisherId": "dynaway",
+  "offerId": "requests-bc",
+  "source": {
+    "name": "Dynaway Requests",
+    "publisher": "Dynaway A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.requests-bc%7CPAPPID.5c1ccf10-97db-4449-b475-e27619848576",
+    "lastModified": "2026-08-05T08:59:41.481186+00:00",
+    "appVersion": "2607.0.1501.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.dynaway.com/eam-bc/requests/",
+    "sourceHash": "sha256:1cf9bfa7d5be9a0c1549b6c9ac56bab4cd06ecac0860e9b42ae475d0ce72eaf3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1cf9bfa7d5be9a0c1549b6c9ac56bab4cd06ecac0860e9b42ae475d0ce72eaf3",
+    "mappedOn": null,
+    "summary": "Employee service requests to maintenance",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Employees create maintenance requests from BC mobile app",
+      "Add photos to requests",
+      "Approve requests and create work orders",
+      "See others' requests and statuses to avoid duplicates",
+      "Requests can be created with Team Member license"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "no",
+      "sv"
+    ],
+    "industries": [
+      "Energy",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Dynaway EAM"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

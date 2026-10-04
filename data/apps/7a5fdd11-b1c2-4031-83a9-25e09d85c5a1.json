@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.goprodoo1579609051569|AID.bc_powerbi_connector|PAPPID.7a5fdd11-b1c2-4031-83a9-25e09d85c5a1",
+  "guid": "7a5fdd11-b1c2-4031-83a9-25e09d85c5a1",
+  "publisherId": "goprodoo1579609051569",
+  "offerId": "bc_powerbi_connector",
+  "source": {
+    "name": "BC Insight Connector",
+    "publisher": "GoPro doo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.goprodoo1579609051569%7CAID.bc_powerbi_connector%7CPAPPID.7a5fdd11-b1c2-4031-83a9-25e09d85c5a1",
+    "lastModified": "2025-09-03T07:22:06.9092536+00:00",
+    "appVersion": "24.0.17.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/126/BC-Insight-Connector",
+    "sourceHash": "sha256:02853a591bcfeeb4afc19516d683c0f2e0f22df6c659d873e4359ac4f00f0052"
+  },
+  "mapping": {
+    "sourceHash": "sha256:02853a591bcfeeb4afc19516d683c0f2e0f22df6c659d873e4359ac4f00f0052",
+    "mappedOn": null,
+    "summary": "Exports BC data to Azure Data Lake storage",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Exports BC data to Azure Data Lake Gen2 blob storage",
+      "Select standard and custom tables and fields to export",
+      "Incremental export of changes and deletions only",
+      "Scheduled daily export job",
+      "Feeds predefined data warehouse for Power BI reports",
+      "Usable only with GoPro Power BI apps"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Data Lake",
+      "Power BI"
+    ],
+    "requires": [
+      "GoPro BC Insight Power BI apps"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

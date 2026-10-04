@@ -1,0 +1,417 @@
+{
+  "id": "ng-shipping-carriers",
+  "order": 76,
+  "label": "Shipping labels and carrier booking",
+  "description": "Printing carrier labels and documents and comparing carrier rates.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "high",
+  "statements": [
+    "Shipping labels and carrier booking",
+    "Printing carrier labels and documents and comparing carrier rates.",
+    "We copy addresses from BC into the carrier website to print labels",
+    "Is there an app that integrates BC with GLS, PostNord, DHL and UPS?",
+    "We want to print shipping labels directly from the sales shipment",
+    "shipping label integration Business Central",
+    "Tracking numbers should be sent to the customer automatically",
+    "We need customs documents for shipments outside the EU",
+    "How do we print a delivery note and label in one click?",
+    "Our warehouse uses three different carrier portals",
+    "Customers want the tracking link in the shipment confirmation email",
+    "We need pro forma invoices and CMR documents for exports",
+    "nShift integration BC",
+    "Each parcel in a multi-box shipment needs its own label",
+    "We want shipping labels printed automatically when the order is packed",
+    "Dangerous goods paperwork has to be done by hand",
+    "Return labels for customers should be printed with the shipment",
+    "The tracking number is not saved anywhere in BC",
+    "We need to book a pickup with the carrier from BC",
+    "Shipping documents for pallets are written by hand",
+    "Is there one integration for all our carriers?",
+    "We send 300 parcels a day and labels are the bottleneck",
+    "We want to see which carrier is cheapest for each parcel before booking",
+    "Freight on our sales orders is a guess and we lose money on shipping",
+    "Is there an app that calculates shipping cost in BC based on weight and zone?",
+    "We want shipping costs added to the customer order automatically",
+    "rate shopping carriers BC",
+    "Our carrier price lists are PDFs and nobody checks them",
+    "How do we calculate freight for pallets versus parcels?",
+    "We need to quote a delivery price to the customer while on the phone",
+    "Fuel surcharges change monthly and our freight prices are always outdated",
+    "Free shipping above a certain order value needs to be automatic",
+    "We want the estimated freight cost on the purchase order from our supplier",
+    "Compare delivery times and prices across carriers"
+  ],
+  "questions": [
+    {
+      "id": "platform",
+      "text": "Do you use a shipping platform, or book directly with carriers?",
+      "help": "Shipping platforms like nShift or Sendcloud give access to many carriers through one account.",
+      "multi": true,
+      "options": [
+        {
+          "label": "nShift (incl. Unifaun, Transsmart, Webshipper)",
+          "patterns": [
+            "nshift",
+            "unifaun",
+            "transsmart",
+            "webshipper"
+          ]
+        },
+        {
+          "label": "Sendcloud",
+          "patterns": [
+            "sendcloud"
+          ]
+        },
+        {
+          "label": "Shipmondo",
+          "patterns": [
+            "shipmondo"
+          ]
+        },
+        {
+          "label": "Another platform (Cargoson, EasyPost, Logtrade, ShipStation...)",
+          "patterns": [
+            "cargoson",
+            "easypost",
+            "logtrade",
+            "consignor",
+            "metapack",
+            "shippypro",
+            "starshipit",
+            "shiptheory",
+            "smartfreight",
+            "cario\\b",
+            "logisnap",
+            "shipstation",
+            "shiprush",
+            "gosweetspot",
+            "multisiuntos",
+            "balikobot",
+            "scurri",
+            "postis",
+            "shipio",
+            "ingrid",
+            "cargonizer",
+            "freightpop",
+            "17track",
+            "truckplanner"
+          ]
+        },
+        {
+          "label": "Directly with the carrier",
+          "patterns": [
+            "direct carrier integration",
+            "direct interfaces",
+            "without a multi-carrier",
+            "no service providers",
+            "connect to (dhl|yourgls|postnord)",
+            "dhl ecommerce",
+            "(econt|speedy|fan courier|dpd|postnord|posta|danske fragtm\\w*) (rest )?(api|shipments|connector|shipping|courier|integration|services|waybills|selfservice)",
+            "integrates gls and dpd",
+            "creates dpd",
+            "creates postnord",
+            "dpd uk",
+            "dx delivery"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "nShift (incl. Unifaun, Transsmart, Webshipper)": 0.16,
+        "Sendcloud": 0.08,
+        "Shipmondo": 0.06,
+        "Another platform (Cargoson, EasyPost, Logtrade, ShipStation...)": 0.36,
+        "Directly with the carrier": 0.14
+      }
+    },
+    {
+      "id": "carriers",
+      "text": "Which carriers do you ship with most?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "PostNord or Bring",
+          "patterns": [
+            "postnord",
+            "\\bbring\\b"
+          ]
+        },
+        {
+          "label": "DHL",
+          "patterns": [
+            "\\bdhl"
+          ]
+        },
+        {
+          "label": "GLS or DPD",
+          "patterns": [
+            "\\bgls\\b",
+            "\\bdpd\\b",
+            "yourgls"
+          ]
+        },
+        {
+          "label": "UPS, FedEx or USPS",
+          "patterns": [
+            "\\bups\\b",
+            "fedex",
+            "usps"
+          ]
+        },
+        {
+          "label": "Royal Mail or other UK carriers",
+          "patterns": [
+            "royal mail",
+            "\\bevri\\b",
+            "\\bdx delivery",
+            "dpd uk",
+            "palletways",
+            "hermes"
+          ]
+        },
+        {
+          "label": "Other or not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "PostNord or Bring": 0.07,
+        "DHL": 0.16,
+        "GLS or DPD": 0.14,
+        "UPS, FedEx or USPS": 0.15,
+        "Royal Mail or other UK carriers": 0.07
+      }
+    },
+    {
+      "id": "beyond_labels",
+      "text": "Besides printing labels, what should the app do for you?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Compare carrier prices before booking",
+          "patterns": [
+            "compar\\w* (carrier|offers|options|rates|freight|configured|shipping)",
+            "rate shop",
+            "cheapest",
+            "price quotes?",
+            "shipping quotes",
+            "best freight",
+            "estimated shipping cost",
+            "freight price estimates",
+            "shipment rates",
+            "real-time rates",
+            "live rate",
+            "calculates shipping cost per",
+            "checks shipping prices",
+            "quotes freight",
+            "freight pricing",
+            "rates? comparison"
+          ]
+        },
+        {
+          "label": "Add the freight cost to the order or invoice",
+          "patterns": [
+            "freight charges? (automatically )?to",
+            "adds freight",
+            "freight charge lines",
+            "shipping costs? (on|to|shown|flow)",
+            "adds (the )?correct cost",
+            "quoted shipping costs",
+            "apply selected services and charges",
+            "pass shipping charges",
+            "applies (selection|shipping costs)",
+            "freight cost with markup",
+            "calculates freight for sales",
+            "shipping costs or free shipping"
+          ]
+        },
+        {
+          "label": "Send tracking emails or SMS to customers",
+          "patterns": [
+            "(tracking|dispatch|pre-?notification)\\w* (emails?|notifications?|messages|pages?)",
+            "notifications? via",
+            "by sms",
+            "sms (or|and) email",
+            "email or sms",
+            "track and trace for customers",
+            "track & trace links for customers",
+            "tracking (status and )?(updates|information|info) (to|sent to) customer",
+            "branded tracking",
+            "tracking to customers",
+            "track ?& ?trace"
+          ]
+        },
+        {
+          "label": "Check delivery addresses before shipping",
+          "patterns": [
+            "address (verification|validation)",
+            "validat\\w* address"
+          ]
+        },
+        {
+          "label": "Just labels / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Compare carrier prices before booking": 0.31,
+        "Add the freight cost to the order or invoice": 0.16,
+        "Send tracking emails or SMS to customers": 0.27,
+        "Check delivery addresses before shipping": 0.03
+      }
+    },
+    {
+      "id": "where",
+      "text": "Where do you pack and print labels?",
+      "multi": true,
+      "options": [
+        {
+          "label": "On handheld scanners in the warehouse",
+          "patterns": [
+            "handheld",
+            "scanner",
+            "mobile wms",
+            "mobilenav",
+            "multisoft mobile",
+            "from mobile device",
+            "on the mobile device",
+            "on mobile$",
+            "pack & ship",
+            "tasklet"
+          ]
+        },
+        {
+          "label": "Automatically to a label printer",
+          "patterns": [
+            "printnode",
+            "local printers?",
+            "\\bzpl\\b",
+            "zebra",
+            "auto-?print",
+            "automatic (label )?print",
+            "print agent",
+            "directly to printer",
+            "prints? .*directly"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "On handheld scanners in the warehouse": 0.21,
+        "Automatically to a label printer": 0.18
+      }
+    },
+    {
+      "id": "special",
+      "text": "Do any of these apply to your shipments?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Exports needing customs papers",
+          "patterns": [
+            "customs",
+            "commercial invoice",
+            "pro forma",
+            "non-eu",
+            "international shipments",
+            "airway bill"
+          ]
+        },
+        {
+          "label": "Dangerous goods (ADR)",
+          "patterns": [
+            "dangerous goods",
+            "hazard",
+            "\\badr\\b",
+            "\\bun numbers"
+          ]
+        },
+        {
+          "label": "Pallets or full truckloads",
+          "patterns": [
+            "pallet",
+            "\\bltl\\b",
+            "\\bftl\\b",
+            "truckloads?",
+            "\\b(plans?|builds?) loads",
+            "freight forwarder",
+            "danske fragtm"
+          ]
+        },
+        {
+          "label": "Return labels",
+          "patterns": [
+            "return (labels?|shipments?|shipping|handling|services)",
+            "returns? portal",
+            "prepaid return",
+            "returns\\b",
+            "reverse logistics",
+            "customer returns",
+            "return orders"
+          ]
+        },
+        {
+          "label": "None of these",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Exports needing customs papers": 0.19,
+        "Dangerous goods (ADR)": 0.13,
+        "Pallets or full truckloads": 0.14,
+        "Return labels": 0.18
+      }
+    },
+    {
+      "id": "parcels",
+      "text": "What should the app handle for each shipment?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Several packages with weights and dimensions",
+          "patterns": [
+            "packages?\\b[^.;]{0,40}(dimension|weight)",
+            "number of packages",
+            "predefined packages",
+            "optimal packaging",
+            "weight, dimensions"
+          ]
+        },
+        {
+          "label": "Waybills or consignment notes",
+          "patterns": [
+            "waybill",
+            "consignment note"
+          ]
+        },
+        {
+          "label": "High volumes printed in batches",
+          "patterns": [
+            "batch (label )?(printing|processing)",
+            "high volume"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Several packages with weights and dimensions": 0.11,
+        "Waybills or consignment notes": 0.23,
+        "High volumes printed in batches": 0.03
+      }
+    }
+  ]
+}

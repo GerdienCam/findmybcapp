@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.d365innovationgmbh1690432091652|AID.i365carrierconnect|PAPPID.5243a04b-b3e2-4530-9432-d6ec4a7afc1a",
+  "guid": "5243a04b-b3e2-4530-9432-d6ec4a7afc1a",
+  "publisherId": "d365innovationgmbh1690432091652",
+  "offerId": "i365carrierconnect",
+  "source": {
+    "name": "i365 Carrier Connect",
+    "publisher": "D365 Innovation GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.d365innovationgmbh1690432091652%7CAID.i365carrierconnect%7CPAPPID.5243a04b-b3e2-4530-9432-d6ec4a7afc1a",
+    "lastModified": "2026-08-27T12:30:42.7206869+00:00",
+    "appVersion": "4.1.0.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://onlinehelp-d365-innovation.de/",
+    "sourceHash": "sha256:35ba1e5c3c84937e7c2e2581f8d0b6d23d6d40101f3aa0fa5aaeef50ef3eddda"
+  },
+  "mapping": {
+    "sourceHash": "sha256:35ba1e5c3c84937e7c2e2581f8d0b6d23d6d40101f3aa0fa5aaeef50ef3eddda",
+    "mappedOn": null,
+    "summary": "Prints carrier shipping labels directly from BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "Prints carrier shipping labels directly from BC to local printers",
+      "Direct carrier integration without a multi-carrier service provider",
+      "Ships with ready connections to carriers GO, GLS, UPS, DHL and DHL Express",
+      "Additional carriers added on request",
+      "Works with BC cloud and on-premises installations",
+      "Supports multiple carriers and parcel sizes",
+      "Supports Essentials and Premium editions",
+      "No country-specific functionality; available for all countries"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DHL",
+      "DHL Express",
+      "UPS",
+      "GLS",
+      "GO"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

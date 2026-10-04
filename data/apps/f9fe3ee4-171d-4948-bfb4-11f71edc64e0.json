@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.brightcom_3111464|AID.brc_extended_finance_management|PAPPID.f9fe3ee4-171d-4948-bfb4-11f71edc64e0",
+  "guid": "f9fe3ee4-171d-4948-bfb4-11f71edc64e0",
+  "publisherId": "brightcom_3111464",
+  "offerId": "brc_extended_finance_management",
+  "source": {
+    "name": "BRC Extended Finance Management",
+    "publisher": "BrightCom Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.brc_extended_finance_management%7CPAPPID.f9fe3ee4-171d-4948-bfb4-11f71edc64e0",
+    "lastModified": "2026-10-01T13:02:45.3766789+00:00",
+    "appVersion": "28.0.35382.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.brightcom.se/sv/Products/BRCExtFinance",
+    "sourceHash": "sha256:0f09d3229b8ba7003dff085f38d96f546f27333d3beb790477cdc0c965f30541"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0f09d3229b8ba7003dff085f38d96f546f27333d3beb790477cdc0c965f30541",
+    "mappedOn": null,
+    "summary": "Recurring billing, commissions, tax logic and small-balance cleanup",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-collections",
+      "ng-loc-tax-reporting",
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Recurring contract invoices with schedules and templates",
+      "Commission agreements (coming soon)",
+      "Swedish chemical tax (coming soon)",
+      "Close small receivable balances (coming soon)",
+      "Norwegian SAF-T export (coming soon)",
+      "Modular, activate only needed features",
+      "Cloud deployment"
+    ],
+    "countries": [
+      "DK",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

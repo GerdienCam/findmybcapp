@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.1605098832294|AID.docusignintegrationforbc|PAPPID.0f4ee8a6-cfa1-4150-aeb9-3871d07f47ca",
+  "guid": "0f4ee8a6-cfa1-4150-aeb9-3871d07f47ca",
+  "publisherId": "1605098832294",
+  "offerId": "docusignintegrationforbc",
+  "source": {
+    "name": "DocuSign Integration",
+    "publisher": "Awara IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1605098832294%7CAID.docusignintegrationforbc%7CPAPPID.0f4ee8a6-cfa1-4150-aeb9-3871d07f47ca",
+    "lastModified": "2024-11-21T22:56:28.3357477+00:00",
+    "appVersion": "22.4.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://awara-it.com/contacts/",
+    "sourceHash": "sha256:b3086c645bc7bd85e4b719ee6b053b1a41c10c03f85c7e39e0383f8e007c6828"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b3086c645bc7bd85e4b719ee6b053b1a41c10c03f85c7e39e0383f8e007c6828",
+    "mappedOn": null,
+    "summary": "Sends BC documents to DocuSign for electronic signature and tracks status",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Configure which document types require signatures",
+      "Uses existing document templates",
+      "Configure signers for company and customer",
+      "Configure signing sequence",
+      "Permissions and roles for signature management",
+      "Void documents sent for signature",
+      "Real-time status per signatory",
+      "Signed documents and signature certificates returned as BC attachments"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "DocuSign"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

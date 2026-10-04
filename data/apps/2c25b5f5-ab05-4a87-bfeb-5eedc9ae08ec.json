@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.appower|AID.pwr_tb|PAPPID.2c25b5f5-ab05-4a87-bfeb-5eedc9ae08ec",
+  "guid": "2c25b5f5-ab05-4a87-bfeb-5eedc9ae08ec",
+  "publisherId": "appower",
+  "offerId": "pwr_tb",
+  "source": {
+    "name": "Turnover Bonuses",
+    "publisher": "APPower",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.appower%7CAID.pwr_tb%7CPAPPID.2c25b5f5-ab05-4a87-bfeb-5eedc9ae08ec",
+    "lastModified": "2026-06-05T19:25:22.4373138+00:00",
+    "appVersion": "2.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.appower.io/",
+    "sourceHash": "sha256:2309f7ac2542d13e95a489b1f3ef45004abc8e3600bf21990420d776a33a7953"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2309f7ac2542d13e95a489b1f3ef45004abc8e3600bf21990420d776a33a7953",
+    "mappedOn": null,
+    "summary": "Calculates, posts and settles turnover bonuses for customers and vendors",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-rebates",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Bonuses for both sales and purchase transactions",
+      "Multiple product groups with different bonus thresholds",
+      "Handles items, item categories, item charges, resources and G/L accounts",
+      "Exclude selected invoices from bonus basis",
+      "Multicurrency bonus contracts",
+      "Progressive or max threshold types",
+      "Automatic credit memos to settle bonuses",
+      "Posts cost and revenue provisions automatically",
+      "Settlement with or without reversal of provisions",
+      "Additional dimensions on provision postings",
+      "Multiple settlement periods per bonus contract"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

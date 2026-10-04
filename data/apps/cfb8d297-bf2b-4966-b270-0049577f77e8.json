@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.youngpartners1588093205397|AID.navitrans_365_customs_streamliner|PAPPID.cfb8d297-bf2b-4966-b270-0049577f77e8",
+  "guid": "cfb8d297-bf2b-4966-b270-0049577f77e8",
+  "publisherId": "youngpartners1588093205397",
+  "offerId": "navitrans_365_customs_streamliner",
+  "source": {
+    "name": "Navitrans 365 Customs Streamliner",
+    "publisher": "Navitrans",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_customs_streamliner%7CPAPPID.cfb8d297-bf2b-4966-b270-0049577f77e8",
+    "lastModified": "2026-09-30T20:03:58.001348+00:00",
+    "appVersion": "28.5.0.80055",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navitrans.eu/our-services/tms/",
+    "sourceHash": "sha256:2130f8ec0d3d7fb29f7b55451bdcc2a12a6256af3051d93d1bfe1abfd69bf732"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2130f8ec0d3d7fb29f7b55451bdcc2a12a6256af3051d93d1bfe1abfd69bf732",
+    "mappedOn": null,
+    "summary": "Interfaces customs info with Stream",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Creates and maintains customs declarations and communicates with customs agents",
+      "Declaration types, MRN/LRN numbers, dates, references and currencies on declarations",
+      "Configurable customs declaration templates",
+      "Follows up declarations in a standard status flow",
+      "Attaches documents to customs declarations",
+      "Creates customs costs and services to invoice",
+      "Sends customs declarations to Stream Software",
+      "Receives file confirmations and MRN numbers from Stream Software",
+      "Declarations created from TMS, WMS and Forwarding modules",
+      "Bonded stock history and traceability",
+      "Customs journal for administrative corrections and clearances",
+      "Supports Essential and Premium"
+    ],
+    "countries": [
+      "BE",
+      "GB"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Stream Software"
+    ],
+    "requires": [
+      "Navitrans 365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

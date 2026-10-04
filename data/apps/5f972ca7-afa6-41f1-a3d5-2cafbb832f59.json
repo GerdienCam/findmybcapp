@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.dynamicssolutionandtechnology|AID.dsrequisition|PAPPID.5f972ca7-afa6-41f1-a3d5-2cafbb832f59",
+  "guid": "5f972ca7-afa6-41f1-a3d5-2cafbb832f59",
+  "publisherId": "dynamicssolutionandtechnology",
+  "offerId": "dsrequisition",
+  "source": {
+    "name": "DS Material Requisition",
+    "publisher": "Dynamics Solution and Technology",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicssolutionandtechnology%7CAID.dsrequisition%7CPAPPID.5f972ca7-afa6-41f1-a3d5-2cafbb832f59",
+    "lastModified": "2026-02-05T10:43:00.2164997+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicssolution.com/contact-us/",
+    "sourceHash": "sha256:6350e4efe8d56e22584d958e651d4ea46909b8886d8dccf93f43704c7c14b151"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6350e4efe8d56e22584d958e651d4ea46909b8886d8dccf93f43704c7c14b151",
+    "mappedOn": null,
+    "summary": "Purchase requests, requisitions and quote comparison workflow",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Material requisitions from warehouse, projects or departments",
+      "Multi-level approvals for requisitions",
+      "Printing/emailing restricted to released documents",
+      "RFQs sent to multiple vendors",
+      "Side-by-side quotation comparison and conversion to purchase orders",
+      "Tracks requested vs issued quantities"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

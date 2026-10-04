@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.axtrion|AID.axt_profitcalculator|PAPPID.eb496e5e-dc1d-4c89-adf3-06ca929a3a09",
+  "guid": "eb496e5e-dc1d-4c89-adf3-06ca929a3a09",
+  "publisherId": "axtrion",
+  "offerId": "axt_profitcalculator",
+  "source": {
+    "name": "Profit Calculator (Sales Lines)",
+    "publisher": "Axtrion GmbH & Co. KG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.axtrion%7CAID.axt_profitcalculator%7CPAPPID.eb496e5e-dc1d-4c89-adf3-06ca929a3a09",
+    "lastModified": "2026-06-19T05:53:53.2693682+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.axtrion.com/",
+    "sourceHash": "sha256:6f9116fe2fb86ac84336ae8dc74ecbf6702abde1211c941ff3d3988d562605c5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6f9116fe2fb86ac84336ae8dc74ecbf6702abde1211c941ff3d3988d562605c5",
+    "mappedOn": null,
+    "summary": "Shows margin per sales line using current supplier prices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-pricing"
+    ],
+    "claims": [
+      "Calculates profit and contribution margin per sales line on quotes and orders before posting",
+      "Uses current vendor purchase prices rather than inventory cost",
+      "Shows profit on each sales line for every vendor price and highlights the preferred vendor",
+      "Compares document totals by preferred vendor, highest profit per line or single vendor",
+      "Price calculation includes quantity breaks, validity periods and promotional prices",
+      "Converts vendor prices in foreign currency and different units of measure",
+      "What-if analysis with write-back to sales lines",
+      "Compatible with classic and new price lists"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

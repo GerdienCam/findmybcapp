@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.belwaregmbh2|AID.connector-365-cti-for-starface|PAPPID.c2122935-411c-4417-9535-57769feb7e43",
+  "guid": "c2122935-411c-4417-9535-57769feb7e43",
+  "publisherId": "belwaregmbh2",
+  "offerId": "connector-365-cti-for-starface",
+  "source": {
+    "name": "Connector 365 CTI for STARFACE",
+    "publisher": "BELWARE GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector-365-cti-for-starface%7CPAPPID.c2122935-411c-4417-9535-57769feb7e43",
+    "lastModified": "2026-07-27T23:38:56.534254+00:00",
+    "appVersion": "2.2.29043.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.belware.de/en-us/apps/cti-for-starface/",
+    "sourceHash": "sha256:5fa2bbbd925aeeb29ec40041d6531c857c41966a6699ff34677aab0a9ead5619"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5fa2bbbd925aeeb29ec40041d6531c857c41966a6699ff34677aab0a9ead5619",
+    "mappedOn": null,
+    "summary": "Integrates STARFACE telephony CTI with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Log of all incoming and outgoing calls",
+      "Opens contact on incoming call",
+      "User groups with presence of who is on a call",
+      "Tracks call times for invoicing",
+      "Supports STARFACE 6.x and 7.x"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "STARFACE"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

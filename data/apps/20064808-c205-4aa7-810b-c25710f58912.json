@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.codeunit|AID.connect2frontsystems|PAPPID.20064808-c205-4aa7-810b-c25710f58912",
+  "guid": "20064808-c205-4aa7-810b-c25710f58912",
+  "publisherId": "codeunit",
+  "offerId": "connect2frontsystems",
+  "source": {
+    "name": "connect2FrontSystems",
+    "publisher": "Codeunit",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2frontsystems%7CPAPPID.20064808-c205-4aa7-810b-c25710f58912",
+    "lastModified": "2025-09-17T10:43:29.1221878+00:00",
+    "appVersion": "26.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.codeunit.io/get-in-touch",
+    "sourceHash": "sha256:122485e7c7dd3f58c31cfa54878b3d7aeba385264d28a9c50fbf395eb5c6f34f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:122485e7c7dd3f58c31cfa54878b3d7aeba385264d28a9c50fbf395eb5c6f34f",
+    "mappedOn": null,
+    "summary": "Integrates Front Systems POS with Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Integrates cloud POS for fashion and specialty retailers",
+      "Real-time sales, inventory and customer data across channels",
+      "Front Systems offers omnichannel loyalty and certified fiscal compliance",
+      "Includes fully managed and monitored data flows",
+      "Fully functional free trial before buying",
+      "Also supports Microsoft Dynamics NAV",
+      "Requires Front Systems POS",
+      "Built on Codeunit OmniConnect integration platform"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Fashion",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Front Systems"
+    ],
+    "requires": [
+      "Front Systems POS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

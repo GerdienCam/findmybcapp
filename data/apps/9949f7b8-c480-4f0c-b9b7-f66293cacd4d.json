@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.yaveon|AID.pb365scale|PAPPID.9949f7b8-c480-4f0c-b9b7-f66293cacd4d",
+  "guid": "9949f7b8-c480-4f0c-b9b7-f66293cacd4d",
+  "publisherId": "yaveon",
+  "offerId": "pb365scale",
+  "source": {
+    "name": "Yaveon 365 Scale Connect",
+    "publisher": "Yaveon GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pb365scale%7CPAPPID.9949f7b8-c480-4f0c-b9b7-f66293cacd4d",
+    "lastModified": "2026-09-16T16:42:46.7384763+00:00",
+    "appVersion": "13.5.131.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/scale/index.html",
+    "sourceHash": "sha256:22ac3d7dd0b38e9e2c299a36b9379dc52c613baf36d4870a88adfbdfd770374d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:22ac3d7dd0b38e9e2c299a36b9379dc52c613baf36d4870a88adfbdfd770374d",
+    "mappedOn": null,
+    "summary": "Connects production scales for weighing",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-life-sciences"
+    ],
+    "claims": [
+      "Connects scales from Mettler Toledo, Sartorius, Bizerba and other manufacturers",
+      "Meets FDA, EU GMP, ISO13485, MDR and IVDR requirements",
+      "Displays hazardous substance symbols on the scale dialog",
+      "Weighing orders created in BC and sent to scale management system",
+      "Automatic consumption postings with optional correction of minor stock deviations",
+      "Tolerance specifications against errors",
+      "Individual and additive weighing steps",
+      "Calculates component proportions from active ingredient values",
+      "Only permitted lots may be weighed with Rule Management",
+      "Automated cyclic hardware testing, mobile/stationary workstations, post-process label printing"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Mettler Toledo",
+      "Sartorius",
+      "Minebea intec",
+      "Bizerba",
+      "Precisia",
+      "Söhnle professional"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

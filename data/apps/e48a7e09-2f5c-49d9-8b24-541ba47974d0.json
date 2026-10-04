@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.abakion|AID.commerce_manager|PAPPID.e48a7e09-2f5c-49d9-8b24-541ba47974d0",
+  "guid": "e48a7e09-2f5c-49d9-8b24-541ba47974d0",
+  "publisherId": "abakion",
+  "offerId": "commerce_manager",
+  "source": {
+    "name": "Commerce Manager",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.commerce_manager%7CPAPPID.e48a7e09-2f5c-49d9-8b24-541ba47974d0",
+    "lastModified": "2026-05-04T07:14:59.8116094+00:00",
+    "appVersion": "28.0.202617.163291",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/commerce-manager/#howto",
+    "sourceHash": "sha256:a70e767c90417677983501bed47658a97a99af531ec589cd8e24dbf37993d1f1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a70e767c90417677983501bed47658a97a99af531ec589cd8e24dbf37993d1f1",
+    "mappedOn": null,
+    "summary": "Imports sales orders and manages consignment and replenishment",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-consignment",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Single interface for field sales, shop replenishment, consignment, portals and e-commerce orders",
+      "Receives orders in a buffer table and converts by configuration",
+      "Converts to all sales, purchase and inventory document types",
+      "Consignment customers' orders converted to transfer orders",
+      "Intercompany purchase orders from same interface",
+      "Uses a customer template when the order has no customer number"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

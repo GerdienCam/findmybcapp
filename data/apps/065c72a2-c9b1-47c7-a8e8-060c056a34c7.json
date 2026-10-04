@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.equerralimited|AID.equerra-elevate-operations|PAPPID.065c72a2-c9b1-47c7-a8e8-060c056a34c7",
+  "guid": "065c72a2-c9b1-47c7-a8e8-060c056a34c7",
+  "publisherId": "equerralimited",
+  "offerId": "equerra-elevate-operations",
+  "source": {
+    "name": "Elevate Operations",
+    "publisher": "Equerra Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.equerralimited%7CAID.equerra-elevate-operations%7CPAPPID.065c72a2-c9b1-47c7-a8e8-060c056a34c7",
+    "lastModified": "2026-09-21T01:03:45.816206+00:00",
+    "appVersion": "28.1.55.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.equerra.com/docs/ElevateOperations",
+    "sourceHash": "sha256:459179ffb580f5011fc465c11567e4df991970cf292b982224b103f844aa9384"
+  },
+  "mapping": {
+    "sourceHash": "sha256:459179ffb580f5011fc465c11567e4df991970cf292b982224b103f844aa9384",
+    "mappedOn": null,
+    "summary": "Single live view of inbound and outbound warehouse work",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-quality-hold"
+    ],
+    "claims": [
+      "Single screen of pending purchase, sales, transfer orders and returns by location",
+      "Colour-coded real-time item availability",
+      "Stock on hand by location, bin, lot and expiry with Excel export",
+      "Urgency flags Overdue, Today, This Week, Later",
+      "Create warehouse receipts, shipments and picks from the hub",
+      "Assign picks to warehouse users",
+      "Bulk shipment date updates",
+      "Hold and QC hold reduce availability",
+      "Integration events for partner extensions",
+      "Subscription required after free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

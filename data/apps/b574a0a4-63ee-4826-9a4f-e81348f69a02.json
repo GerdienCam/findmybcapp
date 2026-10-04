@@ -1,0 +1,83 @@
+{
+  "appId": "PUBID.wipfli|AID.invoiceconnect_for_business_central|PAPPID.b574a0a4-63ee-4826-9a4f-e81348f69a02",
+  "guid": "b574a0a4-63ee-4826-9a4f-e81348f69a02",
+  "publisherId": "wipfli",
+  "offerId": "invoiceconnect_for_business_central",
+  "source": {
+    "name": "InvoiceConnect for Concur",
+    "publisher": "Wipfli LLP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wipfli%7CAID.invoiceconnect_for_business_central%7CPAPPID.b574a0a4-63ee-4826-9a4f-e81348f69a02",
+    "lastModified": "2026-09-16T08:22:19.5065049+00:00",
+    "appVersion": "1.10.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://wipfliapps.github.io/concurconnect/BusinessCentral.html",
+    "sourceHash": "sha256:bf462207ff0cb810c408eb1e383a46bcbb0e78cd404a1e32be91ed5559be645a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bf462207ff0cb810c408eb1e383a46bcbb0e78cd404a1e32be91ed5559be645a",
+    "mappedOn": null,
+    "summary": "Imports invoice data from SAP Concur Invoice into BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Integrates Concur invoices, credit memos and payments into BC",
+      "Synchronizes vendor records between systems",
+      "User-managed data mapping between systems",
+      "Uses SAP Concur APIs, no manual extract files",
+      "Supports Premium and Essentials"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IS",
+      "IT",
+      "KR",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SAP Concur Invoice"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.b2f|AID.b2f_mam|PAPPID.5b78a85c-b371-404e-a393-ea84ff371fbc",
+  "guid": "5b78a85c-b371-404e-a393-ea84ff371fbc",
+  "publisherId": "b2f",
+  "offerId": "b2f_mam",
+  "source": {
+    "name": "B2F Maintenance and Asset Management",
+    "publisher": "B2F",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_mam%7CPAPPID.5b78a85c-b371-404e-a393-ea84ff371fbc",
+    "lastModified": "2026-09-03T13:55:03.4490637+00:00",
+    "appVersion": "28.0.22430.22430",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2023/05/B2F-Asset-Management.pdf",
+    "sourceHash": "sha256:359d07d94a85cbe053515c3b00d34c4cbf52b40424ac50519927ddf04af97d6b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:359d07d94a85cbe053515c3b00d34c4cbf52b40424ac50519927ddf04af97d6b",
+    "mappedOn": null,
+    "summary": "Planned and unplanned maintenance of assets",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Maintenance plans for assets",
+      "Maintenance orders created automatically",
+      "Considers effect of maintenance on production capacity",
+      "Expected and actual consumables and maintenance costs per asset",
+      "Maintenance reporting compared with budget"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

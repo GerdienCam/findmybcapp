@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.advanced_shipments|PAPPID.30c123d5-b709-46ad-9e21-be6a4281f97f",
+  "guid": "30c123d5-b709-46ad-9e21-be6a4281f97f",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "advanced_shipments",
+  "source": {
+    "name": "Advanced Shipments",
+    "publisher": "LODESTAR SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.advanced_shipments%7CPAPPID.30c123d5-b709-46ad-9e21-be6a4281f97f",
+    "lastModified": "2026-09-30T06:40:55.4670477+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:c1038873c7a8b954d0d5c5792b6c2befda51e4cb1c5336e8bdbd279008c0e72e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c1038873c7a8b954d0d5c5792b6c2befda51e4cb1c5336e8bdbd279008c0e72e",
+    "mappedOn": null,
+    "summary": "Combines orders into one delivery note per delivery",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-document-layouts",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Combines orders of the same customer shipped together into one delivery note",
+      "Automatic grouping of orders with the same terms into one transport document",
+      "Optional one delivery note per order for specific customers",
+      "Delivery note numbering by location, order number series or company-wide",
+      "Grouping terms locked while order is prepared",
+      "Navigate from delivery note to orders, shipments, item entries and invoices",
+      "Plain or valued delivery note printout per customer",
+      "One-click undo of lines or whole delivery note",
+      "Italian DDT transport documents"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "id": "ng-ux-search-navigation",
+  "order": 169,
+  "label": "Finding things and seeing more on one screen",
+  "description": "Better search across records, item finders on document lines, fact boxes, running balances, account names on entries, document flow views and indicators that show status at a glance.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "medium",
+  "statements": [
+    "Finding things and seeing more on one screen",
+    "Better search across records, item finders on document lines, fact boxes, running balances, account names on entries, document flow views and indicators that show status at a glance.",
+    "I can never find the item I need when entering a sales line",
+    "search any record in BC",
+    "Ledger entries only show account numbers, I want to see the names",
+    "Why is there no running balance on the customer ledger?",
+    "We waste time jumping between pages to see order history",
+    "Our sales guys search items by part of the description and BC finds nothing",
+    "Can I see which documents belong together, order, shipment, invoice, as a chart?",
+    "fuzzy search for customers",
+    "I want stock availability shown on the order line with a traffic light",
+    "Too many clicks to see a customer's last orders while on the phone",
+    "A global search box that actually finds things",
+    "Show me the lines of all open orders in one list"
+  ],
+  "questions": [
+    {
+      "id": "pain",
+      "text": "What slows your users down most?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Finding customers, items or other records",
+          "patterns": [
+            "\\bsearch",
+            "\\bfind (any|items|customer|contacts)",
+            "finds contacts",
+            "finder",
+            "phonetic",
+            "typo"
+          ]
+        },
+        {
+          "label": "Seeing which documents belong together",
+          "patterns": [
+            "document flow",
+            "flow of (linked |related )?documents",
+            "flowchart",
+            "related (purchase and sales )?documents",
+            "document history",
+            "linked documents",
+            "link(s|ed)? purchase documents",
+            "business case",
+            "current and past documents",
+            "items purchased by a customer",
+            "previously delivered"
+          ]
+        },
+        {
+          "label": "Ledger entries missing names or balances",
+          "patterns": [
+            "source name",
+            "running (g/l )?balance",
+            "bal\\. account name",
+            "name on g/l",
+            "names? on (g/l|item ledger)",
+            "balance at (any )?date",
+            "application letter"
+          ]
+        },
+        {
+          "label": "Key info hidden behind extra clicks",
+          "patterns": [
+            "factbox",
+            "fact box",
+            "adds? (fields|a |an |[^;]{0,30}(field|column))",
+            "new fields",
+            "fields such as",
+            "on one page",
+            "lower panel",
+            "indicator",
+            "drill-?down",
+            "overview of",
+            "overviews of",
+            "overview with",
+            "one-click overview"
+          ]
+        },
+        {
+          "label": "Getting to the right page or record quickly",
+          "patterns": [
+            "favou?rites?",
+            "recently opened",
+            "navigat",
+            "menu tree",
+            "shortcuts"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Finding customers, items or other records": 0.15,
+        "Seeing which documents belong together": 0.17,
+        "Ledger entries missing names or balances": 0.2,
+        "Key info hidden behind extra clicks": 0.5,
+        "Getting to the right page or record quickly": 0.12
+      }
+    },
+    {
+      "id": "searchwhere",
+      "text": "What kind of search would help most?",
+      "multi": true,
+      "options": [
+        {
+          "label": "While adding lines to orders and invoices",
+          "patterns": [
+            "search[^;]*(document|order) lines?",
+            "search[^;]*sales order line",
+            "add multiple lines",
+            "shorter item lists on orders",
+            "item lookup"
+          ]
+        },
+        {
+          "label": "Across all records from one search box",
+          "patterns": [
+            "single search box",
+            "search configurable tables",
+            "any indexed table",
+            "search for any data",
+            "advanced search"
+          ]
+        },
+        {
+          "label": "Search that forgives typos and word order",
+          "patterns": [
+            "typo",
+            "typing errors",
+            "phonetic",
+            "sound-alike",
+            "any order",
+            "fragment"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "While adding lines to orders and invoices": 0.1,
+        "Across all records from one search box": 0.05,
+        "Search that forgives typos and word order": 0.07
+      }
+    },
+    {
+      "id": "area",
+      "text": "Which part of BC is this mostly about?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Sales and purchase documents",
+          "patterns": [
+            "sales (and|or) purchase",
+            "purchase (and|or) sales",
+            "sales order",
+            "sales documents",
+            "purchase documents",
+            "order lists"
+          ]
+        },
+        {
+          "label": "Finance and ledger entries",
+          "patterns": [
+            "g/l",
+            "ledger entr",
+            "general journal",
+            "chart of accounts",
+            "fixed asset"
+          ]
+        },
+        {
+          "label": "Inventory, warehouse and production",
+          "patterns": [
+            "inventory",
+            "\\bbins?\\b",
+            "warehouse",
+            "production order",
+            "item categor"
+          ]
+        },
+        {
+          "label": "All over",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sales and purchase documents": 0.33,
+        "Finance and ledger entries": 0.23,
+        "Inventory, warehouse and production": 0.23
+      }
+    }
+  ]
+}

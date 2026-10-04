@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.finance_suite|PAPPID.716c9881-9171-4e03-a6f8-7261f55328db",
+  "guid": "716c9881-9171-4e03-a6f8-7261f55328db",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "finance_suite",
+  "source": {
+    "name": "Finance Suite",
+    "publisher": "LODESTAR SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.finance_suite%7CPAPPID.716c9881-9171-4e03-a6f8-7261f55328db",
+    "lastModified": "2026-09-11T14:48:57.3795792+00:00",
+    "appVersion": "1.0.0.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:25ffac44220d3d15e4b01e8e679f0a561e9173e904adf88db148a4344fad937c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:25ffac44220d3d15e4b01e8e679f0a561e9173e904adf88db148a4344fad937c",
+    "mappedOn": null,
+    "summary": "Collection of finance and order closing features",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-correct-posted",
+      "ng-customer-payments",
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Close partially shipped sales orders by aligning quantities to actual shipment",
+      "Edit comments in posted documents",
+      "Link payments recorded before the invoice to invoices",
+      "Combine shipments into one invoice grouped by any sales header field",
+      "User-defined priority escalation for unit price and discounts"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

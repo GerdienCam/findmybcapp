@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_exp|PAPPID.98ed8df0-3215-4025-a0a7-4de475d2c79b",
+  "guid": "98ed8df0-3215-4025-a0a7-4de475d2c79b",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_exp",
+  "source": {
+    "name": "Incoming Delivery Dashboard",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_exp%7CPAPPID.98ed8df0-3215-4025-a0a7-4de475d2c79b",
+    "lastModified": "2025-11-03T10:46:38.5503962+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-incoming-delivery-dashboard/",
+    "sourceHash": "sha256:27b1aa7ca2e3007e0610f810d2ccb353cc033229d4505fe2186fa15c241f76ff"
+  },
+  "mapping": {
+    "sourceHash": "sha256:27b1aa7ca2e3007e0610f810d2ccb353cc033229d4505fe2186fa15c241f76ff",
+    "mappedOn": null,
+    "summary": "Dashboard for overdue incoming deliveries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Groups all purchase document lines on one page with filters by type, vendor, outstanding qty, status, date",
+      "Colors document numbers red/yellow/green by expected receipt date",
+      "Configurable warning days before expected receipt date",
+      "Spots overdue purchase orders not yet delivered"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.applibra|AID.al_vat_control|PAPPID.3543f787-9e0f-4a7a-b8bf-c4777c851acc",
+  "guid": "3543f787-9e0f-4a7a-b8bf-c4777c851acc",
+  "publisherId": "applibra",
+  "offerId": "al_vat_control",
+  "source": {
+    "name": "AL VAT Control",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_vat_control%7CPAPPID.3543f787-9e0f-4a7a-b8bf-c4777c851acc",
+    "lastModified": "2025-11-12T08:55:55.8843092+00:00",
+    "appVersion": "25.0.25.08190911",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsapplab.com/apps/al-vat-control/help",
+    "sourceHash": "sha256:41391495ae08a42d5cfc9f234767a88698c517a1933d61724ad33dfc71466bef"
+  },
+  "mapping": {
+    "sourceHash": "sha256:41391495ae08a42d5cfc9f234767a88698c517a1933d61724ad33dfc71466bef",
+    "mappedOn": null,
+    "summary": "Validates EU VAT numbers via VIES and updates addresses",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds"
+    ],
+    "claims": [
+      "Bulk VAT number validation for selected customers via VIES",
+      "Splits VIES name and address into separate fields automatically",
+      "Blocks sales order release and warehouse operations if VAT invalid"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "VIES"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

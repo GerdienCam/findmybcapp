@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.print-it-with-nicelabel-app|PAPPID.8f4e5acf-d6ba-436b-ada6-4be9d08c2522",
+  "guid": "8f4e5acf-d6ba-436b-ada6-4be9d08c2522",
+  "publisherId": "fenwicksoftware",
+  "offerId": "print-it-with-nicelabel-app",
+  "source": {
+    "name": "Print-It with Loftware Cloud",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.print-it-with-nicelabel-app%7CPAPPID.8f4e5acf-d6ba-436b-ada6-4be9d08c2522",
+    "lastModified": "2026-09-28T00:18:30.4343096+00:00",
+    "appVersion": "26.0.260918.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/print-it-with-nicelabel/docs/",
+    "sourceHash": "sha256:dd93aecbae02396a6654c0029125cdd432658dd4ae58c94cbbe14c854678aa16"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dd93aecbae02396a6654c0029125cdd432658dd4ae58c94cbbe14c854678aa16",
+    "mappedOn": null,
+    "summary": "Prints labels from BC via Loftware Cloud",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "Integrates BC label printing with Loftware Cloud (formerly NiceLabel)",
+      "Prints through Cloud Trigger, Web Printing or the Loftware Cloud API",
+      "Manage printer integrations for label printing inside BC",
+      "Uses BC product data on labels without re-keying",
+      "Prints with label templates from Loftware Control Center",
+      "Works with Loftware on-premises via Fenwick Cloud Companion",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Loftware Cloud",
+      "NiceLabel",
+      "Fenwick Cloud Companion"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

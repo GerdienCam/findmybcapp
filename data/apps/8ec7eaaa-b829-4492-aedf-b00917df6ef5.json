@@ -1,0 +1,70 @@
+{
+  "appId": "TYPE.connect|PUBID.wiboo1757693543169|AID.dynamic_wiboo|PAPPID.8ec7eaaa-b829-4492-aedf-b00917df6ef5",
+  "guid": "8ec7eaaa-b829-4492-aedf-b00917df6ef5",
+  "publisherId": "wiboo1757693543169",
+  "offerId": "dynamic_wiboo",
+  "source": {
+    "name": "Wiboo CPQ for Microsoft Dynamics 365 Sales and Business Central",
+    "publisher": "Wiboo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.wiboo1757693543169%7CAID.dynamic_wiboo%7CPAPPID.8ec7eaaa-b829-4492-aedf-b00917df6ef5",
+    "lastModified": "2026-06-25T13:11:59.3750523+00:00",
+    "appVersion": "3.13.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://le-configurateur-des-industriels.com/faq-configurateur-cpq/",
+    "sourceHash": "sha256:df29e56530fab58cff9f96d4663d9a3eee5b242287693417d1238ff6864f5deb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:df29e56530fab58cff9f96d4663d9a3eee5b242287693417d1238ff6864f5deb",
+    "mappedOn": null,
+    "summary": "CPQ configuring products, pricing and quotes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-industrial-manufacturing",
+      "ng-conn-crm"
+    ],
+    "claims": [
+      "Guided product configuration",
+      "Rule-based product validation",
+      "Automated pricing and margin calculations",
+      "Generates quotes and proposals",
+      "Synchronizes with Business Central",
+      "Synchronizes customer and product data",
+      "Keeps product, customer, pricing and sales information consistent with BC",
+      "Multi-language support",
+      "Multi-currency support",
+      "Designed for manufacturers selling configurable products and industrial equipment suppliers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Automotive",
+      "Discrete Manufacturing",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Dynamics 365 Sales"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

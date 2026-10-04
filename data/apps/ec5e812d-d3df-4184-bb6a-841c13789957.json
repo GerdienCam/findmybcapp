@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.business_dynamics_pro|AID.bdp_smartflow_aps|PAPPID.ec5e812d-d3df-4184-bb6a-841c13789957",
+  "guid": "ec5e812d-d3df-4184-bb6a-841c13789957",
+  "publisherId": "business_dynamics_pro",
+  "offerId": "bdp_smartflow_aps",
+  "source": {
+    "name": "BDP SmartFlow APS",
+    "publisher": "Business Dynamics Pro Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_dynamics_pro%7CAID.bdp_smartflow_aps%7CPAPPID.ec5e812d-d3df-4184-bb6a-841c13789957",
+    "lastModified": "2026-09-06T06:05:59.7869947+00:00",
+    "appVersion": "1.0.0.195",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://dynamicspro.ca/help/smartflow-aps",
+    "sourceHash": "sha256:2aa56bf4fe619ff5d628ff79fd483ff8bcd6f38deed0a23a26d54e73c1b65ea1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2aa56bf4fe619ff5d628ff79fd483ff8bcd6f38deed0a23a26d54e73c1b65ea1",
+    "mappedOn": null,
+    "summary": "Finite-capacity production scheduling with Gantt chart",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters",
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Interactive Gantt chart in BC",
+      "Drag-and-drop rescheduling with constraint validation",
+      "Finite capacity scheduling by machine and work center",
+      "Capacity heatmaps",
+      "Sequence optimization with changeover matrices",
+      "Material availability checking",
+      "Attribute tagging for constraint-based scheduling",
+      "KPI dashboards on on-time delivery and utilization",
+      "Uses BC production orders, routings, BOMs",
+      "Requires BC online 26.0+ Premium",
+      "Read-only viewer seat",
+      "7-day free trial"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

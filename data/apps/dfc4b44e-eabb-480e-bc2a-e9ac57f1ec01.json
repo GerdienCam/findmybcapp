@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.continia365|AID.continia-finance|PAPPID.dfc4b44e-eabb-480e-bc2a-e9ac57f1ec01",
+  "guid": "dfc4b44e-eabb-480e-bc2a-e9ac57f1ec01",
+  "publisherId": "continia365",
+  "offerId": "continia-finance",
+  "source": {
+    "name": "Continia Finance",
+    "publisher": "Continia Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.continia-finance%7CPAPPID.dfc4b44e-eabb-480e-bc2a-e9ac57f1ec01",
+    "lastModified": "2026-09-30T09:16:37.9979744+00:00",
+    "appVersion": "29.0.0.214343",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.continia.com/en-us/continia-finance/",
+    "sourceHash": "sha256:6c216d49a59b0067b6bca21c67bbef3e8c54b8e5a5f623584de4552b7abdb0cf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6c216d49a59b0067b6bca21c67bbef3e8c54b8e5a5f623584de4552b7abdb0cf",
+    "mappedOn": null,
+    "summary": "Finance modules for liquidity, assets and payments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-cash-forecast",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-fa-register",
+      "ng-customer-payments",
+      "ng-financial-statements",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Free Essential module for G/L account and VAT tasks",
+      "Associations: group customers/vendors (e.g. store chains) into one entity",
+      "Apply entries across multiple accounts in a group",
+      "Fixed asset templates",
+      "Quantities on a fixed asset and partial retirements",
+      "Treasury: liquidity data across all companies in one place",
+      "Open/closed entries on G/L accounts for interim accounts",
+      "G/L account groups in financial reports",
+      "Factoring: sell receivables, proposals, data files to factoring companies",
+      "Installment templates splitting sales and purchase documents before or after posting"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

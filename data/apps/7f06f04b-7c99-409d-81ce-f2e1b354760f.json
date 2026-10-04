@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.autocontas|AID.aea_2026_03_03|PAPPID.7f06f04b-7c99-409d-81ce-f2e1b354760f",
+  "guid": "7f06f04b-7c99-409d-81ce-f2e1b354760f",
+  "publisherId": "autocontas",
+  "offerId": "aea_2026_03_03",
+  "source": {
+    "name": "Status Management",
+    "publisher": "Aricoma Systems a.s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.autocontas%7CAID.aea_2026_03_03%7CPAPPID.7f06f04b-7c99-409d-81ce-f2e1b354760f",
+    "lastModified": "2026-09-29T13:08:26.1156697+00:00",
+    "appVersion": "28.5.54151.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aricoma.com/docs/en-us/dynamics365/business-central/Solutions/status-management.html",
+    "sourceHash": "sha256:7216ea0f352e39233762d04b94d9f46cb3fc061a7d1f16e45c679c2b915e9cbe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7216ea0f352e39233762d04b94d9f46cb3fc061a7d1f16e45c679c2b915e9cbe",
+    "mappedOn": null,
+    "summary": "Status-driven workflows controlling documents and tasks",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Define any number of statuses in linear or branching sequences",
+      "Controls who may change a record's status and under what conditions",
+      "Rule-based validation blocks premature status transitions (missing fields, mandatory approvals)",
+      "User actions for status transitions such as Start Processing or Send email",
+      "Status history with user, timestamp and comments",
+      "Applies to any record type including custom tables",
+      "Enforces mandatory sequences without skipping steps",
+      "No coding required for setup"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en",
+      "sk"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

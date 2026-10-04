@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.hortusdigital|AID.hdtlvpayroll|PAPPID.2371c821-3386-45fd-9b51-8aaedef9d58d",
+  "guid": "2371c821-3386-45fd-9b51-8aaedef9d58d",
+  "publisherId": "hortusdigital",
+  "offerId": "hdtlvpayroll",
+  "source": {
+    "name": "Latvian Payroll and HR",
+    "publisher": "Hortus Digital",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hortusdigital%7CAID.hdtlvpayroll%7CPAPPID.2371c821-3386-45fd-9b51-8aaedef9d58d",
+    "lastModified": "2026-07-28T22:42:28.5207895+00:00",
+    "appVersion": "1.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://hortusdigital.com/kontakti/",
+    "sourceHash": "sha256:54a5035812b60f8c9d21991c1175ea69ed644c462834b1a1eeb58ae4227b895d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:54a5035812b60f8c9d21991c1175ea69ed644c462834b1a1eeb58ae4227b895d",
+    "mappedOn": null,
+    "summary": "Latvian payroll and HR with EDS reporting",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-absence-leave",
+      "ng-hr-time-shifts",
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Latvian payroll calculation",
+      "Employee information",
+      "Employment contracts and orders",
+      "Tracks unused vacation",
+      "Working time records",
+      "Retrieves tax-free minimum and dependents from State Revenue Service via EDS API",
+      "Submits reports via EDS API",
+      "Creates salary bank payments"
+    ],
+    "countries": [
+      "LV"
+    ],
+    "languages": [
+      "en",
+      "lv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "EDS (Latvian State Revenue Service)"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

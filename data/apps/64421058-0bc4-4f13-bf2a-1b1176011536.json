@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.nvisioncommercesolutions|AID.commerce365-sendcloud-magento|PAPPID.64421058-0bc4-4f13-bf2a-1b1176011536",
+  "guid": "64421058-0bc4-4f13-bf2a-1b1176011536",
+  "publisherId": "nvisioncommercesolutions",
+  "offerId": "commerce365-sendcloud-magento",
+  "source": {
+    "name": "Commerce 365 for Sendcloud - Magento module",
+    "publisher": "NVision Commerce Solutions B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nvisioncommercesolutions%7CAID.commerce365-sendcloud-magento%7CPAPPID.64421058-0bc4-4f13-bf2a-1b1176011536",
+    "lastModified": "2026-02-09T12:50:09.3775041+00:00",
+    "appVersion": "27.1.10013.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nvision.freshdesk.com/support/solutions/80000459352",
+    "sourceHash": "sha256:2fedd5637a5e5ae30a37f416bab26151f6b2dbc7b40f598b9be2ed511c988de5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2fedd5637a5e5ae30a37f416bab26151f6b2dbc7b40f598b9be2ed511c988de5",
+    "mappedOn": null,
+    "summary": "Connects Commerce 365 Sendcloud and Magento modules",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop"
+    ],
+    "claims": [
+      "Magento stores are mapped to Sendcloud brands and to sender addresses",
+      "Adds tracking information to Magento shipments"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "IT",
+      "NL"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Sendcloud",
+      "Magento"
+    ],
+    "requires": [
+      "Commerce 365 for Sendcloud",
+      "Commerce 365 for Magento"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

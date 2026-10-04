@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.novasoftfzco1594619964948|AID.nova-bc-009|PAPPID.7c1ce797-f0de-4530-8807-8c1f776cfc19",
+  "guid": "7c1ce797-f0de-4530-8807-8c1f776cfc19",
+  "publisherId": "novasoftfzco1594619964948",
+  "offerId": "nova-bc-009",
+  "source": {
+    "name": "NOVAPDC: Post-dated check management",
+    "publisher": "NOVASOFT FZCO",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.novasoftfzco1594619964948%7CAID.nova-bc-009%7CPAPPID.7c1ce797-f0de-4530-8807-8c1f776cfc19",
+    "lastModified": "2026-09-11T17:27:17.2788904+00:00",
+    "appVersion": "25.0.0.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://novasoft.global/support/",
+    "sourceHash": "sha256:2105672b9b9129ce5541192d2e9662dc97a482e6e0902e4e2689172bc915c40b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2105672b9b9129ce5541192d2e9662dc97a482e6e0902e4e2689172bc915c40b",
+    "mappedOn": null,
+    "summary": "Manages post-dated cheques for payables and receivables",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates post-dated checks linked to invoices",
+      "Tracks issued, bounced and returned checks",
+      "Prints checks and voids them",
+      "Records deposit information for post-dated checks",
+      "Posts PDC information to the general ledger",
+      "Automatic reminders for PDC due dates",
+      "Supported in the United Arab Emirates"
+    ],
+    "countries": [
+      "AE"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.late-payment-prediction|PAPPID.3d5b2137-efeb-4014-8489-41d37f8fd4c3",
+  "guid": "3d5b2137-efeb-4014-8489-41d37f8fd4c3",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "late-payment-prediction",
+  "source": {
+    "name": "Late Payment Prediction",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.late-payment-prediction%7CPAPPID.3d5b2137-efeb-4014-8489-41d37f8fd4c3",
+    "lastModified": "2025-08-26T19:18:26.7289771+00:00",
+    "appVersion": "1.0.25197.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?linkid=2009020",
+    "sourceHash": "sha256:bc9f7dabcccbe3cb69523451af118afd3db0b83186401b38af0d6a34a071098f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bc9f7dabcccbe3cb69523451af118afd3db0b83186401b38af0d6a34a071098f",
+    "mappedOn": null,
+    "summary": "Predicts risk of late customer payments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds",
+      "ng-admin-copilot-agents"
+    ],
+    "claims": [
+      "Forecasts whether sales invoices get paid by their due date",
+      "Uses a machine learning classification model out of the box",
+      "Lets you swap in your own ML model",
+      "Model can be retrained as data accumulates",
+      "Late Payment field on Customer Ledger Entries",
+      "Predict Payment action on sales quotes, orders and invoices"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nb",
+      "nl",
+      "ru",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

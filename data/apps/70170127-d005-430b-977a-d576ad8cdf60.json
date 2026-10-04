@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.mpriseagriwarebv|AID.agriware-pickpack-loading-api|PAPPID.70170127-d005-430b-977a-d576ad8cdf60",
+  "guid": "70170127-d005-430b-977a-d576ad8cdf60",
+  "publisherId": "mpriseagriwarebv",
+  "offerId": "agriware-pickpack-loading-api",
+  "source": {
+    "name": "Agriware 365 Pick & Pack Integration for Loading Connector",
+    "publisher": "Mprise Agriware B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mpriseagriwarebv%7CAID.agriware-pickpack-loading-api%7CPAPPID.70170127-d005-430b-977a-d576ad8cdf60",
+    "lastModified": "2026-09-28T12:43:57.5867124+00:00",
+    "appVersion": "28.28.5.271675",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.agriware.cloud/",
+    "sourceHash": "sha256:552b8a1ff9e2c925ab65e8375229c6493d0139de71454d4f8e08f0b1111efe2f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:552b8a1ff9e2c925ab65e8375229c6493d0139de71454d4f8e08f0b1111efe2f",
+    "mappedOn": null,
+    "summary": "Integrates Agriware Pick & Pack with Agriware operations",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Scans each container, on a pallet, in a trolley or inside a box, to support traceability",
+      "Results sent back to BC in aggregated form"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Horticulture"
+    ],
+    "connectsTo": [
+      "Agriware 365 Operations"
+    ],
+    "requires": [
+      "Agriware 365 Pick & Pack Integration for Loading",
+      "Agriware 365 Operations"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

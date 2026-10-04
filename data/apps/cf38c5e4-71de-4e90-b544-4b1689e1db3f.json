@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.business_development_christoph_krieg|AID.365businesseinvoice|PAPPID.cf38c5e4-71de-4e90-b544-4b1689e1db3f",
+  "guid": "cf38c5e4-71de-4e90-b544-4b1689e1db3f",
+  "publisherId": "business_development_christoph_krieg",
+  "offerId": "365businesseinvoice",
+  "source": {
+    "name": "365 business E-Invoice",
+    "publisher": "365 business development",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_development_christoph_krieg%7CAID.365businesseinvoice%7CPAPPID.cf38c5e4-71de-4e90-b544-4b1689e1db3f",
+    "lastModified": "2026-08-19T07:54:07.7246898+00:00",
+    "appVersion": "25.2.408.27270",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://docs.365businessdev.com/en-US/365-business-e-invoice/",
+    "sourceHash": "sha256:bef04698c50be4cfd2cdda8850848feaa0c8efdb68e2a71259eb18b5de1cdb8d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bef04698c50be4cfd2cdda8850848feaa0c8efdb68e2a71259eb18b5de1cdb8d",
+    "mappedOn": null,
+    "summary": "Imports and sends ZUGFeRD/Factur-X e-invoices",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "EN-16931 compliant invoice exchange",
+      "Converts and sends Factur-X / ZUGFeRD invoices",
+      "Retrieves e-invoices from Microsoft 365 mailboxes",
+      "Copilot AI matches invoices to orders",
+      "Import assistant for ZUGFeRD and XRechnung matching errors"
+    ],
+    "countries": [
+      "DE",
+      "FR"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ZUGFeRD",
+      "XRechnung",
+      "Factur-X"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

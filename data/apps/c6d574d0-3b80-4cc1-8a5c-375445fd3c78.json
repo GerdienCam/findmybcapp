@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.clarityukraine1657050202465|AID.clrt_financial_allocation|PAPPID.c6d574d0-3b80-4cc1-8a5c-375445fd3c78",
+  "guid": "c6d574d0-3b80-4cc1-8a5c-375445fd3c78",
+  "publisherId": "clarityukraine1657050202465",
+  "offerId": "clrt_financial_allocation",
+  "source": {
+    "name": "Financial Allocation",
+    "publisher": "Clarity Ukraine",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.clarityukraine1657050202465%7CAID.clrt_financial_allocation%7CPAPPID.c6d574d0-3b80-4cc1-8a5c-375445fd3c78",
+    "lastModified": "2026-05-12T12:09:11.8543441+00:00",
+    "appVersion": "27.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://clarity-team.com/en/contacts/",
+    "sourceHash": "sha256:c44f23e07d9533c590eff7472bd01e0851f465b9a20285fac4443ad1744f8b48"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c44f23e07d9533c590eff7472bd01e0851f465b9a20285fac4443ad1744f8b48",
+    "mappedOn": null,
+    "summary": "Rule-based multi-level allocation of costs and revenue",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals",
+      "ng-proj-costs"
+    ],
+    "claims": [
+      "Allocates and reallocates revenue as well as expenses across dimensions and G/L accounts",
+      "Uses BC statistical accounts as allocation drivers (hours, revenue, headcount, quantities, custom)",
+      "Rule-based picking of source transactions by base dimension and G/L account",
+      "Supports multi-level cascading allocations (department to employee to project)",
+      "Generates allocation results into the General Journal for review before posting",
+      "Traces allocated targets back to source amounts, keeping dimensions",
+      "Allocates to any dimension, cost center, department or project",
+      "Redistributes payroll and shared expenses by timesheet hours or revenue contribution"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

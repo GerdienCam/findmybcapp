@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.adv-inv-bom-connector|PAPPID.91d21a4d-1432-4a0c-a7ae-f7c262aaaace",
+  "guid": "91d21a4d-1432-4a0c-a7ae-f7c262aaaace",
+  "publisherId": "fenwicksoftware",
+  "offerId": "adv-inv-bom-connector",
+  "source": {
+    "name": "Back Order Management for Advanced Inventory",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.adv-inv-bom-connector%7CPAPPID.91d21a4d-1432-4a0c-a7ae-f7c262aaaace",
+    "lastModified": "2026-03-16T12:18:54.2869565+00:00",
+    "appVersion": "26.0.260219.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/back-order-management/docs",
+    "sourceHash": "sha256:14e3e30e4eb48738ad123b436f6c783bb222fe9b642356009ddc5eca70f9ea85"
+  },
+  "mapping": {
+    "sourceHash": "sha256:14e3e30e4eb48738ad123b436f6c783bb222fe9b642356009ddc5eca70f9ea85",
+    "mappedOn": null,
+    "summary": "Connects Fenwick Back Order Management and Advanced Inventory",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Makes auto-create inventory pick compatible with Back Order Management"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Advanced Inventory",
+      "Back Order Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two Fenwick products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

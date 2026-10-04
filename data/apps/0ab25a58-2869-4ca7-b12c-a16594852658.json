@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex08901_powerwmsforhandlingunits|PAPPID.0ab25a58-2869-4ca7-b12c-a16594852658",
+  "guid": "0ab25a58-2869-4ca7-b12c-a16594852658",
+  "publisherId": "eos_solutions",
+  "offerId": "ex08901_powerwmsforhandlingunits",
+  "source": {
+    "name": "Power WMS for Handling Units",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex08901_powerwmsforhandlingunits%7CPAPPID.0ab25a58-2869-4ca7-b12c-a16594852658",
+    "lastModified": "2026-09-18T12:54:33.7892514+00:00",
+    "appVersion": "28.0.18.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/power-wms.html",
+    "sourceHash": "sha256:a63a7e43f25383a5da3e31167c4457532ff7e30ad540cabb58c1a49c92cc92fa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a63a7e43f25383a5da3e31167c4457532ff7e30ad540cabb58c1a49c92cc92fa",
+    "mappedOn": null,
+    "summary": "Handling units: pallets, containers and boxes tracking",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Packaging instructions",
+      "Handling unit states Draft, Loaded, Shipped",
+      "Barcodes on warehouse activities",
+      "Tracks pallets, containers and boxes",
+      "Depends on EOS Handling Units Management plus EOS Power WMS",
+      "Premium edition only"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Power WMS",
+      "EOS Handling Units Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

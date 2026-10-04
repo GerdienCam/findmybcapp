@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.excise_taxes|PAPPID.a7bd3b4e-5469-4185-88b5-06745dd4c153",
+  "guid": "a7bd3b4e-5469-4185-88b5-06745dd4c153",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "excise_taxes",
+  "source": {
+    "name": "Excise Taxes",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.excise_taxes%7CPAPPID.a7bd3b4e-5469-4185-88b5-06745dd4c153",
+    "lastModified": "2026-06-08T03:52:20.3683393+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-set-up-excise-tax",
+    "sourceHash": "sha256:57eb4203e7fd28036f29f2dad70325d83cd12400a6b275b231d1ddc423cfdcdd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:57eb4203e7fd28036f29f2dad70325d83cd12400a6b275b231d1ddc423cfdcdd",
+    "mappedOn": null,
+    "summary": "Calculates and manages excise taxes",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-epr-packaging",
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Multiple excise tax types (alcohol, sugar, plastic, tobacco, fuel)",
+      "Tax basis per type: weight, volume, quantity, sugar or alcohol content",
+      "Usable for EPR or CBAM calculations",
+      "Excise taxes on items and fixed assets with rates",
+      "Calculates on accumulated quantities and rates",
+      "Control which transaction types contribute (purchases, sales, adjustments, output)",
+      "Dedicated Excise Journal with templates and batches",
+      "Generates excise entries from posted transactions",
+      "Excise transaction logs and review before posting",
+      "Built-in plastic and sugar tax scenarios"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

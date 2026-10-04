@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.foodware365|AID.tlx|PAPPID.714bec9f-fb68-4e29-a1bc-7f404cba7dbf",
+  "guid": "714bec9f-fb68-4e29-a1bc-7f404cba7dbf",
+  "publisherId": "foodware365",
+  "offerId": "tlx",
+  "source": {
+    "name": "Aptean TLx Integration Connector",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.tlx%7CPAPPID.714bec9f-fb68-4e29-a1bc-7f404cba7dbf",
+    "lastModified": "2026-08-26T05:25:22.2925683+00:00",
+    "appVersion": "2601.1.339205.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/tlx/",
+    "sourceHash": "sha256:db21f5b7a516da187e98d62dcc69dd4c27016b284eb37a332f077db1ca1e967f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:db21f5b7a516da187e98d62dcc69dd4c27016b284eb37a332f077db1ca1e967f",
+    "mappedOn": null,
+    "summary": "Integrates BC with Aptean Totalogistix logistics",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-freight-cost-audit"
+    ],
+    "claims": [
+      "Releases sales or purchase orders to TLx for routing by shipment method",
+      "Two-way updates of order status, shipment details and invoices",
+      "Configure shipment methods that trigger exchange, freight payment types and shipping services per customer/ship-to",
+      "TLx Order Status page shows shipment status, carrier and invoicing status",
+      "Detailed logs of data transfers"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Aptean Totalogistix"
+    ],
+    "requires": [
+      "Aptean Totalogistix (TLx)"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

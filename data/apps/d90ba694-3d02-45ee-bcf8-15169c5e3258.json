@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.bc_integration_hub|PAPPID.d90ba694-3d02-45ee-bcf8-15169c5e3258",
+  "guid": "d90ba694-3d02-45ee-bcf8-15169c5e3258",
+  "publisherId": "thetasystemslimited",
+  "offerId": "bc_integration_hub",
+  "source": {
+    "name": "Integration Hub",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.bc_integration_hub%7CPAPPID.d90ba694-3d02-45ee-bcf8-15169c5e3258",
+    "lastModified": "2026-09-23T07:02:23.1629288+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/IH/",
+    "sourceHash": "sha256:508ccbd09838080bc301a6219dc2a8af49d004ffb01acd3e325867ffa16e4db2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:508ccbd09838080bc301a6219dc2a8af49d004ffb01acd3e325867ffa16e4db2",
+    "mappedOn": null,
+    "summary": "Integrates BC with any system",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-failures",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-edi"
+    ],
+    "claims": [
+      "File-based integration tool built on Workflows and Data Exchange Definitions",
+      "Transforms records into the desired file format and stores them as Integration Messages",
+      "Messages can be picked up via web service or pushed to Azure Logic Apps in real time",
+      "Error notifications by email let business users correct errors",
+      "One-click retry from the notification email",
+      "Managed from a central hub"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Logic Apps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

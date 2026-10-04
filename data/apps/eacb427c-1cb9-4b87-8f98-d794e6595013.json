@@ -1,0 +1,97 @@
+{
+  "appId": "PUBID.foodware365|AID.weighbridge|PAPPID.eacb427c-1cb9-4b87-8f98-d794e6595013",
+  "guid": "eacb427c-1cb9-4b87-8f98-d794e6595013",
+  "publisherId": "foodware365",
+  "offerId": "weighbridge",
+  "source": {
+    "name": "Aptean Weighbridge Receiving for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.weighbridge%7CPAPPID.eacb427c-1cb9-4b87-8f98-d794e6595013",
+    "lastModified": "2026-07-22T03:00:25.0893443+00:00",
+    "appVersion": "2601.0.332228.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/docs/WBR/",
+    "sourceHash": "sha256:eee96cb75038fbb75746e11c450980bc4d74c16259860daa23c581a76dd2f204"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eee96cb75038fbb75746e11c450980bc4d74c16259860daa23c581a76dd2f204",
+    "mappedOn": null,
+    "summary": "Captures weighbridge vehicle weights on receiving",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-fresh-produce-horticulture"
+    ],
+    "claims": [
+      "Captures inbound vehicle weight with goods",
+      "Records estimated packaging tare and optional outbound packaging tare",
+      "Two-part receiving: inbound load recorded by lot, posted when outbound weight known",
+      "Production can consume before vehicle fully unloaded",
+      "Takes in mixed loads using loading tickets from third parties"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

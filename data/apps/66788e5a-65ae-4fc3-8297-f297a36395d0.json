@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.on720comas1662298129006|AID.timesheet720_dk|PAPPID.66788e5a-65ae-4fc3-8297-f297a36395d0",
+  "guid": "66788e5a-65ae-4fc3-8297-f297a36395d0",
+  "publisherId": "on720comas1662298129006",
+  "offerId": "timesheet720_dk",
+  "source": {
+    "name": "Timesheet720 (DK)",
+    "publisher": "ON720.COM",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on720comas1662298129006%7CAID.timesheet720_dk%7CPAPPID.66788e5a-65ae-4fc3-8297-f297a36395d0",
+    "lastModified": "2026-07-29T09:02:43.0954645+00:00",
+    "appVersion": "28.3.260729.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.on720.com/da/timesheet720",
+    "sourceHash": "sha256:2c9c61f3fb537cf7ba5d09ce0f0dd0f982cac967df09b06244dedfa7118bd228"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2c9c61f3fb537cf7ba5d09ce0f0dd0f982cac967df09b06244dedfa7118bd228",
+    "mappedOn": null,
+    "summary": "Time registration with mileage and employee balances",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-absence-leave",
+      "ng-hr-employee-expenses"
+    ],
+    "claims": [
+      "Mileage registration by employees",
+      "Employee balances for hours, vacation and other balances",
+      "Favourite projects for faster time entry",
+      "Automatically corrects standard working hours for public holidays",
+      "Tracks absence such as sick days and vacation",
+      "Copies previous weeks' entries and projects into new timesheets",
+      "Shows employee expense balances",
+      "Open or close individual project tasks",
+      "Work templates and holiday calendars assign capacity to resource groups"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

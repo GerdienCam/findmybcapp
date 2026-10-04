@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.horsawayit|AID.hor_subscriptions|PAPPID.f3b90ea8-8b90-42c8-ba73-8e2b18d09906",
+  "guid": "f3b90ea8-8b90-42c8-ba73-8e2b18d09906",
+  "publisherId": "horsawayit",
+  "offerId": "hor_subscriptions",
+  "source": {
+    "name": "Subscriptions",
+    "publisher": "Horsa Way",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_subscriptions%7CPAPPID.f3b90ea8-8b90-42c8-ba73-8e2b18d09906",
+    "lastModified": "2026-10-01T15:39:23.0571329+00:00",
+    "appVersion": "5.5.10000.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://blog.horsaway.it/app-subscriptions/",
+    "sourceHash": "sha256:21cf53e6991ae3c2f980dc690037df9b6aecb1e88c4e0517cb0685ca7af2652a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:21cf53e6991ae3c2f980dc690037df9b6aecb1e88c4e0517cb0685ca7af2652a",
+    "mappedOn": null,
+    "summary": "Contracts for recurring billing of customers and vendors",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-contracts"
+    ],
+    "claims": [
+      "Recurring billing contracts for sales and purchases",
+      "Generates contract instalments automatically with Generate Lines",
+      "Contract with invoice periodicity and start/end dates",
+      "Creates purchase/sales orders linked to subscriptions",
+      "Close unpaid quantities or change instalment amounts",
+      "60-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

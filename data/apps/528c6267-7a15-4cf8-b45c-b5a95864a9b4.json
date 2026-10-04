@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.dynamics-eshop|AID.woocommerce|PAPPID.528c6267-7a15-4cf8-b45c-b5a95864a9b4",
+  "guid": "528c6267-7a15-4cf8-b45c-b5a95864a9b4",
+  "publisherId": "dynamics-eshop",
+  "offerId": "woocommerce",
+  "source": {
+    "name": "eConnect for WooCommerce",
+    "publisher": "Dynamics eShop Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics-eshop%7CAID.woocommerce%7CPAPPID.528c6267-7a15-4cf8-b45c-b5a95864a9b4",
+    "lastModified": "2026-08-12T10:23:41.3894889+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamicseshop.com/contact-us/",
+    "sourceHash": "sha256:ae5f69d1cc467951f36aade228b584eb07b03aae0ddd35a5a023a47caa623d3e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ae5f69d1cc467951f36aade228b584eb07b03aae0ddd35a5a023a47caa623d3e",
+    "mappedOn": null,
+    "summary": "Integrates WooCommerce orders, items and customers",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs WooCommerce customers and orders to BC",
+      "Guest checkout and web registration",
+      "Syncs catalogs with categories, attributes, units and kits",
+      "Customer-specific and tier pricing",
+      "Payment gateway integration",
+      "Shipping carrier integration",
+      "Tax information sync",
+      "Multi-store support"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "WooCommerce"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

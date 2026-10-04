@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_project_tracker|PAPPID.9530ace6-c222-4662-9129-b5939ac9ce13",
+  "guid": "9530ace6-c222-4662-9129-b5939ac9ce13",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_project_tracker",
+  "source": {
+    "name": "Project Tracker",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_project_tracker%7CPAPPID.9530ace6-c222-4662-9129-b5939ac9ce13",
+    "lastModified": "2025-11-03T10:46:32.5846797+00:00",
+    "appVersion": "25.2509.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-project-tracker/",
+    "sourceHash": "sha256:c03151d6655f785f342330e13d19a1e69fdeeea588ae28e9a2d6a61364529097"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c03151d6655f785f342330e13d19a1e69fdeeea588ae28e9a2d6a61364529097",
+    "mappedOn": null,
+    "summary": "Web app for project material withdrawals and resource hours",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-materials-subcontract",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Web app to track resource hours and material withdrawals on projects",
+      "Usable on tablets, PCs and handheld devices",
+      "Supports many barcode formats incl. QR, Code 128, EAN 13, Data Matrix",
+      "App captions can be translated into multiple languages",
+      "Access via resource numbers and badge codes, scanned or entered",
+      "Default warehouse per resource",
+      "Warns on items not in job planning line and on withdrawing more than planned",
+      "Withdrawals go to a batch for review before registration",
+      "Records start and end times for resource hours",
+      "Prevents a resource being on multiple jobs simultaneously"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing",
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

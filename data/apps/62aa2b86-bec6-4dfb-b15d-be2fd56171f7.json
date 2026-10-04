@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_amazonconnector|PAPPID.62aa2b86-bec6-4dfb-b15d-be2fd56171f7",
+  "guid": "62aa2b86-bec6-4dfb-b15d-be2fd56171f7",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_amazonconnector",
+  "source": {
+    "name": "Connettore Amazon Upload Giacenze Articoli",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_amazonconnector%7CPAPPID.62aa2b86-bec6-4dfb-b15d-be2fd56171f7",
+    "lastModified": "2025-11-03T10:56:17.547209+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-amazon-connector/",
+    "sourceHash": "sha256:6569ba75d2085cfa888e9929c780854c2c38b72b164c80c7cbf9e9cc01f50df3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6569ba75d2085cfa888e9929c780854c2c38b72b164c80c7cbf9e9cc01f50df3",
+    "mappedOn": null,
+    "summary": "Exports catalog and inventory to Amazon",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exports inventory and catalog to Excel, CSV and txt files for upload to Amazon Seller Central",
+      "Flag items as saleable on Amazon with an Amazon product type",
+      "Amazon barcode set via item identifiers",
+      "File-based: manual upload to Seller Central"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Amazon Seller Central"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

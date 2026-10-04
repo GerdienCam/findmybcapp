@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.apptitudesolutionsinc1596042125495|AID.apptitude_multi_currency|PAPPID.6aaec0b8-6fd5-4232-bd92-cd486678022e",
+  "guid": "6aaec0b8-6fd5-4232-bd92-cd486678022e",
+  "publisherId": "apptitudesolutionsinc1596042125495",
+  "offerId": "apptitude_multi_currency",
+  "source": {
+    "name": "Multi-Currency GL",
+    "publisher": "Apptitude Solutions, Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apptitudesolutionsinc1596042125495%7CAID.apptitude_multi_currency%7CPAPPID.6aaec0b8-6fd5-4232-bd92-cd486678022e",
+    "lastModified": "2026-07-21T22:10:07.0314404+00:00",
+    "appVersion": "2025.27.0.8",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://apptitude.solutions/support/",
+    "sourceHash": "sha256:e6b7a84dd7640b96f2cebb779f1f7e3bac6de646a4b189da37bf260b0bc5d3cb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e6b7a84dd7640b96f2cebb779f1f7e3bac6de646a4b189da37bf260b0bc5d3cb",
+    "mappedOn": null,
+    "summary": "Transaction currency amounts in G/L and account revaluation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Adds transaction currency amount to G/L entries",
+      "Revalues foreign currency balances on any balance sheet account",
+      "Supports IAS 21 and ASC 830 compliance",
+      "Suppress revaluation flag per G/L account",
+      "Posts ACY exchange gains/losses to Other Comprehensive Income",
+      "Simplified exchange rates page",
+      "Currency exposure what-if report for exchange rate changes",
+      "Guided setup process",
+      "Optional paid 1-hour setup service"
+    ],
+    "countries": [
+      "CA",
+      "MX",
+      "NL",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

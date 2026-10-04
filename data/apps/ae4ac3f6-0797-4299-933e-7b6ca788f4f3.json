@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.idynbv|AID.deliveryhub|PAPPID.ae4ac3f6-0797-4299-933e-7b6ca788f4f3",
+  "guid": "ae4ac3f6-0797-4299-933e-7b6ca788f4f3",
+  "publisherId": "idynbv",
+  "offerId": "deliveryhub",
+  "source": {
+    "name": "ShipIT 365 nShift Ship shipping",
+    "publisher": "IDYN B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idynbv%7CAID.deliveryhub%7CPAPPID.ae4ac3f6-0797-4299-933e-7b6ca788f4f3",
+    "lastModified": "2026-10-02T08:28:44.0802573+00:00",
+    "appVersion": "28.2.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://idyn.atlassian.net/wiki/spaces/S365M/pages/22151185/Introduction",
+    "sourceHash": "sha256:23af0b806b6cd122710013f32838f1e8b4d9ada8b220e98a897c4b597df2605d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:23af0b806b6cd122710013f32838f1e8b4d9ada8b220e98a897c4b597df2605d",
+    "mappedOn": null,
+    "summary": "Books transport via 1,500+ carriers through nShift",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-freight-cost-audit"
+    ],
+    "claims": [
+      "Compare carrier options and freight charges in BC",
+      "Print shipment labels and track deliveries from BC",
+      "Integrated in sales, warehouse shipment, return, purchase and transfer orders",
+      "Adds freight charges automatically to sales orders",
+      "Real-time track and trace for customers",
+      "Available on Tasklet Mobile WMS and Multisoft Mobile NAV",
+      "Requires nShift contract"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "nShift Ship",
+      "DHL",
+      "DPD",
+      "UPS",
+      "Royal Mail",
+      "GLS",
+      "DB Schenker",
+      "PostNord"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

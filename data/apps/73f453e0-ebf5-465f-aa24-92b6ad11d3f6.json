@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.nvisioncommercesolutions|AID.commerce365-sendcloud-tasklet|PAPPID.73f453e0-ebf5-465f-aa24-92b6ad11d3f6",
+  "guid": "73f453e0-ebf5-465f-aa24-92b6ad11d3f6",
+  "publisherId": "nvisioncommercesolutions",
+  "offerId": "commerce365-sendcloud-tasklet",
+  "source": {
+    "name": "Commerce 365 for Sendcloud - Tasklet Mobile WMS module",
+    "publisher": "NVision Commerce Solutions B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nvisioncommercesolutions%7CAID.commerce365-sendcloud-tasklet%7CPAPPID.73f453e0-ebf5-465f-aa24-92b6ad11d3f6",
+    "lastModified": "2026-02-23T06:51:39.9239112+00:00",
+    "appVersion": "25.1.30062.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nvision.freshdesk.com/support/solutions/80000459352",
+    "sourceHash": "sha256:c18c98f8e4349a52ce039c331b8bfda359bd827b3750e35445ed85931a6de19d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c18c98f8e4349a52ce039c331b8bfda359bd827b3750e35445ed85931a6de19d",
+    "mappedOn": null,
+    "summary": "Links Commerce 365 for Sendcloud with Tasklet Mobile WMS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Creates carrier labels from handheld in Mobile WMS pack & ship",
+      "Shipments created without a workstation",
+      "Requires Commerce 365 for Sendcloud Premium license"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "IT",
+      "NL"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Sendcloud",
+      "Tasklet Factory Mobile WMS"
+    ],
+    "requires": [
+      "Commerce 365 for Sendcloud",
+      "Tasklet Factory Mobile WMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

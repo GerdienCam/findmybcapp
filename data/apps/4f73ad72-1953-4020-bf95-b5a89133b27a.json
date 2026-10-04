@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.belwaregmbh2|AID.connector_365_pdf|PAPPID.4f73ad72-1953-4020-bf95-b5a89133b27a",
+  "guid": "4f73ad72-1953-4020-bf95-b5a89133b27a",
+  "publisherId": "belwaregmbh2",
+  "offerId": "connector_365_pdf",
+  "source": {
+    "name": "Connector 365 PDF",
+    "publisher": "BELWARE GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_pdf%7CPAPPID.4f73ad72-1953-4020-bf95-b5a89133b27a",
+    "lastModified": "2026-02-02T14:34:25.0119877+00:00",
+    "appVersion": "1.5.28576.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.belware.de/en-us/apps/pdf/",
+    "sourceHash": "sha256:c8e028ed2a4290e740e34c3161f4a55cb53fdb3dc166f3018be9c82fdb5735a4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c8e028ed2a4290e740e34c3161f4a55cb53fdb3dc166f3018be9c82fdb5735a4",
+    "mappedOn": null,
+    "summary": "Adds features to outgoing PDF documents",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-email-sending",
+      "ng-loc-einvoicing"
+    ],
+    "claims": [
+      "Appends PDFs like terms and conditions to outgoing documents",
+      "Choose whether attachments go before the main document",
+      "Cover page or stationery per customer",
+      "Settings per report and customer",
+      "PDF/A-1b output for long-term archiving",
+      "PDF/A-3b with embedded files for ZUGFeRD"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

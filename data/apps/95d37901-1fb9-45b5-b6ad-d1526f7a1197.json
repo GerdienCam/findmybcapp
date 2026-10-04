@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.yazlmvedanmanlkhizmetlerianonimirketi1684754676139|AID.manufacturing_localization|PAPPID.95d37901-1fb9-45b5-b6ad-d1526f7a1197",
+  "guid": "95d37901-1fb9-45b5-b6ad-d1526f7a1197",
+  "publisherId": "yazlmvedanmanlkhizmetlerianonimirketi1684754676139",
+  "offerId": "manufacturing_localization",
+  "source": {
+    "name": "Manufacturing Localization",
+    "publisher": "Myron Yazılım Ve Danışmanlık Hizmetleri Anonim Şirketi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yazlmvedanmanlkhizmetlerianonimirketi1684754676139%7CAID.manufacturing_localization%7CPAPPID.95d37901-1fb9-45b5-b6ad-d1526f7a1197",
+    "lastModified": "2024-12-25T13:09:12.4885922+00:00",
+    "appVersion": "1.25.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://myronsoft.com.tr/en/contact/",
+    "sourceHash": "sha256:a01e839c8dbecb3d479f9ba278cd7f3d65faf8db51bd5e09b941e3b6c29124ab"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a01e839c8dbecb3d479f9ba278cd7f3d65faf8db51bd5e09b941e3b6c29124ab",
+    "mappedOn": null,
+    "summary": "Turkish manufacturing localization rules",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-production-costing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-shop-floor-reporting"
+    ],
+    "claims": [
+      "Prevents finishing production orders without consumption or output",
+      "Ensures consumption and output movements occur within the same month",
+      "Creates 710-711 reflection records for Turkish accounting",
+      "Distributes cost accounting records by time spent",
+      "Supports Essential and Premium editions",
+      "Available in English (US) and Turkish"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

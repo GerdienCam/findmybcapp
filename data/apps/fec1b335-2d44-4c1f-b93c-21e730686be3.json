@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.agic_technology_1016574|AID.bc_backup_scheduler|PAPPID.fec1b335-2d44-4c1f-b93c-21e730686be3",
+  "guid": "fec1b335-2d44-4c1f-b93c-21e730686be3",
+  "publisherId": "agic_technology_1016574",
+  "offerId": "bc_backup_scheduler",
+  "source": {
+    "name": "BC Backup Scheduler",
+    "publisher": "Agic Technology S.r.l.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.agic_technology_1016574%7CAID.bc_backup_scheduler%7CPAPPID.fec1b335-2d44-4c1f-b93c-21e730686be3",
+    "lastModified": "2026-07-24T07:12:25.3954572+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.agic.it/",
+    "sourceHash": "sha256:ce550486f3ef42c949653c6088a2e50e996079527ce4525fcd5f070b4815fc9a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ce550486f3ef42c949653c6088a2e50e996079527ce4525fcd5f070b4815fc9a",
+    "mappedOn": null,
+    "summary": "Schedules SaaS environment backups to Azure Storage",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-backup-recovery",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-updates-testing"
+    ],
+    "claims": [
+      "Scheduled automatic environment backups",
+      "Extended retention in Azure Storage",
+      "Integrates with the BC Admin Center",
+      "Per-environment backup settings",
+      "Automatic backup before version upgrades",
+      "On-demand backups",
+      "Verifies backup export to Azure Storage",
+      "Backup registry with history and status",
+      "Production and sandbox environments",
+      "Guided setup wizard"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Storage",
+      "Business Central Admin Center"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

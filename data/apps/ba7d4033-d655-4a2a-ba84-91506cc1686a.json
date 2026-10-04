@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.timetrackcentral|AID.pbo_bc_event_bridge|PAPPID.ba7d4033-d655-4a2a-ba84-91506cc1686a",
+  "guid": "ba7d4033-d655-4a2a-ba84-91506cc1686a",
+  "publisherId": "timetrackcentral",
+  "offerId": "pbo_bc_event_bridge",
+  "source": {
+    "name": "BC Event Bridge",
+    "publisher": "Time Track Central",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.timetrackcentral%7CAID.pbo_bc_event_bridge%7CPAPPID.ba7d4033-d655-4a2a-ba84-91506cc1686a",
+    "lastModified": "2026-09-21T09:41:27.5339328+00:00",
+    "appVersion": "26.0.20260920.10",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://docs.timetrackcentral.com/en/tools/event-bridge/",
+    "sourceHash": "sha256:30f664f5ee14fe4b4343602963a31eeb46ef27dc2ff92c724faa2d576b8fe30d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:30f664f5ee14fe4b4343602963a31eeb46ef27dc2ff92c724faa2d576b8fe30d",
+    "mappedOn": null,
+    "summary": "Sends table change events to queues and webhooks",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "Captures table changes of type delete, rename, modify and insert",
+      "Sends structured JSON to RabbitMQ, HTTP/webhooks, or Azure Service Bus, Event Hub, Queue Storage, Event Grid",
+      "Webhook targets include Zapier, Make.com and Power Automate",
+      "Before-and-after comparison on modify and rename events",
+      "Visual no-code JSON payload builder including related records",
+      "Per-field event filtering",
+      "Message preview and one-click test payload before going live",
+      "Supports Basic auth, API keys, OAuth 2.0 client credentials and SAS tokens",
+      "Token caching and retry handling",
+      "One endpoint configured per company",
+      "Licensed per administration user; no license for standard users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "RabbitMQ",
+      "Azure Service Bus",
+      "Azure Event Hub",
+      "Azure Queue Storage",
+      "Azure Event Grid",
+      "Zapier",
+      "Make.com",
+      "Power Automate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

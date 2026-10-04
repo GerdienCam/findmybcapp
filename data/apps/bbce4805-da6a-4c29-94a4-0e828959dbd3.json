@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_goods_receipt|PAPPID.bbce4805-da6a-4c29-94a4-0e828959dbd3",
+  "guid": "bbce4805-da6a-4c29-94a4-0e828959dbd3",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_goods_receipt",
+  "source": {
+    "name": "m+m Goods Receipt",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_goods_receipt%7CPAPPID.bbce4805-da6a-4c29-94a4-0e828959dbd3",
+    "lastModified": "2026-09-18T05:35:33.4055205+00:00",
+    "appVersion": "28.0.374970.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:17f13e849b024f9a118b9aaa3daa2e19c2d410109075306367f97824e3f45b75"
+  },
+  "mapping": {
+    "sourceHash": "sha256:17f13e849b024f9a118b9aaa3daa2e19c2d410109075306367f97824e3f45b75",
+    "mappedOn": null,
+    "summary": "Creates sales, purchase and manufacturing documents from goods receipt",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-entry"
+    ],
+    "claims": [
+      "Creates manufacturing, purchase and sales documents in a single step",
+      "Creates new master data with templates",
+      "Supported BC editions as stated"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

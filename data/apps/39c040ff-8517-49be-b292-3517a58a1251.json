@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.equisys|AID.zetadocs_journal_document_processing|PAPPID.39c040ff-8517-49be-b292-3517a58a1251",
+  "guid": "39c040ff-8517-49be-b292-3517a58a1251",
+  "publisherId": "equisys",
+  "offerId": "zetadocs_journal_document_processing",
+  "source": {
+    "name": "Zetadocs Journal Document Processing",
+    "publisher": "Equisys",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.equisys%7CAID.zetadocs_journal_document_processing%7CPAPPID.39c040ff-8517-49be-b292-3517a58a1251",
+    "lastModified": "2025-11-25T16:13:58.7914982+00:00",
+    "appVersion": "3.1.25329.26000",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://software.equisys.com/help?Product=Zetadocs&lang=EN",
+    "sourceHash": "sha256:7a3e2ac93ac5b2679891ab10d6e7c9ed5dad144dd3319ee995e7ccc6ec370798"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7a3e2ac93ac5b2679891ab10d6e7c9ed5dad144dd3319ee995e7ccc6ec370798",
+    "mappedOn": null,
+    "summary": "Attaches supporting documents to journal and ledger entries",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage",
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Drag and drop supporting documents onto journal entries",
+      "Documents available on ledger entries after posting via FactBox",
+      "Drag and drop documents onto ledger entries",
+      "Stores documents in SharePoint to avoid database bloat"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint Online"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

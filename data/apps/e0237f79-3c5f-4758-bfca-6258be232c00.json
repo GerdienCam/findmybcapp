@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.6e9444ef-483a-4106-82ac-56a538738a5a|AID.clonemycompany|PAPPID.e0237f79-3c5f-4758-bfca-6258be232c00",
+  "guid": "e0237f79-3c5f-4758-bfca-6258be232c00",
+  "publisherId": "6e9444ef-483a-4106-82ac-56a538738a5a",
+  "offerId": "clonemycompany",
+  "source": {
+    "name": "CloneMyCompany",
+    "publisher": "IO Integrated",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.6e9444ef-483a-4106-82ac-56a538738a5a%7CAID.clonemycompany%7CPAPPID.e0237f79-3c5f-4758-bfca-6258be232c00",
+    "lastModified": "2026-10-01T12:54:06.9347744+00:00",
+    "appVersion": "25.4.94.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ioi.gmbh/contact-us/?lang=en",
+    "sourceHash": "sha256:8d7a5d1351db5506dc9c4f6ded871a17094994928f6c4fa1cbb4e5198e48a754"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8d7a5d1351db5506dc9c4f6ded871a17094994928f6c4fa1cbb4e5198e48a754",
+    "mappedOn": null,
+    "summary": "Copies and synchronizes data between BC companies and tenants for backup or migration",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-backup-recovery",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-admin-data-migration"
+    ],
+    "claims": [
+      "Transfers BC data between tenants",
+      "Installed on both source and target tenants with setup wizards",
+      "Automatically detects tables with data",
+      "Chunk-based transfer of large datasets",
+      "Optional delta synchronization after initial transfer",
+      "Monitoring cockpit with logs and resume of interrupted transfers",
+      "OAuth-based encrypted API communication between tenants",
+      "Scheduled backups",
+      "Role-based access for backups and transfers",
+      "Requires BC v21.0 or later"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

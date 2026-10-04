@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.brightcom_3111464|AID.madden_analytics_connect|PAPPID.95743c14-8615-4fbc-a5f6-bb64eb642df7",
+  "guid": "95743c14-8615-4fbc-a5f6-bb64eb642df7",
+  "publisherId": "brightcom_3111464",
+  "offerId": "madden_analytics_connect",
+  "source": {
+    "name": "Madden Analytics Connect",
+    "publisher": "BrightCom Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.madden_analytics_connect%7CPAPPID.95743c14-8615-4fbc-a5f6-bb64eb642df7",
+    "lastModified": "2026-10-01T13:27:20.3208077+00:00",
+    "appVersion": "28.0.35439.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.brightcom.se/sv/Products/MaddenAnalytics",
+    "sourceHash": "sha256:6ad91e678f35c9eed8e7bdc56828d98793900af9fd2f10f2360e7a9cbbb227b6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6ad91e678f35c9eed8e7bdc56828d98793900af9fd2f10f2360e7a9cbbb227b6",
+    "mappedOn": null,
+    "summary": "Syncs sales, stock and product data to Madden Analytics",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-replenishment-planning"
+    ],
+    "claims": [
+      "Sends product, stock, purchase order and sales history data to Madden Analytics",
+      "API-based sync, not files",
+      "Prebuilt templates to map BC fields to Madden",
+      "Sync queues control what, how often and how much is sent",
+      "Error log and retry of failed transactions in BC",
+      "Pushes brand, warehouse and store lists",
+      "Cloud deployment"
+    ],
+    "countries": [
+      "DK",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [
+      "E-commerce",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Madden Analytics"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

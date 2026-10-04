@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.xpna|AID.xpna_bc|PAPPID.09651e8e-d50e-4002-a059-eb5bbdb19468",
+  "guid": "09651e8e-d50e-4002-a059-eb5bbdb19468",
+  "publisherId": "xpna",
+  "offerId": "xpna_bc",
+  "source": {
+    "name": "XPNA Connector",
+    "publisher": "XPNA Pty. Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xpna%7CAID.xpna_bc%7CPAPPID.09651e8e-d50e-4002-a059-eb5bbdb19468",
+    "lastModified": "2026-09-30T10:50:25.9390286+00:00",
+    "appVersion": "1.0.0.14",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.xpna.app/",
+    "sourceHash": "sha256:823ce393b01eec9b46ddbf371149334f36281af6456d0b79b59f4a5292dc0cfb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:823ce393b01eec9b46ddbf371149334f36281af6456d0b79b59f4a5292dc0cfb",
+    "mappedOn": null,
+    "summary": "Connects BC to xpna for reporting, budgeting and planning",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-budget-vs-actual",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-budget-build",
+      "ng-ux-excel-reporting"
+    ],
+    "claims": [
+      "Connects BC to xpna for reporting, budgeting and planning",
+      "Excel add-in with live data",
+      "Exposes G/L, accounts, customers, vendors, dimensions, AR/AP",
+      "Configure data loads and dimension mappings in xpna",
+      "Requires xpna account and subscription"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "xpna"
+    ],
+    "requires": [
+      "xpna"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

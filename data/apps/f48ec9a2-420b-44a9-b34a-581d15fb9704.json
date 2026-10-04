@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.aitana_management_sl|AID.idynamics_working_hours|PAPPID.f48ec9a2-420b-44a9-b34a-581d15fb9704",
+  "guid": "f48ec9a2-420b-44a9-b34a-581d15fb9704",
+  "publisherId": "aitana_management_sl",
+  "offerId": "idynamics_working_hours",
+  "source": {
+    "name": "iDynamics Working Hours",
+    "publisher": "iDynamics Business Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aitana_management_sl%7CAID.idynamics_working_hours%7CPAPPID.f48ec9a2-420b-44a9-b34a-581d15fb9704",
+    "lastModified": "2024-11-21T13:30:54.1309184+00:00",
+    "appVersion": "3.5.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.idynamics.es/en/workinghours/index.html",
+    "sourceHash": "sha256:573679c5b21dc738355994a8bae1c5729921ca96c8307afbec23d6969beba53e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:573679c5b21dc738355994a8bae1c5729921ca96c8307afbec23d6969beba53e",
+    "mappedOn": null,
+    "summary": "Tracks employee working hours, schedules, overtime and absences",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-org-policies"
+    ],
+    "claims": [
+      "Tracks employees' daily working hours",
+      "Monthly summaries of ordinary hours, overtime and absences",
+      "Meets Spanish law 8/2019 time registration requirement",
+      "Company structure with work centers and employees",
+      "Work schedules per work center, per employee or both",
+      "Labor calendars per work center with holidays and exceptions",
+      "Absence tracking by hours or days",
+      "Daily activity report for employees to report overtime, exceptions and absences"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

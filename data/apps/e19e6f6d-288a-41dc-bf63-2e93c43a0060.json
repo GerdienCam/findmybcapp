@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.eit-bom-connector-app|PAPPID.e19e6f6d-288a-41dc-bf63-2e93c43a0060",
+  "guid": "e19e6f6d-288a-41dc-bf63-2e93c43a0060",
+  "publisherId": "fenwicksoftware",
+  "offerId": "eit-bom-connector-app",
+  "source": {
+    "name": "Easy Item Tracking for Back Order Management",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.eit-bom-connector-app%7CPAPPID.e19e6f6d-288a-41dc-bf63-2e93c43a0060",
+    "lastModified": "2026-03-04T05:42:47.8434514+00:00",
+    "appVersion": "26.0.260219.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/easy-item-tracking/docs",
+    "sourceHash": "sha256:f7234c11d001bd8a4dcb92e1c7559229b53564ede5c14fea8ceb985ddb2c0918"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f7234c11d001bd8a4dcb92e1c7559229b53564ede5c14fea8ceb985ddb2c0918",
+    "mappedOn": null,
+    "summary": "Bridges Easy Item Tracking and Back Order Management",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Conceals Qty. on Inventory pick fields in the FactBox of the Sales Line"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Fenwick Easy Item Tracking",
+      "Fenwick Back Order Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Connector app between two Fenwick apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

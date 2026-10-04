@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.data-int-cloud-app|PAPPID.86f2159c-55a8-425a-8c6d-3aa42d697b37",
+  "guid": "86f2159c-55a8-425a-8c6d-3aa42d697b37",
+  "publisherId": "fenwicksoftware",
+  "offerId": "data-int-cloud-app",
+  "source": {
+    "name": "Data Integrator for Cloud Storage",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.data-int-cloud-app%7CPAPPID.86f2159c-55a8-425a-8c6d-3aa42d697b37",
+    "lastModified": "2026-07-05T23:32:24.5087754+00:00",
+    "appVersion": "26.0.260319.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/data-integrator-for-cloud-storage/docs",
+    "sourceHash": "sha256:e0a63776ea1640b57b3d7635bcc05a48bf5d4f8942cf3804e717d47d18e52508"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e0a63776ea1640b57b3d7635bcc05a48bf5d4f8942cf3804e717d47d18e52508",
+    "mappedOn": null,
+    "summary": "Reads and writes files in Azure Files from BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Interfaces directly with files on Azure Files",
+      "No extra servers or third-party middleware needed",
+      "File sharing via SMB and Azure Files REST API",
+      "Works with Interface Controller for processing and logging"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Files"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

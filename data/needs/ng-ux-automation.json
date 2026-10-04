@@ -1,0 +1,199 @@
+{
+  "id": "ng-ux-automation",
+  "order": 182,
+  "label": "Automating routine steps without code",
+  "description": "No-code rules and workflows that react to BC events: auto-fill, auto-release, auto-email, custom status flows and process mining of how BC is used.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "medium",
+  "statements": [
+    "Automating routine steps without code",
+    "No-code rules and workflows that react to BC events: auto-fill, auto-release, auto-email, custom status flows and process mining of how BC is used.",
+    "When an order is released I want BC to do three things automatically",
+    "no code automation in Business Central",
+    "Power Automate is too technical for our finance team",
+    "Our process has steps BC doesn't know about, like 'waiting for drawing'",
+    "If the customer is blocked, stop the order and email sales",
+    "Can we build rules like 'if amount over X then...' ourselves?",
+    "We repeat the same five clicks after every posting",
+    "Custom statuses on sales orders with automatic actions",
+    "Find out where our processes actually get stuck in BC",
+    "Trigger an action when a field changes",
+    "workflow engine beyond approvals",
+    "Automate the boring steps without calling the partner"
+  ],
+  "questions": [
+    {
+      "id": "goal",
+      "text": "What do you want to automate?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Approvals",
+          "patterns": [
+            "approv",
+            "four-eyes",
+            "dual-control",
+            "authoriz"
+          ]
+        },
+        {
+          "label": "Status steps on records and documents",
+          "patterns": [
+            "statuses",
+            "status (management|flow|change|transition|stage|history)",
+            "status-driven",
+            "phase",
+            "life ?cycle",
+            "stages?\\b"
+          ]
+        },
+        {
+          "label": "Mandatory fields and checklists",
+          "patterns": [
+            "checklist",
+            "mandatory",
+            "required fields",
+            "completeness",
+            "validation"
+          ]
+        },
+        {
+          "label": "Actions triggered by events",
+          "patterns": [
+            "event",
+            "trigger",
+            "job queue",
+            "automatic(ally)? (system )?actions",
+            "phase changes can automatically"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Approvals": 0.38,
+        "Status steps on records and documents": 0.38,
+        "Mandatory fields and checklists": 0.46,
+        "Actions triggered by events": 0.38
+      }
+    },
+    {
+      "id": "powerautomate",
+      "text": "Do you use Power Automate or the Power Platform?",
+      "options": [
+        {
+          "label": "Yes, connect to it",
+          "patterns": [
+            "power automate",
+            "power platform"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, connect to it": 0.21
+      }
+    },
+    {
+      "id": "builder",
+      "text": "Who will set up the automations?",
+      "options": [
+        {
+          "label": "Business users, no code",
+          "patterns": [
+            "no-?code",
+            "no coding",
+            "without (al )?(code|coding|programming)",
+            "low/no-code",
+            "setup wizard",
+            "visual flow",
+            "graphical",
+            "copilot"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Business users, no code": 0.38
+      }
+    },
+    {
+      "id": "external",
+      "text": "Should automations reach systems outside BC?",
+      "options": [
+        {
+          "label": "Yes, other systems too",
+          "patterns": [
+            "external",
+            "rest api",
+            "webhook",
+            "sharepoint",
+            "third-party",
+            "spooler",
+            "integrat"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, other systems too": 0.25
+      }
+    },
+    {
+      "id": "notify",
+      "text": "Should people get emails or notifications when something changes?",
+      "options": [
+        {
+          "label": "Yes, notify users",
+          "patterns": [
+            "e-?mail",
+            "notification",
+            "alert",
+            "notifies"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, notify users": 0.33
+      }
+    },
+    {
+      "id": "audit",
+      "text": "Do you need a log of who did what, for audits?",
+      "options": [
+        {
+          "label": "Yes, keep a history",
+          "patterns": [
+            "\\blog",
+            "history",
+            "audit",
+            "logged"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, keep a history": 0.54
+      }
+    }
+  ]
+}

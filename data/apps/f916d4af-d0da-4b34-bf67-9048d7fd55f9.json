@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.bricklead1692180953470|AID.bri_pdm|PAPPID.f916d4af-d0da-4b34-bf67-9048d7fd55f9",
+  "guid": "f916d4af-d0da-4b34-bf67-9048d7fd55f9",
+  "publisherId": "bricklead1692180953470",
+  "offerId": "bri_pdm",
+  "source": {
+    "name": "Process Documents Management",
+    "publisher": "BRICKLEAD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bricklead1692180953470%7CAID.bri_pdm%7CPAPPID.f916d4af-d0da-4b34-bf67-9048d7fd55f9",
+    "lastModified": "2026-09-02T17:12:40.3642575+00:00",
+    "appVersion": "27.0.9741.65668",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.bricklead.eu/en-us/apps/pdm/",
+    "sourceHash": "sha256:e36ed062aaa3b4701b798ef7d0354dc7672fc379794020d7c8fb2729b254844b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e36ed062aaa3b4701b798ef7d0354dc7672fc379794020d7c8fb2729b254844b",
+    "mappedOn": null,
+    "summary": "Tracks required compliance documents and certificates in business flows",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-product-compliance",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Checklist of required documents at process checkpoints",
+      "Optional or mandatory control to proceed",
+      "Validates expiry of compliance/contract documents",
+      "Auto-upload compliance documents onto business documents",
+      "Covers sales, purchase, assembly, production and transfer flows",
+      "Own certifications like IFS and ISO"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

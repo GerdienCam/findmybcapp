@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.allium|AID.dld_sale|PAPPID.b8cab494-1e40-4572-8217-263e6e935733",
+  "guid": "b8cab494-1e40-4572-8217-263e6e935733",
+  "publisherId": "allium",
+  "offerId": "dld_sale",
+  "source": {
+    "name": "DLD-Sale",
+    "publisher": "Allium",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.allium%7CAID.dld_sale%7CPAPPID.b8cab494-1e40-4572-8217-263e6e935733",
+    "lastModified": "2026-08-17T08:31:30.9182997+00:00",
+    "appVersion": "26.0.0.16938",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.allium.eu/en/contact",
+    "sourceHash": "sha256:9968d189e91486752c564eaf5495374e474a4cdbe4325b3a175e28af576b0398"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9968d189e91486752c564eaf5495374e474a4cdbe4325b3a175e28af576b0398",
+    "mappedOn": null,
+    "summary": "Sales promotions, claims and lost sales tracking",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-returns",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-analytics"
+    ],
+    "claims": [
+      "Promotional events with discounts, bonus items or free services",
+      "Combine or multiply promotions",
+      "Limit promotions to categories or selected items",
+      "Create credit notes from various sales lines",
+      "Goods loan feature",
+      "Lost sales tracking",
+      "Complaint management and sales history per customer",
+      "Returns handling",
+      "Tracking of cancelled orders"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Retail and consumer goods"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

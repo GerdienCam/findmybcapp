@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.tinx-it|AID.tinx-shopware-connector|PAPPID.f214b17d-3228-41c9-af90-56ede64b15d5",
+  "guid": "f214b17d-3228-41c9-af90-56ede64b15d5",
+  "publisherId": "tinx-it",
+  "offerId": "tinx-shopware-connector",
+  "source": {
+    "name": "Tinx Shopware Connector",
+    "publisher": "Tinx-IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-shopware-connector%7CPAPPID.f214b17d-3228-41c9-af90-56ede64b15d5",
+    "lastModified": "2026-09-24T11:53:18.443532+00:00",
+    "appVersion": "28.1.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.tinx-it.com/",
+    "sourceHash": "sha256:cf658af22717917830068d4d6434c1db119f642f3216c9111a48172cf81715c6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cf658af22717917830068d4d6434c1db119f642f3216c9111a48172cf81715c6",
+    "mappedOn": null,
+    "summary": "Integrates Shopware 6 webshop with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Integrates Shopware 6",
+      "Product information management: texts, cross-sell, up-sell, pictures",
+      "Properties and custom fields on items and customers",
+      "Centralises inventory in BC",
+      "Order import with customer assignment, guest ordering supported",
+      "Returns each order status to the webshop",
+      "Sync history log with email notification on errors",
+      "Monthly fixed fee from EUR 369"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Shopware"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

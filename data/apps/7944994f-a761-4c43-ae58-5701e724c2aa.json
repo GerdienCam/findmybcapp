@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.kumavision|AID.edx_wms|PAPPID.7944994f-a761-4c43-ae58-5701e724c2aa",
+  "guid": "7944994f-a761-4c43-ae58-5701e724c2aa",
+  "publisherId": "kumavision",
+  "offerId": "edx_wms",
+  "source": {
+    "name": "EDX - Warehouse Management System Integration",
+    "publisher": "KUMAVISION AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.edx_wms%7CPAPPID.7944994f-a761-4c43-ae58-5701e724c2aa",
+    "lastModified": "2026-09-10T08:35:29.0573635+00:00",
+    "appVersion": "28.5.703.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.kumavision.de/en/edx/EDX_WMS/",
+    "sourceHash": "sha256:390533971d47d253b4ef6e940106d276374805988cc0347a5b14837fa94828c2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:390533971d47d253b4ef6e940106d276374805988cc0347a5b14837fa94828c2",
+    "mappedOn": null,
+    "summary": "EDI integration with external warehouse providers",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-conn-edi"
+    ],
+    "claims": [
+      "EDI with logistics partners / external warehouses",
+      "No manual entry of items, serial/batch numbers or package data",
+      "Automates goods issue, goods receipt and other inventory processes",
+      "Optional fully automatic invoicing",
+      "Setup wizard",
+      "Requires EDX base app",
+      "Only tested for DE, CH and AT regulations"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "fr"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [
+      "Logistics partner WMS"
+    ],
+    "requires": [
+      "EDX - Electronic Data eXchange"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

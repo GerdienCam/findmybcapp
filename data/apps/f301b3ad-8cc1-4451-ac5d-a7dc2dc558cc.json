@@ -1,0 +1,56 @@
+{
+  "appId": "TYPE.connect|PUBID.nagarro_sap_01|AID.ep_buscen_purindent|PAPPID.f301b3ad-8cc1-4451-ac5d-a7dc2dc558cc",
+  "guid": "f301b3ad-8cc1-4451-ac5d-a7dc2dc558cc",
+  "publisherId": "nagarro_sap_01",
+  "offerId": "ep_buscen_purindent",
+  "source": {
+    "name": "Purchase Requisition App",
+    "publisher": "Nagarro",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.nagarro_sap_01%7CAID.ep_buscen_purindent%7CPAPPID.f301b3ad-8cc1-4451-ac5d-a7dc2dc558cc",
+    "lastModified": "2025-04-14T07:37:18.8762847+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nagarro.com/en/services/erp/msdynamics-365",
+    "sourceHash": "sha256:e11533a0940d69891c2a0ce8d52877e44edd035d02e8497a78eb564e036a71ee"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e11533a0940d69891c2a0ce8d52877e44edd035d02e8497a78eb564e036a71ee",
+    "mappedOn": null,
+    "summary": "Purchase requisitions, RFQs and approvals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sourcing-rfq",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Users create and submit purchase indent requests in BC",
+      "Indent requests are kept apart for consumption and for replenishment",
+      "Multi-level approval workflows for indents",
+      "RFQ and quotation comparison",
+      "Approved indents convert to purchase quotes and orders",
+      "Demand consolidation of multiple indents in one transaction"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

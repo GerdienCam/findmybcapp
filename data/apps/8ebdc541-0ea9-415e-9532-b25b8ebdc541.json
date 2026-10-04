@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.advanced_landed_cost|PAPPID.8ebdc541-0ea9-415e-9532-b25b8ebdc541",
+  "guid": "8ebdc541-0ea9-415e-9532-b25b8ebdc541",
+  "publisherId": "thetasystemslimited",
+  "offerId": "advanced_landed_cost",
+  "source": {
+    "name": "Advanced Landed Cost",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.advanced_landed_cost%7CPAPPID.8ebdc541-0ea9-415e-9532-b25b8ebdc541",
+    "lastModified": "2026-09-02T01:29:34.8230255+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/LC",
+    "sourceHash": "sha256:9336d87cf2b4a14abe94535f344d5aaf792411d830a308a2b7ce111f5408260d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9336d87cf2b4a14abe94535f344d5aaf792411d830a308a2b7ce111f5408260d",
+    "mappedOn": null,
+    "summary": "Landed cost calculation for imported goods",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis",
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Estimates landed costs at purchase order time using configurable rules",
+      "Automatically calculates expected costs when raising a purchase order",
+      "Automatically posts anticipated costs so margin is accurate from the start",
+      "Ties one or several purchase orders to a planned delivery",
+      "Creates inbound documents on its own when goods can be received",
+      "Automatically assigns and apportions item charges",
+      "Associates purchase lines to shipping containers",
+      "Custom fields to store consignment information",
+      "Receipt by individual container or whole consignment",
+      "Extra apportionment options: Quantity, Duty, Amount including Duty",
+      "Covers freight, customs, tariffs, insurance and duty costs"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

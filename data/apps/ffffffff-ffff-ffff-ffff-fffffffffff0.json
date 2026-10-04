@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.innoware-1255921|AID.iw_bc_hr_payroll_bridge_ukraine|PAPPID.ffffffff-ffff-ffff-ffff-fffffffffff0",
+  "guid": "ffffffff-ffff-ffff-ffff-fffffffffff0",
+  "publisherId": "innoware-1255921",
+  "offerId": "iw_bc_hr_payroll_bridge_ukraine",
+  "source": {
+    "name": "IW HR & Payroll Bridge",
+    "publisher": "Innoware Ukraine LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.innoware-1255921%7CAID.iw_bc_hr_payroll_bridge_ukraine%7CPAPPID.ffffffff-ffff-ffff-ffff-fffffffffff0",
+    "lastModified": "2026-08-17T07:34:36.3404404+00:00",
+    "appVersion": "27.4.6345.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://innoware.ua/",
+    "sourceHash": "sha256:afb5dbbe5477e9335c31cc1464bf2bd5a523a08e122021c792533b696d9a8e6d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:afb5dbbe5477e9335c31cc1464bf2bd5a523a08e122021c792533b696d9a8e6d",
+    "mappedOn": null,
+    "summary": "Integrates IW HR & Payroll for Ukraine into the other IW solutions",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Links the IW HR & Payroll product for Ukraine to other IW solutions",
+      "Available for cloud and on-premises"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "languages": [
+      "en",
+      "ru",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "IW HR & Payroll for Ukraine",
+      "IW Foundation"
+    ],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Bridge/dependency app linking IW HR & Payroll with other IW modules",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

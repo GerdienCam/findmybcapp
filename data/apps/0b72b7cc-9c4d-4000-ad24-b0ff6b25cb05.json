@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.foodware365|AID.aptean_aip_connector|PAPPID.0b72b7cc-9c4d-4000-ad24-b0ff6b25cb05",
+  "guid": "0b72b7cc-9c4d-4000-ad24-b0ff6b25cb05",
+  "publisherId": "foodware365",
+  "offerId": "aptean_aip_connector",
+  "source": {
+    "name": "Aptean AIP Bridge for Food & Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_aip_connector%7CPAPPID.0b72b7cc-9c4d-4000-ad24-b0ff6b25cb05",
+    "lastModified": "2026-07-27T09:54:40.0473442+00:00",
+    "appVersion": "2601.0.332187.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://erpdocs.apteancloud.com/bc/docs/AIP",
+    "sourceHash": "sha256:77fd3eedaa6e4958722da93934c119de4f832be35c41522c347d68352e6c3f8c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:77fd3eedaa6e4958722da93934c119de4f832be35c41522c347d68352e6c3f8c",
+    "mappedOn": null,
+    "summary": "Bridges BC to Aptean Integration Platform for food and beverage",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures",
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Inbound and outbound events for data exchange",
+      "Issue tracking via AIP Events page",
+      "Supports routing, scheduling and logistics master data",
+      "Requires BC Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [
+      "Aptean Integration Platform"
+    ],
+    "requires": [
+      "Aptean Integration Platform"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

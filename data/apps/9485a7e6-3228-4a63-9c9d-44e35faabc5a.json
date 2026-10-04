@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.brx|AID.brxproffpro|PAPPID.9485a7e6-3228-4a63-9c9d-44e35faabc5a",
+  "guid": "9485a7e6-3228-4a63-9c9d-44e35faabc5a",
+  "publisherId": "brx",
+  "offerId": "brxproffpro",
+  "source": {
+    "name": "Proff Pro for Business Central",
+    "publisher": "Brixia AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brx%7CAID.brxproffpro%7CPAPPID.9485a7e6-3228-4a63-9c9d-44e35faabc5a",
+    "lastModified": "2026-05-05T00:11:27.4870878+00:00",
+    "appVersion": "1.0.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bc365.no/",
+    "sourceHash": "sha256:36a8cfb30ab66c5996f452a5f58e79ba3a07f57be5be153ae74a435e04877ef2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:36a8cfb30ab66c5996f452a5f58e79ba3a07f57be5be153ae74a435e04877ef2",
+    "mappedOn": null,
+    "summary": "Scandinavian company information and credit ratings from Proff",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds"
+    ],
+    "claims": [
+      "Retrieves company name, address, org number and industry",
+      "Credit scores, risk assessments and credit limits on customer and vendor cards",
+      "Payment history and bankruptcy probability",
+      "Shareholder and ownership information",
+      "FactBoxes with Proff data on customer and vendor cards",
+      "Create customers/vendors from search",
+      "Bulk synchronization of all customers and vendors"
+    ],
+    "countries": [
+      "DK",
+      "FI",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "nb"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Proff"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

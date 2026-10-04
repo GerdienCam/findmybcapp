@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-personincharge|PAPPID.1ecd540c-28e8-44cd-a200-d5b5f029c878",
+  "guid": "1ecd540c-28e8-44cd-a200-d5b5f029c878",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-personincharge",
+  "source": {
+    "name": "BeyondPersonInCharge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-personincharge%7CPAPPID.1ecd540c-28e8-44cd-a200-d5b5f029c878",
+    "lastModified": "2025-11-18T23:49:21.1098444+00:00",
+    "appVersion": "21.0.49.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/personincharge/index.html",
+    "sourceHash": "sha256:bdbec13af11b7648c6dd1af5d232fae7eac5107b27c0a922a7ba5a1ba595cad3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bdbec13af11b7648c6dd1af5d232fae7eac5107b27c0a922a7ba5a1ba595cad3",
+    "mappedOn": null,
+    "summary": "Assigns person in charge to open documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-notes-collaboration",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-entry"
+    ],
+    "claims": [
+      "Person in charge field on open documents",
+      "Person in charge retained on posted documents",
+      "Default person in charge from customer, vendor or user setup",
+      "Manual change on open documents"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

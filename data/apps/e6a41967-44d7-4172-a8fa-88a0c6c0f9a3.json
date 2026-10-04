@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.asqit|AID.item-approvals|PAPPID.e6a41967-44d7-4172-a8fa-88a0c6c0f9a3",
+  "guid": "e6a41967-44d7-4172-a8fa-88a0c6c0f9a3",
+  "publisherId": "asqit",
+  "offerId": "item-approvals",
+  "source": {
+    "name": "Item Approvals",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.item-approvals%7CPAPPID.e6a41967-44d7-4172-a8fa-88a0c6c0f9a3",
+    "lastModified": "2026-06-22T04:44:09.2196642+00:00",
+    "appVersion": "27.0.4.26061",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/approvalsuiteapps",
+    "sourceHash": "sha256:6642ce0b11eec5233a740ccf0b1030ba9557265e056b6bc98b9d815ee57b5f69"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6642ce0b11eec5233a740ccf0b1030ba9557265e056b6bc98b9d815ee57b5f69",
+    "mappedOn": null,
+    "summary": "Approval workflow for new items and item changes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Blocks unapproved items on sales/purchase documents and item journals",
+      "Tracks item approval status",
+      "Protects sensitive item fields from unapproved changes",
+      "Configurable protected fields on approved items",
+      "Restricts deletion of approved items",
+      "Required fields check before approval",
+      "Any approver from a team can approve"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

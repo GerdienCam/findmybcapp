@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.dynamic_commerce_gmbh|AID.dc_dynamic_commerce|PAPPID.9e98f281-38bd-4fb5-aa85-8341014a65f1",
+  "guid": "9e98f281-38bd-4fb5-aa85-8341014a65f1",
+  "publisherId": "dynamic_commerce_gmbh",
+  "offerId": "dc_dynamic_commerce",
+  "source": {
+    "name": "dynamic commerce e-commerce platform",
+    "publisher": "dc AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamic_commerce_gmbh%7CAID.dc_dynamic_commerce%7CPAPPID.9e98f281-38bd-4fb5-aa85-8341014a65f1",
+    "lastModified": "2026-09-29T10:05:36.0595477+00:00",
+    "appVersion": "24.2.20260929.351084",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.dc.ag/",
+    "sourceHash": "sha256:62ec290f81b11d8d80d182c55cc5846881f7c6ca0345c18ef7296267e39daf74"
+  },
+  "mapping": {
+    "sourceHash": "sha256:62ec290f81b11d8d80d182c55cc5846881f7c6ca0345c18ef7296267e39daf74",
+    "mappedOn": null,
+    "summary": "Webshop platform built on BC data",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-marketplaces",
+      "ng-admin-portals",
+      "ng-sales-channels"
+    ],
+    "claims": [
+      "Online shop software using BC as back end",
+      "B2B and B2C shops and marketplaces like Amazon",
+      "B2B shops restricted to selected business customers",
+      "Sales portal for staff order entry",
+      "Catalog websites",
+      "Any number of languages and currencies",
+      "Modular add-ons such as online payment and subscriptions"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "CA",
+      "CH",
+      "DE",
+      "GB",
+      "NZ",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Amazon"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

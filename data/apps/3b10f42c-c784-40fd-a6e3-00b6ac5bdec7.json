@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.simova|AID.dvs_to_dc_by_simova|PAPPID.3b10f42c-c784-40fd-a6e3-00b6ac5bdec7",
+  "guid": "3b10f42c-c784-40fd-a6e3-00b6ac5bdec7",
+  "publisherId": "simova",
+  "offerId": "dvs_to_dc_by_simova",
+  "source": {
+    "name": "Flow Path for DC",
+    "publisher": "Simova GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simova%7CAID.dvs_to_dc_by_simova%7CPAPPID.3b10f42c-c784-40fd-a6e3-00b6ac5bdec7",
+    "lastModified": "2026-08-27T11:46:10.3010329+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simova.de/simovazone",
+    "sourceHash": "sha256:04021af90ceb498ec8c4c577b22015d18ce0ed0115f90061abae7f31373ceed1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:04021af90ceb498ec8c4c577b22015d18ce0ed0115f90061abae7f31373ceed1",
+    "mappedOn": null,
+    "summary": "Adds questions and tasks to documents in Continia Document Capture",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-notes-collaboration",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Create Flow Path questions/tasks directly on documents processed by Continia Document Capture"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IE",
+      "JP",
+      "NL",
+      "NZ",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "Flow Path",
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

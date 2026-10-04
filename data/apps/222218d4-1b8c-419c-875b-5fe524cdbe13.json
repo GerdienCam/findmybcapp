@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.horsawayit|AID.hor_expenditures|PAPPID.222218d4-1b8c-419c-875b-5fe524cdbe13",
+  "guid": "222218d4-1b8c-419c-875b-5fe524cdbe13",
+  "publisherId": "horsawayit",
+  "offerId": "hor_expenditures",
+  "source": {
+    "name": "Expenditures",
+    "publisher": "Horsa Way",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_expenditures%7CPAPPID.222218d4-1b8c-419c-875b-5fe524cdbe13",
+    "lastModified": "2026-10-01T15:38:15.7262507+00:00",
+    "appVersion": "5.5.10000.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://blog.horsaway.it/app-expenditures/",
+    "sourceHash": "sha256:4a06fe8e038147a7e270d43ab959fc391b2b83e0d879d465e5e190efafefbf30"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4a06fe8e038147a7e270d43ab959fc391b2b83e0d879d465e5e190efafefbf30",
+    "mappedOn": null,
+    "summary": "Budget control across purchasing processes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-budget-control",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-budget-build",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-procurement-spend"
+    ],
+    "claims": [
+      "Hierarchical spending chapters (analytical, header, total)",
+      "Monthly budget allocations and negative allocations for mid-year adjustments",
+      "Real-time budget validation on POs, invoices and G/L entries",
+      "Budget control by global dimensions, project tasks and departments",
+      "Batch upload of budgets via Expenditures Journal"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "appId": "TYPE.connect|PUBID.synapiotsro1780947559528|AID.sepolo|PAPPID.9ef8a9eb-9623-4604-b5c1-ec2bba5be6b3",
+  "guid": "9ef8a9eb-9623-4604-b5c1-ec2bba5be6b3",
+  "publisherId": "synapiotsro1780947559528",
+  "offerId": "sepolo",
+  "source": {
+    "name": "Sepolo Field Service Management for Microsoft Dynamics 365 Business Central",
+    "publisher": "Sepolo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.synapiotsro1780947559528%7CAID.sepolo%7CPAPPID.9ef8a9eb-9623-4604-b5c1-ec2bba5be6b3",
+    "lastModified": "2026-06-16T09:56:12.2133969+00:00",
+    "appVersion": "2.5.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.sepolo.app/help",
+    "sourceHash": "sha256:32b7f6ae5cfe417782c017b4af7519f8f201a011bfd627d67a4ad1d4c4feb23d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:32b7f6ae5cfe417782c017b4af7519f8f201a011bfd627d67a4ad1d4c4feb23d",
+    "mappedOn": null,
+    "summary": "Field service planning, execution and invoicing with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-svc-dispatch",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-assets",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-close-invoice",
+      "ng-svc-parts",
+      "ng-svc-analytics",
+      "ng-maintenance-planned"
+    ],
+    "claims": [
+      "Plans and schedules service visits and dispatches technicians",
+      "Mobile service reports with time, parts, images, signatures and custom fields",
+      "Service history per customer, asset and asset model",
+      "Preventive maintenance based on asset rules and usage",
+      "Covers demand forecasting, purchasing support, stock insight and spare part mapping",
+      "Cost, margin, service performance and asset reliability analytics",
+      "Prepares invoice drafts for review and posting in BC",
+      "Uses BC customers, vendors, items, units, prices directly",
+      "Finance reviews billable work before handover to BC",
+      "Public API for Power Automate, BI tools and customer portals"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Field service"
+    ],
+    "connectsTo": [
+      "Sepolo",
+      "Power Automate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

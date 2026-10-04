@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.back-order-management-app|PAPPID.3d849d12-54e7-450e-8278-98eeee8cafeb",
+  "guid": "3d849d12-54e7-450e-8278-98eeee8cafeb",
+  "publisherId": "fenwicksoftware",
+  "offerId": "back-order-management-app",
+  "source": {
+    "name": "Back Order Management",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.back-order-management-app%7CPAPPID.3d849d12-54e7-450e-8278-98eeee8cafeb",
+    "lastModified": "2026-09-13T23:42:46.2539034+00:00",
+    "appVersion": "26.0.260910.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/back-order-management/docs",
+    "sourceHash": "sha256:a13209b2c90bd0d87a256261ccf956304e45e8ee856eeae6b49f56c768fc4a86"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a13209b2c90bd0d87a256261ccf956304e45e8ee856eeae6b49f56c768fc4a86",
+    "mappedOn": null,
+    "summary": "Tracks back order and pick statuses on sales lines",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-order-allocation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Back order status set automatically on sales lines from stock-out warnings",
+      "Aggregate view of all sales lines on back order",
+      "Pick/fulfilment status synced between orders and inventory picks",
+      "Partial picks with shipping advice complete to reserve stock",
+      "Creates/updates inventory picks automatically as stock is received"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.insight-works|AID.12968b6e-b233-40e8-8ebc-160ee407d489|PAPPID.12968b6e-b233-40e8-8ebc-160ee407d489",
+  "guid": "12968b6e-b233-40e8-8ebc-160ee407d489",
+  "publisherId": "insight-works",
+  "offerId": "12968b6e-b233-40e8-8ebc-160ee407d489",
+  "source": {
+    "name": "Shop Floor Insight",
+    "publisher": "Insight Works",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.12968b6e-b233-40e8-8ebc-160ee407d489%7CPAPPID.12968b6e-b233-40e8-8ebc-160ee407d489",
+    "lastModified": "2026-07-17T01:33:27.4552181+00:00",
+    "appVersion": "7.15.9692.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://app.dmsiworks.com/shop-floor-insight/product-help/",
+    "sourceHash": "sha256:a72494de89f32c9b3051914624e4fa5821ca231a556fdcb47d2f664f3a6a162a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a72494de89f32c9b3051914624e4fa5821ca231a556fdcb47d2f664f3a6a162a",
+    "mappedOn": null,
+    "summary": "Shop floor MES with barcoded time capture",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-scrap-rework",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "MES add-on with barcode scanners or touch screens for shop data",
+      "Barcode time capture on jobs, fixed assets, service orders and production orders",
+      "Captures consumption, output, scrap and quality on the floor",
+      "Records non-productive and rework time",
+      "Time and attendance by employee shift with exception reporting",
+      "Exception-based supervisor time approval",
+      "Calculates overtime and shift differentials for payroll",
+      "Shared or individual shop terminals",
+      "Data available in Power BI"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nl",
+      "no",
+      "sv"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

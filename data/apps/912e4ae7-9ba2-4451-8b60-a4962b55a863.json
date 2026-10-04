@@ -1,0 +1,59 @@
+{
+  "appId": "TYPE.connect|PUBID.daxsoftwaresolutionsinc1587747981381|AID.woocommerce-connector|PAPPID.912e4ae7-9ba2-4451-8b60-a4962b55a863",
+  "guid": "912e4ae7-9ba2-4451-8b60-a4962b55a863",
+  "publisherId": "daxsoftwaresolutionsinc1587747981381",
+  "offerId": "woocommerce-connector",
+  "source": {
+    "name": "Woo-commerce Connector by Aonflow",
+    "publisher": "DAX Software Solutions, Inc",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.daxsoftwaresolutionsinc1587747981381%7CAID.woocommerce-connector%7CPAPPID.912e4ae7-9ba2-4451-8b60-a4962b55a863",
+    "lastModified": "2025-08-12T06:27:06.7740809+00:00",
+    "appVersion": "0.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aonflow.com/documentation/",
+    "sourceHash": "sha256:e08d20872554e4494806b031de65dccb45eba2d7f63a8d7108ff470763f81097"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e08d20872554e4494806b031de65dccb45eba2d7f63a8d7108ff470763f81097",
+    "mappedOn": null,
+    "summary": "Integrates WooCommerce with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Syncs WooCommerce sales orders to BC automatically",
+      "Pushes inventory and product updates from BC to WooCommerce",
+      "Real-time customer and order data sync",
+      "No-code visual workflow builder",
+      "Custom data mapping"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "WooCommerce",
+      "Aonflow"
+    ],
+    "requires": [
+      "Aonflow"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

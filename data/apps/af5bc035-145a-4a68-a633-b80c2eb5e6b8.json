@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.developmentforbusinesssolutionsslu1728297442086|AID.0018|PAPPID.af5bc035-145a-4a68-a633-b80c2eb5e6b8",
+  "guid": "af5bc035-145a-4a68-a633-b80c2eb5e6b8",
+  "publisherId": "developmentforbusinesssolutionsslu1728297442086",
+  "offerId": "0018",
+  "source": {
+    "name": "Costes de subcontatacion",
+    "publisher": "d4b",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.developmentforbusinesssolutionsslu1728297442086%7CAID.0018%7CPAPPID.af5bc035-145a-4a68-a633-b80c2eb5e6b8",
+    "lastModified": "2025-12-26T12:55:21.7432487+00:00",
+    "appVersion": "1.0.0.8",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://d4bsolutions.com/ficha-de-producto/Costes-subcontratacion/",
+    "sourceHash": "sha256:f39ebc3c866b13963f58012071200ce37c57d86cbdfecc02398cf055972b8c0f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f39ebc3c866b13963f58012071200ce37c57d86cbdfecc02398cf055972b8c0f",
+    "mappedOn": null,
+    "summary": "Uses purchase prices for subcontracting costs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subcontracting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-production-costing"
+    ],
+    "claims": [
+      "Uses purchase prices instead of routing costs for subcontracting cost",
+      "Applies purchase line discount percentage",
+      "Fills Description 2 with item name on subcontracting purchase order",
+      "Activated per company",
+      "Zero cost assigned when no price exists, alerting incomplete setup"
+    ],
+    "countries": [],
+    "languages": [
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.inventio-it|AID.smartshipment|PAPPID.018b58c6-0b44-465c-b3e0-d06ac7ee8d8f",
+  "guid": "018b58c6-0b44-465c-b3e0-d06ac7ee8d8f",
+  "publisherId": "inventio-it",
+  "offerId": "smartshipment",
+  "source": {
+    "name": "SMARTshipment",
+    "publisher": "Inventio.IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.inventio-it%7CAID.smartshipment%7CPAPPID.018b58c6-0b44-465c-b3e0-d06ac7ee8d8f",
+    "lastModified": "2026-07-22T20:51:22.8678664+00:00",
+    "appVersion": "1.1.20260616.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.inventio.it/en-us/smartshipment/documentation",
+    "sourceHash": "sha256:ff4f81d293938f250e4ee549e9572086d2059c595f614816b5df4bac7afc6e1b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ff4f81d293938f250e4ee549e9572086d2059c595f614816b5df4bac7afc6e1b",
+    "mappedOn": null,
+    "summary": "Creates and manages shipping labels via Shipmondo",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates and manages shipping and return labels in BC",
+      "View shipping labels within BC",
+      "Integration with Shipmondo"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Shipmondo"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

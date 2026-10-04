@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.simteq1604560163290|AID.2clickaccounting|PAPPID.664c7b32-b002-455f-8780-6fbc5e4f0a5d",
+  "guid": "664c7b32-b002-455f-8780-6fbc5e4f0a5d",
+  "publisherId": "simteq1604560163290",
+  "offerId": "2clickaccounting",
+  "source": {
+    "name": "2CLICK Accounting",
+    "publisher": "SIMTEQ A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simteq1604560163290%7CAID.2clickaccounting%7CPAPPID.664c7b32-b002-455f-8780-6fbc5e4f0a5d",
+    "lastModified": "2025-09-30T14:38:00.403407+00:00",
+    "appVersion": "26.0.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://2ca.com/get-in-touch",
+    "sourceHash": "sha256:0964737211a3651a9b440dcb3ce8efda25a39d10eec2af0fd6f7731b4060430f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0964737211a3651a9b440dcb3ce8efda25a39d10eec2af0fd6f7731b4060430f",
+    "mappedOn": null,
+    "summary": "OCR of purchase invoices, expenses, posting and payments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-bank-reconciliation",
+      "ng-loc-einvoicing"
+    ],
+    "claims": [
+      "OCR extraction of supplier invoice data",
+      "Users can train the OCR to improve accuracy",
+      "Custom approval workflows with segregation of duties",
+      "Receipt capture and expense approval for reimbursement",
+      "Corporate card users can create expenses",
+      "Send and receive OIOUBL and Peppol e-invoices",
+      "Automated bank payments",
+      "Automatic bank statement import and matching",
+      "Supports Basic Financials, Essentials and Premium"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IE",
+      "NL",
+      "NO"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PEPPOL"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

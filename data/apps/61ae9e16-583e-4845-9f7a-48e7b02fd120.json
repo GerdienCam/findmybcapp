@@ -1,0 +1,105 @@
+{
+  "appId": "PUBID.kuragosoftwaresl1579614086490|AID.bysoft-business-sales|PAPPID.61ae9e16-583e-4845-9f7a-48e7b02fd120",
+  "guid": "61ae9e16-583e-4845-9f7a-48e7b02fd120",
+  "publisherId": "kuragosoftwaresl1579614086490",
+  "offerId": "bysoft-business-sales",
+  "source": {
+    "name": "BySoft Business Sales",
+    "publisher": "Kurago software, S.L.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kuragosoftwaresl1579614086490%7CAID.bysoft-business-sales%7CPAPPID.61ae9e16-583e-4845-9f7a-48e7b02fd120",
+    "lastModified": "2026-09-15T04:14:27.8706767+00:00",
+    "appVersion": "4.16.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bysoft.kurago.software/contact",
+    "sourceHash": "sha256:53775e8cf81b3cedcdf0c1de325fcf72519b221dfbc7a1526f5c42b30e213d16"
+  },
+  "mapping": {
+    "sourceHash": "sha256:53775e8cf81b3cedcdf0c1de325fcf72519b221dfbc7a1526f5c42b30e213d16",
+    "mappedOn": null,
+    "summary": "Quoting and sales from CAD to price for sheet metal companies",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-metal-timber-materials",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-cad-plm",
+      "ng-sales-analytics"
+    ],
+    "claims": [
+      "Quotes from CAD design and manufacturing cost calculation to sales price",
+      "Built-in CAD viewer imports CAD files and creates BOMs without external plugin",
+      "CAD engine defines manufacturing process per item",
+      "Material cost calculation using nesting tool with scenario simulation",
+      "Estimates cutting, bending and other operation times",
+      "CRM analysis of salespeople, contacts, opportunities, campaigns and segments",
+      "Requires BC Premium"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IE",
+      "IN",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "SE",
+      "SI",
+      "TR",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ko"
+    ],
+    "industries": [
+      "Sheet metal"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

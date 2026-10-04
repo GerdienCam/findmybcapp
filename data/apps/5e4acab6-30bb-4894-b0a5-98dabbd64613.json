@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.signup-software-ab|AID.dynamicweb_integration|PAPPID.5e4acab6-30bb-4894-b0a5-98dabbd64613",
+  "guid": "5e4acab6-30bb-4894-b0a5-98dabbd64613",
+  "publisherId": "signup-software-ab",
+  "offerId": "dynamicweb_integration",
+  "source": {
+    "name": "DynamicWeb PIM Connector",
+    "publisher": "SignUp Software AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.signup-software-ab%7CAID.dynamicweb_integration%7CPAPPID.5e4acab6-30bb-4894-b0a5-98dabbd64613",
+    "lastModified": "2026-08-27T23:02:38.0111355+00:00",
+    "appVersion": "1.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.signupsoftware.com/business-central/",
+    "sourceHash": "sha256:afe2145d8811897b5090b2d805e7da37f8365c73ad10acdbb586ce3cba41c766"
+  },
+  "mapping": {
+    "sourceHash": "sha256:afe2145d8811897b5090b2d805e7da37f8365c73ad10acdbb586ce3cba41c766",
+    "mappedOn": null,
+    "summary": "Syncs product information with DynamicWeb PIM",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-assortment-catalogs",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Bidirectional sync with DynamicWeb PIM of product data, attributes, variants, languages, documents and images",
+      "Users manage field mappings themselves without developers",
+      "Installed and configured from AppSource inside BC",
+      "PIM view on the BC item card with enriched details, related items and digital assets",
+      "Brings enriched product data back into BC for AI scenarios like Sales Order Agent",
+      "Distributes product data to eCommerce, marketplaces, portals and catalogs",
+      "The PIM also stores digital assets such as images, certificates and compliance papers",
+      "Import/export from multiple sources including Excel",
+      "Available in all countries"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DynamicWeb PIM"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

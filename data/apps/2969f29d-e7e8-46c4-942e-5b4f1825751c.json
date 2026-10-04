@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.tecman|AID.clever-rebates|PAPPID.2969f29d-e7e8-46c4-942e-5b4f1825751c",
+  "guid": "2969f29d-e7e8-46c4-942e-5b4f1825751c",
+  "publisherId": "tecman",
+  "offerId": "clever-rebates",
+  "source": {
+    "name": "Clever Rebates",
+    "publisher": "Clever Dynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecman%7CAID.clever-rebates%7CPAPPID.2969f29d-e7e8-46c4-942e-5b4f1825751c",
+    "lastModified": "2026-09-28T10:48:05.91014+00:00",
+    "appVersion": "2.3.0.162245",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cleverdynamics.com/other-clever-apps/clever-rebates/user-guide-rebates/about-rebates",
+    "sourceHash": "sha256:4ba5082ee529c129eaf44d03ca89a3be5ee07e7f3c1737de5e01a4de66e81edd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4ba5082ee529c129eaf44d03ca89a3be5ee07e7f3c1737de5e01a4de66e81edd",
+    "mappedOn": null,
+    "summary": "Calculates customer and supplier rebates",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-rebates",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Batch processing of rebate credit memos",
+      "Credits rebates only after qualifying invoices are paid",
+      "Tracks vendor rebates owed",
+      "Buying group rebate entries and credit memos",
+      "Different rates per customer, item and vendor",
+      "Tiered rebate rules",
+      "Rebate accruals"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.erpgruppen|AID.truckplanner|PAPPID.981b9b69-408c-4d6b-bda3-77ae700923bf",
+  "guid": "981b9b69-408c-4d6b-bda3-77ae700923bf",
+  "publisherId": "erpgruppen",
+  "offerId": "truckplanner",
+  "source": {
+    "name": "Truckplanner Integration",
+    "publisher": "ERPgruppen",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpgruppen%7CAID.truckplanner%7CPAPPID.981b9b69-408c-4d6b-bda3-77ae700923bf",
+    "lastModified": "2026-08-27T23:06:09.9204805+00:00",
+    "appVersion": "2800.0.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://truckplanner.com/en/support-2/",
+    "sourceHash": "sha256:fb42e3c10472987d6f207403dcf8df2313fb76c313988613cd8a0d9484fa4d83"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fb42e3c10472987d6f207403dcf8df2313fb76c313988613cd8a0d9484fa4d83",
+    "mappedOn": null,
+    "summary": "Integrates Truckplanner fleet management with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-esg"
+    ],
+    "claims": [
+      "Connects Truckplanner fleet management/TMS with BC",
+      "Create, dispatch and execute transport orders",
+      "Driver app with orders, status updates, e-signature and photos of deviations",
+      "Live GPS tracking and CO2 calculation for climate accounting",
+      "Meets EU daily time-registration requirements",
+      "Web booking with track & trace and POD",
+      "Easy invoicing of orders",
+      "30-day free trial; one-time fee DKK 12,500 to start integration"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Truckplanner"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

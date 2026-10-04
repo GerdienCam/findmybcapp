@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.volodver|AID.notifier|PAPPID.fa64b16a-11ba-432d-ba97-de7e6cfd053d",
+  "guid": "fa64b16a-11ba-432d-ba97-de7e6cfd053d",
+  "publisherId": "volodver",
+  "offerId": "notifier",
+  "source": {
+    "name": "Notifier",
+    "publisher": "Volodver LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.volodver%7CAID.notifier%7CPAPPID.fa64b16a-11ba-432d-ba97-de7e6cfd053d",
+    "lastModified": "2026-09-08T05:45:57.3997095+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://volodver.com/apps/notifier",
+    "sourceHash": "sha256:c2deca9a5ba1b516960e92aad5e6aea1fb11b82d88b66617242f464483210549"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c2deca9a5ba1b516960e92aad5e6aea1fb11b82d88b66617242f464483210549",
+    "mappedOn": null,
+    "summary": "Rule-based notifications on business events",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-alerts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-automation"
+    ],
+    "claims": [
+      "Triggers on table insert, modify, delete, rename plus sales/purchase posting and release",
+      "Filters target records using standard BC filters",
+      "Message builder with field pickers incl. related records and live preview",
+      "Delivers via in-app message, email, record notes, Teams or webhooks (Slack, Power Automate)",
+      "Delivery runs in the background without slowing posting",
+      "Delivery log with failure reasons and one-click retry",
+      "Ready-made rule templates and setup wizard",
+      "License only needed for users who create rules; others receive free"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Teams",
+      "Slack",
+      "Power Automate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

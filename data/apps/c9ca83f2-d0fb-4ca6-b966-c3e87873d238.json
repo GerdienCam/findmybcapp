@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.codeunit|AID.connect2nedapretail|PAPPID.c9ca83f2-d0fb-4ca6-b966-c3e87873d238",
+  "guid": "c9ca83f2-d0fb-4ca6-b966-c3e87873d238",
+  "publisherId": "codeunit",
+  "offerId": "connect2nedapretail",
+  "source": {
+    "name": "connect2NedapRetail",
+    "publisher": "Codeunit",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2nedapretail%7CPAPPID.c9ca83f2-d0fb-4ca6-b966-c3e87873d238",
+    "lastModified": "2025-06-12T09:53:33.1233143+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.codeunit.io/get-in-touch",
+    "sourceHash": "sha256:06e9f293b95def834a0d9e3acd47b7e4d463aaa426c2838a8fdb53371eb0817c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:06e9f293b95def834a0d9e3acd47b7e4d463aaa426c2838a8fdb53371eb0817c",
+    "mappedOn": null,
+    "summary": "Integrates Nedap RFID retail inventory platform",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Includes fully managed and monitored data flows",
+      "Fully functional free trial before buying",
+      "Setup through BC Assisted Setup with Plug-n-Sell verification",
+      "Also supports Microsoft Dynamics NAV",
+      "Requires Nedap Retail",
+      "Built on Codeunit OmniConnect integration platform"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Nedap Retail"
+    ],
+    "requires": [
+      "Nedap Retail"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "RFID retail inventory platform connector; listing gives no functional detail"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

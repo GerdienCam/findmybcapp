@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.gld-pack-it-connector-app|PAPPID.447a638b-9c77-405c-bc64-86e1b60417c3",
+  "guid": "447a638b-9c77-405c-bc64-86e1b60417c3",
+  "publisherId": "fenwicksoftware",
+  "offerId": "gld-pack-it-connector-app",
+  "source": {
+    "name": "Good Looking Documents for Pack-It",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.gld-pack-it-connector-app%7CPAPPID.447a638b-9c77-405c-bc64-86e1b60417c3",
+    "lastModified": "2026-03-16T10:21:24.5694576+00:00",
+    "appVersion": "26.4.260305.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/good-looking-documents/docs",
+    "sourceHash": "sha256:a077228753375cc7f610b70c984c3fd0361bc26224ae074862d17fe8a5c06924"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a077228753375cc7f610b70c984c3fd0361bc26224ae074862d17fe8a5c06924",
+    "mappedOn": null,
+    "summary": "Shows Pack-It warehouse instructions in Good Looking Documents",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Warehouse Instructions FactBox on Consignment and Warehouse Shipment pages",
+      "Shows special instructions on warehouse and shipment pages"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Fenwick Good Looking Documents",
+      "Fenwick Pack-It"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Connector app between two Fenwick apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

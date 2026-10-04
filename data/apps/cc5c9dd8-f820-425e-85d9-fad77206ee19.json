@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.abakion|AID.timelog_psa|PAPPID.cc5c9dd8-f820-425e-85d9-fad77206ee19",
+  "guid": "cc5c9dd8-f820-425e-85d9-fad77206ee19",
+  "publisherId": "abakion",
+  "offerId": "timelog_psa",
+  "source": {
+    "name": "TimeLog PSA",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.timelog_psa%7CPAPPID.cc5c9dd8-f820-425e-85d9-fad77206ee19",
+    "lastModified": "2026-05-04T08:43:04.8700692+00:00",
+    "appVersion": "28.0.202617.163359",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/timelog-psa/#userguide",
+    "sourceHash": "sha256:d67fdd166d79baa8422f93e7b5c99ba6fb904cfd71a0b26d5a9a94a65b600a05"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d67fdd166d79baa8422f93e7b5c99ba6fb904cfd71a0b26d5a9a94a65b600a05",
+    "mappedOn": null,
+    "summary": "Integrates TimeLog PSA for project time and invoicing",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-proj-billing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-professional-services",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-time",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Integrates BC with TimeLog PSA",
+      "Synchronizes relevant data between the two systems",
+      "Invoice automation",
+      "Supports Swedish organization number",
+      "Time tracking via mobile app, desktop or web (in TimeLog)"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "nl",
+      "no",
+      "sv"
+    ],
+    "industries": [
+      "Professional Services"
+    ],
+    "connectsTo": [
+      "TimeLog PSA"
+    ],
+    "requires": [
+      "TimeLog PSA"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

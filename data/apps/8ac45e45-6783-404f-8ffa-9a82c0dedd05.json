@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.applibra|AID.al_tracking|PAPPID.8ac45e45-6783-404f-8ffa-9a82c0dedd05",
+  "guid": "8ac45e45-6783-404f-8ffa-9a82c0dedd05",
+  "publisherId": "applibra",
+  "offerId": "al_tracking",
+  "source": {
+    "name": "AL Tracking",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_tracking%7CPAPPID.8ac45e45-6783-404f-8ffa-9a82c0dedd05",
+    "lastModified": "2026-09-25T17:31:30.8577909+00:00",
+    "appVersion": "28.0.26.9251527",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://applibra.com/apps/al-tracking/help",
+    "sourceHash": "sha256:ced00ca78055b62233329dfc8ca954a8452922ff9c70862d6ca6476ead9fcd7c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ced00ca78055b62233329dfc8ca954a8452922ff9c70862d6ca6476ead9fcd7c",
+    "mappedOn": null,
+    "summary": "Tracks supplier lot, package and pallet SSCC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Adds Package, Pallet (SSCC) and External Lot tracking to Lot/Serial",
+      "Tracking on documents, journals, warehouse and production lines",
+      "Assignment engine with expiry and maximum quantity",
+      "Pallet and external lot master data created automatically from journals",
+      "Calculate inventory with the new tracking dimensions",
+      "Tracking activated per area in Tracking Setup",
+      "Requires BC online 28.0 or higher"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Distribution",
+      "Food & Beverage",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

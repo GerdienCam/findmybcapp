@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.applibra|AID.al_commissions|PAPPID.07ba6004-1d5f-477b-8606-c54cf624fa89",
+  "guid": "07ba6004-1d5f-477b-8606-c54cf624fa89",
+  "publisherId": "applibra",
+  "offerId": "al_commissions",
+  "source": {
+    "name": "AL Commissions",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_commissions%7CPAPPID.07ba6004-1d5f-477b-8606-c54cf624fa89",
+    "lastModified": "2026-09-22T09:02:04.6924099+00:00",
+    "appVersion": "28.0.26.09211017",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://applibra.com/apps/al-commissions/help",
+    "sourceHash": "sha256:7ca569dca590f4423c62035c3534b3e6d67491965db9917ca7298abd8d48b9e7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7ca569dca590f4423c62035c3534b3e6d67491965db9917ca7298abd8d48b9e7",
+    "mappedOn": null,
+    "summary": "Calculates, accrues and settles sales agent commissions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-commissions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Commission rules per agent, type and validity period",
+      "Multi-level agent hierarchies with start and end dates",
+      "Commission on invoiced or collected amounts",
+      "Commission percentage follows discount granted (discount scales)",
+      "Agent list overridable on document header or line",
+      "Scheduled background jobs handle accruals and settlements",
+      "Two-stage ledger of accrued and settled entries",
+      "Entries traceable to shipments, returns and agent settlement invoice",
+      "Locking of settled batches"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.redpointag1741733434330|AID.redpoint_foundation_v2|PAPPID.7c180883-ff6f-4972-87d7-1fabf4487064",
+  "guid": "7c180883-ff6f-4972-87d7-1fabf4487064",
+  "publisherId": "redpointag1741733434330",
+  "offerId": "redpoint_foundation_v2",
+  "source": {
+    "name": "redPoint Foundation",
+    "publisher": "redPoint",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.redpointag1741733434330%7CAID.redpoint_foundation_v2%7CPAPPID.7c180883-ff6f-4972-87d7-1fabf4487064",
+    "lastModified": "2026-03-05T07:12:22.5341673+00:00",
+    "appVersion": "1.0.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.redpoint.swiss/",
+    "sourceHash": "sha256:6627d85f36fc21cef41d3b366ac663b0e9a0cd0666cfdad2dde540459d072289"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6627d85f36fc21cef41d3b366ac663b0e9a0cd0666cfdad2dde540459d072289",
+    "mappedOn": null,
+    "summary": "Base library required by redPoint apps",
+    "shape": "other",
+    "primary": [
+      {
+        "need": "ng-admin-extensions-env",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Base functionality required by all redPoint extension modules",
+      "Contains no standalone executable functionality",
+      "redPoint apps include Swiss optimizations such as electronic payments and VAT"
+    ],
+    "countries": [
+      "CH"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Dependency/foundation app with no standalone functionality",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

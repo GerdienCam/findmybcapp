@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-recordsearchcatalogbridge|PAPPID.05821c12-54e5-4ee5-861b-62ecbbc2e560",
+  "guid": "05821c12-54e5-4ee5-861b-62ecbbc2e560",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-recordsearchcatalogbridge",
+  "source": {
+    "name": "BeyondRecordSearchCatalogBridge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-recordsearchcatalogbridge%7CPAPPID.05821c12-54e5-4ee5-861b-62ecbbc2e560",
+    "lastModified": "2025-10-17T12:01:07.7691085+00:00",
+    "appVersion": "20.0.129.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/recordsearchcatalogbridge/index.html",
+    "sourceHash": "sha256:f1d0eac58ac726d66b2e4b2918aa7216c0a33aba5172a0f06809f7f1ffb0f9bb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f1d0eac58ac726d66b2e4b2918aa7216c0a33aba5172a0f06809f7f1ffb0f9bb",
+    "mappedOn": null,
+    "summary": "Searches Beyond Catalog items from Beyond RecordSearch",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-search-navigation",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Beyond Catalog items shown in RecordSearch results"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Beyond RecordSearch",
+      "Beyond Catalog"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two BEYOND products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

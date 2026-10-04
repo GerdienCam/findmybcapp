@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.equerralimited|AID.equerra-elevate-attachments|PAPPID.55614f73-2366-4e25-b72a-3db663e427eb",
+  "guid": "55614f73-2366-4e25-b72a-3db663e427eb",
+  "publisherId": "equerralimited",
+  "offerId": "equerra-elevate-attachments",
+  "source": {
+    "name": "Elevate Attachments",
+    "publisher": "Equerra Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.equerralimited%7CAID.equerra-elevate-attachments%7CPAPPID.55614f73-2366-4e25-b72a-3db663e427eb",
+    "lastModified": "2026-08-04T04:34:45.7175937+00:00",
+    "appVersion": "28.1.50.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.equerra.com/docs/elevateattachments",
+    "sourceHash": "sha256:9de647cee3a7aa855bc47a81408281f6776e3847aca4004ef3bcd1b8d7f30e9e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9de647cee3a7aa855bc47a81408281f6776e3847aca4004ef3bcd1b8d7f30e9e",
+    "mappedOn": null,
+    "summary": "Attaches extra reports and files to outgoing emails",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Multiple extra attachments on outgoing BC emails",
+      "Attachment groups linked to customers, vendors or report selections",
+      "Extra report layouts attached in Excel, Word or PDF",
+      "Static files like price lists attached to every email",
+      "Generates data files from any table as HTML, CSV, XML, JSON or PDF",
+      "Runtime filters and tokens like {No.} and {Date}",
+      "Works on sales, purchase and warehouse documents",
+      "Ad hoc email with attachments from customer and vendor lists",
+      "Becomes active only once the Attachment Group Code has been set",
+      "Uses standard BC Document Attachment storage",
+      "Telemetry to Azure Application Insights",
+      "Requires BC online 28.1 or later"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

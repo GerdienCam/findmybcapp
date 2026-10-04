@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.insight-works|AID.f558b611-3753-4d0b-98ca-6b658a4ed24a|PAPPID.f558b611-3753-4d0b-98ca-6b658a4ed24a",
+  "guid": "f558b611-3753-4d0b-98ca-6b658a4ed24a",
+  "publisherId": "insight-works",
+  "offerId": "f558b611-3753-4d0b-98ca-6b658a4ed24a",
+  "source": {
+    "name": "Product Configurator",
+    "publisher": "Insight Works",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.f558b611-3753-4d0b-98ca-6b658a4ed24a%7CPAPPID.f558b611-3753-4d0b-98ca-6b658a4ed24a",
+    "lastModified": "2026-07-22T20:29:25.0713099+00:00",
+    "appVersion": "4.1.9649.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://app.dmsiworks.com/product-configurator/product-help/",
+    "sourceHash": "sha256:70260daf955d3fc394b8dafa0860c529d1cfeefd3fa4d7a9fc089eb7448dce45"
+  },
+  "mapping": {
+    "sourceHash": "sha256:70260daf955d3fc394b8dafa0860c529d1cfeefd3fa4d7a9fc089eb7448dce45",
+    "mappedOn": null,
+    "summary": "Configures BOMs and routings for quotes and orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-production-costing"
+    ],
+    "claims": [
+      "Generates assembly or production BOMs and routings on sales orders and quotes",
+      "Integrates with standard MPS and MRP",
+      "Calculates cost and weight of configured items",
+      "Assigns new item number or inherits base item number",
+      "BOM multipliers including waste and trim",
+      "Advanced rule builder to prevent invalid configurations",
+      "Bulk Configuration Builder",
+      "Calculates standard cost of configured item",
+      "Supports thousands of configurable options"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

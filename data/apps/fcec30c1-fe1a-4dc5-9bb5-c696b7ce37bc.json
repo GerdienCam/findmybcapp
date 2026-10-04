@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.codeunit|AID.connect2amazon|PAPPID.fcec30c1-fe1a-4dc5-9bb5-c696b7ce37bc",
+  "guid": "fcec30c1-fe1a-4dc5-9bb5-c696b7ce37bc",
+  "publisherId": "codeunit",
+  "offerId": "connect2amazon",
+  "source": {
+    "name": "connect2Amazon",
+    "publisher": "Codeunit",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2amazon%7CPAPPID.fcec30c1-fe1a-4dc5-9bb5-c696b7ce37bc",
+    "lastModified": "2025-06-12T10:33:43.1974835+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.codeunit.io/get-in-touch",
+    "sourceHash": "sha256:229884526dc638908966d18e712fa8d1043e7a4673c03abc799871eb5b967027"
+  },
+  "mapping": {
+    "sourceHash": "sha256:229884526dc638908966d18e712fa8d1043e7a4673c03abc799871eb5b967027",
+    "mappedOn": null,
+    "summary": "Integrates Amazon Vendor and Seller Central with orders",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Supports Amazon Vendor Central and Seller Central",
+      "Includes fully managed and monitored data flows",
+      "Fully functional free trial before buying",
+      "Setup through BC Assisted Setup with Plug-n-Sell verification",
+      "Also supports Microsoft Dynamics NAV",
+      "Requires Amazon",
+      "Built on Codeunit OmniConnect integration platform"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Amazon"
+    ],
+    "requires": [
+      "Amazon"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

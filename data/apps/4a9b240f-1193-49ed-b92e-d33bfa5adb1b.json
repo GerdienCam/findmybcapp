@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.subledgerconsistency|PAPPID.4a9b240f-1193-49ed-b92e-d33bfa5adb1b",
+  "guid": "4a9b240f-1193-49ed-b92e-d33bfa5adb1b",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "subledgerconsistency",
+  "source": {
+    "name": "Sub Ledger Consistency",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.subledgerconsistency%7CPAPPID.4a9b240f-1193-49ed-b92e-d33bfa5adb1b",
+    "lastModified": "2026-09-08T18:26:51.6479331+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/sub-ledger-consistency",
+    "sourceHash": "sha256:468440633ddd62510496f208746d95b16a6c40a1a91b97cb05d7b32db5be944b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:468440633ddd62510496f208746d95b16a6c40a1a91b97cb05d7b32db5be944b",
+    "mappedOn": null,
+    "summary": "Detects differences between subledgers and G/L accounts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance",
+      "ng-period-close"
+    ],
+    "claims": [
+      "Audits customer, vendor, bank, inventory and fixed asset subledgers against G/L",
+      "Shows G/L total, subledger total and inconsistency status per area",
+      "Configurable LCY tolerance",
+      "Manual or daily job queue audits",
+      "Audit log of every run",
+      "Email notifications on inconsistencies",
+      "Extensible audit types via integration events",
+      "Posting protection prevents posting-group changes while balances exist",
+      "Protects direct posting changes on control G/L accounts"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

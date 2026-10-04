@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.vistascloudllc1646347477273|AID.19_bulkpurchaseordertoolforhighvolumeimport|PAPPID.00711907-6f23-4fb7-a468-058ee3b0be14",
+  "guid": "00711907-6f23-4fb7-a468-058ee3b0be14",
+  "publisherId": "vistascloudllc1646347477273",
+  "offerId": "19_bulkpurchaseordertoolforhighvolumeimport",
+  "source": {
+    "name": "Bulk Purchase Order Tool for High-Volume Import",
+    "publisher": "Vistas Cloud LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.vistascloudllc1646347477273%7CAID.19_bulkpurchaseordertoolforhighvolumeimport%7CPAPPID.00711907-6f23-4fb7-a468-058ee3b0be14",
+    "lastModified": "2025-04-08T17:08:48.8660523+00:00",
+    "appVersion": "24.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://vistascloud.com/contact-us/",
+    "sourceHash": "sha256:35ee6f32475cce6768d22a339a9970dee8afda5070a745d96fb1ad99ebd7f4e2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:35ee6f32475cce6768d22a339a9970dee8afda5070a745d96fb1ad99ebd7f4e2",
+    "mappedOn": null,
+    "summary": "Bulk creates purchase orders from Excel",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates multiple purchase orders by importing an Excel file",
+      "Excel template uses Sheet1 for headers and Sheet2 for lines",
+      "Handles high volumes in a single batch operation",
+      "Line fields include item, quantity and cost/price",
+      "Supports Business Central Essentials and Premium",
+      "Offered in every country where Business Central is available"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

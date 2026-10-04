@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.naviworldasia-1951359|AID.nwthlocw1|PAPPID.8f7449b1-cb76-4599-89d6-f48a4a0338bc",
+  "guid": "8f7449b1-cb76-4599-89d6-f48a4a0338bc",
+  "publisherId": "naviworldasia-1951359",
+  "offerId": "nwthlocw1",
+  "source": {
+    "name": "VAT & WHT Localization for Thailand",
+    "publisher": "NaviWorld (Thailand) Co. Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.naviworldasia-1951359%7CAID.nwthlocw1%7CPAPPID.8f7449b1-cb76-4599-89d6-f48a4a0338bc",
+    "lastModified": "2026-09-23T06:00:52.9315556+00:00",
+    "appVersion": "28.0.2609.9",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://app01.naviworldth.com/document/UMD-V4-ThaiLocalization-20210520.pdf",
+    "sourceHash": "sha256:0ab815e1267f0c39ed00a9f0e254cb0dc2ed427dde9c164fe97bbf1c2ff3e2d2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0ab815e1267f0c39ed00a9f0e254cb0dc2ed427dde9c164fe97bbf1c2ff3e2d2",
+    "mappedOn": null,
+    "summary": "Thai VAT and withholding tax localization",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-currency"
+    ],
+    "claims": [
+      "Withholding tax for receivables and payables",
+      "WHT settlement functionality",
+      "Petty cash manager for petty cash and purchase expenses",
+      "Calculates and approves taxes and settles them in a single form",
+      "WHT Certificate 50 BIS and Por Ngor Dor 3 / 53 reports",
+      "Sales and purchase VAT reports",
+      "Tax invoice/receipt report",
+      "Stock movement and financial analysis reports",
+      "Second description field",
+      "VAT validation",
+      "Exchange rate service with Bank of Thailand",
+      "Automated initial setup"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

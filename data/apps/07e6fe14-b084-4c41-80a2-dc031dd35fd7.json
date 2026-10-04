@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.continia365|AID.continia-banking-migration-opplus|PAPPID.07e6fe14-b084-4c41-80a2-dc031dd35fd7",
+  "guid": "07e6fe14-b084-4c41-80a2-dc031dd35fd7",
+  "publisherId": "continia365",
+  "offerId": "continia-banking-migration-opplus",
+  "source": {
+    "name": "Continia Banking - Migration OPplus",
+    "publisher": "Continia Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.continia-banking-migration-opplus%7CPAPPID.07e6fe14-b084-4c41-80a2-dc031dd35fd7",
+    "lastModified": "2026-09-18T10:19:51.638433+00:00",
+    "appVersion": "28.6.0.382447",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.continia.com/en-us/continia-banking",
+    "sourceHash": "sha256:da303748c2b394a671a63669f3cb742de7b34db086841f872291fb320556a597"
+  },
+  "mapping": {
+    "sourceHash": "sha256:da303748c2b394a671a63669f3cb742de7b34db086841f872291fb320556a597",
+    "mappedOn": null,
+    "summary": "Migrates OPplus data to Continia Banking",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Pre-validates OPplus data for migration readiness",
+      "Checks prerequisites like unposted journals or open payment suggestions",
+      "Guided mapping of OPplus setup (e.g. payment types)",
+      "Validates bank account data before migration",
+      "Deactivates OPplus and activates Continia Banking"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "OPplus"
+    ],
+    "requires": [
+      "Continia Banking",
+      "OPplus"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

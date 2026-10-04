@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.jemel|AID.jemel_job_queue_admin|PAPPID.b877af9e-1373-4ece-9f20-af0b33ba034a",
+  "guid": "b877af9e-1373-4ece-9f20-af0b33ba034a",
+  "publisherId": "jemel",
+  "offerId": "jemel_job_queue_admin",
+  "source": {
+    "name": "Job Queue Admin",
+    "publisher": "JEMEL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jemel%7CAID.jemel_job_queue_admin%7CPAPPID.b877af9e-1373-4ece-9f20-af0b33ba034a",
+    "lastModified": "2026-06-05T16:55:12.0371355+00:00",
+    "appVersion": "26.0.26.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://jemel.lv/docs/job-queue-admin",
+    "sourceHash": "sha256:5ee4ecec015fb19c76d0a19bb66e8864d7d1dcd7db1252de64f54d608acba490"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ee4ecec015fb19c76d0a19bb66e8864d7d1dcd7db1252de64f54d608acba490",
+    "mappedOn": null,
+    "summary": "Monitors job queues with alerts and auto-restart rules",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Alerts on failed job queue entries via Email, Teams and Slack",
+      "Pattern-based auto-restart rules with wildcard, backoff and cooldown",
+      "All job queue entries monitored after install, opt-out model",
+      "Maintenance windows suppress notifications and restarts",
+      "Daily or weekly digest reports on job queue health",
+      "Notification retry queue with fallback",
+      "Single configuration across all companies in tenant",
+      "Logs delivery status, HTTP codes and retry history",
+      "No telemetry to external services by default"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Teams",
+      "Slack"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

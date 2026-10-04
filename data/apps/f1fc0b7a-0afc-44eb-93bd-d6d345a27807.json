@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.dataoutput1724378430407|AID.email_any_report|PAPPID.f1fc0b7a-0afc-44eb-93bd-d6d345a27807",
+  "guid": "f1fc0b7a-0afc-44eb-93bd-d6d345a27807",
+  "publisherId": "dataoutput1724378430407",
+  "offerId": "email_any_report",
+  "source": {
+    "name": "Email Any Report",
+    "publisher": "dataoutput",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dataoutput1724378430407%7CAID.email_any_report%7CPAPPID.f1fc0b7a-0afc-44eb-93bd-d6d345a27807",
+    "lastModified": "2024-11-22T20:05:12.76393+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Freemium",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://dataoutput.sg/email-any-report/",
+    "sourceHash": "sha256:444c486c2913887465e0be40a32a29dfa5c45fffbc6b29b2b192afaca156b2f1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:444c486c2913887465e0be40a32a29dfa5c45fffbc6b29b2b192afaca156b2f1",
+    "mappedOn": null,
+    "summary": "Schedules reports to be emailed with dynamic dates",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-setup"
+    ],
+    "claims": [
+      "Emails any report on a schedule via the job queue",
+      "Keyword Today replaces starting/ending date in report parameters",
+      "Supports date formulas for relative periods such as previous month",
+      "Dedicated email scenario assignable to an email account",
+      "Only users maintaining the setup need a licence"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

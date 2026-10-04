@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_calculation|PAPPID.1a5d7ce9-21df-43fb-a34e-2d33bcb0b81e",
+  "guid": "1a5d7ce9-21df-43fb-a34e-2d33bcb0b81e",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_calculation",
+  "source": {
+    "name": "m+m Calculation",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_calculation%7CPAPPID.1a5d7ce9-21df-43fb-a34e-2d33bcb0b81e",
+    "lastModified": "2026-08-24T12:16:14.6420915+00:00",
+    "appVersion": "28.0.374099.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:49895153addb10ce29bdc6de2548cb07902739af8794be199ae9306e9edda5f6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:49895153addb10ce29bdc6de2548cb07902739af8794be199ae9306e9edda5f6",
+    "mappedOn": null,
+    "summary": "Calculation schemes for quotes and item costing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-production-costing",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Calculation schemes as templates for quotation and item calculations",
+      "Integrates manufacturing costs",
+      "Supported BC editions as stated"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

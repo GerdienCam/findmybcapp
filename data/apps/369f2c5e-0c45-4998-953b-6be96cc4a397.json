@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.pryme|AID.project_subcontracting_on_bc|PAPPID.369f2c5e-0c45-4998-953b-6be96cc4a397",
+  "guid": "369f2c5e-0c45-4998-953b-6be96cc4a397",
+  "publisherId": "pryme",
+  "offerId": "project_subcontracting_on_bc",
+  "source": {
+    "name": "Pryme Project Subcontracting",
+    "publisher": "Pryme",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pryme%7CAID.project_subcontracting_on_bc%7CPAPPID.369f2c5e-0c45-4998-953b-6be96cc4a397",
+    "lastModified": "2026-09-07T15:14:23.2652156+00:00",
+    "appVersion": "14.0.194.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.pryme.app/projectsubcontracting/",
+    "sourceHash": "sha256:0f67773c5b0ffdfa44a7bcc67488ded473ebd147069cd1bfe6d1adff8338de32"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0f67773c5b0ffdfa44a7bcc67488ded473ebd147069cd1bfe6d1adff8338de32",
+    "mappedOn": null,
+    "summary": "Pays external consultants from approved project time",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-materials-subcontract",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Approved hours automatically create subcontractor statements",
+      "Self-billing purchase invoices created from statements",
+      "Validates subcontractor invoices against approved statements",
+      "Flags mismatches within set limits",
+      "Audit trail across hours, client billing and subcontractor payouts",
+      "Subcontractor usage tracking and statement report"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "es",
+      "sv"
+    ],
+    "industries": [
+      "Legal",
+      "ProfessionalServices"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

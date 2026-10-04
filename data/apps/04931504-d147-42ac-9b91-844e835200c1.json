@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.professionaladvantagenorthamerica1583359771647|AID.pa_data_pump|PAPPID.04931504-d147-42ac-9b91-844e835200c1",
+  "guid": "04931504-d147-42ac-9b91-844e835200c1",
+  "publisherId": "professionaladvantagenorthamerica1583359771647",
+  "offerId": "pa_data_pump",
+  "source": {
+    "name": "PA Data Pump",
+    "publisher": "Professional Advantage North America",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.professionaladvantagenorthamerica1583359771647%7CAID.pa_data_pump%7CPAPPID.04931504-d147-42ac-9b91-844e835200c1",
+    "lastModified": "2025-11-27T21:46:32.2251742+00:00",
+    "appVersion": "25.2.0.49269",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.pa.com.au/client-support/",
+    "sourceHash": "sha256:b047b91b6c3fe2f89c3194d06e53f932fd42b7a8da8c020d3da0ee6be749aafa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b047b91b6c3fe2f89c3194d06e53f932fd42b7a8da8c020d3da0ee6be749aafa",
+    "mappedOn": null,
+    "summary": "Scheduled data export to Azure Data Lake",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Scheduled export of BC data to Azure Data Lake",
+      "Exports reference and transactional data",
+      "Initial load package plus incremental updates",
+      "Enables Power BI and multi-source reporting",
+      "English only"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Data Lake",
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "appId": "PUBID.scapta1708358347670|AID.f051bf8b-7e52-49b9-992c-f4c4c1683d6e|PAPPID.f051bf8b-7e52-49b9-992c-f4c4c1683d6e",
+  "guid": "f051bf8b-7e52-49b9-992c-f4c4c1683d6e",
+  "publisherId": "scapta1708358347670",
+  "offerId": "f051bf8b-7e52-49b9-992c-f4c4c1683d6e",
+  "source": {
+    "name": "XPR365 Copy From (Source)",
+    "publisher": "XPR365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.scapta1708358347670%7CAID.f051bf8b-7e52-49b9-992c-f4c4c1683d6e%7CPAPPID.f051bf8b-7e52-49b9-992c-f4c4c1683d6e",
+    "lastModified": "2026-07-24T14:03:07.5186668+00:00",
+    "appVersion": "28.0.20260724.125234",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://learn.xpr365.com/",
+    "sourceHash": "sha256:a1b89bd877e8eeb759bb5c9e5ad0619b0cdf1369cb042531bef558db6d53105e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a1b89bd877e8eeb759bb5c9e5ad0619b0cdf1369cb042531bef558db6d53105e",
+    "mappedOn": null,
+    "summary": "Exposes source tenant data for copying to another tenant",
+    "shape": "addon",
+    "primary": [],
+    "secondary": [],
+    "claims": [
+      "Exposes API calls so Copy To can retrieve data from this tenant"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Dependency: source-side API app for XPR365 Copy To (Destination)",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

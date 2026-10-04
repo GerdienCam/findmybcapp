@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex060_plantmaintenance|PAPPID.9b267475-5522-47e5-aab6-e75885e6b582",
+  "guid": "9b267475-5522-47e5-aab6-e75885e6b582",
+  "publisherId": "eos_solutions",
+  "offerId": "ex060_plantmaintenance",
+  "source": {
+    "name": "Plant Maintenance",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex060_plantmaintenance%7CPAPPID.9b267475-5522-47e5-aab6-e75885e6b582",
+    "lastModified": "2026-10-01T07:38:26.6053977+00:00",
+    "appVersion": "28.0.16.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/plant-maintenance-plm.html",
+    "sourceHash": "sha256:dff0a7de1a97e958afd14254cd23fc2e22b5593100c04612fe6698ed97a995a9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dff0a7de1a97e958afd14254cd23fc2e22b5593100c04612fe6698ed97a995a9",
+    "mappedOn": null,
+    "summary": "Plant and machine maintenance planning with AI request intake",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-production-scheduling",
+      "ng-admin-copilot-agents"
+    ],
+    "claims": [
+      "AI agent handles maintenance request intake from emails",
+      "Tracks scheduled and unscheduled downtime events",
+      "Compares planned costs for labor and materials with actual ones",
+      "Monitors team utilization, parts and vendor spend",
+      "Preventive orders triggered by time, output, runtime hours or custom triggers",
+      "Vendor services via BC purchase documents and requisition worksheets",
+      "Planned maintenance stops considered in production planning",
+      "Maintenance team resource calendar and work allocation",
+      "Maintenance history by equipment or asset group",
+      "Integration with BC Projects for complex maintenance",
+      "Mobile work orders via EOS PowerApps",
+      "Records ready for audits of leases or regulatory reviews",
+      "Premium edition only",
+      "Free trial available"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Fleet",
+      "Manufacturing",
+      "Transportation"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

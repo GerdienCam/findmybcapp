@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.zapodio|AID.ai_docreader|PAPPID.4591c491-2ac0-4683-b230-874a2a2c1807",
+  "guid": "4591c491-2ac0-4683-b230-874a2a2c1807",
+  "publisherId": "zapodio",
+  "offerId": "ai_docreader",
+  "source": {
+    "name": "AI DocReader",
+    "publisher": "Zapodio",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.zapodio%7CAID.ai_docreader%7CPAPPID.4591c491-2ac0-4683-b230-874a2a2c1807",
+    "lastModified": "2026-05-30T22:31:41.462201+00:00",
+    "appVersion": "1.0.5.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.zapodio.com/products/ai-document-reader/help",
+    "sourceHash": "sha256:f0742fc7c5f40732e50c08cc9112f321f7a8eb7d1af8eaffc5e805a540bb3f3d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f0742fc7c5f40732e50c08cc9112f321f7a8eb7d1af8eaffc5e805a540bb3f3d",
+    "mappedOn": null,
+    "summary": "AI document reading and data extraction",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-hr-employee-expenses"
+    ],
+    "claims": [
+      "AI extraction and validation of invoices, purchase orders, receipts and contracts",
+      "Integrated with Business Central E-Document framework",
+      "OCR enhanced with deep learning models",
+      "Learns from corrections and validations per document type and supplier",
+      "Handles documents in multiple languages and layouts",
+      "NLP finds key information in unexpected locations"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

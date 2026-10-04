@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.navappyazlmvedanmanlkltdti1582460298798|AID.bc-nappovd|PAPPID.cc398557-c620-48fb-936a-f7c6a6c58559",
+  "guid": "cc398557-c620-48fb-936a-f7c6a6c58559",
+  "publisherId": "navappyazlmvedanmanlkltdti1582460298798",
+  "offerId": "bc-nappovd",
+  "source": {
+    "name": "Overhead Distribution",
+    "publisher": "Navapp Yazilim ve Danismanlik Anonim Sirketi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navappyazlmvedanmanlkltdti1582460298798%7CAID.bc-nappovd%7CPAPPID.cc398557-c620-48fb-936a-f7c6a6c58559",
+    "lastModified": "2026-03-03T09:55:07.1486105+00:00",
+    "appVersion": "27.0.230327.1300",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-overhead-distribution",
+    "sourceHash": "sha256:7806489f23c370af9c59776e7e942e88675fe678e47f845a9ee6d545ef19242c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7806489f23c370af9c59776e7e942e88675fe678e47f845a9ee6d545ef19242c",
+    "mappedOn": null,
+    "summary": "Distributes overhead costs to manufactured items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Distributes G/L account costs over finished and semi-finished products using capacity center keys",
+      "Distribution keys per expense type in the chart of accounts",
+      "Cost distribution templates for cost accounting per Turkish legislation"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

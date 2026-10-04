@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.logicvisionbv1659359031668|AID.fuelvision365_commodity_insights|PAPPID.be5d6738-a709-4354-bbcb-fc16bf8e93ec",
+  "guid": "be5d6738-a709-4354-bbcb-fc16bf8e93ec",
+  "publisherId": "logicvisionbv1659359031668",
+  "offerId": "fuelvision365_commodity_insights",
+  "source": {
+    "name": "FuelVision365 Commodity Insights Interface",
+    "publisher": "Logic Vision B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.logicvisionbv1659359031668%7CAID.fuelvision365_commodity_insights%7CPAPPID.be5d6738-a709-4354-bbcb-fc16bf8e93ec",
+    "lastModified": "2026-08-06T17:10:36.2237923+00:00",
+    "appVersion": "2.1.0.26080501",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.logicvision.nl/en/support",
+    "sourceHash": "sha256:2b10033835e802019ea931ae9da557459237546c2d67d2869301c8d1cd690e7f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2b10033835e802019ea931ae9da557459237546c2d67d2869301c8d1cd690e7f",
+    "mappedOn": null,
+    "summary": "Retrieves commodity market prices from S&P Global",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-utilities-energy-waste",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-wholesale-trading",
+      "ng-admin-job-queue-setup"
+    ],
+    "claims": [
+      "Pulls S&P Global market data on commodities",
+      "Central library holding market indexes and commodity symbols",
+      "Links external market symbols to internal index groups/pricing",
+      "Processes historical prices into BC index prices",
+      "Supports price corrections and historical market analysis",
+      "Scheduled background price updates"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Energy"
+    ],
+    "connectsTo": [
+      "S&P Global Commodity Insights"
+    ],
+    "requires": [
+      "FuelVision365 Core"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

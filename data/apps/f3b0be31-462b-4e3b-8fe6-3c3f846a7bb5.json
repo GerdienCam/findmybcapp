@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.yazlmvedanmanlkhizmetlerianonimirketi1684754676139|AID.turkish_edespatch_module|PAPPID.f3b0be31-462b-4e3b-8fe6-3c3f846a7bb5",
+  "guid": "f3b0be31-462b-4e3b-8fe6-3c3f846a7bb5",
+  "publisherId": "yazlmvedanmanlkhizmetlerianonimirketi1684754676139",
+  "offerId": "turkish_edespatch_module",
+  "source": {
+    "name": "E-Despatch Module",
+    "publisher": "Myron Yazılım Ve Danışmanlık Hizmetleri Anonim Şirketi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yazlmvedanmanlkhizmetlerianonimirketi1684754676139%7CAID.turkish_edespatch_module%7CPAPPID.f3b0be31-462b-4e3b-8fe6-3c3f846a7bb5",
+    "lastModified": "2026-09-22T09:07:52.905925+00:00",
+    "appVersion": "1.27.0.17",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://myronsoft.com.tr/en/contact/",
+    "sourceHash": "sha256:3a00117173c3d2a02567abe22e049dd6c4fe56b714d4b43b1243c7f07fe37cae"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3a00117173c3d2a02567abe22e049dd6c4fe56b714d4b43b1243c7f07fe37cae",
+    "mappedOn": null,
+    "summary": "Creates and sends Turkish electronic despatch notes",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Creates and sends e-despatch (electronic delivery notes) via Revenue Administration integrator",
+      "Replaces the paper delivery note",
+      "E-despatch from sales, transfer orders, service and purchase return orders",
+      "Views PDF images of sent e-despatch in BC Online",
+      "Shows whether delivery notes reached recipients and error reasons",
+      "Imports incoming e-delivery notes and sends acceptance/rejection responses",
+      "Supports Essential and Premium",
+      "Available in English and Turkish"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Revenue Administration (GIB) integrator"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

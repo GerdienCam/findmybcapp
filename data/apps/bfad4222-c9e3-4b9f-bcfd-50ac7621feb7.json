@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dms-continia-document-capture|PAPPID.bfad4222-c9e3-4b9f-bcfd-50ac7621feb7",
+  "guid": "bfad4222-c9e3-4b9f-bcfd-50ac7621feb7",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dms-continia-document-capture",
+  "source": {
+    "name": "Aptean Equipment DMS x Continia Document Capture",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-continia-document-capture%7CPAPPID.bfad4222-c9e3-4b9f-bcfd-50ac7621feb7",
+    "lastModified": "2026-09-22T07:17:35.9330875+00:00",
+    "appVersion": "2700.260800.20260918.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:4a07966079e2dd0dcca86874d7650982f5fb2e963a2b003ee992c104c148a241"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4a07966079e2dd0dcca86874d7650982f5fb2e963a2b003ee992c104c148a241",
+    "mappedOn": null,
+    "summary": "Uses Continia Document Capture within Aptean Equipment DMS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers",
+      "ng-customer-returns"
+    ],
+    "claims": [
+      "Manages documents for warranty claims",
+      "Widens line recognition for processes of partner dealers and associations",
+      "Document capture cues on the DMS role center",
+      "Order matching shows service order no., article no. and vendors"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "Aptean Equipment DMS",
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

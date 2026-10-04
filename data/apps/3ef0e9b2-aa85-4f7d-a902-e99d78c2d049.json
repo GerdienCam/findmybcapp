@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.salespadllcdbacavallosolutions1644863490847|AID.cavallo_profit_scan|PAPPID.3ef0e9b2-aa85-4f7d-a902-e99d78c2d049",
+  "guid": "3ef0e9b2-aa85-4f7d-a902-e99d78c2d049",
+  "publisherId": "salespadllcdbacavallosolutions1644863490847",
+  "offerId": "cavallo_profit_scan",
+  "source": {
+    "name": "Cavallo Profit Scan",
+    "publisher": "Cavallo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.salespadllcdbacavallosolutions1644863490847%7CAID.cavallo_profit_scan%7CPAPPID.3ef0e9b2-aa85-4f7d-a902-e99d78c2d049",
+    "lastModified": "2026-10-01T20:47:45.8829758+00:00",
+    "appVersion": "1.0.20260921.170120",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.cavallo.com/",
+    "sourceHash": "sha256:dda9e325393850a6ab378e0d4b61d65e760d405eef2e1a71b64447f898444aef"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dda9e325393850a6ab378e0d4b61d65e760d405eef2e1a71b64447f898444aef",
+    "mappedOn": null,
+    "summary": "Margin protection rules and alerts on sales",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-analytics",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Flags orders with low margin or compliance issues when they are entered",
+      "Scans open documents for profit leaks",
+      "Red/green margin indicators on sales screens",
+      "Margin targets by customer group, dimension or item category",
+      "Priority-based sub-targets",
+      "Excludes zero-cost services, shipping lines or promo items from margin",
+      "Profit dashboard showing total margin gap",
+      "Drilldown to line-level discounts and cost changes",
+      "Works alongside Cavallo Mission Control"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

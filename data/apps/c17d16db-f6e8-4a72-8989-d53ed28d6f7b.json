@@ -1,0 +1,108 @@
+{
+  "appId": "PUBID.soft4|AID.soft4tenantportal|PAPPID.c17d16db-f6e8-4a72-8989-d53ed28d6f7b",
+  "guid": "c17d16db-f6e8-4a72-8989-d53ed28d6f7b",
+  "publisherId": "soft4",
+  "offerId": "soft4tenantportal",
+  "source": {
+    "name": "SOFT4RealEstate Tenant Portal",
+    "publisher": "SOFT4",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.soft4%7CAID.soft4tenantportal%7CPAPPID.c17d16db-f6e8-4a72-8989-d53ed28d6f7b",
+    "lastModified": "2026-09-08T04:43:55.8588559+00:00",
+    "appVersion": "1.2.9.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://soft4realestate.com/faq/",
+    "sourceHash": "sha256:e54b3aac24ef4cd2d1daab4e31810790c03fd047b1d88d3ae6ecf177bbd49053"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e54b3aac24ef4cd2d1daab4e31810790c03fd047b1d88d3ae6ecf177bbd49053",
+    "mappedOn": null,
+    "summary": "Tenant self-service portal for SOFT4RealEstate",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-property",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-requests"
+    ],
+    "claims": [
+      "Tenants view contract details",
+      "Tenants enter and track work/maintenance orders",
+      "Billing details, invoice download and payment history",
+      "Turnover reporting by tenants",
+      "Meter readings entry"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "HR",
+      "HU",
+      "ID",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "LT",
+      "LV",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PH",
+      "PL",
+      "RS",
+      "SE",
+      "SG",
+      "SI",
+      "TH",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Real estate"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "SOFT4RealEstate"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

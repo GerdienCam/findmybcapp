@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.ecraftoyab1610627648267|AID.fm-bc-docex-app|PAPPID.d39e5b95-aff6-4c31-9096-6ad6d9a367fa",
+  "guid": "d39e5b95-aff6-4c31-9096-6ad6d9a367fa",
+  "publisherId": "ecraftoyab1610627648267",
+  "offerId": "fm-bc-docex-app",
+  "source": {
+    "name": "DocEx - Module",
+    "publisher": "Fellowmind Finland",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ecraftoyab1610627648267%7CAID.fm-bc-docex-app%7CPAPPID.d39e5b95-aff6-4c31-9096-6ad6d9a367fa",
+    "lastModified": "2026-06-23T18:14:46.3917545+00:00",
+    "appVersion": "1.0.29.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.fellowmindfinland.cloud/docex",
+    "sourceHash": "sha256:6de809ba2417d3544f7ad8f94ade70523ed11fa2dcda96f59d19748c802194fa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6de809ba2417d3544f7ad8f94ade70523ed11fa2dcda96f59d19748c802194fa",
+    "mappedOn": null,
+    "summary": "Framework for exchanging documents and files with external systems",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures",
+      "ng-conn-edi"
+    ],
+    "claims": [
+      "Separate inbound and outbound gateways",
+      "Message queue and channel management",
+      "Manual file import/export via File Connector",
+      "Automated exchange via Azure Blob Storage",
+      "Automated exchange via Azure File Shares",
+      "Handles XML, CSV and EDI payloads",
+      "Monitoring of status, failures and retries",
+      "Extensible with custom processing codeunits and connectors",
+      "Import incoming purchase orders, invoices and receipts"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage",
+      "Azure File Share"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

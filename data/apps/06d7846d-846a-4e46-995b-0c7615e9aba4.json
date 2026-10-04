@@ -1,0 +1,83 @@
+{
+  "appId": "PUBID.cosmoconsultag|AID.edi_bc|PAPPID.06d7846d-846a-4e46-995b-0c7615e9aba4",
+  "guid": "06d7846d-846a-4e46-995b-0c7615e9aba4",
+  "publisherId": "cosmoconsultag",
+  "offerId": "edi_bc",
+  "source": {
+    "name": "COSMO EDI",
+    "publisher": "COSMO CONSULT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.edi_bc%7CPAPPID.06d7846d-846a-4e46-995b-0c7615e9aba4",
+    "lastModified": "2026-09-30T14:32:52.5011659+00:00",
+    "appVersion": "4.36.0.80",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/edi/",
+    "sourceHash": "sha256:b6c41ae9d8f649b6081c07e51431caf08f52de0a43f3ffe523407cecbcafe713"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b6c41ae9d8f649b6081c07e51431caf08f52de0a43f3ffe523407cecbcafe713",
+    "mappedOn": null,
+    "summary": "EDI exchange of business documents with customers and suppliers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "EDI with customers, suppliers and carriers",
+      "Supports EDIFACT",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CL",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "HK",
+      "HU",
+      "IE",
+      "IT",
+      "NL",
+      "NZ",
+      "PE",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "EDI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

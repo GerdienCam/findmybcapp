@@ -1,0 +1,83 @@
+{
+  "appId": "PUBID.insight-works|AID.9c55319d-f3b9-441b-9956-0a0a04decd4b|PAPPID.9c55319d-f3b9-441b-9956-0a0a04decd4b",
+  "guid": "9c55319d-f3b9-441b-9956-0a0a04decd4b",
+  "publisherId": "insight-works",
+  "offerId": "9c55319d-f3b9-441b-9956-0a0a04decd4b",
+  "source": {
+    "name": "Dynamic Ship: Integrated Shipping",
+    "publisher": "Insight Works",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.9c55319d-f3b9-441b-9956-0a0a04decd4b%7CPAPPID.9c55319d-f3b9-441b-9956-0a0a04decd4b",
+    "lastModified": "2026-08-12T22:04:42.5344535+00:00",
+    "appVersion": "2.9.9720.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://app.dmsiworks.com/dynamic-ship/product-help/",
+    "sourceHash": "sha256:1de31122958234165c94aad678ce30d0ac6e92fda9bf99d788a71ea43f23af15"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1de31122958234165c94aad678ce30d0ac6e92fda9bf99d788a71ea43f23af15",
+    "mappedOn": null,
+    "summary": "Carrier integration with rates, packages and tracking",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Connects with more than 100 carriers, among them FedEx, UPS, USPS, DHL",
+      "Real-time rate shopping across multiple carriers",
+      "Rates depend on destination and on the package's weight and dimensions",
+      "Quotes freight while taking an order and adds freight cost with markup rules",
+      "Creates packing lists by package and order and prints package labels",
+      "Captures serial, lot and assembly component details at packing",
+      "Verifies packed items by scanning against sales order and pick",
+      "Real-time shipment tracking across 100+ carriers",
+      "Enhanced delivery date estimates"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nl",
+      "no",
+      "sv"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "UPS",
+      "DHL",
+      "FedEx",
+      "USPS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

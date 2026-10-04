@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.pfformula1687443475154|AID.webshop|PAPPID.36ec341f-cf89-4818-8e0f-a3da9b564fe1",
+  "guid": "36ec341f-cf89-4818-8e0f-a3da9b564fe1",
+  "publisherId": "pfformula1687443475154",
+  "offerId": "webshop",
+  "source": {
+    "name": "Webshop",
+    "publisher": "P/f Formula",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pfformula1687443475154%7CAID.webshop%7CPAPPID.36ec341f-cf89-4818-8e0f-a3da9b564fe1",
+    "lastModified": "2026-10-01T12:52:47.3171502+00:00",
+    "appVersion": "28.0.4.158",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.formula.fo/contact/",
+    "sourceHash": "sha256:6afcc614302fb477bd1cc619836532df6d10d8ca5837de19fa7460f453574162"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6afcc614302fb477bd1cc619836532df6d10d8ca5837de19fa7460f453574162",
+    "mappedOn": null,
+    "summary": "Integrates Formula webshop with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "Webshop uses BC products, prices, descriptions, discounts and images",
+      "Real-time, no synchronization needed",
+      "Offers and orders created directly in BC",
+      "Customizable store design",
+      "Supports B2B with custom pricing and B2C"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

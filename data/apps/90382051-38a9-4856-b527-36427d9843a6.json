@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.tech-one-global|AID.docubizz_connect|PAPPID.90382051-38a9-4856-b527-36427d9843a6",
+  "guid": "90382051-38a9-4856-b527-36427d9843a6",
+  "publisherId": "tech-one-global",
+  "offerId": "docubizz_connect",
+  "source": {
+    "name": "DocuBizz Connect",
+    "publisher": "Tech One Global",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tech-one-global%7CAID.docubizz_connect%7CPAPPID.90382051-38a9-4856-b527-36427d9843a6",
+    "lastModified": "2026-08-04T04:51:16.031302+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.docubizz.com/wp-content/uploads/2022/06/User-Manual-DocuBizz-Dynamics-365-BC-Integration.pdf",
+    "sourceHash": "sha256:666f25493afe42db57986d32172ed03146dff9cfa7d375642345b6c9a4c1cc3f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:666f25493afe42db57986d32172ed03146dff9cfa7d375642345b6c9a4c1cc3f",
+    "mappedOn": null,
+    "summary": "Integrates DocuBizz AP invoice processing with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Connects BC to DocuBizz AP invoice automation",
+      "Digitizes invoice data, routes approval and GL coding",
+      "Suggests vendor, approval flow, GL coding and receipt matching",
+      "Handles invoices and credit memos",
+      "Syncs master data, purchase receipts and return shipments to DocuBizz",
+      "Automatically books approved documents in BC"
+    ],
+    "countries": [
+      "DE",
+      "DK",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DocuBizz"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

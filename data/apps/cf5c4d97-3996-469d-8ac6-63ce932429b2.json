@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex072gdprtoolset|PAPPID.cf5c4d97-3996-469d-8ac6-63ce932429b2",
+  "guid": "cf5c4d97-3996-469d-8ac6-63ce932429b2",
+  "publisherId": "eos_solutions",
+  "offerId": "ex072gdprtoolset",
+  "source": {
+    "name": "GDPR Toolset",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex072gdprtoolset%7CPAPPID.cf5c4d97-3996-469d-8ac6-63ce932429b2",
+    "lastModified": "2026-04-10T14:38:47.8443335+00:00",
+    "appVersion": "28.0.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/gdpr-toolset-gdpr.html",
+    "sourceHash": "sha256:fd50671c5596ef6d729258b6a2cee0685d7dc79215b2c24bd7e679f1f07d4159"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fd50671c5596ef6d729258b6a2cee0685d7dc79215b2c24bd7e679f1f07d4159",
+    "mappedOn": null,
+    "summary": "Handles GDPR personal data requests and anonymization",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-privacy-consent",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Discovers personal data in BC",
+      "Reports personal data (right to be informed)",
+      "Exports personal data (data portability)",
+      "Erases personal data (right to be forgotten)",
+      "Rectifies personal data",
+      "Blocks master data to restrict processing",
+      "Log of GDPR requests",
+      "Handles customers, vendors and contacts",
+      "Encryption or deletion requests"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.smartict|AID.intercompany_offer|PAPPID.120f64c3-1f19-49ce-abd3-b88f060d9c35",
+  "guid": "120f64c3-1f19-49ce-abd3-b88f060d9c35",
+  "publisherId": "smartict",
+  "offerId": "intercompany_offer",
+  "source": {
+    "name": "Intercompany: Advanced Warehouse Solution",
+    "publisher": "Smart ICT Services",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smartict%7CAID.intercompany_offer%7CPAPPID.120f64c3-1f19-49ce-abd3-b88f060d9c35",
+    "lastModified": "2024-11-21T22:50:36.1164015+00:00",
+    "appVersion": "24.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Freemium",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "http://smartict.al/index.php/project-01/",
+    "sourceHash": "sha256:a047d5e756b0968aba1d4ce133bb72f2c416a721302433712b8f1df17431108c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a047d5e756b0968aba1d4ce133bb72f2c416a721302433712b8f1df17431108c",
+    "mappedOn": null,
+    "summary": "Automates intercompany warehouse receipts and shipments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates warehouse documents for intercompany flows",
+      "Automatic or manual posting of warehouse receipts",
+      "Flow from sales special order to auto-posted warehouse receipt in partner company",
+      "Flow starting from purchase document",
+      "Reverse flow supported"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

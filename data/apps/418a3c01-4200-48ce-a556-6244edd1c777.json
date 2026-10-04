@@ -1,0 +1,62 @@
+{
+  "appId": "TYPE.connect|PUBID.quantumquadsolutions1768544978440|AID.purchase_requisition_offer|PAPPID.418a3c01-4200-48ce-a556-6244edd1c777",
+  "guid": "418a3c01-4200-48ce-a556-6244edd1c777",
+  "publisherId": "quantumquadsolutions1768544978440",
+  "offerId": "purchase_requisition_offer",
+  "source": {
+    "name": "Purchase Requisition For Business Central",
+    "publisher": "QuantumQuad Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.quantumquadsolutions1768544978440%7CAID.purchase_requisition_offer%7CPAPPID.418a3c01-4200-48ce-a556-6244edd1c777",
+    "lastModified": "2026-01-30T06:35:04.8930819+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.quantumquad.in/contacttoquantumquad",
+    "sourceHash": "sha256:a23c59ad3cb455c1c88f5c1f53ba09ba6a3658eb438a74b23d1c7955aa42d514"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a23c59ad3cb455c1c88f5c1f53ba09ba6a3658eb438a74b23d1c7955aa42d514",
+    "mappedOn": null,
+    "summary": "Purchase requisitions and approvals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "Send one requisition to multiple suppliers",
+      "Quote comparison dashboard on price, payment terms and delivery time",
+      "Automated approval workflows",
+      "Real-time requisition status tracking",
+      "Vendors respond via Power Pages web form linked from email",
+      "Vendor submissions update BC automatically"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power Pages"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

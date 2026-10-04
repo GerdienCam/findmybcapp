@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.hirehopsoftware|AID.hirehop|PAPPID.a1b2c3d4-5678-90ab-cdef-1234567890ab",
+  "guid": "a1b2c3d4-5678-90ab-cdef-1234567890ab",
+  "publisherId": "hirehopsoftware",
+  "offerId": "hirehop",
+  "source": {
+    "name": "HireHop Equipment Rental Software",
+    "publisher": "HireHop Software Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hirehopsoftware%7CAID.hirehop%7CPAPPID.a1b2c3d4-5678-90ab-cdef-1234567890ab",
+    "lastModified": "2026-03-03T03:19:25.7338016+00:00",
+    "appVersion": "4.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.hirehop.com/?src=bc_marketplace",
+    "sourceHash": "sha256:8042b10e0f28a87e107fc76fe8fb94b1636d42ac52eeaaacff68d276d6f19f24"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8042b10e0f28a87e107fc76fe8fb94b1636d42ac52eeaaacff68d276d6f19f24",
+    "mappedOn": null,
+    "summary": "Integrates HireHop equipment rental software with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Sends invoices, credits, payments and contacts from HireHop to BC",
+      "Quotes, reservations, contracts with e-sign, invoices and payments",
+      "Unlimited depots and multi-currency",
+      "Users and depots are unlimited, with no added cost",
+      "Asset tracking via barcode, QR, RFID, NFC or serial numbers",
+      "Full service histories for assets",
+      "Route planner, tracked sales of ex-rental items, calendars, reporting",
+      "Warehouse scanning supports stock checks, stock movement and maintenance",
+      "Available in 18 languages per user",
+      "Plugins and API for customisation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [
+      "HireHop"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

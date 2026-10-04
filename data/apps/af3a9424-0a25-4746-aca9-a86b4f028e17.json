@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.in2doobeograd1732096896251|AID.in2_travelorders|PAPPID.af3a9424-0a25-4746-aca9-a86b4f028e17",
+  "guid": "af3a9424-0a25-4746-aca9-a86b4f028e17",
+  "publisherId": "in2doobeograd1732096896251",
+  "offerId": "in2_travelorders",
+  "source": {
+    "name": "Travel Orders IN2",
+    "publisher": "IN2 d.o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.in2doobeograd1732096896251%7CAID.in2_travelorders%7CPAPPID.af3a9424-0a25-4746-aca9-a86b4f028e17",
+    "lastModified": "2025-10-10T13:39:14.22375+00:00",
+    "appVersion": "26.4.37194.40405",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://in2.rs/",
+    "sourceHash": "sha256:eaacedca9fcbcf5ec4435f71732e2963a4be86298a30ed15ac885ac7b4dfcd18"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eaacedca9fcbcf5ec4435f71732e2963a4be86298a30ed15ac885ac7b4dfcd18",
+    "mappedOn": null,
+    "summary": "Manages employee travel orders and expenses",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-costs"
+    ],
+    "claims": [
+      "Create and manage travel orders in BC",
+      "Records purpose, destination, duration, transport mode and accommodation",
+      "Logs estimated and actual travel expenses by category",
+      "Links travel expenses to cost centers, jobs or projects",
+      "Calculates per diem and mileage reimbursements automatically",
+      "Attach tickets and hotel receipts to the travel order",
+      "Tracks travel order status (planned, in progress, completed)",
+      "Can be tailored to local travel rules, taxes and currencies",
+      "Travel reports for auditing, reimbursement and analysis",
+      "Available in all BC countries"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

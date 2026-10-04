@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.dimension-updater-meo-connector-app|PAPPID.2ca25964-de45-4bb0-9308-b703a908c67f",
+  "guid": "2ca25964-de45-4bb0-9308-b703a908c67f",
+  "publisherId": "fenwicksoftware",
+  "offerId": "dimension-updater-meo-connector-app",
+  "source": {
+    "name": "Dimension Updater for MEO",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.dimension-updater-meo-connector-app%7CPAPPID.2ca25964-de45-4bb0-9308-b703a908c67f",
+    "lastModified": "2026-08-16T23:56:51.6238539+00:00",
+    "appVersion": "27.0.260728.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/multiple-entity-operations/docs",
+    "sourceHash": "sha256:8675dcec6e849a3889080f8feca1313cc46d5a0370a44c3a5192bb2ee143721d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8675dcec6e849a3889080f8feca1313cc46d5a0370a44c3a5192bb2ee143721d",
+    "mappedOn": null,
+    "summary": "Connects Fenwick Dimension Updater and Multiple Entity Operations",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Connector between Dimension Updater and Multiple Entity Operations",
+      "Requires Multiple Entity Operations and Dimension Updater"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Fenwick Multiple Entity Operations",
+      "Fenwick Dimension Updater"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Connector/dependency app between two Fenwick apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

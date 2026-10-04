@@ -1,0 +1,91 @@
+{
+  "appId": "PUBID.trimitdevelopmentas1583754646521|AID.trimit_sustainability|PAPPID.84638a31-9de1-4284-b2bb-3788328cebd6",
+  "guid": "84638a31-9de1-4284-b2bb-3788328cebd6",
+  "publisherId": "trimitdevelopmentas1583754646521",
+  "offerId": "trimit_sustainability",
+  "source": {
+    "name": "TRIMIT Sustainability",
+    "publisher": "TRIMIT Development A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trimitdevelopmentas1583754646521%7CAID.trimit_sustainability%7CPAPPID.84638a31-9de1-4284-b2bb-3788328cebd6",
+    "lastModified": "2026-09-15T22:45:15.6271206+00:00",
+    "appVersion": "26.1.2.42",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://documentation.trimit.com/",
+    "sourceHash": "sha256:94325e543fd3186db4c459618e58c5c545aac7404853ffffb55adb090be5b6a5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:94325e543fd3186db4c459618e58c5c545aac7404853ffffb55adb090be5b6a5",
+    "mappedOn": null,
+    "summary": "Adds sustainability emission features to TRIMIT",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-esg",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-product-compliance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-fashion",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Supports BC Sustainability app functionality in TRIMIT procedures",
+      "Handles scope certificates, transaction certificates and certificate transactions",
+      "Tracks certificate renewal deadlines",
+      "Requires transaction certificates on goods receipts where needed",
+      "Checks valid certificate on items sold",
+      "Digital Product Passport visible via e-commerce"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "SE",
+      "SI",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Fashion",
+      "Furniture"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "TRIMIT",
+      "Microsoft Business Sustainability App"
+    ],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

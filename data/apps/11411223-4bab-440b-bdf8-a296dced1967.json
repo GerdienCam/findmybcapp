@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-attributescore|PAPPID.11411223-4bab-440b-bdf8-a296dced1967",
+  "guid": "11411223-4bab-440b-bdf8-a296dced1967",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-attributescore",
+  "source": {
+    "name": "BeyondAttributesCore",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-attributescore%7CPAPPID.11411223-4bab-440b-bdf8-a296dced1967",
+    "lastModified": "2026-09-11T14:11:03.3067346+00:00",
+    "appVersion": "2026.9.296.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/attributescore/index.html",
+    "sourceHash": "sha256:057d24a99f166bc6a9c82a1b7135673714ea02d9f7e62071d8c7bf90b8efdecf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:057d24a99f166bc6a9c82a1b7135673714ea02d9f7e62071d8c7bf90b8efdecf",
+    "mappedOn": null,
+    "summary": "Stores attributes on items, fixed assets and service items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-custom-fields",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-assets",
+      "ng-fa-register"
+    ],
+    "claims": [
+      "Custom attributes for items, fixed assets and service items",
+      "Attributes from 7 different data types",
+      "Item characteristics shown in a factbox",
+      "Customizable display order of attributes",
+      "Attributes can be translated for users in other languages",
+      "Attributes pane on service item and fixed asset factboxes"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

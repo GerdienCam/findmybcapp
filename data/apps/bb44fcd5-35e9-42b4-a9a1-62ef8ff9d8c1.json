@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.idyamsolutionslimited1644516067869|AID.metapack-shipping|PAPPID.bb44fcd5-35e9-42b4-a9a1-62ef8ff9d8c1",
+  "guid": "bb44fcd5-35e9-42b4-a9a1-62ef8ff9d8c1",
+  "publisherId": "idyamsolutionslimited1644516067869",
+  "offerId": "metapack-shipping",
+  "source": {
+    "name": "Metapack Essential",
+    "publisher": "Metapack",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idyamsolutionslimited1644516067869%7CAID.metapack-shipping%7CPAPPID.bb44fcd5-35e9-42b4-a9a1-62ef8ff9d8c1",
+    "lastModified": "2024-11-19T19:27:35.2452508+00:00",
+    "appVersion": "5.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.idyamsolutions.com/enhancements/idyamextensions/",
+    "sourceHash": "sha256:9013e24f4a7972ffb64b17d1f1a9d0f1b939946624b0d5e92f7e0d4d288a1b8d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9013e24f4a7972ffb64b17d1f1a9d0f1b939946624b0d5e92f7e0d4d288a1b8d",
+    "mappedOn": null,
+    "summary": "Metapack carrier integration with packing, labels and manifests",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "Access to 400+ carriers via a single integration",
+      "Rules to select delivery service per order",
+      "Generates labels, customs documents and manifests",
+      "Supports multiple warehouse and inventory locations",
+      "Packing against picks or orders",
+      "Multiple packing stations with local printers working without internet",
+      "Wedge scanner on packing bench",
+      "Tracking numbers on shipping documents",
+      "Reprinting managed via dashboard",
+      "Manifest creation per carrier collection",
+      "Scheduled posting of shipments on collected consignments"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Metapack Delivery Manager"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

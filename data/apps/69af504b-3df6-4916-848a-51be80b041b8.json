@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.goproweab1681921160012|AID.harvest_connect|PAPPID.69af504b-3df6-4916-848a-51be80b041b8",
+  "guid": "69af504b-3df6-4916-848a-51be80b041b8",
+  "publisherId": "goproweab1681921160012",
+  "offerId": "harvest_connect",
+  "source": {
+    "name": "Harvest Connect",
+    "publisher": "Goprowe AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.goproweab1681921160012%7CAID.harvest_connect%7CPAPPID.69af504b-3df6-4916-848a-51be80b041b8",
+    "lastModified": "2025-10-10T07:24:04.032458+00:00",
+    "appVersion": "24.0.6.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://goprowe.com/harvestconnect/docs/intro.html",
+    "sourceHash": "sha256:6a6f175ddaa6dbd97be7379af74c7a7432532b109ae3acec27031d56bb97087e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6a6f175ddaa6dbd97be7379af74c7a7432532b109ae3acec27031d56bb97087e",
+    "mappedOn": null,
+    "summary": "Posts Harvest time tracking invoices and receipts to G/L",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-proj-billing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Imports invoices created in Harvest and posts them to the customer ledger, G/L and VAT",
+      "Updates Harvest with cash receipts posted in BC",
+      "Gives Harvest project managers invoice payment status",
+      "Supports Essentials and Premium editions",
+      "Available in all countries",
+      "Priced per user with no additional fees"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Professional services"
+    ],
+    "connectsTo": [
+      "Harvest"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

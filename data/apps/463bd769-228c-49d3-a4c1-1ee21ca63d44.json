@@ -1,0 +1,108 @@
+{
+  "appId": "PUBID.celigoinc-causa1621285384596|AID.amazon-integration-celigo|PAPPID.463bd769-228c-49d3-a4c1-1ee21ca63d44",
+  "guid": "463bd769-228c-49d3-a4c1-1ee21ca63d44",
+  "publisherId": "celigoinc-causa1621285384596",
+  "offerId": "amazon-integration-celigo",
+  "source": {
+    "name": "Amazon Integration for Dynamics 365 Business Central",
+    "publisher": "Celigo Inc - CA, USA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.celigoinc-causa1621285384596%7CAID.amazon-integration-celigo%7CPAPPID.463bd769-228c-49d3-a4c1-1ee21ca63d44",
+    "lastModified": "2026-08-05T05:15:56.8431248+00:00",
+    "appVersion": "1.1.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.celigo.com/hc/en-us",
+    "sourceHash": "sha256:21734f292894dc769ed05b7052c9ae1714aaf9192cd84db053e3c17c968e1dd8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:21734f292894dc769ed05b7052c9ae1714aaf9192cd84db053e3c17c968e1dd8",
+    "mappedOn": null,
+    "summary": "Syncs orders, customers, inventory and fulfillment with Amazon marketplaces",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-conn-3pl"
+    ],
+    "claims": [
+      "Syncs MFN and FBA orders from Amazon into BC",
+      "Sends real-time shipping information to customers",
+      "Syncs inventory levels from single or multiple warehouses to Amazon",
+      "Syncs FBA inventory changes to BC item journals",
+      "Sends BC transfer orders as FBA inbound shipment plans",
+      "Syncs delivered Amazon shipments into posted transfer receipts",
+      "Syncs FBA customer returns",
+      "Built on Celigo iPaaS, supports custom integrations"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "HR",
+      "HU",
+      "ID",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "LT",
+      "LV",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PH",
+      "PL",
+      "RS",
+      "SE",
+      "SG",
+      "SI",
+      "TH",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Amazon",
+      "Celigo"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

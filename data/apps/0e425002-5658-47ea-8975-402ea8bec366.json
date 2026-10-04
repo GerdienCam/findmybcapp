@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.navitec|AID.dcd|PAPPID.0e425002-5658-47ea-8975-402ea8bec366",
+  "guid": "0e425002-5658-47ea-8975-402ea8bec366",
+  "publisherId": "navitec",
+  "offerId": "dcd",
+  "source": {
+    "name": "Database Cleaning Data",
+    "publisher": "Navitec systems s.r.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navitec%7CAID.dcd%7CPAPPID.0e425002-5658-47ea-8975-402ea8bec366",
+    "lastModified": "2026-09-24T06:39:07.5440383+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dokumentace.navitec.cz/DCD",
+    "sourceHash": "sha256:4c053ac32c3cc4a2ef575fc6cc43356941b880c000ed76a3b765e91ab5d8c296"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4c053ac32c3cc4a2ef575fc6cc43356941b880c000ed76a3b765e91ab5d8c296",
+    "mappedOn": null,
+    "summary": "Cleans binary data to reclaim database storage",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Diagnoses Tenant Media size by month, user, file type and company",
+      "Lists largest individual files",
+      "Deletes old document and incoming document attachments with per-table retention",
+      "Cleans the Email Inbox including mail downloaded by Payables Agent",
+      "Removes orphaned email messages and recipients",
+      "Deletes Tenant Media records by ID or filter on company, MIME type or minimum size",
+      "Every report has a dry-run mode that only counts",
+      "Batched deletes with configurable commit interval",
+      "Runs unattended from job queue",
+      "Deletion disabled by default in production until admin types confirmation phrase",
+      "The free tier deletes at most 10 records per table in each run"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

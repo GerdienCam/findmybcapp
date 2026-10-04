@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_purchaseaccruals|PAPPID.f0312578-012b-40cd-a733-94e068bda056",
+  "guid": "f0312578-012b-40cd-a733-94e068bda056",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_purchaseaccruals",
+  "source": {
+    "name": "Fusion5 Purchase Accruals",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_purchaseaccruals%7CPAPPID.f0312578-012b-40cd-a733-94e068bda056",
+    "lastModified": "2026-08-31T18:01:54.9702146+00:00",
+    "appVersion": "2800.1.20260828.115526",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/1333592337/Purchase+Accruals",
+    "sourceHash": "sha256:5d9258885821e57d0999415de07977b525a07ebb3afba6693b52db3f9e967d8b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5d9258885821e57d0999415de07977b525a07ebb3afba6693b52db3f9e967d8b",
+    "mappedOn": null,
+    "summary": "Accrues non-inventory purchase receipts and reverses on invoice",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-accruals-deferrals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-period-close",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-gl-reconciliation"
+    ],
+    "claims": [
+      "Accrues G/L account, resource, non-inventory and service lines on receipt",
+      "Reverses accrual automatically and proportionally on vendor invoice",
+      "Partial invoicing reverses only invoiced share",
+      "Undo receipt voids the accrual",
+      "Purchase Accrual Ledger with drill-through to G/L entries",
+      "Accruals posted exclusive of GST in local currency",
+      "Dimensions flow from receipt lines to accrual entries",
+      "Foreign currency converted at receipt and reversed at stored LCY amount",
+      "Post Preview shows accrual impact",
+      "When switched off, reversals are posted for each open accrual",
+      "Read-only and admin permission sets"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

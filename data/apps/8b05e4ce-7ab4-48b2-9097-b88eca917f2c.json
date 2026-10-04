@@ -1,0 +1,58 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.import-msd-edi-orders|PAPPID.8b05e4ce-7ab4-48b2-9097-b88eca917f2c",
+  "guid": "8b05e4ce-7ab4-48b2-9097-b88eca917f2c",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "import-msd-edi-orders",
+  "source": {
+    "name": "Automatic Import of EDI Orders",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.import-msd-edi-orders%7CPAPPID.8b05e4ce-7ab4-48b2-9097-b88eca917f2c",
+    "lastModified": "2026-07-16T08:13:23.3571356+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://knowledgebase.hubbroker.net/article/1h5ezr1j2d-microsoft-dynamics-365-import-customer-orders",
+    "sourceHash": "sha256:e48efb940eca5e097c5670f3fed6382f9ebd51516aa4785361c412dd873d0fc8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e48efb940eca5e097c5670f3fed6382f9ebd51516aa4785361c412dd873d0fc8",
+    "mappedOn": null,
+    "summary": "Automatic import of EDI orders via HubBroker",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Orders automatically imported into BC via EDI",
+      "Validates and converts data to local standards or customer preferences",
+      "Tracking of imported orders in the iPaaS",
+      "EDI managed services",
+      "REST API data integration"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "HubBroker iPaaS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

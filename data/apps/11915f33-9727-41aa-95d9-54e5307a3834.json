@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_trade|PAPPID.11915f33-9727-41aa-95d9-54e5307a3834",
+  "guid": "11915f33-9727-41aa-95d9-54e5307a3834",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_trade",
+  "source": {
+    "name": "Dynavision Trade",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_trade%7CPAPPID.11915f33-9727-41aa-95d9-54e5307a3834",
+    "lastModified": "2026-09-23T13:48:08.3628358+00:00",
+    "appVersion": "28.0.0.49972",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision%20Trade%20Manual.pdf",
+    "sourceHash": "sha256:06f25ffe0853adcdbe5e303b752dd5fc20e61b8f2b9522fa74ac156aa08d4995"
+  },
+  "mapping": {
+    "sourceHash": "sha256:06f25ffe0853adcdbe5e303b752dd5fc20e61b8f2b9522fa74ac156aa08d4995",
+    "mappedOn": null,
+    "summary": "Tweaks for wholesale trade sales and purchase",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-wholesale-trading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-ux-notes-collaboration",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Minimum order fee on purchase orders in requisition worksheet",
+      "Recurring sales lines per customer",
+      "Popups and notifications per document type with date ranges, printable",
+      "Rule-based collective invoicing grouping",
+      "Scan requisition lines on mobile",
+      "Multiple payments on service documents",
+      "Email layouts depending on language",
+      "Assign item attributes to multiple items at once",
+      "Versions of sales and purchase documents",
+      "Periodic recurring sales documents from blanket orders"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Wholesale"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

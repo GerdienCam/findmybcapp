@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.abakion|AID.rob_ex_scheduler_connector|PAPPID.c229ac89-be22-4e8c-bf3e-3425f3e3d15d",
+  "guid": "c229ac89-be22-4e8c-bf3e-3425f3e3d15d",
+  "publisherId": "abakion",
+  "offerId": "rob_ex_scheduler_connector",
+  "source": {
+    "name": "ROB-EX Scheduler Connector",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.rob_ex_scheduler_connector%7CPAPPID.c229ac89-be22-4e8c-bf3e-3425f3e3d15d",
+    "lastModified": "2026-05-04T13:04:07.8016939+00:00",
+    "appVersion": "28.0.202617.163099",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/rob-ex/#howto",
+    "sourceHash": "sha256:28ec58b40bac72152dd056f97ba8fc26324139f145ddbf3aa58c1e7cece2edac"
+  },
+  "mapping": {
+    "sourceHash": "sha256:28ec58b40bac72152dd056f97ba8fc26324139f145ddbf3aa58c1e7cece2edac",
+    "mappedOn": null,
+    "summary": "Integrates BC production with ROB-EX Gantt scheduling",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Out-of-the-box integration between BC and ROB-EX Scheduler",
+      "Pull fresh BC data into ROB-EX Gantt chart",
+      "For discrete, process and project manufacturing"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "ROB-EX Scheduler"
+    ],
+    "requires": [
+      "ROB-EX Scheduler"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

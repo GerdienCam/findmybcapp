@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-collectiveshipments|PAPPID.1474dca7-e9ab-4061-8a11-1839acfbc2cf",
+  "guid": "1474dca7-e9ab-4061-8a11-1839acfbc2cf",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-collectiveshipments",
+  "source": {
+    "name": "BeyondCollectiveShipments",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-collectiveshipments%7CPAPPID.1474dca7-e9ab-4061-8a11-1839acfbc2cf",
+    "lastModified": "2026-04-22T12:01:57.6100607+00:00",
+    "appVersion": "2026.4.235.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/collectiveshipments/index.html",
+    "sourceHash": "sha256:766c7632f99928ef82c5d10ab4307bd9f0190d6c522711a63ac7946970041809"
+  },
+  "mapping": {
+    "sourceHash": "sha256:766c7632f99928ef82c5d10ab4307bd9f0190d6c522711a63ac7946970041809",
+    "mappedOn": null,
+    "summary": "Creates and prints collective shipments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Collective shipment document combining several sales and service shipments",
+      "Number of packages and dimensions for the carrier",
+      "Pre-text, post-text, HTML and free text on the report",
+      "Extension to BEYOND template-based report designer"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "BeyondReports"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

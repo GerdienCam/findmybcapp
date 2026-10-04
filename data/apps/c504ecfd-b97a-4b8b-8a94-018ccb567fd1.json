@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.pfformula1687443475154|AID.scan|PAPPID.c504ecfd-b97a-4b8b-8a94-018ccb567fd1",
+  "guid": "c504ecfd-b97a-4b8b-8a94-018ccb567fd1",
+  "publisherId": "pfformula1687443475154",
+  "offerId": "scan",
+  "source": {
+    "name": "Scan",
+    "publisher": "P/f Formula",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pfformula1687443475154%7CAID.scan%7CPAPPID.c504ecfd-b97a-4b8b-8a94-018ccb567fd1",
+    "lastModified": "2026-06-11T10:01:31.1729648+00:00",
+    "appVersion": "28.0.0.54",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.formula.fo/contact/",
+    "sourceHash": "sha256:b4eda871824062ea12e90da97c5b8b74025bd75d4c28097dbd8626195a6f2067"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b4eda871824062ea12e90da97c5b8b74025bd75d4c28097dbd8626195a6f2067",
+    "mappedOn": null,
+    "summary": "Mobile WMS via browser on scanners and phones",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-stock-counting",
+      "ng-barcode-labels",
+      "ng-proj-materials-subcontract"
+    ],
+    "claims": [
+      "Runs on Android scanners and Android/iOS smartphones via web browser",
+      "Picking for sales orders",
+      "Receiving from purchase orders",
+      "Inventory counting",
+      "Registers item supplies to BC projects",
+      "Prints item labels",
+      "Shows item quantity and placement",
+      "Transactions recorded directly in BC"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

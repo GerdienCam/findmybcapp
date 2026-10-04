@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.navx|AID.1385a535-b738-4a53-b6e0-1bf8c2f555f0|PAPPID.afc88ae1-eeb5-403f-b6b1-cbeb5d724f49",
+  "guid": "afc88ae1-eeb5-403f-b6b1-cbeb5d724f49",
+  "publisherId": "navx",
+  "offerId": "1385a535-b738-4a53-b6e0-1bf8c2f555f0",
+  "source": {
+    "name": "National Accounts",
+    "publisher": "NAV-X",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navx%7CAID.1385a535-b738-4a53-b6e0-1bf8c2f555f0%7CPAPPID.afc88ae1-eeb5-403f-b6b1-cbeb5d724f49",
+    "lastModified": "2026-09-11T20:54:38.4199778+00:00",
+    "appVersion": "1.1.161.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.nav-x.com/en/business-central/national-accounts/index.html",
+    "sourceHash": "sha256:644af34aeda4d2a6b5312747e283d453ba9350e0d7a540314cb02f7e20ff1343"
+  },
+  "mapping": {
+    "sourceHash": "sha256:644af34aeda4d2a6b5312747e283d453ba9350e0d7a540314cb02f7e20ff1343",
+    "mappedOn": null,
+    "summary": "Applies cash receipts across national account customers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Applies a payment from one customer to the open invoice of another customer in the same buying group",
+      "Supports national accounts, chains and buying groups"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

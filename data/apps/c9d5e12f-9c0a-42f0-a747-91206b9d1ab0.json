@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.paypal|PAPPID.c9d5e12f-9c0a-42f0-a747-91206b9d1ab0",
+  "guid": "c9d5e12f-9c0a-42f0-a747-91206b9d1ab0",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "paypal",
+  "source": {
+    "name": "Paypal Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.paypal%7CPAPPID.c9d5e12f-9c0a-42f0-a747-91206b9d1ab0",
+    "lastModified": "2025-12-12T04:58:46.3568955+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:e8e03869759cc26a27a1ffa904d348459c80b9ee007a99737123ef67041f009d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e8e03869759cc26a27a1ffa904d348459c80b9ee007a99737123ef67041f009d",
+    "mappedOn": null,
+    "summary": "Imports PayPal transactions and posts cash receipts",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Downloads PayPal transactions and posts bank cash receipts",
+      "Syncs transactions, invoices, subscriptions and products with PayPal",
+      "Syncs and auto-processes via job queue"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PayPal"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

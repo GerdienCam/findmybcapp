@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.acadonag1632226494919|AID.acadon_edi_for_timber365|PAPPID.c5358192-a320-4ad4-8b9a-df8469d23d28",
+  "guid": "c5358192-a320-4ad4-8b9a-df8469d23d28",
+  "publisherId": "acadonag1632226494919",
+  "offerId": "acadon_edi_for_timber365",
+  "source": {
+    "name": "acadon EDI for Timber365",
+    "publisher": "acadon AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.acadonag1632226494919%7CAID.acadon_edi_for_timber365%7CPAPPID.c5358192-a320-4ad4-8b9a-df8469d23d28",
+    "lastModified": "2026-09-15T13:39:47.4175999+00:00",
+    "appVersion": "3.0.0.1026321",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.acadon.de/products/timber/en-US/index.html",
+    "sourceHash": "sha256:a2e5bfadebf5da4c753332c03d0fc8ca695cb585c4db2949804fd8487b91a8d7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a2e5bfadebf5da4c753332c03d0fc8ca695cb585c4db2949804fd8487b91a8d7",
+    "mappedOn": null,
+    "summary": "EDI exchange of orders and invoices for timber industry",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-metal-timber-materials"
+    ],
+    "claims": [
+      "Exchanges item data, order data and invoices with partners via EDI",
+      "Uses EANCOM standard messages, 46 message types",
+      "Covers procurement and order processing"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "NL",
+      "NO"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "nl"
+    ],
+    "industries": [
+      "Timber"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "acadon Timber365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

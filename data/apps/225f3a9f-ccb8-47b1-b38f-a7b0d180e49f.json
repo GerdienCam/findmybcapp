@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.youngpartners1588093205397|AID.navitrans_365_package|PAPPID.225f3a9f-ccb8-47b1-b38f-a7b0d180e49f",
+  "guid": "225f3a9f-ccb8-47b1-b38f-a7b0d180e49f",
+  "publisherId": "youngpartners1588093205397",
+  "offerId": "navitrans_365_package",
+  "source": {
+    "name": "Navitrans 365 Package",
+    "publisher": "Navitrans",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_package%7CPAPPID.225f3a9f-ccb8-47b1-b38f-a7b0d180e49f",
+    "lastModified": "2026-09-30T20:05:02.4792203+00:00",
+    "appVersion": "28.5.0.80065",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navitrans.eu/our-services/tms/",
+    "sourceHash": "sha256:c536e89f749b169f3b8d82c6257ba482da88ad4526fe4148ec13006f412077ad"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c536e89f749b169f3b8d82c6257ba482da88ad4526fe4148ec13006f412077ad",
+    "mappedOn": null,
+    "summary": "Tracks empty packaging in transport",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Follows up empty packaging during transport",
+      "Registers movements/exchanges of packages such as pallets via package receipts",
+      "Printable package receipt for driver completion",
+      "Several units of measure can be treated as empty package",
+      "Manual and automatic creation of package receipts by customer, action, address",
+      "Empty package balances for customers, transport addresses and resources",
+      "Quantity limits on empty packages per package code, customer, transport or resource",
+      "Overviews of empty packages, both stored and awaiting return, per customer, address, resource",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "SE",
+      "SI"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Navitrans 365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

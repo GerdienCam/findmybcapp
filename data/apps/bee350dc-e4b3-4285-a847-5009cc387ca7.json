@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.msebusinessconsultinggmbh1706867067764|AID.mse_framework|PAPPID.bee350dc-e4b3-4285-a847-5009cc387ca7",
+  "guid": "bee350dc-e4b3-4285-a847-5009cc387ca7",
+  "publisherId": "msebusinessconsultinggmbh1706867067764",
+  "offerId": "mse_framework",
+  "source": {
+    "name": "mseFramework",
+    "publisher": "mse Business Consulting GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.msebusinessconsultinggmbh1706867067764%7CAID.mse_framework%7CPAPPID.bee350dc-e4b3-4285-a847-5009cc387ca7",
+    "lastModified": "2026-09-22T12:20:37.841231+00:00",
+    "appVersion": "27.5.0.20",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mse-group.com/documents/mse_framework_manual_de.pdf",
+    "sourceHash": "sha256:9b0e8f888725e68a895b7f105c663d94a10673d59cca2b5385846f8f4eea961b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9b0e8f888725e68a895b7f105c663d94a10673d59cca2b5385846f8f4eea961b",
+    "mappedOn": null,
+    "summary": "Configurable business process enhancement framework",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-custom-fields",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-master-data-sync",
+      "ng-allocation-picking",
+      "ng-production-planning"
+    ],
+    "claims": [
+      "Up to 20 configurable custom fields on master and transaction tables",
+      "Custom fields support data types, options, table relations, mandatory and value transfer between documents",
+      "Configurable document layouts with placeholders and multilingual report texts",
+      "Static and conditional content for invoices, confirmations and delivery notes",
+      "Structured quotations with numbering, headings, subtotals and page breaks",
+      "Synchronizes data between companies and separate BC databases",
+      "Shipping monitor with open sales orders and stock availability; create warehouse shipments from overview",
+      "Fast registration of production time, output and component scrap",
+      "Barcode-supported production reporting",
+      "Reopen completed production orders for corrections",
+      "Batch completion of released production orders",
+      "Production orders reference sales orders",
+      "Default time grouping set for Item Availability by Event"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

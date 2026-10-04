@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.pinetworks|AID.basicbudgetcontrol|PAPPID.ea861665-3376-4260-bdb9-f2150bd0f8ca",
+  "guid": "ea861665-3376-4260-bdb9-f2150bd0f8ca",
+  "publisherId": "pinetworks",
+  "offerId": "basicbudgetcontrol",
+  "source": {
+    "name": "Basic Budget Control",
+    "publisher": "Pinetworks",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pinetworks%7CAID.basicbudgetcontrol%7CPAPPID.ea861665-3376-4260-bdb9-f2150bd0f8ca",
+    "lastModified": "2026-08-23T07:30:20.1153017+00:00",
+    "appVersion": "4.25.1.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.pinetworks.net/budget-control",
+    "sourceHash": "sha256:ca18c8c9ccf6986655b3952e184fa74b6c0fc9274af9f173c338d2dcf60607da"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ca18c8c9ccf6986655b3952e184fa74b6c0fc9274af9f173c338d2dcf60607da",
+    "mappedOn": null,
+    "summary": "Enforces budget control on transactions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-budget-control",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-budget-build",
+      "ng-budget-vs-actual"
+    ],
+    "claims": [
+      "Budget control on purchase quotes, orders and invoices validated on two dimensions",
+      "Uses standard G/L budgets",
+      "Budget import via Excel",
+      "Multi-step budget reservations",
+      "Budget transfers with multi-approval workflow",
+      "Budget utilization statistics reports",
+      "Essentials and Premium supported"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.abakion|AID.shipmondo_shipping_connector|PAPPID.3cb685dd-eed3-46d8-aa19-0a3ceb913465",
+  "guid": "3cb685dd-eed3-46d8-aa19-0a3ceb913465",
+  "publisherId": "abakion",
+  "offerId": "shipmondo_shipping_connector",
+  "source": {
+    "name": "Shipmondo Shipping Connector",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.shipmondo_shipping_connector%7CPAPPID.3cb685dd-eed3-46d8-aa19-0a3ceb913465",
+    "lastModified": "2026-09-01T10:30:26.8077463+00:00",
+    "appVersion": "28.4.202636.175766",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/shipmondo/#howto",
+    "sourceHash": "sha256:37c3331ffb4bf67c7194fcb8cc2c288b2324c3ef7341b68a21ce2409e4c48c70"
+  },
+  "mapping": {
+    "sourceHash": "sha256:37c3331ffb4bf67c7194fcb8cc2c288b2324c3ef7341b68a21ce2409e4c48c70",
+    "mappedOn": null,
+    "summary": "Books freight via Shipmondo, prints labels, track and trace",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Creates waybills and arranges Shipmondo shipping with track & trace",
+      "Calculates weight, dimensions, volume and tariffs",
+      "Built on Shipping Manager app plus Power Automate connector",
+      "One waybill per delivery address with predefined packages",
+      "Arrange pickup from BC",
+      "Label and track & trace number saved on the waybill",
+      "Pickup number bundles several waybills"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Shipmondo",
+      "Power Automate"
+    ],
+    "requires": [
+      "Shipping Manager"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

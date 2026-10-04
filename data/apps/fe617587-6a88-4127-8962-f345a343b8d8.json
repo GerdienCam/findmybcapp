@@ -1,0 +1,83 @@
+{
+  "appId": "PUBID.bartolomerderag1639056596814|AID.edoc_module_brag_365|PAPPID.fe617587-6a88-4127-8962-f345a343b8d8",
+  "guid": "fe617587-6a88-4127-8962-f345a343b8d8",
+  "publisherId": "bartolomerderag1639056596814",
+  "offerId": "edoc_module_brag_365",
+  "source": {
+    "name": "brAG eDoc App",
+    "publisher": "bartolome röder AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bartolomerderag1639056596814%7CAID.edoc_module_brag_365%7CPAPPID.fe617587-6a88-4127-8962-f345a343b8d8",
+    "lastModified": "2026-09-18T05:28:26.8092746+00:00",
+    "appVersion": "28.6.4.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "http://docs.navision-beratung.de/de/edoc-app-online-help/latest",
+    "sourceHash": "sha256:8868a0a1c73ca1b2defdf61a84946c6b45d519c05b27e59e12dce694ad1070a5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8868a0a1c73ca1b2defdf61a84946c6b45d519c05b27e59e12dce694ad1070a5",
+    "mappedOn": null,
+    "summary": "Creates, receives and sends legally compliant e-invoices",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Receives, processes and sends electronic invoices; also supports Dynamics NAV",
+      "Formats: ZUGFeRD, XRechnung, ebInterface, FatturaPA, KSeF, Factur-X, FacturaE, OIOUBL, PEPPOL, RO e-Factura, UBL BE",
+      "Requires paid token and mapping",
+      "Custom fields read from inbound e-invoices into BC documents",
+      "Embeds extra attachments in hybrid ZUGFeRD/Factur-X PDFs",
+      "Imports purchase invoices/credit memos; exports sales and service invoices/credit memos",
+      "Generic mapping, own formats possible even outside EN 16931",
+      "Supports CII and UBL syntaxes",
+      "Incoming invoices checked and matched against preceding documents",
+      "Transmission via email, clearing houses, web portals, file exchange, PEPPOL, cloud services, API",
+      "Approval workflow before posting in Enterprise package"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GR",
+      "IT",
+      "LU",
+      "NL",
+      "NO",
+      "PL",
+      "RO",
+      "SE"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "PEPPOL"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

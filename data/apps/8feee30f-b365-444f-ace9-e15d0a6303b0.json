@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-universal-webshop|PAPPID.8feee30f-b365-444f-ace9-e15d0a6303b0",
+  "guid": "8feee30f-b365-444f-ace9-e15d0a6303b0",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-universal-webshop",
+  "source": {
+    "name": "Powerblox Universal Webshop Connector",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-universal-webshop%7CPAPPID.8feee30f-b365-444f-ace9-e15d0a6303b0",
+    "lastModified": "2024-11-21T11:00:13.6717572+00:00",
+    "appVersion": "20.0.4.23142",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/universal_webshop_connector",
+    "sourceHash": "sha256:0febbfa55fa6fab2b8661e6f0649b04a5a8c780a2ab8155cb65e43d5ad838472"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0febbfa55fa6fab2b8661e6f0649b04a5a8c780a2ab8155cb65e43d5ad838472",
+    "mappedOn": null,
+    "summary": "Generic webshop data synchronization",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Works with webshops built on frameworks such as Symfony or Drupal",
+      "Webshop orders reach BC automatically and become sales orders after validation",
+      "Syncs orders from BC to the shop platform",
+      "Publishes item prices to the webshop",
+      "Syncs item inventory between BC and the online store",
+      "Makes BC sales documents downloadable as PDF on the webshop",
+      "Retrieves salespersons and their email addresses",
+      "Provides customer data incl. address, VAT number, contact, shipping address",
+      "Retrieves posted sales invoices and credit memos",
+      "Available for Belgium"
+    ],
+    "countries": [
+      "BE"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [
+      "Symfony",
+      "Drupal"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

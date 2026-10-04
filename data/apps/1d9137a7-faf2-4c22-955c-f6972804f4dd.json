@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.bydynamicsbv1640103983705|AID.btd_bdy|PAPPID.1d9137a7-faf2-4c22-955c-f6972804f4dd",
+  "guid": "1d9137a7-faf2-4c22-955c-f6972804f4dd",
+  "publisherId": "bydynamicsbv1640103983705",
+  "offerId": "btd_bdy",
+  "source": {
+    "name": "Bank Transaction Details",
+    "publisher": "bydynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bydynamicsbv1640103983705%7CAID.btd_bdy%7CPAPPID.1d9137a7-faf2-4c22-955c-f6972804f4dd",
+    "lastModified": "2026-05-07T04:03:24.628743+00:00",
+    "appVersion": "26.4.38.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://github.com/bydynamics/AL-BankTransactionDetails-Support",
+    "sourceHash": "sha256:c207ca0cda1d858c12f6cb34fbc6662497699092a0653acb3d38b900f3a2c396"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c207ca0cda1d858c12f6cb34fbc6662497699092a0653acb3d38b900f3a2c396",
+    "mappedOn": null,
+    "summary": "Shows bank transaction details as a factbox",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Bank Transactions FactBox for imported bank statement lines",
+      "Available in all BC countries"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_sdrp|PAPPID.4bdd5b80-97ad-43ba-8229-f3a5a0dd7e85",
+  "guid": "4bdd5b80-97ad-43ba-8229-f3a5a0dd7e85",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_sdrp",
+  "source": {
+    "name": "Sales Delivery Route Plan",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_sdrp%7CPAPPID.4bdd5b80-97ad-43ba-8229-f3a5a0dd7e85",
+    "lastModified": "2025-11-03T10:47:11.8847088+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-sales-delivery-route-plan/",
+    "sourceHash": "sha256:924a177e0846bf53620de2c6b14192763020178471dbc111295555d18d6a5c66"
+  },
+  "mapping": {
+    "sourceHash": "sha256:924a177e0846bf53620de2c6b14192763020178471dbc111295555d18d6a5c66",
+    "mappedOn": null,
+    "summary": "Shows delivery routes on maps",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Groups sales shipments into a delivery plan",
+      "Shows the route on Google Maps or Bing Maps",
+      "Calculates expected travel distance and duration with Bing Maps",
+      "Totals gross/net weight, packages and volume of the plan",
+      "Prints a summary of sales delivery plans"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Google Maps",
+      "Bing Maps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

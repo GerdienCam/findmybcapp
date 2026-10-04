@@ -1,0 +1,226 @@
+{
+  "id": "ng-gl-reconciliation",
+  "order": 56,
+  "label": "Making subledgers agree with the ledger",
+  "description": "Reconciling customer, vendor, inventory and fixed asset subledgers to the G/L and clearing matched G/L entries.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "medium",
+  "statements": [
+    "Making subledgers agree with the ledger",
+    "Reconciling customer, vendor, inventory and fixed asset subledgers to the G/L and clearing matched G/L entries.",
+    "The customer aging doesn't agree with the receivables account in the G/L",
+    "Inventory valuation report and the inventory G/L account are off by 40,000",
+    "Our AP control account and vendor balances don't match and we can't see why",
+    "subledger to GL reconciliation BC",
+    "Someone posted directly to a control account and now nothing reconciles",
+    "Is there an app that reconciles all the subledgers to the G/L automatically every month?",
+    "We need a balance reconciliation per account with sign-off for the auditor",
+    "Fixed asset register doesn't match the balance sheet",
+    "Our account reconciliations are done in Excel and stored on a shared drive",
+    "Work in progress on projects doesn't match what the G/L says",
+    "Find the entries causing the difference between inventory and G/L",
+    "Want a monthly balance sheet reconciliation tool with preparers and reviewers",
+    "Our clearing accounts are full of entries that cancel out but we can't mark them as matched",
+    "Is there an app for open item matching on G/L accounts in BC?",
+    "We need to see which entries on the suspense account are still open",
+    "G/L open entries apply",
+    "Transit account between the webshop and the bank never gets cleaned up",
+    "Apply G/L entries against each other like we do with customer entries",
+    "Salary clearing account has years of history and we only care about what's open",
+    "Want a list of unmatched items on the goods received not invoiced account",
+    "Our old system had open item G/L accounts and BC doesn't",
+    "Matching payments in transit on a G/L account",
+    "Auditor wants the composition of the balance on the clearing account",
+    "Automatically match entries on a G/L account with the same document number",
+    "Fixed asset balance in BC doesn't match the G/L account",
+    "Someone posted directly to the fixed asset G/L account without using an asset",
+    "How do we find the difference between the FA subledger and the balance sheet?",
+    "fixed asset reconciliation",
+    "Auditor asks us to prove the asset register ties to the trial balance",
+    "Depreciation in the FA ledger and the G/L differ by a few thousand",
+    "We need a check that blocks direct posting to fixed asset accounts",
+    "Month end reconciliation of assets takes a day",
+    "Is there a report that compares FA posting groups with G/L balances?",
+    "Assets acquired in one book but not posted to G/L",
+    "Migrated assets from the old system don't match opening balances",
+    "Reconcile assets in each company before consolidation"
+  ],
+  "questions": [
+    {
+      "id": "task",
+      "text": "What reconciliation job do you want help with?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Clearing open entries on G/L accounts (suspense, accruals, clearing accounts)",
+          "patterns": [
+            "appl(y|ies|ication)[^;]{0,40}(g/l|general ledger)",
+            "(g/l|general ledger)[^;]{0,30}(appl|match|settle|clear|link)",
+            "match debit and credit",
+            "open/closed (status|entries)",
+            "open-item",
+            "bill-to-bill",
+            "settle g/l",
+            "link(s)? g/l entries",
+            "clearing and suspense"
+          ]
+        },
+        {
+          "label": "Checking customer, vendor or inventory balances agree with the G/L",
+          "patterns": [
+            "subledger",
+            "inventory (subledger|to g/l)",
+            "to g/l (balance|accounts|reconciliation)",
+            "against g/l",
+            "g/l turnover",
+            "balance (preview|checks)"
+          ]
+        },
+        {
+          "label": "Confirming balances with customers and vendors",
+          "patterns": [
+            "balance statement",
+            "counterpart",
+            "account reconciliations for customers and vendors",
+            "sends reconciliations"
+          ]
+        },
+        {
+          "label": "Month-end close and balance sheet sign-off",
+          "patterns": [
+            "close (checklist|management|cycle|progress)",
+            "month-end",
+            "financial close",
+            "balance sheet (account|reconcil)",
+            "reviews at date",
+            "tracked reviews"
+          ]
+        },
+        {
+          "label": "Applying open customer and vendor entries",
+          "patterns": [
+            "unapplied entries",
+            "auto-apply for customer",
+            "customer/vendor application",
+            "apply entries across"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Clearing open entries on G/L accounts (suspense, accruals, clearing accounts)": 0.44,
+        "Checking customer, vendor or inventory balances agree with the G/L": 0.22,
+        "Confirming balances with customers and vendors": 0.07,
+        "Month-end close and balance sheet sign-off": 0.19,
+        "Applying open customer and vendor entries": 0.15
+      }
+    },
+    {
+      "id": "auto",
+      "text": "Should the app match entries automatically?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, automatic matching",
+          "patterns": [
+            "auto-?(match|apply|appl|reconcil)",
+            "automat\\w* (account |transaction )?(reconcil|match)",
+            "ai-powered",
+            "suggests entries",
+            "reconciles [^;]*automatic",
+            "auto-updates",
+            "automatically reconciles"
+          ]
+        },
+        {
+          "label": "Manual is fine",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, automatic matching": 0.3
+      }
+    },
+    {
+      "id": "schedule",
+      "text": "Should checks run on a schedule without anyone starting them?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, scheduled",
+          "patterns": [
+            "job queue",
+            "schedul",
+            "daily",
+            "recurring reconciliation"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, scheduled": 0.19
+      }
+    },
+    {
+      "id": "evidence",
+      "text": "Do auditors expect sign-off and documentation on reconciliations?",
+      "help": "Who reviewed what, with comments and attachments.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, we need review trail and documentation",
+          "patterns": [
+            "\\breview(s|er|ed)\\b|\\breview (at|of|and)",
+            "documentation",
+            "audit (log|trail)",
+            "approvals?",
+            "comment",
+            "attach (feedback|notes)",
+            "compliance",
+            "traceable"
+          ]
+        },
+        {
+          "label": "Not needed",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we need review trail and documentation": 0.3
+      }
+    },
+    {
+      "id": "partial",
+      "text": "Do entries often settle in several partial amounts?",
+      "help": "For example a loan repaid in instalments.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, partial settlement",
+          "patterns": [
+            "partial",
+            "remaining amount",
+            "unapplied amount",
+            "repayment",
+            "bill-wise"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, partial settlement": 0.22
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionlogistics|PAPPID.039f052f-b879-425f-8f06-bbc242e47cc5",
+  "guid": "039f052f-b879-425f-8f06-bbc242e47cc5",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionlogistics",
+  "source": {
+    "name": "VisionLogistics",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionlogistics%7CPAPPID.039f052f-b879-425f-8f06-bbc242e47cc5",
+    "lastModified": "2026-03-27T14:31:50.7842174+00:00",
+    "appVersion": "4.0.0.13",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.visionpeople.dk/help/039f052f-b879-425f-8f06-bbc242e47cc5/index",
+    "sourceHash": "sha256:f2e9120b5b55452013c854e641169ba941fe4ae19eea1ed8da75461493b11d45"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f2e9120b5b55452013c854e641169ba941fe4ae19eea1ed8da75461493b11d45",
+    "mappedOn": null,
+    "summary": "Books shipping agents and prints freight labels",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Book shipments from sales orders or posted shipments",
+      "Produces labels as PDF files or through LogiSnap Print Agent",
+      "Multiple colli per shipment with templates",
+      "Tracking links from shipping agent",
+      "LogiSnap accounts can differ for each responsibility center or location",
+      "Manual, automatic on posting, or journal-based booking",
+      "Drop point and parcel locker support",
+      "Customs declaration with VAT numbers and reason for export",
+      "Carriers incl. PostNord, DHL, GLS, DSV, Bring, UPS, FedEx",
+      "Requires LogiSnap subscription"
+    ],
+    "countries": [
+      "DK",
+      "NO"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "LogiSnap",
+      "PostNord",
+      "DHL",
+      "GLS",
+      "Bring",
+      "DSV",
+      "DPD",
+      "FedEx",
+      "UPS"
+    ],
+    "requires": [
+      "LogiSnap"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

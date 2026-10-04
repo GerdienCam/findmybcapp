@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.codeunit|AID.connect2akeneo|PAPPID.28590fd4-23ee-4923-b1aa-7cb347e46db1",
+  "guid": "28590fd4-23ee-4923-b1aa-7cb347e46db1",
+  "publisherId": "codeunit",
+  "offerId": "connect2akeneo",
+  "source": {
+    "name": "connect2Akeneo",
+    "publisher": "Codeunit",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2akeneo%7CPAPPID.28590fd4-23ee-4923-b1aa-7cb347e46db1",
+    "lastModified": "2026-08-24T09:19:33.8500131+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.codeunit.io/get-in-touch",
+    "sourceHash": "sha256:ee6321f3d0ea74cd685c80916cf27e3c8c61983cc033ffeffd93b73427f31504"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ee6321f3d0ea74cd685c80916cf27e3c8c61983cc033ffeffd93b73427f31504",
+    "mappedOn": null,
+    "summary": "Syncs products, variants, attributes and images to Akeneo PIM",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-assortment-catalogs"
+    ],
+    "claims": [
+      "Creates/updates Akeneo products from BC items with attribute values, locales and channel scope",
+      "Supports flat-product and product-model modes with default family",
+      "Maintains Akeneo product models and variant products automatically",
+      "Creates missing single/multi-select attribute options automatically",
+      "Transfers product images from Akeneo to BC on demand by streaming",
+      "Insert-only attributes protect existing Akeneo enrichments",
+      "Configurable default attribute values for new products",
+      "OmniConnect Portal to monitor flows, get notified and resubmit failed transactions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Akeneo"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

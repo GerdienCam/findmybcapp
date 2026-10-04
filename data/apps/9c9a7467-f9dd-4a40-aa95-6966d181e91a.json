@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.newtechnologyresearch|AID.docusign_salesquote|PAPPID.9c9a7467-f9dd-4a40-aa95-6966d181e91a",
+  "guid": "9c9a7467-f9dd-4a40-aa95-6966d181e91a",
+  "publisherId": "newtechnologyresearch",
+  "offerId": "docusign_salesquote",
+  "source": {
+    "name": "DocuSign Sales Quote for Dynamics 365 Business Central",
+    "publisher": "New Technology Research",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.newtechnologyresearch%7CAID.docusign_salesquote%7CPAPPID.9c9a7467-f9dd-4a40-aa95-6966d181e91a",
+    "lastModified": "2026-09-07T06:11:07.8845595+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://ntribs.notion.site/DocuSign-for-Business-Central-Sales-Quotes-1ab3995661de80848177f863771d4a96?pvs=4",
+    "sourceHash": "sha256:a5fc634c743bf06f40f4fbcf901455f228a8d7a96380c9536362be4529d5af80"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a5fc634c743bf06f40f4fbcf901455f228a8d7a96380c9536362be4529d5af80",
+    "mappedOn": null,
+    "summary": "Sends quotes and contracts for signature via DocuSign",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "DocuSign button on Sales Quote page creates an envelope",
+      "Uses a DocuSign template as the document to sign",
+      "Upload more documents and add signature tabs",
+      "View signature status: received, viewed, completed",
+      "Download completed signature document",
+      "Void a signature",
+      "Send from a single account or per-user email",
+      "Requires separate DocuSign subscription",
+      "Priced at $4/user/month or $40/user/year",
+      "No longer receives updates"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "DocuSign"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.yaveon|AID.pe365dms|PAPPID.92b2743f-5c9a-4073-b325-29fe9862b61d",
+  "guid": "92b2743f-5c9a-4073-b325-29fe9862b61d",
+  "publisherId": "yaveon",
+  "offerId": "pe365dms",
+  "source": {
+    "name": "Yaveon 365 DMS Connect",
+    "publisher": "Yaveon GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pe365dms%7CPAPPID.92b2743f-5c9a-4073-b325-29fe9862b61d",
+    "lastModified": "2026-09-16T17:00:54.6738943+00:00",
+    "appVersion": "13.5.131.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/dms/index.html",
+    "sourceHash": "sha256:a92d6ca3aaddeba6d052ed5497a8a6227122c17ff0179d379b32cfcd06857b0b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a92d6ca3aaddeba6d052ed5497a8a6227122c17ff0179d379b32cfcd06857b0b",
+    "mappedOn": null,
+    "summary": "Archives BC documents in DMS systems",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Archives documents automatically in background or at printing",
+      "Adds metadata before transfer to archive",
+      "DropZone drag-and-drop to attach documents to BC processes",
+      "Open DMS documents in BC with one click as preview",
+      "Supports d.velop documents (SaaS), d.velop d3ecm and SharePoint Online/On-Prem",
+      "Metadata can include line info such as lot or project numbers",
+      "Follows the document chain from posted invoice to blanket orders",
+      "Audit-proof storage"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "d.velop documents",
+      "d.velop d3ecm",
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.team-vision-bulgaria|AID.tv_edi|PAPPID.cfc6971c-f472-4be6-9855-4aea4eb7e643",
+  "guid": "cfc6971c-f472-4be6-9855-4aea4eb7e643",
+  "publisherId": "team-vision-bulgaria",
+  "offerId": "tv_edi",
+  "source": {
+    "name": "Comarch EDI Integration",
+    "publisher": "Team VISION - BULGARIA Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.team-vision-bulgaria%7CAID.tv_edi%7CPAPPID.cfc6971c-f472-4be6-9855-4aea4eb7e643",
+    "lastModified": "2026-06-16T07:12:27.2032986+00:00",
+    "appVersion": "27.0.2606.01",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://team-vision.bg/en/support/",
+    "sourceHash": "sha256:614754e16db685def0792706d8dff13f3bec6441e570dc51d5e6937fc273aa3c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:614754e16db685def0792706d8dff13f3bec6441e570dc51d5e6937fc273aa3c",
+    "mappedOn": null,
+    "summary": "Sales document exchange via Comarch EDI",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Integrates with the Comarch EDI platform",
+      "Compliant with ELTRADE file structure requirements in Bulgaria",
+      "Connects the EDI service via web services",
+      "Exchanges purchase orders, shipping documents, delivery protocols and invoices with retail chains",
+      "Imports EDI purchase orders and automatically creates sales orders",
+      "Maps customer and venue details, delivery dates, products and units from orders",
+      "Transfers order details to the warehouse for delivery preparation",
+      "One-click setup per retail chain",
+      "Option to exchange files manually"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Comarch EDI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

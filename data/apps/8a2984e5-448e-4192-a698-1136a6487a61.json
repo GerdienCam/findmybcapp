@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.advanced-general-ledger-app|PAPPID.8a2984e5-448e-4192-a698-1136a6487a61",
+  "guid": "8a2984e5-448e-4192-a698-1136a6487a61",
+  "publisherId": "fenwicksoftware",
+  "offerId": "advanced-general-ledger-app",
+  "source": {
+    "name": "Advanced General Ledger",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.advanced-general-ledger-app%7CPAPPID.8a2984e5-448e-4192-a698-1136a6487a61",
+    "lastModified": "2026-08-31T00:33:27.0187374+00:00",
+    "appVersion": "28.0.260818.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/advanced-general-ledger/docs/",
+    "sourceHash": "sha256:d8ae34153e334f2e29a5e7b23960585730c18f7d041ad6c80dbe33a865afb511"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d8ae34153e334f2e29a5e7b23960585730c18f7d041ad6c80dbe33a865afb511",
+    "mappedOn": null,
+    "summary": "General ledger access restrictions, traceability and journal tools",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-journals",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-permissions",
+      "ng-ux-data-quality",
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "Restricts viewing of the chart of accounts",
+      "Bulk disables direct posting on G/L accounts",
+      "Shows all dimension fields on G/L entries",
+      "Applies G/L entries to reconcile clearing and suspense accounts",
+      "Exports general journals to Excel and imports them back for posting",
+      "Posting date controls: Always Allow Posting Today and Posting Date Posting Action",
+      "Checks for duplicate external document numbers / vendor invoice numbers"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

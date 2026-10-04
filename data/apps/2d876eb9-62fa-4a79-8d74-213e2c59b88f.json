@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.sbcdynamicserp1637715412860|AID.acumensbcnavcostingtoolboxnw|PAPPID.2d876eb9-62fa-4a79-8d74-213e2c59b88f",
+  "guid": "2d876eb9-62fa-4a79-8d74-213e2c59b88f",
+  "publisherId": "sbcdynamicserp1637715412860",
+  "offerId": "acumensbcnavcostingtoolboxnw",
+  "source": {
+    "name": "Acumens Costing & Inventory Management Toolbox (NW)",
+    "publisher": "SBC Dynamics ERP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumensbcnavcostingtoolboxnw%7CPAPPID.2d876eb9-62fa-4a79-8d74-213e2c59b88f",
+    "lastModified": "2026-09-14T06:27:14.4267185+00:00",
+    "appVersion": "28.1023.1.3",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.sbcdynamicserp.com/costing-inventory-management-toolbox-business-central/",
+    "sourceHash": "sha256:ba5f3d244492012209fdddc6ad0ce6f74ae8cb9674ad7fed93e8b5bfa4a3b00d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ba5f3d244492012209fdddc6ad0ce6f74ae8cb9674ad7fed93e8b5bfa4a3b00d",
+    "mappedOn": null,
+    "summary": "Inventory costing corrections and reconciliation tools",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-period-close",
+      "ng-ux-correct-posted"
+    ],
+    "claims": [
+      "Changes an item's costing method without recreating the item",
+      "On costing method change, handles unit cost updates, ledger entries and revaluation journals",
+      "Enhanced inventory to G/L reconciliation report offsets returns against un-invoiced balances",
+      "Reverses and reposts value entries with correct unit cost",
+      "Undo posted revaluations, single or filtered batch",
+      "Reopen finished production orders to update BOM quantities or routings",
+      "Batch adjustments across multiple production orders",
+      "Corrects wrong posting dates, G/L accounts and unit costs",
+      "Supports Essential and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

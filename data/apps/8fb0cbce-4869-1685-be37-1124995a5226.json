@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.dedomindgmbh1768212430248|AID.advanced_notifications_new|PAPPID.8fb0cbce-4869-1685-be37-1124995a5226",
+  "guid": "8fb0cbce-4869-1685-be37-1124995a5226",
+  "publisherId": "dedomindgmbh1768212430248",
+  "offerId": "advanced_notifications_new",
+  "source": {
+    "name": "Advanced Notifications",
+    "publisher": "dedomind GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dedomindgmbh1768212430248%7CAID.advanced_notifications_new%7CPAPPID.8fb0cbce-4869-1685-be37-1124995a5226",
+    "lastModified": "2026-04-07T13:54:04.6493103+00:00",
+    "appVersion": "2.0.0.12",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dedomind.com/docs/advanced-notifications/",
+    "sourceHash": "sha256:a94c75ad82dd7fb0cd18977f4e3b2fc5a5228162820bb88d2d30e3deaaf9a8c6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a94c75ad82dd7fb0cd18977f4e3b2fc5a5228162820bb88d2d30e3deaaf9a8c6",
+    "mappedOn": null,
+    "summary": "Rule-based notifications on BC events via various channels",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-alerts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-failures"
+    ],
+    "claims": [
+      "Notification rules per table/entity with criteria for monitored events",
+      "Configure frequency, recipients and channel per notification",
+      "Alert when item stock falls below a threshold",
+      "Alert on status changes of purchase orders",
+      "Alert when a job queue entry fails",
+      "Duplicate existing rules",
+      "Statistics on how often an event occurred and last notification"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

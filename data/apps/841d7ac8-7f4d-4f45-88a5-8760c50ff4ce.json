@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.horsawayit|AID.hor_bonus|PAPPID.841d7ac8-7f4d-4f45-88a5-8760c50ff4ce",
+  "guid": "841d7ac8-7f4d-4f45-88a5-8760c50ff4ce",
+  "publisherId": "horsawayit",
+  "offerId": "hor_bonus",
+  "source": {
+    "name": "Bonus",
+    "publisher": "Horsa Way",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.horsawayit%7CAID.hor_bonus%7CPAPPID.841d7ac8-7f4d-4f45-88a5-8760c50ff4ce",
+    "lastModified": "2026-10-01T15:41:40.8720554+00:00",
+    "appVersion": "5.5.10000.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://blog.horsaway.it/app-bonus/",
+    "sourceHash": "sha256:ae74d47435910693a49ff84634d67142d58b2bd9ba0c34fa10e76deeb3b2334e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ae74d47435910693a49ff84634d67142d58b2bd9ba0c34fa10e76deeb3b2334e",
+    "mappedOn": null,
+    "summary": "Customer and supplier bonus calculations",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-rebates",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Automatic bonus calculation",
+      "Bonus types are variable percentages, precise amounts, scalar brackets and fixed brackets",
+      "Centralised conditions with criteria, thresholds, periods and methods",
+      "Large-scale distribution module: group bonuses, hierarchical volumes, turnover aggregation",
+      "Analyse bonus accruals and verify amounts",
+      "60-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

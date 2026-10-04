@@ -1,0 +1,79 @@
+{
+  "appId": "PUBID.fidesiousprobv1710687577357|AID.wms_scanning|PAPPID.51cdf025-58c2-4c64-b558-c873fe20a403",
+  "guid": "51cdf025-58c2-4c64-b558-c873fe20a403",
+  "publisherId": "fidesiousprobv1710687577357",
+  "offerId": "wms_scanning",
+  "source": {
+    "name": "WMS Scanning",
+    "publisher": "FidesiousPro",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fidesiousprobv1710687577357%7CAID.wms_scanning%7CPAPPID.51cdf025-58c2-4c64-b558-c873fe20a403",
+    "lastModified": "2026-08-21T20:55:51.3313093+00:00",
+    "appVersion": "3.4.0.126",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.fidesiouspro.nl/en/wms-scanning/help/",
+    "sourceHash": "sha256:3d3172400708f9380a14ac16ddd67cb52ec1462325008bd3288b45e66af93119"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3d3172400708f9380a14ac16ddd67cb52ec1462325008bd3288b45e66af93119",
+    "mappedOn": null,
+    "summary": "Barcode scanning for warehouse transactions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements",
+      "ng-stock-counting",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Real-time validated barcode scanning on Android devices without middleware",
+      "Every scan validated before posting",
+      "Runs fully inside Business Central",
+      "Scan-based support for internal movements, reclassification, shipping, picking, put away and receiving",
+      "Transfers between locations, bins or warehouses",
+      "Step-by-step picking and verification",
+      "Cycle counting and direct corrections",
+      "Shows item images on the scanner",
+      "Validates item, location, batch/serial, pallet and allowed actions per scan",
+      "Smartphone camera fallback when scanner unavailable",
+      "Active workflows continue after Wi-Fi drops",
+      "GS1 and SSCC barcode support",
+      "Batch, lot and expiration date handling",
+      "Pallet, container and logistic unit identification"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

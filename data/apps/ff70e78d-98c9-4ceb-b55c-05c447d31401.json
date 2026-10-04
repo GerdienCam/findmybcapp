@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.inforolotsa1609259327159|AID.io_finish_orders|PAPPID.ff70e78d-98c9-4ceb-b55c-05c447d31401",
+  "guid": "ff70e78d-98c9-4ceb-b55c-05c447d31401",
+  "publisherId": "inforolotsa1609259327159",
+  "offerId": "io_finish_orders",
+  "source": {
+    "name": "Finish Orders",
+    "publisher": "INFOROLOT SA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.inforolotsa1609259327159%7CAID.io_finish_orders%7CPAPPID.ff70e78d-98c9-4ceb-b55c-05c447d31401",
+    "lastModified": "2024-11-21T13:25:24.1503723+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "http://www.inforolot.com/finish-orders/",
+    "sourceHash": "sha256:892f54b477df510563dcbf8ba50d5ce5db1f1a655a457e46271c37600827a356"
+  },
+  "mapping": {
+    "sourceHash": "sha256:892f54b477df510563dcbf8ba50d5ce5db1f1a655a457e46271c37600827a356",
+    "mappedOn": null,
+    "summary": "Finishes outstanding sales and purchase orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Closes partially shipped/received sales or purchase orders so the remaining quantity is no longer expected",
+      "Finishes a single line of a sales or purchase order",
+      "Finish a whole sales order",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_cloud_pos_light|PAPPID.230f8c18-6612-4954-bd45-07cb12bad69e",
+  "guid": "230f8c18-6612-4954-bd45-07cb12bad69e",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_cloud_pos_light",
+  "source": {
+    "name": "Dynavision Cloud POS Light",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_cloud_pos_light%7CPAPPID.230f8c18-6612-4954-bd45-07cb12bad69e",
+    "lastModified": "2026-08-28T06:02:23.5222716+00:00",
+    "appVersion": "28.0.0.46238",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision%20Cloud%20POS%20Light%20Manual.pdf",
+    "sourceHash": "sha256:cea3f03abb278f14882ba9e634203a3c688254248dbe96554ae30c8984a72217"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cea3f03abb278f14882ba9e634203a3c688254248dbe96554ae30c8984a72217",
+    "mappedOn": null,
+    "summary": "Point of sale for Dynavision Drinkmaster365",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Registers POS sales and payments",
+      "Automated daily closing with daily invoice",
+      "Touch-friendly interface",
+      "Prints receipts and tickets",
+      "Barcode scanning of price tags, gift vouchers and supplier discount barcodes",
+      "Works with TOMRA reverse vending machines",
+      "Cash in and cash out registration"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [
+      "Beverage"
+    ],
+    "connectsTo": [
+      "TOMRA"
+    ],
+    "requires": [
+      "Dynavision Drinkmaster365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

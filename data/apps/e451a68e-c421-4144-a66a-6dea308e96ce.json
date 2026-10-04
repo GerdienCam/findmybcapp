@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.easysoftwareag1586262779954|AID.ecmbaseapplication_bc|PAPPID.e451a68e-c421-4144-a66a-6dea308e96ce",
+  "guid": "e451a68e-c421-4144-a66a-6dea308e96ce",
+  "publisherId": "easysoftwareag1586262779954",
+  "offerId": "ecmbaseapplication_bc",
+  "source": {
+    "name": "ECM Base Application",
+    "publisher": "EASY SOFTWARE AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.easysoftwareag1586262779954%7CAID.ecmbaseapplication_bc%7CPAPPID.e451a68e-c421-4144-a66a-6dea308e96ce",
+    "lastModified": "2026-09-17T10:52:08.0927125+00:00",
+    "appVersion": "28.3.260917.1090",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.easy-cloud.de/365BC-cloud/en-US/65284679.html",
+    "sourceHash": "sha256:3732fef29f812762a069732f0b4699c41421252716e1a0d8aed3bf500dea4eea"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3732fef29f812762a069732f0b4699c41421252716e1a0d8aed3bf500dea4eea",
+    "mappedOn": null,
+    "summary": "Document management and compliant archiving",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments",
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Context-based document display such as quote, order or invoice history in the transaction",
+      "Imports Outlook email attachments and assigns them to BC records",
+      "Search and process numbers auto-link matching documents",
+      "GoBD-compliant audit-proof archiving",
+      "ECM FactBox on many BC pages",
+      "Integrated preview of supported file types",
+      "Drag-and-drop document capture",
+      "ECM task scheduler for automated archiving",
+      "Supports Microsoft SharePoint as ECM",
+      "Extensible base layer for partners"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft SharePoint",
+      "Microsoft Outlook"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

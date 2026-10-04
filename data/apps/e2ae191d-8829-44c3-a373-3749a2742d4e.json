@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.digital-vouchers|PAPPID.e2ae191d-8829-44c3-a373-3749a2742d4e",
+  "guid": "e2ae191d-8829-44c3-a373-3749a2742d4e",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "digital-vouchers",
+  "source": {
+    "name": "Enforced Digital Vouchers",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.digital-vouchers%7CPAPPID.e2ae191d-8829-44c3-a373-3749a2742d4e",
+    "lastModified": "2024-11-21T16:01:46.0218428+00:00",
+    "appVersion": "24.4.21521.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/across-how-setup-digital-vouchers",
+    "sourceHash": "sha256:8adfe632e41a31ba708fb1e947d36746b1447cdd56839b77cc5d182abd087ba2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8adfe632e41a31ba708fb1e947d36746b1447cdd56839b77cc5d182abd087ba2",
+    "mappedOn": null,
+    "summary": "Enforces attached digital vouchers on documents and journals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-audit-compliance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments",
+      "ng-journals"
+    ],
+    "claims": [
+      "Requires attachments on specific transactions at posting",
+      "Configurable enforcement per document type",
+      "Configurable enforcement per journal type and source code",
+      "Automatically creates digital vouchers for some types",
+      "Review vouchers from posted documents and G/L entries",
+      "Prevents deletion of attached vouchers on posted transactions"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

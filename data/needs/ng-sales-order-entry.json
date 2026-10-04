@@ -1,0 +1,372 @@
+{
+  "id": "ng-sales-order-entry",
+  "order": 12,
+  "label": "Getting customer orders in and changed fast",
+  "description": "Entering sales orders quickly, handling changes, cancellations and call-offs on framework agreements, and order process rules and KPIs.",
+  "type": "bpc",
+  "area": "Sales & receivables",
+  "relevance": "high",
+  "statements": [
+    "Getting customer orders in and changed fast",
+    "Entering sales orders quickly, handling changes, cancellations and call-offs on framework agreements, and order process rules and KPIs.",
+    "Customers email us PDF purchase orders and we type every line into a sales order",
+    "Is there an app that reads customer order emails and creates sales orders in BC?",
+    "Shopify orders have to be keyed into Business Central manually every morning",
+    "EDI orders from our retail customers",
+    "Our biggest customer wants to send orders via EDI and we don't know where to start",
+    "Order entry is slow, too many clicks to add 40 lines to a sales order",
+    "Sales reps write orders on paper at customer visits and the office types them in later",
+    "We want a mobile app so our field sales reps can take orders offline at the customer",
+    "Paste order lines from Excel into a sales order",
+    "When a customer accepts a quote, converting it to an order loses the notes and the delivery details",
+    "Webshop orders arrive in BC without the shipping method and payment info",
+    "Need fast phone order entry where the clerk sees stock, last price and customer history on one screen",
+    "Customers order using their own item numbers, not ours",
+    "Our customers want to reorder what they bought last time without calling us",
+    "We sell to a sister company and have to create the same order twice, once in each company",
+    "Amazon marketplace orders into BC automatically",
+    "Order entry by barcode scanning for customer orders at trade shows",
+    "Selling a mix of stock items and installation services on the same customer order",
+    "Customers send their orders as CSV files exported from their own ERP",
+    "We get 300 small webshop orders a day and creating each sales order by hand is impossible",
+    "Customer keeps changing quantities after the order is released to the warehouse",
+    "No history of who changed what on a sales order",
+    "How can we see what changed on a customer order since the confirmation was sent?",
+    "sales order change log",
+    "When a customer moves the delivery date, we have to reopen the order and redo the whole thing",
+    "Want to send an updated order confirmation to the customer automatically after a change",
+    "We can't change a sales order once it's partly shipped without a lot of workarounds",
+    "Sales rep changed the price after the order was approved and nobody noticed",
+    "Customer wants to swap an item for another color on an open order",
+    "Changing the ship-to address on a customer order that's already picked",
+    "Need approval when someone lowers the price on a customer order",
+    "Order changes from customers arrive by email and get missed",
+    "When a customer cancels, we just delete the sales order and lose all history",
+    "Want a cancel reason on cancelled sales orders for reporting",
+    "Cancel the remaining backorder quantity for a customer without deleting the order",
+    "cancelled webshop order still open in BC",
+    "Customer cancelled but the warehouse already picked it, how do we unwind it?",
+    "Need to cancel a customer order that has a prepayment invoice already posted",
+    "Customer committed to 10,000 units this year and calls off 500 at a time, how do we track what's left?",
+    "blanket sales order call-off",
+    "We have yearly agreements with customers but can't see how much they have actually taken",
+    "Customer agreements with fixed prices for 12 months and scheduled deliveries",
+    "Want a warning when a customer's call-offs are running ahead or behind their commitment",
+    "Making orders from blanket sales orders in BC is clumsy, we need to release many call-offs quickly",
+    "Our automotive customer sends weekly delivery schedules against a frame contract",
+    "How do we invoice against a customer framework agreement and show the remaining balance?",
+    "Contracts with customers for a total value rather than a quantity",
+    "Customer forecasts and call-offs come by EDI against an annual agreement",
+    "Reserve stock for a customer's blanket agreement so it's there when they call off",
+    "At year end we need to see which customer agreements were underused",
+    "We have no agreed rules for who can create sales orders and what they must fill in",
+    "Every sales rep handles customer orders differently, we need one standard flow from entry to shipping",
+    "minimum order value rule for customers",
+    "Want to require a customer PO number and requested delivery date on every sales order before it can be released",
+    "How should we set up separate order rules for webshop orders versus phone orders from customers?",
+    "Need a policy that sales orders over a certain amount need manager approval before release",
+    "Order backlog report by customer and expected ship date",
+    "How long does it take from customer order to delivery on average?",
+    "on-time delivery rate to customers",
+    "What percentage of customer orders ship complete and correct the first time?",
+    "Customer return rate per item and return reason",
+    "Track how many customer orders get changed or cancelled and why"
+  ],
+  "questions": [
+    {
+      "id": "pain",
+      "text": "What slows your order handling down most?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Typing in orders that arrive by email, PDF or EDI",
+          "patterns": [
+            "pdf (sales )?orders",
+            "sales order pdfs",
+            "pdf purchase orders",
+            "handles pdf",
+            "data from pdf",
+            "inbox",
+            "customer requests received via email",
+            "excel orders by email",
+            "orders from email",
+            "voicemail",
+            "\\bedi\\b(?! services)",
+            "edifact",
+            "orders messages",
+            "peppol",
+            "order (import|intake)",
+            "imports? (approved |b2b |purchase )?(sales )?(orders|documents)",
+            "incoming (orders|sales)",
+            "buffer table",
+            "order staging"
+          ]
+        },
+        {
+          "label": "Closing orders that will never ship in full",
+          "patterns": [
+            "short[- ]clos",
+            "force close",
+            "finish (outstanding|a single|a whole)",
+            "closes? (partially|individual order lines|order lines|outstanding|the remaining)",
+            "close partially",
+            "leftover quantit",
+            "remaining quantit",
+            "backorder line cleanup",
+            "under-?shipment",
+            "won't ship",
+            "no backorder",
+            "auto-close",
+            "aligns? (ordered|quantities)",
+            "post (purchase and sales )?orders? without (creating )?invoic",
+            "close (sales/purchase )?orders without invoicing"
+          ]
+        },
+        {
+          "label": "Forgetting extra items, deposits or accessories",
+          "patterns": [
+            "related (items|goods|products|components)",
+            "additional (goods|items)",
+            "deposit",
+            "accessor",
+            "spare parts",
+            "cross-?sell",
+            "up-?sell",
+            "complementary",
+            "add-ons"
+          ]
+        },
+        {
+          "label": "Keeping track of open and late orders",
+          "patterns": [
+            "overview",
+            "dashboard",
+            "overdue",
+            "signal[- ]light",
+            "status messages",
+            "order statuses",
+            "order book",
+            "fulfillability",
+            "order tracking",
+            "availability lights",
+            "order lines across customers"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Typing in orders that arrive by email, PDF or EDI": 0.19,
+        "Closing orders that will never ship in full": 0.19,
+        "Forgetting extra items, deposits or accessories": 0.1,
+        "Keeping track of open and late orders": 0.08
+      }
+    },
+    {
+      "id": "channel",
+      "text": "How do most customer orders reach you?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Email with PDF or Excel",
+          "patterns": [
+            "pdf (sales )?orders",
+            "sales order pdfs",
+            "pdf purchase orders",
+            "handles pdf",
+            "data from pdf",
+            "inbox",
+            "customer requests received via email",
+            "excel orders by email",
+            "orders from email",
+            "voicemail"
+          ]
+        },
+        {
+          "label": "EDI from retail chains or big customers",
+          "patterns": [
+            "\\bedi\\b(?! services)",
+            "edifact",
+            "orders messages",
+            "peppol",
+            "trading partner"
+          ]
+        },
+        {
+          "label": "Field sales reps (on mobile) or phone",
+          "patterns": [
+            "field sales",
+            "sales reps?\\b",
+            "sales representatives",
+            "telesales",
+            "\\bcalls?\\b",
+            "call (plan|list|pool)s?",
+            "visit planning",
+            "meeting reports",
+            "mobile (quote|app|order)",
+            "orders on mobile",
+            "web and mobile"
+          ]
+        },
+        {
+          "label": "Webshop or B2B portal",
+          "patterns": [
+            "webshops?",
+            "b2b (webshop|portal|ordering|e-?commerce)",
+            "e-?commerce (orders|platform)",
+            "shopify",
+            "nuorder",
+            "colect",
+            "app4sales",
+            "third-party platforms",
+            "claims systems"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Email with PDF or Excel": 0.1,
+        "EDI from retail chains or big customers": 0.07,
+        "Field sales reps (on mobile) or phone": 0.1,
+        "Webshop or B2B portal": 0.11
+      }
+    },
+    {
+      "id": "special",
+      "text": "Would any of these help you?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "AI that reads incoming orders and drafts them",
+          "patterns": [
+            "\\bai\\b (reads|analy[sz]es)",
+            "using ai",
+            "ai-trained",
+            "intelligent data processing",
+            "claude"
+          ]
+        },
+        {
+          "label": "Call-offs from framework agreements (blanket orders)",
+          "patterns": [
+            "blanket",
+            "agreements? with customers",
+            "framework agreement",
+            "call-?off",
+            "standing orders",
+            "recurring sales",
+            "repeat/standing"
+          ]
+        },
+        {
+          "label": "Neither / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "AI that reads incoming orders and drafts them": 0.05,
+        "Call-offs from framework agreements (blanket orders)": 0.08
+      }
+    },
+    {
+      "id": "qty_diff",
+      "text": "When the shipped quantity differs from the order, what should happen?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Close the rest, no backorder",
+          "patterns": [
+            "short[- ]clos",
+            "force close",
+            "finish (outstanding|a single|a whole)",
+            "closes? (partially|individual order lines|order lines|outstanding|the remaining)",
+            "close partially",
+            "leftover quantit",
+            "under-?shipment",
+            "won't ship",
+            "no backorder",
+            "auto-close",
+            "aligns? (ordered|quantities)",
+            "backorder line cleanup"
+          ]
+        },
+        {
+          "label": "Allow shipping a bit more than ordered",
+          "patterns": [
+            "over-?ship",
+            "over[- ]?(and|/)[- ]?under",
+            "over-delivery",
+            "over-tolerance",
+            "exceed (the )?ordered",
+            "ship more than",
+            "surplus",
+            "over-receipt"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Close the rest, no backorder": 0.17,
+        "Allow shipping a bit more than ordered": 0.05
+      }
+    },
+    {
+      "id": "rules",
+      "text": "Do you need rules checked while an order is entered?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Minimum order amount or quantity",
+          "patterns": [
+            "minimum (order |sales )?(amount|value|quantit|fee|order)",
+            "order minimums",
+            "min and max quantity"
+          ]
+        },
+        {
+          "label": "Only certain items for certain customers",
+          "patterns": [
+            "permitted items",
+            "customer-specific item catalogs",
+            "restrict items",
+            "embargo",
+            "sanction",
+            "customer item rules",
+            "brand control",
+            "allowed items"
+          ]
+        },
+        {
+          "label": "Credit limit or stock availability",
+          "patterns": [
+            "credit limit",
+            "checks item availability",
+            "stock availability",
+            "availability lights",
+            "fulfillability"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Minimum order amount or quantity": 0.06,
+        "Only certain items for certain customers": 0.07,
+        "Credit limit or stock availability": 0.05
+      }
+    }
+  ]
+}

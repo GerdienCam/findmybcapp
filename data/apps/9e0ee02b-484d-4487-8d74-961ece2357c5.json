@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.idynbv|AID.connectit|PAPPID.9e0ee02b-484d-4487-8d74-961ece2357c5",
+  "guid": "9e0ee02b-484d-4487-8d74-961ece2357c5",
+  "publisherId": "idynbv",
+  "offerId": "connectit",
+  "source": {
+    "name": "ConnectIT 365",
+    "publisher": "IDYN B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idynbv%7CAID.connectit%7CPAPPID.9e0ee02b-484d-4487-8d74-961ece2357c5",
+    "lastModified": "2026-10-02T06:56:44.2570292+00:00",
+    "appVersion": "28.2.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://idyn.atlassian.net/wiki/spaces/S365M/pages/22151185/Introduction",
+    "sourceHash": "sha256:5d5d8bc987eec67dad8e1252e3533e4dadc8d101011564f414e7bae8bd7010bf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5d5d8bc987eec67dad8e1252e3533e4dadc8d101011564f414e7bae8bd7010bf",
+    "mappedOn": null,
+    "summary": "Data import and export framework",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-master-data-sync",
+      "ng-admin-data-migration",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Import/export any BC data including third-party solutions",
+      "Formats XML, JSON, CSV and Excel",
+      "Protocols SFTP, FTP, REST, SOAP, Dropbox, Azure Storage, Service Bus, Event Grid",
+      "Setup wizard for interfaces",
+      "AL functions are included for manipulating fields",
+      "Master data sync across companies and tenants",
+      "Scheduled automated imports and exports",
+      "Interface definitions from example JSON/XML files",
+      "Reports errors and shows a dashboard by mail or WhatsApp",
+      "Used for data migration from old NAV",
+      "No middleware required",
+      "First interface free"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SFTP",
+      "Azure Storage",
+      "Dropbox",
+      "Azure Event Grid",
+      "Azure Service Bus"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

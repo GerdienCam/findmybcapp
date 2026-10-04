@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.eit-it-for-pi-connector-app|PAPPID.53beb51a-ddd2-4e61-b0bc-b6d9024fed9d",
+  "guid": "53beb51a-ddd2-4e61-b0bc-b6d9024fed9d",
+  "publisherId": "fenwicksoftware",
+  "offerId": "eit-it-for-pi-connector-app",
+  "source": {
+    "name": "Easy Item Tracking for Pack-It",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.eit-it-for-pi-connector-app%7CPAPPID.53beb51a-ddd2-4e61-b0bc-b6d9024fed9d",
+    "lastModified": "2026-09-28T13:32:02.7638955+00:00",
+    "appVersion": "26.0.260311.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/easy-item-tracking/",
+    "sourceHash": "sha256:1107679b0195149049f52ff2a9abafcdf9aa6f9dfd9cfce86e33d8cb4f925eab"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1107679b0195149049f52ff2a9abafcdf9aa6f9dfd9cfce86e33d8cb4f925eab",
+    "mappedOn": null,
+    "summary": "Connects Pack-It packing with Easy Item Tracking",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Connects Pack-It and Easy Item Tracking"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Fenwick Pack-It",
+      "Fenwick Easy Item Tracking"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Connector app between two Fenwick apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

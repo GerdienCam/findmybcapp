@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.bcsitera|AID.factoring|PAPPID.8a63ff43-fab8-4d71-8faa-7de26106e5e1",
+  "guid": "8a63ff43-fab8-4d71-8faa-7de26106e5e1",
+  "publisherId": "bcsitera",
+  "offerId": "factoring",
+  "source": {
+    "name": "Invoice Factoring",
+    "publisher": "DIGMATIX",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.factoring%7CPAPPID.8a63ff43-fab8-4d71-8faa-7de26106e5e1",
+    "lastModified": "2026-04-27T03:00:02.8906439+00:00",
+    "appVersion": "20.0.26106.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.itera.ee/apps/factoring/docs/en-US/help",
+    "sourceHash": "sha256:13a62d873878d6b016b6578dcdc2f712d4626f7ee860e5290193a1c3cef99f59"
+  },
+  "mapping": {
+    "sourceHash": "sha256:13a62d873878d6b016b6578dcdc2f712d4626f7ee860e5290193a1c3cef99f59",
+    "mappedOn": null,
+    "summary": "Manages factoring of sales invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Configurable factoring agreements",
+      "Generates sales invoice list in Swedbank file format",
+      "Overview of transmitted receivables and payment status",
+      "Recourse and non-recourse factoring",
+      "Assignment note on invoice in customer language",
+      "Imports factor XML and generates journal lines incl. fees, VAT and interest",
+      "Customer or contract-based factoring limits"
+    ],
+    "countries": [
+      "EE"
+    ],
+    "languages": [
+      "en",
+      "et",
+      "fi"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Swedbank"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

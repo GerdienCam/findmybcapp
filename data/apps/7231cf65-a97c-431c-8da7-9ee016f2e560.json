@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex088_eospowerbiconnector|PAPPID.7231cf65-a97c-431c-8da7-9ee016f2e560",
+  "guid": "7231cf65-a97c-431c-8da7-9ee016f2e560",
+  "publisherId": "eos_solutions",
+  "offerId": "ex088_eospowerbiconnector",
+  "source": {
+    "name": "EOS Power Business Intelligence connector",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex088_eospowerbiconnector%7CPAPPID.7231cf65-a97c-431c-8da7-9ee016f2e560",
+    "lastModified": "2026-04-14T07:38:52.2330279+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/eos-power-business-intelligence-connector.html",
+    "sourceHash": "sha256:af6d6e17f555675ba62d1f276f579f1b7de15e59ad0497d462da5ffb51254fb5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:af6d6e17f555675ba62d1f276f579f1b7de15e59ad0497d462da5ffb51254fb5",
+    "mappedOn": null,
+    "summary": "Exposes sales data to Power BI sales activator app",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-analytics"
+    ],
+    "claims": [
+      "Organizes BC sales data for KUMAVISION PowerBI Sales Activator",
+      "Connects Power BI and Business Central",
+      "Mandatory prerequisite for PowerBI Sales Activator"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI",
+      "KUMAVISION PowerBI Sales Activator"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

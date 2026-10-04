@@ -1,0 +1,279 @@
+{
+  "id": "ng-fa-register",
+  "order": 30,
+  "label": "Keeping our fixed asset register accurate",
+  "description": "Classifying assets, getting acquisitions onto the register, keeping asset cards, insurance, transfers and improvements current, and knowing what we own and where.",
+  "type": "bpc",
+  "area": "Fixed assets & maintenance",
+  "relevance": "high",
+  "statements": [
+    "Keeping our fixed asset register accurate",
+    "Classifying assets, getting acquisitions onto the register, keeping asset cards, insurance, transfers and improvements current, and knowing what we own and where.",
+    "Our fixed asset list is one long list with no way to group vehicles, IT and machinery",
+    "How should we set up FA classes and subclasses in BC?",
+    "asset categories setup",
+    "We want to tag every asset with which building and which department it sits in",
+    "Accountant wants laptops, furniture and vans reported separately but everything is lumped together",
+    "Is there an app that adds more fields to the fixed asset card, like serial number, model and supplier warranty?",
+    "We need to split tangible and intangible assets, software licenses are mixed in with forklifts",
+    "Can we classify assets by business unit so each MD sees only their own?",
+    "Low value items like phones, do we register them as assets or not, and how do we flag them?",
+    "fixed asset location codes",
+    "Our auditors asked us to group assets by type for the notes to the accounts and we can't filter that way in BC",
+    "Want a standard naming and numbering scheme for assets across all our companies",
+    "We forget to create the asset card before the invoice arrives so it ends up as an expense",
+    "How do we post a supplier invoice directly to a fixed asset in BC?",
+    "The acquisition cost on the asset doesn't match the invoice because freight was posted separately",
+    "We bought 25 laptops on one invoice and need 25 separate assets",
+    "Is there an app that suggests which purchase invoice lines should be capitalized?",
+    "capitalize asset from purchase invoice",
+    "Accountant reviews the expense accounts at year end to find things that should have been assets",
+    "We are moving to BC and need to bring in 600 assets with their history",
+    "Opening balances for fixed assets from our old system, how do we import them?",
+    "Creating fixed asset cards one by one takes forever",
+    "Assets bought in foreign currency get the wrong value",
+    "Our accounts payable person doesn't know when an invoice line is an asset",
+    "We want the asset card created automatically when we receive the goods",
+    "FA G/L journal acquisition posting",
+    "Several invoices over months belong to one machine, how do we add them all to the same asset?",
+    "Deductible VAT on a company car is different, so the asset cost is wrong",
+    "We need to capitalize a building and split it into land and building parts",
+    "Government grant reduced the price of the machine, how do we record that?",
+    "Assets acquired in a business acquisition need to go in at fair value",
+    "We need a fixed asset approval step before anything is capitalized",
+    "Half our fixed asset cards have no serial number or location filled in",
+    "We need to know which employee has which laptop and phone",
+    "Is there an app that adds photos and documents to the fixed asset card?",
+    "Warranty end dates for our machines are tracked in a separate spreadsheet",
+    "fixed asset card extra fields",
+    "When someone leaves, we need to see all equipment assigned to them",
+    "Want to bulk update responsible employee on 200 assets",
+    "Mass change of fixed asset data in BC",
+    "We need to attach the purchase invoice and manual to each asset",
+    "Can we track the main asset and its components, like a truck with a crane on it?",
+    "Asset status like in use, in repair, in storage, how do we track that?",
+    "Changes to asset cards should be logged so auditors can see who changed what",
+    "We have no overview of which assets are covered by which insurance policy",
+    "Insurance renewal dates are missed every year",
+    "How do we check if total insured value matches the value of our assets?",
+    "insurance coverage per fixed asset",
+    "Our insurer asks for a list of all vehicles and machines with values",
+    "Some new assets were never added to the insurance",
+    "Can BC remind us before an insurance policy expires?",
+    "We need to know which assets are under-insured",
+    "Insurance claim after a fire, which assets were in that building?",
+    "Insurance premiums need to be spread over the asset classes",
+    "Indexed insurance values each year, how do we update them?",
+    "Leased equipment must be insured by us according to the contract",
+    "A machine moved from one factory to another and the dimensions are still the old ones",
+    "How do we transfer a fixed asset to our sister company in BC?",
+    "intercompany asset transfer",
+    "We need to change the department on 50 laptops at once",
+    "When an asset moves the depreciation should start posting to the new cost center",
+    "Who has the excavator right now, it moves between sites every week",
+    "We want a history of where each asset has been",
+    "Transfer of assets when we merged two companies into one",
+    "Is there an app to move assets between locations with a scanner?",
+    "An employee changed department and took their equipment along",
+    "Asset transferred to the Swedish subsidiary needs to leave our books at book value",
+    "Split one asset into two when half of it moves to another site",
+    "We put a new engine in the truck, should it be added to the asset?",
+    "How do we add the cost of an upgrade to an existing fixed asset in BC?",
+    "Renovation of the office, capitalize on the building or a new asset?",
+    "capitalize improvement on existing asset",
+    "After an upgrade the remaining life should be extended",
+    "Our accountant has to check every repair invoice to decide if it is an improvement",
+    "Adding extra equipment to a machine bought last year",
+    "We want the original cost and the improvements shown separately",
+    "Leasehold improvements in a rented building, how do we track them?",
+    "Major overhaul every five years on our press, how do we account for it?",
+    "Improvement posted as maintenance expense by mistake",
+    "Can BC calculate new depreciation after an addition?",
+    "We have no idea where half of the assets on our register physically are",
+    "Is there an app to count fixed assets with a barcode scanner?",
+    "Auditor wants a physical asset count every year",
+    "fixed asset tagging barcode",
+    "Asset labels with QR codes, print and scan them",
+    "Our fixed asset register shows items we threw away years ago",
+    "We want to scan a sticker on a machine and see its asset card",
+    "Asset register in Excel doesn't match BC",
+    "Who has which tool, they move between sites all the time",
+    "Need a list of all assets with location, value and condition",
+    "fixed asset register report",
+    "Annual asset verification takes weeks with paper lists",
+    "Ghost assets on the books and assets in use that were never registered",
+    "Tracking small tools and equipment that are not capitalized but still valuable",
+    "Want to see the condition of each asset from the last inspection",
+    "RFID tracking of equipment in our buildings",
+    "Mobile app for checking in and out equipment to employees",
+    "Our tools go missing on construction sites, we need to know who took what",
+    "Map of where all our machines and vehicles are",
+    "Asset count results should update locations and flag missing items"
+  ],
+  "questions": [
+    {
+      "id": "asset_type",
+      "text": "What kind of assets do you mainly need to keep track of?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Vehicles and fleet",
+          "patterns": [
+            "vehicle(?!s and real estate)",
+            "fleet",
+            "\\bcars\\b"
+          ]
+        },
+        {
+          "label": "Tools and equipment",
+          "patterns": [
+            "\\btools?\\b",
+            "equipment"
+          ]
+        },
+        {
+          "label": "Fixed assets on the balance sheet",
+          "patterns": [
+            "fixed asset",
+            "\\bFA\\b",
+            "low-value",
+            "non-current"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Vehicles and fleet": 0.33,
+        "Tools and equipment": 0.13,
+        "Fixed assets on the balance sheet": 0.53
+      }
+    },
+    {
+      "id": "fa_task",
+      "text": "Which job causes you the most work today?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Moving assets between sites, people or companies",
+          "patterns": [
+            "transfer",
+            "movement order",
+            "custody",
+            "location (move|change)|change of fa location|change.{0,30}location",
+            "bulk change"
+          ]
+        },
+        {
+          "label": "Counting assets and checking they exist",
+          "patterns": [
+            "physical (count|invent)",
+            "\\bcounting",
+            "\\bcounts?\\b",
+            "inventory order",
+            "reconciles physical"
+          ]
+        },
+        {
+          "label": "Approving new assets before use",
+          "patterns": [
+            "approv",
+            "release order"
+          ]
+        },
+        {
+          "label": "Fuel, mileage and running costs",
+          "patterns": [
+            "fuel",
+            "mileage",
+            "running.{0,10}cost"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Moving assets between sites, people or companies": 0.33,
+        "Counting assets and checking they exist": 0.2,
+        "Approving new assets before use": 0.13,
+        "Fuel, mileage and running costs": 0.27
+      }
+    },
+    {
+      "id": "holder",
+      "text": "Do you need to know which employee holds each asset?",
+      "options": [
+        {
+          "label": "Yes, track the responsible person",
+          "patterns": [
+            "responsible (employee|person)",
+            "responsibility for",
+            "who has taken",
+            "holder",
+            "who borrowed",
+            "custody",
+            "responsible persons"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, track the responsible person": 0.67
+      }
+    },
+    {
+      "id": "history",
+      "text": "Do you need a full history of changes to each asset?",
+      "help": "For example for auditors.",
+      "options": [
+        {
+          "label": "Yes, with an audit trail",
+          "patterns": [
+            "history",
+            "audit trail",
+            "ledger entries",
+            "historical"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, with an audit trail": 0.33
+      }
+    },
+    {
+      "id": "service",
+      "text": "Do assets need inspections or maintenance on a schedule?",
+      "options": [
+        {
+          "label": "Yes, track inspections and maintenance",
+          "patterns": [
+            "inspection",
+            "maintenance",
+            "calibration",
+            "expir",
+            "insurance"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, track inspections and maintenance": 0.27
+      }
+    }
+  ]
+}

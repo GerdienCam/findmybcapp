@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.08d69832-9231-429e-be2c-8bab2c96905b|PAPPID.08d69832-9231-429e-be2c-8bab2c96905b",
+  "guid": "08d69832-9231-429e-be2c-8bab2c96905b",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "08d69832-9231-429e-be2c-8bab2c96905b",
+  "source": {
+    "name": "Email - Current User Connector",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.08d69832-9231-429e-be2c-8bab2c96905b%7CPAPPID.08d69832-9231-429e-be2c-8bab2c96905b",
+    "lastModified": "2024-11-22T00:48:17.0180498+00:00",
+    "appVersion": "17.2.19367.19525",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?linkid=828689",
+    "sourceHash": "sha256:24b73d8016c1e45e5e43cb89dfac703ae3a51af95a4bbdfbb4e5451f252bfd29"
+  },
+  "mapping": {
+    "sourceHash": "sha256:24b73d8016c1e45e5e43cb89dfac703ae3a51af95a4bbdfbb4e5451f252bfd29",
+    "mappedOn": null,
+    "summary": "Sends BC email from users' own Microsoft 365 accounts",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Users send email from their own Microsoft 365 account",
+      "Automatically finds each user's email account",
+      "One-time setup"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nb",
+      "nl",
+      "ru",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft 365"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

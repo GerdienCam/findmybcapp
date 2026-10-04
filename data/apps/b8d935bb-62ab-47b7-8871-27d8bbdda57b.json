@@ -1,0 +1,133 @@
+{
+  "appId": "PUBID.heptacomgmbh1600526633273|AID.project_invoice|PAPPID.b8d935bb-62ab-47b7-8871-27d8bbdda57b",
+  "guid": "b8d935bb-62ab-47b7-8871-27d8bbdda57b",
+  "publisherId": "heptacomgmbh1600526633273",
+  "offerId": "project_invoice",
+  "source": {
+    "name": "Project Invoice",
+    "publisher": "HEPTACOM GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.heptacomgmbh1600526633273%7CAID.project_invoice%7CPAPPID.b8d935bb-62ab-47b7-8871-27d8bbdda57b",
+    "lastModified": "2024-11-19T18:45:56.5588227+00:00",
+    "appVersion": "1.1.0.60",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.tweecore.de/",
+    "sourceHash": "sha256:6d1a60a9de52dfaf969384b195396dd2268752ddd2bc7518ca4431b6d789577a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6d1a60a9de52dfaf969384b195396dd2268752ddd2bc7518ca4431b6d789577a",
+    "mappedOn": null,
+    "summary": "Imports JIRA and YouTrack time and invoices it",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-proj-billing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-time",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Imports hours from JIRA (Tempo Timesheets) and YouTrack with one button",
+      "Comment function and billing on goodwill for imported hours",
+      "Avoids duplicate time entries",
+      "Lists late hours from already invoiced periods for invoicing",
+      "Overview of all unprocessed hours ready for invoicing",
+      "30-day free trial",
+      "Other tools like Azure DevOps, ClickUp, Redmine possible on quote"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BD",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "DZ",
+      "EE",
+      "EG",
+      "ES",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "GR",
+      "HK",
+      "HR",
+      "HU",
+      "ID",
+      "IE",
+      "IN",
+      "IS",
+      "IT",
+      "JP",
+      "KE",
+      "KR",
+      "LB",
+      "LK",
+      "LT",
+      "LU",
+      "LV",
+      "MA",
+      "MM",
+      "MT",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PH",
+      "PL",
+      "PT",
+      "QA",
+      "RO",
+      "RS",
+      "SA",
+      "SE",
+      "SG",
+      "SI",
+      "TH",
+      "TN",
+      "TR",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "JIRA",
+      "Tempo Timesheets",
+      "YouTrack"
+    ],
+    "requires": [
+      "TWEECORE Base"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.azets|AID.azetspurchaseappw1|PAPPID.3f49782e-9c80-43d9-8c52-b93a0845b345",
+  "guid": "3f49782e-9c80-43d9-8c52-b93a0845b345",
+  "publisherId": "azets",
+  "offerId": "azetspurchaseappw1",
+  "source": {
+    "name": "Azets PurchaseApp W1",
+    "publisher": "Azets Insight Oy",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.azets%7CAID.azetspurchaseappw1%7CPAPPID.3f49782e-9c80-43d9-8c52-b93a0845b345",
+    "lastModified": "2026-09-11T12:59:44.5177175+00:00",
+    "appVersion": "2.18.456.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://azetsops.com/",
+    "sourceHash": "sha256:f5fd88ac9308016ad5a45fd01b36b93d09d5d031d6fffec32629a6837dfd1344"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f5fd88ac9308016ad5a45fd01b36b93d09d5d031d6fffec32629a6837dfd1344",
+    "mappedOn": null,
+    "summary": "Integrates purchase invoice approval with Azets/third-party systems",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation",
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Integrates BC with third-party purchase invoice approval systems",
+      "Scheduled automatic posting of purchase invoices and journals via job queue",
+      "Imports and processes purchase invoices for multiple companies at once",
+      "Stores files in Azure Blob storage"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

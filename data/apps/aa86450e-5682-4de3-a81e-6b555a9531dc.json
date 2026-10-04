@@ -1,0 +1,58 @@
+{
+  "appId": "TYPE.connect|PUBID.centerstageinc1690983912338|AID.pimcore|PAPPID.aa86450e-5682-4de3-a81e-6b555a9531dc",
+  "guid": "aa86450e-5682-4de3-a81e-6b555a9531dc",
+  "publisherId": "centerstageinc1690983912338",
+  "offerId": "pimcore",
+  "source": {
+    "name": "Pimcore for Microsoft Dynamics 365 Business Central",
+    "publisher": "iPaaS.com",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.centerstageinc1690983912338%7CAID.pimcore%7CPAPPID.aa86450e-5682-4de3-a81e-6b555a9531dc",
+    "lastModified": "2026-05-29T02:56:02.7245911+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.ipaas.com/",
+    "sourceHash": "sha256:7ba7b587718ce80617ce68a58e5fa54ab60bf590ccdd0e01a78a0aae30c89406"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7ba7b587718ce80617ce68a58e5fa54ab60bf590ccdd0e01a78a0aae30c89406",
+    "mappedOn": null,
+    "summary": "Integrates Pimcore PIM product data with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Flows product data between Pimcore PIM and BC",
+      "Syncs product categories",
+      "Connected via iPaaS.com data hub"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Pimcore",
+      "iPaaS.com"
+    ],
+    "requires": [
+      "iPaaS.com",
+      "Pimcore"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

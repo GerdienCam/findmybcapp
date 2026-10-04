@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.succeedit_5140844|AID.business_central_advanced_blanket_orders|PAPPID.effb3104-e087-4c59-b640-51fd5df88499",
+  "guid": "effb3104-e087-4c59-b640-51fd5df88499",
+  "publisherId": "succeedit_5140844",
+  "offerId": "business_central_advanced_blanket_orders",
+  "source": {
+    "name": "Advanced Blanket Orders",
+    "publisher": "SucceedIT B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.succeedit_5140844%7CAID.business_central_advanced_blanket_orders%7CPAPPID.effb3104-e087-4c59-b640-51fd5df88499",
+    "lastModified": "2026-07-20T11:28:38.9650452+00:00",
+    "appVersion": "26.0.20260720.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.succeedit.nl/support/",
+    "sourceHash": "sha256:539cc843be87f5f040889efc5b04e914446c5b72bf17b198f138a8d3b5501af0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:539cc843be87f5f040889efc5b04e914446c5b72bf17b198f138a8d3b5501af0",
+    "mappedOn": null,
+    "summary": "Enhances sales blanket orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Automatically links blanket orders to sales order lines, selecting oldest matching",
+      "Active period on sales blanket orders restricts linking by document date",
+      "Shows quantity linked but not yet invoiced on blanket order lines",
+      "Multiple customers on one blanket order",
+      "Option to not overwrite sales prices with blanket order prices",
+      "30-day free trial, unlimited users and companies"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

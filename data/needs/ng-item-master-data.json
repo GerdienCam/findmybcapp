@@ -1,0 +1,290 @@
+{
+  "id": "ng-item-master-data",
+  "order": 59,
+  "label": "Rich item data, categories and new items",
+  "description": "Creating items and variants, organising them into categories and storing rich attributes and specifications.",
+  "type": "bpc",
+  "area": "Products & items",
+  "relevance": "high",
+  "statements": [
+    "Rich item data, categories and new items",
+    "Creating items and variants, organising them into categories and storing rich attributes and specifications.",
+    "Our item data is spread across Excel, the webshop and BC and nothing matches",
+    "We need a PIM for Business Central",
+    "Is there an app to manage technical specs like weight, dimensions and voltage on items?",
+    "Item attributes in BC are too basic, we need groups and mandatory fields",
+    "Marketing writes product descriptions in Word and someone retypes them into the webshop",
+    "We want to store product images and datasheets on the item and push them to our web shop",
+    "Every supplier sends product data in a different spreadsheet format and we key it in manually",
+    "product information management",
+    "How do I add translated product descriptions in five languages?",
+    "Customers complain our online product info is wrong or incomplete",
+    "We'd like to enforce that no item goes live without all required attributes filled in",
+    "Attributes per variant, like size and colour, are a nightmare to maintain",
+    "Need to send product data to wholesalers in the format they demand (BMEcat, ETIM)",
+    "Our item cards only have a description field and a 50 character second description",
+    "Is there an app that lets us bulk update attribute values on thousands of items at once?",
+    "We want product data to be enriched by the product manager before sales can see the item",
+    "Different marketplaces need different product texts for the same item",
+    "item specs filter webshop",
+    "Our catalogue printing takes months because all the specs have to be collected by hand from different places",
+    "Engineering attributes like material grade should flow from our CAD system to BC items",
+    "Our item categories are flat and we need parent and child levels",
+    "Is there an app that lets us put one item in several category trees?",
+    "Every department invented its own item groups and reports don't add up",
+    "item category hierarchy BC",
+    "We want product families so all sizes of the same shirt sit together",
+    "How do I reorganise 15,000 items into new categories without editing each item card?",
+    "Purchasing groups items one way and sales wants a completely different grouping",
+    "We have stocked items, non-stock items and consignment goods mixed up with no clear rule",
+    "Can I have a separate category tree just for reporting that doesn't break posting groups?",
+    "Product groups disappeared in newer BC versions and we still need three levels",
+    "Our accountant and our warehouse use different product codes for the same groups",
+    "We need a clean product taxonomy before we start the webshop project",
+    "Creating a new item in BC takes 30 minutes because of all the fields",
+    "We want new items approved by finance before anyone can buy or sell them",
+    "Is there an app for item variants like size and colour that works better than standard?",
+    "We sell configurable products and every combination needs its own item number",
+    "product configurator Business Central",
+    "Copying an existing item to create a similar one misses half the setup",
+    "Different people create items differently and posting groups are wrong all the time",
+    "We need a request form so sales can ask for a new item to be set up",
+    "Our CPQ tool creates quotes but the items don't exist in BC yet",
+    "New item creation workflow",
+    "How do I create hundreds of new items from a supplier price file at once?",
+    "Raw materials, semi-finished and finished goods all need different setups and we keep mixing them up"
+  ],
+  "questions": [
+    {
+      "id": "need",
+      "text": "What do you mainly need to fix in your item data?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Store more attributes and specifications per item",
+          "patterns": [
+            "attributes?",
+            "specifications?",
+            "custom fields",
+            "material propert",
+            "characteristics"
+          ]
+        },
+        {
+          "label": "Create new items faster and consistently",
+          "patterns": [
+            "item codes?",
+            "sku generat",
+            "generates? skus",
+            "item templates?",
+            "from templates?",
+            "configurat",
+            "duplicate",
+            "new items",
+            "item creation",
+            "item worksheet"
+          ]
+        },
+        {
+          "label": "Handle variants like size and colour",
+          "patterns": [
+            "variants?",
+            "size and colou?r",
+            "\\bsize\\b",
+            "colou?r"
+          ]
+        },
+        {
+          "label": "Feed product content to a webshop or marketplaces",
+          "patterns": [
+            "webshop",
+            "e-?commerce",
+            "marketplaces?",
+            "(sales|marketing|multiple)[^.]{0,15}channels",
+            "channel-specific",
+            "multi-channel",
+            "(product|printed|multilingual|customer-specific) catalogs?",
+            "\\bpim\\b"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Store more attributes and specifications per item": 0.37,
+        "Create new items faster and consistently": 0.28,
+        "Handle variants like size and colour": 0.25,
+        "Feed product content to a webshop or marketplaces": 0.27
+      }
+    },
+    {
+      "id": "pim",
+      "text": "Where should rich product content live?",
+      "help": "Descriptions, images, documents for sales channels.",
+      "options": [
+        {
+          "label": "Inside BC, no extra system",
+          "patterns": [
+            "inside bc instead",
+            "instead of standalone",
+            "no separate external pim",
+            "extends item card with e-commerce",
+            "item data sheet",
+            "keeps product info without",
+            "pim without",
+            "centralized product data"
+          ]
+        },
+        {
+          "label": "In a separate PIM (Akeneo, inriver, Perfion, Salsify...)",
+          "patterns": [
+            "akeneo",
+            "inriver",
+            "pimcore",
+            "plytix",
+            "salsify",
+            "perfion",
+            "dynamicweb pim",
+            "gurusoft",
+            "jasperx",
+            "ipaas",
+            "cloud pim"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inside BC, no extra system": 0.06,
+        "In a separate PIM (Akeneo, inriver, Perfion, Salsify...)": 0.21
+      }
+    },
+    {
+      "id": "images",
+      "text": "Do you need help with product images and media?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "images?",
+            "pictures",
+            "digital assets?",
+            "media",
+            "videos"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.19
+      }
+    },
+    {
+      "id": "lang",
+      "text": "Do you need product texts in several languages?",
+      "options": [
+        {
+          "label": "Yes, multi-language",
+          "patterns": [
+            "multi-?lingual",
+            "multi-?language",
+            "translat",
+            "several languages",
+            "locales",
+            "languages"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, multi-language": 0.16
+      }
+    },
+    {
+      "id": "units",
+      "text": "Do you sell or stock items in more than one unit, like pieces and kilos?",
+      "options": [
+        {
+          "label": "Yes, extra units or catch weight",
+          "patterns": [
+            "units? of measure",
+            "\\buom\\b",
+            "alternative units",
+            "unit conversion",
+            "catch ?weight",
+            "random weight",
+            "second unit"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, extra units or catch weight": 0.16
+      }
+    },
+    {
+      "id": "supplier",
+      "text": "Do suppliers send you product data or price files?",
+      "options": [
+        {
+          "label": "Yes, we import supplier catalogs",
+          "patterns": [
+            "supplier (product|data|lists?)",
+            "from suppliers",
+            "bmecat",
+            "datanorm",
+            "\\betim\\b",
+            "ecl@ss",
+            "industry directories",
+            "vendor catalog",
+            "unspsc"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we import supplier catalogs": 0.12
+      }
+    },
+    {
+      "id": "approval",
+      "text": "Must new or changed items be approved before people can use them?",
+      "options": [
+        {
+          "label": "Yes, with approval or release steps",
+          "patterns": [
+            "approv",
+            "governance",
+            "release (of products|when)",
+            "item states",
+            "released, phased",
+            "validate and monitor"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, with approval or release steps": 0.09
+      }
+    }
+  ]
+}

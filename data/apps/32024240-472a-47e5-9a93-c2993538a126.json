@@ -1,0 +1,87 @@
+{
+  "appId": "PUBID.origo|AID.ori_electronic_documents_export|PAPPID.32024240-472a-47e5-9a93-c2993538a126",
+  "guid": "32024240-472a-47e5-9a93-c2993538a126",
+  "publisherId": "origo",
+  "offerId": "ori_electronic_documents_export",
+  "source": {
+    "name": "Electronic Docs - Export",
+    "publisher": "Origo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.ori_electronic_documents_export%7CPAPPID.32024240-472a-47e5-9a93-c2993538a126",
+    "lastModified": "2026-09-29T20:56:18.0081804+00:00",
+    "appVersion": "27.0.4.205",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://business-central.refined.site/space/EDEA",
+    "sourceHash": "sha256:f5cf9cb50be5e34e73cff2528644be22c191df3c36aa54c2b4f1b3c66ec90bd4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f5cf9cb50be5e34e73cff2528644be22c191df3c36aa54c2b4f1b3c66ec90bd4",
+    "mappedOn": null,
+    "summary": "Sends electronic documents via Unimaze",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Sends electronic sales documents via Unimaze on Peppol",
+      "Create electronic document manually during or after posting",
+      "Automatic creation based on customer document sending profile",
+      "Uses standard Data Exchange Framework"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "RS",
+      "SE",
+      "SI"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Unimaze",
+      "Peppol"
+    ],
+    "requires": [
+      "Electronic Documents – Base App",
+      "Origo BC Base App"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

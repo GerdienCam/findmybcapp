@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.nmierpspzoo1601976889545|AID.preliminary-purch-quotes|PAPPID.681328b4-fd1e-4aa8-9b20-3a50aaf9dd0a",
+  "guid": "681328b4-fd1e-4aa8-9b20-3a50aaf9dd0a",
+  "publisherId": "nmierpspzoo1601976889545",
+  "offerId": "preliminary-purch-quotes",
+  "source": {
+    "name": "Preliminary Purchase Quotes",
+    "publisher": "NMI ERP Sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nmierpspzoo1601976889545%7CAID.preliminary-purch-quotes%7CPAPPID.681328b4-fd1e-4aa8-9b20-3a50aaf9dd0a",
+    "lastModified": "2025-02-27T09:57:22.0197441+00:00",
+    "appVersion": "2.5.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.nmierp.pl/en-us/preliminary-quotes/introduction.html",
+    "sourceHash": "sha256:7f644ea411f34cf6686562ac95a0db852c860f3e97f63d513673af09bc5c45a8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7f644ea411f34cf6686562ac95a0db852c860f3e97f63d513673af09bc5c45a8",
+    "mappedOn": null,
+    "summary": "Preliminary purchase quotes from suppliers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Quotes for contacts without creating a vendor",
+      "Quotes for nonstock items",
+      "Vendor and item auto-created on accepting the offer",
+      "Automatic quote archiving"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

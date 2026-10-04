@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.carideaitab1762344639913|AID.project_overview|PAPPID.e9a64cfe-a7d0-4807-b328-fbdf55cea1f0",
+  "guid": "e9a64cfe-a7d0-4807-b328-fbdf55cea1f0",
+  "publisherId": "carideaitab1762344639913",
+  "offerId": "project_overview",
+  "source": {
+    "name": "Project Overview",
+    "publisher": "Caridea IT AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.carideaitab1762344639913%7CAID.project_overview%7CPAPPID.e9a64cfe-a7d0-4807-b328-fbdf55cea1f0",
+    "lastModified": "2026-09-30T14:19:51.2701653+00:00",
+    "appVersion": "1.0.65.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://carideait.se/",
+    "sourceHash": "sha256:432153ab0c5a7360df4026c42fcecc7460d43aeb46053113dd1f49dc7dbedbe0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:432153ab0c5a7360df4026c42fcecc7460d43aeb46053113dd1f49dc7dbedbe0",
+    "mappedOn": null,
+    "summary": "Adds overview, risk and opportunity tracking to projects",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-budget",
+      "ng-proj-wip",
+      "ng-proj-billing"
+    ],
+    "claims": [
+      "Project overview on top of standard BC project module",
+      "Risk and opportunity tracking on projects",
+      "Project budget adjustments and forecast",
+      "Installment billing",
+      "Percentage of completion",
+      "Posts project hours to the G/L"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [
+      "Construction",
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

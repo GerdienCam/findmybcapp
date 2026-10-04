@@ -1,0 +1,104 @@
+{
+  "appId": "PUBID.foodware365|AID.cashier|PAPPID.accae7de-ca8f-4bae-874d-b3a80c49687d",
+  "guid": "accae7de-ca8f-4bae-874d-b3a80c49687d",
+  "publisherId": "foodware365",
+  "offerId": "cashier",
+  "source": {
+    "name": "Aptean Cashiering for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.cashier%7CPAPPID.accae7de-ca8f-4bae-874d-b3a80c49687d",
+    "lastModified": "2026-01-19T08:39:26.2837823+00:00",
+    "appVersion": "2401.2.246148.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/CSH/",
+    "sourceHash": "sha256:b780c4d463d2fa67a8c0ef9fc6e9086602dc79761cf7cc7ab8eec786191f51df"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b780c4d463d2fa67a8c0ef9fc6e9086602dc79761cf7cc7ab8eec786191f51df",
+    "mappedOn": null,
+    "summary": "Cashiering for customer cash, card and check payments",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-retail-pos",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage",
+      "ng-bank-reconciliation"
+    ],
+    "claims": [
+      "Cash drawers associated with specific users",
+      "Miscellaneous cash codes e.g. petty cash",
+      "Tracks daily starting and ending drawer balance",
+      "Shows totals due, paid and change on each transaction",
+      "Automatic payment allocation to invoices",
+      "Automatic G/L write-off of drawer discrepancies on close",
+      "Accepts cash, credit and check",
+      "Pre-pay invoices against cash drawer from sales order",
+      "Cashiers can ship sales orders in direct posting locations"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "ET",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

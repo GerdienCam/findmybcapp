@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.exoseav|PAPPID.9e5e9f1d-cad4-4e2d-bac2-f19bd880ee3e",
+  "guid": "9e5e9f1d-cad4-4e2d-bac2-f19bd880ee3e",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "exoseav",
+  "source": {
+    "name": "Order Staging Pebblestone Feature",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.exoseav%7CPAPPID.9e5e9f1d-cad4-4e2d-bac2-f19bd880ee3e",
+    "lastModified": "2026-04-28T14:01:54.5056881+00:00",
+    "appVersion": "1.4.192717.2700",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
+    "sourceHash": "sha256:8653b7ff5856ef75b6e3e8f9b12ac69e2bbbfda7304f1cf382772a6c53ab3c52"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8653b7ff5856ef75b6e3e8f9b12ac69e2bbbfda7304f1cf382772a6c53ab3c52",
+    "mappedOn": null,
+    "summary": "B2B matrix order lines in EV Order Staging",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-fashion"
+    ],
+    "claims": [
+      "Extends EV Order Staging to create B2B sales orders with matrix lines"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "IT",
+      "NL",
+      "NO",
+      "PH",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Fashion"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EV Order Staging",
+      "K3 pebblestone"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

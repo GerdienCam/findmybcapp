@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.dms|AID.dsh_webshop_base|PAPPID.330e3add-145a-4cbe-87d6-ca72215435df",
+  "guid": "330e3add-145a-4cbe-87d6-ca72215435df",
+  "publisherId": "dms",
+  "offerId": "dsh_webshop_base",
+  "source": {
+    "name": "Webshop & Marketplace Connector",
+    "publisher": "DMS-Systemhaus GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dms%7CAID.dsh_webshop_base%7CPAPPID.330e3add-145a-4cbe-87d6-ca72215435df",
+    "lastModified": "2026-09-07T12:31:11.8332422+00:00",
+    "appVersion": "28.0.0.25",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dms-sys.de/store/navision-dynamics-nav-365-business-central/schnittstelle/webshop-anbindungen/",
+    "sourceHash": "sha256:161c49986ae64f29d7d613a4ea485288e743a083e303e5600195d75a4541a632"
+  },
+  "mapping": {
+    "sourceHash": "sha256:161c49986ae64f29d7d613a4ea485288e743a083e303e5600195d75a4541a632",
+    "mappedOn": null,
+    "summary": "Connects webshops and marketplaces with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs orders, customers, items, inventory, prices and shipping info",
+      "Shopware, Shopify, WooCommerce, Magento, PrestaShop, OXID, Gambio, xt:Commerce",
+      "Amazon Seller and Vendor Central, eBay and OTTO",
+      "Multiple webshops connected to one BC environment",
+      "Adaptable to individual shop APIs",
+      "BC Online, On-Premises and NAV"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Shopware",
+      "Shopify",
+      "WooCommerce",
+      "Magento",
+      "Adobe Commerce",
+      "PrestaShop",
+      "OXID eShop",
+      "Gambio",
+      "xt:Commerce",
+      "Amazon",
+      "eBay",
+      "OTTO"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

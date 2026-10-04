@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.northerndynamic|AID.ndycfreconcile|PAPPID.5588b629-f68f-40be-8876-1ac3ca6ec593",
+  "guid": "5588b629-f68f-40be-8876-1ac3ca6ec593",
+  "publisherId": "northerndynamic",
+  "offerId": "ndycfreconcile",
+  "source": {
+    "name": "Northern Comfort Reconcile",
+    "publisher": "Northern Dynamic GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.northerndynamic%7CAID.ndycfreconcile%7CPAPPID.5588b629-f68f-40be-8876-1ac3ca6ec593",
+    "lastModified": "2026-08-24T09:42:09.2049295+00:00",
+    "appVersion": "1.0.175.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.northerndynamic.de/",
+    "sourceHash": "sha256:4e46249da8a803f73827dc43586f4b519d9dd41302645339f5b6d8d31be47c38"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4e46249da8a803f73827dc43586f4b519d9dd41302645339f5b6d8d31be47c38",
+    "mappedOn": null,
+    "summary": "Shows customer, G/L and vendor balances as of a date before posting",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-period-close",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Balance preview window as of a chosen cut-off date",
+      "Fast mode: reconciliation accounts balance as of cut-off date",
+      "In-depth mode: full posting preview incl. tax, payment discount, application entries with balance overview",
+      "Balance = posted balance to cut-off plus journal lines on or before",
+      "Warns but keeps calculating when journal lines are after cut-off",
+      "Standard reconciliation is not modified",
+      "BC online only; 30-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

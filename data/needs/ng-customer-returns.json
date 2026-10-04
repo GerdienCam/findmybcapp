@@ -1,0 +1,223 @@
+{
+  "id": "ng-customer-returns",
+  "order": 22,
+  "label": "Handling customer returns and warranty claims",
+  "description": "Return authorisations, exchanges, warranty and getting returned goods credited.",
+  "type": "bpc",
+  "area": "Sales & receivables",
+  "relevance": "high",
+  "statements": [
+    "Handling customer returns and warranty claims",
+    "Return authorisations, exchanges, warranty and getting returned goods credited.",
+    "Customers send goods back without telling us and the warehouse doesn't know which order it belongs to",
+    "We need RMA numbers for customer returns",
+    "Is there an app for customer return orders with reason codes and inspection in BC?",
+    "Customer wants to exchange a size M for a size L, how do we do that without a credit note and a new invoice?",
+    "webshop returns portal",
+    "Our online customers should be able to register a return themselves and print a label",
+    "Customer returns go back on the shelf before anyone checks if they're damaged",
+    "Warranty claims from customers are tracked in a spreadsheet",
+    "We send customers a replacement before their faulty item comes back and lose track of it",
+    "Need to decide per returned item from a customer whether to restock, repair or scrap it",
+    "Customer returns a product that needs repair and then we ship it back to them",
+    "Product recall, we need to find every customer who got that batch and notify them",
+    "Customer returns arrive with no paperwork and it takes days to issue the credit",
+    "Restocking fee on customer returns",
+    "Return order in BC doesn't link back to the original sales invoice",
+    "Our retail customers return unsold seasonal goods at the end of the season under an agreement",
+    "Can a customer return part of an order and keep the rest without us redoing everything?",
+    "We want to send the customer a status update when their return is received and approved",
+    "Receiving goods returned by customers at the warehouse and putting them away",
+    "Customer bought online and wants to return it in our shop"
+  ],
+  "questions": [
+    {
+      "id": "outcome",
+      "text": "What should a handled return lead to?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Credit note",
+          "patterns": [
+            "credit (memo|note)"
+          ]
+        },
+        {
+          "label": "Replacement or redelivery",
+          "patterns": [
+            "replacement",
+            "redelivery",
+            "returns?, exchanges",
+            "create sales order"
+          ]
+        },
+        {
+          "label": "Restock, repair or scrap the goods",
+          "patterns": [
+            "restock",
+            "repair",
+            "dispos",
+            "returned goods",
+            "receive goods",
+            "inspection"
+          ]
+        },
+        {
+          "label": "Price adjustment instead of a return",
+          "patterns": [
+            "price adjust",
+            "price reduction",
+            "pricing adjust",
+            "pricing issue"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Credit note": 0.56,
+        "Replacement or redelivery": 0.19,
+        "Restock, repair or scrap the goods": 0.19,
+        "Price adjustment instead of a return": 0.19
+      }
+    },
+    {
+      "id": "origin",
+      "text": "Where do customer returns start today?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "In a webshop or online returns portal",
+          "patterns": [
+            "portal",
+            "webshop",
+            "reclaimit",
+            "nshift",
+            "claimlane",
+            "shopify"
+          ]
+        },
+        {
+          "label": "Staff register them in BC from a sale or invoice",
+          "patterns": [
+            "from (a |the )?posted sales",
+            "from sales",
+            "from one claim document",
+            "manually",
+            "complaint card",
+            "case",
+            "gra number",
+            "complaints? linked to customer"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "In a webshop or online returns portal": 0.31,
+        "Staff register them in BC from a sale or invoice": 0.31
+      }
+    },
+    {
+      "id": "tracking",
+      "text": "Do you need to track deadlines and who is responsible for each case?",
+      "options": [
+        {
+          "label": "Yes, with tasks, reminders or SLAs",
+          "patterns": [
+            "sla",
+            "reminder",
+            "deadline",
+            "assign",
+            "responsible",
+            "approve",
+            "workflow",
+            "status monitoring",
+            "real-time status and"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, with tasks, reminders or SLAs": 0.44
+      }
+    },
+    {
+      "id": "stats",
+      "text": "Do you want reporting on return reasons and costs?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "statistic",
+            "dashboard",
+            "power bi",
+            "report",
+            "reason",
+            "expense",
+            "cost"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.44
+      }
+    },
+    {
+      "id": "supplier",
+      "text": "Do you also need to pass claims on to your suppliers?",
+      "options": [
+        {
+          "label": "Yes, customer and supplier claims",
+          "patterns": [
+            "vendor",
+            "supplier",
+            "purchase claim",
+            "purchase return",
+            "purchas(ed|ing)"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, customer and supplier claims": 0.38
+      }
+    },
+    {
+      "id": "notify",
+      "text": "Should customers or staff get automatic emails about a case?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "e-?mail",
+            "notif"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.38
+      }
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "ng-ux-ai-assistant",
+  "order": 183,
+  "label": "Asking BC questions in plain language",
+  "description": "AI chat and voice assistants that answer questions from BC data, create documents from natural language, explain errors and let users build simple agents.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "medium",
+  "statements": [
+    "Asking BC questions in plain language",
+    "AI chat and voice assistants that answer questions from BC data, create documents from natural language, explain errors and let users build simple agents.",
+    "I want to ask 'how much did we sell to X last month' and get an answer",
+    "chat with Business Central data",
+    "Users don't understand the error messages when posting fails",
+    "Type what you want and have BC create the sales order",
+    "Is there a ChatGPT for our BC?",
+    "Our manager won't learn BC but would ask questions in Teams",
+    "Voice assistant to look up stock while driving",
+    "Explain this posting error in normal words",
+    "Build a small AI agent for our recurring accounting tasks",
+    "Answer questions from our internal procedures and BC at the same time",
+    "natural language queries on inventory",
+    "Copilot for our own data, not just the standard features"
+  ],
+  "questions": [
+    {
+      "id": "job",
+      "text": "Beyond answering questions, what else should the assistant do?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Create or post documents from chat",
+          "patterns": [
+            "creates? (sales|purchase|document)",
+            "create and post",
+            "post invoice",
+            "document lines",
+            "drafts? "
+          ]
+        },
+        {
+          "label": "Answer from our manuals and guides",
+          "patterns": [
+            "knowledge base",
+            "manuals",
+            "guides",
+            "microsoft learn"
+          ]
+        },
+        {
+          "label": "Let us build our own agents",
+          "patterns": [
+            "custom ai agents",
+            "unlimited ai assistants",
+            "agent studio",
+            "create custom"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Create or post documents from chat": 0.29,
+        "Answer from our manuals and guides": 0.12,
+        "Let us build our own agents": 0.12
+      }
+    },
+    {
+      "id": "area",
+      "text": "Which area do your questions mostly come from?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Finance and cash",
+          "patterns": [
+            "financ",
+            "cash",
+            "receivables",
+            "ledger",
+            "p&l",
+            "g/l"
+          ]
+        },
+        {
+          "label": "Inventory and orders",
+          "patterns": [
+            "inventory",
+            "stock",
+            "open orders",
+            "replenishment",
+            "sales orders"
+          ]
+        },
+        {
+          "label": "Projects, production or maintenance",
+          "patterns": [
+            "project",
+            "production",
+            "maintenance",
+            "work orders"
+          ]
+        },
+        {
+          "label": "Across all of BC",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Finance and cash": 0.29,
+        "Inventory and orders": 0.24,
+        "Projects, production or maintenance": 0.29
+      }
+    },
+    {
+      "id": "write",
+      "text": "May the assistant change data, or only read it?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Read only is enough",
+          "patterns": [
+            "read-only",
+            "does not post",
+            "never changes",
+            "nothing posted or sent without",
+            "configurable to read"
+          ]
+        },
+        {
+          "label": "It may create and post with my OK",
+          "patterns": [
+            "creates? (sales|purchase)",
+            "create and post",
+            "post invoice",
+            "with confirmation",
+            "perform tasks"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Read only is enough": 0.24,
+        "It may create and post with my OK": 0.18
+      }
+    },
+    {
+      "id": "data",
+      "text": "Must data and AI stay inside your own tenant or Azure?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, keep it in our tenant or Azure",
+          "patterns": [
+            "own azure",
+            "azure openai",
+            "inside (business central|bc)",
+            "in tenant",
+            "stays in tenant",
+            "no external",
+            "eu-?hosted",
+            "eu hosting",
+            "private azure",
+            "tenant isolation",
+            "not used for ai model training"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, keep it in our tenant or Azure": 0.47
+      }
+    }
+  ]
+}

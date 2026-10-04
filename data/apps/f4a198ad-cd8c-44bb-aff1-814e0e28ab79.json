@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.e-documents-connector-logiq|PAPPID.f4a198ad-cd8c-44bb-aff1-814e0e28ab79",
+  "guid": "f4a198ad-cd8c-44bb-aff1-814e0e28ab79",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "e-documents-connector-logiq",
+  "source": {
+    "name": "E-Document Connector - Logiq",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.e-documents-connector-logiq%7CPAPPID.f4a198ad-cd8c-44bb-aff1-814e0e28ab79",
+    "lastModified": "2026-06-04T09:59:17.6195133+00:00",
+    "appVersion": "25.4.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://aka.ms/bcedocuments",
+    "sourceHash": "sha256:a56e811d3384ac5a8eaf2304e8e381214ac96c91daf0fee01096c08878f65b9f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a56e811d3384ac5a8eaf2304e8e381214ac96c91daf0fee01096c08878f65b9f",
+    "mappedOn": null,
+    "summary": "Connects BC E-Documents to Logiq as Peppol access point",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Connects BC E-Documents to the Logiq e-invoicing service",
+      "Adds Logiq as a service integration in the E-Document Service page",
+      "Sends outgoing e-documents to the Logiq network",
+      "Receives incoming e-documents from Logiq",
+      "Sends and receives approval/rejection messages",
+      "Uses Logiq as Peppol provider"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Logiq",
+      "PEPPOL"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

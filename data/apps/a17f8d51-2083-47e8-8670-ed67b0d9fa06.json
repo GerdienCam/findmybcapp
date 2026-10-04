@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.dynamicsondemand|AID.omnify-item-configurator|PAPPID.a17f8d51-2083-47e8-8670-ed67b0d9fa06",
+  "guid": "a17f8d51-2083-47e8-8670-ed67b0d9fa06",
+  "publisherId": "dynamicsondemand",
+  "offerId": "omnify-item-configurator",
+  "source": {
+    "name": "OmniFY Order Configurator",
+    "publisher": "Omni Logic Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicsondemand%7CAID.omnify-item-configurator%7CPAPPID.a17f8d51-2083-47e8-8670-ed67b0d9fa06",
+    "lastModified": "2025-01-10T19:19:17.6336134+00:00",
+    "appVersion": "18.0.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://appsource.omnilogicsolutions.com/",
+    "sourceHash": "sha256:eb202b68ff20a7b8df0044c9430d3728b4286afc8be6aa13c46d051afcd20965"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eb202b68ff20a7b8df0044c9430d3728b4286afc8be6aa13c46d051afcd20965",
+    "mappedOn": null,
+    "summary": "Configures items and assembly BOMs via questions from sales quotes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-production-planning"
+    ],
+    "claims": [
+      "Creates items and assembly orders from sales quotes and orders via selections",
+      "For make-to-order and assemble-to-order",
+      "Configures production orders on the fly",
+      "Copy previous selections",
+      "Selections update sale price automatically",
+      "Costs calculated from items and resources in selections",
+      "Configure base items or update existing items"
+    ],
+    "countries": [
+      "AE",
+      "AU",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "GB",
+      "HK",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

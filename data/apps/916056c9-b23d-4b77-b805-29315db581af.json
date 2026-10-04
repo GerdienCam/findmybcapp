@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.dynamics-eshop|AID.serviceportal|PAPPID.916056c9-b23d-4b77-b805-29315db581af",
+  "guid": "916056c9-b23d-4b77-b805-29315db581af",
+  "publisherId": "dynamics-eshop",
+  "offerId": "serviceportal",
+  "source": {
+    "name": "Service Portal for Dynamics 365 Business Central",
+    "publisher": "Dynamics eShop Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics-eshop%7CAID.serviceportal%7CPAPPID.916056c9-b23d-4b77-b805-29315db581af",
+    "lastModified": "2026-08-12T04:14:40.9135189+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamicseshop.com/contact-us/",
+    "sourceHash": "sha256:13dd7ad6643040ef6b29c2d94a9243c4754801fe5e59bb231219fc42278788b1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:13dd7ad6643040ef6b29c2d94a9243c4754801fe5e59bb231219fc42278788b1",
+    "mappedOn": null,
+    "summary": "Customer self-service portal for service management",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-requests",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns",
+      "ng-case-intake",
+      "ng-svc-contracts"
+    ],
+    "claims": [
+      "Create and track service requests to resolution",
+      "View estimates, service orders and invoices",
+      "Product registration with contract and warranty info",
+      "Submit return requests and generate RMAs and return orders in BC",
+      "Case and helpdesk ticket management",
+      "Pay open invoices via portal",
+      "Sends notifications about estimates, invoices and service updates"
+    ],
+    "countries": [
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics eShop"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

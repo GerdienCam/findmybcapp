@@ -1,0 +1,93 @@
+{
+  "appId": "PUBID.pryme|AID.construction_package|PAPPID.ae86bedd-4518-4d6b-82f7-5790a951bbfa",
+  "guid": "ae86bedd-4518-4d6b-82f7-5790a951bbfa",
+  "publisherId": "pryme",
+  "offerId": "construction_package",
+  "source": {
+    "name": "Pryme Construction Package",
+    "publisher": "Pryme",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pryme%7CAID.construction_package%7CPAPPID.ae86bedd-4518-4d6b-82f7-5790a951bbfa",
+    "lastModified": "2026-08-10T14:07:48.4274291+00:00",
+    "appVersion": "1.0.11.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.pryme.app/",
+    "sourceHash": "sha256:176df1b56896930505f8c9252b0e03d49ea5884d8e966934527e9beebb532b4d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:176df1b56896930505f8c9252b0e03d49ea5884d8e966934527e9beebb532b4d",
+    "mappedOn": null,
+    "summary": "Accounting and billing for construction projects",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-construction",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-billing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-budget",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-planning",
+      "ng-proj-materials-subcontract",
+      "ng-proj-change-scope"
+    ],
+    "claims": [
+      "Project templates for fast construction project setup",
+      "Tracks budgets, commitments and actuals",
+      "Gantt chart planning and scheduling",
+      "Generates purchase orders from projects",
+      "Work progress and site update tracking",
+      "Subcontractor management",
+      "Fixed-price invoicing",
+      "Scheduled, milestone, retention, completion and progress billing",
+      "Kanban board for project work items",
+      "Targets construction, architecture and ETO"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "LU",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "SE",
+      "SG"
+    ],
+    "languages": [
+      "da",
+      "en",
+      "es",
+      "sv"
+    ],
+    "industries": [
+      "ArchitectureAndConstruction",
+      "ProfessionalServices"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

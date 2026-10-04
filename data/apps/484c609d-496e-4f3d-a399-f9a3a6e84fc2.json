@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.mpriseagriwarebv|AID.agriware-lic|PAPPID.484c609d-496e-4f3d-a399-f9a3a6e84fc2",
+  "guid": "484c609d-496e-4f3d-a399-f9a3a6e84fc2",
+  "publisherId": "mpriseagriwarebv",
+  "offerId": "agriware-lic",
+  "source": {
+    "name": "Agriware 365 License Contracts",
+    "publisher": "Mprise Agriware B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mpriseagriwarebv%7CAID.agriware-lic%7CPAPPID.484c609d-496e-4f3d-a399-f9a3a6e84fc2",
+    "lastModified": "2026-09-28T12:40:22.6926943+00:00",
+    "appVersion": "28.28.5.271675",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.agriware.cloud/",
+    "sourceHash": "sha256:1488400dc8abb291ef189b64fb9b9df3bf921a4596629a0bb14a4fec9d59db44"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1488400dc8abb291ef189b64fb9b9df3bf921a4596629a0bb14a4fec9d59db44",
+    "mappedOn": null,
+    "summary": "Manages license contracts with customers in Agriware 365",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-contracts"
+    ],
+    "claims": [
+      "Contract templates for license contracts",
+      "Invoices license and royalty at shipment",
+      "Invoices based on customer annual statements of produced plants",
+      "Automatic renewal of expiring contracts",
+      "One-off license and royalty"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Horticulture"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Agriware 365 Business Essentials"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

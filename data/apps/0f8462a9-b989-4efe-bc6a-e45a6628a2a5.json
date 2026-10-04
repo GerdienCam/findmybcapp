@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.bitlognordicab|AID.bitlog-wms-bc-connector|PAPPID.0f8462a9-b989-4efe-bc6a-e45a6628a2a5",
+  "guid": "0f8462a9-b989-4efe-bc6a-e45a6628a2a5",
+  "publisherId": "bitlognordicab",
+  "offerId": "bitlog-wms-bc-connector",
+  "source": {
+    "name": "Bitlog WMS Connector",
+    "publisher": "Bitlog Nordic AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bitlognordicab%7CAID.bitlog-wms-bc-connector%7CPAPPID.0f8462a9-b989-4efe-bc6a-e45a6628a2a5",
+    "lastModified": "2026-09-09T05:14:43.3710531+00:00",
+    "appVersion": "3.0.5.4005",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bitlogwms.com/hubfs/content/Bitlog_WMS_Connector_Documentation.pdf",
+    "sourceHash": "sha256:3e8bbb5bb59bb5f0fb74d031c55c3d44fec9c5328add3dec5cc1a0d8d134a09a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3e8bbb5bb59bb5f0fb74d031c55c3d44fec9c5328add3dec5cc1a0d8d134a09a",
+    "mappedOn": null,
+    "summary": "Syncs data between BC and Bitlog cloud WMS",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Syncs data between BC and Bitlog WMS",
+      "Mobile app for iOS or Android for warehouse activities",
+      "Multi-order picking and picking route optimization",
+      "Integrates with conveyors, Autostore and picking automation",
+      "Handles lot numbers, serial numbers, plus expiry via best-before dates",
+      "Sends sales, assembly, transfer, return and purchase orders and items to WMS",
+      "Syncs back shipments, receipts, stock takes and movements",
+      "Bitlog WMS licence ordered separately",
+      "Targets warehouses with over 10 users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Bitlog WMS"
+    ],
+    "requires": [
+      "Bitlog WMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

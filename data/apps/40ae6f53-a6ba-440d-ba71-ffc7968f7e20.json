@@ -1,0 +1,52 @@
+{
+  "appId": "PUBID.litsservices1588138020299|AID.bc_automate_dim|PAPPID.40ae6f53-a6ba-440d-ba71-ffc7968f7e20",
+  "guid": "40ae6f53-a6ba-440d-ba71-ffc7968f7e20",
+  "publisherId": "litsservices1588138020299",
+  "offerId": "bc_automate_dim",
+  "source": {
+    "name": "LITS Automate Dimension",
+    "publisher": "LITS SERVICES",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.litsservices1588138020299%7CAID.bc_automate_dim%7CPAPPID.40ae6f53-a6ba-440d-ba71-ffc7968f7e20",
+    "lastModified": "2024-12-30T08:07:50.9589008+00:00",
+    "appVersion": "24.0.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.lits.services/contact-us/",
+    "sourceHash": "sha256:99e6bebc36f61e96abdad8757741433121754a884ec1065490c4797334038a0d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:99e6bebc36f61e96abdad8757741433121754a884ec1065490c4797334038a0d",
+    "mappedOn": null,
+    "summary": "Automatically assigns dimension codes from subledger masters",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-automation"
+    ],
+    "claims": [
+      "Automatically creates a dimension value when a new subledger master is added",
+      "Passes dimension values along across key records automatically",
+      "Covers customers, vendors, items, service items, resources, jobs and service contracts"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

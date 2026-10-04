@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.martitab1633951001710|AID.jobqueuemonitor|PAPPID.6379bd31-0fe9-4350-967b-fcf704d6bf14",
+  "guid": "6379bd31-0fe9-4350-967b-fcf704d6bf14",
+  "publisherId": "martitab1633951001710",
+  "offerId": "jobqueuemonitor",
+  "source": {
+    "name": "Job Queue Monitor",
+    "publisher": "MartIT AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.martitab1633951001710%7CAID.jobqueuemonitor%7CPAPPID.6379bd31-0fe9-4350-967b-fcf704d6bf14",
+    "lastModified": "2026-09-11T13:17:33.2855775+00:00",
+    "appVersion": "1.0.15.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.combineit.se/",
+    "sourceHash": "sha256:6165c28243ea3917096f091199a00c3338243749cc42399a17c02b59e94700fc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6165c28243ea3917096f091199a00c3338243749cc42399a17c02b59e94700fc",
+    "mappedOn": null,
+    "summary": "Monitors and restarts failed job queue entries",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Monitors job queue entries and restarts failed ones automatically",
+      "Email notification when critical job queue entries fail",
+      "Ensures the monitor itself never stops",
+      "Monitors record counts (inserts or modifies) in any table against expected ranges",
+      "Warns on too few or too many entries in a table",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

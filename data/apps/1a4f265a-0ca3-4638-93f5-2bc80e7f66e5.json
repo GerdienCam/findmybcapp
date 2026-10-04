@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.crtinsightstechnologiessdnbhd1609322609871|AID.appcentric_mr|PAPPID.1a4f265a-0ca3-4638-93f5-2bc80e7f66e5",
+  "guid": "1a4f265a-0ca3-4638-93f5-2bc80e7f66e5",
+  "publisherId": "crtinsightstechnologiessdnbhd1609322609871",
+  "offerId": "appcentric_mr",
+  "source": {
+    "name": "ACT - Material Request",
+    "publisher": "CRT INSIGHTS TECHNOLOGIES SDN BHD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.crtinsightstechnologiessdnbhd1609322609871%7CAID.appcentric_mr%7CPAPPID.1a4f265a-0ca3-4638-93f5-2bc80e7f66e5",
+    "lastModified": "2024-11-21T16:23:23.8225789+00:00",
+    "appVersion": "22.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://forms.office.com/Pages/ResponsePage.aspx?id=SkdIaz4YgE2uUTyGKQLHyLOfntV7AtZPqHHfkkI26t9UMzE0VDI5TkE1WU44Wk0xTjBZRUdDWVRRQy4u",
+    "sourceHash": "sha256:39ce4599f72e1c1e2fe866d0b929cf1bfb18831c85db71d3e8a5bfce090f1540"
+  },
+  "mapping": {
+    "sourceHash": "sha256:39ce4599f72e1c1e2fe866d0b929cf1bfb18831c85db71d3e8a5bfce090f1540",
+    "mappedOn": null,
+    "summary": "Manages material requests and tracks consumption",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Employees raise material requests",
+      "Approval of material requests in BC",
+      "Audit trail for material requests and consumption",
+      "Requests include quantity and cost centers",
+      "Configurable routing to approvers"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

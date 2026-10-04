@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionidentity|PAPPID.28b992c9-9257-4ed3-86ff-a16d946300ba",
+  "guid": "28b992c9-9257-4ed3-86ff-a16d946300ba",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionidentity",
+  "source": {
+    "name": "VisionIdentity",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionidentity%7CPAPPID.28b992c9-9257-4ed3-86ff-a16d946300ba",
+    "lastModified": "2026-10-01T14:52:05.2094011+00:00",
+    "appVersion": "2.0.0.16",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.visionpeople.dk/help/28b992c9-9257-4ed3-86ff-a16d946300ba/index",
+    "sourceHash": "sha256:14f947e828d65cc957d0652262721f856f09063bddaebaa6394db632b1237449"
+  },
+  "mapping": {
+    "sourceHash": "sha256:14f947e828d65cc957d0652262721f856f09063bddaebaa6394db632b1237449",
+    "mappedOn": null,
+    "summary": "Validates customer and vendor data against Danish CPR/CVR",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-data-migration",
+      "ng-vat-tax",
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Automatic CPR and CVR lookups by configurable rules",
+      "Runs lookups when a field is filled in, a document is created or a reminder is created",
+      "Change journal to review changes before applying",
+      "Updates reports for vendors and customers in batches",
+      "Invalid address detection",
+      "Pulls the industry code, company type and number of FTEs from CVR",
+      "Detects customers under 18 and supports guardian registration",
+      "EU VIES VAT validation",
+      "Every lookup logged for audit trail",
+      "Requires CPR/CVR service agreement"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "CPR",
+      "CVR",
+      "VIES"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

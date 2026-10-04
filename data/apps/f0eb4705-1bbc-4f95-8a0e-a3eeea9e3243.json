@@ -1,0 +1,79 @@
+{
+  "appId": "PUBID.h2businesssystemslimited1585563468827|AID.h2bs001|PAPPID.f0eb4705-1bbc-4f95-8a0e-a3eeea9e3243",
+  "guid": "f0eb4705-1bbc-4f95-8a0e-a3eeea9e3243",
+  "publisherId": "h2businesssystemslimited1585563468827",
+  "offerId": "h2bs001",
+  "source": {
+    "name": "Essential Rental",
+    "publisher": "H2 Business Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.h2businesssystemslimited1585563468827%7CAID.h2bs001%7CPAPPID.f0eb4705-1bbc-4f95-8a0e-a3eeea9e3243",
+    "lastModified": "2026-09-21T20:39:55.6154183+00:00",
+    "appVersion": "28.4.5.220",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://essentialrental.h2business.systems/docs/index.html",
+    "sourceHash": "sha256:82ed30f5e19114fe44a6f496b000dfe9aebf53e97114cdc658b35933ae82f33b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:82ed30f5e19114fe44a6f496b000dfe9aebf53e97114cdc658b35933ae82f33b",
+    "mappedOn": null,
+    "summary": "Rental quotes, contracts, fleet and billing",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-maintenance-planned",
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Bills in advance or in arrears, per day, week, month, year or quarter",
+      "Excludes non-working days from billing automatically",
+      "Customer and group price lists, duration tiers, peak/off-peak rates, minimum billing periods",
+      "Invoice Suggestion Worksheet shows all orders due with amount and tax before invoicing",
+      "Combine orders on one invoice or preview as pro forma",
+      "Credits unused advance-billed period on early return",
+      "Moves units between depots or group companies across environments and tenants with in-transit stock",
+      "VAT, GST and sales tax with contract exchange rates",
+      "Receiving a PO creates rental units each with its own fixed asset",
+      "Tracks serialised units: out, back, maintenance, transferred, lost, disposed",
+      "Swap a unit mid-hire without billing gaps",
+      "Rental kits explode into components",
+      "Real-time availability matrix and calendar for the whole fleet",
+      "Line-level allocation prevents double booking of a serial",
+      "Maintenance scheduled by calendar, meter reading or on return",
+      "Maintenance orders with labour, parts, contractor costs per unit and Gantt",
+      "Compliance certificates (LOLER, PAT) on the unit can block shipment when lapsed",
+      "Fully enabled free in any sandbox, no time limit",
+      "Maintenance and Global Equipment are optional licensed modules in production",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "pt"
+    ],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

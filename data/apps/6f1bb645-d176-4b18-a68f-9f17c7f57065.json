@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.globalsourcedynamicsltd1725097348741|AID.globalfilestorage|PAPPID.6f1bb645-d176-4b18-a68f-9f17c7f57065",
+  "guid": "6f1bb645-d176-4b18-a68f-9f17c7f57065",
+  "publisherId": "globalsourcedynamicsltd1725097348741",
+  "offerId": "globalfilestorage",
+  "source": {
+    "name": "Global File Storage for Business Central",
+    "publisher": "GLOBAL SOURCE DYNAMICS LTD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.globalsourcedynamicsltd1725097348741%7CAID.globalfilestorage%7CPAPPID.6f1bb645-d176-4b18-a68f-9f17c7f57065",
+    "lastModified": "2025-12-26T13:18:45.1590494+00:00",
+    "appVersion": "27.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://globalsourcedynamics.com/globalfilestorage",
+    "sourceHash": "sha256:f215cf31f4b4bb3d115df8a0644de6bd3abdf7db3d80e580ba6f3fb522d8ddb8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f215cf31f4b4bb3d115df8a0644de6bd3abdf7db3d80e580ba6f3fb522d8ddb8",
+    "mappedOn": null,
+    "summary": "Offloads BC documents to SharePoint or Azure storage",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Stores attachments in SharePoint, Azure File Share or Azure Blob Storage",
+      "Automatically offloads file attachments to external storage",
+      "Moves attachments, invoices and purchase orders out of BC database",
+      "Bidirectional link to view, edit and manage files from BC records",
+      "Share externally stored documents with third-party applications"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint",
+      "Azure Blob Storage",
+      "Azure File Share"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

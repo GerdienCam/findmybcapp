@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.xtensionit|AID.xtelwms|PAPPID.ae0ef18a-3625-45db-acf4-e35db60b7e97",
+  "guid": "ae0ef18a-3625-45db-acf4-e35db60b7e97",
+  "publisherId": "xtensionit",
+  "offerId": "xtelwms",
+  "source": {
+    "name": "LOGIA WMS",
+    "publisher": "XtensionIT Aps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xtelwms%7CPAPPID.ae0ef18a-3625-45db-acf4-e35db60b7e97",
+    "lastModified": "2026-09-08T06:53:35.1227572+00:00",
+    "appVersion": "1.0.20260903.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.roimaint.com/en/content/logia-wms-integration-to-business-central",
+    "sourceHash": "sha256:70bd3bf98e189279af259844aca916fd805fef2816f610887086758a4713d5e1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:70bd3bf98e189279af259844aca916fd805fef2816f610887086758a4713d5e1",
+    "mappedOn": null,
+    "summary": "Integrates LOGIA WMS with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Syncs item master data, sales orders, sales return orders, purchase orders and purchase return orders",
+      "Receives updates from LOGIA WMS via a scheduled service",
+      "Automatically posts stock and invoice when an order is picked or stored",
+      "LOGIA covers manual and automatic warehouses, production logistics and shipping",
+      "On-premises supported from version 20"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "LOGIA WMS"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.advaiya|AID.adv_procuresure_001|PAPPID.7b3cce67-f948-4149-adfc-02263c90d6ba",
+  "guid": "7b3cce67-f948-4149-adfc-02263c90d6ba",
+  "publisherId": "advaiya",
+  "offerId": "adv_procuresure_001",
+  "source": {
+    "name": "ProcureSure",
+    "publisher": "Advaiya Solutions Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advaiya%7CAID.adv_procuresure_001%7CPAPPID.7b3cce67-f948-4149-adfc-02263c90d6ba",
+    "lastModified": "2026-08-03T17:26:43.6779793+00:00",
+    "appVersion": "1.0.0.9",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.advaiya.com/contact/",
+    "sourceHash": "sha256:c798fff98f56a9bd025959fa98efc8afb1a232bac5fa370d0e50a74d940bd759"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c798fff98f56a9bd025959fa98efc8afb1a232bac5fa370d0e50a74d940bd759",
+    "mappedOn": null,
+    "summary": "Quality management for incoming goods and supplier inspections",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Quality parameters with code, description and approved parameters",
+      "Default quality codes on item and fixed asset masters",
+      "Quality codes pulled into purchase orders to record actual parameters for received goods",
+      "Quality data captured before generating the GRN",
+      "Quality approval workflow via Pending GRN Quality List",
+      "Approved GRN Quality log with user, date and time",
+      "Covers incoming goods, services and fixed assets"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

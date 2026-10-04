@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcleasingdealerbox-is|PAPPID.b4f06d66-04f7-42f5-8c92-a503b33027bc",
+  "guid": "b4f06d66-04f7-42f5-8c92-a503b33027bc",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcleasingdealerbox-is",
+  "source": {
+    "name": "DealerBox Leasing",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcleasingdealerbox-is%7CPAPPID.b4f06d66-04f7-42f5-8c92-a503b33027bc",
+    "lastModified": "2025-10-22T16:19:38.2566122+00:00",
+    "appVersion": "26.2.77.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:112c324f5f00259772a09d845a9af52943538171ea24932fdeeb0855a27e5098"
+  },
+  "mapping": {
+    "sourceHash": "sha256:112c324f5f00259772a09d845a9af52943538171ea24932fdeeb0855a27e5098",
+    "mappedOn": null,
+    "summary": "Manages vehicle leasing and automotive finance contracts",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-leasing-finance",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-equipment-dealers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-sales-pipeline"
+    ],
+    "claims": [
+      "Opportunity tracking incl. test drives and quotations",
+      "Offers covering sales, auctions or trade-ins",
+      "Generates and adjusts leasing plans with fees, installments and interest",
+      "Contract approval workflows with notifications",
+      "Delivery protocols and contract parameter changes",
+      "Automatic invoice generation",
+      "Subrogation procedures",
+      "Monthly payment via residual value matrices",
+      "Matrices of fees and packages by service type, brand, model and mileage"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Automotive",
+      "Leasing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "DealerBox"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

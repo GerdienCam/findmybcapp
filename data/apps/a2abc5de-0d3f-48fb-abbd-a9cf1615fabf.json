@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.business_dynamics_pro|AID.bdp_warehouseq|PAPPID.a2abc5de-0d3f-48fb-abbd-a9cf1615fabf",
+  "guid": "a2abc5de-0d3f-48fb-abbd-a9cf1615fabf",
+  "publisherId": "business_dynamics_pro",
+  "offerId": "bdp_warehouseq",
+  "source": {
+    "name": "BDP WarehouseQ Mobile WMS",
+    "publisher": "Business Dynamics Pro Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_dynamics_pro%7CAID.bdp_warehouseq%7CPAPPID.a2abc5de-0d3f-48fb-abbd-a9cf1615fabf",
+    "lastModified": "2026-08-17T08:47:50.073678+00:00",
+    "appVersion": "2.0.122.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dynamicspro.ca/help/warehouseq",
+    "sourceHash": "sha256:5f10db1e48102b7d83f6d81d6c6b5eda63fc36e480d2ca143655bf4f9e8abc5f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5f10db1e48102b7d83f6d81d6c6b5eda63fc36e480d2ca143655bf4f9e8abc5f",
+    "mappedOn": null,
+    "summary": "Mobile barcode scanning for warehouse operations",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-stock-counting",
+      "ng-shop-floor-reporting",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Runs in BC web client, no separate server",
+      "Scanning on phone, tablet or paired scanner",
+      "Warehouse tasks: replenish, transfer, adjust, move, count, ship, pick, put away and receive",
+      "Production output and consumption, assembly, license plates",
+      "Adapts to location setup up to directed put-away and pick",
+      "Lot, serial and package tracking with FEFO guidance",
+      "Offline scanning queues and syncs later",
+      "Hardware wedge scanners and camera scanning",
+      "GS1 label printing via on-site print connector",
+      "Per user, 3-seat minimum, 30-day trial"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "appId": "PUBID.foodware365|AID.aptean_license_plating|PAPPID.6d413e49-2cca-45f3-9e22-badb71e67a18",
+  "guid": "6d413e49-2cca-45f3-9e22-badb71e67a18",
+  "publisherId": "foodware365",
+  "offerId": "aptean_license_plating",
+  "source": {
+    "name": "Aptean License Plating for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_license_plating%7CPAPPID.6d413e49-2cca-45f3-9e22-badb71e67a18",
+    "lastModified": "2026-08-26T05:37:53.2138502+00:00",
+    "appVersion": "2602.4.339450.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/LPL/",
+    "sourceHash": "sha256:d309557ff1a4976664c05df65f51f3235b3d422c41f81fcc1ffcaec1175b1812"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d309557ff1a4976664c05df65f51f3235b3d422c41f81fcc1ffcaec1175b1812",
+    "mappedOn": null,
+    "summary": "Tracks inventory via license plate numbers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-movements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-vert-food-beverage",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Gives license plate numbers to lots, pallets, item groups or lot groups",
+      "Reduces number of scans needed per transaction",
+      "Create license plates in all inbound inventory transactions, set up per item and location",
+      "Mixed items and mixed lots on one license plate",
+      "Ship full license plates or build mixed plates during picking",
+      "Move whole license plate or individual items between plates",
+      "Print license plate labels",
+      "Works together with Aptean Process Manufacturing, Packaging, Labeling, Shop Floor Production and Mobile Warehouse"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

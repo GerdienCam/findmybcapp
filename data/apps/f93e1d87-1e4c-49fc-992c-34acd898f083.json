@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.projects_agent|PAPPID.f93e1d87-1e4c-49fc-992c-34acd898f083",
+  "guid": "f93e1d87-1e4c-49fc-992c-34acd898f083",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "projects_agent",
+  "source": {
+    "name": "Projects Agent",
+    "publisher": "LODESTAR SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.projects_agent%7CPAPPID.f93e1d87-1e4c-49fc-992c-34acd898f083",
+    "lastModified": "2026-09-08T10:33:23.5790946+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:d79af525fe74da10de404c9d22ebbd9de928aca2980a9476b4c23c3c6d54bab6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d79af525fe74da10de404c9d22ebbd9de928aca2980a9476b4c23c3c6d54bab6",
+    "mappedOn": null,
+    "summary": "AI project analysis and risk detection",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-wip",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-billing",
+      "ng-proj-planning",
+      "ng-admin-copilot-agents"
+    ],
+    "claims": [
+      "Project budget against actual revenue, cost, variance and margin",
+      "Task-level economics to pinpoint overruns",
+      "WIP reconciliation of calculated vs posted WIP at cutoff date",
+      "Timesheet profitability by resource",
+      "Forecast at completion (EAC)",
+      "Detects overdue projects or projects behind resource plan",
+      "Monitors billable value, invoice progress and unbilled revenue",
+      "Burn rate and remaining budget runway",
+      "Resource utilization vs capacity on projects",
+      "WIP aging",
+      "Customer profitability across projects",
+      "Configurable thresholds produce risk statuses",
+      "Read-only analyses; data never changed",
+      "Dedicated Role Center for projects, timesheets, analyses and agent tasks"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

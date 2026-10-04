@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.succeedit_5140844|AID.dd_rma_integration|PAPPID.24b52110-beda-4181-b288-1b4d17a6cfa5",
+  "guid": "24b52110-beda-4181-b288-1b4d17a6cfa5",
+  "publisherId": "succeedit_5140844",
+  "offerId": "dd_rma_integration",
+  "source": {
+    "name": "Drag and Drop extension for RMA",
+    "publisher": "SucceedIT B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.succeedit_5140844%7CAID.dd_rma_integration%7CPAPPID.24b52110-beda-4181-b288-1b4d17a6cfa5",
+    "lastModified": "2026-03-26T03:14:59.6943907+00:00",
+    "appVersion": "27.0.20260323.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.succeedit.nl/drag-drop/",
+    "sourceHash": "sha256:019328b0888331b96be5975d843bbf48161f3dacd49166b1de74317789f94980"
+  },
+  "mapping": {
+    "sourceHash": "sha256:019328b0888331b96be5975d843bbf48161f3dacd49166b1de74317789f94980",
+    "mappedOn": null,
+    "summary": "Adds drag and drop attachments to the RMA app",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns"
+    ],
+    "claims": [
+      "Drag and drop files onto RMAs, e.g. pictures of RMA items",
+      "Store files in BC database or SharePoint Online",
+      "Use stored files as email attachments"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint Online"
+    ],
+    "requires": [
+      "SucceedIT RMA",
+      "SucceedIT Drag & Drop"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

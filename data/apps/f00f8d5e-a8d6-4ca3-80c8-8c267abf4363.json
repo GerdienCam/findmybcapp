@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.venturesinformationtechnologyservices1680161546686|AID.purchaserequisitionsolution|PAPPID.f00f8d5e-a8d6-4ca3-80c8-8c267abf4363",
+  "guid": "f00f8d5e-a8d6-4ca3-80c8-8c267abf4363",
+  "publisherId": "venturesinformationtechnologyservices1680161546686",
+  "offerId": "purchaserequisitionsolution",
+  "source": {
+    "name": "Purchase Requisition",
+    "publisher": "TECH VENTURES",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.venturesinformationtechnologyservices1680161546686%7CAID.purchaserequisitionsolution%7CPAPPID.f00f8d5e-a8d6-4ca3-80c8-8c267abf4363",
+    "lastModified": "2026-07-23T01:07:34.0664182+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.techventuresglobal.com/purchase-requisition/",
+    "sourceHash": "sha256:1da547d586121c17115f09019e099acb346095b002658d332695f9d5b7b250eb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1da547d586121c17115f09019e099acb346095b002658d332695f9d5b7b250eb",
+    "mappedOn": null,
+    "summary": "Purchase requisitions with automated approvals and tracking",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-budget-control",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Employees create and submit requisitions in BC",
+      "Validates requisitions and purchase documents against approved budgets",
+      "Extra approval workflow when a purchase document exceeds budget",
+      "Multiple vendors in one requisition",
+      "Customizable approval routing",
+      "One-click conversion of approved requisitions to purchase orders"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

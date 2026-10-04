@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.softwaredynamicslimited|AID.dynamics365procurement|PAPPID.5aec7af2-5a60-43fd-990d-121df0e28520",
+  "guid": "5aec7af2-5a60-43fd-990d-121df0e28520",
+  "publisherId": "softwaredynamicslimited",
+  "offerId": "dynamics365procurement",
+  "source": {
+    "name": "My Procurement 365",
+    "publisher": "SOFTWARE DYNAMICS LIMITED",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softwaredynamicslimited%7CAID.dynamics365procurement%7CPAPPID.5aec7af2-5a60-43fd-990d-121df0e28520",
+    "lastModified": "2026-06-08T15:47:16.0442086+00:00",
+    "appVersion": "1.1.0.11",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://softwaredynamicsgroup.com/contact-us/",
+    "sourceHash": "sha256:110c31e8295a020813cd89c1d767511b16499b3daeb98b1ba5479d895d31938d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:110c31e8295a020813cd89c1d767511b16499b3daeb98b1ba5479d895d31938d",
+    "mappedOn": null,
+    "summary": "Procurement and sourcing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-contracts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-procurement-spend",
+      "ng-admin-portals",
+      "ng-supplier-quality-compliance",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Purchase requisitions with customizable approval hierarchies",
+      "Generates, compares and evaluates vendor quotes (RFQ)",
+      "Centralizes vendor agreements and tracks supplier performance",
+      "Procurement dashboard for spend, supplier performance and cycle times",
+      "Converts approved requisitions to purchase orders",
+      "Multi-currency and multi-location support",
+      "Enforces budget limits with spend reports",
+      "Supplier portal for quotes, contract updates and order tracking"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Public sector"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

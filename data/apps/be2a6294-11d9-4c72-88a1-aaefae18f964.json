@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.madhda3303|AID.d365_assets_maintenance_management|PAPPID.be2a6294-11d9-4c72-88a1-aaefae18f964",
+  "guid": "be2a6294-11d9-4c72-88a1-aaefae18f964",
+  "publisherId": "madhda3303",
+  "offerId": "d365_assets_maintenance_management",
+  "source": {
+    "name": "Asset Maintenance Management for Business Central",
+    "publisher": "Madhda Business Solutions Private Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.madhda3303%7CAID.d365_assets_maintenance_management%7CPAPPID.be2a6294-11d9-4c72-88a1-aaefae18f964",
+    "lastModified": "2026-04-01T04:42:16.0886563+00:00",
+    "appVersion": "27.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://madhda.com/contact/",
+    "sourceHash": "sha256:b865fbbced0ad96862f376b40ccf06f6891ce12ebe4ae28c517b8be4e7f5f489"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b865fbbced0ad96862f376b40ccf06f6891ce12ebe4ae28c517b8be4e7f5f489",
+    "mappedOn": null,
+    "summary": "Asset maintenance, calibration and reminders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-fa-register",
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Enable calibration per asset with frequency in days or months",
+      "Auto-calculates next calibration due date",
+      "Linked calibration history per asset",
+      "Creates calibration logs from the asset card",
+      "Records technician and Pass/Fail/Requires Attention result",
+      "Records environmental conditions",
+      "Work instructions and acceptance criteria",
+      "Job queue reminders 7 days ahead of due, on the due date, plus recurring overdue ones",
+      "Monthly compliance summary emails",
+      "Upload PDF calibration certificates to asset or log",
+      "Prints formatted calibration certificates"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Automotive",
+      "Energy",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

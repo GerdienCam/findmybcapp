@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.pleo|AID.pleo-bc|PAPPID.7f659e78-e0c9-4bdd-8cab-cfc3f4544e1d",
+  "guid": "7f659e78-e0c9-4bdd-8cab-cfc3f4544e1d",
+  "publisherId": "pleo",
+  "offerId": "pleo-bc",
+  "source": {
+    "name": "Pleo",
+    "publisher": "Pleo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pleo%7CAID.pleo-bc%7CPAPPID.7f659e78-e0c9-4bdd-8cab-cfc3f4544e1d",
+    "lastModified": "2026-09-17T04:34:48.9544146+00:00",
+    "appVersion": "1.7.1.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.pleo.io/en/support/solutions/folders/103000653337",
+    "sourceHash": "sha256:066dd7afe6441166fad5f64acd6440cee90b6cf6f5ae02d119f5e2194f2ee7d6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:066dd7afe6441166fad5f64acd6440cee90b6cf6f5ae02d119f5e2194f2ee7d6",
+    "mappedOn": null,
+    "summary": "Syncs Pleo spend and expense data to BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Exports Pleo transactions with receipts into BC",
+      "Pushes the chart of accounts, vendors and BC dimensions to Pleo",
+      "Supports multiple entities",
+      "Spend approvals and pre-set budgets",
+      "Physical and virtual cards with individual limits",
+      "1% cashback"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Pleo"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

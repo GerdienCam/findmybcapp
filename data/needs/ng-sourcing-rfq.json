@@ -1,0 +1,299 @@
+{
+  "id": "ng-sourcing-rfq",
+  "order": 6,
+  "label": "Getting quotes and running tenders with suppliers",
+  "description": "Requests for information, quotation and proposal, scoring bids and judging whether sourcing pays off.",
+  "type": "bpc",
+  "area": "Purchasing & payables",
+  "relevance": "medium",
+  "statements": [
+    "Getting quotes and running tenders with suppliers",
+    "Requests for information, quotation and proposal, scoring bids and judging whether sourcing pays off.",
+    "We email three suppliers for prices and then copy their answers into a spreadsheet",
+    "Is there an app to send a request for quote to several vendors from BC and compare the answers?",
+    "Purchase quotes in BC only go to one vendor; we need to ask several suppliers at once",
+    "RFQ multiple vendors Business Central",
+    "We need to prove we got at least three supplier quotes for anything over 10,000 EUR",
+    "Suppliers should type their prices into a portal instead of replying with PDFs",
+    "Comparing supplier quotes side by side including freight and delivery time",
+    "We buy custom parts and every purchase needs fresh quotes from two or three workshops",
+    "Chasing vendors who haven't answered our price request is all manual",
+    "Can the cheapest vendor quote turn into a purchase order automatically?",
+    "For each project we ask subcontractors for a price and track who answered in Outlook",
+    "We'd like each vendor to see only their own quote, not the other suppliers' prices",
+    "We want to send a short questionnaire to possible suppliers before we ask them for prices",
+    "How do we collect information from potential vendors about capacity, certifications and references?",
+    "supplier questionnaire before quoting",
+    "Supplier answers to our questions come back in emails and Word files and we lose track of them",
+    "Is there an RFI feature or app for Business Central purchasing?",
+    "Can prospective suppliers fill in a capability form online instead of us chasing them by email?",
+    "We are tendering our cleaning and facility services and handle the supplier side all by email",
+    "How do we run a proper tender to choose a new transport provider?",
+    "tender management app for purchasing",
+    "We need bidding suppliers to answer a scope of work with a plan, timeline and price, not just a number",
+    "Construction subcontractor tenders with drawings attached, tracked per project",
+    "Is there an RFP tool for buying that connects to Business Central?",
+    "We pick the cheapest supplier quote every time because we can't weigh quality and delivery",
+    "We need a scorecard to compare supplier bids on price, lead time and quality",
+    "Several people should score the vendor bids and the system should add it up",
+    "Auditors want to see why we didn't pick the lowest supplier bid",
+    "A supplier proposed an alternative product in their quote; how do we evaluate it next to the others?",
+    "Is there a way in BC to mark the winning vendor quote and record the reason?",
+    "Steel prices from our suppliers are all over the place and we don't know when to buy",
+    "Is there a tool that tracks commodity prices next to what we actually pay our vendors?",
+    "Before we renegotiate with the vendor we want to know if our packaging prices are above market",
+    "How do we decide whether to buy locally or import from suppliers in Asia for this product group?",
+    "We want an overview of how many suppliers exist for each category we buy and how concentrated it is",
+    "Should we lock prices with the supplier for a year or keep buying spot? We need data to decide",
+    "We ask suppliers for quotes all the time but have no idea how much we actually save",
+    "How long does it take on average from a purchase request to a placed supplier order?",
+    "Report on how many purchase requisitions are waiting, approved or rejected per buyer",
+    "sourcing savings report purchasing",
+    "How often do we end up ordering from a supplier that did not win the quote?",
+    "How many vendors typically answer our requests for quotation, and how often do we just pick the usual one?"
+  ],
+  "questions": [
+    {
+      "id": "quote_channel",
+      "text": "How do vendors send you their quotes?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "By email (PDF, Excel or in the mail text)",
+          "patterns": [
+            "e-?mail rfq",
+            "by (automated )?e-?mail",
+            "e-?mail body",
+            "monitors e-?mail"
+          ]
+        },
+        {
+          "label": "Through a web portal where vendors type them in",
+          "patterns": [
+            "via portal",
+            "or vendor portal",
+            "supplier portal",
+            "power pages",
+            "web form"
+          ]
+        },
+        {
+          "label": "We type them in ourselves",
+          "patterns": [
+            "record(s)? (and compare )?(vendor|supplier) quot",
+            "records supplier quotes",
+            "capture vendor pricing",
+            "manual"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "By email (PDF, Excel or in the mail text)": 0.13,
+        "Through a web portal where vendors type them in": 0.17,
+        "We type them in ourselves": 0.13
+      }
+    },
+    {
+      "id": "request_approval",
+      "text": "Do employees raise purchase requests that need approval before you ask vendors for prices?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, requests go through approval first",
+          "patterns": [
+            "requisition",
+            "purchase request",
+            "indent",
+            "request(s)? (for|with|creation)",
+            "approv"
+          ]
+        },
+        {
+          "label": "Yes, and the request must be checked against a budget",
+          "patterns": [
+            "budget"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, requests go through approval first": 0.65,
+        "Yes, and the request must be checked against a budget": 0.17
+      }
+    },
+    {
+      "id": "compare_on",
+      "text": "What do you compare between vendor quotes?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Also delivery time and terms",
+          "patterns": [
+            "lead time",
+            "delivery (time|terms|date|schedule)",
+            "payment terms",
+            "expected receipt",
+            "availability",
+            "validity"
+          ]
+        },
+        {
+          "label": "A scored evaluation with sign-off",
+          "patterns": [
+            "evaluat",
+            "vendor performance",
+            "supplier performance",
+            "shortlist"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Also delivery time and terms": 0.35,
+        "A scored evaluation with sign-off": 0.22
+      }
+    },
+    {
+      "id": "split_award",
+      "text": "Do you sometimes buy different lines from different vendors on the same request?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, split lines across vendors",
+          "patterns": [
+            "split award",
+            "item-by-item",
+            "per (awarded )?vendor",
+            "multiple vendors per item",
+            "orders per vendor",
+            "one po per"
+          ]
+        },
+        {
+          "label": "No, one winning vendor per request",
+          "patterns": [
+            "best (quotation|offer|vendor)",
+            "winning",
+            "selected (best )?quot",
+            "convert(s)? selected"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, split lines across vendors": 0.17,
+        "No, one winning vendor per request": 0.35
+      }
+    },
+    {
+      "id": "what_buy",
+      "text": "What do your purchase requests cover?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Stock items",
+          "patterns": [
+            "item"
+          ]
+        },
+        {
+          "label": "Services or fixed assets",
+          "patterns": [
+            "service",
+            "fixed asset"
+          ]
+        },
+        {
+          "label": "Items not yet in Business Central",
+          "patterns": [
+            "without knowing",
+            "unidentified",
+            "nonstock",
+            "new items",
+            "auto-created",
+            "without creating a vendor"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Stock items": 0.57,
+        "Services or fixed assets": 0.13,
+        "Items not yet in Business Central": 0.13
+      }
+    },
+    {
+      "id": "trigger",
+      "text": "What usually starts a sourcing round?",
+      "multi": true,
+      "options": [
+        {
+          "label": "A customer quote or sales order",
+          "patterns": [
+            "sales (quote|order|line)",
+            "drop shipment",
+            "special order"
+          ]
+        },
+        {
+          "label": "An internal need from a department, warehouse or project",
+          "patterns": [
+            "department",
+            "warehouse",
+            "project",
+            "field",
+            "employee",
+            "indent"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "A customer quote or sales order": 0.04,
+        "An internal need from a department, warehouse or project": 0.35
+      }
+    },
+    {
+      "id": "vendor_mgmt",
+      "text": "Do you also want to manage and rate your supplier base?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, onboard and evaluate suppliers",
+          "patterns": [
+            "vendor (registration|onboarding|lifecycle|performance|evaluation|competitiveness)",
+            "supplier performance",
+            "admission"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, onboard and evaluate suppliers": 0.22
+      }
+    }
+  ]
+}

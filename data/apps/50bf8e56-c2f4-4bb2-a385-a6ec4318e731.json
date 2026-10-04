@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.profactoas1585665701232|AID.material_shortage_calculation|PAPPID.50bf8e56-c2f4-4bb2-a385-a6ec4318e731",
+  "guid": "50bf8e56-c2f4-4bb2-a385-a6ec4318e731",
+  "publisherId": "profactoas1585665701232",
+  "offerId": "material_shortage_calculation",
+  "source": {
+    "name": "Material Shortage Calculation",
+    "publisher": "ProFacto A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.profactoas1585665701232%7CAID.material_shortage_calculation%7CPAPPID.50bf8e56-c2f4-4bb2-a385-a6ec4318e731",
+    "lastModified": "2026-06-26T11:33:14.0074075+00:00",
+    "appVersion": "20.0.0.95",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://profacto.dk/en/Material-Shortage-Calculation/",
+    "sourceHash": "sha256:5e49047a7df070a68e0787d63d3267d77331a908a28d7342085b9da4795495a2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5e49047a7df070a68e0787d63d3267d77331a908a28d7342085b9da4795495a2",
+    "mappedOn": null,
+    "summary": "Calculates component shortages for production",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-replenishment-planning"
+    ],
+    "claims": [
+      "Checks component shortages before starting a production order",
+      "Checks shortages before creating a sales order",
+      "Complete overview of shortages",
+      "Supported countries DK, SE, NO, FI, DE, UK, US"
+    ],
+    "countries": [
+      "DE",
+      "DK",
+      "FI",
+      "GB",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

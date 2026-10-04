@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.jemel|AID.jemel_lv_edi|PAPPID.ab5e83d1-83f8-4b28-b8a4-6ea13520d20c",
+  "guid": "ab5e83d1-83f8-4b28-b8a4-6ea13520d20c",
+  "publisherId": "jemel",
+  "offerId": "jemel_lv_edi",
+  "source": {
+    "name": "Baltic EDI",
+    "publisher": "JEMEL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jemel%7CAID.jemel_lv_edi%7CPAPPID.ab5e83d1-83f8-4b28-b8a4-6ea13520d20c",
+    "lastModified": "2026-06-04T12:10:04.3040468+00:00",
+    "appVersion": "27.1.41.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://jemel.lv/docs/latvian-edi",
+    "sourceHash": "sha256:cffa2608807d8c02cf9d6e5438b0257d2e92a02105222e5aadba8f46aff96e02"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cffa2608807d8c02cf9d6e5438b0257d2e92a02105222e5aadba8f46aff96e02",
+    "mappedOn": null,
+    "summary": "EDI with Baltic providers Edisoft, Telema, Unifiedpost, Finbite",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Integrates with Edisoft for e-invoices and ORDER, DESADV, RECADV, RETANN, APERAK",
+      "Telema e-invoice exchange across Baltic retail network",
+      "Unifiedpost e-invoices in Peppol BIS 3",
+      "Finbite/eArvekeskus with per-customer delivery channel and optional PDF",
+      "Configurable mapping for custom partner formats",
+      "No manual upload of Peppol, Edisoft XML or EDIFACT files",
+      "Standard plan up to 10 users"
+    ],
+    "countries": [
+      "EE",
+      "LT",
+      "LV"
+    ],
+    "languages": [
+      "en",
+      "et",
+      "lt",
+      "lv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Edisoft",
+      "Telema",
+      "Unifiedpost",
+      "Finbite"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

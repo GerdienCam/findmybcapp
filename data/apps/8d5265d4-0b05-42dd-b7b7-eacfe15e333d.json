@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.northerndynamic|AID.northerncomfortplannedapply|PAPPID.8d5265d4-0b05-42dd-b7b7-eacfe15e333d",
+  "guid": "8d5265d4-0b05-42dd-b7b7-eacfe15e333d",
+  "publisherId": "northerndynamic",
+  "offerId": "northerncomfortplannedapply",
+  "source": {
+    "name": "Northern Comfort Planned Apply",
+    "publisher": "Northern Dynamic GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.northerndynamic%7CAID.northerncomfortplannedapply%7CPAPPID.8d5265d4-0b05-42dd-b7b7-eacfe15e333d",
+    "lastModified": "2026-09-03T11:26:59.5965941+00:00",
+    "appVersion": "1.0.181.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.northerndynamic.de/",
+    "sourceHash": "sha256:6a5a963bb9ea6699220be5979eb58c79be9bed0e8ba3ec41cfa54a65527be98c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6a5a963bb9ea6699220be5979eb58c79be9bed0e8ba3ec41cfa54a65527be98c",
+    "mappedOn": null,
+    "summary": "Plans and posts large-scale entry applications",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-period-close",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-admin-performance"
+    ],
+    "claims": [
+      "Two-column planning view of open and applying entries with remaining amount",
+      "Auto-match proposal by document no., amount, external doc no. or payment reference",
+      "Simulation incl. payment discount, exchange rate difference before posting",
+      "Applies one entry to several open entries, or the reverse",
+      "Batch posting; failure doesn't discard completed batches",
+      "Locks only held per batch",
+      "Logs who planned and posted each assignment",
+      "Reports suggest closing remaining amounts on customer, vendor and employee entries"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

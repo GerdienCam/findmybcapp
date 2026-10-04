@@ -1,0 +1,49 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-license|PAPPID.eb1f8843-13fc-41bb-9305-fa8c818ade5a",
+  "guid": "eb1f8843-13fc-41bb-9305-fa8c818ade5a",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-license",
+  "source": {
+    "name": "BeyondLicense",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-license%7CPAPPID.eb1f8843-13fc-41bb-9305-fa8c818ade5a",
+    "lastModified": "2026-05-19T10:06:16.2291603+00:00",
+    "appVersion": "2026.4.141.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.beyondit.gmbh/",
+    "sourceHash": "sha256:bc4f0562f06b850b3b11062f37a1527fa01930f3094a1fc71b751a8d44d1387d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bc4f0562f06b850b3b11062f37a1527fa01930f3094a1fc71b751a8d44d1387d",
+    "mappedOn": null,
+    "summary": "Manages licenses and trials of BEYONDIT apps",
+    "shape": "other",
+    "primary": [
+      {
+        "need": "ng-admin-licensing",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Manages BEYONDIT trial and purchased licenses",
+      "Transition from trial to full license"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "license-management dependency for BEYONDIT apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

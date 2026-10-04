@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.on-point-ltd|AID.citibank-integration|PAPPID.628e9bdd-fc7a-4233-ae0d-4f9149900000",
+  "guid": "628e9bdd-fc7a-4233-ae0d-4f9149900000",
+  "publisherId": "on-point-ltd",
+  "offerId": "citibank-integration",
+  "source": {
+    "name": "Citibank API Integration",
+    "publisher": "On Point Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on-point-ltd%7CAID.citibank-integration%7CPAPPID.628e9bdd-fc7a-4233-ae0d-4f9149900000",
+    "lastModified": "2026-08-05T04:32:36.7982582+00:00",
+    "appVersion": "26.0.7.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://confluence.external-share.com/content/827540/citibank_api_integration_release_notes",
+    "sourceHash": "sha256:808d79236b453aec4894dadc9ceb01182cd27560e38c0d89563dd21308904763"
+  },
+  "mapping": {
+    "sourceHash": "sha256:808d79236b453aec4894dadc9ceb01182cd27560e38c0d89563dd21308904763",
+    "mappedOn": null,
+    "summary": "Integrates BC with Citibank for payments and statements",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Daily automatic bank statement import, pre-applied",
+      "Tile showing balances of all Citibank accounts",
+      "Sends bulk payments to Citibank from BC with security pin",
+      "Selects payment method with lowest fees per country",
+      "Only authorized users with access code can pay; payments reviewed before sending",
+      "SSL certificate encryption and transaction IDs"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Citibank",
+      "CitiDirect"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

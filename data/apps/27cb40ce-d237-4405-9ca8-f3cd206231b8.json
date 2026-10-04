@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.warpuruguay1666115458661|AID.tesoreria_avanzada|PAPPID.27cb40ce-d237-4405-9ca8-f3cd206231b8",
+  "guid": "27cb40ce-d237-4405-9ca8-f3cd206231b8",
+  "publisherId": "warpuruguay1666115458661",
+  "offerId": "tesoreria_avanzada",
+  "source": {
+    "name": "Tesorería Avanzada",
+    "publisher": "WARP SA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.warpuruguay1666115458661%7CAID.tesoreria_avanzada%7CPAPPID.27cb40ce-d237-4405-9ca8-f3cd206231b8",
+    "lastModified": "2024-11-21T11:38:58.7559821+00:00",
+    "appVersion": "1.0.0.13",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.voxa.com.ar/contacto/",
+    "sourceHash": "sha256:b12317a4998cf7c4fc9560f3a0a23b8c9da6b88766239d7bfbf6eb7c27c74601"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b12317a4998cf7c4fc9560f3a0a23b8c9da6b88766239d7bfbf6eb7c27c74601",
+    "mappedOn": null,
+    "summary": "Treasury: cheques, deferred cheques, cash, bank reconciliation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Manages cheques and post-dated cheques",
+      "Bank reconciliation",
+      "Multiple financial instruments for collections and payments incl. credit cards",
+      "Withholdings made and suffered with automatic tax calculation",
+      "Petty cash per branch, person or employee"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.d365globalptyltd1665883818849|AID.d365_budget_control|PAPPID.ab5f47e1-3aa4-4318-bd2c-c43a23c351e0",
+  "guid": "ab5f47e1-3aa4-4318-bd2c-c43a23c351e0",
+  "publisherId": "d365globalptyltd1665883818849",
+  "offerId": "d365_budget_control",
+  "source": {
+    "name": "GL Budget Control",
+    "publisher": "d365.Global Pty Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.d365globalptyltd1665883818849%7CAID.d365_budget_control%7CPAPPID.ab5f47e1-3aa4-4318-bd2c-c43a23c351e0",
+    "lastModified": "2024-12-25T21:09:25.7732038+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://d365.global/help",
+    "sourceHash": "sha256:575e0b0d08879729784337ac378414ad5a5073bc253e7ea87a4c650f3aafe141"
+  },
+  "mapping": {
+    "sourceHash": "sha256:575e0b0d08879729784337ac378414ad5a5073bc253e7ea87a4c650f3aafe141",
+    "mappedOn": null,
+    "summary": "G/L budget control with approval for overspending",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-budget-control",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Checks whether budget has been exceeded",
+      "Budget control with approval workflows"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing",
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

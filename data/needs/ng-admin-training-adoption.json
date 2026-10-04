@@ -1,0 +1,197 @@
+{
+  "id": "ng-admin-training-adoption",
+  "order": 158,
+  "label": "Training users and driving BC adoption",
+  "description": "Training strategy and needs, materials, sessions, measuring adoption and improving usability.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "medium",
+  "statements": [
+    "Training users and driving BC adoption",
+    "Training strategy and needs, materials, sessions, measuring adoption and improving usability.",
+    "How should we train 80 users on BC before go-live?",
+    "Train the trainer or partner-led training, what works better?",
+    "ERP training plan",
+    "We need a training plan that keeps going after the implementation",
+    "What budget should we set for BC user training?",
+    "Training strategy for a Business Central rollout across countries",
+    "Which users need training on which parts of BC?",
+    "Our warehouse staff struggle with BC but finance is fine",
+    "Skills check for BC users",
+    "How do we find out where people make the most mistakes in BC?",
+    "Training needs analysis ERP",
+    "New features in BC, who needs to learn what?",
+    "We have no documentation of how we do things in BC",
+    "Is there an app for in-app guided tours in Business Central?",
+    "Our process documents are out of date after every update",
+    "We want short videos showing how to post a purchase invoice our way",
+    "Custom help pages in BC for our own fields and processes",
+    "user manual business central our processes",
+    "Record a process once and turn it into a step-by-step guide",
+    "Partner question: tool to create customer-specific BC documentation fast",
+    "Tooltips on our custom fields that explain what to enter",
+    "Training material in Danish and English for the same processes",
+    "Where should we store BC how-to guides so people actually find them?",
+    "Digital adoption platform for Business Central",
+    "We need a training environment with realistic data",
+    "Copy production to a sandbox for training",
+    "Schedule BC training for all shifts in the warehouse",
+    "Training company with demo data",
+    "Who should be trained first before go-live?",
+    "Reset the training environment after each session",
+    "Our users never got proper BC training and use it wrong",
+    "Is there e-learning for Business Central end users?",
+    "New staff learn BC by watching a colleague, it doesn't work",
+    "BC training courses for finance staff",
+    "We want role-based training for sales, purchasing and warehouse",
+    "Online BC training our partner can assign to users",
+    "Refresher training on BC after the upgrade",
+    "Training for our accountant on financial reporting in BC",
+    "Hands-on workshop for warehouse staff on the scanners",
+    "Is there an LMS with BC content we can use?",
+    "Train users in their own language",
+    "Our partner's training is too generic for our processes",
+    "Are people actually using BC or still Excel?",
+    "Measure adoption of new features",
+    "User satisfaction with the ERP",
+    "Which features are never used?",
+    "Did the training make a difference?",
+    "Adoption dashboard for BC",
+    "Our BC training is outdated after the updates",
+    "Use user feedback to improve BC training",
+    "Training program refresh",
+    "New users still struggle despite training",
+    "Update training for new processes",
+    "Continuous improvement of ERP training",
+    "Our users find BC cluttered, too many fields and actions on every page",
+    "How do we tailor role centers so each department sees only what they need?",
+    "profile and page customization strategy",
+    "The screens are overwhelming for our warehouse staff who only need three things",
+    "Should we let users personalize pages or design it centrally per role?",
+    "We want a simpler BC experience for occasional users like approvers"
+  ],
+  "questions": [
+    {
+      "id": "format",
+      "text": "What kind of help do your users need?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Videos",
+          "patterns": [
+            "video"
+          ]
+        },
+        {
+          "label": "Step-by-step guidance on screen while they work",
+          "patterns": [
+            "walkthrough",
+            "digital assistant",
+            "interactive (walkthrough|video|lesson|step|guide)",
+            "on-screen",
+            "tooltip",
+            "in-context"
+          ]
+        },
+        {
+          "label": "Written manuals",
+          "patterns": [
+            "written",
+            "manual",
+            "word",
+            "pdf",
+            "documents"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Videos": 0.5,
+        "Step-by-step guidance on screen while they work": 0.62,
+        "Written manuals": 0.5
+      }
+    },
+    {
+      "id": "content_source",
+      "text": "Will you write your own training content or use ready-made material?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Write our own",
+          "patterns": [
+            "create (your own|user instructions|interactive)",
+            "customi[sz]",
+            "own help"
+          ]
+        },
+        {
+          "label": "Ready-made content",
+          "patterns": [
+            "hundreds",
+            "free video",
+            "content packs",
+            "interactive lessons",
+            "learning paths",
+            "comparing gp"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Write our own": 0.62,
+        "Ready-made content": 0.5
+      }
+    },
+    {
+      "id": "insight",
+      "text": "Do you want to see where users struggle?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "analytics",
+            "struggl",
+            "feedback",
+            "sentiment"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.25
+      }
+    },
+    {
+      "id": "languages",
+      "text": "Do users need training in several languages?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "language",
+            "portuguese",
+            "spanish"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.38
+      }
+    }
+  ]
+}

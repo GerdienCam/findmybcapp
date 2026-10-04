@@ -1,0 +1,79 @@
+{
+  "appId": "PUBID.nav24spzoo1579516366010|AID.nav24_shopfloor_bc|PAPPID.d145a5b6-651b-41f3-bca1-f7ecea2a3c29",
+  "guid": "d145a5b6-651b-41f3-bca1-f7ecea2a3c29",
+  "publisherId": "nav24spzoo1579516366010",
+  "offerId": "nav24_shopfloor_bc",
+  "source": {
+    "name": "Nav24 ShopFloor",
+    "publisher": "Nav24 Sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nav24spzoo1579516366010%7CAID.nav24_shopfloor_bc%7CPAPPID.d145a5b6-651b-41f3-bca1-f7ecea2a3c29",
+    "lastModified": "2026-09-02T21:51:10.4190012+00:00",
+    "appVersion": "26.0.5.6",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.nav24.pl/en-US/",
+    "sourceHash": "sha256:62c190f2c742051e382ce631bce5ae3d5feebc543c868d1674dd42349ae94738"
+  },
+  "mapping": {
+    "sourceHash": "sha256:62c190f2c742051e382ce631bce5ae3d5feebc543c868d1674dd42349ae94738",
+    "mappedOn": null,
+    "summary": "Real-time shop floor registration of consumption, output and scrap",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-production-costing",
+      "ng-scrap-rework",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Power Apps-based shop floor pack covering output, consumption, operation time, downtime and scrap",
+      "Automatic posting of material consumption and production output",
+      "Consumption linked to batch and serial numbers",
+      "Real-time alerts to supervisors on errors",
+      "Logs production breaks and retooling with reasons",
+      "Tracks employee time per operation",
+      "Registers production waste and causes",
+      "Shows production guides and common faults to operators",
+      "History by operator, order or shift",
+      "Worker UI in Polish, English and Ukrainian",
+      "Optional integrations with Zebra/PrintNode label printing, scales and Power BI",
+      "Premium edition only"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "lt",
+      "pl",
+      "pt",
+      "uk"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Power Apps",
+      "PrintNode",
+      "Power BI"
+    ],
+    "requires": [
+      "Nav24 Shop Floor Pack"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

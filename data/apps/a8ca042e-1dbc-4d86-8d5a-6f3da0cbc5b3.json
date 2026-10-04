@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.systemconnectaps1614781393914|AID.viesconnect|PAPPID.a8ca042e-1dbc-4d86-8d5a-6f3da0cbc5b3",
+  "guid": "a8ca042e-1dbc-4d86-8d5a-6f3da0cbc5b3",
+  "publisherId": "systemconnectaps1614781393914",
+  "offerId": "viesconnect",
+  "source": {
+    "name": "VIESConnect",
+    "publisher": "SystemConnect",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemconnectaps1614781393914%7CAID.viesconnect%7CPAPPID.a8ca042e-1dbc-4d86-8d5a-6f3da0cbc5b3",
+    "lastModified": "2025-11-21T07:36:23.0143351+00:00",
+    "appVersion": "12.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.systemconnect.dk/viesconnecthelp",
+    "sourceHash": "sha256:27c190d7e9b9795064c00d54eb7b04ecd5d3f13d4457a4d23adf7f120e2835e0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:27c190d7e9b9795064c00d54eb7b04ecd5d3f13d4457a4d23adf7f120e2835e0",
+    "mappedOn": null,
+    "summary": "Validates customer and vendor VAT numbers via VIES",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax",
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Scheduled validation of vendor and customer VAT numbers via EU VIES",
+      "Filters control which customers/vendors are checked and how often",
+      "Log and report viewable on screen or sent by email",
+      "Alerts when a VAT number is invalid or has changed",
+      "Runs as background job queue"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "VIES"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

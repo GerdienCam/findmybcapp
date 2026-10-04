@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.signup-software-ab|AID.exflow-machine-learning|PAPPID.6fe37164-4834-4d7b-97a2-ae6d93f89e5f",
+  "guid": "6fe37164-4834-4d7b-97a2-ae6d93f89e5f",
+  "publisherId": "signup-software-ab",
+  "offerId": "exflow-machine-learning",
+  "source": {
+    "name": "TruvioSense - Coding & Approvals",
+    "publisher": "SignUp Software AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.signup-software-ab%7CAID.exflow-machine-learning%7CPAPPID.6fe37164-4834-4d7b-97a2-ae6d93f89e5f",
+    "lastModified": "2026-09-17T11:53:12.8046823+00:00",
+    "appVersion": "1.2.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.signupsoftware.com/business-central/",
+    "sourceHash": "sha256:d3521a104336ea2e63ffeef69f4cd0ce1bda112ad1b0fe11c7ce41409b1c085b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d3521a104336ea2e63ffeef69f4cd0ce1bda112ad1b0fe11c7ce41409b1c085b",
+    "mappedOn": null,
+    "summary": "AI coding and approval of supplier invoices",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-dimensions"
+    ],
+    "claims": [
+      "Predicts G/L accounts, dimensions and cost centers based on historical posting patterns",
+      "Highlights anomalies and unusual values on invoices",
+      "Live translation of foreign-language invoices in the web interface",
+      "Brings coding intelligence into approval workflows",
+      "Interprets structured reference codes and identifies recurring patterns"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "TruvioSense"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": "ng-inventory-analysis",
+  "order": 80,
+  "label": "Seeing and analysing stock levels",
+  "description": "Analysing stock levels, slow movers, ageing and stock value.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "high",
+  "statements": [
+    "Seeing and analysing stock levels",
+    "Analysing stock levels, slow movers, ageing and stock value.",
+    "We cannot see stock per warehouse and per bin on one screen",
+    "Which items have not moved for a year?",
+    "Is there an app for inventory analysis in BC?",
+    "We want an aged stock report by lot",
+    "slow moving stock report BC",
+    "Sales reps call the warehouse to ask if something is in stock",
+    "How much of our stock expires in the next three months?",
+    "We want to see stock levels on a mobile phone",
+    "Our stock value is too high and we do not know which items cause it",
+    "We need a dead stock list for management",
+    "stock on hand by location and lot",
+    "We want to trace where a batch is now and how much is left",
+    "Is there an inventory dashboard with Power BI for Business Central?",
+    "The item availability pages are too slow and complex",
+    "We want to see stock that is reserved versus free",
+    "Our controller wants inventory turnover per item group",
+    "Customers should see our stock levels in the portal",
+    "Which items are below their reorder point right now?",
+    "Overstock and understock analysis",
+    "We want to compare stock levels month over month"
+  ],
+  "questions": [
+    {
+      "id": "stale-stock",
+      "text": "Is old, slow-moving or expiring stock a problem for you?",
+      "help": "Pick what you want to spot.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Slow-moving, dead or excess stock",
+          "patterns": [
+            "slow[- ]?mov",
+            "dead stock",
+            "obsolet",
+            "stale",
+            "excess",
+            "overstock",
+            "rotation",
+            "turnover",
+            "inventory turn",
+            "sales drop"
+          ]
+        },
+        {
+          "label": "How long items have been in stock (aging)",
+          "patterns": [
+            "\\bag(e|ing)\\b",
+            "days on hand",
+            "days supply",
+            "coverage days"
+          ]
+        },
+        {
+          "label": "Expiry dates and shelf life",
+          "patterns": [
+            "expir",
+            "shelf life",
+            "best-before"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Slow-moving, dead or excess stock": 0.17,
+        "How long items have been in stock (aging)": 0.14,
+        "Expiry dates and shelf life": 0.17
+      }
+    },
+    {
+      "id": "view-where",
+      "text": "Where do you want to see stock information?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Right on orders and item cards",
+          "patterns": [
+            "factbox",
+            "indicator",
+            "order entry",
+            "order lines",
+            "order lists",
+            "within (sales|documents)",
+            "on (quotes|order)",
+            "during sales order entry",
+            "from purchase orders"
+          ]
+        },
+        {
+          "label": "Dashboards or Power BI",
+          "patterns": [
+            "dashboard",
+            "power bi",
+            "\\bkpis?\\b",
+            "cockpit"
+          ]
+        },
+        {
+          "label": "Reports or Excel exports",
+          "patterns": [
+            "report",
+            "excel"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Right on orders and item cards": 0.26,
+        "Dashboards or Power BI": 0.17,
+        "Reports or Excel exports": 0.29
+      }
+    },
+    {
+      "id": "multi-company",
+      "text": "Is your stock spread over several companies in BC?",
+      "options": [
+        {
+          "label": "Yes, several companies",
+          "patterns": [
+            "(multi|multiple|other|across|group)[- ]?compan",
+            "companies",
+            "tenants"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, several companies": 0.14
+      }
+    },
+    {
+      "id": "detail",
+      "text": "Do you need to see stock by bin, lot or serial number?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "\\bbins?\\b",
+            "\\blots?\\b",
+            "serial",
+            "batch"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.37
+      }
+    },
+    {
+      "id": "stock-levels",
+      "text": "Do you want help deciding how much to keep in stock?",
+      "help": "ABC classes, safety stock, reorder points.",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "\\babc\\b",
+            "safety stock",
+            "replenish",
+            "min(imum)? and max",
+            "stocking rules",
+            "low stock",
+            "stock-out"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.23
+      }
+    },
+    {
+      "id": "value",
+      "text": "Do you need to analyse what your stock is worth and what it cost?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Stock value and costing",
+          "patterns": [
+            "valuation",
+            "\\bvalue",
+            "cost (analysis|movement|variance)",
+            "costing",
+            "fifo",
+            "lifo",
+            "gmroi"
+          ]
+        },
+        {
+          "label": "Landed costs (freight, duty)",
+          "patterns": [
+            "landed cost",
+            "duty"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Stock value and costing": 0.31,
+        "Landed costs (freight, duty)": 0.06
+      }
+    }
+  ]
+}

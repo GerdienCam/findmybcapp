@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.venturesinformationtechnologyservices1680161546686|AID.postdatedchecktvs|PAPPID.70247288-a7ec-44f1-a6f7-78663db17a71",
+  "guid": "70247288-a7ec-44f1-a6f7-78663db17a71",
+  "publisherId": "venturesinformationtechnologyservices1680161546686",
+  "offerId": "postdatedchecktvs",
+  "source": {
+    "name": "Post Dated Check",
+    "publisher": "TECH VENTURES",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.venturesinformationtechnologyservices1680161546686%7CAID.postdatedchecktvs%7CPAPPID.70247288-a7ec-44f1-a6f7-78663db17a71",
+    "lastModified": "2026-07-23T01:03:32.6067523+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.techventuresglobal.com/post-dated-cheque-for-microsoft-dynamics/",
+    "sourceHash": "sha256:587ae30baa54c75b22adb708fa697be12ef5c09a1796d8be4351ca06a6e3d2eb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:587ae30baa54c75b22adb708fa697be12ef5c09a1796d8be4351ca06a6e3d2eb",
+    "mappedOn": null,
+    "summary": "Manages post-dated checks",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Records post-dated checks from customers",
+      "Records post-dated payments to suppliers",
+      "Schedules PDC postings to designated dates automatically",
+      "Reverses erroneous PDC entries"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

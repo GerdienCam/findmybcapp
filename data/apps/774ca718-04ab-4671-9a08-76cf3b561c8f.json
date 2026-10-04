@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.samadhan1595571675983|AID.purchase_indent_rfq_samadhan|PAPPID.774ca718-04ab-4671-9a08-76cf3b561c8f",
+  "guid": "774ca718-04ab-4671-9a08-76cf3b561c8f",
+  "publisherId": "samadhan1595571675983",
+  "offerId": "purchase_indent_rfq_samadhan",
+  "source": {
+    "name": "Purchase Indent and RFQ Samadhan",
+    "publisher": "Samadhan",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.samadhan1595571675983%7CAID.purchase_indent_rfq_samadhan%7CPAPPID.774ca718-04ab-4671-9a08-76cf3b561c8f",
+    "lastModified": "2026-06-12T07:55:36.6450882+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.samadhanindia.com/helpdesk-support/",
+    "sourceHash": "sha256:e77faf07075a28055ef3bcda12d1c1666d7e017397dfb2b09135612db7e11849"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e77faf07075a28055ef3bcda12d1c1666d7e017397dfb2b09135612db7e11849",
+    "mappedOn": null,
+    "summary": "Purchase indents and RFQs through to purchase order",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "Any department can raise purchase indents",
+      "Issue RFQs to multiple vendors by automated email",
+      "Vendors submit quotes by email or vendor portal",
+      "Vendor portal is an optional add-on",
+      "Quotation comparison chart",
+      "Convert selected quotations to purchase orders"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Automotive",
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

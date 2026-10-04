@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-inbound-logistics|PAPPID.61991f7b-4983-48ad-ac6e-93c2773fff0e",
+  "guid": "61991f7b-4983-48ad-ac6e-93c2773fff0e",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-inbound-logistics",
+  "source": {
+    "name": "Powerblox Inbound Logistics",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-inbound-logistics%7CPAPPID.61991f7b-4983-48ad-ac6e-93c2773fff0e",
+    "lastModified": "2025-10-27T13:36:52.8297015+00:00",
+    "appVersion": "24.0.1.50921",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/warehousing",
+    "sourceHash": "sha256:6ff9b85717474dec99141964993941ac3a4169e6a0a324b0f38179ca469b51bd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6ff9b85717474dec99141964993941ac3a4169e6a0a324b0f38179ca469b51bd",
+    "mappedOn": null,
+    "summary": "Inbound goods receiving, gates and scanning",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-warehouse-setup",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-transport-planning",
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Faster receipt of incoming goods",
+      "Incoming trucks managed per gate",
+      "Scan goods while unloading",
+      "Tracks stock per logistic unit, such as pallet or container"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

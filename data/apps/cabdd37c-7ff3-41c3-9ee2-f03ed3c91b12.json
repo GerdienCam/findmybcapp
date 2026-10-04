@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex056_inventorywithserialandlotnumber|PAPPID.cabdd37c-7ff3-41c3-9ee2-f03ed3c91b12",
+  "guid": "cabdd37c-7ff3-41c3-9ee2-f03ed3c91b12",
+  "publisherId": "eos_solutions",
+  "offerId": "ex056_inventorywithserialandlotnumber",
+  "source": {
+    "name": "Inventory with Serial and Lot Number",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex056_inventorywithserialandlotnumber%7CPAPPID.cabdd37c-7ff3-41c3-9ee2-f03ed3c91b12",
+    "lastModified": "2026-07-07T19:09:16.3726081+00:00",
+    "appVersion": "28.0.10.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/inventory-with-serial-and-lot-number.html",
+    "sourceHash": "sha256:2bf8f421d0b23fd2b3319eb8263f5138058bf37bef591ca7c7b486f9c7b8d9f7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2bf8f421d0b23fd2b3319eb8263f5138058bf37bef591ca7c7b486f9c7b8d9f7",
+    "mappedOn": null,
+    "summary": "Lot and serial numbers in inventory journal",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-stock-counting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Serial and lot number fields on inventory journal page",
+      "Calculate inventory split by serial and lot",
+      "Start counting by filling journal with known quantities",
+      "Print calculated inventory lines by serial and lot",
+      "Fixed price for unlimited users"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

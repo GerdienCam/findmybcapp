@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-ecm-connect-continia-expense-management|PAPPID.622c4151-5db6-41d1-9d3b-785c28a334ff",
+  "guid": "622c4151-5db6-41d1-9d3b-785c28a334ff",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-ecm-connect-continia-expense-management",
+  "source": {
+    "name": "Aptean ECM Connect x Continia Expense Management",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-ecm-connect-continia-expense-management%7CPAPPID.622c4151-5db6-41d1-9d3b-785c28a334ff",
+    "lastModified": "2026-09-01T07:37:21.4823802+00:00",
+    "appVersion": "2603.260800.20260828.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.traser-software.de/de-DE",
+    "sourceHash": "sha256:b2ac91c5dcd914d9a138619428b5df1272c87fda5bcd4fdedd954df5725cc4b1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b2ac91c5dcd914d9a138619428b5df1272c87fda5bcd4fdedd954df5725cc4b1",
+    "mappedOn": null,
+    "summary": "Archives Continia expense attachments in Aptean ECM",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-employee-expenses"
+    ],
+    "claims": [
+      "Automatically archives expense attachments during posting or afterwards"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Continia Expense Management"
+    ],
+    "requires": [
+      "Aptean ECM Connect",
+      "Continia Expense Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

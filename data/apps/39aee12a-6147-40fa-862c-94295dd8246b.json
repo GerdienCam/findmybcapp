@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.avisionth|AID.avisionthlocalization|PAPPID.39aee12a-6147-40fa-862c-94295dd8246b",
+  "guid": "39aee12a-6147-40fa-862c-94295dd8246b",
+  "publisherId": "avisionth",
+  "offerId": "avisionthlocalization",
+  "source": {
+    "name": "VAT and Withholding Tax Localization for Thailand",
+    "publisher": "AVISIONTH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.avisionth%7CAID.avisionthlocalization%7CPAPPID.39aee12a-6147-40fa-862c-94295dd8246b",
+    "lastModified": "2026-07-02T07:18:49.6543571+00:00",
+    "appVersion": "1.0.0.25",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://avision.co.th/wp-content/uploads/2025/10/AV-Thai-Localization-365-BC-V01.pdf",
+    "sourceHash": "sha256:a974a31bc626cea95b97625b3b7d87bef01e54e13b28aa79f6bffdfebbfc4623"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a974a31bc626cea95b97625b3b7d87bef01e54e13b28aa79f6bffdfebbfc4623",
+    "mappedOn": null,
+    "summary": "Thai VAT and withholding tax compliance",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Handles Thai VAT realization at delivery/receipt for goods and at payment for services",
+      "Prints Thai tax invoices and VAT reports",
+      "Handles Thai withholding tax at authority-specified percentages",
+      "Vendors and G/L accounts can be set up for WHT"
+    ],
+    "countries": [
+      "TH"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

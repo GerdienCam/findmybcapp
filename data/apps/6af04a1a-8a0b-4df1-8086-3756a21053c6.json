@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-ecm-connect-dvelop|PAPPID.6af04a1a-8a0b-4df1-8086-3756a21053c6",
+  "guid": "6af04a1a-8a0b-4df1-8086-3756a21053c6",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-ecm-connect-dvelop",
+  "source": {
+    "name": "Aptean ECM Connect x d.velop",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-ecm-connect-dvelop%7CPAPPID.6af04a1a-8a0b-4df1-8086-3756a21053c6",
+    "lastModified": "2026-09-17T15:51:54.634162+00:00",
+    "appVersion": "2603.260800.20260910.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.traser-software.de/de-DE",
+    "sourceHash": "sha256:5460eb4f8bc0b3119a7a1fb340e3edc5b19d2b1d54f5537c9a535961b11756ab"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5460eb4f8bc0b3119a7a1fb340e3edc5b19d2b1d54f5537c9a535961b11756ab",
+    "mappedOn": null,
+    "summary": "Exchanges inbound and outbound documents with d.velop via ECM Connect",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers"
+    ],
+    "claims": [
+      "Fully automated export of outbound documents to d.velop",
+      "Automatic export of stored files",
+      "Document access through d.3one",
+      "Uses d.velop DMS API"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "d.velop documents",
+      "d.3one"
+    ],
+    "requires": [
+      "Aptean ECM Connect"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

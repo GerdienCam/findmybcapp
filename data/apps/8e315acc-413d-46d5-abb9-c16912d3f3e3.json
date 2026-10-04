@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.helloworld|PAPPID.8e315acc-413d-46d5-abb9-c16912d3f3e3",
+  "guid": "8e315acc-413d-46d5-abb9-c16912d3f3e3",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "helloworld",
+  "source": {
+    "name": "HelloWorld",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.helloworld%7CPAPPID.8e315acc-413d-46d5-abb9-c16912d3f3e3",
+    "lastModified": "2024-11-21T18:48:05.1547286+00:00",
+    "appVersion": "1.0.26.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Freemium",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://github.com/businesscentralapps/HelloWorld.AppSource",
+    "sourceHash": "sha256:1e458490852598021c6599c2da98412607685d3afc69abe86272fe6c57ef04b2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1e458490852598021c6599c2da98412607685d3afc69abe86272fe6c57ef04b2",
+    "mappedOn": null,
+    "summary": "Sample app showing Hello World message; demo",
+    "shape": "other",
+    "primary": [
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Shows a Hello World greeting on the Customer List page",
+      "Open source; contributions via GitHub pull request"
+    ],
+    "countries": [
+      "DE",
+      "DK",
+      "IT",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Sample/demo app with no business function (Hello World greeting)",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

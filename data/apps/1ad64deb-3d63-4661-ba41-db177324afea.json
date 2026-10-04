@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.amjsconsulting1621353404525|AID.evolve_compliance_solution|PAPPID.1ad64deb-3d63-4661-ba41-db177324afea",
+  "guid": "1ad64deb-3d63-4661-ba41-db177324afea",
+  "publisherId": "amjsconsulting1621353404525",
+  "offerId": "evolve_compliance_solution",
+  "source": {
+    "name": "Evolve Compliance Solution",
+    "publisher": "AMJS CONSULTING",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.amjsconsulting1621353404525%7CAID.evolve_compliance_solution%7CPAPPID.1ad64deb-3d63-4661-ba41-db177324afea",
+    "lastModified": "2026-09-25T19:33:58.8355498+00:00",
+    "appVersion": "27.0.2609.25",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.amjs-consulting.com/vendor-bank-account-approval-workflow/",
+    "sourceHash": "sha256:99c64b3b1f910a82d528f5ad9afa266a4101ab9fe38c43f72af2a94fc3d2f543"
+  },
+  "mapping": {
+    "sourceHash": "sha256:99c64b3b1f910a82d528f5ad9afa266a4101ab9fe38c43f72af2a94fc3d2f543",
+    "mappedOn": null,
+    "summary": "Internal controls and approvals for compliance, e.g. vendor bank changes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Approval workflow for vendor bank accounts",
+      "Integrated with Continia OP Plus",
+      "Only approved, released vendor bank accounts used for payments",
+      "Payment run skips invoices for vendors with unreleased bank accounts and notifies"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia OP Plus"
+    ],
+    "requires": [
+      "Continia OP Plus"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

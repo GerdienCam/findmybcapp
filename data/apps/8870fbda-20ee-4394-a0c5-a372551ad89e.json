@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.bluefort|AID.adyen_bc_tapp|PAPPID.8870fbda-20ee-4394-a0c5-a372551ad89e",
+  "guid": "8870fbda-20ee-4394-a0c5-a372551ad89e",
+  "publisherId": "bluefort",
+  "offerId": "adyen_bc_tapp",
+  "source": {
+    "name": "Adyen for Microsoft Dynamics 365 Business Central",
+    "publisher": "Bluefort",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bluefort%7CAID.adyen_bc_tapp%7CPAPPID.8870fbda-20ee-4394-a0c5-a372551ad89e",
+    "lastModified": "2026-09-25T06:46:37.6202321+00:00",
+    "appVersion": "28.1.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://learn.bluefort.eu/article-categories/bluefort-payments/",
+    "sourceHash": "sha256:75f6e7401491667af82ae1b90a1e03d551c42a3f7eb63158765aa84cad23fb15"
+  },
+  "mapping": {
+    "sourceHash": "sha256:75f6e7401491667af82ae1b90a1e03d551c42a3f7eb63158765aa84cad23fb15",
+    "mappedOn": null,
+    "summary": "Adyen card and direct debit payments with reconciliation",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Accepts cards, local methods and Direct Debit via Adyen",
+      "One-time Pay-by-Link",
+      "Saved-method charging via shopper tokens",
+      "Payment requests from invoices and orders with retry",
+      "Single payment for multiple invoices",
+      "Webhook-based payouts and automatic reconciliation via Azure Function",
+      "Posts Adyen fees automatically",
+      "Trigger collection from CRM via Bluefort Dataverse Integrator"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Adyen",
+      "Dataverse"
+    ],
+    "requires": [
+      "Adyen merchant account"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

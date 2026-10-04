@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.digitalvantagepoint1591798322544|AID.nav-to-net-10|PAPPID.24aff131-8f2b-4fde-86f3-07a1e67fbe26",
+  "guid": "24aff131-8f2b-4fde-86f3-07a1e67fbe26",
+  "publisherId": "digitalvantagepoint1591798322544",
+  "offerId": "nav-to-net-10",
+  "source": {
+    "name": "Nav-to-Net: B2B and B2C eCommerce for Business Central",
+    "publisher": "Digital Vantage Point",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.digitalvantagepoint1591798322544%7CAID.nav-to-net-10%7CPAPPID.24aff131-8f2b-4fde-86f3-07a1e67fbe26",
+    "lastModified": "2026-08-13T06:49:17.8307067+00:00",
+    "appVersion": "10.13.20260812.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dvp.net/documentation/NTN10/Help/en-US/",
+    "sourceHash": "sha256:ee739e6d134b7f2c1c44c18526444450d7d03c5e0a631cd06b3544d984e9a0cf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ee739e6d134b7f2c1c44c18526444450d7d03c5e0a631cd06b3544d984e9a0cf",
+    "mappedOn": null,
+    "summary": "B2B and B2C ecommerce portal with real-time pricing and orders",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-channels",
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "B2B and B2C eCommerce from one platform built for BC",
+      "Real-time BC pricing, inventory and customer data online",
+      "Online orders created directly in BC",
+      "Handles customer-specific prices, catalogs and discounts, plus account rules",
+      "B2B portal with order history, order status and reordering",
+      "Keeps taking orders during BC maintenance or outages",
+      "No middleware; BC is source of truth",
+      "Supports BC cloud and on-premises"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing",
+      "Retail",
+      "Wholesale"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

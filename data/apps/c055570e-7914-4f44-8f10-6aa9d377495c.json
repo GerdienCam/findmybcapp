@@ -1,0 +1,97 @@
+{
+  "appId": "PUBID.medius|AID.mediusflow-d365bc|PAPPID.c055570e-7914-4f44-8f10-6aa9d377495c",
+  "guid": "c055570e-7914-4f44-8f10-6aa9d377495c",
+  "publisherId": "medius",
+  "offerId": "mediusflow-d365bc",
+  "source": {
+    "name": "Medius Spend Management Suite",
+    "publisher": "Medius AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.medius%7CAID.mediusflow-d365bc%7CPAPPID.c055570e-7914-4f44-8f10-6aa9d377495c",
+    "lastModified": "2026-09-29T20:13:01.7585451+00:00",
+    "appVersion": "2026.9.29.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://success.medius.com/documentation/cts-documentation/Cloud-Connectors/D365BC/D365BC_introduction/",
+    "sourceHash": "sha256:c7b1c3af809ef077dc31d85fe214ed598af827516392286f9ab55918cbbed26d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c7b1c3af809ef077dc31d85fe214ed598af827516392286f9ab55918cbbed26d",
+    "mappedOn": null,
+    "summary": "AP invoice processing workflow via Medius",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-requisitions",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Scans and captures invoice data",
+      "Mobile invoice approval",
+      "Touchless three-way matching",
+      "Matches PO invoices to purchase order, goods receipt or contract",
+      "Configurable line-level matching rules",
+      "Deviation management for approvers",
+      "Automated invoice coding by rules",
+      "Approval routing by hierarchy",
+      "Purchase requisitions for indirect spend on desktop or mobile",
+      "Automation for recurring monthly routines (period management)"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "IT",
+      "KR",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "SE",
+      "SG",
+      "TH",
+      "TR",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Medius"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

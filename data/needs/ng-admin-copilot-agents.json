@@ -1,0 +1,192 @@
+{
+  "id": "ng-admin-copilot-agents",
+  "order": 154,
+  "label": "Turning on and controlling Copilot and AI agents",
+  "description": "Enabling Copilot features and setting up and supervising AI agents.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "medium",
+  "statements": [
+    "Turning on and controlling Copilot and AI agents",
+    "Enabling Copilot features and setting up and supervising AI agents.",
+    "How do we turn on Copilot in Business Central?",
+    "Copilot features are greyed out for our users",
+    "Our data protection officer wants to know where Copilot sends our data",
+    "copilot business central setup",
+    "Can we switch on Copilot for sales but not for finance?",
+    "Is Copilot in BC included or do we pay extra?",
+    "We want users to ask questions about BC data in plain language",
+    "Copilot data movement across geographies is blocked for our environment",
+    "Which Copilot features in BC are actually worth turning on?",
+    "Is there an app that adds AI help inside BC beyond what Microsoft ships?",
+    "IT needs a policy for who can use AI features in our ERP",
+    "Copilot suggestions are wrong in our language, can we turn them off per user?",
+    "How do we set up the AI agents in Business Central?",
+    "We want to control exactly what an agent is allowed to post",
+    "Who reviews what the agent did overnight?",
+    "agents business central permissions",
+    "Is there a way to see all actions an AI agent took and undo them?",
+    "Our auditor asks how we control the AI agent's access",
+    "The agent needs its own user and permissions, how does licensing work?",
+    "We want agents that work across several BC companies",
+    "How much does running an agent in BC cost per month?",
+    "Partner question: how do we roll out agents for customers safely?",
+    "We want a human to approve before an agent sends anything to a customer",
+    "Agent stopped working and we can't tell why"
+  ],
+  "questions": [
+    {
+      "id": "task",
+      "text": "What should the agent take off your hands?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Turning customer emails into quotes or orders",
+          "patterns": [
+            "sales quote",
+            "sales order",
+            "quotes and orders",
+            "inbound email"
+          ]
+        },
+        {
+          "label": "Finance chores (collections, bank, expenses)",
+          "patterns": [
+            "collection",
+            "bank",
+            "expense",
+            "overdue",
+            "reconcil"
+          ]
+        },
+        {
+          "label": "Production questions and decisions",
+          "patterns": [
+            "production",
+            "manufactur"
+          ]
+        },
+        {
+          "label": "Build our own agents",
+          "patterns": [
+            "custom ai agents",
+            "build",
+            "agent designer",
+            "design and prototype",
+            "unlimited ai assistants",
+            "prototype"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Turning customer emails into quotes or orders": 0.25,
+        "Finance chores (collections, bank, expenses)": 0.33,
+        "Production questions and decisions": 0.33,
+        "Build our own agents": 0.33
+      }
+    },
+    {
+      "id": "channel",
+      "text": "Where should people talk to the agent?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Email",
+          "patterns": [
+            "e-?mail",
+            "mailbox",
+            "outlook"
+          ]
+        },
+        {
+          "label": "Microsoft Teams",
+          "patterns": [
+            "microsoft teams",
+            "teams and outlook",
+            "via (microsoft )?teams"
+          ]
+        },
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "in-client",
+            "inside bc",
+            "input page",
+            "copilot capability",
+            "native agent",
+            "charts inside bc",
+            "chat"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Email": 0.42,
+        "Microsoft Teams": 0.17,
+        "Inside Business Central": 0.33
+      }
+    },
+    {
+      "id": "model",
+      "text": "Do you need control over the AI model or where it runs?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, our own Azure or chosen model",
+          "patterns": [
+            "azure",
+            "openai",
+            "claude",
+            "gemini",
+            "mistral",
+            "eu-hosted",
+            "model choice"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, our own Azure or chosen model": 0.25
+      }
+    },
+    {
+      "id": "control",
+      "text": "Do you need approvals and an audit trail around what the agent does?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, governed and auditable",
+          "patterns": [
+            "audit",
+            "explicit permission",
+            "kill switch",
+            "supervision",
+            "annotated",
+            "governed",
+            "approval-ready",
+            "for approval",
+            "approved orders"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, governed and auditable": 0.33
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.9altitudes|AID.3aa51d0f-d0c4-4f19-ad2c-03deead169a1|PAPPID.db9d19fb-4b2f-4e81-98d1-a89e7781bbfe",
+  "guid": "db9d19fb-4b2f-4e81-98d1-a89e7781bbfe",
+  "publisherId": "9altitudes",
+  "offerId": "3aa51d0f-d0c4-4f19-ad2c-03deead169a1",
+  "source": {
+    "name": "9A Advanced Manufacturing - Project Based",
+    "publisher": "9altitudes",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.9altitudes%7CAID.3aa51d0f-d0c4-4f19-ad2c-03deead169a1%7CPAPPID.db9d19fb-4b2f-4e81-98d1-a89e7781bbfe",
+    "lastModified": "2026-09-29T09:46:22.5135502+00:00",
+    "appVersion": "28.2.17.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://9altitudes.com/products/9a-advanced-manufacturing-for-bc",
+    "sourceHash": "sha256:bbeec7746386caf748dc036812865129c5419d31d276264d04dc89b47e2396bd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bbeec7746386caf748dc036812865129c5419d31d276264d04dc89b47e2396bd",
+    "mappedOn": null,
+    "summary": "Combines projects, production, warehouse and finance for project-based manufacturing",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-industrial-manufacturing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-materials-subcontract",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-budget",
+      "ng-proj-wip",
+      "ng-conn-cad-plm",
+      "ng-sourcing-rfq"
+    ],
+    "claims": [
+      "Project hierarchy linking several projects",
+      "Project budget versions with cost tracking",
+      "Integration to PLM/PDM/CAD from PTC, SolidWorks, Autodesk",
+      "Project library of documents, drawings and 3D models",
+      "Create purchase, production or assembly orders from the project",
+      "Request for quote functionality for purchasing",
+      "Task management with process status per task",
+      "Shipments on project parts, drawings or spare parts",
+      "WIP recognition based on EAC/ETC per task or project",
+      "Data structured for Power BI",
+      "Role centers for procurement, warehouse, project managers and finance",
+      "Handles BOM iterations within engineering projects"
+    ],
+    "countries": [
+      "BE",
+      "DK",
+      "FR",
+      "NL",
+      "SI"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Engineer-to-order manufacturing"
+    ],
+    "connectsTo": [
+      "PTC",
+      "SolidWorks",
+      "Autodesk",
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

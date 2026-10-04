@@ -1,0 +1,99 @@
+{
+  "appId": "PUBID.foodware365|AID.catchweight|PAPPID.31c73668-b1d6-47b1-998b-5827e9ba8c6f",
+  "guid": "31c73668-b1d6-47b1-998b-5827e9ba8c6f",
+  "publisherId": "foodware365",
+  "offerId": "catchweight",
+  "source": {
+    "name": "Aptean Catch Weight for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.catchweight%7CPAPPID.31c73668-b1d6-47b1-998b-5827e9ba8c6f",
+    "lastModified": "2026-09-29T10:20:23.8627846+00:00",
+    "appVersion": "2602.2.344069.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/CAW",
+    "sourceHash": "sha256:31a7b54383f6ef85e09c4a892d9a2f64442faed1a7a4ca3c3bc77b9b23ca6171"
+  },
+  "mapping": {
+    "sourceHash": "sha256:31a7b54383f6ef85e09c4a892d9a2f64442faed1a7a4ca3c3bc77b9b23ca6171",
+    "mappedOn": null,
+    "summary": "Catch weight in both weight and units",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Register transactions in pieces and weight",
+      "Invoice on shipped weight quantity times price per kg/lb",
+      "Weight variability tolerance per item or fixed weight",
+      "Item weight ledger entries per item, license plate and lot",
+      "Weight lines linked to item tracking lines",
+      "Print weight quantities on sales invoices and other documents"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

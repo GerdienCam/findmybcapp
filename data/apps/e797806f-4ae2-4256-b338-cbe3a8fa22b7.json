@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.dynamicsinspireprivatelimited1641625951419|AID.zengeypayrollsystem|PAPPID.e797806f-4ae2-4256-b338-cbe3a8fa22b7",
+  "guid": "e797806f-4ae2-4256-b338-cbe3a8fa22b7",
+  "publisherId": "dynamicsinspireprivatelimited1641625951419",
+  "offerId": "zengeypayrollsystem",
+  "source": {
+    "name": "ZENEGY Payroll System",
+    "publisher": "Dynamics Inspire Private Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicsinspireprivatelimited1641625951419%7CAID.zengeypayrollsystem%7CPAPPID.e797806f-4ae2-4256-b338-cbe3a8fa22b7",
+    "lastModified": "2024-11-22T11:36:36.3760207+00:00",
+    "appVersion": "23.3.29022024.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsinspire.dk/zenegy-loenintegration/dynamics-365/help/",
+    "sourceHash": "sha256:29c1cdfd02a49428627310cfc7047af5019b5f4836f68f0915793f07dae69409"
+  },
+  "mapping": {
+    "sourceHash": "sha256:29c1cdfd02a49428627310cfc7047af5019b5f4836f68f0915793f07dae69409",
+    "mappedOn": null,
+    "summary": "Integrates Zenegy payroll with BC bookkeeping",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-employee-expenses",
+      "ng-hr-time-shifts",
+      "ng-hr-absence-leave"
+    ],
+    "claims": [
+      "Integration set up from Zenegy admin module",
+      "Transfers payroll runs to BC",
+      "Employees synchronized with Zenegy",
+      "Employee time registration",
+      "Expense and travel settlements",
+      "Approval flows",
+      "Employee app",
+      "Holiday administration and pay",
+      "Tax reporting",
+      "Mass update of salary data",
+      "Automatic company car calculation",
+      "Syncs chart of accounts"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Zenegy"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

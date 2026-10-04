@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.elysys|AID.elysyscrypto|PAPPID.87fdcd62-a063-4538-913c-8b551fd56455",
+  "guid": "87fdcd62-a063-4538-913c-8b551fd56455",
+  "publisherId": "elysys",
+  "offerId": "elysyscrypto",
+  "source": {
+    "name": "Elysys Crypto",
+    "publisher": "Elysys Financial Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elysys%7CAID.elysyscrypto%7CPAPPID.87fdcd62-a063-4538-913c-8b551fd56455",
+    "lastModified": "2025-09-25T07:05:18.7037046+00:00",
+    "appVersion": "24.4.0.79",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://ledgercentral.ch/knowledge-base/",
+    "sourceHash": "sha256:482b0637b0651c3b25eaa54d419ad9fafbeed0f3cb7071d475a6b91ce16d0760"
+  },
+  "mapping": {
+    "sourceHash": "sha256:482b0637b0651c3b25eaa54d419ad9fafbeed0f3cb7071d475a6b91ce16d0760",
+    "mappedOn": null,
+    "summary": "Integrates crypto wallets and blockchain transactions with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-currency",
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Generate and manage crypto wallets in BC",
+      "Issue cryptocurrency invoices with billing wallet address",
+      "Connects BC to blockchain nodes and executes transactions",
+      "Automatic application of received funds via blockchain API",
+      "Revaluation using crypto exchange rate service",
+      "Blockchain payment journal with approval workflow",
+      "Monitors private key, checksum and internal backup",
+      "Assisted setup"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Bitcoin",
+      "Ethereum",
+      "Solana"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Crypto wallets and blockchain payments have no dedicated group."
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

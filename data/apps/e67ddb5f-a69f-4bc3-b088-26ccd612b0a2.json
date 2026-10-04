@@ -1,0 +1,71 @@
+{
+  "appId": "TYPE.connect|PUBID.ttsolutions1603335428585|AID.icrm_broker_management_and_finance_system|PAPPID.e67ddb5f-a69f-4bc3-b088-26ccd612b0a2",
+  "guid": "e67ddb5f-a69f-4bc3-b088-26ccd612b0a2",
+  "publisherId": "ttsolutions1603335428585",
+  "offerId": "icrm_broker_management_and_finance_system",
+  "source": {
+    "name": "ICRM BrokerFinance",
+    "publisher": "TT Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.ttsolutions1603335428585%7CAID.icrm_broker_management_and_finance_system%7CPAPPID.e67ddb5f-a69f-4bc3-b088-26ccd612b0a2",
+    "lastModified": "2025-11-12T11:24:41.5506812+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ttsolutions.com.au/help-installation-guide-terms-of-use/",
+    "sourceHash": "sha256:afe16e2b9e7e1cf35abf4e3a23a43328c7637acb8af5c389fe1a384040a33859"
+  },
+  "mapping": {
+    "sourceHash": "sha256:afe16e2b9e7e1cf35abf4e3a23a43328c7637acb8af5c389fe1a384040a33859",
+    "mappedOn": null,
+    "summary": "Insurance broker management and finance",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-leasing-finance",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-commissions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax",
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Broker commission calculation and payment automation",
+      "Centralizes financials across Australia and New Zealand",
+      "Power BI reporting on broker performance, profitability and cashflow",
+      "GST/BAS calculations and submission-ready BAS reports",
+      "Bank account management and automated reconciliation",
+      "Vendor payments with approval workflows",
+      "Cashflow forecasting",
+      "Can alternatively integrate with Xero"
+    ],
+    "countries": [
+      "AU",
+      "NZ"
+    ],
+    "languages": [],
+    "industries": [
+      "Insurance brokerage"
+    ],
+    "connectsTo": [
+      "Power Automate",
+      "Power BI",
+      "Xero"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

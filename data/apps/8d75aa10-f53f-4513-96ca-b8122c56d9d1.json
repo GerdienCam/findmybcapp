@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.d365globalptyltd1665883818849|AID.sell_thru_comm_rebates|PAPPID.8d75aa10-f53f-4513-96ca-b8122c56d9d1",
+  "guid": "8d75aa10-f53f-4513-96ca-b8122c56d9d1",
+  "publisherId": "d365globalptyltd1665883818849",
+  "offerId": "sell_thru_comm_rebates",
+  "source": {
+    "name": "Sell Thru Commission and Rebates Management for Microsoft Dynamics 365 Business Central",
+    "publisher": "d365.Global Pty Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.d365globalptyltd1665883818849%7CAID.sell_thru_comm_rebates%7CPAPPID.8d75aa10-f53f-4513-96ca-b8122c56d9d1",
+    "lastModified": "2026-08-06T11:30:59.5197288+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://learn.d365.global/Tutorials/D365Guides/D365BusinessCentral/BusinessCentralApps/SellThruRebatesMgmt",
+    "sourceHash": "sha256:3b4903b6f92cb96623c7abc7317cc69b59c5cfb77ba8ef8844c2aa0963a089de"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3b4903b6f92cb96623c7abc7317cc69b59c5cfb77ba8ef8844c2aa0963a089de",
+    "mappedOn": null,
+    "summary": "Manages sell-thru commissions and rebates for distributors",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-supplier-rebates",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-rebates",
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Supplier-funded sell-thru promotion setup",
+      "Automatic sales eligibility and capped-unit enforcement",
+      "Rebate accrual at posting",
+      "Claim preparation and settlement tracking",
+      "Adjusted-margin visibility without changing inventory cost",
+      "Rules for territories, customer groups and lists of eligible items"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Electronics",
+      "Retail",
+      "Wholesale"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

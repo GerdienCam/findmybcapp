@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.navbizdoo1640860583806|AID.navbiz_advanced_production_cost_calculation|PAPPID.6b6ede87-8e9e-4ec8-a236-007e2b536c12",
+  "guid": "6b6ede87-8e9e-4ec8-a236-007e2b536c12",
+  "publisherId": "navbizdoo1640860583806",
+  "offerId": "navbiz_advanced_production_cost_calculation",
+  "source": {
+    "name": "NavBiz - Advanced Production Cost Calculation",
+    "publisher": "NavBiz d.o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navbizdoo1640860583806%7CAID.navbiz_advanced_production_cost_calculation%7CPAPPID.6b6ede87-8e9e-4ec8-a236-007e2b536c12",
+    "lastModified": "2026-08-26T12:02:51.249054+00:00",
+    "appVersion": "28.1.20260824.110536",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://navbiz.hr/info/",
+    "sourceHash": "sha256:031f5fc9f190b6f0cc77581548bcf6fe606cf67b7ce2b4f38f8d518694b31366"
+  },
+  "mapping": {
+    "sourceHash": "sha256:031f5fc9f190b6f0cc77581548bcf6fe606cf67b7ce2b4f38f8d518694b31366",
+    "mappedOn": null,
+    "summary": "Allocates indirect G/L costs to production",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-cost-allocation"
+    ],
+    "claims": [
+      "Allocates indirect costs posted in the general ledger to manufactured quantity for a period",
+      "Cost categories and cost specifications filter G/L entries by global dimensions and percentage",
+      "Allocation per cost category on manufactured quantity of released production orders",
+      "Manufactured quantity can be filtered by inventory posting group and location",
+      "Posts automatically to the general ledger",
+      "Posted calculation documents are archived with related G/L and value entries",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

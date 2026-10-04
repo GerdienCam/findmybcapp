@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_expenserecovery|PAPPID.2edbeff4-d28e-4caf-94ef-66996afb7a69",
+  "guid": "2edbeff4-d28e-4caf-94ef-66996afb7a69",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_expenserecovery",
+  "source": {
+    "name": "Fusion5 Expense Recovery",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_expenserecovery%7CPAPPID.2edbeff4-d28e-4caf-94ef-66996afb7a69",
+    "lastModified": "2026-01-16T02:50:02.0542828+00:00",
+    "appVersion": "2700.4.20260109.113149",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/487162037/Expense+Recovery",
+    "sourceHash": "sha256:2cd317332a040580e914c6bdfc455ee34dc2226a96cfd260022b195edbe8250a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2cd317332a040580e914c6bdfc455ee34dc2226a96cfd260022b195edbe8250a",
+    "mappedOn": null,
+    "summary": "Generates sales documents to recharge purchase expenses",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-billing",
+        "confidence": "low"
+      },
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Generates sales documents from purchase invoice expenses",
+      "Extract expenses for a date range with configured filters",
+      "Processed expenses are not suggested twice",
+      "Validation flags lines with errors",
+      "Moves lines from source company to target company"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "appId": "PUBID.artexinformacnisystemyspolsro1588247530206|AID.ae055|PAPPID.de411c86-67d7-45a4-9fe6-06600a49588b",
+  "guid": "de411c86-67d7-45a4-9fe6-06600a49588b",
+  "publisherId": "artexinformacnisystemyspolsro1588247530206",
+  "offerId": "ae055",
+  "source": {
+    "name": "Sales Price Hierarchy",
+    "publisher": "ARTEX informacni systemy spol. s r.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.artexinformacnisystemyspolsro1588247530206%7CAID.ae055%7CPAPPID.de411c86-67d7-45a4-9fe6-06600a49588b",
+    "lastModified": "2026-02-24T15:43:17.7780545+00:00",
+    "appVersion": "1.7.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.artex-is.cz/cz/docs/a/ae055",
+    "sourceHash": "sha256:53a4e3a6b8c0c71554c4cbbd9c56709c085bf75166e46374e143195d16231f2f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:53a4e3a6b8c0c71554c4cbbd9c56709c085bf75166e46374e143195d16231f2f",
+    "mappedOn": null,
+    "summary": "Configurable priority hierarchy for sales price calculation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Calculates prices by a predefined hierarchy instead of lowest price",
+      "Contract customer price applied even if a lower general price exists",
+      "Configurable priority of customer, price group and all-customer prices/discounts",
+      "Activated via Price Calculation Method = Hierarchical",
+      "Revert to default behaviour with one click"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

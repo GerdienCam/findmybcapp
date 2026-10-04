@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.translationagent|PAPPID.7ca89de5-bf74-475f-bc3f-02dd570bb0d2",
+  "guid": "7ca89de5-bf74-475f-bc3f-02dd570bb0d2",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "translationagent",
+  "source": {
+    "name": "Translation Agent",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.translationagent%7CPAPPID.7ca89de5-bf74-475f-bc3f-02dd570bb0d2",
+    "lastModified": "2026-05-25T05:32:11.9858344+00:00",
+    "appVersion": "1.0.0.5",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://matchbusinesscentral.com/pages/Translation-Agent",
+    "sourceHash": "sha256:657863622dbc56387b929c8cb033b99eeb116ae5c27414e8d0c66e6bd157a368"
+  },
+  "mapping": {
+    "sourceHash": "sha256:657863622dbc56387b929c8cb033b99eeb116ae5c27414e8d0c66e6bd157a368",
+    "mappedOn": null,
+    "summary": "AI translation suggestions for master data",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-data-translation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Uses Google Translate to auto-fill translations on entry",
+      "Choose base language and target languages",
+      "Batch translate selected lines",
+      "Covers items, payment terms and payment methods",
+      "Item variants not covered",
+      "Fair usage of 20,000 requests per month in production, 1,000 in sandbox",
+      "Takes your own Google Translate API key, so calls are not limited"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Google Translate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

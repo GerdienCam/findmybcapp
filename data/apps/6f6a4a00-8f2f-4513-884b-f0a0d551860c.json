@@ -1,0 +1,57 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.shopify-integration|PAPPID.6f6a4a00-8f2f-4513-884b-f0a0d551860c",
+  "guid": "6f6a4a00-8f2f-4513-884b-f0a0d551860c",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "shopify-integration",
+  "source": {
+    "name": "Shopify Integration",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.shopify-integration%7CPAPPID.6f6a4a00-8f2f-4513-884b-f0a0d551860c",
+    "lastModified": "2026-07-16T09:55:33.2528745+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://hubbroker.com/integrations/shopify-edi-integration/",
+    "sourceHash": "sha256:8e4080cfe24f486ab5b6f20953325c7cac37561418ea5d6ec57f5d866b606f00"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8e4080cfe24f486ab5b6f20953325c7cac37561418ea5d6ec57f5d866b606f00",
+    "mappedOn": null,
+    "summary": "Integrates Shopify with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Imports Shopify online orders into BC",
+      "Real-time product availability and stock sync",
+      "Syncs customer details and profiles",
+      "Keeps invoices, payments and balances consistent",
+      "Error handling and monitoring",
+      "Supports multi-store setups"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Shopify"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

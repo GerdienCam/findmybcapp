@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.detrack|PAPPID.571c2959-a8b9-44f9-9a92-d089a559c525",
+  "guid": "571c2959-a8b9-44f9-9a92-d089a559c525",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "detrack",
+  "source": {
+    "name": "Detrack Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.detrack%7CPAPPID.571c2959-a8b9-44f9-9a92-d089a559c525",
+    "lastModified": "2026-09-16T06:05:53.8532419+00:00",
+    "appVersion": "1.0.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:a209710035a42f7fbb0280fb3262ffc885995d9ef99fec8d3e606d6423841a43"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a209710035a42f7fbb0280fb3262ffc885995d9ef99fec8d3e606d6423841a43",
+    "mappedOn": null,
+    "summary": "Syncs deliveries with Detrack proof of delivery",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Uploads delivery jobs from BC to Detrack",
+      "Downloads job status from Detrack",
+      "Free download is not fully functional; full version on request"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Detrack"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dms-365-lemken|PAPPID.59ffe954-38e1-4295-8a83-f99edb6c5357",
+  "guid": "59ffe954-38e1-4295-8a83-f99edb6c5357",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dms-365-lemken",
+  "source": {
+    "name": "Aptean Equipment DMS x Lemken",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-365-lemken%7CPAPPID.59ffe954-38e1-4295-8a83-f99edb6c5357",
+    "lastModified": "2026-06-30T09:59:09.3239223+00:00",
+    "appVersion": "2603.260500.20260602.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:91d1afc649019bf0661f506e4497349df8669882a0e8a651667806e051ff0a49"
+  },
+  "mapping": {
+    "sourceHash": "sha256:91d1afc649019bf0661f506e4497349df8669882a0e8a651667806e051ff0a49",
+    "mappedOn": null,
+    "summary": "Connects Lemken configurator to Aptean Equipment DMS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Imports Lemken machine configurations into Aptean Equipment DMS",
+      "Uses the Aptean Equipment DMS Configurator Framework",
+      "Error handling support",
+      "Creates purchase orders and sales calculations directly from configurations"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "Lemken Configurator"
+    ],
+    "requires": [
+      "Aptean Equipment DMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

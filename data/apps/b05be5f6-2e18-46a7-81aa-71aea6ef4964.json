@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.systemsolutions|AID.loyaltylion-rewards-for-shopify-integration|PAPPID.b05be5f6-2e18-46a7-81aa-71aea6ef4964",
+  "guid": "b05be5f6-2e18-46a7-81aa-71aea6ef4964",
+  "publisherId": "systemsolutions",
+  "offerId": "loyaltylion-rewards-for-shopify-integration",
+  "source": {
+    "name": "LoyaltyLion Integration",
+    "publisher": "System Solutions LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemsolutions%7CAID.loyaltylion-rewards-for-shopify-integration%7CPAPPID.b05be5f6-2e18-46a7-81aa-71aea6ef4964",
+    "lastModified": "2026-07-13T15:39:32.8632874+00:00",
+    "appVersion": "1.4.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://syssolutionsllc.com/user-guides/loyaltylion-shopify-rewards-for-d365-business-central/",
+    "sourceHash": "sha256:ff3522be8e1adc4b20d5b36d53325b38d25b514dd062c019057190b8342b544d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ff3522be8e1adc4b20d5b36d53325b38d25b514dd062c019057190b8342b544d",
+    "mappedOn": null,
+    "summary": "Syncs POS loyalty rewards with Shopify LoyaltyLion",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loyalty",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop"
+    ],
+    "claims": [
+      "Rewards accumulate and redeem in both Shopify and BC",
+      "Syncs points approved, spent, pending, earned and enrollment status",
+      "Redeem on sales orders, invoices or LS Express POS",
+      "Reduce rewards for credit memos or cancelled invoices",
+      "Optionally block points from accumulating"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "LoyaltyLion",
+      "Shopify",
+      "LS Express"
+    ],
+    "requires": [
+      "LoyaltyLion",
+      "Shopify"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

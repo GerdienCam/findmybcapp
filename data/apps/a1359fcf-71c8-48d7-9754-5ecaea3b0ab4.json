@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.bankstatementimport|PAPPID.a1359fcf-71c8-48d7-9754-5ecaea3b0ab4",
+  "guid": "a1359fcf-71c8-48d7-9754-5ecaea3b0ab4",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "bankstatementimport",
+  "source": {
+    "name": "Bank Statement Import",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.bankstatementimport%7CPAPPID.a1359fcf-71c8-48d7-9754-5ecaea3b0ab4",
+    "lastModified": "2026-08-13T12:57:11.9804371+00:00",
+    "appVersion": "1.0.0.15",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.matchbusinesscentral.com/pages/bankstatementimporthome",
+    "sourceHash": "sha256:c72a69bdfeb6fa77fcec4d2044585ffc28de17707168fc4a32163295387a5190"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c72a69bdfeb6fa77fcec4d2044585ffc28de17707168fc4a32163295387a5190",
+    "mappedOn": null,
+    "summary": "Imports bank statement files in many bank formats",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "Imports Excel and CSV statements with any column order",
+      "Supports Revolut and Wise CSV",
+      "Supports QIF, OFX, MT940 and CAMT.053.001.10",
+      "Bank-specific formats: BNP, Crédit Agricole, CBA, TSB, Bank of Ireland",
+      "Custom mapping tool for unlisted formats",
+      "Field mapping for Document No., Description, Date, Amount and Related Party Name"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Revolut",
+      "Wise"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

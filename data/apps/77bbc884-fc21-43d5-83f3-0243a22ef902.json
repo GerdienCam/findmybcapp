@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcbanktransactions|PAPPID.77bbc884-fc21-43d5-83f3-0243a22ef902",
+  "guid": "77bbc884-fc21-43d5-83f3-0243a22ef902",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcbanktransactions",
+  "source": {
+    "name": "Bank Transactions Import and Export",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcbanktransactions%7CPAPPID.77bbc884-fc21-43d5-83f3-0243a22ef902",
+    "lastModified": "2026-05-21T14:17:36.6738397+00:00",
+    "appVersion": "18.28.91.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:42b00e1e299ce2af7942cd3d700482796233ca4da42691a00676f651ba435ad0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:42b00e1e299ce2af7942cd3d700482796233ca4da42691a00676f651ba435ad0",
+    "mappedOn": null,
+    "summary": "Imports and exports bank transactions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Imports bank statements in MK940 standard",
+      "Exports payment instruction files to banks",
+      "Custom per-bank file format mapping",
+      "Predefined formats for Bulgarian and Romanian banks",
+      "Reconciliation of collections and bank POS terminal operations",
+      "Exports for credit, budget or foreign payments, and imports bank transactions",
+      "Autofills payment type and counterparty IBAN",
+      "Searches counterparty automatically on refunds"
+    ],
+    "countries": [
+      "BG",
+      "RO"
+    ],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "UniCredit Bulbank",
+      "FIB",
+      "Investbank",
+      "UBB",
+      "EuroBank (PostBank)",
+      "CityBank",
+      "DSK bank",
+      "Procredit bank",
+      "Raiffeisen Bank",
+      "Banca Transilvania"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

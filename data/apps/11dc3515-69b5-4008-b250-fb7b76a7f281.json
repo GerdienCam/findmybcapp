@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.syntoraliseurl1775292660785|AID.syntoralis-fifo-logistic|PAPPID.11dc3515-69b5-4008-b250-fb7b76a7f281",
+  "guid": "11dc3515-69b5-4008-b250-fb7b76a7f281",
+  "publisherId": "syntoraliseurl1775292660785",
+  "offerId": "syntoralis-fifo-logistic",
+  "source": {
+    "name": "Syntoralis FIFO Logistic",
+    "publisher": "Syntoralis",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.syntoraliseurl1775292660785%7CAID.syntoralis-fifo-logistic%7CPAPPID.11dc3515-69b5-4008-b250-fb7b76a7f281",
+    "lastModified": "2026-08-25T05:21:27.1085319+00:00",
+    "appVersion": "1.0.0.57",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://syntoralis.github.io/BCApps/index-en.html",
+    "sourceHash": "sha256:cc9628a33dbe14652a7bd98fb0f99a10bcc6f0c73ddd5f99a6730625a4d82c29"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cc9628a33dbe14652a7bd98fb0f99a10bcc6f0c73ddd5f99a6730625a4d82c29",
+    "mappedOn": null,
+    "summary": "FIFO picking and replenishment across bins and lots",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "FIFO selection across locations, bins and lot/batch items",
+      "Automated pick generation and wave grouping",
+      "Lot-aware expiry selection and bin exclusion",
+      "Audit log of lot movements, picks and allocations",
+      "Bin replenishment suggestions",
+      "Supervisor manual overrides and reallocation with audit logging",
+      "Pick summaries, exception reports and dashboards",
+      "Event hooks for WMS or custom rules",
+      "Cloud or on-premise",
+      "FIFO activated per location"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

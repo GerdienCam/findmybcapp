@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.fynancygmbh1673553591911|AID.fyn_contracts_de|PAPPID.d83adce5-4c39-4512-b1f0-079629a5d5fd",
+  "guid": "d83adce5-4c39-4512-b1f0-079629a5d5fd",
+  "publisherId": "fynancygmbh1673553591911",
+  "offerId": "fyn_contracts_de",
+  "source": {
+    "name": "FYN Contracts",
+    "publisher": "Fynancy GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fynancygmbh1673553591911%7CAID.fyn_contracts_de%7CPAPPID.d83adce5-4c39-4512-b1f0-079629a5d5fd",
+    "lastModified": "2024-12-13T19:07:27.1525193+00:00",
+    "appVersion": "24.12.1.602",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.fynancy.com/",
+    "sourceHash": "sha256:acbb6c25780c6f9c15bd7cc3863568e8b37574d6056df10b64342890fc87a149"
+  },
+  "mapping": {
+    "sourceHash": "sha256:acbb6c25780c6f9c15bd7cc3863568e8b37574d6056df10b64342890fc87a149",
+    "mappedOn": null,
+    "summary": "Recurring contract invoicing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-svc-contracts"
+    ],
+    "claims": [
+      "Bills licenses, items, services or SLAs monthly, yearly or custom frequency",
+      "Billing in advance or in arrears",
+      "Contract lines from quotes transferred into contracts when order is invoiced",
+      "Release/approval process before contract billing",
+      "Invoices and credit memos linked to contract",
+      "Send contract overview document to customer",
+      "Revenue and margin statistics per contract and line",
+      "Batch billing manual or scheduled",
+      "Attach signed contract documents (PDF, JPG, DOCX etc.)"
+    ],
+    "countries": [],
+    "languages": [
+      "de"
+    ],
+    "industries": [
+      "Financial services",
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.binarylabptyltd1739437691778|AID.bnldatasendoffer02|PAPPID.00c97404-4e64-47ba-abca-d256085ecdf5",
+  "guid": "00c97404-4e64-47ba-abca-d256085ecdf5",
+  "publisherId": "binarylabptyltd1739437691778",
+  "offerId": "bnldatasendoffer02",
+  "source": {
+    "name": "Data Send",
+    "publisher": "Binary Lab (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binarylabptyltd1739437691778%7CAID.bnldatasendoffer02%7CPAPPID.00c97404-4e64-47ba-abca-d256085ecdf5",
+    "lastModified": "2026-02-23T12:32:56.8438107+00:00",
+    "appVersion": "2200.260223.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://binarylab.co.za/data-send",
+    "sourceHash": "sha256:a03e990791bd4cede78f50379ca5e4be2d23b13a8e4bae0aed5c1bfc925339ca"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a03e990791bd4cede78f50379ca5e4be2d23b13a8e4bae0aed5c1bfc925339ca",
+    "mappedOn": null,
+    "summary": "Configurable framework for sending BC data to external systems",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures",
+      "ng-conn-3pl"
+    ],
+    "claims": [
+      "Configurable profiles define which tables, fields and linked tables to send",
+      "Supports nested data structures",
+      "Sends data in JSON format",
+      "Publisher events to customize data structures per partner",
+      "Detailed logging of successes, errors and failures",
+      "With Power Automate or Logic Apps: convert to CSV, Excel, XML, 3PL format, SFTP or API"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power Automate",
+      "Azure Logic Apps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

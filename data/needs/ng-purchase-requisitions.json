@@ -1,0 +1,298 @@
+{
+  "id": "ng-purchase-requisitions",
+  "order": 3,
+  "label": "Letting staff request purchases with approval",
+  "description": "Internal purchase requests, consolidating them into orders, approval limits per buyer and the procurement rules people must follow.",
+  "type": "bpc",
+  "area": "Purchasing & payables",
+  "relevance": "high",
+  "statements": [
+    "Letting staff request purchases with approval",
+    "Internal purchase requests, consolidating them into orders, approval limits per buyer and the procurement rules people must follow.",
+    "People just email me asking to buy stuff and I lose track of who wanted what",
+    "Is there an app that lets employees request purchases in BC without a full license?",
+    "We want staff to ask for things they need and have their manager say yes or no before anything is ordered from a supplier",
+    "purchase request approval",
+    "Business Central has no purchase requisition, how do others handle this?",
+    "Our site managers phone in what they need bought and nobody knows what was actually requested",
+    "Requests to buy office supplies come in on sticky notes, Teams messages and email",
+    "We need a simple form where someone types what they need bought, the cost, and why",
+    "How can a warehouse guy request a spare part from a supplier without access to purchase orders?",
+    "Department heads should approve their team's purchase requests before purchasing sees them",
+    "Too many people create purchase orders directly; we want them to submit a request instead",
+    "employee purchase request form BC",
+    "I want requesters to see whether their purchase request was approved, ordered or rejected",
+    "We buy lots of non-stock items and services, so purchase requests are usually free text",
+    "Our ticketing system collects purchase needs, can those flow into BC as requests automatically?",
+    "Nobody fills in the cost center or project when they ask for something to be bought",
+    "Who asked for this? Goods arrive from the supplier and nobody remembers requesting them",
+    "Field technicians need to request parts from the van using a phone so purchasing can order them",
+    "Purchase requests sit in someone's inbox for a week before purchasing hears about them",
+    "Is there a cheap way for 50 employees to submit purchase requests that end up in Business Central, without buying 50 full user licenses and without retyping everything?",
+    "Five departments order the same paper separately and we pay the supplier's shipping five times",
+    "Can we combine purchase requests into one order per supplier?",
+    "consolidate purchase requests",
+    "We want to collect requests during the week and order from each vendor once on Friday",
+    "Bundling small requests to reach the supplier's free freight limit",
+    "Too many tiny purchase orders for the same office supplier",
+    "We want each department to have a yearly purchasing budget in BC",
+    "Is there an app that checks a purchase order against the remaining budget before it is released?",
+    "purchase budget control",
+    "We need different approval limits on purchase orders: buyers up to 5,000, above that the CFO",
+    "How do I set a maximum amount each buyer can commit to a supplier without asking?",
+    "G/L budgets in BC do nothing when someone raises a purchase order; we want a real budget check",
+    "We need to split the purchasing budget by month and cost centre",
+    "Marketing ran out of purchasing budget and wants to borrow from IT; how do we record that properly?",
+    "The CFO wants committed spend on open POs counted against budget, not just posted vendor invoices",
+    "Material and subcontractor budget per project, with a warning when a PO would exceed it",
+    "We plan purchasing budgets in Excel and nobody looks at them again",
+    "Can we have hard stops on purchase orders for some cost centres and only warnings for others?",
+    "We want to set purchase budgets per category, like IT hardware and consultants, for next year",
+    "Budget transfers between departments for purchasing need approval and a trail",
+    "signing limits purchase orders",
+    "Purchase orders above 50,000 DKK should go to the MD, but the standard approval workflow in BC is too rigid",
+    "Is there an app for multi-level PO approval based on amount and department?",
+    "Department heads have no idea how much they can still buy for this year",
+    "We want approval limits per person on purchases, tied to who owns the budget",
+    "Every purchase order over a set amount should need a second signature before it goes to the vendor",
+    "Our big customers demand advance shipping notices, so we want to require the same ASN from our own suppliers before every delivery",
+    "We want suppliers to label every pallet with our PO number and item barcode",
+    "What do we need to decide before we start doing EDI with our vendors?",
+    "Lead times on vendor items in BC are guesses, so buyers order too late or way too early",
+    "We want to tell suppliers they must ship purchase orders complete, no partial deliveries",
+    "How do we define an acceptable delivery window for vendors and treat anything outside it as late?",
+    "We want to stop buyers ordering from suppliers that are not on our approved vendor list",
+    "Blocked vendors still get purchase orders because someone just unblocks them and buys",
+    "We are getting audited and need a documented purchasing policy that BC actually enforces on every PO",
+    "supplier delivery requirements policy",
+    "Each buyer decides on their own whether to accept a vendor's substitute item; we need one rule",
+    "Should we require preferred vendors and minimum order values per item category for our purchasers?"
+  ],
+  "questions": [
+    {
+      "id": "after-approval",
+      "text": "What happens after a request is approved?",
+      "help": "Pick everything your buyers do before ordering.",
+      "multi": true,
+      "options": [
+        {
+          "label": "We ask several suppliers for quotes and compare",
+          "patterns": [
+            "\\brfqs?\\b",
+            "request for quot",
+            "quotation requests",
+            "compar\\w*.{0,40}(quot|offer|vendor|supplier|pric)",
+            "(quot|offer)\\w*.{0,20}compar",
+            "(vendor|supplier) quot",
+            "multiple (supplier |vendor )?quotes",
+            "quote evaluation",
+            "records supplier quotes"
+          ]
+        },
+        {
+          "label": "We bundle many requests into fewer orders",
+          "patterns": [
+            "consolidat",
+            "\\bcombin",
+            "aggregat",
+            "group(s|ed)? (several|approved|requests|multiple)",
+            "grouped by vendor",
+            "into one (po|purchase|rfq|request|transaction)",
+            "multiple (purchase )?requests",
+            "requisition worksheet",
+            "lines into pos by vendor",
+            "batch ordering"
+          ]
+        },
+        {
+          "label": "It goes straight to a purchase order",
+          "patterns": [
+            "(convert|creat|generat|turn)\\w*.{0,50}purchase orders?",
+            "purchase orders? (directly|creation)",
+            "\\bpo (creation|generation)",
+            "one-click conversion",
+            "into purchase orders?",
+            "to purchase orders?",
+            "directly from",
+            "straight to purchase order"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "We ask several suppliers for quotes and compare": 0.4,
+        "We bundle many requests into fewer orders": 0.33,
+        "It goes straight to a purchase order": 0.62
+      }
+    },
+    {
+      "id": "approval-rules",
+      "text": "How should approval be decided?",
+      "multi": true,
+      "options": [
+        {
+          "label": "By amount (approval limits per person)",
+          "patterns": [
+            "\\bamount\\b",
+            "amount-based",
+            "threshold",
+            "approval limits?",
+            "with limits",
+            "maximum approval",
+            "amount limits"
+          ]
+        },
+        {
+          "label": "Against a department or project budget",
+          "patterns": [
+            "budget"
+          ]
+        },
+        {
+          "label": "Different approvers per department or category",
+          "patterns": [
+            "(approv|rout)\\w*.{0,60}(department|categor|cost cent|\\brole|entity|\\bteam\\b|hierarch|product line)",
+            "(department|categor|entity|role)\\w*.{0,40}approv",
+            "department head"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "By amount (approval limits per person)": 0.24,
+        "Against a department or project budget": 0.2,
+        "Different approvers per department or category": 0.38
+      }
+    },
+    {
+      "id": "requesters",
+      "text": "Do people without a Business Central licence need to submit requests?",
+      "help": "For example warehouse staff, site managers or office staff.",
+      "options": [
+        {
+          "label": "Yes, via web, phone or Microsoft Teams",
+          "patterns": [
+            "team member",
+            "full bc licen",
+            "outside (bc|business central)",
+            "simple (to use )?platform",
+            "any device",
+            "before being sent to bc",
+            "microsoft teams",
+            "cloud requisitioning",
+            "hosted on azure"
+          ]
+        },
+        {
+          "label": "No, or not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, via web, phone or Microsoft Teams": 0.11
+      }
+    },
+    {
+      "id": "what-requested",
+      "text": "Do people ask for things beyond regular stock items?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Services, expenses or fixed assets",
+          "patterns": [
+            "fixed assets?",
+            "services?\\b",
+            "g/l",
+            "resources",
+            "expense",
+            "capex",
+            "item charges"
+          ]
+        },
+        {
+          "label": "Things not yet set up as items or suppliers",
+          "patterns": [
+            "without (knowing )?vendor or item",
+            "without vendor or item",
+            "by description",
+            "unidentified",
+            "item template",
+            "new (items|master)",
+            "create\\w* new items",
+            "new item creation",
+            "natural language",
+            "unknown items"
+          ]
+        },
+        {
+          "label": "Only regular items, or not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Services, expenses or fixed assets": 0.18,
+        "Things not yet set up as items or suppliers": 0.16
+      }
+    },
+    {
+      "id": "supplier-replies",
+      "text": "How should suppliers send their quotes back?",
+      "options": [
+        {
+          "label": "Suppliers fill in an online form or portal",
+          "patterns": [
+            "(vendor|supplier) portal",
+            "power pages",
+            "web form"
+          ]
+        },
+        {
+          "label": "By email, we record them",
+          "patterns": [
+            "e-?mail\\w*.{0,20}(rfq|quot|vendor|supplier)",
+            "(rfq|quot)\\w*.{0,30}e-?mail",
+            "record\\w* (vendor |supplier )?quot",
+            "attach\\w* received quotes",
+            "updates and attaches"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Suppliers fill in an online form or portal": 0.07,
+        "By email, we record them": 0.16
+      }
+    },
+    {
+      "id": "cost-coding",
+      "text": "Must requests carry cost centers or dimensions?",
+      "options": [
+        {
+          "label": "Yes, coded on the request",
+          "patterns": [
+            "dimension",
+            "cost cent",
+            "requisition form with .*department",
+            "specify .*departments"
+          ]
+        },
+        {
+          "label": "Not needed",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, coded on the request": 0.16
+      }
+    }
+  ]
+}

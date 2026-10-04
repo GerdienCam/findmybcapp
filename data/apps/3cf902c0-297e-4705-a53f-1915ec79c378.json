@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.on720comas1662298129006|AID.banking720|PAPPID.3cf902c0-297e-4705-a53f-1915ec79c378",
+  "guid": "3cf902c0-297e-4705-a53f-1915ec79c378",
+  "publisherId": "on720comas1662298129006",
+  "offerId": "banking720",
+  "source": {
+    "name": "Banking720",
+    "publisher": "ON720.COM",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on720comas1662298129006%7CAID.banking720%7CPAPPID.3cf902c0-297e-4705-a53f-1915ec79c378",
+    "lastModified": "2026-09-28T21:28:49.0909396+00:00",
+    "appVersion": "28.5.260928.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.on720.com/banking720",
+    "sourceHash": "sha256:cbad5b2bca1ba46d279bb78a37714e7f9392c787432c67171ec9889010528762"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cbad5b2bca1ba46d279bb78a37714e7f9392c787432c67171ec9889010528762",
+    "mappedOn": null,
+    "summary": "Reconciliation, bank transactions and payments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends payments from standard payment journals",
+      "Supports bank transfers and FIK payments",
+      "Tracks payment status: approved, processed, completed, rejected",
+      "Receives bank feedback and error messages in BC",
+      "Automatic bank statement import",
+      "Historical and continuous transaction import",
+      "Imports into standard bank account reconciliation",
+      "Overview of reconciled vs open transactions",
+      "Requires a Bank Connect agreement"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

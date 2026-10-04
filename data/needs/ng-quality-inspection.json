@@ -1,0 +1,314 @@
+{
+  "id": "ng-quality-inspection",
+  "order": 81,
+  "label": "Quality tests, inspections and certificates",
+  "description": "Defining quality procedures and plans and inspecting received, stored and produced goods, recording results and certificates.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "high",
+  "statements": [
+    "Quality tests, inspections and certificates",
+    "Defining quality procedures and plans and inspecting received, stored and produced goods, recording results and certificates.",
+    "We have no quality module in BC and our test procedures live in binders",
+    "Is there a quality management app for Business Central?",
+    "We need to define what to measure for each test and the allowed ranges",
+    "Our measuring instruments need calibration every six months and we forget",
+    "How do we set up sampling rules like test 5 out of every 100 units?",
+    "quality control app BC",
+    "We want standard test templates our inspectors can reuse",
+    "Calibration certificates for our gauges are stored in a shared folder nobody checks",
+    "We need to define a procedure for what happens when a test fails",
+    "Acceptance sampling tables are kept in Excel",
+    "We want test instruments registered with tags and due dates",
+    "Our ISO auditor asked how quality procedures are controlled in the system",
+    "Each item needs its own checklist for what to inspect when it arrives",
+    "We want quality tests to trigger automatically for certain items and suppliers",
+    "How do we link a set of tests to an item in BC?",
+    "New suppliers should have every delivery tested, trusted ones only every tenth",
+    "quality plan per item",
+    "Our food products need different tests than our packaging materials",
+    "We want to skip inspection after ten good deliveries in a row",
+    "Is there an app to define test specifications per item and customer?",
+    "Some customers require extra tests on the products we ship them",
+    "We need to know which items have no inspection plan at all",
+    "Quality requirements per product are only in the quality manager's head",
+    "Tests at goods receipt and tests before shipping should be different",
+    "Our inspectors write results on paper and type them in later",
+    "Is there an app to record quality inspections on incoming goods in BC?",
+    "We want inspectors to fill in test results on a tablet in the warehouse",
+    "We need to check expired lots before deciding to sell them",
+    "quality inspection app Business Central",
+    "Test results for each batch should be stored on the lot number",
+    "Some samples go to an external lab and we need to track them",
+    "We want an inspection order created automatically when certain items are received",
+    "Inspectors do not know which deliveries need to be checked today",
+    "Destructive tests use up stock and that needs to be booked",
+    "We want quick entry of test results for many samples at once",
+    "How do we record pass or fail for each lot in BC?",
+    "Customers ask for test results for the batch we shipped them",
+    "Random spot checks on stock in the warehouse are not recorded anywhere",
+    "We need inspection with acceptance sampling for big deliveries",
+    "Lot attributes like moisture and fat percentage need to be recorded from tests",
+    "incoming inspection checklist",
+    "Inspection results should decide if the lot is released or blocked",
+    "We pay a lab to test our products and need to link the cost to the batch",
+    "Nothing stops warehouse staff from selling a lot that failed its test",
+    "We need a quality app for BC where operators record measurements during production",
+    "Our final inspection is a paper checklist that gets lost",
+    "How do we make an inspection mandatory before the production order can be finished?",
+    "quality management module Business Central manufacturing",
+    "We want operators to enter test values and have BC say pass or fail",
+    "Every tenth part off the line needs a dimensional check recorded",
+    "Is there an app that triggers an inspection at a specific routing operation?",
+    "We send samples of each batch to an outside lab and track results in Excel",
+    "Our auditors want proof that every batch was inspected",
+    "We need first article inspection on new production runs",
+    "Quality checks should be done on a tablet at the line, not on paper",
+    "BC has no quality module, what do other manufacturers use?",
+    "We want to record batch attributes like viscosity and pH from production testing",
+    "In-process inspection results should be linked to the production order and lot",
+    "Random spot checks on the shop floor need to be logged somewhere",
+    "Our ISO auditor asks how we control product quality at each step",
+    "We want inspection plans per item with tolerances and sampling rules",
+    "Test results out of tolerance should automatically block the batch",
+    "We need photos attached to inspection records",
+    "Quality checks on welded parts are done but never recorded against the order",
+    "Customers want a certificate of analysis with every shipment and we make it in Word",
+    "How do I print test results per lot number from BC?",
+    "certificate of conformance report production",
+    "We want the CoA attached automatically to the sales shipment email",
+    "Our lab results are in a separate system and need to show up on the lot",
+    "Is there an app that generates certificates of analysis from inspection data?",
+    "Quality reports per batch for our auditors take days to put together",
+    "Customers ask for test values for the exact batch they received",
+    "We need a quality report for each production order with all checks performed",
+    "Lot information card should show the test results",
+    "We want test results from the measurement device sent straight into BC",
+    "Our customer portal should let clients download batch certificates",
+    "Customers want a certificate of analysis with each batch",
+    "certificate of analysis BC",
+    "We need reports on failed inspections by supplier",
+    "Is there an app to generate COAs from test results?",
+    "Each customer wants a different COA format",
+    "Management wants to see how many lots failed quality this year"
+  ],
+  "questions": [
+    {
+      "id": "stage",
+      "text": "When do you need to check goods?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "When goods arrive from suppliers",
+          "patterns": [
+            "incoming",
+            "inbound",
+            "receipt",
+            "receiving",
+            "\\breceived",
+            "\\bgrn\\b",
+            "inward",
+            "\\biqc\\b",
+            "on delivery",
+            "vendor receipt"
+          ]
+        },
+        {
+          "label": "During and after production",
+          "patterns": [
+            "production",
+            "in-process",
+            "manufactur",
+            "routing",
+            "output",
+            "work center",
+            "\\bipqc\\b",
+            "shop ?floor"
+          ]
+        },
+        {
+          "label": "Before shipping to customers",
+          "patterns": [
+            "shipment(?! to external lab)",
+            "outbound",
+            "dispatch",
+            "\\boqc\\b",
+            "blocks delivery",
+            "stops delivery"
+          ]
+        },
+        {
+          "label": "Stock on the shelf, periodically",
+          "patterns": [
+            "periodic",
+            "in stock",
+            "spot check",
+            "scheduled",
+            "stability",
+            "re-?approval",
+            "retest"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "When goods arrive from suppliers": 0.48,
+        "During and after production": 0.65,
+        "Before shipping to customers": 0.22,
+        "Stock on the shelf, periodically": 0.18
+      }
+    },
+    {
+      "id": "fail",
+      "text": "What should happen when goods fail a check?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Block or quarantine the stock automatically",
+          "patterns": [
+            "\\bblock(s|ed|ing)? (non-conforming|sales|lots?|delivery|items|pending|specific)",
+            "identify, block",
+            "quarantine",
+            "on hold",
+            "quality hold",
+            "unavailable for issue",
+            "rejection area"
+          ]
+        },
+        {
+          "label": "Log non-conformance and corrective actions",
+          "patterns": [
+            "non-?conform",
+            "non-?compliance",
+            "corrective",
+            "capa",
+            "deviation",
+            "incident",
+            "follow-up action",
+            "tasks for failed"
+          ]
+        },
+        {
+          "label": "Return to supplier or raise a claim",
+          "patterns": [
+            "return to supplier",
+            "purchase return",
+            "claim",
+            "\\breturn"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Block or quarantine the stock automatically": 0.26,
+        "Log non-conformance and corrective actions": 0.28,
+        "Return to supplier or raise a claim": 0.09
+      }
+    },
+    {
+      "id": "cert",
+      "text": "Do you need to send test certificates to customers?",
+      "help": "For example a Certificate of Analysis (CoA).",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, print certificates from test results",
+          "patterns": [
+            "(test|quality|inspection) certificate",
+            "certificates? of analysis",
+            "\\bcoa\\b",
+            "certificate\\)",
+            "analysis reports? to end customer",
+            "reports? for certificates"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, print certificates from test results": 0.26
+      }
+    },
+    {
+      "id": "mobile",
+      "text": "Will inspectors record results on a phone or tablet?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, on mobile devices",
+          "patterns": [
+            "mobile",
+            "tablet",
+            "phone",
+            "scan"
+          ]
+        },
+        {
+          "label": "No, at a PC",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, on mobile devices": 0.14
+      }
+    },
+    {
+      "id": "vendor",
+      "text": "Do you want to rate suppliers on quality?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, supplier quality ratings",
+          "patterns": [
+            "vendor rating",
+            "rates suppliers",
+            "vendor (evaluation|performance)",
+            "supplier (evaluation|performance|scorecard)",
+            "vendor quality",
+            "rejection rate analysis by vendor",
+            "vendor ratings",
+            "7-point vendor"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, supplier quality ratings": 0.2
+      }
+    },
+    {
+      "id": "sampling",
+      "text": "Do you test a sample rather than every unit?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, using sampling plans (e.g. AQL)",
+          "patterns": [
+            "sampl",
+            "\\baql\\b"
+          ]
+        },
+        {
+          "label": "No, or not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, using sampling plans (e.g. AQL)": 0.22
+      }
+    }
+  ]
+}

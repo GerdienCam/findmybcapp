@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.navappyazlmvedanmanlkltdti1582460298798|AID.bc-nappwht|PAPPID.eccf6a4f-4fe4-40f4-ba25-44e741f45bc1",
+  "guid": "eccf6a4f-4fe4-40f4-ba25-44e741f45bc1",
+  "publisherId": "navappyazlmvedanmanlkltdti1582460298798",
+  "offerId": "bc-nappwht",
+  "source": {
+    "name": "Withholding Tax",
+    "publisher": "Navapp Yazilim ve Danismanlik Anonim Sirketi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navappyazlmvedanmanlkltdti1582460298798%7CAID.bc-nappwht%7CPAPPID.eccf6a4f-4fe4-40f4-ba25-44e741f45bc1",
+    "lastModified": "2026-09-30T19:37:03.0444419+00:00",
+    "appVersion": "28.0.260924.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-withholding-tax",
+    "sourceHash": "sha256:e532b940b6df08ef19e3b89e353850146e2b099fab99435511107f9fc142f9c9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e532b940b6df08ef19e3b89e353850146e2b099fab99435511107f9fc142f9c9",
+    "mappedOn": null,
+    "summary": "Turkish VAT withholding",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Withholding codes on purchase and sales documents calculate VAT withholding rate",
+      "Posting accounts for withholding defined per customer and vendor group",
+      "Prepares withholding records feeding month-end Turkish VAT declaration reports"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

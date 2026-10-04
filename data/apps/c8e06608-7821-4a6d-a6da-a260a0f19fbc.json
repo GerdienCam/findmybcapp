@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.systemsolutions|AID.customer-payment-portal|PAPPID.c8e06608-7821-4a6d-a6da-a260a0f19fbc",
+  "guid": "c8e06608-7821-4a6d-a6da-a260a0f19fbc",
+  "publisherId": "systemsolutions",
+  "offerId": "customer-payment-portal",
+  "source": {
+    "name": "Customer Payment Portal",
+    "publisher": "System Solutions LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemsolutions%7CAID.customer-payment-portal%7CPAPPID.c8e06608-7821-4a6d-a6da-a260a0f19fbc",
+    "lastModified": "2026-09-04T22:35:59.4321943+00:00",
+    "appVersion": "2.4.4.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://syssolutionsllc.com/user-guides/customer-payment-portal-for-d365-business-central/",
+    "sourceHash": "sha256:3f3b463ca791e5d723cfcbcb0de27eca51525bbd0c13aa32fcd0217b7628fa8a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3f3b463ca791e5d723cfcbcb0de27eca51525bbd0c13aa32fcd0217b7628fa8a",
+    "mappedOn": null,
+    "summary": "Customer self-pay portal with ACH and card payment links",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals",
+      "ng-collections"
+    ],
+    "claims": [
+      "Customer portal for online invoice payment",
+      "Email payment links without portal login",
+      "Pay single or multiple invoices in one transaction",
+      "Tokenization of saved payment methods",
+      "Payments auto-recorded in customer ledger and G/L",
+      "Credit/debit card and ACH payments",
+      "Instant notifications for payments and invoice views",
+      "Automated reminders and past-due notices",
+      "Supports many processors incl. Stripe, PayPal, Square, GoCardless, Mollie"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Chase",
+      "Global Payments",
+      "Moneris",
+      "Elavon",
+      "Fiserv / First Data",
+      "Heartland",
+      "Worldpay",
+      "Authorize.net",
+      "Braintree",
+      "GoCardless",
+      "Mollie",
+      "PayPal",
+      "Square",
+      "Stripe-Cards",
+      "Apple Pay",
+      "Venmo",
+      "LS Express"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.ecraftoyab1610627648267|AID.fm-bc-einvoice-app|PAPPID.d4f1a2b3-c5e6-4f78-9a0b-1c2d3e4f5a6b",
+  "guid": "d4f1a2b3-c5e6-4f78-9a0b-1c2d3e4f5a6b",
+  "publisherId": "ecraftoyab1610627648267",
+  "offerId": "fm-bc-einvoice-app",
+  "source": {
+    "name": "Fellowmind Finland E-Invoice",
+    "publisher": "Fellowmind Finland",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ecraftoyab1610627648267%7CAID.fm-bc-einvoice-app%7CPAPPID.d4f1a2b3-c5e6-4f78-9a0b-1c2d3e4f5a6b",
+    "lastModified": "2026-08-06T08:18:58.5944226+00:00",
+    "appVersion": "3.0.28.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.fellowmindfinland.cloud/e-invoice",
+    "sourceHash": "sha256:fcf8f81a88986d962fb34346a3b046d2d25359b98b45629e826ba84d5708a23d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fcf8f81a88986d962fb34346a3b046d2d25359b98b45629e826ba84d5708a23d",
+    "mappedOn": null,
+    "summary": "Creates and sends Finvoice 3.0 e-invoices",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Creates e-invoices in Finvoice 3.0 format, EN 16931 compliant",
+      "E-invoice worksheet with validation before sending",
+      "Includes PDF printouts and attachments",
+      "Export ZIP files for operator upload",
+      "Delivery via Azure Blob Storage",
+      "Direct sending via OWS operator API",
+      "Transfers invoice data to a factoring bank",
+      "Sales and service invoices supported"
+    ],
+    "countries": [
+      "DE",
+      "DK",
+      "FI",
+      "GB",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "fi"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Finvoice",
+      "OWS operator API",
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

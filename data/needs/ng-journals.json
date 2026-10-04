@@ -1,0 +1,221 @@
+{
+  "id": "ng-journals",
+  "order": 47,
+  "label": "Entering, approving and correcting journal entries",
+  "description": "Recording and importing ledger entries, posting rules and approvals, correcting wrong postings.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "high",
+  "statements": [
+    "Entering, approving and correcting journal entries",
+    "Recording and importing ledger entries, posting rules and approvals, correcting wrong postings.",
+    "We type hundreds of journal lines by hand every month",
+    "Is there an app to import general journals from Excel or CSV into BC?",
+    "The same rent and leasing entries are entered manually every month",
+    "Our POS system spits out a daily file that we key into a journal",
+    "recurring journals BC",
+    "Want to paste a journal from Excel without the column mapping breaking",
+    "We need to import journals from our old accounting system for the last year",
+    "Can journals be picked up automatically from SharePoint or an SFTP folder?",
+    "Our external payroll provider sends a file we have to turn into a journal",
+    "The general journal page is slow and painful for large entries",
+    "Attach the supporting document to each manual journal entry",
+    "We want an API so our webshop can post summary entries to the G/L",
+    "Import journals into several BC companies from one file",
+    "Opening balances need to go in when we switch to BC",
+    "Post a journal with 2,000 lines without it timing out",
+    "Journal templates with standard text and accounts already filled in",
+    "Our accountant enters adjustments in a spreadsheet and we retype them",
+    "How do I make a journal that reverses itself next month?",
+    "Bookkeeping for a small company, we just want quick manual entries",
+    "Validate a journal for errors before posting so we don't get halfway",
+    "We posted to the wrong G/L account and need to move it",
+    "How do we change the dimension on an entry that is already posted?",
+    "Is there an app to correct dimensions on posted G/L entries in BC?",
+    "reverse journal entry BC",
+    "Someone posted a journal twice, what's the cleanest way to undo it?",
+    "We want to correct postings without cluttering the ledger with reversals",
+    "Bulk fix 500 entries posted with the wrong department",
+    "Wrong posting date on a journal, it should be in last month",
+    "Reverse a whole register in one go",
+    "Our auditor wants a trail of every correction made to the ledger",
+    "Fix the G/L account on a posted purchase invoice without a credit memo",
+    "Need to move costs from one project to another after posting",
+    "Anyone with access can post a general journal, we want a second person to approve first",
+    "We need journal approvals in BC with a limit based on amount",
+    "Our posting groups are so confusing that sales keep landing on the wrong G/L account",
+    "Is there a way to stop users posting to certain G/L accounts directly?",
+    "We want reason codes required on every manual journal so the auditor stops asking",
+    "journal approval workflow",
+    "Can BC block posting if a journal line is missing a department?",
+    "We need separate journal batches per user with their own number series",
+    "Who should be allowed to post to the bank accounts and who should only prepare?",
+    "The general and VAT posting group setup is a black box to our new controller",
+    "Want certain account combinations to be impossible, like cost of sales with the admin department",
+    "Our auditor says the controls around manual journals are too weak"
+  ],
+  "questions": [
+    {
+      "id": "need",
+      "text": "What do you mainly need help with in your journals?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Importing entries from files or Excel",
+          "patterns": [
+            "imports? (journals?|external|data|them back)",
+            "importing",
+            "import utility",
+            "\\bcsv\\b",
+            "from excel",
+            "excel and reimport",
+            "transfers [^.]*into bc"
+          ]
+        },
+        {
+          "label": "Correcting or reversing wrong postings",
+          "patterns": [
+            "reversal",
+            "reverses",
+            "reversing",
+            "reverse entries"
+          ]
+        },
+        {
+          "label": "Approvals and rules on what may be posted",
+          "patterns": [
+            "approval",
+            "restricts?\\b",
+            "posting (date )?controls?",
+            "posting control rules",
+            "direct posting",
+            "dimension validation",
+            "blocks posting",
+            "duplicate (external|vendor)"
+          ]
+        },
+        {
+          "label": "Special registers: cash desk, loans, bonds, investments",
+          "patterns": [
+            "cash desk",
+            "\\bloans?\\b",
+            "bonds?\\b",
+            "investment",
+            "fixed deposits"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Importing entries from files or Excel": 0.25,
+        "Correcting or reversing wrong postings": 0.2,
+        "Approvals and rules on what may be posted": 0.25,
+        "Special registers: cash desk, loans, bonds, investments": 0.25
+      }
+    },
+    {
+      "id": "source",
+      "text": "Where do the journal lines come from?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Excel sheets",
+          "patterns": [
+            "from excel",
+            "excel and reimport",
+            "to excel and imports? them back"
+          ]
+        },
+        {
+          "label": "CSV or other files exported from another system",
+          "patterns": [
+            "\\bcsv\\b",
+            "data exchange",
+            "external files",
+            "encoding"
+          ]
+        },
+        {
+          "label": "Typed in by hand",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Excel sheets": 0.1,
+        "CSV or other files exported from another system": 0.15
+      }
+    },
+    {
+      "id": "reverse",
+      "text": "What do you need to reverse when something is posted wrong?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Posted invoices and credit memos",
+          "patterns": [
+            "posted documents",
+            "sales, purchase and service documents",
+            "documents are reversed",
+            "documents and g/l"
+          ]
+        },
+        {
+          "label": "G/L entries or whole registers",
+          "patterns": [
+            "revers\\w* [^.]*(g/l|registers?|transactions)",
+            "(g/l|registers?)[^.]*revers"
+          ]
+        },
+        {
+          "label": "Prepare the reversal for review before posting",
+          "patterns": [
+            "prepares? (a )?reversal",
+            "instead of posting"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Posted invoices and credit memos": 0.1,
+        "G/L entries or whole registers": 0.25,
+        "Prepare the reversal for review before posting": 0.05
+      }
+    },
+    {
+      "id": "check",
+      "text": "Do you want to see the result before you post?",
+      "options": [
+        {
+          "label": "Simulate the full outcome",
+          "patterns": [
+            "simulat",
+            "outcome before posting"
+          ]
+        },
+        {
+          "label": "See or print the posting preview as a voucher",
+          "patterns": [
+            "preview",
+            "print voucher",
+            "shows accounts, debits, credits"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Simulate the full outcome": 0.05,
+        "See or print the posting preview as a voucher": 0.1
+      }
+    }
+  ]
+}

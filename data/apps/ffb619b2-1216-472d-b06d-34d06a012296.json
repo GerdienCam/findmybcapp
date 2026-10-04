@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.eit-ci-connector-app|PAPPID.ffb619b2-1216-472d-b06d-34d06a012296",
+  "guid": "ffb619b2-1216-472d-b06d-34d06a012296",
+  "publisherId": "fenwicksoftware",
+  "offerId": "eit-ci-connector-app",
+  "source": {
+    "name": "Easy Item Tracking for Cargo Import",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.eit-ci-connector-app%7CPAPPID.ffb619b2-1216-472d-b06d-34d06a012296",
+    "lastModified": "2026-04-14T10:04:45.494647+00:00",
+    "appVersion": "26.0.260402.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/easy-item-tracking/docs",
+    "sourceHash": "sha256:89e3221ab764cf48b77e16992741014074f67676e7232538c0f9bea5828e0512"
+  },
+  "mapping": {
+    "sourceHash": "sha256:89e3221ab764cf48b77e16992741014074f67676e7232538c0f9bea5828e0512",
+    "mappedOn": null,
+    "summary": "Links Easy Item Tracking with Cargo Import for drop ship tracking",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Turns on item tracking for drop ship items that were ordered through Cargo Import"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Fenwick Easy Item Tracking",
+      "Fenwick Cargo Import"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Connector app between two Fenwick apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

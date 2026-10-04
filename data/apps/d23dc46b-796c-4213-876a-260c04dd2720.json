@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.nm|AID.agriopremium|PAPPID.d23dc46b-796c-4213-876a-260c04dd2720",
+  "guid": "d23dc46b-796c-4213-876a-260c04dd2720",
+  "publisherId": "nm",
+  "offerId": "agriopremium",
+  "source": {
+    "name": "Agrio Premium",
+    "publisher": "NEWMINDS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nm%7CAID.agriopremium%7CPAPPID.d23dc46b-796c-4213-876a-260c04dd2720",
+    "lastModified": "2026-09-14T11:10:42.7038677+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://learn.agrio.software/",
+    "sourceHash": "sha256:28c5a1b6b4f769ad5221566f82bc75b16b73222fa1758ee9020406d32562be26"
+  },
+  "mapping": {
+    "sourceHash": "sha256:28c5a1b6b4f769ad5221566f82bc75b16b73222fa1758ee9020406d32562be26",
+    "mappedOn": null,
+    "summary": "Trading and processing of agricultural produce like fruit and vegetables",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-shop-floor-reporting"
+    ],
+    "claims": [
+      "Converts Agrio positions into BC inventory",
+      "Position and inventory management in one environment",
+      "Handles movements, corrections and empty notifications",
+      "Traceability grower to end product",
+      "Register consumption for assembly/production orders",
+      "Register bunker movements: emptying trucks, sorting, washing, peeling",
+      "Requires AGRIO software extension"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Agriculture",
+      "Fresh produce"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Agrio"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

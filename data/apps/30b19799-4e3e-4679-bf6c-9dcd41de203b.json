@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.woo_connector|PAPPID.30b19799-4e3e-4679-bf6c-9dcd41de203b",
+  "guid": "30b19799-4e3e-4679-bf6c-9dcd41de203b",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "woo_connector",
+  "source": {
+    "name": "WooCommerce Connect",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.woo_connector%7CPAPPID.30b19799-4e3e-4679-bf6c-9dcd41de203b",
+    "lastModified": "2026-06-17T20:04:36.9244817+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:ee874d083a5304975d0fc91c8bcaeb9e2499571bf7437397ba548009eaab21b4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ee874d083a5304975d0fc91c8bcaeb9e2499571bf7437397ba548009eaab21b4",
+    "mappedOn": null,
+    "summary": "Syncs customers, products, orders, stock and refunds with WooCommerce",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Downloads customers, products and orders from WooCommerce",
+      "Uploads shipment status and tracking numbers to WooCommerce",
+      "Configurable custom fields for download and upload",
+      "Creates sales orders and updates status back",
+      "Emails an error log to monitor and fix issues",
+      "Covers stock and refunds",
+      "Syncs and auto-processes via job queue"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "WooCommerce"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

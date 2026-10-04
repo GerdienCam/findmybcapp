@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.retailcentral|AID.shippingcentral_packship|PAPPID.37a472c3-fe06-4de6-ace0-08f718919586",
+  "guid": "37a472c3-fe06-4de6-ace0-08f718919586",
+  "publisherId": "retailcentral",
+  "offerId": "shippingcentral_packship",
+  "source": {
+    "name": "Shipping Central - Tasklet Mobile WMS",
+    "publisher": "Retail Central",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.retailcentral%7CAID.shippingcentral_packship%7CPAPPID.37a472c3-fe06-4de6-ace0-08f718919586",
+    "lastModified": "2026-01-19T15:10:13.1987002+00:00",
+    "appVersion": "2.0.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.shippingcentral.net/",
+    "sourceHash": "sha256:df3fbc649369a671c39f5e300f3e21ba8c14534f5eebf46b21843a47a48268a5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:df3fbc649369a671c39f5e300f3e21ba8c14534f5eebf46b21843a47a48268a5",
+    "mappedOn": null,
+    "summary": "Connects Shipping Central to Tasklet Mobile WMS pack and ship",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Book shipments from the Tasklet WMS handheld interface",
+      "Generates labels and tracking numbers from nShift Delivery in real time",
+      "Automates printouts",
+      "Shipping methods and carrier services from Shipping Central available in Mobile WMS",
+      "Requires Shipping Central subscription, Tasklet Pack & Ship and nShift account"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Tasklet Mobile WMS",
+      "nShift"
+    ],
+    "requires": [
+      "Shipping Central",
+      "Tasklet Mobile WMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

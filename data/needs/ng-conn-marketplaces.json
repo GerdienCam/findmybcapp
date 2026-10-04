@@ -1,0 +1,201 @@
+{
+  "id": "ng-conn-marketplaces",
+  "order": 188,
+  "label": "Selling on Amazon and other marketplaces",
+  "description": "Connecting BC to marketplaces and multichannel hubs (Amazon, Mirakl-based marketplaces, ChannelEngine, BaseLinker, Linnworks, Idealo): listings, stock, orders, fulfilment and settlements.",
+  "type": "connector",
+  "area": "Connecting other systems",
+  "relevance": "medium",
+  "statements": [
+    "Selling on Amazon and other marketplaces",
+    "Connecting BC to marketplaces and multichannel hubs (Amazon, Mirakl-based marketplaces, ChannelEngine, BaseLinker, Linnworks, Idealo): listings, stock, orders, fulfilment and settlements.",
+    "We started on Amazon and orders are copied into BC manually",
+    "Amazon connector for Business Central",
+    "Stock levels need to update on five marketplaces at once",
+    "Amazon settlement reports don't match what we booked",
+    "We use ChannelEngine for marketplaces, can it talk to BC?",
+    "Selling on Zalando and bol.com from the same stock",
+    "FBA stock should show as a separate location in BC",
+    "Marketplace fees and commissions need to be posted correctly",
+    "Multichannel hub between BC and all our sales channels",
+    "Orders from Allegro into BC",
+    "Listing products on marketplaces straight from BC item data",
+    "Returns from marketplaces are a nightmare to book"
+  ],
+  "questions": [
+    {
+      "id": "market",
+      "text": "Which marketplaces do you sell on?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Amazon",
+          "patterns": [
+            "amazon"
+          ]
+        },
+        {
+          "label": "eBay",
+          "patterns": [
+            "ebay"
+          ]
+        },
+        {
+          "label": "Mirakl, OTTO, Bol.com or other European marketplaces",
+          "patterns": [
+            "mirakl",
+            "otto",
+            "bol\\.com",
+            "idealo",
+            "neteven",
+            "channelengine",
+            "baselinker"
+          ]
+        },
+        {
+          "label": "Walmart, Temu, TikTok, Etsy",
+          "patterns": [
+            "walmart",
+            "temu",
+            "tiktok",
+            "etsy"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Amazon": 0.64,
+        "eBay": 0.27,
+        "Mirakl, OTTO, Bol.com or other European marketplaces": 0.41,
+        "Walmart, Temu, TikTok, Etsy": 0.14
+      }
+    },
+    {
+      "id": "amazon",
+      "text": "How do you sell on Amazon?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Fulfillment by Amazon (FBA)",
+          "patterns": [
+            "\\bfba\\b"
+          ]
+        },
+        {
+          "label": "We ship Amazon orders ourselves",
+          "patterns": [
+            "\\bmfn\\b",
+            "\\bfbm\\b",
+            "merchant fulfilled"
+          ]
+        },
+        {
+          "label": "As a vendor to Amazon (Vendor Central)",
+          "patterns": [
+            "vendor central"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Fulfillment by Amazon (FBA)": 0.23,
+        "We ship Amazon orders ourselves": 0.23,
+        "As a vendor to Amazon (Vendor Central)": 0.09
+      }
+    },
+    {
+      "id": "setup",
+      "text": "How do you want to connect?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Through a hub like ChannelEngine or Linnworks",
+          "patterns": [
+            "channelengine",
+            "linnworks",
+            "sellercloud",
+            "baselinker",
+            "\\d+\\+ marketplaces"
+          ]
+        },
+        {
+          "label": "One connector for marketplaces and our webshop",
+          "patterns": [
+            "shopify",
+            "woocommerce",
+            "magento",
+            "shopware",
+            "bigcommerce",
+            "prestashop",
+            "\\bwix\\b"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Through a hub like ChannelEngine or Linnworks": 0.27,
+        "One connector for marketplaces and our webshop": 0.18
+      }
+    },
+    {
+      "id": "flows",
+      "text": "What else must sync besides orders?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Tracking back to the marketplace",
+          "patterns": [
+            "tracking",
+            "shipping (info|confirm|updates)",
+            "shipment (and tracking|updates)",
+            "fulfil+ment (status|updates)"
+          ]
+        },
+        {
+          "label": "Returns and refunds",
+          "patterns": [
+            "return",
+            "refund"
+          ]
+        },
+        {
+          "label": "Product listings and prices from BC",
+          "patterns": [
+            "product (records|listings|data|information)",
+            "pushes item data",
+            "catalog",
+            "price"
+          ]
+        },
+        {
+          "label": "Payouts, settlements and fees",
+          "patterns": [
+            "settlement",
+            "selling fees",
+            "commission",
+            "payout"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Tracking back to the marketplace": 0.45,
+        "Returns and refunds": 0.41,
+        "Product listings and prices from BC": 0.36,
+        "Payouts, settlements and fees": 0.27
+      }
+    }
+  ]
+}

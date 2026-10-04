@@ -1,0 +1,67 @@
+{
+  "appId": "TYPE.connect|PUBID.mminteractivesolutionsltd1778719822711|AID.centrify360connector|PAPPID.77e29fcd-fb58-4e64-a870-234548653abe",
+  "guid": "77e29fcd-fb58-4e64-a870-234548653abe",
+  "publisherId": "mminteractivesolutionsltd1778719822711",
+  "offerId": "centrify360connector",
+  "source": {
+    "name": "Centrify 360 Connector",
+    "publisher": "M.M. INTERACTIVE SOLUTIONS LTD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.mminteractivesolutionsltd1778719822711%7CAID.centrify360connector%7CPAPPID.77e29fcd-fb58-4e64-a870-234548653abe",
+    "lastModified": "2026-06-08T08:06:36.2331722+00:00",
+    "appVersion": "1.1.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.centrify360.com/",
+    "sourceHash": "sha256:5524a7ddc3bdde2d8e041b9875def38d234e5cced5b0a555369f635b7547f120"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5524a7ddc3bdde2d8e041b9875def38d234e5cced5b0a555369f635b7547f120",
+    "mappedOn": null,
+    "summary": "Syncs data to Centrify 360 for Power BI analytics",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Automated scheduled sync from BC to Centrify 360 ETL service",
+      "Loads data into a star-schema model for BI",
+      "Spans retail, manufacturing, inventory, payables, receivables, sales, purchasing and finance",
+      "Calls only go outbound via API, so inbound firewall rules are unnecessary",
+      "Configurable sync window",
+      "Incremental sync of changed records only",
+      "Setup wizard with connection testing",
+      "Works with cloud and on-premises BC",
+      "Supports Power BI and Microsoft Fabric reports",
+      "Requires Centrify 360 license and deployed ETL service"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Centrify 360",
+      "Power BI",
+      "Microsoft Fabric"
+    ],
+    "requires": [
+      "Centrify 360 ETL"
+    ],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

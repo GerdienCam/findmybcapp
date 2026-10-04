@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.multisoft|AID.servotiondimeconnector|PAPPID.bdbbc112-3d97-414b-a4de-7383d7588d20",
+  "guid": "bdbbc112-3d97-414b-a4de-7383d7588d20",
+  "publisherId": "multisoft",
+  "offerId": "servotiondimeconnector",
+  "source": {
+    "name": "Servotion Dime Connector",
+    "publisher": "MULTISOFT KFT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.multisoft%7CAID.servotiondimeconnector%7CPAPPID.bdbbc112-3d97-414b-a4de-7383d7588d20",
+    "lastModified": "2026-07-10T04:23:28.5160198+00:00",
+    "appVersion": "4.0.0.11",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://partner.multisoft.hu/help-servotion/",
+    "sourceHash": "sha256:ba5816822186e827461fb5f8824fd4a53799c0bc699404f2b848cc83d226a793"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ba5816822186e827461fb5f8824fd4a53799c0bc699404f2b848cc83d226a793",
+    "mappedOn": null,
+    "summary": "Connects Servotion field service with Dime.Scheduler",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-dispatch",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Connects Servotion with Dime.Scheduler graphical planning",
+      "Sends technician GPS position to the graphical scheduler",
+      "Dispatcher can send the closest available resource to urgent tasks"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dime.Scheduler"
+    ],
+    "requires": [
+      "Servotion",
+      "Dime.Scheduler"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

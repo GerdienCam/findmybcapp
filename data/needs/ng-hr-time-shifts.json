@@ -1,0 +1,241 @@
+{
+  "id": "ng-hr-time-shifts",
+  "order": 135,
+  "label": "Recording working hours and planning shifts",
+  "description": "Clock-in/out, timesheets and attendance, plus shift and roster planning.",
+  "type": "bpc",
+  "area": "People & payroll",
+  "relevance": "high",
+  "statements": [
+    "Recording working hours and planning shifts",
+    "Clock-in/out, timesheets and attendance, plus shift and roster planning.",
+    "Employees write their hours on paper and someone types them into payroll",
+    "We need a time clock app where staff clock in and out on their phone",
+    "time registration BC",
+    "Is there a time and attendance app that integrates with Business Central?",
+    "Overtime is calculated by hand every month and always disputed",
+    "Hourly workers' timesheets need to go to the payroll provider",
+    "We want to know when production workers arrive and leave",
+    "Flex time balances for office staff are kept in Excel",
+    "Clock-in terminal at the warehouse entrance that feeds BC",
+    "Employees forget to register their hours until the end of the month",
+    "Managers have to approve employee hours before payroll runs",
+    "Need to see total hours worked per employee per week against their contract",
+    "Night and weekend supplements should be calculated from registered hours",
+    "Our drivers' working hours need to be recorded for legal reasons",
+    "Staff log their hours in three different tools and nothing matches",
+    "attendance tracking hourly staff",
+    "We need a record of working hours to comply with the EU working time rules",
+    "Can employees register their hours in BC without a full license?",
+    "Hours for part-time staff vary every week and payroll needs the exact numbers",
+    "Late arrivals and early departures should be visible to the supervisor",
+    "Shift planning is done in Excel and pinned to the wall",
+    "Employees want to swap shifts without calling the supervisor",
+    "shift schedule app",
+    "Who is on early, late and night shift in the warehouse next week?",
+    "We need a rota for shop staff that respects contracted hours",
+    "Is there a shift planning app that ties into BC and payroll?",
+    "Overtime and night shift supplements must follow the shift plan",
+    "People get double booked or a shift ends up with nobody on it",
+    "Publish the weekly roster to employees' phones",
+    "Covering a sick colleague's shift takes hours of phone calls",
+    "Staffing our three stores with the right number of people per hour",
+    "rota planning Teams shifts"
+  ],
+  "questions": [
+    {
+      "id": "capture",
+      "text": "How should employees register their time?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Terminal, badge or card at the door",
+          "patterns": [
+            "terminal",
+            "badge",
+            "card ids?",
+            "touch screens?"
+          ]
+        },
+        {
+          "label": "Phone or tablet app",
+          "patterns": [
+            "mobile",
+            "\\bapp\\b",
+            "phone",
+            "tablet",
+            "power apps"
+          ]
+        },
+        {
+          "label": "Timesheet on the PC",
+          "patterns": [
+            "timesheet",
+            "time entr",
+            "mass time entry",
+            "pc login",
+            "desktop",
+            "per day or per week"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Terminal, badge or card at the door": 0.29,
+        "Phone or tablet app": 0.29,
+        "Timesheet on the PC": 0.38
+      }
+    },
+    {
+      "id": "shifts",
+      "text": "Do you need to plan shifts or rosters?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, shifts or rosters",
+          "patterns": [
+            "shifts?\\b",
+            "roster",
+            "duty planning",
+            "workforce scheduling",
+            "work schedules?"
+          ]
+        },
+        {
+          "label": "No, just record hours",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, shifts or rosters": 0.38
+      }
+    },
+    {
+      "id": "payroll",
+      "text": "Should recorded hours feed your payroll?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, export or calculate for payroll",
+          "patterns": [
+            "payroll",
+            "salary",
+            "wages?"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, export or calculate for payroll": 0.43
+      }
+    },
+    {
+      "id": "what",
+      "text": "Besides attendance, what do you record time against?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Projects",
+          "patterns": [
+            "project"
+          ]
+        },
+        {
+          "label": "Production or service jobs",
+          "patterns": [
+            "production",
+            "shop ?floor",
+            "service (jobs|orders)",
+            "routing times",
+            "job recording"
+          ]
+        },
+        {
+          "label": "Just attendance and working hours",
+          "patterns": [
+            "attendance",
+            "working hours",
+            "clock"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Projects": 0.38,
+        "Production or service jobs": 0.29,
+        "Just attendance and working hours": 0.62
+      }
+    },
+    {
+      "id": "absence",
+      "text": "Do you also want to handle absence and holidays here?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, absence and vacation",
+          "patterns": [
+            "absence",
+            "vacation",
+            "\\bleave\\b",
+            "sick"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, absence and vacation": 0.57
+      }
+    },
+    {
+      "id": "existing",
+      "text": "Do you already have a separate time clock system you want to keep?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, connect it to BC",
+          "patterns": [
+            "interface",
+            "connects? (your|employees|between)",
+            "\\bsync",
+            "transfers time",
+            "imports worked time",
+            "bidirectional integration"
+          ]
+        },
+        {
+          "label": "No, record it in BC",
+          "patterns": [
+            "\\bin (bc|business central|microsoft dynamics)",
+            "natively integrated",
+            "tracks employees",
+            "employee card",
+            "work schedules",
+            "badge scanning",
+            "terminal login"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, connect it to BC": 0.33,
+        "No, record it in BC": 0.33
+      }
+    }
+  ]
+}

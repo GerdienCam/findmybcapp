@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.solidexpert|AID.sek_cadconnector|PAPPID.e7fcadbf-d785-43e4-b99e-a4c8969d8f6a",
+  "guid": "e7fcadbf-d785-43e4-b99e-a4c8969d8f6a",
+  "publisherId": "solidexpert",
+  "offerId": "sek_cadconnector",
+  "source": {
+    "name": "CAD Connector",
+    "publisher": "SOLIDEXPERT Polska Sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.solidexpert%7CAID.sek_cadconnector%7CPAPPID.e7fcadbf-d785-43e4-b99e-a4c8969d8f6a",
+    "lastModified": "2024-11-22T05:03:24.7880932+00:00",
+    "appVersion": "2.3.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.solidexpert.com/cadconnector/en_US/index.html",
+    "sourceHash": "sha256:996817f7c146324aeb111260a8e914466044551c9d7cd928a3041b08ec99a01b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:996817f7c146324aeb111260a8e914466044551c9d7cd928a3041b08ec99a01b",
+    "mappedOn": null,
+    "summary": "Imports BOMs from CAD/PLM systems into production data",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Integrates any CAD/PDM/PLM environment with BC",
+      "Tree view of the structural BOM",
+      "Validates correctness and completeness of data",
+      "Automatically creates items for details and assemblies and/or production BOMs",
+      "Manages BOM and routing documentation in one place",
+      "Versions are controlled from structural BOM revisions",
+      "Updates documentation when designs change"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "CAD",
+      "PDM",
+      "PLM"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

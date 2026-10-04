@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.the_shipping_connector|PAPPID.7bd06b26-faee-4fe4-beb1-cd1052f6e834",
+  "guid": "7bd06b26-faee-4fe4-beb1-cd1052f6e834",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "the_shipping_connector",
+  "source": {
+    "name": "Shipping Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.the_shipping_connector%7CPAPPID.7bd06b26-faee-4fe4-beb1-cd1052f6e834",
+    "lastModified": "2026-05-28T12:31:21.1217346+00:00",
+    "appVersion": "1.0.0.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:f5bef5d2cf5d41a842fc5895a32769462de6dc4240b5f0021790d6a59dc3a3ac"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f5bef5d2cf5d41a842fc5895a32769462de6dc4240b5f0021790d6a59dc3a3ac",
+    "mappedOn": null,
+    "summary": "Shipping integration for DHL, DPD, Royal Mail and FedEx",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates shipment requests for DPD, DHL and Royal Mail",
+      "Downloads labels for UPS and FedEx",
+      "Supports DHL Express, DPD Local, Royal Mail Click & Drop, UPS and FedEx"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DHL",
+      "DPD",
+      "Royal Mail",
+      "FedEx",
+      "UPS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

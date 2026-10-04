@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.dynaviqllc1665680235492|AID.dynaviq_iq_dimension_balancing|PAPPID.3cc7ae47-f046-411c-b34c-4d5311b741dd",
+  "guid": "3cc7ae47-f046-411c-b34c-4d5311b741dd",
+  "publisherId": "dynaviqllc1665680235492",
+  "offerId": "dynaviq_iq_dimension_balancing",
+  "source": {
+    "name": "IQ Dimension Balancing",
+    "publisher": "Dynaviq LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaviqllc1665680235492%7CAID.dynaviq_iq_dimension_balancing%7CPAPPID.3cc7ae47-f046-411c-b34c-4d5311b741dd",
+    "lastModified": "2024-11-05T22:25:07.5576036+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.4qsolutions.com/application-support/",
+    "sourceHash": "sha256:ca9de900e566492ab5450f93a8eff33dbc0436a0e0f9a36c90970e667d8a16ea"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ca9de900e566492ab5450f93a8eff33dbc0436a0e0f9a36c90970e667d8a16ea",
+    "mappedOn": null,
+    "summary": "Prevents out-of-balance postings per dimension",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals",
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Prevents posting of out-of-balance entries per selected dimension",
+      "Shows balancing errors in the Journal Check preview factbox",
+      "Any dimension can be balanced, not only global/shortcut dimensions",
+      "Balancing on selected dimension values only",
+      "Controls header vs line dimension differences on sales, purchase and service documents",
+      "Override of balancing requirement per line",
+      "Override and setup rights controlled in User Setup"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

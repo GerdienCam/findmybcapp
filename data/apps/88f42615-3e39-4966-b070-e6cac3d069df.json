@@ -1,0 +1,66 @@
+{
+  "appId": "TYPE.connect|PUBID.centerstageinc1690983912338|AID.linnworks|PAPPID.88f42615-3e39-4966-b070-e6cac3d069df",
+  "guid": "88f42615-3e39-4966-b070-e6cac3d069df",
+  "publisherId": "centerstageinc1690983912338",
+  "offerId": "linnworks",
+  "source": {
+    "name": "Linnworks for Microsoft Dynamics 365 Business Central",
+    "publisher": "iPaaS.com",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.centerstageinc1690983912338%7CAID.linnworks%7CPAPPID.88f42615-3e39-4966-b070-e6cac3d069df",
+    "lastModified": "2026-06-08T03:49:46.4049542+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.ipaas.com/en/collections/17046927-linnworks",
+    "sourceHash": "sha256:301c5c68f2ad4af2d346b89adb00489c79c9777d069acbdd3086d228e0abec08"
+  },
+  "mapping": {
+    "sourceHash": "sha256:301c5c68f2ad4af2d346b89adb00489c79c9777d069acbdd3086d228e0abec08",
+    "mappedOn": null,
+    "summary": "Connects marketplaces and carriers via Linnworks",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop",
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Syncs orders between BC and Linnworks",
+      "Returns order status updates and shipment tracking",
+      "Syncs product data and sends inventory updates to Linnworks",
+      "Linnworks covers OMS, WMS and inventory management with order routing automation",
+      "Handles cancelled lines or orders in data flows",
+      "Reaches 100+ marketplaces"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Consumer Goods",
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Linnworks",
+      "iPaaS.com"
+    ],
+    "requires": [
+      "iPaaS.com",
+      "Linnworks"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

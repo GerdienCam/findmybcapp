@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.warehouse_agent|PAPPID.e40d99a4-d1f3-4acb-b898-6c934752c668",
+  "guid": "e40d99a4-d1f3-4acb-b898-6c934752c668",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "warehouse_agent",
+  "source": {
+    "name": "Warehouse Agent",
+    "publisher": "LODESTAR SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.warehouse_agent%7CPAPPID.e40d99a4-d1f3-4acb-b898-6c934752c668",
+    "lastModified": "2026-09-10T10:41:37.7897913+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:b1f13296b513b286c789b791a372665c80617ee24ad429b8366a007bfcef4860"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b1f13296b513b286c789b791a372665c80617ee24ad429b8366a007bfcef4860",
+    "mappedOn": null,
+    "summary": "AI agent that prioritizes warehouse work",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-warehouse-kpis",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-copilot-agents",
+      "ng-replenishment-planning",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "On-demand AI analyses with structured report in the user's language",
+      "Runs on live data without job queue entries",
+      "Inventory level trend by item, location and period",
+      "Standard vs actual inventory value and cost variances",
+      "Inventory value by location",
+      "Inventory turnover and days on hand",
+      "ABC analysis by outbound quantity, value and movement frequency",
+      "Shipment readiness of sales order lines",
+      "Backorders and partially fulfilled orders",
+      "Replenishment requirements vs open sales demand",
+      "Flags logistics delays on transfer, sales and purchase orders",
+      "Inbound receiving performance: late or partial supplier deliveries",
+      "Picking performance by location, zone and bin",
+      "Put-away performance",
+      "Expired and soon-to-expire lots with value at risk",
+      "Slow-moving and dead stock value per location"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.smart-businessllc2412077-2412077|AID.smart_dimension_correction|PAPPID.7036f1c9-795a-48e1-98bf-853b32bcb91c",
+  "guid": "7036f1c9-795a-48e1-98bf-853b32bcb91c",
+  "publisherId": "smart-businessllc2412077-2412077",
+  "offerId": "smart_dimension_correction",
+  "source": {
+    "name": "SMART Dimension Correction",
+    "publisher": "SMART business LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_dimension_correction%7CPAPPID.7036f1c9-795a-48e1-98bf-853b32bcb91c",
+    "lastModified": "2025-10-31T17:11:05.3862703+00:00",
+    "appVersion": "1.2.117292.251031",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.smart-it.com/en/",
+    "sourceHash": "sha256:e89dbd7802e899c2c544a3138762c09a69c5f58789d0185039740aeb762452b9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e89dbd7802e899c2c544a3138762c09a69c5f58789d0185039740aeb762452b9",
+    "mappedOn": null,
+    "summary": "Corrects dimensions on posted documents and entries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-correct-posted"
+    ],
+    "claims": [
+      "Auto-detects standard and custom tables with dimensions",
+      "Corrects dimensions on posted entries without reversal",
+      "Finds all related entries by document number and date",
+      "Separate change log with undo"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "ru",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

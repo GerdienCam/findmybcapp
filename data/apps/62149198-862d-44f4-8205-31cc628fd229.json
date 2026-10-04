@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.tvision|AID.tvtere|PAPPID.62149198-862d-44f4-8205-31cc628fd229",
+  "guid": "62149198-862d-44f4-8205-31cc628fd229",
+  "publisherId": "tvision",
+  "offerId": "tvtere",
+  "source": {
+    "name": "TVision Easy Revolut Export",
+    "publisher": "Tvision Technology Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tvision%7CAID.tvtere%7CPAPPID.62149198-862d-44f4-8205-31cc628fd229",
+    "lastModified": "2025-10-08T11:21:42.5413998+00:00",
+    "appVersion": "25.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.tvisiontech.co.uk/tvision-bevica-apps/",
+    "sourceHash": "sha256:79ddbd4cd56a3af60c1f4a56f306a2bc231d60d4fc600255ba0d05aa02917119"
+  },
+  "mapping": {
+    "sourceHash": "sha256:79ddbd4cd56a3af60c1f4a56f306a2bc231d60d4fc600255ba0d05aa02917119",
+    "mappedOn": null,
+    "summary": "Exports payment files for Revolut upload",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exports Revolut-compatible payment file from payment journal for manual upload",
+      "Setup wizard",
+      "Uses standard bank payment file export process",
+      "Free in sandbox"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Revolut"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

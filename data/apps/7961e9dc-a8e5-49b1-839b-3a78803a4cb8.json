@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.troubleshootfaledgerentries|PAPPID.7961e9dc-a8e5-49b1-839b-3a78803a4cb8",
+  "guid": "7961e9dc-a8e5-49b1-839b-3a78803a4cb8",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "troubleshootfaledgerentries",
+  "source": {
+    "name": "Troubleshoot FA Ledger Entries",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.troubleshootfaledgerentries%7CPAPPID.7961e9dc-a8e5-49b1-839b-3a78803a4cb8",
+    "lastModified": "2024-11-22T19:13:29.3814922+00:00",
+    "appVersion": "19.0.29894.32542",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?linkid=2173313",
+    "sourceHash": "sha256:26d1ebc277b234ff9763be391501da97f98dcad92e8cd99aa45024a97f7c2206"
+  },
+  "mapping": {
+    "sourceHash": "sha256:26d1ebc277b234ff9763be391501da97f98dcad92e8cd99aa45024a97f7c2206",
+    "mappedOn": null,
+    "summary": "Corrects rounding issues on fixed asset ledger entries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-fa-depreciation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-fa-register"
+    ],
+    "claims": [
+      "Rounds depreciation and acquisition amounts in FA ledger entries to whole numbers"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nb",
+      "nl",
+      "ru",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

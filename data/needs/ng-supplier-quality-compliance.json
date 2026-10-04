@@ -1,0 +1,239 @@
+{
+  "id": "ng-supplier-quality-compliance",
+  "order": 8,
+  "label": "Rating suppliers and tracking their compliance",
+  "description": "Supplier scorecards, delivery performance, certificates, risk and dependency on critical suppliers.",
+  "type": "bpc",
+  "area": "Purchasing & payables",
+  "relevance": "medium",
+  "statements": [
+    "Rating suppliers and tracking their compliance",
+    "Supplier scorecards, delivery performance, certificates, risk and dependency on critical suppliers.",
+    "We want a supplier scorecard that combines on-time delivery, quality and price into one rating",
+    "supplier rating app",
+    "Our quality team logs rejected supplier deliveries in Excel and purchasing never sees it",
+    "We want our warehouse and production people to rate each supplier every quarter",
+    "Vendor price creep should count against the supplier in our yearly review",
+    "For our annual supplier review meetings we spend days preparing a scorecard for each vendor",
+    "Complaints and returns per supplier should feed into the supplier's rating",
+    "We want to warn buyers when they pick a supplier with a poor rating",
+    "How do we decide which suppliers to keep and which to replace? We have no structured evaluation",
+    "Supplier recalls and quality failures should lower the vendor's score automatically",
+    "We need to give underperforming suppliers an improvement plan and track whether they get better",
+    "Can BC tell me if a supplier has the capacity to deliver what we need from them next quarter?",
+    "Is there a report in BC that shows on-time delivery percentage per vendor?",
+    "open purchase orders overview report",
+    "We have hundreds of open purchase orders and no clear view of what is overdue from which supplier",
+    "Our buyer wants a dashboard of promised vs actual receipt dates per supplier",
+    "vendor statistics report BC",
+    "How do I see real average lead time per vendor based on actual receipts, not the item card?",
+    "Management wants a monthly KPI pack on supplier delivery and short shipments",
+    "Our vendor delivery accuracy numbers are built by hand in Excel from posted receipt lines",
+    "How often does each vendor ship partial quantities?",
+    "OTIF report per supplier",
+    "Which suppliers have the most open order lines past the expected receipt date?",
+    "Show me how much we bought last quarter from vendors whose certificates had lapsed",
+    "We need to know when a supplier's ISO certificate or insurance expires",
+    "Supplier certificates are PDFs in a shared folder and nobody checks the dates",
+    "Validate vendor VAT numbers automatically",
+    "We must not buy from a vendor whose food safety certificate has lapsed. Can BC block that?",
+    "1099 reporting for vendors",
+    "Year end 1099s are painful because half our vendors have no TIN on file",
+    "Is there an app that reminds suppliers to upload a renewed certificate?",
+    "Our customers ask for proof that our suppliers are certified and we can't produce it quickly",
+    "Auditors want to see which suppliers had valid certificates when we bought from them",
+    "Track subcontractor insurance and licenses before they start work on a job",
+    "How do I check a vendor's VAT number is still valid before we post a reverse charge purchase invoice?",
+    "We collect W-9 forms from vendors by email and lose track of who has sent one",
+    "We want a risk profile on each key supplier covering finances, country and how dependent we are on them",
+    "Is there a way to get credit ratings or bankruptcy alerts on our suppliers inside BC?",
+    "supplier risk assessment",
+    "We need to check our vendors against sanctions lists regularly, not just once",
+    "Under the new supply chain due diligence rules we must assess human rights risk in our supplier base",
+    "Flag high risk vendors so buyers think twice before ordering from them",
+    "Too many critical purchased components come from one single supplier and nobody has an overview",
+    "Alert me when someone places a purchase order with a vendor that was created yesterday",
+    "procurement risk dashboard",
+    "Which of our key purchased components depend on suppliers in one country?",
+    "Auditors asked how we detect fraud in purchasing and we have nothing to show",
+    "A buyer ordered from the same small vendor for two years at inflated prices and nobody noticed"
+  ],
+  "questions": [
+    {
+      "id": "focus",
+      "text": "What do you mainly want to keep an eye on with suppliers?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Delivery performance (on time, in full)",
+          "patterns": [
+            "on[- ]time",
+            "delivery (reliab|time|accura|perform|date)",
+            "delayed",
+            "in full",
+            "difot",
+            "quantity (reliab|deviation)",
+            "over[/ ]?under",
+            "date deviation",
+            "partial deliver"
+          ]
+        },
+        {
+          "label": "Product quality and complaints",
+          "patterns": [
+            "quality",
+            "complaint",
+            "inspection"
+          ]
+        },
+        {
+          "label": "Certificates and compliance documents",
+          "patterns": [
+            "certif",
+            "compliance doc",
+            "declaration",
+            "\\bcsr\\b"
+          ]
+        },
+        {
+          "label": "Sanctions and reputational risk",
+          "patterns": [
+            "sanction",
+            "sentiment",
+            "financial stability",
+            "embargo",
+            "ofac"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Delivery performance (on time, in full)": 0.35,
+        "Product quality and complaints": 0.35,
+        "Certificates and compliance documents": 0.22,
+        "Sanctions and reputational risk": 0.17
+      }
+    },
+    {
+      "id": "method",
+      "text": "How should suppliers be scored?",
+      "help": "Automatic scores come from receipts and invoices; manual scores from your own judgement.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Automatically from purchase data",
+          "patterns": [
+            "automatic(ally)? (delivery|record|rating|rate|calculat|average)",
+            "purchasing process data",
+            "posted purchase receipts",
+            "quantitative",
+            "received vs ordered",
+            "creates a job to run analysis",
+            "automatic and manual rating",
+            "periodic analysis",
+            "per delivery line",
+            "rates on-time",
+            "tracks over, delayed"
+          ]
+        },
+        {
+          "label": "Own criteria, audits and manual ratings",
+          "patterns": [
+            "soft criteria",
+            "qualitative",
+            "manual (rating|qualitative|criteria)",
+            "audit",
+            "visit report",
+            "self-assessment",
+            "user evaluation",
+            "own scoring",
+            "freely definable",
+            "unlimited criteria",
+            "stars"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Automatically from purchase data": 0.48,
+        "Own criteria, audits and manual ratings": 0.35
+      }
+    },
+    {
+      "id": "detail",
+      "text": "How detailed should supplier scoring be?",
+      "options": [
+        {
+          "label": "Weighted criteria and A/B/C classes",
+          "patterns": [
+            "weight",
+            "\\babc\\b|a/b/c|a-e class",
+            "(supplier|vendor|abc) classification",
+            "point system",
+            "scoring matrix"
+          ]
+        },
+        {
+          "label": "A simple score or star rating",
+          "patterns": [
+            "stars",
+            "score from 1",
+            "good, average or poor"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Weighted criteria and A/B/C classes": 0.26,
+        "A simple score or star rating": 0.13
+      }
+    },
+    {
+      "id": "block",
+      "text": "Should BC stop you buying from suppliers that fail a check?",
+      "help": "For example an expired certificate or a sanctions hit.",
+      "options": [
+        {
+          "label": "Yes, block or warn on documents",
+          "patterns": [
+            "block",
+            "restrict vendors",
+            "prevents? order",
+            "approval status checks",
+            "only valid certificates",
+            "notifications in purchase",
+            "approved supplier",
+            "warehouse notified"
+          ]
+        },
+        {
+          "label": "No, reports and dashboards are enough",
+          "patterns": [
+            "\\breport",
+            "dashboard",
+            "analysis",
+            "ai summary"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, block or warn on documents": 0.3,
+        "No, reports and dashboards are enough": 0.35
+      }
+    }
+  ]
+}

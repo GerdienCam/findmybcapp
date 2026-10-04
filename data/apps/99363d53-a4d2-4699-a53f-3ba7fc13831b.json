@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_projectbilligandcontrol|PAPPID.99363d53-a4d2-4699-a53f-3ba7fc13831b",
+  "guid": "99363d53-a4d2-4699-a53f-3ba7fc13831b",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_projectbilligandcontrol",
+  "source": {
+    "name": "Project Billing & Control",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_projectbilligandcontrol%7CPAPPID.99363d53-a4d2-4699-a53f-3ba7fc13831b",
+    "lastModified": "2026-10-01T15:37:05.9815913+00:00",
+    "appVersion": "26.2610.0.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.nubetech.it/en_US/project-billing-control/project-billing-and-control",
+    "sourceHash": "sha256:3cb211bcdc89e054ef3f8b282412ab5aac9f950e694894e495c3c52627a13923"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3cb211bcdc89e054ef3f8b282412ab5aac9f950e694894e495c3c52627a13923",
+    "mappedOn": null,
+    "summary": "Project billing, budgets and cost breakdown",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-billing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-budget",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-status-reporting"
+    ],
+    "claims": [
+      "Creates project master data from the customer sales order",
+      "Project budgets with Cost Breakdown Structure analysis",
+      "Compares estimated budget, revisions, POs, accrued invoices and actual costs",
+      "Tracks project production progress for materials and labor",
+      "Monitors invoiced revenue",
+      "Shipments via sales orders, optionally non-billable",
+      "Billing plan with advance payments, milestone billing, retention guarantees, final billing and credit notes"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

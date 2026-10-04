@@ -1,0 +1,99 @@
+{
+  "appId": "PUBID.foodware365|AID.dropshipment|PAPPID.8d2d9af1-07db-4376-856c-26f8eaafaaf0",
+  "guid": "8d2d9af1-07db-4376-856c-26f8eaafaaf0",
+  "publisherId": "foodware365",
+  "offerId": "dropshipment",
+  "source": {
+    "name": "Aptean Drop Shipment for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.dropshipment%7CPAPPID.8d2d9af1-07db-4376-856c-26f8eaafaaf0",
+    "lastModified": "2026-06-24T04:34:49.8605175+00:00",
+    "appVersion": "2504.4.327053.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/DRP/",
+    "sourceHash": "sha256:e305f3c5f2cf32aa11914a087df6fc40533616e24941093e9113fce882e74144"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e305f3c5f2cf32aa11914a087df6fc40533616e24941093e9113fce882e74144",
+    "mappedOn": null,
+    "summary": "Automates drop shipment processing for food and beverage",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Drop shipment locations tied to vendors",
+      "Auto-marks sales lines for drop shipment by location or SKU default vendor",
+      "Create one or more purchase orders for drop shipment from a sales order",
+      "Synchronizes quantities, dates and item tracking between sales and purchase lines",
+      "Post drop shipment purchase invoice before sales invoice",
+      "One-click undo of drop shipment invoice and shipment"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

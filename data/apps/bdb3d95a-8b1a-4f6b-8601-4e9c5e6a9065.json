@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_inv_purch_rcpt_w_material_pr|PAPPID.bdb3d95a-8b1a-4f6b-8601-4e9c5e6a9065",
+  "guid": "bdb3d95a-8b1a-4f6b-8601-4e9c5e6a9065",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_inv_purch_rcpt_w_material_pr",
+  "source": {
+    "name": "m+m Invoice Purchase Receipt with Material Properties",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_inv_purch_rcpt_w_material_pr%7CPAPPID.bdb3d95a-8b1a-4f6b-8601-4e9c5e6a9065",
+    "lastModified": "2026-08-11T09:01:33.5880934+00:00",
+    "appVersion": "28.0.373559.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:d62ce8dadba7b4b2c9ed248157025bba11adce51045b38f0b6e13059edc53447"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d62ce8dadba7b4b2c9ed248157025bba11adce51045b38f0b6e13059edc53447",
+    "mappedOn": null,
+    "summary": "Material property fields on purchase receipts",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Material properties fields on purchase receipt lines for filtering and reporting",
+      "Supported BC editions as stated"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Invoice Purchase Receipt",
+      "m+m Material Properties"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

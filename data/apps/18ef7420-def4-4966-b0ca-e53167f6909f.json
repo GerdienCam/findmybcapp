@@ -1,0 +1,92 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-file-manager|PAPPID.18ef7420-def4-4966-b0ca-e53167f6909f",
+  "guid": "18ef7420-def4-4966-b0ca-e53167f6909f",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-file-manager",
+  "source": {
+    "name": "BeyondFileManager",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-file-manager%7CPAPPID.18ef7420-def4-4966-b0ca-e53167f6909f",
+    "lastModified": "2026-09-08T07:12:05.6822516+00:00",
+    "appVersion": "2026.9.146.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/apps/index.html",
+    "sourceHash": "sha256:d139b507b76e344c8d1729db7a0ef18b2b8709583a235d8f96a34c1413398abe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d139b507b76e344c8d1729db7a0ef18b2b8709583a235d8f96a34c1413398abe",
+    "mappedOn": null,
+    "summary": "Stores and manages BC files in cloud storage",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Stores BC-linked files in Azure Files, Azure Blob Storage or SharePoint Online",
+      "Bidirectional: files uploaded in external storage visible instantly in BC",
+      "Offloads attachments from the BC database",
+      "One-click upload and open from the record",
+      "Version history and access permissions",
+      "Configurable storage rules per document type",
+      "Scheduled report archiving via job queue",
+      "Interface structure extensible with new entity implementations",
+      "Prebuilt integrations for purchase/sales documents, customers, vendors, items, resources, service items, employees, fixed assets",
+      "Attachments transfer from unposted to posted documents"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint Online",
+      "Azure Blob Storage",
+      "Azure Files"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

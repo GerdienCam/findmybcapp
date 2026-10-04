@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.cetas_information_tech|AID.pdc_manager|PAPPID.7f3ee8df-c7fc-4cff-a51d-8792f4411918",
+  "guid": "7f3ee8df-c7fc-4cff-a51d-8792f4411918",
+  "publisherId": "cetas_information_tech",
+  "offerId": "pdc_manager",
+  "source": {
+    "name": "NB PDC Manager",
+    "publisher": "Cetas Information Technology",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cetas_information_tech%7CAID.pdc_manager%7CPAPPID.7f3ee8df-c7fc-4cff-a51d-8792f4411918",
+    "lastModified": "2026-07-22T19:30:55.3436983+00:00",
+    "appVersion": "28.0.4.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://cetastech.com/add-ons/add-ons-support/#nbpdcmanager",
+    "sourceHash": "sha256:c1f26411e3c4b23a6ce08c53f1c5c58d8bdb1d1e0b81492a7d3f93e8b2867847"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c1f26411e3c4b23a6ce08c53f1c5c58d8bdb1d1e0b81492a7d3f93e8b2867847",
+    "mappedOn": null,
+    "summary": "Manages post-dated cheques for posting on cheque date",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Creates PDC entries now and posts on cheque date",
+      "Handles future customer and vendor payments",
+      "Pre-schedules PDC payments",
+      "Mobile notifications",
+      "Also available for Dynamics NAV"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

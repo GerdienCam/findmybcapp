@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.ienigma|AID.docbridgeforsharepoint|PAPPID.2348c4a5-1a1e-43e6-ad61-0967153ea513",
+  "guid": "2348c4a5-1a1e-43e6-ad61-0967153ea513",
+  "publisherId": "ienigma",
+  "offerId": "docbridgeforsharepoint",
+  "source": {
+    "name": "DocBridge - For SharePoint",
+    "publisher": "iEnigma Technologies",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ienigma%7CAID.docbridgeforsharepoint%7CPAPPID.2348c4a5-1a1e-43e6-ad61-0967153ea513",
+    "lastModified": "2025-09-08T13:30:18.8411389+00:00",
+    "appVersion": "2025.9.0.3",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://ienigmatech.in/",
+    "sourceHash": "sha256:abd8d93d812605d58f996a3fc3e262898bd0690ef58fefebd75f0199a7dc6a7d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:abd8d93d812605d58f996a3fc3e262898bd0690ef58fefebd75f0199a7dc6a7d",
+    "mappedOn": null,
+    "summary": "Moves BC attachments to SharePoint",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Moves attachments from BLOB storage to SharePoint",
+      "Direct uploads with automatic folder organization and real-time sync",
+      "Works on all pages supporting standard Document Attachment",
+      "Dynamic folder structures based on record data",
+      "Table-specific setups",
+      "One-click migration of blob files to SharePoint",
+      "Plan for organizations with minimum 15 users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

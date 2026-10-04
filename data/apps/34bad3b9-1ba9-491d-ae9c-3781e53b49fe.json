@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.ls_retail|AID.self_checkout_connector|PAPPID.34bad3b9-1ba9-491d-ae9c-3781e53b49fe",
+  "guid": "34bad3b9-1ba9-491d-ae9c-3781e53b49fe",
+  "publisherId": "ls_retail",
+  "offerId": "self_checkout_connector",
+  "source": {
+    "name": "Self-Checkout Connector for LS Central",
+    "publisher": "LS Retail",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.self_checkout_connector%7CPAPPID.34bad3b9-1ba9-491d-ae9c-3781e53b49fe",
+    "lastModified": "2026-08-26T02:35:56.0164603+00:00",
+    "appVersion": "28.2.1.4036",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.lscentral.lsretail.com/",
+    "sourceHash": "sha256:873ed6436835c7fcd7d6d81cee3e68b66156c4d9b0fbeaca4cffd208a03bc0f0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:873ed6436835c7fcd7d6d81cee3e68b66156c4d9b0fbeaca4cffd208a03bc0f0",
+    "mappedOn": null,
+    "summary": "Connects LS Central with self-checkout hardware",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Connects LS Central to Diebold-Nixdorf self-checkout hardware",
+      "Sell items by barcode, item ID, quantity or weight at self-checkout",
+      "Void items via attendant menu",
+      "Calculates discounts during checkout",
+      "Age limitations on specific items",
+      "Accepts card payments and prints or emails receipts"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Diebold-Nixdorf"
+    ],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

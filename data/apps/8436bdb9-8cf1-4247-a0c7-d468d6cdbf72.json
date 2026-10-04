@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.xtensionit|AID.xteshipshipmondo|PAPPID.8436bdb9-8cf1-4247-a0c7-d468d6cdbf72",
+  "guid": "8436bdb9-8cf1-4247-a0c7-d468d6cdbf72",
+  "publisherId": "xtensionit",
+  "offerId": "xteshipshipmondo",
+  "source": {
+    "name": "Shipmondo Connector by XtensionIT",
+    "publisher": "XtensionIT Aps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xteshipshipmondo%7CPAPPID.8436bdb9-8cf1-4247-a0c7-d468d6cdbf72",
+    "lastModified": "2026-09-30T07:56:11.537807+00:00",
+    "appVersion": "5.9.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.xtensionit.com/en/shipmentconnector/overview/",
+    "sourceHash": "sha256:0480bd39abeaa14a0a0eb2abf4688fb536459fbbb6db96e1969ef1628579fe97"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0480bd39abeaa14a0a0eb2abf4688fb536459fbbb6db96e1969ef1628579fe97",
+    "mappedOn": null,
+    "summary": "Books Shipmondo shipments, tracks parcels, handles customs",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Multi-carrier shipping directly from BC via Shipmondo",
+      "Waybill creation, label printing, track & trace and customs documents",
+      "Updates sales documents with parcel numbers and track & trace",
+      "Shipment status lookup from posted shipment for customer service",
+      "Real-time freight rate comparison",
+      "Automatic printing of shipping documents",
+      "Track & trace links for customers",
+      "Return handling and reverse logistics",
+      "Customs information for carriers",
+      "Extenders available for Dangerous Goods and Tasklet Mobile WMS"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "DK",
+      "FI",
+      "NL",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Shipmondo"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

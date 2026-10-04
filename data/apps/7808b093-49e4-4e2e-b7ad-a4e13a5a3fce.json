@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.tinx-it|AID.tinx-sparklayer-connector|PAPPID.7808b093-49e4-4e2e-b7ad-a4e13a5a3fce",
+  "guid": "7808b093-49e4-4e2e-b7ad-a4e13a5a3fce",
+  "publisherId": "tinx-it",
+  "offerId": "tinx-sparklayer-connector",
+  "source": {
+    "name": "Tinx SparkLayer Connector",
+    "publisher": "Tinx-IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-sparklayer-connector%7CPAPPID.7808b093-49e4-4e2e-b7ad-a4e13a5a3fce",
+    "lastModified": "2026-09-24T11:52:58.417888+00:00",
+    "appVersion": "28.1.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.tinx-it.com/",
+    "sourceHash": "sha256:2be2bedc541cc5566f0b4f3d9b926aa11b80dc61bd26ece57b3a2768bf693539"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2be2bedc541cc5566f0b4f3d9b926aa11b80dc61bd26ece57b3a2768bf693539",
+    "mappedOn": null,
+    "summary": "Integrates Shopify B2B webshop via SparkLayer",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Integrates a Shopify B2B webshop (SparkLayer) with BC",
+      "Turns Shopify into a B2B webshop",
+      "Customer-specific price agreements in the webshop",
+      "Customers have 24/7 access to their data",
+      "Automatic processing of online orders"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SparkLayer",
+      "Shopify"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

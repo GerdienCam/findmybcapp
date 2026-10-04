@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.bcsitera|AID.moderan|PAPPID.8caa012f-46e0-46ef-a78a-a036d19d58ce",
+  "guid": "8caa012f-46e0-46ef-a78a-a036d19d58ce",
+  "publisherId": "bcsitera",
+  "offerId": "moderan",
+  "source": {
+    "name": "Moderan Real Estate Portfolio Management",
+    "publisher": "DIGMATIX",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.moderan%7CPAPPID.8caa012f-46e0-46ef-a78a-a036d19d58ce",
+    "lastModified": "2026-09-15T08:13:31.7913983+00:00",
+    "appVersion": "26.0.26258.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.itera.ee/apps/moderan/docs/en-US/help",
+    "sourceHash": "sha256:105673d6456e58f7a6cd75220ea16a9402b9db8d9a9dffea04773cc07fdbd170"
+  },
+  "mapping": {
+    "sourceHash": "sha256:105673d6456e58f7a6cd75220ea16a9402b9db8d9a9dffea04773cc07fdbd170",
+    "mappedOn": null,
+    "summary": "Integrates Moderan lease and property management with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-property",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Links each property to its landlord company in BC",
+      "Syncs tenant data from Moderan to BC",
+      "Issues Moderan invoices and books financials in BC",
+      "Pushes the outstanding balance of a customer from BC over to Moderan",
+      "Moderan handles lease rent-roll and utilities calculations"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [
+      "Real estate"
+    ],
+    "connectsTo": [
+      "Moderan"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

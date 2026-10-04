@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.it_integro|AID.bc_apc_001|PAPPID.bc229fbe-9c00-11ed-a8fc-0242ac120002",
+  "guid": "bc229fbe-9c00-11ed-a8fc-0242ac120002",
+  "publisherId": "it_integro",
+  "offerId": "bc_apc_001",
+  "source": {
+    "name": "Advanced Product Configurator",
+    "publisher": "IT.integro sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.it_integro%7CAID.bc_apc_001%7CPAPPID.bc229fbe-9c00-11ed-a8fc-0242ac120002",
+    "lastModified": "2026-09-16T06:04:04.6453034+00:00",
+    "appVersion": "4.9.3.27002",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.it.integro.pl/en-us/AdvancedProductConfigurator/index.html",
+    "sourceHash": "sha256:4dc6cca5dea2f9ffc8057576fceb72684d46961f0a7c1a00e7b7c28e9a866feb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4dc6cca5dea2f9ffc8057576fceb72684d46961f0a7c1a00e7b7c28e9a866feb",
+    "mappedOn": null,
+    "summary": "Configures items, BOMs, routings and production orders from attributes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Creates items, variants or production orders on demand",
+      "Multiple attributes, values and dependencies",
+      "Automatic calculation of attribute values",
+      "Automatic compatibility check of attribute value combinations",
+      "Production and assembly BOM templates",
+      "Automatic creation of production routings",
+      "Automatic sales price calculation for a configuration",
+      "Auto-creates item numbers/variants, multilingual descriptions, extended texts and weight",
+      "For trading and manufacturing companies"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "pl"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

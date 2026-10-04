@@ -1,0 +1,103 @@
+{
+  "appId": "PUBID.pagero-4798327|AID.pagero|PAPPID.92b90d1d-ecde-4d26-a95b-1d57720e79c6",
+  "guid": "92b90d1d-ecde-4d26-a95b-1d57720e79c6",
+  "publisherId": "pagero-4798327",
+  "offerId": "pagero",
+  "source": {
+    "name": "ONESOURCE Pagero for D365 Business Central",
+    "publisher": "Pagero AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pagero-4798327%7CAID.pagero%7CPAPPID.92b90d1d-ecde-4d26-a95b-1d57720e79c6",
+    "lastModified": "2026-09-25T11:22:50.3515508+00:00",
+    "appVersion": "28.1.137.48279",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.thomsonreuters.com/en-us/help/pagero",
+    "sourceHash": "sha256:e43b692a7017ce065f3b2d0ceb95b2c811357956b0c3a6e7abaeb9c3631f9390"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e43b692a7017ce065f3b2d0ceb95b2c811357956b0c3a6e7abaeb9c3631f9390",
+    "mappedOn": null,
+    "summary": "Sends and receives compliant e-invoices in many countries",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-ux-email-sending",
+      "ng-ux-printing",
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Send customer invoices and invoice reminders",
+      "Receive and send Application Responses and receipts",
+      "Receive supplier invoices",
+      "Send Italian invoice report",
+      "PDF invoices via email and print distribution for AR",
+      "Data capture/OCR for AP",
+      "Reaches B2B and B2G e.g. Peppol, Chorus Pro, FACe",
+      "Integration with ExFlow workflow",
+      "Automatic format conversion to EU standards and customer-specific formats",
+      "Cloud archiving of invoices",
+      "Instant statuses in BC"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "IT",
+      "LT",
+      "LV",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "RO",
+      "SA",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "nb",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Pagero",
+      "Peppol",
+      "Chorus Pro",
+      "FACe",
+      "ExFlow"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

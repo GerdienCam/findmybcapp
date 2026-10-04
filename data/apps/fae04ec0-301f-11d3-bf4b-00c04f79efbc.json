@@ -1,0 +1,81 @@
+{
+  "appId": "PUBID.beck-consulting|AID.bcedi|PAPPID.fae04ec0-301f-11d3-bf4b-00c04f79efbc",
+  "guid": "fae04ec0-301f-11d3-bf4b-00c04f79efbc",
+  "publisherId": "beck-consulting",
+  "offerId": "bcedi",
+  "source": {
+    "name": "Aptean EDI",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beck-consulting%7CAID.bcedi%7CPAPPID.fae04ec0-301f-11d3-bf4b-00c04f79efbc",
+    "lastModified": "2026-09-29T10:54:44.0173709+00:00",
+    "appVersion": "2603.2.346040.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/edi/",
+    "sourceHash": "sha256:827e87d137fb6749ab13a1c32c0e6dc613c4f6eb3f03a0726eb7d372d9390211"
+  },
+  "mapping": {
+    "sourceHash": "sha256:827e87d137fb6749ab13a1c32c0e6dc613c4f6eb3f03a0726eb7d372d9390211",
+    "mappedOn": null,
+    "summary": "EDI exchange of orders, invoices with trading partners",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Creates orders automatically from EDI",
+      "Sends shipment notifications and invoices automatically on posting",
+      "Managed service incl. trading partner onboarding, testing and monitoring",
+      "Meets retailer EDI compliance standards",
+      "Single invoice, contract and point of contact",
+      "30-day free trial"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

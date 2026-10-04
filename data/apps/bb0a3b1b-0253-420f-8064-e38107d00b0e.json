@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.asqit|AID.general-journal-approvals|PAPPID.bb0a3b1b-0253-420f-8064-e38107d00b0e",
+  "guid": "bb0a3b1b-0253-420f-8064-e38107d00b0e",
+  "publisherId": "asqit",
+  "offerId": "general-journal-approvals",
+  "source": {
+    "name": "General Journal Approvals",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.general-journal-approvals%7CPAPPID.bb0a3b1b-0253-420f-8064-e38107d00b0e",
+    "lastModified": "2026-07-16T04:40:09.7814629+00:00",
+    "appVersion": "28.0.4.26071",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/approvalsuiteapps",
+    "sourceHash": "sha256:796a37d491a7c32e907128adea5472dbea7dbd1c7a8e497c79f56cff2e4e007f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:796a37d491a7c32e907128adea5472dbea7dbd1c7a8e497c79f56cff2e4e007f",
+    "mappedOn": null,
+    "summary": "Approval limits on general and recurring general journals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-journals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Recurring general journal batch approval before posting",
+      "Approval hierarchy based on journal value",
+      "Find approvals from G/L entries and registers for audit",
+      "Approval status on FA G/L, recurring and project G/L journals"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

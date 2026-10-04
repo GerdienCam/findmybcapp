@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.nav24spzoo1579516366010|AID.n24_smssender|PAPPID.a7b8c9d0-e1f2-4a5b-8c9d-0e1f2a3b4c5d",
+  "guid": "a7b8c9d0-e1f2-4a5b-8c9d-0e1f2a3b4c5d",
+  "publisherId": "nav24spzoo1579516366010",
+  "offerId": "n24_smssender",
+  "source": {
+    "name": "N24 SMS Sender",
+    "publisher": "Nav24 Sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nav24spzoo1579516366010%7CAID.n24_smssender%7CPAPPID.a7b8c9d0-e1f2-4a5b-8c9d-0e1f2a3b4c5d",
+    "lastModified": "2026-04-21T07:55:33.5873014+00:00",
+    "appVersion": "26.1.1.8",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.nav24.pl/en-US/SMS-Sender",
+    "sourceHash": "sha256:b9b11f68b34b14ed75f0e2ddb9b9392b5e01d79676d18de236570002c6a2389a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b9b11f68b34b14ed75f0e2ddb9b9392b5e01d79676d18de236570002c6a2389a",
+    "mappedOn": null,
+    "summary": "Sends automated SMS notifications to customers",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-collections"
+    ],
+    "claims": [
+      "Integrates with smsapi.com for SMS delivery",
+      "Send SMS from customer, vendor and contact cards",
+      "Template-based SMS messaging with business area categorization",
+      "Real-time delivery status tracking and logging",
+      "SMS from sales quotes, orders, invoices and shipments",
+      "Service management SMS notifications",
+      "Test mode with simulation and test number redirection",
+      "Multi-language templates",
+      "Customizable SMS sender name",
+      "Permission-based access to SMS functionality"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "smsapi.com"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

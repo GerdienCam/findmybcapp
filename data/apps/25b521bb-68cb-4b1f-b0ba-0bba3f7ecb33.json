@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.nvisioncommercesolutions|AID.commerce365-easypost|PAPPID.25b521bb-68cb-4b1f-b0ba-0bba3f7ecb33",
+  "guid": "25b521bb-68cb-4b1f-b0ba-0bba3f7ecb33",
+  "publisherId": "nvisioncommercesolutions",
+  "offerId": "commerce365-easypost",
+  "source": {
+    "name": "Commerce 365 for EasyPost",
+    "publisher": "NVision Commerce Solutions B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nvisioncommercesolutions%7CAID.commerce365-easypost%7CPAPPID.25b521bb-68cb-4b1f-b0ba-0bba3f7ecb33",
+    "lastModified": "2026-04-21T23:05:50.5912674+00:00",
+    "appVersion": "101.0.74.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nvision.freshdesk.com/support/solutions/80000459352",
+    "sourceHash": "sha256:c1db02b56f3b9f9e3f64993c0ad30b3e3f5f7782b3f6070bc6b3ba1f0fc3b265"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c1db02b56f3b9f9e3f64993c0ad30b3e3f5f7782b3f6070bc6b3ba1f0fc3b265",
+    "mappedOn": null,
+    "summary": "Ships via 100+ carriers using EasyPost",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "Connects 100+ carriers via EasyPost",
+      "Creates shipments automatically on sales post",
+      "Batch processing for high volume",
+      "Rate shopping manually or automatically",
+      "Tracking and delivery status on orders and shipments",
+      "Prints labels to local printers with cloud printing",
+      "Address verification API",
+      "Use own carrier contracts or EasyPost negotiated rates",
+      "Tracking links in Magento and ChannelEngine integration",
+      "Book shipment and print label from handheld with Tasklet Mobile WMS"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "EasyPost",
+      "USPS",
+      "UPS",
+      "FedEx",
+      "DHL",
+      "Magento",
+      "ChannelEngine",
+      "Tasklet Factory Mobile WMS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

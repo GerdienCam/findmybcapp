@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.wisefish1707821097531|AID.wisefishtrading|PAPPID.db6a04c0-6173-48de-b286-f9710e513da4",
+  "guid": "db6a04c0-6173-48de-b286-f9710e513da4",
+  "publisherId": "wisefish1707821097531",
+  "offerId": "wisefishtrading",
+  "source": {
+    "name": "Wisefish Trading",
+    "publisher": "Wisefish",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wisefish1707821097531%7CAID.wisefishtrading%7CPAPPID.db6a04c0-6173-48de-b286-f9710e513da4",
+    "lastModified": "2026-02-18T16:41:18.7946888+00:00",
+    "appVersion": "24.1.20251002.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.wisefish.com/contact",
+    "sourceHash": "sha256:a327cd47985f95702985f25eb5349c6d9182b3d19e860b269406f5efd23e3449"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a327cd47985f95702985f25eb5349c6d9182b3d19e860b269406f5efd23e3449",
+    "mappedOn": null,
+    "summary": "Fresh fish buying and selling",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-seafood",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-order-allocation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Extends the Wisefish Trade solution",
+      "Demand reservation worksheet to record the day's sales demand",
+      "Bulk creation of multiple delivery agreements from sales lines",
+      "Supply reservation worksheet for raw material purchases",
+      "Bulk creation of multiple receipt agreements",
+      "Links inventory and supply to sales lines in a reservation worksheet",
+      "Works for fresh or frozen fish and many small sales"
+    ],
+    "countries": [
+      "DK",
+      "IS",
+      "NO",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [
+      "Seafood"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Wisefish Trade"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

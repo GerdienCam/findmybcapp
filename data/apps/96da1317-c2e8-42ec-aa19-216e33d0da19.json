@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.scapta|AID.50395b48-f7b6-4445-96df-6faaa8c96deb|PAPPID.96da1317-c2e8-42ec-aa19-216e33d0da19",
+  "guid": "96da1317-c2e8-42ec-aa19-216e33d0da19",
+  "publisherId": "scapta",
+  "offerId": "50395b48-f7b6-4445-96df-6faaa8c96deb",
+  "source": {
+    "name": "Scaptify",
+    "publisher": "Scapta",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.scapta%7CAID.50395b48-f7b6-4445-96df-6faaa8c96deb%7CPAPPID.96da1317-c2e8-42ec-aa19-216e33d0da19",
+    "lastModified": "2025-01-20T11:05:05.9313999+00:00",
+    "appVersion": "25.1.20250120.102047",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://scaptify.com/#User-guide",
+    "sourceHash": "sha256:c8eb215598642ecf32ed678ca23584dba6200cce71951fc0914ad37238a12a13"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c8eb215598642ecf32ed678ca23584dba6200cce71951fc0914ad37238a12a13",
+    "mappedOn": null,
+    "summary": "Connects Shopify store with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos"
+    ],
+    "claims": [
+      "Two-way sync of items, orders, stock and customers with Shopify",
+      "Control per shop which application leads",
+      "Direct sync without a converter tool",
+      "Shopify POS integration",
+      "Free version limited by number of orders"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Shopify"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.samadhan1595571675983|AID.plantmaintenance_samadhan|PAPPID.8f640625-a3c4-4b96-9cc0-51c21a3b55a4",
+  "guid": "8f640625-a3c4-4b96-9cc0-51c21a3b55a4",
+  "publisherId": "samadhan1595571675983",
+  "offerId": "plantmaintenance_samadhan",
+  "source": {
+    "name": "Plant and Maintenance Samadhan",
+    "publisher": "Samadhan",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.samadhan1595571675983%7CAID.plantmaintenance_samadhan%7CPAPPID.8f640625-a3c4-4b96-9cc0-51c21a3b55a4",
+    "lastModified": "2026-07-06T10:08:13.9370084+00:00",
+    "appVersion": "2024.5.1.175",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.samadhanindia.com/helpdesk-support",
+    "sourceHash": "sha256:e5d590958316b6cdce878d50641a25ed5be6047c8732e45c2e5dc411feb6629e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e5d590958316b6cdce878d50641a25ed5be6047c8732e45c2e5dc411feb6629e",
+    "mappedOn": null,
+    "summary": "Schedules and monitors plant and equipment maintenance",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-fa-register"
+    ],
+    "claims": [
+      "Equipment masters linked to fixed assets",
+      "Resource grouping",
+      "UID system for equipment and spare items",
+      "Duplicate spare item prevention",
+      "Preventive maintenance scheduling",
+      "Breakdown maintenance with repair history"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.iteffect|AID.dh_15_00_06_04|PAPPID.7143d51f-6c22-4ed2-94f4-8fb319a7f726",
+  "guid": "7143d51f-6c22-4ed2-94f4-8fb319a7f726",
+  "publisherId": "iteffect",
+  "offerId": "dh_15_00_06_04",
+  "source": {
+    "name": "IT-Effect Dokumenthåndtering",
+    "publisher": "IT-Effect A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.iteffect%7CAID.dh_15_00_06_04%7CPAPPID.7143d51f-6c22-4ed2-94f4-8fb319a7f726",
+    "lastModified": "2026-09-23T13:55:35.7825813+00:00",
+    "appVersion": "28.0.15.09",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.iteffect.dk/hjaelp-til-dokumenthaandtering/",
+    "sourceHash": "sha256:a34a1cc5819dceec27126bd6b31041cad0469b4983eecc800a7a7f23ebd7be60"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a34a1cc5819dceec27126bd6b31041cad0469b4983eecc800a7a7f23ebd7be60",
+    "mappedOn": null,
+    "summary": "Links BC projects to SharePoint folder structures",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-construction",
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "Creates SharePoint folder structure when a job is created in BC or ITE portal",
+      "Folder structure accessible from BC, Outlook or SharePoint",
+      "Merge new Word/Excel/PDF documents with job data",
+      "Outlook button archives emails to job folder",
+      "Archives pictures and video on the job",
+      "Jump from job to SharePoint folder"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint",
+      "Outlook"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

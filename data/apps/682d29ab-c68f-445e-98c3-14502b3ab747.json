@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_xeroconnect|PAPPID.682d29ab-c68f-445e-98c3-14502b3ab747",
+  "guid": "682d29ab-c68f-445e-98c3-14502b3ab747",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_xeroconnect",
+  "source": {
+    "name": "Fusion5 Xero Connection",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_xeroconnect%7CPAPPID.682d29ab-c68f-445e-98c3-14502b3ab747",
+    "lastModified": "2026-06-01T19:31:38.1670406+00:00",
+    "appVersion": "2700.6.20260602.23919",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/487292933/Xero+Connect",
+    "sourceHash": "sha256:fbdd9fb2f8defcb7cb5ad7dbb684d8401794d6666bed01d86f72aaee7ac2b7d4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fbdd9fb2f8defcb7cb5ad7dbb684d8401794d6666bed01d86f72aaee7ac2b7d4",
+    "mappedOn": null,
+    "summary": "Synchronizes records between BC and Xero",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Connects multiple Xero organisations via OAuth 2.0",
+      "Client credentials connection to a single Xero organisation",
+      "Syncs invoices, transactions and other financial data",
+      "Notifications for changes in Xero data"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Xero"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

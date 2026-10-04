@@ -1,0 +1,93 @@
+{
+  "appId": "PUBID.dynamic_commerce_gmbh|AID.dynamic_commerce_coupon_codes|PAPPID.a3ada364-2cc0-468b-94bb-226233f1bba2",
+  "guid": "a3ada364-2cc0-468b-94bb-226233f1bba2",
+  "publisherId": "dynamic_commerce_gmbh",
+  "offerId": "dynamic_commerce_coupon_codes",
+  "source": {
+    "name": "dynamic commerce Coupon Codes",
+    "publisher": "dc AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamic_commerce_gmbh%7CAID.dynamic_commerce_coupon_codes%7CPAPPID.a3ada364-2cc0-468b-94bb-226233f1bba2",
+    "lastModified": "2026-09-29T09:09:35.0503804+00:00",
+    "appVersion": "21.26.10.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.dc.ag/docs/en/bc-coupon-codes/user-guide/overview",
+    "sourceHash": "sha256:80fdb8063237b8ea3705a32dd9d697fbeacf01d4d4f07286e0cc90c85c38aa9e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:80fdb8063237b8ea3705a32dd9d697fbeacf01d4d4f07286e0cc90c85c38aa9e",
+    "mappedOn": null,
+    "summary": "Creates and manages discount coupon codes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-mkt-campaigns",
+      "ng-customer-rebates"
+    ],
+    "claims": [
+      "Coupon code management inside BC",
+      "Coupon codes work on sales orders and quotes",
+      "Manual creation or automatic generation of codes",
+      "Start and expiration dates",
+      "Minimum order value for redemption",
+      "Limit maximum number of redemptions",
+      "Fixed amount and percentage discounts",
+      "Bundle deals such as buy one get one free",
+      "Multi-use marketing codes and fixed-value codes over multiple purchases",
+      "Cloud and on-premises versions; NAV 2016-2018 on request"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

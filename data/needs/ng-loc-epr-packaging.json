@@ -1,0 +1,213 @@
+{
+  "id": "ng-loc-epr-packaging",
+  "order": 201,
+  "label": "Packaging and producer responsibility (EPR) reporting",
+  "description": "Recording packaging and product data and reporting or invoicing extended producer responsibility fees (packaging, single-use plastics, WEEE, batteries), PPWR declarations and environmental taxes.",
+  "type": "localization",
+  "area": "Country requirements",
+  "relevance": "medium",
+  "statements": [
+    "Packaging and producer responsibility (EPR) reporting",
+    "Recording packaging and product data and reporting or invoicing extended producer responsibility fees (packaging, single-use plastics, WEEE, batteries), PPWR declarations and environmental taxes.",
+    "We have to report packaging weights for the new EPR scheme",
+    "extended producer responsibility packaging BC",
+    "Nobody knows how much plastic is in each of our products",
+    "EPR fees must be shown on our invoices",
+    "PPWR is coming and our packaging data is in Excel",
+    "WEEE and battery reporting for the products we import",
+    "Single-use plastics reporting per country",
+    "Packaging data per item: cardboard, plastic, wood",
+    "Monthly packaging report to the producer responsibility organisation",
+    "Environmental taxes on substances we sell",
+    "EPR registration in several EU countries at once",
+    "How do we calculate packaging fees from sales?"
+  ],
+  "questions": [
+    {
+      "id": "scheme",
+      "text": "Which producer responsibility do you have?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Packaging",
+          "patterns": [
+            "packag"
+          ]
+        },
+        {
+          "label": "Electronics (WEEE)",
+          "patterns": [
+            "weee",
+            "electr",
+            "recupel"
+          ]
+        },
+        {
+          "label": "Batteries",
+          "patterns": [
+            "batter",
+            "bebat"
+          ]
+        },
+        {
+          "label": "Single-use plastics",
+          "patterns": [
+            "single-use"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Packaging": 0.76,
+        "Electronics (WEEE)": 0.24,
+        "Batteries": 0.24,
+        "Single-use plastics": 0.06
+      }
+    },
+    {
+      "id": "output",
+      "text": "What do you need to produce?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Reports to authority or scheme",
+          "patterns": [
+            "reporting",
+            "declaration",
+            "submi",
+            "authority",
+            "reports? (expected|packaging|data)",
+            "settlement"
+          ]
+        },
+        {
+          "label": "Fees on customer invoices",
+          "patterns": [
+            "invoic",
+            "billing",
+            "levies",
+            "contribution",
+            "surtax"
+          ]
+        },
+        {
+          "label": "PPWR compliance documents",
+          "patterns": [
+            "ppwr",
+            "conformity"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Reports to authority or scheme": 0.71,
+        "Fees on customer invoices": 0.41,
+        "PPWR compliance documents": 0.18
+      }
+    },
+    {
+      "id": "capture",
+      "text": "How should packaging data be collected?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Automatically from sales and shipments",
+          "patterns": [
+            "each sale",
+            "based on sales",
+            "per sale",
+            "on shipments",
+            "automatic(ally)? (calculat|collect|logs|insert)",
+            "shipment posting",
+            "item ledger entries"
+          ]
+        },
+        {
+          "label": "Entered on items, I run the totals",
+          "patterns": [
+            "per item",
+            "on items",
+            "per unit of measure",
+            "item-specific",
+            "per article"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Automatically from sales and shipments": 0.41,
+        "Entered on items, I run the totals": 0.35
+      }
+    },
+    {
+      "id": "submit",
+      "text": "How do you hand data to the scheme?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Direct electronic submission",
+          "patterns": [
+            "via api",
+            "submits? .*web services?",
+            "file for scrap",
+            "lucid"
+          ]
+        },
+        {
+          "label": "Excel or file export is fine",
+          "patterns": [
+            "excel",
+            "export"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Direct electronic submission": 0.24,
+        "Excel or file export is fine": 0.41
+      }
+    },
+    {
+      "id": "special",
+      "text": "Do any of these apply to you?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Returned goods or reusable packaging",
+          "patterns": [
+            "return",
+            "reusab"
+          ]
+        },
+        {
+          "label": "Some customers or suppliers are exempt or already paid",
+          "patterns": [
+            "exemption",
+            "already paid",
+            "exceptions"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Returned goods or reusable packaging": 0.24,
+        "Some customers or suppliers are exempt or already paid": 0.24
+      }
+    }
+  ]
+}

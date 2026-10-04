@@ -1,0 +1,253 @@
+{
+  "id": "ng-subscription-billing",
+  "order": 18,
+  "label": "Recurring billing for subscriptions and contracts",
+  "description": "Selling subscriptions, billing them periodically and spreading the revenue over the right periods.",
+  "type": "bpc",
+  "area": "Sales & receivables",
+  "relevance": "high",
+  "statements": [
+    "Recurring billing for subscriptions and contracts",
+    "Selling subscriptions, billing them periodically and spreading the revenue over the right periods.",
+    "We sell service plans and software subscriptions but BC only knows one-off sales orders",
+    "Want customers to subscribe to monthly deliveries of consumables",
+    "How do we keep track of which customers have which subscription and when it renews?",
+    "subscription contracts BC",
+    "Upgrading a customer from basic to premium mid-term is a mess of manual credit notes and new orders",
+    "We need to sell hardware plus a 3-year support subscription on one customer order",
+    "Our sales team can't see when customer contracts end so renewals get missed",
+    "Is there an app for managing customer contracts with recurring lines in Business Central?",
+    "Customers want to pause or cancel their subscription themselves on our website",
+    "coffee subscription webshop with recurring orders",
+    "We rent out equipment to customers monthly and track the contracts in Excel",
+    "Auto-renew customer agreements and notify them 60 days before",
+    "Every month we create the same 200 invoices for our service customers by hand",
+    "Is there a recurring billing app for Business Central?",
+    "We bill some customers quarterly in advance and others annually, it's chaos",
+    "usage based billing from meter readings",
+    "Customers start mid-month and we have to calculate the partial amount manually",
+    "Want to index all customer contract prices by CPI once a year",
+    "Standard recurring sales lines in BC aren't enough, we need contracts with start and end dates",
+    "We forgot to bill a customer for a year because their contract wasn't in the system",
+    "Rental equipment billed monthly to customers until it's returned",
+    "Need to invoice software licenses per user per month, and the user count changes",
+    "Combine all of a customer's subscriptions on one invoice",
+    "Billing run for subscriptions with direct debit collection",
+    "When a customer upgrades mid-period, we need to bill the difference automatically",
+    "Membership fees invoiced annually to our members",
+    "How do we bill the subscription and the one-off hardware sale on the same invoice?",
+    "Contract invoicing in BC",
+    "We need to send recurring invoices to customers on different dates depending on their contract",
+    "Service agreements with monthly fees plus extra charges for call-outs",
+    "Stop billing automatically when a customer's contract ends",
+    "SaaS billing from Stripe or Chargebee into BC",
+    "We invoice customers yearly upfront but need to recognize the revenue monthly",
+    "Deferred revenue schedules in BC for annual service contracts",
+    "Our accountant does revenue deferrals in Excel every month end",
+    "revenue recognition IFRS 15",
+    "We sell hardware with 3 years of support and need to split the revenue between them",
+    "How do I see how much deferred revenue is left on the balance sheet per customer contract?",
+    "Customer cancels a prepaid subscription halfway, how do we reverse the unearned revenue?",
+    "Auditors want proof our revenue is recognized when the service is delivered",
+    "Revenue for customer orders shipped but not yet invoiced at month end",
+    "Deferral templates in BC are too simple for our customer contracts",
+    "Need a waterfall of future revenue from contracts already invoiced",
+    "ASC 606 compliance for our SaaS sales"
+  ],
+  "questions": [
+    {
+      "id": "model",
+      "text": "What kind of recurring business do you bill?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Usage or consumption (meter readings, usage data)",
+          "patterns": [
+            "usage",
+            "consumption",
+            "meter",
+            "metered",
+            "\\bclicks\\b",
+            "iot data"
+          ]
+        },
+        {
+          "label": "Rental or leasing",
+          "patterns": [
+            "rental",
+            "\\brent",
+            "leas(e|es|ing)\\b"
+          ]
+        },
+        {
+          "label": "Software licenses or cloud resale (CSP, NCE)",
+          "patterns": [
+            "licen[cs]e",
+            "\\bcsp\\b",
+            "\\bnce\\b",
+            "resell",
+            "reseller",
+            "streamone",
+            "arrow"
+          ]
+        },
+        {
+          "label": "Memberships",
+          "patterns": [
+            "membership"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Usage or consumption (meter readings, usage data)": 0.16,
+        "Rental or leasing": 0.15,
+        "Software licenses or cloud resale (CSP, NCE)": 0.27,
+        "Memberships": 0.02
+      }
+    },
+    {
+      "id": "changes",
+      "text": "Do customers change subscriptions mid-term (upgrade, downgrade, add-ons)?",
+      "help": "If yes, you need proration and partial-period billing.",
+      "options": [
+        {
+          "label": "Yes, often",
+          "patterns": [
+            "upgrade",
+            "downgrade",
+            "prorat",
+            "pro-?rata",
+            "partial period",
+            "mid-(term|month)",
+            "add-ons",
+            "amend",
+            "quantity changes",
+            "catch-up billing",
+            "differential billing"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, often": 0.16
+      }
+    },
+    {
+      "id": "revrec",
+      "text": "Do you need to spread revenue over the contract period?",
+      "help": "Deferrals post revenue month by month instead of at invoicing.",
+      "options": [
+        {
+          "label": "Yes, simple deferrals",
+          "patterns": [
+            "deferr",
+            "accrual",
+            "periodi[sz]ation",
+            "revenue recognition",
+            "income recognition",
+            "deferred revenue"
+          ]
+        },
+        {
+          "label": "Yes, IFRS 15 / ASC 606 compliant",
+          "patterns": [
+            "ifrs ?15",
+            "asc ?606"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, simple deferrals": 0.16,
+        "Yes, IFRS 15 / ASC 606 compliant": 0.04
+      }
+    },
+    {
+      "id": "index",
+      "text": "Do you raise prices during contracts, e.g. by a price index (CPI)?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "price index",
+            "index-linked",
+            "indexing",
+            "indexed",
+            "\\bcpi\\b",
+            "price increase",
+            "price adjustment",
+            "price updates?\\b",
+            "auto-updates prices",
+            "refresh from bc price"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.15
+      }
+    },
+    {
+      "id": "purchase",
+      "text": "Do you also buy what you bill (supplier subscriptions or contracts)?",
+      "help": "E.g. you resell licenses or services and pay a vendor per period.",
+      "options": [
+        {
+          "label": "Yes, I need purchase side too",
+          "patterns": [
+            "purchase (contract|invoice|order|side|document)s?",
+            "vendor contract",
+            "contracts? for (customers and vendors|sales and purchases)",
+            "sales and purchase contract",
+            "supplier,? partner",
+            "buy-and-resell",
+            "payable and receivable",
+            "purchase/sales orders"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, I need purchase side too": 0.16
+      }
+    },
+    {
+      "id": "renew",
+      "text": "Should renewals and expiries be handled automatically?",
+      "options": [
+        {
+          "label": "Yes, auto-renew or renewal alerts",
+          "patterns": [
+            "renew",
+            "expir",
+            "notification"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, auto-renew or renewal alerts": 0.29
+      }
+    }
+  ]
+}

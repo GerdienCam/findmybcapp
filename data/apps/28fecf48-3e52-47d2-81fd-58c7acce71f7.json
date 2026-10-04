@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-adv-pricing-discount|PAPPID.28fecf48-3e52-47d2-81fd-58c7acce71f7",
+  "guid": "28fecf48-3e52-47d2-81fd-58c7acce71f7",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-adv-pricing-discount",
+  "source": {
+    "name": "Powerblox Advanced Pricing and Discounts",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-adv-pricing-discount%7CPAPPID.28fecf48-3e52-47d2-81fd-58c7acce71f7",
+    "lastModified": "2026-07-21T20:44:15.4039469+00:00",
+    "appVersion": "21.1.23.65989",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/advanced_pricing_discounts",
+    "sourceHash": "sha256:c0169c500a74fb9823ff58d5ad260c800571f0e036d18818ea9465ff2db5747e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c0169c500a74fb9823ff58d5ad260c800571f0e036d18818ea9465ff2db5747e",
+    "mappedOn": null,
+    "summary": "Advanced pricing and discounts for sales and purchases",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-pricing",
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Combines multiple discount percentages per line",
+      "Discounts by customer, customer group, item, item group or combinations",
+      "Supplementary discounts for promotions",
+      "Multiple discounts on sales and purchase documents",
+      "Volume-based discounts per item or category",
+      "Generates and delivers customer price summaries",
+      "Enforces order multiples and minimum order quantities",
+      "Converts sales quotes into price lists",
+      "Lets purchase and sales prices use different units of measure"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

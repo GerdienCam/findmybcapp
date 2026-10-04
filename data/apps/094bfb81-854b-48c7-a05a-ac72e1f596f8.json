@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.binarylabptyltd1739437691778|AID.bnlikhokhapaymentlinkoffer01|PAPPID.094bfb81-854b-48c7-a05a-ac72e1f596f8",
+  "guid": "094bfb81-854b-48c7-a05a-ac72e1f596f8",
+  "publisherId": "binarylabptyltd1739437691778",
+  "offerId": "bnlikhokhapaymentlinkoffer01",
+  "source": {
+    "name": "Ikhokha Payment Link",
+    "publisher": "Binary Lab (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binarylabptyltd1739437691778%7CAID.bnlikhokhapaymentlinkoffer01%7CPAPPID.094bfb81-854b-48c7-a05a-ac72e1f596f8",
+    "lastModified": "2026-01-19T08:54:23.5117659+00:00",
+    "appVersion": "2200.260105.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://binarylab.co.za/ikhokha-payment-link",
+    "sourceHash": "sha256:af8daf1479b8b630b29ce5018b9ea5bd7408ade90774b24ae96dfe6028a81541"
+  },
+  "mapping": {
+    "sourceHash": "sha256:af8daf1479b8b630b29ce5018b9ea5bd7408ade90774b24ae96dfe6028a81541",
+    "mappedOn": null,
+    "summary": "Adds iKhokha payment links to sales documents",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Generates payment links from sales quotes, orders or invoices",
+      "Embeds link in document as URL, QR code or both",
+      "Blocks posting of documents tied to transactions that are unpaid",
+      "Supports ZAR transactions only currently"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "iKhokha"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

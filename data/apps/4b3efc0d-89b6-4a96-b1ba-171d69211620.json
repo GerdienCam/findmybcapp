@@ -1,0 +1,72 @@
+{
+  "appId": "TYPE.connect|PUBID.maaztechnologies1645609327458|AID.intelligent_communications_manager_dynamics_365|PAPPID.4b3efc0d-89b6-4a96-b1ba-171d69211620",
+  "guid": "4b3efc0d-89b6-4a96-b1ba-171d69211620",
+  "publisherId": "maaztechnologies1645609327458",
+  "offerId": "intelligent_communications_manager_dynamics_365",
+  "source": {
+    "name": "Intelligent Communications Manager",
+    "publisher": "Maaz Technologies",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.maaztechnologies1645609327458%7CAID.intelligent_communications_manager_dynamics_365%7CPAPPID.4b3efc0d-89b6-4a96-b1ba-171d69211620",
+    "lastModified": "2026-08-04T22:07:00.8467089+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://maaztechnologies.com/contact-center-services/intelligent-communications-manager-for-microsoft/",
+    "sourceHash": "sha256:2cd509a79269d56dc3000a2eea72da17fb82a9f2dd13d4d4113a80ddff3390ea"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2cd509a79269d56dc3000a2eea72da17fb82a9f2dd13d4d4113a80ddff3390ea",
+    "mappedOn": null,
+    "summary": "AI omnichannel contact center chat linked to BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-case-intake",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-case-routing",
+      "ng-case-analytics"
+    ],
+    "claims": [
+      "Omnichannel chat across WhatsApp, Facebook, webchat, Twitter, email, SMS",
+      "Chatbot via Power Virtual Agents with handoff to live agent",
+      "Chat routing and queuing based on configurable parameters",
+      "Lets agents hold several conversations at once and send files",
+      "NLP responses in up to 40 languages",
+      "Real-time customer sentiment detection",
+      "Power BI dashboard for interaction analytics",
+      "Built for Microsoft Dynamics 365 CRM"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "WhatsApp",
+      "Facebook",
+      "Twitter",
+      "Power Virtual Agents",
+      "Power BI",
+      "Dynamics 365 CRM"
+    ],
+    "requires": [
+      "Microsoft Dynamics 365 CRM",
+      "Power Virtual Agents"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Built for Microsoft Dynamics 365 CRM / Customer Service, not Business Central",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.infobusinesssolutions|AID.fiscalization|PAPPID.0eeb8712-de3b-4a51-950c-39726a0c0af2",
+  "guid": "0eeb8712-de3b-4a51-950c-39726a0c0af2",
+  "publisherId": "infobusinesssolutions",
+  "offerId": "fiscalization",
+  "source": {
+    "name": "Albanian Fiscalization",
+    "publisher": "InfoSoft Business Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.infobusinesssolutions%7CAID.fiscalization%7CPAPPID.0eeb8712-de3b-4a51-950c-39726a0c0af2",
+    "lastModified": "2025-05-01T07:08:08.3407887+00:00",
+    "appVersion": "25.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.ibs-al.com/fiscalization.html",
+    "sourceHash": "sha256:7e6de7a446229d2a574c8e53c5c5bf51d1b4189acaebbb7232dd932a50aa626e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7e6de7a446229d2a574c8e53c5c5bf51d1b4189acaebbb7232dd932a50aa626e",
+    "mappedOn": null,
+    "summary": "Albanian fiscalization of invoices",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Registers and manages cash registers and their operations",
+      "Handles cash and non-cash sales, electronic and corrective invoices",
+      "Data exchange with the Albanian SelfCare portal",
+      "Document checks, multiple payment methods and warehouse transfers under fiscalization",
+      "Self-invoicing and reverse charge transactions",
+      "Get and change status of electronic invoices",
+      "Logs all fiscalization activities",
+      "Download and manage electronic invoices"
+    ],
+    "countries": [
+      "AL"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SelfCare portal"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

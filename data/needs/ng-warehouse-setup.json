@@ -1,0 +1,197 @@
+{
+  "id": "ng-warehouse-setup",
+  "order": 67,
+  "label": "Setting up warehouse flows, bins and rules",
+  "description": "Defining warehouse processes, layout of zones/bins and policies for storage, packaging and carriers.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "medium",
+  "statements": [
+    "Setting up warehouse flows, bins and rules",
+    "Defining warehouse processes, layout of zones/bins and policies for storage, packaging and carriers.",
+    "We switched on warehouse handling in BC and nobody can explain which documents we now need for receiving and shipping",
+    "Should we use inventory picks or warehouse shipments for a small warehouse with four people?",
+    "Our flow from receipt to shelf is different in each location and it is chaos",
+    "Is there an app that gives a simpler warehouse setup than the standard BC location settings?",
+    "We want one standard way of doing inbound, outbound and transfers across all three warehouses",
+    "how to set up directed put-away and pick in BC",
+    "Our consultant set up the warehouse flow years ago and now nobody dares change it",
+    "We need a replenishment flow that tops up the pick face from bulk storage automatically",
+    "Transfers between our warehouses use a different process than sales shipments and people get confused",
+    "Returned goods from customers go into the same flow as purchase receipts and we lose track of them",
+    "warehouse flow design small distributor",
+    "We are growing from one shelf room to a real warehouse and need to decide how goods should move through it in BC",
+    "We need to create a few thousand bin codes in BC and typing them one by one is impossible",
+    "Is there a visual map of the warehouse so we can see which bins are full and which are empty?",
+    "Our shelves have been rearranged but the bins in BC still show the old layout",
+    "How should we name aisles, racks and shelf levels so pickers can find things fast?",
+    "We want to separate cold storage, hazardous goods and normal racking into zones",
+    "bin layout warehouse map app",
+    "We are opening a second warehouse and need to set it up as a location in BC",
+    "Which items go in which bin is only in the warehouse manager's head",
+    "We want to set maximum capacity per bin so the system stops suggesting full shelves",
+    "Should our outside yard and the van stock be separate locations or bins?",
+    "Fast movers are at the back of the warehouse and slow movers near the dock",
+    "Is there an app to design warehouse layout and slotting for a BC warehouse?",
+    "We need to register our carriers and their services like express and economy in BC",
+    "Some items must never be stored on top shelves but the system keeps suggesting it",
+    "Where do we set up the box sizes and pallet types we use for packing?",
+    "dangerous goods storage restrictions per location",
+    "We want rules so frozen items can only be put in the freezer zone",
+    "Is there a way to record the volume and weight each shelf can hold?"
+  ],
+  "questions": [
+    {
+      "id": "units",
+      "text": "Do you track stock per pallet, box or container?",
+      "options": [
+        {
+          "label": "Yes, per pallet/box/container",
+          "patterns": [
+            "pallet",
+            "license plat",
+            "logistic(s)? unit",
+            "handling unit",
+            "container",
+            "load carrier",
+            "package"
+          ]
+        },
+        {
+          "label": "No, just per item and bin",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, per pallet/box/container": 0.62
+      }
+    },
+    {
+      "id": "sscc",
+      "text": "Do customers require SSCC / GS1 pallet labels?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "sscc",
+            "gs1",
+            "asn"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.15
+      }
+    },
+    {
+      "id": "picking",
+      "text": "What do you want to improve in picking?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Pick routes and rules",
+          "patterns": [
+            "pick(ing)? (route|path|rule|template)",
+            "shortest-path",
+            "split picks",
+            "picking template",
+            "pick rules",
+            "replenishment"
+          ]
+        },
+        {
+          "label": "Expiry / shelf life control",
+          "patterns": [
+            "shelf life",
+            "best-before",
+            "expir",
+            "lot"
+          ]
+        },
+        {
+          "label": "Automated storage (robots)",
+          "patterns": [
+            "autostore",
+            "port-controlled"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Pick routes and rules": 0.31,
+        "Expiry / shelf life control": 0.38,
+        "Automated storage (robots)": 0.08
+      }
+    },
+    {
+      "id": "scanning",
+      "text": "Will staff use handheld scanners?",
+      "options": [
+        {
+          "label": "Yes, mobile scanning",
+          "patterns": [
+            "scan",
+            "mobile",
+            "device"
+          ]
+        },
+        {
+          "label": "No, paper or desktop",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, mobile scanning": 0.23
+      }
+    },
+    {
+      "id": "overview",
+      "text": "Do you want visual overviews of the warehouse?",
+      "help": "Maps, heatmaps, occupancy.",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "visuali",
+            "heatmap",
+            "\\bmap\\b",
+            "3d",
+            "overview",
+            "topology",
+            "color-coded"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.31
+      }
+    }
+  ]
+}

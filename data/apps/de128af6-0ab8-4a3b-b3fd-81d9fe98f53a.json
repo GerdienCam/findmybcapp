@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex00914_advancedocumentreportingforcws|PAPPID.de128af6-0ab8-4a3b-b3fd-81d9fe98f53a",
+  "guid": "de128af6-0ab8-4a3b-b3fd-81d9fe98f53a",
+  "publisherId": "eos_solutions",
+  "offerId": "ex00914_advancedocumentreportingforcws",
+  "source": {
+    "name": "Advanced Document Reporting for Combined Warehouse",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex00914_advancedocumentreportingforcws%7CPAPPID.de128af6-0ab8-4a3b-b3fd-81d9fe98f53a",
+    "lastModified": "2026-04-10T13:39:16.0587679+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/advanced-document-reporting.html",
+    "sourceHash": "sha256:dee6b021d5d42fe9f8a046b06e21c367a50a3402fc27cadf54f3cb5c9a0c43f7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dee6b021d5d42fe9f8a046b06e21c367a50a3402fc27cadf54f3cb5c9a0c43f7",
+    "mappedOn": null,
+    "summary": "Uses ADR shipping documents in combined warehouse shipments",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sets the ADR shipment document as default report in Combine Warehouse Shipment",
+      "Free with subscriptions to EOS ADR and Combine Warehouse Shipment"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Advanced Document Reporting",
+      "EOS Combine Warehouse Shipment"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

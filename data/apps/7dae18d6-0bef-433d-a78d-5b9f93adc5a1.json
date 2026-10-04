@@ -1,0 +1,88 @@
+{
+  "appId": "PUBID.simplyd|AID.saas-isvsd-utbe|PAPPID.7dae18d6-0bef-433d-a78d-5b9f93adc5a1",
+  "guid": "7dae18d6-0bef-433d-a78d-5b9f93adc5a1",
+  "publisherId": "simplyd",
+  "offerId": "saas-isvsd-utbe",
+  "source": {
+    "name": "SD Billing Engine",
+    "publisher": "Simply Dynamics Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.saas-isvsd-utbe%7CPAPPID.7dae18d6-0bef-433d-a78d-5b9f93adc5a1",
+    "lastModified": "2026-07-03T11:11:16.8909468+00:00",
+    "appVersion": "8.0.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-billing-engine/",
+    "sourceHash": "sha256:c1ad21443d610b3c3f9e2e5ac211216285f7b1a2adf72b23eb87e6a6afff6767"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c1ad21443d610b3c3f9e2e5ac211216285f7b1a2adf72b23eb87e6a6afff6767",
+    "mappedOn": null,
+    "summary": "Billing of recurring contracts, activities and events",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Recurring fixed contract billing",
+      "Variable billing based on activity, usage or consumption",
+      "Contract price adjustment worksheet",
+      "Import activity billing lines, e.g. meter reads",
+      "Generate billing from item ledger and warehouse movements",
+      "Manual billing events for one-off charges",
+      "Pro-rata and differential billing",
+      "Flexible billing intervals",
+      "Consolidated or split billing as sales order or invoice",
+      "Full billing history audit trail"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "IE",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "NZ",
+      "PT",
+      "SE",
+      "TR",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

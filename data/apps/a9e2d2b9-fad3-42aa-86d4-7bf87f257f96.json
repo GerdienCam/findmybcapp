@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.dinitdk29915533|AID.dkk_purchase_suggestion|PAPPID.a9e2d2b9-fad3-42aa-86d4-7bf87f257f96",
+  "guid": "a9e2d2b9-fad3-42aa-86d4-7bf87f257f96",
+  "publisherId": "dinitdk29915533",
+  "offerId": "dkk_purchase_suggestion",
+  "source": {
+    "name": "DKK Purchase Suggestion",
+    "publisher": "dinIT.dk",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dinitdk29915533%7CAID.dkk_purchase_suggestion%7CPAPPID.a9e2d2b9-fad3-42aa-86d4-7bf87f257f96",
+    "lastModified": "2026-01-14T10:37:39.3731714+00:00",
+    "appVersion": "27.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.dinit.dk/index.html#kontakt",
+    "sourceHash": "sha256:e951c1dd874d006dc69f9598f4ede615bf4b9aa9263f1d3e550ab5ebbac7ce32"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e951c1dd874d006dc69f9598f4ede615bf4b9aa9263f1d3e550ab5ebbac7ce32",
+    "mappedOn": null,
+    "summary": "Purchase suggestions driven by demand",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Purchase proposals built from demand, planning data and stock levels",
+      "Extends the standard requisition worksheet",
+      "No complex setup"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

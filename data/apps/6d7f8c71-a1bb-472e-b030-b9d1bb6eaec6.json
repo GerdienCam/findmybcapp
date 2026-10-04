@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.insight-works|AID.6d7f8c71-a1bb-472e-b030-b9d1bb6eaec6|PAPPID.6d7f8c71-a1bb-472e-b030-b9d1bb6eaec6",
+  "guid": "6d7f8c71-a1bb-472e-b030-b9d1bb6eaec6",
+  "publisherId": "insight-works",
+  "offerId": "6d7f8c71-a1bb-472e-b030-b9d1bb6eaec6",
+  "source": {
+    "name": "Routing Analysis",
+    "publisher": "Insight Works",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.6d7f8c71-a1bb-472e-b030-b9d1bb6eaec6%7CPAPPID.6d7f8c71-a1bb-472e-b030-b9d1bb6eaec6",
+    "lastModified": "2026-08-20T15:39:51.6925677+00:00",
+    "appVersion": "3.10.9727.2",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://app.dmsiworks.com/routing-analysis/product-help/",
+    "sourceHash": "sha256:cb0ac4fb271e46b8ab2b56ab049fbd6f9fc20a00278e3d20b95ccdbdd66310ce"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cb0ac4fb271e46b8ab2b56ab049fbd6f9fc20a00278e3d20b95ccdbdd66310ce",
+    "mappedOn": null,
+    "summary": "Analyzes routing and production variance for costing accuracy",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-routings-workcenters",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-lean-production"
+    ],
+    "claims": [
+      "Compares actual vs expected operation times and production costs",
+      "Shows variances for subcontractor costs, components, and setup and run time",
+      "Standard deviation metrics for process variability",
+      "Edit setup, run, wait and move times from the analysis",
+      "Cost breakdown with sales margin",
+      "Filters on minimum average variance and standard deviation",
+      "Based on historical production orders",
+      "Requires Premium edition"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

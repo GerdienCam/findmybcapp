@@ -1,0 +1,251 @@
+{
+  "id": "ng-order-allocation",
+  "order": 13,
+  "label": "Reserving and sharing stock across customer orders",
+  "description": "Allocating available inventory to sales orders and prioritising scarce stock.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "high",
+  "statements": [
+    "Reserving and sharing stock across customer orders",
+    "Allocating available inventory to sales orders and prioritising scarce stock.",
+    "Stock promised to one customer gets shipped to another",
+    "How do we reserve stock automatically when a sales order is created?",
+    "When we're short, we want to split available stock fairly across customer orders",
+    "reservation of inventory for sales orders",
+    "Our VIP customers should get stock first when there's not enough for everyone",
+    "BC says the item is available but it's all already promised to other customer orders",
+    "Want to reserve incoming purchase order quantities for specific customer orders",
+    "Customer backorders are tracked by hand and we forget to ship when goods arrive",
+    "Need to allocate a specific lot or serial number to a customer order",
+    "Customers with the oldest order date should be served first automatically",
+    "Reservations in BC are too manual, is there an app for automatic allocation to sales orders?",
+    "Old reservations block stock for months on orders nobody is going to ship",
+    "Sales reps reserve stock 'just in case' and the warehouse can't ship real orders",
+    "When a container arrives we need to see which customer orders it should cover",
+    "Can we tell a customer exactly when their backordered items will be available?",
+    "Allocate stock by customer priority and order date",
+    "Customer wants product from a specific batch with a long expiry date",
+    "Auto-reserve for web orders so the webshop doesn't oversell",
+    "Ship partial or wait for the complete order, we need to decide that per customer",
+    "We want a screen to move reserved stock between customer orders when priorities change",
+    "When stock is short, who gets it first? Right now it is whoever shouts loudest",
+    "We want to split a limited delivery fairly across all customers who ordered",
+    "allocation rules by customer priority",
+    "Our webshop sells stock that the B2B team already promised to a key account",
+    "Is there an app to allocate incoming stock to backorders by priority in BC?",
+    "We want to ring-fence a quantity for our top customers each month",
+    "How do we divide a container across our three warehouses when it arrives",
+    "Fair share allocation when supply is less than demand",
+    "Allocate stock per sales channel: shops, webshop and wholesale",
+    "Backorders are filled in random order instead of by customer importance or order date",
+    "We want a quota per customer for a hot product so nobody hoards it",
+    "Retail stores each need a share of the new collection based on their sales",
+    "Stock we promised to one customer was picked for another order",
+    "How do we reserve specific lot numbers for a customer in BC?",
+    "We want to tie an incoming purchase order to a specific sales order",
+    "Reservations in BC are too manual for hundreds of lines",
+    "When stock is short we need to see which orders can be fully picked",
+    "auto reserve stock on release",
+    "Is there an app that allocates stock to orders by priority?",
+    "Stock is physically there but already reserved and nobody knows by whom",
+    "We need to reserve stock from a specific bin for a project",
+    "Our transfer orders and sales orders fight over the same stock",
+    "We want to allocate available stock across waiting orders first in, first out",
+    "Reservation entries are a mess and we cannot clean them up"
+  ],
+  "questions": [
+    {
+      "id": "priority",
+      "text": "When stock runs short, who should get it first?",
+      "help": "Pick the rules you use today.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Oldest orders first",
+          "patterns": [
+            "oldest",
+            "first-entered",
+            "order date",
+            "order number sequence"
+          ]
+        },
+        {
+          "label": "Most important customers",
+          "patterns": [
+            "customer priorit",
+            "priorit\\w* (most )?important customers",
+            "customer prioritization",
+            "priority on sales orders",
+            "order priority"
+          ]
+        },
+        {
+          "label": "Earliest delivery date",
+          "patterns": [
+            "by delivery date",
+            "promised delivery",
+            "requested date",
+            "ship today",
+            "later delivery date",
+            "promise dates?",
+            "on the delivery date"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Oldest orders first": 0.19,
+        "Most important customers": 0.15,
+        "Earliest delivery date": 0.27
+      }
+    },
+    {
+      "id": "incoming",
+      "text": "Should incoming purchase or production orders count as stock you can promise?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, reserve against incoming supply",
+          "patterns": [
+            "incoming",
+            "before receipt",
+            "planned receipts",
+            "expected supply",
+            "expected stock",
+            "against .*purchase order",
+            "lead time and purchase order",
+            "supply chang",
+            "arrival",
+            "replenishment planned"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, reserve against incoming supply": 0.31
+      }
+    },
+    {
+      "id": "locations",
+      "text": "Do you ship the same items from more than one warehouse or location?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, several locations",
+          "patterns": [
+            "multiple stores",
+            "across (all )?locations",
+            "fulfil+ment location",
+            "most suitable location",
+            "storage warehouse",
+            "cross-border",
+            "intercompany"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, several locations": 0.19
+      }
+    },
+    {
+      "id": "warehouse",
+      "text": "Should the app also create picks and warehouse shipments for the orders it releases?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, create picks/shipments",
+          "patterns": [
+            "creates? (and combines )?(warehouse|inventory picks|picks)",
+            "warehouse documents",
+            "auto-creates warehouse",
+            "pick worksheet",
+            "updates inventory picks",
+            "ship from sales orders",
+            "reservation at warehouse shipments"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, create picks/shipments": 0.35
+      }
+    },
+    {
+      "id": "visibility",
+      "text": "Do you mainly need to SEE which orders can ship, or to have stock reserved automatically?",
+      "multi": true,
+      "options": [
+        {
+          "label": "See status on the orders",
+          "patterns": [
+            "status code",
+            "signal",
+            "colou?r codes?",
+            "turn red",
+            "ready to ship",
+            "indicator",
+            "availability status",
+            "fulfillability",
+            "classifies orders",
+            "completely, partially",
+            "what can ship"
+          ]
+        },
+        {
+          "label": "Reserve automatically",
+          "patterns": [
+            "auto-?reserv",
+            "automatic(ally)? reserv",
+            "reserves? (stock|goods|inventory)",
+            "soft reservations",
+            "hard reservations",
+            "reservation quota",
+            "allocates sales orders"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "See status on the orders": 0.35,
+        "Reserve automatically": 0.42
+      }
+    },
+    {
+      "id": "backorders",
+      "text": "Do you regularly have backorders to manage?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, backorders are common",
+          "patterns": [
+            "back ?orders?"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, backorders are common": 0.19
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.kumavision|AID.additional_items|PAPPID.438488e9-a290-4add-84a4-2a9bba9420e0",
+  "guid": "438488e9-a290-4add-84a4-2a9bba9420e0",
+  "publisherId": "kumavision",
+  "offerId": "additional_items",
+  "source": {
+    "name": "Additional Items",
+    "publisher": "KUMAVISION AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.additional_items%7CPAPPID.438488e9-a290-4add-84a4-2a9bba9420e0",
+    "lastModified": "2026-08-28T11:00:39.8735884+00:00",
+    "appVersion": "28.4.475.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.kumavision.de/en/adi/",
+    "sourceHash": "sha256:bc155b0af50220ae887ec4d4fd603134ba2eb931d8210b39b9ada9be1cf41a2e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bc155b0af50220ae887ec4d4fd603134ba2eb931d8210b39b9ada9be1cf41a2e",
+    "mappedOn": null,
+    "summary": "Assigns additional items and cross-selling on documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-purchase-orders",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Shows necessary or recommended additional items when creating sales and purchase documents",
+      "Assign additional items, spare parts and services on the item card",
+      "Additional item can be mandatory or optional",
+      "Quantity as fixed or factor of main item with rounding",
+      "Automatically generates cross-selling references with minimum units",
+      "Free 30-day trial, then €365/year per environment"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

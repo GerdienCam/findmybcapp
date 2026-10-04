@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex035_bulkviewvatnumbercheck|PAPPID.c654a616-3645-4ade-a2f3-ecee8459524d",
+  "guid": "c654a616-3645-4ade-a2f3-ecee8459524d",
+  "publisherId": "eos_solutions",
+  "offerId": "ex035_bulkviewvatnumbercheck",
+  "source": {
+    "name": "Bulk VIES VAT Number Check",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex035_bulkviewvatnumbercheck%7CPAPPID.c654a616-3645-4ade-a2f3-ecee8459524d",
+    "lastModified": "2026-04-10T11:38:40.3252472+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ex035-bulk-vat-number-check.html",
+    "sourceHash": "sha256:e4ebb8f8573e849bd663af5a43cf1b74801fa56a1e6b050312ff66d18c5e269a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e4ebb8f8573e849bd663af5a43cf1b74801fa56a1e6b050312ff66d18c5e269a",
+    "mappedOn": null,
+    "summary": "Bulk validation of EU VAT numbers via VIES",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality",
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Checks VAT numbers of customers, vendors and contacts individually or in bulk",
+      "Periodic checks scheduled via Job Queue",
+      "Notifies named users of check results",
+      "View and print list of results"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "VIES"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

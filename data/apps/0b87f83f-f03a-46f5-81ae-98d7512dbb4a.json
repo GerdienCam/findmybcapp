@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.aqoolaas1585653035864|AID.aqoola_workflow|PAPPID.0b87f83f-f03a-46f5-81ae-98d7512dbb4a",
+  "guid": "0b87f83f-f03a-46f5-81ae-98d7512dbb4a",
+  "publisherId": "aqoolaas1585653035864",
+  "offerId": "aqoola_workflow",
+  "source": {
+    "name": "Aqoola Workflow",
+    "publisher": "Aqoola A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aqoolaas1585653035864%7CAID.aqoola_workflow%7CPAPPID.0b87f83f-f03a-46f5-81ae-98d7512dbb4a",
+    "lastModified": "2026-04-23T15:56:59.1509192+00:00",
+    "appVersion": "27.2.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aqoola.com/da/aqoola-workflow-365-help",
+    "sourceHash": "sha256:5a67fe2ffa1d26c09273ecef4402cddb2ba7b37b19fcf083f43846e65f05d3c2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5a67fe2ffa1d26c09273ecef4402cddb2ba7b37b19fcf083f43846e65f05d3c2",
+    "mappedOn": null,
+    "summary": "Integrates Aqoola invoice, contract and expense workflow",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-contracts",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Supplier invoices received automatically into the Aqoola platform",
+      "Invoice approval workflow with tracking of who did what",
+      "Archive of posted invoices",
+      "Approved documents brought into BC ready for posting",
+      "Real-time sync of vendor, finance and order data to the workflow",
+      "Contract register with responsible persons",
+      "Alerts for contract termination deadlines",
+      "Tracks assets handed out to employees",
+      "Receipts scanned by mobile with automatic data fill",
+      "Travel expense reports with per diems and allowances",
+      "For private and public sector organisations"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Aqoola"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

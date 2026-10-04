@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.fb310c16-0b22-4569-a5f0-8f9a01571cee|PAPPID.d09fa965-9a2a-424d-b704-69f3b54ed0ce",
+  "guid": "d09fa965-9a2a-424d-b704-69f3b54ed0ce",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "fb310c16-0b22-4569-a5f0-8f9a01571cee",
+  "source": {
+    "name": "PayPal Payments Standard",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.fb310c16-0b22-4569-a5f0-8f9a01571cee%7CPAPPID.d09fa965-9a2a-424d-b704-69f3b54ed0ce",
+    "lastModified": "2024-11-21T03:20:31.8458641+00:00",
+    "appVersion": "16.0.11240.12268",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?LinkId=733363",
+    "sourceHash": "sha256:7db2f0bab20a5ceceebccbf35edc8b070999b82861ba5e9c9aba1baaa6ab4c58"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7db2f0bab20a5ceceebccbf35edc8b070999b82861ba5e9c9aba1baaa6ab4c58",
+    "mappedOn": null,
+    "summary": "Adds PayPal payment links to sales documents",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Adds a PayPal payment link to sales documents",
+      "Link embedded automatically into every invoice or by user",
+      "Supports credit card processing and PayPal accounts",
+      "No monthly or setup fees from PayPal"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IT",
+      "NL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nb",
+      "nl",
+      "ru",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PayPal"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

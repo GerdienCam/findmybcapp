@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.rhythmsoft-global_consulting_pvt_ltd|AID.master_approval_workflow|PAPPID.26082c3c-ba71-482a-87aa-c84732395603",
+  "guid": "26082c3c-ba71-482a-87aa-c84732395603",
+  "publisherId": "rhythmsoft-global_consulting_pvt_ltd",
+  "offerId": "master_approval_workflow",
+  "source": {
+    "name": "Approval Workflow for Master Record for Business Central",
+    "publisher": "Rhythmsoft-Global Consulting Pvt Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.rhythmsoft-global_consulting_pvt_ltd%7CAID.master_approval_workflow%7CPAPPID.26082c3c-ba71-482a-87aa-c84732395603",
+    "lastModified": "2026-05-22T09:12:29.9681748+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://rhythmsoft-global.com/contact-us/",
+    "sourceHash": "sha256:b3bd528e48ae905c5c1fc887b04b3d75b5556e38875e7f4c7d08e270274091a5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b3bd528e48ae905c5c1fc887b04b3d75b5556e38875e7f4c7d08e270274091a5",
+    "mappedOn": null,
+    "summary": "Approval workflow for vendor, customer and item records",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Approval workflow for new vendors, customers and items",
+      "New records automatically blocked until approved",
+      "Uses the native BC Workflow engine",
+      "Record released only after designated approver approves",
+      "Auditable and traceable approval process"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

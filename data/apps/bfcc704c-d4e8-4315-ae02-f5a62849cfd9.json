@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.connamix|AID.cnxtc|PAPPID.bfcc704c-d4e8-4315-ae02-f5a62849cfd9",
+  "guid": "bfcc704c-d4e8-4315-ae02-f5a62849cfd9",
+  "publisherId": "connamix",
+  "offerId": "cnxtc",
+  "source": {
+    "name": "CX Transport Concrete",
+    "publisher": "CONNAMIX GmbH & Co.KG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.connamix%7CAID.cnxtc%7CPAPPID.bfcc704c-d4e8-4315-ae02-f5a62849cfd9",
+    "lastModified": "2025-12-12T09:57:53.1882799+00:00",
+    "appVersion": "27.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.connamix.com/docs/de-de/index.html",
+    "sourceHash": "sha256:adcbf1f557ca2205db3df023886a7ba3787ccc681974c9a3361989b11d04c6b1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:adcbf1f557ca2205db3df023886a7ba3787ccc681974c9a3361989b11d04c6b1",
+    "mappedOn": null,
+    "summary": "Concrete delivery note processing with automatic freight pricing",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-metal-timber-materials",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing",
+      "ng-vert-construction"
+    ],
+    "claims": [
+      "Automated processing of concrete delivery notes into BC",
+      "Records weighing data",
+      "Allocates articles, debtors and construction sites",
+      "Invoices freight and toll costs",
+      "Creates sales orders and collective invoices",
+      "Automatic prices including freight",
+      "30-day trial"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Building materials",
+      "Concrete"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

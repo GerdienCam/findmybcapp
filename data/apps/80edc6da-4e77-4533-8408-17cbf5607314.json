@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.robosoft|AID.robocommodity-ctrm|PAPPID.80edc6da-4e77-4533-8408-17cbf5607314",
+  "guid": "80edc6da-4e77-4533-8408-17cbf5607314",
+  "publisherId": "robosoft",
+  "offerId": "robocommodity-ctrm",
+  "source": {
+    "name": "Robocommodity CTRM",
+    "publisher": "Robosoft Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.robosoft%7CAID.robocommodity-ctrm%7CPAPPID.80edc6da-4e77-4533-8408-17cbf5607314",
+    "lastModified": "2026-03-25T15:23:54.3405435+00:00",
+    "appVersion": "4.1.0.8",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.robo-soft.com/wp-content/uploads/2024/01/DealManagement.pdf",
+    "sourceHash": "sha256:fc7ca635127fb92a4f9d18695ffb0324b5eab2aac3e60283d83b6362012f132e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fc7ca635127fb92a4f9d18695ffb0324b5eab2aac3e60283d83b6362012f132e",
+    "mappedOn": null,
+    "summary": "Commodity trading, operations and risk management",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-wholesale-trading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing",
+      "ng-strategy-longrange"
+    ],
+    "claims": [
+      "Float pricing tied to market indexes for purchase and sales",
+      "Pricing rules: date range, specific dates, event based",
+      "Tracks hedge contracts (swaps, options, futures, currency hedges) tied to physical trades",
+      "Unrealized gains/losses vs market prices",
+      "Benchmark valuation methods: spot, spot average, month average, balance of month average",
+      "Mark-to-market of stock, open purchase and sales orders vs exchange prices"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Commodity trading",
+      "Distribution",
+      "Energy"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

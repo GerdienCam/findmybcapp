@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bccypruslocalization-is|PAPPID.9630b499-6ff5-41ac-a50a-dd6d37dcc7bc",
+  "guid": "9630b499-6ff5-41ac-a50a-dd6d37dcc7bc",
+  "publisherId": "intelligentsystems",
+  "offerId": "bccypruslocalization-is",
+  "source": {
+    "name": "Cyprus Localization",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bccypruslocalization-is%7CPAPPID.9630b499-6ff5-41ac-a50a-dd6d37dcc7bc",
+    "lastModified": "2025-10-14T16:00:48.727152+00:00",
+    "appVersion": "24.0.38.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/services/localization/",
+    "sourceHash": "sha256:5951f0bbfde3aea2ecb0935b04bb375cc6c59d23331160e121d9c84636272017"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5951f0bbfde3aea2ecb0935b04bb375cc6c59d23331160e121d9c84636272017",
+    "mappedOn": null,
+    "summary": "Cyprus VAT, accounting and Intrastat compliance",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax",
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Comes with a ready-made chart of accounts and posting groups",
+      "Statutory VAT statement for Cyprus Tax Authority",
+      "Imports payroll data into general journal from .txt template",
+      "Cyprus-specific Intrastat journal and file export",
+      "Mandatory weight and unit of measure on tariff codes",
+      "Prints Bank of Cyprus checks",
+      "Trial balance with opening balances"
+    ],
+    "countries": [
+      "CY"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

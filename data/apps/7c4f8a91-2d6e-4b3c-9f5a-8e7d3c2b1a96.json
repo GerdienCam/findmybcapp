@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.datawarenessaps1693329945614|AID.bi-endpoints|PAPPID.7c4f8a91-2d6e-4b3c-9f5a-8e7d3c2b1a96",
+  "guid": "7c4f8a91-2d6e-4b3c-9f5a-8e7d3c2b1a96",
+  "publisherId": "datawarenessaps1693329945614",
+  "offerId": "bi-endpoints",
+  "source": {
+    "name": "BI Endpoints",
+    "publisher": "Datawareness ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.datawarenessaps1693329945614%7CAID.bi-endpoints%7CPAPPID.7c4f8a91-2d6e-4b3c-9f5a-8e7d3c2b1a96",
+    "lastModified": "2026-09-23T09:50:46.9768325+00:00",
+    "appVersion": "26.4.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://datawareness.com/",
+    "sourceHash": "sha256:02cb63cebc7801393e021207d375cc07f8cc770141b376396b8297757079fbb1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:02cb63cebc7801393e021207d375cc07f8cc770141b376396b8297757079fbb1",
+    "mappedOn": null,
+    "summary": "Pre-built API endpoints for extracting BC data to BI tools",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "Pre-built API endpoints designed for BI and analytics",
+      "Power BI connection with OAuth authentication",
+      "Load into Fabric Lakehouses with incremental extraction via Spark notebooks",
+      "systemModifiedAt timestamps and delete tracking for delta loading",
+      "Custom endpoints for any BC table without AL code",
+      "Endpoints cover tables from any BC extension",
+      "G/L entries with full dimension support",
+      "Endpoints for finance, sales, purchasing, inventory, jobs, resources, manufacturing and assembly",
+      "Free tier covers posted sales invoices and G/L entries",
+      "Management API for custom endpoints"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power BI",
+      "Microsoft Fabric"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.abakion|AID.shortage_on_demand_orders|PAPPID.ec9a6d52-a09a-4c24-9117-c3cfedc2b079",
+  "guid": "ec9a6d52-a09a-4c24-9117-c3cfedc2b079",
+  "publisherId": "abakion",
+  "offerId": "shortage_on_demand_orders",
+  "source": {
+    "name": "Shortage On Demand Orders",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.shortage_on_demand_orders%7CPAPPID.ec9a6d52-a09a-4c24-9117-c3cfedc2b079",
+    "lastModified": "2026-05-04T13:06:20.0381791+00:00",
+    "appVersion": "28.0.202617.163149",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/shortage-on-demand-orders/#userguide",
+    "sourceHash": "sha256:f1e2e30280e4d0e2e7218273cad008c477746e39896a0a754bd3cc14d4846be8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f1e2e30280e4d0e2e7218273cad008c477746e39896a0a754bd3cc14d4846be8",
+    "mappedOn": null,
+    "summary": "Shows shortages on sales orders to prioritize deliveries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-order-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking"
+    ],
+    "claims": [
+      "Shows which sales orders can be fulfilled completely, partially or not at all",
+      "Availability status code on sales order list and lines",
+      "8 status codes including On Stock and Conflict Stock",
+      "Conflict Stock flags fulfillment that causes shortage elsewhere",
+      "Shows shortages down through the item hierarchy",
+      "Reduces partial deliveries and partial invoices"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

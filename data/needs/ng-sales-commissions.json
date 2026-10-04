@@ -1,0 +1,318 @@
+{
+  "id": "ng-sales-commissions",
+  "order": 23,
+  "label": "Calculating commission for reps and agents",
+  "description": "Designing commission and bonus schemes and calculating what sales reps and agents earn.",
+  "type": "bpc",
+  "area": "CRM & quotes",
+  "relevance": "high",
+  "statements": [
+    "Calculating commission for reps and agents",
+    "Designing commission and bonus schemes and calculating what sales reps and agents earn.",
+    "We calculate sales commissions in Excel every month and reps always dispute them",
+    "Is there a commission app for Business Central?",
+    "Commission should only be paid when the customer has actually paid the invoice",
+    "sales commission on margin",
+    "Our external agents get different commission percentages per product group",
+    "Two reps share a customer and split commission 60/40",
+    "Reps want to see their own commission so far this month without asking finance",
+    "Need to claw back commission when a customer returns goods or doesn't pay",
+    "How do we pay commission to independent sales agents through accounts payable?",
+    "Commission statement per salesperson as PDF",
+    "Tiered commission, higher rate after the rep hits their target",
+    "The salesperson code on sales invoices is wrong half the time so commission is wrong",
+    "Transfer approved commission to payroll each month",
+    "Royalties we owe to designers on every unit we sell",
+    "Broker commissions on customer orders the broker brings in",
+    "Accrue commission expense when we invoice, not when we pay",
+    "Commission on new customers only, not existing accounts",
+    "Our sales manager gets an override on her team's sales",
+    "Agents in Germany get commission on all sales in their territory, even direct orders",
+    "Finance spends two days each month on commission reports",
+    "Our commission rules are different per rep, product group and customer and only exist in Excel",
+    "Is there a commission app for Business Central?",
+    "We pay agents a percentage of what they sell, how do we set that up?",
+    "commission on margin not revenue",
+    "We want a higher commission on new customers than on existing ones",
+    "Royalties to the designer of some of our products, percentage per unit sold",
+    "External sales agents abroad get commission but are not employees",
+    "Want tiered commission: 3% up to target and 5% above",
+    "How do we model a team bonus that is shared between inside and field sales?",
+    "Commission should only count once the customer has paid",
+    "Different commission rates for different brands",
+    "We need to change commission rules from next year without breaking history"
+  ],
+  "questions": [
+    {
+      "id": "basis",
+      "text": "What should commission be calculated on?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Sales amount / revenue",
+          "patterns": [
+            "revenue",
+            "on sales\\b",
+            "% of sales",
+            "percentage of sales",
+            "amount invoiced",
+            "invoiced amount",
+            "line amount",
+            "sales amount",
+            "sales,",
+            "invoice rate",
+            "sales performance",
+            "annual sales"
+          ]
+        },
+        {
+          "label": "Margin or profit",
+          "patterns": [
+            "margin",
+            "profit"
+          ]
+        },
+        {
+          "label": "Cash actually received",
+          "patterns": [
+            "cash receipt",
+            "payment receipt",
+            "on collection",
+            "collected",
+            "after payment",
+            "fully paid",
+            "when invoice paid",
+            "invoice application",
+            "payment date",
+            "partial payment",
+            "or paid\\b",
+            "invoiced or paid",
+            "on invoicing or payment",
+            "receipted"
+          ]
+        },
+        {
+          "label": "Quantity sold",
+          "patterns": [
+            "quantit",
+            "per unit",
+            "\\bunits?\\b"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sales amount / revenue": 0.4,
+        "Margin or profit": 0.32,
+        "Cash actually received": 0.48,
+        "Quantity sold": 0.16
+      }
+    },
+    {
+      "id": "who",
+      "text": "Who do you pay commission to?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Our own employees",
+          "patterns": [
+            "employee",
+            "w2",
+            "payroll",
+            "technician"
+          ]
+        },
+        {
+          "label": "External agents, brokers or partners",
+          "patterns": [
+            "external",
+            "agent",
+            "broker",
+            "freelanc",
+            "franchis",
+            "vendor",
+            "1099",
+            "referral partner",
+            "sales partner"
+          ]
+        },
+        {
+          "label": "Managers on their team's sales",
+          "patterns": [
+            "manager",
+            "teams?(?! member)",
+            "hierarch",
+            "multi-level",
+            "sales network"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Our own employees": 0.32,
+        "External agents, brokers or partners": 0.52,
+        "Managers on their team's sales": 0.32
+      }
+    },
+    {
+      "id": "split",
+      "text": "Do several salespeople ever share one sale?",
+      "options": [
+        {
+          "label": "Yes, we split commission",
+          "patterns": [
+            "split",
+            "multiple salesp",
+            "several salesp",
+            "unlimited salesp",
+            "multiple salespeople",
+            "per sales or purchase line",
+            "salesperson per",
+            "agents and roles on each sale",
+            "multiple salespersons",
+            "across multiple salespeople"
+          ]
+        },
+        {
+          "label": "No, one rep per sale",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we split commission": 0.32
+      }
+    },
+    {
+      "id": "tiers",
+      "text": "Do rates change with targets or volume?",
+      "help": "E.g. higher % once a rep passes a target.",
+      "options": [
+        {
+          "label": "Yes, tiers or targets",
+          "patterns": [
+            "tier",
+            "target",
+            "scale",
+            "threshold",
+            "progressive",
+            "sales growth",
+            "min/max"
+          ]
+        },
+        {
+          "label": "No, flat rates",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, tiers or targets": 0.44
+      }
+    },
+    {
+      "id": "payout",
+      "text": "How do you pay commission out?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Purchase invoice / vendor payment",
+          "patterns": [
+            "purchase invoice",
+            "purchase document",
+            "supplier invoice",
+            "vendor ledger",
+            "accounts payable",
+            "through ap",
+            "\\bap\\b",
+            "pay to employee or vendor",
+            "settlement invoice",
+            "sales/purchase documents"
+          ]
+        },
+        {
+          "label": "Through payroll",
+          "patterns": [
+            "payroll"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Purchase invoice / vendor payment": 0.56,
+        "Through payroll": 0.08
+      }
+    },
+    {
+      "id": "reps",
+      "text": "Should reps get their own commission statements?",
+      "options": [
+        {
+          "label": "Yes, send or show statements",
+          "patterns": [
+            "statement",
+            "emailed to salesp",
+            "emails commission",
+            "report.*own data",
+            "limited access",
+            "word report",
+            "detail report per salesperson"
+          ]
+        },
+        {
+          "label": "No, internal only",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, send or show statements": 0.2
+      }
+    },
+    {
+      "id": "rebates",
+      "text": "Do you also need customer rebates or bonuses?",
+      "options": [
+        {
+          "label": "Yes, rebates/bonuses too",
+          "patterns": [
+            "rebate",
+            "bonus",
+            "royalt",
+            "chargeback"
+          ]
+        },
+        {
+          "label": "No, just commission",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, rebates/bonuses too": 0.16
+      }
+    }
+  ]
+}

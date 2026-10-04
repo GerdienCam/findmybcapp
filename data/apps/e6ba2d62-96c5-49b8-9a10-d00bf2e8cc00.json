@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.bcility1636664056498|AID.bcility-recurring-invoicing|PAPPID.e6ba2d62-96c5-49b8-9a10-d00bf2e8cc00",
+  "guid": "e6ba2d62-96c5-49b8-9a10-d00bf2e8cc00",
+  "publisherId": "bcility1636664056498",
+  "offerId": "bcility-recurring-invoicing",
+  "source": {
+    "name": "Recurring Invoicing",
+    "publisher": "BCILITY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcility1636664056498%7CAID.bcility-recurring-invoicing%7CPAPPID.e6ba2d62-96c5-49b8-9a10-d00bf2e8cc00",
+    "lastModified": "2026-03-16T10:10:22.3924635+00:00",
+    "appVersion": "26.0.8.71",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcility.com/about-us/",
+    "sourceHash": "sha256:b6c278189bbc302a485c8b048ddd0919d241d55655f5d9837cc5d8b27dde154c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b6c278189bbc302a485c8b048ddd0919d241d55655f5d9837cc5d8b27dde154c",
+    "mappedOn": null,
+    "summary": "Automates recurring billing based on contract period and interval",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Customer subscriptions with multiple items",
+      "Flexible billing intervals monthly, quarterly, yearly",
+      "Generates invoices or orders",
+      "Customer-specific pricing and payment terms",
+      "License period tracking with comment lines",
+      "Calculates next billing dates automatically",
+      "Batch invoice generation via job queue",
+      "Optional auto-posting of invoices",
+      "Invoices traceable to source subscription"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

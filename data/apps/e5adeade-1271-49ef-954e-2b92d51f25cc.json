@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-servicetimetracking|PAPPID.e5adeade-1271-49ef-954e-2b92d51f25cc",
+  "guid": "e5adeade-1271-49ef-954e-2b92d51f25cc",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-servicetimetracking",
+  "source": {
+    "name": "BeyondServiceTimeTracking",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-servicetimetracking%7CPAPPID.e5adeade-1271-49ef-954e-2b92d51f25cc",
+    "lastModified": "2026-09-07T19:00:03.4920733+00:00",
+    "appVersion": "2026.9.161.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/servicetimetracking/index.html",
+    "sourceHash": "sha256:7c2cfa02cec0594246c9d5f0bbb54965c73b65bf91b897e1e1e52abbea940005"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7c2cfa02cec0594246c9d5f0bbb54965c73b65bf91b897e1e1e52abbea940005",
+    "mappedOn": null,
+    "summary": "Time tracking for service documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-svc-close-invoice",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "Tracks the time needed for finishing a service for a service item",
+      "Dedicated user login for resources on service lines",
+      "Start/End buttons record time in a times list"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

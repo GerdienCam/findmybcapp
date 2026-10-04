@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.glaccountsreview|PAPPID.3ada23d5-4100-4d24-b0da-3a5a7f340dcb",
+  "guid": "3ada23d5-4100-4d24-b0da-3a5a7f340dcb",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "glaccountsreview",
+  "source": {
+    "name": "GL Accounts Review",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.glaccountsreview%7CPAPPID.3ada23d5-4100-4d24-b0da-3a5a7f340dcb",
+    "lastModified": "2026-05-22T17:53:39.8191155+00:00",
+    "appVersion": "1.0.0.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/gl-accounts-review",
+    "sourceHash": "sha256:17ec92f3db000bf952eea3f743e80f33f3a65610525af6d3f28bc6b4c14d242d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:17ec92f3db000bf952eea3f743e80f33f3a65610525af6d3f28bc6b4c14d242d",
+    "mappedOn": null,
+    "summary": "Documents G/L account reviews at period close",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance",
+      "ng-period-close"
+    ],
+    "claims": [
+      "G/L balance at date report",
+      "Stores reviews at date per G/L account",
+      "Tracks reviewer and stores documentation"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_thirdparty_transactions|PAPPID.04ec1503-1b09-486f-ac8b-c341bbd51230",
+  "guid": "04ec1503-1b09-486f-ac8b-c341bbd51230",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_thirdparty_transactions",
+  "source": {
+    "name": "Linc Third Party Transactions",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_thirdparty_transactions%7CPAPPID.04ec1503-1b09-486f-ac8b-c341bbd51230",
+    "lastModified": "2026-09-28T15:25:05.5677231+00:00",
+    "appVersion": "26.26.2462.830",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-Third-Party-Transactions",
+    "sourceHash": "sha256:ec2c8b1e456d939934fb97121462eba9378e726ee49aa489682c3b1ba051d20a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ec2c8b1e456d939934fb97121462eba9378e726ee49aa489682c3b1ba051d20a",
+    "mappedOn": null,
+    "summary": "Imports transactions from external systems with mappings",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Imports transactions from many external systems",
+      "Custom mappings per external system",
+      "Import via flat files or web service/API",
+      "Creates sales/purchase documents, item journals or general journals",
+      "Automated via job queue entries"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

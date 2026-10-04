@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.opexis|AID.ushopfloor|PAPPID.3575649c-c1bc-4e04-a96b-79cb7be05b2d",
+  "guid": "3575649c-c1bc-4e04-a96b-79cb7be05b2d",
+  "publisherId": "opexis",
+  "offerId": "ushopfloor",
+  "source": {
+    "name": "uTools - uShopfloor",
+    "publisher": "OPEXIS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.opexis%7CAID.ushopfloor%7CPAPPID.3575649c-c1bc-4e04-a96b-79cb7be05b2d",
+    "lastModified": "2026-10-01T08:13:53.7848204+00:00",
+    "appVersion": "1.10.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://opexis.nl/",
+    "sourceHash": "sha256:eb338d52378a4845ebd3e310e9923115f43a96fc2c2c19a8c0212ccfcc8e88b2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eb338d52378a4845ebd3e310e9923115f43a96fc2c2c19a8c0212ccfcc8e88b2",
+    "mappedOn": null,
+    "summary": "Touch-friendly shop floor screen for production orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-time-shifts",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Touch-friendly work screen for released production orders",
+      "Start, pause, resume and finish operations with live timers; setup time separate from run time",
+      "Reports output, scrap and extra component consumption via standard journals",
+      "Creates inventory movements for components of an operation and blocks completion until registered",
+      "Material log showing theoretical vs reported quantity before posting",
+      "Planned breaks automatically pause running operations, then resume them",
+      "Registers non-production time along with clock-in and clock-out",
+      "Multiple operators per operation with own registrations",
+      "Order and operation notes stored on the production order",
+      "Audit trail per operator and operation",
+      "Users only see assigned work centers",
+      "No extra full BC licenses for the shop floor"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "uTools"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_emailattachments|PAPPID.27ba4b10-684a-4ba9-af8c-927aa219d0ec",
+  "guid": "27ba4b10-684a-4ba9-af8c-927aa219d0ec",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_emailattachments",
+  "source": {
+    "name": "Fusion5 Email Attachments",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_emailattachments%7CPAPPID.27ba4b10-684a-4ba9-af8c-927aa219d0ec",
+    "lastModified": "2026-03-31T05:35:20.5280655+00:00",
+    "appVersion": "2700.7.20260331.125851",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/443383899/Email+Attachments",
+    "sourceHash": "sha256:711ee1df1b41ca0250396c593380a92dfd62f14304b4c8675e51145d75998272"
+  },
+  "mapping": {
+    "sourceHash": "sha256:711ee1df1b41ca0250396c593380a92dfd62f14304b4c8675e51145d75998272",
+    "mappedOn": null,
+    "summary": "Auto-attaches marked attachments to outgoing emails",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Auto-attaches document attachments to emails sent from BC",
+      "Only attachments marked Attach to Emails are included"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

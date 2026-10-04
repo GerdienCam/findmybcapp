@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_powerexport|PAPPID.03a5ea7d-18b1-49d5-bffc-68c829b3387e",
+  "guid": "03a5ea7d-18b1-49d5-bffc-68c829b3387e",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_powerexport",
+  "source": {
+    "name": "Power Export",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_powerexport%7CPAPPID.03a5ea7d-18b1-49d5-bffc-68c829b3387e",
+    "lastModified": "2025-09-26T16:16:18.7252251+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.nubetech.it/documentation-power-export/",
+    "sourceHash": "sha256:c23499aa5e015fe589353fe179f25051cfd10c9ad13cd14a688c9196824bf66a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c23499aa5e015fe589353fe179f25051cfd10c9ad13cd14a688c9196824bf66a",
+    "mappedOn": null,
+    "summary": "Exports data from any table to files or Blob Storage",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-excel-reporting",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Exports data from any table, including custom tables",
+      "Supports table joins and exporting FlowFields",
+      "Exports to CSV, TXT and Excel formats",
+      "Sends exported files by email",
+      "Stores exported files in blob storage",
+      "Blob storage enables Power Automate workflows such as FTP/SFTP publication or SharePoint upload"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage",
+      "Power Automate",
+      "SFTP",
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

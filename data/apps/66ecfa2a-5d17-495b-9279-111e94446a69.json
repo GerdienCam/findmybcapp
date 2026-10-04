@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.aitana_management_sl|AID.idynamics_advancedwarehouse|PAPPID.66ecfa2a-5d17-495b-9279-111e94446a69",
+  "guid": "66ecfa2a-5d17-495b-9279-111e94446a69",
+  "publisherId": "aitana_management_sl",
+  "offerId": "idynamics_advancedwarehouse",
+  "source": {
+    "name": "iDynamics Advanced Warehouse",
+    "publisher": "iDynamics Business Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aitana_management_sl%7CAID.idynamics_advancedwarehouse%7CPAPPID.66ecfa2a-5d17-495b-9279-111e94446a69",
+    "lastModified": "2026-09-23T10:54:20.6572+00:00",
+    "appVersion": "27.5.2.2026092301",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.idynamics.es/en/advancedwarehouse/index.html",
+    "sourceHash": "sha256:0d1738a55f926324ba7f9ed0828bf3601a3ffbc4c5fececbcbe812467da10b83"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0d1738a55f926324ba7f9ed0828bf3601a3ffbc4c5fececbcbe812467da10b83",
+    "mappedOn": null,
+    "summary": "Warehouse management with mobile handling for SMBs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-stock-movements",
+      "ng-stock-counting",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Mobile app handles shipments, receipts, picks, put-aways and movements",
+      "Handles purchase, sales, return and transfer orders from the app",
+      "Supports lot and serial numbers",
+      "Inventory tasks and ad-hoc movements",
+      "Custom input forms",
+      "Prints labels and documents from the app",
+      "Aimed at small and medium-sized businesses"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

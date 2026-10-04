@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.6e9444ef-483a-4106-82ac-56a538738a5a|AID.6e9444ef-483a-4106-82ac-56a538738a5a|PAPPID.87b41ac4-158e-4748-a31f-34d1176a2982",
+  "guid": "87b41ac4-158e-4748-a31f-34d1176a2982",
+  "publisherId": "6e9444ef-483a-4106-82ac-56a538738a5a",
+  "offerId": "6e9444ef-483a-4106-82ac-56a538738a5a",
+  "source": {
+    "name": "DataMigrate Pro",
+    "publisher": "IO Integrated",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.6e9444ef-483a-4106-82ac-56a538738a5a%7CAID.6e9444ef-483a-4106-82ac-56a538738a5a%7CPAPPID.87b41ac4-158e-4748-a31f-34d1176a2982",
+    "lastModified": "2026-09-30T11:14:43.8662831+00:00",
+    "appVersion": "27.1.263.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ioi.gmbh/contact-us/?lang=en",
+    "sourceHash": "sha256:a6f935eea2131e0e1e499eddc9b6aa73b2c6ce2adb2acf23485979e7c7ac97d4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a6f935eea2131e0e1e499eddc9b6aa73b2c6ce2adb2acf23485979e7c7ac97d4",
+    "mappedOn": null,
+    "summary": "Migrates data from Navision and Dynamics NAV to Business Central",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-cloud-upgrade",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Migrates from Dynamics NAV 2009 R2 onwards to BC online and on-premises",
+      "Migrates from legacy SQL-based systems, not only NAV",
+      "Full and delta migration with change tracking for iterative migrations",
+      "Standard edition migrates ledger entries and posted and unposted documents",
+      "Light edition: master data and custom tables, image upload from local filesystem",
+      "Deluxe edition adds live-sync service and replication control",
+      "Ultimate edition supports parallel working in both systems with bidirectional sync",
+      "Converts proprietary NAV/BC fields",
+      "Prebuilt modules for master data, transactions, histories and document links",
+      "Audit trails, preview and validation before go-live",
+      "Data sources ODBC, CSV, REST API and user-defined",
+      "Runs locally, on an Azure VM or as Azure Container App"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics NAV",
+      "SQL Server"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

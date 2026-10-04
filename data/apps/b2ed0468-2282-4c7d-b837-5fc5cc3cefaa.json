@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex06002_powerplantmaintenance|PAPPID.b2ed0468-2282-4c7d-b837-5fc5cc3cefaa",
+  "guid": "b2ed0468-2282-4c7d-b837-5fc5cc3cefaa",
+  "publisherId": "eos_solutions",
+  "offerId": "ex06002_powerplantmaintenance",
+  "source": {
+    "name": "Power Plant Maintenance",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex06002_powerplantmaintenance%7CPAPPID.b2ed0468-2282-4c7d-b837-5fc5cc3cefaa",
+    "lastModified": "2026-04-13T08:38:37.2455103+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/plant-maintenance-plm.html",
+    "sourceHash": "sha256:1b71eb51fa280475bdff475fc91e81fd37ce61f8c95571a504293fe31d253133"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1b71eb51fa280475bdff475fc91e81fd37ce61f8c95571a504293fe31d253133",
+    "mappedOn": null,
+    "summary": "Plans plant and machine maintenance",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices",
+      "ng-maintenance-breakdown"
+    ],
+    "claims": [
+      "Combines Power App and BC for maintenance planning and execution",
+      "Maintenance templates",
+      "Automatic task scheduling via maintenance points",
+      "Machine characteristics and planning criteria",
+      "Maintenance periods and interruptions",
+      "Spare parts and components per machine",
+      "Work requests assigned to groups/resources",
+      "Purchase orders/quotes for external maintenance",
+      "Mobile use via Power App",
+      "Premium edition only"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Power Apps"
+    ],
+    "requires": [
+      "EOS Plant Maintenance"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

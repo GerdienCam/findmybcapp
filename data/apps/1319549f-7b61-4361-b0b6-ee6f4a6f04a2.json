@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.ebanking-eft-ww-app|PAPPID.1319549f-7b61-4361-b0b6-ee6f4a6f04a2",
+  "guid": "1319549f-7b61-4361-b0b6-ee6f4a6f04a2",
+  "publisherId": "fenwicksoftware",
+  "offerId": "ebanking-eft-ww-app",
+  "source": {
+    "name": "eBanking Advanced EFT for Australia and New Zealand",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.ebanking-eft-ww-app%7CPAPPID.1319549f-7b61-4361-b0b6-ee6f4a6f04a2",
+    "lastModified": "2026-09-28T00:18:31.4814135+00:00",
+    "appVersion": "26.0.260624.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/ebanking/advanced-eft/docs/",
+    "sourceHash": "sha256:eff0f817e47ff33971cf2f91e83a63c518af3d8fc8e33c8a2a14212a922758d8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eff0f817e47ff33971cf2f91e83a63c518af3d8fc8e33c8a2a14212a922758d8",
+    "mappedOn": null,
+    "summary": "EFT payments for Australian and New Zealand banks",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack",
+      "ng-hr-payroll-comp",
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Pay employees via EFT",
+      "Refund customers via EFT",
+      "Supports New Zealand EFT formats",
+      "Single bank account per EFT run with automatic balancing line",
+      "EFT Lodgement Reference per customer/vendor/employee",
+      "Remitter Name per bank account",
+      "Validates bank branch and account no. for AU/NZ banks",
+      "Extended EFT Register fields (document no., status, process date, currency)"
+    ],
+    "countries": [
+      "AU",
+      "NZ"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

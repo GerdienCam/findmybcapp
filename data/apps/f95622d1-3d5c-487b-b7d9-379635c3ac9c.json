@@ -1,0 +1,88 @@
+{
+  "appId": "PUBID.origo|AID.ori_electronic_documents_import|PAPPID.f95622d1-3d5c-487b-b7d9-379635c3ac9c",
+  "guid": "f95622d1-3d5c-487b-b7d9-379635c3ac9c",
+  "publisherId": "origo",
+  "offerId": "ori_electronic_documents_import",
+  "source": {
+    "name": "Electronic Docs - Import",
+    "publisher": "Origo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.ori_electronic_documents_import%7CPAPPID.f95622d1-3d5c-487b-b7d9-379635c3ac9c",
+    "lastModified": "2026-09-30T15:45:25.1206171+00:00",
+    "appVersion": "28.0.1.206",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://business-central.refined.site/space/EDIA",
+    "sourceHash": "sha256:67407e3184b2a1bdc55dfc23054448333f0921af9648f8105ff2574b3165b9aa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:67407e3184b2a1bdc55dfc23054448333f0921af9648f8105ff2574b3165b9aa",
+    "mappedOn": null,
+    "summary": "Receives electronic documents via Unimaze",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Receives electronic documents via Unimaze on Peppol",
+      "Processes documents with standard Data Exchange Framework",
+      "Receives purchase orders and purchase invoices electronically"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "RS",
+      "SE",
+      "SI"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Unimaze",
+      "Peppol"
+    ],
+    "requires": [
+      "Electronic Documents – Base App",
+      "Origo BC Base App"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

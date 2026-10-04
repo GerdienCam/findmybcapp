@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.sumango_as|AID.sumango_expense|PAPPID.a527f8cc-206e-49ae-b5b8-1ed23a8cd9b5",
+  "guid": "a527f8cc-206e-49ae-b5b8-1ed23a8cd9b5",
+  "publisherId": "sumango_as",
+  "offerId": "sumango_expense",
+  "source": {
+    "name": "Sumango Expense",
+    "publisher": "Sumango AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sumango_as%7CAID.sumango_expense%7CPAPPID.a527f8cc-206e-49ae-b5b8-1ed23a8cd9b5",
+    "lastModified": "2026-08-28T13:03:09.5259146+00:00",
+    "appVersion": "27.15.20260828.10",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.findity.com/",
+    "sourceHash": "sha256:b061de660f30816b341411acd916c0f2311d2a52861c7c0a9890e3755b47f688"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b061de660f30816b341411acd916c0f2311d2a52861c7c0a9890e3755b47f688",
+    "mappedOn": null,
+    "summary": "Imports Findity expense data into BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-costs",
+      "ng-hr-payroll-comp"
+    ],
+    "claims": [
+      "Integrates Findity and its white-label expense solutions via API",
+      "View all vouchers and expenses in BC",
+      "Transfer users and dimensions",
+      "Transfer transactions to Sumango Payroll",
+      "Transfer non-payroll transactions to vendor ledger",
+      "Transfer project records with project code and task"
+    ],
+    "countries": [
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "GB",
+      "NL",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "no"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Findity",
+      "Sumango Payroll"
+    ],
+    "requires": [
+      "Findity"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

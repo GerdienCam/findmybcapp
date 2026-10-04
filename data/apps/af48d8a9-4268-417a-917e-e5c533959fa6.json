@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.purchase_accruals_consignment|PAPPID.af48d8a9-4268-417a-917e-e5c533959fa6",
+  "guid": "af48d8a9-4268-417a-917e-e5c533959fa6",
+  "publisherId": "thetasystemslimited",
+  "offerId": "purchase_accruals_consignment",
+  "source": {
+    "name": "Purchase Accruals",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.purchase_accruals_consignment%7CPAPPID.af48d8a9-4268-417a-917e-e5c533959fa6",
+    "lastModified": "2026-08-02T05:55:13.2294208+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/PA",
+    "sourceHash": "sha256:337cee0293e11540379db272755b9c64f1cb40585409c03d28e11a677820a2a4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:337cee0293e11540379db272755b9c64f1cb40585409c03d28e11a677820a2a4",
+    "mappedOn": null,
+    "summary": "Automates purchase accruals at receipt",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-accruals-deferrals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-period-close",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-wip",
+      "ng-subcontracting"
+    ],
+    "claims": [
+      "Recognises expenses at receipt for non-inventory purchases",
+      "Accruals for G/L accounts, fixed assets, resources, item charges and service/non-inventory items",
+      "Standard cost variance accruals",
+      "Project purchase accruals creating project ledger entries for WIP",
+      "Manufacturing subcontracting accrual support",
+      "Accruals for purchase return shipments without credit memo",
+      "Automatic reversal on invoice posting or undo receipt",
+      "Option to use interim accounts",
+      "Specify posting dates when undoing receipts"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "ja",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "sv",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.cap_vision|AID.463d2e21-ff05-4cac-a1bf-665df2a6fc88|PAPPID.463d2e21-ff05-4cac-a1bf-665df2a6fc88",
+  "guid": "463d2e21-ff05-4cac-a1bf-665df2a6fc88",
+  "publisherId": "cap_vision",
+  "offerId": "463d2e21-ff05-4cac-a1bf-665df2a6fc88",
+  "source": {
+    "name": "CAP Business - Intercompany Synchronization",
+    "publisher": "Cap Vision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cap_vision%7CAID.463d2e21-ff05-4cac-a1bf-665df2a6fc88%7CPAPPID.463d2e21-ff05-4cac-a1bf-665df2a6fc88",
+    "lastModified": "2026-07-01T12:50:40.034409+00:00",
+    "appVersion": "27.202607.46081.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.capvision-cloud.fr/fr-FR/cap-business-intercompany-sync",
+    "sourceHash": "sha256:ccad3dc5c0f1f7e40a3c578787ac975760dfe18e14357f568721ff2d672de949"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ccad3dc5c0f1f7e40a3c578787ac975760dfe18e14357f568721ff2d672de949",
+    "mappedOn": null,
+    "summary": "Synchronizes data across companies (intercompany)",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Configure which tables sync and in which direction",
+      "Bi-directional or shared sync across companies",
+      "Runs in destination company session to apply its business logic",
+      "Duplicate prevention by matching records",
+      "Sync logs",
+      "Scheduled synchronization",
+      "Custom matching fields"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

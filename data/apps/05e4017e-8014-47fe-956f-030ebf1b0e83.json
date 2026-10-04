@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.boschdatagmbh1733998274125|AID.bsd-inspectorman-app|PAPPID.05e4017e-8014-47fe-956f-030ebf1b0e83",
+  "guid": "05e4017e-8014-47fe-956f-030ebf1b0e83",
+  "publisherId": "boschdatagmbh1733998274125",
+  "offerId": "bsd-inspectorman-app",
+  "source": {
+    "name": "inspectorMAN",
+    "publisher": "BoSch Data GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.boschdatagmbh1733998274125%7CAID.bsd-inspectorman-app%7CPAPPID.05e4017e-8014-47fe-956f-030ebf1b0e83",
+    "lastModified": "2026-05-19T07:34:16.6143356+00:00",
+    "appVersion": "26.2.2884.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bosch-data.de/inspectorman/",
+    "sourceHash": "sha256:18be6640139cf1ba68f1a051058602c158a15a91cb71a9ef01552b0f19a4783b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:18be6640139cf1ba68f1a051058602c158a15a91cb71a9ef01552b0f19a4783b",
+    "mappedOn": null,
+    "summary": "Embargo and sanction list screening of customers and vendors",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-audit-compliance",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-admin-it-compliance"
+    ],
+    "claims": [
+      "Embargo/sanction check during order entry",
+      "Assign customers or ship-to addresses to embargo lists",
+      "Assign vendors and countries to embargo lists",
+      "Items, variants, item categories and resources as embargo objects",
+      "Customs tariff number filtering with wildcards",
+      "Keyword and regular-expression search parameters"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

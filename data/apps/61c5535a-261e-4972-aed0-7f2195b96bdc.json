@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.mercuriusit|AID.mitl_pr|PAPPID.61c5535a-261e-4972-aed0-7f2195b96bdc",
+  "guid": "61c5535a-261e-4972-aed0-7f2195b96bdc",
+  "publisherId": "mercuriusit",
+  "offerId": "mitl_pr",
+  "source": {
+    "name": "Purchase Requisition",
+    "publisher": "MERCURIUS IT LTD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mercuriusit%7CAID.mitl_pr%7CPAPPID.61c5535a-261e-4972-aed0-7f2195b96bdc",
+    "lastModified": "2024-11-21T23:56:06.7124765+00:00",
+    "appVersion": "23.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mercuriusit.com/mercurius-ip/purchase-requisition/",
+    "sourceHash": "sha256:3888d6b27be1d3e39ebd5fee369629227d797e72badadb739717a6f3e72e1873"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3888d6b27be1d3e39ebd5fee369629227d797e72badadb739717a6f3e72e1873",
+    "mappedOn": null,
+    "summary": "Purchase requisitions with threshold-based approval",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Approval based on threshold limits",
+      "Converts requisition to purchase order with one click",
+      "Approval tracking per preset matrices",
+      "Only approved requisitions can become POs",
+      "Aggregates multiple requisitions into one PO",
+      "Attach documents to requisitions",
+      "Closed/short-closed requisition history",
+      "Pulls approved lines into POs by vendor"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

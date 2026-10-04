@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.microapps|AID.elvy-interface|PAPPID.c26a404f-2dfb-4c92-a8f6-f79361ea9aa5",
+  "guid": "c26a404f-2dfb-4c92-a8f6-f79361ea9aa5",
+  "publisherId": "microapps",
+  "offerId": "elvy-interface",
+  "source": {
+    "name": "Elvy - Purchase Invoice Processing",
+    "publisher": "Micro Apps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microapps%7CAID.elvy-interface%7CPAPPID.c26a404f-2dfb-4c92-a8f6-f79361ea9aa5",
+    "lastModified": "2026-07-22T02:45:36.0453443+00:00",
+    "appVersion": "2.0.0.10",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Elvy%20Manual.pdf",
+    "sourceHash": "sha256:81812348a385dcb6c7c199a832365affb55b4af59911cf1de7333991bd6df357"
+  },
+  "mapping": {
+    "sourceHash": "sha256:81812348a385dcb6c7c199a832365affb55b4af59911cf1de7333991bd6df357",
+    "mappedOn": null,
+    "summary": "Purchase invoice processing integrated with Elvy",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Real-time integration with Elvy",
+      "Handles paper, PDF and UBL/XML e-invoices",
+      "Cost invoice processing and 3-way matching",
+      "Approval via web and app"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Elvy"
+    ],
+    "requires": [
+      "Elvy"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

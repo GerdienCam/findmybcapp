@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.item-configurator-plus-app|PAPPID.29e9f6e6-2c43-4d18-94ec-fd129eb2e8a7",
+  "guid": "29e9f6e6-2c43-4d18-94ec-fd129eb2e8a7",
+  "publisherId": "fenwicksoftware",
+  "offerId": "item-configurator-plus-app",
+  "source": {
+    "name": "Item Configurator Plus",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.item-configurator-plus-app%7CPAPPID.29e9f6e6-2c43-4d18-94ec-fd129eb2e8a7",
+    "lastModified": "2026-09-09T07:51:39.6284353+00:00",
+    "appVersion": "26.0.260909.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/item-configurator-plus/",
+    "sourceHash": "sha256:0099bce9018e93615078f81690c8ddbfacc3b1336ba66b39e50221042a36057d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0099bce9018e93615078f81690c8ddbfacc3b1336ba66b39e50221042a36057d",
+    "mappedOn": null,
+    "summary": "Configures manufactured and purchased items with rules",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bom-formula-engineering",
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Configures items from template items, categories and attributes with rules and formulas",
+      "Configurable attributes like colour, length, width, height or user-defined options",
+      "Rules generate item details including BOMs and routings",
+      "Category hierarchy restricts to valid configurations",
+      "Search configurations from quotes and sales orders",
+      "Create missing configured item with one click during sale",
+      "Automatically determines standard cost and price for new items",
+      "Requires Item Configurator"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Fenwick Item Configurator"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

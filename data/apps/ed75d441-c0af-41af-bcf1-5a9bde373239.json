@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.pay-it-with-stripe-app|PAPPID.ed75d441-c0af-41af-bcf1-5a9bde373239",
+  "guid": "ed75d441-c0af-41af-bcf1-5a9bde373239",
+  "publisherId": "fenwicksoftware",
+  "offerId": "pay-it-with-stripe-app",
+  "source": {
+    "name": "Pay-It with Stripe",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.pay-it-with-stripe-app%7CPAPPID.ed75d441-c0af-41af-bcf1-5a9bde373239",
+    "lastModified": "2026-09-25T05:49:30.8429456+00:00",
+    "appVersion": "26.0.260923.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/pay-it/docs/",
+    "sourceHash": "sha256:56a70d09a62df58b8d07d0e9efa23adb61283ea580eb92a92289bab35b032a1f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:56a70d09a62df58b8d07d0e9efa23adb61283ea580eb92a92289bab35b032a1f",
+    "mappedOn": null,
+    "summary": "Takes card payments via Stripe in BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos"
+    ],
+    "claims": [
+      "Pay-It payment methods used like standard BC payment methods",
+      "One-off, saved-method and lump payments",
+      "Integrated with sales orders, cash receipt journals and payment registration",
+      "Saved customer cards managed in Saved Pay-It Method list",
+      "In-person payments with a card reader",
+      "Generates payment links to a secure payment page",
+      "Partnered with Stripe for processing",
+      "Fenwick application fee of 0.03% per transaction on top of Stripe rates"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Stripe"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_transaction",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

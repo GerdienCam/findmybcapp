@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.innoware-1255921|AID.iw_bc_ukrainian_localization_vat_accounting|PAPPID.d0edbc8f-64e6-4811-ac5f-9e0244de3233",
+  "guid": "d0edbc8f-64e6-4811-ac5f-9e0244de3233",
+  "publisherId": "innoware-1255921",
+  "offerId": "iw_bc_ukrainian_localization_vat_accounting",
+  "source": {
+    "name": "IW Ukrainian Localization VAT",
+    "publisher": "Innoware Ukraine LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.innoware-1255921%7CAID.iw_bc_ukrainian_localization_vat_accounting%7CPAPPID.d0edbc8f-64e6-4811-ac5f-9e0244de3233",
+    "lastModified": "2026-09-23T08:25:43.0251058+00:00",
+    "appVersion": "27.6.6488.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://innoware.com/D365BusinessCentral/UserDocumentation/D365_BusinessCentral_IW_Ukrainian_Localization_VAT_Acconting_UserDocumentation.pdf",
+    "sourceHash": "sha256:bddbf87d4a17a3f4c404b5764cb1949a7f9b2d371f07013974c5648565cf0b2c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bddbf87d4a17a3f4c404b5764cb1949a7f9b2d371f07013974c5648565cf0b2c",
+    "mappedOn": null,
+    "summary": "Ukrainian VAT accounting localization",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Creates VAT invoices and Annex 2 for sales and purchases",
+      "Import/export of VAT invoices with M.E.doc",
+      "VAT accounting by the First Event rule",
+      "Applies VAT invoices to vendor source documents",
+      "Holds the register of VAT invoices issued and received",
+      "Close VAT periods",
+      "Generates VAT declaration turnover"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "languages": [
+      "en",
+      "ru",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "M.E.Doc"
+    ],
+    "requires": [
+      "IW Foundation"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

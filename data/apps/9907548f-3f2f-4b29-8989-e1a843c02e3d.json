@@ -1,0 +1,52 @@
+{
+  "appId": "PUBID.bcility1636664056498|AID.bcility-bank-ledger-insights|PAPPID.9907548f-3f2f-4b29-8989-e1a843c02e3d",
+  "guid": "9907548f-3f2f-4b29-8989-e1a843c02e3d",
+  "publisherId": "bcility1636664056498",
+  "offerId": "bcility-bank-ledger-insights",
+  "source": {
+    "name": "Bank Ledger Insights",
+    "publisher": "BCILITY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcility1636664056498%7CAID.bcility-bank-ledger-insights%7CPAPPID.9907548f-3f2f-4b29-8989-e1a843c02e3d",
+    "lastModified": "2025-12-14T23:32:49.0441835+00:00",
+    "appVersion": "26.0.2.31",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcility.com/about-us/",
+    "sourceHash": "sha256:671fbc641891deaa284f0bdb71c7298d93f61a6a124b2d7d57d509048775d298"
+  },
+  "mapping": {
+    "sourceHash": "sha256:671fbc641891deaa284f0bdb71c7298d93f61a6a124b2d7d57d509048775d298",
+    "mappedOn": null,
+    "summary": "Reconciles bank ledger entries with customer and vendor entries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-search-navigation"
+    ],
+    "claims": [
+      "Matches bank ledger entries to vendor and customer transactions by document number, posting date and amount",
+      "Shows related customer and vendor entries from the bank ledger",
+      "Drill-down to applied customer and vendor entries"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

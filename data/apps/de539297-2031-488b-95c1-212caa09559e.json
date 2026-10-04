@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.cartsoftware|AID.mms-cpq|PAPPID.de539297-2031-488b-95c1-212caa09559e",
+  "guid": "de539297-2031-488b-95c1-212caa09559e",
+  "publisherId": "cartsoftware",
+  "offerId": "mms-cpq",
+  "source": {
+    "name": "MMS CPQ",
+    "publisher": "CART Software Engineering",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cartsoftware%7CAID.mms-cpq%7CPAPPID.de539297-2031-488b-95c1-212caa09559e",
+    "lastModified": "2026-07-17T08:56:49.0556799+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://mms.cartsoftware.eu/bc/help/",
+    "sourceHash": "sha256:20c893bdb4c38400e0dba51da564a23390bbddde4ce04b78d4299a0b8e075d11"
+  },
+  "mapping": {
+    "sourceHash": "sha256:20c893bdb4c38400e0dba51da564a23390bbddde4ce04b78d4299a0b8e075d11",
+    "mappedOn": null,
+    "summary": "CPQ for medium voltage switchboard configuration and quoting",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-industrial-manufacturing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Pre-modeled domain logic for MV switchboard components, constraints and variants",
+      "Guided configuration with automatic constraint validation",
+      "Interactive SVG single-line diagram updating in real time",
+      "Constraint engine for compatibility rules between components",
+      "Creates configurations directly as BC sales quotes",
+      "Imports products and rules from CSV/XML",
+      "Per-company configurable item numbering, categories and units"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Electrical switchboard manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

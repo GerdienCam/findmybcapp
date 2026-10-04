@@ -1,0 +1,65 @@
+{
+  "appId": "TYPE.connect|PUBID.websan-solutions-inc|AID.moniroo-production-time-management|PAPPID.99952ea0-3c38-4d55-8375-dfdf221342e7",
+  "guid": "99952ea0-3c38-4d55-8375-dfdf221342e7",
+  "publisherId": "websan-solutions-inc",
+  "offerId": "moniroo-production-time-management",
+  "source": {
+    "name": "Moniroo Production Time Management",
+    "publisher": "WebSan Solutions Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.websan-solutions-inc%7CAID.moniroo-production-time-management%7CPAPPID.99952ea0-3c38-4d55-8375-dfdf221342e7",
+    "lastModified": "2026-02-26T08:20:31.6633946+00:00",
+    "appVersion": "1.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/moniroo-production-time-management/",
+    "sourceHash": "sha256:4867d5c4bc33accda0be8b0b7d87995ad3eaa218b16a5574eac1ed0ad08cfd34"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4867d5c4bc33accda0be8b0b7d87995ad3eaa218b16a5574eac1ed0ad08cfd34",
+    "mappedOn": null,
+    "summary": "Time entry on production orders via Moniroo",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-time-shifts",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Links Business Central with Moniroo",
+      "Manages employees' Production Order Output Journals in BC from time entered in Moniroo",
+      "Clock in / clock out portal on production orders for warehouse staff",
+      "Tracks employee time against a production order",
+      "Add notes to work items",
+      "Time entries populate in Business Central",
+      "Configurable supervisor approval cycles with thresholds",
+      "Supports Essentials and Premium editions",
+      "Available in English, French and Spanish"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "es",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Moniroo"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

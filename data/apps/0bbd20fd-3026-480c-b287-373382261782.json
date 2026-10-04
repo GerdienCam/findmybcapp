@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.logtrade_technology|AID.logtrade_connect_shopify_integration|PAPPID.0bbd20fd-3026-480c-b287-373382261782",
+  "guid": "0bbd20fd-3026-480c-b287-373382261782",
+  "publisherId": "logtrade_technology",
+  "offerId": "logtrade_connect_shopify_integration",
+  "source": {
+    "name": "Logtrade Connect - Shopify Integration",
+    "publisher": "Logtrade Technology AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.logtrade_technology%7CAID.logtrade_connect_shopify_integration%7CPAPPID.0bbd20fd-3026-480c-b287-373382261782",
+    "lastModified": "2026-05-19T05:12:01.9353553+00:00",
+    "appVersion": "25.1.18.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://connect.logtrade.se/bc-shopify/",
+    "sourceHash": "sha256:ac3bc566862d366665846c4f5eb506c039617830de9a0b6d6619320a8f68e91a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ac3bc566862d366665846c4f5eb506c039617830de9a0b6d6619320a8f68e91a",
+    "mappedOn": null,
+    "summary": "Extends Shopify integration with Logtrade checkout and consignments",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Extends Microsoft's standard Shopify integration",
+      "Automatically assigns agent office ID, shipping agent and service code from the shipping method chosen at Shopify checkout",
+      "Consignments from imported sales orders get the carrier, service and pickup agent the customer selected",
+      "Works with the Logtrade Checkout Backend",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "DK",
+      "FI",
+      "FR",
+      "GB",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Shopify",
+      "Logtrade"
+    ],
+    "requires": [
+      "Logtrade Connect",
+      "Shopify Connector"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.vokeso1647520348972|AID.vokbil|PAPPID.0ef717e2-746e-4ba9-b734-f682dc9ee115",
+  "guid": "0ef717e2-746e-4ba9-b734-f682dc9ee115",
+  "publisherId": "vokeso1647520348972",
+  "offerId": "vokbil",
+  "source": {
+    "name": "VokBIL",
+    "publisher": "Vokeso",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.vokeso1647520348972%7CAID.vokbil%7CPAPPID.0ef717e2-746e-4ba9-b734-f682dc9ee115",
+    "lastModified": "2026-01-30T22:57:36.5927741+00:00",
+    "appVersion": "24.0.0.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://vokeso.com/solutions/vokbil-by-vokeso/",
+    "sourceHash": "sha256:b62c26868aec2e62f970b28be3f6c6ae3d3a87d7ced4a53310b51a8bb499a150"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b62c26868aec2e62f970b28be3f6c6ae3d3a87d7ced4a53310b51a8bb499a150",
+    "mappedOn": null,
+    "summary": "Recurring subscription billing and invoice generation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Subscription cards per customer subscription with special pricing",
+      "Merges sales prices with purchase prices into one price list",
+      "Automatically increments next billing date as invoices are posted",
+      "Manages commitment-based and open-commitment subscriptions",
+      "Shows renewal dates, notes and soon-expiring prices",
+      "Supports discontinuation dates",
+      "Transfers G/L account, two dimensions, deferral code, price, currency to invoice line",
+      "Payment terms can differ from customer card",
+      "Groups several subscriptions on one invoice",
+      "Billing cycles weekly, monthly, quarterly, biannual, yearly",
+      "Shows the period the invoice covers",
+      "Displays subscriptions by category on the invoice",
+      "Available in English (US), English (Canada) and French (Canada)"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

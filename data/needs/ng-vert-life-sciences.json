@@ -1,0 +1,177 @@
+{
+  "id": "ng-vert-life-sciences",
+  "order": 220,
+  "label": "Solutions for pharma, medtech and cosmetics",
+  "description": "Regulated-industry solutions for pharmaceutical, medical device, cosmetics and supplement manufacturers and distributors, and healthcare providers: GxP, UDI, batch release, validation and regulatory documentation.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for pharma, medtech and cosmetics",
+    "Regulated-industry solutions for pharmaceutical, medical device, cosmetics and supplement manufacturers and distributors, and healthcare providers: GxP, UDI, batch release, validation and regulatory documentation.",
+    "Medical device manufacturer needs UDI and regulatory records",
+    "GMP compliant ERP on Business Central",
+    "Batch release by QA before shipping",
+    "Cosmetics manufacturer with ingredient declarations",
+    "Pharma distributor with GDP requirements",
+    "Validated system for FDA audits",
+    "Supplements manufacturing with specifications",
+    "Device history records per serial number",
+    "Medical distribution tracking expiry and recalls",
+    "Hospital information system on BC",
+    "Regulatory documents for every product",
+    "Complaint handling linked to batches"
+  ],
+  "questions": [
+    {
+      "id": "industry",
+      "text": "What kind of products do you deal in?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Pharmaceuticals or biotech",
+          "patterns": [
+            "pharma",
+            "biotech",
+            "\\bgmp\\b",
+            "gxp"
+          ]
+        },
+        {
+          "label": "Medical devices",
+          "patterns": [
+            "medical device",
+            "medtech",
+            "medical technology",
+            "iso 13485",
+            "\\bmdr\\b",
+            "\\budi\\b"
+          ]
+        },
+        {
+          "label": "Cosmetics or chemicals",
+          "patterns": [
+            "cosmetic",
+            "chemical"
+          ]
+        },
+        {
+          "label": "Healthcare provider or medical distribution",
+          "patterns": [
+            "patient",
+            "prescription",
+            "healthcare provider",
+            "medical distribution",
+            "clinics"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Pharmaceuticals or biotech": 0.46,
+        "Medical devices": 0.46,
+        "Cosmetics or chemicals": 0.31,
+        "Healthcare provider or medical distribution": 0.15
+      }
+    },
+    {
+      "id": "udi",
+      "text": "Do you need to register devices for UDI (EUDAMED or GUDID)?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "\\budi\\b",
+            "eudamed",
+            "gudid"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.31
+      }
+    },
+    {
+      "id": "role",
+      "text": "Do you manufacture, or mainly distribute?",
+      "multi": true,
+      "options": [
+        {
+          "label": "We manufacture",
+          "patterns": [
+            "manufactur",
+            "production",
+            "recipe",
+            "formulation",
+            "batch record",
+            "shop floor"
+          ]
+        },
+        {
+          "label": "We distribute or sell to hospitals",
+          "patterns": [
+            "distribut",
+            "tender",
+            "consignment",
+            "trade with"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "We manufacture": 0.77,
+        "We distribute or sell to hospitals": 0.46
+      }
+    },
+    {
+      "id": "compliance",
+      "text": "Which quality controls must the system enforce?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Electronic signatures on critical changes",
+          "patterns": [
+            "electronic signature",
+            "esignature",
+            "e-signature",
+            "password-based authentication"
+          ]
+        },
+        {
+          "label": "CAPA and complaint handling",
+          "patterns": [
+            "capa",
+            "non-conformance",
+            "complaint"
+          ]
+        },
+        {
+          "label": "System validation (GAMP5, CSV)",
+          "patterns": [
+            "gamp",
+            "validat"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Electronic signatures on critical changes": 0.46,
+        "CAPA and complaint handling": 0.62,
+        "System validation (GAMP5, CSV)": 0.31
+      }
+    }
+  ]
+}

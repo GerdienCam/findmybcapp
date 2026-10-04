@@ -1,0 +1,49 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.subscription_billing|PAPPID.3099ffc7-4cf7-4df6-9b96-7e4bc2bb587c",
+  "guid": "3099ffc7-4cf7-4df6-9b96-7e4bc2bb587c",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "subscription_billing",
+  "source": {
+    "name": "Subscription Billing",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.subscription_billing%7CPAPPID.3099ffc7-4cf7-4df6-9b96-7e4bc2bb587c",
+    "lastModified": "2026-06-04T09:58:15.0041314+00:00",
+    "appVersion": "26.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?linkid=2320215",
+    "sourceHash": "sha256:c68aabbd4d4204d858e0aeec296bf49a87f1d1d322d4a677126eeac20c950a70"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c68aabbd4d4204d858e0aeec296bf49a87f1d1d322d4a677126eeac20c950a70",
+    "mappedOn": null,
+    "summary": "Recurring subscription sales and billing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sells recurring subscriptions with billing for many pricing models",
+      "Installed by default in BC environments"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

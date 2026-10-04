@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.wiselausnirehf1587117975659|AID.wiseshareholders|PAPPID.2864dfdd-58c4-4659-a544-e192c6502c66",
+  "guid": "2864dfdd-58c4-4659-a544-e192c6502c66",
+  "publisherId": "wiselausnirehf1587117975659",
+  "offerId": "wiseshareholders",
+  "source": {
+    "name": "Wise Shareholders",
+    "publisher": "Wise",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wiselausnirehf1587117975659%7CAID.wiseshareholders%7CPAPPID.2864dfdd-58c4-4659-a544-e192c6502c66",
+    "lastModified": "2026-06-19T10:36:56.1714271+00:00",
+    "appVersion": "27.0.20260519.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://wise.is/en/contact-us/",
+    "sourceHash": "sha256:e8cea51e78dd6c2110b47a7f93024b84842b7890ff11d4cf3e896b6da72f67af"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e8cea51e78dd6c2110b47a7f93024b84842b7890ff11d4cf3e896b6da72f67af",
+    "mappedOn": null,
+    "summary": "Manages shareholder registers via Nasdaq connection",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vert-leasing-finance",
+        "confidence": "low"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Manages shareholder registers via connection to Nasdaq Stock Market",
+      "Shows share capital, movements and insider connections",
+      "Calculates dividends and bonuses",
+      "Posts dividends to financial accounts",
+      "Shareholder meetings, ballot papers and board elections",
+      "Reports share capital data to tax authorities"
+    ],
+    "countries": [
+      "IS"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Nasdaq"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Shareholder register management has no dedicated need group"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

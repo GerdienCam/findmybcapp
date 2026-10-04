@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex073compressjournalentries|PAPPID.96307d9e-025e-435a-9f78-d9e1de47d167",
+  "guid": "96307d9e-025e-435a-9f78-d9e1de47d167",
+  "publisherId": "eos_solutions",
+  "offerId": "ex073compressjournalentries",
+  "source": {
+    "name": "Compress Journal Entries",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex073compressjournalentries%7CPAPPID.96307d9e-025e-435a-9f78-d9e1de47d167",
+    "lastModified": "2026-07-01T12:56:07.8060855+00:00",
+    "appVersion": "28.0.10.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/compress-journal-entries.html",
+    "sourceHash": "sha256:50599de08b1360f860ec490ffcffec53dfa3c4a52492848dd9b0388c03624d14"
+  },
+  "mapping": {
+    "sourceHash": "sha256:50599de08b1360f860ec490ffcffec53dfa3c4a52492848dd9b0388c03624d14",
+    "mappedOn": null,
+    "summary": "Compresses general journal lines before posting",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-journals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-fa-depreciation",
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Compresses general journal lines before posting",
+      "Grouping by same description, posting date, dimension and sign",
+      "Groups fixed asset depreciation lines",
+      "Reduces number of G/L entries",
+      "Handles long imported or generated journals"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

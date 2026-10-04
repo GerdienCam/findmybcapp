@@ -1,0 +1,72 @@
+{
+  "appId": "TYPE.connect|PUBID.mobileoperatingbv1672668409365|AID.5627-040|PAPPID.cd4a07d0-06ac-4bfa-a49f-864255935e2d",
+  "guid": "cd4a07d0-06ac-4bfa-a49f-864255935e2d",
+  "publisherId": "mobileoperatingbv1672668409365",
+  "offerId": "5627-040",
+  "source": {
+    "name": "Simple-Simon",
+    "publisher": "Mobile Operating B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.mobileoperatingbv1672668409365%7CAID.5627-040%7CPAPPID.cd4a07d0-06ac-4bfa-a49f-864255935e2d",
+    "lastModified": "2026-07-22T07:32:47.122124+00:00",
+    "appVersion": "1.0.1.22174",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simple-simon.net/en/contact/",
+    "sourceHash": "sha256:d627cb914165ab756e7a1775dbb7305649b0743be010c323aabeda537a652038"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d627cb914165ab756e7a1775dbb7305649b0743be010c323aabeda537a652038",
+    "mappedOn": null,
+    "summary": "Field service job management and work order scheduling",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-svc-dispatch",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-close-invoice",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-esignature",
+      "ng-case-customer-updates"
+    ],
+    "claims": [
+      "Plan and schedule work orders with automated scheduling",
+      "Real-time sync between field app and office module",
+      "Mail or SMS customers expected arrival time",
+      "Navigate to the work address and record travel and working hours",
+      "Register used items by barcode",
+      "Custom forms with photos, checklists and questions",
+      "Customers sign job sheets digitally",
+      "History of previous visits",
+      "Works online and offline",
+      "Retrieves items, customers, addresses, sales orders and quotes from BC",
+      "Completed work orders return to BC as sales order or draft invoice",
+      "More than 50 standard integrations"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Simple-Simon"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

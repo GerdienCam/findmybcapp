@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex09202_deliveryrouteplannerfortransportcosts|PAPPID.e3caf4b1-4037-4703-ab44-f265df6cdc4d",
+  "guid": "e3caf4b1-4037-4703-ab44-f265df6cdc4d",
+  "publisherId": "eos_solutions",
+  "offerId": "ex09202_deliveryrouteplannerfortransportcosts",
+  "source": {
+    "name": "Delivery Route Planner for Transport Costs",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex09202_deliveryrouteplannerfortransportcosts%7CPAPPID.e3caf4b1-4037-4703-ab44-f265df6cdc4d",
+    "lastModified": "2026-06-26T10:28:16.5366199+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/delivery-route-planner.html",
+    "sourceHash": "sha256:2750d4f62b82028795e1a6ccb7954c77ae64de8993b16c72e80abf47f56385fa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2750d4f62b82028795e1a6ccb7954c77ae64de8993b16c72e80abf47f56385fa",
+    "mappedOn": null,
+    "summary": "Plans delivery routes and calculates transport costs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Calculates transport costs for delivery routes from sales/purchase documents",
+      "Shipping costs on the sales order card are displayed",
+      "Manual override of shipping cost",
+      "Calculates and optimizes routes",
+      "Depends on EOS Transport Costs as well as EOS Delivery Route Planner"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Delivery Route Planner",
+      "EOS Transport Costs"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

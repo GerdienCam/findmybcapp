@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.ecraftoyab1610627648267|AID.fm-bc-ecship-app|PAPPID.166b43ee-19fa-49a1-a2ce-067292f8fb6e",
+  "guid": "166b43ee-19fa-49a1-a2ce-067292f8fb6e",
+  "publisherId": "ecraftoyab1610627648267",
+  "offerId": "fm-bc-ecship-app",
+  "source": {
+    "name": "ECSHIP",
+    "publisher": "Fellowmind Finland",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ecraftoyab1610627648267%7CAID.fm-bc-ecship-app%7CPAPPID.166b43ee-19fa-49a1-a2ce-067292f8fb6e",
+    "lastModified": "2026-06-26T09:46:25.0383719+00:00",
+    "appVersion": "26.0.40199.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.fellowmindfinland.cloud/ecship",
+    "sourceHash": "sha256:a4ef07f9ee449f4781cafd7ac889ddab619ed89b59c30929eeb4b3677bd766a8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a4ef07f9ee449f4781cafd7ac889ddab619ed89b59c30929eeb4b3677bd766a8",
+    "mappedOn": null,
+    "summary": "Outbound shipment management via nShift",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Creates shipments from a sales order, a warehouse shipment or a posted sales shipment",
+      "Downloads carrier, service, add-on and package codes from nShift",
+      "Maps BC shipping agents to nShift carrier services",
+      "Multiple parcels with contents, dimensions, weights and tracking",
+      "Pre-notification emails to recipients",
+      "Freight price estimates for carrier services",
+      "Automatic shipment creation on warehouse shipment posting",
+      "Freight payer and carrier account numbers",
+      "Companion ECPrintNode prints labels and waybills to local printers"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fi"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "nShift",
+      "PrintNode"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

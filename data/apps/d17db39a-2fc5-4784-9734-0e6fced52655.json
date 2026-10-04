@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.flexport|AID.flexport-business-central|PAPPID.d17db39a-2fc5-4784-9734-0e6fced52655",
+  "guid": "d17db39a-2fc5-4784-9734-0e6fced52655",
+  "publisherId": "flexport",
+  "offerId": "flexport-business-central",
+  "source": {
+    "name": "Flexport Integration Extension",
+    "publisher": "Flexport",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.flexport%7CAID.flexport-business-central%7CPAPPID.d17db39a-2fc5-4784-9734-0e6fced52655",
+    "lastModified": "2026-07-20T05:57:58.8061148+00:00",
+    "appVersion": "1.0.29.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.portal.flexport.com/hc/en-us",
+    "sourceHash": "sha256:2670bb037a587ba2f99ae4af497307735238f587d282d8268a83e5d18fcf4df7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2670bb037a587ba2f99ae4af497307735238f587d282d8268a83e5d18fcf4df7",
+    "mappedOn": null,
+    "summary": "Receives Flexport shipment updates on purchase orders",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-transport-planning"
+    ],
+    "claims": [
+      "Receives Flexport shipment updates on purchase orders",
+      "Onboarding in 30-60 minutes via Flexport platform"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Flexport"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.minteoaps1632907266182|AID.minteo_bc|PAPPID.86f7e720-b031-415d-a97c-a6be1ce3dea9",
+  "guid": "86f7e720-b031-415d-a97c-a6be1ce3dea9",
+  "publisherId": "minteoaps1632907266182",
+  "offerId": "minteo_bc",
+  "source": {
+    "name": "Minteo Bank Integration",
+    "publisher": "Minteo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.minteoaps1632907266182%7CAID.minteo_bc%7CPAPPID.86f7e720-b031-415d-a97c-a6be1ce3dea9",
+    "lastModified": "2024-11-21T18:47:17.8680512+00:00",
+    "appVersion": "1.0.0.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://minteo.io/support",
+    "sourceHash": "sha256:52820c2d6a0804b7bcee4b08a4c79ac66b34d4a146e1d12d3cec412c63a0a46c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:52820c2d6a0804b7bcee4b08a4c79ac66b34d4a146e1d12d3cec412c63a0a46c",
+    "mappedOn": null,
+    "summary": "Fetches bank data via Minteo bank API",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Live bank API connection to fetch statements and push payments in real time",
+      "Auto-matching",
+      "Payment pre-approval rules by criteria or threshold",
+      "Approval rules by amount and recipient per employee group",
+      "Handles bank file formats, signatures and secure transmission",
+      "Payment files cryptographically signed",
+      "End-to-end encryption",
+      "Data retention policies for fields"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Minteo"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

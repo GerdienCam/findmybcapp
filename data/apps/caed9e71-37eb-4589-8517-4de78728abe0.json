@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.wsb_solutions|AID.complaint_registration|PAPPID.caed9e71-37eb-4589-8517-4de78728abe0",
+  "guid": "caed9e71-37eb-4589-8517-4de78728abe0",
+  "publisherId": "wsb_solutions",
+  "offerId": "complaint_registration",
+  "source": {
+    "name": "Complaint Registration",
+    "publisher": "Apportunix",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.complaint_registration%7CPAPPID.caed9e71-37eb-4589-8517-4de78728abe0",
+    "lastModified": "2026-03-17T08:22:52.5822832+00:00",
+    "appVersion": "1.38.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.complaintregistration.apportunix.com/",
+    "sourceHash": "sha256:511a5f6a7026d0fc981e16df58eef691d5d50934937161570a5acd87e1eb7f4c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:511a5f6a7026d0fc981e16df58eef691d5d50934937161570a5acd87e1eb7f4c",
+    "mappedOn": null,
+    "summary": "Registers complaints for customers, vendors and items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-nonconformance-capa",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-case-resolve",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-case-analytics",
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Registers complaints for customers, vendors, contacts and items",
+      "User-defined complaint types",
+      "Records resolution, improvement measures and conclusion",
+      "Copy-paste comment editor for correspondence",
+      "Registers costs of complaints",
+      "Compliant with ISO 10002:2014 complaints handling",
+      "Complaint Overview report"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "appId": "PUBID.orangoab1603187061105|AID.orango_easyfx|PAPPID.f4254189-fcbf-418f-8e57-a111dba5f886",
+  "guid": "f4254189-fcbf-418f-8e57-a111dba5f886",
+  "publisherId": "orangoab1603187061105",
+  "offerId": "orango_easyfx",
+  "source": {
+    "name": "Easy FX",
+    "publisher": "Fellowmind Business Applications AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.orangoab1603187061105%7CAID.orango_easyfx%7CPAPPID.f4254189-fcbf-418f-8e57-a111dba5f886",
+    "lastModified": "2026-07-17T11:55:26.8505061+00:00",
+    "appVersion": "28.2.46665.29",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://analytics.clickdimensions.com/cn/ap8g0/easyfx",
+    "sourceHash": "sha256:fbecf8b259431ab58b2ca7f364b4060c3a1a984cd74cbefb8f95151ae5724598"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fbecf8b259431ab58b2ca7f364b4060c3a1a984cd74cbefb8f95151ae5724598",
+    "mappedOn": null,
+    "summary": "VAT and G/L entries in original currency",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Adds Amounts in Currency and Currency Code fields to G/L entries",
+      "VAT reports in original currency from templates",
+      "Supports reconciliation of group balances and elimination of currency effects",
+      "Ready to use immediately after installation"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LU",
+      "NL",
+      "NO",
+      "PL",
+      "SE",
+      "TW",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nb",
+      "nl",
+      "sv",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

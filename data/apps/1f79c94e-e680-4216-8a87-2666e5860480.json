@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.exsion365bv1743682306544|AID.exsiontime|PAPPID.1f79c94e-e680-4216-8a87-2666e5860480",
+  "guid": "1f79c94e-e680-4216-8a87-2666e5860480",
+  "publisherId": "exsion365bv1743682306544",
+  "offerId": "exsiontime",
+  "source": {
+    "name": "ExsionTime Excel Reporting Scheduler",
+    "publisher": "Exsion365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.exsion365bv1743682306544%7CAID.exsiontime%7CPAPPID.1f79c94e-e680-4216-8a87-2666e5860480",
+    "lastModified": "2025-10-17T08:34:11.8467002+00:00",
+    "appVersion": "23.0.45947.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://exsion365.com/en/support",
+    "sourceHash": "sha256:066a927113dc989d96ca93f42ff770c17160a957b88d4a3f6700507d7c2745a8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:066a927113dc989d96ca93f42ff770c17160a957b88d4a3f6700507d7c2745a8",
+    "mappedOn": null,
+    "summary": "Schedules execution of Exsion Excel reports",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-excel-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-setup"
+    ],
+    "claims": [
+      "Schedules Exsion Reporting reports to run automatically in BC",
+      "Automates recurring report runs across companies",
+      "Monitors report status with execution feedback",
+      "Users define execution times and receive notifications",
+      "Supports daily, weekly or monthly reports"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Exsion Reporting in Excel"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_advanced_logistics|PAPPID.a5d251c8-af5d-43d1-a8b3-784338f1757e",
+  "guid": "a5d251c8-af5d-43d1-a8b3-784338f1757e",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_advanced_logistics",
+  "source": {
+    "name": "Linc Advanced Logistics",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_advanced_logistics%7CPAPPID.a5d251c8-af5d-43d1-a8b3-784338f1757e",
+    "lastModified": "2026-04-29T11:03:11.8568374+00:00",
+    "appVersion": "26.26.2310.610",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-Advanced-Logistics",
+    "sourceHash": "sha256:9125b2a0100a7add0f294fba5de93d2d8e77963403fe0863296219791a1fa669"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9125b2a0100a7add0f294fba5de93d2d8e77963403fe0863296219791a1fa669",
+    "mappedOn": null,
+    "summary": "Links purchase and sales, as well as transfer documents, to logistics containers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-ux-custom-fields"
+    ],
+    "claims": [
+      "Create logistics containers and link to transactions",
+      "Links to sales/purchase orders and invoices and transfer orders",
+      "Container info carried to posted documents",
+      "Up to 20 custom fields on containers available in report datasets"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

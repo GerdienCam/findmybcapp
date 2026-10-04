@@ -1,0 +1,110 @@
+{
+  "appId": "PUBID.softera_baltic|AID.softeradokubank|PAPPID.74689c09-2ed3-4e69-a2e8-c9310a271b9a",
+  "guid": "74689c09-2ed3-4e69-a2e8-c9310a271b9a",
+  "publisherId": "softera_baltic",
+  "offerId": "softeradokubank",
+  "source": {
+    "name": "Bankfeed - bank statement import & reconciliation",
+    "publisher": "Softera Baltic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softera_baltic%7CAID.softeradokubank%7CPAPPID.74689c09-2ed3-4e69-a2e8-c9310a271b9a",
+    "lastModified": "2026-09-15T14:14:14.8180795+00:00",
+    "appVersion": "230.4.26.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://instrukcijos.softera.lt/docs/manual-en",
+    "sourceHash": "sha256:1d532aabb2b65dea39964cb80e5ece0277a4f2472fe6040574930ae8f1c6c1dc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1d532aabb2b65dea39964cb80e5ece0277a4f2472fe6040574930ae8f1c6c1dc",
+    "mappedOn": null,
+    "summary": "Bank statement import and payment reconciliation",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Imports bank statements and transactions automatically",
+      "Matches transactions to G/L accounts, customers, vendors and invoices",
+      "Links to over 15,600 banks and payment platforms",
+      "Multiple bank accounts and payment platform accounts",
+      "AI-powered payment reconciliation",
+      "Separates bank charges automatically",
+      "Open banking connectivity",
+      "Free 30-day trial",
+      "Installation takes minutes"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "CA",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LI",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SI",
+      "SK",
+      "US"
+    ],
+    "languages": [
+      "bg",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "hu",
+      "lt",
+      "lv",
+      "pl",
+      "ro",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Banks"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

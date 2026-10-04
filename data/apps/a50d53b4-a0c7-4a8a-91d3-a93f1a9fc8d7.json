@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex058_scmsalesforecastingandprediction|PAPPID.a50d53b4-a0c7-4a8a-91d3-a93f1a9fc8d7",
+  "guid": "a50d53b4-a0c7-4a8a-91d3-a93f1a9fc8d7",
+  "publisherId": "eos_solutions",
+  "offerId": "ex058_scmsalesforecastingandprediction",
+  "source": {
+    "name": "SCM sales forecasting and prediction",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex058_scmsalesforecastingandprediction%7CPAPPID.a50d53b4-a0c7-4a8a-91d3-a93f1a9fc8d7",
+    "lastModified": "2026-04-10T08:33:44.9795842+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func.html",
+    "sourceHash": "sha256:73f1c9eaa45cf2c4e44887efbf71584f8cc6bb6e07d8cc9d721a050f13f015b9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:73f1c9eaa45cf2c4e44887efbf71584f8cc6bb6e07d8cc9d721a050f13f015b9",
+    "mappedOn": null,
+    "summary": "Demand forecasting and planning parameter optimization",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exports data to PowerPredictive via API",
+      "Imports PowerPredictive forecast into BC",
+      "Item status and forecast via customizable formulas",
+      "Updates reorder point and safety stock",
+      "Item- and location-specific parameters via SKUs"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PowerPredictive"
+    ],
+    "requires": [
+      "PowerPredictive"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

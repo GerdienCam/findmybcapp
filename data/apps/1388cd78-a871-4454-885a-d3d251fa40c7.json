@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.xenatusglobal|AID.xgl_distribution|PAPPID.1388cd78-a871-4454-885a-d3d251fa40c7",
+  "guid": "1388cd78-a871-4454-885a-d3d251fa40c7",
+  "publisherId": "xenatusglobal",
+  "offerId": "xgl_distribution",
+  "source": {
+    "name": "Xenatus - Distribution",
+    "publisher": "Xenatus Global",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xenatusglobal%7CAID.xgl_distribution%7CPAPPID.1388cd78-a871-4454-885a-d3d251fa40c7",
+    "lastModified": "2026-05-19T06:31:38.7546488+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.xenatusglobal.com/contact",
+    "sourceHash": "sha256:56e6e01a6376a71b885607d4cceeddb689a054cc2e2a5a9ad102115162383f1b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:56e6e01a6376a71b885607d4cceeddb689a054cc2e2a5a9ad102115162383f1b",
+    "mappedOn": null,
+    "summary": "Distribution company process automation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-wholesale-trading",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-commissions",
+      "ng-loc-epr-packaging"
+    ],
+    "claims": [
+      "Import costing workflow allocating shipment costs to items",
+      "Report of charges, costs, prices and margins before posting",
+      "Approval of costing results",
+      "Salesperson route management with visit recording",
+      "Sales orders from route document list",
+      "Delivery dispatching per vehicle and driver by post code",
+      "Customer rebates on total sales or item categories",
+      "Salesperson commissions",
+      "Recycling fees via item charges",
+      "Mobile sales capture"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.b2f|AID.b2f_mdm|PAPPID.a8cd97bd-999c-412c-9368-015f3af5068e",
+  "guid": "a8cd97bd-999c-412c-9368-015f3af5068e",
+  "publisherId": "b2f",
+  "offerId": "b2f_mdm",
+  "source": {
+    "name": "B2F Master Data Management",
+    "publisher": "B2F",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_mdm%7CPAPPID.a8cd97bd-999c-412c-9368-015f3af5068e",
+    "lastModified": "2026-09-24T07:56:45.5962438+00:00",
+    "appVersion": "28.0.22819.22819",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2025/07/MDMUserManual.pdf",
+    "sourceHash": "sha256:55c47be4d5f5a2135a0041935c2193a57cd3d898e4829f0f93a625cc382f7fd5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:55c47be4d5f5a2135a0041935c2193a57cd3d898e4829f0f93a625cc382f7fd5",
+    "mappedOn": null,
+    "summary": "Centralizes and syncs master data across companies",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-setup"
+    ],
+    "claims": [
+      "Master data is managed from one publishing company",
+      "Templates define which tables and fields are synchronized",
+      "Template status workflow New, In Progress, Approved, Closed",
+      "Sequence numbers control transfer order of dependent records",
+      "Per-company field-level exceptions for designated users",
+      "Scheduled synchronization via job queue",
+      "Pending synchronization list and error actions",
+      "Requires BC 20.x or later, cloud SaaS"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

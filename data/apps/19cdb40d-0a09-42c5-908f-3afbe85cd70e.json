@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.adfocomsoftware|AID.adfocom-local-operations|PAPPID.19cdb40d-0a09-42c5-908f-3afbe85cd70e",
+  "guid": "19cdb40d-0a09-42c5-908f-3afbe85cd70e",
+  "publisherId": "adfocomsoftware",
+  "offerId": "adfocom-local-operations",
+  "source": {
+    "name": "Adfocom Local Operations",
+    "publisher": "Adfocom Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.adfocomsoftware%7CAID.adfocom-local-operations%7CPAPPID.19cdb40d-0a09-42c5-908f-3afbe85cd70e",
+    "lastModified": "2026-08-17T12:39:44.3845415+00:00",
+    "appVersion": "26.2.1.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.adfocom.nl/helpdesk/",
+    "sourceHash": "sha256:3af296ee6652982f7557a3f04f87a04c6a2c6fe8b4bf97cd693262619a7514fd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3af296ee6652982f7557a3f04f87a04c6a2c6fe8b4bf97cd693262619a7514fd",
+    "mappedOn": null,
+    "summary": "Local file handling and printer control from cloud BC",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-printing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Prints documents via file-based output",
+      "Direct RAW printer control for label printers such as Zebra",
+      "Saves, moves and deletes files in local directories",
+      "Reads and processes local folder structures",
+      "FTP file processing",
+      "Generates advanced Excel files using EPPlus",
+      "Image resizing and processing",
+      "Connects BC SaaS to locally installed services"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Local file system",
+      "FTP",
+      "Zebra printers"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

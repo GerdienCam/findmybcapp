@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.cosmoconsultag|AID.bmd-ntcs-interface|PAPPID.43a75289-b1b5-4dfd-94a8-39c9d452636f",
+  "guid": "43a75289-b1b5-4dfd-94a8-39c9d452636f",
+  "publisherId": "cosmoconsultag",
+  "offerId": "bmd-ntcs-interface",
+  "source": {
+    "name": "COSMO BMD NTCS Interface",
+    "publisher": "COSMO CONSULT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.bmd-ntcs-interface%7CPAPPID.43a75289-b1b5-4dfd-94a8-39c9d452636f",
+    "lastModified": "2026-09-28T07:01:38.0614075+00:00",
+    "appVersion": "25.1.1.367705",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cosmoconsult.com/de-de/business-central/bmd-ntcs-interface/",
+    "sourceHash": "sha256:73ac1d2f7e4e3654852251bb3b7e73a96b1c6c54e6d4d898e545bf13f5c56b1f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:73ac1d2f7e4e3654852251bb3b7e73a96b1c6c54e6d4d898e545bf13f5c56b1f",
+    "mappedOn": null,
+    "summary": "Exchanges master data, entries and payments with BMD accounting",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Exchanges reference data, G/L documents and payments with BMD NTCS"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "IE",
+      "IT",
+      "PL",
+      "PT",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "BMD NTCS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

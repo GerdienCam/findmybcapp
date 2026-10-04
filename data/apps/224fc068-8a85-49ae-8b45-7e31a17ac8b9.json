@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_docpilotfilesystem|PAPPID.224fc068-8a85-49ae-8b45-7e31a17ac8b9",
+  "guid": "224fc068-8a85-49ae-8b45-7e31a17ac8b9",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_docpilotfilesystem",
+  "source": {
+    "name": "DocPilot FileSystem",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_docpilotfilesystem%7CPAPPID.224fc068-8a85-49ae-8b45-7e31a17ac8b9",
+    "lastModified": "2025-11-25T08:57:02.1163837+00:00",
+    "appVersion": "26.0.0.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.nubetech.it/en_US/docpilot-filesystem/docpilotfilesystem",
+    "sourceHash": "sha256:ee660a055aa6e1c4987d6552aff9d1f5dad3ad07c155541b818f020d51eff42e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ee660a055aa6e1c4987d6552aff9d1f5dad3ad07c155541b818f020d51eff42e",
+    "mappedOn": null,
+    "summary": "Stores attachments on a file system",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Routes attachments on master data, sales and purchase documents to the file system",
+      "Edit Word, Excel and PowerPoint files in OneDrive and sync back",
+      "Opens any file on the PC with its default program",
+      "Upload single or multiple files from a FactBox",
+      "Capture and archive photos with the device camera"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "File System",
+      "LocalHub",
+      "GroundControl",
+      "OneDrive"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

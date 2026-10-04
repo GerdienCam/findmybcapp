@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.aa5bced8-312d-4034-bfe2-e43e9ede9299|PAPPID.c526b3e9-b8ca-4683-81ba-fcd5f6b1472a",
+  "guid": "c526b3e9-b8ca-4683-81ba-fcd5f6b1472a",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "aa5bced8-312d-4034-bfe2-e43e9ede9299",
+  "source": {
+    "name": "Sales and Inventory Forecast",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.aa5bced8-312d-4034-bfe2-e43e9ede9299%7CPAPPID.c526b3e9-b8ca-4683-81ba-fcd5f6b1472a",
+    "lastModified": "2024-11-21T08:40:56.8212142+00:00",
+    "appVersion": "16.0.11240.12268",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?LinkId=808039",
+    "sourceHash": "sha256:032a1c0b79cbfe0ff0fb09efb6d33a0fdc89e80dbf141d4264e0e042e5fabe80"
+  },
+  "mapping": {
+    "sourceHash": "sha256:032a1c0b79cbfe0ff0fb09efb6d33a0fdc89e80dbf141d4264e0e042e5fabe80",
+    "mappedOn": null,
+    "summary": "Forecasts item sales and inventory needs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Predicts future demand from historical data using Cortana Intelligence",
+      "Indicates when to replenish stock",
+      "Supports procurement decisions with forecasts"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nb",
+      "nl",
+      "ru",
+      "sv"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

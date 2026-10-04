@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.auziliumas1600196934458|AID.auzilium_payroll|PAPPID.abbf81d5-a19a-49d0-876e-895939f5ce38",
+  "guid": "abbf81d5-a19a-49d0-876e-895939f5ce38",
+  "publisherId": "auziliumas1600196934458",
+  "offerId": "auzilium_payroll",
+  "source": {
+    "name": "Auzilium Payroll",
+    "publisher": "Auzilium AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.auziliumas1600196934458%7CAID.auzilium_payroll%7CPAPPID.abbf81d5-a19a-49d0-876e-895939f5ce38",
+    "lastModified": "2026-09-29T19:11:03.3800062+00:00",
+    "appVersion": "1.5.9.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.evidi.com/no/kontakt",
+    "sourceHash": "sha256:507bc8eee6cd2b1c6b1082f9f5e93f0cd5d5720c56842009e78bb6c64d5d1754"
+  },
+  "mapping": {
+    "sourceHash": "sha256:507bc8eee6cd2b1c6b1082f9f5e93f0cd5d5720c56842009e78bb6c64d5d1754",
+    "mappedOn": null,
+    "summary": "Imports Visma Payroll payment data into general journals",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Imports payroll payment data from Visma Payroll into BC general journals",
+      "Imported payroll lines are reviewed and posted in the general journal"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Visma Payroll"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

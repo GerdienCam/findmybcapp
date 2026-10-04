@@ -1,0 +1,64 @@
+{
+  "appId": "TYPE.connect|PUBID.fourvision|AID.hr-request-advanced-hrm-bc|PAPPID.3944fa8d-381f-45cf-bccb-69a748a2f01e",
+  "guid": "3944fa8d-381f-45cf-bccb-69a748a2f01e",
+  "publisherId": "fourvision",
+  "offerId": "hr-request-advanced-hrm-bc",
+  "source": {
+    "name": "HR Request for Dynamics 365 Business Central",
+    "publisher": "FourVision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.fourvision%7CAID.hr-request-advanced-hrm-bc%7CPAPPID.3944fa8d-381f-45cf-bccb-69a748a2f01e",
+    "lastModified": "2025-03-02T15:47:10.1498497+00:00",
+    "appVersion": "4.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://portal.fourvision.com/",
+    "sourceHash": "sha256:297b35a9ad63ff6708a522fcc40c9ce80e730177a8b76970a40cfe9f0b1857b3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:297b35a9ad63ff6708a522fcc40c9ce80e730177a8b76970a40cfe9f0b1857b3",
+    "mappedOn": null,
+    "summary": "HR request forms and approval workflows",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-hr-recruiting"
+    ],
+    "claims": [
+      "Employees track their requests and add comments via personal dashboards",
+      "Standard request and approval flows for hiring requisitions, transfers, terminations and position creation",
+      "Configurable request forms",
+      "Role-based access and delegation for approval steps",
+      "Connects to iCIMS, Dynamics ATS and Microsoft Recruitment ATS",
+      "In-system and email notifications on tasks and status changes"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "iCIMS Talent Cloud",
+      "Dynamics ATS",
+      "Microsoft Recruitment ATS",
+      "Microsoft Teams",
+      "Outlook"
+    ],
+    "requires": [
+      "FourVision Advanced HRM"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

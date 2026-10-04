@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.xtensionit|AID.xtekachingconnector|PAPPID.3d19d6f3-0edb-4579-9ca8-f21e39f0cebc",
+  "guid": "3d19d6f3-0edb-4579-9ca8-f21e39f0cebc",
+  "publisherId": "xtensionit",
+  "offerId": "xtekachingconnector",
+  "source": {
+    "name": "Ka-ching POS Connector",
+    "publisher": "XtensionIT Aps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xtekachingconnector%7CPAPPID.3d19d6f3-0edb-4579-9ca8-f21e39f0cebc",
+    "lastModified": "2025-02-28T11:11:34.9432509+00:00",
+    "appVersion": "1.0.34.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ka-ching.zendesk.com/hc/en-us",
+    "sourceHash": "sha256:41d0f796b00d7aa2acf266ef4274abf0e42da81c5f240af47f1998b57e2f8ff1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:41d0f796b00d7aa2acf266ef4274abf0e42da81c5f240af47f1998b57e2f8ff1",
+    "mappedOn": null,
+    "summary": "Transfers Ka-ching POS financial statements to BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop",
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Transfers Ka-ching cash register financial statements to BC automatically",
+      "Cloud-based POS",
+      "Integrates Shopify with the POS so products stay updated",
+      "Machine learning product recommendations for store associates",
+      "Unifies e-commerce inventory with physical store stock"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Ka-ching",
+      "Shopify"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

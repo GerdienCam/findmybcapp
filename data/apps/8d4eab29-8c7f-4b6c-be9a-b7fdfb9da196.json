@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.continia365|AID.8d4eab29-8c7f-4b6c-be9a-b7fdfb9da196|PAPPID.8d4eab29-8c7f-4b6c-be9a-b7fdfb9da196",
+  "guid": "8d4eab29-8c7f-4b6c-be9a-b7fdfb9da196",
+  "publisherId": "continia365",
+  "offerId": "8d4eab29-8c7f-4b6c-be9a-b7fdfb9da196",
+  "source": {
+    "name": "Continia Expense Management",
+    "publisher": "Continia Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.8d4eab29-8c7f-4b6c-be9a-b7fdfb9da196%7CPAPPID.8d4eab29-8c7f-4b6c-be9a-b7fdfb9da196",
+    "lastModified": "2026-09-30T21:45:27.8958351+00:00",
+    "appVersion": "29.0.0.214663",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.continia.com/en-us/continia-expense-management",
+    "sourceHash": "sha256:b9c0143d4ba8911147c6d8562e03d7c9055fa9acd998ab98e6c2c589bd02504f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b9c0143d4ba8911147c6d8562e03d7c9055fa9acd998ab98e6c2c589bd02504f",
+    "mappedOn": null,
+    "summary": "Mobile registration, approval and posting of employee expenses and receipts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-contracts",
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Receipts uploaded via mobile expense app or expense portal",
+      "OCR fills in fields from a receipt photo",
+      "Imports and reconciles credit card transactions from major providers",
+      "Missing receipt creates incomplete expense report with reminder",
+      "Mileage routes with Google Maps integration",
+      "Per diem allowances for accommodation and meals",
+      "Purchase contracts and recurring costs with review notifications",
+      "Audit-proof archive certified in Germany"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Google Maps",
+      "credit card providers"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

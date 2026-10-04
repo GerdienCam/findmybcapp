@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.b2f|AID.b2f-htrml|PAPPID.57307410-51de-4245-8b6c-9e6c6539fc62",
+  "guid": "57307410-51de-4245-8b6c-9e6c6539fc62",
+  "publisherId": "b2f",
+  "offerId": "b2f-htrml",
+  "source": {
+    "name": "B2F Mobile Warehouse Management",
+    "publisher": "B2F",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f-htrml%7CPAPPID.57307410-51de-4245-8b6c-9e6c6539fc62",
+    "lastModified": "2026-09-24T07:58:00.501357+00:00",
+    "appVersion": "28.0.22819.22819",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.b2f.com.tr/en/mobile-warehouse-management-app/",
+    "sourceHash": "sha256:0c95e284fa0ac2895daf2523ba8b1f66711536335557a9c45689e2a045946a41"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0c95e284fa0ac2895daf2523ba8b1f66711536335557a9c45689e2a045946a41",
+    "mappedOn": null,
+    "summary": "Mobile warehouse operations on handheld devices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Warehouse processes on handheld devices with barcode scanning",
+      "Checks documents against actual scanned transactions",
+      "Physical inventory counting by scanning",
+      "Random movements between racks",
+      "Document status shown with colors",
+      "Menus and subform functions are shown or hidden per customer",
+      "Supports linear and 2D barcodes, GS1 format"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

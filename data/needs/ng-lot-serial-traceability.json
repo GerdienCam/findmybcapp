@@ -1,0 +1,253 @@
+{
+  "id": "ng-lot-serial-traceability",
+  "order": 66,
+  "label": "Lot and serial tracking and recalls",
+  "description": "Defining lot, serial and shelf-life rules and tracing lots and serials through purchasing, production and sales.",
+  "type": "bpc",
+  "area": "Manufacturing",
+  "relevance": "high",
+  "statements": [
+    "Lot and serial tracking and recalls",
+    "Defining lot, serial and shelf-life rules and tracing lots and serials through purchasing, production and sales.",
+    "We sell some items by the box and buy them by the pallet and the unit conversions keep going wrong",
+    "How do I make BC force a lot number on some items but not others?",
+    "Food products need a best before date captured on every receipt and we have no rule for that",
+    "catch weight items Business Central",
+    "Our cheese is sold per piece but invoiced per kilo, BC cannot handle both quantities",
+    "Is there an app that auto-generates serial numbers in our own format when we receive items?",
+    "We want expired stock to be impossible to ship, how do we set shelf life per item?",
+    "Nobody decided which items need serial tracking so the item cards are a mess",
+    "Batch attributes like fat percentage or colour shade, can we store them per lot?",
+    "units of measure per item conversion problems",
+    "We need a rule that the oldest lot is always reserved first for customers",
+    "Our pharma items need lot plus expiry tracking but our hardware items should stay simple, what's the best setup?",
+    "If a raw material lot is bad, we need to know which customers got finished goods made from it",
+    "We have to do a mock recall for our food audit and it takes days",
+    "lot traceability manufacturing BC",
+    "How do I trace a serial number back to the components and operators that built it?",
+    "Item tracing in BC is hard to read, is there a better app?",
+    "Our customer asks which supplier batch went into the product they bought",
+    "We need forward and backward traceability for ISO 22000",
+    "A supplier recalled a component and we need to find every finished product using it",
+    "Is there a graphical tree view of lot genealogy?",
+    "We need to trace which production order, machine and shift made a specific batch",
+    "Traceability breaks when we mix several raw material lots in one batch",
+    "Medical device customers require full device history records",
+    "We want to print a traceability report for a finished lot in one click",
+    "Which of our customers received batches made on the day the machine failed?",
+    "Our auditor wants to see one lot traced from receipt to shipment within four hours",
+    "Serial numbers of sub-assemblies inside the final product are not recorded",
+    "Recall readiness: who got what, and how much is still in stock?",
+    "We need to trace batches through rework and repacking too",
+    "Trace on-hand stock back to the production run it came from",
+    "We want traceability without forcing operators to type lot numbers by hand"
+  ],
+  "questions": [
+    {
+      "id": "what",
+      "text": "What do you need to track your stock by?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Lot or batch numbers",
+          "patterns": [
+            "\\blots?\\b",
+            "batch",
+            "sublot"
+          ]
+        },
+        {
+          "label": "Serial numbers",
+          "patterns": [
+            "serial"
+          ]
+        },
+        {
+          "label": "Pallets, packages or license plates",
+          "patterns": [
+            "pallet",
+            "sscc",
+            "package",
+            "license plat",
+            "container",
+            "parcel"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Lot or batch numbers": 0.81,
+        "Serial numbers": 0.21,
+        "Pallets, packages or license plates": 0.36
+      }
+    },
+    {
+      "id": "industry",
+      "text": "Which best describes what you make or sell?",
+      "options": [
+        {
+          "label": "Food, drink or agricultural products",
+          "patterns": [
+            "food",
+            "beverage",
+            "seafood",
+            "wine",
+            "grape",
+            "allergen",
+            "agricultur",
+            "grower",
+            "fruit",
+            "haccp"
+          ]
+        },
+        {
+          "label": "Chemicals, metals, cosmetics or pharma",
+          "patterns": [
+            "chemic",
+            "metal",
+            "cosmetic",
+            "hazard",
+            "life science",
+            "gmp",
+            "medicine",
+            "pharma"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Food, drink or agricultural products": 0.32,
+        "Chemicals, metals, cosmetics or pharma": 0.11
+      }
+    },
+    {
+      "id": "recall",
+      "text": "Do you need to trace a batch from supplier to customer, for example for a recall?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "recall",
+            "forward",
+            "backward",
+            "traceab",
+            "trac(e|ing) ",
+            "grower to",
+            "end-to-end"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.32
+      }
+    },
+    {
+      "id": "quality",
+      "text": "Do you need to block stock that fails quality checks or certificates?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "quarantin",
+            "certificat",
+            "\\bcoa\\b",
+            "inspection",
+            "quality",
+            "restrict",
+            "block"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.32
+      }
+    },
+    {
+      "id": "expiry",
+      "text": "Do your products have an expiry date or shelf life?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "expir",
+            "shelf life",
+            "fefo",
+            "freshness",
+            "best before",
+            "perishable"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.26
+      }
+    },
+    {
+      "id": "labels",
+      "text": "Do you scan or print barcode labels for lots and pallets?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "label",
+            "barcode",
+            "qr code",
+            "gs1",
+            "scan"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.15
+      }
+    },
+    {
+      "id": "lotno",
+      "text": "Should BC create meaningful lot numbers for you automatically?",
+      "help": "For example built from date, item or supplier.",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "lot numbers? (assigned|auto|built)",
+            "lot number (template|structure)",
+            "lot profiles? to generate",
+            "auto(matic)? lot",
+            "lot algorithm",
+            "assigned automatically"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.09
+      }
+    }
+  ]
+}

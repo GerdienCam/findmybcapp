@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.singhammeritconsultingag1598359803264|AID.1019|PAPPID.cc6f43da-6da1-4835-aed0-d67236626d18",
+  "guid": "cc6f43da-6da1-4835-aed0-d67236626d18",
+  "publisherId": "singhammeritconsultingag1598359803264",
+  "offerId": "1019",
+  "source": {
+    "name": "DYCE API Connector for Dataverse",
+    "publisher": "Singhammer IT Consulting AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1019%7CPAPPID.cc6f43da-6da1-4835-aed0-d67236626d18",
+    "lastModified": "2026-09-27T07:23:06.8877699+00:00",
+    "appVersion": "2026.9.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.dyce.cloud/docs/acd",
+    "sourceHash": "sha256:e7fd6f7654bfc8c961729d51b6b2ab5aa72786ffd09977d57fe2853fac3e39b5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e7fd6f7654bfc8c961729d51b6b2ab5aa72786ffd09977d57fe2853fac3e39b5",
+    "mappedOn": null,
+    "summary": "Integrates Dynamics 365 Sales and Dataverse with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Exposes BC tables as extendable API endpoints",
+      "Adds unique IDs for cross-system matching",
+      "Bi-directional sync of customers, contacts and opportunities with Dynamics 365 Sales",
+      "Typically orchestrated with Azure Functions",
+      "Shows Dataverse IDs and sales information inside BC",
+      "Works with wysa SalesCentral and DataBridge; the wysa Azure connector is charged"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Professional services"
+    ],
+    "connectsTo": [
+      "Dynamics 365 Sales",
+      "Dataverse",
+      "Azure Functions"
+    ],
+    "requires": [
+      "wysa SalesCentral / DataBridge"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

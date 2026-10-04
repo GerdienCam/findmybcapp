@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.alterna|AID.02d45a61-5dfd-4c78-9a58-ab06e95a24bf|PAPPID.02d45a61-5dfd-4c78-9a58-ab06e95a24bf",
+  "guid": "02d45a61-5dfd-4c78-9a58-ab06e95a24bf",
+  "publisherId": "alterna",
+  "offerId": "02d45a61-5dfd-4c78-9a58-ab06e95a24bf",
+  "source": {
+    "name": "Arxeia 365 Connector for EWS",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.02d45a61-5dfd-4c78-9a58-ab06e95a24bf%7CPAPPID.02d45a61-5dfd-4c78-9a58-ab06e95a24bf",
+    "lastModified": "2026-07-22T01:24:07.0624867+00:00",
+    "appVersion": "2.2.16.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/arxeia-365-connector-ews/",
+    "sourceHash": "sha256:03d757810fd2e8b1691ecdafab512c3d655ac803c73886d0b2205f36616bb3d4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:03d757810fd2e8b1691ecdafab512c3d655ac803c73886d0b2205f36616bb3d4",
+    "mappedOn": null,
+    "summary": "Links EWS shipments with Arxeia 365 document management",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends Extended Warehouse Suite posted shipments to Arxeia 365 document management",
+      "Manages metadata for EWS posted shipments",
+      "Free; requires Extended Warehouse Suite and Arxeia 365 Connector subscriptions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [
+      "Arxeia 365"
+    ],
+    "requires": [
+      "Alterna Extended Warehouse Suite",
+      "Arxeia 365 Connector"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

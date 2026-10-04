@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex02901_emptiesmanagementforclosedocuments|PAPPID.67ab752e-cb75-4809-b481-be869cceb2e1",
+  "guid": "67ab752e-cb75-4809-b481-be869cceb2e1",
+  "publisherId": "eos_solutions",
+  "offerId": "ex02901_emptiesmanagementforclosedocuments",
+  "source": {
+    "name": "Empties Management for Close Documents",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex02901_emptiesmanagementforclosedocuments%7CPAPPID.67ab752e-cb75-4809-b481-be869cceb2e1",
+    "lastModified": "2026-09-07T12:54:17.335075+00:00",
+    "appVersion": "28.0.10.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/empties-management-epm.html",
+    "sourceHash": "sha256:18e8d0eed620de341326fda02c8c35d60163bed6d0fa7cc8b1a50e7042518337"
+  },
+  "mapping": {
+    "sourceHash": "sha256:18e8d0eed620de341326fda02c8c35d60163bed6d0fa7cc8b1a50e7042518337",
+    "mappedOn": null,
+    "summary": "Manages returnable load units without invoicing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Auto-closes sales shipment lines for reusable empties without invoicing",
+      "Enabled in packaging instructions or manually from document empties page",
+      "Free; requires EOS Empty Management, Over- and Under-Delivery Quantities and Close Documents Without Invoicing"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Empties Management",
+      "EOS Over- and Under-Delivery Quantities",
+      "EOS Close Documents Without Invoicing"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

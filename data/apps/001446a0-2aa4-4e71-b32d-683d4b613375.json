@@ -1,0 +1,75 @@
+{
+  "appId": "TYPE.connect|PUBID.leneoas1603784898274|AID.leneo-saasbcv1|PAPPID.001446a0-2aa4-4e71-b32d-683d4b613375",
+  "guid": "001446a0-2aa4-4e71-b32d-683d4b613375",
+  "publisherId": "leneoas1603784898274",
+  "offerId": "leneo-saasbcv1",
+  "source": {
+    "name": "Leneo",
+    "publisher": "LENEO A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.leneoas1603784898274%7CAID.leneo-saasbcv1%7CPAPPID.001446a0-2aa4-4e71-b32d-683d4b613375",
+    "lastModified": "2024-11-19T22:53:28.1690897+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "http://www.leneo.com/",
+    "sourceHash": "sha256:eb69a5c2fb262929eb4214b296d6e4549dd08e3bccfe22442fed95a9bd8ab2c7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eb69a5c2fb262929eb4214b296d6e4549dd08e3bccfe22442fed95a9bd8ab2c7",
+    "mappedOn": null,
+    "summary": "Rental, leasing and subscription billing platform",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-leasing-finance",
+      "ng-svc-assets"
+    ],
+    "claims": [
+      "Short-term rental management with availability and duration tracking",
+      "Financial and operational leasing",
+      "Product as a Service including maintenance, upgrades, training and insurance",
+      "Subscription models with recurring revenue",
+      "Usage-based calculation and invoicing including IoT data",
+      "End-to-end contract management",
+      "Asset location and history tracking",
+      "Integrates with digital signature systems and credit bureaus",
+      "Supports Finnish, Swedish, Danish, Norwegian, German and English"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "fi",
+      "no",
+      "sv"
+    ],
+    "industries": [
+      "Leasing",
+      "Rental"
+    ],
+    "connectsTo": [
+      "Leneo"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

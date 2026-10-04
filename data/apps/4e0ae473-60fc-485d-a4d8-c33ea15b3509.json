@@ -1,0 +1,68 @@
+{
+  "appId": "TYPE.connect|PUBID.dynamicscentersoftwaresolutionsllc|AID.dc365-pdc-management-bc|PAPPID.4e0ae473-60fc-485d-a4d8-c33ea15b3509",
+  "guid": "4e0ae473-60fc-485d-a4d8-c33ea15b3509",
+  "publisherId": "dynamicscentersoftwaresolutionsllc",
+  "offerId": "dc365-pdc-management-bc",
+  "source": {
+    "name": "Post Dated Cheque Management for Business Central",
+    "publisher": "DynamicsCenter Software Solutions LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.dynamicscentersoftwaresolutionsllc%7CAID.dc365-pdc-management-bc%7CPAPPID.4e0ae473-60fc-485d-a4d8-c33ea15b3509",
+    "lastModified": "2026-09-01T06:42:08.8542711+00:00",
+    "appVersion": "10.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dynamicscenter.com/",
+    "sourceHash": "sha256:3e46e615fa55d966d1301d35f8111a69c620c63c8322476d2d639664290acd94"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3e46e615fa55d966d1301d35f8111a69c620c63c8322476d2d639664290acd94",
+    "mappedOn": null,
+    "summary": "Post-dated and security cheque custody and clearing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast",
+      "ng-bank-reconciliation"
+    ],
+    "claims": [
+      "Customer and vendor post dated cheques on one register",
+      "Full cheque lifecycle: entry, deposit, maturity, clearing, return unpaid, cancellation, reversal with postings",
+      "Custody location and holder tracked for each physical cheque",
+      "Security/guarantee cheques flagged, blocked from lodgement and excluded from forecast",
+      "Replacement cheques linked to the original returned cheque",
+      "Bounce charges and recoveries posted to configured accounts",
+      "Deposit and clearing worksheet grouped by bank account",
+      "Ageing by maturity buckets per date and party",
+      "Feeds BC cash flow worksheet based on cleared date",
+      "Installed from AppSource"
+    ],
+    "countries": [
+      "AE"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

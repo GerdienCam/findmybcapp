@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.dynamics_dossier|AID.ocrdocs|PAPPID.5e798e0c-5926-4e70-aa5a-f0235b5d3a9e",
+  "guid": "5e798e0c-5926-4e70-aa5a-f0235b5d3a9e",
+  "publisherId": "dynamics_dossier",
+  "offerId": "ocrdocs",
+  "source": {
+    "name": "OCRDocs Document Scanning",
+    "publisher": "Q-Team Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics_dossier%7CAID.ocrdocs%7CPAPPID.5e798e0c-5926-4e70-aa5a-f0235b5d3a9e",
+    "lastModified": "2026-09-28T10:09:44.1163658+00:00",
+    "appVersion": "28.0.46220.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.q-teamsolutions.com/product/ocrdocs/",
+    "sourceHash": "sha256:a3cc751469583ad9686b61832caafd5491567f5474b9fe7aaf5b156d6a5ac5cb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a3cc751469583ad9686b61832caafd5491567f5474b9fe7aaf5b156d6a5ac5cb",
+    "mappedOn": null,
+    "summary": "OCR capture of supplier invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-einvoicing"
+    ],
+    "claims": [
+      "No templates required",
+      "Capture via drag and drop, upload or email with Outlook integration",
+      "Stores documents as Incoming Documents",
+      "Main and sub-attachments",
+      "Supports XML, UBL and Peppol e-invoices",
+      "Extracts and validates invoice data",
+      "Creates purchase invoices automatically",
+      "Handles several G/L accounts, dimensions, VAT and amounts on one invoice",
+      "Matches posted purchase receipts",
+      "Pay-per-scan document credits",
+      "Implementation in hours, 2-4 hours training"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "OCR-Docs.com",
+      "Outlook"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_transaction",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.brightcom_3111464|AID.brc_extended_ic|PAPPID.82abf7bc-76fd-4b07-bf87-d994e98f4edb",
+  "guid": "82abf7bc-76fd-4b07-bf87-d994e98f4edb",
+  "publisherId": "brightcom_3111464",
+  "offerId": "brc_extended_ic",
+  "source": {
+    "name": "BRC Extended IC",
+    "publisher": "BrightCom Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.brc_extended_ic%7CPAPPID.82abf7bc-76fd-4b07-bf87-d994e98f4edb",
+    "lastModified": "2026-10-01T14:17:25.6552989+00:00",
+    "appVersion": "28.0.35612.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.brightcom.se/sv/Products/BRCExtendedIC",
+    "sourceHash": "sha256:cbb9e3907e464657a36ec91f818defc69b2b7d9402e53c18c432a3e19d95db7b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cbb9e3907e464657a36ec91f818defc69b2b7d9402e53c18c432a3e19d95db7b",
+    "mappedOn": null,
+    "summary": "Automates intercompany orders, shipments and invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Generate and sync IC orders, shipments, invoices, credit memos",
+      "Multi-direction and circular flows",
+      "Cross-entity drop shipment",
+      "Cross-company inventory transfers",
+      "Two-way sync of status, quantities, delivery dates",
+      "Transaction logs and sync status",
+      "Setup in BC without code or middleware"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

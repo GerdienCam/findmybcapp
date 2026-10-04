@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_planning_and_dispatch|PAPPID.067d426d-6654-429d-a6d7-7118731f9d70",
+  "guid": "067d426d-6654-429d-a6d7-7118731f9d70",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_planning_and_dispatch",
+  "source": {
+    "name": "Dynavision Planning and Dispatch",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_planning_and_dispatch%7CPAPPID.067d426d-6654-429d-a6d7-7118731f9d70",
+    "lastModified": "2026-10-02T08:50:52.5183141+00:00",
+    "appVersion": "28.0.0.49968",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Planning_and_Dispatch_Manual.pdf",
+    "sourceHash": "sha256:aeb7730994e527dcf0a89028ab2f0e43228c305c2c104a120d7a8ad112546a3f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:aeb7730994e527dcf0a89028ab2f0e43228c305c2c104a120d7a8ad112546a3f",
+    "mappedOn": null,
+    "summary": "Plans orders and dispatch around customer delivery dates",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking"
+    ],
+    "claims": [
+      "Registers customer delivery dates, preferred order dates and closing days",
+      "Customer-specific holidays",
+      "Call lists telling sales which customers to contact for orders",
+      "Take orders directly from the call list",
+      "Grouped warehouse shipments",
+      "Integrated with reservation worksheet",
+      "Transport trips from inbound and outbound warehouse lines",
+      "Print and post all documents of a transport trip"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

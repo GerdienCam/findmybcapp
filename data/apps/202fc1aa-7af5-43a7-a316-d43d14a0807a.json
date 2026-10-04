@@ -1,0 +1,93 @@
+{
+  "appId": "PUBID.steigauf-1098449|AID.steigauf-dms-integration-suite|PAPPID.202fc1aa-7af5-43a7-a316-d43d14a0807a",
+  "guid": "202fc1aa-7af5-43a7-a316-d43d14a0807a",
+  "publisherId": "steigauf-1098449",
+  "offerId": "steigauf-dms-integration-suite",
+  "source": {
+    "name": "Steigauf DMS Integration Suite",
+    "publisher": "Steigauf Daten Systeme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.steigauf-1098449%7CAID.steigauf-dms-integration-suite%7CPAPPID.202fc1aa-7af5-43a7-a316-d43d14a0807a",
+    "lastModified": "2026-10-02T08:57:15.1736207+00:00",
+    "appVersion": "28.1.6.16",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.steigauf.de/business-central/",
+    "sourceHash": "sha256:334ce38ea0e7b1a156ff979eda6eada381d60ef23392c1eb39afbacabc14ae58"
+  },
+  "mapping": {
+    "sourceHash": "sha256:334ce38ea0e7b1a156ff979eda6eada381d60ef23392c1eb39afbacabc14ae58",
+    "mappedOn": null,
+    "summary": "Connects DocuWare or JobRouter DMS with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Interface between BC and DocuWare or JobRouter DMS",
+      "Archives any document linked to BC: emails, reports, scans, invoices, pictures, Excel",
+      "Automates document-based workflows",
+      "Automated standardized storage of documents created in BC",
+      "Links stored documents to relevant workflow",
+      "Company-specific configurations"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "ID",
+      "IS",
+      "IT",
+      "JP",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "RS",
+      "SE",
+      "SG",
+      "SI",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DocuWare",
+      "JobRouter"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

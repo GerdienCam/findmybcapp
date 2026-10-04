@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.netstock-importer-app|PAPPID.ef7058b0-67c6-4a01-a053-672b1bbffda1",
+  "guid": "ef7058b0-67c6-4a01-a053-672b1bbffda1",
+  "publisherId": "fenwicksoftware",
+  "offerId": "netstock-importer-app",
+  "source": {
+    "name": "Netstock Importer",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.netstock-importer-app%7CPAPPID.ef7058b0-67c6-4a01-a053-672b1bbffda1",
+    "lastModified": "2026-03-30T09:27:37.8502759+00:00",
+    "appVersion": "26.0.260325.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/netstock-importer/docs",
+    "sourceHash": "sha256:5e47427fa1862cc36aacc6754cf2d61130727910e6a29670ae83a336096c1439"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5e47427fa1862cc36aacc6754cf2d61130727910e6a29670ae83a336096c1439",
+    "mappedOn": null,
+    "summary": "Imports Netstock suggested orders into BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures",
+      "ng-demand-forecast"
+    ],
+    "claims": [
+      "Imports Netstock recommended orders into BC",
+      "Automatically creates purchase, production and transfer orders",
+      "Supports all orders recommended by Netstock",
+      "Imports files via SFTP and cloud storage through Data Integrator",
+      "Logs every import step via Interface Controller",
+      "Errors reported on job queue, role centre and email"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Netstock",
+      "SFTP"
+    ],
+    "requires": [
+      "Fenwick Interface Controller"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

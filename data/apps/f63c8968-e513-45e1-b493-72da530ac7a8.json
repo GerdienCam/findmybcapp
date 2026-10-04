@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.1646983474339|AID.wmsintegration|PAPPID.f63c8968-e513-45e1-b493-72da530ac7a8",
+  "guid": "f63c8968-e513-45e1-b493-72da530ac7a8",
+  "publisherId": "1646983474339",
+  "offerId": "wmsintegration",
+  "source": {
+    "name": "Weihan WMS Integration",
+    "publisher": "广州微翰计算机科技有限公司",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1646983474339%7CAID.wmsintegration%7CPAPPID.f63c8968-e513-45e1-b493-72da530ac7a8",
+    "lastModified": "2024-11-22T16:03:08.5459102+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://en.weihansoft.com/news/100.html",
+    "sourceHash": "sha256:b242f8082b5892c365d217781f70cdf7501ca15fecc0614361aa92839eda01e7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b242f8082b5892c365d217781f70cdf7501ca15fecc0614361aa92839eda01e7",
+    "mappedOn": null,
+    "summary": "Integrates BC with Weihan warehouse management system using item QR codes",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking",
+      "ng-stock-counting",
+      "ng-shop-floor-reporting",
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Integrates BC with Weihan WMS",
+      "Centralized item QR codes",
+      "Mobile app with QR scanner",
+      "Receiving, put-away, returns and inventory pick on mobile",
+      "Production material pick, consumption and output on mobile",
+      "Packaging, stock counting, adjustment and inventory movement"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Weihan WMS"
+    ],
+    "requires": [
+      "Weihan Warehouse Management System"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

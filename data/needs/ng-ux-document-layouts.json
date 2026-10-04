@@ -1,0 +1,301 @@
+{
+  "id": "ng-ux-document-layouts",
+  "order": 173,
+  "label": "Designing invoice and document layouts",
+  "description": "Designing and maintaining outgoing document layouts (invoices, orders, quotes, delivery notes) with no-code designers, report packs, stationery, text modules and conditional layouts.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "high",
+  "statements": [
+    "Designing invoice and document layouts",
+    "Designing and maintaining outgoing document layouts (invoices, orders, quotes, delivery notes) with no-code designers, report packs, stationery, text modules and conditional layouts.",
+    "Our invoices look terrible and customers complain",
+    "invoice layout designer",
+    "Every time we want to move the logo we have to pay a developer",
+    "Can we have a different layout per language or per customer?",
+    "Need our letterhead PDF as background on all documents",
+    "The standard order confirmation doesn't show the item picture",
+    "Word layouts are too fiddly, is there a proper report designer?",
+    "We need subtotals and position numbers on quotes",
+    "How do I add our bank details and terms to the bottom of the invoice?",
+    "Delivery note must show lot numbers and our customer's item number",
+    "Want a ready-made set of nice looking documents for sales and purchase",
+    "Customer wants a specific invoice format with their PO on top",
+    "no code report designer for BC",
+    "Our standard texts on quotes are copied by hand every time",
+    "After the cloud move all our old RDLC layouts are broken",
+    "Can marketing change the document design without IT?",
+    "Quotes need sections with headings and sub-positions",
+    "Translate document labels into German and French",
+    "We want one layout tool for all reports, not 20 different ones",
+    "Documents should pick the layout automatically based on company or brand"
+  ],
+  "questions": [
+    {
+      "id": "edit_how",
+      "text": "How do you want to change your document layouts?",
+      "help": "Pick how your team prefers to work.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Point and click inside BC, no code",
+          "patterns": [
+            "no-code",
+            "no code",
+            "low-code",
+            "without (code|coding|programming|rdlc|a developer|developer)",
+            "drag-and-drop",
+            "codeless",
+            "no technical",
+            "non-technical",
+            "through setup",
+            "in setup",
+            "via setup",
+            "without development",
+            "functional setup",
+            "designer",
+            "configurable (layout|colou?r|document)"
+          ]
+        },
+        {
+          "label": "In Microsoft Word",
+          "patterns": [
+            "\\bword\\b"
+          ]
+        },
+        {
+          "label": "Just install ready-made layouts",
+          "patterns": [
+            "ready(-made|-to-use| layouts)",
+            "report pack",
+            "pack of",
+            "prebuilt",
+            "pre-built",
+            "from day one",
+            "day of installation",
+            "\\d+\\+? (custom |ready-to-use |branded )?(report |document )?(layouts|document types)",
+            "new layouts",
+            "layouts for",
+            "curated pack",
+            "replac\\w* standard"
+          ]
+        },
+        {
+          "label": "With a reporting tool like ForNAV",
+          "patterns": [
+            "fornav"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Point and click inside BC, no code": 0.35,
+        "In Microsoft Word": 0.15,
+        "Just install ready-made layouts": 0.37,
+        "With a reporting tool like ForNAV": 0.04
+      }
+    },
+    {
+      "id": "variants",
+      "text": "Do different customers or languages need different versions of a document?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Different content or layout per customer",
+          "patterns": [
+            "per customer",
+            "customer-specific",
+            "customer/vendor-specific",
+            "by customer",
+            "customer, vendor",
+            "for customers, companies",
+            "layouts? per customer"
+          ]
+        },
+        {
+          "label": "Documents in the customer's language",
+          "patterns": [
+            "language",
+            "translat",
+            "multilingual"
+          ]
+        },
+        {
+          "label": "Layout chosen by rules or conditions",
+          "patterns": [
+            "conditional",
+            "field-value conditions",
+            "multiple conditions",
+            "customizable conditions",
+            "based on dimension",
+            "by dimensions",
+            "layout versions",
+            "document variants",
+            "layout per language",
+            "by language or per report"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Different content or layout per customer": 0.13,
+        "Documents in the customer's language": 0.2,
+        "Layout chosen by rules or conditions": 0.14
+      }
+    },
+    {
+      "id": "branding",
+      "text": "Should documents carry your letterhead or extra PDF pages like terms and conditions?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Letterhead / stationery / logo",
+          "patterns": [
+            "stationery",
+            "letterhead",
+            "logo",
+            "watermark",
+            "corporate identity",
+            "branding",
+            "colou?rs?\\b",
+            "overlay"
+          ]
+        },
+        {
+          "label": "Append PDFs like terms and conditions",
+          "patterns": [
+            "terms (and|&) conditions",
+            "append",
+            "merg\\w* .*pdf",
+            "pdf merge",
+            "appendic",
+            "cover page",
+            "attach\\w* (additional )?pdf"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Letterhead / stationery / logo": 0.32,
+        "Append PDFs like terms and conditions": 0.07
+      }
+    },
+    {
+      "id": "doc_types",
+      "text": "Beyond sales invoices, which documents must look right?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Quotes with structure (subtotals, numbered lines)",
+          "patterns": [
+            "subtotal",
+            "position number",
+            "line numbering",
+            "headings",
+            "sub-positions",
+            "structur\\w* (quot|sales doc)",
+            "optional (and|lines)",
+            "outlines"
+          ]
+        },
+        {
+          "label": "Purchase documents",
+          "patterns": [
+            "purchas"
+          ]
+        },
+        {
+          "label": "Warehouse, labels and shipping documents",
+          "patterns": [
+            "warehouse",
+            "label",
+            "pick",
+            "shipment",
+            "delivery note",
+            "waybill",
+            "shipping",
+            "cmr",
+            "packing"
+          ]
+        },
+        {
+          "label": "Service documents",
+          "patterns": [
+            "service"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Quotes with structure (subtotals, numbered lines)": 0.09,
+        "Purchase documents": 0.34,
+        "Warehouse, labels and shipping documents": 0.35,
+        "Service documents": 0.12
+      }
+    },
+    {
+      "id": "extras",
+      "text": "Which of these do you need on your documents?",
+      "help": "Standard texts are things like legal notes or payment terms.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Reusable standard texts",
+          "patterns": [
+            "text module",
+            "text block",
+            "pre-?(text|set text)",
+            "post-?text",
+            "fixed texts?",
+            "free text",
+            "extended text",
+            "standard text",
+            "start and end text",
+            "custom text",
+            "text templates",
+            "footer text",
+            "legal (text|note)",
+            "texts? (messages|constants)",
+            "beginning/ending",
+            "generic text"
+          ]
+        },
+        {
+          "label": "Barcodes or QR codes",
+          "patterns": [
+            "barcode",
+            "qr",
+            "data matrix"
+          ]
+        },
+        {
+          "label": "Live preview while editing",
+          "patterns": [
+            "preview"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Reusable standard texts": 0.27,
+        "Barcodes or QR codes": 0.15,
+        "Live preview while editing": 0.12
+      }
+    }
+  ]
+}

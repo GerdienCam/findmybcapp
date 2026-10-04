@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.dynaway|AID.dynaway-invoicing-bc|PAPPID.dd792c05-d14e-4b80-9c61-08e3a3dac023",
+  "guid": "dd792c05-d14e-4b80-9c61-08e3a3dac023",
+  "publisherId": "dynaway",
+  "offerId": "dynaway-invoicing-bc",
+  "source": {
+    "name": "Dynaway Maintenance Invoicing",
+    "publisher": "Dynaway A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.dynaway-invoicing-bc%7CPAPPID.dd792c05-d14e-4b80-9c61-08e3a3dac023",
+    "lastModified": "2026-08-05T10:46:46.6608458+00:00",
+    "appVersion": "2607.0.1501.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.dynaway.com/eam-bc/",
+    "sourceHash": "sha256:dd06af863f10abb23eb0ebb779468668b57e2c0b8a7f4a8d202cd5b71d378b2d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dd06af863f10abb23eb0ebb779468668b57e2c0b8a7f4a8d202cd5b71d378b2d",
+    "mappedOn": null,
+    "summary": "Reinvoices maintenance costs to other legal entities",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates sales invoices for maintenance costs to another group entity",
+      "Price from price list or markup on posted costs",
+      "Billable flag per work order plan or work order line",
+      "Assign asset to bill-to customer",
+      "Invoice based on ledger entries",
+      "Requires Dynaway EAM Enterprise license"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Dynaway EAM"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

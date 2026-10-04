@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.sell-to-buy-from-app|PAPPID.1e9feb4d-9159-4cfd-8df2-75bdca01643c",
+  "guid": "1e9feb4d-9159-4cfd-8df2-75bdca01643c",
+  "publisherId": "fenwicksoftware",
+  "offerId": "sell-to-buy-from-app",
+  "source": {
+    "name": "Sell-to Buy-from",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.sell-to-buy-from-app%7CPAPPID.1e9feb4d-9159-4cfd-8df2-75bdca01643c",
+    "lastModified": "2026-09-13T23:42:10.2903549+00:00",
+    "appVersion": "27.0.260907.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/sell-to-buy-from/docs",
+    "sourceHash": "sha256:382931a8e43d0aa63d28978fd7e447450ab6869f3a400d207ec3cab1133c4845"
+  },
+  "mapping": {
+    "sourceHash": "sha256:382931a8e43d0aa63d28978fd7e447450ab6869f3a400d207ec3cab1133c4845",
+    "mappedOn": null,
+    "summary": "Switches customer and vendor details on sales and purchase documents",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-dimensions",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Uses Sell-to customer details on sales and service documents",
+      "Uses Buy-from vendor details on purchase documents",
+      "Sets prices, discounts, salesperson and dimensions from Sell-to/Buy-from instead of Bill-to/Pay-to"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

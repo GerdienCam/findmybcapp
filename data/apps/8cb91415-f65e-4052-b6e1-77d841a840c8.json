@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.ls_retail|AID.c4692a87-0695-41e7-a881-eb347876a5e2|PAPPID.8cb91415-f65e-4052-b6e1-77d841a840c8",
+  "guid": "8cb91415-f65e-4052-b6e1-77d841a840c8",
+  "publisherId": "ls_retail",
+  "offerId": "c4692a87-0695-41e7-a881-eb347876a5e2",
+  "source": {
+    "name": "Planet Tax Free Integration for LS Central",
+    "publisher": "LS Retail",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.c4692a87-0695-41e7-a881-eb347876a5e2%7CPAPPID.8cb91415-f65e-4052-b6e1-77d841a840c8",
+    "lastModified": "2026-07-02T13:24:34.2867984+00:00",
+    "appVersion": "28.1.0.24",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.lscentral.lsretail.com/Content/home.html",
+    "sourceHash": "sha256:69ee010f3d40de8aabaa4844d6934794b7869306bd479def9bcbf027bb3697cd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:69ee010f3d40de8aabaa4844d6934794b7869306bd479def9bcbf027bb3697cd",
+    "mappedOn": null,
+    "summary": "Integrates Planet tax-free shopping with LS Central",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Tax-free shopping VAT refund process at the point of sale",
+      "Processes tax-free transactions for eligible international shoppers",
+      "Supports customs validation for departing customers",
+      "Fully digital tax-free refunds where Planet operates"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Planet Tax Free"
+    ],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "id": "ng-vat-tax",
+  "order": 50,
+  "label": "Getting VAT and tax returns right",
+  "description": "VAT/sales tax setup, fiscal document rules, preparing and filing returns and paying taxes.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "high",
+  "statements": [
+    "Getting VAT and tax returns right",
+    "VAT/sales tax setup, fiscal document rules, preparing and filing returns and paying taxes.",
+    "US sales tax rates change constantly and we can't keep up with them in BC",
+    "Is there an app that calculates sales tax by ship-to address automatically?",
+    "We started selling into 30 states and have no idea which rates to charge",
+    "Our VAT posting setup is wrong and invoices to EU customers get Danish VAT",
+    "Avalara or similar for Business Central",
+    "How do we handle tax exempt customers and store their exemption certificates?",
+    "We need withholding tax on payments to certain foreign suppliers",
+    "VAT reverse charge on construction services isn't calculating correctly",
+    "Setting up VAT for selling to private consumers across the EU under OSS",
+    "Different VAT rates for food and non-food items on the same invoice",
+    "Our tax groups and tax areas in BC are a mess after the last rate change",
+    "The VAT rate changed on January 1st, how do we switch all items over in BC?",
+    "We have nexus in new states and need sales tax set up before we invoice",
+    "Canadian GST, PST and HST setup in Business Central",
+    "Want BC to pick the right VAT code automatically based on the customer's country",
+    "Use tax on purchases from out of state vendors is not being accrued",
+    "We need VAT on prepayments to work correctly",
+    "Non-deductible VAT on company cars and entertainment, how do we set it up?",
+    "tax engine BC",
+    "We sell digital services to consumers abroad and have no idea what VAT to apply",
+    "Preparing the VAT return takes our bookkeeper two days every quarter",
+    "Is there an app that submits the VAT return directly from BC to the tax authority?",
+    "Making Tax Digital submission from Business Central",
+    "VAT return BC",
+    "The VAT statement in BC doesn't match the balance on the VAT accounts",
+    "We need to file the EC sales list every month",
+    "Sales tax returns for 20 states, each with its own form",
+    "How do we close the VAT period and move the balance to the settlement account?",
+    "Our VAT report misses entries posted with a late posting date",
+    "The tax office wants an electronic VAT file and BC can't produce it",
+    "SAF-T export for the tax authority",
+    "We want to check the VAT return for errors before submitting",
+    "VAT on imports and postponed accounting doesn't show correctly on the return",
+    "We paid VAT in other EU countries and need to claim it back",
+    "Each of our 8 companies files VAT separately and we need one overview",
+    "What VAT did we report last quarter and what changed since?",
+    "Reconcile the VAT return against the G/L before filing",
+    "Real time invoice reporting to the tax authority",
+    "Correct a VAT return that was already submitted",
+    "Tax reports for the authorities, monthly and annual",
+    "How do we pay the VAT we owe and book it against the settlement account?",
+    "pay tax authority BC",
+    "We want tax payments in the same payment run as suppliers",
+    "Set up the tax office as a vendor so we can pay it",
+    "We missed a VAT payment deadline, need reminders",
+    "Pay sales tax to each state electronically",
+    "Argentina requires invoice letters A, B and C, how do we set that up in BC?",
+    "Each sales point needs its own invoice number prefix by law",
+    "We are opening in Latin America and need fiscal document localization",
+    "fiscal document types per branch",
+    "The tax authority assigns our invoice number ranges, how do we load them?",
+    "Need legal invoice numbering per point of sale"
+  ],
+  "questions": [
+    {
+      "id": "pain",
+      "text": "What is your biggest tax headache?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Preparing and filing the VAT return",
+          "patterns": [
+            "vat (return|declaration|statement|report)",
+            "vat3",
+            "declaration (submission|export)",
+            "returns? electronically",
+            "tax return",
+            "vat reporting",
+            "gst setup and reporting"
+          ]
+        },
+        {
+          "label": "Withholding tax on supplier payments",
+          "patterns": [
+            "withholding",
+            "\\bwht\\b"
+          ]
+        },
+        {
+          "label": "Excise duties, eco-taxes or other surcharges",
+          "patterns": [
+            "excise",
+            "parafiscal",
+            "ecotax",
+            "surtax",
+            "contribution types",
+            "used parts tax",
+            "disposal fees",
+            "cbam"
+          ]
+        },
+        {
+          "label": "Calculating US sales tax",
+          "patterns": [
+            "sales tax",
+            "stripe tax",
+            "taxjar",
+            "vertex"
+          ]
+        },
+        {
+          "label": "Checking customer and supplier VAT numbers",
+          "patterns": [
+            "vies",
+            "vat (id|number)s?\\b.{0,30}(check|valid|verif)",
+            "checks? vat numbers",
+            "vat id check",
+            "correct vat id",
+            "registration number validation"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Preparing and filing the VAT return": 0.31,
+        "Withholding tax on supplier payments": 0.1,
+        "Excise duties, eco-taxes or other surcharges": 0.18,
+        "Calculating US sales tax": 0.05,
+        "Checking customer and supplier VAT numbers": 0.11
+      }
+    },
+    {
+      "id": "crossborder",
+      "text": "Do you trade across borders?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Selling to consumers in other EU countries (OSS)",
+          "patterns": [
+            "\\boss\\b",
+            "one stop shop",
+            "destination country"
+          ]
+        },
+        {
+          "label": "We have VAT registrations in several countries",
+          "patterns": [
+            "multiple (vat|countries)",
+            "several vat",
+            "vat (ids?|registration numbers?) .{0,20}(per|for) (own|customer)",
+            "multiple vat (ids?|registration)"
+          ]
+        },
+        {
+          "label": "Intrastat or EU sales listings",
+          "patterns": [
+            "intrastat",
+            "vies declaration",
+            "fr0564",
+            "certificate of supply",
+            "triangular"
+          ]
+        },
+        {
+          "label": "Imports through customs or bonded warehouses",
+          "patterns": [
+            "customs",
+            "bonded",
+            "suspension",
+            "emcs"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Selling to consumers in other EU countries (OSS)": 0.05,
+        "We have VAT registrations in several countries": 0.08,
+        "Intrastat or EU sales listings": 0.1,
+        "Imports through customs or bonded warehouses": 0.16
+      }
+    },
+    {
+      "id": "special",
+      "text": "Do you sell anything with special VAT rules?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Second-hand goods (margin scheme)",
+          "patterns": [
+            "margin scheme",
+            "second-hand",
+            "profit margin"
+          ]
+        },
+        {
+          "label": "Free gifts or samples",
+          "patterns": [
+            "free (gift|item|good)"
+          ]
+        },
+        {
+          "label": "Alcohol, beverages, tobacco or fuel",
+          "patterns": [
+            "alcohol",
+            "beverage",
+            "tobacco",
+            "fuel",
+            "excise"
+          ]
+        },
+        {
+          "label": "Tax-free sales to tourists",
+          "patterns": [
+            "tax-free",
+            "tax free",
+            "global blue"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Second-hand goods (margin scheme)": 0.02,
+        "Free gifts or samples": 0.03,
+        "Alcohol, beverages, tobacco or fuel": 0.16,
+        "Tax-free sales to tourists": 0.03
+      }
+    },
+    {
+      "id": "submit",
+      "text": "How should the return reach the tax authority?",
+      "options": [
+        {
+          "label": "Sent or exported electronically from BC",
+          "patterns": [
+            "submi",
+            "export\\w* .{0,40}(xml|file|authorit|form|register|ros)",
+            "via api",
+            "electronic(ally)? .{0,20}(vat|tax|submi)",
+            "m\\.e\\.doc",
+            "pcn 874",
+            "\\bnts\\b"
+          ]
+        },
+        {
+          "label": "Calculated by an external tax engine",
+          "patterns": [
+            "stripe tax",
+            "taxjar",
+            "vertex",
+            "tax engine",
+            "tax calculator"
+          ]
+        },
+        {
+          "label": "We file manually from BC reports",
+          "patterns": [
+            "vat (report|statement|ledger)s?\\b",
+            "prints? .{0,20}(tax|vat)",
+            "input tax statement"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sent or exported electronically from BC": 0.24,
+        "Calculated by an external tax engine": 0.05,
+        "We file manually from BC reports": 0.16
+      }
+    },
+    {
+      "id": "approval",
+      "text": "Do you need tighter control of VAT setup and postings?",
+      "options": [
+        {
+          "label": "Automatic posting groups by scenario or country",
+          "patterns": [
+            "posting groups? (based on|from|by)",
+            "auto-fills vat",
+            "automatically (assigns|changes) .{0,20}posting group",
+            "sets vat posting group",
+            "recalculates vat"
+          ]
+        },
+        {
+          "label": "Block invoices for invalid VAT numbers",
+          "patterns": [
+            "blocks invoices",
+            "auto-blocks",
+            "invalid vat"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Automatic posting groups by scenario or country": 0.08,
+        "Block invoices for invalid VAT numbers": 0.03
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.consulokfthungary|AID.cpa_document_processor|PAPPID.db6a4631-e2bf-472f-b2d4-39ca805fb513",
+  "guid": "db6a4631-e2bf-472f-b2d4-39ca805fb513",
+  "publisherId": "consulokfthungary",
+  "offerId": "cpa_document_processor",
+  "source": {
+    "name": "CPA Document Processor",
+    "publisher": "Consulo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.consulokfthungary%7CAID.cpa_document_processor%7CPAPPID.db6a4631-e2bf-472f-b2d4-39ca805fb513",
+    "lastModified": "2026-07-13T12:45:18.0267542+00:00",
+    "appVersion": "26.0.1.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.consulo.hu/contact-us/",
+    "sourceHash": "sha256:79cb8db00258adf2cddc9ba86afaf0f976ec5d5d202291fd993fcc5ee14af588"
+  },
+  "mapping": {
+    "sourceHash": "sha256:79cb8db00258adf2cddc9ba86afaf0f976ec5d5d202291fd993fcc5ee14af588",
+    "mappedOn": null,
+    "summary": "AI document processing of incoming documents into BC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Uses Azure AI Document Intelligence to read invoices",
+      "Extracts vendor name and VAT registration number",
+      "Extracts invoice number, posting date, due date, totals and tax",
+      "Per-field confidence scores",
+      "Auto-validation above a confidence threshold writes to Incoming Document fields",
+      "Detects purchase vs sales invoice by matching tax IDs",
+      "Links incoming documents to the matching open or posted invoices and credit memos",
+      "No manual job queue setup",
+      "REST API for Logic Apps/Power Automate to create documents from email attachments",
+      "Manual field override preserved on reprocessing",
+      "Supports PDF, JPG, JPEG and PNG",
+      "Batch processing of multiple documents",
+      "Colour-coded confidence indicators"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "hu"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure AI Document Intelligence",
+      "Azure Logic Apps",
+      "Power Automate"
+    ],
+    "requires": [
+      "CPA Base Application"
+    ],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

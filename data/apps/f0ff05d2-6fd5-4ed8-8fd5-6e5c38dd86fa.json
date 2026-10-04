@@ -1,0 +1,72 @@
+{
+  "appId": "TYPE.connect|PUBID.apportsystems|AID.apport-cloud-wms|PAPPID.f0ff05d2-6fd5-4ed8-8fd5-6e5c38dd86fa",
+  "guid": "f0ff05d2-6fd5-4ed8-8fd5-6e5c38dd86fa",
+  "publisherId": "apportsystems",
+  "offerId": "apport-cloud-wms",
+  "source": {
+    "name": "Apport Cloud WMS",
+    "publisher": "Apport Systems A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.apportsystems%7CAID.apport-cloud-wms%7CPAPPID.f0ff05d2-6fd5-4ed8-8fd5-6e5c38dd86fa",
+    "lastModified": "2025-11-20T14:11:08.2331844+00:00",
+    "appVersion": "2.0.0.62363",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apportsystems.freshdesk.com/support/home",
+    "sourceHash": "sha256:60607739296bacb23e1fb91a91299daf55529c3666e26604e787e730327a8b35"
+  },
+  "mapping": {
+    "sourceHash": "sha256:60607739296bacb23e1fb91a91299daf55529c3666e26604e787e730327a8b35",
+    "mappedOn": null,
+    "summary": "Cloud warehouse management system",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-lot-serial-traceability",
+      "ng-admin-devices",
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Receives purchase orders and returns on handheld and updates BC automatically",
+      "Automatically suggests optimal storage location for items",
+      "Automatic restocking tasks when a location runs low",
+      "Guided picking routes and multi-pick",
+      "Completes orders on handheld with automatic shipping label printing",
+      "Batch and serial number management with FIFO and FEFO",
+      "Packaging calculations and stock counting",
+      "Handles orders from webshop or Business Central",
+      "Configurable to customer working methods while receiving regular updates"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

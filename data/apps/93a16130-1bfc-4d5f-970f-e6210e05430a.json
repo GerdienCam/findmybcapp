@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.scsba|PAPPID.93a16130-1bfc-4d5f-970f-e6210e05430a",
+  "guid": "93a16130-1bfc-4d5f-970f-e6210e05430a",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "scsba",
+  "source": {
+    "name": "EV Tecto - Subcontractor",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.scsba%7CPAPPID.93a16130-1bfc-4d5f-970f-e6210e05430a",
+    "lastModified": "2026-09-10T15:48:29.7292974+00:00",
+    "appVersion": "10006.80.218813.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/365Con/overview",
+    "sourceHash": "sha256:b82d1ac16fe228e23352d8f08105805c688fc5e878fb6e203b6c8f831dcce8e3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b82d1ac16fe228e23352d8f08105805c688fc5e878fb6e203b6c8f831dcce8e3",
+    "mappedOn": null,
+    "summary": "Subcontractor management for EV Tecto",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-proj-materials-subcontract",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-construction",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-contracts"
+    ],
+    "claims": [
+      "Subcontractor management of service jobs invoiced per bill or fixed price",
+      "Subcontractor contracts",
+      "Approve job assignments",
+      "Subcontractor guarantee",
+      "Extends 365Construction Advanced"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EV Tecto"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

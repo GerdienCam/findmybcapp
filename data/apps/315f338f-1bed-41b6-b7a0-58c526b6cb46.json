@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_advanced_security|PAPPID.315f338f-1bed-41b6-b7a0-58c526b6cb46",
+  "guid": "315f338f-1bed-41b6-b7a0-58c526b6cb46",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_advanced_security",
+  "source": {
+    "name": "Linc Advanced Security",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_advanced_security%7CPAPPID.315f338f-1bed-41b6-b7a0-58c526b6cb46",
+    "lastModified": "2026-02-20T13:21:15.9848593+00:00",
+    "appVersion": "26.26.2242.602",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-Advanced-Security",
+    "sourceHash": "sha256:5b0de6c4b8828c15a08a9f209e1d956880386eb548edd33c1ccec57ead210a60"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5b0de6c4b8828c15a08a9f209e1d956880386eb548edd33c1ccec57ead210a60",
+    "mappedOn": null,
+    "summary": "Hides sensitive financial data from selected users",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-permissions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals",
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Hides G/L amounts and descriptions for flagged users",
+      "Blocks financial reports and analysis views for flagged users",
+      "Blocks reports whose datasets include G/L tables",
+      "Hides bank amounts and blocks bank pages for flagged users",
+      "Page exposing object permissions by permission set",
+      "Auto-sets user allowed posting dates to current date",
+      "Restrict editing of fields per table for all or specific users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

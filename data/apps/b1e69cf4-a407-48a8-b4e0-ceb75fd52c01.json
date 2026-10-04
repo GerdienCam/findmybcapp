@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.tools4bc|AID.bcxray_new|PAPPID.b1e69cf4-a407-48a8-b4e0-ceb75fd52c01",
+  "guid": "b1e69cf4-a407-48a8-b4e0-ceb75fd52c01",
+  "publisherId": "tools4bc",
+  "offerId": "bcxray_new",
+  "source": {
+    "name": "BC X-RAY",
+    "publisher": "Tools4BC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tools4bc%7CAID.bcxray_new%7CPAPPID.b1e69cf4-a407-48a8-b4e0-ceb75fd52c01",
+    "lastModified": "2026-09-24T10:23:15.9993643+00:00",
+    "appVersion": "24.6.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcxray.com/",
+    "sourceHash": "sha256:f05191b45637ab3659659e6ef94605c784c7c397ca602ccfb8750e28c063ee3a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f05191b45637ab3659659e6ef94605c784c7c397ca602ccfb8750e28c063ee3a",
+    "mappedOn": null,
+    "summary": "Tracks data changes, field security and change reasons",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-change-log",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-permissions",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts",
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Shows every data change on any page in one click",
+      "Works on all tables and fields, optionally other extensions",
+      "Field-level security restricting changes to specific fields",
+      "Supports segregation of duties",
+      "Customisable email notifications on critical changes",
+      "Tracks reasons behind field changes",
+      "Saved filters shared with other users",
+      "Conceals confidential field changes from regular users",
+      "Code snippets to add features to own or third-party apps",
+      "Optional transfer of change log entries to Azure Cosmos DB",
+      "Assisted setup in 2 minutes",
+      "30-day free trial, no credit card"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Cosmos DB"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

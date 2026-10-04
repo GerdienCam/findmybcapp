@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.integratedtechnologieso1669573079699|AID.bc_rfq_ai_new|PAPPID.ef081ab4-96ab-4ba7-a8c1-005f14a5a232",
+  "guid": "ef081ab4-96ab-4ba7-a8c1-005f14a5a232",
+  "publisherId": "integratedtechnologieso1669573079699",
+  "offerId": "bc_rfq_ai_new",
+  "source": {
+    "name": "BCRFQ",
+    "publisher": "Integrated Technologies OÜ",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.integratedtechnologieso1669573079699%7CAID.bc_rfq_ai_new%7CPAPPID.ef081ab4-96ab-4ba7-a8c1-005f14a5a232",
+    "lastModified": "2026-09-01T05:51:04.27672+00:00",
+    "appVersion": "2.0.38.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.integrated.ee/apps/contact",
+    "sourceHash": "sha256:96c4e73d9426bfd4f34b6c39545cf4c63a6bc75aed7598a8b083553268446fc1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:96c4e73d9426bfd4f34b6c39545cf4c63a6bc75aed7598a8b083553268446fc1",
+    "mappedOn": null,
+    "summary": "RFQs to multiple vendors with AI reply extraction to PO",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-admin-copilot-agents"
+    ],
+    "claims": [
+      "One RFQ sent to many vendors by email with branded PDF templates",
+      "AI extracts item codes, quantities, prices and currencies from PDF or Excel quotes",
+      "Extracts from email body text too",
+      "Monitors email and matches replies to open RFQ",
+      "Learns vendor item code aliases to map to BC items",
+      "Side-by-side comparison matrix with item-by-item winner selection",
+      "One-click conversion to purchase order with locked prices",
+      "Audit trail linking extracted lines to source documents",
+      "No separate vendor portal",
+      "Support response within one business day"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Azure OpenAI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

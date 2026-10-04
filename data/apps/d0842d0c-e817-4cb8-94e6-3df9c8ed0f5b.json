@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.modusconsultag1587973875105|AID.modus_m365_document_automation|PAPPID.d0842d0c-e817-4cb8-94e6-3df9c8ed0f5b",
+  "guid": "d0842d0c-e817-4cb8-94e6-3df9c8ed0f5b",
+  "publisherId": "modusconsultag1587973875105",
+  "offerId": "modus_m365_document_automation",
+  "source": {
+    "name": "MODUS M365 dox42 Document Automation",
+    "publisher": "MODUS Consult GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.modusconsultag1587973875105%7CAID.modus_m365_document_automation%7CPAPPID.d0842d0c-e817-4cb8-94e6-3df9c8ed0f5b",
+    "lastModified": "2026-07-23T09:21:16.37726+00:00",
+    "appVersion": "27.0.26070802.26070802",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.modusconsult.de/d0842d0c-e817-4cb8-94e6-3df9c8ed0f5b/M365dox42DocumentAutomation/",
+    "sourceHash": "sha256:93796ec66860e734da50893bc6e29866907a299c7b897660881332278db4bff1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:93796ec66860e734da50893bc6e29866907a299c7b897660881332278db4bff1",
+    "mappedOn": null,
+    "summary": "Document generation with dox42 templates",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage",
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Designs document templates in Word, PowerPoint and Excel",
+      "Drag-and-drop template creation",
+      "Aggregates content from multiple data sources",
+      "Outputs PDF, Office, email, HTML or print",
+      "Tables, charts, images, barcodes and text modules with conditions",
+      "Forwards to printer and Exchange, archives to SharePoint"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "dox42",
+      "SharePoint",
+      "Microsoft Exchange"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

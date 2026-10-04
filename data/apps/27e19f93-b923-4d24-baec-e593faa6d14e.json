@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.b2f|AID.b2f_grty|PAPPID.27e19f93-b923-4d24-baec-e593faa6d14e",
+  "guid": "27e19f93-b923-4d24-baec-e593faa6d14e",
+  "publisherId": "b2f",
+  "offerId": "b2f_grty",
+  "source": {
+    "name": "B2F Guaranty Management",
+    "publisher": "B2F",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_grty%7CPAPPID.27e19f93-b923-4d24-baec-e593faa6d14e",
+    "lastModified": "2026-09-24T08:03:10.9673733+00:00",
+    "appVersion": "28.0.22819.22819",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/03/Guaranty-Management-Help.pdf",
+    "sourceHash": "sha256:83aab316403588f8b9d25388f8351e9ba6e9b07a74ca6226b2cc294235650a46"
+  },
+  "mapping": {
+    "sourceHash": "sha256:83aab316403588f8b9d25388f8351e9ba6e9b07a74ca6226b2cc294235650a46",
+    "mappedOn": null,
+    "summary": "Manages guarantees and their finance entries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-leasing-finance"
+    ],
+    "claims": [
+      "Guarantee cards separated into received and given",
+      "Guarantee types like mortgage, LC, letter, cash and non-cash",
+      "Links guarantee cards to vendors or customers",
+      "Includes guarantees in customer credit limit with approval workflow and hierarchical limit control"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

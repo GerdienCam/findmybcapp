@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.ls_retail|AID.f6c8d1ec-9d8f-4fe2-97b7-cc62349364a4|PAPPID.c6b19ae9-059d-4303-8fdc-329dcd89d17a",
+  "guid": "c6b19ae9-059d-4303-8fdc-329dcd89d17a",
+  "publisherId": "ls_retail",
+  "offerId": "f6c8d1ec-9d8f-4fe2-97b7-cc62349364a4",
+  "source": {
+    "name": "Diller Integration for LS Central",
+    "publisher": "LS Retail",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.f6c8d1ec-9d8f-4fe2-97b7-cc62349364a4%7CPAPPID.c6b19ae9-059d-4303-8fdc-329dcd89d17a",
+    "lastModified": "2026-04-15T16:59:58.1487803+00:00",
+    "appVersion": "28.0.0.48",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.lscentral.lsretail.com/Content/Product-Overview/Diller%20Integration%20for%20LS%20Central.htm?Highlight=diller",
+    "sourceHash": "sha256:97790fa0f36c040bdab39478fae857d260602d817daf01f1fc2c5d1918ac2983"
+  },
+  "mapping": {
+    "sourceHash": "sha256:97790fa0f36c040bdab39478fae857d260602d817daf01f1fc2c5d1918ac2983",
+    "mappedOn": null,
+    "summary": "Connects Diller loyalty platform to LS Central",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-loyalty",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-mkt-campaigns",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Connects Diller loyalty and marketing platform to LS Central",
+      "Targeted campaigns and segmentation",
+      "Handles digital loyalty cards, coupons, discounts and bonus programs",
+      "Identifies and creates Diller members at the POS",
+      "Sends sales and refund transactions to Diller",
+      "Promotions as store coupons and points-to-currency in advanced package",
+      "Supports SaaS, hybrid and offline setups",
+      "Requires Business Central 26.1 or later"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Diller"
+    ],
+    "requires": [
+      "LS Central",
+      "Diller"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.edi-integration-business-central|PAPPID.6f7b8fee-0f66-486b-9ef7-7f97e47d51f1",
+  "guid": "6f7b8fee-0f66-486b-9ef7-7f97e47d51f1",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "edi-integration-business-central",
+  "source": {
+    "name": "EDI Integration for Business Central",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.edi-integration-business-central%7CPAPPID.6f7b8fee-0f66-486b-9ef7-7f97e47d51f1",
+    "lastModified": "2025-08-26T12:25:55.9208936+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://knowledgebase.hubbroker.net/article/1h5ezr1j2d-microsoft-dynamics-365-import-customer-orders",
+    "sourceHash": "sha256:13b0f11f8ce22bc0e93b325ad25987a1e81e88b7d3b4fb4e8a38d8db1a863995"
+  },
+  "mapping": {
+    "sourceHash": "sha256:13b0f11f8ce22bc0e93b325ad25987a1e81e88b7d3b4fb4e8a38d8db1a863995",
+    "mappedOn": null,
+    "summary": "Automates EDI document exchange with trading partners",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Sends and receives purchase orders, invoices, shipping documents and credit notes via EDI in BC",
+      "Connects with suppliers, customers and logistics partners",
+      "Configurable mapping per partner",
+      "Alerts on mapping or data issues",
+      "Meets requirements of major retail chains and distributors",
+      "Tracks live status of shipments, invoices and orders",
+      "Works with BC Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.lightspeed|PAPPID.2d140482-48a5-4ebb-8197-97bd4efd7f37",
+  "guid": "2d140482-48a5-4ebb-8197-97bd4efd7f37",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "lightspeed",
+  "source": {
+    "name": "Lightspeed Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.lightspeed%7CPAPPID.2d140482-48a5-4ebb-8197-97bd4efd7f37",
+    "lastModified": "2024-11-22T17:32:14.1084584+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:5d8855126cacbdf84d737385a95c5f82af2c6ac7039c865e50d0778504e5d7f3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5d8855126cacbdf84d737385a95c5f82af2c6ac7039c865e50d0778504e5d7f3",
+    "mappedOn": null,
+    "summary": "Imports Lightspeed POS sales, products and inventory",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Imports sales, customers, products, inventory, consignments, promotions, suppliers and outlets from Lightspeed POS",
+      "Full version on request"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Lightspeed"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.go4logistics|AID.go4logistics_go4imp|PAPPID.493ea2d5-2219-4823-afd0-84365b0e748c",
+  "guid": "493ea2d5-2219-4823-afd0-84365b0e748c",
+  "publisherId": "go4logistics",
+  "offerId": "go4logistics_go4imp",
+  "source": {
+    "name": "Go4TMS - Order Import",
+    "publisher": "Go4Logistics NV",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.go4logistics%7CAID.go4logistics_go4imp%7CPAPPID.493ea2d5-2219-4823-afd0-84365b0e748c",
+    "lastModified": "2026-09-09T11:19:05.2213998+00:00",
+    "appVersion": "28.1.15.109",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.go4logistics.be/en/help/",
+    "sourceHash": "sha256:ce2a34b5d04abeefda3aa2f782e34bfd937c491bd450aaa7decdb7a56cd928e0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ce2a34b5d04abeefda3aa2f782e34bfd937c491bd450aaa7decdb7a56cd928e0",
+    "mappedOn": null,
+    "summary": "Imports customer orders into Go4TMS transport software",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Imports customer orders via EDI",
+      "Standard Go4TMS order import XML or custom structure",
+      "Staging tables keep original received data",
+      "Mapping tables for external values",
+      "Job queue processes imported orders automatically",
+      "Handles order updates and cancellations",
+      "Exports status updates to customers on events like planned or POD linked",
+      "Per-customer configuration of status updates"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Transport and logistics"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Go4TMS - Transport Software"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

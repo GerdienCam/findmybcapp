@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.efoqus-5058796|AID.sharepoint|PAPPID.23ebd065-b289-4a68-85e3-b8410e360157",
+  "guid": "23ebd065-b289-4a68-85e3-b8410e360157",
+  "publisherId": "efoqus-5058796",
+  "offerId": "sharepoint",
+  "source": {
+    "name": "SharePoint Connector",
+    "publisher": "hougaard.com",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.efoqus-5058796%7CAID.sharepoint%7CPAPPID.23ebd065-b289-4a68-85e3-b8410e360157",
+    "lastModified": "2026-09-29T19:16:46.144065+00:00",
+    "appVersion": "6.0.0.4112",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.hougaard.com/sharepoint",
+    "sourceHash": "sha256:1ed4ef183f75ff15d439680fb56a2a0b597d9f174f63cde73bb8bdbd5f1f7de0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1ed4ef183f75ff15d439680fb56a2a0b597d9f174f63cde73bb8bdbd5f1f7de0",
+    "mappedOn": null,
+    "summary": "Connects BC data to SharePoint and generates documents",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "View SharePoint folder content from BC",
+      "Automatically stores sent invoices in SharePoint",
+      "Generates documents from templates into SharePoint folders",
+      "Maps BC data types to SharePoint folders",
+      "Add files to SharePoint from BC"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "no",
+      "ru",
+      "sv"
+    ],
+    "industries": [
+      "Legal",
+      "Professional services"
+    ],
+    "connectsTo": [
+      "SharePoint",
+      "Adobe Sign",
+      "DocuSign"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

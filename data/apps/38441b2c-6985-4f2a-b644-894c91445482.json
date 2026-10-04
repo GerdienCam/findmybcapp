@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_edifilebridge|PAPPID.38441b2c-6985-4f2a-b644-894c91445482",
+  "guid": "38441b2c-6985-4f2a-b644-894c91445482",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_edifilebridge",
+  "source": {
+    "name": "Fusion5 EDI FileBridge",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_edifilebridge%7CPAPPID.38441b2c-6985-4f2a-b644-894c91445482",
+    "lastModified": "2026-06-01T15:33:41.78347+00:00",
+    "appVersion": "2700.2.20260601.221715",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/660931282/EDI+File+Bridge",
+    "sourceHash": "sha256:945f2e0f9db06e0cb9fdf4d713b082d985a5da6cc64af7ce71ab8a31498f8cf5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:945f2e0f9db06e0cb9fdf4d713b082d985a5da6cc64af7ce71ab8a31498f8cf5",
+    "mappedOn": null,
+    "summary": "Flat-file EDI document exchange for Fusion5 EDI",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exchange EDI documents as CSV and TXT flat files",
+      "Format designer: encoding, delimiter, extension, header/detail/footer lines",
+      "Value mapping between partner codes and BC values with default fallback",
+      "Scheduled file delivery and pickup from monitored folder or SFTP",
+      "Read, Use and Admin permission sets",
+      "Sandbox works without license",
+      "Supports all BC countries"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SFTP"
+    ],
+    "requires": [
+      "Fusion5 EDI"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

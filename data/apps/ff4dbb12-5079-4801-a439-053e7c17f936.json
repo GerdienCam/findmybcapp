@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.fcp-serial-container-code|PAPPID.ff4dbb12-5079-4801-a439-053e7c17f936",
+  "guid": "ff4dbb12-5079-4801-a439-053e7c17f936",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "fcp-serial-container-code",
+  "source": {
+    "name": "Serial Shipping Container Codes",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.fcp-serial-container-code%7CPAPPID.ff4dbb12-5079-4801-a439-053e7c17f936",
+    "lastModified": "2026-03-25T21:36:14.4334369+00:00",
+    "appVersion": "27.5.17645.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.nicsystemslearning.com/help/serial-shipping-container-codes",
+    "sourceHash": "sha256:bea22ccd594d3bdc67a8f05072823e441e3e812d1c03198e51c318c6ed640a10"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bea22ccd594d3bdc67a8f05072823e441e3e812d1c03198e51c318c6ed640a10",
+    "mappedOn": null,
+    "summary": "Generates SSCC codes and prints labels",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Generates SSCCs following GS1 requirements",
+      "Configure the GS1 company prefix, extension digit, check digit and logistic unit number",
+      "Multiple SSCCs per sales order or one SSCC across multiple orders of a customer",
+      "Single and mixed SSCCs",
+      "View SSCC list and content with shipment details",
+      "GS1 logistics label compliant SSCC labels",
+      "Label formats per customer and ship-to address"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

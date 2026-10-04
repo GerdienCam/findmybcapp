@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.035d2c86-3b60-42ab-a062-58ee8d9e5348|AID.pushrecord|PAPPID.035d2c86-3b60-42ab-a062-58ee8d9e5348",
+  "guid": "035d2c86-3b60-42ab-a062-58ee8d9e5348",
+  "publisherId": "035d2c86-3b60-42ab-a062-58ee8d9e5348",
+  "offerId": "pushrecord",
+  "source": {
+    "name": "LeapLink Smart Sync",
+    "publisher": "Business Express",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.035d2c86-3b60-42ab-a062-58ee8d9e5348%7CAID.pushrecord%7CPAPPID.035d2c86-3b60-42ab-a062-58ee8d9e5348",
+    "lastModified": "2026-08-12T07:41:07.3027257+00:00",
+    "appVersion": "1.0.0.16",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://leaplinkdata.com/knowledge-center/",
+    "sourceHash": "sha256:22550f314de8ba09537f8e9e7e2e3653529cdf650be7e753c71c1a5f2a2af65b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:22550f314de8ba09537f8e9e7e2e3653529cdf650be7e753c71c1a5f2a2af65b",
+    "mappedOn": null,
+    "summary": "Copies selected records and setup between companies, environments and tenants",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-extensions-env"
+    ],
+    "claims": [
+      "Pushes selected records from production to another company or sandbox without Azure Functions, middleware or Power Automate",
+      "Identifies and moves underlying dependencies of records automatically",
+      "Copilot lets users describe what to move in plain English",
+      "Syncs data across different Microsoft Entra tenants",
+      "Shows a preview of records before pushing",
+      "Copilot uses native BC Copilot framework with no data leaving the tenant",
+      "Supports custom tables and fields",
+      "Custom Relation Engine to define relationships between tables manually",
+      "Exposes API functions for developers to trigger pushes from their own AL extensions",
+      "Each environment connection is scoped and authenticated independently"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

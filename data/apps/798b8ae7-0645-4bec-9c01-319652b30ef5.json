@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.qualia|AID.qtpa|PAPPID.798b8ae7-0645-4bec-9c01-319652b30ef5",
+  "guid": "798b8ae7-0645-4bec-9c01-319652b30ef5",
+  "publisherId": "qualia",
+  "offerId": "qtpa",
+  "source": {
+    "name": "0 - Code Power Automate Connector",
+    "publisher": "QUALIA Technik GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.qualia%7CAID.qtpa%7CPAPPID.798b8ae7-0645-4bec-9c01-319652b30ef5",
+    "lastModified": "2026-02-12T07:47:03.091693+00:00",
+    "appVersion": "1.1.0.6",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.qualiatechnik.de/power-automate-connector?utm_source=appsource&utm_medium=listinghelplink&utm_campaign=power-automate-connector&utm_content=support",
+    "sourceHash": "sha256:c47e4d9748601385f2212dd8acf0f12fa4201e9c5b71b88d30c784d84278c7f1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c47e4d9748601385f2212dd8acf0f12fa4201e9c5b71b88d30c784d84278c7f1",
+    "mappedOn": null,
+    "summary": "Triggers Power Automate flows from BC events",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "Triggers Power Automate flows on BC events with rule-based conditions",
+      "Conditions configured with BC filter syntax",
+      "JSON payload composition via field mapping",
+      "Real-time webhook delivery with automatic retry",
+      "One BC event can trigger multiple flows",
+      "Event history: timestamp, condition result, payload, flow response",
+      "Works with all BC tables incl. ISV and custom tables"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power Automate",
+      "Microsoft Teams",
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

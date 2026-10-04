@@ -1,0 +1,105 @@
+{
+  "appId": "PUBID.foodware365|AID.aptean_mesh|PAPPID.9af7715b-c3c3-44ad-9a3d-b953eab5f6c5",
+  "guid": "9af7715b-c3c3-44ad-9a3d-b953eab5f6c5",
+  "publisherId": "foodware365",
+  "offerId": "aptean_mesh",
+  "source": {
+    "name": "Aptean Mesh",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_mesh%7CPAPPID.9af7715b-c3c3-44ad-9a3d-b953eab5f6c5",
+    "lastModified": "2026-07-23T07:41:43.7887168+00:00",
+    "appVersion": "2602.0.333266.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/SPR/",
+    "sourceHash": "sha256:6a425c9e50bd121c8a17bdbb940c24a95d8dc9049ef0a81e4624e8345fda6668"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6a425c9e50bd121c8a17bdbb940c24a95d8dc9049ef0a81e4624e8345fda6668",
+    "mappedOn": null,
+    "summary": "Mobile warehouse management on Android devices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements",
+      "ng-stock-counting",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Mobile warehouse app for Android devices in real time",
+      "Supports warehouse receipt, put-away, pick, movements, inventory adjustment and bin contents enquiry",
+      "Server-driven UI: screens and workflows defined in BC, changed without app update",
+      "Azure AD / Microsoft OAuth authentication",
+      "QR code-based device onboarding",
+      "Supports Symbol DataWedge hardware scanners and camera barcode scanning",
+      "Multi-company and multi-location",
+      "Lot number and expiration date tracking",
+      "Mobile app in 8 languages incl. Swedish and Chinese",
+      "Custom workflows can be added server-side"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "sv",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

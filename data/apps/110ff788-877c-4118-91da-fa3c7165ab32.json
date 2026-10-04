@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.sbcdynamicserp1637715412860|AID.acumensepospayments|PAPPID.110ff788-877c-4118-91da-fa3c7165ab32",
+  "guid": "110ff788-877c-4118-91da-fa3c7165ab32",
+  "publisherId": "sbcdynamicserp1637715412860",
+  "offerId": "acumensepospayments",
+  "source": {
+    "name": "Acumens e-POS Payments (WW)",
+    "publisher": "SBC Dynamics ERP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumensepospayments%7CPAPPID.110ff788-877c-4118-91da-fa3c7165ab32",
+    "lastModified": "2026-08-28T17:38:04.906051+00:00",
+    "appVersion": "25.1023.1.4",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.sbcdynamicserp.com/microsoft-dynamics-pos-extension/",
+    "sourceHash": "sha256:799d411413164dfdd4cd9158c6f08ba2f14708d99f00c30a2de67d3ce8110a66"
+  },
+  "mapping": {
+    "sourceHash": "sha256:799d411413164dfdd4cd9158c6f08ba2f14708d99f00c30a2de67d3ce8110a66",
+    "mappedOn": null,
+    "summary": "Processes card and ACH payments for POS and ecommerce",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-retail-pos",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-bank-reconciliation"
+    ],
+    "claims": [
+      "Handles transactions with the card present and with the card not present",
+      "EMV chip & PIN and NFC contactless incl. Apple Pay and Google Pay",
+      "Plug-and-play EMV devices; swap PIN pads without code changes",
+      "PCI DSS compliant tokenization; card data stored by Datacap",
+      "ACH and eCheck processing",
+      "Charge, void and refund transactions",
+      "Batch credit card and eCheck processing",
+      "Automatic cash application to invoices",
+      "Convenience and transaction fees",
+      "Integrates with Acumens Customer Portal for B2B payments",
+      "Sandbox environment for testing and training"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Datacap"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

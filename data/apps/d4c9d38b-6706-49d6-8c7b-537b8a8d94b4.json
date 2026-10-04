@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.advanced-stocktake-app|PAPPID.d4c9d38b-6706-49d6-8c7b-537b8a8d94b4",
+  "guid": "d4c9d38b-6706-49d6-8c7b-537b8a8d94b4",
+  "publisherId": "fenwicksoftware",
+  "offerId": "advanced-stocktake-app",
+  "source": {
+    "name": "Advanced Stocktake",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.advanced-stocktake-app%7CPAPPID.d4c9d38b-6706-49d6-8c7b-537b8a8d94b4",
+    "lastModified": "2026-08-31T13:02:29.3928861+00:00",
+    "appVersion": "26.0.260127.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/advanced-stocktake/docs",
+    "sourceHash": "sha256:952a34b28e8b535bbfae62ea08a8f8c3ad885416395779c49729cbc7877c3d90"
+  },
+  "mapping": {
+    "sourceHash": "sha256:952a34b28e8b535bbfae62ea08a8f8c3ad885416395779c49729cbc7877c3d90",
+    "mappedOn": null,
+    "summary": "Stocktake with serial/lot tracking",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-stock-counting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Exports physical inventory recordings to Excel",
+      "Imports manual recordings from Excel",
+      "Physical inventory overview of expected tracking, recording lines and reservations in one screen",
+      "Remembers last date filter used for expected quantity",
+      "Updates item counting period on posting",
+      "Improved inventory recording report layout",
+      "Better visibility of serial and lot tracked items in stocktakes"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

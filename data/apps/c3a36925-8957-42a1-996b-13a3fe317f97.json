@@ -1,0 +1,107 @@
+{
+  "appId": "PUBID.tso|AID.dms_connector|PAPPID.c3a36925-8957-42a1-996b-13a3fe317f97",
+  "guid": "c3a36925-8957-42a1-996b-13a3fe317f97",
+  "publisherId": "tso",
+  "offerId": "dms_connector",
+  "source": {
+    "name": "DMS Connector",
+    "publisher": "TSO-DATA GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tso%7CAID.dms_connector%7CPAPPID.c3a36925-8957-42a1-996b-13a3fe317f97",
+    "lastModified": "2026-10-01T05:39:45.5738878+00:00",
+    "appVersion": "28.0.2610.620816",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.tso.de/dmscmf/en/",
+    "sourceHash": "sha256:7afc3547d5fe2e9892490fbfccf9d645f9b33b15a45ef425c22d94165a7c41bd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7afc3547d5fe2e9892490fbfccf9d645f9b33b15a45ef425c22d94165a7c41bd",
+    "mappedOn": null,
+    "summary": "Links BC data to M-Files document management",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Replicates BC master and process data from any table into M-Files objects",
+      "Creates or updates M-Files objects when BC records are created",
+      "Drag-and-drop factbox archives documents in M-Files",
+      "Automatic PDF archiving of BC reports like posted sales invoices",
+      "Purely cloud-based interface",
+      "Supports Essential edition"
+    ],
+    "countries": [
+      "AD",
+      "AE",
+      "AL",
+      "AT",
+      "AU",
+      "BA",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LI",
+      "LT",
+      "LU",
+      "LV",
+      "MC",
+      "ME",
+      "MT",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RO",
+      "RS",
+      "SE",
+      "SI",
+      "SK",
+      "TR",
+      "UA",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "M-Files"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

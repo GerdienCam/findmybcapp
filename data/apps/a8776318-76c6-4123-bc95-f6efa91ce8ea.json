@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.bcility1636664056498|AID.bcility-external-file-storage-wasabi|PAPPID.a8776318-76c6-4123-bc95-f6efa91ce8ea",
+  "guid": "a8776318-76c6-4123-bc95-f6efa91ce8ea",
+  "publisherId": "bcility1636664056498",
+  "offerId": "bcility-external-file-storage-wasabi",
+  "source": {
+    "name": "External File Storage - Wasabi S3 Connector",
+    "publisher": "BCILITY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcility1636664056498%7CAID.bcility-external-file-storage-wasabi%7CPAPPID.a8776318-76c6-4123-bc95-f6efa91ce8ea",
+    "lastModified": "2026-01-06T02:55:36.4507313+00:00",
+    "appVersion": "27.0.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcility.com/about-us/",
+    "sourceHash": "sha256:35efb6b27d85a7169d59a69c35bd40ecafadc87cecc77e3455e9451b8a50a1d8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:35efb6b27d85a7169d59a69c35bd40ecafadc87cecc77e3455e9451b8a50a1d8",
+    "mappedOn": null,
+    "summary": "Wasabi S3 file storage connector for External File Storage",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Stores BC files in Wasabi object storage",
+      "Upload and download files to Wasabi buckets",
+      "Auto-configuration for all Wasabi regions",
+      "Multiple accounts",
+      "Create, list and delete folders",
+      "Accounts auto-disabled when a sandbox is created"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Wasabi"
+    ],
+    "requires": [
+      "External File Storage Module"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

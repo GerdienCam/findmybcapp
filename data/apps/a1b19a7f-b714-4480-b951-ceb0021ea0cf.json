@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.abakion|AID.tasklet_shipping_connector|PAPPID.a1b19a7f-b714-4480-b951-ceb0021ea0cf",
+  "guid": "a1b19a7f-b714-4480-b951-ceb0021ea0cf",
+  "publisherId": "abakion",
+  "offerId": "tasklet_shipping_connector",
+  "source": {
+    "name": "Tasklet Shipping Connector",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.tasklet_shipping_connector%7CPAPPID.a1b19a7f-b714-4480-b951-ceb0021ea0cf",
+    "lastModified": "2026-05-07T06:33:57.3443422+00:00",
+    "appVersion": "28.0.202619.164558",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/tasklet-shipping-connector/",
+    "sourceHash": "sha256:a1f0563090532bbec6c8ce07c93da086456af8e41a8eecbee7e735ebc1d982bd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a1f0563090532bbec6c8ce07c93da086456af8e41a8eecbee7e735ebc1d982bd",
+    "mappedOn": null,
+    "summary": "Creates waybills and selects shipping agents from Tasklet scanner",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Integrates with Abakion Shipping Manager",
+      "Create waybills from Tasklet scanner",
+      "Select shipping agents and services on the scanner"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Tasklet"
+    ],
+    "requires": [
+      "Shipping Manager",
+      "Tasklet"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

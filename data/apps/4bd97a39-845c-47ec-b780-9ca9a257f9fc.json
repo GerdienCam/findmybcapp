@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dbs-365|PAPPID.4bd97a39-845c-47ec-b780-9ca9a257f9fc",
+  "guid": "4bd97a39-845c-47ec-b780-9ca9a257f9fc",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dbs-365",
+  "source": {
+    "name": "John Deere DBS 365",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dbs-365%7CPAPPID.4bd97a39-845c-47ec-b780-9ca9a257f9fc",
+    "lastModified": "2026-09-22T23:05:22.1610196+00:00",
+    "appVersion": "2603.260801.20260922.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:d4eb38dc09cd7cce70130f0fda613a46989ca824b0ffd67ca602467d5bf7b7a1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d4eb38dc09cd7cce70130f0fda613a46989ca824b0ffd67ca602467d5bf7b7a1",
+    "mappedOn": null,
+    "summary": "Dealer business system for John Deere dealers",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-dealers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns",
+      "ng-supplier-pricing",
+      "ng-svc-contracts"
+    ],
+    "claims": [
+      "Exchanges and archives files with John Deere via DTF without an on-premise server",
+      "Sends purchase orders to JDPoint via PMLink",
+      "Checks part availability across John Deere stock locations",
+      "Creates and submits warranty claims to John Deere incl. PIPs and Powergard",
+      "Receives debit and credit notes from John Deere, then forwards them to customers",
+      "Automatically matches and processes John Deere parts receipts and invoices",
+      "Imports John Deere parts price lists and substitutions, automatable",
+      "Uploads trial balance to John Deere DFA tool monthly or quarterly",
+      "Stock replenishment suggestions via Retail Parts Management and JDPrism",
+      "Imports parts lists from Parts ADVISOR",
+      "Synchronizes equipment, orders and customers with John Deere CRM",
+      "Imports JDLink data to fill operating hours on service orders",
+      "Manages service agreements via Service Admin Portal",
+      "Applies John Deere incentives and discounts to sales orders",
+      "Okta authentication down to user level"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Agricultural equipment dealers"
+    ],
+    "connectsTo": [
+      "John Deere",
+      "JDPoint",
+      "JDLink",
+      "Parts ADVISOR",
+      "Okta"
+    ],
+    "requires": [
+      "TRASER DMS 365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

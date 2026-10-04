@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.rebate_freight_accruals|PAPPID.1d62b0fd-c0d1-4264-b173-7d623c204f15",
+  "guid": "1d62b0fd-c0d1-4264-b173-7d623c204f15",
+  "publisherId": "thetasystemslimited",
+  "offerId": "rebate_freight_accruals",
+  "source": {
+    "name": "Rebate and Freight Accruals",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.rebate_freight_accruals%7CPAPPID.1d62b0fd-c0d1-4264-b173-7d623c204f15",
+    "lastModified": "2026-09-29T02:57:38.5352987+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/RE/docs/Introduction",
+    "sourceHash": "sha256:62a9b8da5379137712135de7e69c1e5f8c6a3b6d9132517e5ee5b7fcbb40bfe6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:62a9b8da5379137712135de7e69c1e5f8c6a3b6d9132517e5ee5b7fcbb40bfe6",
+    "mappedOn": null,
+    "summary": "Accrues rebates and freight costs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-accruals-deferrals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-product-performance"
+    ],
+    "claims": [
+      "Accrues anticipated rebate and freight expenses at invoicing",
+      "Accruals posted as item charges keeping invoice amounts unchanged",
+      "Rebate provisions on flexible customer and item criteria",
+      "Freight accruals by weight, volume, quantity or fixed rate",
+      "Multiple rebate types per customer/item on one invoice",
+      "Retrospective adjustments with actual costs",
+      "Covers return orders, credit memos, invoices and sales orders",
+      "Percentage-based and rate-based calculations",
+      "Date-effective setup for scheduling programs",
+      "Priority-based matching of setups"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "ja",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "sv",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

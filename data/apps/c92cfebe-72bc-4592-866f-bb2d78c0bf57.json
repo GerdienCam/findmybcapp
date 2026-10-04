@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.hamwicomputersoftware1675860549560|AID.bc_ha_human_resource_app|PAPPID.c92cfebe-72bc-4592-866f-bb2d78c0bf57",
+  "guid": "c92cfebe-72bc-4592-866f-bb2d78c0bf57",
+  "publisherId": "hamwicomputersoftware1675860549560",
+  "offerId": "bc_ha_human_resource_app",
+  "source": {
+    "name": "Human Resource Management",
+    "publisher": "Hamwi Computer Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hamwicomputersoftware1675860549560%7CAID.bc_ha_human_resource_app%7CPAPPID.c92cfebe-72bc-4592-866f-bb2d78c0bf57",
+    "lastModified": "2026-05-19T09:14:56.0346549+00:00",
+    "appVersion": "2026.05.18.02",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://human-resource-docs.ha-consultancy.com/",
+    "sourceHash": "sha256:fda6ced8d4ae482b47c9dfdd8065490f4ba3b0c1a6c76646b1a5511474d36a24"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fda6ced8d4ae482b47c9dfdd8065490f4ba3b0c1a6c76646b1a5511474d36a24",
+    "mappedOn": null,
+    "summary": "HR, payroll, leave, attendance, loans and shifts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-payroll-comp",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Employee card with documents, competencies, family, contracts, air-ticket policy, salary packages",
+      "Shift configuration, punches and interactive Roster Board",
+      "Daily and hourly leave types, vacation policies, deduction rules and leave journal",
+      "Salary breakdowns, allowances, advance salary, overtime",
+      "Employee loans with installments and skip months",
+      "Settings for social insurance and end-of-service",
+      "Employee Journal posts HR entries integrated with general journals",
+      "Leave, overtime, loans, salary and HR documents use BC approval workflows",
+      "HR announcements on role centers",
+      "Printable salary slip report",
+      "Employee self-service mobile app (iOS/Android) and web portal",
+      "Mobile punch in/out and roster view",
+      "Submit leave, overtime, loan and document requests from mobile",
+      "Employees view payslips and salary history",
+      "Managers approve requests on the go"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

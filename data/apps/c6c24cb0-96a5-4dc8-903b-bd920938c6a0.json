@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.aitana_management_sl|AID.idynamics_warehouse|PAPPID.c6c24cb0-96a5-4dc8-903b-bd920938c6a0",
+  "guid": "c6c24cb0-96a5-4dc8-903b-bd920938c6a0",
+  "publisherId": "aitana_management_sl",
+  "offerId": "idynamics_warehouse",
+  "source": {
+    "name": "iDynamics Warehouse Lite",
+    "publisher": "iDynamics Business Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aitana_management_sl%7CAID.idynamics_warehouse%7CPAPPID.c6c24cb0-96a5-4dc8-903b-bd920938c6a0",
+    "lastModified": "2026-08-24T06:58:42.9696274+00:00",
+    "appVersion": "7.16.1.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.idynamics.es/en/warehouse/index.html",
+    "sourceHash": "sha256:0ea150c14453cb591ad464ac07c0ef03fd7f0e16c0c3cf63ff22d3f55e8b8dda"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0ea150c14453cb591ad464ac07c0ef03fd7f0e16c0c3cf63ff22d3f55e8b8dda",
+    "mappedOn": null,
+    "summary": "Basic mobile warehouse management app",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-stock-movements",
+      "ng-stock-counting",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Mobile app for Android and iOS",
+      "Mobile handling of shipments, receipts, picks, put-aways and movements",
+      "Handles purchase, sales, return and transfer orders",
+      "Supports lot and serial numbers",
+      "Inventory tasks and ad-hoc movements",
+      "Custom input forms",
+      "Offline mode for areas without wifi",
+      "Prints labels and documents from the app",
+      "Supports Honeywell, Zebra, Intermec and CipherLab scanners"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

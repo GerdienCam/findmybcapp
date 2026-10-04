@@ -1,0 +1,61 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.peppol-e-invoicing-integration|PAPPID.480029d8-ee9b-4624-a226-df9466d02176",
+  "guid": "480029d8-ee9b-4624-a226-df9466d02176",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "peppol-e-invoicing-integration",
+  "source": {
+    "name": "Peppol E-Invoicing Integration",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.peppol-e-invoicing-integration%7CPAPPID.480029d8-ee9b-4624-a226-df9466d02176",
+    "lastModified": "2026-07-16T09:29:39.1100789+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://hubbroker.com/solutions/einvoicing-solution-provider/",
+    "sourceHash": "sha256:b40b618b66ff34eca8bda8538fdc55c9a7947ad51a49019142e896246e3b6bfb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b40b618b66ff34eca8bda8538fdc55c9a7947ad51a49019142e896246e3b6bfb",
+    "mappedOn": null,
+    "summary": "Peppol e-document exchange",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Sends and receives e-invoices via the Peppol network",
+      "Fully certified Peppol access point",
+      "Meets EU directives, country VAT rules and Peppol BIS standards",
+      "Supports UBL, XML and other Peppol formats",
+      "Imports and exports invoices from ERP without manual entry",
+      "Includes compliance checks and processing ready for GDPR",
+      "Real-time invoice status tracking in ERP"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Peppol",
+      "SAP",
+      "Uniconta"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

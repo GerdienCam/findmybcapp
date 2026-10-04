@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.nmierpspzoo1601976889545|AID.baselinker-integrator|PAPPID.0ba85ef0-a5e0-4056-8782-d47f2f12d030",
+  "guid": "0ba85ef0-a5e0-4056-8782-d47f2f12d030",
+  "publisherId": "nmierpspzoo1601976889545",
+  "offerId": "baselinker-integrator",
+  "source": {
+    "name": "BaseLinker Integrator",
+    "publisher": "NMI ERP Sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nmierpspzoo1601976889545%7CAID.baselinker-integrator%7CPAPPID.0ba85ef0-a5e0-4056-8782-d47f2f12d030",
+    "lastModified": "2026-04-22T05:36:42.0225006+00:00",
+    "appVersion": "2.14.0.3",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.nmierp.pl/en-US/baselinker-integrator/introduction.html",
+    "sourceHash": "sha256:db170c06e5b90f46bb55f82fb8e6208736ce1d58b99efa37b78a344404c22863"
+  },
+  "mapping": {
+    "sourceHash": "sha256:db170c06e5b90f46bb55f82fb8e6208736ce1d58b99efa37b78a344404c22863",
+    "mappedOn": null,
+    "summary": "Syncs products and imports sales orders from BaseLinker",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-retail-pos"
+    ],
+    "claims": [
+      "Imports product records from BaseLinker into BC",
+      "Imports, creates and posts sales orders in BC",
+      "Updates BC customer database from BaseLinker order data",
+      "Maps goods by SKU and EAN",
+      "Posts orders and prints fiscal receipts",
+      "Two-way order status updates",
+      "Sends invoice printouts to BaseLinker",
+      "Separate document numbering",
+      "Choose net or gross amounts when fetching orders",
+      "Multi-currency orders",
+      "Inventory synchronization",
+      "Automatic payment settlement in BC",
+      "Syncs price lists from BC to BaseLinker",
+      "Checks contractors in Polish GUS registry",
+      "Deletes BC orders cancelled in BaseLinker"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "BaseLinker",
+      "GUS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

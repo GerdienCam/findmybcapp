@@ -1,0 +1,268 @@
+{
+  "id": "ng-cash-forecast",
+  "order": 53,
+  "label": "Forecasting cash and seeing our cash position",
+  "description": "Cash flow forecasts, current cash across banks and predicting customer payments.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "high",
+  "statements": [
+    "Forecasting cash and seeing our cash position",
+    "Cash flow forecasts, current cash across banks and predicting customer payments.",
+    "We keep running a cash flow forecast in Excel because BC can't do it properly",
+    "Will we have enough cash to pay salaries at the end of next month?",
+    "Is there an app that predicts our cash balance 13 weeks ahead?",
+    "cash flow forecast BC",
+    "Our bank wants a rolling 12 month cash forecast every quarter",
+    "We want open sales orders and purchase orders included in the cash forecast",
+    "The standard cash flow forecast in BC is too hard to set up",
+    "Owner asks every Monday how much money we'll have in two weeks",
+    "Need to include VAT payments, payroll and loan repayments in the cash forecast",
+    "We almost ran out of cash last summer and nobody saw it coming",
+    "Want to compare last month's forecast to what actually happened with cash",
+    "Can we forecast cash by currency for our USD and EUR accounts?",
+    "Cash forecast that includes customers' real payment behaviour, not just due dates",
+    "We need different scenarios, like if our biggest customer pays 30 days late",
+    "Weekly liquidity planning for the CFO",
+    "How do I show expected receipts and payments per week in a chart?",
+    "We are a project business and big milestone payments make cash very lumpy",
+    "Need a cash forecast across all companies in the group",
+    "Budget-based cash flow for next year to support a loan application",
+    "Want the forecast to update automatically every night instead of rebuilding it",
+    "I want to see our total cash across all banks and companies on one screen",
+    "The owner wants a daily cash balance email",
+    "Moving money between our own bank accounts is posted twice by mistake",
+    "How do we record a transfer between the EUR and the DKK account in BC?",
+    "cash position dashboard",
+    "Is there an app that shows live bank balances inside BC?",
+    "We have cash in 12 bank accounts and it takes an hour to add it up",
+    "Need to stop a check that has already been posted in BC",
+    "Recording petty cash withdrawals and deposits is clumsy",
+    "Can our CFO see available cash and credit line usage in one place?",
+    "Cash deposit from the shop needs to go into the bank account",
+    "Daily cash report per company in the group",
+    "Can BC predict which invoices will be paid late?",
+    "We want to know when customers will really pay, not just the due date",
+    "late payment prediction AI",
+    "Which customers usually pay 20 days late so we can plan for it?",
+    "Use payment history to guess when this big invoice will come in",
+    "Is the late payment prediction extension worth turning on?",
+    "We're profitable but always short of cash, where is it going?",
+    "Cash flow statement from BC without rebuilding it in Excel",
+    "cash flow variance actual vs forecast",
+    "Compare the cash we expected from customers last month with what actually came in",
+    "Daily cash report for the CFO",
+    "Cash flow dashboard Power BI Business Central",
+    "How much of our cash is tied up in unpaid customer invoices vs stock?",
+    "BC cash flow forecast numbers look wrong and we don't trust them",
+    "Bank wants a monthly cash flow report as part of our loan covenant",
+    "Explain why operating cash flow dropped this quarter",
+    "Weekly cash inflow from customers vs outflow to suppliers",
+    "Cash conversion cycle trend over the last 12 months"
+  ],
+  "questions": [
+    {
+      "id": "treasury",
+      "text": "Do you use a separate treasury or cash tool?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Agicap",
+          "patterns": [
+            "agicap"
+          ]
+        },
+        {
+          "label": "DocFinance",
+          "patterns": [
+            "docfinance"
+          ]
+        },
+        {
+          "label": "Embat",
+          "patterns": [
+            "embat"
+          ]
+        },
+        {
+          "label": "Want it all inside BC",
+          "patterns": [
+            "embedded in bc",
+            "in the bc company",
+            "standard bc cash flow",
+            "cash flow ledger",
+            "no external systems",
+            "inside business central",
+            "grounded in live ledger"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Agicap": 0.12,
+        "DocFinance": 0.18,
+        "Embat": 0.06,
+        "Want it all inside BC": 0.29
+      }
+    },
+    {
+      "id": "need",
+      "text": "What do you need most?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Forecast cash for coming weeks",
+          "patterns": [
+            "forecast"
+          ]
+        },
+        {
+          "label": "See balances across banks",
+          "patterns": [
+            "bank balances",
+            "bank statement",
+            "financial position",
+            "liquidity (data|positions)",
+            "consolidated cash"
+          ]
+        },
+        {
+          "label": "Predict when customers pay",
+          "patterns": [
+            "predict",
+            "payment behaviour",
+            "late payers",
+            "overdue",
+            "credit-risk",
+            "high-risk receivables"
+          ]
+        },
+        {
+          "label": "Compare what-if scenarios",
+          "patterns": [
+            "scenario",
+            "what-if"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Forecast cash for coming weeks": 0.47,
+        "See balances across banks": 0.35,
+        "Predict when customers pay": 0.24,
+        "Compare what-if scenarios": 0.12
+      }
+    },
+    {
+      "id": "ai",
+      "text": "Do you want AI to do the forecasting and chasing?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, AI or machine learning",
+          "patterns": [
+            "\\bai\\b",
+            "machine learning"
+          ]
+        },
+        {
+          "label": "No, I'll set plans myself",
+          "patterns": [
+            "payment plan",
+            "manual override",
+            "edit amounts",
+            "installment"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, AI or machine learning": 0.24,
+        "No, I'll set plans myself": 0.24
+      }
+    },
+    {
+      "id": "entities",
+      "text": "Do you forecast across several companies or currencies?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Several companies",
+          "patterns": [
+            "multi-?compan",
+            "across (all )?companies",
+            "multi-entity",
+            "consolidated cash",
+            "consolidation",
+            "intercompany"
+          ]
+        },
+        {
+          "label": "Several currencies",
+          "patterns": [
+            "multi-?currenc",
+            "by currency",
+            "reporting currency",
+            "currency conversion"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Several companies": 0.29,
+        "Several currencies": 0.24
+      }
+    },
+    {
+      "id": "extras",
+      "text": "Besides invoices, what must count in the forecast?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Cheques or promissory notes",
+          "patterns": [
+            "cheque",
+            "promissory"
+          ]
+        },
+        {
+          "label": "Loans and credit lines",
+          "patterns": [
+            "loan",
+            "lines? of credit",
+            "bank credits"
+          ]
+        },
+        {
+          "label": "Installment or payment plans",
+          "patterns": [
+            "installment",
+            "payment plan",
+            "payment schedule"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Cheques or promissory notes": 0.06,
+        "Loans and credit lines": 0.18,
+        "Installment or payment plans": 0.12
+      }
+    }
+  ]
+}

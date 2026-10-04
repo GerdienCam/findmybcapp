@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.adfocomsoftware|AID.greenline-floricode|PAPPID.b591d54b-64b0-4587-9465-a7edc6222a6c",
+  "guid": "b591d54b-64b0-4587-9465-a7edc6222a6c",
+  "publisherId": "adfocomsoftware",
+  "offerId": "greenline-floricode",
+  "source": {
+    "name": "Greenline Floricode",
+    "publisher": "Adfocom Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.adfocomsoftware%7CAID.greenline-floricode%7CPAPPID.b591d54b-64b0-4587-9465-a7edc6222a6c",
+    "lastModified": "2026-06-01T08:31:15.6239239+00:00",
+    "appVersion": "26.2.2.8",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.adfocom.nl/helpdesk/",
+    "sourceHash": "sha256:a777591f10435b8e59b50099ad11647f922e5d280e33f6686931c0fe3c7be389"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a777591f10435b8e59b50099ad11647f922e5d280e33f6686931c0fe3c7be389",
+    "mappedOn": null,
+    "summary": "Integrates Floricode product data standards for flower and plant trade",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Supports VBN article units for product identification",
+      "Product gradings and sortings per industry classification",
+      "Floriculture color classifications",
+      "Packaging and container codes for logistics",
+      "Floriculture-specific product characteristics",
+      "Works within Business Central – GreenLine"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Floriculture"
+    ],
+    "connectsTo": [
+      "Floricode"
+    ],
+    "requires": [
+      "Greenline"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

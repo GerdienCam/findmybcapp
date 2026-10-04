@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.singhammeritconsultingag1598359803264|AID.1005|PAPPID.882b7b1e-2a19-4e1a-988d-b8a7cd3254fd",
+  "guid": "882b7b1e-2a19-4e1a-988d-b8a7cd3254fd",
+  "publisherId": "singhammeritconsultingag1598359803264",
+  "offerId": "1005",
+  "source": {
+    "name": "DYCE Usage Based Billing",
+    "publisher": "Singhammer IT Consulting AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1005%7CPAPPID.882b7b1e-2a19-4e1a-988d-b8a7cd3254fd",
+    "lastModified": "2026-08-08T10:43:55.1366685+00:00",
+    "appVersion": "2026.7.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.dyce.cloud/docs/ubb",
+    "sourceHash": "sha256:6fd1e67e5aaa3e6cc37ca9af1ef709d9591a461681da46ee879182ca3fa77a3a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6fd1e67e5aaa3e6cc37ca9af1ef709d9591a461681da46ee879182ca3fa77a3a",
+    "mappedOn": null,
+    "summary": "Imports usage data and bills it recurringly",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-import-excel",
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Imports usage data from providers via reconciliation files or web services",
+      "Usage data import for CSP Tier 2 partners and Microsoft NCE",
+      "Bills daily and copes with partial periods and quantity changes",
+      "Billing suggestion overview with details",
+      "Details accompany the contract invoice",
+      "Usage-based items can be used in sales documents",
+      "Works for both payable and receivable invoices",
+      "Complements DYCE Subscription & Recurring Billing"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft NCE",
+      "Microsoft CSP"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

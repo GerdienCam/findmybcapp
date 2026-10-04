@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.synfynal|AID.woocommerce-connector|PAPPID.91445282-543f-41e8-825c-a1186639bb82",
+  "guid": "91445282-543f-41e8-825c-a1186639bb82",
+  "publisherId": "synfynal",
+  "offerId": "woocommerce-connector",
+  "source": {
+    "name": "WooCommerce Connector",
+    "publisher": "Synfynal",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.synfynal%7CAID.woocommerce-connector%7CPAPPID.91445282-543f-41e8-825c-a1186639bb82",
+    "lastModified": "2026-09-29T17:14:51.7380962+00:00",
+    "appVersion": "28.0.224.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.synfynal.com/resources/help",
+    "sourceHash": "sha256:1dda51bd52174d31080134551bac0a7b89aad0b12615e28fd26e191a74cbe270"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1dda51bd52174d31080134551bac0a7b89aad0b12615e28fd26e191a74cbe270",
+    "mappedOn": null,
+    "summary": "Two-way sync of orders, items, stock and customers with WooCommerce",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns"
+    ],
+    "claims": [
+      "Connects multiple WooCommerce stores to one BC company with own mappings",
+      "Two-way sync of orders, customers, refunds, items, variants, categories, stock, attributes, images, prices and coupons",
+      "WooCommerce orders become sales orders with tax, shipping, fees, coupons mapped",
+      "Posting sends fulfillment and status back",
+      "Refunds imported as return orders",
+      "Matches customers by SKU, email or ID, creates from templates and handles guest customers",
+      "Scheduled sync via job queue",
+      "Post immediately, release or schedule orders",
+      "Sync logs, per-record errors and automatic retries",
+      "Optional modules for B2B customer pricing and multilingual catalogs",
+      "Free in sandbox, 15-day trial in production",
+      "Assisted setup"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "WooCommerce",
+      "WordPress"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_transaction",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

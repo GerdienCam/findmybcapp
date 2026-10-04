@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.fieldserviceintegration|PAPPID.1ba1031e-eae9-4f20-b9d2-d19b6d1e3f29",
+  "guid": "1ba1031e-eae9-4f20-b9d2-d19b6d1e3f29",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "fieldserviceintegration",
+  "source": {
+    "name": "Field Service Integration",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.fieldserviceintegration%7CPAPPID.1ba1031e-eae9-4f20-b9d2-d19b6d1e3f29",
+    "lastModified": "2025-05-13T05:57:54.1340475+00:00",
+    "appVersion": "24.3.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/admin-integrate-field-service",
+    "sourceHash": "sha256:7f4687ca51de0d0bd764ddc874142e82484a212d4e8552b796073f4d927ee773"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7f4687ca51de0d0bd764ddc874142e82484a212d4e8552b796073f4d927ee773",
+    "mappedOn": null,
+    "summary": "Integrates BC with Dynamics 365 Field Service",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-svc-dispatch",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-close-invoice",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-parts",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Connects one or more BC companies with Field Service",
+      "Bi-directional sync of items, resources and locations",
+      "Syncs service items and service orders with Premium service module",
+      "Schedule BC resources in Field Service",
+      "Inventory levels and item availability in Field Service",
+      "Posts work order consumption in BC",
+      "Invoices work orders in BC",
+      "Requires version 24.3+ (26.0 for service module)"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 Field Service"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

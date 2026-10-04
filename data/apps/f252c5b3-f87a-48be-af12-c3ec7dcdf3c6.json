@@ -1,0 +1,51 @@
+{
+  "appId": "PUBID.skanderbyas1645518189679|AID.selltobillto|PAPPID.f252c5b3-f87a-48be-af12-c3ec7dcdf3c6",
+  "guid": "f252c5b3-f87a-48be-af12-c3ec7dcdf3c6",
+  "publisherId": "skanderbyas1645518189679",
+  "offerId": "selltobillto",
+  "source": {
+    "name": "Skanderby Sales Price+Discount from sell-to",
+    "publisher": "Skanderby A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.skanderbyas1645518189679%7CAID.selltobillto%7CPAPPID.f252c5b3-f87a-48be-af12-c3ec7dcdf3c6",
+    "lastModified": "2026-03-26T03:47:01.0275949+00:00",
+    "appVersion": "1.0.0.9",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://skanderby.dk/kontakt",
+    "sourceHash": "sha256:50251090af81063e65f21195223cb588bae599c886114ad144280bdfe222bad2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:50251090af81063e65f21195223cb588bae599c886114ad144280bdfe222bad2",
+    "mappedOn": null,
+    "summary": "Takes prices and discounts from sell-to instead of bill-to customer",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Takes sales prices and discounts from the sell-to customer instead of bill-to",
+      "Supports both sales prices and discounts"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

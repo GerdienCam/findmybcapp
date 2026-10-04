@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_advanced_units|PAPPID.b559e6f5-1779-4ea4-9315-fa0c2217323a",
+  "guid": "b559e6f5-1779-4ea4-9315-fa0c2217323a",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_advanced_units",
+  "source": {
+    "name": "Dynavision Advanced Units",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_advanced_units%7CPAPPID.b559e6f5-1779-4ea4-9315-fa0c2217323a",
+    "lastModified": "2026-10-02T09:50:45.6334465+00:00",
+    "appVersion": "28.0.0.47570",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Advanced_Units_Manual.pdf",
+    "sourceHash": "sha256:b5d49ee7cd64085cf6b06302305771e9b75588a2c6df240833cc59937a347df4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b5d49ee7cd64085cf6b06302305771e9b75588a2c6df240833cc59937a347df4",
+    "mappedOn": null,
+    "summary": "Groups and manages unit of measure conversions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Unit classes grouping unit conversions applied to items",
+      "Calculator to enter sales orders in invoicing units",
+      "Configurable rounding for conversions",
+      "Weight calculations carried to transaction and warehouse documents",
+      "Transfers UoM on the item card and on the SKU",
+      "Minimum quantity surcharge"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

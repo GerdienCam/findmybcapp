@@ -1,0 +1,199 @@
+{
+  "id": "ng-quality-hold",
+  "order": 82,
+  "label": "Holding goods until quality release",
+  "description": "Quarantining received or produced goods and handling blocked stock.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "medium",
+  "statements": [
+    "Holding goods until quality release",
+    "Quarantining received or produced goods and handling blocked stock.",
+    "Received goods should be blocked until quality has approved them",
+    "Sales sold items that had just arrived and were not inspected yet",
+    "quarantine on receipt",
+    "We want a hold location for incoming food products until lab results come back",
+    "How do we stop pickers from picking received lots that are not released?",
+    "Is there an app to put supplier deliveries on hold in BC?",
+    "We need to block a specific lot so nobody can sell it",
+    "Blocked stock sits for months and nobody decides what to do with it",
+    "How do we block inventory in BC without blocking the whole item?",
+    "We want statuses like released, on hold and rejected on our stock",
+    "lot blocking BC",
+    "Quarantined goods still show as available in sales",
+    "We need a recall and must block all stock of a batch in every warehouse",
+    "Is there an app to manage inventory statuses in Business Central?",
+    "We move suspicious stock to a quarantine bin but the system lets people pick it",
+    "We need a list of everything on hold with the reason and the decision",
+    "When quality releases a lot it should become available automatically",
+    "Disposition codes for held batches like rework, return or destroy",
+    "Finished batches get shipped before the lab has approved them",
+    "We want every production output to go into a quarantine status until QA signs off",
+    "How do I block a lot that just came off the line in BC?",
+    "Is there an app that puts newly produced lots on hold automatically?",
+    "Our food products need a positive release before they can be sold",
+    "We need a quarantine bin for production output that sales can't pick from",
+    "QA should release or reject finished batches with one click",
+    "lot blocking after production",
+    "We need to see which finished batches are still waiting for QA release",
+    "Products made on a line with a problem must be held until investigated",
+    "When a batch fails release it should stay blocked and be flagged for rework",
+    "Pharma customers need us to prove a batch was released before shipping"
+  ],
+  "questions": [
+    {
+      "id": "stage",
+      "text": "Where do goods need checking before release?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "When received from suppliers",
+          "patterns": [
+            "receipt",
+            "receiving",
+            "incoming",
+            "inbound",
+            "inward",
+            "\\bgrn\\b",
+            "purchased items"
+          ]
+        },
+        {
+          "label": "During or after production",
+          "patterns": [
+            "production",
+            "in-process",
+            "manufactur",
+            "work center",
+            "assembly",
+            "output"
+          ]
+        },
+        {
+          "label": "Before shipping to customers",
+          "patterns": [
+            "shipment",
+            "shipping",
+            "before ship",
+            "picking"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "When received from suppliers": 0.87,
+        "During or after production": 0.67,
+        "Before shipping to customers": 0.33
+      }
+    },
+    {
+      "id": "basis",
+      "text": "What decides whether stock is blocked?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Test results (pass/fail inspections)",
+          "patterns": [
+            "pass/fail",
+            "inspection",
+            "\\btests?\\b",
+            "quality checks?",
+            "\\bqc\\b"
+          ]
+        },
+        {
+          "label": "Dates: expiry, shelf life or freshness",
+          "patterns": [
+            "shelf life",
+            "freshness",
+            "expir",
+            "production date"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Test results (pass/fail inspections)": 0.87,
+        "Dates: expiry, shelf life or freshness": 0.27
+      }
+    },
+    {
+      "id": "failed",
+      "text": "What happens to goods that fail?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Moved to a quarantine or rejection area",
+          "patterns": [
+            "quarantine",
+            "rejection area",
+            "rejected goods",
+            "placed on hold",
+            "quality hold"
+          ]
+        },
+        {
+          "label": "Returned to the supplier",
+          "patterns": [
+            "purchase returns?",
+            "purchase return orders?",
+            "returned to (the )?(vendor|supplier)",
+            "negative adjustments for .*returns",
+            "scrap, return"
+          ]
+        },
+        {
+          "label": "Reworked or scrapped",
+          "patterns": [
+            "rework",
+            "scrap",
+            "disposal",
+            "write-?off"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Moved to a quarantine or rejection area": 0.53,
+        "Returned to the supplier": 0.2,
+        "Reworked or scrapped": 0.27
+      }
+    },
+    {
+      "id": "mobile",
+      "text": "Do inspectors record results on a phone or tablet?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, on mobile with photos",
+          "patterns": [
+            "mobile",
+            "tablet",
+            "phone",
+            "camera",
+            "photo",
+            "picture"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, on mobile with photos": 0.33
+      }
+    }
+  ]
+}

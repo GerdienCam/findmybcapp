@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.dynamicsondemand|AID.omnify-job-queue-monitor|PAPPID.ddb0ac90-e8e9-4f0d-9481-df514482de26",
+  "guid": "ddb0ac90-e8e9-4f0d-9481-df514482de26",
+  "publisherId": "dynamicsondemand",
+  "offerId": "omnify-job-queue-monitor",
+  "source": {
+    "name": "OmniFY Job Queue Monitor",
+    "publisher": "Omni Logic Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicsondemand%7CAID.omnify-job-queue-monitor%7CPAPPID.ddb0ac90-e8e9-4f0d-9481-df514482de26",
+    "lastModified": "2026-05-11T07:32:57.8220637+00:00",
+    "appVersion": "21.0.0.9",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "http://www.omnilogicsolutions.com/",
+    "sourceHash": "sha256:00fd9fbe2f7e2f5cd7ced23a37c0a24a0b9339dab6bf84fd44c117ebe94a677a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:00fd9fbe2f7e2f5cd7ced23a37c0a24a0b9339dab6bf84fd44c117ebe94a677a",
+    "mappedOn": null,
+    "summary": "Monitors job queue entries with email alerts on failure or success",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Monitors native Job Queue entries automatically",
+      "Sends email notifications on job success or failure including the error message",
+      "Email includes details of the job queue entry",
+      "Setup wizard to invite people to be notified",
+      "Auto reset of job queue status",
+      "Control of job queue entries and error handling",
+      "Available in all BC countries"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

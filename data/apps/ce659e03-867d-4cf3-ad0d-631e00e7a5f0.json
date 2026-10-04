@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.cargo-import-doc-capture-app|PAPPID.ce659e03-867d-4cf3-ad0d-631e00e7a5f0",
+  "guid": "ce659e03-867d-4cf3-ad0d-631e00e7a5f0",
+  "publisherId": "fenwicksoftware",
+  "offerId": "cargo-import-doc-capture-app",
+  "source": {
+    "name": "Cargo Import for Continia Document Capture",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.cargo-import-doc-capture-app%7CPAPPID.ce659e03-867d-4cf3-ad0d-631e00e7a5f0",
+    "lastModified": "2026-09-15T07:28:16.0580817+00:00",
+    "appVersion": "26.0.260814.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/cargo-import/docs",
+    "sourceHash": "sha256:ac208de42343f53bfb406cc6b5a7b8b861348a8b5b9985944bb1ea665b75258c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ac208de42343f53bfb406cc6b5a7b8b861348a8b5b9985944bb1ea665b75258c",
+    "mappedOn": null,
+    "summary": "Links Cargo Import with Continia Document Capture for import shipments",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates transfer orders and links them to cargo imports when registering Continia Document Capture purchase lines"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "Cargo Import",
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app between Fenwick Cargo Import and Continia Document Capture; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

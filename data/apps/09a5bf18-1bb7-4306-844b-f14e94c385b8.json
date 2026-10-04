@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.dynasoftspainsl1676190626942|AID.dyn_data_everywhere|PAPPID.09a5bf18-1bb7-4306-844b-f14e94c385b8",
+  "guid": "09a5bf18-1bb7-4306-844b-f14e94c385b8",
+  "publisherId": "dynasoftspainsl1676190626942",
+  "offerId": "dyn_data_everywhere",
+  "source": {
+    "name": "Dynasoft Data Everywhere",
+    "publisher": "Grupo Dynasoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynasoftspainsl1676190626942%7CAID.dyn_data_everywhere%7CPAPPID.09a5bf18-1bb7-4306-844b-f14e94c385b8",
+    "lastModified": "2026-09-22T15:27:15.3665366+00:00",
+    "appVersion": "3.3.11.20260922",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.grupodynasoft.com/books/data-everywhere",
+    "sourceHash": "sha256:ef31f35b497482a58b66640c09ecd3f49c972c48636ae2986c26476d118eded0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ef31f35b497482a58b66640c09ecd3f49c972c48636ae2986c26476d118eded0",
+    "mappedOn": null,
+    "summary": "Replicates data between BC environments and companies",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Replicates data between companies in different environments or databases, SaaS and on-prem",
+      "Immediate or scheduled replication via control panel",
+      "Merges several tables into a single table, matching field by field",
+      "Include/exclude list of fields to synchronize",
+      "Locks editing of replicated fields at destination",
+      "Filter-conditioned replication",
+      "Real-time monitoring and alerts",
+      "Replicates standard and add-on tables",
+      "Works with all BC localizations",
+      "Wizard-based configuration"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

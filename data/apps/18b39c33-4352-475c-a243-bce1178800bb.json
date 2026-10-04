@@ -1,0 +1,95 @@
+{
+  "appId": "PUBID.foodware365|AID.serviceprovisioning|PAPPID.18b39c33-4352-475c-a243-bce1178800bb",
+  "guid": "18b39c33-4352-475c-a243-bce1178800bb",
+  "publisherId": "foodware365",
+  "offerId": "serviceprovisioning",
+  "source": {
+    "name": "Aptean Service Provisioning for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.serviceprovisioning%7CPAPPID.18b39c33-4352-475c-a243-bce1178800bb",
+    "lastModified": "2026-07-22T05:04:46.0184961+00:00",
+    "appVersion": "2603.0.333071.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/SPR/",
+    "sourceHash": "sha256:9993619bb91466132ce693bca8708b43169e174cca32a6d6c9867bcc5d5ddfad"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9993619bb91466132ce693bca8708b43169e174cca32a6d6c9867bcc5d5ddfad",
+    "mappedOn": null,
+    "summary": "Manages third-party ownership of goods across processes",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vendor-consignment",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-subcontracting",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Classifies vendors, customers, items and locations as own or third-party",
+      "Prevents price entry for third-party items on purchase, sales and item journals",
+      "Makes sure production picks the right lot for items owned by third parties",
+      "Keeps ownership consistent between source documents and warehouse activities",
+      "Supports drop shipments, toll manufacturing and third-party warehousing"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

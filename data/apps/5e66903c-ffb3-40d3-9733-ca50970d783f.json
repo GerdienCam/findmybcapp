@@ -1,0 +1,58 @@
+{
+  "appId": "TYPE.connect|PUBID.1502980|AID.6949805-shopifyintegrationwithbc|PAPPID.5e66903c-ffb3-40d3-9733-ca50970d783f",
+  "guid": "5e66903c-ffb3-40d3-9733-ca50970d783f",
+  "publisherId": "1502980",
+  "offerId": "6949805-shopifyintegrationwithbc",
+  "source": {
+    "name": "Shopify Integration with Business Central",
+    "publisher": "Dynamics 365 Zone",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.1502980%7CAID.6949805-shopifyintegrationwithbc%7CPAPPID.5e66903c-ffb3-40d3-9733-ca50970d783f",
+    "lastModified": "2026-02-03T07:45:48.7156987+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://d365zone.com/shopify-integration-with-business-central/",
+    "sourceHash": "sha256:89ec3c1bf99e4935468c184bd8eda35a54de9326faf4f89328d0bc616732c8ac"
+  },
+  "mapping": {
+    "sourceHash": "sha256:89ec3c1bf99e4935468c184bd8eda35a54de9326faf4f89328d0bc616732c8ac",
+    "mappedOn": null,
+    "summary": "Integrates Shopify with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Two-way sync of products, inventory, prices, customers and orders",
+      "Handles B2B and B2C customers, guest checkouts included",
+      "Updates inventory and prices automatically so items are not oversold",
+      "Auto-creates orders with payment status sync",
+      "Sends invoice and fulfillment details back to Shopify",
+      "Shopify metafields mapping",
+      "Syncs in real time, on a schedule or on demand",
+      "Logs, error tracking and notification alerts",
+      "Multiple Shopify stores to one BC environment"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Shopify"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

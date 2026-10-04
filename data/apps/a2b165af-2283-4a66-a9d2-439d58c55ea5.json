@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.softera_baltic|AID.softera_powerbi|PAPPID.a2b165af-2283-4a66-a9d2-439d58c55ea5",
+  "guid": "a2b165af-2283-4a66-a9d2-439d58c55ea5",
+  "publisherId": "softera_baltic",
+  "offerId": "softera_powerbi",
+  "source": {
+    "name": "Softera Advanced Analytics",
+    "publisher": "Softera Baltic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softera_baltic%7CAID.softera_powerbi%7CPAPPID.a2b165af-2283-4a66-a9d2-439d58c55ea5",
+    "lastModified": "2026-03-13T17:57:46.9030249+00:00",
+    "appVersion": "118.5.25.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://instrukcijos.softera.lt/docs/powerbi",
+    "sourceHash": "sha256:d45f2a127cc43da95f6a6e3e5d121e12c0e75d5fd8d7e1a540cf6efd3bf98edd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d45f2a127cc43da95f6a6e3e5d121e12c0e75d5fd8d7e1a540cf6efd3bf98edd",
+    "mappedOn": null,
+    "summary": "Web services feeding prebuilt Power BI reports",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates custom web services (pages and queries) for Softera Power BI reports",
+      "Six Power BI reports: Sales, Purchases, Inventory, Receivables, Payables, General Ledger",
+      "Tracks items by Initial Entry No.",
+      "Adds closing record feature to G/L entries"
+    ],
+    "countries": [
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "LT",
+      "LV",
+      "NO",
+      "PL",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "lt"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.velixo1587497859742|AID.velixo-extension|PAPPID.715d83db-0dec-4abf-99af-d417d39d7fd8",
+  "guid": "715d83db-0dec-4abf-99af-d417d39d7fd8",
+  "publisherId": "velixo1587497859742",
+  "offerId": "velixo-extension",
+  "source": {
+    "name": "Velixo for Business Central",
+    "publisher": "Velixo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.velixo1587497859742%7CAID.velixo-extension%7CPAPPID.715d83db-0dec-4abf-99af-d417d39d7fd8",
+    "lastModified": "2026-09-11T10:12:31.8016242+00:00",
+    "appVersion": "2026.8.563.7119",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.velixo.com/doc/main/business-central/",
+    "sourceHash": "sha256:95bafd078e18af9b93bf6863745329bffe8b9d32cb09cca14436fb9218d49495"
+  },
+  "mapping": {
+    "sourceHash": "sha256:95bafd078e18af9b93bf6863745329bffe8b9d32cb09cca14436fb9218d49495",
+    "mappedOn": null,
+    "summary": "Excel reporting and budgeting via Velixo",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-excel-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-budget-build",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-financial-statements",
+      "ng-intercompany-consolidation",
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "Extension lets the Velixo Excel add-in connect to the BC cloud environment",
+      "Real-time bidirectional connection to BC data from Excel",
+      "Dynamic cell-based functions using dimensions, attributes and filters",
+      "Drill down to transactions from Excel",
+      "Uses BC API v2, web services and Microsoft authentication",
+      "Respects BC permissions and role-based access",
+      "Writes back G/L journal and budget entries to BC",
+      "Consolidates across multiple companies or environments",
+      "Dozens of pre-built report templates",
+      "Slice, Freeze and Snapshot for filtered/offline copies of workbooks",
+      "Report Distribution exports and emails PDF/Excel reports",
+      "Works in Excel Online, Excel Desktop and Mac"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Velixo",
+      "Excel"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

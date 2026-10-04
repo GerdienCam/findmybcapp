@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.cosmoconsultag|AID.advance_payment_bc|PAPPID.f5f034bb-d1a9-4dde-9a16-1dc5cd11ada8",
+  "guid": "f5f034bb-d1a9-4dde-9a16-1dc5cd11ada8",
+  "publisherId": "cosmoconsultag",
+  "offerId": "advance_payment_bc",
+  "source": {
+    "name": "COSMO Advance Payment",
+    "publisher": "COSMO CONSULT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.advance_payment_bc%7CPAPPID.f5f034bb-d1a9-4dde-9a16-1dc5cd11ada8",
+    "lastModified": "2026-09-24T19:45:18.5311469+00:00",
+    "appVersion": "6.2.0.368719",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/advance-payment/",
+    "sourceHash": "sha256:2730d93c538ee6b23cd5110e7fda915c8486203ac779edc4a937e4526c5f7dd3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2730d93c538ee6b23cd5110e7fda915c8486203ac779edc4a937e4526c5f7dd3",
+    "mappedOn": null,
+    "summary": "Manages customer and vendor prepayments for DACH region",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-vat-tax",
+      "ng-proj-billing"
+    ],
+    "claims": [
+      "Flexible individual advance payment plans",
+      "Covers both sales (debit) and purchase (credit) side advance payments",
+      "Quick entry with advance payment modalities",
+      "Advance payment plans in foreign currency",
+      "Handles tax specifics of advance payments",
+      "Document layout shows advance payment clearing on partial and final invoices",
+      "Evaluations based on separate advance payment entries",
+      "Optional integration with OPplus payments"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "OPplus"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

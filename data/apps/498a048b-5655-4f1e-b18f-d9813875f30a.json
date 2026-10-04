@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.bluesoftwareas|AID.bluepeppolparticipation|PAPPID.498a048b-5655-4f1e-b18f-d9813875f30a",
+  "guid": "498a048b-5655-4f1e-b18f-d9813875f30a",
+  "publisherId": "bluesoftwareas",
+  "offerId": "bluepeppolparticipation",
+  "source": {
+    "name": "Blue PEPPOL Participation",
+    "publisher": "Blue Software AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bluesoftwareas%7CAID.bluepeppolparticipation%7CPAPPID.498a048b-5655-4f1e-b18f-d9813875f30a",
+    "lastModified": "2025-09-29T13:29:16.6269137+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bluesoftware.no/wp-content/uploads/2025/08/Blue-PEPPOL-Participation-Manual.pdf",
+    "sourceHash": "sha256:77e77cb4613d6a5ec1e9a843906e2211d260473984d3725b30ffe9c40f2a2674"
+  },
+  "mapping": {
+    "sourceHash": "sha256:77e77cb4613d6a5ec1e9a843906e2211d260473984d3725b30ffe9c40f2a2674",
+    "mappedOn": null,
+    "summary": "Looks up customer and vendor PEPPOL participation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-company-data"
+    ],
+    "claims": [
+      "Finds which PEPPOL documents customers and vendors support",
+      "Shows supported documents in vendor/customer lists",
+      "Automatically acquires PEPPOL capabilities for new vendors and customers",
+      "Keeps PEPPOL information automatically updated"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "no"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PEPPOL"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

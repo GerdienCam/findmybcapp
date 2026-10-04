@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.dynamicsondemand|AID.omnify-concur-invoice|PAPPID.6ccaee37-88ea-4245-a96e-b5da179674de",
+  "guid": "6ccaee37-88ea-4245-a96e-b5da179674de",
+  "publisherId": "dynamicsondemand",
+  "offerId": "omnify-concur-invoice",
+  "source": {
+    "name": "OmniFY for SAP-Concur Invoice",
+    "publisher": "Omni Logic Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicsondemand%7CAID.omnify-concur-invoice%7CPAPPID.6ccaee37-88ea-4245-a96e-b5da179674de",
+    "lastModified": "2026-05-08T21:12:58.553372+00:00",
+    "appVersion": "18.0.0.21",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.omnilogicsolutions.com/",
+    "sourceHash": "sha256:f7af22172033447423047834b7f4ec9b9d4db8ee88469f313af152feaef94e05"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f7af22172033447423047834b7f4ec9b9d4db8ee88469f313af152feaef94e05",
+    "mappedOn": null,
+    "summary": "Integrates SAP Concur Invoice with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-supplier-onboarding",
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Sends vendors and vendor updates to Concur",
+      "Sends purchase orders and receipts to Concur (Professional)",
+      "Downloads approved invoices and images from Concur",
+      "Expense types for items, G/L accounts, fixed assets and resources",
+      "Scheduled sync via job queues",
+      "Creates payment journals",
+      "Requires Concur authorization and activation keys"
+    ],
+    "countries": [
+      "AE",
+      "AU",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "GB",
+      "HK",
+      "IN",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SAP Concur Invoice"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

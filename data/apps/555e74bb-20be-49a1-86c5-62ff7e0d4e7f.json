@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcromanianfiscalization-is|PAPPID.555e74bb-20be-49a1-86c5-62ff7e0d4e7f",
+  "guid": "555e74bb-20be-49a1-86c5-62ff7e0d4e7f",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcromanianfiscalization-is",
+  "source": {
+    "name": "Romanian Fiscalization",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcromanianfiscalization-is%7CPAPPID.555e74bb-20be-49a1-86c5-62ff7e0d4e7f",
+    "lastModified": "2025-10-10T14:09:41.7560164+00:00",
+    "appVersion": "24.8.57.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:3bb04b203efee9615f271ea76b0a70bc42c061d1c3bbff1e1ea2a7712ea21e51"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3bb04b203efee9615f271ea76b0a70bc42c061d1c3bbff1e1ea2a7712ea21e51",
+    "mappedOn": null,
+    "summary": "Integrates BC with Romanian fiscal printers",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "When posting a sales order, sends the fiscal receipt to the connected fiscal printer",
+      "Compatible with different fiscal printers",
+      "Fiscal setup for trade center, workplace, operator, devices and payment methods",
+      "Prints fiscal receipt based on posted invoice",
+      "Money in and money out operations",
+      "Prints X and Z reports and monthly/yearly reports"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Fiscal printers"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

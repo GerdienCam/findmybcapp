@@ -1,0 +1,231 @@
+{
+  "id": "ng-svc-field-execution",
+  "order": 109,
+  "label": "Technicians doing and recording the job on site",
+  "description": "Giving technicians job details on mobile, recording work, parts and notes on site, getting expert help and capturing customer feedback.",
+  "type": "bpc",
+  "area": "Field service",
+  "relevance": "high",
+  "statements": [
+    "Technicians doing and recording the job on site",
+    "Giving technicians job details on mobile, recording work, parts and notes on site, getting expert help and capturing customer feedback.",
+    "Our technicians still use paper job sheets that come back weeks later",
+    "Is there a mobile app for service technicians that works with Business Central?",
+    "Technicians need to work offline in basements with no signal",
+    "Want a checklist per job type on the technician's phone",
+    "field service app BC",
+    "Technicians should take photos before and after and attach them to the job",
+    "We need to capture measurements and test results during inspections",
+    "How can a technician sign off each task as done on a tablet?",
+    "Our technicians hate the BC web client on their phones, it's not built for the field",
+    "Need a simple app so technicians don't need full BC access",
+    "Inspection forms for lifts and fire equipment are filled in by hand and retyped",
+    "Technician should be able to start and stop the job with one tap",
+    "Can technicians scan the machine's barcode to open the right job?",
+    "Workshop repairs and on-site repairs need the same way of recording work",
+    "Want the technician to see step by step instructions for complex repairs",
+    "mobile service orders offline",
+    "Technicians write notes in their own notebooks and the office never sees them",
+    "Is there an app where technicians can do the safety checklist before starting work?",
+    "Our installers do commissioning on site and need to fill in a commissioning protocol",
+    "We want field staff to work from one app instead of paper, phone calls and photos on WhatsApp",
+    "Technicians call the office to ask what the job is about",
+    "Want technicians to see the machine's service history before they drive out",
+    "Job details on paper are incomplete and the technician has to go back",
+    "technician job information mobile",
+    "Site address, gate code and contact person should be on the job automatically",
+    "Can the technician see manuals and wiring diagrams for the equipment on the job?",
+    "Fault description from the call should reach the technician exactly as the customer said it",
+    "Technicians don't know which parts to bring until they're on site",
+    "We want photos the customer sent when reporting the fault attached to the job",
+    "Is there a mobile app for BC that shows service orders to technicians?",
+    "Technicians need to see previous visit notes from colleagues",
+    "Safety instructions for each customer site should be shown before work starts",
+    "Parts the technician used aren't added to the service order",
+    "Fault found and fix applied are free text nobody can report on",
+    "Technician needs to add extra work the customer asked for on site",
+    "update service order from the field",
+    "Want fault codes, cause codes and resolution codes on every job",
+    "Notes from technicians are unreadable and incomplete",
+    "When a follow-up visit is needed the technician should flag it on the job",
+    "Can technicians add parts to a service order from their phone?",
+    "Office has to correct quantities and items on service lines after every job",
+    "Need to record which component failed for warranty claims to the manufacturer",
+    "Technician should be able to change the job type when it turns out to be bigger",
+    "service order lines from mobile",
+    "Junior technicians need a senior to see what they see on site",
+    "Want video calls from the field with the expert in the office",
+    "remote assist for technicians",
+    "Technicians share photos on WhatsApp to get help and it's lost",
+    "Can a technician start a Teams chat directly from the service order?",
+    "Need augmented reality guides for complex repairs",
+    "Want customers to rate the technician after each visit",
+    "Send a short survey automatically when a service order is finished",
+    "We never hear about bad service visits until the customer leaves",
+    "customer satisfaction after service visit",
+    "Customer should be able to leave a comment when signing off the job",
+    "Complaints about technicians come in by phone and aren't recorded"
+  ],
+  "questions": [
+    {
+      "id": "base",
+      "text": "Where do your service jobs live in Business Central?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Service orders",
+          "patterns": [
+            "service orders?",
+            "service item",
+            "service worksheet",
+            "work orders?",
+            "service lines"
+          ]
+        },
+        {
+          "label": "Projects / jobs",
+          "patterns": [
+            "projects?\\b",
+            "work cards?"
+          ]
+        },
+        {
+          "label": "Sales orders",
+          "patterns": [
+            "sales orders?"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Service orders": 0.78,
+        "Projects / jobs": 0.11,
+        "Sales orders": 0.11
+      }
+    },
+    {
+      "id": "offline",
+      "text": "Do technicians work in places with no mobile signal?",
+      "options": [
+        {
+          "label": "Yes, must work offline",
+          "patterns": [
+            "offline"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, must work offline": 0.33
+      }
+    },
+    {
+      "id": "dispatch",
+      "text": "Do you also need to plan and dispatch jobs to technicians?",
+      "help": "Some apps only cover the technician's mobile side.",
+      "options": [
+        {
+          "label": "Yes, scheduling and dispatch too",
+          "patterns": [
+            "schedul",
+            "dispatch",
+            "route",
+            "resource planner",
+            "resource allocation",
+            "planning integration"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, scheduling and dispatch too": 0.44
+      }
+    },
+    {
+      "id": "sign",
+      "text": "What must technicians capture on site?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Customer signature",
+          "patterns": [
+            "signature",
+            "customers sign"
+          ]
+        },
+        {
+          "label": "Photos",
+          "patterns": [
+            "photo",
+            "image capture"
+          ]
+        },
+        {
+          "label": "Checklists or forms",
+          "patterns": [
+            "checklist",
+            "forms?\\b",
+            "protocols",
+            "questionnaire"
+          ]
+        },
+        {
+          "label": "Parts used (with scanning)",
+          "patterns": [
+            "spare parts?",
+            "parts\\b",
+            "material consumption",
+            "product consumption",
+            "used items",
+            "scan"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Customer signature": 0.61,
+        "Photos": 0.39,
+        "Checklists or forms": 0.56,
+        "Parts used (with scanning)": 0.5
+      }
+    },
+    {
+      "id": "customer",
+      "text": "Should customers get arrival updates, a portal or a feedback survey?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "portal",
+            "arrival time",
+            "on the way",
+            "notifications",
+            "customer real-time",
+            "customer evaluation",
+            "online appointment",
+            "schedule service"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.39
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.shopify_connector|PAPPID.ec255f57-31d0-4ca2-b751-f2fa7c745abb",
+  "guid": "ec255f57-31d0-4ca2-b751-f2fa7c745abb",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "shopify_connector",
+  "source": {
+    "name": "Shopify Connector",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.shopify_connector%7CPAPPID.ec255f57-31d0-4ca2-b751-f2fa7c745abb",
+    "lastModified": "2024-11-22T17:42:48.9624737+00:00",
+    "appVersion": "20.1.39764.40189",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?linkid=2179727",
+    "sourceHash": "sha256:4e2c047bdfb5454d626e70c913b181210cfaa158cf3f5c00999a6a151c620506"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4e2c047bdfb5454d626e70c913b181210cfaa158cf3f5c00999a6a151c620506",
+    "mappedOn": null,
+    "summary": "Syncs orders, stock and customers with Shopify",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Multiple Shopify shops connected to one BC",
+      "Bi-directional item/product sync",
+      "Inventory level sync",
+      "Bi-directional customer sync",
+      "Imports Shopify orders and sends fulfillment info back",
+      "Supports multitier pricing and multiple currencies"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Shopify"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

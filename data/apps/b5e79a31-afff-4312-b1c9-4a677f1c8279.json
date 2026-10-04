@@ -1,0 +1,89 @@
+{
+  "appId": "PUBID.e-consolutions|AID.bomroute|PAPPID.b5e79a31-afff-4312-b1c9-4a677f1c8279",
+  "guid": "b5e79a31-afff-4312-b1c9-4a677f1c8279",
+  "publisherId": "e-consolutions",
+  "offerId": "bomroute",
+  "source": {
+    "name": "e-Con - Engineering BOM Route Generator",
+    "publisher": "e-Con Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.e-consolutions%7CAID.bomroute%7CPAPPID.b5e79a31-afff-4312-b1c9-4a677f1c8279",
+    "lastModified": "2024-11-21T17:26:21.8616768+00:00",
+    "appVersion": "2365.0.20.32",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://e-consolutions.com/install-e-con-cpq-inside-microsoft-dynamics-365-business-central/",
+    "sourceHash": "sha256:f8844c154a2aa5ea5d2b37a5041acd47b36672f75210ce545075a319b193cb5b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f8844c154a2aa5ea5d2b37a5041acd47b36672f75210ce545075a319b193cb5b",
+    "mappedOn": null,
+    "summary": "Generates super BOMs and routes covering all configurations",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters"
+    ],
+    "claims": [
+      "Create or import a super BOM or route with all configuration possibilities",
+      "Uses BC filters and input values to apply relevant master BOM lines per configuration",
+      "Supports multi-level BOMs",
+      "Handles multiple suppliers for the same product",
+      "Hooks into the base e-Con app"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Furniture",
+      "Heavy equipment",
+      "Medical devices",
+      "Windows and doors"
+    ],
+    "connectsTo": [
+      "e-Con CPQ"
+    ],
+    "requires": [
+      "e-Con CPQ"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

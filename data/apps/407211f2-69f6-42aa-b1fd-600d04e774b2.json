@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.nprogressiondoo1666616266569|AID.np_edicom_global|PAPPID.407211f2-69f6-42aa-b1fd-600d04e774b2",
+  "guid": "407211f2-69f6-42aa-b1fd-600d04e774b2",
+  "publisherId": "nprogressiondoo1666616266569",
+  "offerId": "np_edicom_global",
+  "source": {
+    "name": "Business Central EDICOM Global Connector",
+    "publisher": "Nprogression",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nprogressiondoo1666616266569%7CAID.np_edicom_global%7CPAPPID.407211f2-69f6-42aa-b1fd-600d04e774b2",
+    "lastModified": "2026-01-30T14:43:53.2727294+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nprogression.com/tools/edicom",
+    "sourceHash": "sha256:3938f9bf97220ff8a8f08155010341eca480b0036474c05ef76497dc7aee782b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3938f9bf97220ff8a8f08155010341eca480b0036474c05ef76497dc7aee782b",
+    "mappedOn": null,
+    "summary": "Multi-country e-invoicing via EDICOM",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-edi",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Sends posted sales invoices as e-invoices to customers and tax authorities via EDICOM",
+      "Converts received vendor e-invoices into purchase invoices or purchase orders",
+      "Generates and attaches PDF invoices to e-invoices and extracts vendor PDFs",
+      "Monitors message transfer for sent and received invoices",
+      "EDICOM Universal format converted to each country target format",
+      "Incoming customer purchase orders create sales orders or quotes",
+      "Sends purchase orders to vendors via EDICOM",
+      "Invoice status set to Accepted when tax authority confirms receipt",
+      "PEPPOL keyword"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "EDICOM"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

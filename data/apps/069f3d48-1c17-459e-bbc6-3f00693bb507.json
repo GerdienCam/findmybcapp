@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.equisys|AID.zetadocs_delivery_and_zetadocs_capture|PAPPID.069f3d48-1c17-459e-bbc6-3f00693bb507",
+  "guid": "069f3d48-1c17-459e-bbc6-3f00693bb507",
+  "publisherId": "equisys",
+  "offerId": "zetadocs_delivery_and_zetadocs_capture",
+  "source": {
+    "name": "Zetadocs - AP Automation and Bulk Emailing",
+    "publisher": "Equisys",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.equisys%7CAID.zetadocs_delivery_and_zetadocs_capture%7CPAPPID.069f3d48-1c17-459e-bbc6-3f00693bb507",
+    "lastModified": "2026-09-30T11:16:20.9790148+00:00",
+    "appVersion": "3.1.26264.26000",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://software.equisys.com/help?Product=Zetadocs&lang=EN",
+    "sourceHash": "sha256:6a4179797efc3a1dc7751b1589fbd36dd26a83e9da3fd1033c1319e71730c78e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6a4179797efc3a1dc7751b1589fbd36dd26a83e9da3fd1033c1319e71730c78e",
+    "mappedOn": null,
+    "summary": "Captures AP invoices and bulk emails documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage",
+      "ng-ux-attachments",
+      "ng-collections"
+    ],
+    "claims": [
+      "AI-driven invoice capture without templates",
+      "Automatic purchase order matching",
+      "Simple invoice approval inside BC",
+      "Drag and drop files onto Documents FactBox, auto-filed and indexed",
+      "Scheduled batch sending of documents",
+      "Preview and edit recipients, message and attachments before sending",
+      "Dynamic attachments based on business logic",
+      "Attaches unpaid invoices to payment reminder emails",
+      "Stores documents in SharePoint Online",
+      "Support teams in UK and US"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint Online",
+      "Microsoft 365"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

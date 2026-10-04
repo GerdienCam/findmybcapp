@@ -1,0 +1,339 @@
+{
+  "id": "ng-collections",
+  "order": 15,
+  "label": "Chasing overdue customers and late payments",
+  "description": "Reminders, dunning, interest, disputes, write-offs and understanding how fast customers pay.",
+  "type": "bpc",
+  "area": "Sales & receivables",
+  "relevance": "high",
+  "statements": [
+    "Chasing overdue customers and late payments",
+    "Reminders, dunning, interest, disputes, write-offs and understanding how fast customers pay.",
+    "We send payment reminders to customers by hand in Outlook",
+    "dunning letters email BC",
+    "Is there an app that sends overdue invoice reminders to customers automatically?",
+    "Reminders in BC go to the wrong email address at the customer, we need a separate AR contact",
+    "Want a friendly reminder to customers before the due date and firmer ones after",
+    "Customers complain that we send reminders for invoices they've already paid",
+    "Reminder fees on overdue customer invoices",
+    "Nobody looks at overdue customers until the end of the month",
+    "Need to see each customer's total exposure, open orders plus open invoices, against their limit",
+    "Reminder letters should include a copy of the overdue invoice PDF",
+    "Daily list of customers who just went overdue",
+    "Run reminders for all customers in one batch and email them all at once",
+    "Our reminder texts are only in Danish but our customers are in five countries",
+    "Pause reminders for a customer while we sort out a complaint",
+    "Get an alert when a good customer suddenly starts paying late",
+    "SMS payment reminders to customers",
+    "Reminder levels with different wording for private and business customers",
+    "Credit controller wants one screen of all customers with overdue balances and their reminder level",
+    "Want customers to pay straight from the reminder with a payment link",
+    "Copilot that drafts the reminder emails to customers for us",
+    "Our credit controller keeps notes on customer calls in a notebook",
+    "Is there a collections app for BC where we can log promises to pay and follow-up dates?",
+    "Customer disputes an invoice and we need to stop chasing it until it's resolved",
+    "customer statement of account email",
+    "Send monthly account statements to all customers automatically",
+    "Payment plan for a customer who can't pay the full amount at once",
+    "Sales and finance both call the same customer about the same overdue invoice",
+    "Hand overdue customer invoices to a debt collection agency directly from BC",
+    "Customer's direct debit bounced, how do we reopen the invoice and chase it?",
+    "Need a worklist each morning: which customers to call today",
+    "Mark customer invoices as disputed so they don't count as overdue",
+    "Customer says they never got the invoice, we need proof it was sent",
+    "Collections team wants all emails with a customer about an overdue invoice in one place in BC",
+    "Escalate to the sales manager when a key account is 90 days late",
+    "AR collections workflow",
+    "Customers reply to reminders with complaints and nobody routes them to the right person",
+    "Track why customers are not paying: price dispute, damaged goods, missing PO",
+    "Customer portal where clients see their open invoices and can raise a question about one",
+    "Copilot to summarize a customer's account before I call them",
+    "We're a small team and need to prioritise which overdue customers to chase first",
+    "We want to charge customers interest on late payments but calculating it is manual",
+    "finance charge memo customers",
+    "Statutory late-payment interest and the fixed compensation fee for business customers",
+    "Interest on overdue customer invoices should be added automatically to the next statement",
+    "Customers ignore our interest notes, should we still post them?",
+    "Different interest rates for customers in different countries",
+    "Customer went bankrupt, how do we write off their open invoices in BC?",
+    "Write off small leftover amounts on customer accounts in one go",
+    "bad debt write off VAT",
+    "Need a provision for doubtful customer debts at year end",
+    "Who should approve writing off a customer balance and how do we document it?",
+    "Customer paid after we wrote the invoice off, how do we reverse it?",
+    "Aged receivables report that actually makes sense for management",
+    "What is our DSO and is it getting worse?",
+    "customer aging report Power BI",
+    "Which customers always pay late and by how many days on average?",
+    "Board wants a monthly receivables KPI pack",
+    "How long does it take from shipment to invoice to cash?",
+    "Overdue customer balances by sales rep and by country",
+    "Receivables by due date bucket in multiple currencies",
+    "How effective is our collections team, what share of overdue debt do they collect?",
+    "Trend of customer bad debt write-offs over the last few years",
+    "Want a receivables dashboard on the controller's role center",
+    "Average days to pay per customer group"
+  ],
+  "questions": [
+    {
+      "id": "focus",
+      "text": "What part of collections takes most of your time?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Sending reminders and chasing emails",
+          "patterns": [
+            "reminders?",
+            "dunning",
+            "\\bchas(e|er|ing)",
+            "overdue notices",
+            "collection notices",
+            "follow-?ups?"
+          ]
+        },
+        {
+          "label": "Agreeing payment plans or instalments",
+          "patterns": [
+            "payment plans?",
+            "instal+ments?",
+            "repayment plans?",
+            "staged payments",
+            "partial payments"
+          ]
+        },
+        {
+          "label": "Handling disputes and deductions",
+          "patterns": [
+            "disputes?",
+            "deductions?",
+            "billbacks?"
+          ]
+        },
+        {
+          "label": "Writing off or reserving for bad debt",
+          "patterns": [
+            "write-?offs?",
+            "written off",
+            "bad debts?"
+          ]
+        },
+        {
+          "label": "Seeing who owes what and how fast they pay",
+          "patterns": [
+            "aging|aged (debt|receivables|reports?)",
+            "\\bdso\\b",
+            "days to collect",
+            "collection days",
+            "overview of (outstanding|open)",
+            "outstanding (debt|balances|accounts)",
+            "real-time (view|visibility)|visibility into",
+            "a/?r (dashboard|reports)|receivables (reports|trends)"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sending reminders and chasing emails": 0.6,
+        "Agreeing payment plans or instalments": 0.21,
+        "Handling disputes and deductions": 0.14,
+        "Writing off or reserving for bad debt": 0.12,
+        "Seeing who owes what and how fast they pay": 0.4
+      }
+    },
+    {
+      "id": "team",
+      "text": "Do several people share the credit control work?",
+      "help": "For example, each controller owns a set of customers.",
+      "options": [
+        {
+          "label": "Yes, we assign customers or tasks to collectors",
+          "patterns": [
+            "credit controllers?",
+            "collectors?",
+            "assign(s|ed)?\\b[^.]*(users?|controller|team)",
+            "follow-?up (task|management)|follow-up tasks",
+            "shared follow-up",
+            "\\bto-?dos?\\b",
+            "role-based access for collectors",
+            "team performance|leaderboard",
+            "account managers?"
+          ]
+        },
+        {
+          "label": "No, it should mostly run on its own",
+          "patterns": [
+            "automat\\w*[^.]*(reminders?|dunning|chas|notices|follow-ups|collection)",
+            "auto-?email",
+            "schedul\\w*[^.]*(reminders?|chasers)",
+            "recurring overdue",
+            "sends? (automated )?(payment )?reminders"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we assign customers or tasks to collectors": 0.31,
+        "No, it should mostly run on its own": 0.45
+      }
+    },
+    {
+      "id": "docs",
+      "text": "What should go out to customers along with the chasing?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Regular account statements",
+          "patterns": [
+            "statements?\\b"
+          ]
+        },
+        {
+          "label": "Copies of the overdue invoices attached",
+          "patterns": [
+            "attach\\w*[^.]*invoices?",
+            "invoices? attached",
+            "invoice pdfs|invoice copies with|outstanding invoices directly|invoice attachments"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Regular account statements": 0.24,
+        "Copies of the overdue invoices attached": 0.19
+      }
+    },
+    {
+      "id": "pay",
+      "text": "Should customers be able to pay online straight from a reminder?",
+      "help": "A payment link or portal with card, bank or open banking.",
+      "options": [
+        {
+          "label": "Yes, payment links or a customer portal",
+          "patterns": [
+            "payment links?",
+            "portal",
+            "auto-?pay",
+            "virtual terminal",
+            "credit cards?|\\bach\\b|open banking"
+          ]
+        },
+        {
+          "label": "No, bank transfer is fine",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, payment links or a customer portal": 0.17
+      }
+    },
+    {
+      "id": "escalate",
+      "text": "What happens when a customer still won't pay?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Hand it to a debt collection agency",
+          "patterns": [
+            "debt[- ]collection (notices|agency)|inkasso",
+            "debt agency|gældsstyrelsen",
+            "sends? (unpaid invoices|receivables) to",
+            "transition from reminder process to debt collection"
+          ]
+        },
+        {
+          "label": "Put the customer on hold or block orders",
+          "patterns": [
+            "\\bblock",
+            "(customers?|accounts?) (are |is )?on hold|holds sales orders|auto-hold",
+            "credit limits?|over-limit"
+          ]
+        },
+        {
+          "label": "Charge interest or late fees",
+          "patterns": [
+            "finance charges?",
+            "late fees?",
+            "interest"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Hand it to a debt collection agency": 0.07,
+        "Put the customer on hold or block orders": 0.17,
+        "Charge interest or late fees": 0.07
+      }
+    },
+    {
+      "id": "ai",
+      "text": "Do you want warnings about who is likely to pay late?",
+      "help": "Prediction based on each customer's payment history.",
+      "options": [
+        {
+          "label": "Yes, predict late payers",
+          "patterns": [
+            "predict",
+            "late payers",
+            "high-risk|by risk|risk group",
+            "payment behaviou?r"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, predict late payers": 0.14
+      }
+    },
+    {
+      "id": "where",
+      "text": "Should collections run inside BC or in a dedicated service connected to BC?",
+      "options": [
+        {
+          "label": "Inside BC only",
+          "patterns": [
+            "native in bc|fully native",
+            "embedded in bc",
+            "no external",
+            "no middleware",
+            "directly from (business central|customer ledger)",
+            "inside your erp"
+          ]
+        },
+        {
+          "label": "A dedicated collections service is fine",
+          "patterns": [
+            "sync\\w*",
+            "client portal|self-service|payment portal",
+            "imports customers",
+            "platform",
+            "mirroring"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inside BC only": 0.1,
+        "A dedicated collections service is fine": 0.12
+      }
+    }
+  ]
+}

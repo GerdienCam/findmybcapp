@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.ls_retail|AID.c614b236-d467-46b2-91ec-0becf136b29b|PAPPID.36461aec-bf4f-40dc-9f47-113cf3350d1e",
+  "guid": "36461aec-bf4f-40dc-9f47-113cf3350d1e",
+  "publisherId": "ls_retail",
+  "offerId": "c614b236-d467-46b2-91ec-0becf136b29b",
+  "source": {
+    "name": "Aggregated Inventory for LS Central",
+    "publisher": "LS Retail",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.c614b236-d467-46b2-91ec-0becf136b29b%7CPAPPID.36461aec-bf4f-40dc-9f47-113cf3350d1e",
+    "lastModified": "2026-08-26T09:00:37.784989+00:00",
+    "appVersion": "28.1.0.34",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.lscentral.lsretail.com/",
+    "sourceHash": "sha256:3a196885a8cd55dad844098689bbb6c395dd5ce6f00eb7e6ff45522b8ad8ea96"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3a196885a8cd55dad844098689bbb6c395dd5ce6f00eb7e6ff45522b8ad8ea96",
+    "mappedOn": null,
+    "summary": "Aggregates inventory postings for LS Central",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-performance",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-retail",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis",
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Consolidates inventory transactions from many stores into one aggregated location",
+      "Reduces item ledger entries to speed up cost adjustment and posting",
+      "Aggregates multi-store sales into a single item ledger entry during statement posting",
+      "Documents and journals show both source store and aggregated location",
+      "Aggregated Inventory Entries follow inventory at store level",
+      "Store-level availability for eCommerce, mobile inventory, customer orders and POS lookup",
+      "Compresses and archives aggregated entries in batches with restore option"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

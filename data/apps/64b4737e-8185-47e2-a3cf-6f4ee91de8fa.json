@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.digicodeinc1707417914635|AID.intelligent_document_processing|PAPPID.64b4737e-8185-47e2-a3cf-6f4ee91de8fa",
+  "guid": "64b4737e-8185-47e2-a3cf-6f4ee91de8fa",
+  "publisherId": "digicodeinc1707417914635",
+  "offerId": "intelligent_document_processing",
+  "source": {
+    "name": "Intelligent Accounts Payable Document Processing",
+    "publisher": "Digicode Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.digicodeinc1707417914635%7CAID.intelligent_document_processing%7CPAPPID.64b4737e-8185-47e2-a3cf-6f4ee91de8fa",
+    "lastModified": "2025-08-26T19:07:36.8281838+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mydigicode.com/privacy-policy-appsource/",
+    "sourceHash": "sha256:acf606ee700d14ab4e5fb8ba3799509360d46e725ccc573af1275088c2fb7dfb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:acf606ee700d14ab4e5fb8ba3799509360d46e725ccc573af1275088c2fb7dfb",
+    "mappedOn": null,
+    "summary": "AI-based capture and processing of incoming supplier invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Receives and processes invoices from email automatically",
+      "AI extracts invoice data into XML",
+      "Creates incoming documents",
+      "Compare extracted data with original invoice image",
+      "Approval workflow with error detection",
+      "Creates purchase invoices once approved",
+      "Line items require manual input (header-level extraction)"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.litsservices1588138020299|AID.lits_foodics_connector|PAPPID.19416ee5-9414-43e9-82a4-52bc0e281f9b",
+  "guid": "19416ee5-9414-43e9-82a4-52bc0e281f9b",
+  "publisherId": "litsservices1588138020299",
+  "offerId": "lits_foodics_connector",
+  "source": {
+    "name": "LITS Foodics Connector",
+    "publisher": "LITS SERVICES",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.litsservices1588138020299%7CAID.lits_foodics_connector%7CPAPPID.19416ee5-9414-43e9-82a4-52bc0e281f9b",
+    "lastModified": "2025-05-26T07:20:14.4343388+00:00",
+    "appVersion": "26.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.lits.services/contact-us/",
+    "sourceHash": "sha256:4c89f4f3411110bdee28b53e392310e9f7b4cd0d6cf5d66570c7f8ef324f972d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4c89f4f3411110bdee28b53e392310e9f7b4cd0d6cf5d66570c7f8ef324f972d",
+    "mappedOn": null,
+    "summary": "Syncs Foodics POS data with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-hospitality",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Extracts sales transactions from Foodics POS into BC",
+      "Staging tables to validate data before posting",
+      "Converts Foodics transactions into BC sales orders",
+      "Manages order fulfillment workflow in BC",
+      "Error handling and logging of mapping inconsistencies"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Restaurants"
+    ],
+    "connectsTo": [
+      "Foodics"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

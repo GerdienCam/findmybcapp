@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_intrastat_unit_conversion|PAPPID.96a62966-e49b-4ee0-8262-1d9c5c8bea59",
+  "guid": "96a62966-e49b-4ee0-8262-1d9c5c8bea59",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_intrastat_unit_conversion",
+  "source": {
+    "name": "m+m Intrastat with Unit Conversion",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_intrastat_unit_conversion%7CPAPPID.96a62966-e49b-4ee0-8262-1d9c5c8bea59",
+    "lastModified": "2026-06-06T16:14:30.3766513+00:00",
+    "appVersion": "28.0.370908.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:67b55406ec533e892e0a864a2427da30450fd3dd5e93b56c5872f0f1175482c0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:67b55406ec533e892e0a864a2427da30450fd3dd5e93b56c5872f0f1175482c0",
+    "mappedOn": null,
+    "summary": "Sets Intrastat weights from m+m unit conversion",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sets Intrastat gross and net weight from unit conversion",
+      "Uses item ledger entries as source",
+      "Supported BC editions as stated"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Unit Conversion"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

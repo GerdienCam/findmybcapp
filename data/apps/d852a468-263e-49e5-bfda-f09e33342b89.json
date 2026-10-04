@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.e-documents-connector-pagero|PAPPID.d852a468-263e-49e5-bfda-f09e33342b89",
+  "guid": "d852a468-263e-49e5-bfda-f09e33342b89",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "e-documents-connector-pagero",
+  "source": {
+    "name": "E-Documents Connector with External Endpoints",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.e-documents-connector-pagero%7CPAPPID.d852a468-263e-49e5-bfda-f09e33342b89",
+    "lastModified": "2026-08-13T11:53:23.8792249+00:00",
+    "appVersion": "25.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://aka.ms/bcedocuments",
+    "sourceHash": "sha256:ee387151aa7634305e694ae3a7370d24e1033ba476759a7b6612f81966719de8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ee387151aa7634305e694ae3a7370d24e1033ba476759a7b6612f81966719de8",
+    "mappedOn": null,
+    "summary": "E-document exchange via Pagero access point",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Connects BC to the Pagero e-invoicing network incl. Peppol",
+      "Sales invoices sent as e-invoices automatically on posting",
+      "Incoming vendor e-invoices matched to account mappings or item references",
+      "Converts incoming e-invoices to purchase invoices or orders",
+      "Automated approval/rejection of incoming e-invoices via Pagero"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Pagero",
+      "PEPPOL"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

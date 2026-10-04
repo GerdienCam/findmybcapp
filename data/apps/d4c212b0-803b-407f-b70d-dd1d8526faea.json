@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.martitab1633951001710|AID.easyconnect|PAPPID.d4c212b0-803b-407f-b70d-dd1d8526faea",
+  "guid": "d4c212b0-803b-407f-b70d-dd1d8526faea",
+  "publisherId": "martitab1633951001710",
+  "offerId": "easyconnect",
+  "source": {
+    "name": "Easy Connect",
+    "publisher": "MartIT AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.martitab1633951001710%7CAID.easyconnect%7CPAPPID.d4c212b0-803b-407f-b70d-dd1d8526faea",
+    "lastModified": "2026-09-04T05:29:51.8105534+00:00",
+    "appVersion": "1.2.16.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.combineit.se/",
+    "sourceHash": "sha256:c02a959528e716c95111a7237fb08857c530a5ca2d2e9dc21ee2329fbeccf25f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c02a959528e716c95111a7237fb08857c530a5ca2d2e9dc21ee2329fbeccf25f",
+    "mappedOn": null,
+    "summary": "Syncs intercompany orders and master data",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Synchronizes orders between companies as alternative to standard IC flows",
+      "No-code selection of fields to sync in both directions",
+      "Replaces field values during sync",
+      "Delivery in sending company delivers order in both companies",
+      "Invoicing via standard BC intercompany features",
+      "Pushes master data such as new items to other companies",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evfcominv|PAPPID.0a52203b-9e4d-48a1-b51e-67d9296c3241",
+  "guid": "0a52203b-9e4d-48a1-b51e-67d9296c3241",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evfcominv",
+  "source": {
+    "name": "EV Commercial Invoice",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evfcominv%7CPAPPID.0a52203b-9e4d-48a1-b51e-67d9296c3241",
+    "lastModified": "2026-03-27T10:33:30.9520796+00:00",
+    "appVersion": "10000.0.187160.2400",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
+    "sourceHash": "sha256:5e384973ae5a2cf336a2a686cd34619ba56e537cefc4d7b41479be28d161c8fc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5e384973ae5a2cf336a2a686cd34619ba56e537cefc4d7b41479be28d161c8fc",
+    "mappedOn": null,
+    "summary": "Commercial invoices for bonded shipments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates customs documentation for international shipments",
+      "Supports customs standards of Norway, Great Britain and USA among others"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "IT",
+      "NL",
+      "NO",
+      "PH",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Customs/commercial invoice documentation for export has no dedicated group; closest is shipping documents."
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

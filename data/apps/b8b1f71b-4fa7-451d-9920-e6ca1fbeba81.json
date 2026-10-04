@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.practiceinsightptyltd1646633659396|AID.d365bc-addon-wt-01|PAPPID.b8b1f71b-4fa7-451d-9920-e6ca1fbeba81",
+  "guid": "b8b1f71b-4fa7-451d-9920-e6ca1fbeba81",
+  "publisherId": "practiceinsightptyltd1646633659396",
+  "offerId": "d365bc-addon-wt-01",
+  "source": {
+    "name": "WiseTime Connect",
+    "publisher": "Practice Insight Pty Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.practiceinsightptyltd1646633659396%7CAID.d365bc-addon-wt-01%7CPAPPID.b8b1f71b-4fa7-451d-9920-e6ca1fbeba81",
+    "lastModified": "2024-11-22T01:20:09.1693519+00:00",
+    "appVersion": "1.1.145.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.wisetime.com/hc/en-us/articles/4410833712143",
+    "sourceHash": "sha256:965211ce990cefc222da772b1ae12288785904cd613e2e5b486dc62a0b322724"
+  },
+  "mapping": {
+    "sourceHash": "sha256:965211ce990cefc222da772b1ae12288785904cd613e2e5b486dc62a0b322724",
+    "mappedOn": null,
+    "summary": "Sends automated WiseTime tracking to BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-billing"
+    ],
+    "claims": [
+      "Automatic AI-powered time capture running in the background, no manual timesheets",
+      "Spots jobs and job tasks from BC in file names and email subjects, then tags the activity",
+      "Produces a draft of the day's work to send to BC",
+      "Syncs jobs, job tasks and tags between WiseTime and BC",
+      "Sends selected activity to the job journal",
+      "ISO-27001 compliant data protection",
+      "Privacy-first: activity private until user chooses to send",
+      "A WiseTime Enterprise or Professional plan is needed",
+      "Free 30-day trial",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "WiseTime"
+    ],
+    "requires": [
+      "WiseTime"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

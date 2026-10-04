@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.venasolutions1606746975530|AID.vena_bc_connector|PAPPID.a79d77f3-edab-48e9-8ad1-d86a387153ea",
+  "guid": "a79d77f3-edab-48e9-8ad1-d86a387153ea",
+  "publisherId": "venasolutions1606746975530",
+  "offerId": "vena_bc_connector",
+  "source": {
+    "name": "Vena CPM for Microsoft Dynamics 365 Business Central",
+    "publisher": "Vena Solutions Canada",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.venasolutions1606746975530%7CAID.vena_bc_connector%7CPAPPID.a79d77f3-edab-48e9-8ad1-d86a387153ea",
+    "lastModified": "2026-06-30T05:39:38.3918615+00:00",
+    "appVersion": "1.0.20260625.141117",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.venasolutions.com/hc/en-us",
+    "sourceHash": "sha256:d46da9a7442eb8f899cb69a25612de1a2884d5ddfc0ea4c11ffb8cafc1203ca3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d46da9a7442eb8f899cb69a25612de1a2884d5ddfc0ea4c11ffb8cafc1203ca3",
+    "mappedOn": null,
+    "summary": "Connects BC to Vena for planning, forecasting and reporting",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-budget-build",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-budget-vs-actual",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-financial-statements",
+      "ng-strategy-longrange",
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Native connector integrating BC financial and operational data with Vena",
+      "Consolidates ERP/GL, HRIS and CRM data",
+      "Automated data loads with flexible scheduling",
+      "Integrates with Excel, Power BI and PowerPoint",
+      "Ad-hoc reporting, scenario modeling and variance analysis",
+      "Workflows, audit trails and version control",
+      "Vena Copilot AI assistant for FP&A",
+      "Free first year and 40% off implementation for new BC Online customers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Vena",
+      "Excel",
+      "Power BI",
+      "PowerPoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

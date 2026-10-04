@@ -1,0 +1,90 @@
+{
+  "appId": "PUBID.simplyd|AID.sd-edim|PAPPID.30343bd2-6cb6-42bc-bea9-b41f5a18a3e9",
+  "guid": "30343bd2-6cb6-42bc-bea9-b41f5a18a3e9",
+  "publisherId": "simplyd",
+  "offerId": "sd-edim",
+  "source": {
+    "name": "SD Interface EDI",
+    "publisher": "Simply Dynamics Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.sd-edim%7CPAPPID.30343bd2-6cb6-42bc-bea9-b41f5a18a3e9",
+    "lastModified": "2026-09-01T11:49:24.4375526+00:00",
+    "appVersion": "10.0.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-interface-edi/",
+    "sourceHash": "sha256:87f1f48c883ffe0f722cf657702cd72a4e65ec12c90df2cbff72f65d60b50d98"
+  },
+  "mapping": {
+    "sourceHash": "sha256:87f1f48c883ffe0f722cf657702cd72a4e65ec12c90df2cbff72f65d60b50d98",
+    "mappedOn": null,
+    "summary": "EDI process management with trading partners",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Unlimited trading partners and VANs, incl. point-to-point",
+      "Formats TRADACOMS, EDIFACT, XML and CSV",
+      "Mappings and translations configured without code",
+      "Error handling and message history",
+      "Customer messages: inbound orders, outbound ASNs, invoices/credits and catalogues",
+      "Supplier messages: outbound POs, inbound invoices and catalogues",
+      "Works with VANs Celtrino, OpenText GXS, True Commerce, Wasp Batch"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "IE",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "NZ",
+      "PT",
+      "SE",
+      "TR",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Celtrino",
+      "OpenText GXS",
+      "True Commerce",
+      "Wasp Batch"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

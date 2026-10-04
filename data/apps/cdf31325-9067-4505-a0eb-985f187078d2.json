@@ -1,0 +1,94 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.nic_mobile_data_collections|PAPPID.cdf31325-9067-4505-a0eb-985f187078d2",
+  "guid": "cdf31325-9067-4505-a0eb-985f187078d2",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "nic_mobile_data_collections",
+  "source": {
+    "name": "Mobile Data Collection",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.nic_mobile_data_collections%7CPAPPID.cdf31325-9067-4505-a0eb-985f187078d2",
+    "lastModified": "2026-09-03T20:26:38.7921725+00:00",
+    "appVersion": "27.3.18985.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.nicsystemslearning.com/help/mobile-data-collection",
+    "sourceHash": "sha256:58490df8e5e6f960c23e206e16602456cb49c2b5dccc2956a8a9a3780e3a2961"
+  },
+  "mapping": {
+    "sourceHash": "sha256:58490df8e5e6f960c23e206e16602456cb49c2b5dccc2956a8a9a3780e3a2961",
+    "mappedOn": null,
+    "summary": "Mobile barcode data collection for warehouse and factory",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-receiving-putaway",
+      "ng-shop-floor-reporting",
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Barcode scanning on handheld devices",
+      "Item and bin lookup",
+      "Physical inventory counts",
+      "Transfer orders between locations",
+      "Internal movements within warehouse",
+      "Warehouse receiving and shipping, in basic and advanced forms",
+      "Warehouse picking",
+      "Registers consumption and output of production, with batches or without",
+      "Package and lot tracking details on all inventory transactions"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

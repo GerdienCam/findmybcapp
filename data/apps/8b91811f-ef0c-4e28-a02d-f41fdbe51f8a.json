@@ -1,0 +1,104 @@
+{
+  "appId": "PUBID.foodware365|AID.aptean_quality_control|PAPPID.8b91811f-ef0c-4e28-a02d-f41fdbe51f8a",
+  "guid": "8b91811f-ef0c-4e28-a02d-f41fdbe51f8a",
+  "publisherId": "foodware365",
+  "offerId": "aptean_quality_control",
+  "source": {
+    "name": "Aptean Quality Control for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_quality_control%7CPAPPID.8b91811f-ef0c-4e28-a02d-f41fdbe51f8a",
+    "lastModified": "2026-02-27T12:21:58.2339166+00:00",
+    "appVersion": "2401.7.299938.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/QCL/",
+    "sourceHash": "sha256:90d9f00fcea7fd6b277318ed45a45aa30ad30a5728a17508c9b61dd48bf7cd68"
+  },
+  "mapping": {
+    "sourceHash": "sha256:90d9f00fcea7fd6b277318ed45a45aa30ad30a5728a17508c9b61dd48bf7cd68",
+    "mappedOn": null,
+    "summary": "Quality control processes for food and beverage products",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-hold",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-nonconformance-capa"
+    ],
+    "claims": [
+      "Quality checks auto-generated on receipt, shipment and in production",
+      "Failed lots automatically placed on hold",
+      "Follow-up action lists created on failure",
+      "Tablet app with camera photos attached to quality checks",
+      "Quality triggers on documents, production orders and periodic inventory spot checks",
+      "Assign quality checks to teams per location, work center and check type",
+      "Full history of quality checks and actions",
+      "Integrates with Aptean Shop Floor Production for in-production checks"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

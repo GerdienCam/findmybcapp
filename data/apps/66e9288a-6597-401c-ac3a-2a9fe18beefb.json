@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.bydynamicsbv1640103983705|AID.pic_bdy|PAPPID.66e9288a-6597-401c-ac3a-2a9fe18beefb",
+  "guid": "66e9288a-6597-401c-ac3a-2a9fe18beefb",
+  "publisherId": "bydynamicsbv1640103983705",
+  "offerId": "pic_bdy",
+  "source": {
+    "name": "Project Intercompany",
+    "publisher": "bydynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bydynamicsbv1640103983705%7CAID.pic_bdy%7CPAPPID.66e9288a-6597-401c-ac3a-2a9fe18beefb",
+    "lastModified": "2026-06-04T06:10:08.1495535+00:00",
+    "appVersion": "26.1.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://github.com/bydynamics/AL-ProjectIntercompany-Support",
+    "sourceHash": "sha256:4caeb8568d0d59221b61cd85be3fd11ab46dc1bf168e85402aa0e73a85c27a2a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4caeb8568d0d59221b61cd85be3fd11ab46dc1bf168e85402aa0e73a85c27a2a",
+    "mappedOn": null,
+    "summary": "Intercompany postings of project costs and resource hours",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-costs"
+    ],
+    "claims": [
+      "Maps projects to projects across legal entities",
+      "Cross-company resource posting",
+      "Resource matrix control by partner or resource",
+      "IC flow from job journal to IC outbox/inbox to project ledger",
+      "Traceability via IC Posting Id",
+      "Consistency check for missing/mismatched entries",
+      "Multi-currency",
+      "Optional source-side G/L mapping"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Construction",
+      "Engineering",
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

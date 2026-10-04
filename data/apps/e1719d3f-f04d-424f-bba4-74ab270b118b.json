@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.tso|AID.4ea1f5a4-5bba-4884-bf12-3b75517d2c8b|PAPPID.e1719d3f-f04d-424f-bba4-74ab270b118b",
+  "guid": "e1719d3f-f04d-424f-bba4-74ab270b118b",
+  "publisherId": "tso",
+  "offerId": "4ea1f5a4-5bba-4884-bf12-3b75517d2c8b",
+  "source": {
+    "name": "Phonetic Search",
+    "publisher": "TSO-DATA GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tso%7CAID.4ea1f5a4-5bba-4884-bf12-3b75517d2c8b%7CPAPPID.e1719d3f-f04d-424f-bba4-74ab270b118b",
+    "lastModified": "2026-01-17T02:05:02.3715854+00:00",
+    "appVersion": "25.0.0.370162",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.tso.de/fileadmin/Dokumente/PhoneticSearchExtensionEN_BusinessCentral.pdf",
+    "sourceHash": "sha256:66f989aa614dd30268dd5721b4ed5709ea4e83e44b3e478d406b8d6d6b6fb286"
+  },
+  "mapping": {
+    "sourceHash": "sha256:66f989aa614dd30268dd5721b4ed5709ea4e83e44b3e478d406b8d6d6b6fb286",
+    "mappedOn": null,
+    "summary": "Phonetic search for contacts",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-search-navigation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Finds contacts despite typing errors",
+      "Choice of different phonetic algorithms",
+      "No predefined dictionary to maintain",
+      "Free trial available"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

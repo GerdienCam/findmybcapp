@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.dcsba|PAPPID.3db8295b-3775-4f80-abc3-0330be8b32fe",
+  "guid": "3db8295b-3775-4f80-abc3-0330be8b32fe",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "dcsba",
+  "source": {
+    "name": "EV Tecto - CDC",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.dcsba%7CPAPPID.3db8295b-3775-4f80-abc3-0330be8b32fe",
+    "lastModified": "2026-09-10T15:48:17.5005144+00:00",
+    "appVersion": "10006.80.218813.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/365Con/overview",
+    "sourceHash": "sha256:6e79eb864a4e1eb6828b33a842b4b6a274819f029ba109ee413cb97d6eb06ce6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6e79eb864a4e1eb6828b33a842b4b6a274819f029ba109ee413cb97d6eb06ce6",
+    "mappedOn": null,
+    "summary": "Integrates EV Tecto with Continia Document Capture",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-costs",
+      "ng-vert-construction"
+    ],
+    "claims": [
+      "Integrates EV Tecto with Continia Document Capture",
+      "Reference string",
+      "Purchase allocation on jobs",
+      "Vendor entry overview",
+      "Jobs show purchase costs awaiting approval"
+    ],
+    "countries": [
+      "DK",
+      "GB",
+      "NO",
+      "PL",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "EV Tecto - Core",
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

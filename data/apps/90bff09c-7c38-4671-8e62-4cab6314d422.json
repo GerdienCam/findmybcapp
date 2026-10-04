@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.advaiya|AID.adv_d365bc_pr_0001|PAPPID.90bff09c-7c38-4671-8e62-4cab6314d422",
+  "guid": "90bff09c-7c38-4671-8e62-4cab6314d422",
+  "publisherId": "advaiya",
+  "offerId": "adv_d365bc_pr_0001",
+  "source": {
+    "name": "Advaiya Purchase Requisition App",
+    "publisher": "Advaiya Solutions Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advaiya%7CAID.adv_d365bc_pr_0001%7CPAPPID.90bff09c-7c38-4671-8e62-4cab6314d422",
+    "lastModified": "2026-07-31T08:26:24.5523714+00:00",
+    "appVersion": "1.0.0.19",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.advaiya.com/contact/",
+    "sourceHash": "sha256:320f4102f89319d425b28c5d2f532ec36e78438fd565a25667d6f91247831b84"
+  },
+  "mapping": {
+    "sourceHash": "sha256:320f4102f89319d425b28c5d2f532ec36e78438fd565a25667d6f91247831b84",
+    "mappedOn": null,
+    "summary": "Purchase requisitions with approvals converted to purchase orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-ux-dimensions"
+    ],
+    "claims": [
+      "Create and submit purchase requisitions in BC",
+      "Multiple items per requisition",
+      "Item-wise approval workflow",
+      "Multi-level hierarchical approval",
+      "Approved items flow into purchase quotes",
+      "Status tracking of requisitions, approvals and procurement",
+      "Exportable requisition reports",
+      "Attachments on requisitions flowing to quote and PO",
+      "Six extra dimensions at requisition header mapped to lines",
+      "All eight dimensions flow to purchase quotes and orders",
+      "USD 40 per user per year"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Construction",
+      "Manufacturing",
+      "Professional services",
+      "Real estate"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

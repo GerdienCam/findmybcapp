@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.continia365|AID.6da8dd2f-e698-461f-9147-8e404244dd85|PAPPID.6da8dd2f-e698-461f-9147-8e404244dd85",
+  "guid": "6da8dd2f-e698-461f-9147-8e404244dd85",
+  "publisherId": "continia365",
+  "offerId": "6da8dd2f-e698-461f-9147-8e404244dd85",
+  "source": {
+    "name": "Continia Document Capture",
+    "publisher": "Continia Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.6da8dd2f-e698-461f-9147-8e404244dd85%7CPAPPID.6da8dd2f-e698-461f-9147-8e404244dd85",
+    "lastModified": "2026-09-30T21:03:41.7566499+00:00",
+    "appVersion": "29.0.0.214374",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.continia.com/en-us/continia-document-capture",
+    "sourceHash": "sha256:499dc837efd064802567452d24dddb2bcfacec3e14d14683e920aed5a34c338d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:499dc837efd064802567452d24dddb2bcfacec3e14d14683e920aed5a34c338d",
+    "mappedOn": null,
+    "summary": "Captures and automates supplier invoices for accounts payable",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-einvoicing",
+      "ng-supplier-contracts",
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "OCR captures invoice text into the correct BC fields",
+      "Automatic three-way matching against purchase orders and receipts",
+      "Auto-approves invoices and credit memos under a set limit",
+      "Choice of three approval workflows",
+      "Review, approve, reject and put on hold from anywhere",
+      "Purchase contracts with auto-approval of linked documents",
+      "Electronic document exchange via Continia eDocuments with XML compatibility",
+      "Full-text searchable digital archive",
+      "Archive certified as audit-proof in Germany",
+      "Tracks each document from receipt to bookkeeping entry"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.projestspa|AID.inte005|PAPPID.7cc67fc6-df1a-42f6-ae75-92617e3b3160",
+  "guid": "7cc67fc6-df1a-42f6-ae75-92617e3b3160",
+  "publisherId": "projestspa",
+  "offerId": "inte005",
+  "source": {
+    "name": "Document Management by Innovio",
+    "publisher": "INNOVIO SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.projestspa%7CAID.inte005%7CPAPPID.7cc67fc6-df1a-42f6-ae75-92617e3b3160",
+    "lastModified": "2026-07-15T22:59:19.1173349+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.innoviogroup.com/software/app/document-management",
+    "sourceHash": "sha256:2e3b880a692a262ff32c856ee9638249b46560d34946037adf1bd33eb9ce5880"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2e3b880a692a262ff32c856ee9638249b46560d34946037adf1bd33eb9ce5880",
+    "mappedOn": null,
+    "summary": "Document archiving via SharePoint and Azure Blob Storage",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Stores documents in SharePoint Online or Azure Blob Storage",
+      "Uploads, downloads, deletes and accesses documents via a FactBox",
+      "Organize documents by customer, vendor or document folder structure",
+      "Generates predefined nested folder structures",
+      "Supports customers, vendors and projects",
+      "Supports sales quotes, orders, posted invoices and credit memos",
+      "Supports purchase orders and posted purchase invoices/credit memos",
+      "Requires a Microsoft Entra app registration"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint Online",
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

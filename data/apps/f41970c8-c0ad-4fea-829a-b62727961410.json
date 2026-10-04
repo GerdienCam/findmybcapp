@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.alfapeople|AID.apd365forbcchilepurchasedocs|PAPPID.f41970c8-c0ad-4fea-829a-b62727961410",
+  "guid": "f41970c8-c0ad-4fea-829a-b62727961410",
+  "publisherId": "alfapeople",
+  "offerId": "apd365forbcchilepurchasedocs",
+  "source": {
+    "name": "Purchase Invoice Reconciliation Latam for Microsoft Dynamics 365 Business Central",
+    "publisher": "ALFAPEOPLE",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alfapeople%7CAID.apd365forbcchilepurchasedocs%7CPAPPID.f41970c8-c0ad-4fea-829a-b62727961410",
+    "lastModified": "2026-09-29T19:15:23.9955789+00:00",
+    "appVersion": "28.0.1.10",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://alfapeople.com/contact/",
+    "sourceHash": "sha256:d5d533b2e1bed58fd84f1f7cebd013e96f8300219f1979ea2e58cac5e87d9098"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d5d533b2e1bed58fd84f1f7cebd013e96f8300219f1979ea2e58cac5e87d9098",
+    "mappedOn": null,
+    "summary": "Receives and reconciles electronic purchase documents for Latin American countries",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Automated reception of electronic invoices, credit notes and debit notes (DTE)",
+      "Real-time connection to country tax connectors",
+      "Reconciles XML/JSON amounts against purchase order amounts and flags differences",
+      "Automatically creates and posts purchase invoices linked to POs",
+      "Mass posting of reconciled invoices via periodic tasks",
+      "Shows DTE status, the purchase registry and events per period",
+      "Stores XML/JSON and PDF files in BC",
+      "Imports electronic certificate for connection to legal entities",
+      "Tolerance settings for amount matching by document type",
+      "Azure storage account integration for attachments",
+      "Sends and receives acceptance and claim events in real time",
+      "Multiple countries in one BC instance"
+    ],
+    "countries": [
+      "CL",
+      "CO",
+      "MX",
+      "PE"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

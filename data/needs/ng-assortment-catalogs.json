@@ -1,0 +1,166 @@
+{
+  "id": "ng-assortment-catalogs",
+  "order": 60,
+  "label": "Product catalogs per channel, store and customer",
+  "description": "Controlling which items are offered per webshop, store or channel and keeping assortments current.",
+  "type": "bpc",
+  "area": "Products & items",
+  "relevance": "medium",
+  "statements": [
+    "Product catalogs per channel, store and customer",
+    "Controlling which items are offered per webshop, store or channel and keeping assortments current.",
+    "Our web shop menu doesn't match how we organise products in BC",
+    "How do I choose which items get published to Shopify and which stay internal?",
+    "We want one product hierarchy for the webshop and a different one for promotions",
+    "Syncing the product range from BC to our three online stores is manual",
+    "ecommerce product catalog sync Business Central",
+    "Products we stopped selling still show up on the website",
+    "Is there an app that builds a navigation tree for our online store from item categories?",
+    "Our retail stores keep getting products in the POS that they don't carry",
+    "We'd like to push a selected list of items to a marketplace like Amazon",
+    "Planogram tool that integrates with BC",
+    "Adding a new item to the online catalog requires a developer every time",
+    "We need separate catalogs for our B2C site and our outlet site",
+    "We need to plan next season's assortment per store",
+    "assortment planning retail Business Central",
+    "Small stores should only get the core range, flagship stores everything",
+    "Merchandise planning is done in Excel and then retyped into BC",
+    "Is there a tool to plan which products are offered in which channel?",
+    "Buyers need to decide the range for spring before placing orders with suppliers",
+    "A store wants to add 20 items to its range this week",
+    "Removing products from one channel but keeping them on others",
+    "assortment maintenance stores",
+    "We need to update which customers see which products on our B2B portal",
+    "Is there a quick way to change product hierarchies without breaking the webshop?",
+    "Seasonal items need to come out of store assortments automatically",
+    "We still make our customer price catalog in InDesign by copying from BC every year",
+    "Want to print a PDF product catalog with pictures and customer-specific prices straight from BC",
+    "Different customers should only see the items they're allowed to buy",
+    "customer specific assortment",
+    "Our sales reps carry an outdated paper catalog to customer visits",
+    "Is there an app to show a digital catalog on a tablet so reps can take orders at trade shows?",
+    "The webshop shows items we've stopped selling because nobody controls which items are published to customers",
+    "We need separate catalogs for our Danish and German customers with translated descriptions",
+    "How do we let a distributor see a catalog of only their brand's products?",
+    "seasonal catalog for retailers",
+    "Item pictures and sales texts live in a folder somewhere, not in BC, so catalogs for customers take weeks",
+    "We want customers to download an up to date product list with their net prices in Excel"
+  ],
+  "questions": [
+    {
+      "id": "goal",
+      "text": "What do you mainly want to control?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Product content for webshops and marketplaces",
+          "patterns": [
+            "\\bpim\\b",
+            "product information",
+            "e-?commerce",
+            "channel",
+            "platform",
+            "marketplace"
+          ]
+        },
+        {
+          "label": "Which items specific customers may buy",
+          "patterns": [
+            "customer-specific",
+            "specific customers",
+            "block or allow",
+            "restrict"
+          ]
+        },
+        {
+          "label": "Catalogs or item data files sent to customers",
+          "patterns": [
+            "catalogu?es?\\b.*export",
+            "exports? (entire )?item",
+            "printed catalog",
+            "download product data",
+            "item data templates"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Product content for webshops and marketplaces": 0.62,
+        "Which items specific customers may buy": 0.38,
+        "Catalogs or item data files sent to customers": 0.25
+      }
+    },
+    {
+      "id": "lang",
+      "text": "Do you sell in more than one language?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "multi-?lingual",
+            "multi-language",
+            "several languages",
+            "languages"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.62
+      }
+    },
+    {
+      "id": "media",
+      "text": "Do you need to manage product images, videos and documents?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "digital asset",
+            "media",
+            "videos?",
+            "images",
+            "documents"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.62
+      }
+    },
+    {
+      "id": "workflow",
+      "text": "Should product data changes be approved before going live?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "workflow",
+            "approval",
+            "governance",
+            "validate",
+            "status management",
+            "releases products"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.38
+      }
+    }
+  ]
+}

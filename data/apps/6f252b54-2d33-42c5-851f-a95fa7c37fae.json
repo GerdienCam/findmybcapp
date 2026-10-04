@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-flex-order|PAPPID.6f252b54-2d33-42c5-851f-a95fa7c37fae",
+  "guid": "6f252b54-2d33-42c5-851f-a95fa7c37fae",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-flex-order",
+  "source": {
+    "name": "Powerblox Flexible Order Promising",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-flex-order%7CPAPPID.6f252b54-2d33-42c5-851f-a95fa7c37fae",
+    "lastModified": "2025-03-13T19:46:55.1005969+00:00",
+    "appVersion": "20.0.4.38058",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/flexible_order_promising",
+    "sourceHash": "sha256:87f8b4787231a161f7ec8a1d5ad919904cd1fe937cf05f8d7d68d35103a27e0e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:87f8b4787231a161f7ec8a1d5ad919904cd1fe937cf05f8d7d68d35103a27e0e",
+    "mappedOn": null,
+    "summary": "Calculates order promising dates by custom criteria",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-order-allocation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Custom delivery-date formulas instead of standard available-to-promise",
+      "Delivery lead times per item category and subcategory",
+      "Choose which order types count in available stock",
+      "Stock-out alerts",
+      "Requires confirmation from purchase or production department"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

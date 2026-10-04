@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.abakion|AID.sproom_connector|PAPPID.69965d0a-62f4-4721-bbdc-7ac5c9dc0235",
+  "guid": "69965d0a-62f4-4721-bbdc-7ac5c9dc0235",
+  "publisherId": "abakion",
+  "offerId": "sproom_connector",
+  "source": {
+    "name": "Electronic Invoicing with Sproom",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.sproom_connector%7CPAPPID.69965d0a-62f4-4721-bbdc-7ac5c9dc0235",
+    "lastModified": "2026-07-16T12:40:13.7794072+00:00",
+    "appVersion": "28.2.202629.171604",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/da/dynamics-365/apps/sproom/#howto",
+    "sourceHash": "sha256:2c6bae1858f7355956a7b2a22fdac1784789cb8e65b22b53e430fe54fb5f04e0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2c6bae1858f7355956a7b2a22fdac1784789cb8e65b22b53e430fe54fb5f04e0",
+    "mappedOn": null,
+    "summary": "Sends OIOUBL e-invoices to Danish public sector via Sproom",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Sends invoices as OIOUBL to Danish public sector and companies via Sproom",
+      "Sales invoices and credit notes sent as e-invoice from print action",
+      "Routes to recipient by EAN/GLN number",
+      "Self-service setup; assisted setup at fixed DKK 995",
+      "Requires a Sproom subscription"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Sproom",
+      "OIOUBL"
+    ],
+    "requires": [
+      "Sproom subscription"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

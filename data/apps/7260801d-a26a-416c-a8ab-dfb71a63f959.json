@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.wisefish1707821097531|AID.wfapi|PAPPID.7260801d-a26a-416c-a8ab-dfb71a63f959",
+  "guid": "7260801d-a26a-416c-a8ab-dfb71a63f959",
+  "publisherId": "wisefish1707821097531",
+  "offerId": "wfapi",
+  "source": {
+    "name": "Wisefish API",
+    "publisher": "Wisefish",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wisefish1707821097531%7CAID.wfapi%7CPAPPID.7260801d-a26a-416c-a8ab-dfb71a63f959",
+    "lastModified": "2026-09-23T13:56:21.3331154+00:00",
+    "appVersion": "28.1.20260923.14",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.wisefish.com/contact",
+    "sourceHash": "sha256:9d16f55e9adf8a06ce44caa29f6b8314d72aac8b4d36f9ea7aaed32480215580"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9d16f55e9adf8a06ce44caa29f6b8314d72aac8b4d36f9ea7aaed32480215580",
+    "mappedOn": null,
+    "summary": "API framework connecting Wisefish to external systems",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-seafood",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "APIs expose seafood master data plus production, inventory and agreements",
+      "API calls follow same validation and business logic as the UI",
+      "Exchanges production output and consumption with external production systems",
+      "Real-time API and asynchronous messaging, for both on-prem and cloud setups",
+      "Lots, trade items, pallets and agreements in Wisefish tables"
+    ],
+    "countries": [
+      "AU",
+      "DK",
+      "IS",
+      "NL",
+      "NO",
+      "NZ",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is",
+      "no"
+    ],
+    "industries": [
+      "Seafood"
+    ],
+    "connectsTo": [
+      "MES",
+      "CRM",
+      "Logistics platforms"
+    ],
+    "requires": [
+      "Wisefish"
+    ],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

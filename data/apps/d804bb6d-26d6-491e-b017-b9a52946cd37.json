@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.brightcom_3111464|AID.brccore|PAPPID.d804bb6d-26d6-491e-b017-b9a52946cd37",
+  "guid": "d804bb6d-26d6-491e-b017-b9a52946cd37",
+  "publisherId": "brightcom_3111464",
+  "offerId": "brccore",
+  "source": {
+    "name": "BRC Core",
+    "publisher": "BrightCom Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.brccore%7CPAPPID.d804bb6d-26d6-491e-b017-b9a52946cd37",
+    "lastModified": "2026-10-01T13:06:32.5912412+00:00",
+    "appVersion": "28.0.35341.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.brightcom.se/sv/Products/BRCCore",
+    "sourceHash": "sha256:d7462e1b406ceaa7b71563f65f5c8402fd6a8c306f4492c9fb5070e84c6f6142"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d7462e1b406ceaa7b71563f65f5c8402fd6a8c306f4492c9fb5070e84c6f6142",
+    "mappedOn": null,
+    "summary": "Enhancements to job queue control, Intrastat, pricing and dimensions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-data-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting",
+      "ng-admin-job-queue-setup",
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Default dimensions on items and locations",
+      "Total and remaining quantities on purchase order header",
+      "Rounds Intrastat shipment weight up to 1 kg",
+      "Run job queues under a predefined user ID",
+      "Posting date rules when copying documents",
+      "Consistent VAT-inclusive end prices in price lists",
+      "Features activated centrally per feature"
+    ],
+    "countries": [
+      "DK",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-rental-continia-document-output|PAPPID.a761e02c-4ef7-4fc2-bd2c-a851a0dc66ed",
+  "guid": "a761e02c-4ef7-4fc2-bd2c-a851a0dc66ed",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-rental-continia-document-output",
+  "source": {
+    "name": "Aptean Rental x Continia Document Output",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-rental-continia-document-output%7CPAPPID.a761e02c-4ef7-4fc2-bd2c-a851a0dc66ed",
+    "lastModified": "2026-09-01T07:36:51.9756652+00:00",
+    "appVersion": "2800.260800.20260828.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.traser-software.de/de-DE",
+    "sourceHash": "sha256:b0995d61935bba626b8122f30d98c2ab9ab6e2df0e43ced867ad0612565ace25"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b0995d61935bba626b8122f30d98c2ab9ab6e2df0e43ced867ad0612565ace25",
+    "mappedOn": null,
+    "summary": "Sends Aptean Rental documents via Continia Document Output",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-rental"
+    ],
+    "claims": [
+      "Emails rental documents via Continia Document Output",
+      "Emails contracts, breaks and end-of-contract documents",
+      "Choose immediate send or queue",
+      "Email during batch posting from rental areas"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [
+      "Continia Document Output"
+    ],
+    "requires": [
+      "Aptean Rental",
+      "Continia Document Output"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

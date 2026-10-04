@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.bcility1636664056498|AID.bcility-sms-gateway|PAPPID.cfdaad62-425d-46c6-a437-4e11e0b85fa3",
+  "guid": "cfdaad62-425d-46c6-a437-4e11e0b85fa3",
+  "publisherId": "bcility1636664056498",
+  "offerId": "bcility-sms-gateway",
+  "source": {
+    "name": "SMS Gateway",
+    "publisher": "BCILITY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcility1636664056498%7CAID.bcility-sms-gateway%7CPAPPID.cfdaad62-425d-46c6-a437-4e11e0b85fa3",
+    "lastModified": "2026-04-10T06:07:50.5283159+00:00",
+    "appVersion": "27.0.0.16",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcility.com/about-us/",
+    "sourceHash": "sha256:9e21ee0595e00c1477dee411a5c8be39e16eca4c3a65d17ed9b40cfa94ca8d25"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9e21ee0595e00c1477dee411a5c8be39e16eca4c3a65d17ed9b40cfa94ca8d25",
+    "mappedOn": null,
+    "summary": "Sends SMS messages from BC via sms-gate.app",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends SMS via sms-gate.app",
+      "SMS actions on sales quotes, orders and invoices",
+      "SMS actions on purchase documents",
+      "SMS actions on service documents",
+      "Multiple SMS devices and accounts",
+      "Delivery status tracking",
+      "Tracks inbound and outbound messages via webhooks",
+      "Complete SMS log linked to documents",
+      "Phone number prefix validation and normalization",
+      "Public API codeunit for custom integrations",
+      "Automatic retry with configurable attempts"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "sms-gate.app"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

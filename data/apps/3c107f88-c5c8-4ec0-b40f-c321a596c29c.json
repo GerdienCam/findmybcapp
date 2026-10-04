@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.it_integro|AID.bc_mdms_001|PAPPID.3c107f88-c5c8-4ec0-b40f-c321a596c29c",
+  "guid": "3c107f88-c5c8-4ec0-b40f-c321a596c29c",
+  "publisherId": "it_integro",
+  "offerId": "bc_mdms_001",
+  "source": {
+    "name": "Master Data Management System",
+    "publisher": "IT.integro sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.it_integro%7CAID.bc_mdms_001%7CPAPPID.3c107f88-c5c8-4ec0-b40f-c321a596c29c",
+    "lastModified": "2026-09-29T15:38:26.4201212+00:00",
+    "appVersion": "5.18.2.28002",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.it.integro.pl/en-us/mdms/index.html",
+    "sourceHash": "sha256:da66fa4d1cd8e1cc1940e26cb8c89b2d32297bb55c268b381af34a7431410c0f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:da66fa4d1cd8e1cc1940e26cb8c89b2d32297bb55c268b381af34a7431410c0f",
+    "mappedOn": null,
+    "summary": "Synchronizes master data across BC tenants and databases",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Master company replicates data to receiving companies/tenants",
+      "Replicates data from standard tables and other apps/extensions",
+      "Typical data: items, G/L accounts, customers, vendors, dimensions, posting groups, user roles",
+      "Unlimited receivers",
+      "Field-level data sets",
+      "Full or incremental replication",
+      "Used by 140 corporate groups with 1000 companies"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "fr",
+      "nl",
+      "pl",
+      "pt"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.msesoftwaregmbh1653230793499|AID.creditsolution2dynamics|PAPPID.53c586e2-3f1b-46b4-9731-70c81a3ad151",
+  "guid": "53c586e2-3f1b-46b4-9731-70c81a3ad151",
+  "publisherId": "msesoftwaregmbh1653230793499",
+  "offerId": "creditsolution2dynamics",
+  "source": {
+    "name": "CreditSolution2Dynamics",
+    "publisher": "mse Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.msesoftwaregmbh1653230793499%7CAID.creditsolution2dynamics%7CPAPPID.53c586e2-3f1b-46b4-9731-70c81a3ad151",
+    "lastModified": "2025-07-04T14:43:43.4222257+00:00",
+    "appVersion": "26.1.1.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.creditsolution2dynamics.cloud/en/support",
+    "sourceHash": "sha256:02e74a404df63fa51d5b0b8ad1be8cb55ea799c8e2de8feddc2d6733c22c9d1a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:02e74a404df63fa51d5b0b8ad1be8cb55ea799c8e2de8feddc2d6733c22c9d1a",
+    "mappedOn": null,
+    "summary": "Interfaces to credit report and risk assessment services",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds"
+    ],
+    "claims": [
+      "Management system with interfaces for credit reports and risk assessment",
+      "Required by mse interfaces such as Skyminder2Dynamics"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Base framework required by mse credit interfaces such as Skyminder2Dynamics",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

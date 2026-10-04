@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.aitana_management_sl|AID.idynamics_commissions_sales_connector|PAPPID.33de7712-fd10-401a-bab9-d5bed389e8db",
+  "guid": "33de7712-fd10-401a-bab9-d5bed389e8db",
+  "publisherId": "aitana_management_sl",
+  "offerId": "idynamics_commissions_sales_connector",
+  "source": {
+    "name": "iDynamics Commissions 365 Sales Connector",
+    "publisher": "iDynamics Business Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aitana_management_sl%7CAID.idynamics_commissions_sales_connector%7CPAPPID.33de7712-fd10-401a-bab9-d5bed389e8db",
+    "lastModified": "2026-06-02T03:25:42.3306488+00:00",
+    "appVersion": "1.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.idynamics.es/en/commissionscrm/index.html",
+    "sourceHash": "sha256:1ff3ef3779a5f2c070fb72d32af5eeb66943ceeae450f369243dd252458bd581"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1ff3ef3779a5f2c070fb72d32af5eeb66943ceeae450f369243dd252458bd581",
+    "mappedOn": null,
+    "summary": "Shows BC-calculated sales commissions in Dynamics 365 Sales",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-sales-commissions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs BC sales and commissions to Dynamics 365 Sales",
+      "Includes active records and full history",
+      "Scheduled automatic synchronization",
+      "Dashboard with synchronization status",
+      "Email notifications on sync errors",
+      "Commission forecast on open opportunities and quotes"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail and consumer goods"
+    ],
+    "connectsTo": [
+      "Dynamics 365 Sales"
+    ],
+    "requires": [
+      "iDynamics Commissions"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

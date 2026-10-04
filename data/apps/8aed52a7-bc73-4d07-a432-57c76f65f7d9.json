@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.retailcentral|AID.norce2bc|PAPPID.8aed52a7-bc73-4d07-a432-57c76f65f7d9",
+  "guid": "8aed52a7-bc73-4d07-a432-57c76f65f7d9",
+  "publisherId": "retailcentral",
+  "offerId": "norce2bc",
+  "source": {
+    "name": "Norce2BC",
+    "publisher": "Retail Central",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.retailcentral%7CAID.norce2bc%7CPAPPID.8aed52a7-bc73-4d07-a432-57c76f65f7d9",
+    "lastModified": "2026-09-07T18:02:01.0118448+00:00",
+    "appVersion": "2.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://basecloud.se/",
+    "sourceHash": "sha256:d70bc8f8267c8371067e3741ddf39d909deaa09bc8dc26d9935012ed875219c6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d70bc8f8267c8371067e3741ddf39d909deaa09bc8dc26d9935012ed875219c6",
+    "mappedOn": null,
+    "summary": "Integrates Norce Commerce with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Keeps orders, inventory, prices and products in sync across Norce and BC",
+      "Supports multiple markets and currencies",
+      "Built-in logging and error management",
+      "Supports B2B and B2C"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Norce Commerce"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

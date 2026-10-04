@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.markinformationas|AID.promark-dyn365|PAPPID.e6d23cd0-fe26-49b4-bd99-f4e23c8e912b",
+  "guid": "e6d23cd0-fe26-49b4-bd99-f4e23c8e912b",
+  "publisherId": "markinformationas",
+  "offerId": "promark-dyn365",
+  "source": {
+    "name": "Worklinq Workforce Management",
+    "publisher": "Worklinq A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markinformationas%7CAID.promark-dyn365%7CPAPPID.e6d23cd0-fe26-49b4-bd99-f4e23c8e912b",
+    "lastModified": "2026-08-03T22:52:17.6625002+00:00",
+    "appVersion": "1.4.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://worklinq.com/worklinq-apps-landingpage/",
+    "sourceHash": "sha256:90b5dc70c5ff4979a1ee8db80a8a3e113a21817d125b14f9bafdb29d78147030"
+  },
+  "mapping": {
+    "sourceHash": "sha256:90b5dc70c5ff4979a1ee8db80a8a3e113a21817d125b14f9bafdb29d78147030",
+    "mappedOn": null,
+    "summary": "Workforce scheduling, time and attendance via Worklinq",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-proj-time",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-payroll-comp",
+      "ng-hr-absence-leave"
+    ],
+    "claims": [
+      "Scheduling, time and attendance, shopfloor and project registration",
+      "Time and attendance combined with task management and exception handling",
+      "Project and activity registration as basis for customer invoicing",
+      "Approval and validation workflows for payroll basis",
+      "Workforce scheduling and re-planning",
+      "Registration via mobile app, web portal, terminal and tablets with offline support",
+      "Implements regulatory and local work agreements",
+      "Requires Premium edition"
+    ],
+    "countries": [
+      "DK",
+      "GB",
+      "GL",
+      "IE",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "en",
+      "nb",
+      "sv"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Worklinq"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

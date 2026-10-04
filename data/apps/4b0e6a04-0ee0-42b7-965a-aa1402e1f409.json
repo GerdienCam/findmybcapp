@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.cap_vision|AID.advancedsalescommissions|PAPPID.4b0e6a04-0ee0-42b7-965a-aa1402e1f409",
+  "guid": "4b0e6a04-0ee0-42b7-965a-aa1402e1f409",
+  "publisherId": "cap_vision",
+  "offerId": "advancedsalescommissions",
+  "source": {
+    "name": "CAP Sales - Advanced Commissions",
+    "publisher": "Cap Vision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cap_vision%7CAID.advancedsalescommissions%7CPAPPID.4b0e6a04-0ee0-42b7-965a-aa1402e1f409",
+    "lastModified": "2026-07-22T19:30:42.7093211+00:00",
+    "appVersion": "27.202607.46102.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.capvision-cloud.fr/fr-FR/cap-sales-advancedcommissions/user-guide.html",
+    "sourceHash": "sha256:51b38fb7b8191f150f93a6175e8c96e8b5ca1bc51988093af4176ab4b5382e4c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:51b38fb7b8191f150f93a6175e8c96e8b5ca1bc51988093af4176ab4b5382e4c",
+    "mappedOn": null,
+    "summary": "Calculates and books salesperson commissions with payment via purchase invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-commissions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Commission rules per customer, vendor, group, item, item group",
+      "Salesperson per sales or purchase line",
+      "Payment triggers per salesperson",
+      "Creates purchase invoices to pay salespeople",
+      "Pays employees and external salespeople",
+      "Real-time commission tracking",
+      "Read-only team member plan"
+    ],
+    "countries": [
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "IT",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

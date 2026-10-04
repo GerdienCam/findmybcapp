@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.docfinance_connector|PAPPID.54bb2591-afd7-4f30-b5a2-15c99627ae14",
+  "guid": "54bb2591-afd7-4f30-b5a2-15c99627ae14",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "docfinance_connector",
+  "source": {
+    "name": "DocFinance connector",
+    "publisher": "LODESTAR SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.docfinance_connector%7CPAPPID.54bb2591-afd7-4f30-b5a2-15c99627ae14",
+    "lastModified": "2026-07-24T08:07:57.5330943+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:e6c3031da531e82ff89d62fedfb8cfee9c7d17f23d3e70694fb70732b6c56b03"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e6c3031da531e82ff89d62fedfb8cfee9c7d17f23d3e70694fb70732b6c56b03",
+    "mappedOn": null,
+    "summary": "Treasury and bank integration with DocFinance",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-cash-forecast",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Connects BC to DocFinance treasury via API and files",
+      "Real-time synchronization of financial data",
+      "Monitor bank balances by currency across multiple banks via DocFinance",
+      "Synchronized master data",
+      "Integrates receivables and payables",
+      "Creates bank ledger entries automatically from reason codes",
+      "Multicompany and multicurrency support"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DocFinance"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

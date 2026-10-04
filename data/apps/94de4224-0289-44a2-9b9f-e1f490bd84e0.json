@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.advania|AID.advania_item_sales_discount|PAPPID.94de4224-0289-44a2-9b9f-e1f490bd84e0",
+  "guid": "94de4224-0289-44a2-9b9f-e1f490bd84e0",
+  "publisherId": "advania",
+  "offerId": "advania_item_sales_discount",
+  "source": {
+    "name": "Advania Item Sales Discount",
+    "publisher": "Advania",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advania%7CAID.advania_item_sales_discount%7CPAPPID.94de4224-0289-44a2-9b9f-e1f490bd84e0",
+    "lastModified": "2026-10-01T08:16:32.478221+00:00",
+    "appVersion": "29.0.49.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.d365bc.is/itemsalesdiscounts",
+    "sourceHash": "sha256:1b199b66f5b61dda2cbfafaf4412cdce8322842a90f6d5bc19090cfbc857409d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1b199b66f5b61dda2cbfafaf4412cdce8322842a90f6d5bc19090cfbc857409d",
+    "mappedOn": null,
+    "summary": "Item, category and customer specific sales discounts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Discounts per item, item category and customer",
+      "Discounts per customer ship-to code",
+      "Discount validity dates",
+      "Limits on manual discounts by users on sales documents, items and resources"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DE",
+      "DK",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "IE",
+      "IS",
+      "NO",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.simova|AID.dms_to_dc_by_simova|PAPPID.6a728d32-0d0c-4b7c-ac81-2fe5de9a5cfc",
+  "guid": "6a728d32-0d0c-4b7c-ac81-2fe5de9a5cfc",
+  "publisherId": "simova",
+  "offerId": "dms_to_dc_by_simova",
+  "source": {
+    "name": "Document Central for DC",
+    "publisher": "Simova GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simova%7CAID.dms_to_dc_by_simova%7CPAPPID.6a728d32-0d0c-4b7c-ac81-2fe5de9a5cfc",
+    "lastModified": "2026-08-12T12:50:28.6192048+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simova.de/simovazone",
+    "sourceHash": "sha256:d1b12c2ca12f06f9645058c5d05d80dd5b52916fb0ff53959fcc80963f2af4f6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d1b12c2ca12f06f9645058c5d05d80dd5b52916fb0ff53959fcc80963f2af4f6",
+    "mappedOn": null,
+    "summary": "Archives Document Capture invoices in Document Central DMS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Connects Continia Document Capture with Document Central",
+      "Automates archiving of incoming invoices",
+      "Audit-proof archiving of invoices"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IE",
+      "JP",
+      "NL",
+      "NZ",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "Document Central",
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

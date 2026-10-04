@@ -1,0 +1,108 @@
+{
+  "appId": "PUBID.tso|AID.dms_connector_sp|PAPPID.1204184d-c505-4db6-a760-d16e17e2c35f",
+  "guid": "1204184d-c505-4db6-a760-d16e17e2c35f",
+  "publisherId": "tso",
+  "offerId": "dms_connector_sp",
+  "source": {
+    "name": "DMS Connector for Microsoft SharePoint",
+    "publisher": "TSO-DATA GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tso%7CAID.dms_connector_sp%7CPAPPID.1204184d-c505-4db6-a760-d16e17e2c35f",
+    "lastModified": "2026-10-01T04:43:12.8337249+00:00",
+    "appVersion": "28.0.2610.620792",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.tso.de/dmscsp/en",
+    "sourceHash": "sha256:0e6470bda541423694c497cebc97d7cf9ac5dbcdb891bd3d549c427a7925d743"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0e6470bda541423694c497cebc97d7cf9ac5dbcdb891bd3d549c427a7925d743",
+    "mappedOn": null,
+    "summary": "Stores BC documents and emails in SharePoint",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Links documents and emails to BC master data and transfers them to SharePoint",
+      "Tags documents with keywords before transfer",
+      "View scanned incoming mail in BC and assign to transactions",
+      "Drag-and-drop document storage",
+      "Automatic upload of outgoing invoices to SharePoint",
+      "Users without BC access see authorized documents in SharePoint",
+      "Supports Essential edition"
+    ],
+    "countries": [
+      "AD",
+      "AE",
+      "AL",
+      "AT",
+      "AU",
+      "BA",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LI",
+      "LT",
+      "LU",
+      "LV",
+      "MC",
+      "ME",
+      "MT",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RO",
+      "RS",
+      "SE",
+      "SI",
+      "SK",
+      "TR",
+      "UA",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

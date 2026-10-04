@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.advaiya|AID.adv_cmmspro_01|PAPPID.250b25b3-fed6-46e7-ba95-e6887bbc579a",
+  "guid": "250b25b3-fed6-46e7-ba95-e6887bbc579a",
+  "publisherId": "advaiya",
+  "offerId": "adv_cmmspro_01",
+  "source": {
+    "name": "CMMS Pro",
+    "publisher": "Advaiya Solutions Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advaiya%7CAID.adv_cmmspro_01%7CPAPPID.250b25b3-fed6-46e7-ba95-e6887bbc579a",
+    "lastModified": "2026-08-27T14:15:37.6943219+00:00",
+    "appVersion": "1.0.0.8",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://advaiya.com/contact/",
+    "sourceHash": "sha256:1aa50cfbd2f459272094dd550e01dc4a98c9341785d5cb56941cf2e22c2f27fd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1aa50cfbd2f459272094dd550e01dc4a98c9341785d5cb56941cf2e22c2f27fd",
+    "mappedOn": null,
+    "summary": "Asset register and maintenance management (CMMS)",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-fa-register",
+      "ng-hr-health-safety",
+      "ng-purchase-requisitions"
+    ],
+    "claims": [
+      "Asset register organized by owning departments, locations, categories, groups, types and models",
+      "Reusable maintenance checklists with activities, items and resources",
+      "Completed checklists archived automatically",
+      "Preventive maintenance plans by asset or asset group with frequency and scope",
+      "Generates schedules from calendar intervals or usage thresholds",
+      "Usage-based maintenance via meter reading logs",
+      "Work orders with task assignment, status tracking and checklist completion",
+      "Posts material and resource consumption to BC item and resource journals",
+      "Maintenance requests with BC native approval workflow",
+      "Work permit management",
+      "Links maintenance to purchase requisitions for spare parts",
+      "Uses existing fixed assets, items, resources and purchase documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

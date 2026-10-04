@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.taigsolutionslimited1626774502612|AID.report-substitution|PAPPID.8c2b2eff-83d7-405d-9b01-ce24d76c20d5",
+  "guid": "8c2b2eff-83d7-405d-9b01-ce24d76c20d5",
+  "publisherId": "taigsolutionslimited1626774502612",
+  "offerId": "report-substitution",
+  "source": {
+    "name": "Report Substitution",
+    "publisher": "TAIG Solutions Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.taigsolutionslimited1626774502612%7CAID.report-substitution%7CPAPPID.8c2b2eff-83d7-405d-9b01-ce24d76c20d5",
+    "lastModified": "2025-07-29T18:44:59.8828368+00:00",
+    "appVersion": "2.2.6.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.taigsolutions.co.uk/support",
+    "sourceHash": "sha256:2bfb961097d46605a8022fb7959fae96094e183a2be927c793d6e18ed9041b3d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2bfb961097d46605a8022fb7959fae96094e183a2be927c793d6e18ed9041b3d",
+    "mappedOn": null,
+    "summary": "Replaces standard reports keeping names and links",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-extensions-env"
+    ],
+    "claims": [
+      "Redirects standard report requests to substituted custom reports",
+      "Users run reports as before without retraining",
+      "Reports themselves not included"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

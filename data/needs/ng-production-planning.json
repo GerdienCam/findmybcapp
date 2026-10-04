@@ -1,0 +1,317 @@
+{
+  "id": "ng-production-planning",
+  "order": 88,
+  "label": "Planning what to produce and when",
+  "description": "Creating, modifying and adjusting production plans and orders.",
+  "type": "bpc",
+  "area": "Manufacturing",
+  "relevance": "high",
+  "statements": [
+    "Planning what to produce and when",
+    "Creating, modifying and adjusting production plans and orders.",
+    "Every sales order needs its own production order and we create them by hand",
+    "How do I make a production order directly from a sales order in BC?",
+    "We want production orders created automatically when a customer orders a custom product",
+    "Firming planned production orders one by one takes our planner all morning",
+    "create production order from sales order",
+    "Is there an app that creates production orders for all the sub-assemblies at once?",
+    "Our planner copies the sales order into Excel and then types production orders",
+    "We make to order and the link between the customer order and the production order keeps breaking",
+    "When I create a production order for the top item, the lower level parts are not created",
+    "We want a simple list of all open sales orders that still need a production order",
+    "Kanban cards for our repetitive items instead of production orders",
+    "Can we generate production orders from a forecast for our stock items?",
+    "Our sales reps want to see if a production order has been made for their order yet",
+    "We get a weekly call off from a big customer and turn it into production orders manually",
+    "How do I turn the planning worksheet suggestions into real production orders?",
+    "Production orders for configured products need the right options from the sales line",
+    "We need one production order per batch, not one per sales line",
+    "Too many small production orders get created, we want them combined into batches",
+    "Our engineers need to create a prototype production order without a sales order",
+    "planned to firm planned to released, what does each status mean?",
+    "A customer moved their delivery and I have to change dates on ten production orders by hand",
+    "How do I change the quantity on a firm planned production order without recreating it?",
+    "We need to cancel production orders when the sales order is cancelled",
+    "When I change the due date, BC doesn't move the component dates with it",
+    "We want to reserve the output of a production order for one specific customer",
+    "Is there a quick way to swap a component on all open production orders?",
+    "Moving an order to a different machine before it starts is too many clicks",
+    "change production order dates in bulk",
+    "Our planner wants to split one big production order into two smaller ones",
+    "Deleting a production order leaves orphan reservations and purchase links behind",
+    "Can I lock a production order so planning doesn't change it again?",
+    "We want to merge several small production orders for the same item into one run",
+    "Halfway through a job we had to use a different material and need to update the order",
+    "How do I reverse an operation that was reported by mistake on a running production order?",
+    "The machine broke mid-run and we moved the job to another one",
+    "We need to add an extra operation to a production order already in progress",
+    "Supervisors reshuffle running jobs for urgent orders and BC doesn't keep up",
+    "change components on released production order in progress",
+    "Our production planner decides what to make next on a whiteboard",
+    "How do we get BC to suggest production orders based on sales orders and forecast?",
+    "production planning app Business Central",
+    "We want planned production orders for finished goods and their sub-assemblies in one run",
+    "MRP for small manufacturer",
+    "Every week I turn the planning worksheet suggestions into firm production orders by hand",
+    "Is there a kanban solution for BC where empty bins trigger production?",
+    "We make some items to stock and some to order and the planning treats them all the same",
+    "Import planned production orders from our Excel plan into Business Central",
+    "Planning suggests making 3 pieces every day instead of one sensible batch",
+    "We need a production plan for the next 8 weeks that shows what to make each week",
+    "How far ahead should we plan production, two weeks or two months?",
+    "Our production plan ignores the stock we already have of semi-finished goods",
+    "Master production schedule for our finished goods",
+    "We want to see which customer order each planned production order is for",
+    "The factory works from a plan that is outdated the moment sales take a new order",
+    "Can planning combine demand from several sales orders into one production run?",
+    "We need a weekly planning cycle that turns forecast into production orders automatically",
+    "Plan production for a food company where batches must be a fixed size",
+    "Planned orders from MRP should be easy to review and release in one screen"
+  ],
+  "questions": [
+    {
+      "id": "how_plan",
+      "text": "How do you want to plan production?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Schedule machines and work centers against real capacity",
+          "patterns": [
+            "finite capacity",
+            "capacity (planning|overloads|constraints|scheduling)",
+            "(machine|capacity|operations?) schedul",
+            "scheduling (of|and) production|planning (and|&) scheduling",
+            "scheduler",
+            "schedule (board|view|operations|production)",
+            "sequenc",
+            "bottleneck",
+            "theory of constraints",
+            "machine (and labou?r hour )?capacity"
+          ]
+        },
+        {
+          "label": "Calculate material needs automatically (MRP)",
+          "patterns": [
+            "\\bmrp\\b",
+            "\\bmps\\b",
+            "material requirements",
+            "material and master production",
+            "planning (proposals?|worksheets?)",
+            "replenishment"
+          ]
+        },
+        {
+          "label": "Check material shortages before starting",
+          "patterns": [
+            "shortages?",
+            "material availability",
+            "capable-to-promise",
+            "all raw materials"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Schedule machines and work centers against real capacity": 0.28,
+        "Calculate material needs automatically (MRP)": 0.26,
+        "Check material shortages before starting": 0.16
+      }
+    },
+    {
+      "id": "view",
+      "text": "How would you like to see the plan?",
+      "options": [
+        {
+          "label": "A graphical board I can drag orders around on",
+          "patterns": [
+            "graphical",
+            "gantt",
+            "drag-and-drop",
+            "planning ?board",
+            "schedule board"
+          ]
+        },
+        {
+          "label": "Lists and overviews inside BC",
+          "patterns": [
+            "overview",
+            "dashboards?",
+            "one page",
+            "single page",
+            "one-screen",
+            "cockpits?",
+            "control center",
+            "role centre"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "A graphical board I can drag orders around on": 0.09,
+        "Lists and overviews inside BC": 0.33
+      }
+    },
+    {
+      "id": "demand",
+      "text": "What drives what you produce?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Customer orders (make to order)",
+          "patterns": [
+            "from sales orders?",
+            "make-to-order",
+            "sales order (lines|number)",
+            "originating sales order",
+            "open sales order lines",
+            "drop shipments? / special",
+            "sales demand"
+          ]
+        },
+        {
+          "label": "Forecasts and stock levels",
+          "patterns": [
+            "forecast",
+            "sales budget",
+            "make-to-stock",
+            "safety stock",
+            "planning parameters",
+            "inventory replenishment"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Customer orders (make to order)": 0.14,
+        "Forecasts and stock levels": 0.14
+      }
+    },
+    {
+      "id": "product_type",
+      "text": "What best describes your production?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Batches or recipes (food, chemicals, process)",
+          "patterns": [
+            "batch",
+            "recipe",
+            "process manufacturing",
+            "potency",
+            "co-products?",
+            "by-products?",
+            "grading|butcher",
+            "process or mixed-mode"
+          ]
+        },
+        {
+          "label": "Products in variants (size, colour, configurations)",
+          "patterns": [
+            "variant",
+            "colou?r and size",
+            "matrix",
+            "product configuration|configures? products"
+          ]
+        },
+        {
+          "label": "Several factories or production companies",
+          "patterns": [
+            "multiple production (companies|facilities)",
+            "multi-?plant",
+            "across factories",
+            "across sites"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Batches or recipes (food, chemicals, process)": 0.19,
+        "Products in variants (size, colour, configurations)": 0.07,
+        "Several factories or production companies": 0.05
+      }
+    },
+    {
+      "id": "change",
+      "text": "How often do you need to change production orders after creating them?",
+      "help": "Splitting, merging, reopening or cancelling.",
+      "options": [
+        {
+          "label": "Often: split, merge or move orders",
+          "patterns": [
+            "merge,? split",
+            "split,? merge",
+            "order split",
+            "move order",
+            "one released production order from several",
+            "reschedul"
+          ]
+        },
+        {
+          "label": "Reopen, cancel or close orders in bulk",
+          "patterns": [
+            "reopen",
+            "cancel",
+            "mass closing",
+            "temporarily close",
+            "close production orders"
+          ]
+        },
+        {
+          "label": "Rarely",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Often: split, merge or move orders": 0.12,
+        "Reopen, cancel or close orders in bulk": 0.07
+      }
+    },
+    {
+      "id": "automation",
+      "text": "Do you want the planning to run by itself or suggest actions?",
+      "options": [
+        {
+          "label": "AI suggestions and forecasts",
+          "patterns": [
+            "\\bai\\b",
+            "copilot",
+            "assistant answers",
+            "demand forecasting",
+            "optimi[sz]ation"
+          ]
+        },
+        {
+          "label": "Planning runs automatically overnight",
+          "patterns": [
+            "job queue",
+            "overnight",
+            "runs? mrp",
+            "automated planning",
+            "automatic\\w* (planning|synchroni)"
+          ]
+        },
+        {
+          "label": "Not needed",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "AI suggestions and forecasts": 0.07,
+        "Planning runs automatically overnight": 0.09
+      }
+    }
+  ]
+}

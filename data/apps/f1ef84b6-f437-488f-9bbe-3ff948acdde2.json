@@ -1,0 +1,52 @@
+{
+  "appId": "TYPE.connect|PUBID.logolointernationalinc1773122619630|AID.auto-sales-price|PAPPID.f1ef84b6-f437-488f-9bbe-3ff948acdde2",
+  "guid": "f1ef84b6-f437-488f-9bbe-3ff948acdde2",
+  "publisherId": "logolointernationalinc1773122619630",
+  "offerId": "auto-sales-price",
+  "source": {
+    "name": "Auto Sales Price",
+    "publisher": "Logolo International Inc",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.logolointernationalinc1773122619630%7CAID.auto-sales-price%7CPAPPID.f1ef84b6-f437-488f-9bbe-3ff948acdde2",
+    "lastModified": "2026-03-13T12:18:57.7250781+00:00",
+    "appVersion": "26.0.0.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://gist.githubusercontent.com/sthh-hub/75cdf5c8e06a216ced4c9ed988795403/raw/support.md",
+    "sourceHash": "sha256:52c496a2d957a2d8b3f7b19255eebb2580dc96301429c78c8cda018bc7ae54f9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:52c496a2d957a2d8b3f7b19255eebb2580dc96301429c78c8cda018bc7ae54f9",
+    "mappedOn": null,
+    "summary": "Generates customer prices from MSRP via price group discounts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Generates customer sales prices from item card price using Customer Price Group rules",
+      "Default discount percentages per Customer Price Group",
+      "Rules to include or exclude by price range, item number and item category, ordered by priority",
+      "Generate manually for a single group or every enabled group",
+      "Auto-regenerates prices when item price or rules change"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

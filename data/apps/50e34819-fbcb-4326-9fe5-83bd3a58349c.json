@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.appower|AID.pwr_ap|PAPPID.50e34819-fbcb-4326-9fe5-83bd3a58349c",
+  "guid": "50e34819-fbcb-4326-9fe5-83bd3a58349c",
+  "publisherId": "appower",
+  "offerId": "pwr_ap",
+  "source": {
+    "name": "Approvica Integration",
+    "publisher": "APPower",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.appower%7CAID.pwr_ap%7CPAPPID.50e34819-fbcb-4326-9fe5-83bd3a58349c",
+    "lastModified": "2026-07-06T10:27:15.9818059+00:00",
+    "appVersion": "1.2.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.appower.io/",
+    "sourceHash": "sha256:2408b5bb5b03d6c819da615eed6e31cc51985137ba0acc152de988fa7d0e71bd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2408b5bb5b03d6c819da615eed6e31cc51985137ba0acc152de988fa7d0e71bd",
+    "mappedOn": null,
+    "summary": "Document approvals involving external stakeholders via Approvica",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "External customers and vendors approve documents without BC licenses or logins",
+      "External users can comment, approve or request changes",
+      "Real-time approval status tracking with audit trail",
+      "Automated reminders and follow-ups to approvers",
+      "Handles approval of invoices, contracts, offers and further documents",
+      "Approval processes started from within BC",
+      "Customer approval of sales offers before order processing",
+      "Vendor approval of self-billing invoices before posting",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Approvica"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

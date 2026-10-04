@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.applibra|AID.al_foundation_app|PAPPID.276d231a-96fc-4cc8-a606-0e9f98a29234",
+  "guid": "276d231a-96fc-4cc8-a606-0e9f98a29234",
+  "publisherId": "applibra",
+  "offerId": "al_foundation_app",
+  "source": {
+    "name": "AL Foundation App",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_foundation_app%7CPAPPID.276d231a-96fc-4cc8-a606-0e9f98a29234",
+    "lastModified": "2026-09-28T08:18:13.3520578+00:00",
+    "appVersion": "28.0.26.9261208",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://applibra.com/apps/al-foundation-app/help",
+    "sourceHash": "sha256:ba5bcbe9942e686af602861dea0cbd9bf1fe990cabddbad842f63d0c762f4fb1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ba5bcbe9942e686af602861dea0cbd9bf1fe990cabddbad842f63d0c762f4fb1",
+    "mappedOn": null,
+    "summary": "Free base library required by other AppLibra apps",
+    "shape": "other",
+    "primary": [
+      {
+        "need": "ng-ux-excel-reporting",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-sales-analytics"
+    ],
+    "claims": [
+      "Writes one entry per posted sales/purchase line with header fields",
+      "Four registers cover purchase receipts, sales shipments, purchases and sales",
+      "Registers published as API queries for Power BI",
+      "Recalculate entries of a period from posted documents",
+      "Units of measure classified by type and priority",
+      "Dated hierarchies of customers, vendors, items, salespeople and price groups"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free",
+    "hide": true,
+    "hideReason": "Free base/dependency app for the AppLibra apps, normally installed as a component",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

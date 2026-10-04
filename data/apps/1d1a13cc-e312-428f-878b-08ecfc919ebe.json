@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.websan-solutions-inc|AID.dynamics-containerization-001|PAPPID.1d1a13cc-e312-428f-878b-08ecfc919ebe",
+  "guid": "1d1a13cc-e312-428f-878b-08ecfc919ebe",
+  "publisherId": "websan-solutions-inc",
+  "offerId": "dynamics-containerization-001",
+  "source": {
+    "name": "Inbound Container Handling",
+    "publisher": "Rand Group, LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.dynamics-containerization-001%7CPAPPID.1d1a13cc-e312-428f-878b-08ecfc919ebe",
+    "lastModified": "2026-09-29T17:05:22.9901968+00:00",
+    "appVersion": "26.12.296.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/inbound-container-handling/",
+    "sourceHash": "sha256:a8d82b834d447ac04c15d3fa99f5b0fdddccd7159ec53707ce62525e47005d98"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a8d82b834d447ac04c15d3fa99f5b0fdddccd7159ec53707ce62525e47005d98",
+    "mappedOn": null,
+    "summary": "Assigns purchases to inbound shipping containers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-transport-planning"
+    ],
+    "claims": [
+      "Assigns purchase order lines to shipping containers",
+      "Mass update and receive POs per container",
+      "Supports over and under-receiving",
+      "Item reservations supported",
+      "Processes FOB receipts",
+      "Triggers transactions from third-party applications",
+      "Auto-allocates landed costs (freight) to container goods",
+      "Single-click receiving of container contents including non-inventory items",
+      "Basic container tracking free without license",
+      "Available globally except Czechia",
+      "Free unlimited use in sandbox environments",
+      "Assisted Setup wizard"
+    ],
+    "countries": [],
+    "languages": [
+      "ar",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it",
+      "ja",
+      "ko",
+      "pt",
+      "ru",
+      "vi",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

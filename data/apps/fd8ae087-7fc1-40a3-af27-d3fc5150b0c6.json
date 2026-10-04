@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_semifinished_items|PAPPID.fd8ae087-7fc1-40a3-af27-d3fc5150b0c6",
+  "guid": "fd8ae087-7fc1-40a3-af27-d3fc5150b0c6",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_semifinished_items",
+  "source": {
+    "name": "m+m Semifinished Items",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_semifinished_items%7CPAPPID.fd8ae087-7fc1-40a3-af27-d3fc5150b0c6",
+    "lastModified": "2026-09-28T21:24:22.7741481+00:00",
+    "appVersion": "28.0.375500.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:e347820b87cedfc51cc63639f8397ab1753262f70563f869cc2d54dfbd16591f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e347820b87cedfc51cc63639f8397ab1753262f70563f869cc2d54dfbd16591f",
+    "mappedOn": null,
+    "summary": "Creates semifinished items and transfer orders in production",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Creates semi-finished items automatically in the production order",
+      "Uses material properties to create semi-finished items",
+      "Creates transfer orders for the production order automatically"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

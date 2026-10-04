@@ -1,0 +1,92 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.allergens|PAPPID.af707205-6c10-4837-af1e-2e03016bf5fc",
+  "guid": "af707205-6c10-4837-af1e-2e03016bf5fc",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "allergens",
+  "source": {
+    "name": "Allergens",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.allergens%7CPAPPID.af707205-6c10-4837-af1e-2e03016bf5fc",
+    "lastModified": "2026-01-20T08:09:30.9390492+00:00",
+    "appVersion": "27.2.17095.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.nicsystemslearning.com/help/allergens",
+    "sourceHash": "sha256:c1a9b4cb0a78cd391e429ac9497da74e3a1b9c0bd118a4046d1a3a61ff63d17d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c1a9b4cb0a78cd391e429ac9497da74e3a1b9c0bd118a4046d1a3a61ff63d17d",
+    "mappedOn": null,
+    "summary": "Tracks allergens on items through production",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-product-compliance",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bom-formula-engineering"
+    ],
+    "claims": [
+      "Preloaded food, medical and skin allergen lists plus custom allergens",
+      "Allergens on raw materials flow to finished products via production BOMs",
+      "Prevents manual changes to allergens on manufactured items",
+      "Allergen data visible on items, production BOMs and production orders",
+      "Maps allergens from FoodChain ID Connector to allergen codes",
+      "Supports Essentials and Premium",
+      "Per-user license"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution",
+      "Food",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "FoodChain ID"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

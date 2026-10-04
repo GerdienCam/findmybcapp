@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.nab|AID.dsc|PAPPID.aba79bbd-302c-44c3-9761-03cd6bbd481e",
+  "guid": "aba79bbd-302c-44c3-9761-03cd6bbd481e",
+  "publisherId": "nab",
+  "offerId": "dsc",
+  "source": {
+    "name": "Dynamic Software Connector",
+    "publisher": "SmartApps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nab%7CAID.dsc%7CPAPPID.aba79bbd-302c-44c3-9761-03cd6bbd481e",
+    "lastModified": "2026-06-02T08:52:36.5569018+00:00",
+    "appVersion": "25.32.48.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.smartappsford365.com/dynamic-software-connector/",
+    "sourceHash": "sha256:694504881e10514daa5b777279bd8c75098c3e556120f757f433a66a7b1f5602"
+  },
+  "mapping": {
+    "sourceHash": "sha256:694504881e10514daa5b777279bd8c75098c3e556120f757f433a66a7b1f5602",
+    "mappedOn": null,
+    "summary": "Integrates external approval workflow systems like Medius",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Integrates BC with approval workflow systems via WFconnect"
+    ],
+    "countries": [
+      "DK",
+      "FI",
+      "GB",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en",
+      "fi",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "WFconnect (Dynamic Software)",
+      "Medius"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

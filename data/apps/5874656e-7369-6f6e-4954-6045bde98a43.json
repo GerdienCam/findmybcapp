@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.xtensionit|AID.xteshiptranssmart|PAPPID.5874656e-7369-6f6e-4954-6045bde98a43",
+  "guid": "5874656e-7369-6f6e-4954-6045bde98a43",
+  "publisherId": "xtensionit",
+  "offerId": "xteshiptranssmart",
+  "source": {
+    "name": "nShift Transsmart Connector by XtensionIT",
+    "publisher": "XtensionIT Aps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xteshiptranssmart%7CPAPPID.5874656e-7369-6f6e-4954-6045bde98a43",
+    "lastModified": "2026-07-24T09:29:17.4975492+00:00",
+    "appVersion": "5.7.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.xtensionit.com/en/shipmentconnector/overview/",
+    "sourceHash": "sha256:07593347ccb804f974853051766094570e353e35d851f175a370514fb3f643a8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:07593347ccb804f974853051766094570e353e35d851f175a370514fb3f643a8",
+    "mappedOn": null,
+    "summary": "Shipments, tracking and customs via nShift Transsmart",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Multi-carrier shipping directly from BC via nShift Transsmart",
+      "Waybill creation, label printing, track & trace and customs documents",
+      "Updates sales documents with parcel numbers and track & trace",
+      "Shipment status lookup from posted shipment for customer service",
+      "Real-time freight rate comparison",
+      "Automatic printing of shipping documents",
+      "Track & trace links for customers",
+      "Return handling and reverse logistics",
+      "Customs information for carriers",
+      "Extenders available for Dangerous Goods and Tasklet Mobile WMS"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "DK",
+      "FI",
+      "NL",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "nShift Transsmart"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

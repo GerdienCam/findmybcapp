@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.extensionsforcelimited1647259189111|AID.logisticunits|PAPPID.c383b772-f29f-4c05-b1ac-7801c76750af",
+  "guid": "c383b772-f29f-4c05-b1ac-7801c76750af",
+  "publisherId": "extensionsforcelimited1647259189111",
+  "offerId": "logisticunits",
+  "source": {
+    "name": "Logistic Units",
+    "publisher": "Extensions Lab",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.logisticunits%7CPAPPID.c383b772-f29f-4c05-b1ac-7801c76750af",
+    "lastModified": "2026-09-16T17:34:29.2540421+00:00",
+    "appVersion": "28.5.1.0",
+    "pricingTypes": [
+      "Free",
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://lu.extensions-lab.com/",
+    "sourceHash": "sha256:f56c7808bc7ed7a52005935e1ceff472242062784319ba6b64331c9206923aca"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f56c7808bc7ed7a52005935e1ceff472242062784319ba6b64331c9206923aca",
+    "mappedOn": null,
+    "summary": "Manages boxes, pallets and containers in logistics",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-warehouse-setup",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels",
+      "ng-shipping-carriers",
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Manages pallets, boxes and containers as logistics units",
+      "Posts warehouse operations, purchases and sales per logistics unit",
+      "Tracks item quantities by logistics unit",
+      "Tracks location of pallets and containers",
+      "Maintenance and service records for logistics units",
+      "Shipment tracking with over 1000 carriers",
+      "Integrates with BC native warehouse functionality",
+      "Open source extension",
+      "Base layer beneath TMS for Logistics Service Providers and Shipper TMS"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "ro",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

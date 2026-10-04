@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_portal_integration|PAPPID.0b8284a4-252a-433d-97d5-0b3a1f7cec0a",
+  "guid": "0b8284a4-252a-433d-97d5-0b3a1f7cec0a",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_portal_integration",
+  "source": {
+    "name": "Linc Portal",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_portal_integration%7CPAPPID.0b8284a4-252a-433d-97d5-0b3a1f7cec0a",
+    "lastModified": "2026-09-28T14:00:02.6354464+00:00",
+    "appVersion": "25.26.2452.759",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-Portal-Integration",
+    "sourceHash": "sha256:63baac1a124d2f9e7f15fe5fe08437b947c4191077804d4fc1e007c7e9337a8e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:63baac1a124d2f9e7f15fe5fe08437b947c4191077804d4fc1e007c7e9337a8e",
+    "mappedOn": null,
+    "summary": "Integrates Linc grower, vendor and customer portals",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-fresh-produce-horticulture",
+      "ng-collections"
+    ],
+    "claims": [
+      "Integrates BC with Produce, Vendor and Customer portals (mobile and web)",
+      "Portal shows live account balances and statement detail",
+      "Portal shows order and delivery milestones and document attachments",
+      "Portal shows packing-quality analytics",
+      "Customers use the portal to pull their own statements, check delays on deliveries and share files safely",
+      "Vendor portal surfaces intakes for producers and logistics partners"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Agriculture",
+      "Fresh produce"
+    ],
+    "connectsTo": [
+      "Linc Portal"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

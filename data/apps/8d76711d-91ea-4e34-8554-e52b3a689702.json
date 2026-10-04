@@ -1,0 +1,97 @@
+{
+  "appId": "PUBID.foodware365|AID.producer_certification|PAPPID.8d76711d-91ea-4e34-8554-e52b3a689702",
+  "guid": "8d76711d-91ea-4e34-8554-e52b3a689702",
+  "publisherId": "foodware365",
+  "offerId": "producer_certification",
+  "source": {
+    "name": "Aptean Producer Certification for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.producer_certification%7CPAPPID.8d76711d-91ea-4e34-8554-e52b3a689702",
+    "lastModified": "2026-08-26T07:28:17.4094385+00:00",
+    "appVersion": "2601.1.339588.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/PCR/",
+    "sourceHash": "sha256:18349c69c7e47573787190a1813ff9b1a8c1798aa8d0ceb09986e9263794c896"
+  },
+  "mapping": {
+    "sourceHash": "sha256:18349c69c7e47573787190a1813ff9b1a8c1798aa8d0ceb09986e9263794c896",
+    "mappedOn": null,
+    "summary": "Tracks producer quality certificates per lot",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-supplier-quality-compliance",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-product-compliance",
+      "ng-vert-fresh-produce-horticulture",
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Tracks producer, grower and vendor certificates incl. warehouses and production facilities",
+      "Only valid certificates auto-assigned to lots",
+      "Handles mixed lots and ingredients",
+      "Certificate traceability from grower to finished product"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage",
+      "Fresh produce"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.pfformula1687443475154|AID.rokningadepilin|PAPPID.80213be0-e15d-487b-8a80-5948c2d3c44c",
+  "guid": "80213be0-e15d-487b-8a80-5948c2d3c44c",
+  "publisherId": "pfformula1687443475154",
+  "offerId": "rokningadepilin",
+  "source": {
+    "name": "RokningaDepilin",
+    "publisher": "P/f Formula",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pfformula1687443475154%7CAID.rokningadepilin%7CPAPPID.80213be0-e15d-487b-8a80-5948c2d3c44c",
+    "lastModified": "2026-09-30T19:57:53.307915+00:00",
+    "appVersion": "28.0.2.155",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.formula.fo/contact/",
+    "sourceHash": "sha256:e6277845965636c35694374469c4d76ae1f896ec4750d868ad3246e5461c9cb9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e6277845965636c35694374469c4d76ae1f896ec4750d868ad3246e5461c9cb9",
+    "mappedOn": null,
+    "summary": "Sends OIOUBL e-invoices and receives payments digitally",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Sends invoices as OIOUBL and PDF from BC",
+      "Receives customer payments digitally in BC",
+      "Invoices with attachments to private and business customers",
+      "Supports automatic transfers with or without payment agreements",
+      "Accounts for bank holidays",
+      "Digital archive of sent invoices",
+      "Interactions logged on the customer record"
+    ],
+    "countries": [
+      "FO"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

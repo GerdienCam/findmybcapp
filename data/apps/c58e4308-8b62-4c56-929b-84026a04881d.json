@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.applibra|AID.al_hierarchical_price_list|PAPPID.c58e4308-8b62-4c56-929b-84026a04881d",
+  "guid": "c58e4308-8b62-4c56-929b-84026a04881d",
+  "publisherId": "applibra",
+  "offerId": "al_hierarchical_price_list",
+  "source": {
+    "name": "AL Hierarchical Price List",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_hierarchical_price_list%7CPAPPID.c58e4308-8b62-4c56-929b-84026a04881d",
+    "lastModified": "2026-06-17T08:15:04.7989014+00:00",
+    "appVersion": "27.0.26.6101556",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsapplab.com/apps",
+    "sourceHash": "sha256:bfb9b6436747e43677f6bdbe42becd823fbcb2b745994e4797cff8a6b8a68a48"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bfb9b6436747e43677f6bdbe42becd823fbcb2b745994e4797cff8a6b8a68a48",
+    "mappedOn": null,
+    "summary": "Multi-level hierarchical price lists",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-rebates"
+    ],
+    "claims": [
+      "Hierarchies of price sources with unlimited levels",
+      "Each node links up with a price source: campaign, group or customer",
+      "Exceptions per retail chain, channel or area",
+      "Hierarchies assigned to customers with start and end dates",
+      "Only certified hierarchies used; non-certified blocks the sales document",
+      "Most specific to most general evaluation; stops at first valid price",
+      "Works with legacy and V16 pricing engine"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail",
+      "Wholesale"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

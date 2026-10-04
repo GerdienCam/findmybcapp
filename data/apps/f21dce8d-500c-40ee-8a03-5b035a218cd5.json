@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.microapps|AID.job-queue-manager|PAPPID.f21dce8d-500c-40ee-8a03-5b035a218cd5",
+  "guid": "f21dce8d-500c-40ee-8a03-5b035a218cd5",
+  "publisherId": "microapps",
+  "offerId": "job-queue-manager",
+  "source": {
+    "name": "Job Queue Manager",
+    "publisher": "Micro Apps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microapps%7CAID.job-queue-manager%7CPAPPID.f21dce8d-500c-40ee-8a03-5b035a218cd5",
+    "lastModified": "2026-07-22T02:45:27.7319898+00:00",
+    "appVersion": "1.0.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Job-Queue-Manager-Installation-Setup.pdf",
+    "sourceHash": "sha256:818e7ddf20ce463260010b6347b5b140eacea510ed13f8a364a6ff48699e4223"
+  },
+  "mapping": {
+    "sourceHash": "sha256:818e7ddf20ce463260010b6347b5b140eacea510ed13f8a364a6ff48699e4223",
+    "mappedOn": null,
+    "summary": "Runs job queue entries in sequence with status mails",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-setup",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-failures"
+    ],
+    "claims": [
+      "Runs job queue entries in a defined sequence",
+      "Configurable recurrence for job packages",
+      "Choose to continue or stop the sequence on error",
+      "Email notification on status of sequence and each entry",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

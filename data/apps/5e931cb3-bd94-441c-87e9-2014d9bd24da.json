@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.skconsulting|AID.it_00009|PAPPID.5e931cb3-bd94-441c-87e9-2014d9bd24da",
+  "guid": "5e931cb3-bd94-441c-87e9-2014d9bd24da",
+  "publisherId": "skconsulting",
+  "offerId": "it_00009",
+  "source": {
+    "name": "Chemicals and Metals",
+    "publisher": "SK Consulting S.A.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.skconsulting%7CAID.it_00009%7CPAPPID.5e931cb3-bd94-441c-87e9-2014d9bd24da",
+    "lastModified": "2026-09-18T15:57:16.602037+00:00",
+    "appVersion": "28.2.544.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://skc.lu/apps/chemicals-and-metals",
+    "sourceHash": "sha256:14aa6b36c504b9c67517960985ac0737755e855b3d0fac9ba3c3e5f8658065dc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:14aa6b36c504b9c67517960985ac0737755e855b3d0fac9ba3c3e5f8658065dc",
+    "mappedOn": null,
+    "summary": "ERP extension for chemical and metals trading",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-metal-timber-materials",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning",
+      "ng-order-allocation",
+      "ng-stock-counting",
+      "ng-product-compliance"
+    ],
+    "claims": [
+      "Lot and package management",
+      "Physical counting by package",
+      "Production orders with WIP and variable cost tracking",
+      "Multi-location inventory visibility",
+      "Tracking of hazardous materials and regulated goods",
+      "Chemical attributes recorded per lot",
+      "Blending orders to combine lots and splitting orders to break bulk",
+      "Automated cost allocation in blending/splitting",
+      "Package orders for packaging and repackaging with material and labor cost tracking",
+      "Lot-specific reservations for sales and production orders",
+      "Real-time inventory costing including landed costs and processing fees",
+      "Mobile access for sales reps and warehouse staff",
+      "Premium edition only",
+      "Cloud SaaS and on-premises"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [
+      "Chemicals",
+      "Commodity trading",
+      "Ferroalloys",
+      "Metals"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.bartolomerderag1639056596814|AID.ebanf_interface_brag_365|PAPPID.201b21b9-4605-4356-a8e2-60a4746876cf",
+  "guid": "201b21b9-4605-4356-a8e2-60a4746876cf",
+  "publisherId": "bartolomerderag1639056596814",
+  "offerId": "ebanf_interface_brag_365",
+  "source": {
+    "name": "brAG eBANF App",
+    "publisher": "bartolome röder AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bartolomerderag1639056596814%7CAID.ebanf_interface_brag_365%7CPAPPID.201b21b9-4605-4356-a8e2-60a4746876cf",
+    "lastModified": "2026-09-21T16:41:43.0863316+00:00",
+    "appVersion": "28.5.6.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.navision-beratung.de/eBANF-App/",
+    "sourceHash": "sha256:231aa9f8b72e82044c967258c6848f48e4c19a20dab8c409ee29d9d510343696"
+  },
+  "mapping": {
+    "sourceHash": "sha256:231aa9f8b72e82044c967258c6848f48e4c19a20dab8c409ee29d9d510343696",
+    "mappedOn": null,
+    "summary": "Purchase requisitions with approval workflow",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Electronic purchase requisitions (BANF) with approval workflow",
+      "Amount-based approval levels (e.g. up to EUR 5,000 by head of accounting, above by CFO)",
+      "Different approval rules per department or product line",
+      "Single- or multi-level approval",
+      "Approved requisitions converted into purchase orders",
+      "Requester notified on approval via workflow",
+      "Serial or parallel approval by multiple approvers"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

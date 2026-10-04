@@ -1,0 +1,63 @@
+{
+  "appId": "TYPE.connect|PUBID.atnatechnologies1723633443331|AID.ima_001|PAPPID.50a4d3ef-8ff9-4989-a2c6-cf53dbde96ce",
+  "guid": "50a4d3ef-8ff9-4989-a2c6-cf53dbde96ce",
+  "publisherId": "atnatechnologies1723633443331",
+  "offerId": "ima_001",
+  "source": {
+    "name": "Item Master",
+    "publisher": "Atna Technologies",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.atnatechnologies1723633443331%7CAID.ima_001%7CPAPPID.50a4d3ef-8ff9-4989-a2c6-cf53dbde96ce",
+    "lastModified": "2025-07-28T09:57:51.6485194+00:00",
+    "appVersion": "0.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://atnatechnologies.com/contact-us",
+    "sourceHash": "sha256:61fb9278ef5373464d1369abb2cba731cec308319aa6853bb260ab0aaaa37d49"
+  },
+  "mapping": {
+    "sourceHash": "sha256:61fb9278ef5373464d1369abb2cba731cec308319aa6853bb260ab0aaaa37d49",
+    "mappedOn": null,
+    "summary": "Generates item codes and descriptions from attributes with approval",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Generates item descriptions and unique item codes from selected attributes",
+      "Attribute selection (material, size, colour, weight) via dropdowns and checkboxes",
+      "Manages variants, dimensions and categories centrally",
+      "Approval workflow before items are created in BC",
+      "Only approved items are synced to Business Central",
+      "Built on Power Platform with Dataverse, SQL or SharePoint storage",
+      "Audit trail of submit/approve/reject actions with timestamps",
+      "Notifications to approvers and users via Power Automate",
+      "Works on mobile and desktop"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Power Platform"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

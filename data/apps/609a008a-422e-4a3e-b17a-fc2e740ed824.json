@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.mpriseagriwarebv|AID.agriware-ebf-fdy|PAPPID.609a008a-422e-4a3e-b17a-fc2e740ed824",
+  "guid": "609a008a-422e-4a3e-b17a-fc2e740ed824",
+  "publisherId": "mpriseagriwarebv",
+  "offerId": "agriware-ebf-fdy",
+  "source": {
+    "name": "Agriware 365 E-Business Floriculture NL",
+    "publisher": "Mprise Agriware B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mpriseagriwarebv%7CAID.agriware-ebf-fdy%7CPAPPID.609a008a-422e-4a3e-b17a-fc2e740ed824",
+    "lastModified": "2026-09-28T12:54:46.0506002+00:00",
+    "appVersion": "28.28.5.271964",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.agriware.cloud/",
+    "sourceHash": "sha256:d5cad73443c20220789a133702a3051357ca2cfeb1889f1e37ae880c36faf3de"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d5cad73443c20220789a133702a3051357ca2cfeb1889f1e37ae880c36faf3de",
+    "mappedOn": null,
+    "summary": "Integrates with Dutch floriculture auction platforms",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-edi",
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Integrates with Dutch auctions via Floricode protocols",
+      "Floriday assortment management",
+      "Floriday sales orders",
+      "Classic EAB, EKT and Florecom integrations"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [
+      "Horticulture"
+    ],
+    "connectsTo": [
+      "Floriday",
+      "Royal FloraHolland",
+      "Florecom"
+    ],
+    "requires": [
+      "Agriware 365 Business Essentials"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_bank_account_enhancements|PAPPID.c2980ba3-8484-45f1-88b7-0fbba702a30c",
+  "guid": "c2980ba3-8484-45f1-88b7-0fbba702a30c",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_bank_account_enhancements",
+  "source": {
+    "name": "Linc Bank Account Enhancements",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_bank_account_enhancements%7CPAPPID.c2980ba3-8484-45f1-88b7-0fbba702a30c",
+    "lastModified": "2026-10-02T09:26:37.9486855+00:00",
+    "appVersion": "27.26.2466.444",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-Bank-Account-Enhancements",
+    "sourceHash": "sha256:b06f4c89f6f9e23de55a783dfe1dfcc5cab0f441885cf5a765f74cf09f6977a6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b06f4c89f6f9e23de55a783dfe1dfcc5cab0f441885cf5a765f74cf09f6977a6",
+    "mappedOn": null,
+    "summary": "Exports payment batches for local bank systems",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Exports payment batches for import into banking systems",
+      "Preferred bank accounts per customer",
+      "Vendor bank account management",
+      "Bank branch selection",
+      "FactBox with the vendor bank account on purchase documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

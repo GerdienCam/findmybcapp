@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.ifacto1611328060545|AID.ifacto_telemetry|PAPPID.2656b4e7-f651-4aff-b52c-bc29fdc3ce08",
+  "guid": "2656b4e7-f651-4aff-b52c-bc29fdc3ce08",
+  "publisherId": "ifacto1611328060545",
+  "offerId": "ifacto_telemetry",
+  "source": {
+    "name": "iFacto Telemetry",
+    "publisher": "iFacto Business Solutions NV",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ifacto1611328060545%7CAID.ifacto_telemetry%7CPAPPID.2656b4e7-f651-4aff-b52c-bc29fdc3ce08",
+    "lastModified": "2026-09-25T20:22:31.9682583+00:00",
+    "appVersion": "28.4.202639.84718",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.ifacto.be/",
+    "sourceHash": "sha256:c11913429eb4474f1ee38d986080cf7b390b7478b11c8e4602dfdc392df833e3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c11913429eb4474f1ee38d986080cf7b390b7478b11c8e4602dfdc392df833e3",
+    "mappedOn": null,
+    "summary": "Additional telemetry signals for performance and security",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-performance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-change-log",
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "Tracks execution times of posting and release operations",
+      "Measures SQL statement counts",
+      "Monitors warehouse activity performance",
+      "Audits sensitive changes like bank accounts",
+      "Tracks delegated admin actions",
+      "Tracks installed extensions and feature adoption",
+      "Detects missing database indexes",
+      "Finds orphaned media files",
+      "Scheduled daily telemetry collection to Application Insights"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Application Insights"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

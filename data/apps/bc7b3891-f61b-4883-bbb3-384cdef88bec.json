@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.bc_qualitymanagement|PAPPID.bc7b3891-f61b-4883-bbb3-384cdef88bec",
+  "guid": "bc7b3891-f61b-4883-bbb3-384cdef88bec",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "bc_qualitymanagement",
+  "source": {
+    "name": "Quality Management",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.bc_qualitymanagement%7CPAPPID.bc7b3891-f61b-4883-bbb3-384cdef88bec",
+    "lastModified": "2026-03-31T08:18:04.3713338+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?linkid=2338953",
+    "sourceHash": "sha256:827d10ae43d9c10fb654db1bba5b7ff55a21a2e7e5f5042bde6b03e0cff10c36"
+  },
+  "mapping": {
+    "sourceHash": "sha256:827d10ae43d9c10fb654db1bba5b7ff55a21a2e7e5f5042bde6b03e0cff10c36",
+    "mappedOn": null,
+    "summary": "Systematic quality control of products",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-hold",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-nonconformance-capa",
+      "ng-supplier-returns-credits"
+    ],
+    "claims": [
+      "Automatically creates inspections on purchase receipt, production/assembly output, warehouse movements",
+      "Manual on-demand inspections",
+      "Scheduled periodic inspections via job queue",
+      "Inspection templates with measurements and pass/fail criteria",
+      "Blocks lots, serials or packages based on results",
+      "Workflow-driven responses to inspection results",
+      "Moves noncompliant items to quarantine bins",
+      "Negative adjustments for disposal, transfers and purchase returns",
+      "Supports locations with and without warehouse handling"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

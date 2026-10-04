@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex048_deliveryreminders|PAPPID.1048b714-4028-4cae-a6ba-b45dd2426e28",
+  "guid": "1048b714-4028-4cae-a6ba-b45dd2426e28",
+  "publisherId": "eos_solutions",
+  "offerId": "ex048_deliveryreminders",
+  "source": {
+    "name": "Delivery Reminders",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex048_deliveryreminders%7CPAPPID.1048b714-4028-4cae-a6ba-b45dd2426e28",
+    "lastModified": "2026-05-27T19:23:32.3935954+00:00",
+    "appVersion": "28.0.11.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/delivery-reminders-pdr.html",
+    "sourceHash": "sha256:45b2a4ecc23f4297e4a8240ba4de239230eb721645524ab710bcdcc90d9ebcb7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:45b2a4ecc23f4297e4a8240ba4de239230eb721645524ab710bcdcc90d9ebcb7",
+    "mappedOn": null,
+    "summary": "Tracks overdue vendor deliveries and issues delivery reminders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Tracks overdue vendor deliveries",
+      "Reminder terms and levels with different texts",
+      "Issue reminders individually or in bulk",
+      "Post delivery reminders",
+      "Shows movements related to reminder lines",
+      "Sends reminders to vendors"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

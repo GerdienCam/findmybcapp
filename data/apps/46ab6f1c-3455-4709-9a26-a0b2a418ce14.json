@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.ssdynamicssolutionspvtltd1786262789995|AID.in_verify_sep26|PAPPID.46ab6f1c-3455-4709-9a26-a0b2a418ce14",
+  "guid": "46ab6f1c-3455-4709-9a26-a0b2a418ce14",
+  "publisherId": "ssdynamicssolutionspvtltd1786262789995",
+  "offerId": "in_verify_sep26",
+  "source": {
+    "name": "India Compliance Verification",
+    "publisher": "SS Dynamics Solutions Pvt Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ssdynamicssolutionspvtltd1786262789995%7CAID.in_verify_sep26%7CPAPPID.46ab6f1c-3455-4709-9a26-a0b2a418ce14",
+    "lastModified": "2026-09-24T05:23:52.4783686+00:00",
+    "appVersion": "1.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ssdynamics.co.in/add-ons/india-compliance-verification/help",
+    "sourceHash": "sha256:6cb97961b27106dfd303c201043b8d3661daf57752a2b87debb651fe10918d29"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6cb97961b27106dfd303c201043b8d3661daf57752a2b87debb651fe10918d29",
+    "mappedOn": null,
+    "summary": "Verifies vendor PAN, GST and Udyam and tracks MSME due dates",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-conn-company-data"
+    ],
+    "claims": [
+      "PAN verification: validity, holder name and category",
+      "Finds Udyam registration behind a PAN with certificate PDF",
+      "MSME classification by Udyam: Micro, Small, Medium",
+      "GST taxpayer status, legal and trade name, principal place of business",
+      "Writes results to vendor fields with verification date",
+      "Populates new vendor address from GSTIN",
+      "Schedules verifications for multiple vendors",
+      "MSME flag and due date flow to purchase header, journal line and vendor ledger entry",
+      "Flags document due dates beyond MSME due date with one-click fix; posting not blocked",
+      "Delay report with days delayed and section 16 interest",
+      "Udyam certificates stored as Document Attachments",
+      "Provides an API on vendors for AI assistants and integrations",
+      "Requires BC online version 28 or later",
+      "Free install; verifications paid with prepaid credits"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Yashvan"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_transaction",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

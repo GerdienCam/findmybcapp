@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.applibra|AID.al_document_template|PAPPID.5002409e-81e6-4f40-bdbb-0c3df0cc75ff",
+  "guid": "5002409e-81e6-4f40-bdbb-0c3df0cc75ff",
+  "publisherId": "applibra",
+  "offerId": "al_document_template",
+  "source": {
+    "name": "AL Document Template",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_document_template%7CPAPPID.5002409e-81e6-4f40-bdbb-0c3df0cc75ff",
+    "lastModified": "2026-09-03T12:22:58.4562133+00:00",
+    "appVersion": "28.0.26.9031207",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://applibra.com/apps/al-document-template",
+    "sourceHash": "sha256:6aa8cdc3810e7e7fe1961d8e91825cb5ec55aa404666dde46eda27d27392fada"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6aa8cdc3810e7e7fe1961d8e91825cb5ec55aa404666dde46eda27d27392fada",
+    "mappedOn": null,
+    "summary": "Multiple document setup profiles for sales and purchase documents",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-general-setup",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-entry",
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Multiple named sales and purchase setup profiles chosen on the document header",
+      "Each template has its own number series, warnings, archiving, price method and job queue posting",
+      "Works with returns, blanket orders, credit memos, invoices, orders and quotes",
+      "Template carried to posted documents and ledger entries",
+      "Simulated / proforma documents with no G/L impact",
+      "Italian fields such as Fattura PA Nos. on the template",
+      "Requires BC online version 25.0 or higher"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

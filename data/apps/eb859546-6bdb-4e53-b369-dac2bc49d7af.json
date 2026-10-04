@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-log-units|PAPPID.eb859546-6bdb-4e53-b369-dac2bc49d7af",
+  "guid": "eb859546-6bdb-4e53-b369-dac2bc49d7af",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-log-units",
+  "source": {
+    "name": "Powerblox Logistic Units",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-log-units%7CPAPPID.eb859546-6bdb-4e53-b369-dac2bc49d7af",
+    "lastModified": "2026-03-19T12:56:24.5520248+00:00",
+    "appVersion": "26.0.1.59023",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/log_units",
+    "sourceHash": "sha256:dd7a5e6baec42a9aa35b99848d920f0131b403450248d68baeead3d32c87e1b7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dd7a5e6baec42a9aa35b99848d920f0131b403450248d68baeead3d32c87e1b7",
+    "mappedOn": null,
+    "summary": "Manages inventory by pallets, containers and SSCC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-warehouse-setup",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading",
+      "ng-quality-hold"
+    ],
+    "claims": [
+      "Stock managed per logistic unit such as pallet or container",
+      "Mono or mixed pallets",
+      "Ships with SSCC",
+      "Prints GS1 SSCC labels",
+      "With or without lot/serial tracking",
+      "Combine or split logistic units",
+      "Block/unblock per logistic unit",
+      "Internal pallet labels"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

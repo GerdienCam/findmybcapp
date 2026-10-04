@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.systemconnectaps1614781393914|AID.alfactoring|PAPPID.65bc95fc-c5a9-4c02-9c02-99975fae37a8",
+  "guid": "65bc95fc-c5a9-4c02-9c02-99975fae37a8",
+  "publisherId": "systemconnectaps1614781393914",
+  "offerId": "alfactoring",
+  "source": {
+    "name": "ALFactoring",
+    "publisher": "SystemConnect",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemconnectaps1614781393914%7CAID.alfactoring%7CPAPPID.65bc95fc-c5a9-4c02-9c02-99975fae37a8",
+    "lastModified": "2026-09-23T19:32:15.6711025+00:00",
+    "appVersion": "28.0.0.8",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://systemconnect.dk/factoringhelp/",
+    "sourceHash": "sha256:3f173a75b57415fe262094a9b9ac843aa83d8bd8e5a2819fc5b324c41c4c828f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3f173a75b57415fe262094a9b9ac843aa83d8bd8e5a2819fc5b324c41c4c828f",
+    "mappedOn": null,
+    "summary": "Handles factoring agreements with AL Finans",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Automatically exports invoice data to AL Finans when sales invoice is posted",
+      "Inserts legally approved factoring text on invoices by language, country, currency",
+      "Merges SWIFT, IBAN, account number and FIK/OCR line into invoice text",
+      "Creates PDF and TXT invoice copies sent to AL Finans by email",
+      "Imports payment files and posts cash receipt journals",
+      "Supports both factoring and purchase (afkøb) agreements",
+      "Agreement type configurable centrally or per customer/order",
+      "Automatic document export via job queue or email",
+      "Log of all invoice and transaction data"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "AL Finans"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

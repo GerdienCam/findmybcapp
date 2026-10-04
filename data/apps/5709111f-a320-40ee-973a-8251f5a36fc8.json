@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.fs-soft|AID.fs-fiscalization|PAPPID.5709111f-a320-40ee-973a-8251f5a36fc8",
+  "guid": "5709111f-a320-40ee-973a-8251f5a36fc8",
+  "publisherId": "fs-soft",
+  "offerId": "fs-fiscalization",
+  "source": {
+    "name": "FS Fiscalization",
+    "publisher": "FS-Soft IT Consulting GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fs-soft%7CAID.fs-fiscalization%7CPAPPID.5709111f-a320-40ee-973a-8251f5a36fc8",
+    "lastModified": "2026-08-27T15:47:00.3561239+00:00",
+    "appVersion": "28.0.12.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.fs-soft.at/",
+    "sourceHash": "sha256:5e3d8b09d83a21f781b7fa78c11de4b67323fabf196355b7bb7028f68e84ab26"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5e3d8b09d83a21f781b7fa78c11de4b67323fabf196355b7bb7028f68e84ab26",
+    "mappedOn": null,
+    "summary": "Fiscalization compliance for Austria and Germany on LS Central",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Austrian RKSV fiscalization compliance",
+      "German KassenSichV fiscalization compliance",
+      "Works with LS Central"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

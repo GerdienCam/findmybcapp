@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.codeunit|AID.connect2inexchange|PAPPID.854059a9-a2e1-42c5-a0fe-74b9bc870fd0",
+  "guid": "854059a9-a2e1-42c5-a0fe-74b9bc870fd0",
+  "publisherId": "codeunit",
+  "offerId": "connect2inexchange",
+  "source": {
+    "name": "connect2InExchange",
+    "publisher": "Codeunit",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2inexchange%7CPAPPID.854059a9-a2e1-42c5-a0fe-74b9bc870fd0",
+    "lastModified": "2026-09-29T16:03:42.6792057+00:00",
+    "appVersion": "28.0.4.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.codeunit.io/get-in-touch",
+    "sourceHash": "sha256:aa7dfa382074d8f218c9d266c605f69259052ef95d642619679237cb0bb53093"
+  },
+  "mapping": {
+    "sourceHash": "sha256:aa7dfa382074d8f218c9d266c605f69259052ef95d642619679237cb0bb53093",
+    "mappedOn": null,
+    "summary": "Sends and receives e-invoices via InExchange network",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Uploads posted sales invoices and credit memos to InExchange automatically",
+      "Writes delivery status back to the BC document",
+      "Routes each invoice to Peppol BIS 3, PDF email or physical post",
+      "Imports supplier invoices on a schedule incl. UBL XML and embedded PDFs",
+      "Prevents duplicate import of incoming invoices",
+      "Matches recipients by GLN, organisation number or VAT number",
+      "Writes delivery error code and description back to BC record",
+      "OmniConnect Portal to monitor flows, get notified and resubmit failed transactions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "InExchange"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

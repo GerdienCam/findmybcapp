@@ -1,0 +1,62 @@
+{
+  "appId": "TYPE.connect|PUBID.folio3software|AID.d365_bc_magento|PAPPID.b4355d8a-6d25-451c-9e6b-af610004b066",
+  "guid": "b4355d8a-6d25-451c-9e6b-af610004b066",
+  "publisherId": "folio3software",
+  "offerId": "d365_bc_magento",
+  "source": {
+    "name": "Magento Dynamics 365 Business Central Integration",
+    "publisher": "Folio3 Software Inc.,",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.folio3software%7CAID.d365_bc_magento%7CPAPPID.b4355d8a-6d25-451c-9e6b-af610004b066",
+    "lastModified": "2024-11-21T07:49:27.5975297+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamics.folio3.com/dynamics-ax-magento-connector/",
+    "sourceHash": "sha256:557389fa3aea6e520c11c94fca3b818718acdb44da8de2217db4efd4d438d793"
+  },
+  "mapping": {
+    "sourceHash": "sha256:557389fa3aea6e520c11c94fca3b818718acdb44da8de2217db4efd4d438d793",
+    "mappedOn": null,
+    "summary": "Syncs Magento orders and products with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Automatically updates inventory levels as transactions occur",
+      "Syncs sales orders and product info between BC and Magento",
+      "Automates customer data collection and transfer",
+      "Syncs product description, name and pricing in both directions",
+      "Customer-specific price rules set in the ERP",
+      "Data migration between BC and Magento",
+      "One-time installation fee plus annual service fee, no additional charges",
+      "Available in English (US)"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Magento"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.foodware365|AID.contractmanagement|PAPPID.9ee5ecd4-5d4e-4569-b7de-a0190f1b9d6c",
+  "guid": "9ee5ecd4-5d4e-4569-b7de-a0190f1b9d6c",
+  "publisherId": "foodware365",
+  "offerId": "contractmanagement",
+  "source": {
+    "name": "Aptean Contract Management for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.contractmanagement%7CPAPPID.9ee5ecd4-5d4e-4569-b7de-a0190f1b9d6c",
+    "lastModified": "2026-09-23T04:21:47.5647783+00:00",
+    "appVersion": "2602.2.344297.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/COM/",
+    "sourceHash": "sha256:c0702648156bb0b843dde8c0fa297c598aaffc78ad119779716e701a59ffce81"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c0702648156bb0b843dde8c0fa297c598aaffc78ad119779716e701a59ffce81",
+    "mappedOn": null,
+    "summary": "Vendor contract management",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-supplier-contracts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-pricing",
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Tracks contract durations for renewals",
+      "Attach documents and notes to contracts",
+      "Contracts for alternative items and multiple units of measure",
+      "Contract pricing used on purchase and sales orders",
+      "Location-specific contract limitations"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

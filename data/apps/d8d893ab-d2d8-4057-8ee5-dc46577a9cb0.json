@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evfashionpricecalculation|PAPPID.d8d893ab-d2d8-4057-8ee5-dc46577a9cb0",
+  "guid": "d8d893ab-d2d8-4057-8ee5-dc46577a9cb0",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evfashionpricecalculation",
+  "source": {
+    "name": "EV Stila - Price Calculation",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evfashionpricecalculation%7CPAPPID.d8d893ab-d2d8-4057-8ee5-dc46577a9cb0",
+    "lastModified": "2026-08-28T11:07:32.6579394+00:00",
+    "appVersion": "11000.0.215665.2600",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
+    "sourceHash": "sha256:18a53597bdc2698d39d73542174d9286db9eb32035c52005703bfe0298df38a1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:18a53597bdc2698d39d73542174d9286db9eb32035c52005703bfe0298df38a1",
+    "mappedOn": null,
+    "summary": "Calculates landed cost and retail prices for fashion items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-fashion",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-currency"
+    ],
+    "claims": [
+      "Calculates landed cost prices",
+      "Calculates recommended retail prices (RRP)",
+      "Considers currencies, inbound duty, export freight and additional costs"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "IT",
+      "NL",
+      "NO",
+      "PH",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Fashion"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

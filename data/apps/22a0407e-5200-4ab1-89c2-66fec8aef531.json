@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.foodware365|AID.global_trade|PAPPID.22a0407e-5200-4ab1-89c2-66fec8aef531",
+  "guid": "22a0407e-5200-4ab1-89c2-66fec8aef531",
+  "publisherId": "foodware365",
+  "offerId": "global_trade",
+  "source": {
+    "name": "Aptean Global Trade for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.global_trade%7CPAPPID.22a0407e-5200-4ab1-89c2-66fec8aef531",
+    "lastModified": "2026-09-29T10:01:23.7993008+00:00",
+    "appVersion": "2505.10.343970.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/GTR/",
+    "sourceHash": "sha256:000679bc821d329a76a9eac501866b4e4404769b2c67c5b5badcf51660fc730f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:000679bc821d329a76a9eac501866b4e4404769b2c67c5b5badcf51660fc730f",
+    "mappedOn": null,
+    "summary": "Captures vendor order details for global trade purchasing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "Imports vendor Excel order details",
+      "Captures pallets, container numbers and item attributes",
+      "Records port of loading, discharge, vessel and shipping company",
+      "One-click PO creation by GTIN, item, pallet type or container",
+      "Prevents duplicate manifest imports",
+      "Automatic checks on GTIN, attributes, containers and vessels"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

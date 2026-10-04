@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.vsd|AID.wormhole|PAPPID.23cfb4a3-e92c-423c-a277-a7d6fffe799a",
+  "guid": "23cfb4a3-e92c-423c-a277-a7d6fffe799a",
+  "publisherId": "vsd",
+  "offerId": "wormhole",
+  "source": {
+    "name": "Wormhole - Master Data Management",
+    "publisher": "Verosoft Design INC. (VSD)",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.vsd%7CAID.wormhole%7CPAPPID.23cfb4a3-e92c-423c-a277-a7d6fffe799a",
+    "lastModified": "2026-07-16T15:49:10.3097161+00:00",
+    "appVersion": "1.0.40003.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.verosoftdesign.com/",
+    "sourceHash": "sha256:451856207bc4dacbb03e65ec8e34d712ec1c2597f98c94f24773286fa193ede4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:451856207bc4dacbb03e65ec8e34d712ec1c2597f98c94f24773286fa193ede4",
+    "mappedOn": null,
+    "summary": "Synchronizes master data between companies",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Syncs between BC tenants, databases and companies, from two to hundreds of companies",
+      "Syncs any data incl. blob fields, standard, ISV and custom tables",
+      "Real-time or deferred sync jobs",
+      "Record-by-record sync UI with companies as columns",
+      "One-way or bi-directional sync with parent company rules",
+      "Table-level rules and filters to sync subsets",
+      "Choose which fields are validated and sync sequence",
+      "Transaction log and error log",
+      "Table and field mapping tools",
+      "Notifications on errors",
+      "Supports NAV as well as BC"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

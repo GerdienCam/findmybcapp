@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.xenatusglobal|AID.xgl_maritime_365|PAPPID.5c47ba67-0d2d-48f1-9068-26efac7ffbdb",
+  "guid": "5c47ba67-0d2d-48f1-9068-26efac7ffbdb",
+  "publisherId": "xenatusglobal",
+  "offerId": "xgl_maritime_365",
+  "source": {
+    "name": "Xenatus Maritime 365",
+    "publisher": "Xenatus Global",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xenatusglobal%7CAID.xgl_maritime_365%7CPAPPID.5c47ba67-0d2d-48f1-9068-26efac7ffbdb",
+    "lastModified": "2026-08-17T11:10:41.0392039+00:00",
+    "appVersion": "28.4.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.xenatusglobal.com/marine-service-providers",
+    "sourceHash": "sha256:9a5d5eaf45b01ac00b640a77c0dc83a9cf1fbe4901a5c7543cd91d1b016bc027"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9a5d5eaf45b01ac00b640a77c0dc83a9cf1fbe4901a5c7543cd91d1b016bc027",
+    "mappedOn": null,
+    "summary": "Solution for the maritime industry",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "low"
+      },
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-svc-assets",
+      "ng-sales-pipeline"
+    ],
+    "claims": [
+      "Port and vessel management",
+      "Sales case cycle starting from ERP or Outlook",
+      "Sales case documents in SharePoint folder structures",
+      "Sales linked to purchase documents",
+      "Credit control process",
+      "Case profitability monitoring",
+      "Vessel equipment service log",
+      "Service price lists and resource assignment to service orders",
+      "Not available in Norway"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Maritime services"
+    ],
+    "connectsTo": [
+      "SharePoint",
+      "Outlook"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "No maritime services vertical group; mapped to transport/logistics and service at low confidence"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

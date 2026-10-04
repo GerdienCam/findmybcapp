@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.retailrealm|AID.retail-realm-max-pay-global-business-central|PAPPID.e1b883a6-2cc4-4c5b-a3ad-b87f0d4b669a",
+  "guid": "e1b883a6-2cc4-4c5b-a3ad-b87f0d4b669a",
+  "publisherId": "retailrealm",
+  "offerId": "retail-realm-max-pay-global-business-central",
+  "source": {
+    "name": "MAX PAY GLOBAL for Business Central",
+    "publisher": "RETAIL REALM DISTRIBUTION INC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.retailrealm%7CAID.retail-realm-max-pay-global-business-central%7CPAPPID.e1b883a6-2cc4-4c5b-a3ad-b87f0d4b669a",
+    "lastModified": "2026-08-20T19:15:31.4461231+00:00",
+    "appVersion": "1.1.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.retailrealm.com/documentation/MAXPAY365/bc/",
+    "sourceHash": "sha256:f71dc4ccbcd4eea05ce38aca821c4c1b5cc3b0fb469c2f06c760a0f8a9fbc6f3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f71dc4ccbcd4eea05ce38aca821c4c1b5cc3b0fb469c2f06c760a0f8a9fbc6f3",
+    "mappedOn": null,
+    "summary": "Payment provider integration for card payments in BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-subscription-billing"
+    ],
+    "claims": [
+      "Supports multiple payment providers/gateways",
+      "Pay-by-link for sales invoices",
+      "Tokenized recurring payments",
+      "In-person payments via chip and PIN terminal",
+      "Sales order prepayment",
+      "Authorization and capture at shipping or invoicing, plus incremental authorization",
+      "Credit memo refunds",
+      "Payment via NFC tag or QR code with wallets incl. Apple Pay and GPay",
+      "Buy-now-pay-later options",
+      "Pay by link supports ACH",
+      "Payment reconciliation",
+      "Bulk collection of A/R against stored payment method",
+      "Cardholder data never stored in BC (PCI scope reduction)",
+      "Multiple merchant IDs per payment service",
+      "Supports Loquipay and Elavon Converge"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Automotive",
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Elavon Converge",
+      "Loquipay",
+      "PayPal",
+      "Venmo",
+      "Klarna",
+      "Apple Pay",
+      "Google Pay"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

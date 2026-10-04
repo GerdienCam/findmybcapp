@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.cloudperformsoftwaresrl1694608461813|AID.indemnitybonds|PAPPID.7c033f6c-bd63-4b9c-8a29-93c4421dd82a",
+  "guid": "7c033f6c-bd63-4b9c-8a29-93c4421dd82a",
+  "publisherId": "cloudperformsoftwaresrl1694608461813",
+  "offerId": "indemnitybonds",
+  "source": {
+    "name": "Indemnity Bonds",
+    "publisher": "Cloud Perform Software SRL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cloudperformsoftwaresrl1694608461813%7CAID.indemnitybonds%7CPAPPID.7c033f6c-bd63-4b9c-8a29-93c4421dd82a",
+    "lastModified": "2025-08-08T06:13:19.9126553+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://cloudperform.com/",
+    "sourceHash": "sha256:d5e3eeab27bb952eb3eef2a04edb5b546032da21bbcca53cba3e0e66f118f350"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d5e3eeab27bb952eb3eef2a04edb5b546032da21bbcca53cba3e0e66f118f350",
+    "mappedOn": null,
+    "summary": "Manages indemnity bonds and financial guarantees",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-contracts",
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Register of indemnity bonds issued for customers or received from vendors",
+      "Power Automate notifications for bond expiration dates and values",
+      "Manages tender bonds and payment guarantees",
+      "Manages letters of guarantee from third parties or subcontractors"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power Automate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Bank guarantee / indemnity bond register has no dedicated need group"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

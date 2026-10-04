@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bce-fakturaintegrationbg-is|PAPPID.48c79dfc-98a6-4418-9ffa-e12c1a897e1d",
+  "guid": "48c79dfc-98a6-4418-9ffa-e12c1a897e1d",
+  "publisherId": "intelligentsystems",
+  "offerId": "bce-fakturaintegrationbg-is",
+  "source": {
+    "name": "E-faktura Integration for Bulgaria",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bce-fakturaintegrationbg-is%7CPAPPID.48c79dfc-98a6-4418-9ffa-e12c1a897e1d",
+    "lastModified": "2026-05-15T11:11:35.194679+00:00",
+    "appVersion": "20.10.73.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:8abf6889631b038ef204d3c48252e3a8b96e0b214412edda1e2bcba3dcba6ec7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8abf6889631b038ef204d3c48252e3a8b96e0b214412edda1e2bcba3dcba6ec7",
+    "mappedOn": null,
+    "summary": "Exports sales documents as Bulgarian e-invoice XML",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Generates XML files for BORICA E-faktura platform",
+      "Exports sales invoices, service invoices, debit notes and credit notes",
+      "Unlimited document type templates",
+      "Single or bulk export in one click",
+      "Files saved to a location and uploaded manually to E-faktura"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "E-faktura (BORICA)"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

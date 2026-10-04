@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_contributions_and_declarations|PAPPID.bb26d4e9-d0c0-4305-bb58-a2bffece0d13",
+  "guid": "bb26d4e9-d0c0-4305-bb58-a2bffece0d13",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_contributions_and_declarations",
+  "source": {
+    "name": "Dynavision Contributions and Declarations",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_contributions_and_declarations%7CPAPPID.bb26d4e9-d0c0-4305-bb58-a2bffece0d13",
+    "lastModified": "2026-10-02T09:47:52.7302932+00:00",
+    "appVersion": "28.0.0.46222",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Contributions_and_Declarations_Manual.pdf",
+    "sourceHash": "sha256:0069a74685017b5b0e37f3d8e612636dea299b89c19743eb2b4b1cf78d04b11e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0069a74685017b5b0e37f3d8e612636dea299b89c19743eb2b4b1cf78d04b11e",
+    "mappedOn": null,
+    "summary": "Manages surtaxes and contributions outside standard ledger setup",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-loc-epr-packaging",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Defines contribution types such as Bebat and Recupel",
+      "Choose documents and G/L accounts per contribution type",
+      "Categories with texts and tariffs per contribution type",
+      "Exceptions for VAT liability and countries",
+      "Automatically inserts contributions for items and resources",
+      "Works with WMS shipment posting"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

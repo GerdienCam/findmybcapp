@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.bcsitera|AID.cargoson|PAPPID.be293d2c-e999-46d8-83aa-61ab2d540436",
+  "guid": "be293d2c-e999-46d8-83aa-61ab2d540436",
+  "publisherId": "bcsitera",
+  "offerId": "cargoson",
+  "source": {
+    "name": "Cargoson",
+    "publisher": "DIGMATIX",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.cargoson%7CPAPPID.be293d2c-e999-46d8-83aa-61ab2d540436",
+    "lastModified": "2026-08-21T10:59:08.7369906+00:00",
+    "appVersion": "26.1.26198.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.itera.ee/apps/cargoson/docs/en-US/help",
+    "sourceHash": "sha256:caedc81f4c93c892c57495a3979cbb243299a639489fde6d169da98ba509d63e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:caedc81f4c93c892c57495a3979cbb243299a639489fde6d169da98ba509d63e",
+    "mappedOn": null,
+    "summary": "Books carrier transport and gets labels via Cargoson",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends transport orders with direct booking to carriers",
+      "Retrieves original carrier package labels into BC",
+      "Tracking link for shipments",
+      "Requests carrier price quotes and applies selection to source documents",
+      "Data exchange log with Cargoson",
+      "Connects to 800+ carriers"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Cargoson",
+      "DHL",
+      "FedEx",
+      "DSV",
+      "DB Schenker",
+      "UPS",
+      "DPD",
+      "TNT",
+      "Omniva",
+      "Venipak",
+      "Latvijas Pasts"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

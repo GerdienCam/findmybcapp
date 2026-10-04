@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.connamix|AID.cnxec|PAPPID.1b48704f-4f38-471e-a3c5-9e4e58b9efcf",
+  "guid": "1b48704f-4f38-471e-a3c5-9e4e58b9efcf",
+  "publisherId": "connamix",
+  "offerId": "cnxec",
+  "source": {
+    "name": "CX Export Control",
+    "publisher": "CONNAMIX GmbH & Co.KG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.connamix%7CAID.cnxec%7CPAPPID.1b48704f-4f38-471e-a3c5-9e4e58b9efcf",
+    "lastModified": "2026-09-21T09:06:54.8997563+00:00",
+    "appVersion": "28.5.1.20",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.connamix.com/",
+    "sourceHash": "sha256:76cb01d0211891ffb92894b65b3ac22f807d723dae54e8324993bebd1fbdfd74"
+  },
+  "mapping": {
+    "sourceHash": "sha256:76cb01d0211891ffb92894b65b3ac22f807d723dae54e8324993bebd1fbdfd74",
+    "mappedOn": null,
+    "summary": "Export compliance screening that blocks noncompliant transactions",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-it-compliance",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Integrates with external export compliance expert systems",
+      "Real-time checks of addresses and goods against dual-use, embargo and sanction lists",
+      "Blocks business processes on non-compliance",
+      "Covers purchasing, sales, service and stock transfer as standard",
+      "Customs declarations in BC",
+      "Checks stock items for dual-use or sanctioned goods by destination country",
+      "Custom documents can be added to the check via setup",
+      "30-day trial"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Export compliance expert systems"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

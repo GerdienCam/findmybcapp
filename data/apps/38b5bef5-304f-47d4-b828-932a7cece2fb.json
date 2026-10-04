@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_goods_receipt_package_management|PAPPID.38b5bef5-304f-47d4-b828-932a7cece2fb",
+  "guid": "38b5bef5-304f-47d4-b828-932a7cece2fb",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_goods_receipt_package_management",
+  "source": {
+    "name": "m+m Goods Receipt with Package Management",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_goods_receipt_package_management%7CPAPPID.38b5bef5-304f-47d4-b828-932a7cece2fb",
+    "lastModified": "2026-06-07T15:03:28.8007503+00:00",
+    "appVersion": "28.0.371209.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:42193bf32770466fa5f141149e5e8f760c3b6a77135874c2245e54c67e4db235"
+  },
+  "mapping": {
+    "sourceHash": "sha256:42193bf32770466fa5f141149e5e8f760c3b6a77135874c2245e54c67e4db235",
+    "mappedOn": null,
+    "summary": "Creates documents using packages at goods receipt",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Generates manufacturing, purchase and sales documents together in a single step",
+      "Assigns packages directly to each process",
+      "Supported BC editions as stated"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Goods Receipt",
+      "m+m Package Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

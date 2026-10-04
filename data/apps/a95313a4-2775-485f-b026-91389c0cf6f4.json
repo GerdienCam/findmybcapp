@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.belwaregmbh2|AID.connector-365-easy-document-pin|PAPPID.a95313a4-2775-485f-b026-91389c0cf6f4",
+  "guid": "a95313a4-2775-485f-b026-91389c0cf6f4",
+  "publisherId": "belwaregmbh2",
+  "offerId": "connector-365-easy-document-pin",
+  "source": {
+    "name": "Connector 365 Easy Document Pin",
+    "publisher": "BELWARE GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector-365-easy-document-pin%7CPAPPID.a95313a4-2775-485f-b026-91389c0cf6f4",
+    "lastModified": "2026-07-27T17:37:54.2932933+00:00",
+    "appVersion": "2.4.25893.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.belware.de/en-us/apps/easy-document-pin/",
+    "sourceHash": "sha256:2da01e9e41615f95cb54cd078df3845558e566406391bd776902c2653059e5bd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2da01e9e41615f95cb54cd078df3845558e566406391bd776902c2653059e5bd",
+    "mappedOn": null,
+    "summary": "Attaches affected invoices automatically to customer reminders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Attaches reminded invoices to reminder emails automatically",
+      "Configurable by reminder level per reminder mode",
+      "Import function for setup"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

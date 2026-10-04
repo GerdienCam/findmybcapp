@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.navax_consulting|AID.ncrpl|PAPPID.2e7826f9-656c-4eaa-bd50-33254f2b9ff5",
+  "guid": "2e7826f9-656c-4eaa-bd50-33254f2b9ff5",
+  "publisherId": "navax_consulting",
+  "offerId": "ncrpl",
+  "source": {
+    "name": "NAVAX Replication",
+    "publisher": "NAVAX Consulting GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navax_consulting%7CAID.ncrpl%7CPAPPID.2e7826f9-656c-4eaa-bd50-33254f2b9ff5",
+    "lastModified": "2026-09-17T14:56:24.6497578+00:00",
+    "appVersion": "26.1.2.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navax.app/help.php?AppID=NCRPL",
+    "sourceHash": "sha256:4046e5e1e68167dc926d14774c619cf5a762cf2a2d3ac8d0b59a93ee3596cef2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4046e5e1e68167dc926d14774c619cf5a762cf2a2d3ac8d0b59a93ee3596cef2",
+    "mappedOn": null,
+    "summary": "Replicates master data across companies and databases",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-coa-company-setup",
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Replicates master data between companies in one or more BC databases",
+      "Scheduled synchronization at freely selectable intervals",
+      "Unlimited tables and fields including custom tables and fields",
+      "Replication decisions based on field content",
+      "Initializes new companies with all replication data",
+      "Automatically considers table dependencies",
+      "Logging and monitoring of replication",
+      "Option to disable BC standard triggers or validations during replication",
+      "Replicates customers and vendors including contact relationships",
+      "Replicates prices and discounts across companies",
+      "Replicates posting groups handling deviations per company country code",
+      "Replicates dimensions",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

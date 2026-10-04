@@ -1,0 +1,113 @@
+{
+  "appId": "PUBID.tso|AID.dms_connector_dc_sp|PAPPID.882c6bf0-b366-402f-95ee-d87233b311b0",
+  "guid": "882c6bf0-b366-402f-95ee-d87233b311b0",
+  "publisherId": "tso",
+  "offerId": "dms_connector_dc_sp",
+  "source": {
+    "name": "DMS Connector for Document Capture with SharePoint",
+    "publisher": "TSO-DATA GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tso%7CAID.dms_connector_dc_sp%7CPAPPID.882c6bf0-b366-402f-95ee-d87233b311b0",
+    "lastModified": "2026-07-08T09:39:37.3352617+00:00",
+    "appVersion": "28.0.2607.562249",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.tso.de/dmscdcsp/en/",
+    "sourceHash": "sha256:4909c4eb7d4c22ad48a67b46c8789b6eee4222ed95e60ce9ab41c65118bc3892"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4909c4eb7d4c22ad48a67b46c8789b6eee4222ed95e60ce9ab41c65118bc3892",
+    "mappedOn": null,
+    "summary": "Stores Document Capture invoices in SharePoint",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Archives Document Capture invoices, credit memos, delivery notes, prepayments and rejected documents",
+      "Links archived documents to BC records",
+      "Transfers email receipt date into BC",
+      "Retroactive archiving via job queue",
+      "Links purchase orders and invoices",
+      "Processes delivery notes using the order numbers it detects",
+      "Configurable per Document Capture document category",
+      "Supports Essential edition",
+      "Metadata via configurable SharePoint content types"
+    ],
+    "countries": [
+      "AD",
+      "AE",
+      "AL",
+      "AT",
+      "AU",
+      "BA",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LI",
+      "LT",
+      "LU",
+      "LV",
+      "MC",
+      "ME",
+      "MT",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RO",
+      "RS",
+      "SE",
+      "SI",
+      "SK",
+      "TR",
+      "UA",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint",
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

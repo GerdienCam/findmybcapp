@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.newtechnologyresearch|AID.docusign_salesorder|PAPPID.9b7a5e67-f262-4c4b-91f4-3ceddc3e0cdc",
+  "guid": "9b7a5e67-f262-4c4b-91f4-3ceddc3e0cdc",
+  "publisherId": "newtechnologyresearch",
+  "offerId": "docusign_salesorder",
+  "source": {
+    "name": "DocuSign for Dynamics 365 Business Central Sales Orders",
+    "publisher": "New Technology Research",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.newtechnologyresearch%7CAID.docusign_salesorder%7CPAPPID.9b7a5e67-f262-4c4b-91f4-3ceddc3e0cdc",
+    "lastModified": "2026-09-04T12:31:43.9848406+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://ntribs.notion.site/DocuSign-for-Business-Central-Sales-Orders-1ac3995661de801dab0af5209edcc136?pvs=74",
+    "sourceHash": "sha256:ef80a6413778ed1859a87f08bb2dc6fe1cd8efca29318f2d63eaa7f87d296e7b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ef80a6413778ed1859a87f08bb2dc6fe1cd8efca29318f2d63eaa7f87d296e7b",
+    "mappedOn": null,
+    "summary": "Sends sales orders and contracts for DocuSign signature",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "DocuSign button on Sales Order page creates an envelope",
+      "Uses a DocuSign template as the document to sign",
+      "Upload more documents and add signature tabs",
+      "View signature status: received, viewed, completed",
+      "Download completed signature document",
+      "Void a signature",
+      "Send from a single account or per-user email",
+      "Requires separate DocuSign subscription",
+      "Priced at $4/user/month or $40/user/year"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "DocuSign"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

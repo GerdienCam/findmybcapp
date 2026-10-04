@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.valkonixbv1759255272326|AID.valkonix_subscriptions|PAPPID.dcf757b8-8c9e-4191-a78a-dd569183b8f9",
+  "guid": "dcf757b8-8c9e-4191-a78a-dd569183b8f9",
+  "publisherId": "valkonixbv1759255272326",
+  "offerId": "valkonix_subscriptions",
+  "source": {
+    "name": "Valkonix Subscriptions",
+    "publisher": "Valkonix B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.valkonixbv1759255272326%7CAID.valkonix_subscriptions%7CPAPPID.dcf757b8-8c9e-4191-a78a-dd569183b8f9",
+    "lastModified": "2026-09-02T00:32:54.5929654+00:00",
+    "appVersion": "27.1.734.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.valkonix.com/manuals/valkonix-subscriptions-manual/",
+    "sourceHash": "sha256:86c37bc9e419fea046f06b5db1b3d15ccc578c85d859bbb34c165c6f418709a1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:86c37bc9e419fea046f06b5db1b3d15ccc578c85d859bbb34c165c6f418709a1",
+    "mappedOn": null,
+    "summary": "Recurring subscription billing on blanket sales orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals",
+      "ng-collections"
+    ],
+    "claims": [
+      "Subscription contracts built natively on Blanket Sales Orders",
+      "Bills items, resources or G/L accounts with billing frequency and renewal period",
+      "Advance or arrears billing",
+      "Catch-up billing backfills unbilled periods",
+      "One-time charges such as setup fees alongside recurring lines",
+      "Consolidated invoicing per customer",
+      "Deferred revenue via deferral templates",
+      "CPI-style indexed price updates in batch",
+      "Mid-term upgrade or downgrade",
+      "Duplicate-proof batch invoicing via job queue",
+      "Invoice lines state the covered period",
+      "Read-only subscriptionAccessKeys API with OAuth 2.0 returns Active, Disabled or Expired",
+      "Suspends overdue subscriptions at a chosen reminder level and reactivates on payment",
+      "Access key rotation",
+      "Extensible enums for partners"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.tobiasghl1698658579854|AID.solutioo_2|PAPPID.67e25320-9b08-4025-80d5-285fc45b394b",
+  "guid": "67e25320-9b08-4025-80d5-285fc45b394b",
+  "publisherId": "tobiasghl1698658579854",
+  "offerId": "solutioo_2",
+  "source": {
+    "name": "DPD Connector",
+    "publisher": "solutioo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tobiasghl1698658579854%7CAID.solutioo_2%7CPAPPID.67e25320-9b08-4025-80d5-285fc45b394b",
+    "lastModified": "2026-09-29T10:27:04.4917693+00:00",
+    "appVersion": "26.8.91.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.solutioo.de/dpd-businesscentral-hilfe/",
+    "sourceHash": "sha256:0cae0361b05a73b7e6bbc6d5c40a69a3a6544ecb517bbd29a42628a430fb46e8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0cae0361b05a73b7e6bbc6d5c40a69a3a6544ecb517bbd29a42628a430fb46e8",
+    "mappedOn": null,
+    "summary": "Creates DPD shipping labels",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Creates DPD shipping labels directly from the sales order",
+      "Generates DPD parcel numbers and PDF labels",
+      "Packages, labels, consolidated shipping and end-of-day closing",
+      "Parcelshop selection, international shipments with customs data, returns",
+      "Smart packing and multi-parcel shipments",
+      "Premium: dangerous goods (ADR) shipping with documents",
+      "Premium: multiple DPD contracts in one company",
+      "Premium: automatic tracking events and proof of delivery",
+      "Licensed per user",
+      "Available only in German"
+    ],
+    "countries": [],
+    "languages": [
+      "de"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DPD"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

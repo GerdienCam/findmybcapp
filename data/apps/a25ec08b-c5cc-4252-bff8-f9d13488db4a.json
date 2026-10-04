@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.expensein_connector|PAPPID.a25ec08b-c5cc-4252-bff8-f9d13488db4a",
+  "guid": "a25ec08b-c5cc-4252-bff8-f9d13488db4a",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "expensein_connector",
+  "source": {
+    "name": "ExpenseIn Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.expensein_connector%7CPAPPID.a25ec08b-c5cc-4252-bff8-f9d13488db4a",
+    "lastModified": "2024-11-22T05:40:30.0247049+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:978a30f4e9e54380a4917bc34058b121c522c762431faa95ac913c593eb55a64"
+  },
+  "mapping": {
+    "sourceHash": "sha256:978a30f4e9e54380a4917bc34058b121c522c762431faa95ac913c593eb55a64",
+    "mappedOn": null,
+    "summary": "Imports expenses from ExpenseIn",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Imports users, expenses, categories, reports and projects from ExpenseIn",
+      "Full version on request"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ExpenseIn"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

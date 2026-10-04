@@ -1,0 +1,57 @@
+{
+  "appId": "TYPE.connect|PUBID.procys1604328750326|AID.initial_offer|PAPPID.8c308b0d-8745-4c74-b4cb-3ed643d05893",
+  "guid": "8c308b0d-8745-4c74-b4cb-3ed643d05893",
+  "publisherId": "procys1604328750326",
+  "offerId": "initial_offer",
+  "source": {
+    "name": "Procys Document Processing",
+    "publisher": "Procys",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.procys1604328750326%7CAID.initial_offer%7CPAPPID.8c308b0d-8745-4c74-b4cb-3ed643d05893",
+    "lastModified": "2025-08-26T19:40:22.1006186+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://procys.com/",
+    "sourceHash": "sha256:a2f84d0e123e19483e0faa02b89c2b51f3036db1ed62e6e783f30513257b07b2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a2f84d0e123e19483e0faa02b89c2b51f3036db1ed62e6e783f30513257b07b2",
+    "mappedOn": null,
+    "summary": "Automates document data entry with Procys",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-copilot-agents"
+    ],
+    "claims": [
+      "Automates data entry for invoices, purchase orders, receipts and contracts",
+      "OCR processing of uploaded invoices and credit memos",
+      "Template-free AI OCR",
+      "Learns from user corrections so errors don't repeat",
+      "Supports any language except Japanese",
+      "Supported worldwide"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Procys"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

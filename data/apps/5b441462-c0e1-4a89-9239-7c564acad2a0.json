@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.appower|AID.pwr_lb|PAPPID.5b441462-c0e1-4a89-9239-7c564acad2a0",
+  "guid": "5b441462-c0e1-4a89-9239-7c564acad2a0",
+  "publisherId": "appower",
+  "offerId": "pwr_lb",
+  "source": {
+    "name": "Logistics Bridge",
+    "publisher": "APPower",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.appower%7CAID.pwr_lb%7CPAPPID.5b441462-c0e1-4a89-9239-7c564acad2a0",
+    "lastModified": "2026-06-05T19:26:07.8986878+00:00",
+    "appVersion": "1.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.appower.io/",
+    "sourceHash": "sha256:1b86ee3bd89b8ddf4b586f1690bd66e8713302985ede33a81573cdb326d765b0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1b86ee3bd89b8ddf4b586f1690bd66e8713302985ede33a81573cdb326d765b0",
+    "mappedOn": null,
+    "summary": "Shipping and courier integration from BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns",
+      "ng-svc-requests"
+    ],
+    "claims": [
+      "Creates courier waybills from sales orders and warehouse shipments",
+      "Inbound and outbound courier shipments on service orders",
+      "Sends shipment orders to the courier via API",
+      "Retrieves and prints carrier labels from the courier API",
+      "Integrates GLS and DPD, extensible to other carriers",
+      "Handles inbound as well as outbound shipments"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "GLS",
+      "DPD"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

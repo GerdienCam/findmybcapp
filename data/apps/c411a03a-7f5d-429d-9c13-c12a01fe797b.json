@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.alterna|AID.c411a03a-7f5d-429d-9c13-c12a01fe797b|PAPPID.c411a03a-7f5d-429d-9c13-c12a01fe797b",
+  "guid": "c411a03a-7f5d-429d-9c13-c12a01fe797b",
+  "publisherId": "alterna",
+  "offerId": "c411a03a-7f5d-429d-9c13-c12a01fe797b",
+  "source": {
+    "name": "Extended Warehouse Suite",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.c411a03a-7f5d-429d-9c13-c12a01fe797b%7CPAPPID.c411a03a-7f5d-429d-9c13-c12a01fe797b",
+    "lastModified": "2026-09-24T07:40:27.8595396+00:00",
+    "appVersion": "3.25.71.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/extended-warehouse-suite/",
+    "sourceHash": "sha256:dc4c77adce5ea2afbfd1d1ac83fd76f8b46d0d17915b1eb048e34e30cc7af9ae"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dc4c77adce5ea2afbfd1d1ac83fd76f8b46d0d17915b1eb048e34e30cc7af9ae",
+    "mappedOn": null,
+    "summary": "Warehouse enhancements such as combined shipments and invoicing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-warehouse-setup",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-transport-planning",
+      "ng-allocation-picking"
+    ],
+    "claims": [
+      "Shipment/receipt profiles drive shipping, receiving and invoicing",
+      "Combines orders into cumulative shipping/receiving documents",
+      "Combines shipments/return receipts into cumulative invoices",
+      "Grouping codes for shipping and invoicing policies",
+      "Preview of how grouping combines documents before posting",
+      "Automatic or manual closing of uninvoiced shipments/receipts",
+      "Batch creation of warehouse shipments/receipts",
+      "Shipment/receipt planning worksheet",
+      "Handling units with pallets, boxes etc.",
+      "Multi-level handling unit structure",
+      "Mandatory handling units on transactions",
+      "Handling units across sales, purchase, transfer, adjustment, warehouse and production",
+      "Handling unit ledger log",
+      "Prints handling unit content and packing list",
+      "Automatic packing instructions via rules",
+      "Warehouse shipments can carry lines that are not items",
+      "Lets users remove partial warehouse shipments and receipts that were already posted",
+      "Integration with Electronic Invoicing for Italy"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

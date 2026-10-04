@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.profactoas1585665701232|AID.microbizz_connector|PAPPID.2f5a1878-f7cc-40b3-918f-b6972835ede3",
+  "guid": "2f5a1878-f7cc-40b3-918f-b6972835ede3",
+  "publisherId": "profactoas1585665701232",
+  "offerId": "microbizz_connector",
+  "source": {
+    "name": "Microbizz Connector",
+    "publisher": "ProFacto A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.profactoas1585665701232%7CAID.microbizz_connector%7CPAPPID.2f5a1878-f7cc-40b3-918f-b6972835ede3",
+    "lastModified": "2026-04-09T05:12:28.2403826+00:00",
+    "appVersion": "20.0.0.70",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://profacto.dk/microbizz-connector/",
+    "sourceHash": "sha256:aa73531efa682fbd417bbb4524458f2dd02107c58d22bb03e3e4578c8d051447"
+  },
+  "mapping": {
+    "sourceHash": "sha256:aa73531efa682fbd417bbb4524458f2dd02107c58d22bb03e3e4578c8d051447",
+    "mappedOn": null,
+    "summary": "Invoices resource consumption from Microbizz project system",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-proj-billing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-time"
+    ],
+    "claims": [
+      "Connects BC to the Microbizz project and task management system",
+      "Transfers time, goods and resource consumption for invoicing",
+      "Available in Denmark"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "ProfessionalServices"
+    ],
+    "connectsTo": [
+      "Microbizz"
+    ],
+    "requires": [
+      "Microbizz"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

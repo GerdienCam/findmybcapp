@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.asqit|AID.customer-approvals|PAPPID.d112dde3-2260-4e5e-8229-120682fa1053",
+  "guid": "d112dde3-2260-4e5e-8229-120682fa1053",
+  "publisherId": "asqit",
+  "offerId": "customer-approvals",
+  "source": {
+    "name": "Customer Approvals",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.customer-approvals%7CPAPPID.d112dde3-2260-4e5e-8229-120682fa1053",
+    "lastModified": "2026-06-18T07:30:36.4336453+00:00",
+    "appVersion": "27.0.5.26061",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/approvalsuiteapps",
+    "sourceHash": "sha256:57ef32b41cd514e6a266076b02d58747cb22306c55f3f6cda9ac87884979be53"
+  },
+  "mapping": {
+    "sourceHash": "sha256:57ef32b41cd514e6a266076b02d58747cb22306c55f3f6cda9ac87884979be53",
+    "mappedOn": null,
+    "summary": "Approval of new customers and sensitive customer card changes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Blocks unapproved customers on sales documents and journals",
+      "Required fields checked before sending customer for approval",
+      "Protects sensitive fields on approved customers",
+      "Configurable protected fields",
+      "Locks ship-to addresses on approval",
+      "Customer bank locked once approved",
+      "Restricts deletion of approved customers",
+      "Any approver from a team can approve"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

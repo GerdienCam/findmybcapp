@@ -1,0 +1,232 @@
+{
+  "id": "ng-supplier-pricing",
+  "order": 5,
+  "label": "Keeping supplier prices and catalogs up to date",
+  "description": "Maintaining supplier price lists, discounts and supplier product catalogs used by buyers.",
+  "type": "bpc",
+  "area": "Purchasing & payables",
+  "relevance": "high",
+  "statements": [
+    "Keeping supplier prices and catalogs up to date",
+    "Maintaining supplier price lists, discounts and supplier product catalogs used by buyers.",
+    "Suppliers send new price lists in Excel and we update them in BC by hand",
+    "Purchase orders keep picking up the old vendor price from the item card",
+    "Is there an app to import vendor price lists into Business Central automatically?",
+    "We buy the same item from three suppliers at different prices. How do I set that up?",
+    "vendor price list import",
+    "Our main supplier changes prices every quarter with thousands of lines",
+    "How do I set up a quantity discount from a vendor, like 5% off above 100 units?",
+    "Purchase prices should update automatically from the last vendor invoice",
+    "We get a purchase discount from a buying group that covers several suppliers. Can BC handle that?",
+    "Buyers don't know which supplier is cheapest for an item when they create the PO",
+    "Purchase price lists in BC are confusing since the new pricing experience",
+    "We need future dated purchase prices so the supplier's new price kicks in on 1 January",
+    "Supplier price increases go unnoticed until the invoice arrives",
+    "Can we load vendor prices in the supplier's currency and keep them current?",
+    "Line discount per vendor and item group",
+    "The supplier sends a price file in their own format with their item numbers, not ours",
+    "We want to see purchase price history per vendor and item before we negotiate",
+    "How can I mass update purchase prices by a percentage for one vendor?",
+    "We want suppliers to maintain their own prices for us in a portal",
+    "Different purchase prices per supplier depending on which warehouse they deliver to",
+    "Our main supplier sends a new product list in Excel every month and we key it into BC by hand",
+    "How do I import a vendor's item file into Business Central without creating thousands of items we never buy?",
+    "We want staff to pick from an approved list of supplier items instead of buying whatever they find online",
+    "supplier product catalog import",
+    "Buyers keep creating new item cards for supplier products that already exist under another number",
+    "Is there an app that lets us shop on a supplier's webshop and bring the basket back into a purchase order?",
+    "Our wholesaler offers 40,000 articles but we only want an item card created when we actually order one from them",
+    "Product descriptions from our vendors are so poor that buyers can't find anything",
+    "Can suppliers maintain their own product data for us somewhere instead of emailing spreadsheets?",
+    "punchout to vendor webshop",
+    "Supplier changed their item numbers again and now our vendor item references in BC are all wrong",
+    "How do other BC customers keep thousands of supplier articles up to date with images and specs for purchasing?"
+  ],
+  "questions": [
+    {
+      "id": "source",
+      "text": "How do supplier prices and item data reach you?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Excel or CSV price lists",
+          "patterns": [
+            "excel",
+            "\\bcsv\\b",
+            "spreadsheet"
+          ]
+        },
+        {
+          "label": "Standard catalog files (BMECat, PRICAT, OCI)",
+          "patterns": [
+            "bmecat",
+            "pricat",
+            "\\boci\\b",
+            "datanorm"
+          ]
+        },
+        {
+          "label": "Direct feed from a distributor or wholesaler",
+          "patterns": [
+            "td synnex",
+            "itscope",
+            "onetrail",
+            "kramp",
+            "granit",
+            "\\bcnh\\b",
+            "wholesaler",
+            "distributor",
+            "api-driven"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Excel or CSV price lists": 0.32,
+        "Standard catalog files (BMECat, PRICAT, OCI)": 0.18,
+        "Direct feed from a distributor or wholesaler": 0.32
+      }
+    },
+    {
+      "id": "goal",
+      "text": "What is the main job you need done?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Import and update supplier prices",
+          "patterns": [
+            "import",
+            "synchroni[sz]",
+            "download"
+          ]
+        },
+        {
+          "label": "Manage discounts on documents",
+          "patterns": [
+            "discount"
+          ]
+        },
+        {
+          "label": "Keep price history and end old prices",
+          "patterns": [
+            "\\bends?\\b.*price",
+            "expired",
+            "end dates",
+            "history",
+            "archiv",
+            "outdated"
+          ]
+        },
+        {
+          "label": "Calculate purchase price with my own rules",
+          "patterns": [
+            "calculation templates",
+            "grade out",
+            "pack out",
+            "transformation rules",
+            "calculated columns",
+            "price calculation"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Import and update supplier prices": 0.59,
+        "Manage discounts on documents": 0.32,
+        "Keep price history and end old prices": 0.23,
+        "Calculate purchase price with my own rules": 0.14
+      }
+    },
+    {
+      "id": "newitems",
+      "text": "Should supplier data create new items in BC for you?",
+      "help": "Some apps only update prices on items you already have.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, create items automatically",
+          "patterns": [
+            "creates? (or updates )?(missing )?items",
+            "creates? item cards",
+            "creates? a nonstock",
+            "creates? (or updates )?items",
+            "imports? (catalog )?items",
+            "item import",
+            "creates items",
+            "retrieves product information .* creates items",
+            "distinguishes inventory and non-inventory"
+          ]
+        },
+        {
+          "label": "Only non-stock catalog items",
+          "patterns": [
+            "non-?stock"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, create items automatically": 0.32,
+        "Only non-stock catalog items": 0.14
+      }
+    },
+    {
+      "id": "multico",
+      "text": "Do you maintain the same prices across several companies?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, several companies or tenants",
+          "patterns": [
+            "multiple tenants",
+            "across companies",
+            "all specified companies",
+            "several stores",
+            "selection of companies"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, several companies or tenants": 0.14
+      }
+    },
+    {
+      "id": "compound",
+      "text": "Do you use stacked discounts like 10% + 5%?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, multi-level discounts",
+          "patterns": [
+            "compound",
+            "multiplicative",
+            "multi-level",
+            "five .*discounts",
+            "10% \\+ 5%"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, multi-level discounts": 0.14
+      }
+    }
+  ]
+}

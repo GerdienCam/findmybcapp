@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.armadadynamicsas1615984193301|AID.eqm365rental-telemetry|PAPPID.5352819f-f94d-4564-8b62-1a7fb356556b",
+  "guid": "5352819f-f94d-4564-8b62-1a7fb356556b",
+  "publisherId": "armadadynamicsas1615984193301",
+  "offerId": "eqm365rental-telemetry",
+  "source": {
+    "name": "EQM 365 Rental - Equipment Telemetry",
+    "publisher": "Armada Dynamics AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.armadadynamicsas1615984193301%7CAID.eqm365rental-telemetry%7CPAPPID.5352819f-f94d-4564-8b62-1a7fb356556b",
+    "lastModified": "2026-09-13T17:58:21.7312329+00:00",
+    "appVersion": "28.5.202637.81461",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.armadadynamics.no/en/support/knowledge-database",
+    "sourceHash": "sha256:455c4d46aa6d34b2f9e1765ad592a14fb2ec8d76e8315313c8856a003f595c7f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:455c4d46aa6d34b2f9e1765ad592a14fb2ec8d76e8315313c8856a003f595c7f",
+    "mappedOn": null,
+    "summary": "Imports equipment telematics data into EQM 365 Rental",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-esg",
+      "ng-svc-assets"
+    ],
+    "claims": [
+      "Imports fleet telematics data from providers such as Trackunit",
+      "Uses ISO 15143-3 (AEMP 2.0) export API",
+      "Real-time equipment location shown on a map",
+      "Records hours used and fuel consumption per object",
+      "CO2 emissions per object per day, per customer, project, contract and equipment type"
+    ],
+    "countries": [
+      "AE",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "GB",
+      "IS",
+      "LT",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "PL",
+      "QA",
+      "SE",
+      "SI",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "fi",
+      "fr",
+      "nb",
+      "nl"
+    ],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [
+      "Trackunit"
+    ],
+    "requires": [
+      "EQM 365 Rental"
+    ],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

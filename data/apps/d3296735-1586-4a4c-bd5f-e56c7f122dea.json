@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.apps4bc|AID.offer_001|PAPPID.d3296735-1586-4a4c-bd5f-e56c7f122dea",
+  "guid": "d3296735-1586-4a4c-bd5f-e56c7f122dea",
+  "publisherId": "apps4bc",
+  "offerId": "offer_001",
+  "source": {
+    "name": "External Ticket No. (Sales)",
+    "publisher": "Folsystems Sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apps4bc%7CAID.offer_001%7CPAPPID.d3296735-1586-4a4c-bd5f-e56c7f122dea",
+    "lastModified": "2024-11-22T07:00:45.0873828+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Freemium",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://apps4bc.com/wp-content/uploads/2024/07/External_Ticket_No.pdf",
+    "sourceHash": "sha256:33a4c7cc0779a2285da7f81e467049bc6b57a73bbb8abeffa7bfde9ac0980c17"
+  },
+  "mapping": {
+    "sourceHash": "sha256:33a4c7cc0779a2285da7f81e467049bc6b57a73bbb8abeffa7bfde9ac0980c17",
+    "mappedOn": null,
+    "summary": "Links external ticket numbers to sales documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-custom-fields",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Adds External Ticket No. field to sales quotes, orders, blanket orders, invoices, posted documents and archives",
+      "Transfers the ticket number automatically between sales documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

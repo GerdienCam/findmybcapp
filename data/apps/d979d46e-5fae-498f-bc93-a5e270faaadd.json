@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.advanced-item-planning-app|PAPPID.d979d46e-5fae-498f-bc93-a5e270faaadd",
+  "guid": "d979d46e-5fae-498f-bc93-a5e270faaadd",
+  "publisherId": "fenwicksoftware",
+  "offerId": "advanced-item-planning-app",
+  "source": {
+    "name": "Advanced Item Planning",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.advanced-item-planning-app%7CPAPPID.d979d46e-5fae-498f-bc93-a5e270faaadd",
+    "lastModified": "2026-07-27T00:42:37.3797119+00:00",
+    "appVersion": "26.0.260713.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/advanced-item-planning/docs",
+    "sourceHash": "sha256:642207e698290d58709638e81f12491d6e0aa99043533b05dc880db36da44933"
+  },
+  "mapping": {
+    "sourceHash": "sha256:642207e698290d58709638e81f12491d6e0aa99043533b05dc880db36da44933",
+    "mappedOn": null,
+    "summary": "Enhancements to requisition and planning worksheets",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Accept or reject multiple action messages at once",
+      "Splits created purchase orders by expected receipt date",
+      "Links released blanket purchase orders to worksheet lines automatically",
+      "Restricts blanket order lookup to released blanket orders",
+      "Standardised FactBoxes and fields across planning and requisition worksheets"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

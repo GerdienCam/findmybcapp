@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bccurrencyconversiontool-is|PAPPID.2fa8c3f8-ea52-4efb-a6ad-41c509a91a39",
+  "guid": "2fa8c3f8-ea52-4efb-a6ad-41c509a91a39",
+  "publisherId": "intelligentsystems",
+  "offerId": "bccurrencyconversiontool-is",
+  "source": {
+    "name": "Euro Conversion Tool",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bccurrencyconversiontool-is%7CPAPPID.2fa8c3f8-ea52-4efb-a6ad-41c509a91a39",
+    "lastModified": "2025-12-19T13:02:40.61972+00:00",
+    "appVersion": "26.3.40.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:d8146caef488660dffd55ac5906da48b0cd87db61477655abc5218bad35b82f1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d8146caef488660dffd55ac5906da48b0cd87db61477655abc5218bad35b82f1",
+    "mappedOn": null,
+    "summary": "Converts data to euro or another currency",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Converts local currency to euro including amounts, currency codes and business groups",
+      "Filter which nomenclatures and entries to transfer and clean old data",
+      "Supports versions back to Navision 4.0, on-prem and SaaS",
+      "Conversion with opening balances into a new company",
+      "Converts open sales, purchase, transfer and production orders into the euro",
+      "Templates for standard BC and LS Central tables plus custom fields",
+      "Template import/export across companies",
+      "Automatic detection of amount fields",
+      "Handles WIP manufacturing and future revenues/expenses",
+      "Variance reports comparing source and converted data",
+      "Logs, statistics and test runs"
+    ],
+    "countries": [],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "LS Central"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

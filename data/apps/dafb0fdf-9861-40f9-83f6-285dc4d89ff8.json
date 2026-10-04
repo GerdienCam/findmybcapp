@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.zentriqsoftware|AID.zentriq-for-business-central|PAPPID.dafb0fdf-9861-40f9-83f6-285dc4d89ff8",
+  "guid": "dafb0fdf-9861-40f9-83f6-285dc4d89ff8",
+  "publisherId": "zentriqsoftware",
+  "offerId": "zentriq-for-business-central",
+  "source": {
+    "name": "Zentriq Agent",
+    "publisher": "Zentriq Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.zentriqsoftware%7CAID.zentriq-for-business-central%7CPAPPID.dafb0fdf-9861-40f9-83f6-285dc4d89ff8",
+    "lastModified": "2026-06-23T14:31:20.1624159+00:00",
+    "appVersion": "2.1.8.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.zentriqsoftware.com/docs",
+    "sourceHash": "sha256:5fdd534ff7ca11bbbb0b603be78672a0ab397681cd75f78f6946b0805ea8e390"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5fdd534ff7ca11bbbb0b603be78672a0ab397681cd75f78f6946b0805ea8e390",
+    "mappedOn": null,
+    "summary": "AI assistant to query, create, post and capture invoices",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-ai-assistant",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-copilot-agents"
+    ],
+    "claims": [
+      "Query BC data in plain language",
+      "Create and post purchase orders and sales orders from chat",
+      "Available from Role Center, pop-up on any page, or contextually on cards",
+      "Extracts header and lines from PDF invoice, matches vendor, creates purchase invoice",
+      "Reads Swiss QR-bills",
+      "No configuration needed; sign in with Microsoft account",
+      "Respects native BC permissions"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

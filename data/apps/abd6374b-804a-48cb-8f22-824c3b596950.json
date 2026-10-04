@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.mobilewaste-for-tegossuite-app|PAPPID.abd6374b-804a-48cb-8f22-824c3b596950",
+  "guid": "abd6374b-804a-48cb-8f22-824c3b596950",
+  "publisherId": "fenwicksoftware",
+  "offerId": "mobilewaste-for-tegossuite-app",
+  "source": {
+    "name": "MobileWaste for tegossuite",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.mobilewaste-for-tegossuite-app%7CPAPPID.abd6374b-804a-48cb-8f22-824c3b596950",
+    "lastModified": "2026-05-22T07:54:55.0263181+00:00",
+    "appVersion": "27.0.260522.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/mobilewaste/docs",
+    "sourceHash": "sha256:db3a0a0873242ee9efd5a11188f1e1f523941644002ab46cd1ffe4e960fa6e25"
+  },
+  "mapping": {
+    "sourceHash": "sha256:db3a0a0873242ee9efd5a11188f1e1f523941644002ab46cd1ffe4e960fa6e25",
+    "mappedOn": null,
+    "summary": "Mobile run sheets for waste collection drivers in tegossuite",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-utilities-energy-waste",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-transport-planning"
+    ],
+    "claims": [
+      "Electronic run sheet for drivers managing jobs in real time",
+      "Offline data entry with automatic sync when connection is restored",
+      "Captures signatures, checklists and photos",
+      "Drivers record quantities, track progress and view upcoming tasks",
+      "Configurable driver checklists",
+      "Proof of delivery capture",
+      "Requires tegossuite and EasyDispatch"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Recycling",
+      "Waste management"
+    ],
+    "connectsTo": [
+      "tegossuite"
+    ],
+    "requires": [
+      "tegossuite",
+      "Fenwick EasyDispatch"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.amjsconsulting1621353404525|AID.customer_bank_account_approval_workflow|PAPPID.bec84873-5a53-4024-8fdf-5dc87380d5aa",
+  "guid": "bec84873-5a53-4024-8fdf-5dc87380d5aa",
+  "publisherId": "amjsconsulting1621353404525",
+  "offerId": "customer_bank_account_approval_workflow",
+  "source": {
+    "name": "Customer Bank Approval Workflow",
+    "publisher": "AMJS CONSULTING",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.amjsconsulting1621353404525%7CAID.customer_bank_account_approval_workflow%7CPAPPID.bec84873-5a53-4024-8fdf-5dc87380d5aa",
+    "lastModified": "2026-03-16T10:29:38.5019712+00:00",
+    "appVersion": "26.3.2603.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://amjs-consulting.com/solutions/customer-bank",
+    "sourceHash": "sha256:bcb20e6ea9e480a302c8695583154741e2bcd6e77bcf9b3efab68b63a952233f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bcb20e6ea9e480a302c8695583154741e2bcd6e77bcf9b3efab68b63a952233f",
+    "mappedOn": null,
+    "summary": "Approval workflow and controls for customer bank account changes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality",
+      "ng-customer-credit-holds"
+    ],
+    "claims": [
+      "Approval workflow for customer bank account changes using BC approval engine",
+      "Statuses Open, Pending Approval, Released; only Released usable in refunds",
+      "Blocks refund journal lines with non-Released bank accounts",
+      "IBAN mandatory before refunds",
+      "Preferred bank account must be Released",
+      "Delete protection on Released/Pending accounts",
+      "SEPA credit transfers and refund exports enforce Released status and IBAN",
+      "Real-time IBAN validation via IBAN Analyzer or IBAN Rechner",
+      "Retrieves bank name, address and BIC/SWIFT",
+      "Credentials in Isolated Storage",
+      "Licensed only for users who send/approve changes",
+      "Standard 5 plan requires minimum 5 users"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "IBAN Analyzer",
+      "IBAN Rechner"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

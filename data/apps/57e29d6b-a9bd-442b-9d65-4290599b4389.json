@@ -1,0 +1,91 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.fcp-production-batching|PAPPID.57e29d6b-a9bd-442b-9d65-4290599b4389",
+  "guid": "57e29d6b-a9bd-442b-9d65-4290599b4389",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "fcp-production-batching",
+  "source": {
+    "name": "Production Batching",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.fcp-production-batching%7CPAPPID.57e29d6b-a9bd-442b-9d65-4290599b4389",
+    "lastModified": "2025-11-25T09:22:15.1353635+00:00",
+    "appVersion": "27.0.16291.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.nicsystemslearning.com/help/production-batching",
+    "sourceHash": "sha256:b15b2fdc6b1af8ae448920d8c2fa3a7efd0a6b7643eeafc07953009267db3584"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b15b2fdc6b1af8ae448920d8c2fa3a7efd0a6b7643eeafc07953009267db3584",
+    "mappedOn": null,
+    "summary": "Splits production orders into batches",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability",
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Batch calculation methods: fixed sizes, even splits or optimized ranges",
+      "Forces batch selection at posting of output or consumption",
+      "Create batches for one or multiple production orders at once",
+      "Batch-level material requirements",
+      "Linked components keep recipe ratios when parent quantity changes",
+      "Post output and consumption per batch",
+      "List of batches per production order with quantities and posting status",
+      "Batch number in lot numbers (with Lot Algorithms app)",
+      "Requires Premium edition"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

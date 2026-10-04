@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.elvabaltic|AID.elva-fa-keeper|PAPPID.30e2e709-f808-4bf0-af32-da3d93d3afd7",
+  "guid": "30e2e709-f808-4bf0-af32-da3d93d3afd7",
+  "publisherId": "elvabaltic",
+  "offerId": "elva-fa-keeper",
+  "source": {
+    "name": "Fixed Asset Keeper",
+    "publisher": "Elva Baltic SIA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elvabaltic%7CAID.elva-fa-keeper%7CPAPPID.30e2e709-f808-4bf0-af32-da3d93d3afd7",
+    "lastModified": "2026-02-06T10:45:21.7912246+00:00",
+    "appVersion": "24.0.0.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elva-d365-bc.github.io/FixedAssetKeeper/en-US/articles/fixed_asset_keeper/overview.html",
+    "sourceHash": "sha256:042678914a237432dc61894dddc1736171e18a0103fa54e7413028859c2af023"
+  },
+  "mapping": {
+    "sourceHash": "sha256:042678914a237432dc61894dddc1736171e18a0103fa54e7413028859c2af023",
+    "mappedOn": null,
+    "summary": "Fixed asset transfer documents for location and responsible changes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-fa-register",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Fixed asset transfer documents for location moves",
+      "Records changes of responsible employee",
+      "Bulk change of FA location and responsible employee",
+      "Detailed transfer history",
+      "Printable fixed asset transfer document",
+      "Fixed asset transfer ledger entries",
+      "Available in all BC countries"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "lv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

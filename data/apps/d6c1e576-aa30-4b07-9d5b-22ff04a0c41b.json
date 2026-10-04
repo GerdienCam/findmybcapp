@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.abf18062021|PAPPID.d6c1e576-aa30-4b07-9d5b-22ff04a0c41b",
+  "guid": "d6c1e576-aa30-4b07-9d5b-22ff04a0c41b",
+  "publisherId": "intelligentsystems",
+  "offerId": "abf18062021",
+  "source": {
+    "name": "Advanced Business Functionality",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.abf18062021%7CPAPPID.d6c1e576-aa30-4b07-9d5b-22ff04a0c41b",
+    "lastModified": "2026-06-09T11:02:06.1994435+00:00",
+    "appVersion": "26.22.160.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/faq/",
+    "sourceHash": "sha256:0465ff233a8399eb7f3fa1208691f8fcdb6194def6b57362b984c995c5cf967f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0465ff233a8399eb7f3fa1208691f8fcdb6194def6b57362b984c995c5cf967f",
+    "mappedOn": null,
+    "summary": "Collection of functional enhancements to standard BC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-permissions",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-order-allocation",
+      "ng-sales-pricing",
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Restricts operators to current date, locations and batches per user",
+      "Mandatory fields on items, customers, vendors and documents",
+      "Customer/vendor balance compensation",
+      "Blocks application between same document types",
+      "One-click reservations on all sales/transfer order lines",
+      "Bulk item tracking lines for orders and journals",
+      "Cost allocation via revaluation journal",
+      "Deletion of registered warehouse documents under conditions",
+      "Three inventory reports via item journals",
+      "Sales and item transaction analysis page",
+      "Sales prices and discounts per location"
+    ],
+    "countries": [],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

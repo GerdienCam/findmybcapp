@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.appower|AID.pwr_phm|PAPPID.c089b241-760b-456c-b49e-cb6d25b63354",
+  "guid": "c089b241-760b-456c-b49e-cb6d25b63354",
+  "publisherId": "appower",
+  "offerId": "pwr_phm",
+  "source": {
+    "name": "Payment Habits Monitor",
+    "publisher": "APPower",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.appower%7CAID.pwr_phm%7CPAPPID.c089b241-760b-456c-b49e-cb6d25b63354",
+    "lastModified": "2026-06-05T19:25:43.3027861+00:00",
+    "appVersion": "1.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.appower.io/",
+    "sourceHash": "sha256:884806adb6fd1980ec658670f9a95ca204419b37a4372f44ae8ed9542cfefa4a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:884806adb6fd1980ec658670f9a95ca204419b37a4372f44ae8ed9542cfefa4a",
+    "mappedOn": null,
+    "summary": "Monitors and reports payment terms compliance for regulatory reporting",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-collections",
+      "ng-financial-statements"
+    ],
+    "claims": [
+      "Reports payment practices required by Polish regulations",
+      "Classifies receivables and payables by overdue period",
+      "Tracks whether receivables were received and payables were paid",
+      "Calculates required percentage shares over overdue intervals",
+      "Excludes intra-group, insurance and statute-barred transactions",
+      "Leaves out foreign entities from countries outside the EU and EFTA",
+      "Imports historical entries from previous ERP systems"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.navappyazlmvedanmanlkltdti1582460298798|AID.bc-napppur|PAPPID.4342e365-1090-4f18-a0fe-be0dbaa66ec3",
+  "guid": "4342e365-1090-4f18-a0fe-be0dbaa66ec3",
+  "publisherId": "navappyazlmvedanmanlkltdti1582460298798",
+  "offerId": "bc-napppur",
+  "source": {
+    "name": "Purchase Management",
+    "publisher": "Navapp Yazilim ve Danismanlik Anonim Sirketi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navappyazlmvedanmanlkltdti1582460298798%7CAID.bc-napppur%7CPAPPID.4342e365-1090-4f18-a0fe-be0dbaa66ec3",
+    "lastModified": "2026-09-18T11:32:41.8421172+00:00",
+    "appVersion": "28.0.260918.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-purchase-management",
+    "sourceHash": "sha256:fdffbae0fda095987420d22aef5e02f8c90995b5898987f5524e849d9c3d6049"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fdffbae0fda095987420d22aef5e02f8c90995b5898987f5524e849d9c3d6049",
+    "mappedOn": null,
+    "summary": "Purchase requests, approvals and supplier quote evaluation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Users request services, items and fixed assets",
+      "Approval of purchase requests",
+      "Purchasing groups approved requests and sends them to suppliers for quotes",
+      "Records supplier quotes",
+      "Quote evaluation forms with limits and approval",
+      "Creates purchase orders from approved quote evaluation forms"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

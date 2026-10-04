@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.erpconnectconsultingllc1655482443679|AID.acd|PAPPID.71a94e84-a0c8-470a-bbc4-512c8e007cb2",
+  "guid": "71a94e84-a0c8-470a-bbc4-512c8e007cb2",
+  "publisherId": "erpconnectconsultingllc1655482443679",
+  "offerId": "acd",
+  "source": {
+    "name": "Auto Create Dimensions",
+    "publisher": "RUX Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpconnectconsultingllc1655482443679%7CAID.acd%7CPAPPID.71a94e84-a0c8-470a-bbc4-512c8e007cb2",
+    "lastModified": "2026-09-08T20:35:29.4678805+00:00",
+    "appVersion": "27.0.0.19",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ruxsoftware.com/application/auto-create-dimensions",
+    "sourceHash": "sha256:fd0fee94f0fb91c924eeb9a3092e0b213f85b76125b06b06b9748289821b9320"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fd0fee94f0fb91c924eeb9a3092e0b213f85b76125b06b06b9748289821b9320",
+    "mappedOn": null,
+    "summary": "Auto-creates dimension values from master data",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-financial-statements"
+    ],
+    "claims": [
+      "Syncs master data records to dimension values",
+      "Customer, vendor and item dimensions for G/L reporting",
+      "Optional required default dimension on source master record",
+      "Customer fields: number, posting groups, state, country",
+      "Item fields: number, category, posting group, vendor, location",
+      "Resource, salesperson, purchaser and employee to dimensions"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

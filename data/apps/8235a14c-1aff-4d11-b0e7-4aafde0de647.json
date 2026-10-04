@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.nprogressiondoo1666616266569|AID.np_ifrs|PAPPID.8235a14c-1aff-4d11-b0e7-4aafde0de647",
+  "guid": "8235a14c-1aff-4d11-b0e7-4aafde0de647",
+  "publisherId": "nprogressiondoo1666616266569",
+  "offerId": "np_ifrs",
+  "source": {
+    "name": "Nprogression IFRS Transformation & Consolidation",
+    "publisher": "Nprogression",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nprogressiondoo1666616266569%7CAID.np_ifrs%7CPAPPID.8235a14c-1aff-4d11-b0e7-4aafde0de647",
+    "lastModified": "2026-07-21T19:36:12.7846755+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nprogression.com/",
+    "sourceHash": "sha256:afd7e711c09ed07d3568e58e47fb022765351a90bd2b616e8f58b320f0bbba43"
+  },
+  "mapping": {
+    "sourceHash": "sha256:afd7e711c09ed07d3568e58e47fb022765351a90bd2b616e8f58b320f0bbba43",
+    "mappedOn": null,
+    "summary": "IFRS transformation and consolidation reporting",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Any primary accounting system can be a data source",
+      "Transformation rules map source account, debit/credit, corresponding account and up to 3 analytics to IFRS accounts",
+      "Automatic calculation of IFRS adjustments with rollback",
+      "Flexible consolidation perimeters",
+      "Error log during transformation with link to erroneous operation",
+      "Recalculates currencies to receiving company's local currency, retaining original amounts",
+      "Retains reference to original operation for audit",
+      "Consolidation Monitor tracks data transfer in real time",
+      "Intercompany elimination by identifying typical counterparty pairs",
+      "Transformation of assets with parallel accounting",
+      "Revaluation of operations at IFRS level"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

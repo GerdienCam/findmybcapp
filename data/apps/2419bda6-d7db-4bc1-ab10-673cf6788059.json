@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.bydynamicsbv1640103983705|AID.upm_bdy|PAPPID.2419bda6-d7db-4bc1-ab10-673cf6788059",
+  "guid": "2419bda6-d7db-4bc1-ab10-673cf6788059",
+  "publisherId": "bydynamicsbv1640103983705",
+  "offerId": "upm_bdy",
+  "source": {
+    "name": "Urgent Payment",
+    "publisher": "bydynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bydynamicsbv1640103983705%7CAID.upm_bdy%7CPAPPID.2419bda6-d7db-4bc1-ab10-673cf6788059",
+    "lastModified": "2026-03-13T16:05:11.4593506+00:00",
+    "appVersion": "27.2.20.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://github.com/bydynamics/AL-UrgentPayment-Support",
+    "sourceHash": "sha256:a89eafe172c5171a329b17d6f0404467047b42402e89c8fd95429f8e9eceff44"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a89eafe172c5171a329b17d6f0404467047b42402e89c8fd95429f8e9eceff44",
+    "mappedOn": null,
+    "summary": "Marks vendor payments as urgent in SEPA credit transfer export",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Urgent Payment checkbox on payment method",
+      "Sets SEPA instruction priority HIGH in export",
+      "ISO 20022 pain.001.001.03",
+      "Mixed urgent and normal payments in same batch",
+      "Works with standard BC SEPA export",
+      "BC 27.0+, online and on-premises"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

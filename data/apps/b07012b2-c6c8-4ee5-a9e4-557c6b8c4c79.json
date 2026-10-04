@@ -1,0 +1,92 @@
+{
+  "appId": "PUBID.foodware365|AID.datalake_connector|PAPPID.b07012b2-c6c8-4ee5-a9e4-557c6b8c4c79",
+  "guid": "b07012b2-c6c8-4ee5-a9e4-557c6b8c4c79",
+  "publisherId": "foodware365",
+  "offerId": "datalake_connector",
+  "source": {
+    "name": "Aptean BI Data Lake Connector",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.datalake_connector%7CPAPPID.b07012b2-c6c8-4ee5-a9e4-557c6b8c4c79",
+    "lastModified": "2025-04-18T11:15:24.4281262+00:00",
+    "appVersion": "2501.0.210119.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/DLC/",
+    "sourceHash": "sha256:3cf09cc190c671e8cab440b772ce60ed26b647722d7d607afc2394cb8f631ba7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3cf09cc190c671e8cab440b772ce60ed26b647722d7d607afc2394cb8f631ba7",
+    "mappedOn": null,
+    "summary": "Exports data to BI data lake for analysis",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-demand-forecast",
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Connector to Aptean BI; free with Aptean BI subscription",
+      "500 out-of-the-box food and beverage KPIs",
+      "Automated data collection and condition-based alerts",
+      "Anomaly detection finds root cause of KPI spikes or drops",
+      "Machine learning forecasting with internal and external factors",
+      "Decision simulations"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "ID",
+      "IE",
+      "IN",
+      "MY",
+      "NL",
+      "NZ",
+      "PH",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [
+      "Aptean Business Intelligence"
+    ],
+    "requires": [
+      "Aptean BI"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

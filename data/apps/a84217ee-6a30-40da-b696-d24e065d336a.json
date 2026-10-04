@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-ecm-connect-continia-document-capture|PAPPID.a84217ee-6a30-40da-b696-d24e065d336a",
+  "guid": "a84217ee-6a30-40da-b696-d24e065d336a",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-ecm-connect-continia-document-capture",
+  "source": {
+    "name": "Aptean ECM Connect x Continia Document Capture",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-ecm-connect-continia-document-capture%7CPAPPID.a84217ee-6a30-40da-b696-d24e065d336a",
+    "lastModified": "2026-09-01T06:33:33.4962145+00:00",
+    "appVersion": "2603.260800.20260828.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:d7e453a219896d236ac8067e7a7a9a8beddd61672a820d8fbfa3e071b9201765"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d7e453a219896d236ac8067e7a7a9a8beddd61672a820d8fbfa3e071b9201765",
+    "mappedOn": null,
+    "summary": "Archives purchase invoices from Continia Document Capture in Aptean ECM",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Archives original purchase invoices and credit memos linked to postings",
+      "Supports PDF, XML and ZUGFeRD formats"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "Aptean ECM Connect",
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

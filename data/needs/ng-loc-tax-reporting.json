@@ -1,0 +1,212 @@
+{
+  "id": "ng-loc-tax-reporting",
+  "order": 200,
+  "label": "Statutory tax files, SAF-T and authority reporting",
+  "description": "Country-specific reporting to tax authorities beyond the standard VAT return: SAF-T and e-ledger files, Intrastat and EU sales lists, withholding tax, excise duties, fiscalization of receipts, real-time invoice reporting and accountant exports such as DATEV.",
+  "type": "localization",
+  "area": "Country requirements",
+  "relevance": "high",
+  "statements": [
+    "Statutory tax files, SAF-T and authority reporting",
+    "Country-specific reporting to tax authorities beyond the standard VAT return: SAF-T and e-ledger files, Intrastat and EU sales lists, withholding tax, excise duties, fiscalization of receipts, real-time invoice reporting and accountant exports such as DATEV.",
+    "The tax authority asked for a SAF-T file and BC can't produce it",
+    "SAF-T export Business Central",
+    "Our tax advisor wants our data in DATEV format",
+    "Intrastat reporting takes two days every month",
+    "Greek MyData submissions from BC",
+    "Turkish e-Defter (e-ledger) requirements",
+    "Excise duty on beer and spirits we sell",
+    "Our tills must report every receipt to the tax authority",
+    "Withholding tax on vendor payments",
+    "Fiscal printer integration for our shops in Bulgaria",
+    "Romanian e-Transport declarations for shipments",
+    "Norway electronic VAT submission",
+    "Annual statutory files in the format our auditor needs",
+    "Open Data Format export for the Israeli tax authority",
+    "Lithuanian i.SAF VAT reporting",
+    "UK Construction Industry Scheme returns",
+    "EU One Stop Shop VAT for webshop sales to consumers",
+    "Real-time reporting of invoices to the government",
+    "Our tax file was rejected because the mapping is wrong",
+    "Monthly tax declarations straight from BC instead of a separate tool"
+  ],
+  "questions": [
+    {
+      "id": "filing",
+      "text": "Which tax filing or report do you need BC to produce?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Audit file of the books (SAF-T, e-ledger)",
+          "patterns": [
+            "saf-?t",
+            "i\\.?saf",
+            "e-?ledger",
+            "e-defter",
+            "open data format",
+            "isaf",
+            "electronic journal"
+          ]
+        },
+        {
+          "label": "Intrastat or EU sales list",
+          "patterns": [
+            "intrastat",
+            "\\becsl\\b",
+            "eu sales",
+            "\\bvies\\b",
+            "service declaration",
+            "trade in (goods|services) among"
+          ]
+        },
+        {
+          "label": "Invoices or shipments reported to the tax authority in real time",
+          "patterns": [
+            "verifactu",
+            "mydata|aade",
+            "fiscali",
+            "e-transport",
+            "i\\.vaz",
+            "zatca",
+            "cbms",
+            "uniform invoice",
+            "online invoic",
+            "electronic tax invoice",
+            "e-?invoic",
+            "transmits? sales invoices",
+            "syncs sales data"
+          ]
+        },
+        {
+          "label": "Withholding tax (WHT, TDS, CIS)",
+          "patterns": [
+            "withh?old",
+            "\\bwht\\b",
+            "\\btds\\b",
+            "\\bcis\\b",
+            "construction industry scheme"
+          ]
+        },
+        {
+          "label": "Excise or customs duties",
+          "patterns": [
+            "excise",
+            "customs",
+            "\\bduty\\b|\\bduties\\b",
+            "alcohol"
+          ]
+        },
+        {
+          "label": "Bookkeeping export for our accountant (e.g. DATEV)",
+          "patterns": [
+            "datev",
+            "tax adviser"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Audit file of the books (SAF-T, e-ledger)": 0.16,
+        "Intrastat or EU sales list": 0.25,
+        "Invoices or shipments reported to the tax authority in real time": 0.21,
+        "Withholding tax (WHT, TDS, CIS)": 0.1,
+        "Excise or customs duties": 0.13,
+        "Bookkeeping export for our accountant (e.g. DATEV)": 0.05
+      }
+    },
+    {
+      "id": "delivery",
+      "text": "How should the filing reach the authority?",
+      "options": [
+        {
+          "label": "Sent straight from BC",
+          "patterns": [
+            "submits? (sales )?invoices",
+            "sends? (sales )?invoices",
+            "transmits?",
+            "uploads? (e-invoices|to)",
+            "receives (the )?(qr|itu|authorization)",
+            "data exchange with",
+            "integrates (bc )?(and ls central )?with",
+            "syncs (sales|g/l)",
+            "electronically",
+            "(automatic|manual) (or (automatic|manual) )?(invoice )?submission",
+            "generates monthly cis returns",
+            "communicat",
+            "rechenzentrum",
+            "sends transactions",
+            "online invoicing to"
+          ]
+        },
+        {
+          "label": "We export a file and upload it ourselves",
+          "patterns": [
+            "export",
+            "xml file",
+            "creates xml",
+            "generates [\\w ]*xml",
+            "to file",
+            "download",
+            "report file",
+            "for submission"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sent straight from BC": 0.25,
+        "We export a file and upload it ourselves": 0.38
+      }
+    },
+    {
+      "id": "checks",
+      "text": "What help do you want around the filing itself?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Checks that catch errors before filing",
+          "patterns": [
+            "validat",
+            "checklist",
+            "verification",
+            "review (and edit )?data",
+            "data review",
+            "preview",
+            "mandatory (fields|weight)",
+            "configurable mandatory",
+            "checks correct"
+          ]
+        },
+        {
+          "label": "Tracking status, rejections and corrections afterwards",
+          "patterns": [
+            "correction",
+            "(aeat|submission|declaration|invoice|transmission) status",
+            "status (log|tracking)",
+            "accepted",
+            "rejected",
+            "reconciles tds|invoice reconcil",
+            "mismatch",
+            "follows? up declarations"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Checks that catch errors before filing": 0.3,
+        "Tracking status, rejections and corrections afterwards": 0.13
+      }
+    }
+  ]
+}

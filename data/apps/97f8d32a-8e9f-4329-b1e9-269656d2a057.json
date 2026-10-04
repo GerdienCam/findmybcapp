@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.brightcom_3111464|AID.brc_extended_order_management|PAPPID.97f8d32a-8e9f-4329-b1e9-269656d2a057",
+  "guid": "97f8d32a-8e9f-4329-b1e9-269656d2a057",
+  "publisherId": "brightcom_3111464",
+  "offerId": "brc_extended_order_management",
+  "source": {
+    "name": "BRC Extended Order Management",
+    "publisher": "BrightCom Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.brc_extended_order_management%7CPAPPID.97f8d32a-8e9f-4329-b1e9-269656d2a057",
+    "lastModified": "2026-10-01T13:28:50.4656614+00:00",
+    "appVersion": "28.0.35484.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.brightcom.se/sv/Products/BRCExtOrderManagement",
+    "sourceHash": "sha256:6899725d6102c7ef86acdee079957c0aee4ff77ead22b27f749bd97410924ce6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6899725d6102c7ef86acdee079957c0aee4ff77ead22b27f749bd97410924ce6",
+    "mappedOn": null,
+    "summary": "Automates sales order posting, invoicing, prepayments and credit",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-stock-counting",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Automatic backorder line cleanup",
+      "Drop shipment automation",
+      "Edit prepayment prices/quantities without credit memos",
+      "Extended stocktaking tools",
+      "Customs export documents from sales orders",
+      "Extended Intrastat reporting",
+      "Localized for Sweden, Denmark, Norway"
+    ],
+    "countries": [
+      "DK",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

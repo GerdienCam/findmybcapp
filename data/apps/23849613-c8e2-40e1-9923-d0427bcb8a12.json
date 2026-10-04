@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.usersetupdatesallowed|PAPPID.23849613-c8e2-40e1-9923-d0427bcb8a12",
+  "guid": "23849613-c8e2-40e1-9923-d0427bcb8a12",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "usersetupdatesallowed",
+  "source": {
+    "name": "User Setup Dates Allowed",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.usersetupdatesallowed%7CPAPPID.23849613-c8e2-40e1-9923-d0427bcb8a12",
+    "lastModified": "2026-08-26T22:43:28.2202261+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/user-setup-dates-allowed",
+    "sourceHash": "sha256:491fc9185adfd488bd8e330e9b5eb5788c168c99a9e00757640c83c847a4c38b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:491fc9185adfd488bd8e330e9b5eb5788c168c99a9e00757640c83c847a4c38b",
+    "mappedOn": null,
+    "summary": "Locks allowed posting dates to the current month",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-period-close",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-permissions",
+      "ng-admin-job-queue-setup"
+    ],
+    "claims": [
+      "Locks allowed posting and VAT dates to current month for selected users",
+      "Enable Date Control flag per user",
+      "Recomputes the Allow VAT Date From/To and Allow Posting From/To fields",
+      "On-demand update action on User Setup and G/L Setup",
+      "Daily job queue keeps dates current",
+      "Job queue status shown on G/L Setup"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

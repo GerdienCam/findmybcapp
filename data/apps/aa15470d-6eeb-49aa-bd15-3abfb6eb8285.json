@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.adv-orders-for-tegossuite-app|PAPPID.aa15470d-6eeb-49aa-bd15-3abfb6eb8285",
+  "guid": "aa15470d-6eeb-49aa-bd15-3abfb6eb8285",
+  "publisherId": "fenwicksoftware",
+  "offerId": "adv-orders-for-tegossuite-app",
+  "source": {
+    "name": "Advanced Orders for tegossuite",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.adv-orders-for-tegossuite-app%7CPAPPID.aa15470d-6eeb-49aa-bd15-3abfb6eb8285",
+    "lastModified": "2026-04-15T07:57:19.3742606+00:00",
+    "appVersion": "27.0.260218.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/advanced-orders-for-tegossuite/",
+    "sourceHash": "sha256:3f3a31839dfe42854ec003af6dd2ed54d173f933caa826fb8078803e1b3fdb4b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3f3a31839dfe42854ec003af6dd2ed54d173f933caa826fb8078803e1b3fdb4b",
+    "mappedOn": null,
+    "summary": "Bulk order creation for tegossuite",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-utilities-energy-waste",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-data-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-freight-cost-audit"
+    ],
+    "claims": [
+      "Creates multiple versions of the same order with a single function",
+      "Transport billing via transport lines for vendor charges"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Waste and recycling"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "tegossuite"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

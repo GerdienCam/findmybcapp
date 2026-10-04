@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionsandboxcontinia|PAPPID.02f226c7-4d66-4ee5-9c88-40f2b108936d",
+  "guid": "02f226c7-4d66-4ee5-9c88-40f2b108936d",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionsandboxcontinia",
+  "source": {
+    "name": "VisionSandbox with Continia",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionsandboxcontinia%7CPAPPID.02f226c7-4d66-4ee5-9c88-40f2b108936d",
+    "lastModified": "2025-05-23T17:55:11.5923508+00:00",
+    "appVersion": "1.0.0.34",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.visionpeople.dk/help/sandbox/",
+    "sourceHash": "sha256:69452995d1e166d439d0319f22d0224ca36d4d83f6e6203f62146f7d97bbf4c8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:69452995d1e166d439d0319f22d0224ca36d4d83f6e6203f62146f7d97bbf4c8",
+    "mappedOn": null,
+    "summary": "Sanitizes Continia data in sandboxes",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-extensions-env",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Activates Continia products as test in new sandbox"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia"
+    ],
+    "requires": [
+      "VisionSandbox",
+      "Continia Document Capture",
+      "Continia Expense Management",
+      "Continia Payment Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Helper bridge app between VisionSandbox and Continia products",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

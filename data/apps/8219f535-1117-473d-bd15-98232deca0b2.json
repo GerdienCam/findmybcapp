@@ -1,0 +1,92 @@
+{
+  "appId": "PUBID.foodware365|AID.grower_return|PAPPID.8219f535-1117-473d-bd15-98232deca0b2",
+  "guid": "8219f535-1117-473d-bd15-98232deca0b2",
+  "publisherId": "foodware365",
+  "offerId": "grower_return",
+  "source": {
+    "name": "Aptean Grower Return for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.grower_return%7CPAPPID.8219f535-1117-473d-bd15-98232deca0b2",
+    "lastModified": "2026-09-23T04:22:02.6943238+00:00",
+    "appVersion": "2602.2.344241.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/GRR/",
+    "sourceHash": "sha256:a95f9c1a02c707cfc3ef6cab92eb270a663712accc23c3b410c669628b98feeb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a95f9c1a02c707cfc3ef6cab92eb270a663712accc23c3b410c669628b98feeb",
+    "mappedOn": null,
+    "summary": "Calculates grower purchase price for fresh produce",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Grade out or pack out purchase price calculation",
+      "Adjust calculated values like costs to influence price",
+      "Graphical per-lot pricing overview from raw material to finished goods",
+      "Invoice multiple purchase orders together automatically after approval",
+      "Requires BC Premium"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MY",
+      "NG",
+      "NL",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Fresh produce"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

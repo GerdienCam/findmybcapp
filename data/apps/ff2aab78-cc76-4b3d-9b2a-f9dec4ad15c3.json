@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.fmitaps1620939636066|AID.shpfy_json_mapping_free|PAPPID.ff2aab78-cc76-4b3d-9b2a-f9dec4ad15c3",
+  "guid": "ff2aab78-cc76-4b3d-9b2a-f9dec4ad15c3",
+  "publisherId": "fmitaps1620939636066",
+  "offerId": "shpfy_json_mapping_free",
+  "source": {
+    "name": "Shopify Connector Extended",
+    "publisher": "FM IT ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fmitaps1620939636066%7CAID.shpfy_json_mapping_free%7CPAPPID.ff2aab78-cc76-4b3d-9b2a-f9dec4ad15c3",
+    "lastModified": "2026-09-25T05:04:18.5123336+00:00",
+    "appVersion": "28.0.117.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fm-it.dk/products/ShpfyConnExtend/help/",
+    "sourceHash": "sha256:b5dac5a7d3174014067e0f1e3e764bd860ece1b4a0a96d03e711e89b2aca8e9e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b5dac5a7d3174014067e0f1e3e764bd860ece1b4a0a96d03e711e89b2aca8e9e",
+    "mappedOn": null,
+    "summary": "Extends standard Shopify connector with mapping and auto picks",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-allocation-picking"
+    ],
+    "claims": [
+      "Maps Shopify JSON fields to sales header, lines and freight",
+      "Maps multiple shipping methods using filters",
+      "Adds Shopify shop default dimensions to imported orders",
+      "Auto-reserves sales order lines on conversion",
+      "Auto-creates warehouse pick on conversion",
+      "Adds Shopify order reference to refund credit documents",
+      "Enforces one payment method on refunds and Shopify orders",
+      "Switches shipping agent and location depending on Shopify tags"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DK",
+      "GB",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Shopify"
+    ],
+    "requires": [
+      "Shopify Connector"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

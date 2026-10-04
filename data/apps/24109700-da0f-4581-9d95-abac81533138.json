@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.accessorange|AID.localizationpack-sg-en|PAPPID.24109700-da0f-4581-9d95-abac81533138",
+  "guid": "24109700-da0f-4581-9d95-abac81533138",
+  "publisherId": "accessorange",
+  "offerId": "localizationpack-sg-en",
+  "source": {
+    "name": "Singapore Localization Pack",
+    "publisher": "AccessOrange Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.accessorange%7CAID.localizationpack-sg-en%7CPAPPID.24109700-da0f-4581-9d95-abac81533138",
+    "lastModified": "2026-10-01T12:53:48.0943745+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.accessorange.com/en-us/article/business-central-singapore-gst-localization-pack-1u5uzc5/?bust=1771224204615",
+    "sourceHash": "sha256:a147e9544427cc80d53ea1d4ef086a5a5ea576bf601bf4b6f675794a517e1ccc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a147e9544427cc80d53ea1d4ef086a5a5ea576bf601bf4b6f675794a517e1ccc",
+    "mappedOn": null,
+    "summary": "Applies Singapore GST terminology across tax areas",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-lang-ui-language",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Uses GST terms in system messages, captions and tooltips across the Base Application",
+      "Swaps VAT terms for GST terms in the UI",
+      "Works with English (United States) locale",
+      "Requires Business Central Online",
+      "Terminology only: no tax calculation, posting or statutory reporting changes",
+      "Does not include IRAS filing, InvoiceNow or Peppol",
+      "Does not modify third-party extension wording"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

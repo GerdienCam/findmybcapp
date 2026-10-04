@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.volodver|AID.data-editor-tool|PAPPID.d295108a-0d45-4896-ba40-434eeed8cff2",
+  "guid": "d295108a-0d45-4896-ba40-434eeed8cff2",
+  "publisherId": "volodver",
+  "offerId": "data-editor-tool",
+  "source": {
+    "name": "Data Editor Tool",
+    "publisher": "Volodver LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.volodver%7CAID.data-editor-tool%7CPAPPID.d295108a-0d45-4896-ba40-434eeed8cff2",
+    "lastModified": "2026-08-18T01:21:36.1587234+00:00",
+    "appVersion": "4.1.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://volodver.com/apps/data-editor-tool",
+    "sourceHash": "sha256:649b86d5d01c99276c7a4648847a82f9cc8b7be529605d59856454f15d6b8259"
+  },
+  "mapping": {
+    "sourceHash": "sha256:649b86d5d01c99276c7a4648847a82f9cc8b7be529605d59856454f15d6b8259",
+    "mappedOn": null,
+    "summary": "View, edit, import and export table records",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-data-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-developer-tools",
+      "ng-ux-import-excel",
+      "ng-admin-change-log"
+    ],
+    "claims": [
+      "Direct view/edit access to any Business Central table",
+      "Import/export with Excel and JSON, handles BLOB/Media fields",
+      "Can bypass validation rules on import",
+      "Edits data in bulk, runs find & replace over tables and removes obsolete records",
+      "Primary key renaming",
+      "Logs all changes with user and timestamp",
+      "Parallel processing and FlowField control for large datasets",
+      "Copy data between fields and modify filtered record sets",
+      "MIT-licensed",
+      "Supports Essentials and Premium, all BC countries"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

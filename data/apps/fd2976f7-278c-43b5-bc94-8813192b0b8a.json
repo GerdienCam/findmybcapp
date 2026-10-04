@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.equerralimited|AID.equerra-elevate-creditmemo|PAPPID.fd2976f7-278c-43b5-bc94-8813192b0b8a",
+  "guid": "fd2976f7-278c-43b5-bc94-8813192b0b8a",
+  "publisherId": "equerralimited",
+  "offerId": "equerra-elevate-creditmemo",
+  "source": {
+    "name": "Elevate Credit Memo",
+    "publisher": "Equerra Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.equerralimited%7CAID.equerra-elevate-creditmemo%7CPAPPID.fd2976f7-278c-43b5-bc94-8813192b0b8a",
+    "lastModified": "2026-08-11T03:55:51.8850841+00:00",
+    "appVersion": "28.3.24.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.equerra.com/docs/ElevateCreditMemo",
+    "sourceHash": "sha256:a111b9339f4437f442c8869c82a4b42a25cd667893bac612dc7cd8cfef6403eb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a111b9339f4437f442c8869c82a4b42a25cd667893bac612dc7cd8cfef6403eb",
+    "mappedOn": null,
+    "summary": "Sales credit memos without returning stock to inventory",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-correct-posted",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns"
+    ],
+    "claims": [
+      "Inventory handling option per credit memo line",
+      "Credit only with no stock change",
+      "Credit plus write-off tag for inventory reporting",
+      "Bulk update all lines on a credit memo",
+      "Company default and per-option enable/disable",
+      "Can block changes on special order or drop shipment lines",
+      "Posted credit memo shows only entered lines; offset in item ledger",
+      "Extensibility event for other extensions",
+      "Two permission sets for use and configuration",
+      "Requires BC online 28.0 or later"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

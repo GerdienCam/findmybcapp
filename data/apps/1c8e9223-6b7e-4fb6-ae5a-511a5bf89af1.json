@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.ed1dd42a-8bba-4d7e-90a9-2e7c6e4c79e5|AID.cvr_01|PAPPID.1c8e9223-6b7e-4fb6-ae5a-511a5bf89af1",
+  "guid": "1c8e9223-6b7e-4fb6-ae5a-511a5bf89af1",
+  "publisherId": "ed1dd42a-8bba-4d7e-90a9-2e7c6e4c79e5",
+  "offerId": "cvr_01",
+  "source": {
+    "name": "CVR Integrator",
+    "publisher": "Extendo ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ed1dd42a-8bba-4d7e-90a9-2e7c6e4c79e5%7CAID.cvr_01%7CPAPPID.1c8e9223-6b7e-4fb6-ae5a-511a5bf89af1",
+    "lastModified": "2026-06-26T11:08:10.8213956+00:00",
+    "appVersion": "27.2.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://extendo.dk/cvr/help.html",
+    "sourceHash": "sha256:27f49d0fe838c30c54753802c4d68ee0f867d7ded723334c28f9c7ea91e1aee5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:27f49d0fe838c30c54753802c4d68ee0f867d7ded723334c28f9c7ea91e1aee5",
+    "mappedOn": null,
+    "summary": "Creates and monitors Danish customers and vendors from the CVR register",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding",
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Search and create customers or vendors by name or CVR number",
+      "Daily role center notifications on register changes",
+      "Warnings on critical changes such as bankruptcy",
+      "Side-by-side compare and selective field update",
+      "Financial key figures shown on customer and vendor cards",
+      "Open published annual reports from BC",
+      "Automatic monitoring via job queue",
+      "Kredit+ rule-based credit score with adjustable thresholds and weights",
+      "Credit limit suggestion per customer",
+      "Suggestions transferred only after user approval",
+      "Activity log per credit assessment",
+      "Risk overview with overdue balance and reminders",
+      "30-day free trial"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "CVR",
+      "Erhvervsstyrelsen"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

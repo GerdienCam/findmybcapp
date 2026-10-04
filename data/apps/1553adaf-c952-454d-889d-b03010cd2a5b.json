@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.softera_baltic|AID.softera_aspa|PAPPID.1553adaf-c952-454d-889d-b03010cd2a5b",
+  "guid": "1553adaf-c952-454d-889d-b03010cd2a5b",
+  "publisherId": "softera_baltic",
+  "offerId": "softera_aspa",
+  "source": {
+    "name": "Softera ASPA Integration",
+    "publisher": "Softera Baltic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softera_baltic%7CAID.softera_aspa%7CPAPPID.1553adaf-c952-454d-889d-b03010cd2a5b",
+    "lastModified": "2026-09-18T06:54:14.9879903+00:00",
+    "appVersion": "122.1.25.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.softera.lt/en/support",
+    "sourceHash": "sha256:a5567bfc30399b96298c30db3223459c1af7309b9b5ae405c11612c0d298d1f3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a5567bfc30399b96298c30db3223459c1af7309b9b5ae405c11612c0d298d1f3",
+    "mappedOn": null,
+    "summary": "Data exchange with 9oPoint POS",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-retail",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Exports items, customers, price lists and promotional prices from BC to 9oPoint POS",
+      "Sends sales orders or invoices from BC to the POS",
+      "Imports sales, return receipts and payments from 9oPoint in real time",
+      "Creates, posts and applies sales and payment documents automatically at intervals",
+      "Handles advance payments and prepayments linked to sales orders at the cash register",
+      "Per-cash-register configuration of customer, location, payment methods, journals and number series",
+      "Live stock levels and product images visible in the POS",
+      "Promotional pricing, price adjustments at POS and loyalty discounts",
+      "Posts cash rounding differences to a chosen G/L account",
+      "Error review of invoice posting results in BC",
+      "Sync can be automatic or triggered manually"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Hospitality",
+      "Retail"
+    ],
+    "connectsTo": [
+      "9oPoint POS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

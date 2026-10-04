@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.ecodelas1585264231154|AID.excconsignor|PAPPID.ad44c187-f598-4899-807d-6cdacaffcf16",
+  "guid": "ad44c187-f598-4899-807d-6cdacaffcf16",
+  "publisherId": "ecodelas1585264231154",
+  "offerId": "excconsignor",
+  "source": {
+    "name": "Ecodel Exclusive - Consignor Integration",
+    "publisher": "Ecodel",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ecodelas1585264231154%7CAID.excconsignor%7CPAPPID.ad44c187-f598-4899-807d-6cdacaffcf16",
+    "lastModified": "2026-08-13T13:13:12.1382251+00:00",
+    "appVersion": "28.0.260813.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.erphotel.com/hc/da/articles/360019703538",
+    "sourceHash": "sha256:c8444b70435e7ae6b86e9199d81bb75a36af6ddccd51b94a3aae463eb7a1efbd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c8444b70435e7ae6b86e9199d81bb75a36af6ddccd51b94a3aae463eb7a1efbd",
+    "mappedOn": null,
+    "summary": "Books freight via Consignor Shipment Server",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Imports carriers and service codes from Consignor",
+      "Books shipments with Consignor and retrieves labels",
+      "Booking from sales orders, invoices, warehouse shipments and posted shipments",
+      "Booking freight for customer returns",
+      "Booking freight on behalf of supplier from purchase orders"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Consignor"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

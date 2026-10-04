@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex025customervendorcompensation|PAPPID.0f82f650-6b22-4685-809e-d0e2cf8740fe",
+  "guid": "0f82f650-6b22-4685-809e-d0e2cf8740fe",
+  "publisherId": "eos_solutions",
+  "offerId": "ex025customervendorcompensation",
+  "source": {
+    "name": "Customer Vendor Compensation",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex025customervendorcompensation%7CPAPPID.0f82f650-6b22-4685-809e-d0e2cf8740fe",
+    "lastModified": "2026-04-10T11:39:57.2522495+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/customer-vendor-compensation.html",
+    "sourceHash": "sha256:05cfd50548fe20778dce79f753f68cd914cdb97924fe5446b09ce00ad61771c6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:05cfd50548fe20778dce79f753f68cd914cdb97924fe5446b09ce00ad61771c6",
+    "mappedOn": null,
+    "summary": "Offsets customer and vendor open entries against each other",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Nets customer and vendor entries for the same company",
+      "Compensates by choosing lines in each of two accounting item lists",
+      "System proposes entries to balance",
+      "Partial compensation leaves remaining amount open",
+      "Auto-select accounting items starting from a customer or vendor",
+      "Free version compensates one item at a time; no mass compensation"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

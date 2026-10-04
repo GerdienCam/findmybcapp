@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.alpha_solutions_ag|AID.astr|PAPPID.3f5da759-5f00-4f5f-ad0d-105790b21420",
+  "guid": "3f5da759-5f00-4f5f-ad0d-105790b21420",
+  "publisherId": "alpha_solutions_ag",
+  "offerId": "astr",
+  "source": {
+    "name": "Aproda Time Registration (ASTR)",
+    "publisher": "Aproda AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alpha_solutions_ag%7CAID.astr%7CPAPPID.3f5da759-5f00-4f5f-ad0d-105790b21420",
+    "lastModified": "2026-09-03T05:52:16.2270709+00:00",
+    "appVersion": "25.0.0.30",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aproda.ch/aproda-time-registration-astr",
+    "sourceHash": "sha256:ebaedb971585a51dc1ed78212a5ef046f309a0f7399cae77e80731af26f84366"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ebaedb971585a51dc1ed78212a5ef046f309a0f7399cae77e80731af26f84366",
+    "mappedOn": null,
+    "summary": "Registers employee working time, absences and project time",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-time"
+    ],
+    "claims": [
+      "Manages employee working times",
+      "Configures projects, absences, users and working time calendars",
+      "Employees enter time entries and absences",
+      "Overview of working hours and absences",
+      "Analysis options on time data"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

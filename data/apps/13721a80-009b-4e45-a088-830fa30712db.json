@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.astral365|AID.astral_recurring_invoices|PAPPID.13721a80-009b-4e45-a088-830fa30712db",
+  "guid": "13721a80-009b-4e45-a088-830fa30712db",
+  "publisherId": "astral365",
+  "offerId": "astral_recurring_invoices",
+  "source": {
+    "name": "Astral Recurring Invoices",
+    "publisher": "Astral 365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.astral365%7CAID.astral_recurring_invoices%7CPAPPID.13721a80-009b-4e45-a088-830fa30712db",
+    "lastModified": "2026-03-20T23:39:43.4536379+00:00",
+    "appVersion": "1.20.26.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.astral365.com/Products/AstralRecurringInvoices/Help",
+    "sourceHash": "sha256:a42381b07bd9fe72d50038a4880ca6edce8dc123a59d084ec319fef8920d41e0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a42381b07bd9fe72d50038a4880ca6edce8dc123a59d084ec319fef8920d41e0",
+    "mappedOn": null,
+    "summary": "Scheduled multi-line recurring sales invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Daily, weekly, monthly or yearly billing schedules",
+      "Recurring invoice agreements per customer, printable",
+      "Recurring invoice terms included with each agreement",
+      "Templates can hold non-inventory items, resources and G/L accounts",
+      "Date placeholders in line descriptions updated on invoicing",
+      "Creates sales invoices in bulk for all recurring invoices",
+      "Deferred revenue/expenditure"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

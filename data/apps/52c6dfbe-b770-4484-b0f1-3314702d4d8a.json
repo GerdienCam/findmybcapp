@@ -1,0 +1,105 @@
+{
+  "appId": "PUBID.celigoinc-causa1621285384596|AID.shopify-integration-celigo|PAPPID.52c6dfbe-b770-4484-b0f1-3314702d4d8a",
+  "guid": "52c6dfbe-b770-4484-b0f1-3314702d4d8a",
+  "publisherId": "celigoinc-causa1621285384596",
+  "offerId": "shopify-integration-celigo",
+  "source": {
+    "name": "Shopify Integration for Dynamics 365 Business Central",
+    "publisher": "Celigo Inc - CA, USA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.celigoinc-causa1621285384596%7CAID.shopify-integration-celigo%7CPAPPID.52c6dfbe-b770-4484-b0f1-3314702d4d8a",
+    "lastModified": "2026-08-04T01:43:31.5450177+00:00",
+    "appVersion": "1.1.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.celigo.com/hc/en-us",
+    "sourceHash": "sha256:41a933d7be1a3623363d93add4bbc2996b49a0190d3f627802b1450af494edcf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:41a933d7be1a3623363d93add4bbc2996b49a0190d3f627802b1450af494edcf",
+    "mappedOn": null,
+    "summary": "Syncs Shopify orders, customers, inventory and fulfillment via Celigo",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Syncs orders from storefront, POS or social channels",
+      "Sends real-time shipping information to customers",
+      "Syncs inventory from single or multiple warehouses to Shopify",
+      "Syncs new products and updates from BC to Shopify",
+      "Syncs invoices from BC to Shopify",
+      "Syncs refunds between systems"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "HR",
+      "HU",
+      "ID",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "LT",
+      "LV",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PH",
+      "PL",
+      "RS",
+      "SE",
+      "SG",
+      "SI",
+      "TH",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Shopify",
+      "Celigo"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

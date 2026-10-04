@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex05002_packinglistforcombinewarehouseshipment|PAPPID.11ccc568-e0e6-4942-a5f5-9310fd41bd88",
+  "guid": "11ccc568-e0e6-4942-a5f5-9310fd41bd88",
+  "publisherId": "eos_solutions",
+  "offerId": "ex05002_packinglistforcombinewarehouseshipment",
+  "source": {
+    "name": "Packing list for Combine Warehouse shipment",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex05002_packinglistforcombinewarehouseshipment%7CPAPPID.11ccc568-e0e6-4942-a5f5-9310fd41bd88",
+    "lastModified": "2026-07-14T14:26:58.5386119+00:00",
+    "appVersion": "28.0.10.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/packing-list-pck.html",
+    "sourceHash": "sha256:ab5baabed8ba55192ae3aa997172b0ed10af6b6d0e45e6850a278b1b4ec292e2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ab5baabed8ba55192ae3aa997172b0ed10af6b6d0e45e6850a278b1b4ec292e2",
+    "mappedOn": null,
+    "summary": "Packing lists from orders and warehouse shipments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Packing list linked to sales orders, warehouse shipments, purchase, transfer and return orders",
+      "Compose packing list from shipment items",
+      "System suggests containers and quantities per container",
+      "Print packing list",
+      "Define packaging materials",
+      "Nested containers in a tree structure",
+      "Free; needs EOS Packing List plus EOS Combine Warehouse Shipment"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Packing List",
+      "EOS Combine Warehouse Shipment"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

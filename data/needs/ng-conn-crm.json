@@ -1,0 +1,189 @@
+{
+  "id": "ng-conn-crm",
+  "order": 192,
+  "label": "Connecting our CRM or sales app to BC",
+  "description": "Syncing BC with an external CRM or field sales app (Dynamics 365 Sales/Dataverse, Salesforce, HubSpot, Pipedrive, Zendesk, offline order apps): accounts, contacts, opportunities, orders, invoices and balances.",
+  "type": "connector",
+  "area": "Connecting other systems",
+  "relevance": "high",
+  "statements": [
+    "Connecting our CRM or sales app to BC",
+    "Syncing BC with an external CRM or field sales app (Dynamics 365 Sales/Dataverse, Salesforce, HubSpot, Pipedrive, Zendesk, offline order apps): accounts, contacts, opportunities, orders, invoices and balances.",
+    "Sales works in HubSpot and finance in BC and they never agree on customers",
+    "Salesforce integration with Business Central",
+    "Won deals should become sales orders automatically",
+    "Our reps want to see open invoices and credit limit in the CRM",
+    "The standard Dynamics 365 Sales integration doesn't sync our custom fields",
+    "Pipedrive to BC connector",
+    "Customer addresses are updated in CRM but not in BC",
+    "Field sales app that works offline at trade shows",
+    "Support agents in Zendesk need order status from BC",
+    "Two-way sync of contacts between Dataverse and BC",
+    "Quotes are made in CRM, how do they get to BC?",
+    "Duplicate customers because both systems create them",
+    "Sales reps on iPads entering orders for wholesale customers",
+    "Which system should own the customer master?",
+    "Item prices from BC in our CRM product catalog",
+    "Our CRM integration via Zapier keeps failing",
+    "CRM integration for a nonprofit fundraising system",
+    "Sales history per customer visible in Salesforce",
+    "Is it better to drop our CRM and use BC contacts?",
+    "Real-time sync instead of nightly batch"
+  ],
+  "questions": [
+    {
+      "id": "crm",
+      "text": "Which CRM or sales app do you use?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Dynamics 365 Sales / Dataverse",
+          "patterns": [
+            "dynamics 365 (sales|ce|customer engagement)",
+            "dataverse",
+            "\\bd365 sales",
+            "\\bce\\b"
+          ]
+        },
+        {
+          "label": "Salesforce",
+          "patterns": [
+            "salesforce"
+          ]
+        },
+        {
+          "label": "HubSpot or Pipedrive",
+          "patterns": [
+            "hubspot",
+            "pipedrive"
+          ]
+        },
+        {
+          "label": "A field sales or order-taking app",
+          "patterns": [
+            "colect",
+            "opmetrix",
+            "sales reps?",
+            "field team",
+            "mobile sales"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Dynamics 365 Sales / Dataverse": 0.35,
+        "Salesforce": 0.2,
+        "HubSpot or Pipedrive": 0.1,
+        "A field sales or order-taking app": 0.3
+      }
+    },
+    {
+      "id": "data",
+      "text": "What must flow between the CRM and BC?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Customers and contacts",
+          "patterns": [
+            "accounts?",
+            "contacts?",
+            "customers?",
+            "organizations"
+          ]
+        },
+        {
+          "label": "Opportunities, deals and leads",
+          "patterns": [
+            "opportunit",
+            "deals?\\b",
+            "leads?\\b",
+            "quotes?"
+          ]
+        },
+        {
+          "label": "Sales orders",
+          "patterns": [
+            "sales orders?",
+            "\\borders\\b",
+            "quote-to-cash"
+          ]
+        },
+        {
+          "label": "Invoices, balances or credit",
+          "patterns": [
+            "invoices?",
+            "balances?",
+            "credit",
+            "payment status"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Customers and contacts": 0.8,
+        "Opportunities, deals and leads": 0.35,
+        "Sales orders": 0.3,
+        "Invoices, balances or credit": 0.2
+      }
+    },
+    {
+      "id": "direction",
+      "text": "Should changes flow both ways?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, two-way sync",
+          "patterns": [
+            "bi-?directional",
+            "two-way",
+            "back to (bc|salesforce)",
+            "uploads?",
+            "updates status back",
+            "sends .* to salesforce",
+            "from bc to"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, two-way sync": 0.25
+      }
+    },
+    {
+      "id": "fields",
+      "text": "Do you need custom fields or mappings without coding?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, configurable field mapping",
+          "patterns": [
+            "custom field",
+            "field mappings?",
+            "without (cod|custom dev)",
+            "no-code",
+            "custom entit",
+            "custom .* fields",
+            "remap"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, configurable field mapping": 0.35
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.simplyd|AID.sd-infs|PAPPID.0482ef96-6863-4471-9f2d-eb76f9c22d11",
+  "guid": "0482ef96-6863-4471-9f2d-eb76f9c22d11",
+  "publisherId": "simplyd",
+  "offerId": "sd-infs",
+  "source": {
+    "name": "SD Interface Field Service",
+    "publisher": "Simply Dynamics Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.sd-infs%7CPAPPID.0482ef96-6863-4471-9f2d-eb76f9c22d11",
+    "lastModified": "2025-10-01T11:18:35.1560027+00:00",
+    "appVersion": "1.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-interface-field-service",
+    "sourceHash": "sha256:f431a5b360e74b12854289c183e769519e8701b04986aa904a559f9637affc42"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f431a5b360e74b12854289c183e769519e8701b04986aa904a559f9637affc42",
+    "mappedOn": null,
+    "summary": "Integrates BC with Dynamics 365 Field Service",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-field-execution"
+    ],
+    "claims": [
+      "Logs inbound Field Service API events in an event table",
+      "Manual or automatic processing of events",
+      "Events classified into types and categories",
+      "Event handling defined via processing codeunits",
+      "Processed events moved to history"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 Field Service"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

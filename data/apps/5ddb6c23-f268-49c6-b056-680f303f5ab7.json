@@ -1,0 +1,53 @@
+{
+  "appId": "TYPE.connect|PUBID.jostlecorporation1600193431566|AID.jostle_notifications|PAPPID.5ddb6c23-f268-49c6-b056-680f303f5ab7",
+  "guid": "5ddb6c23-f268-49c6-b056-680f303f5ab7",
+  "publisherId": "jostlecorporation1600193431566",
+  "offerId": "jostle_notifications",
+  "source": {
+    "name": "Jostle Notifications",
+    "publisher": "Jostle corporation",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.jostlecorporation1600193431566%7CAID.jostle_notifications%7CPAPPID.5ddb6c23-f268-49c6-b056-680f303f5ab7",
+    "lastModified": "2024-11-22T18:10:23.185209+00:00",
+    "appVersion": "1.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://forum.jostle.us/hc/en-us",
+    "sourceHash": "sha256:243d5955999744805c9d38efddb96b59bfd6ea5acdd3c5776cdf09b7a7a9dc38"
+  },
+  "mapping": {
+    "sourceHash": "sha256:243d5955999744805c9d38efddb96b59bfd6ea5acdd3c5776cdf09b7a7a9dc38",
+    "mappedOn": null,
+    "summary": "Jostle intranet notifications in Teams",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-notes-collaboration",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Jostle intranet notifications in Microsoft Teams",
+      "Notification when news is published",
+      "Intranet messages and events in Teams"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Jostle",
+      "Microsoft Teams"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Jostle intranet notifications in Microsoft Teams; no Business Central functionality described",
+    "noFit": "Intranet notification app for Teams, not a Business Central app"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

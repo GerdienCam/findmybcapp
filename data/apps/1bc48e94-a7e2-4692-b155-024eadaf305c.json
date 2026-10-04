@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.madhda3303|AID.notify365|PAPPID.1bc48e94-a7e2-4692-b155-024eadaf305c",
+  "guid": "1bc48e94-a7e2-4692-b155-024eadaf305c",
+  "publisherId": "madhda3303",
+  "offerId": "notify365",
+  "source": {
+    "name": "Notify 365 For Whatsapp",
+    "publisher": "Madhda Business Solutions Private Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.madhda3303%7CAID.notify365%7CPAPPID.1bc48e94-a7e2-4692-b155-024eadaf305c",
+    "lastModified": "2025-07-22T08:02:58.5533955+00:00",
+    "appVersion": "26.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://madhda.com/notify-365-for-whatsapp/",
+    "sourceHash": "sha256:e200af7d9b8f4d107014a76e5a07bd83cdf0ebcd65a8123fc2b3abd8fdf5dfe8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e200af7d9b8f4d107014a76e5a07bd83cdf0ebcd65a8123fc2b3abd8fdf5dfe8",
+    "mappedOn": null,
+    "summary": "Sends BC notifications and documents via WhatsApp",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-email-sending",
+      "ng-ux-automation"
+    ],
+    "claims": [
+      "Sends WhatsApp messages automatically when documents are posted",
+      "Attaches PDFs such as invoices, remittance advice and shipment slips",
+      "10 pre-built templates incl. sales quotes, statements, credit memos",
+      "Custom message layouts with document data placeholders",
+      "No middleware, built natively in BC"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "WhatsApp"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

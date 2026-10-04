@@ -1,0 +1,282 @@
+{
+  "id": "ng-hr-employee-expenses",
+  "order": 136,
+  "label": "Employee expenses, receipts and company cards",
+  "description": "Expense policies, travel pre-approval, expense reports with receipts, company card transactions and reimbursing employees.",
+  "type": "bpc",
+  "area": "People & payroll",
+  "relevance": "high",
+  "statements": [
+    "Employee expenses, receipts and company cards",
+    "Expense policies, travel pre-approval, expense reports with receipts, company card transactions and reimbursing employees.",
+    "Employees hand in a pile of paper receipts at month end",
+    "We want staff to snap a photo of the receipt and be done",
+    "expense app for Business Central",
+    "Is there an expense management app that posts employee expenses directly to BC?",
+    "Company credit card statements must be matched to employee receipts every month and it takes days",
+    "Our sales reps never submit their expenses on time",
+    "Mileage registration for employees driving to customers",
+    "Employees use Excel templates for expense reports and accounting retypes them",
+    "Need to import company card transactions from the bank automatically",
+    "Managers approve expense reports by signing paper sheets",
+    "Who bought what on the company Mastercard? Half the transactions have no receipt",
+    "Employee expense reports need the right VAT split, especially for foreign hotel bills",
+    "We want employees to code their expenses to project and department themselves",
+    "expense reports mobile receipts",
+    "Employees' travel expenses abroad in different currencies are a nightmare",
+    "Employees need the system to calculate their travel allowance for each trip",
+    "The bookkeeper chases staff for missing receipts every week",
+    "Lost employee receipts mean we can't reclaim the VAT",
+    "approve employee expenses on mobile",
+    "Our technicians pay for fuel and small parts out of pocket and need a quick way to register it",
+    "We want limits on hotel and meal costs that the system checks automatically",
+    "Employees keep claiming things that aren't allowed and finance only finds out afterwards",
+    "per diem rates for business trips in different countries",
+    "Is there an expense app that flags employee receipts over the policy limit?",
+    "Set the mileage rate for employees driving their own car",
+    "Our travel policy is a PDF nobody reads; we want the rules built into the expense tool",
+    "Which expense categories can employees pick and which G/L account does each one post to?",
+    "Different spending limits for managers and regular staff",
+    "expense policy rules",
+    "Require a receipt for every employee expense above 200 kroner",
+    "How do we stop people from claiming alcohol on client dinners?",
+    "Danish tax-free travel allowance and mileage rules need to be applied correctly for staff",
+    "How do we pay back employees for approved expenses without creating them as vendors?",
+    "Employee reimbursements should go in the same payment file as our supplier payments",
+    "We create every employee as a vendor in BC just to pay back their expenses",
+    "employee reimbursement payment",
+    "Approved employee expenses should be paid out through payroll instead of the bank",
+    "Cash advances to staff for trips and settling them afterwards",
+    "Employees wait weeks to get their money back",
+    "Private purchases on the company card must be deducted from the employee",
+    "Need an overview of what we owe each employee for outlays",
+    "Pay mileage allowance to employees tax free through payroll",
+    "Can we use the employee ledger in BC to settle expense refunds?",
+    "An employee paid with a private card abroad and we need to refund the right amount",
+    "Employees should get approval before booking a business trip",
+    "travel request approval",
+    "Trips get booked and finance only sees the cost when the receipts come back",
+    "Want a pre-trip form with destination, purpose and estimated cost",
+    "Manager must approve travel above a certain amount before anyone books flights",
+    "Book flights and hotels for staff through one approved process"
+  ],
+  "questions": [
+    {
+      "id": "tool",
+      "text": "Do employees already use an expense or card tool?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Pleo",
+          "patterns": [
+            "pleo"
+          ]
+        },
+        {
+          "label": "SAP Concur",
+          "patterns": [
+            "concur"
+          ]
+        },
+        {
+          "label": "Another tool (Expensify, Rydoo, Payhawk...)",
+          "patterns": [
+            "expensify",
+            "rydoo",
+            "zoho",
+            "certify",
+            "webexpenses",
+            "expensein",
+            "findity",
+            "perk",
+            "payhawk",
+            "airwallex",
+            "fidoo",
+            "truvio",
+            "acubiz",
+            "zexpense",
+            "moniroo",
+            "corpay",
+            "costpocket",
+            "envoice",
+            "outlay",
+            "aqoola",
+            "indagia"
+          ]
+        },
+        {
+          "label": "None yet",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Pleo": 0.09,
+        "SAP Concur": 0.06,
+        "Another tool (Expensify, Rydoo, Payhawk...)": 0.41
+      }
+    },
+    {
+      "id": "pay",
+      "text": "How do employees pay for business expenses?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Company credit cards",
+          "patterns": [
+            "card"
+          ]
+        },
+        {
+          "label": "Own money, reimbursed later",
+          "patterns": [
+            "reimburs",
+            "out-of-pocket",
+            "employee-paid",
+            "paid to employees",
+            "advance"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Company credit cards": 0.33,
+        "Own money, reimbursed later": 0.37
+      }
+    },
+    {
+      "id": "receipts",
+      "text": "How should receipts be captured?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Photo in a mobile app",
+          "patterns": [
+            "photo",
+            "snap",
+            "picture",
+            "mobile",
+            "phone",
+            "iphone",
+            "android"
+          ]
+        },
+        {
+          "label": "Forwarded by email",
+          "patterns": [
+            "forward",
+            "mailbox",
+            "email receipt"
+          ]
+        },
+        {
+          "label": "Auto-read with OCR or AI",
+          "patterns": [
+            "\\bocr\\b",
+            "\\bai\\b",
+            "ai-",
+            "extract",
+            "recogni",
+            "auto-filled"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Photo in a mobile app": 0.3,
+        "Forwarded by email": 0.06,
+        "Auto-read with OCR or AI": 0.28
+      }
+    },
+    {
+      "id": "travel",
+      "text": "Do you pay mileage, per diems or run travel orders?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Mileage",
+          "patterns": [
+            "mileage"
+          ]
+        },
+        {
+          "label": "Per diem / daily allowances",
+          "patterns": [
+            "per diem",
+            "daily (allowance|wage)",
+            "travel allowance"
+          ]
+        },
+        {
+          "label": "Travel orders or advances approved upfront",
+          "patterns": [
+            "travel order",
+            "advance",
+            "business trip",
+            "imprest"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Mileage": 0.17,
+        "Per diem / daily allowances": 0.22,
+        "Travel orders or advances approved upfront": 0.19
+      }
+    },
+    {
+      "id": "policy",
+      "text": "Do you need spending limits or policy checks?",
+      "options": [
+        {
+          "label": "Yes, enforce policy and limits",
+          "patterns": [
+            "polic",
+            "limit",
+            "budget"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, enforce policy and limits": 0.28
+      }
+    },
+    {
+      "id": "projects",
+      "text": "Do expenses need to be charged to projects or customers?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "project",
+            "\\bjobs?\\b",
+            "re-invoic",
+            "assign to a customer",
+            "end customers",
+            "client names",
+            "client/project"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.3
+      }
+    }
+  ]
+}

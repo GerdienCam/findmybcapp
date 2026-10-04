@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.terna|AID.be-terna-intercompany|PAPPID.f914625b-a256-4e9a-a045-b0ab7265b7cc",
+  "guid": "f914625b-a256-4e9a-a045-b0ab7265b7cc",
+  "publisherId": "terna",
+  "offerId": "be-terna-intercompany",
+  "source": {
+    "name": "BE-terna Intercompany",
+    "publisher": "BE-terna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.terna%7CAID.be-terna-intercompany%7CPAPPID.f914625b-a256-4e9a-a045-b0ab7265b7cc",
+    "lastModified": "2026-06-16T07:09:54.8628874+00:00",
+    "appVersion": "27.4.933.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://intercompany.help.be-terna.com/de/",
+    "sourceHash": "sha256:1d6221d9abf439d3277be215b98032fccd9700efeae0c53e67d034183686536e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1d6221d9abf439d3277be215b98032fccd9700efeae0c53e67d034183686536e",
+    "mappedOn": null,
+    "summary": "Advanced intercompany document exchange and transactions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Serial and batch tracking across IC documents",
+      "Resources such as services in IC documents",
+      "Automated IC delivery notes and goods receipts",
+      "Direct delivery and invoicing from purchase order",
+      "Price and text validation between IC partners",
+      "IC order confirmation sent automatically to purchasing company",
+      "Change transferred orders afterwards",
+      "Resend posted documents without cancellation",
+      "Background transmission without user rights in other companies",
+      "Azure File Share document exchange between databases"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure File Share"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

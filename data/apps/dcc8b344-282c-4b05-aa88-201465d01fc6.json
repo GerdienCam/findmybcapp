@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.duvekagmbh1711374674329|AID.0010|PAPPID.dcc8b344-282c-4b05-aa88-201465d01fc6",
+  "guid": "dcc8b344-282c-4b05-aa88-201465d01fc6",
+  "publisherId": "duvekagmbh1711374674329",
+  "offerId": "0010",
+  "source": {
+    "name": "duveka Connector for Microsoft Graph API",
+    "publisher": "duveka GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0010%7CPAPPID.dcc8b344-282c-4b05-aa88-201465d01fc6",
+    "lastModified": "2026-09-28T20:13:45.8830746+00:00",
+    "appVersion": "26.2.115.29678",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://duveka.net/MicrosoftGraphConnector",
+    "sourceHash": "sha256:d4b38f3b465caa91b1dd1d146c0ad7cc424c4d419e0800ca9d29e15ebf216592"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d4b38f3b465caa91b1dd1d146c0ad7cc424c4d419e0800ca9d29e15ebf216592",
+    "mappedOn": null,
+    "summary": "Cloud Excel file operations via Microsoft Graph",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Works with Excel files in SharePoint Online and OneDrive via Microsoft Graph",
+      "OAuth 2.0 authentication, no local Excel needed",
+      "Creates and modifies .xlsx files",
+      "Audit trail for file operations"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "nl",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Graph",
+      "SharePoint Online",
+      "OneDrive",
+      "Microsoft Excel"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Technical connector/framework component for duveka Excel apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

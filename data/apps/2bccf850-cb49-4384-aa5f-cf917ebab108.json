@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.bcsitera|AID.object-management|PAPPID.2bccf850-cb49-4384-aa5f-cf917ebab108",
+  "guid": "2bccf850-cb49-4384-aa5f-cf917ebab108",
+  "publisherId": "bcsitera",
+  "offerId": "object-management",
+  "source": {
+    "name": "Object Management and Billing Solution",
+    "publisher": "DIGMATIX",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.object-management%7CPAPPID.2bccf850-cb49-4384-aa5f-cf917ebab108",
+    "lastModified": "2026-07-07T12:53:23.8745337+00:00",
+    "appVersion": "25.0.26188.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.itera.ee/apps/Object-Management/docs/en-US/help",
+    "sourceHash": "sha256:f1ff5580075049063ff07d74557112db262aef44a1180208bab8640822b9467e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f1ff5580075049063ff07d74557112db262aef44a1180208bab8640822b9467e",
+    "mappedOn": null,
+    "summary": "Manages services on physical objects with recurring billing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-svc-contracts",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-offerings-pricing",
+      "ng-svc-assets"
+    ],
+    "claims": [
+      "For service companies (cleaning, maintenance, security, waste) with many sites",
+      "Object records with address, type, attributes and notes",
+      "Budget and profitability per object",
+      "Recurring and seasonal services per object, incl. mid-month start/stop",
+      "Object-based pricing",
+      "Quotes for services and items on an object",
+      "Device maintenance log and schedule",
+      "Contracts with invoice terms and different print layouts",
+      "Batch creation of recurring sales invoices",
+      "Aggregate service lines on invoice",
+      "Bill resale items with line-based approvals"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [
+      "Facility services",
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

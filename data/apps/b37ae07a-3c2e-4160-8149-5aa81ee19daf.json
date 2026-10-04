@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.ls_retail|AID.14705b88-357e-4a94-b6b3-a33b11964ac5|PAPPID.b37ae07a-3c2e-4160-8149-5aa81ee19daf",
+  "guid": "b37ae07a-3c2e-4160-8149-5aa81ee19daf",
+  "publisherId": "ls_retail",
+  "offerId": "14705b88-357e-4a94-b6b3-a33b11964ac5",
+  "source": {
+    "name": "Voyado Integration for LS Central",
+    "publisher": "LS Retail",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.14705b88-357e-4a94-b6b3-a33b11964ac5%7CPAPPID.b37ae07a-3c2e-4160-8149-5aa81ee19daf",
+    "lastModified": "2026-09-08T09:45:23.7313602+00:00",
+    "appVersion": "28.0.5.118",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.lscentral.lsretail.com/Content/Product-Overview/Voyado%20Integration.htm?Highlight=voyado",
+    "sourceHash": "sha256:9a2635b5045101865df996d40529992ca25281e7fd6ee6b5909dd16407353a93"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9a2635b5045101865df996d40529992ca25281e7fd6ee6b5909dd16407353a93",
+    "mappedOn": null,
+    "summary": "Integrates Voyado loyalty marketing with LS Central",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-loyalty",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-mkt-campaigns",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Connects Voyado Engage marketing platform to LS Central",
+      "Identifies and creates Voyado members from the POS",
+      "Sends sales and refund transactions to Voyado",
+      "Recommends coupons, promotions or offers at checkout",
+      "Multichannel campaigns tailored to customer preferences",
+      "Automated personalized messages or emails",
+      "Reward vouchers (bonus checks) in advanced package",
+      "Supports SaaS, hybrid and offline setups",
+      "Requires Business Central 26.1 or later"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Hospitality",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Voyado Engage"
+    ],
+    "requires": [
+      "LS Central",
+      "Voyado Engage"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

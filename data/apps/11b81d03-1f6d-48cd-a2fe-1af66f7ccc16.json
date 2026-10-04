@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.simplybcltd1770976137715|AID.simplybc_fieldcontrol|PAPPID.11b81d03-1f6d-48cd-a2fe-1af66f7ccc16",
+  "guid": "11b81d03-1f6d-48cd-a2fe-1af66f7ccc16",
+  "publisherId": "simplybcltd1770976137715",
+  "offerId": "simplybc_fieldcontrol",
+  "source": {
+    "name": "Simply Field Control",
+    "publisher": "SimplyBC Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplybcltd1770976137715%7CAID.simplybc_fieldcontrol%7CPAPPID.11b81d03-1f6d-48cd-a2fe-1af66f7ccc16",
+    "lastModified": "2026-09-17T09:04:50.753799+00:00",
+    "appVersion": "28.1.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.simplybc.com/",
+    "sourceHash": "sha256:b92c4ec46d083baf38b39fff347f8294ba80e28b1f3d3720e40400583c035bc2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b92c4ec46d083baf38b39fff347f8294ba80e28b1f3d3720e40400583c035bc2",
+    "mappedOn": null,
+    "summary": "Enforces field validation rules at business events",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Rule types: field must be populated, expected value, or regular expression",
+      "Validation runs on BC events such as blocked-status changes and document release",
+      "No-code rule configuration by table and field",
+      "Validation results shown in a single window with user-friendly messages",
+      "Example: require payment, shipping and contact info before unblocking a customer",
+      "Example: validate email, phone and VAT number formats with regex"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

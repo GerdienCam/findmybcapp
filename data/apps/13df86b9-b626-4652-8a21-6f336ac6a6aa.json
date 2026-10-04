@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.asqit|AID.fa-approvals|PAPPID.13df86b9-b626-4652-8a21-6f336ac6a6aa",
+  "guid": "13df86b9-b626-4652-8a21-6f336ac6a6aa",
+  "publisherId": "asqit",
+  "offerId": "fa-approvals",
+  "source": {
+    "name": "Fixed Asset Approvals",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.fa-approvals%7CPAPPID.13df86b9-b626-4652-8a21-6f336ac6a6aa",
+    "lastModified": "2026-07-16T05:40:32.3829125+00:00",
+    "appVersion": "28.0.4.26071",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/approvalsuiteapps",
+    "sourceHash": "sha256:eccd8b9708e0995d291bced693781934315cf1457bf82464dc9f1e1d19529f68"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eccd8b9708e0995d291bced693781934315cf1457bf82464dc9f1e1d19529f68",
+    "mappedOn": null,
+    "summary": "Approval workflow for fixed assets and FA journals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-fa-register",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Approval workflow for fixed asset cards",
+      "Blocks unapproved fixed assets on purchase documents and journals",
+      "Approval of FA (non-GL) journals before posting",
+      "Required field check with conditional criteria",
+      "Track fixed asset approval status"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

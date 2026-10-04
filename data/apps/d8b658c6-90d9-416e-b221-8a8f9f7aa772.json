@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.simova|AID.dms_by_simova_17_0_10_0|PAPPID.d8b658c6-90d9-416e-b221-8a8f9f7aa772",
+  "guid": "d8b658c6-90d9-416e-b221-8a8f9f7aa772",
+  "publisherId": "simova",
+  "offerId": "dms_by_simova_17_0_10_0",
+  "source": {
+    "name": "Document Central",
+    "publisher": "Simova GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simova%7CAID.dms_by_simova_17_0_10_0%7CPAPPID.d8b658c6-90d9-416e-b221-8a8f9f7aa772",
+    "lastModified": "2026-09-29T14:16:13.2187112+00:00",
+    "appVersion": "28.0.16.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.simova.de/en/",
+    "sourceHash": "sha256:6291895d5bdf28b62c2647afe5035bf91118f23e1583e50b3de927b7dfc795fd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6291895d5bdf28b62c2647afe5035bf91118f23e1583e50b3de927b7dfc795fd",
+    "mappedOn": null,
+    "summary": "Document management with SharePoint or Azure Blob storage",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments",
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Physical storage in SharePoint Online or Azure Blob Storage",
+      "Assign documents to any BC record",
+      "Audit-proof storage with a Document Log",
+      "Access and permission synchronization",
+      "Metadata search and filters",
+      "Automated archiving triggered by business events",
+      "Recognizes incoming files from QR/barcodes, filename, sender or metadata",
+      "Optional Outlook integration to archive from emails",
+      "No external DMS required"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint Online",
+      "Azure Blob Storage",
+      "Outlook"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

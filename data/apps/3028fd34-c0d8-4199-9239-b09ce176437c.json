@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.agic_technology_1016574|AID.email_sending_toolkit_on_job_queue_mgmt|PAPPID.3028fd34-c0d8-4199-9239-b09ce176437c",
+  "guid": "3028fd34-c0d8-4199-9239-b09ce176437c",
+  "publisherId": "agic_technology_1016574",
+  "offerId": "email_sending_toolkit_on_job_queue_mgmt",
+  "source": {
+    "name": "Email Sending Toolkit on Job Queue Mgmt",
+    "publisher": "Agic Technology S.r.l.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.agic_technology_1016574%7CAID.email_sending_toolkit_on_job_queue_mgmt%7CPAPPID.3028fd34-c0d8-4199-9239-b09ce176437c",
+    "lastModified": "2026-07-24T11:12:17.8602107+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.agic.it/",
+    "sourceHash": "sha256:adad064afebbf5e49191dd4791b7bfff2eb9d340221529c80f20180057a7ef76"
+  },
+  "mapping": {
+    "sourceHash": "sha256:adad064afebbf5e49191dd4791b7bfff2eb9d340221529c80f20180057a7ef76",
+    "mappedOn": null,
+    "summary": "Links Email Sending Toolkit with job queue for automated notifications",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Automated email notifications for job queue errors",
+      "Configurable retry thresholds",
+      "Alerts to queue owners or designated recipients",
+      "Maximum email counts and notification modes by retry attempts",
+      "Settings managed from job queue configuration or mass-update reports"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Email Sending Toolkit",
+      "Advanced Job Queue Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

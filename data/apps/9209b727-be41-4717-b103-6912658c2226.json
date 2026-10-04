@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.business_dynamics_pro|AID.bdp_forecastq|PAPPID.9209b727-be41-4717-b103-6912658c2226",
+  "guid": "9209b727-be41-4717-b103-6912658c2226",
+  "publisherId": "business_dynamics_pro",
+  "offerId": "bdp_forecastq",
+  "source": {
+    "name": "BDP ForecastQ - Demand & Replenishment",
+    "publisher": "Business Dynamics Pro Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.business_dynamics_pro%7CAID.bdp_forecastq%7CPAPPID.9209b727-be41-4717-b103-6912658c2226",
+    "lastModified": "2026-09-03T12:45:28.4193429+00:00",
+    "appVersion": "0.10.99.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dynamicspro.ca/help/forecastq",
+    "sourceHash": "sha256:9c15477b432fcce1d62e95c025d3a727c833be52e222c0edb543d472e623ef2d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9c15477b432fcce1d62e95c025d3a727c833be52e222c0edb543d472e623ef2d",
+    "mappedOn": null,
+    "summary": "Demand forecasting, safety stock and replenishment calculation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-product-performance",
+      "ng-product-phase-out"
+    ],
+    "claims": [
+      "Forecasts from Item Ledger Entry per item, location and variant",
+      "Writes safety stock, reorder point and reorder quantity to SKU or item",
+      "Writes forecast into Production Forecast Entry",
+      "Readiness Auditor flags planning setup gaps (read-only)",
+      "ABC x XYZ classification",
+      "Statistical method chosen per item by back-test",
+      "Lead time measured from posted receipts",
+      "Recommendations need approval before writing",
+      "Successor items inherit predecessor demand history",
+      "Exception list ranked by dollar exposure",
+      "Per-item reporting of forecast accuracy and bias",
+      "No AI; deterministic arithmetic",
+      "No data leaves tenant",
+      "Never creates purchase orders; Calculate Plan remains netting engine",
+      "Viewer seat for approving recommendations"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.mpriseagriwarebv|AID.agriware-pickpack-api|PAPPID.fa3595ad-e6f6-4b82-ba60-3f94daaae93c",
+  "guid": "fa3595ad-e6f6-4b82-ba60-3f94daaae93c",
+  "publisherId": "mpriseagriwarebv",
+  "offerId": "agriware-pickpack-api",
+  "source": {
+    "name": "Agriware 365 Pick & Pack Connector",
+    "publisher": "Mprise Agriware B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mpriseagriwarebv%7CAID.agriware-pickpack-api%7CPAPPID.fa3595ad-e6f6-4b82-ba60-3f94daaae93c",
+    "lastModified": "2026-09-28T12:43:52.8661216+00:00",
+    "appVersion": "28.28.5.271675",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.agriware.cloud/",
+    "sourceHash": "sha256:999bb8c1852cd4f6d4ea5c7e49919aa9dcbc0c5726260c4c6ff6fcddc5e890fc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:999bb8c1852cd4f6d4ea5c7e49919aa9dcbc0c5726260c4c6ff6fcddc5e890fc",
+    "mappedOn": null,
+    "summary": "Integrates Agriware Pick & Pack with Agriware Operations",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices",
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Schedules job picks and packing orders in Operations and assigns them to teams",
+      "Work app and Logistics app show assigned work and register every step online and offline",
+      "Results sent back to BC in aggregated form to update status and inventory"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Horticulture"
+    ],
+    "connectsTo": [
+      "Agriware 365 Operations"
+    ],
+    "requires": [
+      "Agriware 365 Pick & Pack",
+      "Agriware 365 Operations"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.marcofrancescoferrari|AID.mff-mfg-accelerator|PAPPID.cfd90792-40f9-4a72-8efd-74a5d13a2990",
+  "guid": "cfd90792-40f9-4a72-8efd-74a5d13a2990",
+  "publisherId": "marcofrancescoferrari",
+  "offerId": "mff-mfg-accelerator",
+  "source": {
+    "name": "MFG Accelerator",
+    "publisher": "Marco Francesco Ferrari",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.marcofrancescoferrari%7CAID.mff-mfg-accelerator%7CPAPPID.cfd90792-40f9-4a72-8efd-74a5d13a2990",
+    "lastModified": "2025-12-17T08:40:17.3254638+00:00",
+    "appVersion": "1.0.0.5",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.marcofrancescoferrari.it/mfgaccelerator",
+    "sourceHash": "sha256:01d27e7ffe6750afb92058ceba9cc391aec676e59373faedc8fdf1b4acc533e1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:01d27e7ffe6750afb92058ceba9cc391aec676e59373faedc8fdf1b4acc533e1",
+    "mappedOn": null,
+    "summary": "Manufacturing automation and productivity enhancements",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-production-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability",
+      "ng-routings-workcenters",
+      "ng-replenishment-planning"
+    ],
+    "claims": [
+      "Builds the BOM automatically based on item variant",
+      "No separate BOM per variant linked to SKUs needed",
+      "MPS/MRP and manual production generate the correct BOM per variant",
+      "Dashboard to monitor and post progress of all active production orders",
+      "Component traceability for serial and lot numbered products",
+      "Bulk update of SKU planning parameters",
+      "Adds non-working days to shop calendars",
+      "Optimized FactBoxes for shop floor insights",
+      "Requires Premium edition",
+      "Requires BC 27 or later",
+      "Available in English and Italian"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

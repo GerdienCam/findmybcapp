@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.dynamic_commerce_gmbh|AID.dynamic_commerce_shipping_cost|PAPPID.7cb284ca-05da-482a-b331-ff82c42956e6",
+  "guid": "7cb284ca-05da-482a-b331-ff82c42956e6",
+  "publisherId": "dynamic_commerce_gmbh",
+  "offerId": "dynamic_commerce_shipping_cost",
+  "source": {
+    "name": "dynamic commerce Shipping Costs",
+    "publisher": "dc AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamic_commerce_gmbh%7CAID.dynamic_commerce_shipping_cost%7CPAPPID.7cb284ca-05da-482a-b331-ff82c42956e6",
+    "lastModified": "2026-07-30T08:19:53.5965402+00:00",
+    "appVersion": "24.0.20260730.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.dc.ag/docs/en/bc-shipping-costs/user-guide/overview",
+    "sourceHash": "sha256:fd64898a48d233421ef35ac5aeb29b2e8be6886791dc4cac1e68ad2d50b0f3b9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fd64898a48d233421ef35ac5aeb29b2e8be6886791dc4cac1e68ad2d50b0f3b9",
+    "mappedOn": null,
+    "summary": "Automatically calculates and assigns shipping costs to sales",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Shipping zones filtered by postal codes, regions or countries",
+      "Calculate Shipping Costs button adds correct cost to orders",
+      "Selects the most suitable shipping option from order details",
+      "Customer-group-specific shipping rates",
+      "Cost calculated from net material value, volume or weight",
+      "Percentage of order value with minimum amount",
+      "Shipping costs shown on quotes, orders and invoices",
+      "Posting types are item, resource, charge and G/L account",
+      "Setup wizard",
+      "Also available for NAV 2016-2018"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

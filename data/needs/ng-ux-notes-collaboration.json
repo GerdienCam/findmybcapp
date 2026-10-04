@@ -1,0 +1,169 @@
+{
+  "id": "ng-ux-notes-collaboration",
+  "order": 181,
+  "label": "Notes, comments and internal messages on records",
+  "description": "Pop-up notes and warnings on customers and items, better comment editors and long texts, text modules, record-based chat and tasks between colleagues inside BC.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "medium",
+  "statements": [
+    "Notes, comments and internal messages on records",
+    "Pop-up notes and warnings on customers and items, better comment editors and long texts, text modules, record-based chat and tasks between colleagues inside BC.",
+    "Sales should see a warning when they open a customer who always pays late",
+    "pop-up note on customer",
+    "Comments on documents are tiny one-line fields",
+    "We pass sticky notes around about orders, can that live in BC?",
+    "I want to tag a colleague on an invoice with a question",
+    "Internal notes on purchase orders that don't print",
+    "Long texts on quotes get cut at 100 characters",
+    "Text templates we can insert into documents",
+    "Reminder note on the vendor: always call before ordering",
+    "Chat between users about a specific record",
+    "Assign a task to a colleague from the sales order",
+    "Rich text with bold and bullets on item descriptions"
+  ],
+  "questions": [
+    {
+      "id": "goal",
+      "text": "What do you mainly want to do with notes?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Type long comments without line limits",
+          "patterns": [
+            "split",
+            "long text",
+            "without .*limit",
+            "continuous",
+            "paste",
+            "multi-?line"
+          ]
+        },
+        {
+          "label": "Pop-up warnings when a customer or item is used",
+          "patterns": [
+            "pop-?up",
+            "notifications? (of|when)",
+            "when selecting",
+            "when opening",
+            "when creating",
+            "when (item|customer)"
+          ]
+        },
+        {
+          "label": "Message or tag colleagues",
+          "patterns": [
+            "\\btag",
+            "@",
+            "mention",
+            "chat",
+            "messag",
+            "threaded",
+            "tasks?\\b"
+          ]
+        },
+        {
+          "label": "Formatted or standard texts on documents",
+          "patterns": [
+            "rich ?text",
+            "text module",
+            "extended text",
+            "template",
+            "formatting",
+            "wysiwyg"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Type long comments without line limits": 0.19,
+        "Pop-up warnings when a customer or item is used": 0.34,
+        "Message or tag colleagues": 0.28,
+        "Formatted or standard texts on documents": 0.34
+      }
+    },
+    {
+      "id": "print",
+      "text": "Should notes print on documents you send out?",
+      "help": "Like invoices or order confirmations.",
+      "options": [
+        {
+          "label": "Yes, print on documents",
+          "patterns": [
+            "print",
+            "report",
+            "output",
+            "on documents"
+          ]
+        },
+        {
+          "label": "No, internal only",
+          "patterns": [
+            "internal",
+            "factbox",
+            "role cent",
+            "colleague"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, print on documents": 0.41,
+        "No, internal only": 0.41
+      }
+    },
+    {
+      "id": "follow",
+      "text": "Should notes follow the order from quote to invoice?",
+      "options": [
+        {
+          "label": "Yes, carry them along",
+          "patterns": [
+            "flow from",
+            "inherit",
+            "propagat",
+            "follows the sales",
+            "to successor",
+            "copied to",
+            "copies",
+            "retained on posted",
+            "default"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, carry them along": 0.28
+      }
+    },
+    {
+      "id": "channel",
+      "text": "Should people also get notified by email or Teams?",
+      "options": [
+        {
+          "label": "Yes, email or Teams",
+          "patterns": [
+            "e-?mail",
+            "teams"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, email or Teams": 0.12
+      }
+    }
+  ]
+}

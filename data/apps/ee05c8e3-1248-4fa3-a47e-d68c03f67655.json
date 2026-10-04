@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.pfformula1687443475154|AID.terminalintegration|PAPPID.ee05c8e3-1248-4fa3-a47e-d68c03f67655",
+  "guid": "ee05c8e3-1248-4fa3-a47e-d68c03f67655",
+  "publisherId": "pfformula1687443475154",
+  "offerId": "terminalintegration",
+  "source": {
+    "name": "TerminalIntegration",
+    "publisher": "P/f Formula",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pfformula1687443475154%7CAID.terminalintegration%7CPAPPID.ee05c8e3-1248-4fa3-a47e-d68c03f67655",
+    "lastModified": "2026-06-11T10:04:17.2073911+00:00",
+    "appVersion": "28.0.0.94",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.formula.fo/contact/",
+    "sourceHash": "sha256:385caca565b5897fb6f133fa924b88422126699ac61dc3f7fb6af58237498893"
+  },
+  "mapping": {
+    "sourceHash": "sha256:385caca565b5897fb6f133fa924b88422126699ac61dc3f7fb6af58237498893",
+    "mappedOn": null,
+    "summary": "Payment terminal integration for Formula POS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-payment-providers"
+    ],
+    "claims": [
+      "Portable payment terminal integration for Formula Point of Sale",
+      "Accepts Visa, MasterCard, Maestro, American Express",
+      "Contactless Apple Pay and Google Pay",
+      "Payment confirmation visible in BC"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Formula Point of Sale"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

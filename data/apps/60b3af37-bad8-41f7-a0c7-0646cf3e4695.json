@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.hougaard-4699382|AID.nextvoyage|PAPPID.60b3af37-bad8-41f7-a0c7-0646cf3e4695",
+  "guid": "60b3af37-bad8-41f7-a0c7-0646cf3e4695",
+  "publisherId": "hougaard-4699382",
+  "offerId": "nextvoyage",
+  "source": {
+    "name": "Nextvoyage Integration",
+    "publisher": "Hougaard",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hougaard-4699382%7CAID.nextvoyage%7CPAPPID.60b3af37-bad8-41f7-a0c7-0646cf3e4695",
+    "lastModified": "2026-09-29T18:25:31.0990575+00:00",
+    "appVersion": "1.0.0.15",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.hougaard.com/support",
+    "sourceHash": "sha256:543eaecfbd9ea8579d81f326d6a1d7683e5cd2035f2d9f8dd91f44511eb3b8dd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:543eaecfbd9ea8579d81f326d6a1d7683e5cd2035f2d9f8dd91f44511eb3b8dd",
+    "mappedOn": null,
+    "summary": "Integrates Nextvoyage maritime voyage management with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-journals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Transfers approved voyage financials into BC for posting",
+      "Maps NextVoyage categories to G/L accounts, dimensions and VAT",
+      "Creates journals and/or invoice documents",
+      "Keeps customers/vendors master data aligned",
+      "Integration status, logs and exception handling",
+      "Brings accruals from NextVoyage into BC",
+      "Links postings back to voyage details"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Maritime",
+      "Shipping"
+    ],
+    "connectsTo": [
+      "NextVoyage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

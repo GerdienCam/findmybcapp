@@ -1,0 +1,71 @@
+{
+  "appId": "TYPE.connect|PUBID.axaptamasters|AID.axm_bc_serbianpackage|PAPPID.d17e435f-5bfe-4ba1-baa5-776e3e535e99",
+  "guid": "d17e435f-5bfe-4ba1-baa5-776e3e535e99",
+  "publisherId": "axaptamasters",
+  "offerId": "axm_bc_serbianpackage",
+  "source": {
+    "name": "BC Serbian localization",
+    "publisher": "AXM365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.axaptamasters%7CAID.axm_bc_serbianpackage%7CPAPPID.d17e435f-5bfe-4ba1-baa5-776e3e535e99",
+    "lastModified": "2025-10-01T05:27:54.3732455+00:00",
+    "appVersion": "1.0.1.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://axm365.com/products/business-central-serbian-localization/",
+    "sourceHash": "sha256:e1ab831c234c72d5bcd1d151285bd23fc9527684b7acb3dc3b1df89377936df8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e1ab831c234c72d5bcd1d151285bd23fc9527684b7acb3dc3b1df89377936df8",
+    "mappedOn": null,
+    "summary": "Serbian localization",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting",
+      "ng-bank-reconciliation",
+      "ng-currency",
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Submits invoices to Serbian SEF e-invoicing system",
+      "HALKOM bank statement import and payment file export",
+      "POPDV and PPPDV tax reports",
+      "Automated exchange rate updates from National Bank of Serbia",
+      "Compensation management",
+      "Book of purchase/sales invoices",
+      "Purchase calculation report",
+      "IOS customer/vendor statements",
+      "Item/customer/vendor card reports"
+    ],
+    "countries": [
+      "RS"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SEF",
+      "HALKOM",
+      "National Bank of Serbia"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

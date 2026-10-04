@@ -1,0 +1,222 @@
+{
+  "id": "ng-proj-estimate-contract",
+  "order": 94,
+  "label": "Estimating, quoting and agreeing customer projects",
+  "description": "Building project estimates and quotes, negotiating rates and activating and maintaining the project contract.",
+  "type": "bpc",
+  "area": "Projects",
+  "relevance": "high",
+  "statements": [
+    "Estimating, quoting and agreeing customer projects",
+    "Building project estimates and quotes, negotiating rates and activating and maintaining the project contract.",
+    "Our estimates for jobs live in Excel and have to be retyped into BC when we win the project",
+    "How do we build a project estimate with labor, materials and subcontractors and turn it into a quote?",
+    "project estimate quote Business Central",
+    "We constantly underestimate jobs because nobody looks at what similar projects actually cost",
+    "Is there an app for construction estimating that works with BC jobs?",
+    "Want to price a fixed price project from hours per role times our rates plus material markup",
+    "Our estimators need to calculate a tender quickly with several options and alternatives",
+    "Customer wants a quote broken into phases with a price per phase",
+    "When we win a bid, the whole estimate should become the job budget automatically",
+    "We quote installation projects and need materials, travel and labor in one estimate",
+    "How do I create a quote for a customer from a job in BC instead of a sales quote?",
+    "Estimating takes our project managers days per tender",
+    "We need to send customers a professional project proposal with a cost breakdown, not a BC printout",
+    "estimate versions per project",
+    "Bid costing for engineering projects with risk contingency and margin",
+    "Our consultants estimate hours differently and we have no standard estimate template",
+    "Want to compare our estimate against the actual result after the project closes so we learn",
+    "Is there a way to calculate a project price from a bill of quantities?",
+    "We do many small time and material jobs and need a quick estimate to send before we start",
+    "The job quote report in BC is too basic to send to clients",
+    "Every client has negotiated different hourly rates and we keep billing the wrong one",
+    "How do we set special job prices for one customer for resources and items in BC?",
+    "project price list per customer",
+    "We need rate cards per role that differ by client and by contract year",
+    "The customer asked for a 10 percent discount on labor but not on materials, how do we set that up on the job?",
+    "Track what we offered and what the client countered during contract talks",
+    "Is there a way to keep versions of the project offer while we negotiate?",
+    "Clients want a cap on total hours, we need that agreed and recorded on the job",
+    "Negotiated travel costs are billed at cost but labor at a fixed daily rate",
+    "Our sales team agrees prices in email and project managers never see them",
+    "Need to model what margin we keep if we accept the client's price",
+    "Project pricing in Business Central is confusing with job resource prices, item prices and G/L prices",
+    "When a project is won we want the signed contract attached and the job set to open in one step",
+    "e-signature for project contracts",
+    "Customer signed the offer but the job is still a quote in BC and nobody switched it",
+    "Is there an app to get the project contract signed digitally and update the BC job status?",
+    "We need the final agreed scope, price and terms locked on the job when the contract is signed",
+    "Turning a won tender into a live job takes our admin half a day",
+    "Our project contracts get amended and nobody knows which version is current",
+    "Need a reminder when a project contract is about to expire",
+    "project contract renewal BC",
+    "We have multi-year framework agreements with clients and call off projects against them",
+    "Where do I store the signed contract and amendments on the job in BC?",
+    "Contract end dates are in a spreadsheet and we miss renewals",
+    "Rates in the contract increase every January and we forget to update the job prices",
+    "We want a history of every change to contract value and terms on the project",
+    "Is there an app to manage client contracts linked to Business Central jobs?",
+    "Contract value has changed three times, the job in BC still shows the original amount",
+    "We need to extend a project contract by a few months without creating a new job",
+    "Want one overview of all active customer project contracts with value, start and end dates"
+  ],
+  "questions": [
+    {
+      "id": "input",
+      "text": "How do your project estimates usually start?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Client tender or bill of quantities (BOQ, GAEB)",
+          "patterns": [
+            "\\bboq\\b",
+            "bill of quantit",
+            "gaeb",
+            "tender"
+          ]
+        },
+        {
+          "label": "Our own measurements and cost estimate",
+          "patterns": [
+            "measurement",
+            "cost and effort estimate",
+            "rate analysis",
+            "calculation",
+            "estimat"
+          ]
+        },
+        {
+          "label": "A customer inquiry we track as an opportunity",
+          "patterns": [
+            "inquiry",
+            "opportunit"
+          ]
+        },
+        {
+          "label": "A normal BC sales quote or order",
+          "patterns": [
+            "(from|in) a (quote|sales quote) or sales order",
+            "quote-to-order",
+            "sales lines? (to|changes)",
+            "project quote report",
+            "status to quote"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Client tender or bill of quantities (BOQ, GAEB)": 0.25,
+        "Our own measurements and cost estimate": 0.5,
+        "A customer inquiry we track as an opportunity": 0.25,
+        "A normal BC sales quote or order": 0.25
+      }
+    },
+    {
+      "id": "revisions",
+      "text": "What do you need around quote revisions?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Keep and compare several versions of a quote",
+          "patterns": [
+            "revision",
+            "\\bversions?\\b",
+            "quote history"
+          ]
+        },
+        {
+          "label": "Internal approval before a quote goes out",
+          "patterns": [
+            "approval workflow",
+            "approved quote",
+            "signing off",
+            "sign-?off"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Keep and compare several versions of a quote": 0.38,
+        "Internal approval before a quote goes out": 0.25
+      }
+    },
+    {
+      "id": "convert",
+      "text": "When a quote is won, what should happen?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Project created automatically from the quote",
+          "patterns": [
+            "convert(s|ed)? (an )?(approved )?(offer|quote|project quotation)s? into",
+            "creates a project from",
+            "auto-create the project",
+            "one-click creation of offers"
+          ]
+        },
+        {
+          "label": "Track the budget against the original quote",
+          "patterns": [
+            "budget against (the )?original quote",
+            "baseline budget",
+            "contribution margin",
+            "profit %"
+          ]
+        },
+        {
+          "label": "Raise purchase requisitions from the estimate",
+          "patterns": [
+            "purchase requisition"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Project created automatically from the quote": 0.62,
+        "Track the budget against the original quote": 0.62,
+        "Raise purchase requisitions from the estimate": 0.25
+      }
+    },
+    {
+      "id": "planning",
+      "text": "Do you plan the project schedule in MS Project or Primavera?",
+      "options": [
+        {
+          "label": "Yes, MS Project or Primavera",
+          "patterns": [
+            "ms project|microsoft project",
+            "primavera"
+          ]
+        },
+        {
+          "label": "No, we plan inside BC",
+          "patterns": [
+            "project templates?",
+            "planning lines?",
+            "planning book",
+            "task structure",
+            "cash flow planning"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, MS Project or Primavera": 0.12,
+        "No, we plan inside BC": 0.62
+      }
+    }
+  ]
+}

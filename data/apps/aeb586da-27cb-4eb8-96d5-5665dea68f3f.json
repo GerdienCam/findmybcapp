@@ -1,0 +1,72 @@
+{
+  "appId": "TYPE.connect|PUBID.atnatechnologies1723633443331|AID.qm_001|PAPPID.aeb586da-27cb-4eb8-96d5-5665dea68f3f",
+  "guid": "aeb586da-27cb-4eb8-96d5-5665dea68f3f",
+  "publisherId": "atnatechnologies1723633443331",
+  "offerId": "qm_001",
+  "source": {
+    "name": "ATNA's QC Addon",
+    "publisher": "Atna Technologies",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.atnatechnologies1723633443331%7CAID.qm_001%7CPAPPID.aeb586da-27cb-4eb8-96d5-5665dea68f3f",
+    "lastModified": "2025-10-16T07:42:04.8145791+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://atnatechnologies.com/contact-us",
+    "sourceHash": "sha256:eeabc54fbeb14897618f085afbb387af08e86d56d1f629211db6c68d25bd1b22"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eeabc54fbeb14897618f085afbb387af08e86d56d1f629211db6c68d25bd1b22",
+    "mappedOn": null,
+    "summary": "Quality checks in purchasing and production",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-hold",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-quality-analysis",
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Quality orders created at warehouse receipt for lot/expiry and non-lot items",
+      "Automatic triggering of inspection on receipt based on item configuration",
+      "Quality hold on received items until inspection passed",
+      "Records inspection results, remarks and attached reports",
+      "Integrates with lot/serial item tracking",
+      "Auto movement of rejected goods to rejection area",
+      "Lot-wise quality orders on production output posting",
+      "Configurable checklists at production stages (start, in-process, end)",
+      "Sampling by quantity, item type or routing operation",
+      "Blocks production order progress until quality checks pass",
+      "Rejection management with reason codes",
+      "Metric types: true/false rating, range, fixed value with tolerance",
+      "QC for expiry",
+      "Reusable test templates across items or processes",
+      "Rejection rate analysis by vendor or per production batch",
+      "Optional Power BI dashboards for live monitoring"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

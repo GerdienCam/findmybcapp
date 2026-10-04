@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.simova|AID.dms_to_eds_by_simova|PAPPID.78b7ab7e-9fbb-4d5b-8075-ffbf0f01f80f",
+  "guid": "78b7ab7e-9fbb-4d5b-8075-ffbf0f01f80f",
+  "publisherId": "simova",
+  "offerId": "dms_to_eds_by_simova",
+  "source": {
+    "name": "Document Central for Dispatch",
+    "publisher": "Simova GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simova%7CAID.dms_to_eds_by_simova%7CPAPPID.78b7ab7e-9fbb-4d5b-8075-ffbf0f01f80f",
+    "lastModified": "2026-08-13T12:33:33.8347831+00:00",
+    "appVersion": "28.0.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.simova.de/en/",
+    "sourceHash": "sha256:514b29509666d43f4000bf5af3b8a36bfc2cd0af87370b895f7a54aae0cc5f57"
+  },
+  "mapping": {
+    "sourceHash": "sha256:514b29509666d43f4000bf5af3b8a36bfc2cd0af87370b895f7a54aae0cc5f57",
+    "mappedOn": null,
+    "summary": "Attaches Document Central archive files to Document Dispatch",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Attach files from Document Central to emails or other Document Dispatch dispatch types",
+      "Selected file is dispatched automatically with the original document"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IE",
+      "IN",
+      "JP",
+      "NL",
+      "NZ",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Document Central",
+      "Document Dispatch"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

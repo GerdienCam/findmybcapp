@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.softera_baltic|AID.softera_e_invoice|PAPPID.b62d22fd-1800-4b7f-a9c3-38878b53ef5b",
+  "guid": "b62d22fd-1800-4b7f-a9c3-38878b53ef5b",
+  "publisherId": "softera_baltic",
+  "offerId": "softera_e_invoice",
+  "source": {
+    "name": "Softera E-invoice for Lithuania",
+    "publisher": "Softera Baltic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softera_baltic%7CAID.softera_e_invoice%7CPAPPID.b62d22fd-1800-4b7f-a9c3-38878b53ef5b",
+    "lastModified": "2026-09-04T16:43:32.0819533+00:00",
+    "appVersion": "102.8.26.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://instrukcijos.softera.lt/docs/softera-es%C4%85skaita-funkcionalumo-ap%C5%BEvalga",
+    "sourceHash": "sha256:a6f061680de8d17f55c7e4bfe2b1749b0e5dfbabb7a6702fc156e56004be3b07"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a6f061680de8d17f55c7e4bfe2b1749b0e5dfbabb7a6702fc156e56004be3b07",
+    "mappedOn": null,
+    "summary": "Lithuanian e-invoice receiving and archiving",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Integrates BC with e-invoicing operator Unifiedpost",
+      "Sends BC lists to FitekIn and Omniva",
+      "Takes in purchase invoices confirmed by FitekIn or Omniva",
+      "Creates purchase invoices automatically",
+      "Archives received documents in BC",
+      "Archive and review of incoming and outgoing messages with error log",
+      "Handles invoices for several companies at once"
+    ],
+    "countries": [
+      "LT"
+    ],
+    "languages": [
+      "en",
+      "lt"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Unifiedpost",
+      "FitekIn",
+      "Omniva"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_layouts_subscription_billing|PAPPID.6e87cc21-5323-45cb-ad5d-a06a7656bcbf",
+  "guid": "6e87cc21-5323-45cb-ad5d-a06a7656bcbf",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_layouts_subscription_billing",
+  "source": {
+    "name": "Dynavision Layouts Subscription Billing",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_layouts_subscription_billing%7CPAPPID.6e87cc21-5323-45cb-ad5d-a06a7656bcbf",
+    "lastModified": "2026-10-02T09:17:17.8138973+00:00",
+    "appVersion": "28.0.0.46234",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Layouts_Subscription_Billing_Manual.pdf",
+    "sourceHash": "sha256:2c0a26162052dff38919df921969dd03c982172c4bebd2316b46442a35a88f57"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2c0a26162052dff38919df921969dd03c982172c4bebd2316b46442a35a88f57",
+    "mappedOn": null,
+    "summary": "Adds subscription billing information to Dynavision layouts",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-subscription-billing"
+    ],
+    "claims": [
+      "Adds Subscription Billing information to Dynavision document layouts",
+      "Fixed grid system to choose which info prints in which columns",
+      "Variables and text constants in layouts",
+      "Report Layout Dashboard",
+      "Different layout versions per customer"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Dynavision Report Layouts",
+      "Subscription Billing"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

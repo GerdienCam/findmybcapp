@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.mpriseagriwarebv|AID.agriware-reports|PAPPID.46c7cef7-312f-4b45-b942-003de086f054",
+  "guid": "46c7cef7-312f-4b45-b942-003de086f054",
+  "publisherId": "mpriseagriwarebv",
+  "offerId": "agriware-reports",
+  "source": {
+    "name": "ForNAV Report Pack for Agriware 365 Business Essentials",
+    "publisher": "Mprise Agriware B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mpriseagriwarebv%7CAID.agriware-reports%7CPAPPID.46c7cef7-312f-4b45-b942-003de086f054",
+    "lastModified": "2026-09-28T12:42:52.7656561+00:00",
+    "appVersion": "28.28.5.271675",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.agriware.cloud/",
+    "sourceHash": "sha256:71a04838b02dbb810871359e91fc8b7838dd03df8c46fe6dc9c5c8a451c2521a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:71a04838b02dbb810871359e91fc8b7838dd03df8c46fe6dc9c5c8a451c2521a",
+    "mappedOn": null,
+    "summary": "Report pack from ForNAV for Agriware 365",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Standard Agriware reports adjustable with the ForNAV report builder",
+      "Manage templates and multiple layouts",
+      "Report set: work order list, job sticker, trolley/pallet label, picklist, plant passport, plus order confirmation, shipment and invoice"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Horticulture"
+    ],
+    "connectsTo": [
+      "ForNAV"
+    ],
+    "requires": [
+      "Agriware 365 Business Essentials",
+      "ForNAV"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

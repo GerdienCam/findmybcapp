@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.eliteitaps1650537265871|AID.production_management|PAPPID.442d0ff5-c1e0-44ac-8fe9-293e097061d7",
+  "guid": "442d0ff5-c1e0-44ac-8fe9-293e097061d7",
+  "publisherId": "eliteitaps1650537265871",
+  "offerId": "production_management",
+  "source": {
+    "name": "EI Production Resource Management",
+    "publisher": "Elite IT ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eliteitaps1650537265871%7CAID.production_management%7CPAPPID.442d0ff5-c1e0-44ac-8fe9-293e097061d7",
+    "lastModified": "2025-05-30T12:40:36.9080947+00:00",
+    "appVersion": "26.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://eliteit.dk/en/contact/",
+    "sourceHash": "sha256:c9600dc792ffa8b8af4658be18a5e0add3d18b1b53bab0c6246885442556bc92"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c9600dc792ffa8b8af4658be18a5e0add3d18b1b53bab0c6246885442556bc92",
+    "mappedOn": null,
+    "summary": "Registers output, consumption and time on production orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Employees record their start and stop times on production orders",
+      "Employee linked to preferred location or work center showing its production orders",
+      "Start time set automatically when production order selected",
+      "Auto-stop when a new production order is started",
+      "Time recorded as operation time in production journal"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

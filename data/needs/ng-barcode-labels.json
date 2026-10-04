@@ -1,0 +1,235 @@
+{
+  "id": "ng-barcode-labels",
+  "order": 73,
+  "label": "Printing barcode labels for items and pallets",
+  "description": "Designing and printing item, lot and pallet labels (incl. GS1/SSCC).",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "high",
+  "statements": [
+    "Printing barcode labels for items and pallets",
+    "Designing and printing item, lot and pallet labels (incl. GS1/SSCC).",
+    "We need to print barcode labels for items when they arrive from the supplier",
+    "Is there an app to print item labels from Business Central to a Zebra printer?",
+    "Our supplier products have no barcodes so we stick our own labels on",
+    "We want pallet labels with SSCC numbers printed when we receive",
+    "BarTender integration with BC",
+    "Labels are designed in Word and printed by hand, it takes hours",
+    "Each received lot needs a label with the lot number and expiry date",
+    "label printing from warehouse receipt",
+    "Can we print labels directly from the scanner on the warehouse floor?",
+    "Price labels and shelf labels for our shop need to come out of BC",
+    "We need to print the number of labels equal to the quantity received",
+    "Our item labels need the GTIN, description and a QR code",
+    "Bin labels for our shelves need to be printed with barcodes",
+    "Zebra ZPL labels from BC",
+    "Each customer wants their own label layout on the cartons we ship them",
+    "We want to reprint a lost label for a serial number",
+    "The label printer only works from one PC and everyone has to walk there",
+    "Can we design our own label templates without a developer?",
+    "Labels for kits and assembled items need to show the components",
+    "We want to stop handwriting labels for goods coming in"
+  ],
+  "questions": [
+    {
+      "id": "software",
+      "text": "Do you already use label design software?",
+      "multi": true,
+      "options": [
+        {
+          "label": "BarTender",
+          "patterns": [
+            "bartender"
+          ]
+        },
+        {
+          "label": "NiceLabel / Loftware",
+          "patterns": [
+            "nicelabel",
+            "loftware"
+          ]
+        },
+        {
+          "label": "Zebra designer or ZPL",
+          "patterns": [
+            "zebra",
+            "\\bzpl\\b"
+          ]
+        },
+        {
+          "label": "Other (TEKLYNX, Easylabel...)",
+          "patterns": [
+            "teklynx",
+            "codesoft",
+            "easylabel"
+          ]
+        },
+        {
+          "label": "No, design labels in Business Central",
+          "patterns": [
+            "label (template )?designer",
+            "designed in ms word",
+            "worksheet for entering",
+            "switch label layout",
+            "standard bc reports",
+            "label wizard",
+            "to bc reports"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "BarTender": 0.24,
+        "NiceLabel / Loftware": 0.24,
+        "Zebra designer or ZPL": 0.15,
+        "Other (TEKLYNX, Easylabel...)": 0.06,
+        "No, design labels in Business Central": 0.21
+      }
+    },
+    {
+      "id": "printer",
+      "text": "Which printers will print the labels?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Zebra label printers",
+          "patterns": [
+            "zebra",
+            "\\bzpl\\b"
+          ]
+        },
+        {
+          "label": "Any office or local printer",
+          "patterns": [
+            "standard (and thermal )?printers",
+            "any local printer",
+            "windows printers",
+            "network or local",
+            "on-premises printers",
+            "local printer",
+            "standard bc reports",
+            "to bc reports"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Zebra label printers": 0.15,
+        "Any office or local printer": 0.24
+      }
+    },
+    {
+      "id": "sscc",
+      "text": "Do you ship pallets or cartons that need SSCC labels?",
+      "help": "SSCC is the GS1 pallet code many retailers demand.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, SSCC or pallet labels",
+          "patterns": [
+            "sscc",
+            "pallet label",
+            "license plate",
+            "logistic unit",
+            "package labels"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, SSCC or pallet labels": 0.24
+      }
+    },
+    {
+      "id": "gs1",
+      "text": "Do customers require GS1 barcodes on items (GTIN, EAN, GS1-128)?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, GS1 / EAN / GTIN",
+          "patterns": [
+            "gs1",
+            "gtin",
+            "ean-?1[38]",
+            "ean128",
+            "\\bupc",
+            "sscc"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, GS1 / EAN / GTIN": 0.48
+      }
+    },
+    {
+      "id": "auto",
+      "text": "Should labels print automatically when goods are received, produced or shipped?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, print on events automatically",
+          "patterns": [
+            "auto-?print",
+            "automatic(ally)? print",
+            "printing when",
+            "unattended",
+            "event-based",
+            "events can trigger",
+            "on posting",
+            "trigger label",
+            "generates labels automatically",
+            "automatic or manual template"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, print on events automatically": 0.15
+      }
+    },
+    {
+      "id": "cloud",
+      "text": "Is Business Central in the cloud while printers are on site?",
+      "help": "Then you need a print relay or cloud print service.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, need cloud-to-local printing",
+          "patterns": [
+            "cloud",
+            "printnode",
+            "printix",
+            "relay",
+            "local service",
+            "print server",
+            "http to printer",
+            "by http"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, need cloud-to-local printing": 0.33
+      }
+    }
+  ]
+}

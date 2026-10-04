@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcalbanianfiscalization-is|PAPPID.cb0d47e7-6313-4d47-be74-139a3e3c7f05",
+  "guid": "cb0d47e7-6313-4d47-be74-139a3e3c7f05",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcalbanianfiscalization-is",
+  "source": {
+    "name": "Albanian Fiscalization",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcalbanianfiscalization-is%7CPAPPID.cb0d47e7-6313-4d47-be74-139a3e3c7f05",
+    "lastModified": "2026-05-21T09:04:33.1061804+00:00",
+    "appVersion": "21.23.110.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:b8ea596cbbf533ad3ad76ce005a458a7a18cf2eb47a106d7b1bbf3923c939d5e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b8ea596cbbf533ad3ad76ce005a458a7a18cf2eb47a106d7b1bbf3923c939d5e",
+    "mappedOn": null,
+    "summary": "Integrates with Albanian mandatory fiscalization system",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Integrates BC with Albanian Fiscalization SelfCare Platform",
+      "Runs automatically in background without physical devices",
+      "Sends XML per document and receives fiscal numbers",
+      "Resend function for documents not fiscalized within 48 hours",
+      "Fiscalizes cash and non-cash invoices and corrections",
+      "Fiscalizes transfers",
+      "Self-invoice / reverse charge from purchase invoice",
+      "Cash deposit and withdrawal registration",
+      "Purchase e-invoice approval in BC",
+      "Fiscalization log of failed and succeeded requests"
+    ],
+    "countries": [
+      "AL"
+    ],
+    "languages": [
+      "en",
+      "sq"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Albanian Fiscalization SelfCare Platform"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

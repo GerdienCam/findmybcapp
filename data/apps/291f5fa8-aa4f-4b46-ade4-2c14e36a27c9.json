@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.lithuaniandynamicspartners|AID.sepa_for_lithuania|PAPPID.291f5fa8-aa4f-4b46-ade4-2c14e36a27c9",
+  "guid": "291f5fa8-aa4f-4b46-ade4-2c14e36a27c9",
+  "publisherId": "lithuaniandynamicspartners",
+  "offerId": "sepa_for_lithuania",
+  "source": {
+    "name": "SEPA for Lithuania",
+    "publisher": "Lithuanian Dynamics Partners",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lithuaniandynamicspartners%7CAID.sepa_for_lithuania%7CPAPPID.291f5fa8-aa4f-4b46-ade4-2c14e36a27c9",
+    "lastModified": "2026-08-15T09:35:13.94693+00:00",
+    "appVersion": "26.0.3.33",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicspartners.lt/help-for-sepa/",
+    "sourceHash": "sha256:fa47e71f9efcdad138c4195b6ae4f0039f241d53991b5d071c9171fb26569f39"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fa47e71f9efcdad138c4195b6ae4f0039f241d53991b5d071c9171fb26569f39",
+    "mappedOn": null,
+    "summary": "Lithuanian SEPA payment files and bank statements",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Creates SEPA payment files for all Lithuanian banks",
+      "Identifies SEPA and non-SEPA payments",
+      "Imports incoming and outgoing payment information from all Lithuanian banks"
+    ],
+    "countries": [
+      "LT"
+    ],
+    "languages": [
+      "en",
+      "lt"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SEPA"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

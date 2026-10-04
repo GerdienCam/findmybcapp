@@ -1,0 +1,245 @@
+{
+  "id": "ng-customer-rebates",
+  "order": 20,
+  "label": "Volume bonuses and promotions for customers",
+  "description": "Calculating and paying customer rebates, retailer trade allowances and promotional deductions.",
+  "type": "bpc",
+  "area": "Sales & receivables",
+  "relevance": "medium",
+  "statements": [
+    "Volume bonuses and promotions for customers",
+    "Calculating and paying customer rebates, retailer trade allowances and promotional deductions.",
+    "We promise customers a year-end bonus if they buy over a certain amount and calculate it in Excel",
+    "Is there a rebate management app for BC on the sales side?",
+    "customer volume bonus accrual",
+    "Need to accrue the rebate we owe customers every month, not just at year end",
+    "Different rebate percentages per customer and product group with stepped tiers",
+    "Customers ask how close they are to the next bonus level and we can't tell them",
+    "Pay rebates to customers as a credit note or as a payment",
+    "Distributor rebates for selling our products to specific end customers",
+    "Our rebate agreements with buying groups are paid to the group, not to each member",
+    "Customer rebates should be calculated on paid invoices only, net of returns",
+    "At year end we always discover customer rebates we forgot to accrue",
+    "Retroactive rebates when a customer passes the threshold in Q4",
+    "We give supermarket chains promotional deals and track them on paper",
+    "Need to set up a promo budget per retail customer for in-store campaigns",
+    "How do we define an off-invoice deal for one retailer for a 6-week promotion?",
+    "listing fees and co-op marketing funds for retail customers",
+    "Our trade spend agreements with grocery chains live in contracts nobody can find",
+    "Want to plan billback deals with distributors before the season starts",
+    "Retail chains deduct promotion money from their payments and we can't match it to any agreement",
+    "Track how much of each retailer's promo fund has been used",
+    "billback claims from distributors",
+    "Settling co-op advertising claims from our retail customers",
+    "We don't know if a promotion with a supermarket chain actually paid off",
+    "Supermarket sends a claim for promo costs and we have to check it against what they sold"
+  ],
+  "questions": [
+    {
+      "id": "deal_type",
+      "text": "What kind of deals do you need to manage?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Volume rebates or bonuses paid after a period",
+          "patterns": [
+            "rebate",
+            "bonus",
+            "over-rider",
+            "provision"
+          ]
+        },
+        {
+          "label": "Promotions applied on the order",
+          "patterns": [
+            "promotion",
+            "buy[- ]\\w+[, ]+(get|pay)",
+            "free (gift|item|bonus)",
+            "bonus items"
+          ]
+        },
+        {
+          "label": "Billbacks, chargebacks or deductions",
+          "patterns": [
+            "billback",
+            "vendor chargeback",
+            "chargebacks",
+            "deduction"
+          ]
+        },
+        {
+          "label": "Sales rep commissions",
+          "patterns": [
+            "commission"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Volume rebates or bonuses paid after a period": 0.72,
+        "Promotions applied on the order": 0.34,
+        "Billbacks, chargebacks or deductions": 0.09,
+        "Sales rep commissions": 0.19
+      }
+    },
+    {
+      "id": "partners",
+      "text": "Who else are the deals with, beyond single customers?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Chains or hierarchies (head office and stores)",
+          "patterns": [
+            "hierarch",
+            "buying group",
+            "retail chain",
+            "subsidiar",
+            "group bonus",
+            "turnover aggregation",
+            "large-scale distribution"
+          ]
+        },
+        {
+          "label": "Suppliers too",
+          "patterns": [
+            "vendor",
+            "supplier",
+            "sales and purchase",
+            "purchase (transactions|entries|invoice)",
+            "purchase credit"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Chains or hierarchies (head office and stores)": 0.28,
+        "Suppliers too": 0.44
+      }
+    },
+    {
+      "id": "payout",
+      "text": "How do you pay out rebates?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Credit memo to the customer",
+          "patterns": [
+            "credit (memo|note)"
+          ]
+        },
+        {
+          "label": "Free goods",
+          "patterns": [
+            "free (goods|stock|items?|bonus)",
+            "in kind",
+            "bonus items"
+          ]
+        },
+        {
+          "label": "Discount straight on the invoice",
+          "patterns": [
+            "invoice discount",
+            "directly to invoices",
+            "applied to document",
+            "placed on order",
+            "on order documents",
+            "apply promotions directly",
+            "discount (lines|%|matri)",
+            "additional discounts"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Credit memo to the customer": 0.31,
+        "Free goods": 0.22,
+        "Discount straight on the invoice": 0.25
+      }
+    },
+    {
+      "id": "accrual",
+      "text": "Do you need rebates accrued in the books during the period?",
+      "options": [
+        {
+          "label": "Yes, post accruals or provisions",
+          "patterns": [
+            "accru",
+            "provision"
+          ]
+        },
+        {
+          "label": "Just a forecast or simulation before posting",
+          "patterns": [
+            "forecast",
+            "simulat",
+            "preview before posting"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, post accruals or provisions": 0.47,
+        "Just a forecast or simulation before posting": 0.09
+      }
+    },
+    {
+      "id": "calc",
+      "text": "How are your rebates calculated?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Tiers or thresholds by volume",
+          "patterns": [
+            "tier",
+            "stepped",
+            "staggered",
+            "threshold",
+            "bracket",
+            "progressive",
+            "multi-level rates"
+          ]
+        },
+        {
+          "label": "Fixed amount per unit",
+          "patterns": [
+            "per unit",
+            "per uom",
+            "fixed per",
+            "rate-based",
+            "amount or %",
+            "precise amounts"
+          ]
+        },
+        {
+          "label": "Percentage of sales",
+          "patterns": [
+            "percent",
+            "%"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Tiers or thresholds by volume": 0.34,
+        "Fixed amount per unit": 0.16,
+        "Percentage of sales": 0.25
+      }
+    }
+  ]
+}

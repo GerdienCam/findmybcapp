@@ -1,0 +1,106 @@
+{
+  "appId": "PUBID.gmigroupnv1664883754928|AID.gmi_gdcx|PAPPID.cbc2db0a-ad4c-4bae-9029-459b225c0f7e",
+  "guid": "cbc2db0a-ad4c-4bae-9029-459b225c0f7e",
+  "publisherId": "gmigroupnv1664883754928",
+  "offerId": "gmi_gdcx",
+  "source": {
+    "name": "GMI GDCx",
+    "publisher": "GMI group",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmigroupnv1664883754928%7CAID.gmi_gdcx%7CPAPPID.cbc2db0a-ad4c-4bae-9029-459b225c0f7e",
+    "lastModified": "2026-06-15T13:22:08.1482088+00:00",
+    "appVersion": "28.0.20260615.68721",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.gmigroup.be/partners/continia-software-dms-purchase-procure-to-pay-p2p-order-to-cash-o2c/",
+    "sourceHash": "sha256:d6d89400910c361311b81a5d5a6bf8e059857063199577d42be9ba81432e7761"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d6d89400910c361311b81a5d5a6bf8e059857063199577d42be9ba81432e7761",
+    "mappedOn": null,
+    "summary": "Better recognition and posting rules for Continia Document Capture",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-cost-allocation"
+    ],
+    "claims": [
+      "Recognition using regular expressions",
+      "Recognizes multiple lines on invoices with complex layouts",
+      "Multiple amounts per line, e.g. leasing invoices",
+      "Purchase lines may use differing VAT business posting groups",
+      "Distribution codes for cost allocation",
+      "Posts invoices before approval for correct period VAT and P&L",
+      "Cost-centre based approval flows and amount-based dynamic flows",
+      "Purchase order approval in Continia flow incl. web portal"
+    ],
+    "countries": [
+      "AD",
+      "AL",
+      "AT",
+      "BA",
+      "BE",
+      "CA",
+      "CH",
+      "CY",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IM",
+      "IS",
+      "IT",
+      "JE",
+      "LI",
+      "LT",
+      "LU",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "RO",
+      "RS",
+      "SE",
+      "SI",
+      "SK",
+      "UA"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

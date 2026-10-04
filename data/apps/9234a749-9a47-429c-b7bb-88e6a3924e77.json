@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.consiliumtechab|AID.consigliere_central_bank_rates|PAPPID.9234a749-9a47-429c-b7bb-88e6a3924e77",
+  "guid": "9234a749-9a47-429c-b7bb-88e6a3924e77",
+  "publisherId": "consiliumtechab",
+  "offerId": "consigliere_central_bank_rates",
+  "source": {
+    "name": "Consigliere Central Bank Rates",
+    "publisher": "Consilium Tech AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.consiliumtechab%7CAID.consigliere_central_bank_rates%7CPAPPID.9234a749-9a47-429c-b7bb-88e6a3924e77",
+    "lastModified": "2026-09-24T07:08:08.2863974+00:00",
+    "appVersion": "28.0.2.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://consiliumtech.se/docs",
+    "sourceHash": "sha256:3ee45bfca0896b89bd50dcd2d851916a4b49efff35bff1bb6513e40835ae4537"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3ee45bfca0896b89bd50dcd2d851916a4b49efff35bff1bb6513e40835ae4537",
+    "mappedOn": null,
+    "summary": "Imports official currency exchange rates from central banks",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Fetches rates directly from central banks, not third-party feeds",
+      "Auto-detects company local currency and activates matching source",
+      "Draws on eight sources: CHF, GBP, RON, CZK, PLN, DKK, NOK, SEK",
+      "Daily updates scheduled through BC Job Queue",
+      "No accounts or API keys; HTTPS only",
+      "Built on standard Currency Exchange Rate Services"
+    ],
+    "countries": [
+      "CH",
+      "CZ",
+      "DK",
+      "GB",
+      "NO",
+      "PL",
+      "RO",
+      "SE"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Sveriges Riksbank",
+      "Norges Bank",
+      "Danmarks Nationalbank",
+      "Narodowy Bank Polski",
+      "Czech National Bank",
+      "National Bank of Romania",
+      "Bank of England",
+      "Swiss National Bank"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

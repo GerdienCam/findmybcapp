@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.aitana_management_sl|AID.idynamics_shopfloor|PAPPID.3094ab36-b35e-4821-af3b-6b7be7f06cd7",
+  "guid": "3094ab36-b35e-4821-af3b-6b7be7f06cd7",
+  "publisherId": "aitana_management_sl",
+  "offerId": "idynamics_shopfloor",
+  "source": {
+    "name": "iDynamics Shopfloor",
+    "publisher": "iDynamics Business Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aitana_management_sl%7CAID.idynamics_shopfloor%7CPAPPID.3094ab36-b35e-4821-af3b-6b7be7f06cd7",
+    "lastModified": "2026-07-01T12:44:05.7188489+00:00",
+    "appVersion": "27.1.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.idynamics.es/en/shopfloor/index.html",
+    "sourceHash": "sha256:f9b3b1065e149b2073e46760ed56c7bae4b8279bd8fbd961f054ca722d0d6e7e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f9b3b1065e149b2073e46760ed56c7bae4b8279bd8fbd961f054ca722d0d6e7e",
+    "mappedOn": null,
+    "summary": "Shopfloor touch interface for registering production",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability",
+      "ng-quality-inspection",
+      "ng-subcontracting",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Touchscreen shop floor terminal to start, stop and record setup time on production orders",
+      "Stop reasons and scrap reasons lists",
+      "Visual current status of the plant",
+      "Manufacturing lot/serial number management",
+      "Configurable pallet management per machine center",
+      "Manufacturing parameter checklist",
+      "Automatic backward consumption with lots/serials",
+      "Production management by families",
+      "Machine sequencing",
+      "Operator-level traceability for movements and consumption",
+      "Quality control and subcontracting features",
+      "Included production order report",
+      "Aimed at small and medium-sized businesses"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [
+      "Discrete manufacturing",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.wiselausnirehf1587117975659|AID.wisesmartpay|PAPPID.e5a4e50a-f960-4463-8f56-29a00b569940",
+  "guid": "e5a4e50a-f960-4463-8f56-29a00b569940",
+  "publisherId": "wiselausnirehf1587117975659",
+  "offerId": "wisesmartpay",
+  "source": {
+    "name": "Wise SmartPay",
+    "publisher": "Wise",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wiselausnirehf1587117975659%7CAID.wisesmartpay%7CPAPPID.e5a4e50a-f960-4463-8f56-29a00b569940",
+    "lastModified": "2026-09-29T09:27:22.6490463+00:00",
+    "appVersion": "27.0.20260928.15",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://wise.is/en/contact-us/",
+    "sourceHash": "sha256:0c2355223e18ba9bdefaa313cc70917d3160562e84d4614a2cda97b51574a116"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0c2355223e18ba9bdefaa313cc70917d3160562e84d4614a2cda97b51574a116",
+    "mappedOn": null,
+    "summary": "Payment solution using cloud EFT",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos"
+    ],
+    "claims": [
+      "Cloud connection to EFT payment terminals",
+      "Takes payments for sales invoices and orders",
+      "Multiple payment methods"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "EFT terminals"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

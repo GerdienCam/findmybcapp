@@ -1,0 +1,193 @@
+{
+  "id": "ng-vert-equipment-dealers",
+  "order": 209,
+  "label": "Solutions for equipment and vehicle dealers",
+  "description": "Dealer management for agricultural, construction and heavy equipment, cars and trucks: unit sales with serial numbers, trade-ins, workshop and parts, warranty claims with manufacturers.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for equipment and vehicle dealers",
+    "Dealer management for agricultural, construction and heavy equipment, cars and trucks: unit sales with serial numbers, trade-ins, workshop and parts, warranty claims with manufacturers.",
+    "We sell and service tractors and need a dealer system on BC",
+    "dealer management system Business Central",
+    "Trade-ins and used machines in stock",
+    "Warranty claims to the manufacturer are done on paper",
+    "Workshop orders, parts and mechanics' hours",
+    "Car dealership with new and used vehicles",
+    "Each machine has a serial number and service history",
+    "Parts ordering from the OEM portal",
+    "Importer selling to dealers and dealers selling to farmers",
+    "Forklift dealer, sales, rental and service",
+    "Truck dealer with financing contracts",
+    "Agricultural equipment dealer moving off a legacy DMS"
+  ],
+  "questions": [
+    {
+      "id": "what",
+      "text": "What do you sell and service?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Cars, trucks or other vehicles",
+          "patterns": [
+            "vehicle",
+            "automotive",
+            "\\bvin\\b",
+            "\\bcars?\\b",
+            "truck",
+            "tire"
+          ]
+        },
+        {
+          "label": "Agricultural, construction or other machines",
+          "patterns": [
+            "machine",
+            "equipment",
+            "agricultur",
+            "construction",
+            "john deere",
+            "stihl"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Cars, trucks or other vehicles": 0.53,
+        "Agricultural, construction or other machines": 0.53
+      }
+    },
+    {
+      "id": "brand",
+      "text": "Which manufacturer do you work with?",
+      "options": [
+        {
+          "label": "John Deere",
+          "patterns": [
+            "john deere"
+          ]
+        },
+        {
+          "label": "STIHL",
+          "patterns": [
+            "stihl"
+          ]
+        },
+        {
+          "label": "Other brands, needing OEM data exchange",
+          "patterns": [
+            "\\boem\\b",
+            "importer",
+            "multi-brand"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "John Deere": 0.07,
+        "STIHL": 0.07,
+        "Other brands, needing OEM data exchange": 0.13
+      }
+    },
+    {
+      "id": "processes",
+      "text": "Which dealer processes matter most?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Workshop and service orders",
+          "patterns": [
+            "service order",
+            "workshop",
+            "technician",
+            "service (quotes|labor|item|history|agreements)",
+            "maintenance"
+          ]
+        },
+        {
+          "label": "Spare parts",
+          "patterns": [
+            "parts"
+          ]
+        },
+        {
+          "label": "Rental or leasing",
+          "patterns": [
+            "rental",
+            "leas"
+          ]
+        },
+        {
+          "label": "Trade-ins and used units",
+          "patterns": [
+            "trade-in",
+            "used (machine|equipment|parts)",
+            "valuation"
+          ]
+        },
+        {
+          "label": "Warranty claims",
+          "patterns": [
+            "warranty"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Workshop and service orders": 0.67,
+        "Spare parts": 0.47,
+        "Rental or leasing": 0.27,
+        "Trade-ins and used units": 0.33,
+        "Warranty claims": 0.33
+      }
+    },
+    {
+      "id": "setup",
+      "text": "How is your dealership set up?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Staff work on the road (mobile)",
+          "patterns": [
+            "mobile"
+          ]
+        },
+        {
+          "label": "Several branches or locations",
+          "patterns": [
+            "multi-location",
+            "across locations",
+            "stock locations",
+            "multi-brand"
+          ]
+        },
+        {
+          "label": "We are an importer supplying dealers",
+          "patterns": [
+            "importer",
+            "dealer network",
+            "dealers view"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Staff work on the road (mobile)": 0.2,
+        "Several branches or locations": 0.2,
+        "We are an importer supplying dealers": 0.13
+      }
+    }
+  ]
+}

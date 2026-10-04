@@ -1,0 +1,103 @@
+{
+  "appId": "TYPE.connect|PUBID.trintechinc1589787627753|AID.adra_business_central|PAPPID.5a9c7998-27da-4f9b-83c6-48252e60e854",
+  "guid": "5a9c7998-27da-4f9b-83c6-48252e60e854",
+  "publisherId": "trintechinc1589787627753",
+  "offerId": "adra_business_central",
+  "source": {
+    "name": "Account Reconciliations and Matching by Adra",
+    "publisher": "Trintech, Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.trintechinc1589787627753%7CAID.adra_business_central%7CPAPPID.5a9c7998-27da-4f9b-83c6-48252e60e854",
+    "lastModified": "2026-07-22T22:32:53.1486142+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://login.adra.com/Account/Login?returnUrl=https%3A%2F%2Fsuccess.adra.com",
+    "sourceHash": "sha256:c145fab48f3f31616a8a2dfafee2612e7173c7df7162f35f9d16ca4810af8d35"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c145fab48f3f31616a8a2dfafee2612e7173c7df7162f35f9d16ca4810af8d35",
+    "mappedOn": null,
+    "summary": "Balance sheet reconciliation and transaction matching via Adra",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-period-close",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Automatically reconciles low-risk balance sheet accounts",
+      "Bank reconciliations managed through the close cycle",
+      "Automated transaction matching with bank and credit card statements",
+      "Task Manager workflow for all close activities",
+      "Analytics on reconciliation data usable in Power BI or Excel",
+      "Offered in Japanese, English, Norwegian and Swedish"
+    ],
+    "countries": [
+      "AE",
+      "AU",
+      "CA",
+      "CH",
+      "DE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HU",
+      "IE",
+      "IN",
+      "IS",
+      "IT",
+      "JP",
+      "LK",
+      "MX",
+      "NO",
+      "NZ",
+      "PL",
+      "PR",
+      "SE",
+      "TH",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "en",
+      "ja",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Adra",
+      "Power BI",
+      "Excel"
+    ],
+    "requires": [
+      "Adra"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

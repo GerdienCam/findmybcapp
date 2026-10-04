@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.ecodelas1585264231154|AID.excbcdatawarehouse|PAPPID.dbbff56d-274e-4fcb-bdf6-79c2106932d3",
+  "guid": "dbbff56d-274e-4fcb-bdf6-79c2106932d3",
+  "publisherId": "ecodelas1585264231154",
+  "offerId": "excbcdatawarehouse",
+  "source": {
+    "name": "BI Databridge - Data Warehouse Connector",
+    "publisher": "Ecodel",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ecodelas1585264231154%7CAID.excbcdatawarehouse%7CPAPPID.dbbff56d-274e-4fcb-bdf6-79c2106932d3",
+    "lastModified": "2026-09-25T11:03:50.3707182+00:00",
+    "appVersion": "28.0.260925.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.erphotel.com/hc/da/articles/13421452213277",
+    "sourceHash": "sha256:3b1186214b9549f9f550d103dbf23474e198fbdf2ba70caaae85d96533d06bf7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3b1186214b9549f9f550d103dbf23474e198fbdf2ba70caaae85d96533d06bf7",
+    "mappedOn": null,
+    "summary": "Exports BC data to Azure SQL data warehouse",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Exports selected BC tables and fields to Azure SQL",
+      "No APIs, Synapse or AL development needed",
+      "Incremental export of inserts, updates and deletes via job queue on schedule",
+      "Export as often as every 5 minutes",
+      "Data stays in own tenant via own blob storage",
+      "Consistency checks using row counts and checksums",
+      "Maintains table definitions and indexes in SQL",
+      "100k rows per minute throughput",
+      "Supports 100+ tables and 1000+ fields"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure SQL",
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

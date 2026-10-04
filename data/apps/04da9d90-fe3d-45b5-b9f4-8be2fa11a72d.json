@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.nmatrixconsultingservicespteltd1615266682374|AID.azuredocupload|PAPPID.04da9d90-fe3d-45b5-b9f4-8be2fa11a72d",
+  "guid": "04da9d90-fe3d-45b5-b9f4-8be2fa11a72d",
+  "publisherId": "nmatrixconsultingservicespteltd1615266682374",
+  "offerId": "azuredocupload",
+  "source": {
+    "name": "Store Attachments in Cloud",
+    "publisher": "NMATRIX CONSULTING SERVICES PTE. LTD.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nmatrixconsultingservicespteltd1615266682374%7CAID.azuredocupload%7CPAPPID.04da9d90-fe3d-45b5-b9f4-8be2fa11a72d",
+    "lastModified": "2025-03-07T10:36:51.5876254+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [
+      "FreeTrial",
+      "Freemium",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://nmatrixcs.com/Features.html",
+    "sourceHash": "sha256:be25c9c1b2c1fb19c44f303a5eea6bcbfc007552b92b3eec5273f5f22af687af"
+  },
+  "mapping": {
+    "sourceHash": "sha256:be25c9c1b2c1fb19c44f303a5eea6bcbfc007552b92b3eec5273f5f22af687af",
+    "mappedOn": null,
+    "summary": "Stores attachments in Azure Blob storage",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving",
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Stores attachments in Azure Blob storage",
+      "Reduces BC storage consumption",
+      "Attach and manage documents within existing modules",
+      "Documents accessible from posted ledger entries",
+      "1 USD per user per month",
+      "Available in all BC countries"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

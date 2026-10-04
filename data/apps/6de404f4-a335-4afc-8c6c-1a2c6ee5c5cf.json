@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.modasolutions-5365498|AID.shippypro-connector0001|PAPPID.6de404f4-a335-4afc-8c6c-1a2c6ee5c5cf",
+  "guid": "6de404f4-a335-4afc-8c6c-1a2c6ee5c5cf",
+  "publisherId": "modasolutions-5365498",
+  "offerId": "shippypro-connector0001",
+  "source": {
+    "name": "ShippyPro Multi Carrier Shipping Connector",
+    "publisher": "Modasystem",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.modasolutions-5365498%7CAID.shippypro-connector0001%7CPAPPID.6de404f4-a335-4afc-8c6c-1a2c6ee5c5cf",
+    "lastModified": "2026-09-15T16:13:17.5180205+00:00",
+    "appVersion": "28.0.26.09151229",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.modasuite365.com/",
+    "sourceHash": "sha256:83bcea72dd8c12bb06025dea1361471eaca29072f9cc1139c300cda63ff50216"
+  },
+  "mapping": {
+    "sourceHash": "sha256:83bcea72dd8c12bb06025dea1361471eaca29072f9cc1139c300cda63ff50216",
+    "mappedOn": null,
+    "summary": "Multi-carrier shipping labels and tracking via ShippyPro",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-case-customer-updates"
+    ],
+    "claims": [
+      "180+ carriers including UPS, FedEx, DHL",
+      "Ships with your contracted rates",
+      "Automated custom label creation by marketplace, carrier or destination",
+      "Bulk shipment processing",
+      "Real-time tracking numbers and status",
+      "Customer notifications via email, SMS or WhatsApp",
+      "Delivery performance monitoring"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ShippyPro",
+      "UPS",
+      "FedEx",
+      "DHL",
+      "DPD",
+      "USPS",
+      "Amazon Shipping",
+      "GLS",
+      "PostNL",
+      "Royal Mail",
+      "TNT"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

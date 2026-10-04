@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.advania|AID.advania_job_management|PAPPID.48751d28-a19e-4fa6-a290-2ab3a2e45082",
+  "guid": "48751d28-a19e-4fa6-a290-2ab3a2e45082",
+  "publisherId": "advania",
+  "offerId": "advania_job_management",
+  "source": {
+    "name": "Advania Project Management",
+    "publisher": "Advania",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advania%7CAID.advania_job_management%7CPAPPID.48751d28-a19e-4fa6-a290-2ab3a2e45082",
+    "lastModified": "2026-10-01T08:34:02.6637755+00:00",
+    "appVersion": "29.0.147.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.d365bc.is/jobmanagement",
+    "sourceHash": "sha256:791fa3bb9f0900bdaeeb8ed3550db9c82e57ed67b572cea1e380ae142feda58f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:791fa3bb9f0900bdaeeb8ed3550db9c82e57ed67b572cea1e380ae142feda58f",
+    "mappedOn": null,
+    "summary": "Extends standard project/job management functionality",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-planning",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-proj-costs",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-time"
+    ],
+    "claims": [
+      "Advanced project requests",
+      "Project posting groups",
+      "Project journal templates",
+      "Assign capacity to resources",
+      "Mobile time registration",
+      "Team members can use the project journal",
+      "More detailed project cost and revenue management"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DE",
+      "DK",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "IE",
+      "IS",
+      "NO",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

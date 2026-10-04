@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.foodware365|AID.excise_management|PAPPID.050f26de-abb4-4800-b759-9e93fde72f30",
+  "guid": "050f26de-abb4-4800-b759-9e93fde72f30",
+  "publisherId": "foodware365",
+  "offerId": "excise_management",
+  "source": {
+    "name": "Aptean Excise Management for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.excise_management%7CPAPPID.050f26de-abb4-4800-b759-9e93fde72f30",
+    "lastModified": "2026-07-22T02:52:26.0820401+00:00",
+    "appVersion": "2301.19.331481.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/EXC/",
+    "sourceHash": "sha256:0d0b6a81659dbaac3a9ee61c2596582b8b02bf53a40e41a481da50e02513ea39"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0d0b6a81659dbaac3a9ee61c2596582b8b02bf53a40e41a481da50e02513ea39",
+    "mappedOn": null,
+    "summary": "Excise duty calculation and customs licenses",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Excise duty calculation per alcoholic beverage item across transactions",
+      "Up to 5 substance volume fields for excise calculation",
+      "Tariffs configurable per country and timeframe",
+      "Customs licenses attached to companies, customers, ship-tos, vendors and customs tax partners",
+      "Tariffs per tariff type and group",
+      "Drill down into excise amounts per item and country",
+      "Bonded warehouse shipments, receipts and transfers duty-free",
+      "Country-specific excise duty statements",
+      "Close excise ledger entries once reported with reference numbers"
+    ],
+    "countries": [
+      "BE",
+      "NL"
+    ],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [
+      "Beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

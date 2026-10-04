@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.eone_solutions|AID.eone-integration-for-business-central|PAPPID.c08ff15e-d69e-4386-8ab9-52f8411d088f",
+  "guid": "c08ff15e-d69e-4386-8ab9-52f8411d088f",
+  "publisherId": "eone_solutions",
+  "offerId": "eone-integration-for-business-central",
+  "source": {
+    "name": "eOne Integration for Business Central",
+    "publisher": "eOne Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eone_solutions%7CAID.eone-integration-for-business-central%7CPAPPID.c08ff15e-d69e-4386-8ab9-52f8411d088f",
+    "lastModified": "2026-09-30T08:12:11.0922021+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://eonesolutions.github.io/eone-bc-integration/",
+    "sourceHash": "sha256:c912eaabd64e28bdc95d49ca04689a84a1739e5554a51a44f89677b1d611a61e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c912eaabd64e28bdc95d49ca04689a84a1739e5554a51a44f89677b1d611a61e",
+    "mappedOn": null,
+    "summary": "APIs enabling SmartConnect integration",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "BC-side extension for SmartConnect to read and write data",
+      "Also serves Popdock and DataBlend",
+      "Indexed Integration Id on customers, vendors, items, contacts and documents",
+      "Reads/writes items with variants, attributes, availability, pricing, dimensions, attachments, notes",
+      "Payments, expenses, bank/G-L entries stage as reviewable documents or post automatically",
+      "Approvals via BC standard workflow engine",
+      "Event-triggered real-time document events feed",
+      "Per-company feature switches",
+      "Narrow permission sets for integration account"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SmartConnect",
+      "Popdock",
+      "DataBlend"
+    ],
+    "requires": [
+      "SmartConnect"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

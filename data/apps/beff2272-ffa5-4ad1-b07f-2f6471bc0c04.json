@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.mdc_nordic|AID.mdcsbn|PAPPID.beff2272-ffa5-4ad1-b07f-2f6471bc0c04",
+  "guid": "beff2272-ffa5-4ad1-b07f-2f6471bc0c04",
+  "publisherId": "mdc_nordic",
+  "offerId": "mdcsbn",
+  "source": {
+    "name": "Subscription Management",
+    "publisher": "MDC Nordic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mdc_nordic%7CAID.mdcsbn%7CPAPPID.beff2272-ffa5-4ad1-b07f-2f6471bc0c04",
+    "lastModified": "2026-06-09T15:07:16.691122+00:00",
+    "appVersion": "28.1.1.3280",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://mdcnordic.com/apps/subscription-management/",
+    "sourceHash": "sha256:6b7aa284b4130efe1d8517f6976fdce02fe38bb9e4cc2aea4949ecd1f09ee2f2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6b7aa284b4130efe1d8517f6976fdce02fe38bb9e4cc2aea4949ecd1f09ee2f2",
+    "mappedOn": null,
+    "summary": "Customer subscriptions and recurring invoicing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Unlimited customer subscriptions",
+      "Individual charging intervals per subscription",
+      "One-time subscriptions",
+      "Plans and posts subscription invoices automatically",
+      "Auto-advances next invoicing date",
+      "Premium: subscription items as alias for G/L account, item or resource",
+      "Premium: subscription types and groups"
+    ],
+    "countries": [
+      "DK",
+      "FO",
+      "GB",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

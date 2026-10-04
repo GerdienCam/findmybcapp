@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.perseus|AID.lookio|PAPPID.274fb881-ee4c-410f-ad05-775e1db8ba4d",
+  "guid": "274fb881-ee4c-410f-ad05-775e1db8ba4d",
+  "publisherId": "perseus",
+  "offerId": "lookio",
+  "source": {
+    "name": "Lookio - See People Clearly",
+    "publisher": "Perseus Enterprises Inc",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.perseus%7CAID.lookio%7CPAPPID.274fb881-ee4c-410f-ad05-775e1db8ba4d",
+    "lastModified": "2026-05-14T16:58:27.3044876+00:00",
+    "appVersion": "1.2.0.9",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lookio.com/help.html",
+    "sourceHash": "sha256:cb6241c4900b52996901181d627bf2e3bf32582dcabbb8eeddf4e774edc49b55"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cb6241c4900b52996901181d627bf2e3bf32582dcabbb8eeddf4e774edc49b55",
+    "mappedOn": null,
+    "summary": "HR lifecycle, time off and employee self-service",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-recruiting",
+      "ng-hr-performance",
+      "ng-hr-skills-training",
+      "ng-hr-onboard-offboard"
+    ],
+    "claims": [
+      "Setup wizard links BC to Lookio within five minutes",
+      "Syncs employee data between BC and Lookio",
+      "Submit, track and cancel time-off requests in BC",
+      "Views time-off balances and policies",
+      "Employee self-service profile edits sync back",
+      "Emergency contacts with primary designation",
+      "Syncs qualifications and certifications",
+      "Adds 19 custom fields to the employee card",
+      "Admin and employee self-service permission sets",
+      "Provisions Entra ID accounts when staff are hired and removes them at termination",
+      "Complies with SOC 2 Type II and encrypts with AES-256"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Lookio",
+      "Microsoft Entra ID"
+    ],
+    "requires": [
+      "Lookio"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_logistic_differences|PAPPID.3854675f-3044-40bd-be60-003a8caa9bc5",
+  "guid": "3854675f-3044-40bd-be60-003a8caa9bc5",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_logistic_differences",
+  "source": {
+    "name": "m+m Logistic Differences",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_logistic_differences%7CPAPPID.3854675f-3044-40bd-be60-003a8caa9bc5",
+    "lastModified": "2026-09-28T07:30:05.7356475+00:00",
+    "appVersion": "28.0.374942.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:a512870f0e9c59c7a2cef57aec0060cacdae76d9c036421e2906f3be4547ac49"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a512870f0e9c59c7a2cef57aec0060cacdae76d9c036421e2906f3be4547ac49",
+    "mappedOn": null,
+    "summary": "Handles quantity differences on warehouse receipts and shipments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Handles quantity fluctuations within a delivery",
+      "Configurable value types update related source documents with actual quantities",
+      "Works on warehouse receipts and warehouse shipments",
+      "Works on Essentials and Premium editions"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

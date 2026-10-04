@@ -1,0 +1,62 @@
+{
+  "appId": "TYPE.connect|PUBID.folio3software|AID.d365bc_shopify|PAPPID.9e6234c6-6ee7-4168-8bdd-93d33d3b2d7e",
+  "guid": "9e6234c6-6ee7-4168-8bdd-93d33d3b2d7e",
+  "publisherId": "folio3software",
+  "offerId": "d365bc_shopify",
+  "source": {
+    "name": "Shopify Dynamics 365 Business Central Integration",
+    "publisher": "Folio3 Software Inc.,",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.folio3software%7CAID.d365bc_shopify%7CPAPPID.9e6234c6-6ee7-4168-8bdd-93d33d3b2d7e",
+    "lastModified": "2024-11-19T22:37:48.9281348+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamics.folio3.com/dynamics-ax-shopify-connector/",
+    "sourceHash": "sha256:27df43caf09f5cf78d20153efe2524a8fd673a529e90d199fdebf2a220bddcef"
+  },
+  "mapping": {
+    "sourceHash": "sha256:27df43caf09f5cf78d20153efe2524a8fd673a529e90d199fdebf2a220bddcef",
+    "mappedOn": null,
+    "summary": "Syncs Shopify orders and products with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Automatically updates inventory levels as transactions take place",
+      "Syncs orders, customer and billing details with Shopify",
+      "Syncs product description, name, pricing, inventory and category",
+      "Multi-tier pricing rules per customer type in the ERP",
+      "Supports Shopify and Shopify Plus",
+      "No per-transaction charges",
+      "Available in English (United States)"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Shopify",
+      "Shopify Plus"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

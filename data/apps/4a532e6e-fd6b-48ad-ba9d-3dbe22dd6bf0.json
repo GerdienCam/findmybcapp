@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.mementosrls1588695843705|AID.bankingcentral|PAPPID.4a532e6e-fd6b-48ad-ba9d-3dbe22dd6bf0",
+  "guid": "4a532e6e-fd6b-48ad-ba9d-3dbe22dd6bf0",
+  "publisherId": "mementosrls1588695843705",
+  "offerId": "bankingcentral",
+  "source": {
+    "name": "Banking Central",
+    "publisher": "MEMENTO SRL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mementosrls1588695843705%7CAID.bankingcentral%7CPAPPID.4a532e6e-fd6b-48ad-ba9d-3dbe22dd6bf0",
+    "lastModified": "2026-09-28T05:50:00.9423649+00:00",
+    "appVersion": "28.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcapps.mementoas.com/en-US/apps/BankingCentral/intro.html",
+    "sourceHash": "sha256:4e3af7180143fa9df0edd11892c42e97bc8e60e48e8750892a07239d70c4402f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4e3af7180143fa9df0edd11892c42e97bc8e60e48e8750892a07239d70c4402f",
+    "mappedOn": null,
+    "summary": "Imports bank transactions from 2,000+ European banks",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Over 2,000 banks in 31 European countries and UK",
+      "Imports into payment reconciliation journal or bank account reconciliation",
+      "Read-only PSD2 open banking access",
+      "Job queue scheduled or on-demand import",
+      "Email warning before connection expires",
+      "Discards duplicate transactions by bank ID",
+      "Transaction codes assign reason codes; fixed G/L for fees, interest, taxes",
+      "Supports ISO 20022, CBI and ZKA reason codes",
+      "Manual import of any period in bank history",
+      "Role center cues show connections about to expire and errors",
+      "One license per tenant for all companies",
+      "30-day free trial up to 3 bank accounts"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Open Banking (PSD2)"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

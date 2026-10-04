@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.lanhamassociates|AID.lanham_demand_planning|PAPPID.a8c19647-b664-4902-a66a-c9f19da9121e",
+  "guid": "a8c19647-b664-4902-a66a-c9f19da9121e",
+  "publisherId": "lanhamassociates",
+  "offerId": "lanham_demand_planning",
+  "source": {
+    "name": "Lanham Demand Planning",
+    "publisher": "Lanham Associates",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lanhamassociates%7CAID.lanham_demand_planning%7CPAPPID.a8c19647-b664-4902-a66a-c9f19da9121e",
+    "lastModified": "2026-09-30T17:09:17.7142253+00:00",
+    "appVersion": "25.3.7.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dpla.helpdocsonline.com/home",
+    "sourceHash": "sha256:6ee4af84dfd64d1d5fa495a3eb8814d4f22955e368cc5916e078911ee60eefe0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6ee4af84dfd64d1d5fa495a3eb8814d4f22955e368cc5916e078911ee60eefe0",
+    "mappedOn": null,
+    "summary": "Inventory demand forecasting and dynamic replenishment",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements",
+      "ng-production-planning"
+    ],
+    "claims": [
+      "Machine learning and multi-formula forecasting picks best method",
+      "Dynamic replenishment adjusts for forecast over-consumption",
+      "Lead Time Horizon method combined with EOQ",
+      "Compares weight, volume and dollars with vendor targets for free freight and containers",
+      "Hub and spoke warehouse replenishment",
+      "Customer-specific forecasts or imported customer forecasts",
+      "Vendor forecasts net of on-hand and on-order",
+      "Production and assembly planning drives component demand",
+      "Forecasts seasonal or sporadic items"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IE",
+      "IT",
+      "MX",
+      "NL",
+      "NZ",
+      "PT",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

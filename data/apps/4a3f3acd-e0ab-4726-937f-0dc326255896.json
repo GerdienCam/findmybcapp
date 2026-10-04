@@ -1,0 +1,67 @@
+{
+  "appId": "TYPE.connect|PUBID.dynamicscentersoftwaresolutionsllc|AID.purchase-requisition-and-approvals-for-business-c|PAPPID.4a3f3acd-e0ab-4726-937f-0dc326255896",
+  "guid": "4a3f3acd-e0ab-4726-937f-0dc326255896",
+  "publisherId": "dynamicscentersoftwaresolutionsllc",
+  "offerId": "purchase-requisition-and-approvals-for-business-c",
+  "source": {
+    "name": "Purchase Requisition and Approvals for Business Central",
+    "publisher": "DynamicsCenter Software Solutions LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.dynamicscentersoftwaresolutionsllc%7CAID.purchase-requisition-and-approvals-for-business-c%7CPAPPID.4a3f3acd-e0ab-4726-937f-0dc326255896",
+    "lastModified": "2026-08-26T06:11:46.6232626+00:00",
+    "appVersion": "10.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicscenter.com/",
+    "sourceHash": "sha256:e1f5a6028a46837635b4df46953aa25587d9f93224a0117811fe77fb003b2f68"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e1f5a6028a46837635b4df46953aa25587d9f93224a0117811fe77fb003b2f68",
+    "mappedOn": null,
+    "summary": "Purchase requisitions, approvals, budgets and vendor quotes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-budget-control",
+      "ng-admin-approval-workflows",
+      "ng-procurement-spend",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Requests for items, services and fixed assets with price, vendor, justification, priority, needed-by date",
+      "Budget check against department budget before approval",
+      "Approvers see request value and remaining budget",
+      "Multi-level approval with limits, delegation and comments",
+      "Central approval queue with pending and overdue approvals",
+      "Vendor quotations (RFQ) with prices, validity and lead times compared",
+      "Split award of lines to different vendors",
+      "One-click conversion to purchase orders, one PO per awarded vendor",
+      "Audit trail linking requisition, approvals, quotation and PO",
+      "Procurement role centre",
+      "Spend analysis by department, vendor, approval turnaround and RFQ savings"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "appId": "PUBID.erpwareltd|AID.licence-management|PAPPID.4dc5fdfd-d23e-4fdf-b18f-33b66479c4d1",
+  "guid": "4dc5fdfd-d23e-4fdf-b18f-33b66479c4d1",
+  "publisherId": "erpwareltd",
+  "offerId": "licence-management",
+  "source": {
+    "name": "DCX - Licence Management",
+    "publisher": "ERP Ware",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpwareltd%7CAID.licence-management%7CPAPPID.4dc5fdfd-d23e-4fdf-b18f-33b66479c4d1",
+    "lastModified": "2026-03-17T17:14:18.7989773+00:00",
+    "appVersion": "27.1.19.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamics-connect.co.uk/Apps/dcx-licence-management",
+    "sourceHash": "sha256:5147ce61f601ff25fe048d9a53edfa11fbbcd105e5ba0b36c7490d1b7f23703f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5147ce61f601ff25fe048d9a53edfa11fbbcd105e5ba0b36c7490d1b7f23703f",
+    "mappedOn": null,
+    "summary": "License management for Dynamics Connect apps",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-licensing",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Centrally manages DCX app licences",
+      "Detects installed Dynamics Connect/ERP Ware apps",
+      "Works with production and sandbox"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Licence-management dependency app for the publisher's own DCX apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

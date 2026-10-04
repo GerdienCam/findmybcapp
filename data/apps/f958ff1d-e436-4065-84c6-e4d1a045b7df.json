@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.sbcdynamicserp1637715412860|AID.acumenscustomerdepositsprepaymentsmanagementww|PAPPID.f958ff1d-e436-4065-84c6-e4d1a045b7df",
+  "guid": "f958ff1d-e436-4065-84c6-e4d1a045b7df",
+  "publisherId": "sbcdynamicserp1637715412860",
+  "offerId": "acumenscustomerdepositsprepaymentsmanagementww",
+  "source": {
+    "name": "Acumens Customer Deposits & Prepayments Management (WW)",
+    "publisher": "SBC Dynamics ERP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumenscustomerdepositsprepaymentsmanagementww%7CPAPPID.f958ff1d-e436-4065-84c6-e4d1a045b7df",
+    "lastModified": "2026-08-31T09:00:01.3288689+00:00",
+    "appVersion": "25.1023.1.2",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.sbcdynamicserp.com/acumens-deposits-prepayments-management/",
+    "sourceHash": "sha256:a40218fda0bcd8615d939eb9206761a9c45efe35bebc12c66317b22fc51ea54a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a40218fda0bcd8615d939eb9206761a9c45efe35bebc12c66317b22fc51ea54a",
+    "mappedOn": null,
+    "summary": "Customer deposits and prepayments management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Deposits at sales order header level by fixed amount or percentage",
+      "Combine multiple sales orders into one sales deposit request",
+      "Deposit requests on their own for items, fixed assets or resources",
+      "Accept deposits at quote stage without reserving inventory",
+      "Supports ACH, EMV, chip & PIN and contactless payments",
+      "Credit memo for a specific prepayment invoice without reversing all",
+      "Reporting on deposit balances, unapplied prepayments and net AR"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

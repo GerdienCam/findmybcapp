@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.advanced_blob_storage|PAPPID.82b87900-756b-485a-a3f7-d3bacc3ee5b7",
+  "guid": "82b87900-756b-485a-a3f7-d3bacc3ee5b7",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "advanced_blob_storage",
+  "source": {
+    "name": "Advanced Blob Storage",
+    "publisher": "LODESTAR SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.advanced_blob_storage%7CPAPPID.82b87900-756b-485a-a3f7-d3bacc3ee5b7",
+    "lastModified": "2026-09-14T15:54:07.2598694+00:00",
+    "appVersion": "2.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:6bacf445997a908eaddbef735ecbcc8b7b8a13bc1b6a88c3a5c03c228bdf0e51"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6bacf445997a908eaddbef735ecbcc8b7b8a13bc1b6a88c3a5c03c228bdf0e51",
+    "mappedOn": null,
+    "summary": "Stores attachments in Azure storage",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Stores BC attachments in Azure Blob Storage",
+      "Transparent to users: drag and drop and download as usual",
+      "Reduces BC database size",
+      "Attachment files are backed up"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

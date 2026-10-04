@@ -1,0 +1,65 @@
+{
+  "appId": "TYPE.connect|PUBID.dbsync|AID.microsoft-dynamics-business-central-replication|PAPPID.3085ee94-d589-46e4-8546-b9ba3f75b24d",
+  "guid": "3085ee94-d589-46e4-8546-b9ba3f75b24d",
+  "publisherId": "dbsync",
+  "offerId": "microsoft-dynamics-business-central-replication",
+  "source": {
+    "name": "Business Central Replication",
+    "publisher": "DBSync",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.dbsync%7CAID.microsoft-dynamics-business-central-replication%7CPAPPID.3085ee94-d589-46e4-8546-b9ba3f75b24d",
+    "lastModified": "2024-11-21T18:29:53.4134541+00:00",
+    "appVersion": "9.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.mydbsync.com/cloud-replication-main",
+    "sourceHash": "sha256:e0df2c03c13ef9d6e323fd8152d06d9b0089d6a1f98ab155819572514b964776"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e0df2c03c13ef9d6e323fd8152d06d9b0089d6a1f98ab155819572514b964776",
+    "mappedOn": null,
+    "summary": "Replicates BC data into local SQL Server",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-backup-recovery",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving",
+      "ng-admin-data-migration",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Replicates BC into a local SQL Server or MySQL database",
+      "Allows deleted records and the history of changes to be recovered",
+      "Sets up a warehouse of data for reporting or mining",
+      "Bi-directional sync with back-end databases or applications",
+      "Multiple synchronization profiles via UI",
+      "Choose which objects and fields get replicated",
+      "Offline data cleansing and manipulation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SQL Server",
+      "MySQL"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

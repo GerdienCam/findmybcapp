@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.pleo|PAPPID.8c063461-6468-4dcd-812f-a2b2eca77c0c",
+  "guid": "8c063461-6468-4dcd-812f-a2b2eca77c0c",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "pleo",
+  "source": {
+    "name": "Pleo Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.pleo%7CPAPPID.8c063461-6468-4dcd-812f-a2b2eca77c0c",
+    "lastModified": "2024-11-21T12:00:31.3307043+00:00",
+    "appVersion": "1.0.0.8",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:8c7c055f036469bd3ca756f3f34f12a9f926ca346fabb19c1b38c37de45d6082"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8c7c055f036469bd3ca756f3f34f12a9f926ca346fabb19c1b38c37de45d6082",
+    "mappedOn": null,
+    "summary": "Imports Pleo card expenses",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bank-reconciliation"
+    ],
+    "claims": [
+      "Downloads expenses and transactions from Pleo into BC",
+      "Downloads receipts from Pleo",
+      "Posts bank journal and reconciles bank statement",
+      "Free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Pleo"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

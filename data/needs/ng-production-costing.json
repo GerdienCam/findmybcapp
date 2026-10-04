@@ -1,0 +1,274 @@
+{
+  "id": "ng-production-costing",
+  "order": 92,
+  "label": "Knowing what products cost to make",
+  "description": "Calculating standard costs, posting actual production costs and analysing variances.",
+  "type": "bpc",
+  "area": "Manufacturing",
+  "relevance": "high",
+  "statements": [
+    "Knowing what products cost to make",
+    "Calculating standard costs, posting actual production costs and analysing variances.",
+    "We need to know what a custom product will cost to make before we quote it",
+    "Our estimators calculate cost in Excel and it never matches the production order",
+    "Is there an app for cost estimating on make to order jobs in BC?",
+    "How do I calculate the expected cost of a production order including labor and overhead?",
+    "We want to quote complex fabricated parts quickly with material and machine time",
+    "manufacturing quote calculation app",
+    "When steel prices go up we have no idea how much our product costs change",
+    "Our sales team sells below cost because they can't see the real production cost",
+    "We want to run what-if cost calculations with different materials",
+    "Calculating cost for a new product that has no BOM or routing yet",
+    "The estimate should include outside processing like painting and galvanising",
+    "We need cost per unit at different batch sizes because setup time matters",
+    "Is there a way to roll up the cost of a multi-level product before we build it?",
+    "Our quotes take a week because the estimator has to ask production for times",
+    "We want to save cost estimates and turn the winning ones into production orders",
+    "How much does it really cost us to produce one unit of our best seller?",
+    "Engineering needs a quick costing of design alternatives",
+    "estimated cost vs selling price check for custom jobs",
+    "We want overhead rates added automatically to cost estimates per machine hour",
+    "Our cost estimates ignore scrap rates and we always end up losing money",
+    "Our finished goods are valued wrong because production cost never gets adjusted",
+    "When we finish a production order the cost on the item ledger looks way too low",
+    "How do overhead costs get added to each production order in BC?",
+    "Adjust cost item entries runs for hours and production costs are still off",
+    "We need production costs posted to the general ledger every month end",
+    "WIP account in the GL never gets cleared",
+    "Some of our costs come from an external MES and need to be posted onto orders",
+    "Is there an app that applies indirect cost per machine hour to production orders?",
+    "Finished production orders still show expected cost not actual",
+    "We use standard cost and the variances don't post where the accountant expects",
+    "Subcontracting invoices arrive after we finish the order and the cost doesn't flow",
+    "We want to close production orders monthly so costs land in the right period",
+    "We don't know if we make money on our production orders",
+    "How do I compare expected and actual cost on a finished production order?",
+    "production cost variance report",
+    "Our accountant can't explain the WIP balance at month end",
+    "We want to see material, labor and overhead variances per production order",
+    "Is there a Power BI report for manufacturing cost in Business Central?",
+    "Which products cost us more to make than the standard cost says?",
+    "The production order statistics page is hard to understand",
+    "We need a WIP report by production order for the auditors",
+    "Labor cost on our jobs is way above what we estimated and we don't know why",
+    "Management wants a monthly report of production cost trends per product line",
+    "Cost per unit went up this quarter, which components caused it?",
+    "We want to compare the cost of the same product made on different lines",
+    "Scrap and rework push our costs up but no report shows how much",
+    "Is there an app that explains capacity variance versus material variance?",
+    "We need actual versus budget for the factory as a whole",
+    "Our finance team builds manufacturing cost reports in Excel every month",
+    "How much overhead did we absorb versus what we actually spent?",
+    "We want to drill from the GL WIP account down to production orders",
+    "Which customer orders lost money in production last month?",
+    "Our standard costs haven't been updated in three years",
+    "Unit cost on the item card is clearly wrong and margins on reports are fiction",
+    "We need a cost rollup from components to finished goods",
+    "Is there an app to calculate landed cost including freight and duty per item?",
+    "How do I add overhead as a percentage to the item cost in BC?",
+    "Roll up standard cost for all BOM levels",
+    "Purchase prices went up 15% but item costs still show the old numbers",
+    "We want to simulate new standard costs before we apply them",
+    "Our kits show zero cost because the components don't roll up",
+    "cost breakdown material labour overhead",
+    "Indirect costs per unit for packaging and handling are not in the item cost",
+    "Finance and production disagree on what a product actually costs to make"
+  ],
+  "questions": [
+    {
+      "id": "goal",
+      "text": "What do you most need to know or fix about production cost?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Getting overhead and indirect costs onto products",
+          "patterns": [
+            "overhead",
+            "indirect cost",
+            "allocat\\w* .{0,30}(overhead|indirect|production|actual|labor|payroll|direct|shared|costs (to|among|across|into))",
+            "distribut\\w* .{0,30}(general|production|overhead|cost|expense)",
+            "apportion",
+            "payroll",
+            "utilities"
+          ]
+        },
+        {
+          "label": "Seeing variances between expected and actual cost",
+          "patterns": [
+            "varianc",
+            "expected vs actual",
+            "actual vs (expected|standard)",
+            "expected cost .{0,30}actual",
+            "deviation",
+            "discrepanc"
+          ]
+        },
+        {
+          "label": "Calculating cost before we produce or quote",
+          "patterns": [
+            "standard cost",
+            "calculation scheme",
+            "costing schedule",
+            "cost explosion",
+            "calculates expected cost",
+            "price calculat",
+            "configurat",
+            "quotation"
+          ]
+        },
+        {
+          "label": "Correcting costs after posting",
+          "patterns": [
+            "correct",
+            "revalu",
+            "reopen",
+            "undo",
+            "afterwards",
+            "re-?evaluat"
+          ]
+        },
+        {
+          "label": "Splitting cost across co-products or by-products",
+          "patterns": [
+            "co-products?",
+            "by-products?",
+            "joint production",
+            "side products",
+            "disassembl"
+          ]
+        },
+        {
+          "label": "Landed cost of purchased items",
+          "patterns": [
+            "landed",
+            "freight"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Getting overhead and indirect costs onto products": 0.5,
+        "Seeing variances between expected and actual cost": 0.26,
+        "Calculating cost before we produce or quote": 0.26,
+        "Correcting costs after posting": 0.21,
+        "Splitting cost across co-products or by-products": 0.07,
+        "Landed cost of purchased items": 0.1
+      }
+    },
+    {
+      "id": "overheadsource",
+      "text": "Where do your overhead amounts come from?",
+      "options": [
+        {
+          "label": "Actual amounts posted in the general ledger",
+          "patterns": [
+            "(costs?|balances?|amounts?|expenses?) .{0,40}(g/l|general ledger)",
+            "g/l account costs",
+            "payroll",
+            "utilities",
+            "balances from"
+          ]
+        },
+        {
+          "label": "Budgets or predetermined rates",
+          "patterns": [
+            "budget",
+            "fixed rates?",
+            "predetermined",
+            "overhead rate",
+            "cost factor",
+            "tariffs"
+          ]
+        },
+        {
+          "label": "Time spent at work or machine centers",
+          "patterns": [
+            "work duration",
+            "time spent",
+            "machine hours",
+            "labor hours",
+            "work center usage",
+            "capacity (ledger|cost)"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Actual amounts posted in the general ledger": 0.21,
+        "Budgets or predetermined rates": 0.12,
+        "Time spent at work or machine centers": 0.26
+      }
+    },
+    {
+      "id": "valuation",
+      "text": "How do you value inventory?",
+      "options": [
+        {
+          "label": "Standard cost",
+          "patterns": [
+            "standard cost"
+          ]
+        },
+        {
+          "label": "Average, FIFO or LIFO with costing periods",
+          "patterns": [
+            "lifo",
+            "fifo",
+            "weighted average",
+            "average (operating )?cost",
+            "costing periods?",
+            "calculation periods?"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Standard cost": 0.14,
+        "Average, FIFO or LIFO with costing periods": 0.07
+      }
+    },
+    {
+      "id": "capture",
+      "text": "How is time recorded on the shop floor?",
+      "options": [
+        {
+          "label": "Workers clock operations on touch or mobile",
+          "patterns": [
+            "touch",
+            "mobile",
+            "time recording",
+            "shop floor",
+            "employee time",
+            "start / pause",
+            "timestamps"
+          ]
+        },
+        {
+          "label": "From routings and output journals in BC",
+          "patterns": [
+            "routing",
+            "output journal"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Workers clock operations on touch or mobile": 0.1,
+        "From routings and output journals in BC": 0.29
+      }
+    }
+  ]
+}

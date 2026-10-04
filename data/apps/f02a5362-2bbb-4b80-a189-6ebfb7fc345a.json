@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-ecm-connect-elo|PAPPID.f02a5362-2bbb-4b80-a189-6ebfb7fc345a",
+  "guid": "f02a5362-2bbb-4b80-a189-6ebfb7fc345a",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-ecm-connect-elo",
+  "source": {
+    "name": "Aptean ECM Connect x ELO",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-ecm-connect-elo%7CPAPPID.f02a5362-2bbb-4b80-a189-6ebfb7fc345a",
+    "lastModified": "2026-09-01T07:37:54.0508297+00:00",
+    "appVersion": "2603.260800.20260825.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:871100ae5c4588bd62341d8ec89dded1967ec6c6fe9711e24bc2066ee310515a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:871100ae5c4588bd62341d8ec89dded1967ec6c6fe9711e24bc2066ee310515a",
+    "mappedOn": null,
+    "summary": "Exchanges documents with ELO ECM",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Automated export of outbound documents to ELO",
+      "Captures inbound documents via OCR and links them to transactions",
+      "Automatic linking of documents with transactions",
+      "Document access from Business Central",
+      "Integrates with Aptean Equipment DMS"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "ELO ECM"
+    ],
+    "requires": [
+      "Aptean ECM Connect"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

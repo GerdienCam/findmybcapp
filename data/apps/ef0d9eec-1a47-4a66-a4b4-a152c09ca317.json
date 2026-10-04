@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.styrspf|AID.styr_bankasamskifti|PAPPID.ef0d9eec-1a47-4a66-a4b4-a152c09ca317",
+  "guid": "ef0d9eec-1a47-4a66-a4b4-a152c09ca317",
+  "publisherId": "styrspf",
+  "offerId": "styr_bankasamskifti",
+  "source": {
+    "name": "Bankasamskifti",
+    "publisher": "Stýr Sp/f",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.styrspf%7CAID.styr_bankasamskifti%7CPAPPID.ef0d9eec-1a47-4a66-a4b4-a152c09ca317",
+    "lastModified": "2026-08-24T12:22:50.5019828+00:00",
+    "appVersion": "27.0.0.14",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://styr.fo/samband/",
+    "sourceHash": "sha256:54d71d6971f877a584518a949bb0aa418827160173670bcd48c971d66b0ea714"
+  },
+  "mapping": {
+    "sourceHash": "sha256:54d71d6971f877a584518a949bb0aa418827160173670bcd48c971d66b0ea714",
+    "mappedOn": null,
+    "summary": "Bank payment file exchange import and export",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Imports bank payment files with validation",
+      "Exports payment proposals or approved payment runs in bank format",
+      "File validation with error reporting",
+      "Configurable file formats and mapping per bank",
+      "Logs file exchanges"
+    ],
+    "countries": [
+      "DK",
+      "FO"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Banks"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

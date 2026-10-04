@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.clarityukraine1657050202465|AID.clrt_time_reporting|PAPPID.04e6018e-e343-434d-aad7-f26b1a2524a8",
+  "guid": "04e6018e-e343-434d-aad7-f26b1a2524a8",
+  "publisherId": "clarityukraine1657050202465",
+  "offerId": "clrt_time_reporting",
+  "source": {
+    "name": "Time Reporting for Professional Services",
+    "publisher": "Clarity Ukraine",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.clarityukraine1657050202465%7CAID.clrt_time_reporting%7CPAPPID.04e6018e-e343-434d-aad7-f26b1a2524a8",
+    "lastModified": "2026-06-02T11:07:13.5875344+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://clarityukraine.sharepoint.com/:f:/g/EtkyrrhIVxZJgB7D2Leq7cMBI0vbwq7iO2swlCYNK1oLkQ?e=GBAqFA",
+    "sourceHash": "sha256:3acc0a8fdff9146a5c57331a26fd2390e1e564f357bf15710872e86c50b83e79"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3acc0a8fdff9146a5c57331a26fd2390e1e564f357bf15710872e86c50b83e79",
+    "mappedOn": null,
+    "summary": "Employee time reporting on projects with MS Project integration",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-billing",
+      "ng-proj-planning"
+    ],
+    "claims": [
+      "Imports project plans from MS Project incl. task assignments and rates",
+      "Assigns tasks to employees",
+      "Creates client timesheets per project from employee-reported time",
+      "Invoices based on project timesheets",
+      "Sends actual time registered in BC over to MS Project"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "ru",
+      "uk"
+    ],
+    "industries": [
+      "Professional services"
+    ],
+    "connectsTo": [
+      "Microsoft Project"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.navertica|AID.nvr-workreg-prod|PAPPID.12e545c1-b529-44ba-abe5-b23fbbf76cad",
+  "guid": "12e545c1-b529-44ba-abe5-b23fbbf76cad",
+  "publisherId": "navertica",
+  "offerId": "nvr-workreg-prod",
+  "source": {
+    "name": "Navertica Work Registration Production",
+    "publisher": "NAVERTICA a.s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.nvr-workreg-prod%7CPAPPID.12e545c1-b529-44ba-abe5-b23fbbf76cad",
+    "lastModified": "2026-09-02T12:28:28.6251591+00:00",
+    "appVersion": "27.1.358173.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.navertica.com/en-us/Work%20Registration%20-%20Production/Index/",
+    "sourceHash": "sha256:55745ca2795c66f961e6a76ef0f1fb79adfd8bad4e8cab2fe59857c75956ea37"
+  },
+  "mapping": {
+    "sourceHash": "sha256:55745ca2795c66f961e6a76ef0f1fb79adfd8bad4e8cab2fe59857c75956ea37",
+    "mappedOn": null,
+    "summary": "Logs time and material consumption on production operations",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Logs time and material consumption on production operations and posts output",
+      "Touchscreen tablet or terminal UI",
+      "Chip login at the terminal",
+      "Start and stop job on an operation to record time",
+      "Scan a barcode or pick consumed and produced items to fill and post consumption and output journals",
+      "Works with lot and serial numbers",
+      "User filters limit work centers or machine centers",
+      "Requires Premium edition"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

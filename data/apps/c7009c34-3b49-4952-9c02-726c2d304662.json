@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.applibra|AID.al_barcode|PAPPID.c7009c34-3b49-4952-9c02-726c2d304662",
+  "guid": "c7009c34-3b49-4952-9c02-726c2d304662",
+  "publisherId": "applibra",
+  "offerId": "al_barcode",
+  "source": {
+    "name": "AL Barcode",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_barcode%7CPAPPID.c7009c34-3b49-4952-9c02-726c2d304662",
+    "lastModified": "2026-03-25T10:42:44.9292787+00:00",
+    "appVersion": "25.0.26.3251035",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsapplab.com/apps",
+    "sourceHash": "sha256:5fea7f6eda32ea1ef32e5a1e335f4b25b752502fb0f06b8849d97763732976a4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5fea7f6eda32ea1ef32e5a1e335f4b25b752502fb0f06b8849d97763732976a4",
+    "mappedOn": null,
+    "summary": "Barcode management and printing within Business Central",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Generates barcode images as PNG, JPG, SVG, PDF and HTML",
+      "Handles barcode types such as QR Code, ITF-14, Code 128, EAN-13 and more",
+      "Barcodes returned as TempBlob for use in reports and layouts",
+      "Image generation via external internet rendering service",
+      "Associates barcodes with items via GTIN",
+      "Barcodes on labels, sales, purchase and logistics documents",
+      "Works with standard and thermal printers",
+      "On-premises option via AL Bridge",
+      "Customer data not stored on external service"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.succeedit_5140844|AID.job_queue_monitor|PAPPID.8eaaa142-11cb-483b-a295-075055222c3d",
+  "guid": "8eaaa142-11cb-483b-a295-075055222c3d",
+  "publisherId": "succeedit_5140844",
+  "offerId": "job_queue_monitor",
+  "source": {
+    "name": "Job Queue Monitor",
+    "publisher": "SucceedIT B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.succeedit_5140844%7CAID.job_queue_monitor%7CPAPPID.8eaaa142-11cb-483b-a295-075055222c3d",
+    "lastModified": "2025-11-10T15:41:50.8737728+00:00",
+    "appVersion": "22.0.20240417.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.succeedit.nl/en/business-central-apps/job-queue-monitor",
+    "sourceHash": "sha256:dafbd6bf5deed5d50ff3afb686fb6bcea65ea923b5bfc7e07bfe9d92ee842685"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dafbd6bf5deed5d50ff3afb686fb6bcea65ea923b5bfc7e07bfe9d92ee842685",
+    "mappedOn": null,
+    "summary": "E-mail alerts on failing job queue entries",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Sends email alerts when a job queue entry errors",
+      "Email includes error message and direct link to job queue entry",
+      "Configure which job queue entries are monitored and which users receive updates",
+      "30-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

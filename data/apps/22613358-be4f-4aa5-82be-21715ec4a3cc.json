@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.wiselausnirehf1587117975659|AID.wisesmartpos|PAPPID.22613358-be4f-4aa5-82be-21715ec4a3cc",
+  "guid": "22613358-be4f-4aa5-82be-21715ec4a3cc",
+  "publisherId": "wiselausnirehf1587117975659",
+  "offerId": "wisesmartpos",
+  "source": {
+    "name": "Wise SmartPOS",
+    "publisher": "Wise",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wiselausnirehf1587117975659%7CAID.wisesmartpos%7CPAPPID.22613358-be4f-4aa5-82be-21715ec4a3cc",
+    "lastModified": "2026-09-08T17:24:55.9673575+00:00",
+    "appVersion": "27.0.20260907.18",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.wise.is/smartpos",
+    "sourceHash": "sha256:c83f209bd583c111c7ce7665dbd020b97aa750a2c2fd81fb10eeaada3875fb12"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c83f209bd583c111c7ce7665dbd020b97aa750a2c2fd81fb10eeaada3875fb12",
+    "mappedOn": null,
+    "summary": "POS integrated with BC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "POS for BC SaaS working with dedicated POS devices",
+      "Store configuration, button layouts, receipt formats and operator permissions set up in BC",
+      "POS devices retrieve setup via web services",
+      "Sales posted as invoices or credit memos in BC",
+      "Job queue automation of transaction processing"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

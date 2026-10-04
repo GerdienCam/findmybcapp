@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_drag_and_drop|PAPPID.2cd64d6b-1011-4848-895b-9b43a4245ce5",
+  "guid": "2cd64d6b-1011-4848-895b-9b43a4245ce5",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_drag_and_drop",
+  "source": {
+    "name": "Dynavision Drag and Drop",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_drag_and_drop%7CPAPPID.2cd64d6b-1011-4848-895b-9b43a4245ce5",
+    "lastModified": "2026-10-02T09:35:45.8946285+00:00",
+    "appVersion": "28.0.0.46223",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Drag_and_Drop_Manual.pdf",
+    "sourceHash": "sha256:1ca6643b4adcd0c0c46e87cad7251f2310eab4669f4273b626419ac151b1cfdf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1ca6643b4adcd0c0c46e87cad7251f2310eab4669f4273b626419ac151b1cfdf",
+    "mappedOn": null,
+    "summary": "Drag and drop attachments with Azure Blob and SharePoint storage",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Drag and drop attachments in factboxes",
+      "Hierarchical file representation",
+      "Download with double click from factbox",
+      "External storage in Azure Blob, Azure File System or SharePoint",
+      "Configurable document structures and categories",
+      "Available on items, customers, vendors, resources, employees, fixed assets, sales/purchase documents and jobs"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage",
+      "Azure File System",
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

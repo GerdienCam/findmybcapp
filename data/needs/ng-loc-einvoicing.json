@@ -1,0 +1,317 @@
+{
+  "id": "ng-loc-einvoicing",
+  "order": 199,
+  "label": "Meeting e-invoicing mandates and networks",
+  "description": "Sending and receiving legally compliant electronic invoices: Peppol, OIOUBL/NemHandel, XRechnung/ZUGFeRD, Factur-X/Chorus, SDI, KSeF, ZATCA, CFDI, Turkish e-archive, VeriFactu and others, via access points and national platforms.",
+  "type": "localization",
+  "area": "Country requirements",
+  "relevance": "high",
+  "statements": [
+    "Meeting e-invoicing mandates and networks",
+    "Sending and receiving legally compliant electronic invoices: Peppol, OIOUBL/NemHandel, XRechnung/ZUGFeRD, Factur-X/Chorus, SDI, KSeF, ZATCA, CFDI, Turkish e-archive, VeriFactu and others, via access points and national platforms.",
+    "E-invoicing becomes mandatory in Germany and we're not ready",
+    "Peppol access point for Business Central",
+    "Public sector customers reject our PDF invoices",
+    "We need to send OIOUBL to Danish municipalities",
+    "How do we receive XRechnung invoices and read them in BC?",
+    "ZATCA phase 2 integration for our Saudi company",
+    "Italian SDI e-invoices from BC",
+    "Which e-document connector should we pick?",
+    "Belgium requires Peppol B2B invoices, what do we need?",
+    "Our customer wants ZUGFeRD with an embedded XML",
+    "e-invoicing mandate France 2026",
+    "Invoices must be reported to the tax authority in real time",
+    "Polish KSeF integration",
+    "Incoming e-invoices should land as purchase documents automatically",
+    "VeriFactu compliance for our Spanish entity",
+    "Mexican CFDI stamping from BC",
+    "We have companies in five countries with five different e-invoice rules",
+    "Turkish e-archive and e-invoice through an integrator",
+    "Malaysia MyInvois e-invoicing",
+    "Status of each e-invoice: delivered, accepted, rejected"
+  ],
+  "questions": [
+    {
+      "id": "route",
+      "text": "How should Business Central connect to the e-invoicing network?",
+      "help": "Ask your partner if unsure.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Through BC's standard E-Documents module",
+          "patterns": [
+            "e-?document (core|framework|service)",
+            "e-?documents? framework",
+            "e-documents? connector",
+            "bc e-documents",
+            "e-document service page"
+          ]
+        },
+        {
+          "label": "Via a provider or access point I subscribe to",
+          "patterns": [
+            "access point",
+            "requires .*(subscription|account|contract|agreement)",
+            "subscription",
+            "integrator",
+            "\\boperator",
+            "\\bvia (sproom|pagero|storecove|edicom|inexchange|unimaze|maventa|fatorly|avalara|logiq|b2brouter|continia|signup|fornav|vchasno|abletech|unifiedpost)",
+            "\\bthrough (sproom|pagero|edicom|inexchange)",
+            "provider",
+            "e-invoicing (service|network)",
+            "\\bnetwork\\b"
+          ]
+        },
+        {
+          "label": "Directly, with no middleman or extra subscription",
+          "patterns": [
+            "direct(ly)? (connection|connects?|to|with|api|from|sending)",
+            "without (middleware|third|extra)",
+            "no (middleware|third|extra integration)",
+            "no sproom"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Through BC's standard E-Documents module": 0.15,
+        "Via a provider or access point I subscribe to": 0.38,
+        "Directly, with no middleman or extra subscription": 0.09
+      }
+    },
+    {
+      "id": "format",
+      "text": "Which e-invoice format do your customers or authorities ask for?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Peppol (BIS, EHF, InvoiceNow...)",
+          "patterns": [
+            "peppol",
+            "\\behf\\b",
+            "invoicenow"
+          ]
+        },
+        {
+          "label": "OIOUBL / NemHandel / EAN (Denmark)",
+          "patterns": [
+            "oio",
+            "nemhandel",
+            "\\bean\\b"
+          ]
+        },
+        {
+          "label": "ZUGFeRD, XRechnung or Factur-X",
+          "patterns": [
+            "zugferd",
+            "x-?rechnung",
+            "factur-?x"
+          ]
+        },
+        {
+          "label": "A national clearance system (ZATCA, SDI, KSeF, CFDI, VeriFactu...)",
+          "patterns": [
+            "zatca",
+            "fatoora",
+            "\\bsdi\\b",
+            "ksef",
+            "cfdi",
+            "verifactu",
+            "myinvois",
+            "lhdn",
+            "mydata",
+            "anaf",
+            "e-?factura",
+            "facturae",
+            "fatturapa",
+            "e-?archive",
+            "e-?fatura",
+            "\\bsef\\b",
+            "fawtara",
+            "\\birp\\b",
+            "fiscaliz",
+            "e-?faktura",
+            "chorus",
+            "pint ae",
+            "\\bfta\\b",
+            "tax invoice"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Peppol (BIS, EHF, InvoiceNow...)": 0.35,
+        "OIOUBL / NemHandel / EAN (Denmark)": 0.15,
+        "ZUGFeRD, XRechnung or Factur-X": 0.09,
+        "A national clearance system (ZATCA, SDI, KSeF, CFDI, VeriFactu...)": 0.33
+      }
+    },
+    {
+      "id": "inbound",
+      "text": "Do you also need to handle e-invoices from suppliers?",
+      "help": "Skip if you only send.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Receive supplier e-invoices into BC",
+          "patterns": [
+            "receiv",
+            "\\bimport",
+            "incoming",
+            "inbound",
+            "downloads? (incoming|e-?invoic)",
+            "retrieves? e-?invoic",
+            "supplier invoices",
+            "vendor (e-?)?invoices"
+          ]
+        },
+        {
+          "label": "Create purchase invoices automatically",
+          "patterns": [
+            "creates? .*purchase (invoice|order|document)",
+            "purchase invoices? (created|automatically)",
+            "convert\\w* .*purchase",
+            "into purchase",
+            "posts? incoming",
+            "creates? documents and accounting",
+            "create invoice or order",
+            "to (a )?purchase invoice",
+            "fully automated create",
+            "creating purchase"
+          ]
+        },
+        {
+          "label": "Send accept/reject replies to the supplier",
+          "patterns": [
+            "approv\\w*/reject",
+            "accept\\w*/reject",
+            "accept or reject",
+            "approve or reject",
+            "acceptance or rejection",
+            "application response",
+            "approve, decline",
+            "rejection (handling|messages)"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Receive supplier e-invoices into BC": 0.54,
+        "Create purchase invoices automatically": 0.14,
+        "Send accept/reject replies to the supplier": 0.16
+      }
+    },
+    {
+      "id": "outgoing",
+      "text": "What must the app do for the e-invoices you send?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Show delivery or acceptance status in BC",
+          "patterns": [
+            "status",
+            "delivery (tracking|status)",
+            "track",
+            "monitor",
+            "receipts?\\b",
+            "accepted",
+            "rejected",
+            "log\\b",
+            "audit trail",
+            "history"
+          ]
+        },
+        {
+          "label": "Check for errors before sending",
+          "patterns": [
+            "validat",
+            "compliance check",
+            "format check",
+            "pre-submission",
+            "check before",
+            "blocks posting",
+            "only zatca-accepted"
+          ]
+        },
+        {
+          "label": "Include a PDF copy or attachments",
+          "patterns": [
+            "attach",
+            "embed\\w* pdf",
+            "pdf (attachment|copy|invoice)",
+            "with embedded pdf",
+            "optional (additional )?pdf",
+            "pdf/a-3",
+            "includes pdf",
+            "pdf inside"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Show delivery or acceptance status in BC": 0.46,
+        "Check for errors before sending": 0.23,
+        "Include a PDF copy or attachments": 0.24
+      }
+    },
+    {
+      "id": "documents",
+      "text": "Which documents besides invoices do you exchange electronically?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Credit notes",
+          "patterns": [
+            "credit (memo|note)",
+            "corrective",
+            "correction"
+          ]
+        },
+        {
+          "label": "Orders and delivery notes",
+          "patterns": [
+            "ordrsp",
+            "despatch",
+            "desadv",
+            "delivery note",
+            "e-?way bill",
+            "waybill",
+            "purchase orders (to vendors|electronically)",
+            "customer purchase orders",
+            "receives purchase orders",
+            "\\border, desadv"
+          ]
+        },
+        {
+          "label": "Service invoices",
+          "patterns": [
+            "service invoice"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Credit notes": 0.36,
+        "Orders and delivery notes": 0.08,
+        "Service invoices": 0.1
+      }
+    }
+  ]
+}

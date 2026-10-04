@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionexpense|PAPPID.8d78acdd-58d5-4186-9c96-771171ad5e51",
+  "guid": "8d78acdd-58d5-4186-9c96-771171ad5e51",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionexpense",
+  "source": {
+    "name": "VisionExpense",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionexpense%7CPAPPID.8d78acdd-58d5-4186-9c96-771171ad5e51",
+    "lastModified": "2026-06-09T14:09:02.2592477+00:00",
+    "appVersion": "1.0.0.26",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.visionpeople.dk/help/expense/",
+    "sourceHash": "sha256:75721444638fd5608b6133dcb616d79d0b78ca455cdf384b2cca9c1a0fd871df"
+  },
+  "mapping": {
+    "sourceHash": "sha256:75721444638fd5608b6133dcb616d79d0b78ca455cdf384b2cca9c1a0fd871df",
+    "mappedOn": null,
+    "summary": "Imports employee expenses from Pleo or Acubiz",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-dimensions"
+    ],
+    "claims": [
+      "Imports expenses from Pleo or Acubiz",
+      "Automatically creates a general journal",
+      "Receipts stored as Incoming Documents, viewable on journal and G/L entries",
+      "Maps expense system dimensions to BC dimensions",
+      "Acubiz integration via SFTP",
+      "Pleo integration via API, requires advanced Pleo subscription"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Pleo",
+      "Acubiz"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

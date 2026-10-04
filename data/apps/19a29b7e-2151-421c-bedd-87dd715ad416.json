@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.acumenconsulting|AID.azure_email|PAPPID.19a29b7e-2151-421c-bedd-87dd715ad416",
+  "guid": "19a29b7e-2151-421c-bedd-87dd715ad416",
+  "publisherId": "acumenconsulting",
+  "offerId": "azure_email",
+  "source": {
+    "name": "Acumen Connector for Azure Email",
+    "publisher": "Acumen Consulting Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.acumenconsulting%7CAID.azure_email%7CPAPPID.19a29b7e-2151-421c-bedd-87dd715ad416",
+    "lastModified": "2026-08-07T00:20:48.9878481+00:00",
+    "appVersion": "1.0.286.4",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://acumenconsulting.co.nz/contact/",
+    "sourceHash": "sha256:506e93d23d67598bfda1e1f813e58f5a0d53ccf7c5ff8b02fd12e123a682106e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:506e93d23d67598bfda1e1f813e58f5a0d53ccf7c5ff8b02fd12e123a682106e",
+    "mappedOn": null,
+    "summary": "Sends BC emails through Azure Communication Services",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends BC emails through Azure Communication Services",
+      "Sends from a single account without Office 365 or Exchange Online licenses",
+      "Read receipts confirming email was opened",
+      "Scales to millions of emails per day",
+      "Requires own Azure subscription; email service cost not included"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Communication Services"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

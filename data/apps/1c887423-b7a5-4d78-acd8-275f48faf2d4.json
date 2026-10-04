@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-usedpartstax|PAPPID.1c887423-b7a5-4d78-acd8-275f48faf2d4",
+  "guid": "1c887423-b7a5-4d78-acd8-275f48faf2d4",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-usedpartstax",
+  "source": {
+    "name": "BeyondUsedPartsTax",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-usedpartstax%7CPAPPID.1c887423-b7a5-4d78-acd8-275f48faf2d4",
+    "lastModified": "2025-11-18T23:51:01.8676918+00:00",
+    "appVersion": "20.0.12.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/usedpartstax/index.html",
+    "sourceHash": "sha256:78d60b8ce5887218d6fa8e39a7213e621b311eb677cc4caeff9ca062ce69502c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:78d60b8ce5887218d6fa8e39a7213e621b311eb677cc4caeff9ca062ce69502c",
+    "mappedOn": null,
+    "summary": "Adds German used parts tax to sales and service lines",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Adds German used parts tax (Altteilsteuer) lines to sales documents",
+      "Works on service documents as well as sales",
+      "Activate used parts tax per document line",
+      "Calculates tax per §10 (2) UStG on 10% of new-part list price",
+      "Covers parts of cars, trucks, motorbikes, machines, planes and motorboats"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

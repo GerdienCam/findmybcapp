@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.navertica|AID.nvr-maintenance|PAPPID.b6d94698-7d89-40e9-85eb-4bfb79b6d96c",
+  "guid": "b6d94698-7d89-40e9-85eb-4bfb79b6d96c",
+  "publisherId": "navertica",
+  "offerId": "nvr-maintenance",
+  "source": {
+    "name": "Navertica Maintenance of Service Items",
+    "publisher": "NAVERTICA a.s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.nvr-maintenance%7CPAPPID.b6d94698-7d89-40e9-85eb-4bfb79b6d96c",
+    "lastModified": "2026-06-05T07:24:39.9373544+00:00",
+    "appVersion": "27.0.333306.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.navertica.com/en-us/Maintenance%20and%20Service%20Management/Index/",
+    "sourceHash": "sha256:956f0bc64b5d8a52353e175b0783a2f1a359e6fa280f28e043a0391726fecabd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:956f0bc64b5d8a52353e175b0783a2f1a359e6fa280f28e043a0391726fecabd",
+    "mappedOn": null,
+    "summary": "Service item maintenance plus field service",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-fa-register"
+    ],
+    "claims": [
+      "Maintenance items may be tools, molds, gauges, machine centers, resources or fixed assets",
+      "Maintenance items split into lines linked to technological maintenance procedures",
+      "Next maintenance date or counter status calculated from start condition",
+      "Hierarchy of subtasks and allocation of workers, tools and materials",
+      "Automatic sensing of machine working load (cycles, technological quantities)",
+      "Automatically generates maintenance orders when start conditions are met",
+      "Maintenance cost evaluation by machine, group, period and center",
+      "Standard and emergency maintenance plans",
+      "Default dimensions and notes on maintenance items",
+      "Requires the Premium edition"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

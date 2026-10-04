@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.mdc_nordic|AID.batchflow4integration|PAPPID.cf2bfaae-ab39-4022-8dac-9a65157b9ccb",
+  "guid": "cf2bfaae-ab39-4022-8dac-9a65157b9ccb",
+  "publisherId": "mdc_nordic",
+  "offerId": "batchflow4integration",
+  "source": {
+    "name": "BatchFlow4",
+    "publisher": "MDC Nordic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mdc_nordic%7CAID.batchflow4integration%7CPAPPID.cf2bfaae-ab39-4022-8dac-9a65157b9ccb",
+    "lastModified": "2026-03-16T11:24:28.2082873+00:00",
+    "appVersion": "27.2.3.2929",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://mdcnordic.com/en/bc-apps/batchflow4/",
+    "sourceHash": "sha256:c55750edf4b1378925461e5c04731b94157e24b0be9142ab8ef2b35820de4727"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c55750edf4b1378925461e5c04731b94157e24b0be9142ab8ef2b35820de4727",
+    "mappedOn": null,
+    "summary": "Integrates BatchFlow 4 invoice flow with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Integrates FutureLinks BatchFlow 4 with BC",
+      "Works in cloud or on-premise",
+      "Integrated look and feel matching BC"
+    ],
+    "countries": [
+      "DK",
+      "GB",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "BatchFlow 4"
+    ],
+    "requires": [
+      "FutureLinks BatchFlow 4"
+    ],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

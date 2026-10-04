@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.inventio-it|AID.smartexpense|PAPPID.3f4af2e3-5975-4c71-94e3-e89d9fca6d31",
+  "guid": "3f4af2e3-5975-4c71-94e3-e89d9fca6d31",
+  "publisherId": "inventio-it",
+  "offerId": "smartexpense",
+  "source": {
+    "name": "SMARTexpense",
+    "publisher": "Inventio.IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.inventio-it%7CAID.smartexpense%7CPAPPID.3f4af2e3-5975-4c71-94e3-e89d9fca6d31",
+    "lastModified": "2026-10-01T07:09:19.9225357+00:00",
+    "appVersion": "1.0.20260923.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.inventio.it/da-dk/smartexpense/documentation/get-started/",
+    "sourceHash": "sha256:34661c0bcb3faa9d41cc4689cd7831fd52d171160d491941eb5de9979dd5fc48"
+  },
+  "mapping": {
+    "sourceHash": "sha256:34661c0bcb3faa9d41cc4689cd7831fd52d171160d491941eb5de9979dd5fc48",
+    "mappedOn": null,
+    "summary": "Approval and posting workflows for supplier invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Receives invoices via email or drag-and-drop upload",
+      "Merges or splits PDFs",
+      "Online approval workflows with Microsoft 2-factor authentication",
+      "Unlimited web-based approvers and approver profiles",
+      "Forward or hold invoices",
+      "Online archive with search and filters",
+      "AI-powered OCR data extraction",
+      "Automatic vendor matching and posting suggestion",
+      "Multiple posting options per vendor with split by percentage or amount"
+    ],
+    "countries": [
+      "DK",
+      "GL",
+      "IS",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

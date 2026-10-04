@@ -1,0 +1,92 @@
+{
+  "appId": "PUBID.cost_control_software|AID.time_entry|PAPPID.56d6ad89-bfaf-4b19-844a-545d9c4ac124",
+  "guid": "56d6ad89-bfaf-4b19-844a-545d9c4ac124",
+  "publisherId": "cost_control_software",
+  "offerId": "time_entry",
+  "source": {
+    "name": "Time Entry",
+    "publisher": "Cost Control Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cost_control_software%7CAID.time_entry%7CPAPPID.56d6ad89-bfaf-4b19-844a-545d9c4ac124",
+    "lastModified": "2026-08-14T14:19:03.4699005+00:00",
+    "appVersion": "2.0.3.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://costcontrolsoftware.com/job-time-entry",
+    "sourceHash": "sha256:27df08f52491225af77c7815dbbb6ef84f191a8e61774acbe7e4e0bd5ab8ca54"
+  },
+  "mapping": {
+    "sourceHash": "sha256:27df08f52491225af77c7815dbbb6ef84f191a8e61774acbe7e4e0bd5ab8ca54",
+    "mappedOn": null,
+    "summary": "Captures shop floor labor time for jobs and manufacturing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-time",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Records labor on production orders and jobs",
+      "Mobile role center with built-in barcode scanner clock-in/out",
+      "Scan badge then traveler to clock in to job task or operation",
+      "Clock in on one terminal, out on another",
+      "Approval worksheet before posting",
+      "Who-is-working screen for production managers",
+      "Priced per employee per month"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LU",
+      "MX",
+      "MY",
+      "NL",
+      "NZ",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [
+      "Construction",
+      "Manufacturing",
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

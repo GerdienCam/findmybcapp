@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.taxjar|PAPPID.ef3fadb3-12f3-42d2-a612-88e3966eb825",
+  "guid": "ef3fadb3-12f3-42d2-a612-88e3966eb825",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "taxjar",
+  "source": {
+    "name": "TaxJar Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.taxjar%7CPAPPID.ef3fadb3-12f3-42d2-a612-88e3966eb825",
+    "lastModified": "2026-07-29T08:10:28.7033586+00:00",
+    "appVersion": "1.0.0.13",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:7f8888d6312190036d81f69b86509f193f05cd01f4d4647b4eff1aef24e969ad"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7f8888d6312190036d81f69b86509f193f05cd01f4d4647b4eff1aef24e969ad",
+    "mappedOn": null,
+    "summary": "Automates sales tax calculation and filing via TaxJar",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Automates tax calculation via TaxJar",
+      "Auto-submits tax on the TaxJar portal",
+      "Auto-downloads transactions via job queue"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "TaxJar"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

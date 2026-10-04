@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.fiftytwoas|AID.52leasingpaymentservice|PAPPID.76f6e854-bcbe-4d57-ba37-d4951a064d8c",
+  "guid": "76f6e854-bcbe-4d57-ba37-d4951a064d8c",
+  "publisherId": "fiftytwoas",
+  "offerId": "52leasingpaymentservice",
+  "source": {
+    "name": "52LEASING Payment Service",
+    "publisher": "Fiftytwo A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fiftytwoas%7CAID.52leasingpaymentservice%7CPAPPID.76f6e854-bcbe-4d57-ba37-d4951a064d8c",
+    "lastModified": "2025-10-13T09:16:45.4826706+00:00",
+    "appVersion": "25.9.0.3918",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.52leasing.dk/support",
+    "sourceHash": "sha256:521ab5e5b82e480573637ba2182907a41ad53485ac6f9f7240134f333c32073b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:521ab5e5b82e480573637ba2182907a41ad53485ac6f9f7240134f333c32073b",
+    "mappedOn": null,
+    "summary": "52LEASING payment service extension for Continia Payment Management",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-leasing-finance",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Uses Continia Payment Management within 52LEASING",
+      "Overview of employee, vendor and customer payments",
+      "Payments in multiple currencies and to different bank accounts from one journal",
+      "Payments can be combined"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [
+      "Financial services",
+      "Leasing"
+    ],
+    "connectsTo": [
+      "Continia Payment Management"
+    ],
+    "requires": [
+      "52LEASING",
+      "Continia Payment Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

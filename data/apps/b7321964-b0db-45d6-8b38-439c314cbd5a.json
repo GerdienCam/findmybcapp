@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.squareup|PAPPID.b7321964-b0db-45d6-8b38-439c314cbd5a",
+  "guid": "b7321964-b0db-45d6-8b38-439c314cbd5a",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "squareup",
+  "source": {
+    "name": "Squareup Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.squareup%7CPAPPID.b7321964-b0db-45d6-8b38-439c314cbd5a",
+    "lastModified": "2024-11-21T09:54:41.4203326+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:c1ccce85d5fa4e91516bfa1368b9d1ac63973885f4a0029710c7317e7a73a082"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c1ccce85d5fa4e91516bfa1368b9d1ac63973885f4a0029710c7317e7a73a082",
+    "mappedOn": null,
+    "summary": "Integrates Square POS and payments with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos"
+    ],
+    "claims": [
+      "Connects BC with Square (Squareup)",
+      "Full version on request"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Square"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

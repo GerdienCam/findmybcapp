@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex042_invoicingplan|PAPPID.2055e6c0-7716-47a2-ba51-e01b9c0266ca",
+  "guid": "2055e6c0-7716-47a2-ba51-e01b9c0266ca",
+  "publisherId": "eos_solutions",
+  "offerId": "ex042_invoicingplan",
+  "source": {
+    "name": "Invoicing Plan",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex042_invoicingplan%7CPAPPID.2055e6c0-7716-47a2-ba51-e01b9c0266ca",
+    "lastModified": "2026-09-22T17:16:43.9705628+00:00",
+    "appVersion": "28.0.38.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/invoicing-plan-ipl.html",
+    "sourceHash": "sha256:e049ef85c71ea64c772a8b5822691516dfb1f0a7352a6139d3547aafcb13fd14"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e049ef85c71ea64c772a8b5822691516dfb1f0a7352a6139d3547aafcb13fd14",
+    "mappedOn": null,
+    "summary": "Multiple prepayment and installment schedules on sales orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-billing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Multiple prepayment or installment invoices from one sales document",
+      "Payment schedules from template, free-form, or copied from prior document",
+      "Different posting groups and dimensions on installment invoices",
+      "The Invoice Plan worksheet lists every upcoming transaction",
+      "Add or modify planned invoices per sale document",
+      "Trigger invoices individually or in batch",
+      "Create credit memos and closing invoices with one click",
+      "Supports milestone billing and installment agreements",
+      "Free trial available"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Construction",
+      "Entertainment",
+      "Services",
+      "Software licensing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

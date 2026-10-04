@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex02801_productconfiguratorformanufacturing|PAPPID.3eec61a0-752c-4795-823b-583360623e8d",
+  "guid": "3eec61a0-752c-4795-823b-583360623e8d",
+  "publisherId": "eos_solutions",
+  "offerId": "ex02801_productconfiguratorformanufacturing",
+  "source": {
+    "name": "Product Configurator for Manufacturing",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex02801_productconfiguratorformanufacturing%7CPAPPID.3eec61a0-752c-4795-823b-583360623e8d",
+    "lastModified": "2026-04-10T18:31:14.0834435+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/product-configurator-for-manufacturing.html",
+    "sourceHash": "sha256:55aa4d57de2b3e971344f482f43b3fc83d4bd96965c12bf2ed83f61d88a181cc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:55aa4d57de2b3e971344f482f43b3fc83d4bd96965c12bf2ed83f61d88a181cc",
+    "mappedOn": null,
+    "summary": "Configures routings and production BOMs from item characteristics",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-routings-workcenters",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-cpq"
+    ],
+    "claims": [
+      "Generates routings and production BOMs from item characteristic values",
+      "Quantities of use calculated by formulas on characteristic values",
+      "Components included conditionally based on characteristics",
+      "Setup/run times calculated by formulas",
+      "Routing phases included conditionally",
+      "Setup entered on the item card",
+      "Requires EOS Product Configurator"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Product Configurator"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

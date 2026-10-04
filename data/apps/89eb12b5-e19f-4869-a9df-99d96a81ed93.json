@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.visiondatabusinessconsultag1581677616921|AID.eu-extension|PAPPID.89eb12b5-e19f-4869-a9df-99d96a81ed93",
+  "guid": "89eb12b5-e19f-4869-a9df-99d96a81ed93",
+  "publisherId": "visiondatabusinessconsultag1581677616921",
+  "offerId": "eu-extension",
+  "source": {
+    "name": "EUextension",
+    "publisher": "VISIONDATA business consult AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visiondatabusinessconsultag1581677616921%7CAID.eu-extension%7CPAPPID.89eb12b5-e19f-4869-a9df-99d96a81ed93",
+    "lastModified": "2026-07-24T07:55:55.9878196+00:00",
+    "appVersion": "28.2.260724.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.visiondata.de/dokumentationen/eu-extension-app-de",
+    "sourceHash": "sha256:90534449136596cfc315c6ea8cbca10236fa5cfbb4d8a3a448fcd58b9f855c8b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:90534449136596cfc315c6ea8cbca10236fa5cfbb4d8a3a448fcd58b9f855c8b",
+    "mappedOn": null,
+    "summary": "EU trade: multiple VAT IDs, stock transfers, Intrastat",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Stores multiple VAT IDs per customer, vendor and own company",
+      "Default VAT ID pre-assigned, can be changed manually",
+      "Own VAT ID used for posting carried in all transactions",
+      "Automatically creates G/L entries for intra-EU warehouse transfers",
+      "Intrastat report per VAT ID number",
+      "Preselection of Intrastat entries to adjust data",
+      "Available only in German"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "languages": [
+      "de"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

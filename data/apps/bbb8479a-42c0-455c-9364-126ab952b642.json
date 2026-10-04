@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.mooreinsight|AID.mi-workflow|PAPPID.bbb8479a-42c0-455c-9364-126ab952b642",
+  "guid": "bbb8479a-42c0-455c-9364-126ab952b642",
+  "publisherId": "mooreinsight",
+  "offerId": "mi-workflow",
+  "source": {
+    "name": "MI - Workflow",
+    "publisher": "Moore Insight",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mooreinsight%7CAID.mi-workflow%7CPAPPID.bbb8479a-42c0-455c-9364-126ab952b642",
+    "lastModified": "2026-09-07T04:48:25.9740432+00:00",
+    "appVersion": "1.0.0.5",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://moore-insight-apps.com/apps/bc-extensions/workflow",
+    "sourceHash": "sha256:64c3e37f33feddf780edd61264ff8548a7b065d1475bad2c5a4172f8cdeb7eb4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:64c3e37f33feddf780edd61264ff8548a7b065d1475bad2c5a4172f8cdeb7eb4",
+    "mappedOn": null,
+    "summary": "Workflow engine for approvals by G/L account and dimension",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Starts approval steps based on dimension value or G/L account",
+      "Amount threshold based approval levels",
+      "Escalates or falls back to nearest level",
+      "Deduplicates approvers within a step",
+      "Uses standard Requests to Approve pages",
+      "Purchase and Sales documents incl. G/L, item and FA lines"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

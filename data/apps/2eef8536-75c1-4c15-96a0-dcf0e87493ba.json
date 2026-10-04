@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.brightcom_3111464|AID.ps_inkasso_connect|PAPPID.2eef8536-75c1-4c15-96a0-dcf0e87493ba",
+  "guid": "2eef8536-75c1-4c15-96a0-dcf0e87493ba",
+  "publisherId": "brightcom_3111464",
+  "offerId": "ps_inkasso_connect",
+  "source": {
+    "name": "PS Inkasso Connect",
+    "publisher": "BrightCom Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.ps_inkasso_connect%7CPAPPID.2eef8536-75c1-4c15-96a0-dcf0e87493ba",
+    "lastModified": "2026-10-01T13:44:35.5275045+00:00",
+    "appVersion": "28.0.35436.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.brightcom.se/sv/Products/PSInkasso",
+    "sourceHash": "sha256:d043cac63216afd872d508d0d359ec1eebb579a39531ee8fd4767d6e6df8c0ab"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d043cac63216afd872d508d0d359ec1eebb579a39531ee8fd4767d6e6df8c0ab",
+    "mappedOn": null,
+    "summary": "Sends unpaid invoices to PS Inkasso debt collection",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Sends unpaid invoices from customer ledger to PS Inkasso",
+      "Shows live case status, payment info and close dates",
+      "Posts payments and credit memos from PS Inkasso automatically",
+      "Supports invoice service, reminders and debt collection",
+      "PS Inkasso can send invoices (Fakturaservice)",
+      "Separate journals per currency",
+      "No middleware required"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PS Inkasso"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

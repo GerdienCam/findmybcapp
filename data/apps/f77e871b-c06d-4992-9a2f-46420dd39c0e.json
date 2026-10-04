@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.b2f|AID.b2f_ica|PAPPID.f77e871b-c06d-4992-9a2f-46420dd39c0e",
+  "guid": "f77e871b-c06d-4992-9a2f-46420dd39c0e",
+  "publisherId": "b2f",
+  "offerId": "b2f_ica",
+  "source": {
+    "name": "B2F Item Cost Analysis Management",
+    "publisher": "B2F",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_ica%7CPAPPID.f77e871b-c06d-4992-9a2f-46420dd39c0e",
+    "lastModified": "2026-09-24T07:58:13.6442283+00:00",
+    "appVersion": "28.0.22819.22819",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/03/Guaranty-Management-Help.pdf",
+    "sourceHash": "sha256:ee79ed3e226ebff5febb6bfab49ba0895fea7a182085530485c7fc765ebbdac1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ee79ed3e226ebff5febb6bfab49ba0895fea7a182085530485c7fc765ebbdac1",
+    "mappedOn": null,
+    "summary": "Analyzes item costs and movements to support pricing and profitability",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Cost analysis reports by document or item",
+      "Review item cost movements",
+      "Compare costs across item variants",
+      "Identify cost sources and cost differences"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

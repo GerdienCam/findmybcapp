@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.bcility1636664056498|AID.bcility-customer-complaints|PAPPID.8e7e1e88-4c5f-4a3e-9b1a-2d3c4e5f6a7b",
+  "guid": "8e7e1e88-4c5f-4a3e-9b1a-2d3c4e5f6a7b",
+  "publisherId": "bcility1636664056498",
+  "offerId": "bcility-customer-complaints",
+  "source": {
+    "name": "Customer Complaints",
+    "publisher": "BCILITY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcility1636664056498%7CAID.bcility-customer-complaints%7CPAPPID.8e7e1e88-4c5f-4a3e-9b1a-2d3c4e5f6a7b",
+    "lastModified": "2026-01-12T07:47:28.7076472+00:00",
+    "appVersion": "26.0.0.17",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcility.com/about-us/",
+    "sourceHash": "sha256:512f621ab1b37eb529b5bfe1b19b7d588d7d2bcca69786a53bc0094ef48ea920"
+  },
+  "mapping": {
+    "sourceHash": "sha256:512f621ab1b37eb529b5bfe1b19b7d588d7d2bcca69786a53bc0094ef48ea920",
+    "mappedOn": null,
+    "summary": "Tracks and resolves customer complaints",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-returns",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-case-intake",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-nonconformance-capa",
+      "ng-case-analytics",
+      "ng-case-resolve"
+    ],
+    "claims": [
+      "Complaints linked to customer and contact records",
+      "Priority and severity classification",
+      "Taxonomy of nonconformity types, descriptions and causes",
+      "Corrective measures linked to complaint types with status monitoring",
+      "SLA monitoring and automated notifications",
+      "Communication history and timeline audit trail",
+      "Complaint history on customer card",
+      "XML import for bulk complaint migration",
+      "REST API pages for external integration"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.foodware365|AID.drinkit_adv_manufacturing|PAPPID.6051a0ae-8afb-44a0-a760-6531e700076a",
+  "guid": "6051a0ae-8afb-44a0-a760-6531e700076a",
+  "publisherId": "foodware365",
+  "offerId": "drinkit_adv_manufacturing",
+  "source": {
+    "name": "Aptean Advanced Bundle for Beverage Manufacturing",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.drinkit_adv_manufacturing%7CPAPPID.6051a0ae-8afb-44a0-a760-6531e700076a",
+    "lastModified": "2026-07-22T11:42:23.8148446+00:00",
+    "appVersion": "2601.5.333110.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/",
+    "sourceHash": "sha256:cade2e856d64ba7764765ebf13447971341d3b9163645c438d3fd83855bb877d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cade2e856d64ba7764765ebf13447971341d3b9163645c438d3fd83855bb877d",
+    "mappedOn": null,
+    "summary": "Beverage manufacturing and distribution bundle incl. excise and deposits",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-rebates",
+      "ng-transport-planning",
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Excise tax calculation and reporting on bonded location movements or invoices",
+      "Empties and deposit tracking for kegs, bottles, crates and pallets",
+      "Deposit balances for customers and vendors, split by type",
+      "Multi-level charges, promotional items and discounts with volume commitments",
+      "Fast sales order entry page with sorting, filtering and history",
+      "Order planning with own fleet or third-party shipper with weight and pallet constraints",
+      "EMCS integration with e-AD exchange",
+      "Event management with loan material reservation and returns",
+      "Outlet and pub contracts with rent, loans and volume-based settlements",
+      "Advanced warehouse management extending standard BC",
+      "Alcohol balance reporting per warehouse for tax authorities",
+      "Beverage production enhancements such as active ingredient and principal component"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Beverage",
+      "Brewing",
+      "Distilling"
+    ],
+    "connectsTo": [
+      "EMCS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.boschdatagmbh1733998274125|AID.bsd-sisman-app|PAPPID.d24414f2-9831-4b40-9c57-eadcaa9d912f",
+  "guid": "d24414f2-9831-4b40-9c57-eadcaa9d912f",
+  "publisherId": "boschdatagmbh1733998274125",
+  "offerId": "bsd-sisman-app",
+  "source": {
+    "name": "sisMAN",
+    "publisher": "BoSch Data GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.boschdatagmbh1733998274125%7CAID.bsd-sisman-app%7CPAPPID.d24414f2-9831-4b40-9c57-eadcaa9d912f",
+    "lastModified": "2026-09-24T13:46:23.1645447+00:00",
+    "appVersion": "27.38.3903.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bosch-data.de/sisMAN/",
+    "sourceHash": "sha256:63ff64a065348cb9ef9a7fc604e29915fecfb2bfb56ccd1becd9fea67cb71b25"
+  },
+  "mapping": {
+    "sourceHash": "sha256:63ff64a065348cb9ef9a7fc604e29915fecfb2bfb56ccd1becd9fea67cb71b25",
+    "mappedOn": null,
+    "summary": "Tracks building projects, contributors and sales opportunities for construction suppliers",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-construction",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-pipeline",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Opportunities per building object or responsibility center",
+      "Stakeholders/contributors per building project",
+      "Items needed per building project",
+      "Log interactions with stakeholders",
+      "Tasks for building projects",
+      "Archive versions of building objects",
+      "Reference objects on sales and purchase orders",
+      "Special sales and purchase price lists per object",
+      "Object Manager role center",
+      "Photos per building object"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

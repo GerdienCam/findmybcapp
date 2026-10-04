@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.pilaroas1612347732084|AID.pilaro_proplanner|PAPPID.497b7b7a-38f3-4274-8438-88eeb618f68b",
+  "guid": "497b7b7a-38f3-4274-8438-88eeb618f68b",
+  "publisherId": "pilaroas1612347732084",
+  "offerId": "pilaro_proplanner",
+  "source": {
+    "name": "Evidi Proplanner",
+    "publisher": "Skill Core AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pilaroas1612347732084%7CAID.pilaro_proplanner%7CPAPPID.497b7b7a-38f3-4274-8438-88eeb618f68b",
+    "lastModified": "2026-08-31T07:53:25.2553933+00:00",
+    "appVersion": "28.4.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.evidi.com/support",
+    "sourceHash": "sha256:327d144b3f4aac2df933cab55f9992bfe1b6dff5772e6f114901f9567317a2fd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:327d144b3f4aac2df933cab55f9992bfe1b6dff5772e6f114901f9567317a2fd",
+    "mappedOn": null,
+    "summary": "Production and replenishment planning with work center tasks",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-shop-floor-reporting",
+      "ng-routings-workcenters",
+      "ng-conn-cpq"
+    ],
+    "claims": [
+      "Improved planning proposal",
+      "Work center tasks",
+      "Traffic-light KPIs for replenishment status on sales and production orders",
+      "Serial number handling",
+      "Product configuration",
+      "Time stamping"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nb"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Evidi Protools"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

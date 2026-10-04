@@ -1,0 +1,91 @@
+{
+  "appId": "PUBID.foodware365|AID.invoice_control|PAPPID.16627667-8e89-45de-9018-78dd5378afa7",
+  "guid": "16627667-8e89-45de-9018-78dd5378afa7",
+  "publisherId": "foodware365",
+  "offerId": "invoice_control",
+  "source": {
+    "name": "Aptean Invoice Control for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.invoice_control%7CPAPPID.16627667-8e89-45de-9018-78dd5378afa7",
+    "lastModified": "2026-01-20T08:51:52.8465381+00:00",
+    "appVersion": "1.6.232872.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/IVC/",
+    "sourceHash": "sha256:c58609bd7ed355062af4ff9bea458825cc2026e4a9d8a4396cb6be51fbc6017b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c58609bd7ed355062af4ff9bea458825cc2026e4a9d8a4396cb6be51fbc6017b",
+    "mappedOn": null,
+    "summary": "Automated matching of purchase invoices to orders",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Validates invoices against POs for VAT, quantities, totals and line items",
+      "Mismatched invoices forwarded to a user to validate",
+      "Accept within tolerances, correct data or reject with reason code"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

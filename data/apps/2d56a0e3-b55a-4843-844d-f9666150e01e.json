@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.abakion|AID.purchase_container_handling|PAPPID.2d56a0e3-b55a-4843-844d-f9666150e01e",
+  "guid": "2d56a0e3-b55a-4843-844d-f9666150e01e",
+  "publisherId": "abakion",
+  "offerId": "purchase_container_handling",
+  "source": {
+    "name": "Purchase Container Handling",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.purchase_container_handling%7CPAPPID.2d56a0e3-b55a-4843-844d-f9666150e01e",
+    "lastModified": "2026-05-07T06:37:14.6525513+00:00",
+    "appVersion": "28.0.202619.164513",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/purchase-container/#userguide",
+    "sourceHash": "sha256:fe2560823a15b58b5aadb2950755f14e08ebb2e2b0404b33cf930b137485cff2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fe2560823a15b58b5aadb2950755f14e08ebb2e2b0404b33cf930b137485cff2",
+    "mappedOn": null,
+    "summary": "Assigns purchase order lines to inbound containers and tracks receipt",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Lets users link lines from several purchase orders to one inbound container",
+      "Tracks available volume, quantity, net and gross weight per container",
+      "Updating container delivery date updates all its PO lines",
+      "Item lookup shows which container and expected arrival"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

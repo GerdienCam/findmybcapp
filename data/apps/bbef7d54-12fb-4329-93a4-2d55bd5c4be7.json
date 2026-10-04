@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.instalment_payments|PAPPID.bbef7d54-12fb-4329-93a4-2d55bd5c4be7",
+  "guid": "bbef7d54-12fb-4329-93a4-2d55bd5c4be7",
+  "publisherId": "thetasystemslimited",
+  "offerId": "instalment_payments",
+  "source": {
+    "name": "Instalment Payments",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.instalment_payments%7CPAPPID.bbef7d54-12fb-4329-93a4-2d55bd5c4be7",
+    "lastModified": "2026-05-19T00:41:40.4723436+00:00",
+    "appVersion": "27.0.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/IPM/docs/Introduction",
+    "sourceHash": "sha256:c96685f3f43bb672fbb1994c69bd864fc76df3e84f9d5a69ffd449d1d33fe704"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c96685f3f43bb672fbb1994c69bd864fc76df3e84f9d5a69ffd449d1d33fe704",
+    "mappedOn": null,
+    "summary": "Splits invoices into instalment plans, with VAT deferral",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Instalment plans assignable to invoices before or after posting",
+      "Customer statements reflect only instalments due",
+      "Preconfigured or custom instalment plans",
+      "Defers GST/VAT for payment-basis VAT",
+      "Instalments from sales orders, invoices, credit memos, return orders and customer ledger entries",
+      "Triggered by instalment schedule code or payment method code"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

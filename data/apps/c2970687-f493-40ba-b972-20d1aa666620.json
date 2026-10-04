@@ -1,0 +1,54 @@
+{
+  "appId": "TYPE.connect|PUBID.kalaaps1655647368916|AID.kala_bc_365|PAPPID.c2970687-f493-40ba-b972-20d1aa666620",
+  "guid": "c2970687-f493-40ba-b972-20d1aa666620",
+  "publisherId": "kalaaps1655647368916",
+  "offerId": "kala_bc_365",
+  "source": {
+    "name": "Kala",
+    "publisher": "Kala ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.kalaaps1655647368916%7CAID.kala_bc_365%7CPAPPID.c2970687-f493-40ba-b972-20d1aa666620",
+    "lastModified": "2024-11-22T02:57:29.5869189+00:00",
+    "appVersion": "1.99.79.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.kala.dk/Videos",
+    "sourceHash": "sha256:7a5f3b89fd265ad6b53ba5c2d14a9d5b00289ef7a4ed10609d29f348b783068a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7a5f3b89fd265ad6b53ba5c2d14a9d5b00289ef7a4ed10609d29f348b783068a",
+    "mappedOn": null,
+    "summary": "Time tracking and project overview synced with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-status-reporting",
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "App and SaaS for time and project tracking integrated with BC",
+      "All users can track their time and manage projects"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Kala"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

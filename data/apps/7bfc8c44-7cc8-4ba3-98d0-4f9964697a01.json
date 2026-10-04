@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.extensionsforcelimited1647259189111|AID.tms|PAPPID.7bfc8c44-7cc8-4ba3-98d0-4f9964697a01",
+  "guid": "7bfc8c44-7cc8-4ba3-98d0-4f9964697a01",
+  "publisherId": "extensionsforcelimited1647259189111",
+  "offerId": "tms",
+  "source": {
+    "name": "TMS for Logistics Service Providers",
+    "publisher": "Extensions Lab",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.tms%7CPAPPID.7bfc8c44-7cc8-4ba3-98d0-4f9964697a01",
+    "lastModified": "2026-09-30T19:43:16.3338996+00:00",
+    "appVersion": "28.5.7.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://tms.extensions-lab.com/",
+    "sourceHash": "sha256:911b2c8e4c16c0edc3391d267c3bffb7434d04f969bb1d6a95ccb828c53fc0ba"
+  },
+  "mapping": {
+    "sourceHash": "sha256:911b2c8e4c16c0edc3391d267c3bffb7434d04f969bb1d6a95ccb828c53fc0ba",
+    "mappedOn": null,
+    "summary": "Manages multi-stage forwarding, carrier costs and invoicing for 3PLs",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-freight-cost-audit",
+      "ng-transport-planning"
+    ],
+    "claims": [
+      "Forwarding Orders with shipper/consignee details, dates, logistics units and commercial terms",
+      "Splits transport into stages executed with Freight Orders",
+      "Freight Orders define carrier, pay-to vendor, vehicle, driver and route",
+      "Allocates carrier bills and links purchase invoice lines to transport charges",
+      "Creates customer invoices and monitors expected profit and uninvoiced work",
+      "Multi-stage and multimodal transportation",
+      "Profitability analysis with Power BI",
+      "Optional Google Maps routing",
+      "API support for external systems"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "nl",
+      "tr"
+    ],
+    "industries": [
+      "3PL",
+      "Freight forwarding",
+      "Logistics service providers"
+    ],
+    "connectsTo": [
+      "Power BI",
+      "Google Maps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

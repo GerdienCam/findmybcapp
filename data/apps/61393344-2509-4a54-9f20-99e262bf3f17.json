@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.profactoas1585665701232|AID.extended_manufacturing_registration|PAPPID.61393344-2509-4a54-9f20-99e262bf3f17",
+  "guid": "61393344-2509-4a54-9f20-99e262bf3f17",
+  "publisherId": "profactoas1585665701232",
+  "offerId": "extended_manufacturing_registration",
+  "source": {
+    "name": "Extended Manufacturing Registration",
+    "publisher": "ProFacto A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.profactoas1585665701232%7CAID.extended_manufacturing_registration%7CPAPPID.61393344-2509-4a54-9f20-99e262bf3f17",
+    "lastModified": "2025-02-04T05:49:37.895369+00:00",
+    "appVersion": "22.0.0.11",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://itm8.dk/forretningssystemer/erp/addons/extended-manufacturing-registration",
+    "sourceHash": "sha256:ab758c1476535c34d2b1fe4c8c7d8981b6d2423b4ba435939eaa5ae627dda2ae"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ab758c1476535c34d2b1fe4c8c7d8981b6d2423b4ba435939eaa5ae627dda2ae",
+    "mappedOn": null,
+    "summary": "Extended production registration for real cost prices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-shop-floor-reporting"
+    ],
+    "claims": [
+      "Register costs on closed production orders afterwards",
+      "Corrections to finished production orders",
+      "Overview of real cost prices",
+      "Available in Denmark and Serbia"
+    ],
+    "countries": [
+      "DK",
+      "RS"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

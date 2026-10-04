@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.d365globalptyltd1665883818849|AID.d365bc_utilities_billing_system|PAPPID.3e1f9942-c95b-4641-bc3b-8c954d1c3f04",
+  "guid": "3e1f9942-c95b-4641-bc3b-8c954d1c3f04",
+  "publisherId": "d365globalptyltd1665883818849",
+  "offerId": "d365bc_utilities_billing_system",
+  "source": {
+    "name": "d365Utilities Billing System for Microsoft Dynamics 365 Business Central",
+    "publisher": "d365.Global Pty Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.d365globalptyltd1665883818849%7CAID.d365bc_utilities_billing_system%7CPAPPID.3e1f9942-c95b-4641-bc3b-8c954d1c3f04",
+    "lastModified": "2026-08-27T13:17:56.182552+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://learn.d365.global/Tutorials/D365Guides/D365BusinessCentral/BusinessCentralApps/UtilitiesBilling",
+    "sourceHash": "sha256:0202e8d7a3001f7ed10093f50d53bd79eab36beb68c5431456c991fd459a79bd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0202e8d7a3001f7ed10093f50d53bd79eab36beb68c5431456c991fd459a79bd",
+    "mappedOn": null,
+    "summary": "Billing of utilities for electricity suppliers",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-utilities-energy-waste",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Meter registration and customer linkage",
+      "Imports meter readings and reviews consumption variances",
+      "Tariffs set by season and effective date, per meter rate type, plus time-of-use bands",
+      "Large power user maximum KVA demand billing",
+      "Solar net metering buy-back credits",
+      "Configurable levies per kWh, fixed or percentage",
+      "Variance review before billing",
+      "Late fees, customer deposits and disconnections",
+      "Posts billing invoices and credit notes to standard BC ledgers",
+      "US$40 per user per month"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Electricity",
+      "Utilities"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

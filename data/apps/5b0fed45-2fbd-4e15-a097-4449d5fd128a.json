@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_prepayment|PAPPID.5b0fed45-2fbd-4e15-a097-4449d5fd128a",
+  "guid": "5b0fed45-2fbd-4e15-a097-4449d5fd128a",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_prepayment",
+  "source": {
+    "name": "Prepayment",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_prepayment%7CPAPPID.5b0fed45-2fbd-4e15-a097-4449d5fd128a",
+    "lastModified": "2026-04-23T04:42:45.2074312+00:00",
+    "appVersion": "25.2604.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-prepayment/",
+    "sourceHash": "sha256:f09fe63a0f8fba4a942e6cf624736692cee98e1c56f234299fa82d4c6efaa3f7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f09fe63a0f8fba4a942e6cf624736692cee98e1c56f234299fa82d4c6efaa3f7",
+    "mappedOn": null,
+    "summary": "Sales order prepayment invoices management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates one or more prepayment invoices from a sales order",
+      "Automatically reverses prepayments during shipment billing",
+      "Order can still be modified after prepayment invoices are posted"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

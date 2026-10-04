@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.keystone1639745891246|AID.vigia-connector|PAPPID.6acb15af-eb7e-4730-ba7e-bfa7fbd3c986",
+  "guid": "6acb15af-eb7e-4730-ba7e-bfa7fbd3c986",
+  "publisherId": "keystone1639745891246",
+  "offerId": "vigia-connector",
+  "source": {
+    "name": "Vigia Connector",
+    "publisher": "KEYSTONE",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.keystone1639745891246%7CAID.vigia-connector%7CPAPPID.6acb15af-eb7e-4730-ba7e-bfa7fbd3c986",
+    "lastModified": "2026-09-02T14:28:53.3897063+00:00",
+    "appVersion": "1.0.6.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://key-stone.fr/vigia-presentation-en",
+    "sourceHash": "sha256:4fa22670fcf46ec1c1c143ec057b9b7a7f28a0a013c374901a8e7a9b0e8fd40a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4fa22670fcf46ec1c1c143ec057b9b7a7f28a0a013c374901a8e7a9b0e8fd40a",
+    "mappedOn": null,
+    "summary": "Feeds Vigia mobile dashboards with BC data",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Adds 18 read-only API queries for the Vigia mobile reporting app",
+      "Aggregates sales, credit memos, margins, orders, receivables, payments, bank balances and budgets",
+      "Totals and counts figures per dimension, job, salesperson, customer and day",
+      "Writes nothing and adds no UI",
+      "Queries run with the signed-in user's permissions",
+      "Ships KSV Vigia Lecture permission set",
+      "Vigia sold separately with 30-day free trial",
+      "Vigia available in 10 languages"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Vigia"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

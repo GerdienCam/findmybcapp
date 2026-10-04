@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.goapps4bc1718730738959|AID.goapps4bc_dimension_balancing|PAPPID.86b179c4-3b5f-4a2d-a7c9-c56a6cac1d67",
+  "guid": "86b179c4-3b5f-4a2d-a7c9-c56a6cac1d67",
+  "publisherId": "goapps4bc1718730738959",
+  "offerId": "goapps4bc_dimension_balancing",
+  "source": {
+    "name": "Dimension Balancing",
+    "publisher": "GOapps4BC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.goapps4bc1718730738959%7CAID.goapps4bc_dimension_balancing%7CPAPPID.86b179c4-3b5f-4a2d-a7c9-c56a6cac1d67",
+    "lastModified": "2024-12-20T21:54:47.1924166+00:00",
+    "appVersion": "1.0.9.8",
+    "pricingTypes": [
+      "FreeTrial",
+      "Freemium",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://goapps4bc.com/goapps4bc-customer-support/",
+    "sourceHash": "sha256:a28fcdd92129df7e09d973cfd758df6a0ed76918789e7a2f046ae6a80e868e2a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a28fcdd92129df7e09d973cfd758df6a0ed76918789e7a2f046ae6a80e868e2a",
+    "mappedOn": null,
+    "summary": "Prevents out-of-balance postings by dimension",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Prevents out-of-balance posting per dimension",
+      "Errors shown in Journal Check preview factbox while entering lines",
+      "Any dimension can be balanced, not only global/shortcut",
+      "Balancing on specific dimension values only",
+      "Controls header vs line dimensions on sales, purchase and service documents",
+      "Override of balancing requirement per line",
+      "Override and setup rights controlled via User Setup",
+      "Separate plans for 1-20 users and 20+ users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

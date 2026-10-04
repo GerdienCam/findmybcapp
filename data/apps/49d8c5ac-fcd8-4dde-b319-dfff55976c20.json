@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-attributesmgtbridge|PAPPID.49d8c5ac-fcd8-4dde-b319-dfff55976c20",
+  "guid": "49d8c5ac-fcd8-4dde-b319-dfff55976c20",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-attributesmgtbridge",
+  "source": {
+    "name": "BeyondAttributesMGTBridge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-attributesmgtbridge%7CPAPPID.49d8c5ac-fcd8-4dde-b319-dfff55976c20",
+    "lastModified": "2025-10-17T12:26:55.1411382+00:00",
+    "appVersion": "2025.6.251.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/attributesmgtbridge/index.html",
+    "sourceHash": "sha256:160c7ff5e987df2beca3d7adb0028c646d7a103f4d8c17aacc71360a2ffb4528"
+  },
+  "mapping": {
+    "sourceHash": "sha256:160c7ff5e987df2beca3d7adb0028c646d7a103f4d8c17aacc71360a2ffb4528",
+    "mappedOn": null,
+    "summary": "Bridges BEYOND Attributes and BEYOND ManufacturerGroupType",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-assets",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Joins Beyond Attributes and Beyond ManufacturerGroupType",
+      "Categorize service items and enhance filtering"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "BEYOND Attributes",
+      "BEYOND ManufacturerGroupType"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two BEYOND products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.origo|AID.origo_cloud_events_storage|PAPPID.7acf9361-f558-442b-a516-f5e5dd92aecb",
+  "guid": "7acf9361-f558-442b-a516-f5e5dd92aecb",
+  "publisherId": "origo",
+  "offerId": "origo_cloud_events_storage",
+  "source": {
+    "name": "Origo Cloud Events Storage",
+    "publisher": "Origo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.origo_cloud_events_storage%7CPAPPID.7acf9361-f558-442b-a516-f5e5dd92aecb",
+    "lastModified": "2026-08-29T19:12:49.5995985+00:00",
+    "appVersion": "28.1.31.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://origopublic.blob.core.windows.net/help/Cloud%20Events%20Storage/bc28/en-US/index.html",
+    "sourceHash": "sha256:988781056ef460fa5990a36661eeddbc3a3488905058444a914e6a9b9ec2a36e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:988781056ef460fa5990a36661eeddbc3a3488905058444a914e6a9b9ec2a36e",
+    "mappedOn": null,
+    "summary": "Cloud storage file operations via Cloud Events",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Supports delete, move, copy, upload, download and list for files",
+      "Directory operations",
+      "Chunked uploads for large files",
+      "Offloads BC attachments to cloud storage and restores on demand",
+      "Connects incoming documents to files that are in storage already",
+      "Supports Azure Blob, Azure File Share and SharePoint",
+      "Requires BC 28.0 or later"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "NL",
+      "NO",
+      "PT",
+      "SE"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage",
+      "Azure File Share",
+      "SharePoint"
+    ],
+    "requires": [
+      "Origo Cloud Events Core"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

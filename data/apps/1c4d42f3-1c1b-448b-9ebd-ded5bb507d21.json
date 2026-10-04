@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.checkmate|PAPPID.1c4d42f3-1c1b-448b-9ebd-ded5bb507d21",
+  "guid": "1c4d42f3-1c1b-448b-9ebd-ded5bb507d21",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "checkmate",
+  "source": {
+    "name": "CheckMate",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.checkmate%7CPAPPID.1c4d42f3-1c1b-448b-9ebd-ded5bb507d21",
+    "lastModified": "2026-05-22T08:47:37.8367851+00:00",
+    "appVersion": "1.0.0.10",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/checkmate",
+    "sourceHash": "sha256:846dbee59cb68529ca387a0115852e173c9d31e67e021796c9ad2d6e4a6a8368"
+  },
+  "mapping": {
+    "sourceHash": "sha256:846dbee59cb68529ca387a0115852e173c9d31e67e021796c9ad2d6e4a6a8368",
+    "mappedOn": null,
+    "summary": "Validates emails and phone numbers on entry",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-data-migration"
+    ],
+    "claims": [
+      "Real-time validation of email and phone on entry",
+      "Choice of third-party validation API providers with own API key",
+      "Email providers: Ninja, Abstract, MailBoxLayer, Bouncer, ZeroBounce",
+      "Email List and Phone List pages to review invalid records",
+      "Batch-validates existing data",
+      "Covers customers, vendors, contacts, employees"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Ninja",
+      "Abstract",
+      "MailBoxLayer",
+      "Bouncer",
+      "ZeroBounce"
+    ],
+    "requires": [
+      "MatchBC companion extensions"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

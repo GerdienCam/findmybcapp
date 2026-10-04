@@ -1,0 +1,220 @@
+{
+  "id": "ng-receiving-putaway",
+  "order": 72,
+  "label": "Receiving goods and putting them away",
+  "description": "Receiving deliveries, putting them on shelves and cross-docking incoming or produced goods straight to outbound.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "high",
+  "statements": [
+    "Receiving goods and putting them away",
+    "Receiving deliveries, putting them on shelves and cross-docking incoming or produced goods straight to outbound.",
+    "When a supplier delivery arrives we print the purchase order and tick lines with a pen",
+    "Is there a scanner app to receive purchase orders in BC?",
+    "Receiving takes forever because we have to find the right PO first",
+    "The supplier sent fewer boxes than on the delivery note and nobody records the shortage",
+    "We want to scan the supplier's barcodes on arrival instead of typing item numbers",
+    "goods receipt app Business Central",
+    "Deliveries from suppliers arrive with several POs mixed on one pallet",
+    "How do we receive part of a purchase order and leave the rest open?",
+    "Our warehouse cannot see which inbound deliveries are expected today",
+    "Receiving lot numbers and expiry dates by hand causes lots of typos",
+    "We need to receive transfers from our other warehouse with a scan",
+    "Returned goods from customers arrive at the dock and nobody knows which return order they belong to",
+    "Is there a way to receive against the supplier's advance shipping notice?",
+    "Our stores receive deliveries from the central warehouse and need to confirm what arrived",
+    "Supplier delivers more than we ordered and we need to decide whether to accept it",
+    "We want to take a photo of damaged goods when receiving and attach it in BC",
+    "warehouse receipt posting slow",
+    "Receiving serial numbers one by one for 200 units is killing us",
+    "Intercompany deliveries from our sister company have to be received manually",
+    "The receipt is posted before anyone checks the goods and then the invoice is matched wrongly",
+    "After receiving, goods sit at the dock because nobody knows where to put them",
+    "We want BC to suggest the right bin when putting away goods",
+    "Warehouse staff put things wherever there is space and we cannot find them later",
+    "Is there a scanner app to confirm put-away by scanning the bin?",
+    "put away suggestion app BC",
+    "Put-away documents in BC are too many clicks for the forklift driver",
+    "We want items with a fixed bin to always go back to that bin",
+    "Subcontracted parts coming back from our subcontractor need to be put away to production",
+    "Goods should go to the pick face first and overflow to bulk storage",
+    "We register put-away on paper and someone keys it in at the end of the day",
+    "How can we see which received items are still waiting to be put away?",
+    "Heavy items should be put away on the bottom racks only",
+    "When goods arrive for a backorder we want them sent straight to the shipping area",
+    "cross docking BC",
+    "Is there a way to see on receipt that a customer is already waiting for these items?",
+    "We put goods on the shelf and pick them again an hour later for the same order",
+    "Incoming pallets from suppliers should go directly to our stores without storage",
+    "We want BC to tell the receiver which sales order to send the goods to",
+    "Finished goods from production are put away and picked again for the same order",
+    "We want output from production to go straight to the shipping area",
+    "cross dock production output",
+    "Is there a way to link production output directly to the customer shipment?",
+    "Our produced pallets go directly to our distribution center but BC does not follow",
+    "When a production order finishes we want the sales order ready to ship immediately"
+  ],
+  "questions": [
+    {
+      "id": "mobile",
+      "text": "Will staff scan goods in with handhelds or phones?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, on handheld scanners or phones",
+          "patterns": [
+            "handheld",
+            "hand-held",
+            "mobile",
+            "android",
+            "\\bios\\b",
+            "smartphone",
+            "scanner",
+            "barcode",
+            "qr code",
+            "\\bscan"
+          ]
+        },
+        {
+          "label": "Yes, but it must run inside BC with no extra middleware",
+          "patterns": [
+            "no additional software",
+            "runs fully inside",
+            "no extra app",
+            "without middleware",
+            "no separate database",
+            "directly in bc",
+            "bc web and mobile client",
+            "direct communication with bc",
+            "without external scanner"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, on handheld scanners or phones": 0.51,
+        "Yes, but it must run inside BC with no extra middleware": 0.11
+      }
+    },
+    {
+      "id": "arrival",
+      "text": "How do your goods typically arrive?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Sea containers or consolidated shipments",
+          "patterns": [
+            "container",
+            "bill of lading",
+            "vessel",
+            "cargo",
+            "consign",
+            "on-the-water",
+            "\\basn\\b",
+            "advance shipping"
+          ]
+        },
+        {
+          "label": "On pallets I want to track as units",
+          "patterns": [
+            "pallet",
+            "license plat",
+            "logistic(s)? unit",
+            "load carrier"
+          ]
+        },
+        {
+          "label": "By weight, over a scale or weighbridge",
+          "patterns": [
+            "weigh(ing|bridge|ed| scale)",
+            "weight of items",
+            "weight tracking",
+            "catch weight",
+            "vehicle weight"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sea containers or consolidated shipments": 0.23,
+        "On pallets I want to track as units": 0.19,
+        "By weight, over a scale or weighbridge": 0.09
+      }
+    },
+    {
+      "id": "tracking",
+      "text": "Do you track lot, serial or expiry numbers on received goods?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "\\blots?\\b",
+            "serial",
+            "batch",
+            "expir",
+            "fefo",
+            "traceab"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.26
+      }
+    },
+    {
+      "id": "at_receipt",
+      "text": "What else has to happen when goods come in?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Handle over- or under-deliveries",
+          "patterns": [
+            "over.{0,10}under",
+            "tolerance",
+            "deviation",
+            "short receipt",
+            "quantity (fluctuat|difference)",
+            "over and under",
+            "partial"
+          ]
+        },
+        {
+          "label": "Add freight and duties to item cost",
+          "patterns": [
+            "landed cost",
+            "item charge",
+            "tariff",
+            "dut(y|ies)",
+            "freight"
+          ]
+        },
+        {
+          "label": "Print labels",
+          "patterns": [
+            "label"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Handle over- or under-deliveries": 0.12,
+        "Add freight and duties to item cost": 0.11,
+        "Print labels": 0.16
+      }
+    }
+  ]
+}

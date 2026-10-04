@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.qualia|AID.qtbr|PAPPID.6a13eee7-442d-4431-b8d1-45259cdd86f4",
+  "guid": "6a13eee7-442d-4431-b8d1-45259cdd86f4",
+  "publisherId": "qualia",
+  "offerId": "qtbr",
+  "source": {
+    "name": "0 - Code Business Rules",
+    "publisher": "QUALIA Technik GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.qualia%7CAID.qtbr%7CPAPPID.6a13eee7-442d-4431-b8d1-45259cdd86f4",
+    "lastModified": "2026-07-21T19:04:35.8080301+00:00",
+    "appVersion": "1.1.0.5",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.qualiatechnik.de/businessrule-app?utm_source=appsource&utm_medium=listinghelplink&utm_campaign=business-rules&utm_content=support",
+    "sourceHash": "sha256:fb603c2a0857382348f66ff424fd847549e4c8fc245171b3016c90eff925222e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fb603c2a0857382348f66ff424fd847549e4c8fc245171b3016c90eff925222e",
+    "mappedOn": null,
+    "summary": "No-code rules for validation, emails and actions on BC events",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts",
+      "ng-customer-credit-holds",
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "10 action types: message/confirmation, error, email, notification, assign, URL, Power Automate, insert record",
+      "Formula-based conditions using BC filter syntax, AND/OR, cross-table",
+      "User role checking in conditions",
+      "Rules execute before BC commits transactions",
+      "Works on any table incl. ISV extensions and custom tables",
+      "Logs every rule execution",
+      "Conditional mandatory fields",
+      "Auto-populates fields e.g. dimensions from customer category",
+      "Duplicate prevention incl. duplicate vendor invoice numbers",
+      "Blocks orders for customers with overdue invoices",
+      "HTML emails with BC data and PDFs on events",
+      "Triggers Power Automate flows"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power Automate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

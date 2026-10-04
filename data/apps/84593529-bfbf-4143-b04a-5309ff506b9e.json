@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.it_integro|AID.bc_ba_001|PAPPID.84593529-bfbf-4143-b04a-5309ff506b9e",
+  "guid": "84593529-bfbf-4143-b04a-5309ff506b9e",
+  "publisherId": "it_integro",
+  "offerId": "bc_ba_001",
+  "source": {
+    "name": "Bonuses & Accruals",
+    "publisher": "IT.integro sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.it_integro%7CAID.bc_ba_001%7CPAPPID.84593529-bfbf-4143-b04a-5309ff506b9e",
+    "lastModified": "2026-09-21T15:37:13.157089+00:00",
+    "appVersion": "2.5.0.28002",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.it.integro.pl/en-us/BonusesAccruals/index.html",
+    "sourceHash": "sha256:b670f39f0901566b76f07f07280b104152636f4a2fe4ee296d4af8dbe94bbf69"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b670f39f0901566b76f07f07280b104152636f4a2fe4ee296d4af8dbe94bbf69",
+    "mappedOn": null,
+    "summary": "Manages bonuses, rebates and accrual posting on sales",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-rebates",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-commissions",
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Retrospective rebates on sales and purchases based on targets",
+      "Commissions, loyalty programs and royalties calculated on amount and quantity",
+      "Bonus cards for customer/vendor agreements",
+      "Progressive or highest-threshold calculation",
+      "Recurring bonuses with automatic new bonus cards",
+      "Accruals stored in sub-ledger and optionally posted",
+      "Accruals can be posted to inventory ledgers affecting sales statistics",
+      "Settle by sales credit memo or purchase invoice",
+      "Prints bonus summary of linked transactions",
+      "Base fee includes 1 user; extra users EUR 25/user/month"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

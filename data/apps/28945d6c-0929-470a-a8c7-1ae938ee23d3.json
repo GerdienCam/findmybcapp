@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.san-business-solutions|AID.inventory-dashboard|PAPPID.28945d6c-0929-470a-a8c7-1ae938ee23d3",
+  "guid": "28945d6c-0929-470a-a8c7-1ae938ee23d3",
+  "publisherId": "san-business-solutions",
+  "offerId": "inventory-dashboard",
+  "source": {
+    "name": "Inventory Dashboard",
+    "publisher": "SAN Business Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.san-business-solutions%7CAID.inventory-dashboard%7CPAPPID.28945d6c-0929-470a-a8c7-1ae938ee23d3",
+    "lastModified": "2026-07-18T12:13:39.0285378+00:00",
+    "appVersion": "2.0.3.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://sanbs.nl/inventory-dashboard-dynamics-365-bc.html",
+    "sourceHash": "sha256:225070eb2ca6abfd7e9dfc3290e3e60a3cbef8f33abcae92bfd6d354998f99ca"
+  },
+  "mapping": {
+    "sourceHash": "sha256:225070eb2ca6abfd7e9dfc3290e3e60a3cbef8f33abcae92bfd6d354998f99ca",
+    "mappedOn": null,
+    "summary": "Inventory KPIs and analytics dashboard",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bi-dashboards",
+      "ng-warehouse-kpis"
+    ],
+    "claims": [
+      "Shows stock-out risk, excess inventory and coverage days",
+      "Identifies slow-moving items and inventory turnover",
+      "Automated KPI calculations",
+      "Configurable thresholds",
+      "Real-time view of item availability and stock movements",
+      "Works without additional configuration"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

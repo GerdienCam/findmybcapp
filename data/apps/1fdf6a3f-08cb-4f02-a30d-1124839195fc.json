@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.asqit|AID.csv-import|PAPPID.1fdf6a3f-08cb-4f02-a30d-1124839195fc",
+  "guid": "1fdf6a3f-08cb-4f02-a30d-1124839195fc",
+  "publisherId": "asqit",
+  "offerId": "csv-import",
+  "source": {
+    "name": "CSV Import",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.csv-import%7CPAPPID.1fdf6a3f-08cb-4f02-a30d-1124839195fc",
+    "lastModified": "2024-11-21T16:02:00.1367964+00:00",
+    "appVersion": "20.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/csvimport",
+    "sourceHash": "sha256:18fd7ac4baec33e8a46df2461ed696c477d7d4e3e10af817a015399dea25ed4d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:18fd7ac4baec33e8a46df2461ed696c477d7d4e3e10af817a015399dea25ed4d",
+    "mappedOn": null,
+    "summary": "Imports CSV files into general journals",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Imports CSV files into sales, purchase, general, payment and cash receipt journals",
+      "Default values for journal fields not in the file",
+      "Transformation formulas for dates and employee dimensions",
+      "Automatically creates data exchange definitions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

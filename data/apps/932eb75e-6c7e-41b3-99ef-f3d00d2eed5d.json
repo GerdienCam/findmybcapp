@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-field-service|PAPPID.932eb75e-6c7e-41b3-99ef-f3d00d2eed5d",
+  "guid": "932eb75e-6c7e-41b3-99ef-f3d00d2eed5d",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-field-service",
+  "source": {
+    "name": "Beyond Field Service",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-field-service%7CPAPPID.932eb75e-6c7e-41b3-99ef-f3d00d2eed5d",
+    "lastModified": "2025-10-16T07:40:18.161002+00:00",
+    "appVersion": "2025.10.4.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/apps/index.html",
+    "sourceHash": "sha256:1b72e1ef21f843fc88a859e50567be4e4833aabbcc3a2beb2b0480b58d195206"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1b72e1ef21f843fc88a859e50567be4e4833aabbcc3a2beb2b0480b58d195206",
+    "mappedOn": null,
+    "summary": "Field service management with mobile technician workflows",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-dispatch",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-close-invoice",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-requests",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Scheduling matches technician skills, location and availability and avoids conflicts",
+      "Mobile app with job details, parts, history and instructions",
+      "Offline mode with sync",
+      "Photos, reports and digital signatures captured in the field",
+      "Branded PDF reports with timestamps, work details, signatures and warranty references",
+      "Automatic time tracking per person",
+      "Hours, travel time and parts transferred to an invoice draft",
+      "Service requests as service offers converted to service orders",
+      "Technicians see manuals, past service history and checklist steps"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FI",
+      "US"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

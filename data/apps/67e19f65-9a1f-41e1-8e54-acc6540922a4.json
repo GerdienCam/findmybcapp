@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.multisoft|AID.servotion|PAPPID.67e19f65-9a1f-41e1-8e54-acc6540922a4",
+  "guid": "67e19f65-9a1f-41e1-8e54-acc6540922a4",
+  "publisherId": "multisoft",
+  "offerId": "servotion",
+  "source": {
+    "name": "Servotion",
+    "publisher": "MULTISOFT KFT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.multisoft%7CAID.servotion%7CPAPPID.67e19f65-9a1f-41e1-8e54-acc6540922a4",
+    "lastModified": "2026-09-04T10:01:01.9264284+00:00",
+    "appVersion": "4.0.0.38",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://partner.multisoft.hu/help-servotion/",
+    "sourceHash": "sha256:adb86cdffe59c46ed83ac444e4431e2ee712e77c8377e4d23a504f7e50cc9dc7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:adb86cdffe59c46ed83ac444e4431e2ee712e77c8377e4d23a504f7e50cc9dc7",
+    "mappedOn": null,
+    "summary": "Field service management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-dispatch",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals",
+      "ng-svc-parts",
+      "ng-svc-requests",
+      "ng-svc-assets"
+    ],
+    "claims": [
+      "Route planning for optimal technician routes",
+      "Status feedback to end-users (on the way, started, finished)",
+      "Managing mobile stock of spare parts",
+      "On-site worksheets with printing or electronic signature capture",
+      "Troubleshooting guide for technicians",
+      "Checklists for standardized processes",
+      "Customer portal to report requests 24/7 and track status",
+      "Customer evaluation of repairs with customizable questionnaires",
+      "Track lifecycle of service items",
+      "Automatic resource allocation by closest technician, fastest arrival, priority, task length or time limit",
+      "Allocator can only suggest or also schedule",
+      "Connector to graphical schedulers like Dime"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hu",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dime.Scheduler"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

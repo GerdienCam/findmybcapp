@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.pack-it-for-fusion-connector-app|PAPPID.d02430c2-2d7d-4856-bea8-692e09fc07e0",
+  "guid": "d02430c2-2d7d-4856-bea8-692e09fc07e0",
+  "publisherId": "fenwicksoftware",
+  "offerId": "pack-it-for-fusion-connector-app",
+  "source": {
+    "name": "Pack-It for Fusion",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.pack-it-for-fusion-connector-app%7CPAPPID.d02430c2-2d7d-4856-bea8-692e09fc07e0",
+    "lastModified": "2026-03-18T05:30:40.4598206+00:00",
+    "appVersion": "26.0.260121.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/edi/docs/",
+    "sourceHash": "sha256:7494bc347901ad757a36fca3e97f3c91b8a7b3ab684503ec6ef82eea71f95b67"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7494bc347901ad757a36fca3e97f3c91b8a7b3ab684503ec6ef82eea71f95b67",
+    "mappedOn": null,
+    "summary": "Connects Fenwick Pack-It with EDI Fusion posting restrictions",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Enforces EDI sales posting restrictions when creating consignments in Pack-It"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Fenwick Pack-It",
+      "Fenwick EDI Fusion"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Connector app between two Fenwick apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

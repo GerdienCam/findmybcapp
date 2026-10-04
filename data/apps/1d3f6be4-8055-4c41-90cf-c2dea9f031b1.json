@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.mpriseagriwarebv|AID.agriware-advancedareaplanning-api|PAPPID.1d3f6be4-8055-4c41-90cf-c2dea9f031b1",
+  "guid": "1d3f6be4-8055-4c41-90cf-c2dea9f031b1",
+  "publisherId": "mpriseagriwarebv",
+  "offerId": "agriware-advancedareaplanning-api",
+  "source": {
+    "name": "Agriware 365 Advanced Area Planning Connector",
+    "publisher": "Mprise Agriware B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mpriseagriwarebv%7CAID.agriware-advancedareaplanning-api%7CPAPPID.1d3f6be4-8055-4c41-90cf-c2dea9f031b1",
+    "lastModified": "2026-09-28T12:37:14.2699164+00:00",
+    "appVersion": "28.28.5.271675",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.agriware.cloud/",
+    "sourceHash": "sha256:7dc550cb75809ed270203b97412e2bd3afaacc20c773266589aa0c21606eafa9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7dc550cb75809ed270203b97412e2bd3afaacc20c773266589aa0c21606eafa9",
+    "mappedOn": null,
+    "summary": "Connects Agriware 365 Advanced Area Planning to operations platform",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Graphical planning of greenhouse space",
+      "Allocates jobs to positions in a floorplan view",
+      "Bulk job assignment",
+      "Area restrictions by crop and climate",
+      "Graphical Gantt planning",
+      "Mobile registration of actual placement",
+      "Capacity per location, section and position",
+      "Relocate jobs to solve bottlenecks"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Horticulture"
+    ],
+    "connectsTo": [
+      "Agriware 365 Operations"
+    ],
+    "requires": [
+      "Agriware 365 Business Essentials",
+      "Agriware 365 Advanced Area Planning"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

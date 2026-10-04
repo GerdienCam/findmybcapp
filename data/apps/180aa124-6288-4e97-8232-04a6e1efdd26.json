@@ -1,0 +1,50 @@
+{
+  "appId": "PUBID.dinitdk29915533|AID.vatboolean|PAPPID.180aa124-6288-4e97-8232-04a6e1efdd26",
+  "guid": "180aa124-6288-4e97-8232-04a6e1efdd26",
+  "publisherId": "dinitdk29915533",
+  "offerId": "vatboolean",
+  "source": {
+    "name": "VatBoolean",
+    "publisher": "dinIT.dk",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dinitdk29915533%7CAID.vatboolean%7CPAPPID.180aa124-6288-4e97-8232-04a6e1efdd26",
+    "lastModified": "2025-11-11T10:57:27.0169977+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dinit.dk/",
+    "sourceHash": "sha256:746517dfe20fc6919c5e55dfbeec0a20a2d741cfcead4649f1ebee90faf413f6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:746517dfe20fc6919c5e55dfbeec0a20a2d741cfcead4649f1ebee90faf413f6",
+    "mappedOn": null,
+    "summary": "Syncs VAT and G/L allowed posting dates",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-period-close",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Keeps VAT allow-posting-from/to dates in sync with G/L allowed posting dates"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "id": "ng-conn-cad-plm",
+  "order": 195,
+  "label": "Getting items and BOMs from CAD/PLM",
+  "description": "Transferring items, BOMs and engineering changes from CAD, PDM and PLM systems (SolidWorks, Autodesk, Siemens, PTC, EPLAN) into BC manufacturing.",
+  "type": "connector",
+  "area": "Connecting other systems",
+  "relevance": "medium",
+  "statements": [
+    "Getting items and BOMs from CAD/PLM",
+    "Transferring items, BOMs and engineering changes from CAD, PDM and PLM systems (SolidWorks, Autodesk, Siemens, PTC, EPLAN) into BC manufacturing.",
+    "Engineers export the BOM from SolidWorks and we retype it in BC",
+    "CAD to BC BOM import",
+    "Engineering changes never reach production in time",
+    "New parts are created in PDM and again in BC",
+    "PLM integration for Business Central",
+    "Our BOMs have 400 lines and typos every time",
+    "EPLAN parts lists into production BOMs",
+    "Which revision is in production? BC and PLM disagree",
+    "Autodesk Vault connected to BC items",
+    "Item master owned by PLM, BC just receives",
+    "Fashion PLM system sending styles to BC",
+    "Push BC cost prices back into the CAD system"
+  ],
+  "questions": [
+    {
+      "id": "system",
+      "text": "Which CAD, PDM or PLM system do your engineers use?",
+      "multi": true,
+      "options": [
+        {
+          "label": "SolidWorks",
+          "patterns": [
+            "solid ?works",
+            "any (cad|system)|any cad/p[dl]m|more than 30 cad"
+          ]
+        },
+        {
+          "label": "Autodesk (Inventor, AutoCAD, Vault, Fusion)",
+          "patterns": [
+            "autodesk",
+            "\\binventor\\b",
+            "autocad",
+            "\\bvault\\b",
+            "fusion 360",
+            "revit",
+            "any (cad|system)|any cad/p[dl]m|more than 30 cad"
+          ]
+        },
+        {
+          "label": "Siemens or PTC (Teamcenter, Solid Edge, Creo, Windchill)",
+          "patterns": [
+            "siemens",
+            "teamcenter",
+            "solid ?edge",
+            "\\bptc\\b",
+            "creo",
+            "windchill",
+            "any (cad|system)|any cad/p[dl]m|more than 30 cad"
+          ]
+        },
+        {
+          "label": "EPLAN",
+          "patterns": [
+            "eplan",
+            "any (cad|system)|any cad/p[dl]m|more than 30 cad"
+          ]
+        },
+        {
+          "label": "Another or in-house system",
+          "patterns": [
+            "any (cad|system)|any cad/p[dl]m|more than 30 cad",
+            "resourced",
+            "delogue",
+            "releasepro"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "SolidWorks": 0.5,
+        "Autodesk (Inventor, AutoCAD, Vault, Fusion)": 0.42,
+        "Siemens or PTC (Teamcenter, Solid Edge, Creo, Windchill)": 0.42,
+        "EPLAN": 0.5,
+        "Another or in-house system": 0.5
+      }
+    },
+    {
+      "id": "direction",
+      "text": "Should data flow only into BC, or back to engineering too?",
+      "options": [
+        {
+          "label": "Both ways",
+          "patterns": [
+            "bi-?directional",
+            "two-way",
+            "back to the cad",
+            "outbound apis",
+            "publishes"
+          ]
+        },
+        {
+          "label": "Into BC only",
+          "patterns": [
+            "imports?",
+            "file upload",
+            "inbound",
+            "creates? (items|item master)",
+            "transfers? [^.]*(from|into)",
+            "receives"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Both ways": 0.42,
+        "Into BC only": 0.75
+      }
+    },
+    {
+      "id": "changes",
+      "text": "How do you handle engineering changes?",
+      "options": [
+        {
+          "label": "Track drawing and BOM revisions",
+          "patterns": [
+            "revisions?",
+            "version control",
+            "status management",
+            "updates documentation when designs change"
+          ]
+        },
+        {
+          "label": "Formal change requests and approval",
+          "patterns": [
+            "engineering change",
+            "change (orders?|requests?)",
+            "\\beco\\b",
+            "approv"
+          ]
+        },
+        {
+          "label": "Just transfer the latest data",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Track drawing and BOM revisions": 0.25,
+        "Formal change requests and approval": 0.25
+      }
+    },
+    {
+      "id": "creates",
+      "text": "What should the link create in BC?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Items and production BOMs with routings",
+          "patterns": [
+            "routings?"
+          ]
+        },
+        {
+          "label": "Production, assembly orders or projects",
+          "patterns": [
+            "(production|assembly) orders",
+            "to a job\\b",
+            "projects",
+            "sales proposals",
+            "quotes"
+          ]
+        },
+        {
+          "label": "Item attributes and templates",
+          "patterns": [
+            "attributes",
+            "templates"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Items and production BOMs with routings": 0.58,
+        "Production, assembly orders or projects": 0.42,
+        "Item attributes and templates": 0.25
+      }
+    }
+  ]
+}

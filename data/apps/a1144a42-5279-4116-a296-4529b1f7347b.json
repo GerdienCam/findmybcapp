@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.apcommerce|AID.twgui_apc|PAPPID.a1144a42-5279-4116-a296-4529b1f7347b",
+  "guid": "a1144a42-5279-4116-a296-4529b1f7347b",
+  "publisherId": "apcommerce",
+  "offerId": "twgui_apc",
+  "source": {
+    "name": "Taiwan Government Uniform Invoice (GUI)",
+    "publisher": "AP Commerce",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apcommerce%7CAID.twgui_apc%7CPAPPID.a1144a42-5279-4116-a296-4529b1f7347b",
+    "lastModified": "2026-03-16T18:33:52.1519951+00:00",
+    "appVersion": "1.0.2.0",
+    "pricingTypes": [
+      "Free",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.apcdynamics.com/business-central-add-ons/",
+    "sourceHash": "sha256:21826ca63861090db896f7162b5ba93c9cee032205bb925882136b97ad371a89"
+  },
+  "mapping": {
+    "sourceHash": "sha256:21826ca63861090db896f7162b5ba93c9cee032205bb925882136b97ad371a89",
+    "mappedOn": null,
+    "summary": "Supports compliance and reporting for the Taiwan Government Uniform Invoice (GUI)",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "GUI prefixes and number ranges by period with gap/duplicate prevention",
+      "Uploads e-invoices to Taiwan E-Invoice Integration Platform via VAC or Turnkey",
+      "Generates GUI records from sales orders or posted sales invoices",
+      "Tax info linked to original accounting entries",
+      "Generates VAT media files for bi-monthly declarations",
+      "Annual plan available",
+      "Free unlimited sandbox testing"
+    ],
+    "countries": [
+      "TW"
+    ],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [
+      "Taiwan E-Invoice Integration Platform"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

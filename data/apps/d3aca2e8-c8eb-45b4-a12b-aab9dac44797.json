@@ -1,0 +1,94 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.foodchain-id-connector|PAPPID.d3aca2e8-c8eb-45b4-a12b-aab9dac44797",
+  "guid": "d3aca2e8-c8eb-45b4-a12b-aab9dac44797",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "foodchain-id-connector",
+  "source": {
+    "name": "FoodChain ID Connector",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.foodchain-id-connector%7CPAPPID.d3aca2e8-c8eb-45b4-a12b-aab9dac44797",
+    "lastModified": "2026-01-20T08:29:14.7612365+00:00",
+    "appVersion": "27.2.17102.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.nicsystemslearning.com/foodchainid-connector",
+    "sourceHash": "sha256:98d38fecab847c63a848d1a7a0810a5bf54fd7eeb6f0354725ae6603dbe2bf2f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:98d38fecab847c63a848d1a7a0810a5bf54fd7eeb6f0354725ae6603dbe2bf2f",
+    "mappedOn": null,
+    "summary": "Imports recipes and specifications from FoodChain ID",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-product-compliance",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Item creation from FoodChain ID finished goods, packaging and ingredients",
+      "Imports recipe data into production BOMs",
+      "Auto-creates new production BOM versions when recipes change",
+      "Field mapping between FoodChain ID and BC",
+      "Imports specs: barcodes, allergens, usage statements, nutrition",
+      "Exports item costs from BC to FoodChain ID",
+      "Scheduled automatic imports",
+      "Links allergens to Allergens app codes",
+      "Lite and Full user access levels"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "FoodChain ID"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.supply-chain-pack-app|PAPPID.109894b5-05d0-4b0e-973a-634b71c2b80c",
+  "guid": "109894b5-05d0-4b0e-973a-634b71c2b80c",
+  "publisherId": "fenwicksoftware",
+  "offerId": "supply-chain-pack-app",
+  "source": {
+    "name": "Fenwick Apps Supply Chain Pack",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.supply-chain-pack-app%7CPAPPID.109894b5-05d0-4b0e-973a-634b71c2b80c",
+    "lastModified": "2026-08-31T00:33:09.8173966+00:00",
+    "appVersion": "26.0.260618.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/pack/supply-chain/",
+    "sourceHash": "sha256:5a7d45c629bd00c3f469d19fed6c66083878b257f0b038ef18155e5a929122f8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5a7d45c629bd00c3f469d19fed6c66083878b257f0b038ef18155e5a929122f8",
+    "mappedOn": null,
+    "summary": "Supply chain app bundle for forecasting, quality and order flow",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-order-allocation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-supplier-quality-compliance",
+      "ng-scrap-rework"
+    ],
+    "claims": [
+      "Bundle of seven supply chain apps",
+      "Item budgets and forecasts generated from historical data",
+      "Plans components from a BOM, links to Excel and supports setups with several budgets",
+      "Synchronisation with production forecasts",
+      "Hierarchical pricing and campaign-based discounts",
+      "Bulk price updates and automatic end-date handling",
+      "Prices by item group, analyzed through linked dimensions",
+      "Cycle count tracking via Counting Periods and Excel export/import of stocktakes",
+      "Back order flagging with single-screen overview",
+      "Updates inventory picks on its own when stock is received",
+      "DIFOT: planned vs actual delivery dates at document and line level",
+      "Enforces mandatory delivery fields",
+      "Automated stock write-offs and mandatory reason codes"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

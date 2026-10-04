@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.e-documents-connector-avalara|PAPPID.f35c56a6-7c5f-4dbe-89c4-fef5145d00f4",
+  "guid": "f35c56a6-7c5f-4dbe-89c4-fef5145d00f4",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "e-documents-connector-avalara",
+  "source": {
+    "name": "E-Document Connector - Avalara",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.e-documents-connector-avalara%7CPAPPID.f35c56a6-7c5f-4dbe-89c4-fef5145d00f4",
+    "lastModified": "2026-06-04T08:07:12.3431303+00:00",
+    "appVersion": "28.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://aka.ms/bcedocuments",
+    "sourceHash": "sha256:e8be9e35dabfcaef2a0ea291b8d1dd5d64112804f5a20b8836e92c030815696f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e8be9e35dabfcaef2a0ea291b8d1dd5d64112804f5a20b8836e92c030815696f",
+    "mappedOn": null,
+    "summary": "E-document exchange via Avalara",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Connects BC E-Documents to the Avalara e-invoicing service",
+      "Adds Avalara as a service integration in the E-Document Service page",
+      "Sends outgoing e-documents to the Avalara network",
+      "Receives incoming e-documents from Avalara",
+      "Sends and receives approval/rejection messages",
+      "Supports setting up Avalara mandate"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Avalara"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

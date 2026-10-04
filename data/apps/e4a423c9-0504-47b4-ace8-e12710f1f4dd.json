@@ -1,0 +1,87 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.fcp-inventory-shelf-life|PAPPID.e4a423c9-0504-47b4-ace8-e12710f1f4dd",
+  "guid": "e4a423c9-0504-47b4-ace8-e12710f1f4dd",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "fcp-inventory-shelf-life",
+  "source": {
+    "name": "Inventory Shelf Life",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.fcp-inventory-shelf-life%7CPAPPID.e4a423c9-0504-47b4-ace8-e12710f1f4dd",
+    "lastModified": "2025-10-28T05:07:21.2745539+00:00",
+    "appVersion": "27.0.16299.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.nicsystemslearning.com/help/inventory-shelf-life",
+    "sourceHash": "sha256:59a0295af8cf87b729a5da1a4d0df5b1e083550dff6a1894b1812c014b4ff5ba"
+  },
+  "mapping": {
+    "sourceHash": "sha256:59a0295af8cf87b729a5da1a4d0df5b1e083550dff6a1894b1812c014b4ff5ba",
+    "mappedOn": null,
+    "summary": "Shelf life controls for customers and items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-hold",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking",
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Shelf life codes per item, customer, vendor and combinations",
+      "Blocks picking and shipping of products not meeting customer shelf life",
+      "Blocks receiving of products not meeting company shelf life",
+      "Real-time validation integrated with warehouse activities"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

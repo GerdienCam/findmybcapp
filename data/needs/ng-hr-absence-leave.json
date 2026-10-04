@@ -1,0 +1,234 @@
+{
+  "id": "ng-hr-absence-leave",
+  "order": 134,
+  "label": "Vacation, sick days and leave requests",
+  "description": "Leave policies, requesting and approving time off and registering absence.",
+  "type": "bpc",
+  "area": "People & payroll",
+  "relevance": "medium",
+  "statements": [
+    "Vacation, sick days and leave requests",
+    "Leave policies, requesting and approving time off and registering absence.",
+    "How do vacation days accrue each month and what carries over?",
+    "Set up leave types like vacation, sick, child's sick day and special days off",
+    "holiday accrual rules",
+    "Part-timers should earn vacation pro rata",
+    "The new holiday law changed our holiday year and we need new rules",
+    "Rules for when sick leave needs documentation",
+    "Sick days are reported by text to the manager and never reach payroll",
+    "We need to record absence in BC so payroll is correct",
+    "absence registration",
+    "How many sick days has each employee had this year?",
+    "Production workers should register sick or absent on the terminal",
+    "HR registers absence for staff who don't have a PC",
+    "Is there an absence tracking app that integrates with Danish payroll?",
+    "Track child's sick days, parental leave and other absence types per employee",
+    "Absence must reduce resource capacity so planners don't book people who are away",
+    "Remaining vacation days per employee don't match payroll's numbers",
+    "We lose track of long-term absence and when people are due back",
+    "absence per department",
+    "Vacation requests come by email and the manager forgets to answer",
+    "Employees should request holidays on their phone and see how many days they have left",
+    "time off request app",
+    "Managers need to see who else is off before approving a vacation",
+    "We want a vacation calendar showing the whole team's planned holidays",
+    "Approved time off should flow into payroll automatically",
+    "Is there a leave request app for Business Central?",
+    "Summer holiday planning across the warehouse is chaos",
+    "Employees ask HR how many vacation days they have left all the time",
+    "Request half a day off for a personal errand",
+    "Planned holidays don't show in resource planning so we book consultants who are away",
+    "holiday approval workflow"
+  ],
+  "questions": [
+    {
+      "id": "scope",
+      "text": "Do you also need to register working hours, not just absence?",
+      "options": [
+        {
+          "label": "Yes, hours and absence",
+          "patterns": [
+            "working hours",
+            "working times?",
+            "clock",
+            "time ?sheet",
+            "time entr",
+            "time registration",
+            "attendance",
+            "punch"
+          ]
+        },
+        {
+          "label": "Absence and leave only",
+          "patterns": [
+            "time off",
+            "vacation balance",
+            "leave entitlement",
+            "annual leave",
+            "calendar labels",
+            "absence requests"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, hours and absence": 0.62,
+        "Absence and leave only": 0.38
+      }
+    },
+    {
+      "id": "channel",
+      "text": "How should employees request leave?",
+      "help": "Many employees may not have a BC user.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Web portal or self-service site",
+          "patterns": [
+            "portal",
+            "web app",
+            "self-service",
+            "\\bspa\\b"
+          ]
+        },
+        {
+          "label": "Mobile app",
+          "patterns": [
+            "mobile",
+            "ios",
+            "power apps",
+            "terminal"
+          ]
+        },
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "my time off",
+            "in bc",
+            "team member license",
+            "enter time entries"
+          ]
+        },
+        {
+          "label": "HR registers it for them",
+          "patterns": [
+            "hr can file",
+            "leave journal",
+            "annual leave journal",
+            "absence registration"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Web portal or self-service site": 0.62,
+        "Mobile app": 0.12,
+        "Inside Business Central": 0.31,
+        "HR registers it for them": 0.25
+      }
+    },
+    {
+      "id": "approval",
+      "text": "Do managers need to approve leave requests?",
+      "options": [
+        {
+          "label": "Yes, with approval workflow",
+          "patterns": [
+            "approv"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, with approval workflow": 0.62
+      }
+    },
+    {
+      "id": "payroll",
+      "text": "Should absence data feed your payroll?",
+      "options": [
+        {
+          "label": "Yes, export or link to payroll",
+          "patterns": [
+            "payroll",
+            "salary"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, export or link to payroll": 0.5
+      }
+    },
+    {
+      "id": "hrscope",
+      "text": "Do you need broader HR too (contracts, recruitment, appraisals)?",
+      "options": [
+        {
+          "label": "Yes, a fuller HR solution",
+          "patterns": [
+            "contract",
+            "recruit",
+            "apprais",
+            "qualification",
+            "competenc",
+            "business trip"
+          ]
+        },
+        {
+          "label": "No, leave and time only",
+          "patterns": [
+            "time off",
+            "time registration",
+            "absence management",
+            "annual leave",
+            "working hours",
+            "calendar labels"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, a fuller HR solution": 0.31,
+        "No, leave and time only": 0.69
+      }
+    },
+    {
+      "id": "entitlement",
+      "text": "Should the system calculate leave entitlement automatically?",
+      "options": [
+        {
+          "label": "Yes, accrue from rules or seniority",
+          "patterns": [
+            "entitlement",
+            "seniority",
+            "vacation polic",
+            "accru"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, accrue from rules or seniority": 0.19
+      }
+    }
+  ]
+}

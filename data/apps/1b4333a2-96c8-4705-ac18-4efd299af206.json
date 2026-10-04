@@ -1,0 +1,87 @@
+{
+  "appId": "PUBID.armadadynamicsas1615984193301|AID.eqm365rental-esign|PAPPID.1b4333a2-96c8-4705-ac18-4efd299af206",
+  "guid": "1b4333a2-96c8-4705-ac18-4efd299af206",
+  "publisherId": "armadadynamicsas1615984193301",
+  "offerId": "eqm365rental-esign",
+  "source": {
+    "name": "EQM 365 Rental - eSign",
+    "publisher": "Armada Dynamics AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.armadadynamicsas1615984193301%7CAID.eqm365rental-esign%7CPAPPID.1b4333a2-96c8-4705-ac18-4efd299af206",
+    "lastModified": "2026-09-13T17:59:10.3557311+00:00",
+    "appVersion": "28.5.202637.81461",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.armadadynamics.no/en/support/knowledge-database",
+    "sourceHash": "sha256:0149446044a210fb508de15011660327a3f137a5d79482c5beeb5704bf96effc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0149446044a210fb508de15011660327a3f137a5d79482c5beeb5704bf96effc",
+    "mappedOn": null,
+    "summary": "Adds electronic signature to EQM 365 Rental documents",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Electronic signature for rental documents"
+    ],
+    "countries": [
+      "AE",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "GB",
+      "IS",
+      "LT",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "PL",
+      "QA",
+      "SE",
+      "SI",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "fi",
+      "fr",
+      "nb",
+      "nl"
+    ],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EQM 365 Rental"
+    ],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

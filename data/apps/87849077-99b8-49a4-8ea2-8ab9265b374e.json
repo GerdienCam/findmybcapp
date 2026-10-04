@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.bluesoftwareas|AID.bluefreightcalculator|PAPPID.87849077-99b8-49a4-8ea2-8ab9265b374e",
+  "guid": "87849077-99b8-49a4-8ea2-8ab9265b374e",
+  "publisherId": "bluesoftwareas",
+  "offerId": "bluefreightcalculator",
+  "source": {
+    "name": "Blue Freight Calculator",
+    "publisher": "Blue Software AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bluesoftwareas%7CAID.bluefreightcalculator%7CPAPPID.87849077-99b8-49a4-8ea2-8ab9265b374e",
+    "lastModified": "2026-01-27T03:47:57.1727932+00:00",
+    "appVersion": "4.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bluesoftware.no/wp-content/uploads/2025/08/Blue-Freight-Calculator-Manual.pdf",
+    "sourceHash": "sha256:9cb220cf4648daf444afd0ce64a115da85d6bbe91b4e43e36393e86dbc13e597"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9cb220cf4648daf444afd0ce64a115da85d6bbe91b4e43e36393e86dbc13e597",
+    "mappedOn": null,
+    "summary": "Calculates freight on sales quotes and orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Calculates freight for sales quotes and orders from goods units",
+      "Requires Blue Goods for goods unit parameters",
+      "Integrated with Bring, nShift and Logistra/Cargonizer"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Bring",
+      "nShift",
+      "Logistra/Cargonizer"
+    ],
+    "requires": [
+      "Blue Goods"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

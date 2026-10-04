@@ -1,0 +1,81 @@
+{
+  "appId": "PUBID.bs-conceptsgmbh1590482979672|AID.eplan-anbindung|PAPPID.e57c16f6-ca44-4c9a-bf90-a5995c70b17c",
+  "guid": "e57c16f6-ca44-4c9a-bf90-a5995c70b17c",
+  "publisherId": "bs-conceptsgmbh1590482979672",
+  "offerId": "eplan-anbindung",
+  "source": {
+    "name": "EPLAN Interface",
+    "publisher": "BS-Concepts GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bs-conceptsgmbh1590482979672%7CAID.eplan-anbindung%7CPAPPID.e57c16f6-ca44-4c9a-bf90-a5995c70b17c",
+    "lastModified": "2026-03-10T08:28:10.1500642+00:00",
+    "appVersion": "27.3.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bs-concepts.com/eplan-interface-documents-informations/",
+    "sourceHash": "sha256:a048b58ba34192e1eea0ad0d0bff1d25449dc3b3e4e89c7b19193f6bb2ad864e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a048b58ba34192e1eea0ad0d0bff1d25449dc3b3e4e89c7b19193f6bb2ad864e",
+    "mappedOn": null,
+    "summary": "Transfers EPLAN electrical design data to BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bom-formula-engineering",
+      "ng-proj-materials-subcontract"
+    ],
+    "claims": [
+      "Imports items and BOMs from EPLAN",
+      "Creates assembly and production orders from EPLAN BOMs",
+      "Links EPLAN BOM to a job",
+      "Links sales order with assembly/production order and EPLAN BOM"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IS",
+      "IT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "SE",
+      "SI"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "EPLAN"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

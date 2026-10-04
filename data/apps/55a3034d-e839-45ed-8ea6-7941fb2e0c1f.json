@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_availabilitydashboard|PAPPID.55a3034d-e839-45ed-8ea6-7941fb2e0c1f",
+  "guid": "55a3034d-e839-45ed-8ea6-7941fb2e0c1f",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_availabilitydashboard",
+  "source": {
+    "name": "Availability Dashboard",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_availabilitydashboard%7CPAPPID.55a3034d-e839-45ed-8ea6-7941fb2e0c1f",
+    "lastModified": "2025-11-03T10:44:40.2592615+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-availability-dashboard/",
+    "sourceHash": "sha256:6e006cba0e67d8f59c7406bcbef13213f3493d0055add66ccb1377e12acb52bf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6e006cba0e67d8f59c7406bcbef13213f3493d0055add66ccb1377e12acb52bf",
+    "mappedOn": null,
+    "summary": "Calculates item and SKU availability",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Calculates item and SKU availability with ending date and location filters",
+      "Calculates order quantity when available quantity is below zero",
+      "Highlights items with negative availability in red",
+      "Shows quantities on purchase, sales, production, service, job and assembly orders on one page"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

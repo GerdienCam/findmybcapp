@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.jcdas1740746058749|AID.cvr_validation|PAPPID.a6549d4b-0202-429a-ad83-eb2d64b3126e",
+  "guid": "a6549d4b-0202-429a-ad83-eb2d64b3126e",
+  "publisherId": "jcdas1740746058749",
+  "offerId": "cvr_validation",
+  "source": {
+    "name": "VAT Validation",
+    "publisher": "JCD A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jcdas1740746058749%7CAID.cvr_validation%7CPAPPID.a6549d4b-0202-429a-ad83-eb2d64b3126e",
+    "lastModified": "2026-09-04T09:32:56.2407416+00:00",
+    "appVersion": "1.0.20260904.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://jcd.dk/support/",
+    "sourceHash": "sha256:8f6888d87221abae469f15d781f206319c370ea7da14d6fe64650d8b3108e64f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8f6888d87221abae469f15d781f206319c370ea7da14d6fe64650d8b3108e64f",
+    "mappedOn": null,
+    "summary": "Validates customer and vendor VAT registration numbers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Validates customer and vendor VAT numbers against EU VIES",
+      "Auto-validates when VAT Registration No. or Country/Region Code changes",
+      "Offers to update name, address, city, postal code and country using verified values",
+      "Recognises C/O addresses and puts them in Address 2",
+      "Adds a filterable Latest VAT Validation date on customers and vendors",
+      "Bulk revalidation task for all customers and vendors",
+      "Review page listing differences before applying changes",
+      "Logs all validations in the standard VAT Registration Log"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "VIES"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

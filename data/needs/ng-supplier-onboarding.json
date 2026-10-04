@@ -1,0 +1,238 @@
+{
+  "id": "ng-supplier-onboarding",
+  "order": 7,
+  "label": "Setting up and maintaining supplier records",
+  "description": "Finding and registering new suppliers, vendor master data quality, blocking, segmenting and classifying vendors.",
+  "type": "bpc",
+  "area": "Purchasing & payables",
+  "relevance": "high",
+  "statements": [
+    "Setting up and maintaining supplier records",
+    "Finding and registering new suppliers, vendor master data quality, blocking, segmenting and classifying vendors.",
+    "Setting up a new vendor in BC takes forever and people always forget fields",
+    "Anyone can create a vendor card; we need someone to approve new suppliers before they can be used",
+    "Is there an app where new suppliers fill in their own details and bank account so we don't have to type it?",
+    "new vendor onboarding form",
+    "We got scammed once with fake bank details on a brand new supplier. How do we stop that?",
+    "Our new supplier checklist lives in a Word document and nobody follows it",
+    "People mistype IBANs when setting up new vendor bank accounts all the time",
+    "How do I make fields like payment terms and posting group mandatory when creating a vendor?",
+    "We want new suppliers to upload their W-9 or company registration documents during signup",
+    "The purchaser creates new vendors with wrong posting groups and finance has to fix them later",
+    "Can I copy a newly approved vendor into our other company in Business Central?",
+    "Duplicate vendors keep getting created because nobody checks if the supplier already exists",
+    "We want a workflow: purchaser requests a new vendor, finance checks it, then it gets unblocked",
+    "vendor creation approval",
+    "Getting a new supplier ready to order from involves emails, spreadsheets and three departments",
+    "New vendors should stay blocked until finance has verified their bank account by phone",
+    "Can we look up a new supplier's name and address from the business register instead of typing it?",
+    "vendor templates bc",
+    "Adding contacts for a new supplier: sales rep, accounts receivable, delivery. Where do we keep all that?",
+    "Who signed off on this new vendor? We have no record of who created it or why",
+    "Suppliers change bank accounts by email and we have no safe way to check it's real",
+    "We want existing suppliers to update their own address and bank details through a portal",
+    "Who changed the bank account on this vendor card? There's no history",
+    "How do I stop people ordering from a supplier we've dropped, but still pay their last invoices?",
+    "Our vendor list has hundreds of old suppliers we haven't used in years. How do we clean it up?",
+    "block vendor for purchasing only",
+    "Contact persons at our suppliers are out of date and emails go to people who left",
+    "We need to put a supplier on hold temporarily while we sort out a quality issue",
+    "Is there a way to merge duplicate vendors in Business Central?",
+    "We send purchase orders to some vendors by EDI and others by email and can't keep track of which is which",
+    "We want to set up the EDI link with our biggest supplier so orders and confirmations flow automatically",
+    "Can BC alert me when someone edits a vendor's payment details?",
+    "We need a way to find alternative suppliers when our main one can't deliver",
+    "Is there an app where prospective suppliers can sign up themselves before we decide to use them?",
+    "supplier registration portal",
+    "Potential vendors email us their company info and it gets lost in someone's inbox",
+    "How do I keep a list of prospective suppliers in BC without creating real vendor cards for them?",
+    "Our buyers find new suppliers on Google and there's no shared record of who we've already looked at",
+    "We have 1,200 vendors and no idea which suppliers actually matter",
+    "Can we tag vendors as strategic, preferred or one-off in BC?",
+    "Our big customer requires us to report how much we buy from small and minority-owned suppliers",
+    "supplier diversity tracking",
+    "Management wants to know how much of our purchasing goes to local suppliers versus abroad",
+    "Is there a way to group vendors for sourcing decisions beyond the vendor posting group?",
+    "We run five companies in BC and have to keep the same vendor in sync in each one",
+    "vendor master shared across companies",
+    "We need a standard set of vendor categories that every company in our group uses",
+    "Is there an app to sync vendor cards between BC companies?",
+    "Our Danish and Swedish companies buy from the same suppliers but the vendor numbers are different",
+    "Central team should own the vendor classification codes, local companies just use them"
+  ],
+  "questions": [
+    {
+      "id": "risk",
+      "text": "What do you most want to control on supplier records?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Changes to supplier bank details",
+          "patterns": [
+            "bank accounts?\\b.{0,40}approv",
+            "approv.{0,40}bank account",
+            "unapproved bank account",
+            "bank account changes"
+          ]
+        },
+        {
+          "label": "Approving new suppliers before use",
+          "patterns": [
+            "unapproved vendors",
+            "vendor approval",
+            "approved vendors?",
+            "vendor lifecycle",
+            "admission"
+          ]
+        },
+        {
+          "label": "Changes to any sensitive supplier field",
+          "patterns": [
+            "protect(s|ed)? .{0,30}(fields|data)",
+            "field locking",
+            "monitor(s|ed)? (specific )?(tables|fields)",
+            "restricts changes"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Changes to supplier bank details": 0.5,
+        "Approving new suppliers before use": 0.21,
+        "Changes to any sensitive supplier field": 0.36
+      }
+    },
+    {
+      "id": "verify",
+      "text": "Should bank or company details be checked against an outside source?",
+      "help": "E.g. checking that an IBAN really belongs to the supplier.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Check the account belongs to the supplier",
+          "patterns": [
+            "belongs to",
+            "surepay",
+            "verification of payee",
+            "\\bvop\\b"
+          ]
+        },
+        {
+          "label": "Check IBAN/SWIFT is valid and fill bank details",
+          "patterns": [
+            "iban validation",
+            "validat\\w* .{0,40}(iban|swift|bic)",
+            "bic/swift from iban",
+            "retrieves bank name"
+          ]
+        },
+        {
+          "label": "Check tax or company registration numbers",
+          "patterns": [
+            "vat number",
+            "registration number",
+            "\\bpan\\b",
+            "gstin|\\bgst taxpayer",
+            "company id"
+          ]
+        },
+        {
+          "label": "Internal approval only is fine",
+          "patterns": [
+            "approval workflow",
+            "approval request",
+            "approval engine"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Check the account belongs to the supplier": 0.07,
+        "Check IBAN/SWIFT is valid and fill bank details": 0.14,
+        "Check tax or company registration numbers": 0.14,
+        "Internal approval only is fine": 0.64
+      }
+    },
+    {
+      "id": "block",
+      "text": "Should payments stop automatically until changes are approved?",
+      "options": [
+        {
+          "label": "Block payments and payment files",
+          "patterns": [
+            "block\\w* .{0,40}payment",
+            "payment.{0,30}(skips|blocked|cannot)",
+            "cannot be used in payment",
+            "only released .{0,40}payments",
+            "only approved.{0,40}payments",
+            "blocked for payments"
+          ]
+        },
+        {
+          "label": "Also block purchase documents and invoice posting",
+          "patterns": [
+            "purchase documents and journals",
+            "invoice posting",
+            "blocks posting",
+            "unapproved vendors on purchase"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Block payments and payment files": 0.43,
+        "Also block purchase documents and invoice posting": 0.21
+      }
+    },
+    {
+      "id": "tool",
+      "text": "Where should approvals happen?",
+      "options": [
+        {
+          "label": "Inside BC's own approval workflows",
+          "patterns": [
+            "workflow template",
+            "approval engine",
+            "workflow events",
+            "built-in workflow",
+            "approval workflow"
+          ]
+        },
+        {
+          "label": "Power Automate / Power Platform",
+          "patterns": [
+            "power automate",
+            "power platform"
+          ]
+        },
+        {
+          "label": "A supplier portal where suppliers register themselves",
+          "patterns": [
+            "portal",
+            "self-register",
+            "vendor platform"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inside BC's own approval workflows": 0.5,
+        "Power Automate / Power Platform": 0.14,
+        "A supplier portal where suppliers register themselves": 0.14
+      }
+    }
+  ]
+}

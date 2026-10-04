@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.bricklead1692180953470|AID.bri_sscc|PAPPID.03cf6209-02bd-4ff5-a3f1-1000f71d6ae6",
+  "guid": "03cf6209-02bd-4ff5-a3f1-1000f71d6ae6",
+  "publisherId": "bricklead1692180953470",
+  "offerId": "bri_sscc",
+  "source": {
+    "name": "SSCC Management",
+    "publisher": "BRICKLEAD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bricklead1692180953470%7CAID.bri_sscc%7CPAPPID.03cf6209-02bd-4ff5-a3f1-1000f71d6ae6",
+    "lastModified": "2025-12-18T15:11:52.8040344+00:00",
+    "appVersion": "25.0.9224.30353",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.bricklead.eu/en-us/apps/sscc/",
+    "sourceHash": "sha256:18ea5916b647870bf94932ecf94485952eed34befaa23fb5fc3da1c4361087b2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:18ea5916b647870bf94932ecf94485952eed34befaa23fb5fc3da1c4361087b2",
+    "mappedOn": null,
+    "summary": "Creates SSCC codes for shipped packages",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates SSCC codes from shipping processes",
+      "Multiple SSCC per sales line",
+      "Group several orders on one SSCC",
+      "SSCC lines link shipping documents to labels",
+      "Package labels for logistics tracking",
+      "Supports Essential and Premium"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

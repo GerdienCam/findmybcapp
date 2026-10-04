@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.alpha_solutions_ag|AID.asmd|PAPPID.59785545-8319-407d-8369-6a26d8eec8f8",
+  "guid": "59785545-8319-407d-8369-6a26d8eec8f8",
+  "publisherId": "alpha_solutions_ag",
+  "offerId": "asmd",
+  "source": {
+    "name": "Aproda Mobile Data Collection (ASMD)",
+    "publisher": "Aproda AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alpha_solutions_ag%7CAID.asmd%7CPAPPID.59785545-8319-407d-8369-6a26d8eec8f8",
+    "lastModified": "2026-08-17T08:39:36.0032499+00:00",
+    "appVersion": "27.0.0.106",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aproda.ch/aproda-mobile-data-collection",
+    "sourceHash": "sha256:8d65f1f5f3969e4c54425d95f1d2ed1d5b3d60fbd8e4f3a6b9cb745c900c3f64"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8d65f1f5f3969e4c54425d95f1d2ed1d5b3d60fbd8e4f3a6b9cb745c900c3f64",
+    "mappedOn": null,
+    "summary": "Connects BC to Aproda mobile handheld data collection",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Displays BC data on a mobile handheld",
+      "Data entry on a mobile handheld",
+      "Barcode scanning on handheld interacting with BC",
+      "Templates to build input and display screens",
+      "Handheld processes: warehouse receipts, stock information, rearrangement, inventory, orders, assembly",
+      "Connects to the Aproda handheld solution"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Aproda handheld"
+    ],
+    "requires": [
+      "Aproda handheld solution"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

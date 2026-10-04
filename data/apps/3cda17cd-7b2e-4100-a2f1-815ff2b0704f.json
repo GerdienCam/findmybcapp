@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.admin-pack-app|PAPPID.3cda17cd-7b2e-4100-a2f1-815ff2b0704f",
+  "guid": "3cda17cd-7b2e-4100-a2f1-815ff2b0704f",
+  "publisherId": "fenwicksoftware",
+  "offerId": "admin-pack-app",
+  "source": {
+    "name": "Fenwick Apps Administration Pack",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.admin-pack-app%7CPAPPID.3cda17cd-7b2e-4100-a2f1-815ff2b0704f",
+    "lastModified": "2026-07-05T23:34:54.8593523+00:00",
+    "appVersion": "26.0.260618.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/pack/administration/",
+    "sourceHash": "sha256:ed81b1293d5d5f362f124ac2c34f4c309732f07a6986c5c8c1cc85bc845e963a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ed81b1293d5d5f362f124ac2c34f4c309732f07a6986c5c8c1cc85bc845e963a",
+    "mappedOn": null,
+    "summary": "Bundle of apps for communication, data management and security",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-alerts",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-messaging",
+      "ng-conn-esignature",
+      "ng-product-phase-out",
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Bundle of Field Security Plus, Attach-It, Discontinued Master Data, Alerts, SMS Integrator, Data Integrator and Sign-It",
+      "Locks fields, enforces mandatory values, rules at group or user level",
+      "Drag-and-drop attachments stored internally or linked externally with dynamic folder paths",
+      "Flag, discontinue or restore customers, vendors, resources, items, dimensions, locations and G/L accounts",
+      "Custom rules to monitor any record with email or SMS notifications",
+      "Send and receive SMS via Twilio with templates and delivery tracking",
+      "Connects to Azure Files via SMB and REST API without middleware",
+      "Sends signature requests to DocuSign"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Twilio",
+      "Azure Files",
+      "DocuSign"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

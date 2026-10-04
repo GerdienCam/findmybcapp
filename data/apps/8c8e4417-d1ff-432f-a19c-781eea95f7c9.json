@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.smart-businessllc2412077-2412077|AID.smart_cash_flow|PAPPID.8c8e4417-d1ff-432f-a19c-781eea95f7c9",
+  "guid": "8c8e4417-d1ff-432f-a19c-781eea95f7c9",
+  "publisherId": "smart-businessllc2412077-2412077",
+  "offerId": "smart_cash_flow",
+  "source": {
+    "name": "SMART Cash Flow",
+    "publisher": "SMART business LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_cash_flow%7CPAPPID.8c8e4417-d1ff-432f-a19c-781eea95f7c9",
+    "lastModified": "2026-07-30T13:33:05.9018095+00:00",
+    "appVersion": "1.0.143911.260730",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.smart-it.com/",
+    "sourceHash": "sha256:2fc68fd01e3091c008d31d14e79c332e9978dc8789f3bd0d774ea10475d5726d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2fc68fd01e3091c008d31d14e79c332e9978dc8789f3bd0d774ea10475d5726d",
+    "mappedOn": null,
+    "summary": "Cash flow management with automatic payment proposals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-cash-forecast",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Payment plans per invoice or contract",
+      "Payment plan setup on vendor, customer or contract card",
+      "Lets users change amounts and dates on cash flow ledger entries",
+      "Divides one cash flow ledger entry into several entries",
+      "Cash flow entries in additional reporting currency",
+      "Auto-updates entries when unposted documents change",
+      "Generates payment journal lines from cash flow entries",
+      "Not available for Italy-based localizations"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

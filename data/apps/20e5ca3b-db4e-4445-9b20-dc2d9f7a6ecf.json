@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_npr_connector|PAPPID.20e5ca3b-db4e-4445-9b20-dc2d9f7a6ecf",
+  "guid": "20e5ca3b-db4e-4445-9b20-dc2d9f7a6ecf",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_npr_connector",
+  "source": {
+    "name": "Dynavision NP Retail Connector",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_npr_connector%7CPAPPID.20e5ca3b-db4e-4445-9b20-dc2d9f7a6ecf",
+    "lastModified": "2026-10-02T09:49:01.0499264+00:00",
+    "appVersion": "28.0.0.46235",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/NPR_POS_Connector_Manual.pdf",
+    "sourceHash": "sha256:10e08516b3c0f4cf1c1e44b01e9b422aa407378089bc82e971d34e8b285a6feb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:10e08516b3c0f4cf1c1e44b01e9b422aa407378089bc82e971d34e8b285a6feb",
+    "mappedOn": null,
+    "summary": "Adds Dynavision app functions to NP Retail POS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Inserts linked reusable packaging (empties) on NP Retail POS",
+      "Imports TOMRA reverse vending vouchers from FTP as NP Retail vouchers",
+      "Converts reusable packaging vouchers to NP Retail vouchers",
+      "Hierarchical pricing on NP Retail POS"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [
+      "Beverage",
+      "Retail"
+    ],
+    "connectsTo": [
+      "NP Retail",
+      "TOMRA"
+    ],
+    "requires": [
+      "NP Retail",
+      "Dynavision Reusable Packaging",
+      "Dynavision Advanced Pricing"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.itprotector|AID.itp_bc_solicitud_compra_w1|PAPPID.c021fd54-1080-4bc3-8b27-9159a2ed2a90",
+  "guid": "c021fd54-1080-4bc3-8b27-9159a2ed2a90",
+  "publisherId": "itprotector",
+  "offerId": "itp_bc_solicitud_compra_w1",
+  "source": {
+    "name": "Solicitud de compra en Business Central",
+    "publisher": "IT PROTECTOR S.A.C.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.itprotector%7CAID.itp_bc_solicitud_compra_w1%7CPAPPID.c021fd54-1080-4bc3-8b27-9159a2ed2a90",
+    "lastModified": "2026-08-20T00:25:34.5147807+00:00",
+    "appVersion": "27.0.0.14",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://itprotector-support.powerappsportals.com/",
+    "sourceHash": "sha256:a0ed69117294e308f69ddf43f0542f9061f88b69058727fbe56048b6028f3591"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a0ed69117294e308f69ddf43f0542f9061f88b69058727fbe56048b6028f3591",
+    "mappedOn": null,
+    "summary": "Purchase requests management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sourcing-rfq",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Create purchase requisitions",
+      "Approval flow",
+      "Consolidates requisitions into purchase orders",
+      "Sends RFQs to suppliers",
+      "Updates and attaches received quotes",
+      "Compares supplier quotes",
+      "Generates purchase orders"
+    ],
+    "countries": [],
+    "languages": [
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

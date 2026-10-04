@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.pack-it_app|PAPPID.c41498ed-4704-4697-8af4-7b1c7aef0e5e",
+  "guid": "c41498ed-4704-4697-8af4-7b1c7aef0e5e",
+  "publisherId": "fenwicksoftware",
+  "offerId": "pack-it_app",
+  "source": {
+    "name": "Pack-It",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.pack-it_app%7CPAPPID.c41498ed-4704-4697-8af4-7b1c7aef0e5e",
+    "lastModified": "2026-08-26T06:13:50.2825784+00:00",
+    "appVersion": "26.0.260826.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/pack-it/docs",
+    "sourceHash": "sha256:a2592e5c8faf9a63d253376b28f2d4a42e54e6c913f7c914f470c5500a70d875"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a2592e5c8faf9a63d253376b28f2d4a42e54e6c913f7c914f470c5500a70d875",
+    "mappedOn": null,
+    "summary": "Creates shipping packages from sales and warehouse documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Creates packages from sales and warehouse documents",
+      "Package details (UOM, quantity per package) defined per item",
+      "One-click automatic packing from sales orders",
+      "Puts every document line in a package that is either new or already there",
+      "Compatible with Ship-It for shipping"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-certificate|PAPPID.29ee6592-aad8-4930-99cb-9f6b56dd6cc6",
+  "guid": "29ee6592-aad8-4930-99cb-9f6b56dd6cc6",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-certificate",
+  "source": {
+    "name": "BeyondCertificates",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-certificate%7CPAPPID.29ee6592-aad8-4930-99cb-9f6b56dd6cc6",
+    "lastModified": "2025-11-19T05:41:31.2444388+00:00",
+    "appVersion": "2025.9.95.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/certificates/index.html",
+    "sourceHash": "sha256:ef525e2abf87940d432640d7a4d2f2638bb5a88e35e27ea85b20f307636aea44"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ef525e2abf87940d432640d7a4d2f2638bb5a88e35e27ea85b20f307636aea44",
+    "mappedOn": null,
+    "summary": "Tracks employee certificates and training validity",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-skills-training",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-health-safety",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Track validity periods or intervals of employee certificates, trainings and proofs",
+      "Certificates stored on the Employee card",
+      "Matrix and report overview of certificates",
+      "Expired intervals highlighted in red or with status icon",
+      "Two permission sets restrict visibility of sensitive certificate data",
+      "Driver's license checks at intervals",
+      "Tracks first aider training due dates",
+      "Record participants in safety trainings"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

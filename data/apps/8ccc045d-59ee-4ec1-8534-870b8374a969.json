@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.multisoft|AID.aiphep|PAPPID.8ccc045d-59ee-4ec1-8534-870b8374a969",
+  "guid": "8ccc045d-59ee-4ec1-8534-870b8374a969",
+  "publisherId": "multisoft",
+  "offerId": "aiphep",
+  "source": {
+    "name": "Automated Invoice Processor (HEP Connector)",
+    "publisher": "MULTISOFT KFT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.multisoft%7CAID.aiphep%7CPAPPID.8ccc045d-59ee-4ec1-8534-870b8374a969",
+    "lastModified": "2026-05-30T07:23:41.414956+00:00",
+    "appVersion": "1.0.1.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://partner.multisoft.hu/help-aip/",
+    "sourceHash": "sha256:bf7c7d6ae87824e7cb5574233107b9fa9ecea571dcb0d08d3b65ccdbacb83096"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bf7c7d6ae87824e7cb5574233107b9fa9ecea571dcb0d08d3b65ccdbacb83096",
+    "mappedOn": null,
+    "summary": "Connects invoice processor to Hungarian Online Invoice 2.0 system",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Periodically downloads incoming invoices from the Online Invoice database of the Hungarian tax authority",
+      "Prepares data for the Automated Invoice Processor main app",
+      "Requires BC170 or later"
+    ],
+    "countries": [
+      "HU"
+    ],
+    "languages": [
+      "en",
+      "hu"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Hungarian Online Invoice 2.0 (NAV)"
+    ],
+    "requires": [
+      "Automated Invoice Processor"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

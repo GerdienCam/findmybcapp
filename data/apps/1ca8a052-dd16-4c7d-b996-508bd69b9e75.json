@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.nbgroupsolucionesdenegocio|AID.nbconectorprestashop|PAPPID.1ca8a052-dd16-4c7d-b996-508bd69b9e75",
+  "guid": "1ca8a052-dd16-4c7d-b996-508bd69b9e75",
+  "publisherId": "nbgroupsolucionesdenegocio",
+  "offerId": "nbconectorprestashop",
+  "source": {
+    "name": "nbPrestashopConnector",
+    "publisher": "nbGroup",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nbgroupsolucionesdenegocio%7CAID.nbconectorprestashop%7CPAPPID.1ca8a052-dd16-4c7d-b996-508bd69b9e75",
+    "lastModified": "2026-08-17T17:31:56.6020294+00:00",
+    "appVersion": "3.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nbgroup.es/wp-content/uploads/nbconectorPrestaShop_BC_en_v.1.0.pdf",
+    "sourceHash": "sha256:1dd9235894330a0a3af62c1e538a7234fd6a769baa4e2036b09612bb18ebb04c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1dd9235894330a0a3af62c1e538a7234fd6a769baa4e2036b09612bb18ebb04c",
+    "mappedOn": null,
+    "summary": "Syncs PrestaShop webshop with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates and updates products including variants such as sizes and colors",
+      "Publishes available stock",
+      "Syncs sales prices and discounts",
+      "Imports shop orders as sales orders",
+      "Order statuses and returns",
+      "Finds or creates customer per order",
+      "Scheduled automatic sync or on demand",
+      "Supports B2B and B2C"
+    ],
+    "countries": [],
+    "languages": [
+      "es"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "PrestaShop"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.c512d720-63b9-4b26-b062-a0c09b4ed322|PAPPID.c512d720-63b9-4b26-b062-a0c09b4ed322",
+  "guid": "c512d720-63b9-4b26-b062-a0c09b4ed322",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "c512d720-63b9-4b26-b062-a0c09b4ed322",
+  "source": {
+    "name": "Company Hub",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.c512d720-63b9-4b26-b062-a0c09b4ed322%7CPAPPID.c512d720-63b9-4b26-b062-a0c09b4ed322",
+    "lastModified": "2024-11-22T00:48:12.2922215+00:00",
+    "appVersion": "17.0.15640.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?linkid=2135559",
+    "sourceHash": "sha256:4cd299e6b20c50bcc5c7b70fad5f70b0bf943ac7e4dceede279abc5933ca1cab"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4cd299e6b20c50bcc5c7b70fad5f70b0bf943ac7e4dceede279abc5933ca1cab",
+    "mappedOn": null,
+    "summary": "Lists companies with KPIs and user tasks across companies",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "low"
+      },
+      {
+        "need": "ng-ux-rolecenters",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-search-navigation"
+    ],
+    "claims": [
+      "Lists all companies the user works in",
+      "Add companies by URL and name",
+      "Shows KPIs per company subject to access",
+      "Lists assigned user tasks per company",
+      "Dedicated Company Hub role center or task page"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nb",
+      "nl",
+      "ru",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

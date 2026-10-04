@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.systemconnectaps1614781393914|AID.bcbackup|PAPPID.cf307988-e301-4c72-9731-a7847131cece",
+  "guid": "cf307988-e301-4c72-9731-a7847131cece",
+  "publisherId": "systemconnectaps1614781393914",
+  "offerId": "bcbackup",
+  "source": {
+    "name": "BackupConnect",
+    "publisher": "SystemConnect",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemconnectaps1614781393914%7CAID.bcbackup%7CPAPPID.cf307988-e301-4c72-9731-a7847131cece",
+    "lastModified": "2026-02-06T17:44:26.5814321+00:00",
+    "appVersion": "27.0.0.32",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.systemconnect.dk/bcbackuphelp",
+    "sourceHash": "sha256:c49ebc75ed68a864c3058f22a9fa54a1f811469a1459eb1b5a835ec72ba6b7bb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c49ebc75ed68a864c3058f22a9fa54a1f811469a1459eb1b5a835ec72ba6b7bb",
+    "mappedOn": null,
+    "summary": "Triggers and automates environment backups",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-backup-recovery",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Initiate environment database backups from BC via Admin Center API",
+      "Schedule recurring backups via job queue",
+      "Exports backups to customer's own Azure Blob Storage",
+      "Notifications to predefined recipients when backup starts",
+      "S2S authentication with Microsoft Entra ID",
+      "Requires D365 BACKUP/RESTORE permission set"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage",
+      "Business Central Admin Center"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

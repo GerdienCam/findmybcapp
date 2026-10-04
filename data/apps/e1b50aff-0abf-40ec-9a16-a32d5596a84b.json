@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.simplybcltd1770976137715|AID.simplybc_document_attachment_permissions|PAPPID.e1b50aff-0abf-40ec-9a16-a32d5596a84b",
+  "guid": "e1b50aff-0abf-40ec-9a16-a32d5596a84b",
+  "publisherId": "simplybcltd1770976137715",
+  "offerId": "simplybc_document_attachment_permissions",
+  "source": {
+    "name": "Document Attachment Permissions",
+    "publisher": "SimplyBC Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplybcltd1770976137715%7CAID.simplybc_document_attachment_permissions%7CPAPPID.e1b50aff-0abf-40ec-9a16-a32d5596a84b",
+    "lastModified": "2026-09-04T08:46:20.1750561+00:00",
+    "appVersion": "28.1.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.simplybc.com/",
+    "sourceHash": "sha256:080e38087fb4ae2a09b8db6cda319df45d0e35130df4e503707e98bd03cea767"
+  },
+  "mapping": {
+    "sourceHash": "sha256:080e38087fb4ae2a09b8db6cda319df45d0e35130df4e503707e98bd03cea767",
+    "mappedOn": null,
+    "summary": "Applies table permissions to document attachments",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-permissions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments",
+      "ng-admin-change-log"
+    ],
+    "claims": [
+      "Attachment permissions inherited from the related BC record",
+      "Users who cannot modify a record cannot upload, edit, replace or delete its attachments",
+      "Read-only record access gives view-only attachment access",
+      "Attachment activity logging and auditing",
+      "Permission group configuration",
+      "Attachment access history visible"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

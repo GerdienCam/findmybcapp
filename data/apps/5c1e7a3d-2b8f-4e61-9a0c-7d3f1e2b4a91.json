@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.navitec|AID.efc|PAPPID.5c1e7a3d-2b8f-4e61-9a0c-7d3f1e2b4a91",
+  "guid": "5c1e7a3d-2b8f-4e61-9a0c-7d3f1e2b4a91",
+  "publisherId": "navitec",
+  "offerId": "efc",
+  "source": {
+    "name": "E-faktúra SK Connector",
+    "publisher": "Navitec systems s.r.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navitec%7CAID.efc%7CPAPPID.5c1e7a3d-2b8f-4e61-9a0c-7d3f1e2b4a91",
+    "lastModified": "2026-10-01T13:52:54.1347552+00:00",
+    "appVersion": "27.0.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dokumentace.navitec.cz/EFSK",
+    "sourceHash": "sha256:6ff89e42a9dcb5bbea43e9338b7f3041a5e037e943aeae3d70c5e6f4e75f0b24"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6ff89e42a9dcb5bbea43e9338b7f3041a5e037e943aeae3d70c5e6f4e75f0b24",
+    "mappedOn": null,
+    "summary": "Slovak mandatory e-invoicing via Digitálny poštár",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Connects BC to a Slovak Digital Postman (certified delivery provider)",
+      "Meets Slovak mandatory e-invoicing from 1 January 2027",
+      "Peppol BIS 3.0 with Slovak rules, parties as 0245:DIČ",
+      "Requires a postman supporting SAPI-SK interface",
+      "Automatically creates e-invoice when posting sales and service invoices and credit memos",
+      "Validations at posting: domestic customer, valid tax ID, credit memo reference",
+      "Resend without risk of duplicates",
+      "Status panel on posted invoice and credit memo",
+      "Tracks deadlines for unsent documents with colour warnings",
+      "Downloads received e-invoices manually or via job queue",
+      "Creates purchase invoice or credit memo via standard E-Documents",
+      "Credentials stored in isolated storage",
+      "Trial: 10 documents without license",
+      "Built on Microsoft E-Documents framework"
+    ],
+    "countries": [
+      "SK"
+    ],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Digitálny poštár",
+      "Peppol",
+      "eFaktúra.sk",
+      "SLOVAKODATA",
+      "Flowis"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

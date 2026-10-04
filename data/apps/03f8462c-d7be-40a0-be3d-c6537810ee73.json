@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.kumavision|AID.dms_interface_sharepoint|PAPPID.03f8462c-d7be-40a0-be3d-c6537810ee73",
+  "guid": "03f8462c-d7be-40a0-be3d-c6537810ee73",
+  "publisherId": "kumavision",
+  "offerId": "dms_interface_sharepoint",
+  "source": {
+    "name": "DMS and ECM Interface for SharePoint",
+    "publisher": "KUMAVISION AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.dms_interface_sharepoint%7CPAPPID.03f8462c-d7be-40a0-be3d-c6537810ee73",
+    "lastModified": "2026-04-02T15:46:53.5294898+00:00",
+    "appVersion": "28.0.263.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.kumavision.de/docs/en/dms/",
+    "sourceHash": "sha256:eb49207b7f4109fa777d6b28f1efb306f5890b86f590e99eb5c2b36e963d97c8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eb49207b7f4109fa777d6b28f1efb306f5890b86f590e99eb5c2b36e963d97c8",
+    "mappedOn": null,
+    "summary": "Document management interface to SharePoint Online",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Connects SharePoint Online as DMS with Business Central",
+      "Drag and drop archiving",
+      "Export multiple documents as a zip package",
+      "Automatic document archiving",
+      "Metadata updated automatically when master data changes",
+      "Dynamic structures in factbox, document search and preview",
+      "Setup wizard"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint Online"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

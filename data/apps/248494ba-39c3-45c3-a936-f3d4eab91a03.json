@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.365timeconnector|PAPPID.248494ba-39c3-45c3-a936-f3d4eab91a03",
+  "guid": "248494ba-39c3-45c3-a936-f3d4eab91a03",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "365timeconnector",
+  "source": {
+    "name": "EV Crono Connector",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.365timeconnector%7CPAPPID.248494ba-39c3-45c3-a936-f3d4eab91a03",
+    "lastModified": "2026-09-30T14:26:50.8256532+00:00",
+    "appVersion": "1.1.149.2400",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
+    "sourceHash": "sha256:9246492f4e007de03c440af489ccd98222fb44a21fc54c484d5a1bcfed34c032"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9246492f4e007de03c440af489ccd98222fb44a21fc54c484d5a1bcfed34c032",
+    "mappedOn": null,
+    "summary": "Syncs time and absence data between EV Crono and BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-absence-leave"
+    ],
+    "claims": [
+      "Transfers time registrations, absences and vacation data into BC",
+      "Handles authentication between systems"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IT",
+      "NL",
+      "NO",
+      "PH",
+      "PL",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "EV Crono"
+    ],
+    "requires": [
+      "EV Crono"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

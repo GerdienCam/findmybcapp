@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.canarytechnologysolutionsptylimited1731475938027|AID.tapestry|PAPPID.43795ecb-c1d3-4ef5-ae4d-71f50deec1ce",
+  "guid": "43795ecb-c1d3-4ef5-ae4d-71f50deec1ce",
+  "publisherId": "canarytechnologysolutionsptylimited1731475938027",
+  "offerId": "tapestry",
+  "source": {
+    "name": "Tapestry Connector for LS Central Retail Point of Sale",
+    "publisher": "Canary Technology Solutions Pty limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.canarytechnologysolutionsptylimited1731475938027%7CAID.tapestry%7CPAPPID.43795ecb-c1d3-4ef5-ae4d-71f50deec1ce",
+    "lastModified": "2026-06-29T07:59:13.3437856+00:00",
+    "appVersion": "25.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://info.canaryit.com.au/support-services",
+    "sourceHash": "sha256:37f28acef3e70bd72d2065532e9f55f0e6923ea3f3f5ce2d9a30e4c3bca44235"
+  },
+  "mapping": {
+    "sourceHash": "sha256:37f28acef3e70bd72d2065532e9f55f0e6923ea3f3f5ce2d9a30e4c3bca44235",
+    "mappedOn": null,
+    "summary": "Sends LS Central POS data to Tapestry AI for retail insights",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-retail",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-demand-forecast"
+    ],
+    "claims": [
+      "Sends LS Central POS sales and transaction data to Tapestry.ai",
+      "Real-time bi-directional sync",
+      "Configurable data sharing via secure API",
+      "Aggregates all POS terminals across stores"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Tapestry.ai",
+      "LS Central"
+    ],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

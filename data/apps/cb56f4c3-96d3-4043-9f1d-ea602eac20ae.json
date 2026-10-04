@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.smart-businessllc2412077-2412077|AID.smart_reserves|PAPPID.cb56f4c3-96d3-4043-9f1d-ea602eac20ae",
+  "guid": "cb56f4c3-96d3-4043-9f1d-ea602eac20ae",
+  "publisherId": "smart-businessllc2412077-2412077",
+  "offerId": "smart_reserves",
+  "source": {
+    "name": "SMART Reserves",
+    "publisher": "SMART business LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_reserves%7CPAPPID.cb56f4c3-96d3-4043-9f1d-ea602eac20ae",
+    "lastModified": "2025-11-20T15:56:26.8849758+00:00",
+    "appVersion": "1.2.119045.251120",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.smart-it.com/",
+    "sourceHash": "sha256:8f2619e8258368ff7748c3fc5cc78e7d068e24b3dcdf4b67b19b0d69a8869a6e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8f2619e8258368ff7748c3fc5cc78e7d068e24b3dcdf4b67b19b0d69a8869a6e",
+    "mappedOn": null,
+    "summary": "Calculates bad debt reserves on overdue receivables",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-period-close"
+    ],
+    "claims": [
+      "Risk group per customer",
+      "Bad debt risk coefficient per overdue period",
+      "Lists unpaid invoices and calculates overdue days",
+      "Calculates bad debt reserve at reporting date",
+      "Posts reserve entries to G/L"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

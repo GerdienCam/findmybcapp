@@ -1,0 +1,60 @@
+{
+  "appId": "TYPE.connect|PUBID.microsoftdynsmb|AID.af108c30-ac89-4ed1-a98e-15708e0ee7f6|PAPPID.00000000-0000-0000-0000-000000000000",
+  "guid": "00000000-0000-0000-0000-000000000000",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "af108c30-ac89-4ed1-a98e-15708e0ee7f6",
+  "source": {
+    "name": "Ceridian Payroll",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.microsoftdynsmb%7CAID.af108c30-ac89-4ed1-a98e-15708e0ee7f6%7CPAPPID.00000000-0000-0000-0000-000000000000",
+    "lastModified": "2021-02-11T08:47:38+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:9052cb2bc215f9c8d44fce4698c9030524ff8949e884f9b553eb87d6c873f47c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9052cb2bc215f9c8d44fce4698c9030524ff8949e884f9b553eb87d6c873f47c",
+    "mappedOn": null,
+    "summary": "Imports payroll transactions from Ceridian",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Imports payroll transactions into BC from Ceridian HR/Payroll in the US and Powerpay in Canada",
+      "Imports aggregated payroll transactions to the general ledger",
+      "Saves account mapping for next import",
+      "Aimed at businesses with 1-100 employees",
+      "Supports Canada and United States"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Ceridian HR/Payroll",
+      "Ceridian Powerpay"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

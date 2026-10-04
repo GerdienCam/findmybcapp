@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.efoqus-5058796|AID.security|PAPPID.7c4b9095-058f-4464-a4d0-104cc305e68c",
+  "guid": "7c4b9095-058f-4464-a4d0-104cc305e68c",
+  "publisherId": "efoqus-5058796",
+  "offerId": "security",
+  "source": {
+    "name": "Advanced Cloud Security",
+    "publisher": "hougaard.com",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.efoqus-5058796%7CAID.security%7CPAPPID.7c4b9095-058f-4464-a4d0-104cc305e68c",
+    "lastModified": "2026-09-24T23:47:37.5435204+00:00",
+    "appVersion": "10.0.0.1073",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.hougaard.com/security",
+    "sourceHash": "sha256:f2a95c7511d110172eb049e31fedb0d71a915c14e223f88acb6e549fa93346fb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f2a95c7511d110172eb049e31fedb0d71a915c14e223f88acb6e549fa93346fb",
+    "mappedOn": null,
+    "summary": "Field and data level security in BC",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-permissions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-change-log",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Field control: hide fields per user",
+      "Page control: restrict page access",
+      "Action control: restrict actions",
+      "Dynamic data access filters (record-level security)",
+      "Security features assignable to user, group or permission set",
+      "Restrict data by region",
+      "No-code compliance rules with formulas like price >= cost * margin",
+      "Blocks non-compliant master data in journals, sales and purchase",
+      "Approvals for compliance changes with auto-approve for designated users",
+      "Store proposed changes until approval",
+      "Compliance status on cards and lists with change log"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

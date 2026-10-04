@@ -1,0 +1,63 @@
+{
+  "appId": "TYPE.connect|PUBID.dbsync|AID.salesforce-business-central-integration|PAPPID.e380898a-04e9-4d52-ab7b-99c7708e7c2e",
+  "guid": "e380898a-04e9-4d52-ab7b-99c7708e7c2e",
+  "publisherId": "dbsync",
+  "offerId": "salesforce-business-central-integration",
+  "source": {
+    "name": "Salesforce & Business Central Integration",
+    "publisher": "DBSync",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.dbsync%7CAID.salesforce-business-central-integration%7CPAPPID.e380898a-04e9-4d52-ab7b-99c7708e7c2e",
+    "lastModified": "2025-05-23T20:40:17.0545095+00:00",
+    "appVersion": "1.0.0.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.mydbsync.com/cloud-workflow/connectors/microsoft-dynamics-365-business-central",
+    "sourceHash": "sha256:a6ed148f62850e42c51e85cc0cae0b58cb11e91a4b79641d19afdf77db600d01"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a6ed148f62850e42c51e85cc0cae0b58cb11e91a4b79641d19afdf77db600d01",
+    "mappedOn": null,
+    "summary": "Syncs Salesforce leads, opportunities and orders",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Syncs Salesforce leads, accounts, products, opportunities and invoices into BC orders and invoices",
+      "Sends orders, inventory levels, payment statuses and customer updates from BC to Salesforce",
+      "Two-way sync of customer records, product catalogs and transaction histories",
+      "Syncs price lists from Salesforce",
+      "Real-time or scheduled syncs every 5 minutes, hourly or daily",
+      "Prebuilt mapping templates and custom field mapping",
+      "Encrypted transfers compliant with GDPR and CCPA",
+      "Supports BC cloud and on-premise; Salesforce Sales and Service Cloud"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Salesforce",
+      "DBSync"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

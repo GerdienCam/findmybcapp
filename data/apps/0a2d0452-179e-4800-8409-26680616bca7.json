@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.knk|AID.knkelectronicdocuments|PAPPID.0a2d0452-179e-4800-8409-26680616bca7",
+  "guid": "0a2d0452-179e-4800-8409-26680616bca7",
+  "publisherId": "knk",
+  "offerId": "knkelectronicdocuments",
+  "source": {
+    "name": "knkElectronic Documents",
+    "publisher": "knk Business Software AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.knk%7CAID.knkelectronicdocuments%7CPAPPID.0a2d0452-179e-4800-8409-26680616bca7",
+    "lastModified": "2026-09-24T12:00:20.6800499+00:00",
+    "appVersion": "28.4.118585.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.knk.com/",
+    "sourceHash": "sha256:7d12b7b09f335a39a2ac13338ad943e2dfe2ca6ece784553e16778c3d21f9da0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7d12b7b09f335a39a2ac13338ad943e2dfe2ca6ece784553e16778c3d21f9da0",
+    "mappedOn": null,
+    "summary": "Automates dispatch of posted sales documents",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-printing-packaging",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Automates dispatch of posted sales documents in knkMedia",
+      "Rule-based dispatch using each customer's document sending profile",
+      "PDF dispatch of royalty statements"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Publishing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "knkMedia"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

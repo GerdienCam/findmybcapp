@@ -1,0 +1,79 @@
+{
+  "appId": "PUBID.profactoas1585665701232|AID.four_eyes_approval|PAPPID.8e074b90-81bb-482c-bca7-8ee06fc477ea",
+  "guid": "8e074b90-81bb-482c-bca7-8ee06fc477ea",
+  "publisherId": "profactoas1585665701232",
+  "offerId": "four_eyes_approval",
+  "source": {
+    "name": "Four-Eyes Approval",
+    "publisher": "ProFacto A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.profactoas1585665701232%7CAID.four_eyes_approval%7CPAPPID.8e074b90-81bb-482c-bca7-8ee06fc477ea",
+    "lastModified": "2026-07-21T22:36:23.8171898+00:00",
+    "appVersion": "24.0.0.27",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://profacto.dk/four-eyes-approval",
+    "sourceHash": "sha256:a6d9d88709a5c358acdd8670b31487136111da29b08150864dd77ad76d43b3b0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a6d9d88709a5c358acdd8670b31487136111da29b08150864dd77ad76d43b3b0",
+    "mappedOn": null,
+    "summary": "Four-eyes approval of master data changes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-audit-compliance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-change-log",
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Blocks a vendor when a field is changed until a supervisor approves",
+      "Supervisor approval required before postings to changed accounts",
+      "Log of all changes and approvals",
+      "Covers G/L accounts, items, customers, vendors, dimensions and bank accounts",
+      "Tracks both automatic and manual changes using BC change detection",
+      "Stores history in Azure Storage, viewable by non-BC users",
+      "Change data can be shown in Power BI",
+      "Power Automate notification workflow for supervisors",
+      "Supported countries DK, SE, NO, FI, DE, BE, NL, UK"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "DK",
+      "FI",
+      "GB",
+      "NL",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Storage",
+      "Power BI",
+      "Power Automate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

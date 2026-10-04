@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.knowledgeandstrategy|AID.ks_copilot_datagen|PAPPID.8964c96e-e05b-4f8f-9822-ce9317932973",
+  "guid": "8964c96e-e05b-4f8f-9822-ce9317932973",
+  "publisherId": "knowledgeandstrategy",
+  "offerId": "ks_copilot_datagen",
+  "source": {
+    "name": "K&S Data Generator Copilot",
+    "publisher": "Knowledge & Strategy Information Co., Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.knowledgeandstrategy%7CAID.ks_copilot_datagen%7CPAPPID.8964c96e-e05b-4f8f-9822-ce9317932973",
+    "lastModified": "2025-08-26T19:18:16.3981628+00:00",
+    "appVersion": "24.0.25.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.ksinform.com/bc/HelpDocumentation_KSDataGeneratorCopilot.pdf",
+    "sourceHash": "sha256:db2a269846ef4759a6c5da7e77d43a927ca76575b8f93aef5ff05a10f129f83f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:db2a269846ef4759a6c5da7e77d43a927ca76575b8f93aef5ff05a10f129f83f",
+    "mappedOn": null,
+    "summary": "Generates setup data with Copilot",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-coa-company-setup",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-copilot-agents",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Generates data via Copilot using Azure AI",
+      "Generates a chart of accounts"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure AI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

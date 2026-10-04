@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.innovis-acs|AID.ivs_simpleedi|PAPPID.46655971-0727-4a01-93c2-35e7facb1ab9",
+  "guid": "46655971-0727-4a01-93c2-35e7facb1ab9",
+  "publisherId": "innovis-acs",
+  "offerId": "ivs_simpleedi",
+  "source": {
+    "name": "simpleEDI",
+    "publisher": "innovis GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.innovis-acs%7CAID.ivs_simpleedi%7CPAPPID.46655971-0727-4a01-93c2-35e7facb1ab9",
+    "lastModified": "2026-09-28T12:57:54.1704957+00:00",
+    "appVersion": "1.0.26.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bizapps-acs.de/articles/de-de/simpleEDI/overview.html",
+    "sourceHash": "sha256:bcda0bc3af897088e16fa350eabf2e746f6a50d6d9e33c6a553aceedcbca828f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bcda0bc3af897088e16fa350eabf2e746f6a50d6d9e33c6a553aceedcbca828f",
+    "mappedOn": null,
+    "summary": "EDI with trading partners via Procuros",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Automates B2B transactions via the Procuros integration hub",
+      "Automates exchange of all order documents with customers, suppliers and logistics",
+      "Connects to German retailers such as Edeka, Rewe, Kaufland, ALDI, Lidl, DM, Rossmann",
+      "Connects to supplier portals such as Coupa, SAP Ariba and Jaggaer",
+      "Connecting new trading partners is free",
+      "Supports EDI, API or supplier portal connectivity",
+      "Validates order data like delivery date or item number immediately"
+    ],
+    "countries": [
+      "DE",
+      "GB"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Procuros",
+      "Coupa",
+      "SAP Ariba",
+      "Jaggaer"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.erpconnectconsultingllc1655482443679|AID.aab|PAPPID.97b491aa-56a2-4f61-ba59-5c342664d6af",
+  "guid": "97b491aa-56a2-4f61-ba59-5c342664d6af",
+  "publisherId": "erpconnectconsultingllc1655482443679",
+  "offerId": "aab",
+  "source": {
+    "name": "Advanced Assembly BOMs",
+    "publisher": "RUX Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpconnectconsultingllc1655482443679%7CAID.aab%7CPAPPID.97b491aa-56a2-4f61-ba59-5c342664d6af",
+    "lastModified": "2026-09-08T17:16:15.2356556+00:00",
+    "appVersion": "27.0.0.31",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ruxsoftware.com/application/advanced-assembly-boms",
+    "sourceHash": "sha256:7813c7066724eb77d4a11c7e6113910ae542c05977ef8b31ec5639703477383c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7813c7066724eb77d4a11c7e6113910ae542c05977ef8b31ec5639703477383c",
+    "mappedOn": null,
+    "summary": "Extends assembly BOMs with variants, date controls and phantom BOMs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-replenishment-planning"
+    ],
+    "claims": [
+      "Different assembly BOMs per variant of parent item",
+      "Start and end dates for BOM components",
+      "Default component location on assembly order",
+      "Disassembly back into inventory",
+      "Phantom BOMs for non-stocked sub-assemblies",
+      "Works on manual assembly and planning worksheet",
+      "Supports W1, GB, FR, SE, FI, NA, NL, AU, NZ localizations"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

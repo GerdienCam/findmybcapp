@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.wiselausnirehf1587117975659|AID.wiseapprovals|PAPPID.d295cebc-8645-4a73-ad17-1ca112807adc",
+  "guid": "d295cebc-8645-4a73-ad17-1ca112807adc",
+  "publisherId": "wiselausnirehf1587117975659",
+  "offerId": "wiseapprovals",
+  "source": {
+    "name": "Wise Approvals",
+    "publisher": "Wise",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wiselausnirehf1587117975659%7CAID.wiseapprovals%7CPAPPID.d295cebc-8645-4a73-ad17-1ca112807adc",
+    "lastModified": "2026-09-24T15:28:25.4756071+00:00",
+    "appVersion": "28.0.20260924.37",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://documents.wise.is/help/wnrl/Wise_Approvals_AppSourceHelp_IS.pdf",
+    "sourceHash": "sha256:e7308b0f58bd1317cbf2cdf3267203ac66848cc898a7b00b3f79d2254bc8c56d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e7308b0f58bd1317cbf2cdf3267203ac66848cc898a7b00b3f79d2254bc8c56d",
+    "mappedOn": null,
+    "summary": "Purchase invoice approval tracking",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-cost-allocation"
+    ],
+    "claims": [
+      "Registers purchase invoices in BC upon receipt, before approval or posting",
+      "Shows all invoices and their status during approval",
+      "Invoices are not paid without approval",
+      "Restricts access by user, G/L account and dimension",
+      "Posting suggestion templates",
+      "Percentage cost distribution across dimensions and G/L accounts",
+      "Approval line templates per vendor",
+      "Approvers can use Team Member licenses",
+      "Icelandic localization extension adds Icelandic payment registration and Wise Banking integration",
+      "Works with Wise Scan for scanning invoices and attachments"
+    ],
+    "countries": [
+      "IS"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Wise Scan",
+      "Wise Banking",
+      "Wise e-invoices"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

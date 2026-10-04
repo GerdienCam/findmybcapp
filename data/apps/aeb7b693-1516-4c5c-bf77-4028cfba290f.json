@@ -1,0 +1,75 @@
+{
+  "appId": "TYPE.connect|PUBID.gem365|AID.ai_autofiller_auditor_dynamics_business_central|PAPPID.aeb7b693-1516-4c5c-bf77-4028cfba290f",
+  "guid": "aeb7b693-1516-4c5c-bf77-4028cfba290f",
+  "publisherId": "gem365",
+  "offerId": "ai_autofiller_auditor_dynamics_business_central",
+  "source": {
+    "name": "GEM365 AI Auto-filler & Auditor for Dynamics 365 Business Central",
+    "publisher": "GEM365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.gem365%7CAID.ai_autofiller_auditor_dynamics_business_central%7CPAPPID.aeb7b693-1516-4c5c-bf77-4028cfba290f",
+    "lastModified": "2026-09-23T09:53:26.6913386+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://gem365.ca/AAI/help.html",
+    "sourceHash": "sha256:1a382bf4dac99f023f60c7cbaebdda0ce97976b2d1c957eae55f0bf518940171"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1a382bf4dac99f023f60c7cbaebdda0ce97976b2d1c957eae55f0bf518940171",
+    "mappedOn": null,
+    "summary": "AI reads attachments and audits them against BC records",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-ux-attachments",
+      "ng-admin-copilot-agents"
+    ],
+    "claims": [
+      "Uses Azure AI to read attachments, depending on document type",
+      "Works on purchase, sales, vendor, customer, released production order and transfer order records",
+      "Custom document sub types, for example quote, invoice, manifest, bill of lading and proof of delivery",
+      "Extraction via live dialog or background job queue",
+      "Same file never sent to Azure twice",
+      "Compares header fields and lines both ways against attachments",
+      "AI judge with confidence score recognises equivalent terms",
+      "Reads complementary attachments like invoice plus bill of lading together",
+      "Bulk upload drafts a fully proposed document",
+      "Side-by-side review of auto-filled form and attachment",
+      "Vendor/customer matching by VAT number, name, word match, short name then AI",
+      "Matches printed wordings and article numbers to items; creates new items in one click",
+      "Unmatched lines get filled from posting history, the document, text-to-account mapping or an AI suggestion",
+      "Collapses repeated charges posted to the same G/L account to one line",
+      "Learns per vendor/customer defaults, editable and deletable",
+      "Nothing written without user confirmation",
+      "Runs on customer's own Azure subscription; no data routed through publisher",
+      "API keys held in Isolated Storage",
+      "Requires Azure AI Document Intelligence subscription",
+      "Needs the Premium edition for the released production order features"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure AI Document Intelligence"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.soakas1728587597590|AID.soak_connected|PAPPID.3a8a3c05-7f89-4e9d-a861-d5f8312c924b",
+  "guid": "3a8a3c05-7f89-4e9d-a861-d5f8312c924b",
+  "publisherId": "soakas1728587597590",
+  "offerId": "soak_connected",
+  "source": {
+    "name": "Soak Connect",
+    "publisher": "SOAK A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.soakas1728587597590%7CAID.soak_connected%7CPAPPID.3a8a3c05-7f89-4e9d-a861-d5f8312c924b",
+    "lastModified": "2026-04-06T04:14:36.8000604+00:00",
+    "appVersion": "2.0.2.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://extentions.soak.dk/soak-connector-business-central-documentation/",
+    "sourceHash": "sha256:f8782476ef02a91c44d97db05fa9da6fa0dec9578ab80f57b3cd422241a81dfc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f8782476ef02a91c44d97db05fa9da6fa0dec9578ab80f57b3cd422241a81dfc",
+    "mappedOn": null,
+    "summary": "Exports BC data to Azure Data Lake and Microsoft Fabric",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Exports BC data to Azure Blob Storage or Data Lake Gen2",
+      "Full or incremental load by date, Entry No. or change log",
+      "Compressed transfers",
+      "Timestamped folder structure",
+      "Feeds Microsoft Fabric staging or bronze layer",
+      "Export table definitions and setups",
+      "File prefixes for multi-company data"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage",
+      "Azure Data Lake Gen2",
+      "Microsoft Fabric"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

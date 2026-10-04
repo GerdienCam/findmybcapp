@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.duvekagmbh1711374674329|AID.0036|PAPPID.b241cbf9-5d22-44e4-a21e-d10cd816ae4d",
+  "guid": "b241cbf9-5d22-44e4-a21e-d10cd816ae4d",
+  "publisherId": "duvekagmbh1711374674329",
+  "offerId": "0036",
+  "source": {
+    "name": "duveka Digital Product Passport",
+    "publisher": "duveka GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0036%7CPAPPID.b241cbf9-5d22-44e4-a21e-d10cd816ae4d",
+    "lastModified": "2026-10-01T11:29:15.4011329+00:00",
+    "appVersion": "28.0.0.29189",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://duveka.net/DigitalProductPassport/",
+    "sourceHash": "sha256:743c4397478b1fa1cd260c2e2fed3435fd0b08db280ea896f217fc8f60f32abe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:743c4397478b1fa1cd260c2e2fed3435fd0b08db280ea896f217fc8f60f32abe",
+    "mappedOn": null,
+    "summary": "Builds EU Digital Product Passports from items and BOMs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-product-compliance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-esg",
+      "ng-supplier-quality-compliance",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Product group passport schemas with data type, unit, access level and a mandatory flag",
+      "Import new schemas without new app version",
+      "Field values from fixed values, any table field, multi-level BOM calculations or supplier answers",
+      "Supplier surveys sent by email and answers taken into passport",
+      "Response rate report for supplier surveys",
+      "Completeness traffic light on item card",
+      "GS1 identifiers, GS1 Digital Link and QR code",
+      "Released passports versioned with SHA-256 hash",
+      "Uses data from duveka PPWR and EUDR"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "fi",
+      "fr",
+      "hr",
+      "hu",
+      "it",
+      "nb",
+      "nl",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "duveka Core"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dms-dime-connector|PAPPID.d93f50bc-95d7-495b-be4b-c8ba506a60f7",
+  "guid": "d93f50bc-95d7-495b-be4b-c8ba506a60f7",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dms-dime-connector",
+  "source": {
+    "name": "Aptean Equipment DMS x Dime.Scheduler",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-dime-connector%7CPAPPID.d93f50bc-95d7-495b-be4b-c8ba506a60f7",
+    "lastModified": "2026-09-01T07:36:46.9200259+00:00",
+    "appVersion": "2604.260800.20260826.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:db4203a7cd349f5a3c80f7e859687d14bcc115acd5fe7f6df9389655e596de1d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:db4203a7cd349f5a3c80f7e859687d14bcc115acd5fe7f6df9389655e596de1d",
+    "mappedOn": null,
+    "summary": "Connects Aptean Equipment DMS with Dime.Scheduler",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-dispatch",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers",
+      "ng-svc-capacity"
+    ],
+    "claims": [
+      "Assigns technicians to service orders",
+      "Drag-and-drop interactive planning board",
+      "Gantt chart for long-term planning",
+      "Capacity reporting pivot grid",
+      "Map with location tracking and route calculation",
+      "Dynamic resource filtering"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "Dime.Scheduler"
+    ],
+    "requires": [
+      "Aptean Equipment DMS",
+      "Dime.Scheduler"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

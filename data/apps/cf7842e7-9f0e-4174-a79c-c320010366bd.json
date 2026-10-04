@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.dms|AID.dsh_webshop_shopware6|PAPPID.cf7842e7-9f0e-4174-a79c-c320010366bd",
+  "guid": "cf7842e7-9f0e-4174-a79c-c320010366bd",
+  "publisherId": "dms",
+  "offerId": "dsh_webshop_shopware6",
+  "source": {
+    "name": "Shopware 6 Webshop Connector",
+    "publisher": "DMS-Systemhaus GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dms%7CAID.dsh_webshop_shopware6%7CPAPPID.cf7842e7-9f0e-4174-a79c-c320010366bd",
+    "lastModified": "2026-08-09T15:26:16.076365+00:00",
+    "appVersion": "28.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dms-sys.de/store/navision-dynamics-nav-365-business-central/schnittstelle/shopware-webshop-anbindung/",
+    "sourceHash": "sha256:b70dd077da0561dd9afa5925bee1cc6ef2d70bf72a7b073515a14d1374b0c36f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b70dd077da0561dd9afa5925bee1cc6ef2d70bf72a7b073515a14d1374b0c36f",
+    "mappedOn": null,
+    "summary": "Syncs Shopware 6 orders, customers, items and stock",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Supports B2B and B2C Shopware shops",
+      "No middleware",
+      "Imports orders incl. payment method, shipping provider, discount codes and vouchers",
+      "Creates or assigns customers automatically or manually",
+      "Customer-specific pricing via customer price groups",
+      "Exports items including variants",
+      "Exports category trees and attributes",
+      "Synchronizes inventory levels",
+      "Block/unblock webshop items from BC",
+      "Sends tracking ID back to shop (separate module)",
+      "Integrates with DMS or third-party shipping modules"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Shopware 6"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

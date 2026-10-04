@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.abakion|AID.global_master_data_sync|PAPPID.49790a04-6e3b-4074-bd6d-e685cabbb1af",
+  "guid": "49790a04-6e3b-4074-bd6d-e685cabbb1af",
+  "publisherId": "abakion",
+  "offerId": "global_master_data_sync",
+  "source": {
+    "name": "Global Master Data Sync",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.global_master_data_sync%7CPAPPID.49790a04-6e3b-4074-bd6d-e685cabbb1af",
+    "lastModified": "2026-09-02T09:48:31.5140684+00:00",
+    "appVersion": "28.4.202636.175754",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/global-master-data-sync/#howto",
+    "sourceHash": "sha256:7c10ec1a58932a28c4d77c48df3f017134efd747302179346bfe612a49b9d793"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7c10ec1a58932a28c4d77c48df3f017134efd747302179346bfe612a49b9d793",
+    "mappedOn": null,
+    "summary": "Synchronizes master data such as customers, vendors and accounts across companies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Master data defined once in a master company and pushed to all others",
+      "Syncs customers, vendors and chart of accounts across companies",
+      "Select which tables and fields to synchronize per company",
+      "A company can be both master and subscriber",
+      "Exchange master data with external systems via data file exchange",
+      "Built-in synchronization error log",
+      "More than 80 preconfigured synchronization templates"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "fi",
+      "sv"
+    ],
+    "industries": [
+      "Automotive",
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

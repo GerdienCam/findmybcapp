@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.cosmoconsultag|AID.udi_bc|PAPPID.10b61d24-435c-4612-b9d7-621a9b31ae92",
+  "guid": "10b61d24-435c-4612-b9d7-621a9b31ae92",
+  "publisherId": "cosmoconsultag",
+  "offerId": "udi_bc",
+  "source": {
+    "name": "COSMO Unique Device Identification",
+    "publisher": "COSMO CONSULT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.udi_bc%7CPAPPID.10b61d24-435c-4612-b9d7-621a9b31ae92",
+    "lastModified": "2026-07-08T13:13:24.8939223+00:00",
+    "appVersion": "6.1.362757.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cosmoconsult.com/de-de/business-central/unique-device-identification/",
+    "sourceHash": "sha256:c478414b28747bb38d13dc54210ad6a5539c85fec1031343bf1d38e2939e10f8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c478414b28747bb38d13dc54210ad6a5539c85fec1031343bf1d38e2939e10f8",
+    "mappedOn": null,
+    "summary": "Manages UDI data for medical device regulatory compliance",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-life-sciences",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-product-compliance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Complies with FDA and EU UDI regulations",
+      "Links item master data with UDI properties",
+      "Prints UDI labels directly from production",
+      "Uploads data to GUDID or EUDAMED via XML files"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "CH",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Medical devices"
+    ],
+    "connectsTo": [
+      "GUDID",
+      "EUDAMED"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

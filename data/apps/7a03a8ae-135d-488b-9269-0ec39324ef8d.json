@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.abakion|AID.abakionlegal_dk|PAPPID.7a03a8ae-135d-488b-9269-0ec39324ef8d",
+  "guid": "7a03a8ae-135d-488b-9269-0ec39324ef8d",
+  "publisherId": "abakion",
+  "offerId": "abakionlegal_dk",
+  "source": {
+    "name": "Abakion Legal DK",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.abakionlegal_dk%7CPAPPID.7a03a8ae-135d-488b-9269-0ec39324ef8d",
+    "lastModified": "2026-09-04T09:22:30.5213897+00:00",
+    "appVersion": "27.1.202636.6525",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.dk/advokat/app/#userguide",
+    "sourceHash": "sha256:0102bfa4e8053bbef5a3b357d4f49a94a94e7958739e3c490b4bdb2605edd47a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0102bfa4e8053bbef5a3b357d4f49a94a94e7958739e3c490b4bdb2605edd47a",
+    "mappedOn": null,
+    "summary": "Danish setup for Abakion Legal practice management",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-professional-services",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-company-data",
+      "ng-loc-einvoicing"
+    ],
+    "claims": [
+      "Adds Danish master data to Abakion Legal",
+      "EAN integration",
+      "Create companies via data from Virk.dk",
+      "Requires Abakion Legal installed first",
+      "Case handling in Outlook and document management in SharePoint",
+      "Journalize documents via drag-and-drop in Outlook",
+      "Invoice time directly from Outlook",
+      "Mail merge documents"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Legal"
+    ],
+    "connectsTo": [
+      "Virk.dk",
+      "Outlook",
+      "SharePoint"
+    ],
+    "requires": [
+      "Abakion Legal"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.scapta1708358347670|AID.956963d0-1485-473a-ac70-a62a57ee61de|PAPPID.956963d0-1485-473a-ac70-a62a57ee61de",
+  "guid": "956963d0-1485-473a-ac70-a62a57ee61de",
+  "publisherId": "scapta1708358347670",
+  "offerId": "956963d0-1485-473a-ac70-a62a57ee61de",
+  "source": {
+    "name": "XPR365 Service",
+    "publisher": "XPR365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.scapta1708358347670%7CAID.956963d0-1485-473a-ac70-a62a57ee61de%7CPAPPID.956963d0-1485-473a-ac70-a62a57ee61de",
+    "lastModified": "2026-07-23T07:50:29.1004929+00:00",
+    "appVersion": "28.0.20260723.65910",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://learn.xpr365.com/",
+    "sourceHash": "sha256:8b5fed343ea3f7fbaef7d97deddc26f10e89ab7d181836337fb0fff7709c58c7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8b5fed343ea3f7fbaef7d97deddc26f10e89ab7d181836337fb0fff7709c58c7",
+    "mappedOn": null,
+    "summary": "Extends standard service management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-svc-requests",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-close-invoice",
+      "ng-conn-esignature",
+      "ng-ux-document-layouts"
+    ],
+    "claims": [
+      "Role center activities to track service orders",
+      "New and extended fact boxes",
+      "Default values for Needed by Date, Status and Service type",
+      "Technicians register hours onto service lines with one button",
+      "Service lines and comments visible on service pages",
+      "Customers sign service orders",
+      "Email service documents to customers",
+      "Word layouts for service documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

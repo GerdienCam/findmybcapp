@@ -1,0 +1,79 @@
+{
+  "appId": "PUBID.duvekagmbh1711374674329|AID.0034|PAPPID.f1bf280e-b2bf-4255-8cfa-6aea3f0bae43",
+  "guid": "f1bf280e-b2bf-4255-8cfa-6aea3f0bae43",
+  "publisherId": "duvekagmbh1711374674329",
+  "offerId": "0034",
+  "source": {
+    "name": "duveka Permission Chat AI",
+    "publisher": "duveka GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0034%7CPAPPID.f1bf280e-b2bf-4255-8cfa-6aea3f0bae43",
+    "lastModified": "2026-09-21T20:40:23.9084795+00:00",
+    "appVersion": "28.0.5.28537",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://duveka.net/PermissionChatAI/",
+    "sourceHash": "sha256:1070700165c37ef0ed72988736c054a99bf70f9787b74855c607b0e4cbd8099b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1070700165c37ef0ed72988736c054a99bf70f9787b74855c607b0e4cbd8099b",
+    "mappedOn": null,
+    "summary": "Checks and changes permissions by AI chat",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-permissions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-ai-assistant"
+    ],
+    "claims": [
+      "Answers permission questions in plain language",
+      "Explains why a right is missing from users, permission sets and relations",
+      "Paste a permission error screenshot to identify the missing right",
+      "Proposes the smallest fitting permission fix",
+      "Modes: analysis only, request with approval, automatic with allow list",
+      "Every change logged as a request with approver",
+      "Role center tiles for open, approved and failed requests",
+      "SUPER and SECURITY sets excluded from automatic assignment",
+      "Only tenant permission sets are changed",
+      "Cost per chat shown and confirmed before use"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "hr",
+      "hu",
+      "it",
+      "nb",
+      "nl",
+      "pl",
+      "pt",
+      "ru",
+      "sv",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "duveka Core",
+      "duveka ClousAI"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

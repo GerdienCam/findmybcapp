@@ -1,0 +1,104 @@
+{
+  "appId": "PUBID.elodigitalofficegmbh1627466451063|AID.intserv|PAPPID.fea63866-fae1-4ee0-b96a-1078124ac30a",
+  "guid": "fea63866-fae1-4ee0-b96a-1078124ac30a",
+  "publisherId": "elodigitalofficegmbh1627466451063",
+  "offerId": "intserv",
+  "source": {
+    "name": "ELO Integration Service",
+    "publisher": "ELO Digital Office GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elodigitalofficegmbh1627466451063%7CAID.intserv%7CPAPPID.fea63866-fae1-4ee0-b96a-1078124ac30a",
+    "lastModified": "2026-09-04T13:47:38.6223603+00:00",
+    "appVersion": "1.0.3.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.elo.com/user/integrations/en-us/elo-integration-client/",
+    "sourceHash": "sha256:313d9552eb60e43081ae107374376fd1e9321c3a3dbf29f9a29c1f676959c34d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:313d9552eb60e43081ae107374376fd1e9321c3a3dbf29f9a29c1f676959c34d",
+    "mappedOn": null,
+    "summary": "Integrates ELO ECM document archive with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Embeds ELO Integration Client in BC",
+      "Requires an ELO installation",
+      "Integration Client shown as additional area in configured BC views",
+      "Creates configurable ELO path automatically if missing",
+      "Delivered as ELO app via ELOwf with valid license"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HU",
+      "ID",
+      "IE",
+      "IT",
+      "LU",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "hu",
+      "it",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "sk",
+      "sr",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ELO ECM"
+    ],
+    "requires": [
+      "ELO ECM"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

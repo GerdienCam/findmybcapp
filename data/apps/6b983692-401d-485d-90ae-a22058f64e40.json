@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.applibra|AID.al_order_log|PAPPID.6b983692-401d-485d-90ae-a22058f64e40",
+  "guid": "6b983692-401d-485d-90ae-a22058f64e40",
+  "publisherId": "applibra",
+  "offerId": "al_order_log",
+  "source": {
+    "name": "AL Order Log",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_order_log%7CPAPPID.6b983692-401d-485d-90ae-a22058f64e40",
+    "lastModified": "2026-02-27T09:55:17.6235588+00:00",
+    "appVersion": "25.0.26.2270958",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsapplab.com/apps",
+    "sourceHash": "sha256:1df663e64d1e8da0040a3eea0ba2e1a1bf1ab85d97da006b791d13eb7241fb63"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1df663e64d1e8da0040a3eea0ba2e1a1bf1ab85d97da006b791d13eb7241fb63",
+    "mappedOn": null,
+    "summary": "Logs changes on sales and purchase orders for audit",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-change-log",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Compares order lines before and after release, logging only actual changes",
+      "Tracks item, quantity, price and dimensions",
+      "Mandatory log reason when deleting previously released lines",
+      "Closes order lines aligning ordered quantity with shipped quantity",
+      "Bulk order changes via Order Log Posting Journal",
+      "Undo sets of changes to restore order lines",
+      "Up to 20 category dimensions tracked with AL Dimension Categories",
+      "Covers sales and purchase orders"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

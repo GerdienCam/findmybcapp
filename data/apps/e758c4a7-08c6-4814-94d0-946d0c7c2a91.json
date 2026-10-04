@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.esc_bvba|AID.project_manufacturing|PAPPID.e758c4a7-08c6-4814-94d0-946d0c7c2a91",
+  "guid": "e758c4a7-08c6-4814-94d0-946d0c7c2a91",
+  "publisherId": "esc_bvba",
+  "offerId": "project_manufacturing",
+  "source": {
+    "name": "Project Manufacturing",
+    "publisher": "ESC bvba",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.esc_bvba%7CAID.project_manufacturing%7CPAPPID.e758c4a7-08c6-4814-94d0-946d0c7c2a91",
+    "lastModified": "2026-09-16T17:07:17.9763117+00:00",
+    "appVersion": "28.1.20260916.133943",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://alistar.net/nl/support/",
+    "sourceHash": "sha256:fc8e58ed6e363219cd6f735f7867500b0bfd91c487699b353bb093fb9e05246b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fc8e58ed6e363219cd6f735f7867500b0bfd91c487699b353bb093fb9e05246b",
+    "mappedOn": null,
+    "summary": "Project budgets combined with manufacturing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-materials-subcontract",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-time",
+      "ng-proj-estimate-contract",
+      "ng-proj-budget"
+    ],
+    "claims": [
+      "Quotation and order projects",
+      "Project budgeting with actual vs budget costs",
+      "Project-based manufacturing",
+      "Debtor management",
+      "Employee time registration",
+      "Subcontractor management",
+      "Project analysis",
+      "No integrations necessary",
+      "Requires Premium edition"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

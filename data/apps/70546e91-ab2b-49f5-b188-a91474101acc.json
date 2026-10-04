@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.azets|AID.glinterface|PAPPID.70546e91-ab2b-49f5-b188-a91474101acc",
+  "guid": "70546e91-ab2b-49f5-b188-a91474101acc",
+  "publisherId": "azets",
+  "offerId": "glinterface",
+  "source": {
+    "name": "G/L Interface",
+    "publisher": "Azets Insight Oy",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.azets%7CAID.glinterface%7CPAPPID.70546e91-ab2b-49f5-b188-a91474101acc",
+    "lastModified": "2026-04-15T13:36:16.4896799+00:00",
+    "appVersion": "1.0.38.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.azetsops.com/",
+    "sourceHash": "sha256:2e4abe9fef10f260bc9b355b64d8e0420f1afd7ff00a99c246f184a9df9a40c5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2e4abe9fef10f260bc9b355b64d8e0420f1afd7ff00a99c246f184a9df9a40c5",
+    "mappedOn": null,
+    "summary": "Imports general journal lines from files via configurable interfaces",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-journals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-dimensions"
+    ],
+    "claims": [
+      "Configurable CSV-to-general-journal field mapping without coding",
+      "Maps file dimensions to shortcut dimensions",
+      "Can reverse imported amounts and set constant values",
+      "Configurable date and datetime formats",
+      "Standard BC validation for each imported field",
+      "Archives imported files for later re-download",
+      "Supports UTF-8, UTF-16, MS-DOS or Windows encoding per interface"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

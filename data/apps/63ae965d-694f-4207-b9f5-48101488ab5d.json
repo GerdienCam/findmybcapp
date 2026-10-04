@@ -1,0 +1,99 @@
+{
+  "appId": "PUBID.to-increasebv|AID.bc_iem_project_status_management|PAPPID.63ae965d-694f-4207-b9f5-48101488ab5d",
+  "guid": "63ae965d-694f-4207-b9f5-48101488ab5d",
+  "publisherId": "to-increasebv",
+  "offerId": "bc_iem_project_status_management",
+  "source": {
+    "name": "IEM-Project Status for Lifecycle Base",
+    "publisher": "STAEDEAN",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.to-increasebv%7CAID.bc_iem_project_status_management%7CPAPPID.63ae965d-694f-4207-b9f5-48101488ab5d",
+    "lastModified": "2026-02-19T16:29:11.6183022+00:00",
+    "appVersion": "24.0.122527.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.staedean.com/products/project-control-suite-microsoft-dynamics-bc/",
+    "sourceHash": "sha256:d8a783f3e54ab5886c3e052287cd636ec0d9671de2ef491ef73ec4f4a8918374"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d8a783f3e54ab5886c3e052287cd636ec0d9671de2ef491ef73ec4f4a8918374",
+    "mappedOn": null,
+    "summary": "Project status workflow for industrial equipment manufacturing",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-proj-governance",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-industrial-manufacturing"
+    ],
+    "claims": [
+      "Project lifecycle with defined states",
+      "State transitions define the path users must follow",
+      "Conditions and action handlers per state or transition",
+      "Integrates with BC document approval workflow",
+      "Approval result sets the next lifecycle state"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RS",
+      "SE",
+      "SI",
+      "SK",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "IEM-Project Control Suite",
+      "PE-Item Status Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

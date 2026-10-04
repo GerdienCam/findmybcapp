@@ -1,0 +1,250 @@
+{
+  "id": "ng-admin-portals",
+  "order": 150,
+  "label": "Customer, vendor and B2B portals",
+  "description": "Self-service web portals on BC for customers, vendors or B2B ordering.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "high",
+  "statements": [
+    "Customer, vendor and B2B portals",
+    "Self-service web portals on BC for customers, vendors or B2B ordering.",
+    "We want customers to log in and see their invoices, orders and statements online",
+    "Is there a customer portal for Business Central that doesn't need Power Pages expertise?",
+    "B2B webshop connected to BC with customer-specific prices",
+    "Suppliers should be able to confirm purchase orders and update delivery dates in a portal",
+    "Our customers call us all day to ask where their order is",
+    "We need a vendor portal where suppliers upload invoices and certificates",
+    "Shopify connector for BC keeps failing to sync orders",
+    "Which webshop platforms integrate properly with Business Central?",
+    "Dealers should be able to reorder spare parts themselves online",
+    "We want a self-service portal for our service customers to log tickets and see visits",
+    "customer portal BC",
+    "Customers want to download their own invoice copies without emailing us",
+    "Can a portal show live stock availability straight from BC?",
+    "Our old webshop was built on NAV web services and is falling apart",
+    "We want our B2C shop and B2B portal on the same platform with BC as the back end",
+    "Each customer's portal users should only see their own company's data",
+    "Contractors need a portal to submit timesheets that land in BC",
+    "Is there a white-label portal that BC partners can resell to customers?",
+    "How much maintenance does a BC webshop integration really need?",
+    "Suppliers keep emailing order confirmations as PDFs, a portal would fix that"
+  ],
+  "questions": [
+    {
+      "id": "who",
+      "text": "Who will log in to the portal?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Customers or dealers",
+          "patterns": [
+            "customers?",
+            "dealers?",
+            "\\bb2b\\b",
+            "tenants?",
+            "clients?"
+          ]
+        },
+        {
+          "label": "Vendors or suppliers",
+          "patterns": [
+            "vendors?",
+            "suppliers?",
+            "producers?",
+            "\\bsrm\\b"
+          ]
+        },
+        {
+          "label": "Our own sales reps",
+          "patterns": [
+            "sales ?reps?",
+            "salesperson",
+            "field sales",
+            "sales agents"
+          ]
+        },
+        {
+          "label": "Employees",
+          "patterns": [
+            "employees?"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Customers or dealers": 0.84,
+        "Vendors or suppliers": 0.26,
+        "Our own sales reps": 0.13,
+        "Employees": 0.08
+      }
+    },
+    {
+      "id": "do",
+      "text": "What should portal users mainly do?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Place orders",
+          "patterns": [
+            "place[sd]? (new )?orders",
+            "orders? online",
+            "carts?",
+            "ordering",
+            "reorder",
+            "online orders",
+            "order entry",
+            "create and manage quotations",
+            "web ?shop",
+            "e-?commerce",
+            "storefront"
+          ]
+        },
+        {
+          "label": "Pay invoices online",
+          "patterns": [
+            "\\bpay\\b",
+            "pay (open )?invoices",
+            "payments? gateway",
+            "credit card",
+            "pay-by-link",
+            "paynow",
+            "stripe"
+          ]
+        },
+        {
+          "label": "See documents, statements and balances",
+          "patterns": [
+            "statements?",
+            "balances?",
+            "view.*invoices",
+            "invoice history",
+            "download",
+            "documents"
+          ]
+        },
+        {
+          "label": "Raise service, support or return requests",
+          "patterns": [
+            "service requests?",
+            "return requests?",
+            "\\brma",
+            "support cases?",
+            "helpdesk",
+            "ticket",
+            "warranty",
+            "maintenance orders"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Place orders": 0.42,
+        "Pay invoices online": 0.24,
+        "See documents, statements and balances": 0.53,
+        "Raise service, support or return requests": 0.11
+      }
+    },
+    {
+      "id": "shop",
+      "text": "Do you also need a full B2B/B2C webshop?",
+      "multi": false,
+      "options": [
+        {
+          "label": "A full B2B/B2C webshop",
+          "patterns": [
+            "e-?commerce",
+            "web ?shop",
+            "storefront",
+            "\\bb2c\\b",
+            "\\bpim\\b"
+          ]
+        },
+        {
+          "label": "No, a portal is enough",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "A full B2B/B2C webshop": 0.21
+      }
+    },
+    {
+      "id": "login",
+      "text": "How important is login security?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Need two-factor or external login (MFA, OTP, MitID...)",
+          "patterns": [
+            "two-factor",
+            "2-step",
+            "multi-factor",
+            "\\botp\\b",
+            "mitid",
+            "auth0",
+            "dual authentication"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Need two-factor or external login (MFA, OTP, MitID...)": 0.13
+      }
+    },
+    {
+      "id": "licence",
+      "text": "Must portal users work without their own BC licence?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, no BC licence for portal users",
+          "patterns": [
+            "without a bc licen",
+            "no (additional )?bc (user )?licen",
+            "no bc access",
+            "without (a )?business central licen"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, no BC licence for portal users": 0.08
+      }
+    },
+    {
+      "id": "mobileapp",
+      "text": "Do users need a mobile app?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, mobile app or mobile-ready",
+          "patterns": [
+            "mobile"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, mobile app or mobile-ready": 0.16
+      }
+    }
+  ]
+}

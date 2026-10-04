@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dms-orderbase-time-management-pda|PAPPID.9b609513-a7ae-4768-903d-9d16980e5c42",
+  "guid": "9b609513-a7ae-4768-903d-9d16980e5c42",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dms-orderbase-time-management-pda",
+  "source": {
+    "name": "Aptean Equipment DMS x orderbase Time Management PDA",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-orderbase-time-management-pda%7CPAPPID.9b609513-a7ae-4768-903d-9d16980e5c42",
+    "lastModified": "2026-08-17T11:03:10.2538055+00:00",
+    "appVersion": "2603.260500.20260720.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:ba24ded7613a2080846c8a72e5d07a0275c403f86a2ed20a2009634482a35a18"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ba24ded7613a2080846c8a72e5d07a0275c403f86a2ed20a2009634482a35a18",
+    "mappedOn": null,
+    "summary": "Connects orderbase time management to DMS service module",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-close-invoice",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers",
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "Time tracking of factory data capture via orderbase",
+      "Setup of roundings and surcharges",
+      "Transfers times to service orders",
+      "View and correct order-related times in the order",
+      "Time logging with orderbase terminal timestamps"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "orderbase Time Management PDA",
+      "orderbase Terminal"
+    ],
+    "requires": [
+      "Aptean Equipment DMS",
+      "orderbase Time Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.pryme|AID.pryme_time_on_bc|PAPPID.8a920381-65c3-497e-92b7-22859e4c9fbc",
+  "guid": "8a920381-65c3-497e-92b7-22859e4c9fbc",
+  "publisherId": "pryme",
+  "offerId": "pryme_time_on_bc",
+  "source": {
+    "name": "Pryme Time",
+    "publisher": "Pryme",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pryme%7CAID.pryme_time_on_bc%7CPAPPID.8a920381-65c3-497e-92b7-22859e4c9fbc",
+    "lastModified": "2026-09-23T19:58:23.1748225+00:00",
+    "appVersion": "14.1.1055.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.pryme.app/time/",
+    "sourceHash": "sha256:5523b6686a9ac5782574c0b59a7e7b76ccb20f818b0544cfff79c8d16fc7517b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5523b6686a9ac5782574c0b59a7e7b76ccb20f818b0544cfff79c8d16fc7517b",
+    "mappedOn": null,
+    "summary": "Timer-based time tracking for billable work",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-office-teams",
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "Start/stop stopwatch timers, minute-wise intervals",
+      "Drag-and-drop time tracking calendar",
+      "Shows Outlook appointments in BC",
+      "Imports time entries from Outlook calendar",
+      "Converts tracked time into timesheets",
+      "Time entries from timesheet briefing emails",
+      "Copilot polishes descriptions across timesheets, entries and invoice suggestions",
+      "Copilot timesheet gap filler suggests missing entries"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "es",
+      "sv"
+    ],
+    "industries": [
+      "Legal",
+      "ProfessionalServices"
+    ],
+    "connectsTo": [
+      "Outlook"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

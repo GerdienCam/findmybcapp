@@ -1,0 +1,225 @@
+{
+  "id": "ng-ux-data-quality",
+  "order": 172,
+  "label": "Mandatory fields and clean, validated data",
+  "description": "Forcing required fields, validation rules and checklists on master data and documents, address and phone validation, merging duplicates and GDPR data hygiene.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "high",
+  "statements": [
+    "Mandatory fields and clean, validated data",
+    "Forcing required fields, validation rules and checklists on master data and documents, address and phone validation, merging duplicates and GDPR data hygiene.",
+    "People create customers without a VAT number or payment terms",
+    "mandatory fields on item card",
+    "We have the same customer three times with slightly different names",
+    "Can BC block posting if the order has no external document number?",
+    "Addresses are typed in wrong and the carrier rejects the label",
+    "New items get created half finished and then sold anyway",
+    "merge duplicate vendors",
+    "Phone numbers are in every possible format",
+    "I want a checklist that must be ticked before an order is released",
+    "Our master data is a mess and nobody is accountable",
+    "How do we make sure the posting groups are always set on new customers?",
+    "validate email addresses on entry",
+    "Can a field be required only for certain customer types?",
+    "We keep getting invoices returned because the address is incomplete",
+    "Need to anonymize old contacts for GDPR",
+    "Auditors complained that vendor bank details can be created without a second check",
+    "Address autocomplete while typing would save us so many errors",
+    "Data quality score for our customer base",
+    "Stop people from saving an item without a unit of measure",
+    "We migrated and now have hundreds of duplicate contacts to clean up"
+  ],
+  "questions": [
+    {
+      "id": "problem",
+      "text": "What is the main data problem you want to stop?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Records saved with required fields left empty",
+          "patterns": [
+            "mandatory",
+            "required fields?",
+            "blank values",
+            "completeness"
+          ]
+        },
+        {
+          "label": "Wrong addresses, emails or phone numbers",
+          "patterns": [
+            "address (search|autocomplete|lookup|validation|prediction)",
+            "(validates?|checks?|corrects?|verif\\w*|standardi[sz]es?) (and \\w+ )?addresses",
+            "addresses (worldwide|from)",
+            "postcodes?",
+            "e-?mail (address|validation|providers)",
+            "phone numbers?",
+            "autocomplete|auto-complete"
+          ]
+        },
+        {
+          "label": "Invalid VAT numbers or bank accounts",
+          "patterns": [
+            "vies",
+            "\\biban",
+            "vat (numbers?|no\\.?|registration no\\.?) (valid|against)",
+            "vat invalid"
+          ]
+        },
+        {
+          "label": "Duplicate records",
+          "patterns": [
+            "duplicate"
+          ]
+        },
+        {
+          "label": "Personal data and GDPR requests",
+          "patterns": [
+            "gdpr",
+            "personal data",
+            "redact",
+            "erase"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Records saved with required fields left empty": 0.45,
+        "Wrong addresses, emails or phone numbers": 0.16,
+        "Invalid VAT numbers or bank accounts": 0.06,
+        "Duplicate records": 0.06,
+        "Personal data and GDPR requests": 0.02
+      }
+    },
+    {
+      "id": "approve",
+      "text": "Should new customers, vendors or items be approved before use?",
+      "help": "For example a status like Pending until someone signs off.",
+      "options": [
+        {
+          "label": "Yes, approval or status steps",
+          "patterns": [
+            "approv",
+            "status(es)? (flows?|stages?|change)",
+            "lifecycle",
+            "statuses",
+            "certified"
+          ]
+        },
+        {
+          "label": "No, just check the fields",
+          "patterns": [
+            "validation rules?",
+            "mandatory field rules",
+            "rule types",
+            "validation templates",
+            "rulesets?"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, approval or status steps": 0.24,
+        "No, just check the fields": 0.2
+      }
+    },
+    {
+      "id": "scope",
+      "text": "Where do the checks need to run?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Cards: customers, vendors, items",
+          "patterns": [
+            "master data",
+            "customers?, vendors?",
+            "customer, vendor",
+            "vendor, customer",
+            "items, customers",
+            "customer card"
+          ]
+        },
+        {
+          "label": "Documents and journals before posting or release",
+          "patterns": [
+            "documents?",
+            "journals?",
+            "before (posting|releasing)",
+            "release or posting",
+            "posting of"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Cards: customers, vendors, items": 0.63,
+        "Documents and journals before posting or release": 0.45
+      }
+    },
+    {
+      "id": "action",
+      "text": "When something is missing or wrong, what should happen?",
+      "options": [
+        {
+          "label": "Block the record or posting",
+          "patterns": [
+            "block"
+          ]
+        },
+        {
+          "label": "Just warn the user",
+          "patterns": [
+            "warn",
+            "warning",
+            "alerts? (users|on)",
+            "notification",
+            "banner"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Block the record or posting": 0.45,
+        "Just warn the user": 0.24
+      }
+    },
+    {
+      "id": "nocode",
+      "text": "Who will set up the rules?",
+      "options": [
+        {
+          "label": "Our own admin, without a developer",
+          "patterns": [
+            "no[- ]code",
+            "without (code|coding|development|custom)",
+            "no development",
+            "no coding",
+            "assisted setup",
+            "setup page",
+            "configurable",
+            "configured without"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Our own admin, without a developer": 0.24
+      }
+    }
+  ]
+}

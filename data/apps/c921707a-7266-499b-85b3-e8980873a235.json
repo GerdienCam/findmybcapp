@@ -1,0 +1,102 @@
+{
+  "appId": "PUBID.foodware365|AID.ecom|PAPPID.c921707a-7266-499b-85b3-e8980873a235",
+  "guid": "c921707a-7266-499b-85b3-e8980873a235",
+  "publisherId": "foodware365",
+  "offerId": "ecom",
+  "source": {
+    "name": "Aptean E-Commerce for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.ecom%7CPAPPID.c921707a-7266-499b-85b3-e8980873a235",
+    "lastModified": "2026-07-22T02:09:01.2234517+00:00",
+    "appVersion": "2603.0.333003.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/ECM",
+    "sourceHash": "sha256:f49542fcf94565759871a6160e7b1d98cc599a4aa0a46f4bcbf9446ba6626a2b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f49542fcf94565759871a6160e7b1d98cc599a4aa0a46f4bcbf9446ba6626a2b",
+    "mappedOn": null,
+    "summary": "Connects Aptean Food and Beverage to Aptean E-commerce",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Customers place orders online and review order history and invoices in real time",
+      "Syncs product images from BC",
+      "Customers can cancel existing orders online",
+      "Shows open, shipped and invoiced orders from any channel",
+      "Delivery dates that are valid given the transport routes",
+      "Order cutoff times from call plans and enforced order minimums",
+      "Item catalogs per customer profile"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [
+      "Aptean E-commerce"
+    ],
+    "requires": [
+      "Aptean Food and Beverage",
+      "Aptean E-commerce"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

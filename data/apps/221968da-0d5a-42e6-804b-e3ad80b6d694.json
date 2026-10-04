@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.manda|AID.easyflow-webplatforms|PAPPID.221968da-0d5a-42e6-804b-e3ad80b6d694",
+  "guid": "221968da-0d5a-42e6-804b-e3ad80b6d694",
+  "publisherId": "manda",
+  "offerId": "easyflow-webplatforms",
+  "source": {
+    "name": "easyFlow: WEB Platforms",
+    "publisher": "ManDa GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.manda%7CAID.easyflow-webplatforms%7CPAPPID.221968da-0d5a-42e6-804b-e3ad80b6d694",
+    "lastModified": "2026-07-20T13:31:16.5284179+00:00",
+    "appVersion": "28.3.206.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.manda.gmbh/easyflow/",
+    "sourceHash": "sha256:2718ee97067d4257cbf9ede679c21c85e0c6a26feb60e7d7083f73ec041172fc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2718ee97067d4257cbf9ede679c21c85e0c6a26feb60e7d7083f73ec041172fc",
+    "mappedOn": null,
+    "summary": "Imports eBay and portal sales into BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Imports eBay sales on demand or on a schedule",
+      "Transfers Amazon customer and order data into BC master data",
+      "Links BC products to multiple Amazon SKUs",
+      "Creates Amazon orders as BC sales orders",
+      "Order import includes taxes, shipping costs, gift wrap, discounts and addresses",
+      "Uploads BC invoices to all Amazon platforms, no Amazon VAT service needed",
+      "Transfers shipping confirmations with tracking numbers",
+      "Imports Amazon settlements and selling fees",
+      "eBay orders created as sales orders including eBay member name",
+      "Magento orders handled like eBay orders",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [
+      "AT",
+      "DE"
+    ],
+    "languages": [
+      "de"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Amazon",
+      "eBay",
+      "Magento"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

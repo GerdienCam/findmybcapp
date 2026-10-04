@@ -1,0 +1,61 @@
+{
+  "appId": "TYPE.connect|PUBID.atnatechnologies1723633443331|AID.atnaasn_01|PAPPID.acc8376e-f673-4fea-9727-f71494377388",
+  "guid": "acc8376e-f673-4fea-9727-f71494377388",
+  "publisherId": "atnatechnologies1723633443331",
+  "offerId": "atnaasn_01",
+  "source": {
+    "name": "Advance Shipping Notice",
+    "publisher": "Atna Technologies",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.atnatechnologies1723633443331%7CAID.atnaasn_01%7CPAPPID.acc8376e-f673-4fea-9727-f71494377388",
+    "lastModified": "2025-09-08T10:55:48.4852682+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://atnatechnologies.com/contact-us",
+    "sourceHash": "sha256:a3ff7b3fb798a65a46cdcd842a18492322e8645c8802b1dbea201d73f4847017"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a3ff7b3fb798a65a46cdcd842a18492322e8645c8802b1dbea201d73f4847017",
+    "mappedOn": null,
+    "summary": "Advance shipping notices for incoming shipments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Vendors submit advance shipping notices linked to purchase orders",
+      "Vendors submit using the customer's ERP item codes",
+      "Multi-channel approval workflow via app, Microsoft Teams and email",
+      "Role-based access for vendors, buyers and approvers",
+      "Real-time status tracking of ASN submissions",
+      "Automatic reconciliation of receipts against POs and invoices",
+      "ERP-agnostic integration"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Microsoft Teams"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

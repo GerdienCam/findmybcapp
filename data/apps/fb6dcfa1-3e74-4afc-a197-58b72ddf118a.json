@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.vlc-solutions-llc-1263055|AID.vlc_printnode_integration|PAPPID.fb6dcfa1-3e74-4afc-a197-58b72ddf118a",
+  "guid": "fb6dcfa1-3e74-4afc-a197-58b72ddf118a",
+  "publisherId": "vlc-solutions-llc-1263055",
+  "offerId": "vlc_printnode_integration",
+  "source": {
+    "name": "VLC PrintNode Integration",
+    "publisher": "VLC Solutions LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.vlc-solutions-llc-1263055%7CAID.vlc_printnode_integration%7CPAPPID.fb6dcfa1-3e74-4afc-a197-58b72ddf118a",
+    "lastModified": "2025-11-18T12:35:29.6047081+00:00",
+    "appVersion": "20.0.0.27",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.vlcsolutions.com/print-node-integration-for-dynamics-365-business-central.html",
+    "sourceHash": "sha256:02995ed45d0e0a62b967876e3426ad0082bc6a6546362874fa4fb4c12d6f0e6c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:02995ed45d0e0a62b967876e3426ad0082bc6a6546362874fa4fb4c12d6f0e6c",
+    "mappedOn": null,
+    "summary": "Cloud report printing via PrintNode",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-printing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Prints from web client, phone or tablet apps to local or network printers via PrintNode",
+      "Requires a PrintNode account and subscription",
+      "Setup with PrintNode API key, test connection and printer sync",
+      "Prints PDF files located on the local machine or on network paths",
+      "Covers every standard and custom report, labels included",
+      "Print job history tracked in the PrintNode portal",
+      "Supports Essentials and Premium",
+      "Available in all BC countries"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PrintNode"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.advaiya|AID.adv_creditshield_01|PAPPID.599cc03d-6dce-4ff0-8e6c-2fa9076e03e7",
+  "guid": "599cc03d-6dce-4ff0-8e6c-2fa9076e03e7",
+  "publisherId": "advaiya",
+  "offerId": "adv_creditshield_01",
+  "source": {
+    "name": "CreditShield 365",
+    "publisher": "Advaiya Solutions Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advaiya%7CAID.adv_creditshield_01%7CPAPPID.599cc03d-6dce-4ff0-8e6c-2fa9076e03e7",
+    "lastModified": "2026-06-26T05:36:36.5078516+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://advaiya.com/contact/",
+    "sourceHash": "sha256:c634a765a747fd16c71d6ae36f4e3a38dddd82dc5bc91cbaa9f0225781762af9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c634a765a747fd16c71d6ae36f4e3a38dddd82dc5bc91cbaa9f0225781762af9",
+    "mappedOn": null,
+    "summary": "Tracks bank guarantees and letters of credit",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "low"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Manages bank guarantees and letters of credit for sales and purchase transactions",
+      "Lifecycle statuses Open, Pending for Approval, Released, Closed with record locking",
+      "Links BG and LC to purchase orders, sales orders and projects",
+      "Real-time utilized, available and remaining limit tracking",
+      "Approvals in several levels for issuing and closing",
+      "Amendment history with version tracking",
+      "Links instruments to customers and vendors",
+      "Fixed and revolving limits",
+      "Daily expiry email alerts via job queue with configurable notice period",
+      "Credit Manager role center with status cues",
+      "Printable RDLC Bank Guarantee and LC reports"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Bank guarantee and letter of credit (trade finance) management has no dedicated group"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

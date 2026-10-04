@@ -1,0 +1,58 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.export-invoices-msd|PAPPID.007b88da-b140-4755-8cc4-2c94e575a870",
+  "guid": "007b88da-b140-4755-8cc4-2c94e575a870",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "export-invoices-msd",
+  "source": {
+    "name": "Automatic Export of MS Dynamics 365 EDI Invoices",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.export-invoices-msd%7CPAPPID.007b88da-b140-4755-8cc4-2c94e575a870",
+    "lastModified": "2026-07-16T08:28:01.8031565+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://knowledgebase.hubbroker.net/article/53ccslw82r-microsoft-dynamics-365-export-customer-invoices",
+    "sourceHash": "sha256:71ad1cb92ab314657030ed0a82e2de4947ac9512c4ea9f16127938be89de7874"
+  },
+  "mapping": {
+    "sourceHash": "sha256:71ad1cb92ab314657030ed0a82e2de4947ac9512c4ea9f16127938be89de7874",
+    "mappedOn": null,
+    "summary": "EDI invoice export to trading partners",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends documents from BC to customers' systems in their desired format via iPaaS",
+      "Validates and converts data to local standards or customer preferences",
+      "Invoices delivered automatically into customers' systems",
+      "Tracking of transferred invoices in the iPaaS",
+      "REST API data integration"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "HubBroker iPaaS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

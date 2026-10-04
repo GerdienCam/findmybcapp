@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.dynamics-eshop|AID.eshoppaybc|PAPPID.b0115c8f-c8b5-4f35-a01a-e3ce048b5d73",
+  "guid": "b0115c8f-c8b5-4f35-a01a-e3ce048b5d73",
+  "publisherId": "dynamics-eshop",
+  "offerId": "eshoppaybc",
+  "source": {
+    "name": "ePay Credit Card & ACH Payments",
+    "publisher": "Dynamics eShop Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics-eshop%7CAID.eshoppaybc%7CPAPPID.b0115c8f-c8b5-4f35-a01a-e3ce048b5d73",
+    "lastModified": "2026-09-18T00:13:02.6035052+00:00",
+    "appVersion": "2.5.6.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamicseshop.com/contact-us/",
+    "sourceHash": "sha256:d347545ee991a04d6894179df60cd0524a6056ed1123ee2aac671cfa71872c3c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d347545ee991a04d6894179df60cd0524a6056ed1123ee2aac671cfa71872c3c",
+    "mappedOn": null,
+    "summary": "Credit card and ACH payment processing integrated with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-collections",
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "Accepts credit and debit cards, ACH, checks and eChecks",
+      "Authorize and capture from sales orders, invoices, posted invoices and cash receipts",
+      "Customer payment portal with stored cards and ACH profiles",
+      "Payment links in invoice emails and text messages",
+      "AR reminder emails with payment links",
+      "Card-present transactions via integrated terminals",
+      "PCI compliant, tokenized payment data",
+      "Built-in reconciliation with processor transactions",
+      "Recurring payments",
+      "Over 100 payment gateways"
+    ],
+    "countries": [
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "CardConnect",
+      "Authorize.Net",
+      "Stripe",
+      "PayPal",
+      "Worldpay",
+      "Fortis",
+      "Adyen",
+      "Global Payments"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

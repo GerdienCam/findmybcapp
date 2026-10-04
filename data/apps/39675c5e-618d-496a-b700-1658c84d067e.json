@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evprij|PAPPID.39675c5e-618d-496a-b700-1658c84d067e",
+  "guid": "39675c5e-618d-496a-b700-1658c84d067e",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evprij",
+  "source": {
+    "name": "EV Vista Import",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evprij%7CPAPPID.39675c5e-618d-496a-b700-1658c84d067e",
+    "lastModified": "2026-02-06T20:46:08.6321243+00:00",
+    "appVersion": "1.5.172668.2700",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support",
+    "sourceHash": "sha256:f5537764f25fd799eb6615af4925e99fd64064eaa07195ce1b96020c58283925"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f5537764f25fd799eb6615af4925e99fd64064eaa07195ce1b96020c58283925",
+    "mappedOn": null,
+    "summary": "Imports external data to create project planning lines and budgets",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-proj-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-import-excel",
+      "ng-proj-budget",
+      "ng-conn-cad-plm"
+    ],
+    "claims": [
+      "Imports project data from Excel files",
+      "Generates project planning lines and budget from imported data",
+      "Creates unknown items from imported data",
+      "Import journal per project with log, items and planning line sections",
+      "Manual editing of imported line values",
+      "Starts projects with data from CAD system or calculation sheets"
+    ],
+    "countries": [
+      "CA",
+      "DE",
+      "DK",
+      "LT",
+      "NL",
+      "NO",
+      "PL",
+      "SE",
+      "SG"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EV Vista"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

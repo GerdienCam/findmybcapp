@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.dexprosolutionsgmbh|AID.69468|PAPPID.7c431886-108e-44c3-9328-30e2b93edfa6",
+  "guid": "7c431886-108e-44c3-9328-30e2b93edfa6",
+  "publisherId": "dexprosolutionsgmbh",
+  "offerId": "69468",
+  "source": {
+    "name": "DEXPRO Breeze Interface",
+    "publisher": "DEXPRO Solutions GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dexprosolutionsgmbh%7CAID.69468%7CPAPPID.7c431886-108e-44c3-9328-30e2b93edfa6",
+    "lastModified": "2026-09-10T12:45:29.6791294+00:00",
+    "appVersion": "1.30.1.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.squeeze.one/books/breeze-interface-for-dynamics-365-bc-de-de",
+    "sourceHash": "sha256:6737a814f4788d366ab6ceafa9533adf9bcee36cdee988ce95702a19a1c23121"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6737a814f4788d366ab6ceafa9533adf9bcee36cdee988ce95702a19a1c23121",
+    "mappedOn": null,
+    "summary": "Interface for DEXPRO Breeze to post purchase documents",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Receives JSON data from external workflow/ECM systems as inbound documents or posting records",
+      "Pre-built plug-ins for purchase document acceptance, verification and creation",
+      "REST web service API",
+      "Live view of incoming invoices and statuses",
+      "Duplicate, amount and mandatory field checks",
+      "Multilingual and multi-company",
+      "Pay per successfully processed document",
+      "OnPrem and cloud"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DEXPRO Breeze"
+    ],
+    "requires": [
+      "DEXPRO Breeze"
+    ],
+    "deployment": "both",
+    "pricing": "per_transaction",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

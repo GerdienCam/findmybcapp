@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.alpha_solutions_ag|AID.ascdc|PAPPID.132ad1d3-0ad0-43a3-ac8c-6b02cdb876ea",
+  "guid": "132ad1d3-0ad0-43a3-ac8c-6b02cdb876ea",
+  "publisherId": "alpha_solutions_ag",
+  "offerId": "ascdc",
+  "source": {
+    "name": "Aproda Document Capture (ASCDC)",
+    "publisher": "Aproda AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alpha_solutions_ag%7CAID.ascdc%7CPAPPID.132ad1d3-0ad0-43a3-ac8c-6b02cdb876ea",
+    "lastModified": "2026-07-01T13:03:39.4434794+00:00",
+    "appVersion": "27.0.0.20",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aproda.ch/aproda-document-capture-ascdc",
+    "sourceHash": "sha256:ddd8e6fbcf39b3c002e4f61398a9a0cfa0657e3a83ee9b719aa954e6de06cb34"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ddd8e6fbcf39b3c002e4f61398a9a0cfa0657e3a83ee9b719aa954e6de06cb34",
+    "mappedOn": null,
+    "summary": "Extends Continia Document Capture with archiving and approvers",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Stores sales documents and attachments in a long-term archive",
+      "Role center shortcut to archive log",
+      "Filter template bank field on vendor banks",
+      "Three extra fields for fixed approvers per invoice",
+      "PO matching across multiple purchase orders at line level",
+      "Multiple approver administrators"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

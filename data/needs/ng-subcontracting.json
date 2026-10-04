@@ -1,0 +1,155 @@
+{
+  "id": "ng-subcontracting",
+  "order": 91,
+  "label": "Sending production steps to outside vendors",
+  "description": "Deciding and running subcontracted operations.",
+  "type": "bpc",
+  "area": "Manufacturing",
+  "relevance": "high",
+  "statements": [
+    "Sending production steps to outside vendors",
+    "Deciding and running subcontracted operations.",
+    "We send parts to a galvanizer and lose track of what is at the vendor",
+    "How do I ship components to a subcontractor and receive them back on the production order?",
+    "subcontracting app Business Central",
+    "BC subcontracting creates the purchase order but doesn't track the material we send out",
+    "We need to know how much of our stock is sitting at outside processors",
+    "Our powder coater invoices per kilo but the production order is in pieces",
+    "We want a transfer to the subcontractor's location created automatically",
+    "Is there an app that prints a delivery note for parts sent to a subcontractor?",
+    "The subcontract cost doesn't show up on the production order cost",
+    "Our outside processor does three operations in a row and we only want one PO",
+    "We supply the steel and the vendor cuts and welds it for us",
+    "How do we handle subcontracting when the vendor also supplies some of the material?",
+    "Parts come back from the plater with a few missing and we can't reconcile",
+    "Planners don't see the subcontractor's lead time when scheduling",
+    "We want the subcontracting worksheet to run automatically for released orders",
+    "Receiving goods back from heat treatment should post the operation on the production order",
+    "We need a list of all open subcontracting orders by vendor with due dates",
+    "Our anodizing supplier sends back parts in different lot numbers than we sent",
+    "Sometimes we outsource a whole sub-assembly when our line is full",
+    "Tracking consigned material at subcontractors for the year end inventory count",
+    "Should we keep galvanizing in house or send it to a subcontractor?",
+    "We want to compare the cost of making a part ourselves versus outsourcing it",
+    "make or buy analysis for production steps",
+    "Which of our operations make sense to outsource when we are at full capacity?",
+    "We need a policy for when the planners may send work to outside shops",
+    "How do other manufacturers decide what to subcontract and what to keep?"
+  ],
+  "questions": [
+    {
+      "id": "pain",
+      "text": "What is hardest about sending work to subcontractors today?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Getting the right subcontractor price on orders",
+          "patterns": [
+            "price",
+            "tarif",
+            "discount",
+            "unit cost"
+          ]
+        },
+        {
+          "label": "Sending components and tracking what each subcontractor holds",
+          "patterns": [
+            "transfer",
+            "component",
+            "subcontractor inventory",
+            "location",
+            "held at"
+          ]
+        },
+        {
+          "label": "Seeing links between production orders and subcontract purchases",
+          "patterns": [
+            "navigate",
+            "visibility",
+            "drill",
+            "shows subcontracting purchase order",
+            "tracked on",
+            "production order tracking",
+            "structured production order tracking"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Getting the right subcontractor price on orders": 0.4,
+        "Sending components and tracking what each subcontractor holds": 0.4,
+        "Seeing links between production orders and subcontract purchases": 0.3
+      }
+    },
+    {
+      "id": "lot_serial",
+      "text": "Do subcontracted items carry lot or serial numbers?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "lot",
+            "serial",
+            "item tracking"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.3
+      }
+    },
+    {
+      "id": "sales_link",
+      "text": "Is subcontracted work usually tied to a specific customer order?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, linked to sales orders",
+          "patterns": [
+            "sales order",
+            "shipment planning",
+            "trading"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, linked to sales orders": 0.3
+      }
+    },
+    {
+      "id": "scrap",
+      "text": "Do you need to record scrap or operation times on outsourced work?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "scrap",
+            "setup, run",
+            "stop time",
+            "registers time"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.2
+      }
+    }
+  ]
+}

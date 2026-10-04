@@ -1,0 +1,52 @@
+{
+  "appId": "PUBID.heijkoopwebservice1673269601699|AID.quotetocontract|PAPPID.df74ee54-7d61-485f-b513-93a79fe3ffcd",
+  "guid": "df74ee54-7d61-485f-b513-93a79fe3ffcd",
+  "publisherId": "heijkoopwebservice1673269601699",
+  "offerId": "quotetocontract",
+  "source": {
+    "name": "Quote to Contract",
+    "publisher": "Heijkoop Webservice",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.heijkoopwebservice1673269601699%7CAID.quotetocontract%7CPAPPID.df74ee54-7d61-485f-b513-93a79fe3ffcd",
+    "lastModified": "2024-11-22T14:18:27.6189568+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://heijkoopwebservice.nl/business-central/",
+    "sourceHash": "sha256:da1c7549099b647901d6226163ba50fdf02f2c57e7cf01b40a522f52378b5ae8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:da1c7549099b647901d6226163ba50fdf02f2c57e7cf01b40a522f52378b5ae8",
+    "mappedOn": null,
+    "summary": "Converts sales or purchase quotes into contracts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-ux-data-entry"
+    ],
+    "claims": [
+      "Converts approved sales quote to sales blanket order",
+      "Converts purchase quote to blanket purchase order"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

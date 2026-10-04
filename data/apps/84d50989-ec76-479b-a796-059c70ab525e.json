@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.redocapoy1692704332264|AID.finvoice|PAPPID.84d50989-ec76-479b-a796-059c70ab525e",
+  "guid": "84d50989-ec76-479b-a796-059c70ab525e",
+  "publisherId": "redocapoy1692704332264",
+  "offerId": "finvoice",
+  "source": {
+    "name": "Finvoice",
+    "publisher": "Redocap Oy",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.redocapoy1692704332264%7CAID.finvoice%7CPAPPID.84d50989-ec76-479b-a796-059c70ab525e",
+    "lastModified": "2026-09-17T10:57:40.7956881+00:00",
+    "appVersion": "25.3.8.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://redocap.fi/redoflow-taloushallinto/",
+    "sourceHash": "sha256:94d573cd4166e15262680addff154bd8fa525d74ce5ba54b5791ceec99125a28"
+  },
+  "mapping": {
+    "sourceHash": "sha256:94d573cd4166e15262680addff154bd8fa525d74ce5ba54b5791ceec99125a28",
+    "mappedOn": null,
+    "summary": "Sends and receives Finvoice e-invoices via Maventa",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Integrates BC with the Maventa e-invoice operator",
+      "Receives and sends invoices via Finvoice",
+      "Stores customer e-invoicing information in BC",
+      "Standardized invoice template following Finnish rules",
+      "Batch invoicing",
+      "Factoring setups",
+      "E-invoice error handling",
+      "EN16931 and Finvoice 3.0 compliant",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [
+      "FI"
+    ],
+    "languages": [
+      "en",
+      "fi"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Maventa"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

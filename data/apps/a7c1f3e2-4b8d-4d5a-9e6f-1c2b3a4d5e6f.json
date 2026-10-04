@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.soakas1728587597590|AID.bcmonitor|PAPPID.a7c1f3e2-4b8d-4d5a-9e6f-1c2b3a4d5e6f",
+  "guid": "a7c1f3e2-4b8d-4d5a-9e6f-1c2b3a4d5e6f",
+  "publisherId": "soakas1728587597590",
+  "offerId": "bcmonitor",
+  "source": {
+    "name": "SOAK Monitoring",
+    "publisher": "SOAK A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.soakas1728587597590%7CAID.bcmonitor%7CPAPPID.a7c1f3e2-4b8d-4d5a-9e6f-1c2b3a4d5e6f",
+    "lastModified": "2026-08-07T06:31:12.1206914+00:00",
+    "appVersion": "2.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.soak.dk/docs/business-central/business-central-monitorering",
+    "sourceHash": "sha256:925024eb315e9f21edaaf8d28adb8b006aae86d0338a7c6750a63835f5002baf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:925024eb315e9f21edaaf8d28adb8b006aae86d0338a7c6750a63835f5002baf",
+    "mappedOn": null,
+    "summary": "Monitoring and diagnostics for SOAK customers",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-performance",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-failures",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-licensing",
+      "ng-admin-support"
+    ],
+    "claims": [
+      "Real-time monitoring of environment health",
+      "Finds slow processes and bottlenecks",
+      "Detects application errors and failed integrations",
+      "User session and activity monitoring",
+      "Monitors integrations incl. APIs, Power Platform and ISV apps",
+      "Dashboards from telemetry",
+      "Required to enable SOAK's monitoring solution"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "SOAK A/S Business Central Monitoring"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

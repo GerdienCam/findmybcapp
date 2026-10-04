@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_logistic_differences_unit_conversion|PAPPID.f513c2bb-9685-4c27-b236-9c43348ecdb8",
+  "guid": "f513c2bb-9685-4c27-b236-9c43348ecdb8",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_logistic_differences_unit_conversion",
+  "source": {
+    "name": "m+m Logistic Differences with Unit Conversion",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_logistic_differences_unit_conversion%7CPAPPID.f513c2bb-9685-4c27-b236-9c43348ecdb8",
+    "lastModified": "2026-09-28T15:49:02.6089522+00:00",
+    "appVersion": "28.0.375488.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:68b6983d33aa7b123885b5491aead005d5e05f998c24281a5047b80457946699"
+  },
+  "mapping": {
+    "sourceHash": "sha256:68b6983d33aa7b123885b5491aead005d5e05f998c24281a5047b80457946699",
+    "mappedOn": null,
+    "summary": "Adds unit conversion to logistic differences",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Adds unit conversion fields to logistic differences",
+      "Handles differing quantities to ship/receive with multiple units of measure",
+      "Requires Premium edition"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Logistic Differences",
+      "m+m Unit Conversion"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

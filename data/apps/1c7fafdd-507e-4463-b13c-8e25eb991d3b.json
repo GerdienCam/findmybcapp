@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.pinetworks|AID.quality-assurance-monitor|PAPPID.1c7fafdd-507e-4463-b13c-8e25eb991d3b",
+  "guid": "1c7fafdd-507e-4463-b13c-8e25eb991d3b",
+  "publisherId": "pinetworks",
+  "offerId": "quality-assurance-monitor",
+  "source": {
+    "name": "Quality Assurance Monitor",
+    "publisher": "Pinetworks",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pinetworks%7CAID.quality-assurance-monitor%7CPAPPID.1c7fafdd-507e-4463-b13c-8e25eb991d3b",
+    "lastModified": "2026-09-22T09:13:08.7596697+00:00",
+    "appVersion": "1.0.1.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.pinetworks.net/qa-health-monitor",
+    "sourceHash": "sha256:3ea18b32b0509ec7ea212100b76c0163330dccf00866d2bd2196a72c97ded9c1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3ea18b32b0509ec7ea212100b76c0163330dccf00866d2bd2196a72c97ded9c1",
+    "mappedOn": null,
+    "summary": "Daily BC data health check score",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-period-close",
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Daily health score out of 100 inside BC",
+      "Green/amber/red status indicators",
+      "Tracks work not yet billed, shipments without invoice and payments without a match",
+      "Monitors order-to-delivery-to-invoice timelines and lead times",
+      "Pre-close checklist of unfinished items",
+      "Flags zero-cost items and open locked accounts",
+      "Drill down from red metrics to error details",
+      "No third-party software required"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

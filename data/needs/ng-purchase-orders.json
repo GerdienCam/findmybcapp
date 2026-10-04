@@ -1,0 +1,309 @@
+{
+  "id": "ng-purchase-orders",
+  "order": 4,
+  "label": "Creating, sending and following up purchase orders",
+  "description": "Issuing POs, chasing confirmations and changes on open orders, and call-offs against blanket agreements.",
+  "type": "bpc",
+  "area": "Purchasing & payables",
+  "relevance": "high",
+  "statements": [
+    "Creating, sending and following up purchase orders",
+    "Issuing POs, chasing confirmations and changes on open orders, and call-offs against blanket agreements.",
+    "Creating purchase orders in BC takes way too many clicks",
+    "We type every purchase order line by hand from the request email",
+    "Is there an app that emails the purchase order PDF straight to the right vendor contact?",
+    "Our PO printout looks terrible and suppliers complain they can't read it",
+    "send purchase order to supplier automatically",
+    "Half our suppliers want orders through their portal, the rest by email",
+    "When a customer orders something we don't stock, we want the supplier to ship straight to the customer",
+    "Drop shipment purchase orders in Business Central are confusing and our people get them wrong",
+    "We buy materials for projects and want the purchase order tied to the job automatically",
+    "Our sister company buys from us and we retype their purchase orders on both sides",
+    "intercompany purchase order sync",
+    "We want to create a PO from a supplier's quote without retyping 80 lines",
+    "Buyers keep picking the wrong vendor or the wrong unit of measure on the PO",
+    "How do I add terms and conditions and delivery instructions to the purchase order for the vendor?",
+    "We need POs in the supplier's language and with their item numbers",
+    "Every PO needs a drawing or spec sheet attached when it goes out to the vendor",
+    "Purchase orders go out without the right ship-to address for our second warehouse",
+    "We have no idea if a PO was actually sent to the vendor or just created",
+    "We want suppliers to receive our orders via EDI or Peppol",
+    "Our buyers spend half the day building purchase orders for the same 30 suppliers and emailing them one by one, there must be a faster way to do this in Business Central",
+    "We never know if the supplier actually confirmed our purchase order",
+    "Chasing vendors for delivery dates eats up my whole Monday",
+    "Supplier changed the price after we sent the PO, how do we update it cleanly?",
+    "open PO follow up with suppliers",
+    "We want suppliers to confirm delivery dates themselves instead of us typing them in",
+    "How do I cancel the rest of a purchase order when the vendor can't deliver?",
+    "Old purchase orders with tiny leftover quantities clutter the list for years",
+    "When a buyer changes quantity on a released PO, nobody tells the supplier",
+    "We need a history of what changed on a purchase order and who changed it",
+    "Automatic reminder email to vendors when a delivery is overdue",
+    "Can we see order confirmations from suppliers next to the PO in BC?",
+    "Expected receipt dates on POs are never updated when the vendor slips, so sales promises customers the wrong date",
+    "We agreed to buy 10,000 units from a supplier this year and call them off monthly, how do we track that?",
+    "How much is left on our yearly order with the packaging supplier?",
+    "blanket purchase order BC",
+    "We want to release small purchase orders from one big annual order without retyping it",
+    "Nobody knows when we've used up the agreed volume with a vendor",
+    "Call-off orders against a frame agreement with our supplier"
+  ],
+  "questions": [
+    {
+      "id": "pain",
+      "text": "What causes the most trouble with your purchase orders?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Suppliers don't confirm or deliver late",
+          "patterns": [
+            "confirm",
+            "remind",
+            "overdue",
+            "unanswered",
+            "delays?\\b",
+            "promised receipt",
+            "(confirm|propose)\\w* delivery dates?",
+            "receipt dates?"
+          ]
+        },
+        {
+          "label": "Tracking imported goods in containers",
+          "patterns": [
+            "container",
+            "consignment",
+            "import shipments?",
+            "vessel",
+            "bill of lading",
+            "on-the-water"
+          ]
+        },
+        {
+          "label": "Orders stay open with small leftover quantities",
+          "patterns": [
+            "short[ -]?clos",
+            "force close",
+            "finish (a |the |outstanding|single|whole)",
+            "under-?receipt",
+            "quantity differences",
+            "clos\\w* (partially|outstanding)",
+            "remaining quantit"
+          ]
+        },
+        {
+          "label": "Creating many orders takes too long",
+          "patterns": [
+            "bulk (cop|purchase)",
+            "\\bexcel\\b",
+            "\\bcart",
+            "creates? multiple purchase orders",
+            "fast order entry",
+            "one-click po"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Suppliers don't confirm or deliver late": 0.22,
+        "Tracking imported goods in containers": 0.24,
+        "Orders stay open with small leftover quantities": 0.15,
+        "Creating many orders takes too long": 0.13
+      }
+    },
+    {
+      "id": "landed",
+      "text": "Do you need freight, duty and other import costs added to item cost?",
+      "help": "Often called landed costs.",
+      "options": [
+        {
+          "label": "Yes, estimated already when I order",
+          "patterns": [
+            "expected (landed )?costs?",
+            "estimat\\w* landed",
+            "anticipated costs",
+            "accrue\\w* (expected )?landed",
+            "landed cost(s)? (during|in) transit"
+          ]
+        },
+        {
+          "label": "Yes, allocated when the cost invoices arrive",
+          "patterns": [
+            "landed costs?",
+            "item charges?",
+            "apportion",
+            "allocat\\w* [^.]*(cost|freight)",
+            "duty|duties|tariff"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, estimated already when I order": 0.04,
+        "Yes, allocated when the cost invoices arrive": 0.2
+      }
+    },
+    {
+      "id": "supplier_channel",
+      "text": "How should suppliers answer your orders?",
+      "help": "Confirmations, delivery dates, changes.",
+      "multi": true,
+      "options": [
+        {
+          "label": "In a web portal we give them",
+          "patterns": [
+            "portal"
+          ]
+        },
+        {
+          "label": "By email from BC",
+          "patterns": [
+            "e-?mails?"
+          ]
+        },
+        {
+          "label": "Through a supplier network or platform (Jakamo, Floriday, KRAMP...)",
+          "patterns": [
+            "jakamo",
+            "floriday",
+            "\\bvmp\\b",
+            "kramp",
+            "granit",
+            "\\btvh\\b",
+            "flexport",
+            "electronic order",
+            "automated order communication",
+            "order baskets"
+          ]
+        },
+        {
+          "label": "We chase them ourselves with reminders",
+          "patterns": [
+            "reminders?",
+            "overdue",
+            "not (yet )?confirmed|not confirmed",
+            "unanswered"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "In a web portal we give them": 0.04,
+        "By email from BC": 0.04,
+        "Through a supplier network or platform (Jakamo, Floriday, KRAMP...)": 0.15,
+        "We chase them ourselves with reminders": 0.11
+      }
+    },
+    {
+      "id": "link_sales",
+      "text": "Do you buy specifically for customer orders?",
+      "help": "Drop shipments, special orders, or goods sold before they arrive.",
+      "options": [
+        {
+          "label": "Yes, shipped straight from supplier to customer (drop shipment)",
+          "patterns": [
+            "drop[- ]?shipment",
+            "special order"
+          ]
+        },
+        {
+          "label": "Yes, and we need to see which sales orders a late PO affects",
+          "patterns": [
+            "links? (sales|purchase)[^.]*(sales|purchase) order",
+            "sales orders? that will ship late",
+            "reserved sales orders",
+            "linked sales",
+            "links between sales and purchas",
+            "informs sales",
+            "order-related procurement",
+            "impact of a container delay on linked sales"
+          ]
+        },
+        {
+          "label": "No, mostly for stock",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, shipped straight from supplier to customer (drop shipment)": 0.04,
+        "Yes, and we need to see which sales orders a late PO affects": 0.11
+      }
+    },
+    {
+      "id": "control",
+      "text": "What control do you need over who orders what?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Approval before the PO goes out",
+          "patterns": [
+            "approv"
+          ]
+        },
+        {
+          "label": "Limit which items can be bought from which supplier",
+          "patterns": [
+            "permitted items",
+            "restrict\\w* which suppliers",
+            "items can be ordered from",
+            "min and max quantity",
+            "purchasable from"
+          ]
+        },
+        {
+          "label": "Tolerances on over or under delivery",
+          "patterns": [
+            "toleranc"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Approval before the PO goes out": 0.04,
+        "Limit which items can be bought from which supplier": 0.07,
+        "Tolerances on over or under delivery": 0.07
+      }
+    },
+    {
+      "id": "blanket",
+      "text": "Do you order against long-term supplier agreements or quotes?",
+      "options": [
+        {
+          "label": "Yes, call-offs on blanket orders",
+          "patterns": [
+            "blanket"
+          ]
+        },
+        {
+          "label": "Yes, we ask several suppliers for quotes first",
+          "patterns": [
+            "quotes?",
+            "inquir",
+            "requests? to multiple vendors",
+            "multiple suppliers"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, call-offs on blanket orders": 0.04,
+        "Yes, we ask several suppliers for quotes first": 0.09
+      }
+    }
+  ]
+}

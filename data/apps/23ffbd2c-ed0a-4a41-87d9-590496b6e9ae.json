@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_invoice_purchase_receipt|PAPPID.23ffbd2c-ed0a-4a41-87d9-590496b6e9ae",
+  "guid": "23ffbd2c-ed0a-4a41-87d9-590496b6e9ae",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_invoice_purchase_receipt",
+  "source": {
+    "name": "m+m Invoice Purchase Receipt",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_invoice_purchase_receipt%7CPAPPID.23ffbd2c-ed0a-4a41-87d9-590496b6e9ae",
+    "lastModified": "2026-06-06T12:24:38.8060392+00:00",
+    "appVersion": "28.0.370867.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:90e5c620c6f7bc995c84658870218720eb1e63ab9d7bb2c941ceb875b1ea47e5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:90e5c620c6f7bc995c84658870218720eb1e63ab9d7bb2c941ceb875b1ea47e5",
+    "mappedOn": null,
+    "summary": "Lists and invoices uninvoiced purchase receipts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Lists purchase orders not yet invoiced",
+      "Shows partially invoiced orders",
+      "Supported BC editions as stated"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

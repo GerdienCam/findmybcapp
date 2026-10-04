@@ -1,0 +1,159 @@
+{
+  "id": "ng-supplier-contracts",
+  "order": 9,
+  "label": "Keeping track of supplier contracts",
+  "description": "Drafting, storing and renewing supply contracts for goods and services.",
+  "type": "bpc",
+  "area": "Purchasing & payables",
+  "relevance": "medium",
+  "statements": [
+    "Keeping track of supplier contracts",
+    "Drafting, storing and renewing supply contracts for goods and services.",
+    "Supplier contracts are scattered across email, SharePoint and someone's desk drawer",
+    "We missed a notice period and a supplier contract auto renewed for another three years",
+    "supplier contract management app business central",
+    "I want to open a vendor's contract right from the vendor card in BC",
+    "Can BC remind us 90 days before a supplier agreement expires?",
+    "Nobody knows what payment terms or price clauses we actually agreed with this supplier",
+    "Is there a way to search all our existing supplier contracts for a specific clause?",
+    "Our IT, cleaning and leasing contracts with vendors are not tracked anywhere",
+    "Buyers order outside the agreed supplier terms because they don't know the contract exists",
+    "Track NDAs with suppliers and when they expire",
+    "Amendments to supplier contracts get lost and we keep paying old prices",
+    "We want one register of all vendor contracts with value, term and owner",
+    "We need a standard contract template for new component suppliers with quality and delivery clauses",
+    "We agreed volume pricing with a new supplier and want the terms in a proper signed contract",
+    "Can AI read a draft supplier agreement and pull the price, delivery and penalty terms into BC?",
+    "supplier contract for goods with pricing tiers",
+    "Negotiating a new supply contract with a vendor goes back and forth by email with no version control",
+    "When we sign a goods contract with a vendor, the agreed prices and delivery terms never make it into BC",
+    "We pay consultants monthly but have no record in BC of the scope agreed with them",
+    "service agreement with supplier milestones and payment schedule",
+    "Our maintenance provider has SLAs nobody checks before we pay their invoices",
+    "How do we register a statement of work with a contractor so their invoices can be checked against it?",
+    "Subcontractor agreements on projects should hold milestones we pay against",
+    "Is there an app that extracts SLA terms and fees from contracts with our service providers?"
+  ],
+  "questions": [
+    {
+      "id": "drive",
+      "text": "What should a supplier contract do for you in BC?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Create invoices or orders on a schedule",
+          "patterns": [
+            "periodic billing",
+            "creates? (purchase and sales|sales and purchase|purchase) (invoices|orders)",
+            "generates sales and purchase orders",
+            "initiating sales and purchase invoicing",
+            "recurrence"
+          ]
+        },
+        {
+          "label": "Apply contract prices on purchases",
+          "patterns": [
+            "contract[- ](specific item )?pric",
+            "prices checked"
+          ]
+        },
+        {
+          "label": "Warn me before renewal or expiry",
+          "patterns": [
+            "renew",
+            "expir",
+            "notice period",
+            "deadline"
+          ]
+        },
+        {
+          "label": "Hold the signed documents",
+          "patterns": [
+            "attach",
+            "scanned",
+            "original documents",
+            "repository"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Create invoices or orders on a schedule": 0.27,
+        "Apply contract prices on purchases": 0.27,
+        "Warn me before renewal or expiry": 0.36,
+        "Hold the signed documents": 0.64
+      }
+    },
+    {
+      "id": "spend",
+      "text": "Do you need to track spend against each contract?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, link orders and invoices to the contract",
+          "patterns": [
+            "link(s|ed)? (purchase orders|invoices|posted transactions)",
+            "tracks document amounts",
+            "purchase is made against",
+            "linked to agreements"
+          ]
+        },
+        {
+          "label": "Yes, with a budget limit per contract",
+          "patterns": [
+            "budget"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, link orders and invoices to the contract": 0.36,
+        "Yes, with a budget limit per contract": 0.18
+      }
+    },
+    {
+      "id": "control",
+      "text": "How do you control contracts internally?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Approval before use",
+          "patterns": [
+            "approv"
+          ]
+        },
+        {
+          "label": "Analysis by department, project or category",
+          "patterns": [
+            "dimension",
+            "categor"
+          ]
+        },
+        {
+          "label": "Named owner or team per contract",
+          "patterns": [
+            "responsib",
+            "stakeholder",
+            "delegated"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Approval before use": 0.27,
+        "Analysis by department, project or category": 0.27,
+        "Named owner or team per contract": 0.18
+      }
+    }
+  ]
+}

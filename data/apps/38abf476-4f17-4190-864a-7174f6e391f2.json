@@ -1,0 +1,52 @@
+{
+  "appId": "PUBID.applibra|AID.al_measure_calculation|PAPPID.38abf476-4f17-4190-864a-7174f6e391f2",
+  "guid": "38abf476-4f17-4190-864a-7174f6e391f2",
+  "publisherId": "applibra",
+  "offerId": "al_measure_calculation",
+  "source": {
+    "name": "AL Measure Calculation",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_measure_calculation%7CPAPPID.38abf476-4f17-4190-864a-7174f6e391f2",
+    "lastModified": "2026-09-24T04:40:34.4537147+00:00",
+    "appVersion": "28.0.26.09211822",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://applibra.com/apps/al-measure-calculation/help",
+    "sourceHash": "sha256:7f14921939bd89239f3fd644497001e18621cccd04104bea609c6a929e34687e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7f14921939bd89239f3fd644497001e18621cccd04104bea609c6a929e34687e",
+    "mappedOn": null,
+    "summary": "Calculates item surface and volume from measures for AppLibra apps",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Calculates surface and cubage from item measures and inverse formulas",
+      "Extensible calculation via enum"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Component/dependency of other AppLibra apps with no day-to-day use",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

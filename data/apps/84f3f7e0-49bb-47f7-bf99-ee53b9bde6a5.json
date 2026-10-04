@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.erpgruppen|AID.epr_sales_invoicing|PAPPID.84f3f7e0-49bb-47f7-bf99-ee53b9bde6a5",
+  "guid": "84f3f7e0-49bb-47f7-bf99-ee53b9bde6a5",
+  "publisherId": "erpgruppen",
+  "offerId": "epr_sales_invoicing",
+  "source": {
+    "name": "EPR Sales Invoicing",
+    "publisher": "ERPgruppen",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpgruppen%7CAID.epr_sales_invoicing%7CPAPPID.84f3f7e0-49bb-47f7-bf99-ee53b9bde6a5",
+    "lastModified": "2026-08-12T13:24:07.1470037+00:00",
+    "appVersion": "28.3.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://erpgruppen.dk/loesninger/apps-og-tillaegsloesninger/udvidet-producentansvar/",
+    "sourceHash": "sha256:12a1efe4a740273d3bcf8e2402614a8d9bed52d8348e74a961d4948ed8d0afa5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:12a1efe4a740273d3bcf8e2402614a8d9bed52d8348e74a961d4948ed8d0afa5",
+    "mappedOn": null,
+    "summary": "Invoices Danish EPR packaging fees to customers",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-epr-packaging",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Re-invoices packaging EPR fees to customers automatically",
+      "Choose whether to re-invoice fees generally and per customer",
+      "Fees shown as one total line or split per item",
+      "Rates per material and currency",
+      "Requires Navtilus Extended Producer Responsibility - Packaging module",
+      "Built for the Danish market"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Navtilus Extended Producer Responsibility - Packaging"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

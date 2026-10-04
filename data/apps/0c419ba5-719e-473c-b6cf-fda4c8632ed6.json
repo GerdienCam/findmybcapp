@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.ebanking-bpay-ww-app|PAPPID.0c419ba5-719e-473c-b6cf-fda4c8632ed6",
+  "guid": "0c419ba5-719e-473c-b6cf-fda4c8632ed6",
+  "publisherId": "fenwicksoftware",
+  "offerId": "ebanking-bpay-ww-app",
+  "source": {
+    "name": "eBanking BPAY for Australia and New Zealand",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.ebanking-bpay-ww-app%7CPAPPID.0c419ba5-719e-473c-b6cf-fda4c8632ed6",
+    "lastModified": "2026-05-28T06:01:54.2209734+00:00",
+    "appVersion": "26.0.260526.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/ebanking/bpay/docs/",
+    "sourceHash": "sha256:fd6688cde3d68b0bc9d24ee6a8949180faf2295d1ef1a0613016dacc8d5f9494"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fd6688cde3d68b0bc9d24ee6a8949180faf2295d1ef1a0613016dacc8d5f9494",
+    "mappedOn": null,
+    "summary": "Exports and imports BPAY payment files",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Exports BPAY payment files from Payment Journals",
+      "Generates BPAY Reference Nos. per customer or per document",
+      "Imports BPAY files into the Cash Receipt Journal",
+      "Works with banks in Australia and New Zealand"
+    ],
+    "countries": [
+      "AU",
+      "NZ"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "BPAY"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

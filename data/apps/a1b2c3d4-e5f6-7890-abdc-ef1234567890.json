@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.realconsulting1602671329209|AID.parallelledgeraccounting|PAPPID.a1b2c3d4-e5f6-7890-abdc-ef1234567890",
+  "guid": "a1b2c3d4-e5f6-7890-abdc-ef1234567890",
+  "publisherId": "realconsulting1602671329209",
+  "offerId": "parallelledgeraccounting",
+  "source": {
+    "name": "Parallel Ledger Accounting",
+    "publisher": "Real Consulting SA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.realconsulting1602671329209%7CAID.parallelledgeraccounting%7CPAPPID.a1b2c3d4-e5f6-7890-abdc-ef1234567890",
+    "lastModified": "2026-09-22T14:22:23.5051571+00:00",
+    "appVersion": "28.2609.18.2",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.realconsulting.gr/contact-us",
+    "sourceHash": "sha256:a0e1e3b11d585e8f26285772753ebbb9d7d36d19b3e02ff171ff1a8b097c2c88"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a0e1e3b11d585e8f26285772753ebbb9d7d36d19b3e02ff171ff1a8b097c2c88",
+    "mappedOn": null,
+    "summary": "Parallel ledger for IFRS, tax or management accounting",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-financial-statements",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-journals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-fa-depreciation",
+      "ng-period-close"
+    ],
+    "claims": [
+      "Unlimited parallel ledgers (Books) alongside the standard G/L, e.g. IFRS, tax, management",
+      "No need to duplicate chart of accounts or run a second company",
+      "General journal lines or batches tagged with a Book code post to a separate ledger",
+      "Each Book has its own numbered register and entries",
+      "Standard G/L posting flows untouched; only tagged lines are redirected",
+      "Posts FA depreciation to a parallel Book in full or as IFRS-vs-tax differential",
+      "Offsetting entry posted automatically when posting the FA journal",
+      "Trial Balance and Detail Trial Balance reports in RDLC and Excel layouts",
+      "One-click reversal of transactions or whole registers with double-reversal protection",
+      "Corrects dimensions afterwards for entire registers",
+      "Account Schedule totaling type mixing standard G/L and Add. Book data",
+      "Add. Book entries can be part of Analysis Views",
+      "Close Income Statement job per Book, optionally by Business Unit",
+      "No third-party dependencies",
+      "Full Greek UI translation included"
+    ],
+    "countries": [],
+    "languages": [
+      "el",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

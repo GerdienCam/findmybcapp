@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.efoqus-5058796|AID.quickbooks|PAPPID.d48d794f-cf92-4429-b2a5-c57d5a9893cd",
+  "guid": "d48d794f-cf92-4429-b2a5-c57d5a9893cd",
+  "publisherId": "efoqus-5058796",
+  "offerId": "quickbooks",
+  "source": {
+    "name": "QuickBooks Bank Statement Importer",
+    "publisher": "hougaard.com",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.efoqus-5058796%7CAID.quickbooks%7CPAPPID.d48d794f-cf92-4429-b2a5-c57d5a9893cd",
+    "lastModified": "2024-11-21T18:08:04.9870494+00:00",
+    "appVersion": "1.0.0.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.efoqus.ca/products/other/quickbooks-qbo-setup/",
+    "sourceHash": "sha256:69e3eb27fd35197b9f65ab2c8b4e8467fac2d83b99e1a3d8f2d8a15cedaa3d30"
+  },
+  "mapping": {
+    "sourceHash": "sha256:69e3eb27fd35197b9f65ab2c8b4e8467fac2d83b99e1a3d8f2d8a15cedaa3d30",
+    "mappedOn": null,
+    "summary": "Imports QuickBooks .QBO bank statements into bank reconciliation",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Imports QBO bank statements into bank account reconciliation",
+      "Imports QBO into payment reconciliation journal for matching",
+      "No data exchange definition setup needed"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "ja",
+      "ko",
+      "nl",
+      "no",
+      "ru",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "QuickBooks QBO format"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

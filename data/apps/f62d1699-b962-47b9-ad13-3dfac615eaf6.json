@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.simova|AID.cti_by_simova|PAPPID.f62d1699-b962-47b9-ad13-3dfac615eaf6",
+  "guid": "f62d1699-b962-47b9-ad13-3dfac615eaf6",
+  "publisherId": "simova",
+  "offerId": "cti_by_simova",
+  "source": {
+    "name": "Phone Connect",
+    "publisher": "Simova GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simova%7CAID.cti_by_simova%7CPAPPID.f62d1699-b962-47b9-ad13-3dfac615eaf6",
+    "lastModified": "2026-08-07T14:32:50.4993732+00:00",
+    "appVersion": "28.2.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.simova.de/en/",
+    "sourceHash": "sha256:ad93410140418b442a06900041c66da0ee4fd7ac6b439ebfa921b9ba4a86b97d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ad93410140418b442a06900041c66da0ee4fd7ac6b439ebfa921b9ba4a86b97d",
+    "mappedOn": null,
+    "summary": "Caller identification with customer context from phone system",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts",
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "Automatic caller lookup against BC contacts",
+      "Supports TAPI telephony systems and Microsoft Teams calling",
+      "Shows customer and vendor info during incoming and outgoing calls",
+      "Open quotes, orders and invoices from the call dialog",
+      "Call logging and call notes on customer records",
+      "Recognizes contacts by phone number, Teams account or email address",
+      "Optional call analytics"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "TAPI",
+      "Microsoft Teams"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

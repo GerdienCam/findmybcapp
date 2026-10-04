@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.it_integro|AID.bc_eb-base_001|PAPPID.814e15ad-69eb-43cc-ac3f-4f0f3d10ff3c",
+  "guid": "814e15ad-69eb-43cc-ac3f-4f0f3d10ff3c",
+  "publisherId": "it_integro",
+  "offerId": "bc_eb-base_001",
+  "source": {
+    "name": "Electronic Banking Base App",
+    "publisher": "IT.integro sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.it_integro%7CAID.bc_eb-base_001%7CPAPPID.814e15ad-69eb-43cc-ac3f-4f0f3d10ff3c",
+    "lastModified": "2026-09-24T07:51:27.244676+00:00",
+    "appVersion": "6.3.0.28003",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.it.integro.pl/en-us/electronic-banking/index.html",
+    "sourceHash": "sha256:4731d831d9c87f293316937468315cefa5cdac461fad4a54e9a296406a737f62"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4731d831d9c87f293316937468315cefa5cdac461fad4a54e9a296406a737f62",
+    "mappedOn": null,
+    "summary": "Payment export, bank statement import and settlement with local banks",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Free base app for payment export, statement import and settlement",
+      "Platform for local country bank extensions",
+      "Supports file exchange for SEPA, MT, CSV, XML",
+      "Direct API/web services and host-to-host SFTP communication",
+      "Customizable templates for payment proposals and bank statements",
+      "Copilot/AI-powered bank statement reconciliation",
+      "Remittance advice",
+      "Workflow, approval steps and user roles for electronic banking"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

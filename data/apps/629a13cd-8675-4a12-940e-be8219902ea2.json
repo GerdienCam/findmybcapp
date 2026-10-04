@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.stripe_tax|PAPPID.629a13cd-8675-4a12-940e-be8219902ea2",
+  "guid": "629a13cd-8675-4a12-940e-be8219902ea2",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "stripe_tax",
+  "source": {
+    "name": "Stripe Tax",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.stripe_tax%7CPAPPID.629a13cd-8675-4a12-940e-be8219902ea2",
+    "lastModified": "2026-04-27T02:58:11.240521+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:5862b618b787df297f8c7e79fc9a09c48492ff677d8a14dbac09f361f764aa63"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5862b618b787df297f8c7e79fc9a09c48492ff677d8a14dbac09f361f764aa63",
+    "mappedOn": null,
+    "summary": "Calculates US sales tax via Stripe Tax",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Automatically calculates US sales tax via Stripe Tax",
+      "Auto-calculates tax on sales documents",
+      "Creates tax areas, jurisdictions and tax lines",
+      "Updates tax master tables when a sales document is released or manually",
+      "Creates a Stripe transaction when a sales invoice is posted"
+    ],
+    "countries": [
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Stripe Tax"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

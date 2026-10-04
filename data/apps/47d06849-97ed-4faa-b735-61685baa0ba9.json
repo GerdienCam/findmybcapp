@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evlo|PAPPID.47d06849-97ed-4faa-b735-61685baa0ba9",
+  "guid": "47d06849-97ed-4faa-b735-61685baa0ba9",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evlo",
+  "source": {
+    "name": "EV Manovo - Inventory Optimization",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evlo%7CPAPPID.47d06849-97ed-4faa-b735-61685baa0ba9",
+    "lastModified": "2026-04-24T07:43:02.9872541+00:00",
+    "appVersion": "10002.6.0.2700",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support",
+    "sourceHash": "sha256:a65402ec2da21e6ac61abcbf9e9904c248ef60bc8d937b717f1dee85ea60c4a2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a65402ec2da21e6ac61abcbf9e9904c248ef60bc8d937b717f1dee85ea60c4a2",
+    "mappedOn": null,
+    "summary": "Inventory optimization and replenishment suggestions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Demand forecast calculated from historical item data",
+      "Adjustment factors on demand forecast",
+      "Suggests new reorder point and reorder quantity",
+      "Calculates planning parameters on Item and Stockkeeping Unit cards",
+      "Economic order size calculated per item from forecast",
+      "Inventory interest used in cost volume calculation",
+      "Bulk update of item parameters from a dedicated journal"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IT",
+      "NL",
+      "NO",
+      "PH",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

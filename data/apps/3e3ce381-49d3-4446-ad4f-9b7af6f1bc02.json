@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.apcommerce|AID.quick_attach|PAPPID.3e3ce381-49d3-4446-ad4f-9b7af6f1bc02",
+  "guid": "3e3ce381-49d3-4446-ad4f-9b7af6f1bc02",
+  "publisherId": "apcommerce",
+  "offerId": "quick_attach",
+  "source": {
+    "name": "QuickAttach",
+    "publisher": "AP Commerce",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apcommerce%7CAID.quick_attach%7CPAPPID.3e3ce381-49d3-4446-ad4f-9b7af6f1bc02",
+    "lastModified": "2026-07-09T07:55:03.5472339+00:00",
+    "appVersion": "1.0.2.0",
+    "pricingTypes": [
+      "Free",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.apcdynamics.com/business-central-add-ons/quickattach/",
+    "sourceHash": "sha256:0c9b9e825c00065db66c10c3702a987ac4e45ed323ac6e07b7ebb7755c745eb6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0c9b9e825c00065db66c10c3702a987ac4e45ed323ac6e07b7ebb7755c745eb6",
+    "mappedOn": null,
+    "summary": "Drag-and-drop attachments stored in SharePoint",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Drag-and-drop file upload in a BC factbox, no extra software",
+      "Files uploaded to SharePoint and linked to the record",
+      "Covers 70+ pages across sales, purchase, service, manufacturing, assembly, warehouse and projects",
+      "Auto-organises SharePoint folders by date, module, record number and document type",
+      "Files stored outside the BC database",
+      "Supports PDFs, Office files, images, CAD files and ZIP",
+      "Configurable max upload size 1 MB to 500 MB",
+      "Download files directly from the attachment list",
+      "Uses the APC SharePoint Connector"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

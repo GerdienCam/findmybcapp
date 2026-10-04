@@ -1,0 +1,366 @@
+{
+  "id": "ng-bi-dashboards",
+  "order": 45,
+  "label": "Management dashboards, BI and data warehouse",
+  "description": "Business KPIs, financial ratios, trend analysis and operational performance dashboards.",
+  "type": "bpc",
+  "area": "Planning & budgets",
+  "relevance": "high",
+  "statements": [
+    "Management dashboards, BI and data warehouse",
+    "Business KPIs, financial ratios, trend analysis and operational performance dashboards.",
+    "The owner wants one screen with the ten numbers that matter, every morning",
+    "Is there a management dashboard app for Business Central?",
+    "KPI dashboard BC",
+    "We spend the first week of each month building the management report in Excel",
+    "How do we get sales, margin, stock and cash on one page for the board?",
+    "Our numbers live in BC, the CRM and the webshop and nobody sees the full picture",
+    "Power BI app with ready-made KPIs for BC",
+    "I want to see how the business is doing today without asking three people",
+    "The board pack takes days and is out of date when it is presented",
+    "Mobile KPI overview for the managing director",
+    "We need KPIs per company and for the group as a whole",
+    "Which KPIs should a wholesaler track and how do we get them from BC?",
+    "Department heads each want their own dashboard but from the same numbers",
+    "Role Center tiles do not show what management actually cares about",
+    "We want a weekly email with the key figures to the leadership team",
+    "Balanced scorecard across finance, customers, processes and people",
+    "Every manager calculates margin differently so the numbers never match",
+    "No real-time view of business performance, only month-end reports",
+    "Is there a simple BI tool that a small company can set up without a data team?",
+    "Compare our KPIs across branches and rank them",
+    "Are we growing or shrinking when you adjust for season? I cannot tell from monthly reports",
+    "We want to see 36 months of history in a chart, not just this year versus last",
+    "trend analysis across sales, costs and stock",
+    "Costs creep up a little every month and we only notice at year end",
+    "Is there an app that highlights unusual changes in our BC data automatically?",
+    "Which of our metrics are trending the wrong way this quarter",
+    "We want rolling 12 month figures to smooth out seasonality",
+    "Show the trend in average order size and order count over the last three years",
+    "Margin has been sliding for a year and nobody spotted it",
+    "Variance analysis month over month with explanations",
+    "predictive analytics on our business data",
+    "Owner wants to know if this dip is a one-off or the start of a trend",
+    "What percentage of our orders ship complete and on time? Nobody knows",
+    "OTIF dashboard",
+    "We want to follow lead time from order entry to shipment",
+    "Is there an app that shows fill rate, backorders and late orders in BC?",
+    "Operations manager wants daily numbers on orders in, shipped and stuck",
+    "How do we track how many customer orders are delayed and why?",
+    "Resource utilization across production, warehouse and service in one view",
+    "We want to see if our processes slow down at certain times of the year",
+    "Lines per order, orders per day and backlog trend",
+    "Which step takes longest from order to invoice",
+    "Monitor operational KPIs against targets and get alerts when they slip",
+    "Perfect order rate for a distributor",
+    "We want a finance dashboard with gross margin, EBITDA and cash on one page",
+    "Track our bank covenant ratios every month so we don't breach them",
+    "KPI dashboard finance BC",
+    "Days sales outstanding and days payable outstanding trend",
+    "Is there an app with standard financial KPIs for Business Central?",
+    "Owner wants a few key numbers on his phone every morning",
+    "Current ratio and solvency ratio calculated automatically",
+    "Compare our margins and ratios to industry benchmarks",
+    "Working capital KPIs per company in the group",
+    "Alert us when liquidity drops below a threshold",
+    "Monthly KPI report for the board with traffic lights",
+    "Return on capital and other ratios for the bank",
+    "We want Power BI on top of BC but don't know where to start",
+    "Our Power BI reports from Business Central take forever to refresh",
+    "Is there an app that gives us ready-made Power BI dashboards for BC?",
+    "We need a data warehouse that combines BC with our webshop and CRM data",
+    "Business Central API limits make our reports fail",
+    "BC to Azure Data Lake export",
+    "Every department has its own Excel reports and the numbers never match",
+    "Which reporting tool do BC customers use, Jet, Power BI, something else?",
+    "The Power BI apps from Microsoft don't cover our dimensions",
+    "We consolidate 8 BC companies for reporting and it's all manual",
+    "Who should have access to which Power BI reports with BC data?",
+    "Our partner built reports in the old NAV database and they all broke after we moved to BC online",
+    "We want reports to refresh every hour, not once a night",
+    "Can we get BC data into Snowflake or Fabric without coding?",
+    "Financial reporting setup in BC is too hard for our controller",
+    "Report builder for non technical users in business central",
+    "Analysis views are slow and limited, we need something better",
+    "We need the same report pack for every subsidiary without rebuilding it each time",
+    "IT wants a single semantic model so everyone reports from the same numbers",
+    "Is there a BI tool that understands BC's dimensions and posting structure out of the box?",
+    "Should we use Power BI, Jet Reports or just Excel for our BC reporting?",
+    "Every department builds its own Excel reports and the numbers never match",
+    "reporting strategy for Business Central",
+    "We want a data warehouse that combines BC with our webshop and CRM data",
+    "Is there an app that exports BC data to a data lake for analysis?",
+    "Management wants one version of the truth on sales and margin",
+    "Who should see which reports, and how do we keep that secure in Power BI?",
+    "Our Power BI reports query BC directly and slow everything down",
+    "How do we agree on KPI definitions so revenue means the same thing everywhere",
+    "We need a reporting data model so non-technical people can build their own reports",
+    "Planning BI before go-live, which reports do we really need on day one?",
+    "Data quality in our reports is poor, how do we govern it"
+  ],
+  "questions": [
+    {
+      "id": "where",
+      "text": "Where do you want to look at your numbers?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Power BI",
+          "patterns": [
+            "power ?bi"
+          ]
+        },
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "inside (bc|business central)",
+            "embedded (in|into|inside) (bc|business central)",
+            "directly embedded",
+            "role ?cent",
+            "no external (bi|connection)",
+            "without external",
+            "charts embedded",
+            "within (bc|business central)",
+            "in bc,? no",
+            "no third-party software"
+          ]
+        },
+        {
+          "label": "Excel",
+          "patterns": [
+            "excel"
+          ]
+        },
+        {
+          "label": "Our own database, data lake or Fabric",
+          "patterns": [
+            "data ?warehouse",
+            "data ?lake",
+            "fabric",
+            "azure sql",
+            "sql server",
+            "postgres",
+            "mysql",
+            "lakehouse",
+            "onelake",
+            "cosmos db",
+            "table storage",
+            "blob storage",
+            "external database"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Power BI": 0.59,
+        "Inside Business Central": 0.05,
+        "Excel": 0.13,
+        "Our own database, data lake or Fabric": 0.31
+      }
+    },
+    {
+      "id": "ready",
+      "text": "Do you want finished reports or raw data to build your own?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Finished reports and dashboards",
+          "patterns": [
+            "ready[- ]?made",
+            "pre-?built",
+            "pre-?designed",
+            "pre-?configured",
+            "predefined",
+            "out[- ]of[- ]the[- ]box",
+            "templates?\\b",
+            "ready-to-use",
+            "plug ?& ?play",
+            "standard (power bi )?model",
+            "\\d+\\+? kpis",
+            "dashboards (covering|for|on|across)"
+          ]
+        },
+        {
+          "label": "Raw data, we build our own",
+          "patterns": [
+            "any (bc |business central )?(table|data)",
+            "select (standard |bc )?(tables|which)",
+            "choose (any|which|specific)",
+            "custom endpoints",
+            "tables and fields",
+            "build their own",
+            "api (pages|endpoints|queries)",
+            "export (any|data|selected)",
+            "exports? (bc )?(data|tables|selected)",
+            "replicat"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Finished reports and dashboards": 0.44,
+        "Raw data, we build our own": 0.42
+      }
+    },
+    {
+      "id": "areas",
+      "text": "Which areas matter most in your reporting?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Finance and cash",
+          "patterns": [
+            "financ",
+            "g/l",
+            "general ledger",
+            "balance sheet",
+            "income statement",
+            "cash ?flow",
+            "receivables",
+            "payables",
+            "trial balance"
+          ]
+        },
+        {
+          "label": "Sales",
+          "patterns": [
+            "sales"
+          ]
+        },
+        {
+          "label": "Inventory and warehouse",
+          "patterns": [
+            "inventor",
+            "warehouse",
+            "stock"
+          ]
+        },
+        {
+          "label": "Projects",
+          "patterns": [
+            "project",
+            "\\bjobs?\\b"
+          ]
+        },
+        {
+          "label": "Manufacturing",
+          "patterns": [
+            "manufactur",
+            "production"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Finance and cash": 0.36,
+        "Sales": 0.35,
+        "Inventory and warehouse": 0.38,
+        "Projects": 0.18,
+        "Manufacturing": 0.09
+      }
+    },
+    {
+      "id": "combine",
+      "text": "Do your reports need to combine data beyond one company?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Several BC companies",
+          "patterns": [
+            "multi-?compan",
+            "multiple companies",
+            "several companies",
+            "companies (in|into) (one|a single)",
+            "select companies",
+            "consolidat",
+            "multi-?entit",
+            "multiple (sources and )?entities",
+            "company name and id",
+            "multiple companies or tenants"
+          ]
+        },
+        {
+          "label": "Data from other systems too",
+          "patterns": [
+            "multiple (data )?sources",
+            "other (data )?sources",
+            "additional data sources",
+            "merge bc data with",
+            "multi-source",
+            "across products and data sources",
+            "combines multiple data sources",
+            "connects multiple data sources"
+          ]
+        },
+        {
+          "label": "Data from other BC apps or custom fields",
+          "patterns": [
+            "extension",
+            "custom (tables|fields)",
+            "\\bpte\\b",
+            "appsource",
+            "third-party",
+            "new fields or apps",
+            "add-ons",
+            "any bc table or field"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Several BC companies": 0.14,
+        "Data from other systems too": 0.09,
+        "Data from other BC apps or custom fields": 0.17
+      }
+    },
+    {
+      "id": "fresh",
+      "text": "How fresh must the numbers be?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Live or near real-time",
+          "patterns": [
+            "real[- ]time",
+            "\\blive\\b",
+            "stream",
+            "every 5 minutes",
+            "instant"
+          ]
+        },
+        {
+          "label": "Daily or scheduled refresh is fine",
+          "patterns": [
+            "daily",
+            "schedul",
+            "job queue",
+            "incremental",
+            "on-demand refresh"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Live or near real-time": 0.22,
+        "Daily or scheduled refresh is fine": 0.23
+      }
+    }
+  ]
+}

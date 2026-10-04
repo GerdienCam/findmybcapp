@@ -1,0 +1,68 @@
+{
+  "appId": "TYPE.connect|PUBID.bravodesignltd1658930514317|AID.business_central_kanban_app|PAPPID.98863d75-a4e5-4a79-8a4f-175608390ed3",
+  "guid": "98863d75-a4e5-4a79-8a4f-175608390ed3",
+  "publisherId": "bravodesignltd1658930514317",
+  "offerId": "business_central_kanban_app",
+  "source": {
+    "name": "KANBAN Board for Microsoft Dynamics 365 Business Central",
+    "publisher": "Bravo Design Ltd..",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.bravodesignltd1658930514317%7CAID.business_central_kanban_app%7CPAPPID.98863d75-a4e5-4a79-8a4f-175608390ed3",
+    "lastModified": "2024-11-21T10:31:00.4502782+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://123bravo.com/help/",
+    "sourceHash": "sha256:bb11c403fbc4c861317e4ed34a50453695286f9520651427c98c5c70b00e43d8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bb11c403fbc4c861317e4ed34a50453695286f9520651427c98c5c70b00e43d8",
+    "mappedOn": null,
+    "summary": "Kanban board for sales order picking and packing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-search-navigation",
+      "ng-lean-production"
+    ],
+    "claims": [
+      "Kanban board of sales orders across order-to-customer stages",
+      "Default lanes: order, picking, packing, post delivery and invoice, shipping; configurable",
+      "Paperless pick list usable without warehouse setup",
+      "Posts shipment and invoice directly from the app",
+      "Optional problems column to flag issues",
+      "Filter orders by status and by delivery date requested",
+      "Configurable colors, sequence, font size, headings",
+      "Optimized for tablet and PC, multi-user real-time updates",
+      "Made with Power Apps on the Power Platform",
+      "Displays employee performance in real time"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power Apps"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

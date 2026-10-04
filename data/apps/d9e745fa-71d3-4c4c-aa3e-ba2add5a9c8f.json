@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.go4logistics|AID.go4logistics_go4intermodal|PAPPID.d9e745fa-71d3-4c4c-aa3e-ba2add5a9c8f",
+  "guid": "d9e745fa-71d3-4c4c-aa3e-ba2add5a9c8f",
+  "publisherId": "go4logistics",
+  "offerId": "go4logistics_go4intermodal",
+  "source": {
+    "name": "Go4TMS - Intermodal Transport",
+    "publisher": "Go4Logistics NV",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.go4logistics%7CAID.go4logistics_go4intermodal%7CPAPPID.d9e745fa-71d3-4c4c-aa3e-ba2add5a9c8f",
+    "lastModified": "2025-02-18T21:00:12.8593659+00:00",
+    "appVersion": "24.2.2502.871",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.go4logistics.be/en/help/",
+    "sourceHash": "sha256:1ecb8862e08c1946db809b100556d9ec9e841d64dafaed2d21c7ced582358b54"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1ecb8862e08c1946db809b100556d9ec9e841d64dafaed2d21c7ced582358b54",
+    "mappedOn": null,
+    "summary": "Plans and manages intermodal transports",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-transport-planning",
+      "ng-freight-cost-audit"
+    ],
+    "claims": [
+      "Multiple transport mode changes between loading and destination",
+      "Follows containers/trailers via shipping and railway lines",
+      "Bookings automatically forwarded",
+      "Planners work in their own geographic zone",
+      "Automatic surcharge calculation via tariffs for sales and purchase",
+      "Checks incoming freight invoices against automatic budgeting",
+      "Manages shipping lines, railway lines and timetables",
+      "Confirms bookings on shipping and railway lines"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Transport and logistics"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Go4TMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

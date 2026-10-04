@@ -1,0 +1,231 @@
+{
+  "id": "ng-admin-approval-workflows",
+  "order": 146,
+  "label": "Approval workflows and signing limits",
+  "description": "Setting up approval and workflow rules, approval limits and digital signatures.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "high",
+  "statements": [
+    "Approval workflows and signing limits",
+    "Setting up approval and workflow rules, approval limits and digital signatures.",
+    "Setting up approval workflows in BC is confusing and our partner charges every time we change one",
+    "Is there an app that makes approval workflows easier to configure than the standard workflow page?",
+    "We need different approvers depending on amount, department and location, BC workflows can't express that",
+    "approval workflow designer BC",
+    "When someone goes on holiday their approvals just sit there, we need substitutes to kick in automatically",
+    "Our workflow user groups are out of date and nobody knows who maintains them",
+    "We want one approval setup that works for purchase orders, sales quotes, customer changes and journals",
+    "Can we use Power Automate with Business Central for approvals instead of the built-in workflows?",
+    "Power Automate flows from BC keep breaking and we have no overview of which ones are running",
+    "We need multi-level approvals, first the manager then the finance director above a limit",
+    "Approval requests should be approved from Teams or Outlook without opening BC",
+    "IT wants control over who is allowed to create or change workflows",
+    "Changing a field on an approved document should send it back for approval again",
+    "Workflow templates in BC are too rigid for how we actually work",
+    "We want an approval step when someone creates a new item or changes a bank account on a vendor",
+    "no-code workflow builder for business central",
+    "Is there a way to see all pending approvals in one place across the company?",
+    "We have workflows that run in the wrong order and nobody can tell why a document got stuck",
+    "As a partner I keep rebuilding the same approval chains for every customer, is there a reusable tool?",
+    "Want automatic steps like sending a document after approval without writing code",
+    "We need approval limits per person, team leads up to 5,000, managers up to 50,000",
+    "Can BC enforce purchase limits per user?",
+    "digital signature business central",
+    "Our purchase orders need the buyer's signature printed on them",
+    "Delegate signing authority while the CFO is away",
+    "Is there an app for e-signatures on documents from BC?",
+    "Signing limits for payments, two people must sign above a threshold",
+    "Who is authorised to sign contracts with suppliers, can BC know?",
+    "Scanned signatures on invoices and order confirmations",
+    "Keep a record of who signed off each payment batch",
+    "Update approval limits when someone gets promoted",
+    "Bank wants proof of our signing rules for payments"
+  ],
+  "questions": [
+    {
+      "id": "what",
+      "text": "What do you need approved?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Purchase invoices, orders or payments",
+          "patterns": [
+            "purchase invoice",
+            "payment approv",
+            "approval workflow for payments",
+            "purchase (order|document|approval)",
+            "purchase and sales",
+            "purchase documents",
+            "payment orders",
+            "\\bpurchase orders\\b"
+          ]
+        },
+        {
+          "label": "Sales quotes and orders",
+          "patterns": [
+            "sales (quote|order|offer|margin|document)",
+            "sales approval",
+            "purchase and sales",
+            "offers, contracts"
+          ]
+        },
+        {
+          "label": "Journals before posting",
+          "patterns": [
+            "journal"
+          ]
+        },
+        {
+          "label": "New or changed vendors, customers, items or bank details",
+          "patterns": [
+            "master data",
+            "bank account",
+            "bank detail",
+            "new (vendors|customers|items)",
+            "unapproved (vendor|customer|item|employee)s?",
+            "approve new",
+            "changes? (in|to) (critical )?master",
+            "record change",
+            "change control",
+            "sensitive (vendor |item )?(fields|data|master)",
+            "protected fields",
+            "fixed asset cards",
+            "vendor, customer"
+          ]
+        },
+        {
+          "label": "Stock movements, transfers or production orders",
+          "patterns": [
+            "transfer order",
+            "production order",
+            "physical inventory",
+            "item journal",
+            "inventory (shipments|documents)",
+            "item movement",
+            "item entries"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Purchase invoices, orders or payments": 0.27,
+        "Sales quotes and orders": 0.14,
+        "Journals before posting": 0.29,
+        "New or changed vendors, customers, items or bank details": 0.36,
+        "Stock movements, transfers or production orders": 0.18
+      }
+    },
+    {
+      "id": "limits",
+      "text": "Should approvals depend on amounts or signing limits?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, route by amount or limit",
+          "patterns": [
+            "approval limit",
+            "payment limits",
+            "limits per",
+            "limits define",
+            "threshold",
+            "amount",
+            "journal value",
+            "document value",
+            "tolerance",
+            "dimension value"
+          ]
+        },
+        {
+          "label": "No, everything goes to the same approver",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, route by amount or limit": 0.18
+      }
+    },
+    {
+      "id": "away",
+      "text": "What should happen when an approver is away?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Delegate automatically to a substitute",
+          "patterns": [
+            "delegat",
+            "out[- ]of[- ]office",
+            "substitute\\b",
+            "substitution",
+            "backup approver",
+            "leave calendar",
+            "leave scheduling",
+            "vacation"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Delegate automatically to a substitute": 0.14
+      }
+    },
+    {
+      "id": "where",
+      "text": "Should people be able to approve outside Business Central?",
+      "help": "For example from a phone, by email or via Power Automate.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, outside BC",
+          "patterns": [
+            "mobile",
+            "power app",
+            "without bc licenses",
+            "power automate"
+          ]
+        },
+        {
+          "label": "No, inside BC is fine",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, outside BC": 0.14
+      }
+    },
+    {
+      "id": "build",
+      "text": "Do you need to build your own workflows for any table, without code?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, a no-code workflow builder",
+          "patterns": [
+            "no[- ]cod",
+            "without (any )?coding",
+            "any (standard or custom )?table",
+            "any record type",
+            "freely defin",
+            "without programming",
+            "low/no-code",
+            "any page"
+          ]
+        },
+        {
+          "label": "No, ready-made workflows are enough",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, a no-code workflow builder": 0.18
+      }
+    }
+  ]
+}

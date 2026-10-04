@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.wsb_solutions|AID.reservation_rescheduler|PAPPID.41439743-16f3-43d9-956f-d60dcf8f9933",
+  "guid": "41439743-16f3-43d9-956f-d60dcf8f9933",
+  "publisherId": "wsb_solutions",
+  "offerId": "reservation_rescheduler",
+  "source": {
+    "name": "Reservation Rescheduler",
+    "publisher": "Apportunix",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.reservation_rescheduler%7CPAPPID.41439743-16f3-43d9-956f-d60dcf8f9933",
+    "lastModified": "2026-09-28T06:11:30.4393013+00:00",
+    "appVersion": "1.64.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.reservationrescheduler.apportunix.com/",
+    "sourceHash": "sha256:8bfe468940dc3a19190cb225270d752523351c163928b5d6ae6cf385dffbae0c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8bfe468940dc3a19190cb225270d752523351c163928b5d6ae6cf385dffbae0c",
+    "mappedOn": null,
+    "summary": "Reschedules hard reservations linking supply and demand",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-order-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Hard reservations against stock or incoming supply",
+      "Order lines turn red when stock is insufficient on the delivery date",
+      "Works for sales, purchase, assembly, service and production",
+      "Dynamic Date keeps reservation dates in sync",
+      "Reservation insights subpage on sales order",
+      "Auto-create purchase orders for lines with a purchasing code",
+      "Reports for backorders and insufficient reservations",
+      "Due dates for production and assembly are controlled"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

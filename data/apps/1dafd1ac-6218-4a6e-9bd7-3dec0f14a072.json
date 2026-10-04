@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.continia365|AID.c7577a9d-eec1-44cd-85f9-800529a2f90d|PAPPID.1dafd1ac-6218-4a6e-9bd7-3dec0f14a072",
+  "guid": "1dafd1ac-6218-4a6e-9bd7-3dec0f14a072",
+  "publisherId": "continia365",
+  "offerId": "c7577a9d-eec1-44cd-85f9-800529a2f90d",
+  "source": {
+    "name": "Continia Payment Management (DK)",
+    "publisher": "Continia Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.c7577a9d-eec1-44cd-85f9-800529a2f90d%7CPAPPID.1dafd1ac-6218-4a6e-9bd7-3dec0f14a072",
+    "lastModified": "2026-08-21T18:57:32.8514148+00:00",
+    "appVersion": "28.1.0.354438",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.continia.com/en-us/continia-payment-management",
+    "sourceHash": "sha256:3040a0d142a9c39d4f863978fadc4257d28216ee6bde27ce3334e8a29f4aa4b3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3040a0d142a9c39d4f863978fadc4257d28216ee6bde27ce3334e8a29f4aa4b3",
+    "mappedOn": null,
+    "summary": "Payment journal with bank file exchange for Danish banks",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-currency"
+    ],
+    "claims": [
+      "Vendor, employee and customer payments in one payment journal",
+      "Direct bank integration: send payments, receive statements and status updates",
+      "IBAN lookup generates and validates vendor bank details",
+      "Payment approval individually or in batches with auto-skip under limit",
+      "Bank account verification against payment fraud",
+      "Statement Intelligence auto-reconciles statements on import",
+      "Reconciliation rules create journal lines and match entries",
+      "Summarizes payments to same recipient to cut bank fees",
+      "Tracks payment service provider transactions and fees",
+      "Visual payment status in journal synchronized with bank"
+    ],
+    "countries": [
+      "DK",
+      "FO",
+      "GL"
+    ],
+    "languages": [
+      "en",
+      "nl",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Danish banks"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.tinx-it|AID.tinx-channelengine-connector|PAPPID.15473b79-394f-426f-aa3d-180c9b1fffae",
+  "guid": "15473b79-394f-426f-aa3d-180c9b1fffae",
+  "publisherId": "tinx-it",
+  "offerId": "tinx-channelengine-connector",
+  "source": {
+    "name": "Tinx ChannelEngine Connector",
+    "publisher": "Tinx-IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-channelengine-connector%7CPAPPID.15473b79-394f-426f-aa3d-180c9b1fffae",
+    "lastModified": "2026-09-24T10:47:48.0980384+00:00",
+    "appVersion": "28.1.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.tinx-it.com/",
+    "sourceHash": "sha256:fac32eb2d45e62bad3129edabd724ec92bf139f6911d6f55328ad242d333ab3a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fac32eb2d45e62bad3129edabd724ec92bf139f6911d6f55328ad242d333ab3a",
+    "mappedOn": null,
+    "summary": "Connects marketplaces via ChannelEngine",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Syncs products between BC and all ChannelEngine marketplaces",
+      "Centralises inventory in BC across sales channels",
+      "Automated order import with assignment to existing customer",
+      "Order status acknowledgement back to ChannelEngine",
+      "Refunds downloaded from or created in ChannelEngine",
+      "Sends tracking codes to ChannelEngine",
+      "Generic UI to map and transform data",
+      "History log of all sync entries with error info",
+      "Sync history log with email notification on errors"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "IS",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ChannelEngine"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

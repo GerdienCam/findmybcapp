@@ -1,0 +1,92 @@
+{
+  "appId": "TYPE.connect|PUBID.constacloudllc|AID.commerciumbyconstacloud|PAPPID.eca8df46-92a7-4dbb-ad5d-b0504a7b3636",
+  "guid": "eca8df46-92a7-4dbb-ad5d-b0504a7b3636",
+  "publisherId": "constacloudllc",
+  "offerId": "commerciumbyconstacloud",
+  "source": {
+    "name": "Commercium By ConstaCloud",
+    "publisher": "ConstaCloud LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.constacloudllc%7CAID.commerciumbyconstacloud%7CPAPPID.eca8df46-92a7-4dbb-ad5d-b0504a7b3636",
+    "lastModified": "2026-02-20T02:13:34.2129852+00:00",
+    "appVersion": "1.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://commercium-help.constacloud.com/article/microsoft-business-central-configuration",
+    "sourceHash": "sha256:a784c18f40848e1c10f0733319e6dab21dc91c364a305389008daa6b3ebd1080"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a784c18f40848e1c10f0733319e6dab21dc91c364a305389008daa6b3ebd1080",
+    "mappedOn": null,
+    "summary": "Syncs orders and inventory with 200+ marketplaces",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-edi",
+      "ng-shipping-carriers",
+      "ng-conn-3pl"
+    ],
+    "claims": [
+      "Connects BC to 200+ marketplaces including Amazon, eBay, Walmart, Temu, Mirakl",
+      "Pushes marketplace orders into BC automatically",
+      "Sends shipment and tracking updates to sales channels",
+      "Real-time cancellation sync",
+      "Refund sync from marketplaces",
+      "Generates and syncs invoices in BC",
+      "Pushes stock levels to sales channels",
+      "Rule-based order processing and routing",
+      "Bundles and kits sync",
+      "Marketplace settlement and payout sync",
+      "Multiple seller accounts per marketplace",
+      "Retailer network (drop-ship) integrations such as CommerceHub, Home Depot, Lowes",
+      "Shipping tool integrations such as ShipStation, Royal Mail, Amazon MCF"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Amazon",
+      "eBay",
+      "Walmart",
+      "Mirakl",
+      "Temu",
+      "TikTok Shop",
+      "Etsy",
+      "Shopify",
+      "WooCommerce",
+      "Wix",
+      "BigCommerce",
+      "Magento 2",
+      "PrestaShop",
+      "CommerceHub",
+      "Home Depot",
+      "ShipStation",
+      "Royal Mail",
+      "Amazon MCF",
+      "ShipBob",
+      "QuickBooks Online"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

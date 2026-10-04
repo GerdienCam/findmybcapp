@@ -1,0 +1,63 @@
+{
+  "appId": "TYPE.connect|PUBID.gurusoftas1611136080642|AID.gurusoftpim|PAPPID.fd34a03a-4c70-4983-ae2c-985ffef54a85",
+  "guid": "fd34a03a-4c70-4983-ae2c-985ffef54a85",
+  "publisherId": "gurusoftas1611136080642",
+  "offerId": "gurusoftpim",
+  "source": {
+    "name": "Gurusoft PIM for Dynamics 365 Business Central",
+    "publisher": "Gurusoft AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.gurusoftas1611136080642%7CAID.gurusoftpim%7CPAPPID.fd34a03a-4c70-4983-ae2c-985ffef54a85",
+    "lastModified": "2024-11-21T18:15:21.0649575+00:00",
+    "appVersion": "40.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.gurusoft.no/integrasjon-erp-systemer?parent=10091",
+    "sourceHash": "sha256:d378fccb92925bb37d605df76234d8f523b1b790f2df678faf8aee316dfabbc6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d378fccb92925bb37d605df76234d8f523b1b790f2df678faf8aee316dfabbc6",
+    "mappedOn": null,
+    "summary": "Integrates Gurusoft PIM with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-assortment-catalogs"
+    ],
+    "claims": [
+      "Integrates Gurusoft PIM with BC",
+      "Product master in ERP integrated with a cloud PIM tool",
+      "PIM pulls data from industry directories, manufacturers and suppliers",
+      "Cloud product database feeds web, online shopping, marketplaces and technical documentation",
+      "Norwegian cloud services and data storage"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Gurusoft PIM",
+      "Gurusoft eCommerce"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

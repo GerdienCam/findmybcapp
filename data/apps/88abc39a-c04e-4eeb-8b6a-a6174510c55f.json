@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dms-granit|PAPPID.88abc39a-c04e-4eeb-8b6a-a6174510c55f",
+  "guid": "88abc39a-c04e-4eeb-8b6a-a6174510c55f",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dms-granit",
+  "source": {
+    "name": "Aptean Equipment DMS x GRANIT PARTS",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-granit%7CPAPPID.88abc39a-c04e-4eeb-8b6a-a6174510c55f",
+    "lastModified": "2026-08-17T13:13:23.8358928+00:00",
+    "appVersion": "2603.260500.20260623.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:06d491f3e6788a8d9cadba375e995760148ce177bcf6809420f7afa4b42d3abe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:06d491f3e6788a8d9cadba375e995760148ce177bcf6809420f7afa4b42d3abe",
+    "mappedOn": null,
+    "summary": "Connects GRANIT PARTS supplier to Aptean Equipment DMS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers",
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Automatic import of GRANIT PARTS price lists",
+      "Price and availability query for catalog items, items or whole orders",
+      "Electronic order transmission to GRANIT PARTS",
+      "OCI catalog integration imports shopping carts into purchase orders",
+      "Imports and links incoming electronic invoices to orders"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "GRANIT PARTS"
+    ],
+    "requires": [
+      "Aptean Equipment DMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

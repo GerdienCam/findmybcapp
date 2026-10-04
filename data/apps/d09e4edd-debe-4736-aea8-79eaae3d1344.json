@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.extensionsforcelimited1647259189111|AID.wms|PAPPID.d09e4edd-debe-4736-aea8-79eaae3d1344",
+  "guid": "d09e4edd-debe-4736-aea8-79eaae3d1344",
+  "publisherId": "extensionsforcelimited1647259189111",
+  "offerId": "wms",
+  "source": {
+    "name": "Warehouse Management System (WMS)",
+    "publisher": "Extensions Lab",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.extensionsforcelimited1647259189111%7CAID.wms%7CPAPPID.d09e4edd-debe-4736-aea8-79eaae3d1344",
+    "lastModified": "2026-03-25T10:51:42.6596404+00:00",
+    "appVersion": "27.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.extensions-lab.com/wms-help",
+    "sourceHash": "sha256:3ab0a2aea010fa90e7d08793abac99c00b93bb7f740007608a2a640286815332"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3ab0a2aea010fa90e7d08793abac99c00b93bb7f740007608a2a640286815332",
+    "mappedOn": null,
+    "summary": "Warehouse management for 3PL and logistics service providers",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements",
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Manages pallets, containers and boxes in put-aways, picks and movements",
+      "Posts warehouse documents by logistic unit",
+      "Search and analyse warehouse items by logistics unit",
+      "Receives pallets before a purchase document exists",
+      "Includes mobile applications",
+      "Open for customization"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "3PL",
+      "Logistics service providers"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

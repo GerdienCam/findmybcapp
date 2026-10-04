@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.navappyazlmvedanmanlkltdti1582460298798|AID.bc-nappcrd|PAPPID.61deb7e6-f069-4573-9eed-820ae40e3db6",
+  "guid": "61deb7e6-f069-4573-9eed-820ae40e3db6",
+  "publisherId": "navappyazlmvedanmanlkltdti1582460298798",
+  "offerId": "bc-nappcrd",
+  "source": {
+    "name": "Credit Management",
+    "publisher": "Navapp Yazilim ve Danismanlik Anonim Sirketi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navappyazlmvedanmanlkltdti1582460298798%7CAID.bc-nappcrd%7CPAPPID.61deb7e6-f069-4573-9eed-820ae40e3db6",
+    "lastModified": "2026-09-08T09:07:02.3567269+00:00",
+    "appVersion": "28.0.260629.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-credit-management",
+    "sourceHash": "sha256:b356caec81aa537f1adf9827bd19a47e1b58e9ed5adfb621ca8b6be681dd951b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b356caec81aa537f1adf9827bd19a47e1b58e9ed5adfb621ca8b6be681dd951b",
+    "mappedOn": null,
+    "summary": "Tracks loans, leasing and credit debts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-leases",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast",
+      "ng-currency"
+    ],
+    "claims": [
+      "Defines loans and leasing as debt cards separate from vendor cards",
+      "Records due periods and installments for loans and leases",
+      "Tracks loans, letters of credit and leasing",
+      "Defines periodic VAT, withholding and provisional tax payments as cards feeding the cash flow module",
+      "Manages currency differences and exchange rate adjustments on foreign currency loans and leases"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

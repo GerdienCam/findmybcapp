@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.oseberg_solutions|AID.oseberg_integration|PAPPID.bdf5830a-3c21-447b-92e2-e4851985d1e9",
+  "guid": "bdf5830a-3c21-447b-92e2-e4851985d1e9",
+  "publisherId": "oseberg_solutions",
+  "offerId": "oseberg_integration",
+  "source": {
+    "name": "Oseberg Integration Framework",
+    "publisher": "Oseberg Solutions AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.oseberg_solutions%7CAID.oseberg_integration%7CPAPPID.bdf5830a-3c21-447b-92e2-e4851985d1e9",
+    "lastModified": "2026-08-03T07:24:21.7678685+00:00",
+    "appVersion": "22.0.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://oseberg.atlassian.net/l/c/Y2FFhfby",
+    "sourceHash": "sha256:cd369363a4dc1d0fdc908b2acb36c78c32d7c11867866fbf8e0a7fbf5d0c7a5a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cd369363a4dc1d0fdc908b2acb36c78c32d7c11867866fbf8e0a7fbf5d0c7a5a",
+    "mappedOn": null,
+    "summary": "Framework for webshop and freight integrations",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Logging of events and job execution",
+      "Extended job queue functionality",
+      "Status monitoring and warnings",
+      "Restarts failed jobs"
+    ],
+    "countries": [
+      "NO"
+    ],
+    "languages": [
+      "nb"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Dependency framework; listing states it provides no standalone functionality",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

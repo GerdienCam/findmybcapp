@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.dynamicshipsupplier|PAPPID.91b329a7-8793-40bf-970c-290b7af73eeb",
+  "guid": "91b329a7-8793-40bf-970c-290b7af73eeb",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "dynamicshipsupplier",
+  "source": {
+    "name": "Dynamic Ship Supplier",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.dynamicshipsupplier%7CPAPPID.91b329a7-8793-40bf-970c-290b7af73eeb",
+    "lastModified": "2026-08-24T05:20:28.5293316+00:00",
+    "appVersion": "22.0.6.47",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.shipcentric.com/",
+    "sourceHash": "sha256:5ca16156ae79132949de539d396e3282b8be1f3ff854d00a1b4c797f6187ba21"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ca16156ae79132949de539d396e3282b8be1f3ff854d00a1b4c797f6187ba21",
+    "mappedOn": null,
+    "summary": "Vessel supply quotes, orders and purchasing",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-sales-pricing",
+      "ng-sales-commissions"
+    ],
+    "claims": [
+      "Trade record linking customers, vessels, ports and documents",
+      "Generates purchase orders from sales quotes and orders",
+      "Vendor price comparison across suppliers",
+      "Vessel registry with IMO, specifications, contacts and charters",
+      "Imports vessel data from maritime databases",
+      "Checks sanctions lists from the EU, UN and US",
+      "IHM compliance with Material Declaration and SDoC",
+      "Markup pricing rules set for vessel, item category and customer group",
+      "Customer statements with escalation levels and batch email",
+      "Replenishment worksheet for demand-based purchasing",
+      "Vendor commission tracking",
+      "Pick lists with assembly components",
+      "Optional eDoc add-on for maritime EDI networks"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Maritime",
+      "Ship supply"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

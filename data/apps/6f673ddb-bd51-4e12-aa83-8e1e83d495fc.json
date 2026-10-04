@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.gl-expected-cost-posting-app|PAPPID.6f673ddb-bd51-4e12-aa83-8e1e83d495fc",
+  "guid": "6f673ddb-bd51-4e12-aa83-8e1e83d495fc",
+  "publisherId": "fenwicksoftware",
+  "offerId": "gl-expected-cost-posting-app",
+  "source": {
+    "name": "GL Expected Cost Posting",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.gl-expected-cost-posting-app%7CPAPPID.6f673ddb-bd51-4e12-aa83-8e1e83d495fc",
+    "lastModified": "2026-09-13T23:40:56.1218178+00:00",
+    "appVersion": "26.0.260910.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/gl-expected-cost-posting/docs",
+    "sourceHash": "sha256:cbc14d7b1926d009ae70892261f812b2386e02a0099bdc6f906b93d276b65873"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cbc14d7b1926d009ae70892261f812b2386e02a0099bdc6f906b93d276b65873",
+    "mappedOn": null,
+    "summary": "Expected cost posting for services and non-inventory items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-accruals-deferrals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-period-close",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Expected cost posting for non-inventory items and services (G/L accounts)",
+      "Automatic accrual entries on purchase receipt",
+      "Expected Cost Received Not Invoiced report"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

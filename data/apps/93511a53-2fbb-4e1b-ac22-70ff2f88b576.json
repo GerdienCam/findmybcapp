@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.kumavision|AID.dms_interface_elo|PAPPID.93511a53-2fbb-4e1b-ac22-70ff2f88b576",
+  "guid": "93511a53-2fbb-4e1b-ac22-70ff2f88b576",
+  "publisherId": "kumavision",
+  "offerId": "dms_interface_elo",
+  "source": {
+    "name": "DMS and ECM Interface for ELO Digital Office",
+    "publisher": "KUMAVISION AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.dms_interface_elo%7CPAPPID.93511a53-2fbb-4e1b-ac22-70ff2f88b576",
+    "lastModified": "2026-04-02T15:38:30.4259825+00:00",
+    "appVersion": "28.0.214.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.kumavision.de/docs/en/dms/",
+    "sourceHash": "sha256:83ee794c3d6c45833df10eef7a64178227024eb7dbca6114a1d95e6b1c6195c5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:83ee794c3d6c45833df10eef7a64178227024eb7dbca6114a1d95e6b1c6195c5",
+    "mappedOn": null,
+    "summary": "Interface between BC and ELO document management",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Connects ELO Digital Office DMS with Business Central",
+      "Drag and drop archiving",
+      "Export multiple documents as a zip package",
+      "Automatic document archiving",
+      "Metadata updated automatically when master data changes",
+      "Dynamic structures in factbox, document search and preview",
+      "Setup wizard"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ELO Digital Office"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

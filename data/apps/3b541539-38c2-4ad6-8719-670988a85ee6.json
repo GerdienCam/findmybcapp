@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dms-kramp|PAPPID.3b541539-38c2-4ad6-8719-670988a85ee6",
+  "guid": "3b541539-38c2-4ad6-8719-670988a85ee6",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dms-kramp",
+  "source": {
+    "name": "Aptean Equipment DMS x KRAMP",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-kramp%7CPAPPID.3b541539-38c2-4ad6-8719-670988a85ee6",
+    "lastModified": "2026-06-30T10:28:40.4769319+00:00",
+    "appVersion": "2603.260500.20260602.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.traser-software.de/en-US",
+    "sourceHash": "sha256:5486c6d9464583879c5446a354373fa4c38bd1e351232c55965a39e65647c128"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5486c6d9464583879c5446a354373fa4c38bd1e351232c55965a39e65647c128",
+    "mappedOn": null,
+    "summary": "Connects KRAMP spare parts ordering to Aptean Equipment DMS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers"
+    ],
+    "claims": [
+      "Imports KRAMP PRICAT files into price lists",
+      "Price and availability query for catalog items, items or whole orders",
+      "Sends order baskets to the KRAMP webshop and receives them from it"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Agricultural equipment dealers",
+      "Construction equipment dealers"
+    ],
+    "connectsTo": [
+      "KRAMP"
+    ],
+    "requires": [
+      "Aptean Equipment DMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

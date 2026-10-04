@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.nav24spzoo1579516366010|AID.n24tms|PAPPID.3bf66404-fdc2-44d9-bd4c-f642bf965c96",
+  "guid": "3bf66404-fdc2-44d9-bd4c-f642bf965c96",
+  "publisherId": "nav24spzoo1579516366010",
+  "offerId": "n24tms",
+  "source": {
+    "name": "N24 TMS",
+    "publisher": "Nav24 Sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nav24spzoo1579516366010%7CAID.n24tms%7CPAPPID.3bf66404-fdc2-44d9-bd4c-f642bf965c96",
+    "lastModified": "2026-09-06T23:46:57.6895735+00:00",
+    "appVersion": "25.0.0.120",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.nav24.pl/en-US/TMS/",
+    "sourceHash": "sha256:83d163129ff8252aff62783f8fda0721692f395e982b1f4b4c1141102e46b44b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:83d163129ff8252aff62783f8fda0721692f395e982b1f4b4c1141102e46b44b",
+    "mappedOn": null,
+    "summary": "Transport management for shipping orders and tracking",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading",
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Creates transport orders in one click from sales or purchase documents",
+      "Creates shipping orders with carriers directly from BC",
+      "Dedicated transport order document type",
+      "Applies shipping costs or free shipping based on minimum order value",
+      "Suggests optimal packaging per order",
+      "Standalone transport orders independent of sales documents",
+      "Handles cash on delivery and pickup/drop-off locations",
+      "Real-time shipment tracking"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

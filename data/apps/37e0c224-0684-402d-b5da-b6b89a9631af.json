@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.softextend|AID.document_currency|PAPPID.37e0c224-0684-402d-b5da-b6b89a9631af",
+  "guid": "37e0c224-0684-402d-b5da-b6b89a9631af",
+  "publisherId": "softextend",
+  "offerId": "document_currency",
+  "source": {
+    "name": "Document Currency",
+    "publisher": "Soft Extend SRL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softextend%7CAID.document_currency%7CPAPPID.37e0c224-0684-402d-b5da-b6b89a9631af",
+    "lastModified": "2026-10-01T10:04:33.5206791+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://github.com/Softextend/public-docs/blob/main/Document%20Currency/documentation-document-currency-en.adoc",
+    "sourceHash": "sha256:1194fcbd6c742b3ec8e3d79fb5a18ecc4d3a87b970e038770ceda05dc7b55d8f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1194fcbd6c742b3ec8e3d79fb5a18ecc4d3a87b970e038770ceda05dc7b55d8f",
+    "mappedOn": null,
+    "summary": "Prices in foreign currency, invoicing in local currency",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Document Currency Code on vendor and customer cards gets copied to new documents",
+      "Enter discounts and prices in document currency on quotes, orders, returns, credit memos and invoices",
+      "Recalculates using posting-date exchange rate with confirmation",
+      "Applies price lists defined in document currency",
+      "Keeps document currency values on posted and archived documents",
+      "Supports projects and project planning lines",
+      "Carries document currency through requisition worksheet to purchase orders",
+      "Creates no receivables or payables in foreign currency"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

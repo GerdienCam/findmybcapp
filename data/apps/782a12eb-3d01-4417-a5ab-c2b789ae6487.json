@@ -1,0 +1,70 @@
+{
+  "appId": "TYPE.connect|PUBID.centerstageinc1690983912338|AID.orocommerce|PAPPID.782a12eb-3d01-4417-a5ab-c2b789ae6487",
+  "guid": "782a12eb-3d01-4417-a5ab-c2b789ae6487",
+  "publisherId": "centerstageinc1690983912338",
+  "offerId": "orocommerce",
+  "source": {
+    "name": "OroCommerce for Microsoft Dynamics 365 Business Central",
+    "publisher": "iPaaS.com",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.centerstageinc1690983912338%7CAID.orocommerce%7CPAPPID.782a12eb-3d01-4417-a5ab-c2b789ae6487",
+    "lastModified": "2026-06-22T05:54:38.7346885+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.ipaas.com/en/",
+    "sourceHash": "sha256:1ec2da422b202469eada77e2ccfca37b6a0722f6222212c43f306a3d4dec13d7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1ec2da422b202469eada77e2ccfca37b6a0722f6222212c43f306a3d4dec13d7",
+    "mappedOn": null,
+    "summary": "Integrates OroCommerce B2B e-commerce with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-channels",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "Syncs product data from BC to OroCommerce",
+      "Flows orders from OroCommerce into BC",
+      "Sends order updates with shipping and tracking back",
+      "Transmits customer data including B2B company data",
+      "Corporate account hierarchies, B2B portals and CPQ",
+      "Rule-based pricing engine and multi-unit of measure",
+      "Extra websites, locations or warehouses cost nothing additional",
+      "Deployable on Microsoft Azure"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "OroCommerce",
+      "iPaaS.com"
+    ],
+    "requires": [
+      "iPaaS.com",
+      "OroCommerce"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

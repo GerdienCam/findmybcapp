@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.projestspa|AID.prod013|PAPPID.9e025cf2-1f1e-4fda-88a1-159481b9dd31",
+  "guid": "9e025cf2-1f1e-4fda-88a1-159481b9dd31",
+  "publisherId": "projestspa",
+  "offerId": "prod013",
+  "source": {
+    "name": "Smart Project Manufacturing by Innovio",
+    "publisher": "INNOVIO SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.projestspa%7CAID.prod013%7CPAPPID.9e025cf2-1f1e-4fda-88a1-159481b9dd31",
+    "lastModified": "2026-10-01T10:40:29.1134963+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.innoviogroup.com/software/app/smart-project-manufacturing",
+    "sourceHash": "sha256:4e9355941e52bacc829447561c250f47de229754d286470939d28e3f63ccdc87"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4e9355941e52bacc829447561c250f47de229754d286470939d28e3f63ccdc87",
+    "mappedOn": null,
+    "summary": "Make-to-order production within projects",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-materials-subcontract",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-industrial-manufacturing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning",
+      "ng-proj-costs"
+    ],
+    "claims": [
+      "Explodes BOM and routing onto a project task, choosing BOM version",
+      "Creates child tasks and job planning lines for components and operations",
+      "Creates released production orders from project tasks with two-way link",
+      "Handles sub-assembly structures",
+      "Transfers consumption, output and capacity postings to the project",
+      "Setup and run time posted as resource on the project task",
+      "Stamps item ledger and value entries with project and task",
+      "Creates a BC resource for each work or machine center",
+      "Requisition worksheet purchase orders inherit project, task and planning line",
+      "Shows purchase coverage and receipt status per planning line",
+      "Requires Advanced Project Management by Innovio"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Advanced Project Management by Innovio"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

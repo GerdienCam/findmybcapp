@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.insight-works|AID.d4c5ff40-0c74-4a1d-a778-0b076b3addde|PAPPID.d4c5ff40-0c74-4a1d-a778-0b076b3addde",
+  "guid": "d4c5ff40-0c74-4a1d-a778-0b076b3addde",
+  "publisherId": "insight-works",
+  "offerId": "d4c5ff40-0c74-4a1d-a778-0b076b3addde",
+  "source": {
+    "name": "WMS Express",
+    "publisher": "Insight Works",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.d4c5ff40-0c74-4a1d-a778-0b076b3addde%7CPAPPID.d4c5ff40-0c74-4a1d-a778-0b076b3addde",
+    "lastModified": "2026-05-28T02:44:37.2508509+00:00",
+    "appVersion": "2.15.9393.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://kb.dmsiworks.com/knowledge-base/welcome-to-the-insight-works-support-knowledge-base/?seq_no=2",
+    "sourceHash": "sha256:d477725cc6967a245eaecaa562963bb8d3df5434d99b05223ee9118ed096ab6d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d477725cc6967a245eaecaa562963bb8d3df5434d99b05223ee9118ed096ab6d",
+    "mappedOn": null,
+    "summary": "Free mobile barcode warehouse management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting"
+    ],
+    "claims": [
+      "Receiving against purchase orders with lot/serial capture",
+      "Picking and shipping against sales orders",
+      "Inventory picks and put-aways",
+      "Warehouse receipts, put-aways and picks",
+      "Transfer receipts and shipments",
+      "Wrong item rejected on scan",
+      "Counting posts to physical inventory journal",
+      "Label printing via PrintNode Connector",
+      "Multiple barcodes per item, 1D and 2D",
+      "Free for five devices at most per company",
+      "Business Central Cloud only",
+      "Allows only three ad-hoc movements from bin to bin in each session"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nl",
+      "no",
+      "sv"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

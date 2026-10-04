@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.abakion|AID.danske_fragtmaend_3pl_connector|PAPPID.be543720-ecdb-4b27-b1f9-2eaa365653f1",
+  "guid": "be543720-ecdb-4b27-b1f9-2eaa365653f1",
+  "publisherId": "abakion",
+  "offerId": "danske_fragtmaend_3pl_connector",
+  "source": {
+    "name": "Danske Fragtmaend 3PL Connector",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.danske_fragtmaend_3pl_connector%7CPAPPID.be543720-ecdb-4b27-b1f9-2eaa365653f1",
+    "lastModified": "2026-05-07T06:36:05.3467068+00:00",
+    "appVersion": "28.0.202619.164526",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/danske-fragtmaend/#howto",
+    "sourceHash": "sha256:4a2f6ff276a557e9fe718e8ab0465e9ad4121a23f8c8cb3b16c1ad8a0d0d3a6e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4a2f6ff276a557e9fe718e8ab0465e9ad4121a23f8c8cb3b16c1ad8a0d0d3a6e",
+    "mappedOn": null,
+    "summary": "Manages Danske Fragtmænd 3PL warehouse locations from sales and purchase",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Built on 3PL Manager app plus a Power Automate connector",
+      "Sends sales orders and warehouse shipments to the 3PL",
+      "Send to 3PL action replaces picking instruction",
+      "Shipment confirmation updates warehouse shipment, inventory pick or sales order",
+      "3PL status shown on document",
+      "Purchase orders sent to 3PL with receipt notification back"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Danske Fragtmænd",
+      "Power Automate"
+    ],
+    "requires": [
+      "3PL Manager"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

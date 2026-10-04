@@ -1,0 +1,240 @@
+{
+  "id": "ng-cost-allocation",
+  "order": 49,
+  "label": "Allocating costs and understanding where they go",
+  "description": "Cost accounting policies and postings, overhead allocations across departments or companies, and cost analysis.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "medium",
+  "statements": [
+    "Allocating costs and understanding where they go",
+    "Cost accounting policies and postings, overhead allocations across departments or companies, and cost analysis.",
+    "Transferring G/L entries to cost accounting in BC every month is manual",
+    "We need to allocate overheads to cost centers using headcount and square meters",
+    "cost accounting allocation BC",
+    "Statistical figures like number of employees per cost center need to drive allocations",
+    "Our cost accounting is done in Excel outside BC",
+    "Allocate IT and HR costs to the production cost centers monthly",
+    "Want cost accounting budgets compared to cost accounting actuals",
+    "Is there an app that makes cost accounting in BC easier to use?",
+    "We run a multi-step allocation: support departments first, then to products",
+    "Cost accounting entries don't match the G/L after we changed dimensions",
+    "Need activity based costing in Business Central",
+    "Running cost allocations takes our controller a whole day",
+    "We split rent across five departments by hand every month",
+    "allocation journal BC",
+    "Is there an app for automatic cost allocations by percentage?",
+    "Allocate IT costs to departments based on number of users",
+    "Allocation keys change every quarter and the journals have to be rebuilt",
+    "Split one G/L account balance to several dimension values at month end",
+    "We want to allocate shared costs by revenue share",
+    "Allocation accounts in BC are too limited for what we need",
+    "Spread the CEO's salary across the business units",
+    "Allocate a single invoice line across several departments",
+    "Recurring allocation with variable keys from statistical accounts",
+    "Our allocation spreadsheet has 30 tabs and only one person understands it",
+    "How should we set up cost centers and cost objects for overhead allocation?",
+    "We want to add an overhead percentage to our cost based on last year's actuals",
+    "Should overheads be allocated on headcount, square meters or revenue?",
+    "cost accounting setup cost types",
+    "Our controller wants a separate cost accounting structure from the financial accounts",
+    "We need rules for which costs are direct and which are indirect",
+    "We want to see costs per department and how they trend month by month",
+    "Where are our overhead costs actually going?",
+    "cost analysis by department",
+    "Inventory cost report that shows how the unit cost was built up",
+    "Our cost per cost center is in Excel and never up to date",
+    "Is there a Power BI report for cost analysis in BC?",
+    "Why did admin costs go up 20 percent this year?",
+    "Analyse cost accounting data without exporting everything",
+    "Show cost per employee and per square meter by location",
+    "Compare the costs of our three branches side by side",
+    "Drill from a cost category down to the invoices behind it",
+    "Want to see which costs are fixed and which vary with sales"
+  ],
+  "questions": [
+    {
+      "id": "what_cost",
+      "text": "Which costs do you need to spread out?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Shared costs across departments, cost centers or projects",
+          "patterns": [
+            "department",
+            "cost cent",
+            "profit cent",
+            "project",
+            "payroll",
+            "shared expense",
+            "dimension"
+          ]
+        },
+        {
+          "label": "Production overhead onto products or work centers",
+          "patterns": [
+            "production",
+            "work ?center",
+            "machine ?center",
+            "manufactur",
+            "finished",
+            "wip",
+            "overhead",
+            "work/machine"
+          ]
+        },
+        {
+          "label": "Freight and handling onto shipments",
+          "patterns": [
+            "freight",
+            "consignment",
+            "carrier"
+          ]
+        },
+        {
+          "label": "Grant or fund money",
+          "patterns": [
+            "\\bfund"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Shared costs across departments, cost centers or projects": 0.55,
+        "Production overhead onto products or work centers": 0.5,
+        "Freight and handling onto shipments": 0.05,
+        "Grant or fund money": 0.05
+      }
+    },
+    {
+      "id": "basis",
+      "text": "How do you decide each share?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Fixed percentages",
+          "patterns": [
+            "percent",
+            "coefficient",
+            "static",
+            "100%"
+          ]
+        },
+        {
+          "label": "Actual drivers like hours, headcount or volume",
+          "patterns": [
+            "hours",
+            "headcount",
+            "driver",
+            "volume",
+            "dynamic",
+            "statistical",
+            "labor cost",
+            "calculable"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Fixed percentages": 0.15,
+        "Actual drivers like hours, headcount or volume": 0.5
+      }
+    },
+    {
+      "id": "ledger",
+      "text": "Should allocations post into the general ledger, or live in a separate cost accounting view?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Post into the general ledger",
+          "patterns": [
+            "g/l",
+            "general journal",
+            "ledger account",
+            "posting group",
+            "parallel post"
+          ]
+        },
+        {
+          "label": "Separate cost accounting, keep the G/L untouched",
+          "patterns": [
+            "two-circuit",
+            "separate (double-entry|ledger)",
+            "cost entr",
+            "chart of cost",
+            "fund ledger",
+            "without touching",
+            "cost accounting",
+            "analytical"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Post into the general ledger": 0.65,
+        "Separate cost accounting, keep the G/L untouched": 0.4
+      }
+    },
+    {
+      "id": "levels",
+      "text": "Do allocations cascade in several steps (e.g. department, then employee, then project)?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, multi-step",
+          "patterns": [
+            "multi-level",
+            "multiple allocation levels",
+            "tiered",
+            "cascad",
+            "allocation steps",
+            "sequences",
+            "rollover"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, multi-step": 0.35
+      }
+    },
+    {
+      "id": "profitability",
+      "text": "Is the end goal profitability per customer, product or business unit?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "profitabilit",
+            "contribution margin",
+            "profit cent",
+            "income statement",
+            "cost unit",
+            "cost per kg",
+            "per customer"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.3
+      }
+    }
+  ]
+}

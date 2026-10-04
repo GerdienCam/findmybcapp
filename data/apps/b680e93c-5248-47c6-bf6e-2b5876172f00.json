@@ -1,0 +1,102 @@
+{
+  "appId": "PUBID.tecman|AID.clever-credit|PAPPID.b680e93c-5248-47c6-bf6e-2b5876172f00",
+  "guid": "b680e93c-5248-47c6-bf6e-2b5876172f00",
+  "publisherId": "tecman",
+  "offerId": "clever-credit",
+  "source": {
+    "name": "Clever Credit",
+    "publisher": "Clever Dynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecman%7CAID.clever-credit%7CPAPPID.b680e93c-5248-47c6-bf6e-2b5876172f00",
+    "lastModified": "2026-08-28T09:58:23.647037+00:00",
+    "appVersion": "3.0.4.159497",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cleverdynamics.com/Clever%20Credit/User%20Guide/01.%20About/",
+    "sourceHash": "sha256:8be37985dedc04348b34f15b55ebb7248daca1e55946d3325a4ea67e4c65878c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8be37985dedc04348b34f15b55ebb7248daca1e55946d3325a4ea67e4c65878c",
+    "mappedOn": null,
+    "summary": "Credit control and collections",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Automatically holds sales orders for overdue balances or exceeded credit limit",
+      "Shows outstanding balances per credit controller and per account",
+      "Auto-diarised follow-up calls and to-dos",
+      "Credit authorisation limits per account to release orders",
+      "Grace periods per account",
+      "Supports dispute resolution with information at hand"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "HR",
+      "HU",
+      "ID",
+      "IS",
+      "IT",
+      "JP",
+      "KE",
+      "KR",
+      "LV",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PH",
+      "PL",
+      "RS",
+      "SE",
+      "SG",
+      "SI",
+      "TH",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

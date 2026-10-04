@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.alterna|AID.dd2f1d74-535e-439c-94bb-0c93bc3dc098|PAPPID.dd2f1d74-535e-439c-94bb-0c93bc3dc098",
+  "guid": "dd2f1d74-535e-439c-94bb-0c93bc3dc098",
+  "publisherId": "alterna",
+  "offerId": "dd2f1d74-535e-439c-94bb-0c93bc3dc098",
+  "source": {
+    "name": "Advanced General Ledger",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.dd2f1d74-535e-439c-94bb-0c93bc3dc098%7CPAPPID.dd2f1d74-535e-439c-94bb-0c93bc3dc098",
+    "lastModified": "2026-07-30T15:46:32.3182531+00:00",
+    "appVersion": "1.39.71.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/advanced-general-ledger/",
+    "sourceHash": "sha256:8b49f4a7941ed7af2780a66bdb289261a085f4b1136a9de8359988813afceaf8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8b49f4a7941ed7af2780a66bdb289261a085f4b1136a9de8359988813afceaf8",
+    "mappedOn": null,
+    "summary": "Simulation G/L journals, accruals and deferrals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-accruals-deferrals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cost-allocation",
+      "ng-fa-depreciation",
+      "ng-journals"
+    ],
+    "claims": [
+      "Simulation journal books G/L entries with no effect on the G/L",
+      "Accruals and deferrals from posted sales and purchase invoices",
+      "Invoices to be issued/received entries from posted shipments and receipts",
+      "Simulated depreciation entries from fixed asset transactions",
+      "Allocation model for shifting costs on documents ahead of posting",
+      "Cost driving rules reallocate transactions by percentage weight",
+      "Accruals auto-reversed at start of next period",
+      "Simulation G/L Register",
+      "Simulation entries in account schedules and analysis views",
+      "Simulation entries in trial balance reports",
+      "Batch job to calculate accruals and deferrals"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Financial Services",
+      "Professional Services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.valkonixbv1759255272326|AID.valkonix_ship|PAPPID.e5b39c80-a838-4a31-a45a-49806d51c126",
+  "guid": "e5b39c80-a838-4a31-a45a-49806d51c126",
+  "publisherId": "valkonixbv1759255272326",
+  "offerId": "valkonix_ship",
+  "source": {
+    "name": "Valkonix Ship",
+    "publisher": "Valkonix B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.valkonixbv1759255272326%7CAID.valkonix_ship%7CPAPPID.e5b39c80-a838-4a31-a45a-49806d51c126",
+    "lastModified": "2026-09-03T13:57:04.5067837+00:00",
+    "appVersion": "27.1.779.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.valkonix.com/manuals/valkonix-ship-manual/",
+    "sourceHash": "sha256:1a5cd06544c1f117a5e7284a3d347d977f13ded34c110cf6aa2bad54dc011855"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1a5cd06544c1f117a5e7284a3d347d977f13ded34c110cf6aa2bad54dc011855",
+    "mappedOn": null,
+    "summary": "Multi-carrier rates, bookings, labels and tracking",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-esg",
+      "ng-freight-cost-audit",
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "Connects through Cargoson, Sendcloud or Shipmondo to 2,000+ carriers",
+      "Supports own carrier contracts or platform rates",
+      "Parcel, pallet and freight shipments",
+      "Compares carrier rates and delivery times before booking",
+      "Checks shipping prices from a sales order before creating shipping documents",
+      "Compares CO2 estimates per carrier (Cargoson)",
+      "Prepares sustainability journal lines for scope 3 transport emissions",
+      "Creates shipping orders from sales, purchase and transfer orders, warehouse shipments and receipts, and posted documents",
+      "Batch booking of many orders with a batch log",
+      "Carries lot and serial numbers to handling units",
+      "Carrier-compliant labels incl. customs documents",
+      "Automatic label printing via PrintNode",
+      "CMR documents and waybills (Cargoson)",
+      "Automatic tracking status updates in BC; webhooks with Shipmondo",
+      "Shows trips on a map through Azure Maps",
+      "Books return shipments from return orders",
+      "Quoted shipping costs flow into sales invoicing",
+      "Ships to parcel lockers and service points"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Cargoson",
+      "Sendcloud",
+      "Shipmondo",
+      "PrintNode",
+      "Azure Maps",
+      "DHL",
+      "FedEx",
+      "UPS",
+      "DPD",
+      "DSV",
+      "Schenker",
+      "PostNL",
+      "PostNord",
+      "Bring"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.idynbv|AID.shipit|PAPPID.9e0ee02b-484d-4487-8d74-961ece2357c0",
+  "guid": "9e0ee02b-484d-4487-8d74-961ece2357c0",
+  "publisherId": "idynbv",
+  "offerId": "shipit",
+  "source": {
+    "name": "ShipIT 365 Simplify Shipping",
+    "publisher": "IDYN B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idynbv%7CAID.shipit%7CPAPPID.9e0ee02b-484d-4487-8d74-961ece2357c0",
+    "lastModified": "2026-10-02T07:48:47.3637846+00:00",
+    "appVersion": "28.2.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://idyn.atlassian.net/wiki/spaces/S365M/pages/22151185/Introduction",
+    "sourceHash": "sha256:1a5eafa9266da39a75942e2924a6f67c4da318223c5a8f1cf8c3ef44e35ed4a4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1a5eafa9266da39a75942e2924a6f67c4da318223c5a8f1cf8c3ef44e35ed4a4",
+    "mappedOn": null,
+    "summary": "Ships orders via 3,000 carriers with labels from BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-freight-cost-audit"
+    ],
+    "claims": [
+      "Connects 3,000+ carriers including DHL, DPD, FedEx, UPS, PostNL",
+      "Compare carrier options and freight charges in BC",
+      "Print shipment labels and track deliveries from BC",
+      "Integrated in sales, warehouse shipment, return and transfer orders",
+      "Requires nShift, Sendcloud, EasyPost or Cargoson contract",
+      "Adds freight charges automatically to sales orders",
+      "Real-time track and trace for customers",
+      "Available on Tasklet Mobile WMS and Multisoft Mobile NAV"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "nShift",
+      "Sendcloud",
+      "EasyPost",
+      "Cargoson",
+      "DHL",
+      "DPD",
+      "FedEx",
+      "UPS",
+      "PostNL"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

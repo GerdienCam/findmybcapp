@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.continia365|AID.continia-collection-management-365-dk|PAPPID.38987ff0-8eec-4232-b379-c7e35ae1b711",
+  "guid": "38987ff0-8eec-4232-b379-c7e35ae1b711",
+  "publisherId": "continia365",
+  "offerId": "continia-collection-management-365-dk",
+  "source": {
+    "name": "Continia Collection Management (DK)",
+    "publisher": "Continia Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.continia-collection-management-365-dk%7CPAPPID.38987ff0-8eec-4232-b379-c7e35ae1b711",
+    "lastModified": "2026-09-08T19:56:45.8930981+00:00",
+    "appVersion": "28.2.0.372580",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.continia.com/da-dk/continia-collection-management",
+    "sourceHash": "sha256:289eed77a547889230bdb3e87404ffcd36c1c76d77b1c053bd90422703de3b51"
+  },
+  "mapping": {
+    "sourceHash": "sha256:289eed77a547889230bdb3e87404ffcd36c1c76d77b1c053bd90422703de3b51",
+    "mappedOn": null,
+    "summary": "Danish payment collection agreements and collection services integration",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-collections",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Customer's preferred collection method added automatically to orders, invoices and credit memos",
+      "Direct debit payment suggestions with instant status updates",
+      "Overview of agreement and payment statuses in BC",
+      "Supports B2B and B2C",
+      "Supports Worldline, Danske Bank, Betalingsservice and Leverandørservice",
+      "Only available in Denmark"
+    ],
+    "countries": [
+      "DK",
+      "FO",
+      "GL"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Worldline",
+      "Danske Bank Collection Service",
+      "Mastercard Betalingsservice",
+      "Mastercard Leverandørservice"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

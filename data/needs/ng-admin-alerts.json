@@ -1,0 +1,240 @@
+{
+  "id": "ng-admin-alerts",
+  "order": 166,
+  "label": "Setting up alerts and notifications in BC",
+  "description": "Deciding triggers, channels, recipients, priorities and templates, then testing and adjusting alerts.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "high",
+  "statements": [
+    "Setting up alerts and notifications in BC",
+    "Deciding triggers, channels, recipients, priorities and templates, then testing and adjusting alerts.",
+    "Is there an app for alerts in Business Central like we had in our old system?",
+    "BC has no proper alerts, how do other companies get notified when something happens?",
+    "We want to set up rules like 'if X happens, email Y' without a developer",
+    "business central alerts app",
+    "Can Power Automate watch a BC table and send a notification when a record changes?",
+    "Our old ERP had user-defined alerts and we miss them badly in BC",
+    "Need a simple alert engine for things like credit limit, low stock, price changes",
+    "How do we get notified when a sales order is created for a blocked item?",
+    "Alert me when a posted purchase invoice is above the PO amount",
+    "We want scheduled alerts that check conditions every morning and email a list",
+    "Can business users build their own alerts, or does it always need a partner?",
+    "I want to monitor key fields on the customer card and get an email on changes",
+    "Set up an alert when an item's unit cost changes by more than 10 percent",
+    "BC notifications are only those little bars at the top of the page, we need real alerts",
+    "Our controller wants an email whenever someone posts directly to a balance sheet account",
+    "Alert the warehouse lead when a rush order is released",
+    "Is there a standard way in BC to trigger a Teams message from a business event?",
+    "We want alerts without paying for a full Power Automate premium license",
+    "Monitoring rules for unusual transactions, like journal postings on weekends",
+    "Set up notifications for when a customer's overdue balance passes a limit",
+    "I want to know whenever someone changes a vendor's bank account number",
+    "Which events in BC are worth alerting on, and which would just be noise?",
+    "Tell the controller when a sales order goes out below cost",
+    "alert when field changes BC",
+    "We want a heads-up when a new customer is created without a credit limit",
+    "Our purchaser should know when a confirmed delivery date moves",
+    "Notify finance when a G/L account is posted to that should never be used",
+    "What thresholds make sense, like margin below 10 percent or order above 50,000?",
+    "We'd like to be warned when stock of key items drops under a level, not just see it on a report",
+    "Is it possible to trigger on things that did NOT happen, like no orders from a big customer in 30 days?",
+    "Sales manager wants to know immediately when a big quote is won",
+    "IT wants a notice when someone gets the SUPER permission set",
+    "Can BC alerts go to a Teams channel instead of email?",
+    "Our warehouse staff don't read email, can they get alerts on the scanner or phone?",
+    "SMS alert from Business Central",
+    "Want notifications to show inside BC on the role center, not in my inbox",
+    "Push notifications to the BC mobile app, is that possible?",
+    "Some alerts should go by email and urgent ones by text message",
+    "Alerts go to a person who left two years ago",
+    "Can alerts go to a role or a group instead of named people?",
+    "When the purchaser is on holiday their alerts should go to a colleague",
+    "Each salesperson should only get alerts about their own customers",
+    "distribution list for BC notifications",
+    "Users want to subscribe and unsubscribe to alerts themselves",
+    "We get so many BC notifications that nobody reads them anymore",
+    "Can we mark some alerts as urgent and send the rest as a daily digest?",
+    "alert fatigue ERP",
+    "The really important warning was buried among 200 routine emails",
+    "We want critical alerts to escalate if no one reacts within an hour",
+    "How do other companies decide which notifications are urgent?",
+    "Our alert emails just say 'record changed' with no details",
+    "Can the notification include a link that opens the record in BC?",
+    "We want one standard alert template for the company and let users tweak their own",
+    "alert email template BC",
+    "The alert should show old and new value of the field that changed",
+    "Alerts should be in the user's language, we have Danish and German staff",
+    "How do I test an alert without changing real customer data?",
+    "Our new Power Automate alert never fired and we don't know why",
+    "Can we run alerts in a sandbox first and only switch them on in production when they work?",
+    "test notification flow BC",
+    "We want a test mode where alerts go only to IT",
+    "After the update, how do we check all our alerts still work?",
+    "The low stock alert fires every day for items we don't sell anymore",
+    "How do I change the threshold on an existing alert?",
+    "turn off alert BC",
+    "Someone built a flow years ago and now we can't find where to edit it",
+    "We moved to new cost centers and all the alerts need updating",
+    "Can I mute an alert for a week while we do stock count?"
+  ],
+  "questions": [
+    {
+      "id": "what",
+      "text": "What do you want to be alerted about?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Changes to records (orders, stock, customers)",
+          "patterns": [
+            "any table",
+            "tables? and fields?",
+            "table/entity",
+            "table insert",
+            "stock",
+            "status change",
+            "approved",
+            "changes in projects",
+            "erp events"
+          ]
+        },
+        {
+          "label": "Failed job queue entries",
+          "patterns": [
+            "job queue (entry )?(error|fail)",
+            "job queue failure",
+            "job queue entry fails"
+          ]
+        },
+        {
+          "label": "Things about to expire (contracts, quotes, secrets)",
+          "patterns": [
+            "expir",
+            "due date",
+            "date-based"
+          ]
+        },
+        {
+          "label": "Messages from your partner or admin to users",
+          "patterns": [
+            "partners send",
+            "login",
+            "admin controls"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Changes to records (orders, stock, customers)": 0.54,
+        "Failed job queue entries": 0.23,
+        "Things about to expire (contracts, quotes, secrets)": 0.38,
+        "Messages from your partner or admin to users": 0.15
+      }
+    },
+    {
+      "id": "channel",
+      "text": "Where should alerts reach people?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Email",
+          "patterns": [
+            "e-?mail"
+          ]
+        },
+        {
+          "label": "Teams, Slack or Power Automate",
+          "patterns": [
+            "teams",
+            "slack",
+            "power automate",
+            "webhook"
+          ]
+        },
+        {
+          "label": "SMS",
+          "patterns": [
+            "\\bsms\\b"
+          ]
+        },
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "in-?bc",
+            "in-app",
+            "pop-?up",
+            "my notifications",
+            "user tasks?",
+            "inside bc",
+            "role center"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Email": 0.62,
+        "Teams, Slack or Power Automate": 0.15,
+        "SMS": 0.08,
+        "Inside Business Central": 0.46
+      }
+    },
+    {
+      "id": "external",
+      "text": "Should alerts go to people outside your company?",
+      "help": "Customers, vendors or any email address.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "external",
+            "customers and partners",
+            "contacts",
+            "any email",
+            "cc and bcc",
+            "communicate with your clients"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.38
+      }
+    },
+    {
+      "id": "docs",
+      "text": "Should alerts carry documents or rich layouts?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, attachments or formatted emails",
+          "patterns": [
+            "attach",
+            "word layout",
+            "\\bhtml\\b",
+            "excel, word or pdf",
+            "templates?"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, attachments or formatted emails": 0.62
+      }
+    }
+  ]
+}

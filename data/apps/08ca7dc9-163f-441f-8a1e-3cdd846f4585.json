@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.microapps|AID.transus_edi_connector|PAPPID.08ca7dc9-163f-441f-8a1e-3cdd846f4585",
+  "guid": "08ca7dc9-163f-441f-8a1e-3cdd846f4585",
+  "publisherId": "microapps",
+  "offerId": "transus_edi_connector",
+  "source": {
+    "name": "Transus API Connector",
+    "publisher": "Micro Apps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microapps%7CAID.transus_edi_connector%7CPAPPID.08ca7dc9-163f-441f-8a1e-3cdd846f4585",
+    "lastModified": "2026-07-08T07:46:14.8758649+00:00",
+    "appVersion": "1.0.0.9",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://micro-apps.abcebusiness.nl/en/transus-api-connector-for-business-central",
+    "sourceHash": "sha256:bdb0ab11bff4b1e38f0bc03e9483e3d5b271b089130db69405559276140cdefd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bdb0ab11bff4b1e38f0bc03e9483e3d5b271b089130db69405559276140cdefd",
+    "mappedOn": null,
+    "summary": "EDI document exchange via Transus",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exchanges EDI documents with Transus via API",
+      "Automatically sends EDI messages when documents are posted",
+      "Extendable with own customizations"
+    ],
+    "countries": [
+      "NL"
+    ],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Transus"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

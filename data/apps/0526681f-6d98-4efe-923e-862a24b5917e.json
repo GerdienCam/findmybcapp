@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.tecman|AID.clever-quality|PAPPID.0526681f-6d98-4efe-923e-862a24b5917e",
+  "guid": "0526681f-6d98-4efe-923e-862a24b5917e",
+  "publisherId": "tecman",
+  "offerId": "clever-quality",
+  "source": {
+    "name": "Clever Quality",
+    "publisher": "Clever Dynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecman%7CAID.clever-quality%7CPAPPID.0526681f-6d98-4efe-923e-862a24b5917e",
+    "lastModified": "2026-09-09T11:24:07.2314717+00:00",
+    "appVersion": "2.0.1.160314",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cleverdynamics.com/clever-quality/user-guide",
+    "sourceHash": "sha256:3d35be62e943a81d695d4711d9d6075bc87eef79a1668fcbea4bed4cda9bf5d9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3d35be62e943a81d695d4711d9d6075bc87eef79a1668fcbea4bed4cda9bf5d9",
+    "mappedOn": null,
+    "summary": "Trackable quality control process",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-quality-hold",
+      "ng-scrap-rework"
+    ],
+    "claims": [
+      "Scheduled checks during production runs",
+      "In-process checks at a production step",
+      "Inbound inspection automatically creates a quality order on delivery",
+      "Failed goods can be quarantined or returned to supplier",
+      "Tracks recurring vendor quality problems",
+      "Pre-posting checks signed off before warehouse shipment",
+      "Checks on warehouse receipt such as vehicle temperature",
+      "Full record of all checks for traceability",
+      "Attach photos and documents with Clever Document Links"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Food",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

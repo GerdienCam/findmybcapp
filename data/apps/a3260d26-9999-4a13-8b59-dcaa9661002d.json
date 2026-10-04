@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionapproval|PAPPID.a3260d26-9999-4a13-8b59-dcaa9661002d",
+  "guid": "a3260d26-9999-4a13-8b59-dcaa9661002d",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionapproval",
+  "source": {
+    "name": "VisionApproval",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionapproval%7CPAPPID.a3260d26-9999-4a13-8b59-dcaa9661002d",
+    "lastModified": "2026-09-12T14:59:14.0457253+00:00",
+    "appVersion": "1.0.1.38",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.visionpeople.dk/help/a3260d26-9999-4a13-8b59-dcaa9661002d/index",
+    "sourceHash": "sha256:5f0d168bc27ce7499b07d57739aa379d0ee4010e89d36f5e98fcb98e39e7a8b2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5f0d168bc27ce7499b07d57739aa379d0ee4010e89d36f5e98fcb98e39e7a8b2",
+    "mappedOn": null,
+    "summary": "Purchase invoice approval with coding",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-costs",
+      "ng-ux-dimensions"
+    ],
+    "claims": [
+      "View original PDF or OIO invoice side-by-side while approving",
+      "Code G/L accounts, projects and dimensions during approval",
+      "Prefiltered G/L accounts globally or per job posting group",
+      "Respects default dimension allowed values and dimension combinations",
+      "Multi-level approval with minimum approver count",
+      "Vendor-specific approval limits",
+      "Agreement verification workflow for price validation",
+      "Forward and delegate approvals",
+      "Inserts the project responsible person into the approval chain automatically",
+      "Approver Role Center with near-due and overdue tiles",
+      "Approval comments with audit trail",
+      "G/L account exceptions for approval routing"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

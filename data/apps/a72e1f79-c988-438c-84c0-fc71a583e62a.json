@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.applibra|AID.al_combine_shipments|PAPPID.a72e1f79-c988-438c-84c0-fc71a583e62a",
+  "guid": "a72e1f79-c988-438c-84c0-fc71a583e62a",
+  "publisherId": "applibra",
+  "offerId": "al_combine_shipments",
+  "source": {
+    "name": "AL Combine Shipments",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_combine_shipments%7CPAPPID.a72e1f79-c988-438c-84c0-fc71a583e62a",
+    "lastModified": "2026-09-18T13:12:05.7631823+00:00",
+    "appVersion": "28.0.26.9181048",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://applibra.com/apps/al-combined-shipments/help",
+    "sourceHash": "sha256:4ff9d44a35a40ccc2a9ebcb133e6b381b0fc701d61ca2da84db1f342f30afe24"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4ff9d44a35a40ccc2a9ebcb133e6b381b0fc701d61ca2da84db1f342f30afe24",
+    "mappedOn": null,
+    "summary": "Combines posted shipments into one invoice per customer by criteria",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Combines posted sales shipments of a period into one invoice per customer",
+      "Configurable grouping fields instead of fixed standard keys",
+      "Grouping field values carried onto the invoice header",
+      "Can group on fields added by own extensions",
+      "Assisted setup guide",
+      "Combine run over a date range, review or post directly",
+      "Italian companion app for deferred invoicing specifics",
+      "Requires BC online version 28.0 or higher"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-serviceworksheetcloudconnectorbridge|PAPPID.a8f3b6d4-2c9e-4f1a-b8d7-3e5a9c1f8b2d",
+  "guid": "a8f3b6d4-2c9e-4f1a-b8d7-3e5a9c1f8b2d",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-serviceworksheetcloudconnectorbridge",
+  "source": {
+    "name": "BeyondServiceWorksheetCloudConnectorBridge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-serviceworksheetcloudconnectorbridge%7CPAPPID.a8f3b6d4-2c9e-4f1a-b8d7-3e5a9c1f8b2d",
+    "lastModified": "2026-05-19T10:05:50.05866+00:00",
+    "appVersion": "2026.3.232.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/apps/index.html",
+    "sourceHash": "sha256:b80fc4b5a3ab51a30bcd3d250819498e9725f04a88e371350dd03c8f30a59e18"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b80fc4b5a3ab51a30bcd3d250819498e9725f04a88e371350dd03c8f30a59e18",
+    "mappedOn": null,
+    "summary": "Links BeyondServiceWorksheet with BeyondCloudConnector file storage",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Adds CloudConnector support to service invoice and credit memo lines"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "BeyondServiceWorksheet",
+      "BeyondCloudConnector"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two BEYOND products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

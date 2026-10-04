@@ -1,0 +1,218 @@
+{
+  "id": "ng-transport-planning",
+  "order": 77,
+  "label": "Planning loads, routes and dock times",
+  "description": "Planning what goes on each truck, delivery routes and dock appointments.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "medium",
+  "statements": [
+    "Planning loads, routes and dock times",
+    "Planning what goes on each truck, delivery routes and dock appointments.",
+    "We want to combine orders into full truckloads",
+    "load planning app",
+    "How do we know if all orders for tomorrow fit on one truck?",
+    "We want to plan inbound loads from our suppliers to save freight",
+    "Our planner uses Excel to group orders per truck by weight",
+    "Is there a way to see total weight and pallets per planned load in BC?",
+    "Our drivers decide the route themselves and it takes too long",
+    "We need route planning for our own delivery vans",
+    "Is there an app that plans delivery routes from BC orders?",
+    "We want to assign each customer a delivery day and route",
+    "route optimization delivery vans",
+    "Customers want to know when our driver will arrive",
+    "How do we sort stops on a delivery list by route?",
+    "We deliver to 80 shops a day and plan routes on a map in Google",
+    "Drivers need proof of delivery with signature on their phone",
+    "We want to see where our trucks are during the day",
+    "Orders should be assigned to the right route automatically based on postcode",
+    "Our delivery routes have not changed in ten years and must be inefficient",
+    "Trucks from suppliers arrive at the same time and block our dock",
+    "dock scheduling app",
+    "We want carriers to book a time slot for delivery",
+    "Is there a way to see which dock door is booked when?",
+    "Drivers wait hours because we did not know they were coming",
+    "Suppliers should book delivery windows online"
+  ],
+  "questions": [
+    {
+      "id": "plan",
+      "text": "What do you mainly need to plan?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Delivery routes and stop order",
+          "patterns": [
+            "route(?! bins)",
+            "tour",
+            "stop sequence",
+            "multi-stop"
+          ]
+        },
+        {
+          "label": "What fits on each truck",
+          "patterns": [
+            "\\bloads?\\b",
+            "load (planning|optimi|plan|order|structure|calc|engine|proposal)",
+            "loading (plan|list|manifest)",
+            "vehicle capacity",
+            "floor space",
+            "vehicle utilization",
+            "palletization"
+          ]
+        },
+        {
+          "label": "Dock or pickup time slots",
+          "patterns": [
+            "dock",
+            "yard",
+            "time slot",
+            "delivery windows",
+            "truck appointment",
+            "unloading times"
+          ]
+        },
+        {
+          "label": "Incoming containers",
+          "patterns": [
+            "container"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Delivery routes and stop order": 0.35,
+        "What fits on each truck": 0.22,
+        "Dock or pickup time slots": 0.12,
+        "Incoming containers": 0.14
+      }
+    },
+    {
+      "id": "fleet",
+      "text": "Who moves your goods?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Our own drivers and trucks",
+          "patterns": [
+            "own fleet",
+            "driver",
+            "vehicle"
+          ]
+        },
+        {
+          "label": "External carriers or hauliers",
+          "patterns": [
+            "carrier",
+            "shipping agent",
+            "subcontractor",
+            "forwarding",
+            "transporters",
+            "charters",
+            "external partners"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Our own drivers and trucks": 0.41,
+        "External carriers or hauliers": 0.33
+      }
+    },
+    {
+      "id": "pod",
+      "text": "Should drivers confirm delivery on a phone or tablet?",
+      "help": "Signatures, photos, proof of delivery.",
+      "options": [
+        {
+          "label": "Yes, mobile proof of delivery",
+          "patterns": [
+            "proof of delivery",
+            "\\bpod\\b",
+            "driver app",
+            "signature",
+            "digitally sign",
+            "sign-off",
+            "photo",
+            "mobile delivery app"
+          ]
+        },
+        {
+          "label": "No, paper is fine / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, mobile proof of delivery": 0.22
+      }
+    },
+    {
+      "id": "costs",
+      "text": "Do you need freight costs calculated?",
+      "options": [
+        {
+          "label": "Yes, calculate or check freight costs",
+          "patterns": [
+            "transport cost",
+            "freight cost",
+            "shipping cost",
+            "freight charge",
+            "carrier rate",
+            "rate shopping",
+            "tariff",
+            "shipping agent charges",
+            "freight invoice",
+            "shipping fees",
+            "expected costs",
+            "costs to end customer",
+            "pricing using",
+            "price policy"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, calculate or check freight costs": 0.2
+      }
+    },
+    {
+      "id": "business",
+      "text": "Is transport your core business?",
+      "help": "For example a haulier, forwarder or 3PL.",
+      "options": [
+        {
+          "label": "Yes, we sell transport or logistics services",
+          "patterns": [
+            "logistic service provider",
+            "logistics provider",
+            "freight forwarding",
+            "forwarding management",
+            "forwarding suite",
+            "forwarding operations",
+            "3pl",
+            "\\bftl\\b",
+            "fleet management",
+            "fleet tracking",
+            "haul"
+          ]
+        },
+        {
+          "label": "No, we deliver our own goods / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we sell transport or logistics services": 0.2
+      }
+    }
+  ]
+}

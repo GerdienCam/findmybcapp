@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-orderbase-pda-mobile-service|PAPPID.ecb65692-e783-4606-8640-e4c705f33e7c",
+  "guid": "ecb65692-e783-4606-8640-e4c705f33e7c",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-orderbase-pda-mobile-service",
+  "source": {
+    "name": "Aptean orderbase Time Management PDA x Aptean Equipment Mobile Service",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-orderbase-pda-mobile-service%7CPAPPID.ecb65692-e783-4606-8640-e4c705f33e7c",
+    "lastModified": "2026-08-17T11:03:06.5555747+00:00",
+    "appVersion": "2603.260200.20260707.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:566d6814b73b29736857e2de996a6066c622d0b65ca0d0cd886232dc78797a66"
+  },
+  "mapping": {
+    "sourceHash": "sha256:566d6814b73b29736857e2de996a6066c622d0b65ca0d0cd886232dc78797a66",
+    "mappedOn": null,
+    "summary": "Connects orderbase time PDA with Aptean Equipment Mobile Service",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-close-invoice",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers",
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "FDC time tracking via orderbase",
+      "Setup of roundings and surcharges",
+      "Transfers times to service orders",
+      "View and correct order-related times",
+      "Time logging with orderbase terminal"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "orderbase Time Management PDA",
+      "orderbase Terminal"
+    ],
+    "requires": [
+      "Aptean Equipment Mobile Service",
+      "Aptean Equipment DMS",
+      "orderbase Time Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

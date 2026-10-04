@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.jrsdynamicsinfosolutionsllp1720168519830|AID.jrs00001|PAPPID.028fac33-e207-4241-abea-ddafb4f0bb78",
+  "guid": "028fac33-e207-4241-abea-ddafb4f0bb78",
+  "publisherId": "jrsdynamicsinfosolutionsllp1720168519830",
+  "offerId": "jrs00001",
+  "source": {
+    "name": "Purchase Requisition",
+    "publisher": "JRS Dynamics Info Solutions LLP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jrsdynamicsinfosolutionsllp1720168519830%7CAID.jrs00001%7CPAPPID.028fac33-e207-4241-abea-ddafb4f0bb78",
+    "lastModified": "2025-04-18T09:09:01.0416853+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://jrsdynamics.com/contact-us/",
+    "sourceHash": "sha256:65741e746afc89a3d4115185292da9c25355ef708039ef8585de26934acbf647"
+  },
+  "mapping": {
+    "sourceHash": "sha256:65741e746afc89a3d4115185292da9c25355ef708039ef8585de26934acbf647",
+    "mappedOn": null,
+    "summary": "Purchase requisitions, approvals and vendor comparison",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Purchase requisition with approval workflow",
+      "Multiple vendors per item",
+      "Vendor comparison matrix",
+      "Shortlist vendors by price, availability and other parameters"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

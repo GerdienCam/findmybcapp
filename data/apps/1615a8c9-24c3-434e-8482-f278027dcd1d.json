@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.brightcom_3111464|AID.brc_retail_extension|PAPPID.1615a8c9-24c3-434e-8482-f278027dcd1d",
+  "guid": "1615a8c9-24c3-434e-8482-f278027dcd1d",
+  "publisherId": "brightcom_3111464",
+  "offerId": "brc_retail_extension",
+  "source": {
+    "name": "BRC Retail Extension",
+    "publisher": "BrightCom Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.brc_retail_extension%7CPAPPID.1615a8c9-24c3-434e-8482-f278027dcd1d",
+    "lastModified": "2026-10-01T13:55:53.8992585+00:00",
+    "appVersion": "28.0.35368.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.brightcom.se/sv/Products/BRCRetail",
+    "sourceHash": "sha256:502f4cc015dbc4b9d61d606a9799c09b402c807be93a22246d29d342b0ab5a76"
+  },
+  "mapping": {
+    "sourceHash": "sha256:502f4cc015dbc4b9d61d606a9799c09b402c807be93a22246d29d342b0ab5a76",
+    "mappedOn": null,
+    "summary": "Manages retail item variants with size, color, EAN, prices and brands",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-fashion",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail",
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Matrix-based variant creation via templates",
+      "Order quantities per variant via matrix",
+      "Barcode, vendor ref and brand per variant",
+      "Variant-specific sales and purchase prices",
+      "Inventory per variant and location with EAN",
+      "Inventory valuation by variant",
+      "Label print (coming soon)",
+      "Multi-language variant values and sorting order",
+      "Cloud deployment"
+    ],
+    "countries": [
+      "DK",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Fashion",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

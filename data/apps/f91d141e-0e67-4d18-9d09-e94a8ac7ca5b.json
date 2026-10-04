@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.navtech-3016589|AID.barcode_scan|PAPPID.f91d141e-0e67-4d18-9d09-e94a8ac7ca5b",
+  "guid": "f91d141e-0e67-4d18-9d09-e94a8ac7ca5b",
+  "publisherId": "navtech-3016589",
+  "offerId": "barcode_scan",
+  "source": {
+    "name": "Barcode Scan NTG",
+    "publisher": "Navtech Group",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navtech-3016589%7CAID.barcode_scan%7CPAPPID.f91d141e-0e67-4d18-9d09-e94a8ac7ca5b",
+    "lastModified": "2025-08-26T12:25:18.2229148+00:00",
+    "appVersion": "1.0.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://navtech.net/info/app-source",
+    "sourceHash": "sha256:feb112a9a8ed67c923f81e7949c500cf51f0b271577d3d8de2302d6702fc4197"
+  },
+  "mapping": {
+    "sourceHash": "sha256:feb112a9a8ed67c923f81e7949c500cf51f0b271577d3d8de2302d6702fc4197",
+    "mappedOn": null,
+    "summary": "Barcode scanning on sales orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Scan barcodes into sales orders",
+      "Create order, select customer, then scan items",
+      "Scan barcode to look up item information",
+      "Handles items and variants via barcodes",
+      "Free version limited to 5 scans",
+      "Business Central Online only"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

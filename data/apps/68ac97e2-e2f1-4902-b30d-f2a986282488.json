@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.novaterraebusinessengines1588944710709|AID.aptean_connector|PAPPID.68ac97e2-e2f1-4902-b30d-f2a986282488",
+  "guid": "68ac97e2-e2f1-4902-b30d-f2a986282488",
+  "publisherId": "novaterraebusinessengines1588944710709",
+  "offerId": "aptean_connector",
+  "source": {
+    "name": "Aptean Advanced Workflow Connector",
+    "publisher": "Novaterrae B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.novaterraebusinessengines1588944710709%7CAID.aptean_connector%7CPAPPID.68ac97e2-e2f1-4902-b30d-f2a986282488",
+    "lastModified": "2026-03-18T11:23:05.9010113+00:00",
+    "appVersion": "1.0.0.17",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.novaterrae.nl/support/",
+    "sourceHash": "sha256:a4977342ef532146dcf4b6b64bcafef1c95820b549e7829c340fa5d918db7c66"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a4977342ef532146dcf4b6b64bcafef1c95820b549e7829c340fa5d918db7c66",
+    "mappedOn": null,
+    "summary": "Connects Business Automation Pack to Aptean Advanced Workflow",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Links Aptean Advanced Workflow to NovaTerrae Business Automation Pack",
+      "Multi-level approvals on purchase and sales documents, including each sales document type",
+      "Automated task follow-ups and notifications via workflow rules",
+      "Reports on, and tracks the status of, processes in progress",
+      "Integrates the Power Platform",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Aptean Advanced Workflow"
+    ],
+    "requires": [
+      "Aptean Advanced Workflow",
+      "NovaTerrae Business Automation Pack"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

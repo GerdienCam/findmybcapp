@@ -1,0 +1,59 @@
+{
+  "appId": "TYPE.connect|PUBID.microsoftdynsmb|AID.qbdatamigration|PAPPID.00000000-0000-0000-0000-000000000000",
+  "guid": "00000000-0000-0000-0000-000000000000",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "qbdatamigration",
+  "source": {
+    "name": "QuickBooks Data Migration",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.microsoftdynsmb%7CAID.qbdatamigration%7CPAPPID.00000000-0000-0000-0000-000000000000",
+    "lastModified": "2021-02-11T08:45:10+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:692068d8c913f5c2cbd116f91b0859b1902daf76d15e4d8ed23c8eb601121426"
+  },
+  "mapping": {
+    "sourceHash": "sha256:692068d8c913f5c2cbd116f91b0859b1902daf76d15e4d8ed23c8eb601121426",
+    "mappedOn": null,
+    "summary": "Migrates master data from QuickBooks",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Moves accounts, items, vendors and customers over from QuickBooks",
+      "Supports QuickBooks Desktop via exporter tool and QuickBooks Online",
+      "Migrates GL accounts with a beginning balance transaction",
+      "Migrates open customer and vendor transactions",
+      "Migrates inventory items with quantity on hand and service items"
+    ],
+    "countries": [
+      "CA",
+      "GB",
+      "US"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "QuickBooks Desktop",
+      "QuickBooks Online"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.inventorynotinvoicedatdate|PAPPID.64136c4a-2770-4297-b1aa-cc19c00ea89c",
+  "guid": "64136c4a-2770-4297-b1aa-cc19c00ea89c",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "inventorynotinvoicedatdate",
+  "source": {
+    "name": "Inventory Not Invoiced At Date",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.inventorynotinvoicedatdate%7CPAPPID.64136c4a-2770-4297-b1aa-cc19c00ea89c",
+    "lastModified": "2026-08-13T18:27:48.4545547+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/Inventory-Not-Invoiced-At-Date",
+    "sourceHash": "sha256:fee507342b6cc48fd131ae0bd2510895d8e498398d7d5dc9a32c661c9ffdd6d9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fee507342b6cc48fd131ae0bd2510895d8e498398d7d5dc9a32c661c9ffdd6d9",
+    "mappedOn": null,
+    "summary": "Values received or shipped inventory not yet invoiced at a date",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-period-close",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-gl-reconciliation",
+      "ng-accruals-deferrals",
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Lists purchase lines received but not invoiced",
+      "Lists sales lines shipped but not invoiced",
+      "Compares ordered, received/shipped, invoiced quantities",
+      "Amounts in document currency and LCY",
+      "Date-filtered received/shipped-not-invoiced reports",
+      "Opens Inventory - G/L Reconciliation and Inventory Valuation",
+      "No additional setup required"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "MatchBC Quick Links"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

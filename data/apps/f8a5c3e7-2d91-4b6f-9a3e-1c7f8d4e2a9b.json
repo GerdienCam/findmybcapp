@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.brightcom_3111464|AID.brc_risk|PAPPID.f8a5c3e7-2d91-4b6f-9a3e-1c7f8d4e2a9b",
+  "guid": "f8a5c3e7-2d91-4b6f-9a3e-1c7f8d4e2a9b",
+  "publisherId": "brightcom_3111464",
+  "offerId": "brc_risk",
+  "source": {
+    "name": "BRC Risk Management",
+    "publisher": "BrightCom Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.brc_risk%7CPAPPID.f8a5c3e7-2d91-4b6f-9a3e-1c7f8d4e2a9b",
+    "lastModified": "2026-10-01T14:41:05.3462641+00:00",
+    "appVersion": "28.0.35617.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.brightcom.se/sv/Products/BRCRisk",
+    "sourceHash": "sha256:a03e3c96805f99e8c429c8a66514b48d04401795999ce4fa76d0f721fffb0b85"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a03e3c96805f99e8c429c8a66514b48d04401795999ce4fa76d0f721fffb0b85",
+    "mappedOn": null,
+    "summary": "Monitors customer and vendor credit risk via TIC data",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Daily automated risk monitoring of customers and vendors",
+      "Displays credit scores from 0 to 100 and the debt balance",
+      "Company search by name, VAT or organization number",
+      "Shows risk indicators on the lists of customers and vendors",
+      "Watchlists with automated notifications",
+      "Integrates with TIC (The Intelligence Company)",
+      "Shows payment marks",
+      "Role-based permissions and audit trails"
+    ],
+    "countries": [
+      "SE"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "TIC (The Intelligence Company)"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

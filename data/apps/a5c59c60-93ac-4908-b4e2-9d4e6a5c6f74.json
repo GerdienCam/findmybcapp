@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.bcility1636664056498|AID.bcility-external-file-storage-aws-s3|PAPPID.a5c59c60-93ac-4908-b4e2-9d4e6a5c6f74",
+  "guid": "a5c59c60-93ac-4908-b4e2-9d4e6a5c6f74",
+  "publisherId": "bcility1636664056498",
+  "offerId": "bcility-external-file-storage-aws-s3",
+  "source": {
+    "name": "External File Storage - AWS S3 Connector",
+    "publisher": "BCILITY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcility1636664056498%7CAID.bcility-external-file-storage-aws-s3%7CPAPPID.a5c59c60-93ac-4908-b4e2-9d4e6a5c6f74",
+    "lastModified": "2026-01-05T06:54:33.7172381+00:00",
+    "appVersion": "27.0.0.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcility.com/about-us/",
+    "sourceHash": "sha256:dfad1dd17721df016177ea67bcea878ca67dddfcffea7cbacf2b986122bb86bc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dfad1dd17721df016177ea67bcea878ca67dddfcffea7cbacf2b986122bb86bc",
+    "mappedOn": null,
+    "summary": "AWS S3 connector for External File Storage module",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Stores BC files in AWS S3 and S3-compatible storage",
+      "Upload and download files to S3 buckets",
+      "Copy and move files within storage",
+      "Create, list and delete folders",
+      "Custom endpoints for S3-compatible services like MinIO and Wasabi",
+      "Multiple S3 accounts",
+      "Setup wizard",
+      "Accounts auto-disabled when a sandbox is created",
+      "Requires the External File Storage Module"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "AWS S3",
+      "MinIO",
+      "Wasabi"
+    ],
+    "requires": [
+      "External File Storage Module"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

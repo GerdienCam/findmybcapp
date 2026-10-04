@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.alna_business|AID.alna_hr_office_bonus|PAPPID.0645feac-77a0-4671-b983-3a6b1a0a8f16",
+  "guid": "0645feac-77a0-4671-b983-3a6b1a0a8f16",
+  "publisherId": "alna_business",
+  "offerId": "alna_hr_office_bonus",
+  "source": {
+    "name": "Alna HR Office (Bonus)",
+    "publisher": "Alna Business",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alna_business%7CAID.alna_hr_office_bonus%7CPAPPID.0645feac-77a0-4671-b983-3a6b1a0a8f16",
+    "lastModified": "2024-11-19T21:56:18.3663455+00:00",
+    "appVersion": "220.69.0.14",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.alna.lt/business/en/solutions/alna-hr-office",
+    "sourceHash": "sha256:f1bf4f574bf4421005db0ce7d6dd6eda41581a7a446e14be0cd8c221ac92d48b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f1bf4f574bf4421005db0ce7d6dd6eda41581a7a446e14be0cd8c221ac92d48b",
+    "mappedOn": null,
+    "summary": "Employee bonus and incentive management for Alna HR Office",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Extends Alna HR Office bonus calculation",
+      "Reports on incentives applied to employees",
+      "Imports bonus data from Excel",
+      "Bonus setup with multiple conditions and objectives",
+      "Automatic additional bonus calculation"
+    ],
+    "countries": [
+      "DK",
+      "EE",
+      "FI",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "lt"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Alna HR Office"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "appId": "TYPE.connect|PUBID.beehexacorp1632107602169|AID.hexasync_shopify_plus_ms_business_central|PAPPID.1b5b4875-e3c7-4444-8beb-db1086f18121",
+  "guid": "1b5b4875-e3c7-4444-8beb-db1086f18121",
+  "publisherId": "beehexacorp1632107602169",
+  "offerId": "hexasync_shopify_plus_ms_business_central",
+  "source": {
+    "name": "HexaSync Shopify Plus Connector",
+    "publisher": "Beehexa Corp",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.beehexacorp1632107602169%7CAID.hexasync_shopify_plus_ms_business_central%7CPAPPID.1b5b4875-e3c7-4444-8beb-db1086f18121",
+    "lastModified": "2024-11-21T18:30:12.2649252+00:00",
+    "appVersion": "2.1.1.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://app-az.hexasync.com/login",
+    "sourceHash": "sha256:e7f7b66c2c6867b0cba39703d1e742638208c30517eb303dde1dfae5eb3ef417"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e7f7b66c2c6867b0cba39703d1e742638208c30517eb303dde1dfae5eb3ef417",
+    "mappedOn": null,
+    "summary": "Syncs orders and products with Shopify Plus",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Syncs sales orders, customer details, products and inventory between BC and Shopify Plus",
+      "Tracks orders, inventory, products, categories and customers",
+      "Middleware platform that transfers data between systems",
+      "Message queue based architecture",
+      "Cell-based field mapping between systems",
+      "Monitors each sync transaction for success or failure and the reason",
+      "Configurable task schedulers",
+      "Customizable sync tasks",
+      "Requires a HexaSync account"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Shopify Plus",
+      "HexaSync"
+    ],
+    "requires": [
+      "HexaSync"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

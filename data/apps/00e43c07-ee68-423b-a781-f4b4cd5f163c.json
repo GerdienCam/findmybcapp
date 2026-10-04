@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionscan|PAPPID.00e43c07-ee68-423b-a781-f4b4cd5f163c",
+  "guid": "00e43c07-ee68-423b-a781-f4b4cd5f163c",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionscan",
+  "source": {
+    "name": "VisionScan",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionscan%7CPAPPID.00e43c07-ee68-423b-a781-f4b4cd5f163c",
+    "lastModified": "2026-09-14T10:57:21.7009998+00:00",
+    "appVersion": "20.1.0.35",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.visionpeople.dk/help/scan/",
+    "sourceHash": "sha256:bb28ef9ec1af86c6ab763de058c8797451a85b3d0210b1fa0b8cb9c8a611db76"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bb28ef9ec1af86c6ab763de058c8797451a85b3d0210b1fa0b8cb9c8a611db76",
+    "mappedOn": null,
+    "summary": "Mobile barcode scanning for receipts, shipments, transfers, counts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-stock-counting",
+      "ng-proj-materials-subcontract"
+    ],
+    "claims": [
+      "Barcode scanning on iPad, tablet or phone",
+      "Supports Android and iOS",
+      "Also works on handheld terminals",
+      "Integrates with NAV and Business Central",
+      "Workflows for counting, job usage, location transfer, receiving purchases and shipping sales",
+      "Requires a website to run"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

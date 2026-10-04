@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.tuetech1695034641774|AID.claimlane_integration|PAPPID.3f2504e0-4f89-11d3-9a0c-0305e82c3301",
+  "guid": "3f2504e0-4f89-11d3-9a0c-0305e82c3301",
+  "publisherId": "tuetech1695034641774",
+  "offerId": "claimlane_integration",
+  "source": {
+    "name": "Claimlane Integration",
+    "publisher": "TueTech",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tuetech1695034641774%7CAID.claimlane_integration%7CPAPPID.3f2504e0-4f89-11d3-9a0c-0305e82c3301",
+    "lastModified": "2026-09-10T11:30:38.7558837+00:00",
+    "appVersion": "1.2.7.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://tuetech.io/claimlane/documentation/",
+    "sourceHash": "sha256:ef9be0ecd1b4be7ab4b8e82b2be94961a8568d9ded92412856dd311b3ab4053d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ef9be0ecd1b4be7ab4b8e82b2be94961a8568d9ded92412856dd311b3ab4053d",
+    "mappedOn": null,
+    "summary": "Automates returns and claims via Claimlane",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-customer-returns",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-correct-posted"
+    ],
+    "claims": [
+      "Separate workflows for claims and returns",
+      "Automates B2B credit notes by matching claims against posted invoices",
+      "Price reductions via item charges",
+      "Updates product data in Claimlane B2B module",
+      "Setup in under 10 minutes",
+      "Requires active Claimlane subscription"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Claimlane"
+    ],
+    "requires": [
+      "Claimlane"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

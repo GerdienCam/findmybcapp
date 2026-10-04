@@ -1,0 +1,61 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.e-invoicing|PAPPID.1a5f8b1c-c396-440f-9c2a-a037ef3ef33e",
+  "guid": "1a5f8b1c-c396-440f-9c2a-a037ef3ef33e",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "e-invoicing",
+  "source": {
+    "name": "E-Invoicing",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.e-invoicing%7CPAPPID.1a5f8b1c-c396-440f-9c2a-a037ef3ef33e",
+    "lastModified": "2026-07-16T12:29:54.2669173+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://hubbroker.com/solutions/einvoicing-solution-provider/",
+    "sourceHash": "sha256:599e14d70a8b22b52e6418e49eda0970878fb6adbef56bd6cd4cff1e43b14682"
+  },
+  "mapping": {
+    "sourceHash": "sha256:599e14d70a8b22b52e6418e49eda0970878fb6adbef56bd6cd4cff1e43b14682",
+    "mappedOn": null,
+    "summary": "E-invoicing exchange",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Sends and receives invoices electronically in standardized formats",
+      "Follows Peppol, EU directives, country e-invoicing rules and VAT mandates",
+      "Handles JSON, UBL, EDIFACT and XML, and converts PDF to XML",
+      "Validation before transmission",
+      "Works with Microsoft Dynamics, SAP and Uniconta",
+      "GDPR-compliant platform",
+      "Covers EU and North America mandates"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Peppol",
+      "SAP",
+      "Uniconta"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

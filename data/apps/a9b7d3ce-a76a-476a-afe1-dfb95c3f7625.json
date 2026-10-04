@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.binary-stream-software|AID.easy_journal_entry_utility_for_d365bc|PAPPID.a9b7d3ce-a76a-476a-afe1-dfb95c3f7625",
+  "guid": "a9b7d3ce-a76a-476a-afe1-dfb95c3f7625",
+  "publisherId": "binary-stream-software",
+  "offerId": "easy_journal_entry_utility_for_d365bc",
+  "source": {
+    "name": "Easy Journal Import Utility",
+    "publisher": "Binary Stream Software Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binary-stream-software%7CAID.easy_journal_entry_utility_for_d365bc%7CPAPPID.a9b7d3ce-a76a-476a-afe1-dfb95c3f7625",
+    "lastModified": "2026-05-20T19:12:30.5589987+00:00",
+    "appVersion": "1.11.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/EJIHelp/EJI.htm",
+    "sourceHash": "sha256:e292d2c0faeb6585b81be937ba1491b268d085cb55b90c80a4b0339d572d25c8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e292d2c0faeb6585b81be937ba1491b268d085cb55b90c80a4b0339d572d25c8",
+    "mappedOn": null,
+    "summary": "Imports journal entries from Excel or CSV",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-journals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-payroll-comp"
+    ],
+    "claims": [
+      "Imports journals from Excel or CSV",
+      "Export journal templates, edit in Excel and reimport with one click",
+      "Supports all journal types",
+      "Smart field mapping",
+      "Auto-generated document numbers",
+      "Automatic error detection",
+      "Creates missing dimension values on the fly",
+      "Batch uploads for large data sets",
+      "Usable for payroll, fixed asset and recurring entries"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

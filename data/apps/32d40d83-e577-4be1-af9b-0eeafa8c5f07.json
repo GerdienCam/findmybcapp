@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.logtrade_technology|AID.logtrade_connect_cost_control|PAPPID.32d40d83-e577-4be1-af9b-0eeafa8c5f07",
+  "guid": "32d40d83-e577-4be1-af9b-0eeafa8c5f07",
+  "publisherId": "logtrade_technology",
+  "offerId": "logtrade_connect_cost_control",
+  "source": {
+    "name": "Logtrade Connect Cost Control",
+    "publisher": "Logtrade Technology AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.logtrade_technology%7CAID.logtrade_connect_cost_control%7CPAPPID.32d40d83-e577-4be1-af9b-0eeafa8c5f07",
+    "lastModified": "2026-02-16T15:17:03.6130904+00:00",
+    "appVersion": "25.8.80.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://connect.logtrade.se/bc-cost-control/",
+    "sourceHash": "sha256:b279087a7cbf7443795554b8c716eb897911fc8c78bc96ef68ddee0bccc96b96"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b279087a7cbf7443795554b8c716eb897911fc8c78bc96ef68ddee0bccc96b96",
+    "mappedOn": null,
+    "summary": "Allocates actual freight costs to consignments",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-freight-cost-audit",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-analytics"
+    ],
+    "claims": [
+      "Imports carrier invoices from Logtrade",
+      "Imports Excel files with invoice or other cost data",
+      "Manual entry of costs and choice of consignments to allocate them to",
+      "Allocates actual freight cost, charges and handling fees to released consignments",
+      "Shows different cost types on individual consignments",
+      "Cost analysis per customer and carrier"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Logtrade"
+    ],
+    "requires": [
+      "Logtrade Connect"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

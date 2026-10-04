@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.bizzcoresystemsgmbh1675626167274|AID.activitylogplus|PAPPID.835f0367-4c06-4723-90ab-a74d07b46386",
+  "guid": "835f0367-4c06-4723-90ab-a74d07b46386",
+  "publisherId": "bizzcoresystemsgmbh1675626167274",
+  "offerId": "activitylogplus",
+  "source": {
+    "name": "BIZZCORE activityLogPlus",
+    "publisher": "BIZZCORE Systems GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bizzcoresystemsgmbh1675626167274%7CAID.activitylogplus%7CPAPPID.835f0367-4c06-4723-90ab-a74d07b46386",
+    "lastModified": "2026-09-09T19:22:08.6586207+00:00",
+    "appVersion": "22.6.64.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bizzcore.de/activitylogplus",
+    "sourceHash": "sha256:6cd6c7de577901b079a922834e5820a8df75e856a01686aa9b2711cacf71ca61"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6cd6c7de577901b079a922834e5820a8df75e856a01686aa9b2711cacf71ca61",
+    "mappedOn": null,
+    "summary": "Analyzes user activity to right-size Essentials vs Team Member licenses",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-licensing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-users-signin"
+    ],
+    "claims": [
+      "Records per session which permissions each user needed and checks against license level",
+      "Identifies overlicensed and underlicensed users",
+      "Free version shows how many users are overlicensed; full version shows which",
+      "Shows where a Team Member license is sufficient",
+      "Session log of who signs in, how often and how intensively",
+      "Logging per user or globally, with or without start/end times",
+      "Available for older NAV versions on request to plan BC online move"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics NAV"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

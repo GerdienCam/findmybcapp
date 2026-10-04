@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.alterna|AID.05fc1b8d-de85-4af7-b477-738385f2ff4c|PAPPID.05fc1b8d-de85-4af7-b477-738385f2ff4c",
+  "guid": "05fc1b8d-de85-4af7-b477-738385f2ff4c",
+  "publisherId": "alterna",
+  "offerId": "05fc1b8d-de85-4af7-b477-738385f2ff4c",
+  "source": {
+    "name": "Commissions Management",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.05fc1b8d-de85-4af7-b477-738385f2ff4c%7CPAPPID.05fc1b8d-de85-4af7-b477-738385f2ff4c",
+    "lastModified": "2026-09-22T17:22:59.678389+00:00",
+    "appVersion": "1.27.80.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/commissions-management/",
+    "sourceHash": "sha256:cf538de5a3941e674e3dcf32a0d9a7b028b0c18ffacbabd6fac45326a35cf63a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cf538de5a3941e674e3dcf32a0d9a7b028b0c18ffacbabd6fac45326a35cf63a",
+    "mappedOn": null,
+    "summary": "Calculates salesperson commissions per document line",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-commissions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Commission % by salesperson group, role, customer group, item group and validity period",
+      "Unlimited salespersons per document or document line",
+      "Salesperson roles and calculation type",
+      "Commission notes from accrued commission entries",
+      "Creates purchase invoices for commissions",
+      "Calculation based on amount invoiced or paid",
+      "Tree-view page to check commissions",
+      "Manual commissions and bonus via Commissions Journal",
+      "Salespersons and roles can be defaulted on customers, plus on ship-to addresses",
+      "Discount range calculation adjusts commission amounts",
+      "Posts commission costs to G/L",
+      "30-day free trial then subscription"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Consumer Goods",
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

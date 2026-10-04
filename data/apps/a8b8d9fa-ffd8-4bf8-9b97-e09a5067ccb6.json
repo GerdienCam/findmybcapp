@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.gestisoft|AID.vendor_vequest_for_quote|PAPPID.a8b8d9fa-ffd8-4bf8-9b97-e09a5067ccb6",
+  "guid": "a8b8d9fa-ffd8-4bf8-9b97-e09a5067ccb6",
+  "publisherId": "gestisoft",
+  "offerId": "vendor_vequest_for_quote",
+  "source": {
+    "name": "Vendor Request for Quote (RFQ)",
+    "publisher": "Gestisoft Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gestisoft%7CAID.vendor_vequest_for_quote%7CPAPPID.a8b8d9fa-ffd8-4bf8-9b97-e09a5067ccb6",
+    "lastModified": "2026-07-15T05:58:40.3641852+00:00",
+    "appVersion": "1.1.20251020.105540",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.gestisoft.com/en/support/product-documentation",
+    "sourceHash": "sha256:29a75eeb5b039a8550cf7595951e44020242bec1568f8537f527ac89f7231cb8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:29a75eeb5b039a8550cf7595951e44020242bec1568f8537f527ac89f7231cb8",
+    "mappedOn": null,
+    "summary": "Automates purchase quote requests to vendors",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-replenishment-planning"
+    ],
+    "claims": [
+      "Creates quote requests and sends them to suppliers",
+      "Centralized tracking of supplier responses and status",
+      "Compares offers from different suppliers",
+      "Create RFQs from the planning worksheet (MRP)",
+      "Two supplier proposal methods",
+      "Prints and sends quotes to suppliers in bulk",
+      "Accept and release one or multiple purchase quotes",
+      "No longer maintained after July 1, 2026; successor app is AMP Vendor Request for Quotes"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": true,
+    "hideReason": "Listing states app is no longer maintained as of July 1, 2026; replaced by AMP Vendor Request for Quotes",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

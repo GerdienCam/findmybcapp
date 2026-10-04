@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.microapps|AID.contract-management|PAPPID.a9175434-3741-44e3-8f76-8c9ba58568ec",
+  "guid": "a9175434-3741-44e3-8f76-8c9ba58568ec",
+  "publisherId": "microapps",
+  "offerId": "contract-management",
+  "source": {
+    "name": "Contract Management",
+    "publisher": "Micro Apps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microapps%7CAID.contract-management%7CPAPPID.a9175434-3741-44e3-8f76-8c9ba58568ec",
+    "lastModified": "2026-07-22T02:51:03.5679835+00:00",
+    "appVersion": "2.0.0.21",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Contract%20Management%20Manual.pdf",
+    "sourceHash": "sha256:c48369f6a0476d2388eb4b6f4429e5525c2203dfc5ab800398458f0bfc00ac47"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c48369f6a0476d2388eb4b6f4429e5525c2203dfc5ab800398458f0bfc00ac47",
+    "mappedOn": null,
+    "summary": "Customer contract management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Registers contract start, end and renewal dates",
+      "Converts sales quotes into contracts",
+      "Periodic invoicing from contracts",
+      "Bulk invoicing of contracts",
+      "Multiple contracts per customer with own payment terms",
+      "One-off extra lines on contracts",
+      "Deferral of contract turnover"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

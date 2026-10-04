@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.abakion|AID.warehouse_manager|PAPPID.d8b56ed3-3f84-46b1-a032-c8b4f687e7e8",
+  "guid": "d8b56ed3-3f84-46b1-a032-c8b4f687e7e8",
+  "publisherId": "abakion",
+  "offerId": "warehouse_manager",
+  "source": {
+    "name": "Warehouse Manager",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.warehouse_manager%7CPAPPID.d8b56ed3-3f84-46b1-a032-c8b4f687e7e8",
+    "lastModified": "2026-09-01T10:20:54.7436265+00:00",
+    "appVersion": "28.4.202636.175750",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/warehouse-manager/#howto",
+    "sourceHash": "sha256:74b7872dc4f7c6156a66e7a433133cb2ff22a243aba1f9c1ae4b87c0ecfa0028"
+  },
+  "mapping": {
+    "sourceHash": "sha256:74b7872dc4f7c6156a66e7a433133cb2ff22a243aba1f9c1ae4b87c0ecfa0028",
+    "mappedOn": null,
+    "summary": "Manages third-party logistics warehouse locations in sales and purchase flows",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Passes warehouse shipments and sales orders to an external warehouse that ships them",
+      "Sends purchases to an external warehouse",
+      "One-click \"Send to 3PL\" action on orders",
+      "Receives shipment confirmation from the 3PL and updates the warehouse shipment, inventory pick or sales order",
+      "Shows 3PL status on the document (Received at warehouse, Shipped)",
+      "Supports purchase orders and purchase receipts with 3PL receipt notification",
+      "Publisher configures integrations to new 3PL suppliers in a few days",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "3PL warehouses"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

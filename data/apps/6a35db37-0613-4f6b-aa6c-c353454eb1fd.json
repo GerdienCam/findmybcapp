@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.orgavision|AID.connector_export_control|PAPPID.6a35db37-0613-4f6b-aa6c-c353454eb1fd",
+  "guid": "6a35db37-0613-4f6b-aa6c-c353454eb1fd",
+  "publisherId": "orgavision",
+  "offerId": "connector_export_control",
+  "source": {
+    "name": "Connector Export Control",
+    "publisher": "Orgavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.orgavision%7CAID.connector_export_control%7CPAPPID.6a35db37-0613-4f6b-aa6c-c353454eb1fd",
+    "lastModified": "2026-09-11T20:32:59.2548132+00:00",
+    "appVersion": "25.1.0.2",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.orgavision.app/en/connector-export-control/",
+    "sourceHash": "sha256:18d35a2f78ad1550c3124eaac2ada82f89d35187fce72a03837c276d685b4691"
+  },
+  "mapping": {
+    "sourceHash": "sha256:18d35a2f78ad1550c3124eaac2ada82f89d35187fce72a03837c276d685b4691",
+    "mappedOn": null,
+    "summary": "Checks products against embargo lists",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-product-compliance",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-audit-compliance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds"
+    ],
+    "claims": [
+      "Checks products and goods against embargo lists or custom lists",
+      "Check integrated into sales processes such as approving quotes, orders and invoices",
+      "Email notifications for potential matches",
+      "Logging of all goods movements",
+      "Inspects finished goods, merchandise and other item types in BC"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

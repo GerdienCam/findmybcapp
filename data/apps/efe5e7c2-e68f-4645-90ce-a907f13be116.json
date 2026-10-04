@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.terna|AID.reactor-mobile-inventory|PAPPID.efe5e7c2-e68f-4645-90ce-a907f13be116",
+  "guid": "efe5e7c2-e68f-4645-90ce-a907f13be116",
+  "publisherId": "terna",
+  "offerId": "reactor-mobile-inventory",
+  "source": {
+    "name": "BE-terna Reactor Mobile Inventory",
+    "publisher": "BE-terna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.terna%7CAID.reactor-mobile-inventory%7CPAPPID.efe5e7c2-e68f-4645-90ce-a907f13be116",
+    "lastModified": "2026-08-26T15:05:08.9471543+00:00",
+    "appVersion": "23.12.105.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://be-terna.helpjuice.com/en_US/be-terna-reactor-add-ons/-be-terna-reactor-mobile-inventory",
+    "sourceHash": "sha256:9fea91ddeac8f65d68e1e849544d1a4c894b32124d793e06797b0b3d09b071f3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9fea91ddeac8f65d68e1e849544d1a4c894b32124d793e06797b0b3d09b071f3",
+    "mappedOn": null,
+    "summary": "Mobile scanner inventory transfers and queries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-stock-movements",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting"
+    ],
+    "claims": [
+      "Two-stage transfers via material handling equipment bin",
+      "Direct stock transfers with barcode scanning",
+      "Item query with availability, tracking and PO data",
+      "Bin content query",
+      "Positive and negative adjustments from mobile",
+      "Built on BE-terna Reactor Platform"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "BE-terna Reactor Platform"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.succeedit_5140844|AID.intercompany_app|PAPPID.2322ae21-d297-45f9-96f8-b2d43fdef5b9",
+  "guid": "2322ae21-d297-45f9-96f8-b2d43fdef5b9",
+  "publisherId": "succeedit_5140844",
+  "offerId": "intercompany_app",
+  "source": {
+    "name": "Intercompany App",
+    "publisher": "SucceedIT B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.succeedit_5140844%7CAID.intercompany_app%7CPAPPID.2322ae21-d297-45f9-96f8-b2d43fdef5b9",
+    "lastModified": "2026-08-24T11:36:55.1646498+00:00",
+    "appVersion": "26.0.20260824.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.succeedit.nl/business-central-apps/intercompany-app/",
+    "sourceHash": "sha256:e55eb4790c8c3b7dc07f160c5fb069ea94402ec73789afff84a92dcd75138c10"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e55eb4790c8c3b7dc07f160c5fb069ea94402ec73789afff84a92dcd75138c10",
+    "mappedOn": null,
+    "summary": "Processes intercompany transactions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Automatically makes intercompany entries",
+      "Automatically places orders and invoices the appropriate entity",
+      "Management view of all transactions between entities",
+      "Shows inventory status of another company",
+      "30-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

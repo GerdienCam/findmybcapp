@@ -1,0 +1,211 @@
+{
+  "id": "ng-budget-control",
+  "order": 41,
+  "label": "Stopping spend that exceeds the budget",
+  "description": "Budget control rules, reservations/encumbrances, budget transfers, public-sector appropriation and restricted funds.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "low",
+  "statements": [
+    "Stopping spend that exceeds the budget",
+    "Budget control rules, reservations/encumbrances, budget transfers, public-sector appropriation and restricted funds.",
+    "We want BC to stop a purchase if the department has used up its budget",
+    "budget control block over budget",
+    "Should we budget per account, per department or both?",
+    "Is there an app that warns users when a purchase order goes over budget?",
+    "Our nonprofit needs to make sure restricted grant money isn't overspent",
+    "How should we structure budget versions for original, revised and forecast?",
+    "We want to reserve part of the marketing budget for the trade show in May",
+    "When a purchase order is created, set aside that amount from the budget",
+    "budget reservation encumbrance",
+    "How much of the budget is already committed but not spent?",
+    "Earmark funds for a planned project so others can't use them",
+    "Show open purchase orders as committed against the budget",
+    "Move 20,000 of budget from travel to training",
+    "Shift unspent budget from Q1 into Q3",
+    "budget transfer between departments",
+    "We need an audit trail of budget moves during the year",
+    "Turn the approved budget plan into the live budget",
+    "Department wants to give some budget to another department",
+    "As a municipality our budget must be formally appropriated before spending",
+    "budget appropriation public sector",
+    "Council approved funds need to be loaded as appropriations",
+    "Spending isn't allowed until the appropriation is recorded",
+    "Track appropriated versus spent for each program",
+    "Is there a public sector budgeting app for Business Central?",
+    "We are a nonprofit and need to track each grant as its own fund",
+    "fund accounting Business Central",
+    "Donor restricted money must be reported separately from general funds",
+    "Can BC show a balance sheet per fund?",
+    "We need to make sure grant money is only spent on what the grant allows",
+    "Is there a fund accounting app for BC for charities?"
+  ],
+  "questions": [
+    {
+      "id": "check-point",
+      "text": "At which step should the budget be checked?",
+      "help": "Pick every step where you want a check.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Purchase requests / requisitions",
+          "patterns": [
+            "requisition",
+            "purchase request"
+          ]
+        },
+        {
+          "label": "Purchase orders",
+          "patterns": [
+            "purchase orders?",
+            "\\bPOs?\\b",
+            "purchase (quote|document|process|line)s?",
+            "purchasing process"
+          ]
+        },
+        {
+          "label": "Invoices and G/L postings",
+          "patterns": [
+            "invoice",
+            "g/l entr",
+            "posting"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Purchase requests / requisitions": 0.23,
+        "Purchase orders": 0.85,
+        "Invoices and G/L postings": 0.46
+      }
+    },
+    {
+      "id": "overrun",
+      "text": "What should happen when a purchase goes over budget?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Block it",
+          "patterns": [
+            "block",
+            "prevent",
+            "restrict"
+          ]
+        },
+        {
+          "label": "Send it for approval",
+          "patterns": [
+            "approv"
+          ]
+        },
+        {
+          "label": "Just warn the user",
+          "patterns": [
+            "indicator",
+            "shows? available budget",
+            "visibility",
+            "factbox",
+            "cost vs budget"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Block it": 0.31,
+        "Send it for approval": 0.46,
+        "Just warn the user": 0.23
+      }
+    },
+    {
+      "id": "commitment",
+      "text": "Should budget be reserved as soon as a purchase order is approved?",
+      "help": "Also called commitments or encumbrances.",
+      "options": [
+        {
+          "label": "Yes, reserve it up front",
+          "patterns": [
+            "commit",
+            "encumbr",
+            "reserv"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, reserve it up front": 0.38
+      }
+    },
+    {
+      "id": "budget-by",
+      "text": "What do you set budgets on?",
+      "multi": true,
+      "options": [
+        {
+          "label": "G/L accounts",
+          "patterns": [
+            "g/l (account|budget)",
+            "per g/l",
+            "g/l or fixed asset",
+            "standard (bc|g/l) budget"
+          ]
+        },
+        {
+          "label": "Departments, projects or other dimensions",
+          "patterns": [
+            "dimension",
+            "department",
+            "project"
+          ]
+        },
+        {
+          "label": "Funds or grants",
+          "patterns": [
+            "\\bfunds?\\b",
+            "grant"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "G/L accounts": 0.54,
+        "Departments, projects or other dimensions": 0.54,
+        "Funds or grants": 0.08
+      }
+    },
+    {
+      "id": "transfer",
+      "text": "Do you need to move budget between accounts or periods during the year?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "transfer",
+            "negative allocation",
+            "mid-year",
+            "budget import",
+            "batch upload"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.15
+      }
+    }
+  ]
+}

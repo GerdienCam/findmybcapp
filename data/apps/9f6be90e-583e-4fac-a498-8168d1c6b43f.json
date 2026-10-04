@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.onetech-4745471|AID.albanianappfiscalisation|PAPPID.9f6be90e-583e-4fac-a498-8168d1c6b43f",
+  "guid": "9f6be90e-583e-4fac-a498-8168d1c6b43f",
+  "publisherId": "onetech-4745471",
+  "offerId": "albanianappfiscalisation",
+  "source": {
+    "name": "Albanian Fiscalization App for Microsoft Dynamics 365 Business Central",
+    "publisher": "OneTech",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.onetech-4745471%7CAID.albanianappfiscalisation%7CPAPPID.9f6be90e-583e-4fac-a498-8168d1c6b43f",
+    "lastModified": "2026-09-22T10:47:38.4857945+00:00",
+    "appVersion": "1.0.0.157",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://helpdesk.onetech.eu/",
+    "sourceHash": "sha256:3856c1d9c72b76981e6bbf01e2ffa7aaa8b36e8bb5712c58e803add7785795bd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3856c1d9c72b76981e6bbf01e2ffa7aaa8b36e8bb5712c58e803add7785795bd",
+    "mappedOn": null,
+    "summary": "Albanian fiscalization real-time transmission of fiscal data",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Taxpayer cash register (TCR) recording and reporting",
+      "Cash daily balance overview",
+      "Tracks cash deposits and withdrawals",
+      "Automatically generates and fiscalizes cash invoices",
+      "Albanian e-invoicing compliance",
+      "Corrective invoices",
+      "Sends bank IBAN and payment details in e-invoice",
+      "Fiscalizes transfer orders between locations",
+      "Self-invoicing and reverse charge from purchase invoices",
+      "Approve or reject purchase e-invoices in BC",
+      "Logs all fiscalization attempts",
+      "Automatic re-fiscalization on failure",
+      "Real-time alerts for fiscalization failures",
+      "Certified by Albanian government",
+      "No third-party software needed"
+    ],
+    "countries": [
+      "AL",
+      "XK"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

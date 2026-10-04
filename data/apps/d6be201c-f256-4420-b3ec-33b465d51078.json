@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.mac_it_solutions_1092776|AID.collana_shield|PAPPID.d6be201c-f256-4420-b3ec-33b465d51078",
+  "guid": "d6be201c-f256-4420-b3ec-33b465d51078",
+  "publisherId": "mac_it_solutions_1092776",
+  "offerId": "collana_shield",
+  "source": {
+    "name": "collana shield",
+    "publisher": "MAC IT-Solutions GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mac_it_solutions_1092776%7CAID.collana_shield%7CPAPPID.d6be201c-f256-4420-b3ec-33b465d51078",
+    "lastModified": "2026-08-17T14:46:32.6060763+00:00",
+    "appVersion": "28.0.358657.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.collanashield.com/",
+    "sourceHash": "sha256:94232f29d316b318923b624c02ccaa90de62eca7371336add20d6d2cccf21afe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:94232f29d316b318923b624c02ccaa90de62eca7371336add20d6d2cccf21afe",
+    "mappedOn": null,
+    "summary": "Checks addresses against official sanction lists",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-supplier-quality-compliance",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Screens contacts, customers and vendors against sanctions lists",
+      "Regular automated checks on purchase and sales orders",
+      "Daily updated sanctions lists",
+      "Phonetic name search",
+      "Customizable allow/deny lists",
+      "Blocks risky contacts and prevents order approvals on hits",
+      "Batch processing and cross-company support",
+      "Supports UN, UK, US (DPL, SDN, consolidated), EU and Swiss SECO lists",
+      "1,000 sanction checks per month included, extra checks at 1 cent each"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

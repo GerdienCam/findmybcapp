@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.powerbi-gold-jobs-app|PAPPID.245c780c-85d6-4c92-975b-64257ba17dd0",
+  "guid": "245c780c-85d6-4c92-975b-64257ba17dd0",
+  "publisherId": "fenwicksoftware",
+  "offerId": "powerbi-gold-jobs-app",
+  "source": {
+    "name": "Projects Connector for Power BI",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.powerbi-gold-jobs-app%7CPAPPID.245c780c-85d6-4c92-975b-64257ba17dd0",
+    "lastModified": "2026-06-10T07:10:15.6696996+00:00",
+    "appVersion": "26.0.260409.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/business-intelligence-reporting/docs/",
+    "sourceHash": "sha256:ffac1ee2632951f1b1f5f01b857103d79997a84567b880fe24407579ef15cbc4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ffac1ee2632951f1b1f5f01b857103d79997a84567b880fe24407579ef15cbc4",
+    "mappedOn": null,
+    "summary": "Ready-made Power BI reports for jobs",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Reports on jobs, task lines, planning lines and job ledger entries",
+      "Filter by date range, customer and dimensions",
+      "Budget vs actual cost and profit measures",
+      "Jobs realisation and outstanding PO amount measures",
+      "Requires Power BI Gold Jobs reports"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [
+      "Power BI Gold Jobs"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

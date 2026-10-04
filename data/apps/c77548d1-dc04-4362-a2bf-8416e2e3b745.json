@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.simplyd|AID.sd-tele|PAPPID.c77548d1-dc04-4362-a2bf-8416e2e3b745",
+  "guid": "c77548d1-dc04-4362-a2bf-8416e2e3b745",
+  "publisherId": "simplyd",
+  "offerId": "sd-tele",
+  "source": {
+    "name": "SD Telesales",
+    "publisher": "Simply Dynamics Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.sd-tele%7CPAPPID.c77548d1-dc04-4362-a2bf-8416e2e3b745",
+    "lastModified": "2026-08-20T11:49:57.1130069+00:00",
+    "appVersion": "4.0.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-telesales/",
+    "sourceHash": "sha256:be4985d95c38e2bfaef6f0edc50ac1b599ea322ccad86db6e25df4da346a761a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:be4985d95c38e2bfaef6f0edc50ac1b599ea322ccad86db6e25df4da346a761a",
+    "mappedOn": null,
+    "summary": "Telesales call management and order entry with guided selling",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts",
+      "ng-customer-credit-holds"
+    ],
+    "claims": [
+      "Inbound and outbound call management with call plans and automated call pools",
+      "During calls agents see customer history, item controls, open orders and promotions",
+      "Create sales orders directly from calls",
+      "Enforces minimum order value, credit limits and stock availability on entry",
+      "Call pools distribute outbound calls across agents respecting do-not-call rules",
+      "Repeat/standing orders created automatically on scheduled dates",
+      "Prompts promoted items, specials and customer item rules for upselling",
+      "Manager approval queues for exception orders"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

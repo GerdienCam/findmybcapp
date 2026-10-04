@@ -1,0 +1,83 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.forecastx-connector|PAPPID.6354fa59-67ed-45a2-9a15-324bf3902a96",
+  "guid": "6354fa59-67ed-45a2-9a15-324bf3902a96",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "forecastx-connector",
+  "source": {
+    "name": "ForecastX Connector",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.forecastx-connector%7CPAPPID.6354fa59-67ed-45a2-9a15-324bf3902a96",
+    "lastModified": "2026-01-20T08:18:33.1606412+00:00",
+    "appVersion": "27.2.17109.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.nicsystemslearning.com/help/forecastx-connector",
+    "sourceHash": "sha256:8024e4b4fea2454dd5f899dcd0c37d9872ef01be5007d4c4ac5c7aa4e93c69a6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8024e4b4fea2454dd5f899dcd0c37d9872ef01be5007d4c4ac5c7aa4e93c69a6",
+    "mappedOn": null,
+    "summary": "Exports sales and consumption data to ForecastX",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exports BC data to Excel for ForecastX to generate forecasts",
+      "Imports ForecastX forecasts into the Demand Forecast Overview page",
+      "Imports sales and consumption history from other systems",
+      "Requires full ForecastX license installed as Excel add-in",
+      "Per-user license"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ForecastX",
+      "Excel"
+    ],
+    "requires": [
+      "John Galt ForecastX"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.projects_essentials|PAPPID.bc3c53ad-d808-496f-92e7-6f1d7abc99c2",
+  "guid": "bc3c53ad-d808-496f-92e7-6f1d7abc99c2",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "projects_essentials",
+  "source": {
+    "name": "Projects Essentials",
+    "publisher": "LODESTAR SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.projects_essentials%7CPAPPID.bc3c53ad-d808-496f-92e7-6f1d7abc99c2",
+    "lastModified": "2026-09-23T09:13:17.6370756+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:ab136adc88ab66b4703089875ed2b99ae4f2b5cfe816a985e4b0dfbe49ca77a9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ab136adc88ab66b4703089875ed2b99ae4f2b5cfe816a985e4b0dfbe49ca77a9",
+    "mappedOn": null,
+    "summary": "Project planning, cost control, time and profitability",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-budget",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-wip",
+      "ng-proj-billing",
+      "ng-proj-planning"
+    ],
+    "claims": [
+      "Project budgets by G/L account, item, resource or task",
+      "Budgets with costs, prices, discounts, vendors, currencies and dates; margin calculated",
+      "Certify budget and transfer lines to project planning",
+      "Budget versioning with archived history",
+      "Planned and actual margin per project and task",
+      "Group projects under a Project Order with consolidated margin",
+      "BC price lists and discounts update budget and planning values",
+      "Time worksheet organized by activity, work type, task, project and date",
+      "Tracks effective time and customer time with confirmation workflow",
+      "Approved time transferred to project journals for posting",
+      "Time APIs with Microsoft Entra user mapping for external time tracking",
+      "Task-level WIP analysis with G/L entries",
+      "Recurring billable planning lines by start date, frequency and occurrences",
+      "APIs cover budgets, time journals, resources and projects"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing",
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

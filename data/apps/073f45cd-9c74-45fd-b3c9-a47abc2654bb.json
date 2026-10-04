@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.apcommerce|AID.purchaserequest|PAPPID.073f45cd-9c74-45fd-b3c9-a47abc2654bb",
+  "guid": "073f45cd-9c74-45fd-b3c9-a47abc2654bb",
+  "publisherId": "apcommerce",
+  "offerId": "purchaserequest",
+  "source": {
+    "name": "Purchase Request Module",
+    "publisher": "AP Commerce",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apcommerce%7CAID.purchaserequest%7CPAPPID.073f45cd-9c74-45fd-b3c9-a47abc2654bb",
+    "lastModified": "2026-07-27T08:20:07.1548886+00:00",
+    "appVersion": "1.0.10.0",
+    "pricingTypes": [
+      "Free",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.apcdynamics.com/contact-us/",
+    "sourceHash": "sha256:8a58c10c3a446ef2f6ef4e1d7f82386365806f3b2d76ea5cffd86f357395ee8d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8a58c10c3a446ef2f6ef4e1d7f82386365806f3b2d76ea5cffd86f357395ee8d",
+    "mappedOn": null,
+    "summary": "Purchase requests with approval before purchase orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Employees submit purchase requests without vendor or item details",
+      "Requests routed through standard BC approval workflows",
+      "Full audit trail on purchase requests",
+      "Purchasing team sources vendors or quotes after the request",
+      "Free evaluation in sandbox"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

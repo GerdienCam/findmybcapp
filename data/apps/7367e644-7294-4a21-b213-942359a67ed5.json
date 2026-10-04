@@ -1,0 +1,93 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-cloudconnector|PAPPID.7367e644-7294-4a21-b213-942359a67ed5",
+  "guid": "7367e644-7294-4a21-b213-942359a67ed5",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-cloudconnector",
+  "source": {
+    "name": "BeyondCloudConnector",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-cloudconnector%7CPAPPID.7367e644-7294-4a21-b213-942359a67ed5",
+    "lastModified": "2026-03-05T11:48:30.4079263+00:00",
+    "appVersion": "2026.3.232.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/cloudconnector/index.html",
+    "sourceHash": "sha256:f4b0254d0eeebd91483ed77aac12ae0351d01b081fbb62326146f3bd3a60633e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f4b0254d0eeebd91483ed77aac12ae0351d01b081fbb62326146f3bd3a60633e",
+    "mappedOn": null,
+    "summary": "Stores BC files in SharePoint or Azure storage",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Stores BC-linked files in Azure Blob Storage, Azure Files or SharePoint Online",
+      "Offloads attachments from the BC database to cut storage",
+      "Attach files to any BC record",
+      "One-click upload and open from the record",
+      "Configurable storage rules per document type",
+      "BC fields mapped as document metadata",
+      "Scheduled report archiving via job queue",
+      "Version history and access permissions in the cloud store"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "SharePoint Online",
+      "Azure Blob Storage",
+      "Azure Files"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

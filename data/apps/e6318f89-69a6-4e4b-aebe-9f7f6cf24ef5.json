@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.mementosrls1588695843705|AID.importdatatemplates|PAPPID.e6318f89-69a6-4e4b-aebe-9f7f6cf24ef5",
+  "guid": "e6318f89-69a6-4e4b-aebe-9f7f6cf24ef5",
+  "publisherId": "mementosrls1588695843705",
+  "offerId": "importdatatemplates",
+  "source": {
+    "name": "Import Data Templates",
+    "publisher": "MEMENTO SRL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mementosrls1588695843705%7CAID.importdatatemplates%7CPAPPID.e6318f89-69a6-4e4b-aebe-9f7f6cf24ef5",
+    "lastModified": "2026-09-02T13:25:55.1075856+00:00",
+    "appVersion": "27.0.0.10",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://bcapps.mementoas.com/en-US/apps/ImportDataTemplates/intro.html",
+    "sourceHash": "sha256:233652135510c9786b75625ba46f2cb3949ac3e6b3913d88e9fb17038b91f55d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:233652135510c9786b75625ba46f2cb3949ac3e6b3913d88e9fb17038b91f55d",
+    "mappedOn": null,
+    "summary": "Imports journals and documents from Excel, CSV and text via templates",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals",
+      "ng-admin-data-migration"
+    ],
+    "claims": [
+      "Imports Excel, CSV, fixed-length, JSON and XML, also inside ZIP",
+      "Imports sales and purchase documents of all types incl. lot/serial",
+      "Imports into many journal types",
+      "Bank statements into payment reconciliation journals",
+      "Mapping and transformation rules, dimension mappings",
+      "Run-time import parameters such as posting date",
+      "Validation before writing with line/column errors",
+      "Post-import actions like releasing or posting",
+      "Copilot proposes template from sample file",
+      "Prevents duplicate imports with history",
+      "Templates restricted to specific users",
+      "Copy templates between companies and environments",
+      "Automatic import from SharePoint, Azure Blob or File Share via job queue",
+      "API for automation incl. Power Automate"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint",
+      "Azure Blob Storage",
+      "Power Automate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

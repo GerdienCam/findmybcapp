@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.erpgruppen|AID.erpg_dk-app|PAPPID.66f84f31-36db-45ce-8ce5-5cc590b522b2",
+  "guid": "66f84f31-36db-45ce-8ce5-5cc590b522b2",
+  "publisherId": "erpgruppen",
+  "offerId": "erpg_dk-app",
+  "source": {
+    "name": "DK App",
+    "publisher": "ERPgruppen",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpgruppen%7CAID.erpg_dk-app%7CPAPPID.66f84f31-36db-45ce-8ce5-5cc590b522b2",
+    "lastModified": "2026-10-02T06:03:14.215322+00:00",
+    "appVersion": "2805.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.erpgruppen.dk/kontakt/",
+    "sourceHash": "sha256:3c4055c0caace40ba99f642fd8315c57d4c5163a8c925f40ffdce1d1e456ded6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3c4055c0caace40ba99f642fd8315c57d4c5163a8c925f40ffdce1d1e456ded6",
+    "mappedOn": null,
+    "summary": "Package of sales, inventory, posting and customer handling features",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-data-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality",
+      "ng-sales-pricing",
+      "ng-ux-notes-collaboration",
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Comments on customer/vendor cards and purchase/sales documents",
+      "Posting dialog defaulting to today's date with ship/invoice choice restricted per user",
+      "Quick printing of sales shipments",
+      "Margin percent and amount on sales quotes, orders and invoices",
+      "Easier lot number entry on sales documents",
+      "Mandatory fields on item, customer and vendor cards",
+      "Margin calculation on sales price list lines",
+      "Discounts in amount/percent calculated in price list",
+      "Attach one document to multiple journal lines",
+      "Base package plus per-feature pricing",
+      "Optional paid setup assistance",
+      "Only available in Denmark, in Danish"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

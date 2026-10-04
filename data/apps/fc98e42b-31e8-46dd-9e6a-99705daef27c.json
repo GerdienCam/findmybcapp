@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.abakion|AID.flexible_forecast|PAPPID.fc98e42b-31e8-46dd-9e6a-99705daef27c",
+  "guid": "fc98e42b-31e8-46dd-9e6a-99705daef27c",
+  "publisherId": "abakion",
+  "offerId": "flexible_forecast",
+  "source": {
+    "name": "Flexible Forecast - Availability Forecasting",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.flexible_forecast%7CPAPPID.fc98e42b-31e8-46dd-9e6a-99705daef27c",
+    "lastModified": "2026-05-05T09:01:56.3927179+00:00",
+    "appVersion": "28.0.202618.163917",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/flexible-forecast/#howto",
+    "sourceHash": "sha256:38e8eeb6de87aacb6210e118798ae83a5444795e8b01ae933e9edca87f3a3627"
+  },
+  "mapping": {
+    "sourceHash": "sha256:38e8eeb6de87aacb6210e118798ae83a5444795e8b01ae933e9edca87f3a3627",
+    "mappedOn": null,
+    "summary": "Item-level forecast view with demand, supply and history",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-replenishment-planning",
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "One line per item with forecast, demands, supplies and history",
+      "Drill into demands and supplies per period",
+      "Exports to Excel and imports the changes back",
+      "Views: per period, in period for all items, per dimension",
+      "Shows percentage of sales forecast sold",
+      "Expected stock with and without forecast as quantity and cost",
+      "Filter on one or more locations",
+      "Filter products on forecast vs actual difference"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

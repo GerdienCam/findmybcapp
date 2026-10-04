@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.bricklead1692180953470|AID.bri_mbs|PAPPID.9fabd837-b035-4a8c-87d5-138de9469ff5",
+  "guid": "9fabd837-b035-4a8c-87d5-138de9469ff5",
+  "publisherId": "bricklead1692180953470",
+  "offerId": "bri_mbs",
+  "source": {
+    "name": "Manufacturing Batch Size",
+    "publisher": "BRICKLEAD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bricklead1692180953470%7CAID.bri_mbs%7CPAPPID.9fabd837-b035-4a8c-87d5-138de9469ff5",
+    "lastModified": "2026-09-29T12:49:13.810561+00:00",
+    "appVersion": "27.0.9768.50072",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.bricklead.eu/en-us/apps/mbs/",
+    "sourceHash": "sha256:b839f0e1cd1232cb68aedaac7387dc0e2100bc24c794bee19b576cd14fe3ab0e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b839f0e1cd1232cb68aedaac7387dc0e2100bc24c794bee19b576cd14fe3ab0e",
+    "mappedOn": null,
+    "summary": "BOMs and production control per batch size",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability",
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "BOM per batch size",
+      "Automatic production orders based on batch sizes",
+      "One batch produced per lot",
+      "Alerts on division/merge of lots from batch items",
+      "Requires Premium edition"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl",
+      "pt"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

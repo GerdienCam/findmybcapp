@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcbulgariansaft-is|PAPPID.c059cf14-7bd7-4650-80fb-5577804b3b69",
+  "guid": "c059cf14-7bd7-4650-80fb-5577804b3b69",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcbulgariansaft-is",
+  "source": {
+    "name": "Bulgarian SAF-T",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcbulgariansaft-is%7CPAPPID.c059cf14-7bd7-4650-80fb-5577804b3b69",
+    "lastModified": "2026-09-21T15:06:30.5192534+00:00",
+    "appVersion": "26.5.430.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:7cbf93aeebf5707a8289942b0991994f01660624b1359ec9bee487650e0a4691"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7cbf93aeebf5707a8289942b0991994f01660624b1359ec9bee487650e0a4691",
+    "mappedOn": null,
+    "summary": "Generates and submits Bulgarian SAF-T declarations",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Maps BC data to the NRA system",
+      "Exports SAF-T declarations as XML",
+      "Updates nomenclatures directly from NRA",
+      "Validates declarations before submission",
+      "Produces SAF-T files for Fixed Assets, Stock and Financial"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Bulgarian National Revenue Agency"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

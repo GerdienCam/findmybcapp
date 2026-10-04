@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.bcsitera|AID.extended-credit-check|PAPPID.84a17c36-70f3-4643-8d74-90a01f2bdb41",
+  "guid": "84a17c36-70f3-4643-8d74-90a01f2bdb41",
+  "publisherId": "bcsitera",
+  "offerId": "extended-credit-check",
+  "source": {
+    "name": "Extended Credit Check",
+    "publisher": "BCS Itera",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.extended-credit-check%7CPAPPID.84a17c36-70f3-4643-8d74-90a01f2bdb41",
+    "lastModified": "2025-11-24T16:53:55.538562+00:00",
+    "appVersion": "22.0.24154.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://apps.itera.ee/apps/credit-check/docs/en-US/help",
+    "sourceHash": "sha256:9758b12735133904255c99ba3ebfe8f5d0cc91b51765cb2fc351c7b874efc9a3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9758b12735133904255c99ba3ebfe8f5d0cc91b51765cb2fc351c7b874efc9a3",
+    "mappedOn": null,
+    "summary": "Customer credit limit contracts and sales blocking",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Time-limited customer credit contracts",
+      "Blocks sales when credit limit exceeded",
+      "Blocks sales when customer has overdue invoices",
+      "Additional time-limited credit limit",
+      "Exclude overdue invoices from check"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

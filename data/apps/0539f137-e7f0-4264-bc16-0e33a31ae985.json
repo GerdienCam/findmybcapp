@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.corpayoneaps1689685585936|AID.corpayone|PAPPID.0539f137-e7f0-4264-bc16-0e33a31ae985",
+  "guid": "0539f137-e7f0-4264-bc16-0e33a31ae985",
+  "publisherId": "corpayoneaps1689685585936",
+  "offerId": "corpayone",
+  "source": {
+    "name": "Corpay One Integrations",
+    "publisher": "Corpay One ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.corpayoneaps1689685585936%7CAID.corpayone%7CPAPPID.0539f137-e7f0-4264-bc16-0e33a31ae985",
+    "lastModified": "2026-04-22T08:39:10.0395887+00:00",
+    "appVersion": "3.8.136.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.corpayone.com/en/articles/8262948-how-to-setup-corpay-one-integration-with-microsoft-dynamics-365-business-central-via-the-business-central-directly",
+    "sourceHash": "sha256:0f346bb1d0a659699ba0093e78cb92cd06ce17d9897e968e74d587bd78d57184"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0f346bb1d0a659699ba0093e78cb92cd06ce17d9897e968e74d587bd78d57184",
+    "mappedOn": null,
+    "summary": "Integrates Corpay One expense and payment platform",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Custom approval flows for expenses and payments",
+      "OCR scanning with 99.97% accuracy",
+      "Expenses captured from a receipt photo",
+      "Real-time financial and spending reports",
+      "Custom notifications and user permissions in Corpay One",
+      "Real-time data sync with BC",
+      "Schedule, approve and track payments"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Corpay One"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

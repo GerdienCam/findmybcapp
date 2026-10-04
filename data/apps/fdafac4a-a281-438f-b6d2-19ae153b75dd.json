@@ -1,0 +1,117 @@
+{
+  "appId": "PUBID.expandit|AID.expanditconnector|PAPPID.fdafac4a-a281-438f-b6d2-19ae153b75dd",
+  "guid": "fdafac4a-a281-438f-b6d2-19ae153b75dd",
+  "publisherId": "expandit",
+  "offerId": "expanditconnector",
+  "source": {
+    "name": "ExpandIT Connector",
+    "publisher": "ExpandIT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.expandit%7CAID.expanditconnector%7CPAPPID.fdafac4a-a281-438f-b6d2-19ae153b75dd",
+    "lastModified": "2026-08-31T08:36:25.125547+00:00",
+    "appVersion": "18.0.6.265",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.expandit.com/en/expandit-connector---support",
+    "sourceHash": "sha256:f2a18da3623e2a358c0561f123b63e5ae976c37de16ef5cde8b5e942fd95aabe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f2a18da3623e2a358c0561f123b63e5ae976c37de16ef5cde8b5e942fd95aabe",
+    "mappedOn": null,
+    "summary": "Integrates ExpandIT field service and portal with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-dispatch",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals",
+      "ng-svc-close-invoice"
+    ],
+    "claims": [
+      "Includes service portal, service app and resource planning",
+      "Digital forms, expenses and time tracking for technicians",
+      "Replaces paper-based forms",
+      "Customers can view their records online, pay invoices and schedule service",
+      "Documents completed service work for compliance",
+      "Requires the ExpandIT solution",
+      "Essentials offering as managed service at fixed price"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "HR",
+      "HU",
+      "ID",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "LT",
+      "LV",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PH",
+      "PL",
+      "RS",
+      "SE",
+      "SG",
+      "SI",
+      "TH",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ExpandIT"
+    ],
+    "requires": [
+      "ExpandIT"
+    ],
+    "deployment": "not_stated",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "appId": "TYPE.connect|PUBID.niftytechnologiesinc1655222017081|AID.nifty_365|PAPPID.dcf78cd4-a6f9-4322-8c74-25e400b7d148",
+  "guid": "dcf78cd4-a6f9-4322-8c74-25e400b7d148",
+  "publisherId": "niftytechnologiesinc1655222017081",
+  "offerId": "nifty_365",
+  "source": {
+    "name": "Nifty",
+    "publisher": "Nifty Technologies, Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.niftytechnologiesinc1655222017081%7CAID.nifty_365%7CPAPPID.dcf78cd4-a6f9-4322-8c74-25e400b7d148",
+    "lastModified": "2025-04-10T10:08:30.9841158+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.niftypm.com/en/articles/10842643-nifty-microsoft-teams-integration",
+    "sourceHash": "sha256:ec86c738ebc64a82c99cb1b1e4c23faa90d2c289136ad92e7a8ee9c1200d7083"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ec86c738ebc64a82c99cb1b1e4c23faa90d2c289136ad92e7a8ee9c1200d7083",
+    "mappedOn": null,
+    "summary": "Mirrors Nifty workflows and Teams messages",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-office-teams",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Create Nifty lists from Teams",
+      "Create Nifty tasks from Teams",
+      "Create Nifty statuses from Teams",
+      "Create Nifty docs from Teams"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Nifty",
+      "Microsoft Teams"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Nifty to Microsoft Teams integration; no Business Central functionality described",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

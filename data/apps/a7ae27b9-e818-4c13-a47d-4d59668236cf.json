@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-reportspersoninchargebridge|PAPPID.a7ae27b9-e818-4c13-a47d-4d59668236cf",
+  "guid": "a7ae27b9-e818-4c13-a47d-4d59668236cf",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-reportspersoninchargebridge",
+  "source": {
+    "name": "BeyondReportsPersonInChargeBridge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-reportspersoninchargebridge%7CPAPPID.a7ae27b9-e818-4c13-a47d-4d59668236cf",
+    "lastModified": "2026-04-22T15:15:52.0466844+00:00",
+    "appVersion": "2026.4.235.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/apps/index.html",
+    "sourceHash": "sha256:0232c08ec44ea53a29736ee81443f3bcfe9ad2138bb7eff36bcd2cf79f8bef02"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0232c08ec44ea53a29736ee81443f3bcfe9ad2138bb7eff36bcd2cf79f8bef02",
+    "mappedOn": null,
+    "summary": "Prints Person In Charge data in custom reports",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Prints Person in Charge info in Beyond Reports layouts",
+      "Placeholder for Person in Charge Code"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Beyond PersonInCharge",
+      "Beyond Reports"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two BEYOND products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

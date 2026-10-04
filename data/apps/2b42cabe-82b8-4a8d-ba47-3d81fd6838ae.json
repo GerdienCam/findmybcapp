@@ -1,0 +1,106 @@
+{
+  "appId": "PUBID.to-increasebv|AID.bc-jms-resource_management|PAPPID.2b42cabe-82b8-4a8d-ba47-3d81fd6838ae",
+  "guid": "2b42cabe-82b8-4a8d-ba47-3d81fd6838ae",
+  "publisherId": "to-increasebv",
+  "offerId": "bc-jms-resource_management",
+  "source": {
+    "name": "IEM-Resource Management",
+    "publisher": "STAEDEAN",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.to-increasebv%7CAID.bc-jms-resource_management%7CPAPPID.2b42cabe-82b8-4a8d-ba47-3d81fd6838ae",
+    "lastModified": "2026-09-06T14:31:21.7334065+00:00",
+    "appVersion": "27.0.127779.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://bc.staedean.com/",
+    "sourceHash": "sha256:2e9d6a050e3471f96b3b1e0f55c56f62c5e633efc68b4268f098f5c11e561fc5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2e9d6a050e3471f96b3b1e0f55c56f62c5e633efc68b4268f098f5c11e561fc5",
+    "mappedOn": null,
+    "summary": "Resource management for industrial equipment manufacturing",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-proj-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-industrial-manufacturing",
+      "ng-hr-absence-leave"
+    ],
+    "claims": [
+      "A resource task plans resource use for absence, production, assembly, service and projects",
+      "Assign resources or groups with availability and workload view",
+      "Start/stop with automatic timesheet registration",
+      "Recurrence patterns per resource task",
+      "Future absence registration",
+      "Refresh adds assigned tasks to time sheets automatically",
+      "Post on approval or via a time sheet posting worksheet",
+      "Handles entries imported from outside external time capture systems"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RO",
+      "RS",
+      "SE",
+      "SI",
+      "SK",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [
+      "Discrete manufacturing",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "IEM-Project Control Suite"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

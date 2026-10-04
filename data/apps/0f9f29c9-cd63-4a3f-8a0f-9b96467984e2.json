@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.curabisaps1668520554988|AID.summatim|PAPPID.0f9f29c9-cd63-4a3f-8a0f-9b96467984e2",
+  "guid": "0f9f29c9-cd63-4a3f-8a0f-9b96467984e2",
+  "publisherId": "curabisaps1668520554988",
+  "offerId": "summatim",
+  "source": {
+    "name": "Summatim 365 app",
+    "publisher": "Curabis ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.curabisaps1668520554988%7CAID.summatim%7CPAPPID.0f9f29c9-cd63-4a3f-8a0f-9b96467984e2",
+    "lastModified": "2026-09-23T14:53:00.4873935+00:00",
+    "appVersion": "28.1.4.34",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://curabis.dk/support-paa-business-central/",
+    "sourceHash": "sha256:ffaa4151c69b173ea777baa15d0834d5475b471fd55dfd6bc8554e04e2e5aeea"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ffaa4151c69b173ea777baa15d0834d5475b471fd55dfd6bc8554e04e2e5aeea",
+    "mappedOn": null,
+    "summary": "AI processing of incoming PDF sales orders into BC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-copilot-agents"
+    ],
+    "claims": [
+      "AI reads and interprets incoming sales order PDFs",
+      "Turns the email inbox into an automated order intake channel",
+      "Identifies the customer by email domain, address, name or VAT ID",
+      "Matches items on EAN, GTIN, customer, vendor and manufacturer item numbers and description",
+      "No templates or mapping rules per customer",
+      "Optional auto-conversion, with configurable tolerances for price and quantity",
+      "Staging area for review with original PDF preview",
+      "Source Hash provides an audit trail linking the PDF to the posted invoice and shipment",
+      "Uses Anthropic Claude via MCP tools",
+      "Localized for DK, SE, NO, DE, AT and W1",
+      "Setup wizard"
+    ],
+    "countries": [
+      "AT",
+      "DE",
+      "DK",
+      "NO",
+      "SE"
+    ],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Importers",
+      "Wholesale"
+    ],
+    "connectsTo": [
+      "Anthropic Claude"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

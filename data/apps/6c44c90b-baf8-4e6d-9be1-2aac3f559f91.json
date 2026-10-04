@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visioneboks|PAPPID.6c44c90b-baf8-4e6d-9be1-2aac3f559f91",
+  "guid": "6c44c90b-baf8-4e6d-9be1-2aac3f559f91",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visioneboks",
+  "source": {
+    "name": "Vision e-Boks",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visioneboks%7CPAPPID.6c44c90b-baf8-4e6d-9be1-2aac3f559f91",
+    "lastModified": "2026-08-31T11:05:43.9236015+00:00",
+    "appVersion": "2.0.0.9",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.visionpeople.dk/help/eboks/",
+    "sourceHash": "sha256:e40bc353b9ed596cc65a2ff5f4f67d9835bc8b80fecbd52ad3750dfbf74a813e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e40bc353b9ed596cc65a2ff5f4f67d9835bc8b80fecbd52ad3750dfbf74a813e",
+    "mappedOn": null,
+    "summary": "Sends invoices and reminders to Danish e-Boks",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack",
+      "ng-collections"
+    ],
+    "claims": [
+      "Sends invoices, credit memos and reminders to e-Boks",
+      "Uses standard Document Sending Profiles",
+      "Delivery via OneTooX API or SFTP",
+      "Validates recipient can receive e-Boks, falls back to email or print",
+      "Delivery tracking and receipts",
+      "Automatically disabled in sandbox copies",
+      "Requires OneTooX (KMD) or SFTP e-Boks provider agreement"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "e-Boks",
+      "OneTooX",
+      "KMD"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

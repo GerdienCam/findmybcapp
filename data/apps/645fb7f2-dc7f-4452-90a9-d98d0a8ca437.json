@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-mobile-service-attributes-bridge|PAPPID.645fb7f2-dc7f-4452-90a9-d98d0a8ca437",
+  "guid": "645fb7f2-dc7f-4452-90a9-d98d0a8ca437",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-mobile-service-attributes-bridge",
+  "source": {
+    "name": "BeyondMobileServiceAttributesBridge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-mobile-service-attributes-bridge%7CPAPPID.645fb7f2-dc7f-4452-90a9-d98d0a8ca437",
+    "lastModified": "2026-09-24T12:40:14.9112504+00:00",
+    "appVersion": "2026.9.223.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/apps/index.html",
+    "sourceHash": "sha256:6a129306b0a3c1a1f5e081779fec0d1ab3e3e998cf8756d2996fc986131c3702"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6a129306b0a3c1a1f5e081779fec0d1ab3e3e998cf8756d2996fc986131c3702",
+    "mappedOn": null,
+    "summary": "Shows BeyondAttributes on service items in BeyondMobileService",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Service item attributes visible in the mobile service app",
+      "Requires BC cloud"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "BeyondMobileService",
+      "BeyondAttributesCore"
+    ],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two BEYOND products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.bc4allaps|AID.wrenchtime_for_manufacturing|PAPPID.e4a1b2c3-7d5e-4f8a-9b2c-1a3d5e7f9b1c",
+  "guid": "e4a1b2c3-7d5e-4f8a-9b2c-1a3d5e7f9b1c",
+  "publisherId": "bc4allaps",
+  "offerId": "wrenchtime_for_manufacturing",
+  "source": {
+    "name": "WrenchTime for Manufacturing",
+    "publisher": "bc4all ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bc4allaps%7CAID.wrenchtime_for_manufacturing%7CPAPPID.e4a1b2c3-7d5e-4f8a-9b2c-1a3d5e7f9b1c",
+    "lastModified": "2026-09-28T13:04:22.9296708+00:00",
+    "appVersion": "1.0.226.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://wrenchtime.io/docs/maintenancePro/manufacturing/",
+    "sourceHash": "sha256:9b3adeaa34780f7b1ce604ac0faf110587120b36d141a6d5d81791099eb61c43"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9b3adeaa34780f7b1ce604ac0faf110587120b36d141a6d5d81791099eb61c43",
+    "mappedOn": null,
+    "summary": "Links maintenance downtime and run hours with production capacity",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-shop-floor-reporting",
+      "ng-routings-workcenters"
+    ],
+    "claims": [
+      "Links maintenance assets to work centers or machine centers",
+      "Machine downtime closes production capacity automatically; manual calendar changes flagged",
+      "Posted run time and output feed asset counters and trigger meter-based PM",
+      "Next service, overdue status and open orders on work/machine center cards",
+      "Operator notes from production journal without WrenchTime license",
+      "One-click work request from a work or machine center",
+      "Requires WrenchTime Pro, manufacturing setup and Premium edition"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "WrenchTime Pro"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

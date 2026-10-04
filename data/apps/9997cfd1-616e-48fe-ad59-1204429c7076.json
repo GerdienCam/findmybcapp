@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.golden_edi|AID.goldenedi-extended-platform|PAPPID.9997cfd1-616e-48fe-ad59-1204429c7076",
+  "guid": "9997cfd1-616e-48fe-ad59-1204429c7076",
+  "publisherId": "golden_edi",
+  "offerId": "goldenedi-extended-platform",
+  "source": {
+    "name": "Golden EDI Extended Platform",
+    "publisher": "Golden EDI AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.golden_edi%7CAID.goldenedi-extended-platform%7CPAPPID.9997cfd1-616e-48fe-ad59-1204429c7076",
+    "lastModified": "2026-09-24T14:40:54.9520064+00:00",
+    "appVersion": "29.0.160.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://goldenedi.com/support",
+    "sourceHash": "sha256:b6a86db60a9b37619ed36da6ffeeb488fded795cc7d2e3de0fd62de1be5dee91"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b6a86db60a9b37619ed36da6ffeeb488fded795cc7d2e3de0fd62de1be5dee91",
+    "mappedOn": null,
+    "summary": "Extends Golden EDI platform capabilities",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-automation",
+      "ng-conn-3pl"
+    ],
+    "claims": [
+      "Landing area for external warehouse requests and results",
+      "Configurable workspaces with cue groups",
+      "Handles item tracking of varying complexity",
+      "Runs custom codeunits and queries",
+      "Partners can subscribe to Golden EDI events"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Golden EDI"
+    ],
+    "requires": [
+      "Golden EDI"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "id": "ng-proj-time",
+  "order": 99,
+  "label": "Recording hours worked on projects",
+  "description": "Capturing timesheets against projects and tasks, including approval.",
+  "type": "bpc",
+  "area": "Projects",
+  "relevance": "high",
+  "statements": [
+    "Recording hours worked on projects",
+    "Capturing timesheets against projects and tasks, including approval.",
+    "Our consultants fill in their hours on Friday from memory",
+    "Time sheets in BC are clunky, people refuse to use them",
+    "Is there a mobile app to log hours on a job and task?",
+    "timesheet app Business Central",
+    "We need project managers to approve hours before they're posted to the job",
+    "Employees should be able to log time from Outlook or Teams against projects",
+    "Hours are in a separate time tracking tool and we import them manually each week",
+    "Want a timer that tracks time on a task and posts it to BC",
+    "We lose billable hours because people forget to record them",
+    "How to record overtime on a project separately?",
+    "Subcontractors need to submit hours on our projects without a BC license",
+    "Need to see who hasn't submitted time this week",
+    "Can we use a job journal to post hours quickly for a whole crew?",
+    "Hours should be marked billable or non-billable when entered",
+    "Integrating Harvest or Clockify with Business Central jobs",
+    "Time entries with notes so the customer invoice shows what was done",
+    "Crew leaders want to register hours for the whole team at once on site",
+    "time registration per job and task",
+    "We need hours on projects to also feed payroll",
+    "Rejected time entries should go back to the employee with a comment"
+  ],
+  "questions": [
+    {
+      "id": "where",
+      "text": "Where will people record their hours?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Phone or tablet app",
+          "patterns": [
+            "mobile",
+            "smartphone",
+            "\\bphones?\\b",
+            "tablets?",
+            "\\bios\\b",
+            "android",
+            "handheld"
+          ]
+        },
+        {
+          "label": "Web page outside BC",
+          "patterns": [
+            "\\bweb\\b",
+            "web app",
+            "web portal",
+            "browser",
+            "\\bSPA\\b",
+            "website"
+          ]
+        },
+        {
+          "label": "Clock-in terminal or badge scan",
+          "patterns": [
+            "clock(s|ed)? ?(in|out)",
+            "badge",
+            "terminal",
+            "check in/out",
+            "time stamping"
+          ]
+        },
+        {
+          "label": "Automatically from calendar or activity",
+          "patterns": [
+            "outlook",
+            "calendar events",
+            "automatic[^;]*time capture",
+            "running in the background",
+            "auto-(creates|populates) time entries"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Phone or tablet app": 0.29,
+        "Web page outside BC": 0.21,
+        "Clock-in terminal or badge scan": 0.1,
+        "Automatically from calendar or activity": 0.13
+      }
+    },
+    {
+      "id": "existing",
+      "text": "Do you already track time in another tool you want to keep?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Jira / Tempo / YouTrack",
+          "patterns": [
+            "jira",
+            "tempo",
+            "youtrack"
+          ]
+        },
+        {
+          "label": "Toggl, Clockify or Timely",
+          "patterns": [
+            "toggl",
+            "clockify",
+            "timely"
+          ]
+        },
+        {
+          "label": "Another time or workforce system",
+          "patterns": [
+            "totalview",
+            "wisetime",
+            "expandit",
+            "crono",
+            "plainstaff",
+            "worklinq",
+            "nbreporting",
+            "kala\\b",
+            "moniroo",
+            "dataverse",
+            "external time (tracking|capture)",
+            "ms project|microsoft project",
+            "power apps"
+          ]
+        },
+        {
+          "label": "No, record time fresh",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Jira / Tempo / YouTrack": 0.08,
+        "Toggl, Clockify or Timely": 0.08,
+        "Another time or workforce system": 0.25
+      }
+    },
+    {
+      "id": "approval",
+      "text": "Must a manager approve hours before they are posted or billed?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, approval needed",
+          "patterns": [
+            "approv",
+            "confirmation workflow",
+            "review(,|ed)? release",
+            "review (to|and) submit",
+            "simplified time registration review",
+            "only approved"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, approval needed": 0.44
+      }
+    },
+    {
+      "id": "billing",
+      "text": "Do you invoice customers based on the hours?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, invoice from hours",
+          "patterns": [
+            "invoic",
+            "billable",
+            "billing",
+            "\\bbill"
+          ]
+        },
+        {
+          "label": "No, internal tracking only",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, invoice from hours": 0.58
+      }
+    },
+    {
+      "id": "extras",
+      "text": "Besides project hours, what else should it handle?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Absence and vacation",
+          "patterns": [
+            "absence",
+            "vacation",
+            "sick",
+            "holiday"
+          ]
+        },
+        {
+          "label": "Expenses and mileage",
+          "patterns": [
+            "expense",
+            "mileage",
+            "outlay"
+          ]
+        },
+        {
+          "label": "Overtime and payroll export",
+          "patterns": [
+            "overtime",
+            "payroll",
+            "salary",
+            "time bank",
+            "collective agreement"
+          ]
+        },
+        {
+          "label": "Materials used on the job",
+          "patterns": [
+            "material",
+            "product consumption",
+            "withdrawal"
+          ]
+        },
+        {
+          "label": "Nothing else",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Absence and vacation": 0.27,
+        "Expenses and mileage": 0.23,
+        "Overtime and payroll export": 0.19,
+        "Materials used on the job": 0.15
+      }
+    },
+    {
+      "id": "licence",
+      "text": "Do people who record time lack a full BC licence?",
+      "help": "For example field staff or contractors.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, they need access without a full BC user",
+          "patterns": [
+            "no bc user",
+            "no (bc|microsoft) licen[sc]e",
+            "team member",
+            "contract workers",
+            "external resources",
+            "employees need no",
+            "all users can track",
+            "lite user"
+          ]
+        },
+        {
+          "label": "No, they have BC users",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, they need access without a full BC user": 0.19
+      }
+    },
+    {
+      "id": "worktype",
+      "text": "What kind of work is the time for?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Office and consulting projects",
+          "patterns": [
+            "consult",
+            "professional services",
+            "law firms?",
+            "accounting firms?",
+            "\\bmatters?\\b",
+            "cpas"
+          ]
+        },
+        {
+          "label": "Field, site or shop floor work",
+          "patterns": [
+            "job sites?",
+            "on-site",
+            "shop ?floor",
+            "production",
+            "work (cards|orders)",
+            "site registration",
+            "piecework",
+            "field service",
+            "machine time"
+          ]
+        },
+        {
+          "label": "Both / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Office and consulting projects": 0.15,
+        "Field, site or shop floor work": 0.17
+      }
+    }
+  ]
+}

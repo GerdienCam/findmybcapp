@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.inventio-it|AID.smartwizard|PAPPID.4e7a6ccd-6e52-4852-b148-474509424d14",
+  "guid": "4e7a6ccd-6e52-4852-b148-474509424d14",
+  "publisherId": "inventio-it",
+  "offerId": "smartwizard",
+  "source": {
+    "name": "SMARTwizard",
+    "publisher": "Inventio.IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.inventio-it%7CAID.smartwizard%7CPAPPID.4e7a6ccd-6e52-4852-b148-474509424d14",
+    "lastModified": "2026-09-08T11:26:13.7090855+00:00",
+    "appVersion": "1.0.20260907.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.inventio.it/smart/smartwizard",
+    "sourceHash": "sha256:c87351eb229925efc20d38d47d8b88ffb66300118e1eb092a107f79823d7bb60"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c87351eb229925efc20d38d47d8b88ffb66300118e1eb092a107f79823d7bb60",
+    "mappedOn": null,
+    "summary": "Creates customers and vendors from Danish CVR register data",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Create customers and vendors by searching CVR number, phone or company name",
+      "Fills name, address, postcode, city, country, phone and CVR from Danish CVR register",
+      "Simplified creation screens"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "CVR register"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

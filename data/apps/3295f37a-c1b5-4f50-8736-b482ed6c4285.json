@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.norriq-1020462|AID.invoice_workflow|PAPPID.3295f37a-c1b5-4f50-8736-b482ed6c4285",
+  "guid": "3295f37a-c1b5-4f50-8736-b482ed6c4285",
+  "publisherId": "norriq-1020462",
+  "offerId": "invoice_workflow",
+  "source": {
+    "name": "Invoice Workflow",
+    "publisher": "NORRIQ",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.norriq-1020462%7CAID.invoice_workflow%7CPAPPID.3295f37a-c1b5-4f50-8736-b482ed6c4285",
+    "lastModified": "2026-07-22T22:59:30.1438348+00:00",
+    "appVersion": "6.4.6.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.appsfordynamics365.com/iw/",
+    "sourceHash": "sha256:8635a60104f3e2f7a57e8fc959409713fd667a0085369031fc5901052c12adf3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8635a60104f3e2f7a57e8fc959409713fd667a0085369031fc5901052c12adf3",
+    "mappedOn": null,
+    "summary": "Purchase invoice approval workflow for accounts payable",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-einvoicing",
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Older release; superseded by Invoice Workflow 365",
+      "Receives paper, PDF, XML, OIOXML or OIOUBL invoices",
+      "Automatic data capture and recognition",
+      "Matches invoice against purchase order",
+      "Duplicate check",
+      "Email notification to approver",
+      "Approval in BC or via web portal from any device",
+      "Request comment or review from colleague before approval",
+      "Digital archive after approval"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

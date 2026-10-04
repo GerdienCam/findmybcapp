@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.dynamicsondemand|AID.omnify-for-concur-exp-standard|PAPPID.07907a67-9e4e-431d-b4dc-c6a141a3f33b",
+  "guid": "07907a67-9e4e-431d-b4dc-c6a141a3f33b",
+  "publisherId": "dynamicsondemand",
+  "offerId": "omnify-for-concur-exp-standard",
+  "source": {
+    "name": "OmniFY SAP-Concur Expense Standard",
+    "publisher": "Omni Logic Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicsondemand%7CAID.omnify-for-concur-exp-standard%7CPAPPID.07907a67-9e4e-431d-b4dc-c6a141a3f33b",
+    "lastModified": "2026-08-06T23:22:58.2811324+00:00",
+    "appVersion": "19.0.0.16",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.omnilogicsolutions.com/",
+    "sourceHash": "sha256:8770e3fa8011392dcdff18a37fd195e254d588b88accbbde0dff6089b052e982"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8770e3fa8011392dcdff18a37fd195e254d588b88accbbde0dff6089b052e982",
+    "mappedOn": null,
+    "summary": "Imports SAP Concur expenses into BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Downloads approved Concur expense reports and receipts",
+      "Processes out-of-pocket reimbursements via payables, check or ACH",
+      "Corporate credit card processing",
+      "Books expenses against G/L accounts, employees or vendors",
+      "Concur users set up as employees or vendors",
+      "Scheduled background download via job queue",
+      "One-click on-demand download",
+      "Requires authorization letter and activation keys"
+    ],
+    "countries": [
+      "AE",
+      "AU",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "GB",
+      "HK",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SAP Concur"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

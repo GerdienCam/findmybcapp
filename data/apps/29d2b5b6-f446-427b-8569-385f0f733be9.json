@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.goprodoo1579609051569|AID.gopro_vehicleservice|PAPPID.29d2b5b6-f446-427b-8569-385f0f733be9",
+  "guid": "29d2b5b6-f446-427b-8569-385f0f733be9",
+  "publisherId": "goprodoo1579609051569",
+  "offerId": "gopro_vehicleservice",
+  "source": {
+    "name": "Vehicle Service Management",
+    "publisher": "GoPro doo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.goprodoo1579609051569%7CAID.gopro_vehicleservice%7CPAPPID.29d2b5b6-f446-427b-8569-385f0f733be9",
+    "lastModified": "2026-09-16T13:27:39.5944946+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dev.azure.com/GoProBC/GoPro%20Wiki/_wiki/wikis/GoPro%20Help/159/Vehicle-Service-Management",
+    "sourceHash": "sha256:f68a3556df09c50fd73ba81242023b4ee4acb2b1e53826fcf5687e2ba42d96db"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f68a3556df09c50fd73ba81242023b4ee4acb2b1e53826fcf5687e2ba42d96db",
+    "mappedOn": null,
+    "summary": "Vehicle maintenance and service management",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-dealers",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-svc-requests",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-parts",
+      "ng-maintenance-planned"
+    ],
+    "claims": [
+      "Vehicle card with VIN, make, model, year, registration, engine details",
+      "Creates service item from the vehicle card",
+      "Creates transfer orders for parts needed for servicing",
+      "Tracks history of vehicle status",
+      "Creates service orders for vehicle maintenance",
+      "For fleets or automotive service centers",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sr"
+    ],
+    "industries": [
+      "Automotive"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

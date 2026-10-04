@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.nubetechspa|AID.origins_quality|PAPPID.736b6316-6245-487c-9fcd-418356a934a5",
+  "guid": "736b6316-6245-487c-9fcd-418356a934a5",
+  "publisherId": "nubetechspa",
+  "offerId": "origins_quality",
+  "source": {
+    "name": "ORIGINS Quality",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.origins_quality%7CPAPPID.736b6316-6245-487c-9fcd-418356a934a5",
+    "lastModified": "2026-09-01T08:01:03.4535245+00:00",
+    "appVersion": "26.2608.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-quality/",
+    "sourceHash": "sha256:48cd49e631d40127f75cccb04b8f82aa096c84850406381a62c64bf6bdf6d9d7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:48cd49e631d40127f75cccb04b8f82aa096c84850406381a62c64bf6bdf6d9d7",
+    "mappedOn": null,
+    "summary": "Quality checks on goods",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-nonconformance-capa",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-quality-hold",
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Control plans and inspection orders",
+      "System blocks pending products",
+      "Nonconformity assessments",
+      "Automatic movement requests for nonconformities",
+      "Supplier evaluation templates",
+      "For commercial and manufacturing environments"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

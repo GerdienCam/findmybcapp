@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.kumavision|AID.edx|PAPPID.36569745-64bd-4de5-877a-a57fd834b34e",
+  "guid": "36569745-64bd-4de5-877a-a57fd834b34e",
+  "publisherId": "kumavision",
+  "offerId": "edx",
+  "source": {
+    "name": "EDX - Electronic Data eXchange",
+    "publisher": "KUMAVISION AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.edx%7CPAPPID.36569745-64bd-4de5-877a-a57fd834b34e",
+    "lastModified": "2026-07-22T12:46:53.6091758+00:00",
+    "appVersion": "28.3.1479.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.kumavision.de/en/edx/",
+    "sourceHash": "sha256:d167cf4ec00db27be9d070df6e5a4dab108e5ae076dd907f42c0e4d1d7ad4685"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d167cf4ec00db27be9d070df6e5a4dab108e5ae076dd907f42c0e4d1d7ad4685",
+    "mappedOn": null,
+    "summary": "EDI exchange for purchase and sales messages",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "EDI for purchase and sales messages",
+      "Any data exchange scenario possible",
+      "Intercompany data exchange",
+      "Tracks changes in messages",
+      "Field configuration per partner and message type",
+      "Automated check logic for high document volumes",
+      "Connects to Azure via Logic Apps",
+      "Setup wizard",
+      "Free for 30 days, then monthly per environment",
+      "Only tested for DE, CH and AT regulations"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "fr"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Azure Logic Apps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

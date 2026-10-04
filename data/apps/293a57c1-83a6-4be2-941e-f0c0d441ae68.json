@@ -1,0 +1,73 @@
+{
+  "appId": "TYPE.connect|PUBID.boltricsprofessionalsbv1659423540454|AID.3pl-dynamics|PAPPID.293a57c1-83a6-4be2-941e-f0c0d441ae68",
+  "guid": "293a57c1-83a6-4be2-941e-f0c0d441ae68",
+  "publisherId": "boltricsprofessionalsbv1659423540454",
+  "offerId": "3pl-dynamics",
+  "source": {
+    "name": "Boltrics 3PL Dynamics",
+    "publisher": "Boltrics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.boltricsprofessionalsbv1659423540454%7CAID.3pl-dynamics%7CPAPPID.293a57c1-83a6-4be2-941e-f0c0d441ae68",
+    "lastModified": "2025-09-08T11:45:23.845919+00:00",
+    "appVersion": "26.21.118588.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.boltrics.com/en/support/",
+    "sourceHash": "sha256:01bf44aa83c8b0e9e54005b79a528637a68562395a00d9e9b19a111348d390ce"
+  },
+  "mapping": {
+    "sourceHash": "sha256:01bf44aa83c8b0e9e54005b79a528637a68562395a00d9e9b19a111348d390ce",
+    "mappedOn": null,
+    "summary": "Warehouse, transport and freight forwarding for 3PLs",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Combines WMS, TMS, freight forwarding (FMS) and customs on Business Central",
+      "Customs management automation",
+      "Air and ocean freight handling with real-time shipment tracking",
+      "Ready connectors for DHL, Amazon and Shopify",
+      "No-code customization",
+      "Synchronized inventory and transportation between WMS and TMS",
+      "Used by over 300 logistics providers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Freight Forwarding",
+      "Third-Party Logistics",
+      "Transportation",
+      "Warehousing"
+    ],
+    "connectsTo": [
+      "DHL",
+      "Amazon",
+      "Shopify"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

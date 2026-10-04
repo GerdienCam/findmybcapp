@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.kumavision|AID.compliance_check|PAPPID.027eb41c-2459-4045-b4d2-eeb6e81362fc",
+  "guid": "027eb41c-2459-4045-b4d2-eeb6e81362fc",
+  "publisherId": "kumavision",
+  "offerId": "compliance_check",
+  "source": {
+    "name": "Sanction Check",
+    "publisher": "KUMAVISION AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.compliance_check%7CPAPPID.027eb41c-2459-4045-b4d2-eeb6e81362fc",
+    "lastModified": "2026-08-17T09:47:29.8909867+00:00",
+    "appVersion": "28.4.731.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.kumavision.de/en/cc/",
+    "sourceHash": "sha256:cf2a9d7b37d247f35eca7702e0bb12cae6a9bd4803495e3eb46b4aef1a27a946"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cf2a9d7b37d247f35eca7702e0bb12cae6a9bd4803495e3eb46b4aef1a27a946",
+    "mappedOn": null,
+    "summary": "Checks business contacts against sanction lists",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-audit-compliance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds",
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Checks all contacts against sanction lists automatically",
+      "Covers the EU anti-terror rules EC 881/2002 and EC 2580/2001",
+      "Manual or automatic checks at configurable intervals",
+      "Result shown directly in document or master record",
+      "Logs every check",
+      "Automatically blocks records on hits",
+      "Lists include US SDN, Denied Persons, Entity List, UN and UK HM lists",
+      "Requires contract with BEO or ECOVIUM service provider",
+      "Free 30-day trial"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "BEO",
+      "ECOVIUM"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

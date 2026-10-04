@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.applibra|AID.al_zebra_zpl_label_manager|PAPPID.48e1c690-1dca-4df7-bdf5-9cf795786e9b",
+  "guid": "48e1c690-1dca-4df7-bdf5-9cf795786e9b",
+  "publisherId": "applibra",
+  "offerId": "al_zebra_zpl_label_manager",
+  "source": {
+    "name": "AL Zebra ZPL Label Manager",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_zebra_zpl_label_manager%7CPAPPID.48e1c690-1dca-4df7-bdf5-9cf795786e9b",
+    "lastModified": "2026-07-28T06:18:59.5765552+00:00",
+    "appVersion": "25.0.26.7171724",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://applibra.com/apps",
+    "sourceHash": "sha256:7be6c3366b2d3a7d73274e131ed844206e27c5fa8df5b20e43b1f87fe796373f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7be6c3366b2d3a7d73274e131ed844206e27c5fa8df5b20e43b1f87fe796373f",
+    "mappedOn": null,
+    "summary": "Prints Zebra ZPL labels with dynamic templates and GS1",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-printing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Native ZPL printing to Zebra printers without drivers via AL Bridge local service",
+      "Dynamic ZPL templates with tag placeholders mapped to label fields",
+      "Review label field values before printing",
+      "Online label preview as PNG",
+      "Multi-up printing and PNG-to-GRF images",
+      "GS1-128 / EAN-128 barcodes with AL GS1",
+      "Automatic or manual template and printer selection by label type/user",
+      "Requires AL Bridge and its local service"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Zebra"
+    ],
+    "requires": [
+      "AL Bridge"
+    ],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

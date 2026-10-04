@@ -1,0 +1,81 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-signature-cloudconnector-bridge|PAPPID.1e56b4b9-2a3b-43af-8617-a7d34303b62a",
+  "guid": "1e56b4b9-2a3b-43af-8617-a7d34303b62a",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-signature-cloudconnector-bridge",
+  "source": {
+    "name": "BeyondSignatureCloudConnectorBridge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-signature-cloudconnector-bridge%7CPAPPID.1e56b4b9-2a3b-43af-8617-a7d34303b62a",
+    "lastModified": "2026-08-11T15:14:17.3359408+00:00",
+    "appVersion": "2026.5.100.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/apps/index.html",
+    "sourceHash": "sha256:a5a70a6c932cdbb5917dadf6e1a3d55af2833c1d8b61b7ab866b0ceb5317cefa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a5a70a6c932cdbb5917dadf6e1a3d55af2833c1d8b61b7ab866b0ceb5317cefa",
+    "mappedOn": null,
+    "summary": "Bridges Beyond Signature with Beyond Cloud Connector for storage",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Signature snapshots stored automatically in cloud storage",
+      "Supports SharePoint, Azure Files, Azure Blob via Cloud Connector"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint",
+      "Azure Files",
+      "Azure Blob Storage"
+    ],
+    "requires": [
+      "Beyond Signature",
+      "Beyond Cloud Connector"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two BEYOND products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

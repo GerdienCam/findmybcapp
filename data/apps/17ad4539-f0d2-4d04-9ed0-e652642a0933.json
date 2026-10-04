@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.centralpathsolutions|AID.123e4567-e89b-12d3-a456-426614174000|PAPPID.17ad4539-f0d2-4d04-9ed0-e652642a0933",
+  "guid": "17ad4539-f0d2-4d04-9ed0-e652642a0933",
+  "publisherId": "centralpathsolutions",
+  "offerId": "123e4567-e89b-12d3-a456-426614174000",
+  "source": {
+    "name": "DimensionPath Multi-Entity Management (W1)",
+    "publisher": "CentralPath Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralpathsolutions%7CAID.123e4567-e89b-12d3-a456-426614174000%7CPAPPID.17ad4539-f0d2-4d04-9ed0-e652642a0933",
+    "lastModified": "2026-07-23T11:41:25.610791+00:00",
+    "appVersion": "28.0.10054.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.centralpath.com/contact-us/",
+    "sourceHash": "sha256:5213d3e2ffc2ca5087a276e080fb45b3e0725346abf54bf30f203bec67acc5b6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5213d3e2ffc2ca5087a276e080fb45b3e0725346abf54bf30f203bec67acc5b6",
+    "mappedOn": null,
+    "summary": "Manages multiple legal entities within one BC company via dimensions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-dimensions",
+      "ng-admin-permissions",
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Multiple legal entities in one BC company using Global Dimension 1",
+      "Balanced general ledger by entity",
+      "Automatic balancing payable/receivable entries between entities",
+      "Lets vendor invoice lines be split across several entities",
+      "Centralized cash management across entities",
+      "Suggest vendor/employee payments by entity",
+      "Dimension-based user security restricting entity visibility",
+      "Automatic matching sales/purchase documents between entities",
+      "Invoice generation for cross-entity transfer orders",
+      "Transfer pricing for cross-entity sales/purchases"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

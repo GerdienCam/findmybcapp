@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.lithuaniandynamicspartners|AID.vat-localization-lithuania|PAPPID.20d24042-7ec4-4de4-9958-5a2c20f769a9",
+  "guid": "20d24042-7ec4-4de4-9958-5a2c20f769a9",
+  "publisherId": "lithuaniandynamicspartners",
+  "offerId": "vat-localization-lithuania",
+  "source": {
+    "name": "VAT Reporting for Lithuania",
+    "publisher": "Lithuanian Dynamics Partners",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lithuaniandynamicspartners%7CAID.vat-localization-lithuania%7CPAPPID.20d24042-7ec4-4de4-9958-5a2c20f769a9",
+    "lastModified": "2026-05-20T16:49:36.2561133+00:00",
+    "appVersion": "124.0.27.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicspartners.lt/help-vat-reporting/",
+    "sourceHash": "sha256:7f0604c6bf79bad565359010d20f7801c7cab247c185d91685631967e06091f4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7f0604c6bf79bad565359010d20f7801c7cab247c185d91685631967e06091f4",
+    "mappedOn": null,
+    "summary": "Lithuanian VAT reporting",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Not closed VAT registration (e.g. representation VAT)",
+      "VAT registration for article 96 wood/metal operations",
+      "VAT closure excluding not-closed VAT",
+      "Mark EU third-party trade transactions",
+      "VAT declaration exported to VMI form FR0600",
+      "VIES declaration exported to VMI form FR0564",
+      "Different VAT date and registration date on documents"
+    ],
+    "countries": [
+      "LT"
+    ],
+    "languages": [
+      "lt"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

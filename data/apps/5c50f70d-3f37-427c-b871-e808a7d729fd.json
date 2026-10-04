@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.tvision|AID.tvtjqm|PAPPID.5c50f70d-3f37-427c-b871-e808a7d729fd",
+  "guid": "5c50f70d-3f37-427c-b871-e808a7d729fd",
+  "publisherId": "tvision",
+  "offerId": "tvtjqm",
+  "source": {
+    "name": "TVision Job Queue Monitor",
+    "publisher": "Tvision Technology Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tvision%7CAID.tvtjqm%7CPAPPID.5c50f70d-3f37-427c-b871-e808a7d729fd",
+    "lastModified": "2026-09-09T18:32:46.94017+00:00",
+    "appVersion": "24.0.8.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.tvisiontech.co.uk/business-central-add-ons/",
+    "sourceHash": "sha256:fe04812af79813867975b3640b4fa2fbbef7a254ff452f1965108d8d20cba999"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fe04812af79813867975b3640b4fa2fbbef7a254ff452f1965108d8d20cba999",
+    "mappedOn": null,
+    "summary": "Scans and repairs recurring job queue entries with notifications",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Periodically checks recurring job queue entries and restarts stuck or errored ones",
+      "Uses BC built-in email to send notifications when job queue entries error out",
+      "Repair, notify or both per scan",
+      "Global preferences or per-entry settings",
+      "Licensed per production environment with unlimited users",
+      "Free in sandbox environments"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

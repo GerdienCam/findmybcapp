@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.sk-global-software|AID.199fb153-7c3b-4e20-8fac-156291e5cf73|PAPPID.fad5ccec-3901-43c0-be8c-f281a4324145",
+  "guid": "fad5ccec-3901-43c0-be8c-f281a4324145",
+  "publisherId": "sk-global-software",
+  "offerId": "199fb153-7c3b-4e20-8fac-156291e5cf73",
+  "source": {
+    "name": "Vendor Payment Automation for Dynamics 365 Business Central",
+    "publisher": "SK Global Software, LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sk-global-software%7CAID.199fb153-7c3b-4e20-8fac-156291e5cf73%7CPAPPID.fad5ccec-3901-43c0-be8c-f281a4324145",
+    "lastModified": "2026-09-03T18:52:39.1825055+00:00",
+    "appVersion": "4.0.5.592",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.manula.com/manuals/sksoft/banking-automation-suite/3.0/en/topic/introduction?key=Zf37uufViTzz1R0HpYDvkwZtJvAyVY9K41HnlM0uwyTmgTUvHn",
+    "sourceHash": "sha256:d3d73b4ed83c326b0d1715ee6f78cf7ddf52504ee3ac15ee481533a97288ec0c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d3d73b4ed83c326b0d1715ee6f78cf7ddf52504ee3ac15ee481533a97288ec0c",
+    "mappedOn": null,
+    "summary": "Sends vendor payments directly to banks with fraud controls",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bank-reconciliation"
+    ],
+    "claims": [
+      "Sends vendor payments directly to the bank from BC",
+      "Access to 170+ banks and 2400+ payment formats incl. ACH, wires, virtual cards, outsourced checks",
+      "Automates bank communication without manual file upload",
+      "Payment files stored encrypted on Azure-based BankFabric",
+      "Easily void and correct payments",
+      "Choose which vendors and bank accounts use electronic payments",
+      "Multiple payment types from one payment journal"
+    ],
+    "countries": [
+      "US"
+    ],
+    "languages": [],
+    "industries": [
+      "Construction",
+      "Distribution",
+      "Professional services"
+    ],
+    "connectsTo": [
+      "BankFabric",
+      "banks"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

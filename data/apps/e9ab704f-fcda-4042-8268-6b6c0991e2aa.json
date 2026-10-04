@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.nav24spzoo1579516366010|AID.n24_payment_reminder|PAPPID.e9ab704f-fcda-4042-8268-6b6c0991e2aa",
+  "guid": "e9ab704f-fcda-4042-8268-6b6c0991e2aa",
+  "publisherId": "nav24spzoo1579516366010",
+  "offerId": "n24_payment_reminder",
+  "source": {
+    "name": "N24 Payment Reminder",
+    "publisher": "Nav24 Sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nav24spzoo1579516366010%7CAID.n24_payment_reminder%7CPAPPID.e9ab704f-fcda-4042-8268-6b6c0991e2aa",
+    "lastModified": "2026-04-01T02:30:44.5643922+00:00",
+    "appVersion": "26.0.5.3",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.nav24.pl/en-US/",
+    "sourceHash": "sha256:cc8ccac928f974d4842bc5f1949bb6c8a024a7e4eed66c8e2acf10c61a077184"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cc8ccac928f974d4842bc5f1949bb6c8a024a7e4eed66c8e2acf10c61a077184",
+    "mappedOn": null,
+    "summary": "Sends automated payment reminders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Sends email reminders directly from customer ledger entries",
+      "Auto-filled email templates",
+      "Review and edit reminder emails before sending",
+      "Permanent CC/BCC addresses on reminders",
+      "Filter to target only overdue entries",
+      "Free trial available"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

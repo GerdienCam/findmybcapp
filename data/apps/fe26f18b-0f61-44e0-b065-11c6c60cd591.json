@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex010_commissions|PAPPID.fe26f18b-0f61-44e0-b065-11c6c60cd591",
+  "guid": "fe26f18b-0f61-44e0-b065-11c6c60cd591",
+  "publisherId": "eos_solutions",
+  "offerId": "ex010_commissions",
+  "source": {
+    "name": "Commissions",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex010_commissions%7CPAPPID.fe26f18b-0f61-44e0-b065-11c6c60cd591",
+    "lastModified": "2026-09-29T08:25:16.1545593+00:00",
+    "appVersion": "28.0.52.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/commissions-cms.html",
+    "sourceHash": "sha256:56509dc4fc7cd6281418015a0b2cb0b10f3dea439a304aaf84a93b051d1f107c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:56509dc4fc7cd6281418015a0b2cb0b10f3dea439a304aaf84a93b051d1f107c",
+    "mappedOn": null,
+    "summary": "Calculates salesperson commissions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-commissions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-payroll-comp"
+    ],
+    "claims": [
+      "Commission advances auto-reconciled against posted sales",
+      "Commissions based on product margins and applied discounts",
+      "Commission setup by line type, agent roles and customer and product commission groups",
+      "Independent 'Sales Networks' assigning agents and roles on each sale",
+      "Unlimited commission entries from one sales line",
+      "Manual adjustments in the Commission Ledger",
+      "Commission Detail report per salesperson",
+      "Generates purchase invoices for commission payments",
+      "Exports commissions payable to external payroll",
+      "Free trial available"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

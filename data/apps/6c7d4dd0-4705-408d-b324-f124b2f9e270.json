@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.pryme|AID.pryme_intercompany_projects|PAPPID.6c7d4dd0-4705-408d-b324-f124b2f9e270",
+  "guid": "6c7d4dd0-4705-408d-b324-f124b2f9e270",
+  "publisherId": "pryme",
+  "offerId": "pryme_intercompany_projects",
+  "source": {
+    "name": "Pryme Intercompany Projects",
+    "publisher": "Pryme",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pryme%7CAID.pryme_intercompany_projects%7CPAPPID.6c7d4dd0-4705-408d-b324-f124b2f9e270",
+    "lastModified": "2026-09-22T14:31:52.2722491+00:00",
+    "appVersion": "14.1.230.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.pryme.app/intercompany/",
+    "sourceHash": "sha256:5a6ab254a0937e7c2b963bd5a0c9ada503ef4ff1e458e4d73b83dc3839c32d49"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5a6ab254a0937e7c2b963bd5a0c9ada503ef4ff1e458e4d73b83dc3839c32d49",
+    "mappedOn": null,
+    "summary": "Shares project data between companies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-time"
+    ],
+    "claims": [
+      "Single copy of master data for customers, resources and projects",
+      "Transfers customers, resources and projects between tenants",
+      "Shares data centrally or exchanges it dynamically",
+      "Pre-configured, adjustable data messages",
+      "Creates intercompany projects for resources without manual work",
+      "Automated transfer of time entries between companies",
+      "Includes all Pryme Intercompany Master Data Management features"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "GB",
+      "IE",
+      "LU",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Progressus Advanced Projects"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

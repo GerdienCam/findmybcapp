@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.norriq-1020462|AID.mfa|PAPPID.a51e7485-55a5-4734-b132-8ba901d4d80d",
+  "guid": "a51e7485-55a5-4734-b132-8ba901d4d80d",
+  "publisherId": "norriq-1020462",
+  "offerId": "mfa",
+  "source": {
+    "name": "Manufacturing Accelerator",
+    "publisher": "NORRIQ",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.norriq-1020462%7CAID.mfa%7CPAPPID.a51e7485-55a5-4734-b132-8ba901d4d80d",
+    "lastModified": "2026-06-30T05:14:49.7057721+00:00",
+    "appVersion": "28.202605.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.norriq.com/contact",
+    "sourceHash": "sha256:8735ff0cbe9bf899aad9b01f9c5f70dcdf971be01f5e594b64f5d8411a9eac4e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8735ff0cbe9bf899aad9b01f9c5f70dcdf971be01f5e594b64f5d8411a9eac4e",
+    "mappedOn": null,
+    "summary": "Enhancements to the manufacturing module",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-planning",
+        "confidence": "low"
+      },
+      {
+        "need": "ng-vert-industrial-manufacturing",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Extends standard BC manufacturing module",
+      "Predetermined database settings",
+      "Reorganized standard pages for usability",
+      "Optional Power BI manufacturing reporting extension via NORRIQ",
+      "BC23 and higher"
+    ],
+    "countries": [
+      "BE",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "IT",
+      "LU",
+      "NL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

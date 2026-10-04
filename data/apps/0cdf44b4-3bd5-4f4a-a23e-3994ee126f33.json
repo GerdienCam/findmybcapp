@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.applibra|AID.al_dimension_categories|PAPPID.0cdf44b4-3bd5-4f4a-a23e-3994ee126f33",
+  "guid": "0cdf44b4-3bd5-4f4a-a23e-3994ee126f33",
+  "publisherId": "applibra",
+  "offerId": "al_dimension_categories",
+  "source": {
+    "name": "AL Dimension Categories",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_dimension_categories%7CPAPPID.0cdf44b4-3bd5-4f4a-a23e-3994ee126f33",
+    "lastModified": "2026-06-26T16:06:58.5686511+00:00",
+    "appVersion": "25.0.26.6251504",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsapplab.com/apps/al-dimensions/help",
+    "sourceHash": "sha256:689fda0cf94d9c14154fe551d2a7d38633b9b508e4eb1fe1cd6201efa6c606ce"
+  },
+  "mapping": {
+    "sourceHash": "sha256:689fda0cf94d9c14154fe551d2a7d38633b9b508e4eb1fe1cd6201efa6c606ce",
+    "mappedOn": null,
+    "summary": "Adds up to 20 category dimensions for analysis",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data",
+      "ng-ux-data-translation",
+      "ng-ux-custom-fields"
+    ],
+    "claims": [
+      "Each category can hold 20 dimensions at most, covering Statistical, Vendor, Customer and Item",
+      "Category dimensions shown as filterable columns on item, customer and vendor cards",
+      "Category dimensions work as filters on item, vendor, customer and G/L ledger entries",
+      "Two-way sync with default dimensions",
+      "Filtered lookups respecting default dimension filters",
+      "Dimension value translations",
+      "Item description templates built from dimension placeholders",
+      "Regenerates item descriptions and translations automatically",
+      "Customer/vendor dimensions on headers, item dimensions on lines"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

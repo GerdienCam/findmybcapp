@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.jrsdynamicsinfosolutionsllp1720168519830|AID.jrs00004|PAPPID.0e03e8d5-a012-421b-8f9b-761f46c7c8b1",
+  "guid": "0e03e8d5-a012-421b-8f9b-761f46c7c8b1",
+  "publisherId": "jrsdynamicsinfosolutionsllp1720168519830",
+  "offerId": "jrs00004",
+  "source": {
+    "name": "Digital Signature JRS",
+    "publisher": "JRS Dynamics Info Solutions LLP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jrsdynamicsinfosolutionsllp1720168519830%7CAID.jrs00004%7CPAPPID.0e03e8d5-a012-421b-8f9b-761f46c7c8b1",
+    "lastModified": "2025-07-25T17:16:03.463154+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://jrsdynamics.com/contact-us/",
+    "sourceHash": "sha256:bbbd84654e3894be5bc53080bf9384edcf292096a5bb3f8ab4b563554e1fe4a6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bbbd84654e3894be5bc53080bf9384edcf292096a5bb3f8ab4b563554e1fe4a6",
+    "mappedOn": null,
+    "summary": "Digitally signs BC documents via API",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "API-based digital signing without USB DSC tokens or PFX files",
+      "Works with BC online (SaaS)",
+      "Signature names and configuration per user and location",
+      "Configurable X/Y coordinates for signature placement per report",
+      "Re-sign updated documents",
+      "Signed PDFs stored in transaction log",
+      "Supports purchase orders, sales invoices, custom reports and posted documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.e-documents-core|PAPPID.e1d97edc-c239-46b4-8d84-6368bdf67c8b",
+  "guid": "e1d97edc-c239-46b4-8d84-6368bdf67c8b",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "e-documents-core",
+  "source": {
+    "name": "E-Document Core",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.e-documents-core%7CPAPPID.e1d97edc-c239-46b4-8d84-6368bdf67c8b",
+    "lastModified": "2026-06-04T09:58:19.0627379+00:00",
+    "appVersion": "25.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://aka.ms/bcedocuments",
+    "sourceHash": "sha256:f4d4fdafcf9708d7bf7dec6550c02ee6f3f2372b231b604eaca94b67d7c20a26"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f4d4fdafcf9708d7bf7dec6550c02ee6f3f2372b231b604eaca94b67d7c20a26",
+    "mappedOn": null,
+    "summary": "Foundation for e-invoicing in purchase and sales",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Foundation layer for e-invoicing formats and integrations",
+      "Formats via code or Document Exchange Framework",
+      "Workflow for delivering outgoing e-invoices",
+      "Per vendor: create invoice or order from incoming e-invoice",
+      "Retention policy for e-documents",
+      "Status tracking and communication logs",
+      "Warnings and errors when purchase document creation fails",
+      "Copilot matches incoming e-document lines to purchase order lines",
+      "Transformation rules for incoming and outgoing documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

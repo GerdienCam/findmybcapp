@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.cleaningservices|PAPPID.8430f177-442d-4671-9580-dcc4e1575f70",
+  "guid": "8430f177-442d-4671-9580-dcc4e1575f70",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "cleaningservices",
+  "source": {
+    "name": "Cleaning Services",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.cleaningservices%7CPAPPID.8430f177-442d-4671-9580-dcc4e1575f70",
+    "lastModified": "2026-05-22T16:43:01.1811337+00:00",
+    "appVersion": "1.0.0.9",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/cleaning-services",
+    "sourceHash": "sha256:4ab74ea3cab7cf0b487d587403c10ec4a823048069038a3ab625d9ff07fd2b73"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4ab74ea3cab7cf0b487d587403c10ec4a823048069038a3ab625d9ff07fd2b73",
+    "mappedOn": null,
+    "summary": "Contracts, sites, teams and billing for cleaning companies",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-care-personal-services",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-subscription-billing",
+      "ng-svc-contracts"
+    ],
+    "claims": [
+      "Customer site management",
+      "Contracts, engagements and billing agreements",
+      "Service centres with optional access restriction to assigned centres",
+      "Invoicing built on Microsoft Subscription & Recurring Billing",
+      "Handles several contract periods, with billing cycles and bulk invoicing",
+      "Price increase management",
+      "Planned and actual attendance via Time Sheets linked to sites"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [
+      "Cleaning services"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Subscription & Recurring Billing",
+      "MatchBC companion extensions"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

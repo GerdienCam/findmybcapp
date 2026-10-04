@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.newtechnologyresearch|AID.pandadoc|PAPPID.9e60ae0f-e6e0-4f91-a13e-cf442367f991",
+  "guid": "9e60ae0f-e6e0-4f91-a13e-cf442367f991",
+  "publisherId": "newtechnologyresearch",
+  "offerId": "pandadoc",
+  "source": {
+    "name": "PandaDoc for Dynamics 365 Business Central",
+    "publisher": "New Technology Research",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.newtechnologyresearch%7CAID.pandadoc%7CPAPPID.9e60ae0f-e6e0-4f91-a13e-cf442367f991",
+    "lastModified": "2026-09-07T06:40:12.4071884+00:00",
+    "appVersion": "1.2.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://claude.ai/code/artifact/2e66b2b9-8299-4faf-8090-33a769e7feab?org=2e94f12e-674f-40c4-9190-92ffa84eac96",
+    "sourceHash": "sha256:441d5c6aaeac0c75815440b7aaf2288874422b38f0fcb126068fa72f678d4e1f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:441d5c6aaeac0c75815440b7aaf2288874422b38f0fcb126068fa72f678d4e1f",
+    "mappedOn": null,
+    "summary": "Sends documents for e-signature via PandaDoc",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Send quotes, orders and other documents for signature from BC",
+      "Uses own Report Selections layouts, different report per document type",
+      "Combine several files into one agreement with page order",
+      "Default recipient structure per document type",
+      "Envelope list with sender, recipient, source document and status",
+      "Signed copy can be downloaded as a single combined PDF, or the agreement cancelled",
+      "Send from individual user account or one central account",
+      "Enable per document type, 10+ document types",
+      "Templates instead of BC reports",
+      "Envelope status from the record",
+      "Signed documents attached to source record",
+      "Reminders and envelope expiration dates",
+      "Requires separate PandaDoc subscription with API access",
+      "Requires Business Central 28.0 or later",
+      "Calls provider API directly without third-party service"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "PandaDoc"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

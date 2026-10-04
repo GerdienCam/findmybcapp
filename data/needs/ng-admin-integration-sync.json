@@ -1,0 +1,422 @@
+{
+  "id": "ng-admin-integration-sync",
+  "order": 162,
+  "label": "Connecting and syncing BC with other systems",
+  "description": "Integration strategy, initial data load and recurring synchronisation across systems and companies.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "high",
+  "statements": [
+    "Connecting and syncing BC with other systems",
+    "Integration strategy, initial data load and recurring synchronisation across systems and companies.",
+    "We have six BC companies and maintain the same items in all of them by hand",
+    "When we create a customer in one company it should appear in the others automatically",
+    "master data sync between companies business central",
+    "Item prices in our web shop are always a day behind BC",
+    "Is there an app that keeps the chart of accounts and dimensions identical across all companies?",
+    "Our CRM and BC show different addresses for the same customer",
+    "Vendors are set up in the parent company and should be pushed to every subsidiary",
+    "We need two-way sync of contacts between BC and Dynamics 365 Sales",
+    "Stock levels on the web shop don't match BC and customers order things we don't have",
+    "How often should data sync between BC and our PIM, real time or nightly?",
+    "Changes in one company keep getting overwritten by the sync from another",
+    "Some fields should sync and some should stay local per company, is that possible?",
+    "Keep our data warehouse or Fabric copy of BC data up to date every hour",
+    "Item cards in the Danish and Swedish companies drift apart over time",
+    "intercompany master data replication",
+    "Our sales reps' phone app shows old customer data because sync runs once a day",
+    "We want a single place to maintain products and push them to BC and three marketplaces",
+    "When a vendor bank account changes in one company, all companies should update",
+    "Is it possible to sync only approved items, not drafts still being set up?",
+    "As a partner I keep building custom sync code for each customer, there must be a standard app",
+    "We're connecting BC to our CRM and both already have the same customers, how do we match them up first?",
+    "Initial load of 20,000 items into our Shopify store from BC",
+    "How do we avoid creating duplicates when we couple existing records for the first time?",
+    "initial sync dataverse BC",
+    "Setting up a new sister company and want to copy all items and vendors from the main company once",
+    "The first full sync to our web shop timed out after a few thousand records",
+    "Which side wins on the first sync when the same customer has different addresses?",
+    "We need to load our BC data into a data warehouse for the first time",
+    "Can we do the first sync in batches over a weekend?",
+    "Initial coupling of contacts between Sales and BC matched the wrong companies",
+    "How do we seed a new PIM system with all our product data from BC?",
+    "Before going live with the integration we want a test load into a sandbox",
+    "We have a webshop, a WMS and a CRM and no plan for how they all talk to BC",
+    "Should we use Power Automate, Logic Apps or a middleware app for integrations?",
+    "integration platform for Business Central",
+    "Every integration was built by a different partner and nobody knows how they work",
+    "Is there an iPaaS connector that works with BC online APIs?",
+    "We are replacing our old file-based integrations with APIs, where do we start",
+    "Which system should be the master for customer data, BC or the CRM?",
+    "We want integrations that can be versioned and moved between sandbox and production",
+    "Moving to BC online broke our SQL-based integrations, what are the alternatives?",
+    "Point to point integrations are getting out of hand",
+    "Need an integration architecture for connecting BC to our e-commerce platform and 3PL",
+    "What are the API limits in BC online and will they handle our order volume?"
+  ],
+  "questions": [
+    {
+      "id": "target",
+      "text": "What do you need BC to talk to?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Another accounting or ERP system",
+          "patterns": [
+            "(other|external|another|legacy) (erp|financial|accounting)",
+            "erp systems",
+            "erp, crm",
+            "connects to erp",
+            "xero",
+            "\\bsage\\b",
+            "e-conomic",
+            "uniconta",
+            "sap business one",
+            "\\bsap\\b",
+            "bmd ntcs",
+            "agicap",
+            "dynamics nav|older bc versions",
+            "financial system",
+            "accounting data",
+            "ims?os\\b"
+          ]
+        },
+        {
+          "label": "Webshop, e-commerce or POS",
+          "patterns": [
+            "e-?commerce",
+            "webshop",
+            "web ?shop",
+            "shopify",
+            "woocommerce",
+            "magento",
+            "\\bpos\\b",
+            "retail solution",
+            "portal"
+          ]
+        },
+        {
+          "label": "CRM, Dataverse or service desk",
+          "patterns": [
+            "\\bcrm\\b",
+            "dataverse",
+            "salesforce",
+            "hubspot",
+            "dynamics 365 sales",
+            "jira",
+            "autotask",
+            "connectwise",
+            "field service"
+          ]
+        },
+        {
+          "label": "Warehouse, production or machines",
+          "patterns": [
+            "\\bwms\\b",
+            "warehouse",
+            "\\bmes\\b",
+            "production",
+            "scada",
+            "\\b3pl\\b",
+            "machines",
+            "weighing",
+            "planning systems"
+          ]
+        },
+        {
+          "label": "Reporting, BI or a data warehouse",
+          "patterns": [
+            "power bi",
+            "fabric",
+            "data lake",
+            "data factory",
+            "reporting database",
+            "sql server or azure sql",
+            "external database",
+            "\\bbi\\b"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Another accounting or ERP system": 0.13,
+        "Webshop, e-commerce or POS": 0.13,
+        "CRM, Dataverse or service desk": 0.11,
+        "Warehouse, production or machines": 0.12,
+        "Reporting, BI or a data warehouse": 0.11
+      }
+    },
+    {
+      "id": "transport",
+      "text": "How does the other system exchange data?",
+      "help": "Ask the other system's supplier if unsure.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Files (CSV, XML, Excel) via FTP, SFTP or a folder",
+          "patterns": [
+            "s?ftps?\\b",
+            "\\bcsv\\b",
+            "\\bfiles?\\b",
+            "azure files",
+            "blob",
+            "sharepoint",
+            "\\bsmb\\b",
+            "folder"
+          ]
+        },
+        {
+          "label": "Web APIs (REST, OData, SOAP)",
+          "patterns": [
+            "\\bapis?\\b",
+            "\\brest\\b",
+            "odata",
+            "\\bsoap\\b",
+            "web ?services?",
+            "endpoints?",
+            "graphql",
+            "http"
+          ]
+        },
+        {
+          "label": "Events, webhooks or message queues",
+          "patterns": [
+            "webhook",
+            "service bus",
+            "event (grid|hub)",
+            "rabbitmq",
+            "message queue",
+            "\\bqueue storage",
+            "messages? (types|framework)",
+            "publishes messages"
+          ]
+        },
+        {
+          "label": "Direct database connection (SQL)",
+          "patterns": [
+            "\\bsql\\b",
+            "postgres",
+            "mysql",
+            "oracle",
+            "odbc",
+            "external database"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Files (CSV, XML, Excel) via FTP, SFTP or a folder": 0.33,
+        "Web APIs (REST, OData, SOAP)": 0.48,
+        "Events, webhooks or message queues": 0.09,
+        "Direct database connection (SQL)": 0.07
+      }
+    },
+    {
+      "id": "direction",
+      "text": "Which way does the data need to flow?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Two-way sync",
+          "patterns": [
+            "two-?way",
+            "bi-?directional",
+            "bidirectional",
+            "import(s)?(/| and | or )export",
+            "inbound and outbound",
+            "pull and push",
+            "send and receive",
+            "read and write",
+            "reads/writes"
+          ]
+        },
+        {
+          "label": "Other systems read data out of BC",
+          "patterns": [
+            "exposes?",
+            "read-only",
+            "get requests",
+            "publishes? selected",
+            "pull-based",
+            "web service access to all",
+            "query any table",
+            "endpoints? (that read|without code)"
+          ]
+        },
+        {
+          "label": "Other systems send data into BC",
+          "patterns": [
+            "imports?",
+            "receives?",
+            "inbound",
+            "incoming",
+            "downloads? (transactions|journals)",
+            "create, modify and delete",
+            "creates? (vendors|sales|purchase)"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Two-way sync": 0.21,
+        "Other systems read data out of BC": 0.12,
+        "Other systems send data into BC": 0.31
+      }
+    },
+    {
+      "id": "build",
+      "text": "Who will set up and maintain the integration?",
+      "options": [
+        {
+          "label": "Our own team, without coding",
+          "patterns": [
+            "no[- ]code",
+            "without (any )?(code|coding|programming|development|deployment)",
+            "no programming",
+            "setup wizard",
+            "wizards?",
+            "one-click setup",
+            "configured from the web client",
+            "end-user friendly",
+            "by the customer"
+          ]
+        },
+        {
+          "label": "A developer or BC partner",
+          "patterns": [
+            "partner tool",
+            "developers?",
+            "\\bal\\b",
+            "from (your |their )?own extensions",
+            "codeunit",
+            "publisher events",
+            "procedure calls",
+            "built-in procedures",
+            "libraries"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Our own team, without coding": 0.19,
+        "A developer or BC partner": 0.11
+      }
+    },
+    {
+      "id": "realtime",
+      "text": "How fast must changes reach the other side?",
+      "options": [
+        {
+          "label": "Instantly, as they happen",
+          "patterns": [
+            "real-?time",
+            "instant",
+            "webhook",
+            "on record changes",
+            "as (they|soon)",
+            "on posting",
+            "captures insert"
+          ]
+        },
+        {
+          "label": "On a schedule is fine (hourly, nightly)",
+          "patterns": [
+            "schedul",
+            "job queue",
+            "batch",
+            "recurring",
+            "frequency",
+            "periodic"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Instantly, as they happen": 0.19,
+        "On a schedule is fine (hourly, nightly)": 0.22
+      }
+    },
+    {
+      "id": "companies",
+      "text": "Do you need to keep data in sync between several BC companies or environments?",
+      "options": [
+        {
+          "label": "Yes, between BC companies or environments",
+          "patterns": [
+            "(across|between|to all|other) (bc )?(companies|environments|tenants)",
+            "cross-company",
+            "multiple companies",
+            "companies or tenants",
+            "multi-company",
+            "one company synchronized"
+          ]
+        },
+        {
+          "label": "No, only with outside systems",
+          "patterns": [
+            "third-party",
+            "external systems?",
+            "other systems"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, between BC companies or environments": 0.1,
+        "No, only with outside systems": 0.26
+      }
+    },
+    {
+      "id": "local",
+      "text": "Do you need cloud BC to reach files, printers or servers in your own office?",
+      "options": [
+        {
+          "label": "Yes, local files, printers or servers",
+          "patterns": [
+            "local (files?|file system|printers?|servers?|directories|folder|data)",
+            "on-?prem(ise)? servers",
+            "shared drives",
+            "printers?",
+            "label printers"
+          ]
+        },
+        {
+          "label": "No, everything is in the cloud",
+          "patterns": [
+            "azure",
+            "cloud (storage|apps)",
+            "without extra servers",
+            "no extra servers"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, local files, printers or servers": 0.07,
+        "No, everything is in the cloud": 0.14
+      }
+    }
+  ]
+}

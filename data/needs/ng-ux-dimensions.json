@@ -1,0 +1,151 @@
+{
+  "id": "ng-ux-dimensions",
+  "order": 184,
+  "label": "Getting dimensions right and fixing them later",
+  "description": "Filling default dimensions automatically, dimension rules and hierarchies, and correcting dimensions on posted documents and ledger entries.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "medium",
+  "statements": [
+    "Getting dimensions right and fixing them later",
+    "Filling default dimensions automatically, dimension rules and hierarchies, and correcting dimensions on posted documents and ledger entries.",
+    "Somebody posted 200 invoices with the wrong department",
+    "change dimension on posted entries",
+    "Dimensions are forgotten all the time on purchase lines",
+    "If cost center is 100 then region should always be NORTH",
+    "New customers should get their own dimension value automatically",
+    "Our reports are wrong because dimensions are missing",
+    "Is there a parent/child structure for dimension values?",
+    "Fix dimensions without reversing everything",
+    "Dimension combinations people pick make no sense",
+    "Auto-create a dimension value for each new project",
+    "Wrong dimension on a posted sales invoice, help",
+    "Rules engine for dimensions"
+  ],
+  "questions": [
+    {
+      "id": "pain",
+      "text": "What do you most need help with?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Creating dimension values from customers, items, etc.",
+          "patterns": [
+            "auto-?creat",
+            "creates? (dimension|default)",
+            "syncs master",
+            "sync.{0,20}dimension value",
+            "from master data",
+            "table field values into",
+            "mapping",
+            "maps default"
+          ]
+        },
+        {
+          "label": "Fixing dimensions after posting",
+          "patterns": [
+            "(change|edit|correct|modif|update|add)\\w*.{0,40}(posted|after posting|historical)",
+            "without reversal",
+            "no need to reverse",
+            "dimension correction"
+          ]
+        },
+        {
+          "label": "Rules so one dimension sets or limits another",
+          "patterns": [
+            "hierarch",
+            "dimension relation",
+            "one (value|dimension entry) (dictates|sets)",
+            "parent",
+            "tree",
+            "cascad",
+            "restrict",
+            "other dimensions mandatory",
+            "mandatory dimension",
+            "subset",
+            "limit available",
+            "force dimension",
+            "conditional dimension",
+            "rule sets? link",
+            "controls which dimension values"
+          ]
+        },
+        {
+          "label": "Keeping entries balanced per dimension",
+          "patterns": [
+            "balanc"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Creating dimension values from customers, items, etc.": 0.29,
+        "Fixing dimensions after posting": 0.22,
+        "Rules so one dimension sets or limits another": 0.2,
+        "Keeping entries balanced per dimension": 0.09
+      }
+    },
+    {
+      "id": "fix_scope",
+      "text": "How do you want to correct dimensions on posted entries?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Many entries at once by filter",
+          "patterns": [
+            "bulk",
+            "batch",
+            "mass",
+            "multiple dimensions",
+            "historical transactions"
+          ]
+        },
+        {
+          "label": "With a change log or undo",
+          "patterns": [
+            "log",
+            "audit",
+            "undo"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Many entries at once by filter": 0.16,
+        "With a change log or undo": 0.16
+      }
+    },
+    {
+      "id": "more_dims",
+      "text": "Do you need more than 2 global dimensions available everywhere?",
+      "help": "For example as filters on lists and in financial reports.",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "shortcut dimensions? (3-8|beyond)",
+            "more shortcut",
+            "8 more",
+            "all 8 dimensions",
+            "shortcut dimensions shown",
+            "filterable columns",
+            "6 shortcut dimensions"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.13
+      }
+    }
+  ]
+}

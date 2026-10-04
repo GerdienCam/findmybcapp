@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.2control|AID.compliance-inventoryreconciliation|PAPPID.252b362a-b775-4b07-b509-aaa755af8578",
+  "guid": "252b362a-b775-4b07-b509-aaa755af8578",
+  "publisherId": "2control",
+  "offerId": "compliance-inventoryreconciliation",
+  "source": {
+    "name": "Compliance Inventory Reconciliation",
+    "publisher": "2-Controlware",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.2control%7CAID.compliance-inventoryreconciliation%7CPAPPID.252b362a-b775-4b07-b509-aaa755af8578",
+    "lastModified": "2026-09-29T11:20:12.0658024+00:00",
+    "appVersion": "7.2.20261029.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://wiki-apps.2-controlware.com/",
+    "sourceHash": "sha256:e267757d57c5d94181a0ef59b9c23ae1f503a89293d430d5590f43094078bc6d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e267757d57c5d94181a0ef59b9c23ae1f503a89293d430d5590f43094078bc6d",
+    "mappedOn": null,
+    "summary": "Reconciles inventory subledger value with general ledger",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-period-close"
+    ],
+    "claims": [
+      "Reconciles inventory subledger value to G/L accounts",
+      "Analysis based on historical (Used) or current (Setup) posting settings",
+      "Shows differences per G/L account",
+      "Filters and time intervals to zoom in on variances",
+      "Enriches value entries and G/L entries to find causes of variances",
+      "Installs within one minute"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

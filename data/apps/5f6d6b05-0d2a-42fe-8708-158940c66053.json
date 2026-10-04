@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.hamwicomputersoftware1675860549560|AID.fatorly_bc|PAPPID.5f6d6b05-0d2a-42fe-8708-158940c66053",
+  "guid": "5f6d6b05-0d2a-42fe-8708-158940c66053",
+  "publisherId": "hamwicomputersoftware1675860549560",
+  "offerId": "fatorly_bc",
+  "source": {
+    "name": "Fatorly - Business Central Integration",
+    "publisher": "Hamwi Computer Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hamwicomputersoftware1675860549560%7CAID.fatorly_bc%7CPAPPID.5f6d6b05-0d2a-42fe-8708-158940c66053",
+    "lastModified": "2026-10-01T07:32:17.9590723+00:00",
+    "appVersion": "2026.10.01.05",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.fatorly.com/",
+    "sourceHash": "sha256:5fc8b0ed34e9ab56027e093b6605673f5e452de2e67f5563bac2b09ba7df195d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5fc8b0ed34e9ab56027e093b6605673f5e452de2e67f5563bac2b09ba7df195d",
+    "mappedOn": null,
+    "summary": "Sends UAE PINT AE e-invoices via Fatorly",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Built on BC E-Document framework",
+      "Sends sales invoices and credit memos as PINT AE e-invoices via Fatorly",
+      "PINT AE output with embedded PDF, buyer references, delivery party details",
+      "Assigns PINT VAT categories for each VAT posting setup",
+      "Adds required e-invoicing fields on customer, vendor and item cards",
+      "Receives and validates incoming purchase e-invoices and credit memos",
+      "Validates mandatory e-invoicing data before posting",
+      "Cancel unsubmitted drafts and resend",
+      "Failed submissions view with reason and one-click retry",
+      "Requires BC online and a Fatorly account with API credentials",
+      "E-documents sent automatically on posting"
+    ],
+    "countries": [
+      "AE"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Fatorly"
+    ],
+    "requires": [
+      "Fatorly account"
+    ],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

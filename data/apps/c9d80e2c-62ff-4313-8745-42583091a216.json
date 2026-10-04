@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.purchaseledgerentries|PAPPID.c9d80e2c-62ff-4313-8745-42583091a216",
+  "guid": "c9d80e2c-62ff-4313-8745-42583091a216",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "purchaseledgerentries",
+  "source": {
+    "name": "Purchase Ledger Entries",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.purchaseledgerentries%7CPAPPID.c9d80e2c-62ff-4313-8745-42583091a216",
+    "lastModified": "2026-08-14T13:11:43.2719948+00:00",
+    "appVersion": "1.0.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/Purchase-Ledger-Entries",
+    "sourceHash": "sha256:858655e5745c19947d4081c1c1ac1c5add9c7b30cd575d16822a11a5ce5e9b0d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:858655e5745c19947d4081c1c1ac1c5add9c7b30cd575d16822a11a5ce5e9b0d",
+    "mappedOn": null,
+    "summary": "Purchase analysis ledger for reporting",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-procurement-spend",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Creates a dedicated Purchase Ledger Entries table for reporting",
+      "Captures invoice date, year, month, week and order date for time analysis",
+      "Stores the dimension set ID plus as many as 8 shortcut dimensions",
+      "Tracks amount excluding VAT and quantity per entry",
+      "Covers G/L accounts, fixed assets, charges, resources and items",
+      "Keeps source entry and document references for traceability",
+      "Actions to refresh all data or only unposted data",
+      "Job queue support for scheduled updates",
+      "Integrated with Navigate / Find Entries",
+      "Analyse purchase ledger entries by dimension, purchaser, responsibility centre or location"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

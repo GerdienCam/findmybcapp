@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex050extendedcombineshipment|PAPPID.2acf9896-8e66-4d5a-aa4c-a9e3e5f34405",
+  "guid": "2acf9896-8e66-4d5a-aa4c-a9e3e5f34405",
+  "publisherId": "eos_solutions",
+  "offerId": "ex050extendedcombineshipment",
+  "source": {
+    "name": "Extended Combine Shipment",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex050extendedcombineshipment%7CPAPPID.2acf9896-8e66-4d5a-aa4c-a9e3e5f34405",
+    "lastModified": "2026-09-04T12:54:25.1220198+00:00",
+    "appVersion": "28.0.16.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/extended-combine-shipment.html",
+    "sourceHash": "sha256:3c5a913bdd24df7984d33c3a3167c9d5f7afaeb1d55c962b557e6c1a52bade8a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3c5a913bdd24df7984d33c3a3167c9d5f7afaeb1d55c962b557e6c1a52bade8a",
+    "mappedOn": null,
+    "summary": "Flexible grouping of shipments into invoices and invoicing frequency",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Group documents by selected grouping fields",
+      "Invoice recipients and default invoicing method",
+      "Customer groups with invoicing rules",
+      "Invoicing frequency",
+      "Filter invoice generation by invoicing method",
+      "Custom fields as grouping criteria"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

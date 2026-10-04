@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.globeaccounting1579187614233|AID.local_chart_of_accounts|PAPPID.0ad0759b-b826-46a6-95af-4226988bb67d",
+  "guid": "0ad0759b-b826-46a6-95af-4226988bb67d",
+  "publisherId": "globeaccounting1579187614233",
+  "offerId": "local_chart_of_accounts",
+  "source": {
+    "name": "Globe Local Chart of Account",
+    "publisher": "Globe Accounting",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.globeaccounting1579187614233%7CAID.local_chart_of_accounts%7CPAPPID.0ad0759b-b826-46a6-95af-4226988bb67d",
+    "lastModified": "2026-09-30T07:53:45.1770898+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://globeaccounting.com/LocalCoA",
+    "sourceHash": "sha256:a754757f6e6b752ad8c99a9de6e5780399e4cb0cee732cb7350961b247f1c894"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a754757f6e6b752ad8c99a9de6e5780399e4cb0cee732cb7350961b247f1c894",
+    "mappedOn": null,
+    "summary": "Mapping to a secondary local, group or SAF-T chart of accounts",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-financial-statements",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-coa-company-setup",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting",
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Maintains a secondary local chart of accounts",
+      "Maps local statutory accounts to standard G/L accounts",
+      "Single set of transactions reported in multiple account structures",
+      "Shows G/L entries and balances by standard or local account",
+      "Gives statutory reports local account totals, plus hierarchies",
+      "7 accounting reports based on local chart of accounts",
+      "Supports group and SAF-T account structures"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nl",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.hegla-hanic|AID.glass365|PAPPID.6110b4e2-9549-43bf-9c52-1fbc8a67fec1",
+  "guid": "6110b4e2-9549-43bf-9c52-1fbc8a67fec1",
+  "publisherId": "hegla-hanic",
+  "offerId": "glass365",
+  "source": {
+    "name": "glass365",
+    "publisher": "Hegla-Hanic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hegla-hanic%7CAID.glass365%7CPAPPID.6110b4e2-9549-43bf-9c52-1fbc8a67fec1",
+    "lastModified": "2026-09-15T14:36:15.3740695+00:00",
+    "appVersion": "28.0.68.2004",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dev.azure.com/hegla-hanic/Hanic/_wiki/wikis/Anwender%20Dokumentation",
+    "sourceHash": "sha256:8bf50fc3707ccfff5112b4a6dceea6d8d4ef530b44d5ac5d44343ed0eac810b8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8bf50fc3707ccfff5112b4a6dceea6d8d4ef530b44d5ac5d44343ed0eac810b8",
+    "mappedOn": null,
+    "summary": "Glass industry order entry, pricing, EDI and inventory",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-metal-timber-materials",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-edi",
+      "ng-sales-pricing",
+      "ng-production-planning"
+    ],
+    "claims": [
+      "Order entry and configuration of monolithic, laminated, IGU and textured glass",
+      "Standard and custom product specifications",
+      "EDI order import supporting multiple formats simultaneously",
+      "Cut optimization preview during quote or order entry",
+      "Sales price calculation from production costs or component prices",
+      "Inventory management and MRP",
+      "Calculates material consumption and production costs during quoting",
+      "Production handover and tracking from cutting and tempering to inspection",
+      "Shipment planning by product characteristics and handling requirements",
+      "Covers facades, windows, shower enclosures, mirrors, appliance glass"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Glass"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

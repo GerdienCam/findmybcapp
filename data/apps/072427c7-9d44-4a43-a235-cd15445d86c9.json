@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcgreekmydata-is|PAPPID.072427c7-9d44-4a43-a235-cd15445d86c9",
+  "guid": "072427c7-9d44-4a43-a235-cd15445d86c9",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcgreekmydata-is",
+  "source": {
+    "name": "Greek Localization MyData",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcgreekmydata-is%7CPAPPID.072427c7-9d44-4a43-a235-cd15445d86c9",
+    "lastModified": "2026-06-16T08:35:15.9304605+00:00",
+    "appVersion": "27.0.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/services/localization/",
+    "sourceHash": "sha256:50aff35d276fc387c71eedcf50cae0833db8660635a76fa9e4c23b6fe54b079f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:50aff35d276fc387c71eedcf50cae0833db8660635a76fa9e4c23b6fe54b079f",
+    "mappedOn": null,
+    "summary": "Automates Greek AADE MyData reporting",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Automatically transmits sales invoices and credit memos to AADE on posting",
+      "Multiple VAT groups and rates per document",
+      "VAT classification per regulation",
+      "Supports cash, bank transfer, check and card payment methods",
+      "Income classification types and categories",
+      "Multiple Greek sales invoice types"
+    ],
+    "countries": [
+      "GR"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "AADE MyData"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

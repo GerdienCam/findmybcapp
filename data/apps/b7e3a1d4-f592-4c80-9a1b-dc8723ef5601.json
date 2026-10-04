@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.perseus|AID.aegis|PAPPID.b7e3a1d4-f592-4c80-9a1b-dc8723ef5601",
+  "guid": "b7e3a1d4-f592-4c80-9a1b-dc8723ef5601",
+  "publisherId": "perseus",
+  "offerId": "aegis",
+  "source": {
+    "name": "Aegis Capital Forecasting",
+    "publisher": "Perseus Enterprises Inc",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.perseus%7CAID.aegis%7CPAPPID.b7e3a1d4-f592-4c80-9a1b-dc8723ef5601",
+    "lastModified": "2026-07-09T23:09:09.2247609+00:00",
+    "appVersion": "1.2.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://perseusenterprisesinc.com/aegis/docs/",
+    "sourceHash": "sha256:f4f9614599ef7a4180318e6df32f0f31c6fd28572745b03d7407c798a48dcf3b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f4f9614599ef7a4180318e6df32f0f31c6fd28572745b03d7407c798a48dcf3b",
+    "mappedOn": null,
+    "summary": "Earned value and cost forecasting for capital projects",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-budget",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-budget-control",
+      "ng-fa-capex",
+      "ng-proj-materials-subcontract"
+    ],
+    "claims": [
+      "WBS hierarchy including work packages and control accounts",
+      "PO lines tagged to WBS nodes for cost traceability",
+      "Time-phased budgets with version control and baselines",
+      "Lock baselines for variance analysis",
+      "AFE spending gates block purchase orders exceeding authority",
+      "AFE supplements for scope changes",
+      "Pay items of milestone, lump sum and unit price type",
+      "Progress measured by weighted Rules of Credit with approval gating",
+      "Automated EVM: BAC, committed, accrued, EV, CPI, EAC, VAC",
+      "Four EAC methods",
+      "Configurable GRNI treatment",
+      "WBS codes carry over into G/L entries",
+      "Optional offline-capable LEMS field data capture app",
+      "Builds on BC native Projects module"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Energy",
+      "Infrastructure",
+      "Mining"
+    ],
+    "connectsTo": [
+      "Power BI",
+      "Primavera P6"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

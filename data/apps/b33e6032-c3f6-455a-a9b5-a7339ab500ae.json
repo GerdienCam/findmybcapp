@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.fasba|PAPPID.b33e6032-c3f6-455a-a9b5-a7339ab500ae",
+  "guid": "b33e6032-c3f6-455a-a9b5-a7339ab500ae",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "fasba",
+  "source": {
+    "name": "EV Tecto - Forecast Accrual",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.fasba%7CPAPPID.b33e6032-c3f6-455a-a9b5-a7339ab500ae",
+    "lastModified": "2026-09-10T16:36:11.7236326+00:00",
+    "appVersion": "10006.80.218813.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/365Con/overview",
+    "sourceHash": "sha256:5a36c46c1de95c77e13490d241631bc63affeb7cb48333276f9b02ff7cc0cccc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5a36c46c1de95c77e13490d241631bc63affeb7cb48333276f9b02ff7cc0cccc",
+    "mappedOn": null,
+    "summary": "Project forecast accruals",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-construction",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-wip",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-status-reporting"
+    ],
+    "claims": [
+      "Project forecast accrual for revenue, costs, hours and subcontractor",
+      "Extends EV Tecto Advanced",
+      "For project and site managers on site"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EV Tecto"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

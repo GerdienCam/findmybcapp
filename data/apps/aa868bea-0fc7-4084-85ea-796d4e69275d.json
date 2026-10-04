@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.ls_retail|AID.bc10f990-84d1-459b-9b81-7315c7f6bfc3|PAPPID.aa868bea-0fc7-4084-85ea-796d4e69275d",
+  "guid": "aa868bea-0fc7-4084-85ea-796d4e69275d",
+  "publisherId": "ls_retail",
+  "offerId": "bc10f990-84d1-459b-9b81-7315c7f6bfc3",
+  "source": {
+    "name": "EFT Extension for LS Pay",
+    "publisher": "LS Retail",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.bc10f990-84d1-459b-9b81-7315c7f6bfc3%7CPAPPID.aa868bea-0fc7-4084-85ea-796d4e69275d",
+    "lastModified": "2026-09-24T13:34:44.9867058+00:00",
+    "appVersion": "1.3.2.29",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.lspay.lsretail.com/",
+    "sourceHash": "sha256:17e44cd434aa0e45152cc05d6568bd840c47426d98730e9775b8fd83149ab5fd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:17e44cd434aa0e45152cc05d6568bd840c47426d98730e9775b8fd83149ab5fd",
+    "mappedOn": null,
+    "summary": "Connects LS Pay to multiple payment service providers",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "Requests payment functionality from your own app or extension",
+      "Connects to a wide range of international PSPs",
+      "Authorization, void and refund operations callable from custom sales documents",
+      "Returns the payment result for posting according to your own logic",
+      "Requires a payment terminal and merchant account with a supported PSP"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "LS Pay"
+    ],
+    "requires": [
+      "LS Pay Service"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

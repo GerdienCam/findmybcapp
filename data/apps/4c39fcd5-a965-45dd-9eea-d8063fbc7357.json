@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_businesshub|PAPPID.4c39fcd5-a965-45dd-9eea-d8063fbc7357",
+  "guid": "4c39fcd5-a965-45dd-9eea-d8063fbc7357",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_businesshub",
+  "source": {
+    "name": "Fusion5 Business Hub",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_businesshub%7CPAPPID.4c39fcd5-a965-45dd-9eea-d8063fbc7357",
+    "lastModified": "2026-08-26T07:48:07.0228547+00:00",
+    "appVersion": "2801.4.20260826.121905",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/595394562/Business+Hub",
+    "sourceHash": "sha256:4b1568bd1103fe4d0025318d58fad7f3ca9a93fcfbb26144a30e44e1c45c60b4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4b1568bd1103fe4d0025318d58fad7f3ca9a93fcfbb26144a30e44e1c45c60b4",
+    "mappedOn": null,
+    "summary": "Runs multiple entities in one company with segregated data",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-coa-company-setup",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-permissions",
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Business Groups segregate master data, transactions, documents, journals and reports within one company",
+      "Each Business Group keeps its own customers, vendors, locations, items, company info and banking",
+      "VAT Groups link to BC Business Units for VAT reporting and settlement",
+      "Shortcut dimensions assigned to Business Groups drive filtering and reporting",
+      "User access control per Business Group",
+      "On-charge/recharge generates matching sales and purchase invoices between groups",
+      "Company address and banking per group flow to document output",
+      "G/L and VAT registers include Business Group and VAT Group columns",
+      "Aged AP/AR carry Business Group filters",
+      "Close income statement, VAT settlement, suggest vendor payments and depreciation per group",
+      "Remittance advice per group's banking details",
+      "Guided setup"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

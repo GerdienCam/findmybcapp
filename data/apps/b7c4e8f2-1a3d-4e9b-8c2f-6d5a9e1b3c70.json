@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.saifeesoftwaresolutions1773311173044|AID.investment-portfolio-tracker|PAPPID.b7c4e8f2-1a3d-4e9b-8c2f-6d5a9e1b3c70",
+  "guid": "b7c4e8f2-1a3d-4e9b-8c2f-6d5a9e1b3c70",
+  "publisherId": "saifeesoftwaresolutions1773311173044",
+  "offerId": "investment-portfolio-tracker",
+  "source": {
+    "name": "Investment Portfolio Tracker",
+    "publisher": "Saifs AI",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.saifeesoftwaresolutions1773311173044%7CAID.investment-portfolio-tracker%7CPAPPID.b7c4e8f2-1a3d-4e9b-8c2f-6d5a9e1b3c70",
+    "lastModified": "2026-06-10T13:22:09.9636164+00:00",
+    "appVersion": "2.1.0.12",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://saifytech.com/contact-us",
+    "sourceHash": "sha256:5ea873563c7b427526af97c4e274b44a0fe787546c4737f98003ff2c61573df6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ea873563c7b427526af97c4e274b44a0fe787546c4737f98003ff2c61573df6",
+    "mappedOn": null,
+    "summary": "Tracks investment portfolio holdings",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-currency"
+    ],
+    "claims": [
+      "Follows commodities, precious metals, fixed income, ETFs and stocks",
+      "Records quantity, purchase price, currency, date, category and ticker",
+      "Refreshes live market prices for one or all assets",
+      "Calculates unrealised gain/loss and percentage, plus current value and total cost",
+      "Portfolio summary totals",
+      "Stock lookup by name or ticker with live quote details",
+      "Live gold, silver, platinum, palladium rates",
+      "Currency converter with live exchange rates",
+      "OAuth 2.0 sign-in; credentials not stored in BC"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Saifs AI",
+      "multiplewords.com"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Tracking a company's investment portfolio (stocks, ETFs, precious metals) with live market prices"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

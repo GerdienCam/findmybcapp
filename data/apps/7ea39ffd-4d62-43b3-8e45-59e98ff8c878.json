@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.x-linkas1700470462467|AID.xli_virklink|PAPPID.7ea39ffd-4d62-43b3-8e45-59e98ff8c878",
+  "guid": "7ea39ffd-4d62-43b3-8e45-59e98ff8c878",
+  "publisherId": "x-linkas1700470462467",
+  "offerId": "xli_virklink",
+  "source": {
+    "name": "VirkLink",
+    "publisher": "X-link A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.x-linkas1700470462467%7CAID.xli_virklink%7CPAPPID.7ea39ffd-4d62-43b3-8e45-59e98ff8c878",
+    "lastModified": "2025-04-28T09:15:17.7451735+00:00",
+    "appVersion": "1.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.xli.dk/",
+    "sourceHash": "sha256:f512587068f562403fae540033a1dca9c1a7a779afa8a253c6fd2319e49f8a9c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f512587068f562403fae540033a1dca9c1a7a779afa8a253c6fd2319e49f8a9c",
+    "mappedOn": null,
+    "summary": "Retrieves Danish company data from the CVR register",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds",
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Fetches financial info and master data from Virk.dk (CVR)",
+      "Automatic update via job queue for customers/vendors with CVR",
+      "Financial key figures: gross profit, result, equity, ratios",
+      "Links to annual and interim report PDFs",
+      "Master data incl. status, company form, advertising protection, address",
+      "Notification of company status change (e.g. bankruptcy)",
+      "Unlimited lookups"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Virk.dk",
+      "CVR"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

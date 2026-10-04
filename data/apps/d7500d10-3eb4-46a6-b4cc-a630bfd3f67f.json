@@ -1,0 +1,79 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evcrono-365loen|PAPPID.d7500d10-3eb4-46a6-b4cc-a630bfd3f67f",
+  "guid": "d7500d10-3eb4-46a6-b4cc-a630bfd3f67f",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evcrono-365loen",
+  "source": {
+    "name": "365Løn - Crono",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evcrono-365loen%7CPAPPID.d7500d10-3eb4-46a6-b4cc-a630bfd3f67f",
+    "lastModified": "2026-10-02T08:31:52.8100317+00:00",
+    "appVersion": "1.0.223787.2700",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
+    "sourceHash": "sha256:426fef25d4111ed67d6b7aec2c0943af59cc8fe48be917c7e7bff042f5368883"
+  },
+  "mapping": {
+    "sourceHash": "sha256:426fef25d4111ed67d6b7aec2c0943af59cc8fe48be917c7e7bff042f5368883",
+    "mappedOn": null,
+    "summary": "Syncs employee master data, time and absence between 365Løn and EV Crono",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "Syncs employee master data, time and absence between 365Løn and EV Crono",
+      "Handles authentication between systems",
+      "Only data within user's access is handled"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IT",
+      "NL",
+      "NO",
+      "PH",
+      "PL",
+      "SE"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "365Løn",
+      "EV Crono"
+    ],
+    "requires": [
+      "365Løn",
+      "EV Crono"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

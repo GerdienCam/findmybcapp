@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.alterna|AID.11db128f-2246-4d56-9784-0f4de770f629|PAPPID.11db128f-2246-4d56-9784-0f4de770f629",
+  "guid": "11db128f-2246-4d56-9784-0f4de770f629",
+  "publisherId": "alterna",
+  "offerId": "11db128f-2246-4d56-9784-0f4de770f629",
+  "source": {
+    "name": "PLM Connector",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.11db128f-2246-4d56-9784-0f4de770f629%7CPAPPID.11db128f-2246-4d56-9784-0f4de770f629",
+    "lastModified": "2026-07-22T01:07:56.2057081+00:00",
+    "appVersion": "1.8.22.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/plm-connector/",
+    "sourceHash": "sha256:56aa2169fd7d5d5e09f9c007ab105c096017a467eddb5ce7488fdb8cbebb1438"
+  },
+  "mapping": {
+    "sourceHash": "sha256:56aa2169fd7d5d5e09f9c007ab105c096017a467eddb5ce7488fdb8cbebb1438",
+    "mappedOn": null,
+    "summary": "Syncs items and BOMs from PLM/PDM systems",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bom-formula-engineering",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Inbound APIs to import items",
+      "Offers inbound APIs for importing BOM versions and BOMs",
+      "Outbound APIs for routings, item categories and units of measure",
+      "Outbound APIs for exporting BOMs and their versions",
+      "Extra-data setup for custom fields in the integration",
+      "PLM dashboards for inbound items/BOMs and history logs",
+      "Automatic certification on BOM creation",
+      "Integrated with ReleasePro for automatic item release",
+      "Requires Premium edition",
+      "30-day free trial then subscription"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "PLM",
+      "PDM",
+      "ReleasePro"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

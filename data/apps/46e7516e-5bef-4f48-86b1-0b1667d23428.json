@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dms-ecm-connect-365|PAPPID.46e7516e-5bef-4f48-86b1-0b1667d23428",
+  "guid": "46e7516e-5bef-4f48-86b1-0b1667d23428",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dms-ecm-connect-365",
+  "source": {
+    "name": "Aptean Equipment DMS x ECM Connect",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-ecm-connect-365%7CPAPPID.46e7516e-5bef-4f48-86b1-0b1667d23428",
+    "lastModified": "2026-09-01T07:37:37.8937695+00:00",
+    "appVersion": "2603.260800.20260826.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.traser-software.de/de-DE",
+    "sourceHash": "sha256:209899b7a6075289b162f290bd4747c3997c30a33322b755cd26fe8ec257bb7e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:209899b7a6075289b162f290bd4747c3997c30a33322b755cd26fe8ec257bb7e",
+    "mappedOn": null,
+    "summary": "Connects Aptean Equipment DMS with Aptean ECM Connect",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers",
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Stores attachments on the financing module",
+      "Exports attachments or service item worksheets to the linked DMS",
+      "Links on service item lines to open folders from the service app"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "Aptean ECM Connect"
+    ],
+    "requires": [
+      "Aptean Equipment DMS",
+      "Aptean ECM Connect"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

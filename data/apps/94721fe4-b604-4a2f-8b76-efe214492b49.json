@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.erpwareltd|AID.dcx-fulfilment-crowd|PAPPID.94721fe4-b604-4a2f-8b76-efe214492b49",
+  "guid": "94721fe4-b604-4a2f-8b76-efe214492b49",
+  "publisherId": "erpwareltd",
+  "offerId": "dcx-fulfilment-crowd",
+  "source": {
+    "name": "DCX - Fulfilment Crowd Integration",
+    "publisher": "ERP Ware",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpwareltd%7CAID.dcx-fulfilment-crowd%7CPAPPID.94721fe4-b604-4a2f-8b76-efe214492b49",
+    "lastModified": "2026-09-10T15:37:32.7639396+00:00",
+    "appVersion": "1.0.34.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamics-connect.co.uk/Apps/dcx-fulfilment-crowd-integration",
+    "sourceHash": "sha256:288790967f85195d446d87213b4a6344408470fc2f8597c4b9303e71d454b6bf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:288790967f85195d446d87213b4a6344408470fc2f8597c4b9303e71d454b6bf",
+    "mappedOn": null,
+    "summary": "Integrates 3PL fulfilmentcrowd for shipment tracking",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "fulfilmentcrowd pushes tracking numbers, carrier details and shipment status to BC",
+      "Populates Package Tracking No. on posted sales shipment",
+      "Multi-package shipments with per-package tracking and carrier",
+      "Stores click-through carrier tracking URLs",
+      "Package Tracking FactBox on posted sales shipment",
+      "Supports Essential and Premium"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "fulfilmentcrowd"
+    ],
+    "requires": [
+      "DCX - License Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

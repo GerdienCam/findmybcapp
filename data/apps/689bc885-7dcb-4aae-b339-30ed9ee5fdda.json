@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.bluefort|AID.gocardless_tapp_bc|PAPPID.689bc885-7dcb-4aae-b339-30ed9ee5fdda",
+  "guid": "689bc885-7dcb-4aae-b339-30ed9ee5fdda",
+  "publisherId": "bluefort",
+  "offerId": "gocardless_tapp_bc",
+  "source": {
+    "name": "GoCardless for Microsoft Dynamics 365 Business Central",
+    "publisher": "Bluefort",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bluefort%7CAID.gocardless_tapp_bc%7CPAPPID.689bc885-7dcb-4aae-b339-30ed9ee5fdda",
+    "lastModified": "2026-09-07T12:57:51.6358299+00:00",
+    "appVersion": "27.0.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://learn.bluefort.eu/knowledge-base/bluefort-tapp-payment-automation-for-microsoft-dynamics-365-business-central-deployment/",
+    "sourceHash": "sha256:80e72276d11c6b6eecad1303d5606a7e06eec1b8f771e69cebbecde0d00b900a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:80e72276d11c6b6eecad1303d5606a7e06eec1b8f771e69cebbecde0d00b900a",
+    "mappedOn": null,
+    "summary": "Direct debit collection and reconciliation via GoCardless",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates Direct Debit collection automatically when an invoice is raised",
+      "Direct Debit mandate onboarding and reconciliation",
+      "Instant Bank Pay and Billing Requests",
+      "Scheduled charge date, cancel/retry, re-generate expired links",
+      "Automatic payouts, fee and tax posting, refunds and chargebacks",
+      "Syncs currency mapping, schemes, tax rates and merchant bank accounts",
+      "Subscription migration into BC"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "GoCardless"
+    ],
+    "requires": [
+      "GoCardless account"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

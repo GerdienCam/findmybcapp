@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.fiftytwoas|AID.25leasingdocumentoutput|PAPPID.e5a276b2-40d8-49d2-8552-93a107045b51",
+  "guid": "e5a276b2-40d8-49d2-8552-93a107045b51",
+  "publisherId": "fiftytwoas",
+  "offerId": "25leasingdocumentoutput",
+  "source": {
+    "name": "52Leasing DocumentOutput Service",
+    "publisher": "Fiftytwo A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fiftytwoas%7CAID.25leasingdocumentoutput%7CPAPPID.e5a276b2-40d8-49d2-8552-93a107045b51",
+    "lastModified": "2026-08-13T11:48:33.4537913+00:00",
+    "appVersion": "26.7.0.5221",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://52leasing.com/produktvideo/",
+    "sourceHash": "sha256:7d8a9ce6191e6ce120f73cb0025d6954ee80d20dec52be0f15679ad97665fce5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7d8a9ce6191e6ce120f73cb0025d6954ee80d20dec52be0f15679ad97665fce5",
+    "mappedOn": null,
+    "summary": "Lets 52LEASING use Continia Document Output",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-leasing-finance",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Uses Continia Document Output inside 52LEASING",
+      "Creates and manages all outgoing documents",
+      "Overview of all sent and started documents"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [
+      "Financial services",
+      "Leasing"
+    ],
+    "connectsTo": [
+      "Continia Document Output"
+    ],
+    "requires": [
+      "52LEASING",
+      "Continia Document Output"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

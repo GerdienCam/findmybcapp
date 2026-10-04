@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.duvekagmbh1711374674329|AID.0012|PAPPID.efeca85b-67e7-4809-871a-e6e4a1b8bfc3",
+  "guid": "efeca85b-67e7-4809-871a-e6e4a1b8bfc3",
+  "publisherId": "duvekagmbh1711374674329",
+  "offerId": "0012",
+  "source": {
+    "name": "duveka Price Calculation",
+    "publisher": "duveka GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0012%7CPAPPID.efeca85b-67e7-4809-871a-e6e4a1b8bfc3",
+    "lastModified": "2026-10-01T12:34:23.5879943+00:00",
+    "appVersion": "26.2.14.30181",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://duveka.net/ExcelOutputAddon",
+    "sourceHash": "sha256:40be0234c098615aad3e25e1424d8bb18c31d74747fb8ecc51257087c5910ab5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:40be0234c098615aad3e25e1424d8bb18c31d74747fb8ecc51257087c5910ab5",
+    "mappedOn": null,
+    "summary": "Schema-based sales pricing engine",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-cpq",
+      "ng-supplier-pricing"
+    ],
+    "claims": [
+      "Items linked to price calculation schemas",
+      "Schemas use formulas, item or customer fields, data tables, loops and Excel read/write",
+      "Calculated price and cost applied automatically to the sales line",
+      "Multi-step calculation workflows",
+      "Excel integration for pricing data",
+      "Calculated prices usable on sales and purchase documents"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Excel"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

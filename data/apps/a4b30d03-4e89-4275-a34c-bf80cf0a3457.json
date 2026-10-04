@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.navappyazlmvedanmanlkltdti1582460298798|AID.bc-nappadr|PAPPID.a4b30d03-4e89-4275-a34c-bf80cf0a3457",
+  "guid": "a4b30d03-4e89-4275-a34c-bf80cf0a3457",
+  "publisherId": "navappyazlmvedanmanlkltdti1582460298798",
+  "offerId": "bc-nappadr",
+  "source": {
+    "name": "Advance Request",
+    "publisher": "Navapp Yazilim ve Danismanlik Anonim Sirketi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navappyazlmvedanmanlkltdti1582460298798%7CAID.bc-nappadr%7CPAPPID.a4b30d03-4e89-4275-a34c-bf80cf0a3457",
+    "lastModified": "2026-03-02T17:06:46.609482+00:00",
+    "appVersion": "27.0.220912.1000",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-advance-request",
+    "sourceHash": "sha256:cc3c0eb5157dc5e5d549c0f6fb9248d19e347ca860e816accbf408a9533e9cfa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cc3c0eb5157dc5e5d549c0f6fb9248d19e347ca860e816accbf408a9533e9cfa",
+    "mappedOn": null,
+    "summary": "Employee advance requests with approval and balance tracking",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Records employee advance requests and posts them to accounting after approval",
+      "Approval workflows with configurable routes on advance requests",
+      "Monitors remaining balances of employee advances and unclosed advances"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

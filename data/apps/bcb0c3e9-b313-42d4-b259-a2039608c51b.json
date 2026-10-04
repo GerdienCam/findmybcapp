@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.jemel|AID.jemel_currency_rate|PAPPID.bcb0c3e9-b313-42d4-b259-a2039608c51b",
+  "guid": "bcb0c3e9-b313-42d4-b259-a2039608c51b",
+  "publisherId": "jemel",
+  "offerId": "jemel_currency_rate",
+  "source": {
+    "name": "Currency Rates",
+    "publisher": "JEMEL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jemel%7CAID.jemel_currency_rate%7CPAPPID.bcb0c3e9-b313-42d4-b259-a2039608c51b",
+    "lastModified": "2026-08-12T14:38:46.8531232+00:00",
+    "appVersion": "27.3.52.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://jemel.lv/docs/currency-rates-import",
+    "sourceHash": "sha256:05a473278a1ae1139e16870472a10a1c4372d089992fed1cb468842a817f3016"
+  },
+  "mapping": {
+    "sourceHash": "sha256:05a473278a1ae1139e16870472a10a1c4372d089992fed1cb468842a817f3016",
+    "mappedOn": null,
+    "summary": "Imports fiat and crypto exchange rates from 13 sources",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Imports exchange rates from 13 sources",
+      "Central bank sources: ECB, BoE, Riksbank, Danmarks Nationalbank, Fed H.10, NBP, CNB, BNR, MNB",
+      "Federal Reserve H.10 USD rates without EUR triangulation",
+      "Open Exchange Rates for 160+ currencies",
+      "Cryptocurrency rates from CoinGecko, CoinMarketCap, CryptoCompare",
+      "Per-100 quotes converted automatically",
+      "Multiple sources simultaneously with currency filters",
+      "Scheduled imports via job queue",
+      "Preview rates before import",
+      "Manual override of rates",
+      "Timezone handling for publication times",
+      "Historic rate backfill for any date range",
+      "Assisted setup wizard"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "European Central Bank",
+      "Bank of England",
+      "Sveriges Riksbank",
+      "Danmarks Nationalbank",
+      "Federal Reserve",
+      "Narodowy Bank Polski",
+      "Česká národní banka",
+      "Banca Naţională a României",
+      "Magyar Nemzeti Bank",
+      "Open Exchange Rates",
+      "CoinGecko",
+      "CoinMarketCap",
+      "CryptoCompare"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

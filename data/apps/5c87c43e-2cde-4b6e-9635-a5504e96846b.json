@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-dropon-connector|PAPPID.5c87c43e-2cde-4b6e-9635-a5504e96846b",
+  "guid": "5c87c43e-2cde-4b6e-9635-a5504e96846b",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-dropon-connector",
+  "source": {
+    "name": "Powerblox Dropon Connector",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-dropon-connector%7CPAPPID.5c87c43e-2cde-4b6e-9635-a5504e96846b",
+    "lastModified": "2026-09-18T21:43:09.880484+00:00",
+    "appVersion": "25.0.7.69301",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/dropon_connector",
+    "sourceHash": "sha256:3d3ea08e3588c38d459f027b27d43c5fea01156e42b65693996dda3d89e9f74d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3d3ea08e3588c38d459f027b27d43c5fea01156e42b65693996dda3d89e9f74d",
+    "mappedOn": null,
+    "summary": "Integrates Dropon delivery management and route planning",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Connects BC to Dropon route planning",
+      "Address validation with Google Maps",
+      "Syncs Dropon status updates to BC",
+      "Proof of delivery in BC",
+      "Last-mile delivery management"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dropon",
+      "Google Maps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

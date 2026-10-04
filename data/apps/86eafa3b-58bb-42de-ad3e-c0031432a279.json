@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.apcommerce|AID.itemrestrictionmgt_apc|PAPPID.86eafa3b-58bb-42de-ad3e-c0031432a279",
+  "guid": "86eafa3b-58bb-42de-ad3e-c0031432a279",
+  "publisherId": "apcommerce",
+  "offerId": "itemrestrictionmgt_apc",
+  "source": {
+    "name": "Item Restriction Management",
+    "publisher": "AP Commerce",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apcommerce%7CAID.itemrestrictionmgt_apc%7CPAPPID.86eafa3b-58bb-42de-ad3e-c0031432a279",
+    "lastModified": "2026-09-21T18:20:23.9975148+00:00",
+    "appVersion": "1.0.11.0",
+    "pricingTypes": [
+      "Free",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.apcdynamics.com/contact-us/",
+    "sourceHash": "sha256:da7afd963dfaefbc7c7ccce543a28b35e78dbad43aad9ff212bdd4595f1759b1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:da7afd963dfaefbc7c7ccce543a28b35e78dbad43aad9ff212bdd4595f1759b1",
+    "mappedOn": null,
+    "summary": "Blocks or allows items for specific customers or regions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-assortment-catalogs",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-product-compliance",
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Block or allow specific items for specific customers",
+      "Restrict items from being sold to specific regions/countries",
+      "Item restrictions also for purchasing from specific vendors",
+      "Up to 5 free sandbox users"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

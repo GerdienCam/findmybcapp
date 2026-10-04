@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.sbcdynamicserp1637715412860|AID.acumenscrmenhancements|PAPPID.11ca1180-8367-4ba9-b280-9ee304870c07",
+  "guid": "11ca1180-8367-4ba9-b280-9ee304870c07",
+  "publisherId": "sbcdynamicserp1637715412860",
+  "offerId": "acumenscrmenhancements",
+  "source": {
+    "name": "Acumens CRM Enhancements (WW)",
+    "publisher": "SBC Dynamics ERP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumenscrmenhancements%7CPAPPID.11ca1180-8367-4ba9-b280-9ee304870c07",
+    "lastModified": "2026-09-22T12:36:55.8829909+00:00",
+    "appVersion": "25.1023.0.69",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.sbcdynamicserp.com/acumens-crm-enhancements/",
+    "sourceHash": "sha256:722abdb08efaa4528316d7577166dfb96b718c7ef67ab3421b2f83e636fce7fe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:722abdb08efaa4528316d7577166dfb96b718c7ef67ab3421b2f83e636fce7fe",
+    "mappedOn": null,
+    "summary": "Extends CRM for salespeople, contacts and quotes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-pipeline",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-lead-management"
+    ],
+    "claims": [
+      "Salesperson login: multiple users share one BC login with a second user-specific layer",
+      "Categorizes contacts into leads, prospects and customers",
+      "Create and track opportunities",
+      "Logs interactions",
+      "Customizable email templates",
+      "Create customer and price quickly from a sales quote",
+      "Sales quote report includes validity period",
+      "Special order, sample request, custom product and transfer order forms",
+      "CRM role centre"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

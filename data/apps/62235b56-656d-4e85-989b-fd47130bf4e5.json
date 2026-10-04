@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.continia365|AID.continia-banking-dk|PAPPID.62235b56-656d-4e85-989b-fd47130bf4e5",
+  "guid": "62235b56-656d-4e85-989b-fd47130bf4e5",
+  "publisherId": "continia365",
+  "offerId": "continia-banking-dk",
+  "source": {
+    "name": "Continia Banking (DK)",
+    "publisher": "Continia Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.continia-banking-dk%7CPAPPID.62235b56-656d-4e85-989b-fd47130bf4e5",
+    "lastModified": "2026-10-01T23:19:42.9993721+00:00",
+    "appVersion": "29.0.0.215726",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.continia.com/en-us/continia-banking",
+    "sourceHash": "sha256:0fea9a4713fc875a02c0d0657595c73a46f2b0496c08195ddc00a3467a042a6a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0fea9a4713fc875a02c0d0657595c73a46f2b0496c08195ddc00a3467a042a6a",
+    "mappedOn": null,
+    "summary": "Danish bank payments and statement reconciliation",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Direct bank communication: payments, direct debit files, statements, status updates",
+      "Up to 95% match rate in reconciliation",
+      "Streamlined or advanced payment export flow, by line or summarized",
+      "Approval of every payment line before bank export",
+      "Alerts on changed bank account information",
+      "Imports PSP payments (Klarna, PayPal) with fee visibility",
+      "Validation with detailed error descriptions before export",
+      "CSV import from any bank or PSP with templates"
+    ],
+    "countries": [
+      "DK",
+      "FO",
+      "GL"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "nl",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Klarna",
+      "PayPal"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

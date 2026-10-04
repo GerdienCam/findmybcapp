@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex04604datasecurityforpurchaserequest|PAPPID.a7e3a0a2-9b1a-4343-b594-2579fd23f872",
+  "guid": "a7e3a0a2-9b1a-4343-b594-2579fd23f872",
+  "publisherId": "eos_solutions",
+  "offerId": "ex04604datasecurityforpurchaserequest",
+  "source": {
+    "name": "Data Security for Purchase Request",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex04604datasecurityforpurchaserequest%7CPAPPID.a7e3a0a2-9b1a-4343-b594-2579fd23f872",
+    "lastModified": "2026-04-27T15:08:22.2589634+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ex046-purchase-request.html",
+    "sourceHash": "sha256:613fad2a83d19c68cb4e592e6eb5091ebb8a26180f274342548b889d5e25178d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:613fad2a83d19c68cb4e592e6eb5091ebb8a26180f274342548b889d5e25178d",
+    "mappedOn": null,
+    "summary": "Validation rules and workflow for EOS purchase requests",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Links Purchase Request and Data Security apps",
+      "Auto-block incomplete purchase requests, e.g. without vendor",
+      "Only granted users can change record status",
+      "Email notification on status change, no coding",
+      "Different approval paths per entity",
+      "Free if EOS Data Security and EOS Purchase Request are purchased"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Data Security",
+      "EOS Purchase Request"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

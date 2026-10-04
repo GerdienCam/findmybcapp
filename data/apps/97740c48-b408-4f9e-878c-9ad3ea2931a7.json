@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.tinx-it|AID.tinx-it-shopify-connector|PAPPID.97740c48-b408-4f9e-878c-9ad3ea2931a7",
+  "guid": "97740c48-b408-4f9e-878c-9ad3ea2931a7",
+  "publisherId": "tinx-it",
+  "offerId": "tinx-it-shopify-connector",
+  "source": {
+    "name": "Tinx Shopify Connector",
+    "publisher": "Tinx-IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-it-shopify-connector%7CPAPPID.97740c48-b408-4f9e-878c-9ad3ea2931a7",
+    "lastModified": "2026-09-24T11:53:17.2738321+00:00",
+    "appVersion": "28.1.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.tinx-it.com/",
+    "sourceHash": "sha256:91ef16b9d33a43e9d47926be195deddd334ab1feed980f2b9d8353a4a09eeb5f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:91ef16b9d33a43e9d47926be195deddd334ab1feed980f2b9d8353a4a09eeb5f",
+    "mappedOn": null,
+    "summary": "Syncs Shopify products, inventory, customers and orders",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Real-time sync of orders, customers, inventory and products",
+      "Custom metafields on items and customers",
+      "Customer sync for B2B and B2C buyers",
+      "Order import including guest orders with customer assignment",
+      "Product information management in BC: texts, cross-sell, up-sell, multiple images",
+      "Email alerts for sync errors",
+      "Fixed monthly fee from EUR 309, no transaction or user fees"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Shopify"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

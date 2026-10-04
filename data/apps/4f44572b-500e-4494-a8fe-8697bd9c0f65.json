@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.binary-stream-software|AID.dimension_management_d365bc|PAPPID.4f44572b-500e-4494-a8fe-8697bd9c0f65",
+  "guid": "4f44572b-500e-4494-a8fe-8697bd9c0f65",
+  "publisherId": "binary-stream-software",
+  "offerId": "dimension_management_d365bc",
+  "source": {
+    "name": "Dimension Management",
+    "publisher": "Binary Stream Software Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binary-stream-software%7CAID.dimension_management_d365bc%7CPAPPID.4f44572b-500e-4494-a8fe-8697bd9c0f65",
+    "lastModified": "2026-09-09T15:11:09.0686037+00:00",
+    "appVersion": "1.16.4.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/DMHelp/DM.htm",
+    "sourceHash": "sha256:e8b7b1fc04fbd49d654f3bae7f6931b93b85a71247ea494785786dc8f1d48e33"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e8b7b1fc04fbd49d654f3bae7f6931b93b85a71247ea494785786dc8f1d48e33",
+    "mappedOn": null,
+    "summary": "Corrects dimensions on posted transactions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-correct-posted"
+    ],
+    "claims": [
+      "Corrects, adds or updates dimension values after posting",
+      "No need to reverse and repost transactions",
+      "Works across all transaction types",
+      "Batch updates of dimensions",
+      "Applies new dimensions to historical transactions",
+      "Scheduled dimension updates",
+      "Full audit trail of dimension changes",
+      "Propagates changes to master records, budgets and ledgers",
+      "Integrates with Binary Stream Multi-Entity Management with protection of MEM global dimensions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Financial services",
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

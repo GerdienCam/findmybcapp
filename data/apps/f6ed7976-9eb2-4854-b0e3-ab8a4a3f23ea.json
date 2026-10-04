@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.bcappslimited1693858041247|AID.bulk-delete|PAPPID.f6ed7976-9eb2-4854-b0e3-ab8a4a3f23ea",
+  "guid": "f6ed7976-9eb2-4854-b0e3-ab8a4a3f23ea",
+  "publisherId": "bcappslimited1693858041247",
+  "offerId": "bulk-delete",
+  "source": {
+    "name": "Bulk Delete",
+    "publisher": "BC Apps Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcappslimited1693858041247%7CAID.bulk-delete%7CPAPPID.f6ed7976-9eb2-4854-b0e3-ab8a4a3f23ea",
+    "lastModified": "2026-08-25T08:15:29.9892494+00:00",
+    "appVersion": "2.0.54.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.bcapps.co/BulkDelete/",
+    "sourceHash": "sha256:e61543b63da913a27f39c78241d045f126e9cb81db1aadffc880c0e485931ec1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e61543b63da913a27f39c78241d045f126e9cb81db1aadffc880c0e485931ec1",
+    "mappedOn": null,
+    "summary": "Bulk deletes records from any table with integrity checks",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-data-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-setup"
+    ],
+    "claims": [
+      "Free bulk delete of customers, items, vendors, fixed assets with standard integrity checks",
+      "Delete Packages for any table scheduled via job queue",
+      "Delete actions: Delete and Log, Delete Only, Truncate (sandbox only)",
+      "Reorder tables within a package",
+      "Export and import delete package definitions",
+      "Uses standard delete validation rules",
+      "Delete history can be cleaned by package"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

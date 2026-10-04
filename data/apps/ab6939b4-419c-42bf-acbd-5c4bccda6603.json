@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.alterna|AID.ab6939b4-419c-42bf-acbd-5c4bccda6603|PAPPID.ab6939b4-419c-42bf-acbd-5c4bccda6603",
+  "guid": "ab6939b4-419c-42bf-acbd-5c4bccda6603",
+  "publisherId": "alterna",
+  "offerId": "ab6939b4-419c-42bf-acbd-5c4bccda6603",
+  "source": {
+    "name": "Item Packaging Tracking",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.ab6939b4-419c-42bf-acbd-5c4bccda6603%7CPAPPID.ab6939b4-419c-42bf-acbd-5c4bccda6603",
+    "lastModified": "2026-09-22T17:23:28.2288026+00:00",
+    "appVersion": "1.0.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/item-packaging-tracking/",
+    "sourceHash": "sha256:27acd07fecb48b4b9c7ef55ffa4c716fa07320c82c3a72afd2120e9b8b746c7f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:27acd07fecb48b4b9c7ef55ffa4c716fa07320c82c3a72afd2120e9b8b746c7f",
+    "mappedOn": null,
+    "summary": "Tracks packaging movements and returns of returnable packaging",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-loc-epr-packaging",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-consignment",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Packing instructions linked to items",
+      "Tracking policies: packaging disposed, invoiced or returned",
+      "Automatic packaging calculation on orders, shipments and receipts",
+      "Tracks stock of packaging items",
+      "Creates and posts packaging returns",
+      "Invoices packaging via sales/purchase invoices",
+      "Packaging tracking linked to shipping agent",
+      "Packaging calculated from handling units on the document",
+      "Requires Extended Warehouse Suite"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Extended Warehouse Suite"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

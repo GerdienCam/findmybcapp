@@ -1,0 +1,199 @@
+{
+  "id": "ng-ux-excel-reporting",
+  "order": 186,
+  "label": "Reporting in Excel and ad hoc analysis on live data",
+  "description": "Excel add-ins and report builders on live BC data, ad hoc lists and smart views, multi-company reports, and replicating data to SQL or a data platform for reporting.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "high",
+  "statements": [
+    "Reporting in Excel and ad hoc analysis on live data",
+    "Excel add-ins and report builders on live BC data, ad hoc lists and smart views, multi-company reports, and replicating data to SQL or a data platform for reporting.",
+    "Finance exports to Excel every day and builds the same pivot",
+    "Excel report that refreshes from BC",
+    "We had Jet Reports on NAV, what do people use now?",
+    "I want to write formulas in Excel that pull BC balances",
+    "Ad hoc lists filtered and grouped without asking IT",
+    "A report across all our companies in one sheet",
+    "Our controllers live in Excel, they won't move to Power BI",
+    "Copy our BC data to a SQL database for reporting",
+    "Scheduled Excel workbook sent every Monday",
+    "Financial reports in BC are too rigid for our board pack",
+    "Can I look up BC data from a cell in my spreadsheet?",
+    "Build reports without a developer",
+    "Export everything to our data warehouse every night",
+    "Management pack in Excel with live numbers",
+    "Analysis views on sales and purchasing data with charts",
+    "Need a reporting tool that both finance and operations can use",
+    "Excel export loses the formatting every time",
+    "Can we report on BC data from outside BC with SQL?",
+    "Drill down from the Excel number to the BC entries",
+    "Group sales by customer and month without a report request"
+  ],
+  "questions": [
+    {
+      "id": "where",
+      "text": "Where do you want to build and read your reports?",
+      "multi": true,
+      "options": [
+        {
+          "label": "In Excel, with live BC data",
+          "patterns": [
+            "excel add-in",
+            "add-in",
+            "excel functions",
+            "inside excel",
+            "excel directly",
+            "from excel",
+            "excel cell",
+            "live .*excel",
+            "excel.*live",
+            "excel pivot"
+          ]
+        },
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "inside (business central|bc)",
+            "within (microsoft dynamics 365 )?business central",
+            "created and run inside",
+            "sheet areas",
+            "run automatically in bc"
+          ]
+        },
+        {
+          "label": "Power BI, a data warehouse or SQL",
+          "patterns": [
+            "power bi",
+            "fabric",
+            "\\bsql\\b",
+            "data lake",
+            "data warehouse",
+            "postgresql",
+            "data factory"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "In Excel, with live BC data": 0.48,
+        "Inside Business Central": 0.13,
+        "Power BI, a data warehouse or SQL": 0.35
+      }
+    },
+    {
+      "id": "companies",
+      "text": "Do you report across several companies?",
+      "options": [
+        {
+          "label": "Yes, we consolidate or compare companies",
+          "patterns": [
+            "multi-?company",
+            "multiple companies",
+            "consolidat",
+            "cross-company",
+            "across (multiple )?companies",
+            "across tenants",
+            "multiple (connections|environments)",
+            "multi-environment"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we consolidate or compare companies": 0.43
+      }
+    },
+    {
+      "id": "output",
+      "text": "What should happen with the finished reports?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Run on a schedule and send to people",
+          "patterns": [
+            "schedul",
+            "burst",
+            "by email",
+            "automat(ed|es)? (reporting|recurring)"
+          ]
+        },
+        {
+          "label": "Drill down from a number to the entries",
+          "patterns": [
+            "drill"
+          ]
+        },
+        {
+          "label": "Fill fixed Excel or PDF templates",
+          "patterns": [
+            "template",
+            "\\bpdf\\b"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Run on a schedule and send to people": 0.3,
+        "Drill down from a number to the entries": 0.26,
+        "Fill fixed Excel or PDF templates": 0.22
+      }
+    },
+    {
+      "id": "writeback",
+      "text": "Do you also want to enter budgets or journals from the sheet?",
+      "options": [
+        {
+          "label": "Yes, write data back to BC",
+          "patterns": [
+            "writes? back",
+            "budget entry",
+            "written to g/l"
+          ]
+        },
+        {
+          "label": "No, read only / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, write data back to BC": 0.09
+      }
+    },
+    {
+      "id": "finance",
+      "text": "Do you need ready-made financial statements?",
+      "options": [
+        {
+          "label": "Yes, P&L, balance sheet, trial balance out of the box",
+          "patterns": [
+            "p&l",
+            "balance sheet",
+            "income statement",
+            "trial balance",
+            "financial (reports|dashboards)",
+            "prebuilt",
+            "pre-built",
+            "predefined"
+          ]
+        },
+        {
+          "label": "No, we build our own / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, P&L, balance sheet, trial balance out of the box": 0.3
+      }
+    }
+  ]
+}

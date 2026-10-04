@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.clarityukraine1657050202465|AID.clrt_accounting_by_agreements|PAPPID.1acdd35d-61b3-4183-be3a-69ca20d212e1",
+  "guid": "1acdd35d-61b3-4183-be3a-69ca20d212e1",
+  "publisherId": "clarityukraine1657050202465",
+  "offerId": "clrt_accounting_by_agreements",
+  "source": {
+    "name": "Accounting by agreements",
+    "publisher": "Clarity Ukraine",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.clarityukraine1657050202465%7CAID.clrt_accounting_by_agreements%7CPAPPID.1acdd35d-61b3-4183-be3a-69ca20d212e1",
+    "lastModified": "2026-05-12T10:41:38.369841+00:00",
+    "appVersion": "26.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://clarity-team.com/en/contacts/",
+    "sourceHash": "sha256:6f733a22e9313e41c502069ca31db6263f9665aaa1568690e83070ba433c2da8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6f733a22e9313e41c502069ca31db6263f9665aaa1568690e83070ba433c2da8",
+    "mappedOn": null,
+    "summary": "Tracks customer and vendor transactions by agreement",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-supplier-contracts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-dimensions",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Agreement cards for customers and vendors",
+      "Links posted transactions to agreements",
+      "Attach scanned contracts and links to agreement",
+      "Blanket sales and purchase orders linked to agreements"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "languages": [
+      "en",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

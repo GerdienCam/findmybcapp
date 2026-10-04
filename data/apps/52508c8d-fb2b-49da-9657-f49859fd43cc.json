@@ -1,0 +1,92 @@
+{
+  "appId": "PUBID.sumango_as|AID.sumango_autobank|PAPPID.52508c8d-fb2b-49da-9657-f49859fd43cc",
+  "guid": "52508c8d-fb2b-49da-9657-f49859fd43cc",
+  "publisherId": "sumango_as",
+  "offerId": "sumango_autobank",
+  "source": {
+    "name": "Sumango AutoBank",
+    "publisher": "Sumango AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sumango_as%7CAID.sumango_autobank%7CPAPPID.52508c8d-fb2b-49da-9657-f49859fd43cc",
+    "lastModified": "2026-09-25T12:38:06.2621801+00:00",
+    "appVersion": "28.10.10.95",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://oseberg.atlassian.net/l/c/be9YFxPw",
+    "sourceHash": "sha256:c07302ee9261478670c10a237d58efc4f9b805f83aa1c33ac688c3cb6cd2c072"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c07302ee9261478670c10a237d58efc4f9b805f83aa1c33ac688c3cb6cd2c072",
+    "mappedOn": null,
+    "summary": "Bank payments, receivables and reconciliation handling",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Direct bank integration without file handling",
+      "Handles all currencies including SEPA",
+      "Daily status of sent, processed and rejected payments",
+      "Daily bank balance",
+      "Automatic or manual reconciliation",
+      "Posts interest, fees and similar bank transactions automatically",
+      "Reverse errors from the reconciliation screen",
+      "Auto-matching on structured references and user-defined automation rules",
+      "Visual live status per payment",
+      "Supports Nordic banks such as DNB, Danske Bank, Nordea, SEB"
+    ],
+    "countries": [
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IS",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DNB",
+      "Danske Bank",
+      "Nordea",
+      "Sparebank 1",
+      "Handelsbanken",
+      "SEB",
+      "Jyske Bank",
+      "Swedbank",
+      "Sydbank"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

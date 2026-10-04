@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.nvisioncommercesolutions|AID.commerce365-magento-requestquote|PAPPID.c4517f13-1297-4023-99f9-171f11caa224",
+  "guid": "c4517f13-1297-4023-99f9-171f11caa224",
+  "publisherId": "nvisioncommercesolutions",
+  "offerId": "commerce365-magento-requestquote",
+  "source": {
+    "name": "Commerce 365 for Magento - Request a Quote Module",
+    "publisher": "NVision Commerce Solutions B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nvisioncommercesolutions%7CAID.commerce365-magento-requestquote%7CPAPPID.c4517f13-1297-4023-99f9-171f11caa224",
+    "lastModified": "2026-05-09T08:04:05.4291184+00:00",
+    "appVersion": "102.0.815.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nvision.freshdesk.com/support/solutions/80000373100",
+    "sourceHash": "sha256:d7890385a361aee1b1833198e956126034e02d25878e25dfa1e450058039a203"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d7890385a361aee1b1833198e956126034e02d25878e25dfa1e450058039a203",
+    "mappedOn": null,
+    "summary": "Customers request quotes from Magento store",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Customers request quotes from Magento store",
+      "Connected to Amasty Request a Quote extension"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Magento",
+      "Amasty Request a Quote"
+    ],
+    "requires": [
+      "Commerce 365 for Magento",
+      "Amasty Request a Quote"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_cross_selling|PAPPID.101bd08d-d0a0-4a0e-b6d1-c31b3206f06e",
+  "guid": "101bd08d-d0a0-4a0e-b6d1-c31b3206f06e",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_cross_selling",
+  "source": {
+    "name": "Dynavision Cross-Selling",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_cross_selling%7CPAPPID.101bd08d-d0a0-4a0e-b6d1-c31b3206f06e",
+    "lastModified": "2026-10-02T09:18:42.9718237+00:00",
+    "appVersion": "28.0.0.46692",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Cross-Sell_Manual.pdf",
+    "sourceHash": "sha256:dd1e6573c539e2bee7691f61a54e40e72a910679dc7325c991c8a8ff1b590421"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dd1e6573c539e2bee7691f61a54e40e72a910679dc7325c991c8a8ff1b590421",
+    "mappedOn": null,
+    "summary": "Suggests related items on sales orders based on assortments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Groups items into assortments by category, attributes or freely",
+      "Nested assortment tree hierarchy",
+      "Suggests related items for up- and cross-selling on sales documents"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

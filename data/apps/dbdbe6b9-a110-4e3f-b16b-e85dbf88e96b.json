@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex049_salesandpurchasepromotionsforwholesales|PAPPID.dbdbe6b9-a110-4e3f-b16b-e85dbf88e96b",
+  "guid": "dbdbe6b9-a110-4e3f-b16b-e85dbf88e96b",
+  "publisherId": "eos_solutions",
+  "offerId": "ex049_salesandpurchasepromotionsforwholesales",
+  "source": {
+    "name": "Sales and purchase Promotions for WholeSales",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex049_salesandpurchasepromotionsforwholesales%7CPAPPID.dbdbe6b9-a110-4e3f-b16b-e85dbf88e96b",
+    "lastModified": "2026-09-25T13:16:24.7580702+00:00",
+    "appVersion": "28.0.22.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/sales-and-purchase-promotions-for-wholesales-spp-ex049-.html",
+    "sourceHash": "sha256:ee21fd9a7c3249f5dd38941c7433af5fb2d5cfe532c53fe72084600f329fede4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ee21fd9a7c3249f5dd38941c7433af5fb2d5cfe532c53fe72084600f329fede4",
+    "mappedOn": null,
+    "summary": "Customer hierarchies, promotion plans and discounts for wholesale",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-wholesale-trading"
+    ],
+    "claims": [
+      "Customer and item hierarchies per wholesale practice",
+      "Sales price lists per hierarchy level or customer cluster",
+      "Plan hierarchy changes",
+      "Promotion plans with detailed options",
+      "Apply promotions directly in sales documents",
+      "Purchase promotion not yet available",
+      "Requires EOS Detailed Document Discounts and Sales Free Goods"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Distribution",
+      "Wholesale"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EOS Detailed Document Discounts",
+      "EOS Sales Free Goods"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

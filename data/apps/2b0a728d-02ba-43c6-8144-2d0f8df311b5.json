@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.advania|AID.advania_subscription_invoices|PAPPID.2b0a728d-02ba-43c6-8144-2d0f8df311b5",
+  "guid": "2b0a728d-02ba-43c6-8144-2d0f8df311b5",
+  "publisherId": "advania",
+  "offerId": "advania_subscription_invoices",
+  "source": {
+    "name": "Advania Subscription Invoices",
+    "publisher": "Advania",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advania%7CAID.advania_subscription_invoices%7CPAPPID.2b0a728d-02ba-43c6-8144-2d0f8df311b5",
+    "lastModified": "2026-10-01T15:29:21.4068903+00:00",
+    "appVersion": "29.0.121.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.d365bc.is/subscriptioninvoice",
+    "sourceHash": "sha256:2d5b8b6f9d11d3fd3ba79a2a4ec72c5d694bce0419ee9f98036c9e456fb31004"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2d5b8b6f9d11d3fd3ba79a2a4ec72c5d694bce0419ee9f98036c9e456fb31004",
+    "mappedOn": null,
+    "summary": "Recurring subscription invoices for Icelandic companies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Recurring sales invoices",
+      "Link subscriptions to a price index",
+      "Imports price index via job queue",
+      "Supports different currencies",
+      "Subscription entries"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DE",
+      "DK",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "IE",
+      "IS",
+      "NO",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

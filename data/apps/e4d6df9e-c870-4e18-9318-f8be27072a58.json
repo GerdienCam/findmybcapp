@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.alna_business|AID.ssp_calendar|PAPPID.e4d6df9e-c870-4e18-9318-f8be27072a58",
+  "guid": "e4d6df9e-c870-4e18-9318-f8be27072a58",
+  "publisherId": "alna_business",
+  "offerId": "ssp_calendar",
+  "source": {
+    "name": "Self Service Portal Absence Calendar Offer",
+    "publisher": "Alna Business",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alna_business%7CAID.ssp_calendar%7CPAPPID.e4d6df9e-c870-4e18-9318-f8be27072a58",
+    "lastModified": "2026-08-27T10:59:05.1851048+00:00",
+    "appVersion": "240.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.digmatix.com/en/products/alna-hr-office",
+    "sourceHash": "sha256:20d658847389a5d23f5d0871a60bc5643c058b5bb911a93c32f5c6391928f8a7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:20d658847389a5d23f5d0871a60bc5643c058b5bb911a93c32f5c6391928f8a7",
+    "mappedOn": null,
+    "summary": "Absence calendar labels in employee self-service portal",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "Calendar labels for vacations, WFH, wellness and birthday leave in the portal",
+      "Manages availability without creating absence entries",
+      "Covers usage limits, approval workflows, visibility rules and label types",
+      "Calendar view of approved, pending and partially approved requests"
+    ],
+    "countries": [
+      "DK",
+      "EE",
+      "FI",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "lt"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Alna Employee Self Service Portal"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

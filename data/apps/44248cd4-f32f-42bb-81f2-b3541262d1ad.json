@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcbglocfiscispos-is|PAPPID.44248cd4-f32f-42bb-81f2-b3541262d1ad",
+  "guid": "44248cd4-f32f-42bb-81f2-b3541262d1ad",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcbglocfiscispos-is",
+  "source": {
+    "name": "Bulgarian Localization and Fiscalization for Retail",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcbglocfiscispos-is%7CPAPPID.44248cd4-f32f-42bb-81f2-b3541262d1ad",
+    "lastModified": "2024-11-21T09:36:03.7557342+00:00",
+    "appVersion": "20.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:24f84c55b9c10cfef52e44042fd31342891dc0402bc840ca74aab0ef3305c86d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:24f84c55b9c10cfef52e44042fd31342891dc0402bc840ca74aab0ef3305c86d",
+    "mappedOn": null,
+    "summary": "Bulgarian tax localization and fiscal printer integration for retail",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Sends fiscal receipt to fiscal printer when posting Retail sales transaction",
+      "Money in and money out operations",
+      "Return receipts, X/Z reports and periodic reports",
+      "Supports VAT groups and rates",
+      "Prints loyalty customer info and points balance",
+      "Adds G/L accounts in statement posting"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Fiscal printers"
+    ],
+    "requires": [
+      "Retail for Microsoft Dynamics 365 Business Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

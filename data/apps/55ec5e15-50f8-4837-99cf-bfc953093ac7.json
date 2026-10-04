@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.wsb_solutions|AID.document_archive_for_quality_management|PAPPID.55ec5e15-50f8-4837-99cf-bfc953093ac7",
+  "guid": "55ec5e15-50f8-4837-99cf-bfc953093ac7",
+  "publisherId": "wsb_solutions",
+  "offerId": "document_archive_for_quality_management",
+  "source": {
+    "name": "Document Archive for Quality Management",
+    "publisher": "Apportunix",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.document_archive_for_quality_management%7CPAPPID.55ec5e15-50f8-4837-99cf-bfc953093ac7",
+    "lastModified": "2026-10-02T07:08:15.4568828+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.apportunix.com/app/document-archive",
+    "sourceHash": "sha256:43212fdc63c9cfe609ef05d82234e60cb369f383536e25a2d3da460ffe2e8d01"
+  },
+  "mapping": {
+    "sourceHash": "sha256:43212fdc63c9cfe609ef05d82234e60cb369f383536e25a2d3da460ffe2e8d01",
+    "mappedOn": null,
+    "summary": "Document archive for the quality management process",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance",
+      "ng-nonconformance-capa"
+    ],
+    "claims": [
+      "Stores inspection reports, certificates, lab results, supplier docs and CAPA with records",
+      "Automatic archiving of documents from quality processes",
+      "Retrieve historical documents from quality records",
+      "Audit trail with version history",
+      "Uses BC security permissions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [
+      "Chemicals",
+      "Food and beverage",
+      "Life sciences",
+      "Manufacturing",
+      "Wholesale"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

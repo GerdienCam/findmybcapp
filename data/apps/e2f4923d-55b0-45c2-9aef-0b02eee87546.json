@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.boschdatagmbh1733998274125|AID.bsd-purchaseman-app|PAPPID.e2f4923d-55b0-45c2-9aef-0b02eee87546",
+  "guid": "e2f4923d-55b0-45c2-9aef-0b02eee87546",
+  "publisherId": "boschdatagmbh1733998274125",
+  "offerId": "bsd-purchaseman-app",
+  "source": {
+    "name": "purchaseMAN",
+    "publisher": "BoSch Data GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.boschdatagmbh1733998274125%7CAID.bsd-purchaseman-app%7CPAPPID.e2f4923d-55b0-45c2-9aef-0b02eee87546",
+    "lastModified": "2026-02-23T16:29:44.813211+00:00",
+    "appVersion": "27.9.2890.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bosch-data.de/purchaseman/",
+    "sourceHash": "sha256:953f24237b5f75d2dd3ac4958f97c2c04c2b273b81a2ddf635aa387142447424"
+  },
+  "mapping": {
+    "sourceHash": "sha256:953f24237b5f75d2dd3ac4958f97c2c04c2b273b81a2ddf635aa387142447424",
+    "mappedOn": null,
+    "summary": "Departmental purchase requisitions and procurement approval",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Departments create purchase requirements for the purchase manager",
+      "Requirement lines for items, resources, G/L",
+      "Uses vendor catalog or item vendor",
+      "Combine related requirements",
+      "Expected receiving date on requirements",
+      "Log vendor interactions",
+      "Vendor credit limit with warnings for overdue amounts"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

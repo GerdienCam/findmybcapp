@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.ecodelas1585264231154|AID.excprintnode|PAPPID.7a1776a9-ce82-4ce6-b34a-f2a55ec4190f",
+  "guid": "7a1776a9-ce82-4ce6-b34a-f2a55ec4190f",
+  "publisherId": "ecodelas1585264231154",
+  "offerId": "excprintnode",
+  "source": {
+    "name": "Ecodel Exclusive - PrintNode Integration",
+    "publisher": "Ecodel",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ecodelas1585264231154%7CAID.excprintnode%7CPAPPID.7a1776a9-ce82-4ce6-b34a-f2a55ec4190f",
+    "lastModified": "2026-08-05T08:28:37.7591195+00:00",
+    "appVersion": "28.0.260805.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.erphotel.com/hc/da/articles/360019581177",
+    "sourceHash": "sha256:f255d4b2638c648e7890af3f0b4706a4a9abc89ad74781f0eba495227693c258"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f255d4b2638c648e7890af3f0b4706a4a9abc89ad74781f0eba495227693c258",
+    "mappedOn": null,
+    "summary": "Direct background printing to local printers via PrintNode",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-printing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Direct print to local printers without PDF download",
+      "Print from job queue",
+      "Print packing slip from a pick on a warehouse scanner",
+      "Requires PrintNode subscription and API key",
+      "One-click import of registered printers",
+      "Tray selection settings per printer"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PrintNode"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

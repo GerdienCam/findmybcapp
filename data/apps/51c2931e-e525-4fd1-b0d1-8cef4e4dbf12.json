@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.mooreinsight|AID.mi-staffloans|PAPPID.51c2931e-e525-4fd1-b0d1-8cef4e4dbf12",
+  "guid": "51c2931e-e525-4fd1-b0d1-8cef4e4dbf12",
+  "publisherId": "mooreinsight",
+  "offerId": "mi-staffloans",
+  "source": {
+    "name": "MI - Staff Loans",
+    "publisher": "Moore Insight",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mooreinsight%7CAID.mi-staffloans%7CPAPPID.51c2931e-e525-4fd1-b0d1-8cef4e4dbf12",
+    "lastModified": "2026-09-11T11:37:03.2478077+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://moore-insight-apps.com/apps/bc-extensions/staff-loans",
+    "sourceHash": "sha256:ec8e124464b3abd11665ac9661d6f6afa3cd742623fefdadd514361d045136aa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ec8e124464b3abd11665ac9661d6f6afa3cd742623fefdadd514361d045136aa",
+    "mappedOn": null,
+    "summary": "Staff loan drawdowns, schedules, interest and G/L posting",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-journals",
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Full loan lifecycle: draw down, repay, transfer, replace, write off",
+      "Live repayment schedule with principal, interest and balance",
+      "Time-banded interest daily or monthly, simple or compound",
+      "Repayment holidays",
+      "Monthly short/long-term balance sheet reclassification",
+      "Bulk loan edits via Edit in Excel",
+      "Season ticket and personal loans"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

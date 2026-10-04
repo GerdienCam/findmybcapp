@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.continualdatasolutionsinc1658184889009|AID.financial_analytics_connector_d365_bc_|PAPPID.b9309fa6-aee0-4e6d-adbe-8113345fc349",
+  "guid": "b9309fa6-aee0-4e6d-adbe-8113345fc349",
+  "publisherId": "continualdatasolutionsinc1658184889009",
+  "offerId": "financial_analytics_connector_d365_bc_",
+  "source": {
+    "name": "Financial Performance Analytics Data Connector",
+    "publisher": "Continual Data Solutions, Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continualdatasolutionsinc1658184889009%7CAID.financial_analytics_connector_d365_bc_%7CPAPPID.b9309fa6-aee0-4e6d-adbe-8113345fc349",
+    "lastModified": "2024-11-22T11:04:33.3734898+00:00",
+    "appVersion": "1.2.33.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://iqaccountant.com/cashflow-app-installation/",
+    "sourceHash": "sha256:401ebd7885dd8e862ad9a96a8b6bcab80ade070be83c4be45962be1c594d255b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:401ebd7885dd8e862ad9a96a8b6bcab80ade070be83c4be45962be1c594d255b",
+    "mappedOn": null,
+    "summary": "Exports BC data to cash flow and performance analytics tools",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast",
+      "ng-strategy-longrange"
+    ],
+    "claims": [
+      "Connects BC data to the Cash Flow Assistant analytics tool",
+      "Two years of on-demand refreshed data using REACTR data model",
+      "Cash flow reports ranging from the standard view up to trial balance",
+      "Scenarios against detailed forecasts",
+      "30-day free trial with free training"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Cash Flow Assistant (IQAccountant)"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

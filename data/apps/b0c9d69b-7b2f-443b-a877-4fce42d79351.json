@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.additional_sales_charges|PAPPID.b0c9d69b-7b2f-443b-a877-4fce42d79351",
+  "guid": "b0c9d69b-7b2f-443b-a877-4fce42d79351",
+  "publisherId": "thetasystemslimited",
+  "offerId": "additional_sales_charges",
+  "source": {
+    "name": "Additional Sales Charges",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.additional_sales_charges%7CPAPPID.b0c9d69b-7b2f-443b-a877-4fce42d79351",
+    "lastModified": "2026-09-14T00:03:40.2604954+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/ASC/docs/Introduction",
+    "sourceHash": "sha256:3b71877e8ba647491baab1aeb7da3d6176c910758615e7b521d7e7f08c4f9e44"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3b71877e8ba647491baab1aeb7da3d6176c910758615e7b521d7e7f08c4f9e44",
+    "mappedOn": null,
+    "summary": "Automatic conditional sales charges",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Rules by item, customer, region, payment method",
+      "Payment method surcharges",
+      "Freight, handling or regional charges",
+      "Levies or duties for the environment, set per product type",
+      "Minimum order fees",
+      "Layered levels with priorities",
+      "Works on orders, invoices, credit memos, returns, quotes",
+      "Previews charges and keeps an audit trail ahead of posting"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

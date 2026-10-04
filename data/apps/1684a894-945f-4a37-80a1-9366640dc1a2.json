@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.navertica|AID.nvr-handling-units-for-mobile|PAPPID.1684a894-945f-4a37-80a1-9366640dc1a2",
+  "guid": "1684a894-945f-4a37-80a1-9366640dc1a2",
+  "publisherId": "navertica",
+  "offerId": "nvr-handling-units-for-mobile",
+  "source": {
+    "name": "Navertica Handling Units for Mobile",
+    "publisher": "NAVERTICA a.s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.nvr-handling-units-for-mobile%7CPAPPID.1684a894-945f-4a37-80a1-9366640dc1a2",
+    "lastModified": "2026-01-29T14:21:08.3806948+00:00",
+    "appVersion": "26.0.293647.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.navertica.com/en-us/Handling%20unit%20for%20mobile/Index/",
+    "sourceHash": "sha256:9e1f3a5608dde406c2310cb89e7cf99ed1ff059ebb363bcb7a8c3aa2849695da"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9e1f3a5608dde406c2310cb89e7cf99ed1ff059ebb363bcb7a8c3aa2849695da",
+    "mappedOn": null,
+    "summary": "Handling units on mobile barcode terminals",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Full handling unit processing on mobile terminals",
+      "Barcode support for whole handling units",
+      "Reduces scans by working with grouped goods",
+      "Requires BC mobile app, Navertica Warehouse Mobile Application and Navertica Handling Units",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Navertica Handling Units",
+      "Navertica Warehouse Mobile Application"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

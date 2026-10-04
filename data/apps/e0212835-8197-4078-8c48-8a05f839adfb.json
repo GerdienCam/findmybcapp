@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.acumenconsulting|AID.aps-cloudstorage|PAPPID.e0212835-8197-4078-8c48-8a05f839adfb",
+  "guid": "e0212835-8197-4078-8c48-8a05f839adfb",
+  "publisherId": "acumenconsulting",
+  "offerId": "aps-cloudstorage",
+  "source": {
+    "name": "Cloud Storage Connector",
+    "publisher": "Acumen Consulting Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.acumenconsulting%7CAID.aps-cloudstorage%7CPAPPID.e0212835-8197-4078-8c48-8a05f839adfb",
+    "lastModified": "2026-08-07T03:10:02.4995609+00:00",
+    "appVersion": "24.0.596.6",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://acumenconsulting.co.nz/contact/",
+    "sourceHash": "sha256:1a782276f74c04dc01386d4d991f62f5c8f5e793ca00274276f7fbc90e465d5d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1a782276f74c04dc01386d4d991f62f5c8f5e793ca00274276f7fbc90e465d5d",
+    "mappedOn": null,
+    "summary": "Stores attachments in cloud storage with drag and drop",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Stores BC attachments in external cloud storage",
+      "Drag and drop attachments on all core pages",
+      "Avoids environment storage quota limits",
+      "One-click migration of files from tenant media storage to the cloud",
+      "Files kept if the extension is uninstalled",
+      "Publisher adds drag and drop to missing pages for free",
+      "Partners can add the drag and drop interface to their own extensions",
+      "First month free, then $3 per user per month"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

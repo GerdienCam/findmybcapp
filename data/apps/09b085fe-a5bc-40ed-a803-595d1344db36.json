@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.artexinformacnisystemyspolsro1588247530206|AID.ae129|PAPPID.09b085fe-a5bc-40ed-a803-595d1344db36",
+  "guid": "09b085fe-a5bc-40ed-a803-595d1344db36",
+  "publisherId": "artexinformacnisystemyspolsro1588247530206",
+  "offerId": "ae129",
+  "source": {
+    "name": "Universal Reporting API",
+    "publisher": "ARTEX informacni systemy spol. s r.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.artexinformacnisystemyspolsro1588247530206%7CAID.ae129%7CPAPPID.09b085fe-a5bc-40ed-a803-595d1344db36",
+    "lastModified": "2026-04-28T14:22:25.5047256+00:00",
+    "appVersion": "1.25.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.artex-is.cz/cz/docs/a/ae129",
+    "sourceHash": "sha256:e27459d8f7bc20195677ab38d1e0cae0ceb7f98984c06ee9b62ca57090dc8b50"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e27459d8f7bc20195677ab38d1e0cae0ceb7f98984c06ee9b62ca57090dc8b50",
+    "mappedOn": null,
+    "summary": "Generic API access to any BC table for reporting",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "No-code API endpoints that read any BC table",
+      "Choose any fields from the source table",
+      "Configurable enum/option export format",
+      "Static filters applied on every API call",
+      "Generates API URL and PowerQuery example for Power BI",
+      "Each record exposes id, JSON data and filterable modifiedAt timestamp"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

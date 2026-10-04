@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.indagiaag1594221844613|AID.spesen_app_1|PAPPID.630326a2-b275-4357-a3dd-99e163b8c518",
+  "guid": "630326a2-b275-4357-a3dd-99e163b8c518",
+  "publisherId": "indagiaag1594221844613",
+  "offerId": "spesen_app_1",
+  "source": {
+    "name": "indagia.ai",
+    "publisher": "indagia AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.indagiaag1594221844613%7CAID.spesen_app_1%7CPAPPID.630326a2-b275-4357-a3dd-99e163b8c518",
+    "lastModified": "2024-11-22T13:57:34.8110792+00:00",
+    "appVersion": "3.0.0.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.indagia.com/",
+    "sourceHash": "sha256:f376eeffc683aab3602f6899225ada05a76a47001331b4408ddce0be7437ce85"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f376eeffc683aab3602f6899225ada05a76a47001331b4408ddce0be7437ce85",
+    "mappedOn": null,
+    "summary": "AI extraction and reconciliation of receipts and expenses",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Scans financial files and extracts their information with AI/ML",
+      "OCR reconciles receipts and bills with credit-card statements",
+      "Accessed through the indagia.ai portal from BC",
+      "Certified hosting (ISO 27001, 27017, 27018)",
+      "Data processed regionally: Zurich for CH, Frankfurt for DE/AT, Iowa for LatAm/US",
+      "First 30 bookings free"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "indagia.ai portal"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

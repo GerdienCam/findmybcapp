@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-tradeinrecordsearchbridge|PAPPID.115c5272-d91f-46f6-85be-59b525c802a0",
+  "guid": "115c5272-d91f-46f6-85be-59b525c802a0",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-tradeinrecordsearchbridge",
+  "source": {
+    "name": "BeyondTradeInRecordSearchBridge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-tradeinrecordsearchbridge%7CPAPPID.115c5272-d91f-46f6-85be-59b525c802a0",
+    "lastModified": "2026-04-17T15:13:05.7530769+00:00",
+    "appVersion": "2026.4.147.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/tradeinrecordsearchbridge/index.html",
+    "sourceHash": "sha256:09f26e993d351771da1e63ec8fe3ccd6f8cfdec53479d2cf57d155e0a66649dd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:09f26e993d351771da1e63ec8fe3ccd6f8cfdec53479d2cf57d155e0a66649dd",
+    "mappedOn": null,
+    "summary": "Record search in BeyondTradeIn documents",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-search-navigation",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Search column on trade-in document lines covering items, non-stock items and item references"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "BeyondTradeIn",
+      "BeyondRecordSearch"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two BEYOND products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

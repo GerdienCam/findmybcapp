@@ -1,0 +1,121 @@
+{
+  "appId": "PUBID.softera_baltic|AID.softera_wms|PAPPID.1c56e029-5b78-4ac7-b3ec-63c7fffefe1d",
+  "guid": "1c56e029-5b78-4ac7-b3ec-63c7fffefe1d",
+  "publisherId": "softera_baltic",
+  "offerId": "softera_wms",
+  "source": {
+    "name": "Softera WMS",
+    "publisher": "Softera Baltic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softera_baltic%7CAID.softera_wms%7CPAPPID.1c56e029-5b78-4ac7-b3ec-63c7fffefe1d",
+    "lastModified": "2026-09-29T14:50:13.2235904+00:00",
+    "appVersion": "107.223.28.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.softera.lt/en/softera-warehouse-management-user-manual/",
+    "sourceHash": "sha256:f74e23a25549b86fda447ead5c1f359d077a94968b14e46e44350786eb8395b7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f74e23a25549b86fda447ead5c1f359d077a94968b14e46e44350786eb8395b7",
+    "mappedOn": null,
+    "summary": "Extends warehouse management with worksheets and extra functions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels",
+      "ng-stock-counting",
+      "ng-receiving-putaway",
+      "ng-warehouse-setup"
+    ],
+    "claims": [
+      "Warehouse worksheet for overview of operations",
+      "Detailed bin contents for inventory analysis",
+      "Separate warehouse picks per warehouse class",
+      "Activity documents for locations without bins",
+      "Real-time bin suggestion bypassing reservations",
+      "GS1 barcode labels",
+      "Label printing via Zebra PDF Direct and PrintNode",
+      "Data capture device integration via To-Increase Anywhere Mobility Studio",
+      "License plating for inventory grouping",
+      "Inbound quantity worksheet for USB scanners",
+      "Extra data checks to avoid posting errors"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "HR",
+      "HU",
+      "ID",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "LT",
+      "LV",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PH",
+      "PL",
+      "RS",
+      "SE",
+      "SG",
+      "SI",
+      "TH",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "en",
+      "lt"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Anywhere Mobility Studio",
+      "Zebra",
+      "PrintNode"
+    ],
+    "requires": [
+      "Anywhere Mobility Studio (To-Increase)"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

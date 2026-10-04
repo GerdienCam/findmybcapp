@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.yaveon|AID.pe365workflow|PAPPID.99730693-707b-4817-989f-d3629727a2b7",
+  "guid": "99730693-707b-4817-989f-d3629727a2b7",
+  "publisherId": "yaveon",
+  "offerId": "pe365workflow",
+  "source": {
+    "name": "Yaveon 365 Workflow",
+    "publisher": "Yaveon GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yaveon%7CAID.pe365workflow%7CPAPPID.99730693-707b-4817-989f-d3629727a2b7",
+    "lastModified": "2026-09-16T17:13:51.8091141+00:00",
+    "appVersion": "13.5.131.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.yaveon.com/docs/en-US/yaveon365/wf/index.html",
+    "sourceHash": "sha256:710a080a0408c10529190be5f0b52fccae9f4fde00cc13a283b395c25ad60b82"
+  },
+  "mapping": {
+    "sourceHash": "sha256:710a080a0408c10529190be5f0b52fccae9f4fde00cc13a283b395c25ad60b82",
+    "mappedOn": null,
+    "summary": "Workflow support for internal processes and tasks",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts",
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Periodic workflows such as weekly reports",
+      "Alarm workflows for exceeded credit limits and items below minimum stock",
+      "Structured item and customer creation workflows",
+      "Sales quote approval and sales order release",
+      "Mandatory field management on item creation",
+      "Dual-control (four-eyes) principle on releases",
+      "Automatic system actions like order confirmation print and production order creation",
+      "Ad hoc workflows to share info with colleagues",
+      "Assisted setup with email setup and predefined templates",
+      "Templates for delayed/unconfirmed purchase orders",
+      "Check 0-price on sales orders",
+      "Notification on new EDI sales orders",
+      "Each workflow step documented for audits",
+      "Multi-level release groups"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.easysoftwareag1586262779954|AID.easy4dyn365_bc_edocument_integration|PAPPID.2ca4f96a-74f5-4cc9-86f8-f499323025cc",
+  "guid": "2ca4f96a-74f5-4cc9-86f8-f499323025cc",
+  "publisherId": "easysoftwareag1586262779954",
+  "offerId": "easy4dyn365_bc_edocument_integration",
+  "source": {
+    "name": "ECM E-Document Integration",
+    "publisher": "EASY SOFTWARE AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.easysoftwareag1586262779954%7CAID.easy4dyn365_bc_edocument_integration%7CPAPPID.2ca4f96a-74f5-4cc9-86f8-f499323025cc",
+    "lastModified": "2026-09-17T11:33:41.0263453+00:00",
+    "appVersion": "28.3.260917.1090",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.easy-cloud.de/365BC-cloud/en/7000.html",
+    "sourceHash": "sha256:cc1f4815218fb7d4681423c9281f7e99d75ecd96e7da43337b89908b91044ee4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cc1f4815218fb7d4681423c9281f7e99d75ecd96e7da43337b89908b91044ee4",
+    "mappedOn": null,
+    "summary": "Connects EASY ECM with BC E-Document import and export",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Pulls e-documents out of ECM and into E-Document Core",
+      "Saves exported e-documents to ECM for archiving",
+      "Preview e-documents via ECM",
+      "Export e-documents to ECM for onward transmission",
+      "Processing and validation in E-Document Core"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "E-Document Core",
+      "EASY ECM"
+    ],
+    "requires": [
+      "ECM Base Application"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

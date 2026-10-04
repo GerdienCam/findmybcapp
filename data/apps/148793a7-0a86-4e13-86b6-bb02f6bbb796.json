@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.multisoft|AID.aipocr|PAPPID.148793a7-0a86-4e13-86b6-bb02f6bbb796",
+  "guid": "148793a7-0a86-4e13-86b6-bb02f6bbb796",
+  "publisherId": "multisoft",
+  "offerId": "aipocr",
+  "source": {
+    "name": "Automated Invoice Processor (OCR Connector)",
+    "publisher": "MULTISOFT KFT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.multisoft%7CAID.aipocr%7CPAPPID.148793a7-0a86-4e13-86b6-bb02f6bbb796",
+    "lastModified": "2025-08-26T19:17:57.3506724+00:00",
+    "appVersion": "1.0.0.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://partner.multisoft.hu/help-aip/",
+    "sourceHash": "sha256:154e19fb774af592e75d16624f941678ba6ca98954d862fd1bca27c9d879d952"
+  },
+  "mapping": {
+    "sourceHash": "sha256:154e19fb774af592e75d16624f941678ba6ca98954d862fd1bca27c9d879d952",
+    "mappedOn": null,
+    "summary": "Connects Automated Invoice Processor to OCR applications",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Connects an existing OCR solution to Automated Invoice Processor",
+      "Prepares OCR data for the main app",
+      "Requires BC170 or later"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "hu"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "OCR solutions",
+      "Kofax OCR"
+    ],
+    "requires": [
+      "Automated Invoice Processor"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

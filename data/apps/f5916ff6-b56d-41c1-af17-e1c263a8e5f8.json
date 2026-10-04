@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.azure_files|PAPPID.f5916ff6-b56d-41c1-af17-e1c263a8e5f8",
+  "guid": "f5916ff6-b56d-41c1-af17-e1c263a8e5f8",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "azure_files",
+  "source": {
+    "name": "Files Processing with Azure",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.azure_files%7CPAPPID.f5916ff6-b56d-41c1-af17-e1c263a8e5f8",
+    "lastModified": "2024-11-04T05:24:33.1393159+00:00",
+    "appVersion": "1.0.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:4d3b1cd899933a2689f332e74e41fd90c519ba9b5513d704ae275868cfe2ad12"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4d3b1cd899933a2689f332e74e41fd90c519ba9b5513d704ae275868cfe2ad12",
+    "mappedOn": null,
+    "summary": "Processes EDI and bank file formats via Azure",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Processes EDI files such as EDIFACT, Tradecom and X2",
+      "Processes bank formats incl. JPMorgan, Bank of America, HSBC, ACH and cheque printing",
+      "Uses an Azure Logic App, an API or manual steps to download or upload files over FTP/SFTP",
+      "Full version on request"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Logic Apps",
+      "FTP/SFTP",
+      "EDIFACT",
+      "JPMorgan",
+      "Bank of America",
+      "HSBC"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

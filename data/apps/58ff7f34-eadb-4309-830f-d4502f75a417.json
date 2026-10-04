@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.payhawk1674380496828|AID.payhawk_bc_integration|PAPPID.58ff7f34-eadb-4309-830f-d4502f75a417",
+  "guid": "58ff7f34-eadb-4309-830f-d4502f75a417",
+  "publisherId": "payhawk1674380496828",
+  "offerId": "payhawk_bc_integration",
+  "source": {
+    "name": "Payhawk's Spend Management Solution for Business Central",
+    "publisher": "Payhawk",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.payhawk1674380496828%7CAID.payhawk_bc_integration%7CPAPPID.58ff7f34-eadb-4309-830f-d4502f75a417",
+    "lastModified": "2026-10-01T10:44:41.1740151+00:00",
+    "appVersion": "1.3.4.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.payhawk.com/en/",
+    "sourceHash": "sha256:b3cd0caa1454a25e7726d77deb6b798baa26492d13719c524b12130c48f93cf8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b3cd0caa1454a25e7726d77deb6b798baa26492d13719c524b12130c48f93cf8",
+    "mappedOn": null,
+    "summary": "Syncs Payhawk card spend and expenses",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Physical and virtual Visa company credit and debit cards",
+      "Processes per diems, mileage and reimbursable expenses",
+      "Real-time expense reports in the Payhawk app",
+      "Subscriptions tracking",
+      "Receipt scanning with OCR in 60+ languages",
+      "Custom approval workflows for expenses",
+      "Card limits and spend controls including ATM and online",
+      "Bank transfers in multiple currencies and dedicated IBAN",
+      "Supplier data synced with BC",
+      "Group dashboard for multi-entity spend"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Payhawk"
+    ],
+    "requires": [
+      "Payhawk"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

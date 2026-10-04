@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.advanced-standard-cost-app|PAPPID.8da14b29-c33d-41c4-832b-2abba6c6187a",
+  "guid": "8da14b29-c33d-41c4-832b-2abba6c6187a",
+  "publisherId": "fenwicksoftware",
+  "offerId": "advanced-standard-cost-app",
+  "source": {
+    "name": "Advanced Standard Cost",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.advanced-standard-cost-app%7CPAPPID.8da14b29-c33d-41c4-832b-2abba6c6187a",
+    "lastModified": "2026-09-28T00:17:58.9559477+00:00",
+    "appVersion": "26.0.260918.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/advanced-standard-cost-worksheet/docs",
+    "sourceHash": "sha256:e1b033641aa84aac3ac75735707bb9fa7027a11ba3d72797e8b062263825d6b2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e1b033641aa84aac3ac75735707bb9fa7027a11ba3d72797e8b062263825d6b2",
+    "mappedOn": null,
+    "summary": "Improves standard cost worksheet and standard cost insight",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-currency"
+    ],
+    "claims": [
+      "Calculates new standard costs from last or average landed costs",
+      "Ignores items still in design stage",
+      "Breaks the purchase price variance down to a currency share and a price share",
+      "Purchase Currency Variance account column on General Posting Setup",
+      "Standard Cost Currency Factor field on currencies"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

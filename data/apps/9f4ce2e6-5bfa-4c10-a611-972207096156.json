@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex047overandunderdeliveryquantities|PAPPID.9f4ce2e6-5bfa-4c10-a611-972207096156",
+  "guid": "9f4ce2e6-5bfa-4c10-a611-972207096156",
+  "publisherId": "eos_solutions",
+  "offerId": "ex047overandunderdeliveryquantities",
+  "source": {
+    "name": "Over- and Under-Delivery Quantities",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex047overandunderdeliveryquantities%7CPAPPID.9f4ce2e6-5bfa-4c10-a611-972207096156",
+    "lastModified": "2026-09-29T15:24:49.5826711+00:00",
+    "appVersion": "28.0.11.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/over-and-under-delivery-quantities.html",
+    "sourceHash": "sha256:d4292b431ba7cd56d1023fba456a8db8d6d8084d9bb9dd68eced0f0304c568c7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d4292b431ba7cd56d1023fba456a8db8d6d8084d9bb9dd68eced0f0304c568c7",
+    "mappedOn": null,
+    "summary": "Allows over- and under-delivery within tolerances",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Over/under tolerances on inbound and outbound transactions",
+      "Tolerances as fixed quantity or percentage of ordered quantity",
+      "Invoice excess quantities and auto-close partially fulfilled lines",
+      "Priority per setup entry when multiple rules apply",
+      "Tolerances can be set per location, item, customer/vendor or a mix of these",
+      "Adjust over receipts/shipments on warehouse receipt and shipment",
+      "Block over-under quantities or allow with or without warning"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Carpeting and wallpaper",
+      "Food and beverage",
+      "Printing",
+      "Rope and chain",
+      "Textiles"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

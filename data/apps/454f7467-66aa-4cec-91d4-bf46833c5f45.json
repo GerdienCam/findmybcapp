@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.navertica|AID.nvr-handling-units|PAPPID.454f7467-66aa-4cec-91d4-bf46833c5f45",
+  "guid": "454f7467-66aa-4cec-91d4-bf46833c5f45",
+  "publisherId": "navertica",
+  "offerId": "nvr-handling-units",
+  "source": {
+    "name": "Navertica Handling Units",
+    "publisher": "NAVERTICA a.s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.nvr-handling-units%7CPAPPID.454f7467-66aa-4cec-91d4-bf46833c5f45",
+    "lastModified": "2026-01-29T14:20:02.9641301+00:00",
+    "appVersion": "26.1.283494.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.navertica.com/en-us/Handling%20Units/Index/",
+    "sourceHash": "sha256:2793899fcc71c27f9921687080f34426b2e08b8b66815fbfbedf6bd662f9a4f1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2793899fcc71c27f9921687080f34426b2e08b8b66815fbfbedf6bd662f9a4f1",
+    "mappedOn": null,
+    "summary": "Groups warehouse items into handling units",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-movements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Combines different items into one handling unit handled without entering item, quantity, lot or serial per line",
+      "Handling units from small package to shipping container, configurable with many parameters",
+      "Handling Unit Journal to insert items, merge, split and move handling units",
+      "Integrates with Navertica Warehouse Mobile App",
+      "Barcodes for entire handling units",
+      "Supports Essentials and Premium editions; Premium not required"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

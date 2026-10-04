@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.litsservices1588138020299|AID.lits_bc_doc_expiry|PAPPID.5bc46c3f-6974-4ffd-a67b-4a2d0c8bc655",
+  "guid": "5bc46c3f-6974-4ffd-a67b-4a2d0c8bc655",
+  "publisherId": "litsservices1588138020299",
+  "offerId": "lits_bc_doc_expiry",
+  "source": {
+    "name": "LITS Document Expiry Automation",
+    "publisher": "LITS SERVICES",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.litsservices1588138020299%7CAID.lits_bc_doc_expiry%7CPAPPID.5bc46c3f-6974-4ffd-a67b-4a2d0c8bc655",
+    "lastModified": "2025-03-01T08:40:29.9415966+00:00",
+    "appVersion": "25.0.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.lits.services/contact-us/",
+    "sourceHash": "sha256:c15f368c71e2c0809cc26256000e798246b77dfba0e7e1859eb568b37fc2a3b6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c15f368c71e2c0809cc26256000e798246b77dfba0e7e1859eb568b37fc2a3b6",
+    "mappedOn": null,
+    "summary": "Tracks expiry dates of items, contracts and licenses",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-alerts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-automation",
+      "ng-supplier-contracts"
+    ],
+    "claims": [
+      "Tracks expiry dates on inventory items and also on records such as contracts and licenses",
+      "Notifications before items or contracts expire",
+      "Configurable alert thresholds",
+      "Triggers renewal requests or reminders through workflows",
+      "Monitors expiry for inventory, subscriptions and warranties"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

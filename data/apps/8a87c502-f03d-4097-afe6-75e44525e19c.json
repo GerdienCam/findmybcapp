@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.cred-it1600071626637|AID.easyinvoice-connector|PAPPID.8a87c502-f03d-4097-afe6-75e44525e19c",
+  "guid": "8a87c502-f03d-4097-afe6-75e44525e19c",
+  "publisherId": "cred-it1600071626637",
+  "offerId": "easyinvoice-connector",
+  "source": {
+    "name": "4CEE Connector",
+    "publisher": "Cred-IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cred-it1600071626637%7CAID.easyinvoice-connector%7CPAPPID.8a87c502-f03d-4097-afe6-75e44525e19c",
+    "lastModified": "2026-09-18T09:22:50.7248971+00:00",
+    "appVersion": "2026.9.18.2801",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.cred-it.nl/easyinvoice-connector/",
+    "sourceHash": "sha256:e17efeee5bde45852d564b3ebbfceae9befabf4dba5a7614efa97507a424e097"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e17efeee5bde45852d564b3ebbfceae9befabf4dba5a7614efa97507a424e097",
+    "mappedOn": null,
+    "summary": "Imports purchase invoices from 4CEE",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Connects 4CEE invoice from Easy Systems to BC purchase invoices",
+      "Handles debit and credit invoices, G/L cost invoices and goods invoices with item tracking",
+      "Fixed asset invoices",
+      "Payment block invoices",
+      "Total amount check on invoices",
+      "Foreign currency support",
+      "Handles VAT differences",
+      "Payment date management",
+      "Item charges",
+      "Custom fields in invoice processing",
+      "Deferral template support"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "4CEE (Easy Systems)"
+    ],
+    "requires": [
+      "4CEE invoice (Easy Systems)"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

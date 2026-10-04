@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dms-365-mpo|PAPPID.dbfbc269-23c3-474a-a294-54bd380e6329",
+  "guid": "dbfbc269-23c3-474a-a294-54bd380e6329",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dms-365-mpo",
+  "source": {
+    "name": "Aptean Equipment DMS x MPO",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-365-mpo%7CPAPPID.dbfbc269-23c3-474a-a294-54bd380e6329",
+    "lastModified": "2026-07-08T13:14:50.1672211+00:00",
+    "appVersion": "2603.260500.20260708.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.traser-software.de/de-DE",
+    "sourceHash": "sha256:0fc4653e294eb180944156842fe9a47d8e65a883895d6f38fc9faf3258d42f18"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0fc4653e294eb180944156842fe9a47d8e65a883895d6f38fc9faf3258d42f18",
+    "mappedOn": null,
+    "summary": "Integrates the MPO used equipment solution with Aptean Equipment DMS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-dealers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-assets",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Exchanges service item master data, configuration, valuation, pictures and marketing texts with MPO",
+      "Real-time bidirectional integration via web services",
+      "Creates or updates service items from MPO machine data and vice versa"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "MachinePortalOnline (MPO)"
+    ],
+    "requires": [
+      "Aptean Equipment DMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

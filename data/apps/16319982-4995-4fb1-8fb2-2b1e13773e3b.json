@@ -1,0 +1,103 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.amc-banking-fundamentals|PAPPID.16319982-4995-4fb1-8fb2-2b1e13773e3b",
+  "guid": "16319982-4995-4fb1-8fb2-2b1e13773e3b",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "amc-banking-fundamentals",
+  "source": {
+    "name": "AMC Banking 365 Fundamentals",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.amc-banking-fundamentals%7CPAPPID.16319982-4995-4fb1-8fb2-2b1e13773e3b",
+    "lastModified": "2024-11-22T14:40:00.5552071+00:00",
+    "appVersion": "15.0.36626.36720",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?linkid=2101583",
+    "sourceHash": "sha256:c9b491d7eeb5ea3a73ccb5978a9efc0f1a89325cf32cde273c6a7afb8ad38542"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c9b491d7eeb5ea3a73ccb5978a9efc0f1a89325cf32cde273c6a7afb8ad38542",
+    "mappedOn": null,
+    "summary": "Bank payment export and statement import via AMC Banking",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exports vendor payment files in bank-supported formats",
+      "Imports bank statements in many formats for automatic reconciliation",
+      "Uses a third-party server with all developed bank formats",
+      "Free for the first bank account"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "BG",
+      "BR",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "EG",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HK",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RO",
+      "RS",
+      "SA",
+      "SE",
+      "SG",
+      "SI",
+      "SK",
+      "TR",
+      "UA",
+      "US",
+      "ZA"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "AMC Banking"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

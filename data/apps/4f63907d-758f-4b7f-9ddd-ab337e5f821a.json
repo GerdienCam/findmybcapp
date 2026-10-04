@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.clarityukraine1657050202465|AID.ctrl_elect_invoice_vchasno_ua|PAPPID.4f63907d-758f-4b7f-9ddd-ab337e5f821a",
+  "guid": "4f63907d-758f-4b7f-9ddd-ab337e5f821a",
+  "publisherId": "clarityukraine1657050202465",
+  "offerId": "ctrl_elect_invoice_vchasno_ua",
+  "source": {
+    "name": "Electronic Invoicing for Ukraine via Vchasno",
+    "publisher": "Clarity Ukraine",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.clarityukraine1657050202465%7CAID.ctrl_elect_invoice_vchasno_ua%7CPAPPID.4f63907d-758f-4b7f-9ddd-ab337e5f821a",
+    "lastModified": "2026-05-15T09:34:14.6799712+00:00",
+    "appVersion": "21.4.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://clarity-team.com/en/contacts/",
+    "sourceHash": "sha256:3d22f67cb0e5e15f8fc30473397407c92d2fb89b41c03af152bc3bc65f49b6cc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3d22f67cb0e5e15f8fc30473397407c92d2fb89b41c03af152bc3bc65f49b6cc",
+    "mappedOn": null,
+    "summary": "Exchanges e-invoices via Ukrainian Vchasno EDI",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-edi",
+      "ng-conn-esignature"
+    ],
+    "claims": [
+      "Sends documents to EDI Vchasno using a predefined document type and set number of signatures",
+      "Receives documents and their statuses from Vchasno with a link to open them in Vchasno",
+      "Approve, decline or reject deletion requests in Vchasno from BC",
+      "Shows signatures with signatory name and position in BC",
+      "Archives documents received from Vchasno in BC"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "languages": [
+      "en",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Vchasno"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

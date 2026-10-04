@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-log-order|PAPPID.6075c33c-370f-4d33-b4bb-bbdd4c777319",
+  "guid": "6075c33c-370f-4d33-b4bb-bbdd4c777319",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-log-order",
+  "source": {
+    "name": "Powerblox Logistic Orders",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-log-order%7CPAPPID.6075c33c-370f-4d33-b4bb-bbdd4c777319",
+    "lastModified": "2026-09-16T01:32:53.2934153+00:00",
+    "appVersion": "26.0.2.69125",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/logistic_orders",
+    "sourceHash": "sha256:c62d51446849c75837cb5a9bdc6faf182b3e46b0f3df7b080878c1e905aefafd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c62d51446849c75837cb5a9bdc6faf182b3e46b0f3df7b080878c1e905aefafd",
+    "mappedOn": null,
+    "summary": "Material requisitions from projects and service",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-materials-subcontract",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking"
+    ],
+    "claims": [
+      "Foreman or project manager initiates material orders to the warehouse",
+      "Generic stock items or project-specific items",
+      "Separate requests to the warehouse",
+      "Warehouse overview of material needs and deadlines per recipient"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

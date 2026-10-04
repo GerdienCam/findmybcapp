@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-inventoryapp|PAPPID.9fdbbe07-111c-466a-89a1-a6c5d400cf15",
+  "guid": "9fdbbe07-111c-466a-89a1-a6c5d400cf15",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-inventoryapp",
+  "source": {
+    "name": "Beyond Mobile Warehouse",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-inventoryapp%7CPAPPID.9fdbbe07-111c-466a-89a1-a6c5d400cf15",
+    "lastModified": "2026-06-22T04:57:13.7685781+00:00",
+    "appVersion": "2026.6.175.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/mobilewarehouse/index.html",
+    "sourceHash": "sha256:2d6dbb509397c569c65a460bf520ba4eeffbf25f0438c9ae1ef7e45842a32a89"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2d6dbb509397c569c65a460bf520ba4eeffbf25f0438c9ae1ef7e45842a32a89",
+    "mappedOn": null,
+    "summary": "Mobile warehouse handling",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-stock-counting"
+    ],
+    "claims": [
+      "Pick lines for purchase, sales and service orders by scanning barcodes",
+      "Runs natively in BC with no external services or middleware",
+      "Browser-based, no app installation on devices",
+      "Works on smartphones, tablets and handheld scanners",
+      "Requires Wi-Fi in the warehouse",
+      "Covers goods receipt, purchase order completion and inventory counting"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

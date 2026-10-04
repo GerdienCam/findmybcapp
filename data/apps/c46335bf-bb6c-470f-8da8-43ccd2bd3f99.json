@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.cetas_information_tech|AID.nbcredits|PAPPID.c46335bf-bb6c-470f-8da8-43ccd2bd3f99",
+  "guid": "c46335bf-bb6c-470f-8da8-43ccd2bd3f99",
+  "publisherId": "cetas_information_tech",
+  "offerId": "nbcredits",
+  "source": {
+    "name": "NB Credits",
+    "publisher": "Cetas Information Technology",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cetas_information_tech%7CAID.nbcredits%7CPAPPID.c46335bf-bb6c-470f-8da8-43ccd2bd3f99",
+    "lastModified": "2026-07-24T03:50:48.8316036+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://cetastech.com/add-ons/add-ons-support/#nbcredits",
+    "sourceHash": "sha256:04a3aaa016c9d7fc1e2f4bd99faaebfefd579ee29c083f22aa14ee8736b36a47"
+  },
+  "mapping": {
+    "sourceHash": "sha256:04a3aaa016c9d7fc1e2f4bd99faaebfefd579ee29c083f22aa14ee8736b36a47",
+    "mappedOn": null,
+    "summary": "Manages letters of credit and bank guarantees",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Handles bank guarantees and letters of credit together",
+      "Real-time status tracking of instruments",
+      "Create, manage and track LCs through the transaction lifecycle",
+      "Monitor bank guarantees",
+      "Customizable workflows and approvals",
+      "Reports on LCs and BGs",
+      "Also available for Dynamics NAV"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Trade finance (letters of credit, bank guarantees) has no dedicated need group"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "id": "ng-crm-accounts",
+  "order": 25,
+  "label": "Keeping customer records and relationships current",
+  "description": "Customer and contact master data, segmentation, regular contact, post-sale follow-up and repeat/upsell prompts.",
+  "type": "bpc",
+  "area": "CRM & quotes",
+  "relevance": "high",
+  "statements": [
+    "Keeping customer records and relationships current",
+    "Customer and contact master data, segmentation, regular contact, post-sale follow-up and repeat/upsell prompts.",
+    "We have the same customer three times in BC with slightly different names",
+    "Our contacts live in Outlook, Excel and BC and none of them agree",
+    "Is there an app that finds and merges duplicate customers and contacts?",
+    "duplicate customers BC",
+    "When someone leaves the company we lose all their customer contacts because they were in his phone",
+    "We need to see all the people we deal with at one customer, buyer, accounts payable, CEO, in one place",
+    "How do we set up parent and child accounts for a customer group with many branches?",
+    "Head office pays, the shops order, and we can't link them properly in BC",
+    "Sales reps keep creating new customers without VAT number, payment terms or address checks",
+    "We want new customer records approved by finance before anyone can sell to them",
+    "Someone changed a customer's bank details and email address and nobody noticed",
+    "Can we automatically look up company data from the business register when we create a customer?",
+    "Our customer list is full of companies that went bankrupt years ago",
+    "Who is the account manager for this customer? Nobody knows.",
+    "We want a proper CRM view of each client: contacts, emails, calls, open quotes and orders together",
+    "contact sync Outlook Business Central",
+    "Contact persons' email addresses and phone numbers are outdated, invoices bounce",
+    "We need GDPR consent and the right to be forgotten handled on our contact records",
+    "Is there a better CRM inside BC than the standard contact cards, or should we connect Dynamics Sales?",
+    "Business card scanning straight into contacts after a trade fair would save our reps hours",
+    "We need to tag customers as retail, wholesale, distributor or key account",
+    "customer groups for discounts and reporting",
+    "Our customer posting groups are a mess, every new customer gets set up differently",
+    "Want A, B and C customers so reps know who gets priority service",
+    "Is there a way to have more than one category per customer in BC, like industry and region?",
+    "Customer card has no field for segment and we keep abusing the search name as a workaround",
+    "We need a place to keep notes about each customer relationship, not just orders",
+    "Key account managers should visit top customers every quarter and we can't track it",
+    "relationship notes customer card",
+    "When a rep goes on holiday nobody knows what was promised to which customer",
+    "Want a reminder when we haven't been in touch with a top customer for 60 days",
+    "Interaction history with each client, calls, visits, emails, in one timeline",
+    "We never call customers after delivery to ask if everything was okay",
+    "Want an automatic task for the rep to follow up two weeks after the invoice",
+    "after sales follow-up reminder",
+    "Is there an app that sends a short satisfaction email after each order?",
+    "We only hear from customers when something went wrong",
+    "Need a call list of customers who received their first order last month",
+    "Reps never suggest accessories when customers buy the main product",
+    "Is there an app that suggests related items on the sales order in BC?",
+    "cross sell suggestions sales order",
+    "We want to remind customers when it's time to reorder consumables",
+    "Which customers bought product A but never product B?",
+    "Customers who stopped ordering in the last 6 months should be flagged for a call",
+    "We want to offer the bigger model when a customer asks for the small one",
+    "Repeat orders from regular customers should be one click",
+    "Want AI recommendations of what else a customer is likely to buy",
+    "Our webshop shows 'also bought' but our sales team in BC has nothing like it",
+    "How do we find customers whose contract or warranty is ending so we can sell a renewal?",
+    "Telesales needs a list of customers to call with this week's offers"
+  ],
+  "questions": [
+    {
+      "id": "focus",
+      "text": "What do you mainly want to improve with customers?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Tracking leads and opportunities",
+          "patterns": [
+            "\\bleads?\\b",
+            "opportunit",
+            "prospect",
+            "pipeline",
+            "win/loss"
+          ]
+        },
+        {
+          "label": "Planning sales visits and calls",
+          "patterns": [
+            "visit",
+            "call plan",
+            "call customers"
+          ]
+        },
+        {
+          "label": "Clean, controlled customer records",
+          "patterns": [
+            "approv",
+            "protects sensitive",
+            "segment",
+            "relationship",
+            "hierarch",
+            "logo",
+            "waiting list"
+          ]
+        },
+        {
+          "label": "Customer service and support",
+          "patterns": [
+            "ticket",
+            "zendesk",
+            "service desk",
+            "for support",
+            "support data"
+          ]
+        },
+        {
+          "label": "Selling more to existing customers",
+          "patterns": [
+            "cross-?sell",
+            "up-? and cross",
+            "upsell",
+            "renewal",
+            "birthday",
+            "campaign"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Tracking leads and opportunities": 0.22,
+        "Planning sales visits and calls": 0.17,
+        "Clean, controlled customer records": 0.39,
+        "Customer service and support": 0.11,
+        "Selling more to existing customers": 0.22
+      }
+    },
+    {
+      "id": "logging",
+      "text": "Do you want to log emails, calls and meetings on the customer?",
+      "options": [
+        {
+          "label": "Yes, keep a contact history",
+          "patterns": [
+            "log(s|ging)? (emails|interactions)",
+            "logs interactions",
+            "telephone notes",
+            "email messages",
+            "timeline",
+            "visit reports"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, keep a contact history": 0.33
+      }
+    },
+    {
+      "id": "connect",
+      "text": "Should it connect to another system you use?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Zendesk or Jira support desk",
+          "patterns": [
+            "zendesk",
+            "jira"
+          ]
+        },
+        {
+          "label": "Microsoft Teams",
+          "patterns": [
+            "teams"
+          ]
+        },
+        {
+          "label": "Maps (Bing or Google)",
+          "patterns": [
+            "bing",
+            "google maps",
+            "geocod"
+          ]
+        },
+        {
+          "label": "Your mail inbox",
+          "patterns": [
+            "mail inbox",
+            "e-?mail messages"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Zendesk or Jira support desk": 0.11,
+        "Microsoft Teams": 0.06,
+        "Maps (Bing or Google)": 0.11,
+        "Your mail inbox": 0.11
+      }
+    },
+    {
+      "id": "approval",
+      "text": "Must new customers or key changes be approved before use?",
+      "options": [
+        {
+          "label": "Yes, require approval",
+          "patterns": [
+            "approv",
+            "protect(s|ed)? (sensitive )?fields",
+            "blocks posting"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, require approval": 0.11
+      }
+    }
+  ]
+}

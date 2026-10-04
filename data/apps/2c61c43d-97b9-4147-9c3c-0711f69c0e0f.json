@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.alterna|AID.2c61c43d-97b9-4147-9c3c-0711f69c0e0f|PAPPID.2c61c43d-97b9-4147-9c3c-0711f69c0e0f",
+  "guid": "2c61c43d-97b9-4147-9c3c-0711f69c0e0f",
+  "publisherId": "alterna",
+  "offerId": "2c61c43d-97b9-4147-9c3c-0711f69c0e0f",
+  "source": {
+    "name": "Arxeia 365 Connector",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.2c61c43d-97b9-4147-9c3c-0711f69c0e0f%7CPAPPID.2c61c43d-97b9-4147-9c3c-0711f69c0e0f",
+    "lastModified": "2026-07-21T16:00:08.0438588+00:00",
+    "appVersion": "2.8.29.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/arxeia-365-connector/",
+    "sourceHash": "sha256:0a2aa5fe72a9844cfc155f638a57bff0aeb727175f8c6f9f0e27bf9a6abef1fc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0a2aa5fe72a9844cfc155f638a57bff0aeb727175f8c6f9f0e27bf9a6abef1fc",
+    "mappedOn": null,
+    "summary": "Sends and receives Italian electronic invoices via Arxeia 365",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Transmits Italian e-invoice XML files to SDI",
+      "Sends XML for sales, purchase and service documents, one at a time or in bulk",
+      "Receives XML files into Incoming Documents",
+      "Retrieves transmission status of e-invoices in BC",
+      "Archives sent and received e-invoices",
+      "Archives orders, shipments, invoices, credit notes for sales and purchases",
+      "Metadata management on archived documents",
+      "Documents stored in the Microsoft cloud of Arxeia",
+      "Works together with the Italian Electronic Invoicing app",
+      "Requires Arxeia 365 subscription"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Arxeia 365",
+      "SDI"
+    ],
+    "requires": [
+      "Arxeia 365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

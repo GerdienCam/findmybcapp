@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.sadsoftwarehousesadecv1705950644158|AID.ssh-new-facturaelectronica|PAPPID.f1dd6ff2-e982-47ad-b7cc-4609c8b3603b",
+  "guid": "f1dd6ff2-e982-47ad-b7cc-4609c8b3603b",
+  "publisherId": "sadsoftwarehousesadecv1705950644158",
+  "offerId": "ssh-new-facturaelectronica",
+  "source": {
+    "name": "SSH - FacturaElectronica",
+    "publisher": "SAD SOFTWARE HOUSE SA DE CV",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sadsoftwarehousesadecv1705950644158%7CAID.ssh-new-facturaelectronica%7CPAPPID.f1dd6ff2-e982-47ad-b7cc-4609c8b3603b",
+    "lastModified": "2025-09-09T17:02:55.216093+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.ssh.com.mx/",
+    "sourceHash": "sha256:879e9aa33f1e93646af4dbe9bb7691204338551d91e547b04a362733615617af"
+  },
+  "mapping": {
+    "sourceHash": "sha256:879e9aa33f1e93646af4dbe9bb7691204338551d91e547b04a362733615617af",
+    "mappedOn": null,
+    "summary": "Mexican CFDI electronic invoicing, including LS Central",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos",
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Mexican CFDI electronic invoicing",
+      "Specific functionality for LS Central",
+      "SAT complements: payments, foreign trade, Carta Porte",
+      "Issue CFDI from sales orders, service invoices, transfers, customer payments, credit notes and shipments",
+      "Handles advances, pedimentos, factoring, CFDI cancellation and related documents",
+      "Custom document formats",
+      "Automatic email to customers",
+      "Monthly plan plus charges per stamped document"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "languages": [
+      "es"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "SAT",
+      "LS Central"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_transaction",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

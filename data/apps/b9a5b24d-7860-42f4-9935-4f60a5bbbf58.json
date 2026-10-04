@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.atlar|AID.atlar-app|PAPPID.b9a5b24d-7860-42f4-9935-4f60a5bbbf58",
+  "guid": "b9a5b24d-7860-42f4-9935-4f60a5bbbf58",
+  "publisherId": "atlar",
+  "offerId": "atlar-app",
+  "source": {
+    "name": "Atlar Treasury Management and Bank Connectivity",
+    "publisher": "Atlar",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.atlar%7CAID.atlar-app%7CPAPPID.b9a5b24d-7860-42f4-9935-4f60a5bbbf58",
+    "lastModified": "2026-09-29T12:06:36.0373449+00:00",
+    "appVersion": "1.2.165.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.atlar.com/docs/welcome",
+    "sourceHash": "sha256:85a9ce272cdf0b657922d532229057347fc00fbc318975c17e3590ab13a61f52"
+  },
+  "mapping": {
+    "sourceHash": "sha256:85a9ce272cdf0b657922d532229057347fc00fbc318975c17e3590ab13a61f52",
+    "mappedOn": null,
+    "summary": "Bank connectivity for statements, payments and treasury via Atlar",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Feeds structured bank statements into BC",
+      "Initiates payments from any bank account in BC",
+      "Supports host-to-host, EBICS and API bank connectivity",
+      "Connects multiple banks and payment providers",
+      "Fully managed implementation of bank connections by Atlar",
+      "OAuth 2.0 via Microsoft Entra ID and full audit trail",
+      "Treasury platform with cash management and forecasting",
+      "Dedicated delivery manager per customer"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Atlar"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

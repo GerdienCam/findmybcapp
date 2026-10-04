@@ -1,0 +1,283 @@
+{
+  "id": "ng-customer-payments",
+  "order": 17,
+  "label": "Recording and matching customer payments",
+  "description": "Importing and applying incoming payments, settling credits, refunds and bills of exchange.",
+  "type": "bpc",
+  "area": "Sales & receivables",
+  "relevance": "high",
+  "statements": [
+    "Recording and matching customer payments",
+    "Importing and applying incoming payments, settling credits, refunds and bills of exchange.",
+    "Matching incoming customer payments to invoices takes our bookkeeper hours every day",
+    "Customers pay several invoices in one transfer without saying which ones",
+    "Is there an app that matches bank payments to customer invoices automatically?",
+    "payment link on customer invoice",
+    "We want customers to pay invoices by card or MobilePay straight from the email",
+    "Direct debit collection from customers, Betalingsservice or SEPA, with BC",
+    "Stripe and PayPal payouts for webshop orders are impossible to match to invoices",
+    "Customers deduct small amounts and we never know what to do with the difference",
+    "Customer took the early payment discount after the due date",
+    "Card payments taken on the phone need to be recorded against the sales order",
+    "cash receipt journal is too manual",
+    "Customer payments come in with the wrong invoice number or their own reference",
+    "We get one payment from a head office covering invoices for 20 branch customers",
+    "Customer paid in euros but the invoice was in kroner",
+    "Unapplied customer payments sit on account for months",
+    "We want to collect payment on delivery with the driver's handheld",
+    "Customer payments from the payment provider arrive net of fees",
+    "Import customer payment files from the bank instead of typing them",
+    "Factoring company pays us for customer invoices, how do we record that?",
+    "Cheques from customers still arrive by post and need to be registered",
+    "Customer ledger is full of open payments and open invoices that should cancel each other out",
+    "How do we apply a customer credit memo to an open invoice in BC?",
+    "unapply customer ledger entries",
+    "Payment was applied to the wrong customer invoice and now the reminders are wrong",
+    "One company is both our customer and our supplier, can we offset the balances?",
+    "Small rounding differences remain open on customer invoices forever",
+    "Cleaning up thousands of old open customer entries before migration",
+    "Customer statement shows invoices as unpaid even though they paid them months ago",
+    "Apply a payment across invoices from several customer accounts in the same group",
+    "netting customer and vendor balances",
+    "Exchange rate differences when applying a foreign currency customer payment to an invoice",
+    "Want to automatically apply customer credit notes to the oldest open invoices",
+    "Customer has a credit balance and wants the money back, how do we pay it out from BC?",
+    "Refunding a customer by bank transfer means creating them as a vendor, that's silly",
+    "refund to customer card",
+    "Webshop refunds are done in Shopify but BC never gets updated",
+    "A customer paid twice and we need to send one payment back",
+    "Include customer refunds in our normal payment file to the bank",
+    "Finance should approve before any money goes back to a customer",
+    "Old customer credit balances nobody has refunded for years",
+    "Customer wants store credit instead of cash back",
+    "Return cash to a customer at the shop counter",
+    "Stripe refunds to customers have to be matched to the credit note manually",
+    "How do we record a refund to a customer's bank account in a payment journal?",
+    "Our French customers pay with LCR and we manage them outside BC",
+    "bills of exchange customer remittance to bank",
+    "Need to track customer bills of exchange until their maturity date",
+    "Italian customers pay by Ri.Ba. and we need to send the file to the bank",
+    "A customer's bill of exchange was protested, how do we reopen the invoice?",
+    "Discounting customer bills of exchange with the bank before maturity"
+  ],
+  "questions": [
+    {
+      "id": "method",
+      "text": "How do your customers mainly pay you?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Card or online payment link",
+          "patterns": [
+            "(credit|debit|saved|stripe|expiring) cards?",
+            "card payments?",
+            "cards?( and| or|,| &)",
+            "accepts cards",
+            "card reader",
+            "pay[- ]?by[- ]?link",
+            "payment links?",
+            "stripe",
+            "apple pay",
+            "wallets?"
+          ]
+        },
+        {
+          "label": "Direct debit / automatic collection",
+          "patterns": [
+            "direct debit",
+            "betalingsservice",
+            "mandates?",
+            "\\bsepa\\b(?! credit transfer)",
+            "gocardless",
+            "leverandørservice",
+            "autogiro",
+            "\\bbacs\\b",
+            "auto-?pay"
+          ]
+        },
+        {
+          "label": "Bank transfer",
+          "patterns": [
+            "bank statements?",
+            "bank transactions",
+            "lockbox",
+            "incoming payments",
+            "bpay",
+            "psd2",
+            "remittance"
+          ]
+        },
+        {
+          "label": "Cheques or promissory notes",
+          "patterns": [
+            "cheques?",
+            "\\bchecks\\b",
+            "post-dated checks?",
+            "e-?checks",
+            "check administration",
+            "credit and check",
+            "promissory",
+            "\\bpdc\\b",
+            "bills? of exchange"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Card or online payment link": 0.35,
+        "Direct debit / automatic collection": 0.23,
+        "Bank transfer": 0.09,
+        "Cheques or promissory notes": 0.18
+      }
+    },
+    {
+      "id": "task",
+      "text": "What do you most need help with?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Getting customers to pay online",
+          "patterns": [
+            "pay[- ]?by[- ]?link",
+            "payment links?",
+            "payment requests?",
+            "(payment|customer|client|self-service) portal",
+            "portal for online",
+            "paynow",
+            "payment page"
+          ]
+        },
+        {
+          "label": "Matching received payments to invoices",
+          "patterns": [
+            "match",
+            "reconcil",
+            "cash application",
+            "auto-?appl",
+            "automatic (payment )?allocation"
+          ]
+        },
+        {
+          "label": "Cleaning up open customer entries",
+          "patterns": [
+            "unapplied",
+            "mass (apply|application|write-off)",
+            "write-?off",
+            "compensat",
+            "nets customer and vendor",
+            "apply credits",
+            "open (customer )?invoices and credits",
+            "planning view of open"
+          ]
+        },
+        {
+          "label": "Paying money back to customers",
+          "patterns": [
+            "refunds?",
+            "reimbursement",
+            "chargebacks?"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Getting customers to pay online": 0.29,
+        "Matching received payments to invoices": 0.35,
+        "Cleaning up open customer entries": 0.11,
+        "Paying money back to customers": 0.14
+      }
+    },
+    {
+      "id": "psp",
+      "text": "Do you sell through a webshop, POS or payment provider like Adyen, Klarna or PayPal?",
+      "help": "Their payouts and fees must be split back to orders and invoices.",
+      "options": [
+        {
+          "label": "Yes, we need provider payouts matched in BC",
+          "patterns": [
+            "settlement",
+            "payouts?",
+            "\\bpsps?\\b",
+            "adyen",
+            "klarna",
+            "paypal",
+            "mollie",
+            "webshop",
+            "ecommerce|e-commerce",
+            "fees? (and|,) (commissions|tax|vat)",
+            "posts? [^.]{0,20}fees",
+            "fee (handling|processing|posting)"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we need provider payouts matched in BC": 0.18
+      }
+    },
+    {
+      "id": "inperson",
+      "text": "Do you take payments face to face?",
+      "options": [
+        {
+          "label": "Yes, at a counter or on site",
+          "patterns": [
+            "(payment|eft|integrated|stripe|card) terminals?",
+            "terminals? (with|and)",
+            "in-person",
+            "in-store",
+            "card reader",
+            "chip and pin",
+            "card-present",
+            "cash drawer",
+            "(^|[\\s,(])pos\\b"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, at a counter or on site": 0.14
+      }
+    },
+    {
+      "id": "reminders",
+      "text": "Should the same tool chase late payers?",
+      "help": "Automatic reminders or dunning with payment links.",
+      "options": [
+        {
+          "label": "Yes, include reminders",
+          "patterns": [
+            "payment reminders?",
+            "reminders? (for|of) (upcoming|overdue|unpaid)",
+            "ar reminder",
+            "dunning",
+            "past[- ]due",
+            "overdue",
+            "credit notes, reminders",
+            "invoices and reminders"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, include reminders": 0.11
+      }
+    }
+  ]
+}

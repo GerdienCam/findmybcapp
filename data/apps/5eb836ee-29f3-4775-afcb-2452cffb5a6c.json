@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.dynamics-eshop|AID.amazon|PAPPID.5eb836ee-29f3-4775-afcb-2452cffb5a6c",
+  "guid": "5eb836ee-29f3-4775-afcb-2452cffb5a6c",
+  "publisherId": "dynamics-eshop",
+  "offerId": "amazon",
+  "source": {
+    "name": "eConnect for Dynamics 365 Business Central",
+    "publisher": "Dynamics eShop Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics-eshop%7CAID.amazon%7CPAPPID.5eb836ee-29f3-4775-afcb-2452cffb5a6c",
+    "lastModified": "2026-09-29T17:04:17.8134365+00:00",
+    "appVersion": "1.0.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamicseshop.com/contact-us/",
+    "sourceHash": "sha256:75ed8e54f673193f5f3d7ae5d8eb0c172ff81d682f1f68365fc1c9d4856d1e82"
+  },
+  "mapping": {
+    "sourceHash": "sha256:75ed8e54f673193f5f3d7ae5d8eb0c172ff81d682f1f68365fc1c9d4856d1e82",
+    "mappedOn": null,
+    "summary": "Syncs products, stock and orders with e-commerce platforms and marketplaces",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Supports Amazon, BigCommerce, eBay, Magento, Shopify and WooCommerce",
+      "Syncs product catalogs, pricing and inventory",
+      "Customer-specific pricing and discounts from BC",
+      "Automatic sync of sales orders and customers",
+      "Syncs fulfillment updates between platforms and BC"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Amazon",
+      "BigCommerce",
+      "eBay",
+      "Magento",
+      "Shopify",
+      "WooCommerce"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

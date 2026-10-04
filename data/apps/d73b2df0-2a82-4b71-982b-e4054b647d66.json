@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcleasing-is|PAPPID.d73b2df0-2a82-4b71-982b-e4054b647d66",
+  "guid": "d73b2df0-2a82-4b71-982b-e4054b647d66",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcleasing-is",
+  "source": {
+    "name": "Leasing",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcleasing-is%7CPAPPID.d73b2df0-2a82-4b71-982b-e4054b647d66",
+    "lastModified": "2025-09-25T13:45:43.8563418+00:00",
+    "appVersion": "20.3.99.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:2fa534725d4818cf31f8190fe35a472bb6e7dd9a886e15df3181125162af9d29"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2fa534725d4818cf31f8190fe35a472bb6e7dd9a886e15df3181125162af9d29",
+    "mappedOn": null,
+    "summary": "Financial and operating lease management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-leasing-finance",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals",
+      "ng-sales-pipeline"
+    ],
+    "claims": [
+      "Manages operational and financial leases",
+      "Payment plan calculation with configurable term, interest, initial payment and charges",
+      "Calculates insurance, taxes and residual value based on mileage and term",
+      "Adds insurances from different insurers and services to installments",
+      "Groups multiple leased assets on one invoice",
+      "Automatic invoicing per lease schedule with late fees",
+      "Contract changes: installments, mileage, early repayment, termination, subrogation",
+      "Automatic contract dimensions and deferred revenue recognition"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Leasing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

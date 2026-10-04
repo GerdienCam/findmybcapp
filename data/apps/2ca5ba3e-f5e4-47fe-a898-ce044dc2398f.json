@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.mindquad_solutions_2592164|AID.mq_xtend_requisitions_management|PAPPID.2ca5ba3e-f5e4-47fe-a898-ce044dc2398f",
+  "guid": "2ca5ba3e-f5e4-47fe-a898-ce044dc2398f",
+  "publisherId": "mindquad_solutions_2592164",
+  "offerId": "mq_xtend_requisitions_management",
+  "source": {
+    "name": "Requisition management",
+    "publisher": "MindQuad Solutions Private Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mindquad_solutions_2592164%7CAID.mq_xtend_requisitions_management%7CPAPPID.2ca5ba3e-f5e4-47fe-a898-ce044dc2398f",
+    "lastModified": "2026-09-03T08:41:47.8323824+00:00",
+    "appVersion": "1.0.0.14",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mindquad.com/contact-us/",
+    "sourceHash": "sha256:1d83f3aeaa06a5eb338267b8bb6bbf2ee93f852a9b12dc19344d136106d118de"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1d83f3aeaa06a5eb338267b8bb6bbf2ee93f852a9b12dc19344d136106d118de",
+    "mappedOn": null,
+    "summary": "Manages purchase requisitions, RFQs and transfer requisitions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Purchase requisitions with approval workflow",
+      "RFQ and quotation comparison statement",
+      "Shows last 5 purchases of the product at RFQ",
+      "Sends RFQ to suppliers and creates purchase quotes",
+      "Item requisitions to issue items to departments or users",
+      "Transfer requisitions between locations or bins",
+      "Returnable item requisitions with return tracking"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

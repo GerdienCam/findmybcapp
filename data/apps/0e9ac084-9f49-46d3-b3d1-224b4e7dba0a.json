@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.dynamics_dossier|AID.edit_in_outlook|PAPPID.0e9ac084-9f49-46d3-b3d1-224b4e7dba0a",
+  "guid": "0e9ac084-9f49-46d3-b3d1-224b4e7dba0a",
+  "publisherId": "dynamics_dossier",
+  "offerId": "edit_in_outlook",
+  "source": {
+    "name": "Edit In Outlook",
+    "publisher": "Q-Team Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics_dossier%7CAID.edit_in_outlook%7CPAPPID.0e9ac084-9f49-46d3-b3d1-224b4e7dba0a",
+    "lastModified": "2026-10-01T13:52:21.9092954+00:00",
+    "appVersion": "28.0.46296.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.q-teamsolutions.com/product/edit-in-outlook/",
+    "sourceHash": "sha256:eccfd63eb0968990e94f73757505664ea497ca4f5f2873cc151541b86b93e7d1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eccfd63eb0968990e94f73757505664ea497ca4f5f2873cc151541b86b93e7d1",
+    "mappedOn": null,
+    "summary": "Edits BC emails in Outlook before sending",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "Send BC documents through Outlook",
+      "No email setup needed",
+      "Uses BC email templates and lets user edit the email in Outlook",
+      "Add attachments to the email",
+      "Send from own email address without adding it to BC",
+      "Sent emails stored in Outlook Sent Items",
+      "Available for SaaS and all OnPrem versions"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nb",
+      "nl",
+      "pl",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Outlook"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

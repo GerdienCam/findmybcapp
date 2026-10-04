@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.temprasgmbhcokg1589783777616|AID.tempras_tempvision_peopleconnect|PAPPID.d90dfa0e-7ffd-4611-80b7-3de0df083b11",
+  "guid": "d90dfa0e-7ffd-4611-80b7-3de0df083b11",
+  "publisherId": "temprasgmbhcokg1589783777616",
+  "offerId": "tempras_tempvision_peopleconnect",
+  "source": {
+    "name": "TempVision PeopleConnect for Personio",
+    "publisher": "Tempras GmbH & Co. KG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.temprasgmbhcokg1589783777616%7CAID.tempras_tempvision_peopleconnect%7CPAPPID.d90dfa0e-7ffd-4611-80b7-3de0df083b11",
+    "lastModified": "2026-08-04T13:28:43.5410601+00:00",
+    "appVersion": "2026.4.20.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.tempras.com/tempvisionpeopleconnect",
+    "sourceHash": "sha256:c0288e6fa308184c7d1c7d5f8b302dffc66b1d00df678970bca4f86096030385"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c0288e6fa308184c7d1c7d5f8b302dffc66b1d00df678970bca4f86096030385",
+    "mappedOn": null,
+    "summary": "Syncs HR data between Personio and BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs personnel master data between Personio and BC",
+      "Syncs with TempVision, BC resources or BC employees",
+      "Configurable sync direction",
+      "Field selection and mapping",
+      "Automated sync via job queue",
+      "Manual sync with confirmation per record",
+      "Free trial up to 5 employee records"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Personio",
+      "TempVision"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

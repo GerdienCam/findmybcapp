@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.arxivar_connector|PAPPID.2b8397f2-fddc-41d4-8c44-01945f748231",
+  "guid": "2b8397f2-fddc-41d4-8c44-01945f748231",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "arxivar_connector",
+  "source": {
+    "name": "ARXivar Connector",
+    "publisher": "LODESTAR SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.arxivar_connector%7CPAPPID.2b8397f2-fddc-41d4-8c44-01945f748231",
+    "lastModified": "2026-09-22T14:19:39.430593+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:f663ae6eb8446c4260f34ebc3009baf079a75d62d43decf80cee35f0a8e493ef"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f663ae6eb8446c4260f34ebc3009baf079a75d62d43decf80cee35f0a8e493ef",
+    "mappedOn": null,
+    "summary": "Archives BC documents in ARXivar document management",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Archives BC documents in Arxivar",
+      "Integration rules per document type incl. custom ones",
+      "Insert, modify and retrieve documents via Arxivar WS API",
+      "Assisted setup defining when to archive and which metadata to store",
+      "Two-way communication managed from BC",
+      "Status check for synchronized documents",
+      "User mapping between BC and Arxivar for permissions",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ARXivar"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_mobile_plus|PAPPID.6f747494-eb5a-4e3b-93aa-a834503f3aa8",
+  "guid": "6f747494-eb5a-4e3b-93aa-a834503f3aa8",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_mobile_plus",
+  "source": {
+    "name": "m+m Mobile PLUS",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_mobile_plus%7CPAPPID.6f747494-eb5a-4e3b-93aa-a834503f3aa8",
+    "lastModified": "2026-09-28T11:19:23.8279217+00:00",
+    "appVersion": "28.0.375467.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:54ffc95579d3269c6c92c18eac3d181960e3794221ef2f3357b7d7244b089154"
+  },
+  "mapping": {
+    "sourceHash": "sha256:54ffc95579d3269c6c92c18eac3d181960e3794221ef2f3357b7d7244b089154",
+    "mappedOn": null,
+    "summary": "Warehouse operations driven by mobile scanner",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-stock-movements",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Handheld scanner workflows in BC",
+      "Scanner picks and put-aways",
+      "Scanner shipments and receipts",
+      "Scanner bin transfers",
+      "Scanner physical inventory",
+      "Item tracking on the scanner",
+      "Configurable scanner menus, users, permissions and language files",
+      "Requires Premium edition"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

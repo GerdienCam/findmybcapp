@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.powerbi-gold-purchasing-app|PAPPID.926b15db-a70c-4c3e-b8ea-25dc3b588495",
+  "guid": "926b15db-a70c-4c3e-b8ea-25dc3b588495",
+  "publisherId": "fenwicksoftware",
+  "offerId": "powerbi-gold-purchasing-app",
+  "source": {
+    "name": "Purchasing Connector for Power BI",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.powerbi-gold-purchasing-app%7CPAPPID.926b15db-a70c-4c3e-b8ea-25dc3b588495",
+    "lastModified": "2026-06-09T07:39:36.6716153+00:00",
+    "appVersion": "26.0.260409.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/power-bi-gold-for-purchasing/docs/",
+    "sourceHash": "sha256:f37f17c444269ce70fcfcdb364fbfa38f25285d2511f9ff3220a2183da44874e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f37f17c444269ce70fcfcdb364fbfa38f25285d2511f9ff3220a2183da44874e",
+    "mappedOn": null,
+    "summary": "Power BI purchasing reports from BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-procurement-spend",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Purchase reports by item, vendor, date range and dimensions",
+      "Measures: purchase amounts, quantities, cost, purchase vs budget",
+      "Requires Power BI Gold Purchasing reports"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [
+      "Power BI Gold Purchasing"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

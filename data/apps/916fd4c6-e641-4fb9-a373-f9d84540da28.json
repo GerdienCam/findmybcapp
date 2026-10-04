@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.incentea|AID.core_config_bc|PAPPID.916fd4c6-e641-4fb9-a373-f9d84540da28",
+  "guid": "916fd4c6-e641-4fb9-a373-f9d84540da28",
+  "publisherId": "incentea",
+  "offerId": "core_config_bc",
+  "source": {
+    "name": "Core Configurator",
+    "publisher": "INCENTEA SA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.incentea%7CAID.core_config_bc%7CPAPPID.916fd4c6-e641-4fb9-a373-f9d84540da28",
+    "lastModified": "2026-10-01T14:29:12.8002602+00:00",
+    "appVersion": "28.5.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://incentea-core.com/en/contacts/",
+    "sourceHash": "sha256:fad9e9302e3cec6d3891dccb26791f94efd8f6148a4b84a0123ca79605c91499"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fad9e9302e3cec6d3891dccb26791f94efd8f6148a4b84a0123ca79605c91499",
+    "mappedOn": null,
+    "summary": "AI product configuration for complex items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bom-formula-engineering"
+    ],
+    "claims": [
+      "Simplifies creation of complex items with many variants",
+      "Prevents errors filling in item attributes",
+      "Multi-level configuration rules",
+      "Calculates sales price",
+      "Mitigates duplicate items",
+      "Generates BOM and routing for the configured product automatically",
+      "Generates an intelligent item code according to defined rules",
+      "Uses AI for product configuration"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

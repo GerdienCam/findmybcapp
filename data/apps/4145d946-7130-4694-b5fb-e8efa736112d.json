@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.adv-inv-app|PAPPID.4145d946-7130-4694-b5fb-e8efa736112d",
+  "guid": "4145d946-7130-4694-b5fb-e8efa736112d",
+  "publisherId": "fenwicksoftware",
+  "offerId": "adv-inv-app",
+  "source": {
+    "name": "Advanced Inventory",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.adv-inv-app%7CPAPPID.4145d946-7130-4694-b5fb-e8efa736112d",
+    "lastModified": "2026-09-28T00:18:32.8373481+00:00",
+    "appVersion": "26.0.260918.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/advanced-inventory/docs",
+    "sourceHash": "sha256:6ffe9b71438330f0bd8aea6008a2d344cd5ac6026bb5b212589bc726332321a9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6ffe9b71438330f0bd8aea6008a2d344cd5ac6026bb5b212589bc726332321a9",
+    "mappedOn": null,
+    "summary": "Automates inventory picks, put-aways and item setup",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-gl-reconciliation",
+      "ng-ux-dimensions",
+      "ng-warehouse-setup"
+    ],
+    "claims": [
+      "Creates inventory picks and put-aways automatically on release of source document",
+      "Check Complete Shipping Advice per location",
+      "Keeps shipment and expected dates aligned between warehouse documents and their source",
+      "Default shipping advice on sales orders and transfer orders",
+      "Syncs item GTIN to item references",
+      "Syncs weights, volumes and pallet configuration between items and units of measure",
+      "Provides reports for Items Shipped not Invoiced and Items Received not Invoiced",
+      "Item sales and purchase history from item, customer, vendor and document pages",
+      "Physical inventory order overview with item tracking breakdown",
+      "Sets a default shipping time per ship-to address",
+      "Assigns item dimension to journal lines to prevent posting errors",
+      "Bin mandatory locations without directed pick and put-away",
+      "Assign item charges by quantity, weight or volume"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

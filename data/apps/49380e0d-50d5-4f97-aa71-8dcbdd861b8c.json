@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evavepo|PAPPID.49380e0d-50d5-4f97-aa71-8dcbdd861b8c",
+  "guid": "49380e0d-50d5-4f97-aa71-8dcbdd861b8c",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evavepo",
+  "source": {
+    "name": "EV Avero - 365 Portal",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evavepo%7CPAPPID.49380e0d-50d5-4f97-aa71-8dcbdd861b8c",
+    "lastModified": "2026-09-15T11:14:47.5180552+00:00",
+    "appVersion": "7.3.219704.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/vidensbank/wiki/business-central/",
+    "sourceHash": "sha256:7afc6862b3cecb947a483e6932d33c4335a0635456cab8d9f904f8d1d66f2e4c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7afc6862b3cecb947a483e6932d33c4335a0635456cab8d9f904f8d1d66f2e4c",
+    "mappedOn": null,
+    "summary": "Portal for approving invoices and managing expenses for EV Crono",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-hr-employee-expenses",
+      "ng-purchase-requisitions"
+    ],
+    "claims": [
+      "Approve invoices via the EV Crono portal",
+      "Register and manage employee expenses",
+      "Task and field service management in portal",
+      "Create requisitions in portal",
+      "No BC access needed for portal users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Utilities"
+    ],
+    "connectsTo": [
+      "EV Crono"
+    ],
+    "requires": [
+      "EV Crono",
+      "EV Avero"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

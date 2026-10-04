@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.youngpartners1588093205397|AID.navitrans_365_crossdock_connector|PAPPID.294d55e9-2fc3-4ace-9b05-a19aa904dd7a",
+  "guid": "294d55e9-2fc3-4ace-9b05-a19aa904dd7a",
+  "publisherId": "youngpartners1588093205397",
+  "offerId": "navitrans_365_crossdock_connector",
+  "source": {
+    "name": "Navitrans 365 Cross-Dock Connector",
+    "publisher": "Navitrans",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_crossdock_connector%7CPAPPID.294d55e9-2fc3-4ace-9b05-a19aa904dd7a",
+    "lastModified": "2026-09-30T20:03:22.4795499+00:00",
+    "appVersion": "28.5.0.80054",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navitrans.eu/our-services/tms/",
+    "sourceHash": "sha256:9f32d5fac6309ba06005e910f4bca605c14eb35587c7665a09273dd3abd2229d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9f32d5fac6309ba06005e910f4bca605c14eb35587c7665a09273dd3abd2229d",
+    "mappedOn": null,
+    "summary": "Connects Navitrans 365 with cross-dock app",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Connects Navitrans 365 TMS with Navitrans 365 Cross-Dock via web services",
+      "Sends trips to load/unload with parcel information, including updates and cancellations",
+      "Every parcel created in TMS is immediately announced to the cross-dock",
+      "Receives parcel statuses to update TMS shipment track & trace",
+      "Alerts users to cross-dock anomalies to resolve",
+      "Specific resolution flow per anomaly type: missing, unknown, unannounced parcels",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "SE",
+      "SI"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Navitrans 365 Cross-Dock"
+    ],
+    "requires": [
+      "Navitrans 365",
+      "Navitrans 365 Cross-Dock"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

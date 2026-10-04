@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.boschdatagmbh1733998274125|AID.bsd-comman-app|PAPPID.b2e15a7a-73ad-4177-9e47-1dbc94f05890",
+  "guid": "b2e15a7a-73ad-4177-9e47-1dbc94f05890",
+  "publisherId": "boschdatagmbh1733998274125",
+  "offerId": "bsd-comman-app",
+  "source": {
+    "name": "comMAN",
+    "publisher": "BoSch Data GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.boschdatagmbh1733998274125%7CAID.bsd-comman-app%7CPAPPID.b2e15a7a-73ad-4177-9e47-1dbc94f05890",
+    "lastModified": "2026-09-17T20:00:36.2860249+00:00",
+    "appVersion": "27.6.3860.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bosch-data.de/comman/",
+    "sourceHash": "sha256:9bfe0d4f78bbdfee457b0fa5d8b2f777fa31b6c4d993630f6937c19a05888dd0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9bfe0d4f78bbdfee457b0fa5d8b2f777fa31b6c4d993630f6937c19a05888dd0",
+    "mappedOn": null,
+    "summary": "Manages communication and file transfer channels for BC",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "Upload, download and delete files on Azure Files, Blob Storage and SMB",
+      "Local SMB requires external SMB service",
+      "Exports data and saves it as a file",
+      "Import a file into Business Central",
+      "Modules to process file content"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage",
+      "Azure Files",
+      "SMB"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

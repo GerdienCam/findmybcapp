@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.sbcdynamicserp1637715412860|AID.acumensvendordepositsprepaymentsmanagementww|PAPPID.d237f767-081f-459e-921d-82e7879ec986",
+  "guid": "d237f767-081f-459e-921d-82e7879ec986",
+  "publisherId": "sbcdynamicserp1637715412860",
+  "offerId": "acumensvendordepositsprepaymentsmanagementww",
+  "source": {
+    "name": "Acumens Vendor Deposits & Prepayments Management (WW)",
+    "publisher": "SBC Dynamics ERP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumensvendordepositsprepaymentsmanagementww%7CPAPPID.d237f767-081f-459e-921d-82e7879ec986",
+    "lastModified": "2026-08-28T12:47:59.5736269+00:00",
+    "appVersion": "25.1023.1.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.sbcdynamicserp.com/acumens-vendor-deposits-prepayments-management",
+    "sourceHash": "sha256:6e04c314be0ec1b29248bf9ed78c5ae0a9ba505252a926cbc1074a215bf0df94"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6e04c314be0ec1b29248bf9ed78c5ae0a9ba505252a926cbc1074a215bf0df94",
+    "mappedOn": null,
+    "summary": "Vendor deposits and prepayments management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Deposits at purchase order header level by percentage or fixed amount",
+      "Consolidate multiple POs for one vendor into a deposit request",
+      "Credit a specific historical deposit invoice",
+      "Links posted deposit invoices to payment journal for ACH, check or EFT",
+      "Applies deposit balances across multiple PO receipts and invoices",
+      "Includes the Vendor Deposit Summary report and the Aged Accounts Payable (Deposits) report"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.adv-inventory-fusion-connector-app|PAPPID.9a96838c-56a8-430b-8cb3-54721c0d47ea",
+  "guid": "9a96838c-56a8-430b-8cb3-54721c0d47ea",
+  "publisherId": "fenwicksoftware",
+  "offerId": "adv-inventory-fusion-connector-app",
+  "source": {
+    "name": "Advanced Inventory for Fusion",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.adv-inventory-fusion-connector-app%7CPAPPID.9a96838c-56a8-430b-8cb3-54721c0d47ea",
+    "lastModified": "2026-09-28T14:07:32.7646747+00:00",
+    "appVersion": "26.0.250912.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/edi/docs/",
+    "sourceHash": "sha256:57ae5352bab7a1d9bcb2f61028c7a45ebf362c06892d4f8cab04697379a7c8c0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:57ae5352bab7a1d9bcb2f61028c7a45ebf362c06892d4f8cab04697379a7c8c0",
+    "mappedOn": null,
+    "summary": "Bridges Fenwick Advanced Inventory and EDI Fusion",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Connects Advanced Inventory with EDI Fusion for Australia"
+    ],
+    "countries": [
+      "AU"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Advanced Inventory",
+      "EDI Fusion"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two Fenwick products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

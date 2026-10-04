@@ -1,0 +1,81 @@
+{
+  "appId": "PUBID.acadonag1632226494919|AID.acadon_complaint_management_for_timber365|PAPPID.600aa4df-6de1-4435-aa36-3dd845425ac1",
+  "guid": "600aa4df-6de1-4435-aa36-3dd845425ac1",
+  "publisherId": "acadonag1632226494919",
+  "offerId": "acadon_complaint_management_for_timber365",
+  "source": {
+    "name": "acadon Complaint Management for Timber365",
+    "publisher": "acadon AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.acadonag1632226494919%7CAID.acadon_complaint_management_for_timber365%7CPAPPID.600aa4df-6de1-4435-aa36-3dd845425ac1",
+    "lastModified": "2026-09-30T15:59:27.0079803+00:00",
+    "appVersion": "1.0.0.1040831",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.acadon.de/ProductCatalog/en-US/Apps/ComplaintManagement/Docs/Business%20Value.html",
+    "sourceHash": "sha256:7f6c7d0fad5a7d925336b34204c8beb150fb0f06a4bb9b8d756324735c8689f6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7f6c7d0fad5a7d925336b34204c8beb150fb0f06a4bb9b8d756324735c8689f6",
+    "mappedOn": null,
+    "summary": "Registers complaints and corrective actions in the timber industry",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-customer-returns",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-nonconformance-capa",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-metal-timber-materials",
+      "ng-case-customer-updates"
+    ],
+    "claims": [
+      "Creates complaints by hand, or automatically from quality, purchasing or sales documents",
+      "Complaint card with type, status, responsible, description, images and documents",
+      "Follow-up actions (redelivery, return, credit note) with cost and deadline tracking",
+      "Email templates and automated tasks",
+      "Real-time status and reminders on actions",
+      "Configurable processes, templates and actions per complaint type",
+      "Templates for email with placeholders, plus PDF files as attachments",
+      "Every step documented for reporting and internal audits"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "NL",
+      "NO"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Timber"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "acadon Timber365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

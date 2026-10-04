@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.ktc-karlsruhetechnologyconsultinggmbh1595962004014|AID.d365bc_0009|PAPPID.61ec1658-e4fe-4236-9326-6fe95fc8efc9",
+  "guid": "61ec1658-e4fe-4236-9326-6fe95fc8efc9",
+  "publisherId": "ktc-karlsruhetechnologyconsultinggmbh1595962004014",
+  "offerId": "d365bc_0009",
+  "source": {
+    "name": "SharePointPlus",
+    "publisher": "KTC - Karlsruhe Technology Consulting GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ktc-karlsruhetechnologyconsultinggmbh1595962004014%7CAID.d365bc_0009%7CPAPPID.61ec1658-e4fe-4236-9326-6fe95fc8efc9",
+    "lastModified": "2026-09-23T12:34:25.5895492+00:00",
+    "appVersion": "2.10.13671.460",
+    "pricingTypes": [
+      "Free",
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://ktc.de/spp",
+    "sourceHash": "sha256:ab1a7745c302206a27566bd357a857a61a7cbaf61372f0de7da2bc54e4940651"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ab1a7745c302206a27566bd357a857a61a7cbaf61372f0de7da2bc54e4940651",
+    "mappedOn": null,
+    "summary": "Uses SharePoint as document management system for BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Stores BC documents directly in SharePoint libraries",
+      "Audit-proof archive / DMS on SharePoint",
+      "Generates metadata: DocID, ReferenceID and up to 8 dimensions",
+      "Supports multiple SharePoint libraries",
+      "Files by document type, customer or project",
+      "Subdivides data into e.g. annual folders",
+      "Documents shown in BC sidebar",
+      "SharePoint license required separately",
+      "Priced in tiers of system users"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "pl",
+      "pt"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

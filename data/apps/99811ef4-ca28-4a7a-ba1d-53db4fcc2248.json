@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.mdc_nordic|AID.postnord_connector|PAPPID.99811ef4-ca28-4a7a-ba1d-53db4fcc2248",
+  "guid": "99811ef4-ca28-4a7a-ba1d-53db4fcc2248",
+  "publisherId": "mdc_nordic",
+  "offerId": "postnord_connector",
+  "source": {
+    "name": "PostNord Connector",
+    "publisher": "MDC Nordic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mdc_nordic%7CAID.postnord_connector%7CPAPPID.99811ef4-ca28-4a7a-ba1d-53db4fcc2248",
+    "lastModified": "2026-06-30T12:02:43.5760884+00:00",
+    "appVersion": "28.1.1.3352",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://mdcnordic.com/en/bc-apps/postnord",
+    "sourceHash": "sha256:8cd82ca61cb72e0cd7099a44b08f95e0b4f4d3e01722d5b51a8203c05936d262"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8cd82ca61cb72e0cd7099a44b08f95e0b4f4d3e01722d5b51a8203c05936d262",
+    "mappedOn": null,
+    "summary": "Integrates PostNord shipping services",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Creates PostNord shipments from sales orders",
+      "Shipment preferences per customer or order",
+      "Automatic tracking emails",
+      "Generates QR-coded PDF labels",
+      "PostNord pickup point selection",
+      "Shipment and API logs"
+    ],
+    "countries": [
+      "DK",
+      "SE"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PostNord"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

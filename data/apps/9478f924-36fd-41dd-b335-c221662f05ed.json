@@ -1,0 +1,92 @@
+{
+  "appId": "PUBID.inecta|AID.inecta-xqst|PAPPID.9478f924-36fd-41dd-b335-c221662f05ed",
+  "guid": "9478f924-36fd-41dd-b335-c221662f05ed",
+  "publisherId": "inecta",
+  "offerId": "inecta-xqst",
+  "source": {
+    "name": "iNECTA Seafood Trader",
+    "publisher": "iNECTA LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.inecta%7CAID.inecta-xqst%7CPAPPID.9478f924-36fd-41dd-b335-c221662f05ed",
+    "lastModified": "2024-11-21T15:30:13.6113671+00:00",
+    "appVersion": "16.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://seafoodtrader.inecta.com/",
+    "sourceHash": "sha256:6ed7b14e0f82e32fa73ca49b17a6534a66cfc8e7c0b912cac7e44d3d6487861f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6ed7b14e0f82e32fa73ca49b17a6534a66cfc8e7c0b912cac7e44d3d6487861f",
+    "mappedOn": null,
+    "summary": "ERP extension for seafood traders",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-seafood",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-edi",
+      "ng-conn-3pl"
+    ],
+    "claims": [
+      "Traceability, 3PL management, fast order entry and managing documentation",
+      "Allergen tracking and SQF/HACCP/GFSI/FSMA quality control",
+      "Warehouse sampling, recall, inspection plans, checklists and QC tests",
+      "Advanced lot management with actual versus estimate and lot attributes",
+      "Calculates storage costs per lot",
+      "Direct EDI with customers and vendors or via a VAN",
+      "Buyer board, available items and case management"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CA",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IS",
+      "IT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "SE",
+      "SI",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Food",
+      "Seafood"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

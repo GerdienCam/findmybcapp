@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.canarytechnologysolutionsptylimited1731475938027|AID.salsify|PAPPID.4a62c1a5-7f58-4a0e-bb63-6bb8db4a3957",
+  "guid": "4a62c1a5-7f58-4a0e-bb63-6bb8db4a3957",
+  "publisherId": "canarytechnologysolutionsptylimited1731475938027",
+  "offerId": "salsify",
+  "source": {
+    "name": "Salsify eXchange Integration",
+    "publisher": "Canary Technology Solutions Pty limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.canarytechnologysolutionsptylimited1731475938027%7CAID.salsify%7CPAPPID.4a62c1a5-7f58-4a0e-bb63-6bb8db4a3957",
+    "lastModified": "2026-09-14T11:38:23.6987882+00:00",
+    "appVersion": "27.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://info.canaryit.com.au/support-services",
+    "sourceHash": "sha256:5b14ed21dfce189441c2ccfbec8c95adfb694bade3a28624b3fafb980d22a5d8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5b14ed21dfce189441c2ccfbec8c95adfb694bade3a28624b3fafb980d22a5d8",
+    "mappedOn": null,
+    "summary": "Syncs item data and images from SKUlibrary",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-product-compliance"
+    ],
+    "claims": [
+      "Initial full import of SKUlibrary extract",
+      "Scheduled daily/weekly delta updates via job queue",
+      "Imports ingredients, allergens, warnings, TGA flags, mandatory statements",
+      "Stores images in own Azure Blob Storage",
+      "Configurable field mapping without code",
+      "Separate production and sandbox settings",
+      "API logs and sync history with per-product errors",
+      "Requires BC online and SKUlibrary subscription"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Grocery",
+      "Pharmacy",
+      "Retail"
+    ],
+    "connectsTo": [
+      "SKUlibrary",
+      "Salsify",
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

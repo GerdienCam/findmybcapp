@@ -1,0 +1,51 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-recordsearchattributesbridge|PAPPID.dc7613fa-ec95-4105-a8ef-b5546acdba74",
+  "guid": "dc7613fa-ec95-4105-a8ef-b5546acdba74",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-recordsearchattributesbridge",
+  "source": {
+    "name": "BeyondRecordSearchAttributesBridge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-recordsearchattributesbridge%7CPAPPID.dc7613fa-ec95-4105-a8ef-b5546acdba74",
+    "lastModified": "2025-10-17T12:04:55.0314839+00:00",
+    "appVersion": "20.0.57.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/recordsearchattributesbridge/index.html",
+    "sourceHash": "sha256:fddd4d18cad3b7aab9a66a431a087dcf4fdca73dd1e313ab58149f977ad228ef"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fddd4d18cad3b7aab9a66a431a087dcf4fdca73dd1e313ab58149f977ad228ef",
+    "mappedOn": null,
+    "summary": "Attribute search for service items in BEYOND RecordSearch",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-search-navigation",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Attribute and value as search criteria in the RecordSearch window"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "BEYOND RecordSearch",
+      "BEYOND Attributes"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two BEYOND products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

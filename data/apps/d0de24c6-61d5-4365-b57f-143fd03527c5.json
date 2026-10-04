@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.applibra|AID.al_synchronize_databases|PAPPID.d0de24c6-61d5-4365-b57f-143fd03527c5",
+  "guid": "d0de24c6-61d5-4365-b57f-143fd03527c5",
+  "publisherId": "applibra",
+  "offerId": "al_synchronize_databases",
+  "source": {
+    "name": "AL Synchronize Databases",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_synchronize_databases%7CPAPPID.d0de24c6-61d5-4365-b57f-143fd03527c5",
+    "lastModified": "2026-09-07T13:00:24.7592567+00:00",
+    "appVersion": "28.0.26.9041656",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://applibra.com/apps/al-synchronize-databases",
+    "sourceHash": "sha256:ef36775800517e980ec1bb8d28bb532f8ad697cbdda0e95fcfff449ed44bebfe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ef36775800517e980ec1bb8d28bb532f8ad697cbdda0e95fcfff449ed44bebfe",
+    "mappedOn": null,
+    "summary": "Two-way sync of BC data with external SQL databases",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-excel-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Two-way sync between BC and PostgreSQL / Microsoft SQL",
+      "Incoming data runs standard BC validation",
+      "Post-import business event for custom logic such as posting a document",
+      "Persistent buffer so users never wait for external DB, realigns after downtime",
+      "Configurable nodes, interfaces and field mapping",
+      "Web APIs for orchestration and monitoring",
+      "Supports BC 25.0+ online and on-premises"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Automotive",
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "PostgreSQL",
+      "Microsoft SQL Server"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

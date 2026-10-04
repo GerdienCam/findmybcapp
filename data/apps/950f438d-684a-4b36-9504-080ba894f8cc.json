@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_carioconnector|PAPPID.950f438d-684a-4b36-9504-080ba894f8cc",
+  "guid": "950f438d-684a-4b36-9504-080ba894f8cc",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_carioconnector",
+  "source": {
+    "name": "Fusion5 Cario Connector",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_carioconnector%7CPAPPID.950f438d-684a-4b36-9504-080ba894f8cc",
+    "lastModified": "2026-08-16T17:43:10.0587314+00:00",
+    "appVersion": "2700.6.20260817.15410",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/1135542273",
+    "sourceHash": "sha256:66107da2978dda9d939ed2b57198a5d3570d215be32e7eee6e6720c57d8b590f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:66107da2978dda9d939ed2b57198a5d3570d215be32e7eee6e6720c57d8b590f",
+    "mappedOn": null,
+    "summary": "Shipping quotes, consignments, labels and manifests via Cario",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Live shipping quotes and service comparison from Cario",
+      "Apply selected services and charges to sales documents or warehouse shipments",
+      "Creates consignments with one action and records tracking details",
+      "Automatic tracking updates via scheduled background processes",
+      "Downloads carrier labels, consignment notes and manifests",
+      "Manifests grouped by location and pickup date registered with Cario",
+      "Uses standard Shipping Units, Shipping Agents and Agent Services"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Cario"
+    ],
+    "requires": [
+      "Cario"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

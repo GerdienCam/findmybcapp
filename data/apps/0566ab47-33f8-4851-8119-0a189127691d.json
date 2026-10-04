@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.applibra|AID.al_gs1|PAPPID.0566ab47-33f8-4851-8119-0a189127691d",
+  "guid": "0566ab47-33f8-4851-8119-0a189127691d",
+  "publisherId": "applibra",
+  "offerId": "al_gs1",
+  "source": {
+    "name": "AL GS1",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_gs1%7CPAPPID.0566ab47-33f8-4851-8119-0a189127691d",
+    "lastModified": "2026-09-16T10:15:30.5262789+00:00",
+    "appVersion": "28.0.26.9160920",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://applibra.com/apps/al-gs1",
+    "sourceHash": "sha256:e57abca2c83e15f5fa5ee7f6ee1613d82452f8a7c0c44f58aaeb83b27c16a393"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e57abca2c83e15f5fa5ee7f6ee1613d82452f8a7c0c44f58aaeb83b27c16a393",
+    "mappedOn": null,
+    "summary": "Encodes and decodes GS1-128 barcodes for warehouse scanning",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway"
+    ],
+    "claims": [
+      "Encodes and decodes GS1-128 barcodes into Application Identifiers",
+      "Configurable Application Identifier master with regex validation",
+      "GS1 templates per company, customer, vendor or group",
+      "GTIN and SSCC generation with GS1 check digit and ITF-14 conversion",
+      "Variable-weight GTIN support tied to catch weight",
+      "Scanned barcodes via Web API assign lot, SSCC and weight to document lines",
+      "Feeds Zebra label templates with GS1-128 barcode",
+      "No integrated scanner driver"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Distribution",
+      "Food & Beverage",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Zebra"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

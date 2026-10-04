@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.mpriseagriwarebv|AID.agriware-logisticsconnector|PAPPID.580597a4-4290-4648-89c3-bace9756fcab",
+  "guid": "580597a4-4290-4648-89c3-bace9756fcab",
+  "publisherId": "mpriseagriwarebv",
+  "offerId": "agriware-logisticsconnector",
+  "source": {
+    "name": "Agriware 365 Logistics Connector - MES Integration",
+    "publisher": "Mprise Agriware B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mpriseagriwarebv%7CAID.agriware-logisticsconnector%7CPAPPID.580597a4-4290-4648-89c3-bace9756fcab",
+    "lastModified": "2026-09-28T12:41:32.5391608+00:00",
+    "appVersion": "28.28.5.271675",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.agriware.cloud/",
+    "sourceHash": "sha256:620f04aa4fe4cabb8748ee7803a8ff5cb584618d9f37df2fed4ac0787f4832e6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:620f04aa4fe4cabb8748ee7803a8ff5cb584618d9f37df2fed4ac0787f4832e6",
+    "mappedOn": null,
+    "summary": "Integrates Agriware 365 with greenhouse logistics automation",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-allocation-picking"
+    ],
+    "claims": [
+      "Connects to greenhouse automation systems ISAL (Indigo Logistics), WPS and SDF",
+      "Standardized connector based on ISA95",
+      "Synchronizes master data, production work orders and sales orders",
+      "Sales orders steer automated picking with status tracking",
+      "Captures actual figures for sorting, spacing, moving, potting and sowing",
+      "Updates yield planning based on actuals"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Horticulture"
+    ],
+    "connectsTo": [
+      "ISAL (Indigo Logistics)",
+      "WPS",
+      "SDF"
+    ],
+    "requires": [
+      "Agriware 365 Business Essentials"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

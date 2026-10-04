@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.applibra|AID.al_processing_charge|PAPPID.0e4793f4-e122-422f-a7f6-c2ba07d4c1f1",
+  "guid": "0e4793f4-e122-422f-a7f6-c2ba07d4c1f1",
+  "publisherId": "applibra",
+  "offerId": "al_processing_charge",
+  "source": {
+    "name": "AL Processing Charge",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_processing_charge%7CPAPPID.0e4793f4-e122-422f-a7f6-c2ba07d4c1f1",
+    "lastModified": "2026-07-28T07:17:36.6397167+00:00",
+    "appVersion": "28.0.26.7271119",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://applibra.com/apps/al-processing-charge",
+    "sourceHash": "sha256:fc6cb4e576a48961defe862fe7e3d02ba075df96ee57d88039359c70956901cb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fc6cb4e576a48961defe862fe7e3d02ba075df96ee57d88039359c70956901cb",
+    "mappedOn": null,
+    "summary": "Tracks processing charge revenue separately from item revenue",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-product-performance",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing",
+      "ng-production-planning"
+    ],
+    "claims": [
+      "Configurable processing types bound to a standard Item Charge",
+      "Processing type on sales lines with default overridable price",
+      "Automatic item charge line created and assigned on release",
+      "Charge line follows partial shipment and invoicing",
+      "Default processing type per item",
+      "Optional routing and production BOM per processing type for planning",
+      "Covers quotes, orders, invoices, blanket orders, returns and credit memos"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

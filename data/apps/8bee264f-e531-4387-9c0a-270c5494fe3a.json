@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.dynasoftspainsl1676190626942|AID.dyn_dns_updater_bc|PAPPID.8bee264f-e531-4387-9c0a-270c5494fe3a",
+  "guid": "8bee264f-e531-4387-9c0a-270c5494fe3a",
+  "publisherId": "dynasoftspainsl1676190626942",
+  "offerId": "dyn_dns_updater_bc",
+  "source": {
+    "name": "Dynasoft DNS Updater",
+    "publisher": "Grupo Dynasoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynasoftspainsl1676190626942%7CAID.dyn_dns_updater_bc%7CPAPPID.8bee264f-e531-4387-9c0a-270c5494fe3a",
+    "lastModified": "2026-05-22T02:51:42.6854115+00:00",
+    "appVersion": "1.0.7.20260212",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.grupodynasoft.com/books/dns-updater",
+    "sourceHash": "sha256:2f0cc43d0d6eceb0f202cc6b6ab3b83e2b27e859dca2e8af0eccb67914b4c860"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2f0cc43d0d6eceb0f202cc6b6ab3b83e2b27e859dca2e8af0eccb67914b4c860",
+    "mappedOn": null,
+    "summary": "Keeps DNS records updated with BC outbound IP addresses",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-it-compliance"
+    ],
+    "claims": [
+      "Keeps an FQDN updated with BC's current outbound IP addresses",
+      "Lets the firewall be configured once for BC traffic",
+      "Compatible with all versions of BC SaaS",
+      "Includes 1 hour free advanced support"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Keeping external firewall/DNS allow-lists updated with BC SaaS outbound IPs"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

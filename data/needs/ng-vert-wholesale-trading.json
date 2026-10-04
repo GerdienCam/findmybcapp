@@ -1,0 +1,198 @@
+{
+  "id": "ng-vert-wholesale-trading",
+  "order": 215,
+  "label": "Solutions for wholesalers and commodity traders",
+  "description": "Industry packs for wholesale and distribution (pricing structures, international purchasing, trade features) and commodity trading (contracts, positions, futures, freight and risk).",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for wholesalers and commodity traders",
+    "Industry packs for wholesale and distribution (pricing structures, international purchasing, trade features) and commodity trading (contracts, positions, futures, freight and risk).",
+    "Wholesale distributor wanting an industry pack on BC",
+    "commodity trading software Business Central",
+    "Positions and hedges for the grain we trade",
+    "International purchasing with containers and landed cost",
+    "Trading company with complex price structures",
+    "Wholesale ERP that partners already know",
+    "Contracts, shipments and futures for metals trading",
+    "Medical distribution with compliance needs",
+    "IT distribution with thousands of SKUs",
+    "Back-to-back orders for trading",
+    "Distributor with many brands and rebates",
+    "Physical commodity contracts and freight"
+  ],
+  "questions": [
+    {
+      "id": "business",
+      "text": "What kind of trading do you do?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Wholesale and distribution of goods",
+          "patterns": [
+            "wholesal",
+            "distribution",
+            "trade (business|companies)",
+            "assortment",
+            "bundle"
+          ]
+        },
+        {
+          "label": "Commodity trading (contracts, futures, hedging)",
+          "patterns": [
+            "commodit",
+            "futures",
+            "hedge",
+            "ctrm",
+            "deal"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Wholesale and distribution of goods": 0.63,
+        "Commodity trading (contracts, futures, hedging)": 0.26
+      }
+    },
+    {
+      "id": "pricing",
+      "text": "How complex is your pricing?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Customer-specific prices, discounts, promotions",
+          "patterns": [
+            "customer- and vendor-specific",
+            "differentiated pricing",
+            "advanced pricing",
+            "promotion",
+            "discounts?",
+            "trade agreements",
+            "rebates"
+          ]
+        },
+        {
+          "label": "Prices linked to market or exchange prices",
+          "patterns": [
+            "market pric",
+            "index",
+            "mark-to-market",
+            "\\blme\\b",
+            "exchange prices",
+            "alloy surcharge"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Customer-specific prices, discounts, promotions": 0.47,
+        "Prices linked to market or exchange prices": 0.21
+      }
+    },
+    {
+      "id": "import",
+      "text": "Do you import goods and need landed cost or international purchasing?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "international purchasing",
+            "import costing",
+            "shipment costs",
+            "freight",
+            "goods in transit",
+            "emcs"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.26
+      }
+    },
+    {
+      "id": "delivery",
+      "text": "Do you deliver with your own trucks or plan routes?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, own fleet or route planning",
+          "patterns": [
+            "truck",
+            "fleet",
+            "dispatch",
+            "route",
+            "vehicle",
+            "transport management",
+            "order planning"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, own fleet or route planning": 0.26
+      }
+    },
+    {
+      "id": "packaging",
+      "text": "Do you handle returnable packaging, deposits or excise duties?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "packaging",
+            "deposit",
+            "empties",
+            "epal",
+            "excise",
+            "recycling fees"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.21
+      }
+    },
+    {
+      "id": "commission",
+      "text": "Do you pay sales commissions or give customer rebates?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "commission",
+            "rebate",
+            "bonus"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.16
+      }
+    }
+  ]
+}

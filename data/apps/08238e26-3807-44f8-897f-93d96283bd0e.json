@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.dynamicspropertyaps1581068132496|AID.08238e26-3807-44f8-897f-93d96283bd0e|PAPPID.08238e26-3807-44f8-897f-93d96283bd0e",
+  "guid": "08238e26-3807-44f8-897f-93d96283bd0e",
+  "publisherId": "dynamicspropertyaps1581068132496",
+  "offerId": "08238e26-3807-44f8-897f-93d96283bd0e",
+  "source": {
+    "name": "Price Indexer",
+    "publisher": "Dynamics Property ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicspropertyaps1581068132496%7CAID.08238e26-3807-44f8-897f-93d96283bd0e%7CPAPPID.08238e26-3807-44f8-897f-93d96283bd0e",
+    "lastModified": "2024-11-22T08:01:30.093391+00:00",
+    "appVersion": "1.0.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dppm.it/msas/priceindex/help/",
+    "sourceHash": "sha256:f4deb61130250f949ab0b668d02dec9c03295819706712611b596bd8a24d7eba"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f4deb61130250f949ab0b668d02dec9c03295819706712611b596bd8a24d7eba",
+    "mappedOn": null,
+    "summary": "Adjusts item prices by price index",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-pricing"
+    ],
+    "claims": [
+      "Adjusts item prices by price index",
+      "Supports multiple price indexes",
+      "Price indexes shared between companies",
+      "Individual item setup of which index applies",
+      "Automatic adjustment via job queue",
+      "Flags missed item adjustments",
+      "Adjusts both prices and costs"
+    ],
+    "countries": [
+      "DK",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

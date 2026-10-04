@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.to-increasebv|AID.food_manufacturing|PAPPID.0ecbf408-d9f2-411d-aaf1-dcf4d6741886",
+  "guid": "0ecbf408-d9f2-411d-aaf1-dcf4d6741886",
+  "publisherId": "to-increasebv",
+  "offerId": "food_manufacturing",
+  "source": {
+    "name": "Food Manufacturing",
+    "publisher": "STAEDEAN",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.to-increasebv%7CAID.food_manufacturing%7CPAPPID.0ecbf408-d9f2-411d-aaf1-dcf4d6741886",
+    "lastModified": "2026-09-28T18:17:39.1111023+00:00",
+    "appVersion": "28.5.128490.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.staedean.com/business-central/docs/bc-food-manufacturing-and-distribution",
+    "sourceHash": "sha256:c6275b4828a1bd6595cbee72e1a3cfd0fca68e35bbd200abfd633a9627b6e614"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c6275b4828a1bd6595cbee72e1a3cfd0fca68e35bbd200abfd633a9627b6e614",
+    "mappedOn": null,
+    "summary": "Food manufacturing from sourcing to delivery",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability",
+      "ng-production-scheduling"
+    ],
+    "claims": [
+      "Production scheduling based on raw material and machine availability",
+      "Expiry dates, shelf life and FIFO support",
+      "Lot tracing and country-of-origin information",
+      "Weight and volume unit conversions",
+      "Item cost and country-of-origin tracing at item level",
+      "Bin-level warehouse visibility with picking, packing and bin movements",
+      "Allergen and may-contain management through production",
+      "Recipes for intermediates, co-products and by-products",
+      "Nutrition management"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Food and beverage",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.martitab1633951001710|AID.orderly-trust|PAPPID.c4cbc397-e5bc-4024-985d-3d919f0785cd",
+  "guid": "c4cbc397-e5bc-4024-985d-3d919f0785cd",
+  "publisherId": "martitab1633951001710",
+  "offerId": "orderly-trust",
+  "source": {
+    "name": "Orderly Trust",
+    "publisher": "MartIT AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.martitab1633951001710%7CAID.orderly-trust%7CPAPPID.c4cbc397-e5bc-4024-985d-3d919f0785cd",
+    "lastModified": "2026-09-17T16:21:27.6645647+00:00",
+    "appVersion": "1.0.15.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.combineit.se/",
+    "sourceHash": "sha256:1d604ef104af13950368cd7095237b62d8e80da4bb69f87f37892bf4933c2112"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1d604ef104af13950368cd7095237b62d8e80da4bb69f87f37892bf4933c2112",
+    "mappedOn": null,
+    "summary": "Features to make order flows more reliable",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation",
+      "ng-ux-automation"
+    ],
+    "claims": [
+      "Adds shipping advice option 'Partial no Backorder'",
+      "Handles partly shipped sales orders where outstanding quantities won't ship",
+      "Updates intercompany purchase order quantities accordingly",
+      "Back order management for transfer orders",
+      "Order statuses based on events and conditions"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

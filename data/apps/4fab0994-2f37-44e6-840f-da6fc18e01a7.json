@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.illum9pteltd1591675217859|AID.illum_malaysia_einvoice|PAPPID.4fab0994-2f37-44e6-840f-da6fc18e01a7",
+  "guid": "4fab0994-2f37-44e6-840f-da6fc18e01a7",
+  "publisherId": "illum9pteltd1591675217859",
+  "offerId": "illum_malaysia_einvoice",
+  "source": {
+    "name": "Malaysia E-invoice",
+    "publisher": "Illum (9) Pte Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.illum9pteltd1591675217859%7CAID.illum_malaysia_einvoice%7CPAPPID.4fab0994-2f37-44e6-840f-da6fc18e01a7",
+    "lastModified": "2026-09-29T08:16:15.9198914+00:00",
+    "appVersion": "1.0.0.3",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.9itgroup.com/contact-us/",
+    "sourceHash": "sha256:a02f3a549d6908dea7d0847ce616aaeb5d3d51a9c44d262d7c7851d9fa9b222c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a02f3a549d6908dea7d0847ce616aaeb5d3d51a9c44d262d7c7851d9fa9b222c",
+    "mappedOn": null,
+    "summary": "Malaysian e-invoicing via LHDN MyInvois",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Generates and validates e-invoices in XML/JSON per MyInvois",
+      "API integration with LHDN for submission, cancellation and status",
+      "Digital signatures on e-invoices",
+      "Validation results and rejections in BC",
+      "QR codes on validated e-invoices",
+      "Audit trail of submissions",
+      "Supports self-billed invoice, refund note, debit note, credit note and standard invoice",
+      "Covers B2B, B2C and B2G"
+    ],
+    "countries": [
+      "MY"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "LHDN MyInvois"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

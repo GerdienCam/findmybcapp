@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcadvancedcrmconnector-is|PAPPID.55c1a34b-acf7-46fb-abf9-d5d02f19c318",
+  "guid": "55c1a34b-acf7-46fb-abf9-d5d02f19c318",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcadvancedcrmconnector-is",
+  "source": {
+    "name": "Advanced CRM Connector",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcadvancedcrmconnector-is%7CPAPPID.55c1a34b-acf7-46fb-abf9-d5d02f19c318",
+    "lastModified": "2026-09-09T18:59:51.291417+00:00",
+    "appVersion": "26.2.34.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:437975f5906da7c9f3750e8178e0f51b1b787ef5998ebe937716030a05e4cd2d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:437975f5906da7c9f3750e8178e0f51b1b787ef5998ebe937716030a05e4cd2d",
+    "mappedOn": null,
+    "summary": "Advanced data integration with Dynamics 365 Sales/Dataverse",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Adds new fields to BC-Dataverse exchange without coding",
+      "Remap Dataverse tables to different BC tables",
+      "Change standard mappings without code",
+      "Configured from the web client UI"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 Sales",
+      "Dataverse"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

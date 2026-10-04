@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.production-instructions|PAPPID.d5d4391e-deb5-4860-9138-0410f0f072db",
+  "guid": "d5d4391e-deb5-4860-9138-0410f0f072db",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "production-instructions",
+  "source": {
+    "name": "Production Instructions",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.production-instructions%7CPAPPID.d5d4391e-deb5-4860-9138-0410f0f072db",
+    "lastModified": "2025-10-09T16:29:06.8777246+00:00",
+    "appVersion": "27.0.16006.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nicsystemslearning.com/help/production-instructions",
+    "sourceHash": "sha256:94fa5e943dcc9ead5eb41e379288f602d5e342f141d6bcda91c8436f004061b3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:94fa5e943dcc9ead5eb41e379288f602d5e342f141d6bcda91c8436f004061b3",
+    "mappedOn": null,
+    "summary": "Production instructions on BOMs visible in production orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-routings-workcenters",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bom-formula-engineering"
+    ],
+    "claims": [
+      "Multiple instruction sets per production BOM",
+      "Instructions copied when creating BOM or BOM version from existing",
+      "Rich-text instructions with numbered steps and highlighting",
+      "Images embedded in instructions",
+      "Access instructions from production order",
+      "Mark instructions complete on released production orders",
+      "Requires Premium edition"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.bmsgmbh1605958738066|AID.etagis-connector|PAPPID.9160abee-d72a-45f0-b658-3cadccd22403",
+  "guid": "9160abee-d72a-45f0-b658-3cadccd22403",
+  "publisherId": "bmsgmbh1605958738066",
+  "offerId": "etagis-connector",
+  "source": {
+    "name": "etagis Connector",
+    "publisher": "bms GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bmsgmbh1605958738066%7CAID.etagis-connector%7CPAPPID.9160abee-d72a-45f0-b658-3cadccd22403",
+    "lastModified": "2026-08-05T20:02:24.222766+00:00",
+    "appVersion": "25.10.82.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bms-gmbh.com/kontakt/",
+    "sourceHash": "sha256:f1afd08136e96931dcfb401dada931f90ed75099d4a5b5bfbdf231394e31359a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f1afd08136e96931dcfb401dada931f90ed75099d4a5b5bfbdf231394e31359a",
+    "mappedOn": null,
+    "summary": "Syncs production data with etagis APS planning",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-production-planning"
+    ],
+    "claims": [
+      "Finite-capacity production planning",
+      "Save and compare planning scenarios",
+      "Alternative resources, sequences, priorities and frozen zone",
+      "Gantt chart per resource (machines, employees, tools)",
+      "Drag operations in chart or allocation table",
+      "Split view of order network including bought-in parts",
+      "Requires etagis APS licence"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "etagis APS"
+    ],
+    "requires": [
+      "etagis APS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

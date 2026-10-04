@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.1vision3651683641940304|AID.1vision365-iot2printvis-1|PAPPID.c837b4e0-f4cb-4a7e-b28f-6c9391cfbd67",
+  "guid": "c837b4e0-f4cb-4a7e-b28f-6c9391cfbd67",
+  "publisherId": "1vision3651683641940304",
+  "offerId": "1vision365-iot2printvis-1",
+  "source": {
+    "name": "1Vision IoT-2-PrintVis Connector",
+    "publisher": "1Vision365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1vision3651683641940304%7CAID.1vision365-iot2printvis-1%7CPAPPID.c837b4e0-f4cb-4a7e-b28f-6c9391cfbd67",
+    "lastModified": "2026-08-26T10:10:10.3377528+00:00",
+    "appVersion": "28.3.240.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://1vision365.com/support/",
+    "sourceHash": "sha256:c83979c69126b75bfa7c6bf7edd73b2cf87e200865dcc1345b9b54c0a97c499a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c83979c69126b75bfa7c6bf7edd73b2cf87e200865dcc1345b9b54c0a97c499a",
+    "mappedOn": null,
+    "summary": "Feeds IoT device signals into PrintVis production",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-printing-packaging",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-shop-floor-reporting"
+    ],
+    "claims": [
+      "Receives IoT device signals and processes them into PrintVis",
+      "Suited to machines without JDF/JMF communication",
+      "Push-based data flow instead of PrintVis default pull from Moxa devices, reducing job queue overhead",
+      "Only devices that need to send data push to PrintVis",
+      "Adapters available for Moxa and ifm moneo devices"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Packaging",
+      "Printing"
+    ],
+    "connectsTo": [
+      "PrintVis",
+      "Moxa",
+      "ifm moneo"
+    ],
+    "requires": [
+      "PrintVis",
+      "1Vision365 IoT Link"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.asqit|AID.finance-month-end-activities-dashboard|PAPPID.82c91fdb-caf7-4455-bff4-cb9566b4e999",
+  "guid": "82c91fdb-caf7-4455-bff4-cb9566b4e999",
+  "publisherId": "asqit",
+  "offerId": "finance-month-end-activities-dashboard",
+  "source": {
+    "name": "Finance Month End Activities Dashboard",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.finance-month-end-activities-dashboard%7CPAPPID.82c91fdb-caf7-4455-bff4-cb9566b4e999",
+    "lastModified": "2024-11-22T15:57:55.3617974+00:00",
+    "appVersion": "22.0.1.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/financemonthend",
+    "sourceHash": "sha256:5c7eaf6ab7579e60cdba4d2526a4228d671cc4c13a6ef220cfd65e518bd81695"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5c7eaf6ab7579e60cdba4d2526a4228d671cc4c13a6ef220cfd65e518bd81695",
+    "mappedOn": null,
+    "summary": "Dashboard of outstanding month-end finance tasks",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-period-close",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-rolecenters"
+    ],
+    "claims": [
+      "Dashboard of unposted journals, FA to depreciate, VAT to settle, bank to reconcile, currencies to adjust",
+      "Links from the dashboard to the related processes",
+      "Drill down to underlying data",
+      "No setup required"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

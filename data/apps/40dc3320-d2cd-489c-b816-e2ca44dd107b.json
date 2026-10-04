@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.wisefish1707821097531|AID.wisefishqualityconnector|PAPPID.40dc3320-d2cd-489c-b816-e2ca44dd107b",
+  "guid": "40dc3320-d2cd-489c-b816-e2ca44dd107b",
+  "publisherId": "wisefish1707821097531",
+  "offerId": "wisefishqualityconnector",
+  "source": {
+    "name": "Wisefish Quality Connector",
+    "publisher": "Wisefish",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wisefish1707821097531%7CAID.wisefishqualityconnector%7CPAPPID.40dc3320-d2cd-489c-b816-e2ca44dd107b",
+    "lastModified": "2026-08-10T14:20:37.4642457+00:00",
+    "appVersion": "27.1.20260810.28",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.wisefish.com/contact",
+    "sourceHash": "sha256:561bdda62141eb527748635e237c9dcdf831e5d851c13963b7d6138a104302c9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:561bdda62141eb527748635e237c9dcdf831e5d851c13963b7d6138a104302c9",
+    "mappedOn": null,
+    "summary": "Connects Wisefish with Wisefish Quality inspections",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-seafood",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Connects Wisefish with Wisefish Quality",
+      "User-defined quality inspections",
+      "Supports HACCP (Hazard Analysis and Critical Control Points)",
+      "Lets users define their own quality inspection parameters",
+      "Applies quality controls to produced goods and production lots",
+      "Suitable for fish, meat, dairy and beverage producers",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "DK",
+      "IS",
+      "NO",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [
+      "Food and beverage",
+      "Seafood"
+    ],
+    "connectsTo": [
+      "Wisefish",
+      "Wisefish Quality"
+    ],
+    "requires": [
+      "Wisefish",
+      "Wisefish Quality"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

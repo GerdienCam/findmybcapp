@@ -1,0 +1,52 @@
+{
+  "appId": "PUBID.pfformula1687443475154|AID.avgreidsluskipan|PAPPID.b1c0c54d-f239-4ee6-ba95-e0c6ceda2e08",
+  "guid": "b1c0c54d-f239-4ee6-ba95-e0c6ceda2e08",
+  "publisherId": "pfformula1687443475154",
+  "offerId": "avgreidsluskipan",
+  "source": {
+    "name": "Point of Sale",
+    "publisher": "P/f Formula",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pfformula1687443475154%7CAID.avgreidsluskipan%7CPAPPID.b1c0c54d-f239-4ee6-ba95-e0c6ceda2e08",
+    "lastModified": "2026-09-29T15:23:40.9761531+00:00",
+    "appVersion": "28.0.1.180",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.formula.fo/contact/",
+    "sourceHash": "sha256:a0a77e7fe15ca77d7474afd7e53ab96197dcd21540b84cfa052506baf4015b21"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a0a77e7fe15ca77d7474afd7e53ab96197dcd21540b84cfa052506baf4015b21",
+    "mappedOn": null,
+    "summary": "POS integration logging transactions in BC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Every POS transaction logged in BC for real-time inventory and sales tracking"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

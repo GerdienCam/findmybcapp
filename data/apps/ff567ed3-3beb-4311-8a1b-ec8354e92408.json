@@ -1,0 +1,56 @@
+{
+  "appId": "TYPE.connect|PUBID.birdie|AID.purchase-requisition|PAPPID.ff567ed3-3beb-4311-8a1b-ec8354e92408",
+  "guid": "ff567ed3-3beb-4311-8a1b-ec8354e92408",
+  "publisherId": "birdie",
+  "offerId": "purchase-requisition",
+  "source": {
+    "name": "Birdie Solicitud de Compra",
+    "publisher": "Birdie",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.birdie%7CAID.purchase-requisition%7CPAPPID.ff567ed3-3beb-4311-8a1b-ec8354e92408",
+    "lastModified": "2024-11-14T06:23:43.7820311+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.birdie.cl/solicitud-compra",
+    "sourceHash": "sha256:45c12f8d4d5538d4a37fa527bc3285da497522d60f065d83b48b02ab3693cc32"
+  },
+  "mapping": {
+    "sourceHash": "sha256:45c12f8d4d5538d4a37fa527bc3285da497522d60f065d83b48b02ab3693cc32",
+    "mappedOn": null,
+    "summary": "Creates and approves purchase requests",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Employees create purchase requests in a simple platform",
+      "Requests approved by direct manager or department head before being sent to BC",
+      "Email notifications for new requests, approvals and rejections",
+      "Sign-in with Entra ID using Microsoft 365 credentials",
+      "Available only in Spanish"
+    ],
+    "countries": [],
+    "languages": [
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Entra ID"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

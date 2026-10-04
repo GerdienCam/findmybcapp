@@ -1,0 +1,65 @@
+{
+  "appId": "TYPE.connect|PUBID.centerstageinc1690983912338|AID.jasperx|PAPPID.b8a19f8a-f781-435c-b50c-3e4c3a74977c",
+  "guid": "b8a19f8a-f781-435c-b50c-3e4c3a74977c",
+  "publisherId": "centerstageinc1690983912338",
+  "offerId": "jasperx",
+  "source": {
+    "name": "JasperX for Microsoft Dynamics 365 Business Central",
+    "publisher": "iPaaS.com",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.centerstageinc1690983912338%7CAID.jasperx%7CPAPPID.b8a19f8a-f781-435c-b50c-3e4c3a74977c",
+    "lastModified": "2026-06-30T09:48:08.3107826+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.ipaas.com/",
+    "sourceHash": "sha256:9cf99dd9d321d35b7dc59f2e62d585774de3fd7490734195067c272c7cbca1b8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9cf99dd9d321d35b7dc59f2e62d585774de3fd7490734195067c272c7cbca1b8",
+    "mappedOn": null,
+    "summary": "Manages product information for selling channels",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-assortment-catalogs",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-translation"
+    ],
+    "claims": [
+      "PIM centralizing product content, specifications and digital assets",
+      "Manages variants, bundles, accessories and related products",
+      "Multilingual and multi-channel product catalogs",
+      "Workflows, approvals and governance for product data",
+      "Connected to BC via iPaaS.com",
+      "Growth, Professional and Enterprise plans"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "JasperX",
+      "iPaaS.com"
+    ],
+    "requires": [
+      "iPaaS.com",
+      "JasperX"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

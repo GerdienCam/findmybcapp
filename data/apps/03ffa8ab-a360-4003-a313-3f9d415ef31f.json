@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.youngpartners1588093205397|AID.navitrans_365_document_capture_connector|PAPPID.03ffa8ab-a360-4003-a313-3f9d415ef31f",
+  "guid": "03ffa8ab-a360-4003-a313-3f9d415ef31f",
+  "publisherId": "youngpartners1588093205397",
+  "offerId": "navitrans_365_document_capture_connector",
+  "source": {
+    "name": "Navitrans 365 Document Capture Connector",
+    "publisher": "Navitrans",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_365_document_capture_connector%7CPAPPID.03ffa8ab-a360-4003-a313-3f9d415ef31f",
+    "lastModified": "2026-09-30T20:02:32.9423533+00:00",
+    "appVersion": "28.5.0.80056",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navitrans.eu/our-services/tms/",
+    "sourceHash": "sha256:472c67e874e4a166b0ec06018d97df287607a38736c808711740dfeb9436884d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:472c67e874e4a166b0ec06018d97df287607a38736c808711740dfeb9436884d",
+    "mappedOn": null,
+    "summary": "Connects Navitrans 365 with document capture",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Navitrans 365 module/connector named in listing",
+      "Part of Navitrans 365 TMS covering order registration to invoicing",
+      "FTL and LTL transport orders created from templates",
+      "Planning tools with capacity, combination and qualification checks",
+      "Prices set by fixed prices or tariff tables, applied automatically",
+      "Works with subcontractors and charters",
+      "Automatic invoicing combining orders on invoices",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "SE",
+      "SI"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Document Capture"
+    ],
+    "requires": [
+      "Navitrans 365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

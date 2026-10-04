@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_advanced_pricing|PAPPID.1f60890d-e1a4-485f-ad7c-1fd293389236",
+  "guid": "1f60890d-e1a4-485f-ad7c-1fd293389236",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_advanced_pricing",
+  "source": {
+    "name": "Dynavision Advanced Pricing & Discounts",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_advanced_pricing%7CPAPPID.1f60890d-e1a4-485f-ad7c-1fd293389236",
+    "lastModified": "2026-10-02T07:52:38.711318+00:00",
+    "appVersion": "28.0.0.49997",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Advanced_Pricing_and_Discounts_Manual.pdf",
+    "sourceHash": "sha256:79300732a6e57f9a62bec5f6d6357517eb7a3d0c4c57c3de29f34b2581c9754f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:79300732a6e57f9a62bec5f6d6357517eb7a3d0c4c57c3de29f34b2581c9754f",
+    "mappedOn": null,
+    "summary": "Extends sales pricing and discounts in new pricing experience",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Extends BC New Pricing Experience with an extra hierarchical calculation method",
+      "Best price and discount combination by customer, then price group, then all customers",
+      "Combined percentage and fixed amount discounts",
+      "Calculates sales prices from cost or purchase prices",
+      "Price formulas with coefficients, multiple currencies and rounding",
+      "Syncs prices to Digilabel electronic shelf labels or prints shop labels",
+      "Easy Price Management page",
+      "Margin calculation included in sales price calculation"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Digilabel"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

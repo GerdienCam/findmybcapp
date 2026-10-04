@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.nmatrixconsultingservicespteltd1615266682374|AID.dataextractor|PAPPID.69a27c68-a717-4985-aeb8-e1e9d7aedd99",
+  "guid": "69a27c68-a717-4985-aeb8-e1e9d7aedd99",
+  "publisherId": "nmatrixconsultingservicespteltd1615266682374",
+  "offerId": "dataextractor",
+  "source": {
+    "name": "BC Data Bridge",
+    "publisher": "NMATRIX CONSULTING SERVICES PTE. LTD.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nmatrixconsultingservicespteltd1615266682374%7CAID.dataextractor%7CPAPPID.69a27c68-a717-4985-aeb8-e1e9d7aedd99",
+    "lastModified": "2026-08-18T09:41:01.4135017+00:00",
+    "appVersion": "28.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nmatrixcs.com/Features.html",
+    "sourceHash": "sha256:b5c8ee5a4d87d48f85fe47bda80cab6512e80f8b5bbccf6058bd6be364eb4e76"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b5c8ee5a4d87d48f85fe47bda80cab6512e80f8b5bbccf6058bd6be364eb4e76",
+    "mappedOn": null,
+    "summary": "Moves BC data to external systems for reporting",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Configure BC tables and fields to extract without development",
+      "Incremental sync of new or changed data",
+      "Targets SQL Server or Azure SQL Database",
+      "Dedicated reporting database for Power BI",
+      "Scheduled extraction jobs",
+      "Error notifications on failed jobs",
+      "Archive or replicate BC data",
+      "Essentials and Premium; English (US)"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SQL Server",
+      "Azure SQL Database",
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

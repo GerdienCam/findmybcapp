@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.logtrade_technology|AID.logtrade_connect_tasklet_mobile_wms_integration|PAPPID.daec9295-1e58-40de-a0e4-fbd1c5b7cc52",
+  "guid": "daec9295-1e58-40de-a0e4-fbd1c5b7cc52",
+  "publisherId": "logtrade_technology",
+  "offerId": "logtrade_connect_tasklet_mobile_wms_integration",
+  "source": {
+    "name": "Logtrade Connect - Tasklet Mobile WMS Integration",
+    "publisher": "Logtrade Technology AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.logtrade_technology%7CAID.logtrade_connect_tasklet_mobile_wms_integration%7CPAPPID.daec9295-1e58-40de-a0e4-fbd1c5b7cc52",
+    "lastModified": "2026-05-19T13:58:04.5381862+00:00",
+    "appVersion": "25.2.142.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://connect.logtrade.se/bc-tasklet/",
+    "sourceHash": "sha256:78f5413f7ccb353fa9f1a93875d9249c8b5196579be95b563728efd40bc9fc77"
+  },
+  "mapping": {
+    "sourceHash": "sha256:78f5413f7ccb353fa9f1a93875d9249c8b5196579be95b563728efd40bc9fc77",
+    "mappedOn": null,
+    "summary": "Integrates Logtrade Connect with Tasklet mobile WMS",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Prints package labels and waybills from handheld devices during picking",
+      "Creates and prints consignments automatically during picking and shipping on handhelds",
+      "Bridges Logtrade Connect and Tasklet Mobile WMS",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "DK",
+      "FI",
+      "FR",
+      "GB",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Logtrade",
+      "Tasklet Mobile WMS"
+    ],
+    "requires": [
+      "Logtrade Connect",
+      "Tasklet Mobile WMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

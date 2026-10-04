@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.alterna|AID.213f91f1-3131-44f1-b64b-44e028331f72|PAPPID.213f91f1-3131-44f1-b64b-44e028331f72",
+  "guid": "213f91f1-3131-44f1-b64b-44e028331f72",
+  "publisherId": "alterna",
+  "offerId": "213f91f1-3131-44f1-b64b-44e028331f72",
+  "source": {
+    "name": "Agicap Connector",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.213f91f1-3131-44f1-b64b-44e028331f72%7CPAPPID.213f91f1-3131-44f1-b64b-44e028331f72",
+    "lastModified": "2026-09-28T09:05:45.4928396+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/agicap-connector/",
+    "sourceHash": "sha256:306fd7f5a7040832fc240631b0283c296af8dcf4ce08f3520401df0ce40f4adf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:306fd7f5a7040832fc240631b0283c296af8dcf4ce08f3520401df0ce40f4adf",
+    "mappedOn": null,
+    "summary": "Syncs payments, receivables and bank entries with Agicap treasury",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-cash-forecast",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Bidirectional data exchange with Agicap treasury software",
+      "Synchronous or asynchronous exchange with detailed log per transaction",
+      "Sends chart of accounts, customers, vendors, bank accounts and ledger entries to Agicap",
+      "Receives manual and automatic entries (checks, bank transactions) from Agicap",
+      "Receives vendor entries (bank transfers) from Agicap",
+      "Requires a valid Agicap installation"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Agicap"
+    ],
+    "requires": [
+      "Agicap"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

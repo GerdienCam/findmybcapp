@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.gungab1646336436049|AID.gung-bc-0001|PAPPID.c6059559-8364-47f5-9b8d-7b831d9cdc19",
+  "guid": "c6059559-8364-47f5-9b8d-7b831d9cdc19",
+  "publisherId": "gungab1646336436049",
+  "offerId": "gung-bc-0001",
+  "source": {
+    "name": "Gung PIM & B2B order portal",
+    "publisher": "Gung AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gungab1646336436049%7CAID.gung-bc-0001%7CPAPPID.c6059559-8364-47f5-9b8d-7b831d9cdc19",
+    "lastModified": "2026-08-27T14:25:55.1630761+00:00",
+    "appVersion": "27.0.0.12",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.gung.se/integrationer/business-central",
+    "sourceHash": "sha256:74be10d3b8006ee525ca601f140675b8c5c154f9ffd95e2d6f0badedeeb6e291"
+  },
+  "mapping": {
+    "sourceHash": "sha256:74be10d3b8006ee525ca601f140675b8c5c154f9ffd95e2d6f0badedeeb6e291",
+    "mappedOn": null,
+    "summary": "Gung PIM and B2B order portal integration",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-sales-channels",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop",
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "PIM for sharing product data",
+      "B2B order portal synced with BC",
+      "Handles B2B orders, EDI, sales rep orders, punch-out, marketplaces",
+      "Uses BC's own business logic rather than separate e-commerce logic",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [
+      "CA",
+      "DE",
+      "DK",
+      "FI",
+      "FR",
+      "GB",
+      "MX",
+      "NO",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Gung"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

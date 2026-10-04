@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.saifeesoftwaresolutions1773311173044|AID.invoices-ocr-saifs-ai|PAPPID.193df90d-7ed1-4baf-8b63-640280a8b0bd",
+  "guid": "193df90d-7ed1-4baf-8b63-640280a8b0bd",
+  "publisherId": "saifeesoftwaresolutions1773311173044",
+  "offerId": "invoices-ocr-saifs-ai",
+  "source": {
+    "name": "OCR Suite Business Central",
+    "publisher": "Saifs AI",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.saifeesoftwaresolutions1773311173044%7CAID.invoices-ocr-saifs-ai%7CPAPPID.193df90d-7ed1-4baf-8b63-640280a8b0bd",
+    "lastModified": "2026-06-08T10:48:53.9413296+00:00",
+    "appVersion": "1.1.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://saifytech.com/contact-us",
+    "sourceHash": "sha256:8c0a4e556610ba1e10528ad55a073ee9c26c5d07c34ead0be41e45d387559c00"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8c0a4e556610ba1e10528ad55a073ee9c26c5d07c34ead0be41e45d387559c00",
+    "mappedOn": null,
+    "summary": "AI OCR for invoice processing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Purchase invoice OCR extracting totals, taxes, dates and line items",
+      "Sales invoice OCR for AR",
+      "OCR import of bank statements for reconciliation",
+      "Stock item recognition of quantities, descriptions and pricing",
+      "Processes PDF, JPG, PNG and scanned documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "id": "ng-lang-ui-language",
+  "order": 202,
+  "label": "Using BC in our own language",
+  "description": "Language packs that translate the BC user interface (and some ISV solutions) into languages Microsoft does not ship. Also usable as a profile filter.",
+  "type": "language",
+  "area": "Country requirements",
+  "relevance": "medium",
+  "statements": [
+    "Using BC in our own language",
+    "Language packs that translate the BC user interface (and some ISV solutions) into languages Microsoft does not ship. Also usable as a profile filter.",
+    "Our warehouse staff in Serbia don't speak English, can BC be in Serbian?",
+    "Business Central in Japanese",
+    "Is there a Ukrainian language pack?",
+    "The menus are in English and users make mistakes",
+    "BC user interface in Arabic",
+    "Brazilian Portuguese for our new subsidiary",
+    "Language pack for LS Central in Turkish",
+    "Half the screens are translated and half are not",
+    "Korean UI for our Seoul office",
+    "Users want to switch BC to their own language",
+    "Chinese Traditional for Taiwan",
+    "Which languages does BC support out of the box?"
+  ],
+  "questions": [
+    {
+      "id": "region",
+      "text": "Which language do your users need?",
+      "help": "Pick the region first.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Chinese, Japanese, Korean or Vietnamese",
+          "patterns": [
+            "chinese",
+            "japanese",
+            "日本語",
+            "korean",
+            "vietnam"
+          ]
+        },
+        {
+          "label": "French, German, Dutch, Spanish, Portuguese, Italian or regional English",
+          "patterns": [
+            "french",
+            "german",
+            "dutch",
+            "spanish",
+            "portugu",
+            "italian",
+            "english \\((united kingdom|australia|canada|new zealand)\\)",
+            "ui into english\\b"
+          ]
+        },
+        {
+          "label": "Danish, Swedish, Norwegian, Finnish, Icelandic or Baltic",
+          "patterns": [
+            "danish",
+            "swedish",
+            "norwegian",
+            "finnish",
+            "icelandic",
+            "estonian",
+            "latvian",
+            "lithuanian"
+          ]
+        },
+        {
+          "label": "Central or Eastern European",
+          "patterns": [
+            "polish",
+            "czech",
+            "hungarian",
+            "serbian",
+            "croatian",
+            "sloven",
+            "montenegr",
+            "albanian",
+            "bulgarian",
+            "romanian",
+            "greek",
+            "ukrainian",
+            "russian"
+          ]
+        },
+        {
+          "label": "Arabic, Turkish or Georgian",
+          "patterns": [
+            "arabic",
+            "turkish",
+            "tr-tr",
+            "georgian"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Chinese, Japanese, Korean or Vietnamese": 0.17,
+        "French, German, Dutch, Spanish, Portuguese, Italian or regional English": 0.31,
+        "Danish, Swedish, Norwegian, Finnish, Icelandic or Baltic": 0.18,
+        "Central or Eastern European": 0.27,
+        "Arabic, Turkish or Georgian": 0.08
+      }
+    },
+    {
+      "id": "asia",
+      "text": "Which East Asian language?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Simplified Chinese",
+          "patterns": [
+            "simplified chinese",
+            "simple chinese",
+            "chinese \\(simplified",
+            "\\bprc\\b"
+          ]
+        },
+        {
+          "label": "Traditional Chinese",
+          "patterns": [
+            "traditional chinese",
+            "chinese \\(traditional",
+            "zh-tw",
+            "hong kong",
+            "taiwan"
+          ]
+        },
+        {
+          "label": "Japanese",
+          "patterns": [
+            "japanese",
+            "日本語"
+          ]
+        },
+        {
+          "label": "Korean",
+          "patterns": [
+            "korean"
+          ]
+        },
+        {
+          "label": "Vietnamese",
+          "patterns": [
+            "vietnam"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Simplified Chinese": 0.04,
+        "Traditional Chinese": 0.06,
+        "Japanese": 0.04,
+        "Korean": 0.02,
+        "Vietnamese": 0.01
+      }
+    },
+    {
+      "id": "west",
+      "text": "Which Western European language?",
+      "multi": false,
+      "options": [
+        {
+          "label": "French",
+          "patterns": [
+            "french"
+          ]
+        },
+        {
+          "label": "German",
+          "patterns": [
+            "german"
+          ]
+        },
+        {
+          "label": "Dutch",
+          "patterns": [
+            "dutch"
+          ]
+        },
+        {
+          "label": "Spanish, Portuguese or Italian",
+          "patterns": [
+            "spanish",
+            "portugu",
+            "italian"
+          ]
+        },
+        {
+          "label": "English (UK, Australia, Canada, NZ)",
+          "patterns": [
+            "english \\((united kingdom|australia|canada|new zealand)\\)",
+            "ui into english\\b"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "French": 0.08,
+        "German": 0.06,
+        "Dutch": 0.04,
+        "Spanish, Portuguese or Italian": 0.1,
+        "English (UK, Australia, Canada, NZ)": 0.04
+      }
+    },
+    {
+      "id": "nordic",
+      "text": "Which Nordic or Baltic language?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Danish",
+          "patterns": [
+            "danish"
+          ]
+        },
+        {
+          "label": "Swedish",
+          "patterns": [
+            "swedish"
+          ]
+        },
+        {
+          "label": "Norwegian",
+          "patterns": [
+            "norwegian"
+          ]
+        },
+        {
+          "label": "Finnish or Icelandic",
+          "patterns": [
+            "finnish",
+            "icelandic"
+          ]
+        },
+        {
+          "label": "Estonian, Latvian or Lithuanian",
+          "patterns": [
+            "estonian",
+            "latvian",
+            "lithuanian"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Danish": 0.02,
+        "Swedish": 0.02,
+        "Norwegian": 0.03,
+        "Finnish or Icelandic": 0.05,
+        "Estonian, Latvian or Lithuanian": 0.07
+      }
+    },
+    {
+      "id": "cee",
+      "text": "Which Central or Eastern European language?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Polish, Czech or Hungarian",
+          "patterns": [
+            "polish",
+            "czech",
+            "hungarian"
+          ]
+        },
+        {
+          "label": "Serbian, Croatian, Slovenian, Montenegrin or Albanian",
+          "patterns": [
+            "serbian",
+            "croatian",
+            "sloven",
+            "montenegr",
+            "albanian"
+          ]
+        },
+        {
+          "label": "Romanian, Bulgarian or Greek",
+          "patterns": [
+            "romanian",
+            "bulgarian",
+            "greek"
+          ]
+        },
+        {
+          "label": "Ukrainian or Russian",
+          "patterns": [
+            "ukrainian",
+            "russian"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Polish, Czech or Hungarian": 0.07,
+        "Serbian, Croatian, Slovenian, Montenegrin or Albanian": 0.1,
+        "Romanian, Bulgarian or Greek": 0.06,
+        "Ukrainian or Russian": 0.04
+      }
+    },
+    {
+      "id": "mideast",
+      "text": "Which of these languages?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Arabic",
+          "patterns": [
+            "arabic"
+          ]
+        },
+        {
+          "label": "Turkish",
+          "patterns": [
+            "turkish",
+            "tr-tr"
+          ]
+        },
+        {
+          "label": "Georgian",
+          "patterns": [
+            "georgian"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Arabic": 0.02,
+        "Turkish": 0.05,
+        "Georgian": 0.01
+      }
+    },
+    {
+      "id": "product",
+      "text": "What do you need translated?",
+      "help": "Standard Business Central or an add-on product.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Standard Business Central",
+          "patterns": [
+            "^(?![\\s\\S]*(ls central|yaveon|probatch|eqm 365|wisefish))[\\s\\S]*(\\bbc\\b|business central|base app|\\bw1\\b|system app|language|translat)"
+          ]
+        },
+        {
+          "label": "LS Central (retail / hospitality)",
+          "patterns": [
+            "ls central"
+          ]
+        },
+        {
+          "label": "Yaveon ProBatch 365",
+          "patterns": [
+            "yaveon",
+            "probatch"
+          ]
+        },
+        {
+          "label": "EQM 365 Rental or Wisefish",
+          "patterns": [
+            "eqm 365",
+            "wisefish"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Standard Business Central": 0.68,
+        "LS Central (retail / hospitality)": 0.27,
+        "Yaveon ProBatch 365": 0.03,
+        "EQM 365 Rental or Wisefish": 0.02
+      }
+    }
+  ]
+}

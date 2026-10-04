@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.bizzcoresystemsgmbh1675626167274|AID.onedriveconnector|PAPPID.79d4f203-7aa9-4a83-995b-e9aabd2f7a2c",
+  "guid": "79d4f203-7aa9-4a83-995b-e9aabd2f7a2c",
+  "publisherId": "bizzcoresystemsgmbh1675626167274",
+  "offerId": "onedriveconnector",
+  "source": {
+    "name": "OneDrive Connector",
+    "publisher": "BIZZCORE Systems GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bizzcoresystemsgmbh1675626167274%7CAID.onedriveconnector%7CPAPPID.79d4f203-7aa9-4a83-995b-e9aabd2f7a2c",
+    "lastModified": "2026-09-09T18:55:51.8104467+00:00",
+    "appVersion": "22.6.18.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bizzcore.de/news/onedrive-connector-docu",
+    "sourceHash": "sha256:8527bce6d2c5e78c844d4ea54bb7d8fb621321482339c113e9d23405017d403a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8527bce6d2c5e78c844d4ea54bb7d8fb621321482339c113e9d23405017d403a",
+    "mappedOn": null,
+    "summary": "Archives reports and accesses files in OneDrive",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Access files stored in OneDrive from BC",
+      "Automatic archiving of any print report to OneDrive",
+      "Preview linked documents in BC",
+      "Upload documents from BC to OneDrive"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "OneDrive"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

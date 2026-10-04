@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.bc4allaps|AID.wrenchtime_pro_cmms|PAPPID.c911cdc2-9b89-4db8-8f0c-dd5902160c80",
+  "guid": "c911cdc2-9b89-4db8-8f0c-dd5902160c80",
+  "publisherId": "bc4allaps",
+  "offerId": "wrenchtime_pro_cmms",
+  "source": {
+    "name": "WrenchTime Pro CMMS",
+    "publisher": "bc4all ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bc4allaps%7CAID.wrenchtime_pro_cmms%7CPAPPID.c911cdc2-9b89-4db8-8f0c-dd5902160c80",
+    "lastModified": "2026-09-27T21:02:41.4892833+00:00",
+    "appVersion": "1.0.226.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://wrenchtime.io/docs/",
+    "sourceHash": "sha256:9973b673001d60ac53e8e2632e0508a29d848d166d28f4a7c94a765ca6d7a067"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9973b673001d60ac53e8e2632e0508a29d848d166d28f4a7c94a765ca6d7a067",
+    "mappedOn": null,
+    "summary": "Maintenance management with preventive tasks and checklists",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Work requests with categories and priorities converted into maintenance orders",
+      "Structured checklists with completion evidence",
+      "Custom order statuses with full transition log",
+      "Meters with severity triggers for preventive maintenance",
+      "KPIs: downtime cost, planned vs reactive, MTBF and MTTR",
+      "Technician scheduling, downtime calendar, asset transfers and GPS tracking",
+      "Includes everything in WrenchTime Core"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.computercamp_1155908|AID.camp_365_news|PAPPID.9ebc61ee-172d-4d5f-960d-c2c2564b5f0f",
+  "guid": "9ebc61ee-172d-4d5f-960d-c2c2564b5f0f",
+  "publisherId": "computercamp_1155908",
+  "offerId": "camp_365_news",
+  "source": {
+    "name": "CAMP 365 Newsletter",
+    "publisher": "ComputerCamp A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.computercamp_1155908%7CAID.camp_365_news%7CPAPPID.9ebc61ee-172d-4d5f-960d-c2c2564b5f0f",
+    "lastModified": "2026-09-10T08:32:02.1295088+00:00",
+    "appVersion": "28.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.computercamp.dk/",
+    "sourceHash": "sha256:46d094b968da402a395f1092c61b3b84bea474a8b29e71e9ee39152f95264100"
+  },
+  "mapping": {
+    "sourceHash": "sha256:46d094b968da402a395f1092c61b3b84bea474a8b29e71e9ee39152f95264100",
+    "mappedOn": null,
+    "summary": "Syncs recipients and subscriptions with newsletter system",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-mkt-campaigns",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-privacy-consent",
+      "ng-vert-nonprofit-education"
+    ],
+    "claims": [
+      "Updates recipients in the newsletter system from BC",
+      "Imports newsletter subscribes and unsubscribes from the newsletter platform",
+      "Field-by-field sync from contact or associated customer",
+      "Supports Peytz and MailChimp"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Peytz",
+      "MailChimp"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

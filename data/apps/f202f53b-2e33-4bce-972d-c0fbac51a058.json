@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.biztechcs|AID.b2bvendorportal|PAPPID.f202f53b-2e33-4bce-972d-c0fbac51a058",
+  "guid": "f202f53b-2e33-4bce-972d-c0fbac51a058",
+  "publisherId": "biztechcs",
+  "offerId": "b2bvendorportal",
+  "source": {
+    "name": "Vendor Portal by CRMJetty",
+    "publisher": "Biztech Consulting & Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.biztechcs%7CAID.b2bvendorportal%7CPAPPID.f202f53b-2e33-4bce-972d-c0fbac51a058",
+    "lastModified": "2026-07-03T09:37:02.1375955+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.crmjetty.com/contacts",
+    "sourceHash": "sha256:b5dc26174d2985ae4f127caa04bbe50c710ed22de5890c52b24fc174f16b9d19"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b5dc26174d2985ae4f127caa04bbe50c710ed22de5890c52b24fc174f16b9d19",
+    "mappedOn": null,
+    "summary": "B2B vendor portal for procurement collaboration",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "Real-time sync of purchase orders, invoices and vendor data",
+      "Optional OTP dual authentication and email 2-step verification",
+      "ISO/IEC 27001-certified architecture",
+      "Role-based access control for portal users",
+      "Drag-and-drop page builder",
+      "Multiple vendor sites with content segregation",
+      "Vendors log in and update their profiles",
+      "Purchase order lifecycle running from creation through approval"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "CRMJetty"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

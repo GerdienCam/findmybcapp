@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.erpgruppen|AID.nemshop|PAPPID.df70faf6-4551-4c42-ad7b-3f82cb844e9a",
+  "guid": "df70faf6-4551-4c42-ad7b-3f82cb844e9a",
+  "publisherId": "erpgruppen",
+  "offerId": "nemshop",
+  "source": {
+    "name": "Nemshop",
+    "publisher": "ERPgruppen",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpgruppen%7CAID.nemshop%7CPAPPID.df70faf6-4551-4c42-ad7b-3f82cb844e9a",
+    "lastModified": "2026-09-30T11:07:13.1470472+00:00",
+    "appVersion": "2805.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.erpgruppen.dk/kontakt/",
+    "sourceHash": "sha256:0bf0c0bef9d1d5ceab125461c41486614679adf7608320ebe100fc4dfd72c1a8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0bf0c0bef9d1d5ceab125461c41486614679adf7608320ebe100fc4dfd72c1a8",
+    "mappedOn": null,
+    "summary": "Imports webshop orders from three webshop platforms",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Integrates WooCommerce and DanDomain webshops with BC",
+      "Syncs product data, stock status and orders between WooCommerce and BC",
+      "WooCommerce integration via a dedicated API",
+      "Sends product data to DanDomain and receives orders back",
+      "Automatic transfer of product data, prices and variants",
+      "Direct import of webshop orders into BC",
+      "New tab on item card for webshop-related data",
+      "Supports pick, pack and invoicing from BC"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "WooCommerce",
+      "DanDomain"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

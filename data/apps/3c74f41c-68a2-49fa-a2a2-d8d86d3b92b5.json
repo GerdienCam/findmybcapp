@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.nav-visionaps1733488425571|AID.advanced-pbi-connector-bc|PAPPID.3c74f41c-68a2-49fa-a2a2-d8d86d3b92b5",
+  "guid": "3c74f41c-68a2-49fa-a2a2-d8d86d3b92b5",
+  "publisherId": "nav-visionaps1733488425571",
+  "offerId": "advanced-pbi-connector-bc",
+  "source": {
+    "name": "Advanced Power BI Connector for BC",
+    "publisher": "NAV-Vision Aps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nav-visionaps1733488425571%7CAID.advanced-pbi-connector-bc%7CPAPPID.3c74f41c-68a2-49fa-a2a2-d8d86d3b92b5",
+    "lastModified": "2026-08-31T10:38:10.6174422+00:00",
+    "appVersion": "1.1.5.84",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://nav-vision.dk/advanced-power-bi-connector-for-bc/",
+    "sourceHash": "sha256:23b77d5589f98909e9989208cbb07203b974b979f88c5683a5370d3a3452e411"
+  },
+  "mapping": {
+    "sourceHash": "sha256:23b77d5589f98909e9989208cbb07203b974b979f88c5683a5370d3a3452e411",
+    "mappedOn": null,
+    "summary": "Connects BC to Power BI",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "Read-only APIs to pull BC data, e.g. for Power BI",
+      "Page-based APIs include calculated fields, query-based do not",
+      "Only standard table fields; custom fields need a new API",
+      "Usable via BC connector or Web connector with filtering at pull"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

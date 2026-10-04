@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.alpha_solutions_ag|AID.asds|PAPPID.4abf398c-974d-41fe-8fc8-0856699f0f09",
+  "guid": "4abf398c-974d-41fe-8fc8-0856699f0f09",
+  "publisherId": "alpha_solutions_ag",
+  "offerId": "asds",
+  "source": {
+    "name": "Aproda DMS on Azure (ASDS)",
+    "publisher": "Aproda AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alpha_solutions_ag%7CAID.asds%7CPAPPID.4abf398c-974d-41fe-8fc8-0856699f0f09",
+    "lastModified": "2026-06-26T06:39:03.5732518+00:00",
+    "appVersion": "26.0.0.52",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aproda.ch/aproda-dms-on-azure",
+    "sourceHash": "sha256:eba5cc97528100dab5c9786ab2a0970339bb73db466e27cdcfeb6cfac6793af3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eba5cc97528100dab5c9786ab2a0970339bb73db466e27cdcfeb6cfac6793af3",
+    "mappedOn": null,
+    "summary": "Document management system on Azure integrated with BC",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Stores BC documents in Azure Blob Storage audit-proof",
+      "Stores external documents such as emails",
+      "Retention period defined per blob container",
+      "Integrated document search in BC"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

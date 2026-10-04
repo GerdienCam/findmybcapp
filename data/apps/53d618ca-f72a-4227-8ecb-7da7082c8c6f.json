@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.nvisioncommercesolutions|AID.commerce365-easypost-tasklet-2|PAPPID.53d618ca-f72a-4227-8ecb-7da7082c8c6f",
+  "guid": "53d618ca-f72a-4227-8ecb-7da7082c8c6f",
+  "publisherId": "nvisioncommercesolutions",
+  "offerId": "commerce365-easypost-tasklet-2",
+  "source": {
+    "name": "Commerce 365 for EasyPost - Tasklet Mobile WMS module",
+    "publisher": "NVision Commerce Solutions B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nvisioncommercesolutions%7CAID.commerce365-easypost-tasklet-2%7CPAPPID.53d618ca-f72a-4227-8ecb-7da7082c8c6f",
+    "lastModified": "2026-09-09T19:02:25.261969+00:00",
+    "appVersion": "25.0.10007.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nvision.freshdesk.com/support/solutions/80000461692",
+    "sourceHash": "sha256:baf994f449faaf92f4304319b1fe62039716f0e62ada3bca08db7261e7d1cd18"
+  },
+  "mapping": {
+    "sourceHash": "sha256:baf994f449faaf92f4304319b1fe62039716f0e62ada3bca08db7261e7d1cd18",
+    "mappedOn": null,
+    "summary": "Books EasyPost shipments from Tasklet Mobile WMS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Creates carrier labels from handheld in Mobile WMS pack & ship",
+      "Shipments created without a workstation"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "EasyPost",
+      "Tasklet Factory Mobile WMS"
+    ],
+    "requires": [
+      "Commerce 365 for EasyPost",
+      "Tasklet Factory Mobile WMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

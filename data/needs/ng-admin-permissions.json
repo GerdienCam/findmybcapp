@@ -1,0 +1,245 @@
+{
+  "id": "ng-admin-permissions",
+  "order": 143,
+  "label": "Who can see and do what in BC",
+  "description": "Designing permission sets, reviewing and changing access, record-level security and segregation of duties.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "high",
+  "statements": [
+    "Who can see and do what in BC",
+    "Designing permission sets, reviewing and changing access, record-level security and segregation of duties.",
+    "Sales reps should only see their own customers in BC",
+    "Is there a record level security app for Business Central?",
+    "Warehouse staff in one location should not see stock or orders of other locations",
+    "Salaries posted in BC are visible to anyone who can open the G/L",
+    "We want to hide cost prices and margins from sales people",
+    "Restrict users to certain dimension values like department",
+    "Security filters in BC are too hard to maintain for 200 users",
+    "row level security business central",
+    "Users in our Swedish branch must not see Danish customer data",
+    "Can we hide certain fields on the customer card for some roles?",
+    "The Power BI reports show everything to everyone, we need data security there too",
+    "Project managers should only see their own projects",
+    "Purchasers should only see vendors in their own product category",
+    "External accountants need read only access to finance, nothing else",
+    "Our integration user can read all tables, we want to lock it down",
+    "HR data in BC must only be visible to HR",
+    "Is there an app that masks sensitive data like bank accounts for most users?",
+    "We need GDPR compliant access limits on customer personal data",
+    "Different security for each company in our group",
+    "Data exported to our data lake ignores BC permissions entirely",
+    "We gave everyone SUPER because setting up permission sets was too hard",
+    "How should we design permission sets per role in Business Central?",
+    "role based security design BC",
+    "We need GDPR compliant handling of personal data on customers and employees in BC",
+    "What is the right identity approach for external accountants and auditors who need BC access?",
+    "Is there an app that generates permission sets by recording what a user does?",
+    "Our auditor asked how our ERP security model is designed and we have nothing written down",
+    "Which of our data can partner and support consultants reach in our tenant?",
+    "Planning security for a new BC rollout with warehouse, sales and finance roles",
+    "Hiding fields is not enough, people can still export the data to Excel",
+    "Security templates for typical roles like bookkeeper, buyer and sales rep",
+    "How do we keep our API integrations from having full access to everything?",
+    "We have no idea who can post to the general ledger",
+    "Auditors want a list of every user and what they're allowed to do in BC",
+    "permission report business central",
+    "Is there an app that shows effective permissions per user in plain language?",
+    "Once a year we need managers to confirm their team's access is still right",
+    "Permission sets in BC are impossible to read",
+    "Which users still have SUPER and why?",
+    "We want to compare permissions between two users",
+    "Our partner's consultants still have access to production, how do we check?",
+    "Is anyone outside finance able to change vendor bank accounts?",
+    "Print all security role assignments for the audit file",
+    "Review what integration and service users can access",
+    "Building permission sets in BC is so complicated we just give people SUPER",
+    "Someone moved from sales to purchasing and still has all their old rights",
+    "Is there an app that makes permission sets easier to build and maintain?",
+    "permission recorder business central",
+    "Users get 'you do not have permission' errors and IT guesses what to add",
+    "We want role-based permission packages instead of fiddling per user",
+    "After an update some users lost access to pages they used",
+    "Manage permissions through Entra security groups instead of in BC",
+    "Temporary extra rights for month end close",
+    "How do we give access to a new app's pages to the right users?",
+    "Permissions for a new extension are missing",
+    "Bulk update permissions for 50 users",
+    "The same person can create a vendor and pay it, our auditor flagged it",
+    "segregation of duties business central",
+    "Is there an SoD app for BC that finds conflicts in permissions?",
+    "We're too small to fully separate duties, how do others handle it in BC?",
+    "Users who post invoices should not be able to release payments",
+    "We need a report of SoD conflicts for the annual audit",
+    "Prevent the person who entered a journal from posting it",
+    "Define which roles can't be combined in BC",
+    "Our partner gave a consultant super rights and nobody noticed for a year",
+    "SOX controls in BC",
+    "Block changes to vendor bank details by anyone in AP",
+    "Alert us when someone gets a permission combination that conflicts"
+  ],
+  "questions": [
+    {
+      "id": "what",
+      "text": "What do you want to restrict?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Specific fields (e.g. credit limit, bank account)",
+          "patterns": [
+            "field"
+          ]
+        },
+        {
+          "label": "Which records a user sees (by customer, location, dimension)",
+          "patterns": [
+            "record-level",
+            "row-level",
+            "filtered records",
+            "hiding records",
+            "hide records",
+            "dimension",
+            "location",
+            "business unit",
+            "by region",
+            "data visibility",
+            "confidential g/l",
+            "record content",
+            "assigned customers",
+            "items they are authorized"
+          ]
+        },
+        {
+          "label": "Pages, actions or whole areas",
+          "patterns": [
+            "action (level|control)",
+            "restrict actions",
+            "authorize almost every action",
+            "page access",
+            "restrict(ions)? .*pages",
+            "which role cent",
+            "modules",
+            "blocks .*reports",
+            "bank pages"
+          ]
+        },
+        {
+          "label": "Posting dates or posting options",
+          "patterns": [
+            "posting date",
+            "posting range",
+            "posting option",
+            "allow posting",
+            "current date"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Specific fields (e.g. credit limit, bank account)": 0.34,
+        "Which records a user sees (by customer, location, dimension)": 0.38,
+        "Pages, actions or whole areas": 0.24,
+        "Posting dates or posting options": 0.14
+      }
+    },
+    {
+      "id": "goal",
+      "text": "Are you mainly locking things down, or checking who has access?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Review and report on who can do what",
+          "patterns": [
+            "audit (report|user)",
+            "permissions audit",
+            "security audit",
+            "overview",
+            "insight",
+            "compare",
+            "who has",
+            "explains why",
+            "super users",
+            "effective permissions",
+            "access to critical",
+            "review of roles",
+            "exposing object permissions",
+            "security report"
+          ]
+        },
+        {
+          "label": "Track changes to data",
+          "patterns": [
+            "change log",
+            "data changes",
+            "modifications",
+            "audit trail",
+            "change history",
+            "activity logging",
+            "access history"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Review and report on who can do what": 0.31,
+        "Track changes to data": 0.21
+      }
+    },
+    {
+      "id": "sod",
+      "text": "Do auditors ask about segregation of duties?",
+      "options": [
+        {
+          "label": "Yes, need SoD or risky-access checks",
+          "patterns": [
+            "segregation",
+            "overly broad",
+            "elevated",
+            "\\bsuper\\b",
+            "critical functions",
+            "security breaches"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, need SoD or risky-access checks": 0.28
+      }
+    },
+    {
+      "id": "design",
+      "text": "Do you need help building permission sets themselves?",
+      "options": [
+        {
+          "label": "Yes, record, suggest or fix permission sets",
+          "patterns": [
+            "records permission",
+            "permission recorder",
+            "derived from existing",
+            "proposes",
+            "permission fix",
+            "job role",
+            "security group roles",
+            "search permission sets"
+          ]
+        },
+        {
+          "label": "No, our sets are fine / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, record, suggest or fix permission sets": 0.17
+      }
+    }
+  ]
+}

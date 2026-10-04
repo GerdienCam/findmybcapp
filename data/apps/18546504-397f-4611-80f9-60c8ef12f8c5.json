@@ -1,0 +1,53 @@
+{
+  "appId": "TYPE.connect|PUBID.quantumquadsolutions1768544978440|AID.docuread_offer_id|PAPPID.18546504-397f-4611-80f9-60c8ef12f8c5",
+  "guid": "18546504-397f-4611-80f9-60c8ef12f8c5",
+  "publisherId": "quantumquadsolutions1768544978440",
+  "offerId": "docuread_offer_id",
+  "source": {
+    "name": "OCR Invoice Automation for Dynamics 365 Business Central (DocuRead)",
+    "publisher": "QuantumQuad Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.quantumquadsolutions1768544978440%7CAID.docuread_offer_id%7CPAPPID.18546504-397f-4611-80f9-60c8ef12f8c5",
+    "lastModified": "2026-02-16T09:18:47.9956235+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.quantumquad.in/contacttoquantumquad",
+    "sourceHash": "sha256:4f19d44a3ca1bff1c152bd90e1e9e27556efb1102ef80e92a484f0f94b2b4b8f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4f19d44a3ca1bff1c152bd90e1e9e27556efb1102ef80e92a484f0f94b2b4b8f",
+    "mappedOn": null,
+    "summary": "OCR purchase invoice capture and processing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "OCR embedded directly within BC",
+      "Extracts vendor name, invoice number, dates, lines, tax and totals",
+      "Automatic purchase invoice creation and posting with single-user verification",
+      "Vendor item names mapped to internal item codes, learning over time",
+      "Learns from historical mappings",
+      "Attaches invoice PDF to purchase invoice with scanner reference number"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

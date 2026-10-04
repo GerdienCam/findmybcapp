@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.skconsulting|AID.it_00112|PAPPID.34a5bf9c-4200-496e-b27b-025cb4be65c5",
+  "guid": "34a5bf9c-4200-496e-b27b-025cb4be65c5",
+  "publisherId": "skconsulting",
+  "offerId": "it_00112",
+  "source": {
+    "name": "UNSPSC® Item Catalog",
+    "publisher": "SK Consulting S.A.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.skconsulting%7CAID.it_00112%7CPAPPID.34a5bf9c-4200-496e-b27b-025cb4be65c5",
+    "lastModified": "2025-12-03T02:15:25.7502095+00:00",
+    "appVersion": "27.0.16.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://skc.lu/apps",
+    "sourceHash": "sha256:442c7e60fd857ffd4c106a498ce3cc3c0d0541395ab75320993c5b5b2518e36b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:442c7e60fd857ffd4c106a498ce3cc3c0d0541395ab75320993c5b5b2518e36b",
+    "mappedOn": null,
+    "summary": "Manages UNSPSC product classification codes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-import-excel",
+      "ng-product-compliance"
+    ],
+    "claims": [
+      "UNSPSC code list of 158,000+ entries, imported from Excel or CSV",
+      "10 pre-configured sector filters",
+      "Generates hierarchical item categories from Segment/Family/Class",
+      "Creates and updates item templates from UNSPSC classifications",
+      "Optionally creates items from Commodity structure",
+      "Fine-grained permission sets covering read, setup, import and sync"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "UNSPSC"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.ixzal|AID.bca20114|PAPPID.38ed720f-bf35-4905-9f47-d9e595ee7d5f",
+  "guid": "38ed720f-bf35-4905-9f47-d9e595ee7d5f",
+  "publisherId": "ixzal",
+  "offerId": "bca20114",
+  "source": {
+    "name": "Ixzal Minimum Sales Amount (BCA20114)",
+    "publisher": "Ixzal B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ixzal%7CAID.bca20114%7CPAPPID.38ed720f-bf35-4905-9f47-d9e595ee7d5f",
+    "lastModified": "2024-11-21T05:05:59.1915397+00:00",
+    "appVersion": "12.0.1810.1002",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.ixzal.com/link/?rdappname=BCA20114&rdpname=usage-help",
+    "sourceHash": "sha256:07093c17f9f7269bd44d0ddcaaca3d0e70ae86d92bbce912f7a05439e1fbdb26"
+  },
+  "mapping": {
+    "sourceHash": "sha256:07093c17f9f7269bd44d0ddcaaca3d0e70ae86d92bbce912f7a05439e1fbdb26",
+    "mappedOn": null,
+    "summary": "Sales orders, invoices and quotes can be given a minimum amount",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Sets a minimum amount for quotes, invoices and sales orders",
+      "Checks minimum amount when releasing an order, invoice or quote",
+      "Configurable reaction to invalid amounts: message, confirmation or error",
+      "Option to allow zero-amount documents",
+      "Supports multiple currencies",
+      "Check can be enabled or disabled",
+      "Free 14-day trial",
+      "Price $26.95 / EUR 24.95 / GBP 22.95 one-time",
+      "License covers all users and companies in one tenant",
+      "Supports Essential and Premium editions",
+      "Available in all countries"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

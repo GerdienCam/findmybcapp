@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dms-365-trackunit|PAPPID.9aec35e3-ab16-40f4-a874-6915e93ddd1f",
+  "guid": "9aec35e3-ab16-40f4-a874-6915e93ddd1f",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dms-365-trackunit",
+  "source": {
+    "name": "Aptean Equipment DMS x Trackunit",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-365-trackunit%7CPAPPID.9aec35e3-ab16-40f4-a874-6915e93ddd1f",
+    "lastModified": "2026-09-04T11:20:14.3828526+00:00",
+    "appVersion": "2603.260800.20260825.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.traser-software.de/de-DE",
+    "sourceHash": "sha256:b609444e4c9ece9f678cd5d2982d77926c031a8e98ac4af765ca6c3d6c98dc5d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b609444e4c9ece9f678cd5d2982d77926c031a8e98ac4af765ca6c3d6c98dc5d",
+    "mappedOn": null,
+    "summary": "Integrates Trackunit fleet data into Aptean Equipment DMS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-assets",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers"
+    ],
+    "claims": [
+      "Imports fleet telematics via ISO 15143-3 (AEMP 2.0) API",
+      "Setup wizard",
+      "Telematics data can be queried automatically or manually",
+      "Telematics history per service item",
+      "Shows service item location from telematics",
+      "Updates operating hours from telematics on service items and worksheets"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "Trackunit"
+    ],
+    "requires": [
+      "Aptean Equipment DMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

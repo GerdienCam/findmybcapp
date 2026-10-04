@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.sbcdynamicserp1637715412860|AID.acumensicautomation|PAPPID.d49533ef-9108-44b5-a780-66ebb7ba503f",
+  "guid": "d49533ef-9108-44b5-a780-66ebb7ba503f",
+  "publisherId": "sbcdynamicserp1637715412860",
+  "offerId": "acumensicautomation",
+  "source": {
+    "name": "Acumens IC Automation (NW)",
+    "publisher": "SBC Dynamics ERP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumensicautomation%7CPAPPID.d49533ef-9108-44b5-a780-66ebb7ba503f",
+    "lastModified": "2026-09-30T17:44:35.3339417+00:00",
+    "appVersion": "25.1023.1.6",
+    "pricingTypes": [
+      "Free",
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.sbcdynamicserp.com/ic-automation-business-central/",
+    "sourceHash": "sha256:3d0f6b4c7f2ad2b020d46c52b38c89be702406cdc96ec0bf55f3ae2ca29a499c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3d0f6b4c7f2ad2b020d46c52b38c89be702406cdc96ec0bf55f3ae2ca29a499c",
+    "mappedOn": null,
+    "summary": "Automates intercompany master data sync setups",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Perform MDM setup in one company and copy it to others",
+      "Enable or disable syncing per company from the central company",
+      "Synchronizes all contact types, which standard MDM does not",
+      "Contact sync supports creation, renaming, modification and deletion",
+      "Basic plan for 1-5 users"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

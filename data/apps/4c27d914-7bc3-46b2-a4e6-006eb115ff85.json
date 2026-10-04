@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.formpipe|AID.lasernetbc|PAPPID.4c27d914-7bc3-46b2-a4e6-006eb115ff85",
+  "guid": "4c27d914-7bc3-46b2-a4e6-006eb115ff85",
+  "publisherId": "formpipe",
+  "offerId": "lasernetbc",
+  "source": {
+    "name": "Lasernet Connector",
+    "publisher": "Formpipe Software AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.formpipe%7CAID.lasernetbc%7CPAPPID.4c27d914-7bc3-46b2-a4e6-006eb115ff85",
+    "lastModified": "2026-07-27T23:23:52.5177804+00:00",
+    "appVersion": "4.4.0.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.formpipe.com/",
+    "sourceHash": "sha256:8947226e26e087193c66c9743dfff1f8ecf384e3f569df1c3ed9c543a3700bb8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8947226e26e087193c66c9743dfff1f8ecf384e3f569df1c3ed9c543a3700bb8",
+    "mappedOn": null,
+    "summary": "Report and document design and distribution via Lasernet",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage",
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "Graphical designer for business documents and reports",
+      "Preview documents before sending",
+      "Outputs via paper, e-mail, fax, XML, UBL, PDF",
+      "Archive of printed documents viewable from BC",
+      "Handles data from other applications too",
+      "Published events allow adjusting behaviour without code changes",
+      "Supports all countries where BC is available"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Formpipe Lasernet"
+    ],
+    "requires": [
+      "Formpipe Lasernet"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

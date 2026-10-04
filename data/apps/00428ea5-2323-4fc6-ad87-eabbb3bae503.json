@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.gl_extensions|PAPPID.00428ea5-2323-4fc6-ad87-eabbb3bae503",
+  "guid": "00428ea5-2323-4fc6-ad87-eabbb3bae503",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "gl_extensions",
+  "source": {
+    "name": "General Ledger Extensions",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.gl_extensions%7CPAPPID.00428ea5-2323-4fc6-ad87-eabbb3bae503",
+    "lastModified": "2026-04-20T16:28:38.6919485+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:f31a0e9d827cf6f7eee4723411955b146848895c1dac23e9295bc69e8fe244d4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f31a0e9d827cf6f7eee4723411955b146848895c1dac23e9295bc69e8fe244d4",
+    "mappedOn": null,
+    "summary": "G/L entry reconciliation and running balances",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-search-navigation"
+    ],
+    "claims": [
+      "Applies G/L entries to each other for reconciliation",
+      "Shows running G/L balance per account by entry",
+      "Links related source number to related entries",
+      "Auto-updates transactions via job queue"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

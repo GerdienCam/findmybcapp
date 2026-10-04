@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex086_manufacturingplanning|PAPPID.855a0e18-3525-469b-a4e0-4cf936d1538a",
+  "guid": "855a0e18-3525-469b-a4e0-4cf936d1538a",
+  "publisherId": "eos_solutions",
+  "offerId": "ex086_manufacturingplanning",
+  "source": {
+    "name": "Manufacturing planning",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex086_manufacturingplanning%7CPAPPID.855a0e18-3525-469b-a4e0-4cf936d1538a",
+    "lastModified": "2026-05-18T16:53:25.1452547+00:00",
+    "appVersion": "28.0.13.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/manufacturing-planning-mpl.html",
+    "sourceHash": "sha256:dd9b861ffc300de4de6170315eead26869b42ff2688656021e6bb5fe669a1532"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dd9b861ffc300de4de6170315eead26869b42ff2688656021e6bb5fe669a1532",
+    "mappedOn": null,
+    "summary": "Schedules operations on work and machine centers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-replenishment-planning"
+    ],
+    "claims": [
+      "Sequences all operations of a work or machine center",
+      "Runs MPS/MRP planning via job queue",
+      "Calculates and monitors material availability",
+      "Splits planning results into dedicated planning worksheets",
+      "Requires EOS Manufacturing base toolkit"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Manufacturing base toolkit"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

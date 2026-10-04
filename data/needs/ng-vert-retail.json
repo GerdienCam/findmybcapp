@@ -1,0 +1,284 @@
+{
+  "id": "ng-vert-retail",
+  "order": 204,
+  "label": "Solutions for retail stores and chains",
+  "description": "Retail POS and back office on BC: store operations, POS, replenishment to stores, variants, loyalty, gift cards, omnichannel, forecourts, plus the add-on ecosystem around LS Central.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "high",
+  "statements": [
+    "Solutions for retail stores and chains",
+    "Retail POS and back office on BC: store operations, POS, replenishment to stores, variants, loyalty, gift cards, omnichannel, forecourts, plus the add-on ecosystem around LS Central.",
+    "We have 12 shops and the tills don't talk to BC",
+    "POS for Business Central",
+    "Store stock is never right because sales post once a day",
+    "Replenishing stores from the central warehouse is guesswork",
+    "Gift cards that work in the shop and online",
+    "LS Central or something simpler for three stores?",
+    "Retail chain needs one system for stores, webshop and finance",
+    "Seasonal buying for a multi-brand clothing store",
+    "Fuel station and convenience store software",
+    "Loyalty points across all our shops",
+    "Click and collect from our stores",
+    "Price changes in all stores at once",
+    "Jewellery shop with unique items and repairs",
+    "Offline tills when the internet drops",
+    "Store managers want their own daily sales report",
+    "Franchise stores on separate companies",
+    "Retail POS with fiscal printer support",
+    "End-of-day cash counting per register",
+    "Our POS vendor's integration is a file export at midnight",
+    "Which retail solutions run on BC SaaS?"
+  ],
+  "questions": [
+    {
+      "id": "pos",
+      "text": "What is your situation with the till (POS)?",
+      "multi": false,
+      "options": [
+        {
+          "label": "We need a POS that runs inside BC",
+          "patterns": [
+            "\\bPOS\\b[^;]*(inside|built|within|in) (directly into )?(business central|bc)",
+            "(online|native\\w*|fully integrated)[^;]*(POS|point of sale)",
+            "point of sale (system|solution)|retail pos",
+            "touch pos",
+            "pos checkout",
+            "fast checkout",
+            "cashier role",
+            "pos functionality",
+            "pos interface",
+            "retail checkout",
+            "POS system",
+            "pos and retail operations platform",
+            "manage pos sales",
+            "fuel pumps directly at the pos"
+          ]
+        },
+        {
+          "label": "We have a POS and need it connected to BC",
+          "patterns": [
+            "connect your existing retail",
+            "external retail solution",
+            "9opoint",
+            "imports sales[^;]*from",
+            "data exchange between business central and"
+          ]
+        },
+        {
+          "label": "We run LS Central and need add-ons",
+          "patterns": [
+            "ls central"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "We need a POS that runs inside BC": 0.42,
+        "We have a POS and need it connected to BC": 0.08,
+        "We run LS Central and need add-ons": 0.29
+      }
+    },
+    {
+      "id": "payments",
+      "text": "What should the checkout handle?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Card payment terminals",
+          "patterns": [
+            "payment terminals?",
+            "bank pos terminal",
+            "\\bEMV\\b",
+            "stripe terminal",
+            "contactless",
+            "\\bcards?\\b[^;]*payment|debit cards|cards, digital wallets",
+            "psps?\\b"
+          ]
+        },
+        {
+          "label": "Gift cards and vouchers",
+          "patterns": [
+            "gift ?cards?",
+            "vouchers?"
+          ]
+        },
+        {
+          "label": "Loyalty programs",
+          "patterns": [
+            "loyalty"
+          ]
+        },
+        {
+          "label": "Promotions and mix & match",
+          "patterns": [
+            "promotion",
+            "mix & match",
+            "multi-buy",
+            "coupon",
+            "offers"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Card payment terminals": 0.29,
+        "Gift cards and vouchers": 0.25,
+        "Loyalty programs": 0.29,
+        "Promotions and mix & match": 0.21
+      }
+    },
+    {
+      "id": "variants",
+      "text": "Do you sell items in sizes and colours?",
+      "help": "For example fashion or shoes.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, size and colour variants",
+          "patterns": [
+            "size ?(and|&) ?colou?r",
+            "colou?r ?(and|&) ?size",
+            "variant matrix",
+            "variants? (from models|automatically)",
+            "order matrix"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, size and colour variants": 0.17
+      }
+    },
+    {
+      "id": "handheld",
+      "text": "Should store staff use handheld scanners for stock work?",
+      "help": "Counting, receiving, transfers on the shop floor.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, handheld or mobile stock work",
+          "patterns": [
+            "handheld",
+            "mobile (stock|ui|device)",
+            "on mobile",
+            "inventory count",
+            "stock (counting|reception)|physical counting|stocktaking|cycle counts"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, handheld or mobile stock work": 0.17
+      }
+    },
+    {
+      "id": "format",
+      "text": "Besides shop retail, do you also run any of these?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Restaurant or food service",
+          "patterns": [
+            "restaurant",
+            "food service",
+            "kitchen",
+            "hospitality"
+          ]
+        },
+        {
+          "label": "Fuel station forecourt",
+          "patterns": [
+            "fuel",
+            "forecourt",
+            "pump"
+          ]
+        },
+        {
+          "label": "Webshop alongside stores",
+          "patterns": [
+            "e-?commerce",
+            "ecom",
+            "shopify",
+            "woocommerce",
+            "magento",
+            "bigcommerce",
+            "omnichannel"
+          ]
+        },
+        {
+          "label": "Just shops",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Restaurant or food service": 0.17,
+        "Fuel station forecourt": 0.08,
+        "Webshop alongside stores": 0.12
+      }
+    },
+    {
+      "id": "stores",
+      "text": "How many stores do you run?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Several stores",
+          "patterns": [
+            "multi-?(store|location)",
+            "multiple stores",
+            "several stores",
+            "many stores",
+            "across (all )?stores",
+            "store distribution",
+            "stores? and head-office",
+            "transfer between stores",
+            "transfer orders to stores",
+            "across stores"
+          ]
+        },
+        {
+          "label": "One store",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Several stores": 0.42
+      }
+    },
+    {
+      "id": "fiscal",
+      "text": "Does your country require a certified (fiscalised) till?",
+      "help": "For example Germany, Austria, Sweden, Norway, Belgium.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "fiscali[sz]"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.08
+      }
+    }
+  ]
+}

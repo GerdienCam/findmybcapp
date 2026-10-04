@@ -1,0 +1,57 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.bigcommerce-integration|PAPPID.32c03ef2-baba-4d62-8517-1c9ca8daf667",
+  "guid": "32c03ef2-baba-4d62-8517-1c9ca8daf667",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "bigcommerce-integration",
+  "source": {
+    "name": "BigCommerce Integration",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.bigcommerce-integration%7CPAPPID.32c03ef2-baba-4d62-8517-1c9ca8daf667",
+    "lastModified": "2026-07-16T09:20:09.5950878+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://hubbroker.com/integrations/bigcommerce-edi-integration/",
+    "sourceHash": "sha256:d316f655a7ad0858fb127018e54b338e9f207ad1ac1d7ee5d0088f5503374eea"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d316f655a7ad0858fb127018e54b338e9f207ad1ac1d7ee5d0088f5503374eea",
+    "mappedOn": null,
+    "summary": "Integrates BigCommerce store with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Imports sales orders from BigCommerce into BC",
+      "Real-time stock level sync",
+      "Syncs customer details and purchase history",
+      "Keeps invoices, payments and balances consistent",
+      "Error detection and monitoring",
+      "Supports multi-store and high-volume shops"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "BigCommerce"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

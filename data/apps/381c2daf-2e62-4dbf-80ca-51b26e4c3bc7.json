@@ -1,0 +1,66 @@
+{
+  "appId": "TYPE.connect|PUBID.nagarro_sap_01|AID.ep_buscen_itemconfig|PAPPID.381c2daf-2e62-4dbf-80ca-51b26e4c3bc7",
+  "guid": "381c2daf-2e62-4dbf-80ca-51b26e4c3bc7",
+  "publisherId": "nagarro_sap_01",
+  "offerId": "ep_buscen_itemconfig",
+  "source": {
+    "name": "Item Configurator",
+    "publisher": "Nagarro",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.nagarro_sap_01%7CAID.ep_buscen_itemconfig%7CPAPPID.381c2daf-2e62-4dbf-80ca-51b26e4c3bc7",
+    "lastModified": "2025-07-23T19:28:33.9713402+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nagarro.com/en/services/erp/msdynamics-365",
+    "sourceHash": "sha256:2ed2afa24efc23a192b82f18300548a33b5c228279b638b59c61dd6aacf98b71"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2ed2afa24efc23a192b82f18300548a33b5c228279b638b59c61dd6aacf98b71",
+    "mappedOn": null,
+    "summary": "Generates item codes and descriptions from configured specs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Creates customized items as needed during purchase and sales transactions",
+      "Generates item codes and descriptions from configuration values",
+      "Calculates costs and prices from configuration in sales and purchase documents",
+      "Setup of item categories, configuration options and values",
+      "Applies business rules, required fields and length limits",
+      "No need to pre-create every product variant"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Apparel",
+      "Electronics",
+      "Furniture",
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

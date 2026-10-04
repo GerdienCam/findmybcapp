@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.allianztrade|AID.allianztradeforbusinesscentral2|PAPPID.0c361874-de8e-4522-bc2a-3e2a7dd99702",
+  "guid": "0c361874-de8e-4522-bc2a-3e2a7dd99702",
+  "publisherId": "allianztrade",
+  "offerId": "allianztradeforbusinesscentral2",
+  "source": {
+    "name": "Allianz Trade For Business Central",
+    "publisher": "Allianz Trade",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.allianztrade%7CAID.allianztradeforbusinesscentral2%7CPAPPID.0c361874-de8e-4522-bc2a-3e2a7dd99702",
+    "lastModified": "2026-09-03T07:12:24.2143691+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://developers.allianz-trade.com/support",
+    "sourceHash": "sha256:1f0eb001bb0765670392497a32b4ad62a1b217485357bef4566571e909ffd145"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1f0eb001bb0765670392497a32b4ad62a1b217485357bef4566571e909ffd145",
+    "mappedOn": null,
+    "summary": "Connects trade credit insurance for credit limits and risk",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Requests and monitors Allianz Trade credit limits from customer cards",
+      "No coding or API integration needed",
+      "Buyer database and credit insights on the customer card",
+      "Automatic real-time sync of Allianz Trade customer information",
+      "Search Allianz Trade global database and create customers from it",
+      "Dashboard of existing limits, pending applications and decision history",
+      "Non-payment case submission not yet available",
+      "Requires an Allianz Trade insurance policy"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Financial services",
+      "Insurance"
+    ],
+    "connectsTo": [
+      "Allianz Trade"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

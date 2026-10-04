@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.timetrackcentral|AID.ttc_enterprise|PAPPID.c79bf83e-73fe-4680-9662-37c26692bb15",
+  "guid": "c79bf83e-73fe-4680-9662-37c26692bb15",
+  "publisherId": "timetrackcentral",
+  "offerId": "ttc_enterprise",
+  "source": {
+    "name": "Time Track Central - Enterprise",
+    "publisher": "Time Track Central",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.timetrackcentral%7CAID.ttc_enterprise%7CPAPPID.c79bf83e-73fe-4680-9662-37c26692bb15",
+    "lastModified": "2026-09-17T12:03:22.1116413+00:00",
+    "appVersion": "25.0.20260917.2",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.timetrackcentral.com/",
+    "sourceHash": "sha256:fad053361cd36edfca124f5602ca0e90ba643c2cecb419c2425115395b68f509"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fad053361cd36edfca124f5602ca0e90ba643c2cecb419c2425115395b68f509",
+    "mappedOn": null,
+    "summary": "Time sheets, absence, resource capacity, work reports and expenses",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-employee-expenses",
+      "ng-hr-payroll-comp",
+      "ng-proj-planning"
+    ],
+    "claims": [
+      "Web app (SPA) to manage and approve time sheets",
+      "Absence management",
+      "Resource capacity management",
+      "Payroll exports",
+      "Streamlines hour registration in projects",
+      "Builds on standard BC time sheet and absence functionality",
+      "Employees need no BC user or Microsoft license",
+      "Enterprise edition includes work report and expenses add-ons"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

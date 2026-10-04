@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.cosmoconsultag|AID.data-integration-suite|PAPPID.6d31b3c5-300c-4f0a-ae89-8eda515c03d6",
+  "guid": "6d31b3c5-300c-4f0a-ae89-8eda515c03d6",
+  "publisherId": "cosmoconsultag",
+  "offerId": "data-integration-suite",
+  "source": {
+    "name": "COSMO Data Integration Framework",
+    "publisher": "COSMO CONSULT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.data-integration-suite%7CPAPPID.6d31b3c5-300c-4f0a-ae89-8eda515c03d6",
+    "lastModified": "2026-09-15T21:05:11.4723077+00:00",
+    "appVersion": "3.4.0.121",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cosmoconsult.com/de-de/business-central/data-integration-framework/",
+    "sourceHash": "sha256:41c5b4f419a86bc8f13f929939f13ab2a8485a762953d683753b848d15a91c85"
+  },
+  "mapping": {
+    "sourceHash": "sha256:41c5b4f419a86bc8f13f929939f13ab2a8485a762953d683753b848d15a91c85",
+    "mappedOn": null,
+    "summary": "Data import/export and management framework",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-import-excel",
+      "ng-ux-master-data-sync",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Imports and exports XML, JSON and SharePoint data",
+      "Mapping capabilities to automate data processing",
+      "API that receives and processes XML or JSON from external systems",
+      "Error management and activity logging",
+      "Supports intercompany and master data management"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hu",
+      "sv",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "TYPE.connect|PUBID.i95devapp|AID.i95dev_e_commerce_solutions|PAPPID.5fcde743-2101-4475-b56f-d08acbd6c50d",
+  "guid": "5fcde743-2101-4475-b56f-d08acbd6c50d",
+  "publisherId": "i95devapp",
+  "offerId": "i95dev_e_commerce_solutions",
+  "source": {
+    "name": "I95Dev E-Commerce Solutions",
+    "publisher": "I95Dev",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.i95devapp%7CAID.i95dev_e_commerce_solutions%7CPAPPID.5fcde743-2101-4475-b56f-d08acbd6c50d",
+    "lastModified": "2024-11-22T12:28:36.3673615+00:00",
+    "appVersion": "21.0.46256.46853",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.i95dev.com/contact/",
+    "sourceHash": "sha256:c2f1aea851c59e2a9888fc38063cb50eb8c428df90e28b30f6f80d665227bb56"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c2f1aea851c59e2a9888fc38063cb50eb8c428df90e28b30f6f80d665227bb56",
+    "mappedOn": null,
+    "summary": "Integrates Adobe Commerce eCommerce with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-implementation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-payment-providers"
+    ],
+    "claims": [
+      "Pre-integrated Adobe Commerce and Business Central out of the box",
+      "Single vendor for e-commerce and ERP",
+      "Omnichannel setup in under two months",
+      "Hosted on Microsoft Azure managed cloud",
+      "Logistics partner integration and barcode management",
+      "Payment gateway integration and reconciliation",
+      "Multilingual, multi-country and multi-currency"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Adobe Commerce"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

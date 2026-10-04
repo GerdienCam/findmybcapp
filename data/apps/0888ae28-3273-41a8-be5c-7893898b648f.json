@@ -1,0 +1,68 @@
+{
+  "appId": "TYPE.connect|PUBID.lexisnexisrisksolutionsuk1664975762251|AID.validate_v12|PAPPID.0888ae28-3273-41a8-be5c-7893898b648f",
+  "guid": "0888ae28-3273-41a8-be5c-7893898b648f",
+  "publisherId": "lexisnexisrisksolutionsuk1664975762251",
+  "offerId": "validate_v12",
+  "source": {
+    "name": "LexisNexis Risk Solutions Bankers Almanac® Validate™",
+    "publisher": "LexisNexis Risk Solutions UK",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.lexisnexisrisksolutionsuk1664975762251%7CAID.validate_v12%7CPAPPID.0888ae28-3273-41a8-be5c-7893898b648f",
+    "lastModified": "2025-07-15T11:50:11.9826616+00:00",
+    "appVersion": "2.1.2.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://risk.lexisnexis.com/global/en/products/bankers-almanac-validate",
+    "sourceHash": "sha256:ac819855ee2dfe200da068b562e535985ddac5b6c43c6872dca70d2c5d27c67f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ac819855ee2dfe200da068b562e535985ddac5b6c43c6872dca70d2c5d27c67f",
+    "mappedOn": null,
+    "summary": "Validates bank accounts, IBAN and SWIFT codes",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality",
+      "ng-conn-company-data"
+    ],
+    "claims": [
+      "Validates bank accounts, Swift/BIC codes and IBANs in real time",
+      "Validates at point of capture and prompts user when details are invalid",
+      "Checks details against payment rules for almost 200 countries",
+      "Provides Standard Settlement Instructions (SSIs)",
+      "Returns complete details on the bank, its branches and the counterparty bank",
+      "Provides clearing system participation details",
+      "Validates sort code, account number, Swift and IBAN are correct and existing",
+      "Automatically populates additional bank information",
+      "Free 250 validations on sign-up",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "LexisNexis Bankers Almanac"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_transaction",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

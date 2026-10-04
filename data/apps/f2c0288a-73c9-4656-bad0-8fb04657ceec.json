@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.abakion|AID.99f36df7-4997-45ea-a5c8-f639048e3b63|PAPPID.f2c0288a-73c9-4656-bad0-8fb04657ceec",
+  "guid": "f2c0288a-73c9-4656-bad0-8fb04657ceec",
+  "publisherId": "abakion",
+  "offerId": "99f36df7-4997-45ea-a5c8-f639048e3b63",
+  "source": {
+    "name": "Master Data Information",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.99f36df7-4997-45ea-a5c8-f639048e3b63%7CPAPPID.f2c0288a-73c9-4656-bad0-8fb04657ceec",
+    "lastModified": "2026-09-01T17:23:49.0692783+00:00",
+    "appVersion": "28.4.202635.175391",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/master-data/#howto",
+    "sourceHash": "sha256:5ae258881b99475aff1c40514a79560bce6e0508605857efa2be8d5f47b4642a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ae258881b99475aff1c40514a79560bce6e0508605857efa2be8d5f47b4642a",
+    "mappedOn": null,
+    "summary": "Adds custom fields for master data and product information",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-custom-fields",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-entry",
+      "ng-conn-webshop"
+    ],
+    "claims": [
+      "Create custom fields/attributes on items without custom extensions",
+      "Attributes also on customers, vendors, BOMs, lots, service items and serial numbers",
+      "Extended text fields with no field length limit",
+      "Bulk update item records e.g. from supplier lists",
+      "Create new items from item templates",
+      "Search records on any attribute",
+      "Lets you put extra information on invoices without changing reports",
+      "HTML-formatted web shop item data",
+      "Files, images, user guides and rich media in master data",
+      "Edit master data in Excel and submit back",
+      "Non-invasive, no conflict with other data"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

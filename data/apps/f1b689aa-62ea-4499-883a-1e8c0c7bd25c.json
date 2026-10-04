@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.venturesinformationtechnologyservices1680161546686|AID.rmsconnect|PAPPID.f1b689aa-62ea-4499-883a-1e8c0c7bd25c",
+  "guid": "f1b689aa-62ea-4499-883a-1e8c0c7bd25c",
+  "publisherId": "venturesinformationtechnologyservices1680161546686",
+  "offerId": "rmsconnect",
+  "source": {
+    "name": "RMS Connect",
+    "publisher": "TECH VENTURES",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.venturesinformationtechnologyservices1680161546686%7CAID.rmsconnect%7CPAPPID.f1b689aa-62ea-4499-883a-1e8c0c7bd25c",
+    "lastModified": "2025-06-16T10:01:55.0169803+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.techventuresglobal.com/rms-cloud-integration/",
+    "sourceHash": "sha256:fc04c3de9de158d2dfcb75b273d393693c46600c63ceb9d77a376a9b6c77fcfe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fc04c3de9de158d2dfcb75b273d393693c46600c63ceb9d77a376a9b6c77fcfe",
+    "mappedOn": null,
+    "summary": "Imports RMS hospitality data into BC finance",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-hospitality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Creates sales invoices and credit memos in BC from RMS data",
+      "Transfers receipts including cash transactions and refunds",
+      "Fetches transactions at defined intervals",
+      "Transfers reservations, bookings and financial data via job queues",
+      "Custom rules control how RMS transactions are created in BC",
+      "Suited to hotels, resorts, serviced apartments and hospitality chains"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Hospitality"
+    ],
+    "connectsTo": [
+      "RMS Hospitality Management"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

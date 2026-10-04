@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.dual_unit_of_measure_tasklet_connector|PAPPID.f191f9c0-ad1e-4f52-ab3b-8e795a4edff3",
+  "guid": "f191f9c0-ad1e-4f52-ab3b-8e795a4edff3",
+  "publisherId": "thetasystemslimited",
+  "offerId": "dual_unit_of_measure_tasklet_connector",
+  "source": {
+    "name": "Connect Dual Unit of Measure - Tasklet",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.dual_unit_of_measure_tasklet_connector%7CPAPPID.f191f9c0-ad1e-4f52-ab3b-8e795a4edff3",
+    "lastModified": "2026-09-28T04:04:01.842582+00:00",
+    "appVersion": "28.2.20.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/TDU/",
+    "sourceHash": "sha256:780dad589090052ae38ee6d9b08892aed026ed5077e50885249a4ccaef0352e6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:780dad589090052ae38ee6d9b08892aed026ed5077e50885249a4ccaef0352e6",
+    "mappedOn": null,
+    "summary": "Dual unit of measure handling on Tasklet devices",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-allocation-picking"
+    ],
+    "claims": [
+      "Dual UoM on Tasklet for receiving, put-away, picking, movements, counting, output and shipment",
+      "Scans full or partial license plates, carrying the unit through",
+      "Pre-posting validation blocks inconsistent unit/quantity relationships",
+      "On-device correction with automatic recalculation for fixed-ratio items",
+      "Line split handling carries units through",
+      "Includes Advanced License Plating for Tasklet",
+      "Requires a Dual Unit of Measure subscription",
+      "Licensed per Tasklet device"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "ja",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "sv",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Tasklet Mobile WMS"
+    ],
+    "requires": [
+      "Dual Unit of Measure",
+      "Tasklet Mobile WMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

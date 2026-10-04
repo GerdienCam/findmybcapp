@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.navbizdoo1640860583806|AID.navbiz_extended_production|PAPPID.5508eff4-de65-443e-b627-fad22bc8de8b",
+  "guid": "5508eff4-de65-443e-b627-fad22bc8de8b",
+  "publisherId": "navbizdoo1640860583806",
+  "offerId": "navbiz_extended_production",
+  "source": {
+    "name": "NavBiz Extended Production",
+    "publisher": "NavBiz d.o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navbizdoo1640860583806%7CAID.navbiz_extended_production%7CPAPPID.5508eff4-de65-443e-b627-fad22bc8de8b",
+    "lastModified": "2026-08-25T09:16:48.5873435+00:00",
+    "appVersion": "28.1.20260821.102625",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://navbiz.hr/info/",
+    "sourceHash": "sha256:92139eb3417e29c3c0a00e5b96bccc600fd6ccc1853d2107534f6c079ce0ddb0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:92139eb3417e29c3c0a00e5b96bccc600fd6ccc1853d2107534f6c079ce0ddb0",
+    "mappedOn": null,
+    "summary": "Additional production functions and reports",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-production-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bom-formula-engineering",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Input and output locations on production",
+      "Machine worksheet",
+      "Parent and child production orders",
+      "Generates transfer orders from production orders",
+      "Adds links to production orders",
+      "Displays production order components as in the BOM",
+      "Assigns lot/serial numbers by quantity 1",
+      "Add or delete additional BOMs with defined substitution combinations",
+      "Report listing the components of production orders with their assigned lot and serial numbers",
+      "Report of deviation from planned consumption per component",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

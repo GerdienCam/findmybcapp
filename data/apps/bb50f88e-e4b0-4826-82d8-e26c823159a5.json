@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.mpriseagriwarebv|AID.agriware-loading|PAPPID.bb50f88e-e4b0-4826-82d8-e26c823159a5",
+  "guid": "bb50f88e-e4b0-4826-82d8-e26c823159a5",
+  "publisherId": "mpriseagriwarebv",
+  "offerId": "agriware-loading",
+  "source": {
+    "name": "Agriware 365 Loading",
+    "publisher": "Mprise Agriware B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mpriseagriwarebv%7CAID.agriware-loading%7CPAPPID.bb50f88e-e4b0-4826-82d8-e26c823159a5",
+    "lastModified": "2026-09-28T12:43:22.6838597+00:00",
+    "appVersion": "28.28.5.271675",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.agriware.cloud/",
+    "sourceHash": "sha256:55da1f28e3e7dfc44bbcefce39aea33f99f0ff8a8ec3ef65e106f38620b0cb4d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:55da1f28e3e7dfc44bbcefce39aea33f99f0ff8a8ec3ef65e106f38620b0cb4d",
+    "mappedOn": null,
+    "summary": "Outbound loading logistics for horticulture",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Load orders tell the work floor what to load, when and how",
+      "Load order proposal per timeframe, customer, product group or region",
+      "Load engines calculate the optimal load structure",
+      "Shipping by posting a full or partial load order",
+      "Load-to-order and batch loading",
+      "Standard and customizable load calculation methods",
+      "Lot number tracking and unique container tracking",
+      "Mobile registration",
+      "Racking, trolley or pallet loading"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Horticulture"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Agriware 365 Business Essentials"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

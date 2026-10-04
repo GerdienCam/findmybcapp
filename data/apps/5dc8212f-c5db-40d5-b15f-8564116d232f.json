@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.clarityukraine1657050202465|AID.clrt_bank_payments_matching|PAPPID.5dc8212f-c5db-40d5-b15f-8564116d232f",
+  "guid": "5dc8212f-c5db-40d5-b15f-8564116d232f",
+  "publisherId": "clarityukraine1657050202465",
+  "offerId": "clrt_bank_payments_matching",
+  "source": {
+    "name": "Bank Payments Matching",
+    "publisher": "Clarity Ukraine",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.clarityukraine1657050202465%7CAID.clrt_bank_payments_matching%7CPAPPID.5dc8212f-c5db-40d5-b15f-8564116d232f",
+    "lastModified": "2026-05-14T14:40:37.1524808+00:00",
+    "appVersion": "26.4.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://clarity-team.com/en/contacts/",
+    "sourceHash": "sha256:0f8bee1ba7be43af4f7e1fe44c1dd9f069a4effa49ad344a277405e2d25948aa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0f8bee1ba7be43af4f7e1fe44c1dd9f069a4effa49ad344a277405e2d25948aa",
+    "mappedOn": null,
+    "summary": "Bank statement import with counterparty matching",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Imports bank statements into General Journal",
+      "Identifies counterparties by key parameters",
+      "Identifies counterparty by payment purpose",
+      "Statement formats for Privatbank, Aval, OTP, Ukrsibbank"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "languages": [
+      "en",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Privatbank",
+      "Raiffeisen Bank Aval",
+      "OTP Bank",
+      "Ukrsibbank"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

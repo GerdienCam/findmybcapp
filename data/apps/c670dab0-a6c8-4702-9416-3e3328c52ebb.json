@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.insight-works|AID.c670dab0-a6c8-4702-9416-3e3328c52ebb|PAPPID.c670dab0-a6c8-4702-9416-3e3328c52ebb",
+  "guid": "c670dab0-a6c8-4702-9416-3e3328c52ebb",
+  "publisherId": "insight-works",
+  "offerId": "c670dab0-a6c8-4702-9416-3e3328c52ebb",
+  "source": {
+    "name": "License Plate Management",
+    "publisher": "Insight Works",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.c670dab0-a6c8-4702-9416-3e3328c52ebb%7CPAPPID.c670dab0-a6c8-4702-9416-3e3328c52ebb",
+    "lastModified": "2026-09-23T21:41:21.7801744+00:00",
+    "appVersion": "1.99.9741.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://app.dmsiworks.com/license-plating/product-help/",
+    "sourceHash": "sha256:e78d2af93a5ad073192cf3c215a2742d21e07f478c189fe63628b3e9b1b52b9c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e78d2af93a5ad073192cf3c215a2742d21e07f478c189fe63628b3e9b1b52b9c",
+    "mappedOn": null,
+    "summary": "License plate tracking of pallets and containers",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-movements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Combines mixed items and lot/serial numbers into one license plate number",
+      "Prints license plate barcodes from handheld devices",
+      "LPNs usable for picking, receiving, movements, consumption and shipping",
+      "Works with Warehouse Insight WMS",
+      "Moves products to staging areas in one shot"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nl",
+      "no",
+      "sv"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Warehouse Insight WMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

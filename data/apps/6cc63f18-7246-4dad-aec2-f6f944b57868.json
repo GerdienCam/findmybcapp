@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.financial_agent|PAPPID.6cc63f18-7246-4dad-aec2-f6f944b57868",
+  "guid": "6cc63f18-7246-4dad-aec2-f6f944b57868",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "financial_agent",
+  "source": {
+    "name": "Financial Agent",
+    "publisher": "LODESTAR SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.financial_agent%7CPAPPID.6cc63f18-7246-4dad-aec2-f6f944b57868",
+    "lastModified": "2026-09-08T10:08:45.1255796+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:fec4ef643e25c62b2132be56d58eb10799f3459bfb4a66455c07fea8b35883ca"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fec4ef643e25c62b2132be56d58eb10799f3459bfb4a66455c07fea8b35883ca",
+    "mappedOn": null,
+    "summary": "AI assistant for finance operations and cost control",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-ai-assistant",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-cash-forecast",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-budget-vs-actual",
+      "ng-collections",
+      "ng-admin-copilot-agents",
+      "ng-period-close"
+    ],
+    "claims": [
+      "Analyzes posted accounting and operational data in the BC company",
+      "Cash flow insights, daily cash forecasting and liquidity-gap detection",
+      "Analyzes and forecasts working capital, and optimizes vendor payments",
+      "Budget-versus-actual, sales margin and revenue trend analysis",
+      "Ranks overdue receivables by priority and assesses customer credit risk",
+      "Expense anomaly detection",
+      "Inventory and slow-moving stock analysis",
+      "Vendor spend and exposure analysis",
+      "Financial close review and tax/VAT exposure analysis",
+      "Does not post transactions or change master data"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

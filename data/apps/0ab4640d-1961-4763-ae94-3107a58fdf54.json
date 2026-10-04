@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.d365globalptyltd1665883818849|AID.d365_centralised_production_planning|PAPPID.0ab4640d-1961-4763-ae94-3107a58fdf54",
+  "guid": "0ab4640d-1961-4763-ae94-3107a58fdf54",
+  "publisherId": "d365globalptyltd1665883818849",
+  "offerId": "d365_centralised_production_planning",
+  "source": {
+    "name": "d365 Centralised Production Planning for Business Central",
+    "publisher": "d365.Global Pty Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.d365globalptyltd1665883818849%7CAID.d365_centralised_production_planning%7CPAPPID.0ab4640d-1961-4763-ae94-3107a58fdf54",
+    "lastModified": "2025-07-28T15:21:43.9861188+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://d365.global/help",
+    "sourceHash": "sha256:e544344c7deba3ddce069fe24bc41365d610cf71fb32c776b0c2923c077a9179"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e544344c7deba3ddce069fe24bc41365d610cf71fb32c776b0c2923c077a9179",
+    "mappedOn": null,
+    "summary": "Central production planning across multiple manufacturing companies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation",
+      "ng-production-scheduling"
+    ],
+    "claims": [
+      "Combines production planning across several production companies, driven by BOM material availability",
+      "Uses intercompany purchases from sales demand to create production demand",
+      "Central sales and order management across sites",
+      "Allocates manufacturing orders across factories by capacity, location and lead time",
+      "Dashboards on order status, production progress and machine utilisation",
+      "Supports discrete, process or mixed-mode production"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

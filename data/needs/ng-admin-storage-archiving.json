@@ -1,0 +1,195 @@
+{
+  "id": "ng-admin-storage-archiving",
+  "order": 161,
+  "label": "Database space, archiving and purging old data",
+  "description": "Monitoring storage capacity, reclaiming space and archiving or deleting old business data.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "high",
+  "statements": [
+    "Database space, archiving and purging old data",
+    "Monitoring storage capacity, reclaiming space and archiving or deleting old business data.",
+    "We have 15 years of history in BC and it is slowing everything down",
+    "Can we archive old fiscal years but still look them up if the tax office asks?",
+    "date compression business central",
+    "Is there an app that moves old posted invoices out of BC into a read-only archive?",
+    "We want to delete sales orders that were fully shipped and invoiced years ago",
+    "Our item ledger is enormous because of old transactions we never need",
+    "Before moving from NAV to BC online we want to leave old history behind but keep access to it",
+    "We closed a subsidiary and want to archive the whole company",
+    "How do we keep 10 years of records for the law without keeping them in the live database?",
+    "Data archive BC old purchase orders",
+    "Old quotes and blanket orders that never turned into anything clutter the lists",
+    "Can we set rules like 'delete posted shipments after 7 years' and let BC run it?",
+    "Accountant wants old general ledger detail compressed to monthly totals",
+    "We need a searchable archive of old customer invoices for when customers ask for copies",
+    "Archiving inventory transactions for items we discontinued years ago",
+    "Is it safe to delete warehouse entries and old registered picks?",
+    "Old companies from acquisitions sit in our tenant, we can't delete them because of audit",
+    "How do we get rid of test data in production without breaking ledger integrity?",
+    "We want to export closed years to a data warehouse and then purge them from BC",
+    "Retention rules for documents differ by country, can one tool handle that?",
+    "The admin center says we are almost at our storage limit, what is eating the space?",
+    "How can I see which tables in BC are the biggest?",
+    "database capacity business central",
+    "We got a warning that we exceed our capacity and might have to buy extra storage",
+    "Is there an app that tracks database growth month by month per company?",
+    "Our test company copies are using as much space as production",
+    "I want an alert before we hit the storage limit, not after",
+    "Which extension's tables are growing so fast?",
+    "Do attachments and pictures on items count towards our BC database size?",
+    "As a partner I need an overview of storage use across all customer environments",
+    "Our database doubled in size in a year and the business didn't double",
+    "table size report BC SaaS",
+    "Our import buffer tables have millions of old lines from data migration, can we just delete them?",
+    "How do we free up space in BC without losing anything the auditors need?",
+    "Orphaned media and pictures from deleted items are still taking up space",
+    "clean up staging tables business central",
+    "Old configuration package data is still sitting in the database after go-live",
+    "Is there a tool that finds and cleans up junk records left behind by uninstalled apps?",
+    "We uninstalled an extension but its data is still there using storage",
+    "Can we schedule a regular clean-up of temporary data so the database doesn't keep growing?",
+    "Search index and buffer tables seem huge, is it safe to purge them?",
+    "Our posted e-document and incoming document blobs are filling the database",
+    "We need to shrink the database before migrating to the cloud",
+    "What can safely be deleted from BC to get under the storage limit?"
+  ],
+  "questions": [
+    {
+      "id": "goal",
+      "text": "What do you want to do about the data taking up space?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Move attachments and files out of BC",
+          "patterns": [
+            "azure",
+            "sharepoint",
+            "external (cloud )?storage",
+            "offload",
+            "out of (the )?bc database"
+          ]
+        },
+        {
+          "label": "Delete old records or files",
+          "patterns": [
+            "delet",
+            "purg",
+            "clean",
+            "clearing of old"
+          ]
+        },
+        {
+          "label": "Archive or compress old entries",
+          "patterns": [
+            "archiv(es|ing)? data",
+            "compress",
+            "date compression"
+          ]
+        },
+        {
+          "label": "Just hide old records from daily use",
+          "patterns": [
+            "historical",
+            "hides? them"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Move attachments and files out of BC": 0.59,
+        "Delete old records or files": 0.32,
+        "Archive or compress old entries": 0.14,
+        "Just hide old records from daily use": 0.09
+      }
+    },
+    {
+      "id": "where",
+      "text": "Where should offloaded files live?",
+      "options": [
+        {
+          "label": "SharePoint",
+          "patterns": [
+            "sharepoint"
+          ]
+        },
+        {
+          "label": "Azure Blob or Azure Files",
+          "patterns": [
+            "azure"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "SharePoint": 0.32,
+        "Azure Blob or Azure Files": 0.55
+      }
+    },
+    {
+      "id": "control",
+      "text": "Which safeguards matter most?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Runs unattended on a schedule",
+          "patterns": [
+            "job queue",
+            "schedul",
+            "automatic(ally)? (on insert|offloads|clearing)"
+          ]
+        },
+        {
+          "label": "Audit, logs and legal retention",
+          "patterns": [
+            "\\blog",
+            "audit",
+            "retention",
+            "legal",
+            "bookkeeping act",
+            "tamper"
+          ]
+        },
+        {
+          "label": "Shows what is using the space first",
+          "patterns": [
+            "diagnos",
+            "largest",
+            "statistics",
+            "media usage",
+            "scan of media",
+            "analy[sz]e"
+          ]
+        },
+        {
+          "label": "Users work exactly as before",
+          "patterns": [
+            "as usual",
+            "as before",
+            "transparent",
+            "unchanged",
+            "no change",
+            "seamless"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Runs unattended on a schedule": 0.36,
+        "Audit, logs and legal retention": 0.32,
+        "Shows what is using the space first": 0.14,
+        "Users work exactly as before": 0.27
+      }
+    }
+  ]
+}

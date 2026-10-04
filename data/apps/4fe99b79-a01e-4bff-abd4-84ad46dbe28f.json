@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.item-configurator-app|PAPPID.4fe99b79-a01e-4bff-abd4-84ad46dbe28f",
+  "guid": "4fe99b79-a01e-4bff-abd4-84ad46dbe28f",
+  "publisherId": "fenwicksoftware",
+  "offerId": "item-configurator-app",
+  "source": {
+    "name": "Item Configurator",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.item-configurator-app%7CPAPPID.4fe99b79-a01e-4bff-abd4-84ad46dbe28f",
+    "lastModified": "2026-09-13T23:42:46.2033993+00:00",
+    "appVersion": "26.0.260908.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/item-configurator/docs/",
+    "sourceHash": "sha256:25417822ef598de117f15d62ff94f5c98b261066718b6dff6daad11e2b49e909"
+  },
+  "mapping": {
+    "sourceHash": "sha256:25417822ef598de117f15d62ff94f5c98b261066718b6dff6daad11e2b49e909",
+    "mappedOn": null,
+    "summary": "Manages BOMs and routings for manufactured items in one place",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-routings-workcenters",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-costing"
+    ],
+    "claims": [
+      "View and edit BOM and routing setup on the item card",
+      "Handles routing and BOM versions and shows which version is current",
+      "Copy production BOM, routing and SKU when copying items"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

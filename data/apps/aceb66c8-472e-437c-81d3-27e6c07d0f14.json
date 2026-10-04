@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.aceb66c8-472e-437c-81d3-27e6c07d0f14|PAPPID.aceb66c8-472e-437c-81d3-27e6c07d0f14",
+  "guid": "aceb66c8-472e-437c-81d3-27e6c07d0f14",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "aceb66c8-472e-437c-81d3-27e6c07d0f14",
+  "source": {
+    "name": "Email - Microsoft 365 Connector",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.aceb66c8-472e-437c-81d3-27e6c07d0f14%7CPAPPID.aceb66c8-472e-437c-81d3-27e6c07d0f14",
+    "lastModified": "2024-11-22T00:48:00.6041906+00:00",
+    "appVersion": "17.2.19367.19525",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?linkid=828689",
+    "sourceHash": "sha256:560929c2873f8e3604d3514dfc70f8a5303999681ec9f17f605ca689565da0e3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:560929c2873f8e3604d3514dfc70f8a5303999681ec9f17f605ca689565da0e3",
+    "mappedOn": null,
+    "summary": "Shared Microsoft 365 email account for sending",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "All users send from one shared Microsoft 365 account"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nb",
+      "nl",
+      "ru",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft 365"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

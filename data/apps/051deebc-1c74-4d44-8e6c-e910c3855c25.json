@@ -1,0 +1,83 @@
+{
+  "appId": "PUBID.navipartner|AID.np-wms|PAPPID.051deebc-1c74-4d44-8e6c-e910c3855c25",
+  "guid": "051deebc-1c74-4d44-8e6c-e910c3855c25",
+  "publisherId": "navipartner",
+  "offerId": "np-wms",
+  "source": {
+    "name": "NP WMS",
+    "publisher": "NaviPartner",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navipartner%7CAID.np-wms%7CPAPPID.051deebc-1c74-4d44-8e6c-e910c3855c25",
+    "lastModified": "2026-10-01T11:35:02.7036915+00:00",
+    "appVersion": "2800.69.9.10000",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.navipartner.com/product/store-assistant-install-store-assistant-bc/",
+    "sourceHash": "sha256:61340bd10ea9f4df6901446cd18b1866e099c8947256b1791e99fc83ab9d7b50"
+  },
+  "mapping": {
+    "sourceHash": "sha256:61340bd10ea9f4df6901446cd18b1866e099c8947256b1791e99fc83ab9d7b50",
+    "mappedOn": null,
+    "summary": "Mobile WMS that supports RFID",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-counting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking",
+      "ng-stock-movements",
+      "ng-warehouse-setup"
+    ],
+    "claims": [
+      "Installable in 1 day with onboarding flow and 40+ customizable templates",
+      "Requires the cloud version of BC",
+      "Android app scans 1D/2D barcodes on smartphones or tablets without external scanner",
+      "Supports Honeywell and Zebra hardware",
+      "RFID reading with Zebra and Impinj scanner hardware",
+      "Receiving with lot/serial and expiration date",
+      "Put-away to warehouse location",
+      "Simple or consolidated picking",
+      "Planned, unplanned and bulk moves",
+      "Planned and unscheduled counts",
+      "Adjust quantity with reason code",
+      "Look up bin/location content",
+      "Associate barcode with existing item",
+      "Attach images from device camera",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Honeywell",
+      "Zebra",
+      "Impinj"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

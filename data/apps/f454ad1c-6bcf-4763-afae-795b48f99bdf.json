@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.incentea|AID.core_drag_drop|PAPPID.f454ad1c-6bcf-4763-afae-795b48f99bdf",
+  "guid": "f454ad1c-6bcf-4763-afae-795b48f99bdf",
+  "publisherId": "incentea",
+  "offerId": "core_drag_drop",
+  "source": {
+    "name": "Core Drag and Drop",
+    "publisher": "INCENTEA SA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.incentea%7CAID.core_drag_drop%7CPAPPID.f454ad1c-6bcf-4763-afae-795b48f99bdf",
+    "lastModified": "2026-09-11T18:05:58.1106867+00:00",
+    "appVersion": "28.4.0.4",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://incentea-core.com/en/contacts/",
+    "sourceHash": "sha256:5b58546f3f69ef46af60858d56320df41d34ba540cf63fefd24d4e530cd0af80"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5b58546f3f69ef46af60858d56320df41d34ba540cf63fefd24d4e530cd0af80",
+    "mappedOn": null,
+    "summary": "Drag-and-drop document archiving in SharePoint",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Drag-and-drop files onto BC records with categorization",
+      "Files uploaded directly to SharePoint, not the BC database",
+      "BC stores only metadata and links",
+      "Files named and classified per business rules",
+      "Migrates existing attachments to free database space",
+      "SharePoint version history for each file",
+      "Documents accessible via BC, SharePoint, Teams or browser with Microsoft 365 permissions",
+      "Full-text search inside PDFs via SharePoint indexing",
+      "Microsoft 365 retention and compliance policies apply to files",
+      "Project documents organized by project and available on the BC project card",
+      "Configurable by table and document type",
+      "Publishes integration events for extensibility"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing",
+      "Professional services"
+    ],
+    "connectsTo": [
+      "SharePoint",
+      "Microsoft 365",
+      "Teams"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

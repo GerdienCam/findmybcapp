@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.origo|AID.origo_cloud_events_landsbankinn|PAPPID.8d40d1e5-f147-4565-9d6a-9757d0803dc3",
+  "guid": "8d40d1e5-f147-4565-9d6a-9757d0803dc3",
+  "publisherId": "origo",
+  "offerId": "origo_cloud_events_landsbankinn",
+  "source": {
+    "name": "Origo Cloud Events Landsbankinn",
+    "publisher": "Origo",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.origo_cloud_events_landsbankinn%7CPAPPID.8d40d1e5-f147-4565-9d6a-9757d0803dc3",
+    "lastModified": "2026-09-01T14:57:13.6106233+00:00",
+    "appVersion": "28.1.112.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://origopublic.blob.core.windows.net/help/Cloud%20Events%20Landsbankinn/bc28/en-US/index.html",
+    "sourceHash": "sha256:61daffb5ae14587417c4f7d3fe18bcf505749268630b5ce9c969321239d1175f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:61daffb5ae14587417c4f7d3fe18bcf505749268630b5ce9c969321239d1175f",
+    "mappedOn": null,
+    "summary": "Direct bank integration with Landsbankinn",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-currency"
+    ],
+    "claims": [
+      "Retrieves bank statements for any date range",
+      "Claims management: query, create, alter or cancel claim batches, and re-create them",
+      "Queries payments received against claims",
+      "Submits domestic payment batches and retrieves statuses",
+      "Creates and queries foreign payments (SWIFT/IBAN)",
+      "Gets Landsbankinn exchange rates",
+      "Verifies Icelandic bank account numbers",
+      "Queries card transactions",
+      "Callable by MCP-compatible clients and REST callers"
+    ],
+    "countries": [
+      "IS"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Landsbankinn"
+    ],
+    "requires": [
+      "Origo Cloud Events Core",
+      "IS localization"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

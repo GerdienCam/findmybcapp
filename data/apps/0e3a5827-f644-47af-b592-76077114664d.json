@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.nab|AID.rillion|PAPPID.0e3a5827-f644-47af-b592-76077114664d",
+  "guid": "0e3a5827-f644-47af-b592-76077114664d",
+  "publisherId": "nab",
+  "offerId": "rillion",
+  "source": {
+    "name": "Rillion Connect",
+    "publisher": "SmartApps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nab%7CAID.rillion%7CPAPPID.0e3a5827-f644-47af-b592-76077114664d",
+    "lastModified": "2026-09-18T06:34:12.4018083+00:00",
+    "appVersion": "25.29.86.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.smartappsford365.com/rillion-connect/",
+    "sourceHash": "sha256:1ebf1dc8f1b9bed57d767cf5ad0a441ff4cc4ea301d5670db9ed4523510ffe02"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1ebf1dc8f1b9bed57d767cf5ad0a441ff4cc4ea301d5670db9ed4523510ffe02",
+    "mappedOn": null,
+    "summary": "Integrates Rillion AP invoice approval with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Invoices approved in Rillion are forwarded to BC",
+      "Rillion routes invoices to the designated approver",
+      "Handles PO and non-PO invoices"
+    ],
+    "countries": [
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "FI",
+      "FR",
+      "GB",
+      "LT",
+      "NL",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Rillion"
+    ],
+    "requires": [
+      "Rillion"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

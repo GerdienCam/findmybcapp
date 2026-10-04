@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.aptean-equipment-dms-tinnacity|PAPPID.d7c0e5f0-0fdd-40c5-b972-aa1865432d8c",
+  "guid": "d7c0e5f0-0fdd-40c5-b972-aa1865432d8c",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "aptean-equipment-dms-tinnacity",
+  "source": {
+    "name": "Aptean Equipment DMS x Tinnacity",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.aptean-equipment-dms-tinnacity%7CPAPPID.d7c0e5f0-0fdd-40c5-b972-aa1865432d8c",
+    "lastModified": "2026-09-04T19:11:16.8122655+00:00",
+    "appVersion": "2603.260800.20260902.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.traser-software.de/en-US",
+    "sourceHash": "sha256:7bdade35b1aa1d8561fc1037c452e0074ec2faf0eb2b25f22aed2b5a21168bd3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7bdade35b1aa1d8561fc1037c452e0074ec2faf0eb2b25f22aed2b5a21168bd3",
+    "mappedOn": null,
+    "summary": "Connects Aptean Equipment DMS with Tinnacity mobile field service",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Sends customers, customer equipment and service orders to Tinnacity",
+      "Receives order status and recorded technician times from Tinnacity",
+      "Supports Premium Edition only"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "Tinnacity"
+    ],
+    "requires": [
+      "Aptean Equipment DMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

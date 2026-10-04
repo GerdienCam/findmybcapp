@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.amjsconsulting1621353404525|AID.evolve_compliance_solution_master|PAPPID.fd4ddde8-35a2-409b-848a-6f736491c157",
+  "guid": "fd4ddde8-35a2-409b-848a-6f736491c157",
+  "publisherId": "amjsconsulting1621353404525",
+  "offerId": "evolve_compliance_solution_master",
+  "source": {
+    "name": "Evolve Compliance Solution Master",
+    "publisher": "AMJS CONSULTING",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.amjsconsulting1621353404525%7CAID.evolve_compliance_solution_master%7CPAPPID.fd4ddde8-35a2-409b-848a-6f736491c157",
+    "lastModified": "2025-01-08T05:24:04.9692658+00:00",
+    "appVersion": "25.0.23364.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.amjs-consulting.com/evolve-master-solution/",
+    "sourceHash": "sha256:f878af1e06149be9ba7f4e1e314090bc019faa2ef23aa6d7d971477d6d1ac23e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f878af1e06149be9ba7f4e1e314090bc019faa2ef23aa6d7d971477d6d1ac23e",
+    "mappedOn": null,
+    "summary": "Internal controls and compliance governance for master data",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Approval workflow on VAT posting setup changes",
+      "Logs change requests and applies only after line-level approval",
+      "Keeps existing VAT configuration until approval",
+      "Logs and archives approvals and modifications"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

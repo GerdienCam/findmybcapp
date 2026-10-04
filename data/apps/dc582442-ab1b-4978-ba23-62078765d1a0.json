@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex096_eosfooddeliveries|PAPPID.dc582442-ab1b-4978-ba23-62078765d1a0",
+  "guid": "dc582442-ab1b-4978-ba23-62078765d1a0",
+  "publisherId": "eos_solutions",
+  "offerId": "ex096_eosfooddeliveries",
+  "source": {
+    "name": "EOS FOOD Deliveries",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex096_eosfooddeliveries%7CPAPPID.dc582442-ab1b-4978-ba23-62078765d1a0",
+    "lastModified": "2026-09-08T18:39:42.5244209+00:00",
+    "appVersion": "28.0.23.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/eos-food-deliveries.html",
+    "sourceHash": "sha256:e7bce629dae6be14a90d9b3cc0ac7eee31441642749cf2ad137c13b05adfc870"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e7bce629dae6be14a90d9b3cc0ac7eee31441642749cf2ad137c13b05adfc870",
+    "mappedOn": null,
+    "summary": "Manages produce deliveries from field to receipt with traceability",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Field mapping of land areas, crops and cadastral data",
+      "Delivery orders with planning",
+      "Product receipt with acceptance and weighing",
+      "Traceability by area, field and season",
+      "Weight and quality capture on deliveries",
+      "Receipt without delivery note with automatic yield calculation",
+      "Traceability per supplier and plot of land"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Agriculture",
+      "Food"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

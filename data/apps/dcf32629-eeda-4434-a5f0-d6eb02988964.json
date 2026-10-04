@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.navtilus|AID.dcf32629-eeda-4434-a5f0-d6eb02988964|PAPPID.dcf32629-eeda-4434-a5f0-d6eb02988964",
+  "guid": "dcf32629-eeda-4434-a5f0-d6eb02988964",
+  "publisherId": "navtilus",
+  "offerId": "dcf32629-eeda-4434-a5f0-d6eb02988964",
+  "source": {
+    "name": "ScanX.Net Connector",
+    "publisher": "Navtilus",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navtilus%7CAID.dcf32629-eeda-4434-a5f0-d6eb02988964%7CPAPPID.dcf32629-eeda-4434-a5f0-d6eb02988964",
+    "lastModified": "2026-07-02T14:00:32.3376612+00:00",
+    "appVersion": "1.3.24.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navtilus.dk/Navtilus-ScanX-Guide",
+    "sourceHash": "sha256:63b014e61b36c51334e2f293241d438f092c5f9cfabc53ad13293871396d3eb1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:63b014e61b36c51334e2f293241d438f092c5f9cfabc53ad13293871396d3eb1",
+    "mappedOn": null,
+    "summary": "Connects BC with ScanX document capture",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-utilities-energy-waste",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Integrates BC with ScanX.Net platform",
+      "Creates facilities and maps detail types",
+      "Imports registration data from ScanX.Net",
+      "Weighing and registration data for invoicing"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ScanX.Net"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

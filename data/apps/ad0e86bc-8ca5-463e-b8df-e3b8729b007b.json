@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.christiaensnv1624023591234|AID.bocount_dynamics_complaint|PAPPID.ad0e86bc-8ca5-463e-b8df-e3b8729b007b",
+  "guid": "ad0e86bc-8ca5-463e-b8df-e3b8729b007b",
+  "publisherId": "christiaensnv1624023591234",
+  "offerId": "bocount_dynamics_complaint",
+  "source": {
+    "name": "BoCount Dynamics Complaints",
+    "publisher": "Dynamate",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.christiaensnv1624023591234%7CAID.bocount_dynamics_complaint%7CPAPPID.ad0e86bc-8ca5-463e-b8df-e3b8729b007b",
+    "lastModified": "2026-10-01T11:11:58.8697958+00:00",
+    "appVersion": "29.0.20261001.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.bocount.net/complaint",
+    "sourceHash": "sha256:778621eca3b346eaf4dc64f77d9a401a19ac4954f9b2433b029de49f0f7c834b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:778621eca3b346eaf4dc64f77d9a401a19ac4954f9b2433b029de49f0f7c834b",
+    "mappedOn": null,
+    "summary": "Registers and follows up customer complaints",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-case-intake",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-case-analytics",
+      "ng-case-resolve"
+    ],
+    "claims": [
+      "Register and follow up complaints from Role Center",
+      "Complaint analysis graphs",
+      "Link actions to complaints",
+      "Complaint categories such as departments",
+      "Error groups for causes like price and quality"
+    ],
+    "countries": [
+      "BE"
+    ],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "BoCount Dynamics System"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

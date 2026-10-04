@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.ornithgmbh1699181648906|AID.orn_adp|PAPPID.ed69fb2c-8726-42c1-b16e-894f6c547203",
+  "guid": "ed69fb2c-8726-42c1-b16e-894f6c547203",
+  "publisherId": "ornithgmbh1699181648906",
+  "offerId": "orn_adp",
+  "source": {
+    "name": "ORN Automated Document Processing",
+    "publisher": "Ornith GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ornithgmbh1699181648906%7CAID.orn_adp%7CPAPPID.ed69fb2c-8726-42c1-b16e-894f6c547203",
+    "lastModified": "2026-02-17T02:41:57.6685314+00:00",
+    "appVersion": "27.1.1.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.ornith.de/adpmanual",
+    "sourceHash": "sha256:a7617abd11cf7be5d162274cb76021e6be482507e2cc308dc4ae6c0742d880cc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a7617abd11cf7be5d162274cb76021e6be482507e2cc308dc4ae6c0742d880cc",
+    "mappedOn": null,
+    "summary": "AI processing of incoming invoices, orders and forms",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Recognizes document types and extracts data from incoming documents",
+      "Handles invoices, credit notes, orders and forms",
+      "Confidence-based AI: high confidence processed automatically, uncertain cases flagged for review",
+      "Tight DocuWare integration",
+      "Supports cloud and on-premises"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "DocuWare"
+    ],
+    "requires": [
+      "DocuWare",
+      "ORN Intelligence Framework"
+    ],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

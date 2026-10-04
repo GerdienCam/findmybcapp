@@ -1,0 +1,81 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-changeserialno|PAPPID.6ec73bb5-2c40-415c-8ed2-98aa6bc00066",
+  "guid": "6ec73bb5-2c40-415c-8ed2-98aa6bc00066",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-changeserialno",
+  "source": {
+    "name": "BeyondChangeSerialNo",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-changeserialno%7CPAPPID.6ec73bb5-2c40-415c-8ed2-98aa6bc00066",
+    "lastModified": "2026-04-29T14:24:44.5440368+00:00",
+    "appVersion": "2026.4.146.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/changeserialno/index.html",
+    "sourceHash": "sha256:9b269f21848b5f3020b96a896b110f6f71dd7af93dd4fd9936de18a5f8fe875d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9b269f21848b5f3020b96a896b110f6f71dd7af93dd4fd9936de18a5f8fe875d",
+    "mappedOn": null,
+    "summary": "Changes service item serial numbers across open and posted records",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-correct-posted",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-assets"
+    ],
+    "claims": [
+      "Change serial number of a service item",
+      "Updates open documents, posted documents and posted entries",
+      "Updates item ledger, warehouse, service contract, job ledger and production tables"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.on720comas1662298129006|AID.project720|PAPPID.e46d01ca-49a7-49a0-85bd-af26a6ab6048",
+  "guid": "e46d01ca-49a7-49a0-85bd-af26a6ab6048",
+  "publisherId": "on720comas1662298129006",
+  "offerId": "project720",
+  "source": {
+    "name": "Project720",
+    "publisher": "ON720.COM",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on720comas1662298129006%7CAID.project720%7CPAPPID.e46d01ca-49a7-49a0-85bd-af26a6ab6048",
+    "lastModified": "2026-06-26T06:37:55.0293795+00:00",
+    "appVersion": "28.1.260624.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.on720.com/project720",
+    "sourceHash": "sha256:b9afec699baa6b1e576607fb4a6e1dc7fecf706cf6cd8fa96eca3301110c25a7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b9afec699baa6b1e576607fb4a6e1dc7fecf706cf6cd8fa96eca3301110c25a7",
+    "mappedOn": null,
+    "summary": "Extends project financial management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-billing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-wip",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Project overview of active projects and tasks with usage, budget, invoicing and profitability",
+      "Access projects from the customer card",
+      "Redesigned project card with status, total costs and hours for invoicing",
+      "Ensures all usage entries are posted before closing a project",
+      "Transfers, groups and summarizes usage entries for invoicing",
+      "Project invoice proposals sent for approval",
+      "Marks usage entries as invoiced and calculates WIP",
+      "Hides cost prices from general users",
+      "Usage-based pricing starting with a full-function free plan",
+      "Available in all BC markets"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

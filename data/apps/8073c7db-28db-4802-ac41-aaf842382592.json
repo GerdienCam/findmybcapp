@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.lighthouse_experts_group|AID.sales_invoice_import|PAPPID.8073c7db-28db-4802-ac41-aaf842382592",
+  "guid": "8073c7db-28db-4802-ac41-aaf842382592",
+  "publisherId": "lighthouse_experts_group",
+  "offerId": "sales_invoice_import",
+  "source": {
+    "name": "Sales Invoice Import",
+    "publisher": "Lighthouse Experts Group",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lighthouse_experts_group%7CAID.sales_invoice_import%7CPAPPID.8073c7db-28db-4802-ac41-aaf842382592",
+    "lastModified": "2026-01-07T03:42:34.0273773+00:00",
+    "appVersion": "1.3.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lighthouseexperts.com/sales-invoice-import-help/",
+    "sourceHash": "sha256:b1db6384d7f253570cfbd7351f34be250e444ad513161fd8d128049121e629e5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b1db6384d7f253570cfbd7351f34be250e444ad513161fd8d128049121e629e5",
+    "mappedOn": null,
+    "summary": "Bulk imports sales invoices and credit memos from Excel",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Bulk import of sales invoices and credit memos from Excel",
+      "No fixed template; user picks columns and ordering",
+      "Validates required fields, codes and dimension values",
+      "Different templates per user",
+      "Custom fields can be added to the import"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Excel"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

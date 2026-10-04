@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.bluefort|AID.stripe_tapp_bc|PAPPID.38fc19bf-09df-41ee-a498-bf47eb6d1392",
+  "guid": "38fc19bf-09df-41ee-a498-bf47eb6d1392",
+  "publisherId": "bluefort",
+  "offerId": "stripe_tapp_bc",
+  "source": {
+    "name": "Stripe for Microsoft Dynamics 365 Business Central",
+    "publisher": "Bluefort",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bluefort%7CAID.stripe_tapp_bc%7CPAPPID.38fc19bf-09df-41ee-a498-bf47eb6d1392",
+    "lastModified": "2026-10-01T13:23:39.9791941+00:00",
+    "appVersion": "27.3.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bluefort.eu/contact/",
+    "sourceHash": "sha256:7bc1ab6327fc742372a38deb16078ad530cd58b45a7d4fc6ba21c6c261015cb2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7bc1ab6327fc742372a38deb16078ad530cd58b45a7d4fc6ba21c6c261015cb2",
+    "mappedOn": null,
+    "summary": "Collects card and wallet payments via Stripe with posting and reconciliation",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bank-reconciliation"
+    ],
+    "claims": [
+      "Stripe payments from BC invoices and orders, including posted invoices",
+      "Takes payment requests for single payments and charges saved methods off-session",
+      "Customer and payment-method onboarding and reconciliation",
+      "Stripe bank account reconciliation in BC",
+      "Automatic payout receipt, fee processing, refunds and disputes",
+      "Account selection per document, retries and auto cash-receipt posting"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Stripe"
+    ],
+    "requires": [
+      "Stripe account"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

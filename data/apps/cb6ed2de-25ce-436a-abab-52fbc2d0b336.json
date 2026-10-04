@@ -1,0 +1,102 @@
+{
+  "appId": "PUBID.to-increasebv|AID.bc_engineering_change_management|PAPPID.cb6ed2de-25ce-436a-abab-52fbc2d0b336",
+  "guid": "cb6ed2de-25ce-436a-abab-52fbc2d0b336",
+  "publisherId": "to-increasebv",
+  "offerId": "bc_engineering_change_management",
+  "source": {
+    "name": "PE-Engineering Change Management",
+    "publisher": "STAEDEAN",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.to-increasebv%7CAID.bc_engineering_change_management%7CPAPPID.cb6ed2de-25ce-436a-abab-52fbc2d0b336",
+    "lastModified": "2026-08-21T10:02:58.7169655+00:00",
+    "appVersion": "24.0.127168.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcdocs.staedean.com/",
+    "sourceHash": "sha256:8e461927ff7daca5bc1fc09e94ca9c825f0a49837132e8f786909967223f6c35"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8e461927ff7daca5bc1fc09e94ca9c825f0a49837132e8f786909967223f6c35",
+    "mappedOn": null,
+    "summary": "Engineering change management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Receives new/updated items, substitutions, BOMs and routings from engineering into a staging table",
+      "Creates engineering change orders (ECO) from staged data",
+      "ECO shows current, imported and updated values and outstanding supply/demand",
+      "Records engineering change requests (ECR)",
+      "Evaluates change impact via inventory, purchases, sales orders and jobs",
+      "Approve or reject change requests",
+      "Connectors via Connectivity Studio automated by job queue or web services",
+      "Full traceability of changes"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GL",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RS",
+      "SE",
+      "SI",
+      "SK",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Automotive",
+      "Discrete manufacturing",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Connectivity Studio"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

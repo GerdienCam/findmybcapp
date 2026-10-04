@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.data8|AID.data8_bc_validation|PAPPID.3a5955aa-ae87-45c5-aa2c-3d0a88da8c95",
+  "guid": "3a5955aa-ae87-45c5-aa2c-3d0a88da8c95",
+  "publisherId": "data8",
+  "offerId": "data8_bc_validation",
+  "source": {
+    "name": "Data8 BC Email and Telephone Validation",
+    "publisher": "Data8",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.data8%7CAID.data8_bc_validation%7CPAPPID.3a5955aa-ae87-45c5-aa2c-3d0a88da8c95",
+    "lastModified": "2026-09-30T12:50:31.0902709+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.data-8.co.uk/resources/how-to-guides/business-central-installation-guide",
+    "sourceHash": "sha256:9ac459b77a196d0467f2bc78f4c1d6f809ff0dd5bf93f96b97cadc226985317c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9ac459b77a196d0467f2bc78f4c1d6f809ff0dd5bf93f96b97cadc226985317c",
+    "mappedOn": null,
+    "summary": "Validates email and phone data at entry via Data8",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-company-data",
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Real-time email address validity and deliverability check",
+      "Suggests corrections for email typos",
+      "Live network check that phone numbers are active",
+      "Supports mobile and landline numbers worldwide",
+      "Validation configurable on any field across main tables and cards",
+      "Visual indicators let users fix invalid entries immediately",
+      "14-day free trial"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Data8"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.mrsba|PAPPID.d00f0b11-eebd-4605-8584-bf4394b1cfc5",
+  "guid": "d00f0b11-eebd-4605-8584-bf4394b1cfc5",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "mrsba",
+  "source": {
+    "name": "EV Tecto - Rental",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.mrsba%7CPAPPID.d00f0b11-eebd-4605-8584-bf4394b1cfc5",
+    "lastModified": "2026-09-10T10:36:27.4446117+00:00",
+    "appVersion": "10006.80.218813.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/365Con/overview",
+    "sourceHash": "sha256:71ad31bcc577b4ae316ffe57be75945bb2ce10de9d3fcc7c416fea7a262af306"
+  },
+  "mapping": {
+    "sourceHash": "sha256:71ad31bcc577b4ae316ffe57be75945bb2ce10de9d3fcc7c416fea7a262af306",
+    "mappedOn": null,
+    "summary": "Machine rental management for EV Tecto",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-construction",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-costs"
+    ],
+    "claims": [
+      "Rent own equipment and machines on own cases",
+      "Big machines managed as unique units; small items as multiple units in rental warehouse",
+      "Jobs charged with costs of materials and machinery availability",
+      "Overview of open and active rental orders",
+      "Rental journal",
+      "Rental invoicing",
+      "Extended machine information for rental"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EV Tecto - Core"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

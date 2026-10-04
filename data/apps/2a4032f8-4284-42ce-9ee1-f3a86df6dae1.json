@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.dbhlogisticsitag1719407880652|AID.dbh2bc4slp|PAPPID.2a4032f8-4284-42ce-9ee1-f3a86df6dae1",
+  "guid": "2a4032f8-4284-42ce-9ee1-f3a86df6dae1",
+  "publisherId": "dbhlogisticsitag1719407880652",
+  "offerId": "dbh2bc4slp",
+  "source": {
+    "name": "dbh2BC Sanctions list check",
+    "publisher": "dbh Logistics IT AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dbhlogisticsitag1719407880652%7CAID.dbh2bc4slp%7CPAPPID.2a4032f8-4284-42ce-9ee1-f3a86df6dae1",
+    "lastModified": "2026-09-04T09:51:34.04886+00:00",
+    "appVersion": "26.4.6.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dbh.de/kontakt",
+    "sourceHash": "sha256:b55a68e90c91ded0bffc94e0ac3c1cc99cf484138b150090d04e95d8ee680d11"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b55a68e90c91ded0bffc94e0ac3c1cc99cf484138b150090d04e95d8ee680d11",
+    "mappedOn": null,
+    "summary": "Screens business partners against sanctions lists",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-audit-compliance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-quality-compliance",
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Sanctions list screening via dbh Advantage Compliance",
+      "Checks vendors, customers and contacts",
+      "Checks document addresses when releasing and posting quotes, orders",
+      "One-off checks for applicants or visitors",
+      "Status monitor with documentation of decisions and comments",
+      "Automatic delta checks on content changes",
+      "Automatic blocking of documents with manual release",
+      "Defines a role that releases documents flagged as possible matches"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "dbh Advantage Compliance"
+    ],
+    "requires": [
+      "dbh Advantage Compliance"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.foodware365|AID.tax_handling|PAPPID.af812744-b698-4ffd-81d0-2cba74854db7",
+  "guid": "af812744-b698-4ffd-81d0-2cba74854db7",
+  "publisherId": "foodware365",
+  "offerId": "tax_handling",
+  "source": {
+    "name": "Aptean Tax Process Handling for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.tax_handling%7CPAPPID.af812744-b698-4ffd-81d0-2cba74854db7",
+    "lastModified": "2026-01-28T15:54:08.7503802+00:00",
+    "appVersion": "2601.0.293384.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/EUT/",
+    "sourceHash": "sha256:e5139a1ca724163c3e8b767af53bf9526431f729eddca11bead5b410bc67f57a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e5139a1ca724163c3e8b767af53bf9526431f729eddca11bead5b410bc67f57a",
+    "mappedOn": null,
+    "summary": "Automates and validates VAT documentation",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Automatically changes posting groups based on scenario",
+      "Updates posting group for customers/vendors with ship-to addresses across multiple EU countries",
+      "Checks correct VAT ID is assigned in cross-country scenarios",
+      "Validates Intrastat reports"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

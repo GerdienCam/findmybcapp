@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.brightcom_3111464|AID.brcpleo|PAPPID.9e746668-cf21-4a05-88a3-e259eba3d0e1",
+  "guid": "9e746668-cf21-4a05-88a3-e259eba3d0e1",
+  "publisherId": "brightcom_3111464",
+  "offerId": "brcpleo",
+  "source": {
+    "name": "BRC PLEO",
+    "publisher": "BrightCom Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.brcpleo%7CPAPPID.9e746668-cf21-4a05-88a3-e259eba3d0e1",
+    "lastModified": "2026-10-01T13:42:33.3547358+00:00",
+    "appVersion": "28.0.35391.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.brightcom.se/sv/Products/BRCpleo",
+    "sourceHash": "sha256:83d435547e8836bc8b152b8ad907e864beb30cfbe46e2189d81270a21cf1ebdf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:83d435547e8836bc8b152b8ad907e864beb30cfbe46e2189d81270a21cf1ebdf",
+    "mappedOn": null,
+    "summary": "Syncs and posts Pleo expenses in BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-dimensions"
+    ],
+    "claims": [
+      "Imports expenses, employees and departments from Pleo on schedule or on demand",
+      "Assigns G/L accounts, VAT groups and dimensions from Pleo settings",
+      "Tracks expense status Imported, In Journal, Posted",
+      "Maps Pleo departments to BC dimensions",
+      "Maps Pleo payment types to accounts",
+      "Imports receipts with expenses into the general journal",
+      "Runs via job queue without manual export",
+      "Cloud deployment"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Pleo"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

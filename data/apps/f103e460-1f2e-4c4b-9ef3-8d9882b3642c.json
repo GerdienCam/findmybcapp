@@ -1,0 +1,65 @@
+{
+  "appId": "TYPE.connect|PUBID.dynamicpoint|AID.office_365_invoice_automation_app|PAPPID.f103e460-1f2e-4c4b-9ef3-8d9882b3642c",
+  "guid": "f103e460-1f2e-4c4b-9ef3-8d9882b3642c",
+  "publisherId": "dynamicpoint",
+  "offerId": "office_365_invoice_automation_app",
+  "source": {
+    "name": "Accounts Payable Invoice Automation",
+    "publisher": "DynamicPoint",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.dynamicpoint%7CAID.office_365_invoice_automation_app%7CPAPPID.f103e460-1f2e-4c4b-9ef3-8d9882b3642c",
+    "lastModified": "2025-11-30T04:58:03.5683595+00:00",
+    "appVersion": "1.0.0.26",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamicpoint.com/easyap365/",
+    "sourceHash": "sha256:4cc5018f22dfaf001ab7174a4f75046226a48b76e05d354d5580c2761172ae70"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4cc5018f22dfaf001ab7174a4f75046226a48b76e05d354d5580c2761172ae70",
+    "mappedOn": null,
+    "summary": "AP invoice automation on Office 365 and Power Platform",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding",
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "OCR via Document Intelligence invoice model",
+      "Supports PO and non-PO invoices",
+      "Allocation templates for default account coding",
+      "New vendor onboarding",
+      "Mobile check request submission",
+      "Power Automate review and approval workflows",
+      "Teams app interface",
+      "Data stays in customer's SharePoint Online",
+      "Real-time integration with Business Central"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint Online",
+      "Power Platform",
+      "Microsoft Teams"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

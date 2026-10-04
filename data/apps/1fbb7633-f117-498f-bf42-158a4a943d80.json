@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.curabisaps1668520554988|AID.vax_transfer|PAPPID.1fbb7633-f117-498f-bf42-158a4a943d80",
+  "guid": "1fbb7633-f117-498f-bf42-158a4a943d80",
+  "publisherId": "curabisaps1668520554988",
+  "offerId": "vax_transfer",
+  "source": {
+    "name": "VAX Transfer 365 App",
+    "publisher": "Curabis ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.curabisaps1668520554988%7CAID.vax_transfer%7CPAPPID.1fbb7633-f117-498f-bf42-158a4a943d80",
+    "lastModified": "2026-07-23T14:19:05.5601447+00:00",
+    "appVersion": "27.5.0.64",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://curabis.dk/eng/vax-transfer-365-app/",
+    "sourceHash": "sha256:b834525e05f6d820fb2abc2356c5a18bd5e7ea13d51d00a089d418dc7eb5cf36"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b834525e05f6d820fb2abc2356c5a18bd5e7ea13d51d00a089d418dc7eb5cf36",
+    "mappedOn": null,
+    "summary": "Electronic document exchange via MySupply VAX Transfer",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-edi",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Integrates with MySupply VAX Transfer",
+      "OIOUBL document exchange",
+      "EDIFACT ORDERS, ORDRSP, DESADV, INVOIC",
+      "PEPPOL document exchange",
+      "Automatic transfer of posted sales invoices and credit memos",
+      "Nemhandel-compatible",
+      "Log and monitoring",
+      "GLN and VAT-based identification"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "MySupply VAX Transfer"
+    ],
+    "requires": [
+      "MySupply VAX Transfer"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

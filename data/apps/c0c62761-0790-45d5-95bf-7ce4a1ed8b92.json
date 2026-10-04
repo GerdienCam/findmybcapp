@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.econixinfotech|AID.enx001-efax|PAPPID.c0c62761-0790-45d5-95bf-7ce4a1ed8b92",
+  "guid": "c0c62761-0790-45d5-95bf-7ce4a1ed8b92",
+  "publisherId": "econixinfotech",
+  "offerId": "enx001-efax",
+  "source": {
+    "name": "Econix E-Fax",
+    "publisher": "Econix InfoTech Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.econixinfotech%7CAID.enx001-efax%7CPAPPID.c0c62761-0790-45d5-95bf-7ce4a1ed8b92",
+    "lastModified": "2026-07-28T07:55:44.7528222+00:00",
+    "appVersion": "19.0.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.econix.ca/econix-e-fax/",
+    "sourceHash": "sha256:9a68594e7a9d2c26b1de22058d7856f206bf793f53f3b4218d8616b0532adba7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9a68594e7a9d2c26b1de22058d7856f206bf793f53f3b4218d8616b0532adba7",
+    "mappedOn": null,
+    "summary": "Sends documents to customers and vendors via e-fax",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Send purchase orders and sales invoices by e-fax from the document page",
+      "Integrates customer's existing e-fax solution"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [
+      "e-fax"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

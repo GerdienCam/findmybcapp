@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.b2f|AID.b2f_einv|PAPPID.020c5a8e-ba4c-4022-be1b-12d4e4e5049f",
+  "guid": "020c5a8e-ba4c-4022-be1b-12d4e4e5049f",
+  "publisherId": "b2f",
+  "offerId": "b2f_einv",
+  "source": {
+    "name": "B2F E-Invoice Management",
+    "publisher": "B2F",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_einv%7CPAPPID.020c5a8e-ba4c-4022-be1b-12d4e4e5049f",
+    "lastModified": "2026-09-24T08:06:59.5453429+00:00",
+    "appVersion": "28.0.22819.22819",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/04/app-e-invoice-help.pdf",
+    "sourceHash": "sha256:601c47ddebaf54263edff51bbb4787231a76c8f07cbf89de9cb628b9f55d06f9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:601c47ddebaf54263edff51bbb4787231a76c8f07cbf89de9cb628b9f55d06f9",
+    "mappedOn": null,
+    "summary": "Turkish e-invoice sending and receiving through integrator",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Sends e-invoices through an integrator company",
+      "Marks companies registered on the e-invoice portal",
+      "Branch-based separation and numbering of e-invoices",
+      "Posts incoming e-invoices with accept/reject process",
+      "Incoming e-invoices create purchase invoices with approval"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.smart-businessllc2412077-2412077|AID.smart_external_file_connector_ftp|PAPPID.253dece6-d6d3-42ed-9f9b-6e146a01a26d",
+  "guid": "253dece6-d6d3-42ed-9f9b-6e146a01a26d",
+  "publisherId": "smart-businessllc2412077-2412077",
+  "offerId": "smart_external_file_connector_ftp",
+  "source": {
+    "name": "SMART External File Storage - FTP Connector",
+    "publisher": "SMART business LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_external_file_connector_ftp%7CPAPPID.253dece6-d6d3-42ed-9f9b-6e146a01a26d",
+    "lastModified": "2026-03-31T17:22:18.6870741+00:00",
+    "appVersion": "1.0.130473.260331",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.smart-it.com/",
+    "sourceHash": "sha256:7814275af93495115a2ec8fc4690e812f6c4a88b1b4de34c2b2c77723f49c67b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7814275af93495115a2ec8fc4690e812f6c4a88b1b4de34c2b2c77723f49c67b",
+    "mappedOn": null,
+    "summary": "Adds FTP/SFTP to file accounts",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "Adds FTP/SFTP to standard File Accounts",
+      "Supports SFTP, SCP, FTP, WebDAV, S3",
+      "Password or SSH key authentication",
+      "Optional Azure Function for corporate VNets",
+      "Read, write, delete files and manage directories"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "FTP",
+      "SFTP",
+      "SCP",
+      "WebDAV",
+      "S3"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

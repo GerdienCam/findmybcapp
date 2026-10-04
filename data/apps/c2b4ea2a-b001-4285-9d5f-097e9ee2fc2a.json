@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.bcsitera|AID.dimension-correction-tool|PAPPID.c2b4ea2a-b001-4285-9d5f-097e9ee2fc2a",
+  "guid": "c2b4ea2a-b001-4285-9d5f-097e9ee2fc2a",
+  "publisherId": "bcsitera",
+  "offerId": "dimension-correction-tool",
+  "source": {
+    "name": "Dimension Correction Tool",
+    "publisher": "BCS Itera",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.dimension-correction-tool%7CPAPPID.c2b4ea2a-b001-4285-9d5f-097e9ee2fc2a",
+    "lastModified": "2026-02-12T05:37:28.4880411+00:00",
+    "appVersion": "16.0.21230.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.itera.ee/apps/dimension-correction-tool/docs/en-US/help",
+    "sourceHash": "sha256:df8cadc61f56d91d38d7cdd7b1a4ed1394e1835f011846273c3e0d29bbcf3337"
+  },
+  "mapping": {
+    "sourceHash": "sha256:df8cadc61f56d91d38d7cdd7b1a4ed1394e1835f011846273c3e0d29bbcf3337",
+    "mappedOn": null,
+    "summary": "Corrects dimensions on posted entries without reversing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-correct-posted"
+    ],
+    "claims": [
+      "Changes dimensions on posted entries without reversal",
+      "No setup needed",
+      "Modification log",
+      "Bulk change of dimensions by filter",
+      "Propagates to customer, vendor, bank, job, FA ledger and analysis view entries"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "appId": "PUBID.idynbv|AID.bcbanking|PAPPID.1b3790da-e8ba-4a11-92a9-c70e37b4f831",
+  "guid": "1b3790da-e8ba-4a11-92a9-c70e37b4f831",
+  "publisherId": "idynbv",
+  "offerId": "bcbanking",
+  "source": {
+    "name": "Direct Banking EU and Global Bank Integration",
+    "publisher": "IDYN B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idynbv%7CAID.bcbanking%7CPAPPID.1b3790da-e8ba-4a11-92a9-c70e37b4f831",
+    "lastModified": "2026-08-27T13:28:22.7010673+00:00",
+    "appVersion": "28.2.4.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://idyn.atlassian.net/wiki/spaces/DB1/pages/24084481/Introduction",
+    "sourceHash": "sha256:ac4bc2253e26d58a3abf090e12b5ed89f0d0a24c90ee640717c515738f0ab47d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ac4bc2253e26d58a3abf090e12b5ed89f0d0a24c90ee640717c515738f0ab47d",
+    "mappedOn": null,
+    "summary": "Automated bank integration for payments and statements",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Connects to 2,000+ SEPA banks via Ponto",
+      "Connects to 15,000+ banks worldwide via Cobase",
+      "Automatic import of daily statements",
+      "Automated reconciliation",
+      "Bank balances always up to date in BC",
+      "Exports payment files directly to Ponto or Cobase",
+      "Add bank accounts to customers/suppliers from bank journal",
+      "Handles G-accounts, which are blocked accounts, when paying suppliers",
+      "Payment authorization without sharing bank credentials (Cobase)",
+      "Requires Ponto or Cobase account"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "HU",
+      "IE",
+      "LU",
+      "NL",
+      "NO",
+      "PL",
+      "PT",
+      "SE",
+      "SK"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Ponto",
+      "Cobase"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

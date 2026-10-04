@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.c2itas1732794112286|AID.paychexintegration|PAPPID.e08da905-db31-4247-a48d-5432041df1df",
+  "guid": "e08da905-db31-4247-a48d-5432041df1df",
+  "publisherId": "c2itas1732794112286",
+  "offerId": "paychexintegration",
+  "source": {
+    "name": "Paychex Lessor Integration",
+    "publisher": "KOLLAB A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.c2itas1732794112286%7CAID.paychexintegration%7CPAPPID.e08da905-db31-4247-a48d-5432041df1df",
+    "lastModified": "2026-09-30T06:19:46.212116+00:00",
+    "appVersion": "1.3.49.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://kollab.dk/kontakt/",
+    "sourceHash": "sha256:50827220b2ad9f2577c7bf769bc5d30e8968ae8ef761b771dd136579a6df1dde"
+  },
+  "mapping": {
+    "sourceHash": "sha256:50827220b2ad9f2577c7bf769bc5d30e8968ae8ef761b771dd136579a6df1dde",
+    "mappedOn": null,
+    "summary": "Integrates LessorLøn payroll data and entries into Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Transfers dimensions from BC to LessorLøn",
+      "Transfers G/L accounts to LessorLøn",
+      "Imports payroll G/L entries from LessorLøn",
+      "Imports basic employee data",
+      "Transfers job entries to LessorLøn"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "LessorLøn"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.samadhan1595571675983|AID.manufacturing_samadhan|PAPPID.43462e10-67ab-4e13-803d-58bade26543f",
+  "guid": "43462e10-67ab-4e13-803d-58bade26543f",
+  "publisherId": "samadhan1595571675983",
+  "offerId": "manufacturing_samadhan",
+  "source": {
+    "name": "Manufacturing Samadhan",
+    "publisher": "Samadhan",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.samadhan1595571675983%7CAID.manufacturing_samadhan%7CPAPPID.43462e10-67ab-4e13-803d-58bade26543f",
+    "lastModified": "2026-09-22T08:13:20.6375703+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://samadhanindia.com/helpdesk-support/",
+    "sourceHash": "sha256:7e93ed417c418d66b05e741803acbea1ea8a89e81415c3986818c6f048bfea34"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7e93ed417c418d66b05e741803acbea1ea8a89e81415c3986818c6f048bfea34",
+    "mappedOn": null,
+    "summary": "Production planning, scheduling and shop floor",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Production schedule per machine/work center per day and shift",
+      "Shows capacity and load utilisation while sequencing jobs",
+      "Confirmed schedule becomes shop-floor instruction",
+      "Operator job line-up of confirmed production orders",
+      "Output journal supports multiple operators on same machine and job",
+      "Start/stop setup and machine run recording",
+      "Prints label with barcode for next operation after output",
+      "Scan barcode to record output"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

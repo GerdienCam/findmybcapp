@@ -1,0 +1,92 @@
+{
+  "appId": "PUBID.tecman|AID.clever-landed-costs|PAPPID.7ff61b2b-2255-4542-a4b3-adda0aba69ff",
+  "guid": "7ff61b2b-2255-4542-a4b3-adda0aba69ff",
+  "publisherId": "tecman",
+  "offerId": "clever-landed-costs",
+  "source": {
+    "name": "Clever Landed Costs",
+    "publisher": "Clever Dynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecman%7CAID.clever-landed-costs%7CPAPPID.7ff61b2b-2255-4542-a4b3-adda0aba69ff",
+    "lastModified": "2026-09-18T14:58:42.7819754+00:00",
+    "appVersion": "5.3.5.161365",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cleverdynamics.com/other-clever-apps/clever-landed-costs/user-guide/about",
+    "sourceHash": "sha256:227fdad0bd75ce4737e17858c891605f699f4ca64da1512ab8474a27e8e99339"
+  },
+  "mapping": {
+    "sourceHash": "sha256:227fdad0bd75ce4737e17858c891605f699f4ca64da1512ab8474a27e8e99339",
+    "mappedOn": null,
+    "summary": "Calculates landed costs including freight, duties and insurance",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "low"
+      },
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Cost types apportioned by volume or weight",
+      "Expected costs by currency, item and date",
+      "Separates duty-relevant costs from post-port costs",
+      "Accrues expected landed costs during transit",
+      "Feeds landed costs into cash flow projections",
+      "Groups multiple purchase orders per container",
+      "Shows variances of actual vs expected costs",
+      "Creates landed cost ledger entries from normal purchasing"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "ID",
+      "IS",
+      "IT",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PR",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Landed cost calculation for imported goods has no dedicated group"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

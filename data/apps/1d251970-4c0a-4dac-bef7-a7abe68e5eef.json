@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.dogma-group|AID.siriustimesheet365|PAPPID.1d251970-4c0a-4dac-bef7-a7abe68e5eef",
+  "guid": "1d251970-4c0a-4dac-bef7-a7abe68e5eef",
+  "publisherId": "dogma-group",
+  "offerId": "siriustimesheet365",
+  "source": {
+    "name": "Sirius Timesheet",
+    "publisher": "Dogma Group",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dogma-group%7CAID.siriustimesheet365%7CPAPPID.1d251970-4c0a-4dac-bef7-a7abe68e5eef",
+    "lastModified": "2026-07-28T07:43:09.8210116+00:00",
+    "appVersion": "25.4.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.siriusapp.co.uk/apps/siriustimesheet365-job-module-in-business-central/",
+    "sourceHash": "sha256:e6991f024ae63c71f24f0a8ccd921594f96799f0e841bfde98e770842dda6269"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e6991f024ae63c71f24f0a8ccd921594f96799f0e841bfde98e770842dda6269",
+    "mappedOn": null,
+    "summary": "Timesheet entry for jobs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-costs",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Time entry from job sites on mobile devices",
+      "Logs hours of on-site staff and contract workers",
+      "Records billable time and contractor pay",
+      "Syncs time entries with the BC jobs module",
+      "Automated cost calculations per project or job",
+      "Adjusts for overtime and overruns",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

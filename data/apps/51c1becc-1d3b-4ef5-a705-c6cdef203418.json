@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.binary-stream-software|AID.portal_management_for_d365bc|PAPPID.51c1becc-1d3b-4ef5-a705-c6cdef203418",
+  "guid": "51c1becc-1d3b-4ef5-a705-c6cdef203418",
+  "publisherId": "binary-stream-software",
+  "offerId": "portal_management_for_d365bc",
+  "source": {
+    "name": "Portal for Dynamics 365 Business Central",
+    "publisher": "Binary Stream Software Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binary-stream-software%7CAID.portal_management_for_d365bc%7CPAPPID.51c1becc-1d3b-4ef5-a705-c6cdef203418",
+    "lastModified": "2026-08-28T01:06:49.2128568+00:00",
+    "appVersion": "1.26.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/PaymentPortal_BC_Help/Content/Topics/Portal/Portal_Splash_v2.htm",
+    "sourceHash": "sha256:87950fb0d7925395fa0eb6c054c90f127b1b538a6df664f989ea88e5774ca5aa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:87950fb0d7925395fa0eb6c054c90f127b1b538a6df664f989ea88e5774ca5aa",
+    "mappedOn": null,
+    "summary": "Customer self-service portal for payments, subscriptions and CSP billing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-subscription-billing",
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Customers pay invoices online via 100+ payment gateways",
+      "Supports Stripe, PayPal and GoCardless",
+      "Fully white-labeled portal",
+      "Customer self-service for invoices, contracts and renewals with Subscription Billing Suite",
+      "Microsoft Partner Center integration for CSP catalog updates, subscription sync and reconciliation",
+      "Three tiers: Essential, Premium, Premium for Partners",
+      "Real-time BC integration"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Stripe",
+      "PayPal",
+      "GoCardless",
+      "Microsoft Partner Center"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

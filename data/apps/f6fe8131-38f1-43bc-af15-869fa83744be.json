@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.navappyazlmvedanmanlkltdti1582460298798|AID.bc-nappcld|PAPPID.f6fe8131-38f1-43bc-af15-869fa83744be",
+  "guid": "f6fe8131-38f1-43bc-af15-869fa83744be",
+  "publisherId": "navappyazlmvedanmanlkltdti1582460298798",
+  "offerId": "bc-nappcld",
+  "source": {
+    "name": "Cloud Collection",
+    "publisher": "Navapp Yazilim ve Danismanlik Anonim Sirketi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navappyazlmvedanmanlkltdti1582460298798%7CAID.bc-nappcld%7CPAPPID.f6fe8131-38f1-43bc-af15-869fa83744be",
+    "lastModified": "2026-03-03T09:55:12.0229004+00:00",
+    "appVersion": "27.0.251030.2200",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-cloud-collection",
+    "sourceHash": "sha256:f3c8f2759321ee7b20d3766beeb2e5913c7189fadf749da0e27dcbc2fec8bcc7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f3c8f2759321ee7b20d3766beeb2e5913c7189fadf749da0e27dcbc2fec8bcc7",
+    "mappedOn": null,
+    "summary": "Transfers banking data to Turkish Cloud Collection portal",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Transfers customers, vendors, bank accounts, used credits and expense types in one click to Cloud Collection",
+      "Detects bank collection of cheques/promissory notes given to suppliers and updates them in the Exchange module",
+      "Sets cheque/promissory note status to Paid and generates accounting entries automatically",
+      "Retrieves bank transactions via web services and creates payment and collection records",
+      "Adds dimension, contract number and ledger type to created records"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Cloud Collection"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.sales-restrictions|PAPPID.4bc73c8f-d1e3-4685-8707-b436d579c820",
+  "guid": "4bc73c8f-d1e3-4685-8707-b436d579c820",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "sales-restrictions",
+  "source": {
+    "name": "Sales Restrictions",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.sales-restrictions%7CPAPPID.4bc73c8f-d1e3-4685-8707-b436d579c820",
+    "lastModified": "2025-11-07T05:49:07.4170698+00:00",
+    "appVersion": "27.0.16035.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.nicsystemslearning.com/help/sales-restrictions",
+    "sourceHash": "sha256:75d09b0b0b5bc8fa752bf6374105628467e356b4db600983560b3248c64a86b8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:75d09b0b0b5bc8fa752bf6374105628467e356b4db600983560b3248c64a86b8",
+    "mappedOn": null,
+    "summary": "Restricts items and quantities customers can order",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-assortment-catalogs"
+    ],
+    "claims": [
+      "Permitted items per customer",
+      "Min and max quantity limits on sales orders",
+      "Minimum order amount per customer with warning or error",
+      "Items exempt from restrictions",
+      "Bulk status and mass updates of restrictions",
+      "Blocks release of sales lines with blank quantities"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

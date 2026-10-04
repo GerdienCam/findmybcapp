@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.foodware365|AID.foodware_365_packaging|PAPPID.49ddb68e-32b9-40a0-8d08-427047536852",
+  "guid": "49ddb68e-32b9-40a0-8d08-427047536852",
+  "publisherId": "foodware365",
+  "offerId": "foodware_365_packaging",
+  "source": {
+    "name": "Aptean Packaging for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_packaging%7CPAPPID.49ddb68e-32b9-40a0-8d08-427047536852",
+    "lastModified": "2026-09-23T05:50:04.8891796+00:00",
+    "appVersion": "2602.2.344005.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/PAC/",
+    "sourceHash": "sha256:58ceb141ac8ae961e46c5dbb85ab0dd5d6dd9ec404a5b4f4907b2fc586d687fd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:58ceb141ac8ae961e46c5dbb85ab0dd5d6dd9ec404a5b4f4907b2fc586d687fd",
+    "mappedOn": null,
+    "summary": "Manages returnable packaging inventory and partner balances",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-consignment",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Register crates and pallets as packaging",
+      "Default packaging on items",
+      "Packaging lines auto-added to purchase and sales orders and invoices",
+      "Returnable packaging charges carried into sales price",
+      "Packaging balance per customer with history",
+      "Packaging Wizard for setup"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

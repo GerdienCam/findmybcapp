@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-rental-continia-document-capture|PAPPID.b0e36060-0698-43da-a567-268e2b766c34",
+  "guid": "b0e36060-0698-43da-a567-268e2b766c34",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-rental-continia-document-capture",
+  "source": {
+    "name": "Aptean Rental x Continia Document Capture",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-rental-continia-document-capture%7CPAPPID.b0e36060-0698-43da-a567-268e2b766c34",
+    "lastModified": "2026-09-01T07:38:25.2343641+00:00",
+    "appVersion": "2700.260800.20260828.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:0041c5b6ff4b97d6b6518ea7cfd8fe271453432a2e74bd8578e3dfb29a1c755c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0041c5b6ff4b97d6b6518ea7cfd8fe271453432a2e74bd8578e3dfb29a1c755c",
+    "mappedOn": null,
+    "summary": "Continia Document Capture for Aptean Rental",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-rental"
+    ],
+    "claims": [
+      "Document capture cues placed in the Aptean Rental role center",
+      "Uses Continia Document Capture for invoicing of purchase rentals",
+      "Purchase invoices linked to rental documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [
+      "Continia Document Capture"
+    ],
+    "requires": [
+      "Aptean Rental",
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.scapta1708358347670|AID.58b207bd-66b5-4f98-ac31-e9697cfaa95f|PAPPID.58b207bd-66b5-4f98-ac31-e9697cfaa95f",
+  "guid": "58b207bd-66b5-4f98-ac31-e9697cfaa95f",
+  "publisherId": "scapta1708358347670",
+  "offerId": "58b207bd-66b5-4f98-ac31-e9697cfaa95f",
+  "source": {
+    "name": "XPR365 Scaptify Metafields",
+    "publisher": "XPR365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.scapta1708358347670%7CAID.58b207bd-66b5-4f98-ac31-e9697cfaa95f%7CPAPPID.58b207bd-66b5-4f98-ac31-e9697cfaa95f",
+    "lastModified": "2025-09-09T09:39:00.9041651+00:00",
+    "appVersion": "25.1.20250909.72808",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://scaptify.com/#User-guide",
+    "sourceHash": "sha256:dfac1a95acfc2b92d9718ee441c4f2f0d4ac6b6adaf35129588ec5b2ccf0ebeb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dfac1a95acfc2b92d9718ee441c4f2f0d4ac6b6adaf35129588ec5b2ccf0ebeb",
+    "mappedOn": null,
+    "summary": "Syncs BC data to Shopify metafields",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs item fields and attributes to Shopify product metafields",
+      "Syncs item variant fields to variant metafields",
+      "Syncs customer fields to customer and company metafields (Plus)",
+      "Pushes ship-to address fields into metafields on company locations (Plus)",
+      "Free version limited by number of orders"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Shopify"
+    ],
+    "requires": [
+      "Microsoft Shopify Connector",
+      "Scaptify"
+    ],
+    "deployment": "online",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

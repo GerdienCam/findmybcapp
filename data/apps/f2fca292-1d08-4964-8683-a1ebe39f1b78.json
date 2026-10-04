@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcecommerceintegrationframework-is|PAPPID.f2fca292-1d08-4964-8683-a1ebe39f1b78",
+  "guid": "f2fca292-1d08-4964-8683-a1ebe39f1b78",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcecommerceintegrationframework-is",
+  "source": {
+    "name": "E-commerce Integration Framework",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcecommerceintegrationframework-is%7CPAPPID.f2fca292-1d08-4964-8683-a1ebe39f1b78",
+    "lastModified": "2024-11-21T12:16:12.1068914+00:00",
+    "appVersion": "20.7.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:071b8d140c6bcb4883fd90a377c55ebd5c6c46b5d5f7654034458d276d2e51f6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:071b8d140c6bcb4883fd90a377c55ebd5c6c46b5d5f7654034458d276d2e51f6",
+    "mappedOn": null,
+    "summary": "Framework to integrate e-commerce platforms with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Two-way API connection between e-commerce platform and BC",
+      "Possible integration with nopCommerce, BigCommerce, Magento, Wix, ShopWired, WooCommerce, Vtex",
+      "Syncs master data such as products, prices, UoM and inventory",
+      "Syncs sales orders, return orders, fulfillments and statuses",
+      "Periodic or real-time exchange",
+      "Pull, push and upsert via web services",
+      "Supports B2B and B2C platforms",
+      "Mapping for standard and custom tables"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "nopCommerce",
+      "BigCommerce",
+      "Magento",
+      "Wix",
+      "ShopWired",
+      "WooCommerce",
+      "Vtex"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

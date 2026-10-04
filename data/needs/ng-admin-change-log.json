@@ -1,0 +1,196 @@
+{
+  "id": "ng-admin-change-log",
+  "order": 145,
+  "label": "Seeing who changed what and when",
+  "description": "Enabling change and audit logging, reviewing audit logs and managing log storage.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "medium",
+  "statements": [
+    "Seeing who changed what and when",
+    "Enabling change and audit logging, reviewing audit logs and managing log storage.",
+    "Someone changed the bank account on a vendor and we can't see who",
+    "Who changed the price on this item and when?",
+    "change log entries business central report",
+    "We need to see all logins to BC in the last month",
+    "Is there an app that shows a readable history of changes on each record?",
+    "The change log is huge and impossible to search",
+    "Auditor asks for every change made to customer credit limits this year",
+    "Show me what a user did in BC before they left the company",
+    "We want to see the old and new value side by side on the customer card",
+    "Track who deleted a sales order",
+    "How do we review changes by our partner's consultants in production?",
+    "Monthly report of sensitive field changes for the controller",
+    "How do we turn on the change log for just the important fields?",
+    "We want an alert the moment someone changes a vendor bank account",
+    "field monitoring business central setup",
+    "If we log everything BC gets slow and storage explodes, what should we track?",
+    "Is there an app that sets up sensible audit logging for us?",
+    "We need to keep logs for seven years for compliance",
+    "Send BC audit events to our SIEM tool",
+    "Track changes on setup tables, not just master data",
+    "Our partner turned on logging for every table and now storage is full",
+    "Telemetry from BC into Application Insights, how to set it up?",
+    "Log who opens sensitive pages like employee salaries",
+    "Change log retention policy setup",
+    "Our change log has grown to tens of millions of entries",
+    "How long should we keep change log entries, and can BC delete older ones automatically?",
+    "retention policy logs business central",
+    "The sent email log and error message log tables are huge",
+    "Is there a way to archive old log entries somewhere cheaper instead of deleting them?",
+    "We need to look through months of integration logs and the BC pages are useless for that",
+    "Can we export the change log to Azure or a data lake and remove it from BC?",
+    "Auditors need two years of logs but the database can't keep growing",
+    "Different logs need different retention, can we set that per table?",
+    "Searching the change log for one field change takes forever",
+    "Old telemetry and diagnostic logs, where do we view them and how do we clear them?",
+    "log cleanup BC"
+  ],
+  "questions": [
+    {
+      "id": "react",
+      "text": "What should happen when someone changes important data?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Send me an email alert",
+          "patterns": [
+            "e-?mail",
+            "notification",
+            "alert"
+          ]
+        },
+        {
+          "label": "Require approval first",
+          "patterns": [
+            "approv"
+          ]
+        },
+        {
+          "label": "Let me undo it",
+          "patterns": [
+            "undo",
+            "restor"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Send me an email alert": 0.27,
+        "Require approval first": 0.18,
+        "Let me undo it": 0.27
+      }
+    },
+    {
+      "id": "scope",
+      "text": "What do you want to track?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Any table or master data",
+          "patterns": [
+            "all tables",
+            "any (page|table)",
+            "master data",
+            "critical data",
+            "configuration",
+            "virtually any table",
+            "tracked tables",
+            "record changes"
+          ]
+        },
+        {
+          "label": "Specific risky areas: order changes or vendor bank details",
+          "patterns": [
+            "order lines",
+            "sales and purchase order",
+            "bank account",
+            "payments? blocked"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Any table or master data": 0.64,
+        "Specific risky areas: order changes or vendor bank details": 0.18
+      }
+    },
+    {
+      "id": "in-context",
+      "text": "Do you want to open the history straight from the record you are looking at?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "from (any|entity) (master data )?cards?",
+            "any page",
+            "one click",
+            "related > history",
+            "factbox",
+            "per record",
+            "directly from"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.45
+      }
+    },
+    {
+      "id": "compliance",
+      "text": "Do auditors require controls like segregation of duties (SOX)?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "\\bsox\\b",
+            "gdpr",
+            "segregation",
+            "fraud",
+            "compliance"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.36
+      }
+    },
+    {
+      "id": "volume",
+      "text": "Is the change log getting too big or noisy?",
+      "options": [
+        {
+          "label": "Yes, need to reduce or move it",
+          "patterns": [
+            "retention",
+            "suppress",
+            "exclud",
+            "cosmos",
+            "storage"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, need to reduce or move it": 0.18
+      }
+    }
+  ]
+}

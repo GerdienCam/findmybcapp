@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.astral365|AID.astral_send|PAPPID.7039ffd5-9425-433b-b569-905fd6fea9ba",
+  "guid": "7039ffd5-9425-433b-b569-905fd6fea9ba",
+  "publisherId": "astral365",
+  "offerId": "astral_send",
+  "source": {
+    "name": "Astral Send",
+    "publisher": "Astral 365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.astral365%7CAID.astral_send%7CPAPPID.7039ffd5-9425-433b-b569-905fd6fea9ba",
+    "lastModified": "2025-11-07T17:58:32.3931507+00:00",
+    "appVersion": "4.8.26.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.astral365.com/Products/AstralSend/Help",
+    "sourceHash": "sha256:3c06fbfb22c769285d3a2455058ba66ea02e8cb28a5f32bead9c6137f7546f00"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3c06fbfb22c769285d3a2455058ba66ea02e8cb28a5f32bead9c6137f7546f00",
+    "mappedOn": null,
+    "summary": "Automated PDF document distribution by email",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-setup"
+    ],
+    "claims": [
+      "Email templates for sales, purchase, service documents, statements and remittance advice",
+      "Send documents individually, in batch, or scheduled",
+      "Groups multiple documents on one email",
+      "Attach additional documents",
+      "Send log of documents",
+      "Job queue integration e.g. nightly sending of unsent invoices",
+      "Integrates with Office 365"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_goods_receipt_item_charge_mgt|PAPPID.6eccffb9-eec2-4ec2-9d16-a565ea5ef846",
+  "guid": "6eccffb9-eec2-4ec2-9d16-a565ea5ef846",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_goods_receipt_item_charge_mgt",
+  "source": {
+    "name": "m+m Goods Receipt with Item Charge Mgt.",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_goods_receipt_item_charge_mgt%7CPAPPID.6eccffb9-eec2-4ec2-9d16-a565ea5ef846",
+    "lastModified": "2026-09-15T07:40:13.5345061+00:00",
+    "appVersion": "28.0.374898.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:d7accb266899b1f23c3d57ac271c1779ad347d446ed6fb77af1a6f72819ccdf6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d7accb266899b1f23c3d57ac271c1779ad347d446ed6fb77af1a6f72819ccdf6",
+    "mappedOn": null,
+    "summary": "Captures service charges on m+m warehouse receipts",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Records and prices additional service charges on warehouse receipts, with approval",
+      "Item-charge lines carry the charges over to the sales order that is created",
+      "Supported BC editions as stated"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Goods Receipt",
+      "m+m Item Charge Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

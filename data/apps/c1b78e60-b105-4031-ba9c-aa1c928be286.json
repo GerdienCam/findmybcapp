@@ -1,0 +1,83 @@
+{
+  "appId": "PUBID.theilit|AID.theilit-sub-test|PAPPID.c1b78e60-b105-4031-ba9c-aa1c928be286",
+  "guid": "c1b78e60-b105-4031-ba9c-aa1c928be286",
+  "publisherId": "theilit",
+  "offerId": "theilit-sub-test",
+  "source": {
+    "name": "Market Radar",
+    "publisher": "Theil IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.theilit%7CAID.theilit-sub-test%7CPAPPID.c1b78e60-b105-4031-ba9c-aa1c928be286",
+    "lastModified": "2025-09-21T13:20:15.8239144+00:00",
+    "appVersion": "1.2.86.0",
+    "pricingTypes": [
+      "Free",
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.theil-it.dk/docs/products/marketradar/help-overview",
+    "sourceHash": "sha256:1b535c6fba9a1fb2abe292f70d262a3906138144eb7fc977f44c5f33a368b98a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1b535c6fba9a1fb2abe292f70d262a3906138144eb7fc977f44c5f33a368b98a",
+    "mappedOn": null,
+    "summary": "Validates customers and vendors against EU VAT registry",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding",
+      "ng-customer-credit-holds"
+    ],
+    "claims": [
+      "Validates customers and vendors against EU VIES",
+      "VIES lookup included in free license",
+      "Auto-blocks trading or payment when status becomes invalid (Pro)",
+      "Fetches registry data from DK CVR, SE Bolagsverket, NO Brønnøysund, FI YTJ, FR Sirene, BE CBE",
+      "Sets contact info for new customers and vendors",
+      "Look up VAT numbers by company name",
+      "Fetches stock market closing prices for partners",
+      "Free, Basic and Pro plans with monthly rate limits"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "VIES",
+      "CVR",
+      "Bolagsverket",
+      "Brønnøysundregistrene",
+      "YTJ",
+      "Sirene",
+      "CBE"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

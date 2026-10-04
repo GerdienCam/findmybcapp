@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex055_packinglist|PAPPID.4322e2ed-02d4-490b-b644-02235c517973",
+  "guid": "4322e2ed-02d4-490b-b644-02235c517973",
+  "publisherId": "eos_solutions",
+  "offerId": "ex055_packinglist",
+  "source": {
+    "name": "Packing List",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex055_packinglist%7CPAPPID.4322e2ed-02d4-490b-b644-02235c517973",
+    "lastModified": "2026-08-07T10:54:11.8347856+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/packing-list-pck.html",
+    "sourceHash": "sha256:4fd52b9f6e1f97a7daeedbfa09d7cbf365db1a34fa75b9d2c0344cdf0ae9d7dd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4fd52b9f6e1f97a7daeedbfa09d7cbf365db1a34fa75b9d2c0344cdf0ae9d7dd",
+    "mappedOn": null,
+    "summary": "Creates packing lists from orders and shipments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Packing list linked to sales, purchase, transfer, return orders and warehouse shipments",
+      "Compose packing list from shipment items",
+      "System suggests containers and quantities per container",
+      "Print packing list",
+      "Define packaging materials",
+      "Nested containers in a tree structure",
+      "Requires EOS Over- and Under-Delivery Quantities"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Over- and Under-Delivery Quantities"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.bricklead1692180953470|AID.bri_ins|PAPPID.93e94f53-625c-4c97-9d31-59c3bf63c420",
+  "guid": "93e94f53-625c-4c97-9d31-59c3bf63c420",
+  "publisherId": "bricklead1692180953470",
+  "offerId": "bri_ins",
+  "source": {
+    "name": "Inspection Status",
+    "publisher": "BRICKLEAD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bricklead1692180953470%7CAID.bri_ins%7CPAPPID.93e94f53-625c-4c97-9d31-59c3bf63c420",
+    "lastModified": "2026-07-15T15:38:00.6698986+00:00",
+    "appVersion": "26.0.9692.58519",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.bricklead.eu/en-us/apps/ins/",
+    "sourceHash": "sha256:a0da0b94c9713e3168fe61cc8111c27a6a51bf17b25817ce6ac6bad6a900f931"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a0da0b94c9713e3168fe61cc8111c27a6a51bf17b25817ce6ac6bad6a900f931",
+    "mappedOn": null,
+    "summary": "Lot inspection statuses for quality control",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-hold",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability",
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Lot inspection status logged and changed with goods status",
+      "Inspection codes allow or block specific transactions",
+      "Default inspection status on lot creation",
+      "Find tested lots meeting a status for sales orders",
+      "Block vendor payment for defective products",
+      "Supports Essential and Premium"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

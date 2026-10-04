@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.variable-capacity-cost|PAPPID.db4bd7fb-0a7a-4c20-ba71-4252493ffcbc",
+  "guid": "db4bd7fb-0a7a-4c20-ba71-4252493ffcbc",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "variable-capacity-cost",
+  "source": {
+    "name": "Variable Capacity Cost",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.variable-capacity-cost%7CPAPPID.db4bd7fb-0a7a-4c20-ba71-4252493ffcbc",
+    "lastModified": "2025-12-03T22:02:00.7656939+00:00",
+    "appVersion": "27.0.16038.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nicsystemslearning.com/help/variable-capacity-cost",
+    "sourceHash": "sha256:c1e46722f47dd74f362421eba64ac48e6f902408dae70322de4f0d53b55c83aa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c1e46722f47dd74f362421eba64ac48e6f902408dae70322de4f0d53b55c83aa",
+    "mappedOn": null,
+    "summary": "Variable capacity cost on work and machine center output",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-shop-floor-reporting"
+    ],
+    "claims": [
+      "Direct cost = cost factor x direct unit cost on output posting",
+      "Works with time- or unit-based costs",
+      "Record resource usage without affecting cost",
+      "Require cost factor on work/machine centers",
+      "Enter cost factor via Mobile Data Collection app"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

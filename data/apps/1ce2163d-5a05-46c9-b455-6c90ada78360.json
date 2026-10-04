@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.lanhamassociates|AID.lanham_inbound_container|PAPPID.1ce2163d-5a05-46c9-b455-6c90ada78360",
+  "guid": "1ce2163d-5a05-46c9-b455-6c90ada78360",
+  "publisherId": "lanhamassociates",
+  "offerId": "lanham_inbound_container",
+  "source": {
+    "name": "Lanham Inbound Container",
+    "publisher": "Lanham Associates",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lanhamassociates%7CAID.lanham_inbound_container%7CPAPPID.1ce2163d-5a05-46c9-b455-6c90ada78360",
+    "lastModified": "2026-04-23T15:54:15.4634325+00:00",
+    "appVersion": "27.1.16.12",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ictla.helpdocsonline.com/home",
+    "sourceHash": "sha256:f3e7e8fd15eb3617b224c603a615dd602685733f8104c436c4e5dfbb664d9151"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f3e7e8fd15eb3617b224c603a615dd602685733f8104c436c4e5dfbb664d9151",
+    "mappedOn": null,
+    "summary": "Tracks inbound container shipments and on-the-water inventory",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Imports ASN or spreadsheet to create inbound container document",
+      "Reconciles open POs against ASN and assigns container number to receipt lines",
+      "Purchase invoice before shipment via Get Receipt Lines filtered by container",
+      "Receives into On-The-Water location with transfer to warehouse",
+      "Landed cost via item charges",
+      "Count or scan container contents on arrival"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IE",
+      "IT",
+      "MX",
+      "NL",
+      "NZ",
+      "PT",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

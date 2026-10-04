@@ -1,0 +1,62 @@
+{
+  "appId": "TYPE.connect|PUBID.erpwareltd|AID.adyen-payment-by-link|PAPPID.00ea7f87-4edf-4763-91d7-ffd5393e4a45",
+  "guid": "00ea7f87-4edf-4763-91d7-ffd5393e4a45",
+  "publisherId": "erpwareltd",
+  "offerId": "adyen-payment-by-link",
+  "source": {
+    "name": "DCX - Adyen Payment By Link",
+    "publisher": "ERP Ware",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.erpwareltd%7CAID.adyen-payment-by-link%7CPAPPID.00ea7f87-4edf-4763-91d7-ffd5393e4a45",
+    "lastModified": "2025-10-13T02:42:40.9076425+00:00",
+    "appVersion": "26.5.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamics-connect.com/apps/adyen-payment-by-link",
+    "sourceHash": "sha256:082f357accc6bc64591fa0f1c01809eaa70bb60b21de93944c7ee715dd4ab5bb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:082f357accc6bc64591fa0f1c01809eaa70bb60b21de93944c7ee715dd4ab5bb",
+    "mappedOn": null,
+    "summary": "Payment by link via Adyen",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-retail-pos"
+    ],
+    "claims": [
+      "Sends customers Adyen payment requests as secure email links",
+      "Payment link sent from a sales order or invoice with one click",
+      "Logs sent requests and completed payments including payment references",
+      "No customer portal login required",
+      "LS Central integration with Customer Not Present and Payment by Link tender options at POS",
+      "Azure configuration handled by the publisher",
+      "Works with or without LS Central"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Adyen",
+      "LS Central"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

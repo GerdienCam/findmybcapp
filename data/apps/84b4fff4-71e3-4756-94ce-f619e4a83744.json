@@ -1,0 +1,63 @@
+{
+  "appId": "TYPE.connect|PUBID.6910861|AID.closecore-bc|PAPPID.84b4fff4-71e3-4756-94ce-f619e4a83744",
+  "guid": "84b4fff4-71e3-4756-94ce-f619e4a83744",
+  "publisherId": "6910861",
+  "offerId": "closecore-bc",
+  "source": {
+    "name": "CloseCore",
+    "publisher": "CloseCore Inc",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.6910861%7CAID.closecore-bc%7CPAPPID.84b4fff4-71e3-4756-94ce-f619e4a83744",
+    "lastModified": "2025-11-03T03:54:28.4343738+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://closecore.com/",
+    "sourceHash": "sha256:f97e83ffbd1734ffa483410c472bb0062afe61a3b8dbc725cd9505b62e924ffe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f97e83ffbd1734ffa483410c472bb0062afe61a3b8dbc725cd9505b62e924ffe",
+    "mappedOn": null,
+    "summary": "Financial close checklist, reconciliations and variance analysis",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-period-close",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Month-end close checklist management",
+      "Reconciliation automation and accuracy checks",
+      "Visibility into close progress",
+      "Variance analysis",
+      "Addresses supporting documentation for reconciliations and auditors",
+      "Avoids manual roll-forward of checklists, folders and documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint",
+      "OneDrive",
+      "Teams"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

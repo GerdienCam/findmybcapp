@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex07501_simulatedglforbonus|PAPPID.b9694c42-c96d-4235-967a-572c7d0aed2e",
+  "guid": "b9694c42-c96d-4235-967a-572c7d0aed2e",
+  "publisherId": "eos_solutions",
+  "offerId": "ex07501_simulatedglforbonus",
+  "source": {
+    "name": "Simulated GL for Bonus",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex07501_simulatedglforbonus%7CPAPPID.b9694c42-c96d-4235-967a-572c7d0aed2e",
+    "lastModified": "2026-04-10T09:24:14.781207+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/sales-purchase-bonus.html",
+    "sourceHash": "sha256:42cc99fe9bd9d1be6567ff170ca873daeadb9f1b5b0c6ee3502d9e2275730dc6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:42cc99fe9bd9d1be6567ff170ca873daeadb9f1b5b0c6ee3502d9e2275730dc6",
+    "mappedOn": null,
+    "summary": "Posts simulated G/L entries for bonus forecasts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-accruals-deferrals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-rebates",
+      "ng-financial-statements"
+    ],
+    "claims": [
+      "Bonus contracts and terms per customer or hierarchical group",
+      "Calculates customer bonuses and vendor bonuses",
+      "Periodic bonus forecast",
+      "Simulated G/L entries not impacting the general ledger",
+      "Combined view of G/L and simulated entries with interim financial statements",
+      "Depends on EOS Accruals and Simulated General Ledger along with EOS Sales Purchase Bonus"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Accruals and Simulated General Ledger",
+      "EOS Sales Purchase Bonus"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

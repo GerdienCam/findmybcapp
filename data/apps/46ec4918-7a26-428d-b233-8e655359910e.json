@@ -1,0 +1,59 @@
+{
+  "appId": "TYPE.connect|PUBID.1502980|AID.6949805-uae-e-invoice|PAPPID.46ec4918-7a26-428d-b233-8e655359910e",
+  "guid": "46ec4918-7a26-428d-b233-8e655359910e",
+  "publisherId": "1502980",
+  "offerId": "6949805-uae-e-invoice",
+  "source": {
+    "name": "UAE E-Invoice Business Central",
+    "publisher": "Dynamics 365 Zone",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.1502980%7CAID.6949805-uae-e-invoice%7CPAPPID.46ec4918-7a26-428d-b233-8e655359910e",
+    "lastModified": "2026-08-31T08:12:04.2218634+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://d365zone.com/business-central/uae-e-invoice",
+    "sourceHash": "sha256:53d24ccfe309e52fee7174cbcaf30a8cf35b02874a65b7cbd61ff6465aee7d3a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:53d24ccfe309e52fee7174cbcaf30a8cf35b02874a65b7cbd61ff6465aee7d3a",
+    "mappedOn": null,
+    "summary": "UAE electronic invoicing",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "UAE e-invoicing of sales invoices from BC",
+      "Processing status tracking",
+      "e-Invoicing dashboard with successful, failed and pending invoices",
+      "Purchase invoice staging with validation before creation",
+      "Creates purchase invoices from validated staging records",
+      "Transaction history with validation results and error details"
+    ],
+    "countries": [
+      "AE"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

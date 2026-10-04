@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.tinx-it|AID.tinx-cloudsuite-connector|PAPPID.8fc2abd1-9ce8-423c-8464-e21584e6da99",
+  "guid": "8fc2abd1-9ce8-423c-8464-e21584e6da99",
+  "publisherId": "tinx-it",
+  "offerId": "tinx-cloudsuite-connector",
+  "source": {
+    "name": "Tinx CloudSuite Connector",
+    "publisher": "Tinx-IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-cloudsuite-connector%7CPAPPID.8fc2abd1-9ce8-423c-8464-e21584e6da99",
+    "lastModified": "2026-09-24T11:53:19.3529612+00:00",
+    "appVersion": "28.1.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.tinx-it.com/",
+    "sourceHash": "sha256:5e84f0e8dbecdb81dafc990741257b936a33bbe487ae04e6d5c898eb88fa7ebc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5e84f0e8dbecdb81dafc990741257b936a33bbe487ae04e6d5c898eb88fa7ebc",
+    "mappedOn": null,
+    "summary": "Integrates CloudSuite webshop with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals",
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Syncs products between BC and CloudSuite",
+      "Assigns price lists to customers",
+      "Centralises inventory in BC",
+      "Self-service portals for B2C and B2B customers",
+      "Automated order import with new and existing customer assignment",
+      "Sends tracking information to webshop customers",
+      "Customer-specific price agreements in the webshop"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "CloudSuite"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

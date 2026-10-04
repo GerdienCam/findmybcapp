@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.zeroblu|AID.bc365_azurepdf|PAPPID.a7c49c88-7712-400a-9fc5-bc35f8e02ac5",
+  "guid": "a7c49c88-7712-400a-9fc5-bc35f8e02ac5",
+  "publisherId": "zeroblu",
+  "offerId": "bc365_azurepdf",
+  "source": {
+    "name": "APP365 - Export Invoices Orders to Azure Storage",
+    "publisher": "ZeroBlu Srl",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.zeroblu%7CAID.bc365_azurepdf%7CPAPPID.a7c49c88-7712-400a-9fc5-bc35f8e02ac5",
+    "lastModified": "2024-11-21T07:44:08.1467157+00:00",
+    "appVersion": "3.0.0.17",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.business-central.app/public/app365azure_help.pdf",
+    "sourceHash": "sha256:11961febd31dade3e31bce744a05028cd5ac4ba67808fd46a5100860c4b55937"
+  },
+  "mapping": {
+    "sourceHash": "sha256:11961febd31dade3e31bce744a05028cd5ac4ba67808fd46a5100860c4b55937",
+    "mappedOn": null,
+    "summary": "Exports invoice and order PDFs to Azure storage",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Exports invoice and sales order PDFs to Azure blob storage",
+      "Mass export of invoice and sales order PDFs",
+      "Lets external mobile/web apps get PDFs without using BC API calls",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CA",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "GR",
+      "IE",
+      "IT",
+      "LT",
+      "LV",
+      "MT",
+      "NL",
+      "PT",
+      "RO",
+      "SI",
+      "SK",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

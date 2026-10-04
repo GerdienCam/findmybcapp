@@ -1,0 +1,51 @@
+{
+  "appId": "PUBID.heptacomgmbh1600526633273|AID.tweecore_base_app|PAPPID.8f062a5b-7f0e-4fd4-86a0-36151ebc2c32",
+  "guid": "8f062a5b-7f0e-4fd4-86a0-36151ebc2c32",
+  "publisherId": "heptacomgmbh1600526633273",
+  "offerId": "tweecore_base_app",
+  "source": {
+    "name": "TWEECORE Base",
+    "publisher": "HEPTACOM GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.heptacomgmbh1600526633273%7CAID.tweecore_base_app%7CPAPPID.8f062a5b-7f0e-4fd4-86a0-36151ebc2c32",
+    "lastModified": "2024-11-21T07:23:55.0309381+00:00",
+    "appVersion": "1.2.0.30",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.tweecore.de/support/",
+    "sourceHash": "sha256:ffde35480e2b9d9c87994067a15c7a669923253a9fc78cfdf782c0f281267ba9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ffde35480e2b9d9c87994067a15c7a669923253a9fc78cfdf782c0f281267ba9",
+    "mappedOn": null,
+    "summary": "Base and subscription management for TWEECORE apps",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-licensing",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Manages subscriptions for other TWEECORE apps"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Base/dependency app for other TWEECORE apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

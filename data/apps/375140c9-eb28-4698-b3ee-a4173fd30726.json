@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcspeedycourierintegr-is|PAPPID.375140c9-eb28-4698-b3ee-a4173fd30726",
+  "guid": "375140c9-eb28-4698-b3ee-a4173fd30726",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcspeedycourierintegr-is",
+  "source": {
+    "name": "Speedy Courier Integration",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcspeedycourierintegr-is%7CPAPPID.375140c9-eb28-4698-b3ee-a4173fd30726",
+    "lastModified": "2025-08-08T14:53:45.4900493+00:00",
+    "appVersion": "21.1.59.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:0f6d21da5b479c0703b5d43e09b5c6c2e40c57f2089dfd889f309373704b950d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0f6d21da5b479c0703b5d43e09b5c6c2e40c57f2089dfd889f309373704b950d",
+    "mappedOn": null,
+    "summary": "Books Speedy courier shipments from BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Integrates with Speedy REST API",
+      "Creates and cancels shipments",
+      "Merges several documents into one shipment request",
+      "Stores Speedy office and service directory",
+      "Live and test modes",
+      "Default values for request settings",
+      "Shipment evaluation on demand",
+      "Real-time shipment tracking",
+      "Setup wizard"
+    ],
+    "countries": [],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Speedy"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

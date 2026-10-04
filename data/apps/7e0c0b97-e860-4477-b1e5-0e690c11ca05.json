@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.abakion|AID.nshift_shipping_connector|PAPPID.7e0c0b97-e860-4477-b1e5-0e690c11ca05",
+  "guid": "7e0c0b97-e860-4477-b1e5-0e690c11ca05",
+  "publisherId": "abakion",
+  "offerId": "nshift_shipping_connector",
+  "source": {
+    "name": "nShift Shipping Connector",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.nshift_shipping_connector%7CPAPPID.7e0c0b97-e860-4477-b1e5-0e690c11ca05",
+    "lastModified": "2026-05-07T06:33:33.5475003+00:00",
+    "appVersion": "28.0.202619.164554",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/nshift/#howto",
+    "sourceHash": "sha256:69e932761a6180654caf48c668d672ce8ad05e4fddcca008fbaa9fd234986e13"
+  },
+  "mapping": {
+    "sourceHash": "sha256:69e932761a6180654caf48c668d672ce8ad05e4fddcca008fbaa9fd234986e13",
+    "mappedOn": null,
+    "summary": "Creates waybills, packs, prints labels and tracks shipments via nShift",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Creates waybills and arranges nShift shipping with track & trace",
+      "Calculates weight, dimensions, volume and tariffs",
+      "Built on Shipping Manager app plus Power Automate connector",
+      "One waybill per delivery address with predefined packages",
+      "Arrange pickup from BC",
+      "Label and track & trace number saved on the waybill",
+      "Pickup number bundles several waybills"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "nShift",
+      "Power Automate"
+    ],
+    "requires": [
+      "Shipping Manager"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

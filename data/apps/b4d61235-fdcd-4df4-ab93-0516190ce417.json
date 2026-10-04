@@ -1,0 +1,58 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.shopify-import-edi-orders|PAPPID.b4d61235-fdcd-4df4-ab93-0516190ce417",
+  "guid": "b4d61235-fdcd-4df4-ab93-0516190ce417",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "shopify-import-edi-orders",
+  "source": {
+    "name": "Automatic Import of Shopify Orders",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.shopify-import-edi-orders%7CPAPPID.b4d61235-fdcd-4df4-ab93-0516190ce417",
+    "lastModified": "2026-07-16T09:13:00.4918788+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://knowledgebase.hubbroker.net/article/0ip1a6aptw-shopify-orders-to-msdynamics",
+    "sourceHash": "sha256:1b1a2c61d6fdf7c17bc392eaae2bff7b7f3f59a9a288c7090897b78d57821c0f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1b1a2c61d6fdf7c17bc392eaae2bff7b7f3f59a9a288c7090897b78d57821c0f",
+    "mappedOn": null,
+    "summary": "Imports Shopify orders into BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Automatically imports Shopify orders into BC via iPaaS",
+      "Validates and converts order data",
+      "Tracks imported orders in the iPaaS",
+      "REST API data integration"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Shopify",
+      "HubBroker iPaaS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

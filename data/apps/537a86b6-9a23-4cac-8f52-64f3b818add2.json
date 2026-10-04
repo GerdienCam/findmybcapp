@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.ecodelas1585264231154|AID.excbsplus|PAPPID.537a86b6-9a23-4cac-8f52-64f3b818add2",
+  "guid": "537a86b6-9a23-4cac-8f52-64f3b818add2",
+  "publisherId": "ecodelas1585264231154",
+  "offerId": "excbsplus",
+  "source": {
+    "name": "BS Plus - Betalingsservice",
+    "publisher": "Ecodel",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ecodelas1585264231154%7CAID.excbsplus%7CPAPPID.537a86b6-9a23-4cac-8f52-64f3b818add2",
+    "lastModified": "2026-09-30T20:30:51.4208817+00:00",
+    "appVersion": "28.0.260930.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.erphotel.com/hc/da/articles/30535620705053-Betalingsservice-BS-Plus-integration-til-Business-Central",
+    "sourceHash": "sha256:5f9c17ab05da51039955502b7c70dfa8dcd02d946464d00582605946acfaba2b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5f9c17ab05da51039955502b7c70dfa8dcd02d946464d00582605946acfaba2b",
+    "mappedOn": null,
+    "summary": "Manages Betalingsservice direct debit agreements and payments",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-payment-providers",
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Export new, changed and cancelled Betalingsservice agreements",
+      "Monthly confirmation of active agreements",
+      "Monthly import of Betalingsservice overview with vouchers",
+      "Posting template per agreement",
+      "Cross-company overview of agreements",
+      "Approve or reject payments in overview",
+      "Automated posting across companies",
+      "Requires creditor agreement with Betalingsservice"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Betalingsservice"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

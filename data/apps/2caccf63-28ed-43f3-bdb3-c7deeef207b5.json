@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.nprogressiondoo1666616266569|AID.np_powercentral_bc|PAPPID.2caccf63-28ed-43f3-bdb3-c7deeef207b5",
+  "guid": "2caccf63-28ed-43f3-bdb3-c7deeef207b5",
+  "publisherId": "nprogressiondoo1666616266569",
+  "offerId": "np_powercentral_bc",
+  "source": {
+    "name": "PowerCentral API",
+    "publisher": "Nprogression",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nprogressiondoo1666616266569%7CAID.np_powercentral_bc%7CPAPPID.2caccf63-28ed-43f3-bdb3-c7deeef207b5",
+    "lastModified": "2025-10-22T05:02:46.9831428+00:00",
+    "appVersion": "1.0.11.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nprogression.com/tools/powercentral-user-manual",
+    "sourceHash": "sha256:e97c3e20a65c78375004d29f784b1b7805d5f844988c4379717722ff106e2ae5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e97c3e20a65c78375004d29f784b1b7805d5f844988c4379717722ff106e2ae5",
+    "mappedOn": null,
+    "summary": "API extension required for PowerCentral Power BI reports",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-excel-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-financial-statements",
+      "ng-budget-vs-actual",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Predefined financial dashboards: revenue, costs, profits",
+      "Trial balance, income statement, balance sheet and cash flow by dimensions",
+      "Cash flow forecast analysis",
+      "Budget vs actual analysis by dimensions",
+      "Customer debt aging by age, currency and dimensions",
+      "Vendor liabilities analysis by vendor, invoice and age",
+      "Sales budget vs actual tracking",
+      "Excel pivot access to GL, customer, vendor, item ledger and sales data",
+      "Multi-company support and chart of accounts hierarchy in the model",
+      "Drill down to transaction level from Excel or dashboards",
+      "Free in non-production environments; production needs license"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power BI",
+      "PowerCentral"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

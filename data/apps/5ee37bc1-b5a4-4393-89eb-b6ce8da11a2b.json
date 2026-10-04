@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.dms|AID.dsh_autostore_interface|PAPPID.5ee37bc1-b5a4-4393-89eb-b6ce8da11a2b",
+  "guid": "5ee37bc1-b5a4-4393-89eb-b6ce8da11a2b",
+  "publisherId": "dms",
+  "offerId": "dsh_autostore_interface",
+  "source": {
+    "name": "AutoStore Connector",
+    "publisher": "DMS-Systemhaus GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dms%7CAID.dsh_autostore_interface%7CPAPPID.5ee37bc1-b5a4-4393-89eb-b6ce8da11a2b",
+    "lastModified": "2026-10-02T09:57:23.1473512+00:00",
+    "appVersion": "27.0.0.18",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dms-sys.de/store/navision-dynamics-nav-365-business-central/schnittstelle/autostore/",
+    "sourceHash": "sha256:b3de4715510cd5a4644ccb17f57efb6dbfe5cd00a922e0ba774de30abc9316c4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b3de4715510cd5a4644ccb17f57efb6dbfe5cd00a922e0ba774de30abc9316c4",
+    "mappedOn": null,
+    "summary": "Integrates AutoStore warehouse robots with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-warehouse-setup",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-stock-counting",
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Controls AutoStore warehouse processes from BC",
+      "Inbound and outbound AutoStore processes",
+      "Relocation and manual warehouse postings",
+      "Inventory counting",
+      "Port-controlled processing with multiple ports and multi-SKU bins",
+      "Optional packing line and carrier connection (DHL, DPD, FedEx)"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "AutoStore",
+      "DHL",
+      "DPD",
+      "FedEx"
+    ],
+    "requires": [
+      "AutoStore"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

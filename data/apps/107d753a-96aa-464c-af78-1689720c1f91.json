@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.abakion|AID.search_items|PAPPID.107d753a-96aa-464c-af78-1689720c1f91",
+  "guid": "107d753a-96aa-464c-af78-1689720c1f91",
+  "publisherId": "abakion",
+  "offerId": "search_items",
+  "source": {
+    "name": "Search Items",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.search_items%7CPAPPID.107d753a-96aa-464c-af78-1689720c1f91",
+    "lastModified": "2026-05-04T13:09:09.960878+00:00",
+    "appVersion": "28.0.202617.163147",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/search-items/",
+    "sourceHash": "sha256:53c3a76aa507d5f1e421d62e7dc89e6950c1ff5c144a3215b31deaa54162217f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:53c3a76aa507d5f1e421d62e7dc89e6950c1ff5c144a3215b31deaa54162217f",
+    "mappedOn": null,
+    "summary": "Search items by description on sales lines",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-search-navigation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Search field on sales order lines",
+      "Multi-word fragment search, any order, case-insensitive",
+      "No special filter characters needed",
+      "Available on sales order line, item lookup and item list pages",
+      "Free"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

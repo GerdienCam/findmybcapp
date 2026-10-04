@@ -1,0 +1,224 @@
+{
+  "id": "ng-audit-compliance",
+  "order": 58,
+  "label": "Audit trail and supporting the auditors",
+  "description": "Tracking who changed or posted what, supporting the year-end audit, audit file exports and regulatory compliance checks.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "medium",
+  "statements": [
+    "Audit trail and supporting the auditors",
+    "Tracking who changed or posted what, supporting the year-end audit, audit file exports and regulatory compliance checks.",
+    "Someone changed a customer's payment terms and we have no idea who",
+    "We need a log of every change to vendor bank accounts and G/L setup",
+    "change log BC finance",
+    "Is there an app that flags unusual journal entries, like postings on weekends?",
+    "Who posted this entry and why?",
+    "We need to detect duplicate payments and suspicious transactions",
+    "Internal control wants to review all manual postings over 50,000",
+    "Track changes to posted documents and setup tables",
+    "Auditor asks for a list of all journal entries posted by the CFO",
+    "Fraud detection on financial transactions",
+    "Want automatic rules that alert us to policy violations in postings",
+    "Track the status history of every e-invoice we sent",
+    "The auditors send 80 requests each year and we spend weeks pulling reports",
+    "Export an audit file of all G/L entries for our auditor",
+    "audit file export BC",
+    "Is there an app that gives auditors read only access to what they need?",
+    "Auditor wants to trace a P&L figure back to the source invoice",
+    "Print account statements for all balance sheet accounts at year end",
+    "Find all vouchers and attached documents for a sample of entries",
+    "Auditors want customer aging and vendor aging for all companies",
+    "Provide the auditor with a tax report print for the year",
+    "We need a document pack for the audit with supporting files",
+    "Audit trail from financial statement line to document",
+    "Our audit always gets delayed because documents are not attached in BC",
+    "How do we know our bookkeeping meets the new digital bookkeeping law?",
+    "Check that we keep invoices and vouchers for the required number of years",
+    "Is BC compliant with the Danish bookkeeping act?",
+    "financial compliance monitoring",
+    "We need to show the authorities our accounting follows local rules",
+    "Keep up with new tax and accounting regulations in each country we operate in"
+  ],
+  "questions": [
+    {
+      "id": "driver",
+      "text": "What do you need to prove or prevent?",
+      "help": "Pick the main reason.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Not trading with sanctioned or embargoed parties",
+          "patterns": [
+            "sanction",
+            "embargo"
+          ]
+        },
+        {
+          "label": "Show who changed what, and when",
+          "patterns": [
+            "audit trail",
+            "change tracking",
+            "log(s|ging)? (of )?all (data |configuration )?changes",
+            "records all configuration",
+            "log of all changes",
+            "change detection"
+          ]
+        },
+        {
+          "label": "Approval or separation of duties for sensitive changes",
+          "patterns": [
+            "segregation",
+            "electronic signature",
+            "four-eyes",
+            "supervisor approv",
+            "approv\\w* (of )?changes",
+            "critical functions"
+          ]
+        },
+        {
+          "label": "Help the auditor check the books",
+          "patterns": [
+            "auditor",
+            "audit tools",
+            "for audits",
+            "period.close",
+            "audit checklist",
+            "digital voucher"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Not trading with sanctioned or embargoed parties": 0.31,
+        "Show who changed what, and when": 0.31,
+        "Approval or separation of duties for sensitive changes": 0.31,
+        "Help the auditor check the books": 0.31
+      }
+    },
+    {
+      "id": "screening",
+      "text": "What do you need to screen against restricted lists?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Customers, vendors and contacts",
+          "patterns": [
+            "(checks|screens?|check) (all )?(vendors|contacts|customers)",
+            "customers or ship-to",
+            "business contacts",
+            "checks vendors"
+          ]
+        },
+        {
+          "label": "Products and goods (export control)",
+          "patterns": [
+            "products and goods",
+            "items, variants",
+            "goods movements",
+            "customs tariff",
+            "finished goods"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Customers, vendors and contacts": 0.25,
+        "Products and goods (export control)": 0.12
+      }
+    },
+    {
+      "id": "regime",
+      "text": "Which rules apply to you?",
+      "multi": true,
+      "options": [
+        {
+          "label": "GMP / FDA (pharma, medtech, food)",
+          "patterns": [
+            "gmp",
+            "fda",
+            "pharma",
+            "medtech",
+            "gamp"
+          ]
+        },
+        {
+          "label": "SOX or GDPR",
+          "patterns": [
+            "\\bsox\\b",
+            "gdpr"
+          ]
+        },
+        {
+          "label": "Danish bookkeeping act (digital vouchers)",
+          "patterns": [
+            "bookkeeping act",
+            "digital voucher"
+          ]
+        },
+        {
+          "label": "EU / US sanctions regulations",
+          "patterns": [
+            "sanction",
+            "embargo",
+            "881/2002",
+            "\\bsdn\\b"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "GMP / FDA (pharma, medtech, food)": 0.19,
+        "SOX or GDPR": 0.12,
+        "Danish bookkeeping act (digital vouchers)": 0.12,
+        "EU / US sanctions regulations": 0.31
+      }
+    },
+    {
+      "id": "evidence",
+      "text": "What must you be able to hand the auditor?",
+      "multi": true,
+      "options": [
+        {
+          "label": "A log of changes or checks nobody can edit",
+          "patterns": [
+            "immutable",
+            "prevents deletion",
+            "log(s|ging)? (every|all)",
+            "audit trail",
+            "documentation of decisions",
+            "log of all"
+          ]
+        },
+        {
+          "label": "Reports or exports (Excel, PDF, data feed)",
+          "patterns": [
+            "excel",
+            "\\bpdf\\b",
+            "export",
+            "reports? (in|with|for)",
+            "reporting",
+            "api endpoints"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "A log of changes or checks nobody can edit": 0.62,
+        "Reports or exports (Excel, PDF, data feed)": 0.38
+      }
+    }
+  ]
+}

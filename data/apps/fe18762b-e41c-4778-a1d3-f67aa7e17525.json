@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.crtinsightstechnologiessdnbhd1609322609871|AID.appcentric_prsc|PAPPID.fe18762b-e41c-4778-a1d3-f67aa7e17525",
+  "guid": "fe18762b-e41c-4778-a1d3-f67aa7e17525",
+  "publisherId": "crtinsightstechnologiessdnbhd1609322609871",
+  "offerId": "appcentric_prsc",
+  "source": {
+    "name": "ACT - Purchase Requisition and Sourcing",
+    "publisher": "CRT INSIGHTS TECHNOLOGIES SDN BHD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.crtinsightstechnologiessdnbhd1609322609871%7CAID.appcentric_prsc%7CPAPPID.fe18762b-e41c-4778-a1d3-f67aa7e17525",
+    "lastModified": "2025-11-27T04:36:23.468257+00:00",
+    "appVersion": "27.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://forms.office.com/Pages/ResponsePage.aspx?id=SkdIaz4YgE2uUTyGKQLHyLOfntV7AtZPqHHfkkI26t9UMzE0VDI5TkE1WU44Wk0xTjBZRUdDWVRRQy4u",
+    "sourceHash": "sha256:f2442e782e85c8bab8b91a62e8a179bfce742083c0803dbb3e6af54639aefb1a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f2442e782e85c8bab8b91a62e8a179bfce742083c0803dbb3e6af54639aefb1a",
+    "mappedOn": null,
+    "summary": "Purchase requisitions and sourcing to orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Approval workflow for requisitions and sourcing",
+      "Consolidates requisitions via requisition worksheet into purchase orders",
+      "Sourcing document compares supplier pricing, lead time and expected receipt date",
+      "Sourcing summary report",
+      "Automated vendor suggestion of best vendor"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

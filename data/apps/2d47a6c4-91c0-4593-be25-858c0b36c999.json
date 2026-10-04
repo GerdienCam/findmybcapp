@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.ls_retail|AID.bbafa625-773d-4d31-ae9e-1e2e1ec6515c|PAPPID.2d47a6c4-91c0-4593-be25-858c0b36c999",
+  "guid": "2d47a6c4-91c0-4593-be25-858c0b36c999",
+  "publisherId": "ls_retail",
+  "offerId": "bbafa625-773d-4d31-ae9e-1e2e1ec6515c",
+  "source": {
+    "name": "LS Express Hardware Station",
+    "publisher": "LS Retail",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ls_retail%7CAID.bbafa625-773d-4d31-ae9e-1e2e1ec6515c%7CPAPPID.2d47a6c4-91c0-4593-be25-858c0b36c999",
+    "lastModified": "2024-11-22T08:32:52.0676058+00:00",
+    "appVersion": "1.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.lsexpress.lsretail.com/",
+    "sourceHash": "sha256:e20abfa47f83ff786906e06c727debbfe86e48d0d4e2a532be902aebdd485ec5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e20abfa47f83ff786906e06c727debbfe86e48d0d4e2a532be902aebdd485ec5",
+    "mappedOn": null,
+    "summary": "Controls cash drawers for LS Express",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Controls physical cash drawers independently of printing",
+      "Hardware station for LS Express POS"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "LS Express"
+    ],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

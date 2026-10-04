@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.postingdateistoday|PAPPID.a6947b46-1bfb-493f-994e-6e25493b6e9a",
+  "guid": "a6947b46-1bfb-493f-994e-6e25493b6e9a",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "postingdateistoday",
+  "source": {
+    "name": "Posting Date Is Today",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.postingdateistoday%7CPAPPID.a6947b46-1bfb-493f-994e-6e25493b6e9a",
+    "lastModified": "2026-08-28T12:26:39.5166092+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/posting-date-is-today",
+    "sourceHash": "sha256:8d9364e0f17df507dbc2692bca1bfa9b816eaab74b0bb07d63afc35657a6e3a0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8d9364e0f17df507dbc2692bca1bfa9b816eaab74b0bb07d63afc35657a6e3a0",
+    "mappedOn": null,
+    "summary": "Keeps unposted document dates set to today",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-entry",
+      "ng-period-close"
+    ],
+    "claims": [
+      "Nightly job queue sets posting and document date of unposted documents to today",
+      "Per-document-type on/off switches, all off by default",
+      "Covers sales, purchase, transfer and assembly orders and invoices/credit memos/returns",
+      "Optionally reopens, updates and re-releases released documents",
+      "Transfer and assembly orders only updated while open",
+      "Shows job queue status, last and next run on setup page",
+      "Errors logged and skipped without stopping batch",
+      "Logs to BC telemetry"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

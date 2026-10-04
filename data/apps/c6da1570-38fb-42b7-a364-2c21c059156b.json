@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.wisefish1707821097531|AID.wisefishbase|PAPPID.c6da1570-38fb-42b7-a364-2c21c059156b",
+  "guid": "c6da1570-38fb-42b7-a364-2c21c059156b",
+  "publisherId": "wisefish1707821097531",
+  "offerId": "wisefishbase",
+  "source": {
+    "name": "Wisefish",
+    "publisher": "Wisefish",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wisefish1707821097531%7CAID.wisefishbase%7CPAPPID.c6da1570-38fb-42b7-a364-2c21c059156b",
+    "lastModified": "2026-10-01T11:48:15.9993897+00:00",
+    "appVersion": "28.1.20261001.105",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.wisefish.com/contact",
+    "sourceHash": "sha256:b004685723c2fd1462b1a923af71c1ce71e741dbda04699bb67e8552c7deef6c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b004685723c2fd1462b1a923af71c1ce71e741dbda04699bb67e8552c7deef6c",
+    "mappedOn": null,
+    "summary": "ERP for seafood processors, distributors and traders",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-seafood",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Inventory created as GS1 traceable units",
+      "Sales agreements; register sale by reservation",
+      "Lot traceability from start to finish and notification in one click",
+      "Deploy on Azure cloud or own servers",
+      "Tablet and touch-optimized UI",
+      "Handles product sales, dissection production and fishing operations"
+    ],
+    "countries": [
+      "AE",
+      "AU",
+      "CA",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IS",
+      "NL",
+      "NO",
+      "NZ",
+      "US",
+      "VN"
+    ],
+    "languages": [
+      "en",
+      "is",
+      "no"
+    ],
+    "industries": [
+      "Seafood"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

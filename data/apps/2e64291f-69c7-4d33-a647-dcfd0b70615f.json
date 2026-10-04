@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.adfocomsoftware|AID.adfocom-data-sync|PAPPID.2e64291f-69c7-4d33-a647-dcfd0b70615f",
+  "guid": "2e64291f-69c7-4d33-a647-dcfd0b70615f",
+  "publisherId": "adfocomsoftware",
+  "offerId": "adfocom-data-sync",
+  "source": {
+    "name": "Adfocom Data Synchronizer",
+    "publisher": "Adfocom Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.adfocomsoftware%7CAID.adfocom-data-sync%7CPAPPID.2e64291f-69c7-4d33-a647-dcfd0b70615f",
+    "lastModified": "2026-06-16T15:57:24.6437029+00:00",
+    "appVersion": "26.0.0.20",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.adfocom.nl/helpdesk/",
+    "sourceHash": "sha256:2d08b4781d7773a89b6bdad6de804103ccb85fcfc48d8db4c18ca2b4551440ad"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2d08b4781d7773a89b6bdad6de804103ccb85fcfc48d8db4c18ca2b4551440ad",
+    "mappedOn": null,
+    "summary": "Real-time data sync between BC and webshop or portal",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Real-time sync of products, inventory, pricing, customers and orders with a webshop or portal",
+      "Exchanges data with a Microsoft SQL database via web services",
+      "Choose which BC tables and webshop data to sync",
+      "Filters per synchronization process",
+      "One-way or bidirectional sync",
+      "Writes online transactions back to BC as leading system"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft SQL Server",
+      "Webshops",
+      "Portals"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

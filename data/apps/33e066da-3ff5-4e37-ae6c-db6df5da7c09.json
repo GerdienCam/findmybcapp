@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.unitechitsolutionsltd1596438951562|AID.zoho_connector|PAPPID.33e066da-3ff5-4e37-ae6c-db6df5da7c09",
+  "guid": "33e066da-3ff5-4e37-ae6c-db6df5da7c09",
+  "publisherId": "unitechitsolutionsltd1596438951562",
+  "offerId": "zoho_connector",
+  "source": {
+    "name": "Zoho Connector",
+    "publisher": "Unitech IT Solutions Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.unitechitsolutionsltd1596438951562%7CAID.zoho_connector%7CPAPPID.33e066da-3ff5-4e37-ae6c-db6df5da7c09",
+    "lastModified": "2025-06-19T11:50:53.6921586+00:00",
+    "appVersion": "1.0.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.unitechitsolutions.com/support",
+    "sourceHash": "sha256:5017dd5222c0ad6abbf97f4ea948bb2a45da735289689dc5e9667a4065d3a222"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5017dd5222c0ad6abbf97f4ea948bb2a45da735289689dc5e9667a4065d3a222",
+    "mappedOn": null,
+    "summary": "Imports Zoho expenses and reports",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Imports expenses, users, categories, reports and projects from Zoho Expense",
+      "Also imports accounts, customers, products, invoices and contacts",
+      "Creates and posts expenses as journal or AP invoice",
+      "Links expenses with G/L and dimensions",
+      "Full version on request"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Zoho Expense"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

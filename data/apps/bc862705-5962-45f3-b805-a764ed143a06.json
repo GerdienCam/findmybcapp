@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.abakion|AID.data_access_for_business_central|PAPPID.bc862705-5962-45f3-b805-a764ed143a06",
+  "guid": "bc862705-5962-45f3-b805-a764ed143a06",
+  "publisherId": "abakion",
+  "offerId": "data_access_for_business_central",
+  "source": {
+    "name": "Data Access - API data integration",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.data_access_for_business_central%7CPAPPID.bc862705-5962-45f3-b805-a764ed143a06",
+    "lastModified": "2026-05-04T08:55:08.7680666+00:00",
+    "appVersion": "28.0.202617.163328",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/data-access/#userguide",
+    "sourceHash": "sha256:e9601a017eaf046d112da3f27f37314980f88c60a74570e77b3cf2bd39c3beb1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e9601a017eaf046d112da3f27f37314980f88c60a74570e77b3cf2bd39c3beb1",
+    "mappedOn": null,
+    "summary": "Managed API layer to expose BC data to Power BI and third parties",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-excel-reporting",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Exposes 73 BC tables as API endpoints",
+      "GET requests return JSON",
+      "Works with OData connector for Power BI, Logic Apps, Data Factory or Azure Functions",
+      "Tracks deletions for incremental loads",
+      "Updated with each new BC version",
+      "Does not include calculated fields and flow fields",
+      "Data model can be extended"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI",
+      "Azure Logic Apps",
+      "Data Factory",
+      "Azure functions"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

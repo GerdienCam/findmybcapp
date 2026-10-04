@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.samadhan1595571675983|AID.customer_complaint_samadahn|PAPPID.ec9f8817-ef49-4586-ba9d-ac93bfa2604b",
+  "guid": "ec9f8817-ef49-4586-ba9d-ac93bfa2604b",
+  "publisherId": "samadhan1595571675983",
+  "offerId": "customer_complaint_samadahn",
+  "source": {
+    "name": "Customer Complaint Samadhan",
+    "publisher": "Samadhan",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.samadhan1595571675983%7CAID.customer_complaint_samadahn%7CPAPPID.ec9f8817-ef49-4586-ba9d-ac93bfa2604b",
+    "lastModified": "2026-08-24T13:23:48.8831407+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://samadhanindia.com/helpdesk-support/",
+    "sourceHash": "sha256:a746e370ce5b1975e182c36645676d5aa9bf288179e8b90bb4712a77b09af762"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a746e370ce5b1975e182c36645676d5aa9bf288179e8b90bb4712a77b09af762",
+    "mappedOn": null,
+    "summary": "Manages customer complaints and resolution",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-case-resolve",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-case-intake",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-case-analytics",
+      "ng-case-routing"
+    ],
+    "claims": [
+      "Role center with a live complaint dashboard",
+      "Complaint recording and tracking",
+      "Automated email notifications and alerts",
+      "Document and evidence attachments",
+      "Integrated with sales and customer modules",
+      "Workflow and escalation management",
+      "Customizable complaint categories and statuses",
+      "Mobile and web compatible"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

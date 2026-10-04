@@ -1,0 +1,95 @@
+{
+  "appId": "PUBID.foodware365|AID.foodware_365_customer_item_catalog|PAPPID.bf565059-9ae9-4b98-8b5c-038ae6a753bc",
+  "guid": "bf565059-9ae9-4b98-8b5c-038ae6a753bc",
+  "publisherId": "foodware365",
+  "offerId": "foodware_365_customer_item_catalog",
+  "source": {
+    "name": "Aptean Customer Item Catalog for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_customer_item_catalog%7CPAPPID.bf565059-9ae9-4b98-8b5c-038ae6a753bc",
+    "lastModified": "2026-09-23T03:42:02.9725178+00:00",
+    "appVersion": "2601.6.344379.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/CIC/",
+    "sourceHash": "sha256:ecc7768bd9ad809fb5eadce235715dd66aa8ab21534cd9e7b36dc39d26616aad"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ecc7768bd9ad809fb5eadce235715dd66aa8ab21534cd9e7b36dc39d26616aad",
+    "mappedOn": null,
+    "summary": "Customer-specific item catalogs for sales",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-assortment-catalogs",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage",
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "Customer-specific item catalogs",
+      "Customer item numbers stored",
+      "Fast order entry notifies when catalog item is available",
+      "Excel orders by email processed automatically into sales orders"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

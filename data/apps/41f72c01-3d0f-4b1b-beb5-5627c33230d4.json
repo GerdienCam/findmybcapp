@@ -1,0 +1,50 @@
+{
+  "appId": "PUBID.litsservices1588138020299|AID.lits_data_restiction|PAPPID.41f72c01-3d0f-4b1b-beb5-5627c33230d4",
+  "guid": "41f72c01-3d0f-4b1b-beb5-5627c33230d4",
+  "publisherId": "litsservices1588138020299",
+  "offerId": "lits_data_restiction",
+  "source": {
+    "name": "LITS User Data Restriction in Dynamics 365 Business Central",
+    "publisher": "LITS SERVICES",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.litsservices1588138020299%7CAID.lits_data_restiction%7CPAPPID.41f72c01-3d0f-4b1b-beb5-5627c33230d4",
+    "lastModified": "2025-03-04T03:35:56.8446268+00:00",
+    "appVersion": "25.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.lits.services/contact-us/",
+    "sourceHash": "sha256:11a68daf0f8e9037764663ad444d1472006524cfbd2c2844ca8420aebc606f56"
+  },
+  "mapping": {
+    "sourceHash": "sha256:11a68daf0f8e9037764663ad444d1472006524cfbd2c2844ca8420aebc606f56",
+    "mappedOn": null,
+    "summary": "Restricts user insert, modify and delete permissions",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-permissions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Restrict specific users from insert, modify or delete",
+      "Configured per user on the User Setup page",
+      "Applies across all tables"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

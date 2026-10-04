@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.bricklead1692180953470|AID.bri_itc|PAPPID.95e26763-9c2d-462b-9a35-62490c2950c8",
+  "guid": "95e26763-9c2d-462b-9a35-62490c2950c8",
+  "publisherId": "bricklead1692180953470",
+  "offerId": "bri_itc",
+  "source": {
+    "name": "Item Transaction Check",
+    "publisher": "BRICKLEAD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bricklead1692180953470%7CAID.bri_itc%7CPAPPID.95e26763-9c2d-462b-9a35-62490c2950c8",
+    "lastModified": "2026-01-20T13:35:00.8959037+00:00",
+    "appVersion": "24.0.9302.59860",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.bricklead.eu/en-us/apps/itc/",
+    "sourceHash": "sha256:2e5d4ee9b17d218ab2c2b123f50d7e09d3daa18177e1084dfad7f569c7e5d764"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2e5d4ee9b17d218ab2c2b123f50d7e09d3daa18177e1084dfad7f569c7e5d764",
+    "mappedOn": null,
+    "summary": "Rules that warn or block wrong item transactions on documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-product-phase-out"
+    ],
+    "claims": [
+      "Rules block/allow item transactions by document type",
+      "Alert on item code entry, not at posting",
+      "Rules by item filter and customer/vendor/location ranges",
+      "Custom explicit alert messages",
+      "Supports Essential and Premium"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.bcsitera|AID.bidrento|PAPPID.84460c45-6729-4f94-957f-b87ca42d4500",
+  "guid": "84460c45-6729-4f94-957f-b87ca42d4500",
+  "publisherId": "bcsitera",
+  "offerId": "bidrento",
+  "source": {
+    "name": "Bidrento",
+    "publisher": "BCS Itera",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.bidrento%7CPAPPID.84460c45-6729-4f94-957f-b87ca42d4500",
+    "lastModified": "2025-11-24T16:46:46.8459759+00:00",
+    "appVersion": "26.0.22289.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.itera.ee/apps/bidrento/docs/en-US/app",
+    "sourceHash": "sha256:5a23a1cf283346a776503cc7343d3c7155bb0e1b06515cb9c066a3c37c141541"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5a23a1cf283346a776503cc7343d3c7155bb0e1b06515cb9c066a3c37c141541",
+    "mappedOn": null,
+    "summary": "Integrates BC with Bidrento property rental software",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-property",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Imports real estate customers from Bidrento",
+      "Updates customer info from Bidrento",
+      "Imports sales invoices from Bidrento"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [
+      "Real estate"
+    ],
+    "connectsTo": [
+      "Bidrento"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

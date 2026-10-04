@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.computercamp_1155908|AID.camp_365_farpay|PAPPID.c962bf25-c19a-4150-b859-fb999b89801f",
+  "guid": "c962bf25-c19a-4150-b859-fb999b89801f",
+  "publisherId": "computercamp_1155908",
+  "offerId": "camp_365_farpay",
+  "source": {
+    "name": "CAMP 365 FarPay",
+    "publisher": "ComputerCamp A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.computercamp_1155908%7CAID.camp_365_farpay%7CPAPPID.c962bf25-c19a-4150-b859-fb999b89801f",
+    "lastModified": "2026-09-17T13:44:48.006469+00:00",
+    "appVersion": "28.3.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.computercamp.dk/",
+    "sourceHash": "sha256:d6dd662a2addd1e4add88ff7e3998baf794286261d58ce0263d2efc7996ef43b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d6dd662a2addd1e4add88ff7e3998baf794286261d58ce0263d2efc7996ef43b",
+    "mappedOn": null,
+    "summary": "Sends CAMP 365 member collections to FarPay",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-nonprofit-education"
+    ],
+    "claims": [
+      "Sends collections directly to FarPay",
+      "Collects payments via NETS, MobilePay and email",
+      "Integrates with the CAMP 365 member system"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Member organizations"
+    ],
+    "connectsTo": [
+      "FarPay",
+      "NETS",
+      "MobilePay"
+    ],
+    "requires": [
+      "CAMP 365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

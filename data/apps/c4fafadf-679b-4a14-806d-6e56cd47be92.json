@@ -1,0 +1,64 @@
+{
+  "appId": "TYPE.connect|PUBID.dryrun|AID.offer2|PAPPID.c4fafadf-679b-4a14-806d-6e56cd47be92",
+  "guid": "c4fafadf-679b-4a14-806d-6e56cd47be92",
+  "publisherId": "dryrun",
+  "offerId": "offer2",
+  "source": {
+    "name": "Dryrun | Cash Flow Forecasting",
+    "publisher": "Dryrun",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.dryrun%7CAID.offer2%7CPAPPID.c4fafadf-679b-4a14-806d-6e56cd47be92",
+    "lastModified": "2026-07-23T11:54:05.3853974+00:00",
+    "appVersion": "2.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dryrun.crunch.help/en",
+    "sourceHash": "sha256:89949e4ec6cfdec367257e446224870847e3afadbfbaefc2dacd4add9e728942"
+  },
+  "mapping": {
+    "sourceHash": "sha256:89949e4ec6cfdec367257e446224870847e3afadbfbaefc2dacd4add9e728942",
+    "mappedOn": null,
+    "summary": "Cash flow forecasting and scenarios via Dryrun",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-cash-forecast",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-strategy-longrange"
+    ],
+    "claims": [
+      "Cash flow forecasting with what-if scenario modeling",
+      "Automated data sync with manual overrides",
+      "Shows operational cash flows per day and per week next to long-range projections",
+      "Forecasts by dimension (department, project, location)",
+      "AR and AP cash timing down to individual invoice dates",
+      "Adjust expected payment dates or days outstanding assumptions to see liquidity impact",
+      "Compare unlimited growth, best-case and worst-case scenarios side by side",
+      "Models cash impact of capex, hiring plans or delayed milestones",
+      "Combines ERP data with external spreadsheets or manual entries",
+      "Multi-entity consolidation roll-ups",
+      "Automatic multi-currency conversion",
+      "Role-based sharing of entity forecasts",
+      "Forecast vs actual variance tracking"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Sage Intacct"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

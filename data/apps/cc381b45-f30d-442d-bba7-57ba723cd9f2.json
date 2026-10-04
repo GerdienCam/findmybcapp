@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.terna|AID.reactor-mobile-manufacturing|PAPPID.cc381b45-f30d-442d-bba7-57ba723cd9f2",
+  "guid": "cc381b45-f30d-442d-bba7-57ba723cd9f2",
+  "publisherId": "terna",
+  "offerId": "reactor-mobile-manufacturing",
+  "source": {
+    "name": "BE-terna Reactor Mobile Manufacturing",
+    "publisher": "BE-terna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.terna%7CAID.reactor-mobile-manufacturing%7CPAPPID.cc381b45-f30d-442d-bba7-57ba723cd9f2",
+    "lastModified": "2025-12-16T14:35:57.2567977+00:00",
+    "appVersion": "23.10.50.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://be-terna.helpjuice.com/en_US/be-terna-reactor-mobile-manufacturing",
+    "sourceHash": "sha256:0c049e864b24839140212e211d7ba45d4927940311b8ab6c3450cf5272414193"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0c049e864b24839140212e211d7ba45d4927940311b8ab6c3450cf5272414193",
+    "mappedOn": null,
+    "summary": "Mobile production order handling",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Select production orders by list or barcode scan",
+      "Output posting from mobile",
+      "Component consumption recording",
+      "Scrap and over-consumption tracking",
+      "Setup and run time registration per operation",
+      "Blocks consumption posting when stock is insufficient",
+      "Built on BE-terna Reactor Platform"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "BE-terna Reactor Platform"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

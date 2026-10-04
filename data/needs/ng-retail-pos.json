@@ -1,0 +1,338 @@
+{
+  "id": "ng-retail-pos",
+  "order": 152,
+  "label": "Running shop tills, POS hardware and cash-up",
+  "description": "Point of sale: tills, fiscal printers, POS hardware and daily cash-up.",
+  "type": "bpc",
+  "area": "Sales & receivables",
+  "relevance": "medium",
+  "statements": [
+    "Running shop tills, POS hardware and cash-up",
+    "Point of sale: tills, fiscal printers, POS hardware and daily cash-up.",
+    "We need a POS that works with Business Central and our receipt printers",
+    "Our card terminal doesn't talk to the till system",
+    "Local law requires a certified fiscal printer, does any BC POS support it?",
+    "POS hardware business central",
+    "Adding a new till in a new store takes our IT guy two days",
+    "Cash drawer and barcode scanner don't work after the POS update",
+    "Is there a retail add-on for BC that handles fiscal registration in Germany?",
+    "We want one place to manage all our tills across six shops",
+    "Which payment terminals integrate with a BC-based POS?",
+    "Each till needs its own settings for printer, drawer and receipt text",
+    "Scales at the deli counter need to connect to the POS",
+    "Our POS devices need certificates renewed and nobody remembers how",
+    "We need a POS for our shop that works directly with Business Central",
+    "End of day cash count takes ages and never matches",
+    "Is there a POS app for BC that works offline when the internet drops?",
+    "till system for retail store",
+    "Customers order online and pick up in our shop, but the shop can't see the order",
+    "We need receipts, card terminal and barcode scanning at the shop counter",
+    "Shop staff need to override prices and give discounts at the counter with a reason",
+    "Petty cash in and out of the drawer isn't recorded anywhere",
+    "Daily store sales should post to BC automatically, not via an Excel export",
+    "We have three stores and can't see each store's takings for the day",
+    "Card terminal integration with BC POS",
+    "Shop assistants need to check stock in the other store while the customer waits"
+  ],
+  "questions": [
+    {
+      "id": "setup",
+      "text": "Do you already have a till system you want to keep?",
+      "help": "Connecting an existing POS is a different product from a POS that runs inside BC.",
+      "options": [
+        {
+          "label": "Yes, connect our existing POS to BC",
+          "patterns": [
+            "(connect|integrat|sync\\w*|import\\w*|transfer\\w*|download\\w*)\\b.{0,60}\\b(pos|cash register|transactions)\\b.{0,40}(with|to|into|from)\\b",
+            "\\bfrom (lightspeed|tabletpos|foodics|epos now|flexpos|9opoint|zettle|ka-ching|cash it)",
+            "(lightspeed|sitoo|front systems|zettle|vend|epos now|flexpos|icg|visionpoint|foodics|tabletpos|pos365|ka-ching|rmh|cash it|9opoint|ari pos)\\b",
+            "external pos",
+            "sales-based integration",
+            "requires (sitoo|front systems)"
+          ]
+        },
+        {
+          "label": "No, we want a till that runs inside BC",
+          "patterns": [
+            "(pos|checkout|day)\\b.{0,60}inside (bc|business central)",
+            "without third-party pos",
+            "built (directly )?into (bc|business central)",
+            "natively integrated with business central",
+            "built natively for",
+            "online extension",
+            "touch[- ](friendly|optimi[sz]ed|pos)",
+            "cashier role",
+            "shop role cent",
+            "pos interface",
+            "cash drawers associated",
+            "pos functionality extending",
+            "pos for .{0,40}in (bc|business central)",
+            "operations on bc",
+            "in-store pos app",
+            "pos for bc saas",
+            "point of sale for microsoft",
+            "pos module within",
+            "retail pos.{0,30}inside"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, connect our existing POS to BC": 0.32,
+        "No, we want a till that runs inside BC": 0.25
+      }
+    },
+    {
+      "id": "pos-system",
+      "text": "Which POS or retail platform do you use or plan to use?",
+      "multi": true,
+      "options": [
+        {
+          "label": "LS Central / LS Express",
+          "patterns": [
+            "\\bls (central|express)\\b"
+          ]
+        },
+        {
+          "label": "Lightspeed",
+          "patterns": [
+            "lightspeed"
+          ]
+        },
+        {
+          "label": "Another POS (Sitoo, Front Systems, Zettle, Epos Now, NP Retail...)",
+          "patterns": [
+            "sitoo",
+            "front systems",
+            "zettle",
+            "epos now",
+            "yabie",
+            "brink",
+            "flexpos",
+            "ka-ching",
+            "pos365",
+            "cash it",
+            "foodics",
+            "tabletpos",
+            "9opoint",
+            "visionpoint",
+            "\\bicg\\b",
+            "\\brmh\\b",
+            "ari pos",
+            "vend\\b",
+            "np retail",
+            "np restaurant"
+          ]
+        },
+        {
+          "label": "None yet / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "LS Central / LS Express": 0.23,
+        "Lightspeed": 0.07,
+        "Another POS (Sitoo, Front Systems, Zettle, Epos Now, NP Retail...)": 0.29
+      }
+    },
+    {
+      "id": "fiscal",
+      "text": "Does your country require a fiscal printer or certified till (fiscalisation)?",
+      "help": "For example in Germany, Austria, Bulgaria, Romania, Albania.",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "fiscal"
+          ]
+        },
+        {
+          "label": "No or not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.14
+      }
+    },
+    {
+      "id": "payments",
+      "text": "How do customers pay at the till?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Card terminal linked to the till",
+          "patterns": [
+            "payment terminals?",
+            "terminal integration",
+            "bank pos terminals",
+            "stripe terminal",
+            "\\bemv\\b",
+            "contactless",
+            "card payments?",
+            "pin pads?",
+            "worldline",
+            "paytef",
+            "debit cards?"
+          ]
+        },
+        {
+          "label": "Gift cards and vouchers",
+          "patterns": [
+            "gift (cards?|vouchers?)",
+            "\\bvouchers?\\b"
+          ]
+        },
+        {
+          "label": "On account / invoice for business customers",
+          "patterns": [
+            "on-account",
+            "on account",
+            "b2b",
+            "credit sales",
+            "business customers",
+            "customer.s liability",
+            "invoices? (directly )?from (the )?pos",
+            "prints invoices",
+            "issue invoice"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Card terminal linked to the till": 0.19,
+        "Gift cards and vouchers": 0.16,
+        "On account / invoice for business customers": 0.12
+      }
+    },
+    {
+      "id": "store-type",
+      "text": "What kind of place is the till in?",
+      "options": [
+        {
+          "label": "Shop or retail chain",
+          "patterns": [
+            "retail",
+            "\\bshops?\\b",
+            "\\bstores?\\b",
+            "fashion"
+          ]
+        },
+        {
+          "label": "Restaurant, cafe or hospitality",
+          "patterns": [
+            "restaurant",
+            "kitchen",
+            "hospitality",
+            "food services?",
+            "caf[eé]s?\\b",
+            "frontrest"
+          ]
+        },
+        {
+          "label": "Trade counter, parts desk or fuel station",
+          "patterns": [
+            "trade (counter|desk)",
+            "parts counter",
+            "counter sales",
+            "forecourt",
+            "fuel"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Shop or retail chain": 0.54,
+        "Restaurant, cafe or hospitality": 0.09,
+        "Trade counter, parts desk or fuel station": 0.06
+      }
+    },
+    {
+      "id": "day-end",
+      "text": "What do you need at the end of the day?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Cash count and X/Z reports",
+          "patterns": [
+            "\\b[xz] reports?",
+            "x/z",
+            "z reports?",
+            "cash-?ups?",
+            "drawer (count|balance|reconciliation)",
+            "end[- ]of[- ]day",
+            "till (initiation|reconciliation)",
+            "opening float",
+            "cash drawer count",
+            "day closing",
+            "daily closing",
+            "floats"
+          ]
+        },
+        {
+          "label": "Automatic posting of the day's sales to BC",
+          "patterns": [
+            "post\\w* automatically",
+            "automatically post",
+            "one-click posting",
+            "automated day closing",
+            "daily invoice",
+            "statement posting",
+            "creates, posts",
+            "posts (pos )?sales",
+            "posted automatically",
+            "posts and syncs",
+            "import\\w*, validates and posts",
+            "automatic posting"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Cash count and X/Z reports": 0.17,
+        "Automatic posting of the day's sales to BC": 0.16
+      }
+    },
+    {
+      "id": "stores",
+      "text": "How many shops or tills do you run?",
+      "options": [
+        {
+          "label": "Several shops",
+          "patterns": [
+            "multi-?store",
+            "multiple (stores|shops|lightspeed locations|zettle stores)",
+            "any number of",
+            "store chains",
+            "chains",
+            "unlimited registers",
+            "multi-location",
+            "across (stores|shops)",
+            "between stores",
+            "inter-branch",
+            "head-office"
+          ]
+        },
+        {
+          "label": "One shop, or not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Several shops": 0.26
+      }
+    }
+  ]
+}

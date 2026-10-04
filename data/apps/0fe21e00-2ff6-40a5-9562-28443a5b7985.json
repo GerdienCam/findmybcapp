@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.wsb_solutions|AID.auto_add_item_lines|PAPPID.0fe21e00-2ff6-40a5-9562-28443a5b7985",
+  "guid": "0fe21e00-2ff6-40a5-9562-28443a5b7985",
+  "publisherId": "wsb_solutions",
+  "offerId": "auto_add_item_lines",
+  "source": {
+    "name": "Auto Add Item Lines",
+    "publisher": "Apportunix",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.auto_add_item_lines%7CPAPPID.0fe21e00-2ff6-40a5-9562-28443a5b7985",
+    "lastModified": "2026-07-24T18:51:05.931749+00:00",
+    "appVersion": "1.2.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apportunix.com/app/auto-add-item-lines/",
+    "sourceHash": "sha256:00b605ee96e0dade5a27f14abecdd72e53e2364b110193ee0927825d040561c3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:00b605ee96e0dade5a27f14abecdd72e53e2364b110193ee0927825d040561c3",
+    "mappedOn": null,
+    "summary": "Auto-adds related items like deposits to documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-data-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-loc-epr-packaging"
+    ],
+    "claims": [
+      "Automatically adds related items (packaging, deposits, accessories) to sales and purchase lines",
+      "Computes quantity from ratios, rounding rules and minimum quantities",
+      "Related lines stay linked and update when source line changes",
+      "Rules are set separately per item, by unit of measure",
+      "Scope by customer, vendor, ship-to and order address",
+      "Works on sales and purchase quotes, orders, invoices, return orders and credit memos",
+      "Warehouse support incl. auto-shipping of related item lines",
+      "Supports item journals",
+      "Free in sandbox environments"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

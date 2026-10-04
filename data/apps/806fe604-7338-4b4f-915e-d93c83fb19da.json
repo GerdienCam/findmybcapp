@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.microapps|AID.phone-validation|PAPPID.806fe604-7338-4b4f-915e-d93c83fb19da",
+  "guid": "806fe604-7338-4b4f-915e-d93c83fb19da",
+  "publisherId": "microapps",
+  "offerId": "phone-validation",
+  "source": {
+    "name": "Phone Validation",
+    "publisher": "Micro Apps",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microapps%7CAID.phone-validation%7CPAPPID.806fe604-7338-4b4f-915e-d93c83fb19da",
+    "lastModified": "2026-07-22T02:50:58.0847716+00:00",
+    "appVersion": "1.0.0.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://6294435.fs1.hubspotusercontent-na1.net/hubfs/6294435/Micro%20apps/Phone-Validation_Manual.pdf",
+    "sourceHash": "sha256:63453809bb3279351e3d65c39e98220925ea2741f2339f1271e66e52c2dd6e7b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:63453809bb3279351e3d65c39e98220925ea2741f2339f1271e66e52c2dd6e7b",
+    "mappedOn": null,
+    "summary": "Validates and corrects phone numbers",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Converts phone numbers to E164 international format",
+      "Validates phone numbers based on country code",
+      "Updates existing phone numbers in bulk",
+      "Detects mobile numbers and moves them to the mobile field",
+      "No reference data required",
+      "Extendable to customized tables",
+      "Works for all countries"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

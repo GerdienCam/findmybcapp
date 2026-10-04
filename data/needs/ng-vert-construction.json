@@ -1,0 +1,226 @@
+{
+  "id": "ng-vert-construction",
+  "order": 207,
+  "label": "Solutions for construction companies and trades",
+  "description": "Construction and contracting solutions: estimates and bills of quantities, contracts and change orders, progress billing and retention, sites and subcontractors, craftsmen job management and building materials suppliers.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "high",
+  "statements": [
+    "Solutions for construction companies and trades",
+    "Construction and contracting solutions: estimates and bills of quantities, contracts and change orders, progress billing and retention, sites and subcontractors, craftsmen job management and building materials suppliers.",
+    "We're a building contractor and BC jobs are too basic",
+    "construction ERP on Business Central",
+    "Progress billing with retention on every contract",
+    "Change orders get lost and never invoiced",
+    "Bill of quantities from the tender into the project",
+    "Our electricians need job orders on their phones",
+    "Subcontractor invoices against the contract budget",
+    "Each site needs its own budget and cost overview",
+    "Craftsman business with service jobs and small projects",
+    "Concrete delivery notes and freight pricing",
+    "Construction Industry Scheme deductions",
+    "Monthly WIP for our construction projects",
+    "Building materials supplier tracking which projects buy from us",
+    "Tender calculation software connected to BC",
+    "Plumbing company, 30 vans, jobs and invoices",
+    "Sand and gravel company with weighbridge tickets",
+    "Guarantees and bonds on contracts",
+    "Final account with the client takes months",
+    "Labour, equipment and materials per site per week",
+    "Moving from a construction-only system to BC"
+  ],
+  "questions": [
+    {
+      "id": "billing",
+      "text": "How do you invoice your customers?",
+      "multi": true,
+      "options": [
+        {
+          "label": "In stages as work progresses (with retention)",
+          "patterns": [
+            "progress (billing|invoic)",
+            "invoicing based on work progress",
+            "milestone",
+            "retention",
+            "holdback",
+            "advance billing",
+            "contract invoicing",
+            "stage (billing|payment)"
+          ]
+        },
+        {
+          "label": "Fixed price per job",
+          "patterns": [
+            "fixed[- ]price"
+          ]
+        },
+        {
+          "label": "Time and materials used",
+          "patterns": [
+            "time and (product|material) (consumption|registration)",
+            "usage-based",
+            "per bill\\b",
+            "imports sales invoices"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "In stages as work progresses (with retention)": 0.26,
+        "Fixed price per job": 0.11,
+        "Time and materials used": 0.22
+      }
+    },
+    {
+      "id": "site",
+      "text": "Do people on site register time and materials from a phone or tablet?",
+      "options": [
+        {
+          "label": "Yes, mobile or site registration",
+          "patterns": [
+            "mobile",
+            "site apps?",
+            "site registration",
+            "time registrations?",
+            "timesheets?",
+            "any device"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, mobile or site registration": 0.33
+      }
+    },
+    {
+      "id": "subs",
+      "text": "Do you hire subcontractors on your projects?",
+      "options": [
+        {
+          "label": "Yes, we manage subcontractor contracts",
+          "patterns": [
+            "subcontract"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we manage subcontractor contracts": 0.3
+      }
+    },
+    {
+      "id": "payroll",
+      "text": "Should project hours or piecework flow into payroll?",
+      "options": [
+        {
+          "label": "Yes, link project time or piecework to payroll",
+          "patterns": [
+            "payroll",
+            "wage export",
+            "\\bløn\\b|365løn",
+            "piece ?work",
+            "akkord"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, link project time or piecework to payroll": 0.26
+      }
+    },
+    {
+      "id": "estimate",
+      "text": "How do you prepare quotes for new projects?",
+      "multi": true,
+      "options": [
+        {
+          "label": "We calculate estimates in our own system",
+          "patterns": [
+            "estimat",
+            "calculation app",
+            "quote calculation",
+            "project calculation",
+            "rate analysis"
+          ]
+        },
+        {
+          "label": "We price tender files from the client (GAEB, BOQ)",
+          "patterns": [
+            "gaeb",
+            "\\bboq\\b",
+            "bills? of quantit",
+            "tender"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "We calculate estimates in our own system": 0.22,
+        "We price tender files from the client (GAEB, BOQ)": 0.07
+      }
+    },
+    {
+      "id": "wip",
+      "text": "Do you need WIP or percentage-of-completion accounting on projects?",
+      "help": "Recognizing revenue and cost before the job is finished.",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "\\bwip\\b",
+            "percentage-of-completion",
+            "revenue recognition",
+            "forecast accrual"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.22
+      }
+    },
+    {
+      "id": "changes",
+      "text": "Do clients often order extra work during a project?",
+      "help": "Change orders, variations, extra work agreements.",
+      "options": [
+        {
+          "label": "Yes, we need to track change orders",
+          "patterns": [
+            "change orders?",
+            "extra work",
+            "variations?\\b",
+            "project variants",
+            "supplements"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we need to track change orders": 0.19
+      }
+    }
+  ]
+}

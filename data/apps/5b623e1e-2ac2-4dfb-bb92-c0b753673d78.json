@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.erpconnectconsultingllc1655482443679|AID.crm|PAPPID.5b623e1e-2ac2-4dfb-bb92-c0b753673d78",
+  "guid": "5b623e1e-2ac2-4dfb-bb92-c0b753673d78",
+  "publisherId": "erpconnectconsultingllc1655482443679",
+  "offerId": "crm",
+  "source": {
+    "name": "Advanced CRM",
+    "publisher": "RUX Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpconnectconsultingllc1655482443679%7CAID.crm%7CPAPPID.5b623e1e-2ac2-4dfb-bb92-c0b753673d78",
+    "lastModified": "2026-09-14T22:35:21.8607927+00:00",
+    "appVersion": "27.2.0.109",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ruxsoftware.com/application/advanced-crm",
+    "sourceHash": "sha256:7d523e41e224ef3022f8573f724314f2d841e9b4959b76e133f9a670201db372"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7d523e41e224ef3022f8573f724314f2d841e9b4959b76e133f9a670201db372",
+    "mappedOn": null,
+    "summary": "Enhanced CRM features for contacts, opportunities and sales",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-pipeline",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-mkt-campaigns",
+      "ng-lead-management"
+    ],
+    "claims": [
+      "Contact stages lead/opportunity/customer",
+      "Contact card with timeline and profile",
+      "Log emails, calls and meetings on contact card",
+      "Workflow checklists",
+      "Role centers and dashboards for agents and managers",
+      "Task creation and tracking",
+      "Email templates from contact card",
+      "Marketing campaigns",
+      "Automated follow-up emails",
+      "Quote auto follow-ups, win/loss tracking, templates",
+      "Estimates without customer or items",
+      "Order conversion rates, booking log, auto-create new items",
+      "Extended product descriptions and images on printouts",
+      "No integration points needed"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

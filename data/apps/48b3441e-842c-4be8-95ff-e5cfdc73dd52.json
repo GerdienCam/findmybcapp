@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.rhythmsoft-global_consulting_pvt_ltd|AID.basic_force_close|PAPPID.48b3441e-842c-4be8-95ff-e5cfdc73dd52",
+  "guid": "48b3441e-842c-4be8-95ff-e5cfdc73dd52",
+  "publisherId": "rhythmsoft-global_consulting_pvt_ltd",
+  "offerId": "basic_force_close",
+  "source": {
+    "name": "Basic Force Close Order for Business Central",
+    "publisher": "Rhythmsoft-Global Consulting Pvt Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.rhythmsoft-global_consulting_pvt_ltd%7CAID.basic_force_close%7CPAPPID.48b3441e-842c-4be8-95ff-e5cfdc73dd52",
+    "lastModified": "2026-01-05T14:25:18.8871698+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://rhythmsoft-global.com/contact-us/",
+    "sourceHash": "sha256:1ccd33dd334c53dca3319cd387067ea244ab02cbb6c0f2fbe52730f158018ead"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1ccd33dd334c53dca3319cd387067ea244ab02cbb6c0f2fbe52730f158018ead",
+    "mappedOn": null,
+    "summary": "Force closes partially received or shipped orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-replenishment-planning"
+    ],
+    "claims": [
+      "Force Close status for purchase and sales orders and lines",
+      "Closes partially received/shipped orders before archiving",
+      "Removes remaining quantities from planning",
+      "Original quantities kept in archives for vendor commitment analysis",
+      "Updates quantities and archives the order in one step"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

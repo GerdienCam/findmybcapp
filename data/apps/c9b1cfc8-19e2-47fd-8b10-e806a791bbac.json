@@ -1,0 +1,70 @@
+{
+  "appId": "TYPE.connect|PUBID.managility|AID.bc_reporting_consolidation|PAPPID.c9b1cfc8-19e2-47fd-8b10-e806a791bbac",
+  "guid": "c9b1cfc8-19e2-47fd-8b10-e806a791bbac",
+  "publisherId": "managility",
+  "offerId": "bc_reporting_consolidation",
+  "source": {
+    "name": "Financial Reporting and Consolidation for BC",
+    "publisher": "Managility",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.managility%7CAID.bc_reporting_consolidation%7CPAPPID.c9b1cfc8-19e2-47fd-8b10-e806a791bbac",
+    "lastModified": "2025-08-26T19:39:57.2459399+00:00",
+    "appVersion": "2024.1.1.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://knowledge.acterys.com/",
+    "sourceHash": "sha256:7a3b9f294818a2c38bf8e1b5e6e95864abb98e4418c013669366c3e1945696f1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7a3b9f294818a2c38bf8e1b5e6e95864abb98e4418c013669366c3e1945696f1",
+    "mappedOn": null,
+    "summary": "Financial reporting, planning and consolidation via Acterys",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-budget-build",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation",
+      "ng-ux-excel-reporting"
+    ],
+    "claims": [
+      "Feeds BC data to ready-made report templates in Power BI",
+      "Excel add-in for planning",
+      "Built-in metrics, time intelligence, currency conversion and consolidation logic",
+      "Data models consolidating multiple sources and entities",
+      "Financial reporting and forecasting templates with two-way Power BI/Excel integration",
+      "Plan-enable any Power BI dataset via Acterys Power BI Sync",
+      "8 custom Power BI visuals with write-back",
+      "Automated workflows for approvals, forecasting, budgeting and report distribution"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Acterys",
+      "Power BI",
+      "Excel"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

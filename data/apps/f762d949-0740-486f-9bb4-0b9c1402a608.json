@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.naviona_4717541|AID.naviona_business_central_scheduling_of_mrp|PAPPID.f762d949-0740-486f-9bb4-0b9c1402a608",
+  "guid": "f762d949-0740-486f-9bb4-0b9c1402a608",
+  "publisherId": "naviona_4717541",
+  "offerId": "naviona_business_central_scheduling_of_mrp",
+  "source": {
+    "name": "Naviona Scheduling of MRP",
+    "publisher": "Naviona",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.naviona_4717541%7CAID.naviona_business_central_scheduling_of_mrp%7CPAPPID.f762d949-0740-486f-9bb4-0b9c1402a608",
+    "lastModified": "2026-08-31T09:17:41.9644552+00:00",
+    "appVersion": "1.1.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://naviona.com/docs/scheduling-of-mrp/",
+    "sourceHash": "sha256:c012ce362835f0700f3ae3c634c42d4477457d9be510e923ee45e11070dcfa6a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c012ce362835f0700f3ae3c634c42d4477457d9be510e923ee45e11070dcfa6a",
+    "mappedOn": null,
+    "summary": "Automates scheduled MRP and MPS planning runs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-setup"
+    ],
+    "claims": [
+      "Runs MRP and MPS calculations automatically via the job queue",
+      "Refreshes planning worksheets automatically",
+      "Daily, weekly or custom planning schedules",
+      "Schedules purchased materials and manufactured items separately",
+      "Run planning overnight",
+      "Listed for Essentials edition"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

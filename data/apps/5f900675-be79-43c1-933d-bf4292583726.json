@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.cosmoconsultag|AID.intercompany_bc|PAPPID.5f900675-be79-43c1-933d-bf4292583726",
+  "guid": "5f900675-be79-43c1-933d-bf4292583726",
+  "publisherId": "cosmoconsultag",
+  "offerId": "intercompany_bc",
+  "source": {
+    "name": "COSMO Intercompany",
+    "publisher": "COSMO CONSULT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.intercompany_bc%7CPAPPID.5f900675-be79-43c1-933d-bf4292583726",
+    "lastModified": "2025-06-10T05:48:16.5300739+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cosmoconsult.com/business-central/intercompany",
+    "sourceHash": "sha256:43d9d61abda5689bd7777f3cb25c8c8ec5e1ec907106c965d7511660bfeecd5e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:43d9d61abda5689bd7777f3cb25c8c8ec5e1ec907106c965d7511660bfeecd5e",
+    "mappedOn": null,
+    "summary": "Exchanges intercompany and master data with other systems",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Exchanges data across multiple BC systems",
+      "Shares customer, vendor, financial and inventory data between companies",
+      "Line Actions for data manipulation",
+      "Mapping Configuration Wizard",
+      "Built on COSMO Data Integration Framework",
+      "Customizable templates for common processes"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hu",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "COSMO Data Integration Framework"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "id": "ng-conn-3pl",
+  "order": 190,
+  "label": "Working with an external warehouse (3PL)",
+  "description": "Integrating BC with third-party logistics warehouses and external WMS or automated storage: sending orders and receipts, getting shipment and stock confirmations back.",
+  "type": "connector",
+  "area": "Connecting other systems",
+  "relevance": "medium",
+  "statements": [
+    "Working with an external warehouse (3PL)",
+    "Integrating BC with third-party logistics warehouses and external WMS or automated storage: sending orders and receipts, getting shipment and stock confirmations back.",
+    "Our goods are stored at a 3PL and we email them pick lists",
+    "3PL integration Business Central",
+    "The 3PL's stock and our BC stock never match",
+    "Shipment confirmations come back as Excel files",
+    "We're moving our warehouse to DSV, how does BC talk to them?",
+    "Purchase receipts at the external warehouse should post in BC",
+    "Ongoing WMS connector",
+    "Several 3PLs in different countries feeding one BC",
+    "Need tracking numbers from the 3PL on our sales orders",
+    "AutoStore robot integration with BC",
+    "Outsourced fulfilment for our webshop orders",
+    "Vertical lift system needs pick orders from BC"
+  ],
+  "questions": [
+    {
+      "id": "provider",
+      "text": "Which warehouse or WMS do you work with?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Ongoing WMS",
+          "patterns": [
+            "ongoing"
+          ]
+        },
+        {
+          "label": "DSV",
+          "patterns": [
+            "\\bdsv\\b"
+          ]
+        },
+        {
+          "label": "Bitlog",
+          "patterns": [
+            "bitlog"
+          ]
+        },
+        {
+          "label": "Blue Water, Bring, Danske Fragtmænd or SmartPack",
+          "patterns": [
+            "blue water",
+            "bring shelfless",
+            "danske fragtm",
+            "smartpack"
+          ]
+        },
+        {
+          "label": "Fulfilment Crowd or Extensiv",
+          "patterns": [
+            "fulfil?ment ?crowd",
+            "extensiv"
+          ]
+        },
+        {
+          "label": "Other / not decided",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Ongoing WMS": 0.13,
+        "DSV": 0.09,
+        "Bitlog": 0.09,
+        "Blue Water, Bring, Danske Fragtmænd or SmartPack": 0.17,
+        "Fulfilment Crowd or Extensiv": 0.13
+      }
+    },
+    {
+      "id": "documents",
+      "text": "What do you need to send to the warehouse?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Sales orders and shipments",
+          "patterns": [
+            "sales orders?",
+            "shipments?",
+            "goods issue",
+            "order processing"
+          ]
+        },
+        {
+          "label": "Purchase orders and receipts",
+          "patterns": [
+            "purchase",
+            "receipt",
+            "goods receipt"
+          ]
+        },
+        {
+          "label": "Returns",
+          "patterns": [
+            "return"
+          ]
+        },
+        {
+          "label": "Transfers, assembly or production",
+          "patterns": [
+            "transfer",
+            "assembly",
+            "production"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sales orders and shipments": 0.7,
+        "Purchase orders and receipts": 0.7,
+        "Returns": 0.26,
+        "Transfers, assembly or production": 0.35
+      }
+    },
+    {
+      "id": "stock-back",
+      "text": "Should stock adjustments and counts from the warehouse post back into BC?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "adjustment",
+            "stock ?tak",
+            "stock counting",
+            "inventory (report|level|process|movement)",
+            "reconcil",
+            "inventory aligned",
+            "invrpt"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.39
+      }
+    },
+    {
+      "id": "tracking",
+      "text": "Do you need lot, serial or expiry dates exchanged with the warehouse?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "\\blots?\\b",
+            "serial",
+            "expir",
+            "best-before",
+            "batch"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.17
+      }
+    },
+    {
+      "id": "channel",
+      "text": "How does your warehouse prefer to exchange data?",
+      "multi": true,
+      "options": [
+        {
+          "label": "EDI (EDIFACT, AS2...)",
+          "patterns": [
+            "\\bedi\\b",
+            "edifact",
+            "\\bas2\\b",
+            "x12"
+          ]
+        },
+        {
+          "label": "Via Power Automate",
+          "patterns": [
+            "power automate"
+          ]
+        },
+        {
+          "label": "Managed, monitored integration",
+          "patterns": [
+            "monitor",
+            "managed"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "EDI (EDIFACT, AS2...)": 0.13,
+        "Via Power Automate": 0.22,
+        "Managed, monitored integration": 0.17
+      }
+    },
+    {
+      "id": "multi-3pl",
+      "text": "Do you use more than one external warehouse?",
+      "options": [
+        {
+          "label": "Yes, several",
+          "patterns": [
+            "one or more",
+            "multiple providers",
+            "20\\+",
+            "several",
+            "new 3pl (suppliers|integrations)"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, several": 0.26
+      }
+    }
+  ]
+}

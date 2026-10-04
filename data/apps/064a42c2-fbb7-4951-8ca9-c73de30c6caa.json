@@ -1,0 +1,93 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evffp|PAPPID.064a42c2-fbb7-4951-8ca9-c73de30c6caa",
+  "guid": "064a42c2-fbb7-4951-8ca9-c73de30c6caa",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evffp",
+  "source": {
+    "name": "EV Stila - Feature Pack",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evffp%7CPAPPID.064a42c2-fbb7-4951-8ca9-c73de30c6caa",
+    "lastModified": "2026-09-14T05:29:43.321692+00:00",
+    "appVersion": "1.1.218947.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
+    "sourceHash": "sha256:19a96ccda36bc36c2479ae321491ac89c4a3fa558f3ce4f992d0ea40c829759f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:19a96ccda36bc36c2479ae321491ac89c4a3fa558f3ce4f992d0ea40c829759f",
+    "mappedOn": null,
+    "summary": "Inventory, order and credit control enhancements for K3 pebblestone fashion",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-fashion",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-order-allocation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking",
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Oversold list of styles comparing outstanding sales orders vs stock",
+      "Write down sales orders to available stock, posted as sales differences with reason code",
+      "Automates creation and execution of sales orders via Delivery Worksheet",
+      "Creates warehouse documents automatically, e.g. for eCom orders",
+      "Criteria determine whether an order is processed automatically",
+      "Orders over credit limit go to a journal for finance authorization",
+      "Bulk orders reserve inventory for specific customers or eCom channel",
+      "Bulk order reduced automatically when sales order created",
+      "Split a sales order into multiple orders keeping reference",
+      "On-hold inbound shipments stored in temporary location via transfer order"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "HK",
+      "IT",
+      "NL",
+      "NO",
+      "PH",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Fashion"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "K3 pebblestone"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

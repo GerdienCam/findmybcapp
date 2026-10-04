@@ -1,0 +1,105 @@
+{
+  "appId": "PUBID.centralsolutions1591256491708|AID.cs_preorder_manager|PAPPID.2b191787-6b49-457f-935a-21d573473709",
+  "guid": "2b191787-6b49-457f-935a-21d573473709",
+  "publisherId": "centralsolutions1591256491708",
+  "offerId": "cs_preorder_manager",
+  "source": {
+    "name": "CS Preorder Manager",
+    "publisher": "Central Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cs_preorder_manager%7CPAPPID.2b191787-6b49-457f-935a-21d573473709",
+    "lastModified": "2026-05-12T04:29:13.1200711+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://central-solutions.nl/cs-preorder-manager-help-en/",
+    "sourceHash": "sha256:cd14938ee268ad9a99569bbea4d883ab93c149a951fcebf390d8627aa13f357d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cd14938ee268ad9a99569bbea4d883ab93c149a951fcebf390d8627aa13f357d",
+    "mappedOn": null,
+    "summary": "Manages seasonal preorders and delivery periods",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-replenishment-planning",
+      "ng-vert-fashion"
+    ],
+    "claims": [
+      "Marks sales orders as preorders split into delivery periods (drops)",
+      "Suppresses availability check on preorders",
+      "Requisition worksheets plan from delivery period shipment dates",
+      "Cancel or replace items with alternatives in open orders",
+      "Cancelled quantities visible in order lines and archive"
+    ],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "DO",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Distribution",
+      "Fashion"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

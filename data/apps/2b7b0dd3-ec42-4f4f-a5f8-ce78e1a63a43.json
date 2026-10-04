@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.wsb_solutions|AID.status_management_for_quality_management|PAPPID.2b7b0dd3-ec42-4f4f-a5f8-ce78e1a63a43",
+  "guid": "2b7b0dd3-ec42-4f4f-a5f8-ce78e1a63a43",
+  "publisherId": "wsb_solutions",
+  "offerId": "status_management_for_quality_management",
+  "source": {
+    "name": "Status Management for Quality Management",
+    "publisher": "Apportunix",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.status_management_for_quality_management%7CPAPPID.2b7b0dd3-ec42-4f4f-a5f8-ce78e1a63a43",
+    "lastModified": "2026-10-02T09:30:42.3462005+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.statusmanagement.apportunix.com/",
+    "sourceHash": "sha256:ef2026052c554347ea67fb48a6ff9dc05b5e3bfeb84e3183e23fb1bbb75992bb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ef2026052c554347ea67fb48a6ff9dc05b5e3bfeb84e3183e23fb1bbb75992bb",
+    "mappedOn": null,
+    "summary": "Status lifecycle for quality management",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-nonconformance-capa",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Custom quality statuses (e.g. Under Review, Pending Approval, Closed)",
+      "Mandatory fields per status",
+      "User/security group permissions per status",
+      "Blocks non-compliant status transitions",
+      "Audit trail of status changes"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage",
+      "Manufacturing",
+      "Pharmaceutical",
+      "Wholesale"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Apportunix Quality Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

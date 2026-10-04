@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.dynaway|AID.dynaway-printvis|PAPPID.7371efb5-9cb2-49cb-8184-d4013596dda9",
+  "guid": "7371efb5-9cb2-49cb-8184-d4013596dda9",
+  "publisherId": "dynaway",
+  "offerId": "dynaway-printvis",
+  "source": {
+    "name": "Dynaway EAM PrintVis",
+    "publisher": "Dynaway A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynaway%7CAID.dynaway-printvis%7CPAPPID.7371efb5-9cb2-49cb-8184-d4013596dda9",
+    "lastModified": "2024-11-21T15:51:43.8052702+00:00",
+    "appVersion": "2310.0.2.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynaway.com/eam-bc/support",
+    "sourceHash": "sha256:22756446fe5c78ef34a84e0400aaa07f0190f531e357cc201c41e1294b1b9097"
+  },
+  "mapping": {
+    "sourceHash": "sha256:22756446fe5c78ef34a84e0400aaa07f0190f531e357cc201c41e1294b1b9097",
+    "mappedOn": null,
+    "summary": "Links Dynaway EAM maintenance with PrintVis production",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-printing-packaging",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-maintenance-breakdown"
+    ],
+    "claims": [
+      "Links maintenance assets with PrintVis cost centers",
+      "Non-maintenance staff can initiate maintenance requests",
+      "Asset Activity Board showing maintenance and production activity",
+      "Immediate notifications",
+      "Requires PrintVis and Dynaway EAM premium license"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "no",
+      "sv"
+    ],
+    "industries": [
+      "Printing"
+    ],
+    "connectsTo": [
+      "PrintVis"
+    ],
+    "requires": [
+      "PrintVis",
+      "Dynaway EAM"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

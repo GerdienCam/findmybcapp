@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex003datasecurity|PAPPID.d3f057ed-e131-4dc6-a1b9-3af3503a5d2a",
+  "guid": "d3f057ed-e131-4dc6-a1b9-3af3503a5d2a",
+  "publisherId": "eos_solutions",
+  "offerId": "ex003datasecurity",
+  "source": {
+    "name": "Data Security",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex003datasecurity%7CPAPPID.d3f057ed-e131-4dc6-a1b9-3af3503a5d2a",
+    "lastModified": "2026-09-25T10:09:17.9704227+00:00",
+    "appVersion": "28.0.22.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/data-security.html",
+    "sourceHash": "sha256:a0f111793114f9648e8693c30e872167e2e3e57c57dc31b77cf4ab6934d13b30"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a0f111793114f9648e8693c30e872167e2e3e57c57dc31b77cf4ab6934d13b30",
+    "mappedOn": null,
+    "summary": "Mandatory fields, validation rules, record status and workflow on data",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-permissions",
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Mandatory fields and validation rules on records",
+      "Automatic blocking of incompletely qualified records (e.g. customer without VAT No.)",
+      "Only granted users or groups can change record status",
+      "Email notification on record status change, no coding",
+      "Different approval paths per entity",
+      "Filter records by admin-defined status, e.g. not approved or obsolete",
+      "Custom functions and tables to extend workflows"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

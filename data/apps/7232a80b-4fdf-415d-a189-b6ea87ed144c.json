@@ -1,0 +1,126 @@
+{
+  "appId": "PUBID.heptacomgmbh1600526633273|AID.mayan_edms_connector|PAPPID.7232a80b-4fdf-415d-a189-b6ea87ed144c",
+  "guid": "7232a80b-4fdf-415d-a189-b6ea87ed144c",
+  "publisherId": "heptacomgmbh1600526633273",
+  "offerId": "mayan_edms_connector",
+  "source": {
+    "name": "Mayan EDMS Connector",
+    "publisher": "HEPTACOM GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.heptacomgmbh1600526633273%7CAID.mayan_edms_connector%7CPAPPID.7232a80b-4fdf-415d-a189-b6ea87ed144c",
+    "lastModified": "2024-11-21T06:58:08.0790605+00:00",
+    "appVersion": "1.0.0.31",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.tweecore.de/support/",
+    "sourceHash": "sha256:f062e06b9036a137859fed79e04195ac7edb80683ce6afdc45630365828fa47b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f062e06b9036a137859fed79e04195ac7edb80683ce6afdc45630365828fa47b",
+    "mappedOn": null,
+    "summary": "Sends sales and purchase documents to Mayan EDMS",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Exports sales and purchase documents to Mayan EDMS",
+      "Audit-proof storage of purchase and sales documents",
+      "Open related documents directly from the info box",
+      "Mayan EDMS is a free community DMS"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BD",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "DZ",
+      "EE",
+      "EG",
+      "ES",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "GR",
+      "HK",
+      "HR",
+      "HU",
+      "ID",
+      "IE",
+      "IN",
+      "IS",
+      "IT",
+      "JP",
+      "KE",
+      "KR",
+      "LB",
+      "LK",
+      "LT",
+      "LU",
+      "LV",
+      "MA",
+      "MM",
+      "MT",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PH",
+      "PL",
+      "PT",
+      "QA",
+      "RO",
+      "RS",
+      "SA",
+      "SE",
+      "SG",
+      "SI",
+      "TH",
+      "TN",
+      "TR",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Mayan EDMS"
+    ],
+    "requires": [
+      "TWEECORE Base"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

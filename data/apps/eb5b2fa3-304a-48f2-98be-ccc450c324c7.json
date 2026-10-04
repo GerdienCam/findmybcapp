@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.1700139460848|AID.cbex_cons_invoice|PAPPID.eb5b2fa3-304a-48f2-98be-ccc450c324c7",
+  "guid": "eb5b2fa3-304a-48f2-98be-ccc450c324c7",
+  "publisherId": "1700139460848",
+  "offerId": "cbex_cons_invoice",
+  "source": {
+    "name": "CBEX締め請求",
+    "publisher": "Charon Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1700139460848%7CAID.cbex_cons_invoice%7CPAPPID.eb5b2fa3-304a-48f2-98be-ccc450c324c7",
+    "lastModified": "2026-09-11T11:51:24.2744495+00:00",
+    "appVersion": "28.4.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://charon-inc.co.jp/product/business-central/",
+    "sourceHash": "sha256:04b771a363e51fecd67a5bcb2d3b5cf1e171643680eda49d999d702e205b5daf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:04b771a363e51fecd67a5bcb2d3b5cf1e171643680eda49d999d702e205b5daf",
+    "mappedOn": null,
+    "summary": "Creates Japanese monthly closing invoices compliant with invoice system",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-email-sending",
+      "ng-loc-country-pack",
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Monthly consolidated (closing-period) invoices",
+      "Closing period can be changed at any time",
+      "Subtotals by order, ship-to, customer order number, sell-to or posted document",
+      "Supports branch sales billed to head office and per-site totals for construction",
+      "Consumption tax calculated per invoice unit with automatic adjustment journals",
+      "Reduced tax rate mark printed for invoice system compliance",
+      "Bulk email delivery of invoices",
+      "Word-based layouts editable"
+    ],
+    "countries": [
+      "JP"
+    ],
+    "languages": [
+      "ja"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

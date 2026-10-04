@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionopenapi|PAPPID.bdc7100e-44e4-4844-b78e-f91b6f09d153",
+  "guid": "bdc7100e-44e4-4844-b78e-f91b6f09d153",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionopenapi",
+  "source": {
+    "name": "VisionOpenAPI",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionopenapi%7CPAPPID.bdc7100e-44e4-4844-b78e-f91b6f09d153",
+    "lastModified": "2026-04-24T09:16:21.3935554+00:00",
+    "appVersion": "1.0.0.23",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.visionpeople.dk/help/bdc7100e-44e4-4844-b78e-f91b6f09d153/index",
+    "sourceHash": "sha256:17daa974ff231883107c91dcce178a1b497e8f76aa13e3c6e9d0847c6e5f0b25"
+  },
+  "mapping": {
+    "sourceHash": "sha256:17daa974ff231883107c91dcce178a1b497e8f76aa13e3c6e9d0847c6e5f0b25",
+    "mappedOn": null,
+    "summary": "Single API endpoint exposing any BC table",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-developer-tools"
+    ],
+    "claims": [
+      "Single OData endpoint to query any table by table ID",
+      "Field selection",
+      "Metadata discovery of table structures",
+      "Incremental refresh by timestamp",
+      "Expands dimension set IDs into dimension values",
+      "Resolves foreign keys to record GUIDs",
+      "Server-side filtering with BC filter syntax",
+      "Multi-language field captions",
+      "Development mode limits data during testing",
+      "Service-to-Service authentication via Entra app"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

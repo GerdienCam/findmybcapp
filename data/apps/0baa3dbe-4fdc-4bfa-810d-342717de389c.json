@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.builddynamicsptyltd1736891494025|AID.bd_dimensions|PAPPID.0baa3dbe-4fdc-4bfa-810d-342717de389c",
+  "guid": "0baa3dbe-4fdc-4bfa-810d-342717de389c",
+  "publisherId": "builddynamicsptyltd1736891494025",
+  "offerId": "bd_dimensions",
+  "source": {
+    "name": "Dimensions Matter",
+    "publisher": "Build Dynamics Pty Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.builddynamicsptyltd1736891494025%7CAID.bd_dimensions%7CPAPPID.0baa3dbe-4fdc-4bfa-810d-342717de389c",
+    "lastModified": "2026-08-03T07:57:54.071655+00:00",
+    "appVersion": "28.0.0.8",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://builddynamics.com.au/help/bd-dimensions-matter/",
+    "sourceHash": "sha256:8540917fbed7a22d4d4bfba22e3daaad91d78a207c698270c6e54fcf5bed33a4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8540917fbed7a22d4d4bfba22e3daaad91d78a207c698270c6e54fcf5bed33a4",
+    "mappedOn": null,
+    "summary": "Auto-creates and maintains dimension values from master data",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Creates dimension values from customers, vendors, items, jobs, locations and more",
+      "Renames dimension values when master-data names change",
+      "Per-source rules covering prefixes, code formats and maximum length",
+      "Deactivation handling and duplicate merge helpers",
+      "Choose which sources feed which dimensions",
+      "Audit via standard change log"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "License Manager (Build Dynamics)"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

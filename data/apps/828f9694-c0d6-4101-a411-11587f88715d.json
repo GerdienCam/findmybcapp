@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-servicerequisition|PAPPID.828f9694-c0d6-4101-a411-11587f88715d",
+  "guid": "828f9694-c0d6-4101-a411-11587f88715d",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-servicerequisition",
+  "source": {
+    "name": "BeyondServiceRequisition",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-servicerequisition%7CPAPPID.828f9694-c0d6-4101-a411-11587f88715d",
+    "lastModified": "2026-05-14T16:20:07.5094855+00:00",
+    "appVersion": "2026.5.146.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/servicerequisition/index.html",
+    "sourceHash": "sha256:4fdfb5d7f23c285c10d23b011d590fc85a4005b2dc9aa3c55378c3a120497843"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4fdfb5d7f23c285c10d23b011d590fc85a4005b2dc9aa3c55378c3a120497843",
+    "mappedOn": null,
+    "summary": "Drop shipment and special order purchasing from service lines",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-svc-parts",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Replenishes drop shipments and special orders from service lines",
+      "Purchasing codes on service lines drive the replenishment method",
+      "Requisition worksheet created from the service line",
+      "No additional setup; reuses sales purchasing codes",
+      "Navigation between linked service lines and purchase orders",
+      "Clear link between service line and purchase line"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.mooreinsight|AID.mi-permissions|PAPPID.216e8059-48de-46e5-bd0a-a5519ca6988c",
+  "guid": "216e8059-48de-46e5-bd0a-a5519ca6988c",
+  "publisherId": "mooreinsight",
+  "offerId": "mi-permissions",
+  "source": {
+    "name": "MI - Permissions",
+    "publisher": "Moore Insight",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mooreinsight%7CAID.mi-permissions%7CPAPPID.216e8059-48de-46e5-bd0a-a5519ca6988c",
+    "lastModified": "2026-09-25T09:12:46.981701+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://moore-insight-apps.com/apps/bc-extensions/permissions",
+    "sourceHash": "sha256:2b4f4760f281ee6914b36838dd6477a0b4df88f1ef778ef7927b78df3b6d2cab"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2b4f4760f281ee6914b36838dd6477a0b4df88f1ef778ef7927b78df3b6d2cab",
+    "mappedOn": null,
+    "summary": "Row-level security by G/L account, dimension, number series",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-permissions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Row-level security on G/L entries, sales/purchase docs and ledger entries",
+      "Filters G/L entries by account and up to eight dimensions",
+      "Filters by posting group and number series",
+      "Restricts dimension value lookups",
+      "Include Blanks option",
+      "One-click user sync from User Setup",
+      "Admin permission set for rule maintenance"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

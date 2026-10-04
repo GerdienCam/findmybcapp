@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-mobile-service-checklist-bridge|PAPPID.127303d7-eec8-4932-bb2a-815a4f05a65e",
+  "guid": "127303d7-eec8-4932-bb2a-815a4f05a65e",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-mobile-service-checklist-bridge",
+  "source": {
+    "name": "BeyondMobileServiceChecklistsBridge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-mobile-service-checklist-bridge%7CPAPPID.127303d7-eec8-4932-bb2a-815a4f05a65e",
+    "lastModified": "2026-09-24T12:39:13.4486104+00:00",
+    "appVersion": "2026.9.223.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/apps/index.html",
+    "sourceHash": "sha256:a6439bb66a803870819673dae9250f2592875c339a9f0afe71ade2995d4f6d0c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a6439bb66a803870819673dae9250f2592875c339a9f0afe71ade2995d4f6d0c",
+    "mappedOn": null,
+    "summary": "Lets service technicians complete checklists in BeyondMobileService",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Complete service order checklists from the mobile app",
+      "Checks mandatory items still open before a service order can be completed",
+      "Display checklist completion status"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "BeyondMobileService",
+      "BeyondChecklists"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two BEYOND products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

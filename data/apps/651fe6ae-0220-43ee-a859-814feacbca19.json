@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.npsdoo1580466836471|AID.npspyd|PAPPID.651fe6ae-0220-43ee-a859-814feacbca19",
+  "guid": "651fe6ae-0220-43ee-a859-814feacbca19",
+  "publisherId": "npsdoo1580466836471",
+  "offerId": "npspyd",
+  "source": {
+    "name": "Payment Discounts",
+    "publisher": "NPS d.o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.npsdoo1580466836471%7CAID.npspyd%7CPAPPID.651fe6ae-0220-43ee-a859-814feacbca19",
+    "lastModified": "2026-07-14T18:12:21.176051+00:00",
+    "appVersion": "28.0.39.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://github.com/NPSBeograd/NPS-Support/wiki",
+    "sourceHash": "sha256:62868946a2b7bf329a919f588bf822892a9514556d6af1ccaadfccb009a3a2c9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:62868946a2b7bf329a919f588bf822892a9514556d6af1ccaadfccb009a3a2c9",
+    "mappedOn": null,
+    "summary": "Early payment discounts for customers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Import and export payment discounts and define them by period",
+      "Apply Discount on posted sales invoice excludes it from automatic approval",
+      "Creates payment discount credit memos for customers",
+      "Payment Discount Summary report of planned vs realized discounts by customer",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "sr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

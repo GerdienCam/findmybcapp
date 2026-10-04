@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.marcbreuer1769905304294|AID.tactoconnect|PAPPID.f1134ea8-b256-4120-8fb9-452614445641",
+  "guid": "f1134ea8-b256-4120-8fb9-452614445641",
+  "publisherId": "marcbreuer1769905304294",
+  "offerId": "tactoconnect",
+  "source": {
+    "name": "Tacto connect",
+    "publisher": "giant Computer Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.marcbreuer1769905304294%7CAID.tactoconnect%7CPAPPID.f1134ea8-b256-4120-8fb9-452614445641",
+    "lastModified": "2026-07-06T04:52:03.0011158+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://businesscentral.giant-software.de/en/product/tactoconnect/help",
+    "sourceHash": "sha256:690eaf9ea863f2267b5360b7190332c9e83fcc428a6159f8cf84094ff3fc1c55"
+  },
+  "mapping": {
+    "sourceHash": "sha256:690eaf9ea863f2267b5360b7190332c9e83fcc428a6159f8cf84094ff3fc1c55",
+    "mappedOn": null,
+    "summary": "Exports purchasing data to Tacto procurement platform",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-procurement-spend",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-setup"
+    ],
+    "claims": [
+      "Exports items, vendors, prices and purchase documents to Tacto as CSV",
+      "Read-only, never modifies BC data",
+      "About two dozen purchasing datasets preconfigured",
+      "Configurable tables, fields, field order and file names without code",
+      "Date formula filter per table",
+      "Option to export only items referenced in purchase documents",
+      "ZIP download of all CSV files",
+      "Automatic upload to Azure Blob Storage with OAuth 2.0 / Entra ID",
+      "Local server path delivery on-premises",
+      "Scheduled export via Job Queue",
+      "Lists exported files so they can be checked and downloaded again",
+      "Configuration export and import between companies",
+      "Requires BC 24.0 or later"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Tacto",
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

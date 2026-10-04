@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evextwarehousevonnector|PAPPID.3e32ad98-4f53-4e9e-9f2d-bbc559a08535",
+  "guid": "3e32ad98-4f53-4e9e-9f2d-bbc559a08535",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evextwarehousevonnector",
+  "source": {
+    "name": "EV External Warehouse",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evextwarehousevonnector%7CPAPPID.3e32ad98-4f53-4e9e-9f2d-bbc559a08535",
+    "lastModified": "2025-10-08T11:45:03.1679204+00:00",
+    "appVersion": "21.0.154525.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
+    "sourceHash": "sha256:df3f96a19efbf3630b00be95424519011898c6b74b276ccf5d21a3b63e18bdeb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:df3f96a19efbf3630b00be95424519011898c6b74b276ccf5d21a3b63e18bdeb",
+    "mappedOn": null,
+    "summary": "Exchanges data with external 3PL warehouses and WMS",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway"
+    ],
+    "claims": [
+      "Integrates with one or more 3PL partners",
+      "Sends and receives items with 3PL partners",
+      "Works with standard Warehouse Shipments and Warehouse Receipts",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "IT",
+      "NL",
+      "NO",
+      "PH",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "3PL",
+      "WMS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

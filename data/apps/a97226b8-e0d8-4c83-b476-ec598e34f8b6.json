@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.dynamics_dossier|AID.pdf_preview|PAPPID.a97226b8-e0d8-4c83-b476-ec598e34f8b6",
+  "guid": "a97226b8-e0d8-4c83-b476-ec598e34f8b6",
+  "publisherId": "dynamics_dossier",
+  "offerId": "pdf_preview",
+  "source": {
+    "name": "PDF Preview",
+    "publisher": "Q-Team Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics_dossier%7CAID.pdf_preview%7CPAPPID.a97226b8-e0d8-4c83-b476-ec598e34f8b6",
+    "lastModified": "2026-08-28T11:09:43.3441465+00:00",
+    "appVersion": "28.0.46163.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.q-teamsolutions.com/product/pdf-preview/",
+    "sourceHash": "sha256:25d48628b97af6b8e369169fa468ceef49e2e8ada23f24099c9d66cc8a9c5e67"
+  },
+  "mapping": {
+    "sourceHash": "sha256:25d48628b97af6b8e369169fa468ceef49e2e8ada23f24099c9d66cc8a9c5e67",
+    "mappedOn": null,
+    "summary": "Previews PDF on purchase invoices",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Shows PDF without opening incoming document link",
+      "Preview on purchase invoice, list, posted invoice and posted list pages",
+      "Compatible with OCRDocs",
+      "Available SaaS and OnPrem"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

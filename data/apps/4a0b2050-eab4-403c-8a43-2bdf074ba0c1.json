@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.4appsolutiondoo1581948784798|AID.kratos|PAPPID.4a0b2050-eab4-403c-8a43-2bdf074ba0c1",
+  "guid": "4a0b2050-eab4-403c-8a43-2bdf074ba0c1",
+  "publisherId": "4appsolutiondoo1581948784798",
+  "offerId": "kratos",
+  "source": {
+    "name": "KRATOS",
+    "publisher": "4app solution d.o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.4appsolutiondoo1581948784798%7CAID.kratos%7CPAPPID.4a0b2050-eab4-403c-8a43-2bdf074ba0c1",
+    "lastModified": "2024-11-21T13:26:32.7832461+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.4app.hr/en/home-2/#contact",
+    "sourceHash": "sha256:0a0a4fbb9602611bf8310749be64afa1ab4a07be0431988304d80eaf39072fd5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0a0a4fbb9602611bf8310749be64afa1ab4a07be0431988304d80eaf39072fd5",
+    "mappedOn": null,
+    "summary": "Manages permit applications, approvals and usage fees",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-ux-document-layouts"
+    ],
+    "claims": [
+      "Manages permits and approvals for usage fees (water use, airways, driveways, events, construction)",
+      "User-defined permission types",
+      "Permission templates with parameters and validity period",
+      "BC and Word templates generate PDF permits with substituted parameters",
+      "Integrates with existing permit application website",
+      "Integration with GIS mapping"
+    ],
+    "countries": [],
+    "languages": [
+      "hr"
+    ],
+    "industries": [
+      "Public sector"
+    ],
+    "connectsTo": [
+      "GIS mapping",
+      "permit application website"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Public-sector permit application, approval and usage-fee management; no need group for government permits/licensing"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

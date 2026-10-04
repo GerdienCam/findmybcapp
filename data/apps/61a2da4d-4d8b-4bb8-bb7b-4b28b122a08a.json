@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_budget_management|PAPPID.61a2da4d-4d8b-4bb8-bb7b-4b28b122a08a",
+  "guid": "61a2da4d-4d8b-4bb8-bb7b-4b28b122a08a",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_budget_management",
+  "source": {
+    "name": "Linc Budget Management",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_budget_management%7CPAPPID.61a2da4d-4d8b-4bb8-bb7b-4b28b122a08a",
+    "lastModified": "2026-04-30T11:41:16.6592824+00:00",
+    "appVersion": "26.26.2305.655",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-Budget-Management",
+    "sourceHash": "sha256:912b3067230855a1f66c4e07ea495a2a3d7f6e69d184cb325ffcac4ffe8d40a2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:912b3067230855a1f66c4e07ea495a2a3d7f6e69d184cb325ffcac4ffe8d40a2",
+    "mappedOn": null,
+    "summary": "Tracks G/L and fixed asset purchase budgets on purchase documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-budget-control",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-procurement-spend",
+      "ng-fa-capex"
+    ],
+    "claims": [
+      "Shows G/L or fixed asset purchase cost vs budget on purchase quotes, orders and invoices",
+      "Budget summary factbox on purchase documents",
+      "Over-budget indicators on purchase lines",
+      "Uses a configured active management budget"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

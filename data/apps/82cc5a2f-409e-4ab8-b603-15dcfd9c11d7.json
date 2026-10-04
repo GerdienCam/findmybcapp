@@ -1,0 +1,100 @@
+{
+  "appId": "PUBID.to-increasebv|AID.ls_bc_365|PAPPID.82cc5a2f-409e-4ab8-b603-15dcfd9c11d7",
+  "guid": "82cc5a2f-409e-4ab8-b603-15dcfd9c11d7",
+  "publisherId": "to-increasebv",
+  "offerId": "ls_bc_365",
+  "source": {
+    "name": "PE-Item Status Management",
+    "publisher": "STAEDEAN",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.to-increasebv%7CAID.ls_bc_365%7CPAPPID.82cc5a2f-409e-4ab8-b603-15dcfd9c11d7",
+    "lastModified": "2026-02-19T16:01:11.94976+00:00",
+    "appVersion": "23.0.122512.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.staedean.com/",
+    "sourceHash": "sha256:7a441f0b96c22393d7fd768b8ed11e9555fc486f9d480bc0ee2a68c3bd0c9bb6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7a441f0b96c22393d7fd768b8ed11e9555fc486f9d480bc0ee2a68c3bd0c9bb6",
+    "mappedOn": null,
+    "summary": "Item status lifecycle example on Lifecycle Base",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-product-phase-out",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-automation"
+    ],
+    "claims": [
+      "Item states: Blocked, Phased Out, Released, Planning, Calculating and New",
+      "Checks conditions before accepting next state",
+      "Triggers actions such as printing a report",
+      "Checks conditions and authorizations, triggers printing and posting",
+      "Lengthy tasks run in the background"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GL",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RS",
+      "SE",
+      "SI",
+      "SK",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Automotive",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Lifecycle Base"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

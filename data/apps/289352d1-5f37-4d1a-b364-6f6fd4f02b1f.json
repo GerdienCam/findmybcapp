@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.navsolutionsaps1708699870201|AID.alternate-bill-to-address|PAPPID.289352d1-5f37-4d1a-b364-6f6fd4f02b1f",
+  "guid": "289352d1-5f37-4d1a-b364-6f6fd4f02b1f",
+  "publisherId": "navsolutionsaps1708699870201",
+  "offerId": "alternate-bill-to-address",
+  "source": {
+    "name": "Alternate Bill-to Address",
+    "publisher": "NAV Solutions ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navsolutionsaps1708699870201%7CAID.alternate-bill-to-address%7CPAPPID.289352d1-5f37-4d1a-b364-6f6fd4f02b1f",
+    "lastModified": "2025-10-08T14:36:29.9736469+00:00",
+    "appVersion": "26.5.0.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://navsolutions.dk/alternate-bill-to-address",
+    "sourceHash": "sha256:f3fd0766fcbff8636a9af26a405c71877ee06c556d95f4fdc47dc686a8f09d46"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f3fd0766fcbff8636a9af26a405c71877ee06c556d95f4fdc47dc686a8f09d46",
+    "mappedOn": null,
+    "summary": "Alternate bill-to address on sales documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Select alternate billing address on sales documents",
+      "Supports customers with several locations sharing one VAT number"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

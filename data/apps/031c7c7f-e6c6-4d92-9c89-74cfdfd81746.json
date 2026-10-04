@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.innoware-1255921|AID.iw_bc_ukrainian_localization_foundation|PAPPID.031c7c7f-e6c6-4d92-9c89-74cfdfd81746",
+  "guid": "031c7c7f-e6c6-4d92-9c89-74cfdfd81746",
+  "publisherId": "innoware-1255921",
+  "offerId": "iw_bc_ukrainian_localization_foundation",
+  "source": {
+    "name": "IW Foundation",
+    "publisher": "Innoware Ukraine LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.innoware-1255921%7CAID.iw_bc_ukrainian_localization_foundation%7CPAPPID.031c7c7f-e6c6-4d92-9c89-74cfdfd81746",
+    "lastModified": "2026-09-17T11:06:38.8036293+00:00",
+    "appVersion": "27.16.6473.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://innoware.com/D365BusinessCentral/UserDocumentation/D365_BusinessCentral_IW_Ukrainian_Localization_Foundation_UserDocumentation.pdf",
+    "sourceHash": "sha256:e3688dba9194a6edb70e39032cf558c1a6399025218e7f730e3d0d2cef735cdb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e3688dba9194a6edb70e39032cf558c1a6399025218e7f730e3d0d2cef735cdb",
+    "mappedOn": null,
+    "summary": "Ukrainian fiscal and accounting localization",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-employee-expenses",
+      "ng-currency"
+    ],
+    "claims": [
+      "Vendor and customer agreements used throughout the system",
+      "Vendor and customer reconciliation reports",
+      "Advance holders, corporate bank cards and advance statements",
+      "Low-value items accounting",
+      "Cancel inventory documents by red storno",
+      "Fiscal financial statements 1-4",
+      "Turnover balance sheet and account analysis reports",
+      "Currency exchange differences and financial results at period close",
+      "G/L correspondence (double-entry view)",
+      "Ukrainian printed forms such as Sales Invoice, Acceptance Act, Sales Shipment"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "languages": [
+      "en",
+      "ru",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "M.E.Doc"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

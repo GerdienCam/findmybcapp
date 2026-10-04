@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.advania|AID.advania_finance_addons|PAPPID.255f1468-daf0-4647-8b1b-237eb0c209f7",
+  "guid": "255f1468-daf0-4647-8b1b-237eb0c209f7",
+  "publisherId": "advania",
+  "offerId": "advania_finance_addons",
+  "source": {
+    "name": "Advania Finance Addons",
+    "publisher": "Advania",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advania%7CAID.advania_finance_addons%7CPAPPID.255f1468-daf0-4647-8b1b-237eb0c209f7",
+    "lastModified": "2026-10-01T08:17:53.4276942+00:00",
+    "appVersion": "29.0.57.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.d365bc.is/finance",
+    "sourceHash": "sha256:9754b1630f8143ad79b8cd9faf7001117d6ce8744f9b9ded0d539eb596760e8d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9754b1630f8143ad79b8cd9faf7001117d6ce8744f9b9ded0d539eb596760e8d",
+    "mappedOn": null,
+    "summary": "Finance add-ons including Excel import into general journals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Imports Excel data into the general journal",
+      "Uses data exchange definitions for mapping",
+      "Depends on Advania Base"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DE",
+      "DK",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "IE",
+      "IS",
+      "NL",
+      "NO",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Advania Base"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

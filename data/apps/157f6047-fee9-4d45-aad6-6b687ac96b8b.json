@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dms-365-cnh|PAPPID.157f6047-fee9-4d45-aad6-6b687ac96b8b",
+  "guid": "157f6047-fee9-4d45-aad6-6b687ac96b8b",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dms-365-cnh",
+  "source": {
+    "name": "Aptean Equipment DMS x CNH",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-365-cnh%7CPAPPID.157f6047-fee9-4d45-aad6-6b687ac96b8b",
+    "lastModified": "2026-08-17T11:04:09.6972915+00:00",
+    "appVersion": "2603.260600.20260714.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:e895c7774b65c5dc84e2a92a4ede65922b2751e92a010f27b6d1c081070bec00"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e895c7774b65c5dc84e2a92a4ede65922b2751e92a010f27b6d1c081070bec00",
+    "mappedOn": null,
+    "summary": "Connects Aptean Equipment DMS with manufacturer CNH",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-dealers"
+    ],
+    "claims": [
+      "Automated download of CNH parts price files for Case IH, Case Construction, New Holland and Steyr",
+      "Downloads CNH invoices in XML and PDF for time or number ranges",
+      "Job queue matches CNH invoices to posted warehouse documents",
+      "Supports Premium Edition only"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "CNH",
+      "CSPS"
+    ],
+    "requires": [
+      "Aptean Equipment DMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

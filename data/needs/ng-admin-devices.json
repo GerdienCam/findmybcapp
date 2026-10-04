@@ -1,0 +1,303 @@
+{
+  "id": "ng-admin-devices",
+  "order": 151,
+  "label": "BC on phones, scanners and devices",
+  "description": "Mobile apps, handheld scanners, IoT sensors, offline work and location/geofencing.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "high",
+  "statements": [
+    "BC on phones, scanners and devices",
+    "Mobile apps, handheld scanners, IoT sensors, offline work and location/geofencing.",
+    "Which handheld scanners actually work with Business Central?",
+    "Is there a mobile app for BC that our warehouse staff can use on Android devices?",
+    "The BC mobile app is too clunky for our people on the floor",
+    "We want a time clock terminal at the factory entrance that sends punches into BC",
+    "barcode scanner app business central",
+    "Setting up and managing 40 handhelds for the warehouse is a full-time job for IT",
+    "Our field technicians need an app on their phone that talks to BC",
+    "Can we lock down the warehouse devices so they only run the scanning app?",
+    "We need a tablet app for the shop floor to report production without a full BC license",
+    "Employees want to snap receipt photos on their phone and have them land in BC",
+    "Zebra scanners with BC, which app do people use?",
+    "Our old NAV scanner solution doesn't work with BC online",
+    "How do we roll out a new version of the scanner app to every device at once?",
+    "We need device users that don't each cost a full BC license",
+    "Managers want approvals and key numbers on their phone",
+    "Is there a mobile app that works on both iOS and Android with our BC data?",
+    "Rugged devices for the yard, what do other BC customers use?",
+    "Mobile device management for our BC warehouse terminals",
+    "Our scanners lose the session constantly and staff have to log in again",
+    "We need a kiosk tablet in the workshop where staff record hours against jobs",
+    "Can our machines send counts straight into BC?",
+    "IoT sensors on our freezers, we want alerts in BC when the temperature rises",
+    "IoT business central integration",
+    "Connecting PLCs on the shop floor to Business Central",
+    "Is there an app that reads weight from our scales into BC automatically?",
+    "We have sensor data in Azure but no way to use it in BC",
+    "Can BC know when a driver arrives at a customer site automatically?",
+    "geofencing business central",
+    "We want time clock punches to only work when staff are on site",
+    "Show customers on a map based on their address in BC",
+    "GPS coordinates on the customer card",
+    "Mobile app check-ins should record location",
+    "Our tills stop working when the internet goes down",
+    "Is there a way to use BC offline at a remote site with bad connection?",
+    "offline POS business central",
+    "Technicians lose their work orders when they have no signal at the customer site",
+    "We need sales reps to take orders at trade fairs without wifi and sync later",
+    "What happens to scanned warehouse transactions if the connection drops?"
+  ],
+  "questions": [
+    {
+      "id": "task",
+      "text": "What will people do on the devices?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Warehouse: receive, pick, ship, count",
+          "patterns": [
+            "warehouse",
+            "\\bpick",
+            "put-?away",
+            "\\bwms\\b",
+            "receiving",
+            "stock count"
+          ]
+        },
+        {
+          "label": "Production floor: consumption and output",
+          "patterns": [
+            "production",
+            "manufactur",
+            "consumption",
+            "output",
+            "shop ?floor"
+          ]
+        },
+        {
+          "label": "Drivers, delivery or field sales/service",
+          "patterns": [
+            "driver",
+            "proof of delivery",
+            "delivery (app|process|locations)",
+            "field (sales|service)",
+            "sales (app|recording|teams?)",
+            "quote and order entry",
+            "run sheet",
+            "deskless",
+            "sales, service and project",
+            "truck"
+          ]
+        },
+        {
+          "label": "Connect machines, scales or sensors",
+          "patterns": [
+            "\\biot\\b",
+            "scales?\\b",
+            "weigh",
+            "\\bplc\\b",
+            "telemat",
+            "sensor",
+            "machine data",
+            "moxa",
+            "moneo"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Warehouse: receive, pick, ship, count": 0.72,
+        "Production floor: consumption and output": 0.3,
+        "Drivers, delivery or field sales/service": 0.09,
+        "Connect machines, scales or sensors": 0.11
+      }
+    },
+    {
+      "id": "device",
+      "text": "What devices will your people use?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Rugged handheld scanners (Zebra, Honeywell...)",
+          "patterns": [
+            "handheld",
+            "hand-held",
+            "rugged",
+            "zebra",
+            "honeywell",
+            "terminal",
+            "datawedge",
+            "cipherlab",
+            "intermec",
+            "scanner"
+          ]
+        },
+        {
+          "label": "Ordinary phones and tablets",
+          "patterns": [
+            "smartphone",
+            "tablet",
+            "iphone",
+            "ipad",
+            "\\bios\\b",
+            "phone"
+          ]
+        },
+        {
+          "label": "Any device with a web browser",
+          "patterns": [
+            "browser",
+            "web client",
+            "no app installation",
+            "without extra apps",
+            "no extra app",
+            "device-independent"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Rugged handheld scanners (Zebra, Honeywell...)": 0.46,
+        "Ordinary phones and tablets": 0.23,
+        "Any device with a web browser": 0.11
+      }
+    },
+    {
+      "id": "offline",
+      "text": "Do people work where Wi-Fi or mobile signal is weak?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, it must work offline",
+          "patterns": [
+            "offline"
+          ]
+        },
+        {
+          "label": "No, always connected",
+          "patterns": [
+            "requires wi-?fi",
+            "network connection",
+            "real[- ]time",
+            "online"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, it must work offline": 0.19,
+        "No, always connected": 0.31
+      }
+    },
+    {
+      "id": "extras",
+      "text": "Which of these must the device handle?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Lot, serial or expiry dates",
+          "patterns": [
+            "\\blots?\\b",
+            "serial",
+            "batch",
+            "expir",
+            "fefo"
+          ]
+        },
+        {
+          "label": "Pallets / license plates",
+          "patterns": [
+            "license plat",
+            "pallet",
+            "handling unit",
+            "load carrier",
+            "\\blpn\\b",
+            "container"
+          ]
+        },
+        {
+          "label": "Printing labels",
+          "patterns": [
+            "label"
+          ]
+        },
+        {
+          "label": "Photos or signatures",
+          "patterns": [
+            "photo",
+            "picture",
+            "image",
+            "signature"
+          ]
+        },
+        {
+          "label": "None of these / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Lot, serial or expiry dates": 0.26,
+        "Pallets / license plates": 0.23,
+        "Printing labels": 0.3,
+        "Photos or signatures": 0.12
+      }
+    },
+    {
+      "id": "install",
+      "text": "Is installing a separate app or server on your side OK?",
+      "multi": false,
+      "options": [
+        {
+          "label": "No, it must run inside Business Central",
+          "patterns": [
+            "no (additional|extra|separate) (software|app|server)",
+            "no app installation",
+            "without (middleware|extra apps)",
+            "runs (natively|fully) (in|inside)",
+            "runs in (bc|business central)",
+            "no external services",
+            "no third-party integration",
+            "web client",
+            "no separate (database|server)",
+            "built on bc",
+            "without middleware",
+            "no extra app"
+          ]
+        },
+        {
+          "label": "Yes, a separate app or platform is fine",
+          "patterns": [
+            "android (client|app)",
+            "mobile app",
+            "native android",
+            "\\bapp (for|built)",
+            "requires .*(wms|portal|website|tegossuite|mes|tasklet)",
+            "connects to the",
+            "integrates .* with bc"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "No, it must run inside Business Central": 0.1,
+        "Yes, a separate app or platform is fine": 0.31
+      }
+    }
+  ]
+}

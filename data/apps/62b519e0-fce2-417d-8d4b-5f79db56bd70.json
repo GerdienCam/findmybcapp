@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_prod_order_job_steel|PAPPID.62b519e0-fce2-417d-8d4b-5f79db56bd70",
+  "guid": "62b519e0-fce2-417d-8d4b-5f79db56bd70",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_prod_order_job_steel",
+  "source": {
+    "name": "m+m Production Order Job Overview Steel",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_prod_order_job_steel%7CPAPPID.62b519e0-fce2-417d-8d4b-5f79db56bd70",
+    "lastModified": "2026-09-25T11:26:20.4650486+00:00",
+    "appVersion": "28.0.375248.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:c910645a34bce635e2e1c826cafd5f0ec3ab3db7379cb1c2f1027c987be56945"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c910645a34bce635e2e1c826cafd5f0ec3ab3db7379cb1c2f1027c987be56945",
+    "mappedOn": null,
+    "summary": "Combines production order job overview with m+m steel modules",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-metal-timber-materials",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Combines the job overview with Unit Conversion, Material Properties, Steel Base Module and Additional Lot Information",
+      "Requires Premium edition"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Steel"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "m+m Production Order Job Overview",
+      "m+m Material Properties",
+      "m+m Unit Conversion",
+      "m+m Additional Lot Information",
+      "m+m Steel Base Module"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_metal_tolling_intrastat|PAPPID.6eed52e1-20e6-49e1-9d1c-adbf2e4a75c6",
+  "guid": "6eed52e1-20e6-49e1-9d1c-adbf2e4a75c6",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_metal_tolling_intrastat",
+  "source": {
+    "name": "m+m Metal & Tolling with Intrastat",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_metal_tolling_intrastat%7CPAPPID.6eed52e1-20e6-49e1-9d1c-adbf2e4a75c6",
+    "lastModified": "2026-06-07T09:04:50.9404589+00:00",
+    "appVersion": "28.0.371141.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:5c503816cedf98b55be06d3ed79d57de40c2150a6d9663b593f2141dcfbdeb5e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5c503816cedf98b55be06d3ed79d57de40c2150a6d9663b593f2141dcfbdeb5e",
+    "mappedOn": null,
+    "summary": "Adds metal and tolling fields to Intrastat reporting",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-metal-timber-materials",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Puts fields for metal and tolling into the Intrastat message",
+      "Updates metal/tolling information on Intrastat lines to set correct amounts",
+      "Metal accounts for vendors and customers per material",
+      "Requires Premium edition"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Metal & Tolling"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

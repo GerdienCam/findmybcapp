@@ -1,0 +1,98 @@
+{
+  "appId": "PUBID.foodware365|AID.product_specification|PAPPID.716086ae-c360-47a8-8465-a4d963ea39f8",
+  "guid": "716086ae-c360-47a8-8465-a4d963ea39f8",
+  "publisherId": "foodware365",
+  "offerId": "product_specification",
+  "source": {
+    "name": "Aptean Product Specification for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.product_specification%7CPAPPID.716086ae-c360-47a8-8465-a4d963ea39f8",
+    "lastModified": "2026-09-23T05:55:19.2472146+00:00",
+    "appVersion": "2603.2.344307.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/PRS/",
+    "sourceHash": "sha256:3d0c7cfda051dd924460d4cb8b968471f073f5ab5a0d8656f807248ef69d633d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3d0c7cfda051dd924460d4cb8b968471f073f5ab5a0d8656f807248ef69d633d",
+    "mappedOn": null,
+    "summary": "Specifications for products, plus ingredient declarations",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-product-compliance",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bom-formula-engineering"
+    ],
+    "claims": [
+      "Records ingredients, additives, allergens, nutritional values, dietary info, packaging, country of origin",
+      "Bottom-up specification calculation through production or assembly BOM",
+      "Specifications linked to item numbers and BOMs",
+      "User-defined fields and templates",
+      "Print selected specification topics"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

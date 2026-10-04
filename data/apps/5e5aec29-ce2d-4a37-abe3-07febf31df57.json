@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.navtilus|AID.5e5aec29-ce2d-4a37-abe3-07febf31df57|PAPPID.5e5aec29-ce2d-4a37-abe3-07febf31df57",
+  "guid": "5e5aec29-ce2d-4a37-abe3-07febf31df57",
+  "publisherId": "navtilus",
+  "offerId": "5e5aec29-ce2d-4a37-abe3-07febf31df57",
+  "source": {
+    "name": "SimpleAPI",
+    "publisher": "Navtilus",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navtilus%7CAID.5e5aec29-ce2d-4a37-abe3-07febf31df57%7CPAPPID.5e5aec29-ce2d-4a37-abe3-07febf31df57",
+    "lastModified": "2026-07-23T13:29:05.0287372+00:00",
+    "appVersion": "4.2.71.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.navtilus.dk/SimpleAPI-UserGuide.pdf",
+    "sourceHash": "sha256:464a7f37812a356a29cca07034dec17418ec3556da7b2e7c78f89fb2934512f2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:464a7f37812a356a29cca07034dec17418ec3556da7b2e7c78f89fb2934512f2",
+    "mappedOn": null,
+    "summary": "Simple API access to BC data for Excel and Power BI",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-excel-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Excel download or Excel data link access",
+      "Power BI custom connector",
+      "Power Platform solution",
+      "Supplies OpenAPI definition for other integrations",
+      "Configure tables and fields exposed in an API",
+      "Minimum 5 licenses"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Excel",
+      "Power BI",
+      "Power Platform"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

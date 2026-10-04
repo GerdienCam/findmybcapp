@@ -1,0 +1,404 @@
+{
+  "id": "ng-sales-pricing",
+  "order": 19,
+  "label": "Setting customer prices and discounts",
+  "description": "Setting up, updating and maintaining customer price lists, discounts and freight charges.",
+  "type": "bpc",
+  "area": "Products & items",
+  "relevance": "high",
+  "statements": [
+    "Setting customer prices and discounts",
+    "Setting up, updating and maintaining customer price lists, discounts and freight charges.",
+    "Every big customer has their own prices and we keep them in Excel",
+    "Sales reps give random discounts on orders and nobody checks it",
+    "Is there an app for quantity break pricing on sales orders in BC?",
+    "We want to charge freight automatically on customer orders below a minimum amount",
+    "customer specific price lists BC",
+    "How do I set up a discount that applies to a whole item category for one customer group?",
+    "Our customer price lists are in three currencies and updating them every January takes a week",
+    "We want to add a handling fee to every sales order under 1,000",
+    "Mix and match offers like buy 3 get 1 free, does BC support that for our customers?",
+    "BC picks the cheapest price, but we want the customer's agreed contract price to win even if a campaign is cheaper",
+    "Need contract prices per customer with start and end dates",
+    "Free shipping over 500 kr for webshop customers",
+    "Our customers get a discount on the total order value but BC only does line discounts",
+    "Coupon codes for customer orders",
+    "Sales reps need to see the margin on the order line before they agree a price with the client",
+    "Want a minimum margin rule so reps cannot sell below cost",
+    "We pass on a metal surcharge that changes monthly to our customers",
+    "Pricing for distributors vs end customers is completely inconsistent",
+    "Is there a better pricing engine for BC than the standard price lists, something with rules and formulas?",
+    "Shipping cost on sales orders should be calculated from weight and destination, not typed in",
+    "Every customer has a different price and we keep them in a spreadsheet",
+    "Is there an app for advanced pricing in BC with more discount options?",
+    "We need quantity breaks so customers pay less per unit when they buy more",
+    "pricing engine Business Central",
+    "Our sales reps override prices on sales orders because the system price is never right",
+    "We want prices based on a cost plus margin rule instead of fixed prices",
+    "How do I give one customer group 10% off a whole product category?",
+    "Mix and match discounts across several items on one order",
+    "Customer specific prices with start and end dates keep getting lost",
+    "We need prices that follow the copper price every week",
+    "Our pricing has so many exceptions that nobody trusts the price on the invoice",
+    "Can BC round sales prices to end in .95 automatically?",
+    "We want to charge a small order fee or a surcharge on certain items",
+    "Prices should differ for our web shop, our retail store and our B2B customers",
+    "We give buying groups and associations special prices and BC cannot model that",
+    "discount coupons for customers",
+    "Price depends on attributes like length and finish, not just the item number",
+    "Contract prices for our big customers should win over campaign prices, how do we set priority?",
+    "We sell in pallets, boxes and pieces and each unit needs its own sales price",
+    "Our customers get free goods when they order 10 cases, can BC handle that?",
+    "Our yearly price increase takes a whole week of manual updates",
+    "How do I raise all sales prices by 3% except for contract customers?",
+    "We need to copy last year's customer price list and adjust it",
+    "mass update sales prices",
+    "Is there an app to export price lists to Excel, edit them and import back with approval?",
+    "Old sales prices are never ended and the system picks the wrong one",
+    "Customers ask us to match a competitor's price and the sales rep can't do it at the counter",
+    "We need to notify customers 30 days before a price change",
+    "Price changes go live without anyone checking them",
+    "Sales agreements with customers expire and nobody notices",
+    "Default unit price on the item card is out of date for half our range",
+    "Price list approval workflow in BC"
+  ],
+  "questions": [
+    {
+      "id": "discounts",
+      "text": "What kind of discounts do you give?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Stacked discounts (e.g. 10% + 5%)",
+          "patterns": [
+            "multiple (sequential|composed|stacked|discount|line discount)",
+            "cascad",
+            "compound",
+            "compos(ed|ite) discount",
+            "\\d+ ?\\+ ?\\d+",
+            "on top of each other",
+            "superimposed",
+            "multi-level (line |compound )?discount",
+            "unlimited discounts",
+            "combines multiple discount",
+            "up to five multiplicative",
+            "multiple discounts?",
+            "multi-level line"
+          ]
+        },
+        {
+          "label": "Volume or quantity breaks",
+          "patterns": [
+            "volume[- ]based discount",
+            "volume discount",
+            "quantity break",
+            "threshold",
+            "rates based on minimums",
+            "banded",
+            "combined quantity",
+            "multi-buy"
+          ]
+        },
+        {
+          "label": "Promotions, campaigns or coupons",
+          "patterns": [
+            "coupon",
+            "promotion",
+            "campaign",
+            "mix ?& ?match",
+            "bogo",
+            "buy one get one",
+            "free (goods|items?|bonus items|product)",
+            "rebates in kind",
+            "seasonal"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Stacked discounts (e.g. 10% + 5%)": 0.12,
+        "Volume or quantity breaks": 0.12,
+        "Promotions, campaigns or coupons": 0.18
+      }
+    },
+    {
+      "id": "pricebasis",
+      "text": "How do you work out your selling prices?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Cost plus a markup or margin",
+          "patterns": [
+            "cost-?plus",
+            "markup",
+            "mark-up",
+            "from (unit )?cost",
+            "from cost or purchase",
+            "profit (basis|configurations)",
+            "price from (unit cost|last direct)",
+            "calculation surcharge",
+            "trade margin",
+            "margin (preservation|calculation)",
+            "landed cost",
+            "recommended retail",
+            "rrp",
+            "msrp"
+          ]
+        },
+        {
+          "label": "Formulas, calculation schemes or price indexes",
+          "patterns": [
+            "(price|pricing) formulas?",
+            "formulas?, item",
+            "formulas with",
+            "schem",
+            "calculation templates?",
+            "pricing matrix",
+            "price matrix",
+            "price index",
+            "index prices",
+            "commodity"
+          ]
+        },
+        {
+          "label": "Negotiated customer or contract prices",
+          "patterns": [
+            "contract (customer )?price",
+            "contract and listed",
+            "negotiated",
+            "customer-specific price",
+            "price books",
+            "trade agreement",
+            "customer- and vendor-specific prices",
+            "customer-specific",
+            "hierarch"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Cost plus a markup or margin": 0.14,
+        "Formulas, calculation schemes or price indexes": 0.12,
+        "Negotiated customer or contract prices": 0.21
+      }
+    },
+    {
+      "id": "priority",
+      "text": "When several prices could apply, which should win?",
+      "help": "Standard BC picks the lowest price.",
+      "options": [
+        {
+          "label": "A fixed priority (e.g. contract price beats campaign)",
+          "patterns": [
+            "hierarch",
+            "instead of (the )?(lowest|best) price",
+            "priority-based price",
+            "bypass standard find-best-price",
+            "suppresses standard best",
+            "replacing standard best-price",
+            "stops at first valid price",
+            "most specific"
+          ]
+        },
+        {
+          "label": "The best price for the customer",
+          "patterns": [
+            "most beneficial",
+            "best price and discount combination",
+            "rule-based best price"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "A fixed priority (e.g. contract price beats campaign)": 0.15,
+        "The best price for the customer": 0.04
+      }
+    },
+    {
+      "id": "charges",
+      "text": "Do you add charges on top of the item price?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Freight or shipping costs",
+          "patterns": [
+            "freight (cost|charge|rate|surcharge|tender)s?",
+            "freight, handling",
+            "freight and packaging",
+            "covers sales freight",
+            "transport (cost|charge)",
+            "shipping (cost|zone|rate)s?"
+          ]
+        },
+        {
+          "label": "Environmental fees, levies or taxes",
+          "patterns": [
+            "eco[ -]?(tax|fee)",
+            "environmental",
+            "recycling",
+            "levies",
+            "levy",
+            "sugar tax",
+            "\\bdrs\\b"
+          ]
+        },
+        {
+          "label": "Other surcharges (packaging, handling, minimum order)",
+          "patterns": [
+            "surcharge",
+            "additional charges",
+            "fees or charges",
+            "minimum order fee",
+            "item charges?"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Freight or shipping costs": 0.12,
+        "Environmental fees, levies or taxes": 0.06,
+        "Other surcharges (packaging, handling, minimum order)": 0.15
+      }
+    },
+    {
+      "id": "control",
+      "text": "Do you need guardrails on prices?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Warn or block low-margin sales",
+          "patterns": [
+            "low[- ]margin",
+            "margin (target|polic|indicator)",
+            "non-compliant",
+            "blocks transactions when price",
+            "warn or block",
+            "expected sales margin",
+            "profit leak",
+            "margin per sales line",
+            "contribution margin"
+          ]
+        },
+        {
+          "label": "Approve or lock price changes",
+          "patterns": [
+            "approv",
+            "price locking",
+            "prevent price changes",
+            "freeze",
+            "forced (unit )?price",
+            "limits on manual discount",
+            "certified"
+          ]
+        },
+        {
+          "label": "Keep a price history",
+          "patterns": [
+            "histor"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Warn or block low-margin sales": 0.08,
+        "Approve or lock price changes": 0.09,
+        "Keep a price history": 0.08
+      }
+    },
+    {
+      "id": "maintain",
+      "text": "How do you update price lists?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Bulk updates or Excel import",
+          "patterns": [
+            "bulk",
+            "mass update",
+            "excel",
+            "price update worksheet",
+            "price list journal",
+            "import\\w* .{0,25}price",
+            "price adjustment page",
+            "worksheet"
+          ]
+        },
+        {
+          "label": "Automatically when costs or rules change",
+          "patterns": [
+            "auto-?regenerat",
+            "automatic(ally)? (adjust|maintain|sales price calc|creates and updates)",
+            "job queue",
+            "scheduled",
+            "maintains profit when cost",
+            "auto-creates"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Bulk updates or Excel import": 0.14,
+        "Automatically when costs or rules change": 0.08
+      }
+    },
+    {
+      "id": "units",
+      "text": "Do you price in anything other than one unit and your local currency?",
+      "multi": true,
+      "options": [
+        {
+          "label": "By weight or catch weight",
+          "patterns": [
+            "weight"
+          ]
+        },
+        {
+          "label": "Several units of measure",
+          "patterns": [
+            "unit(s)? of measure",
+            "\\buom\\b",
+            "price units",
+            "pricing units",
+            "unit conversion",
+            "different units",
+            "invoicing units"
+          ]
+        },
+        {
+          "label": "Foreign currencies",
+          "patterns": [
+            "currenc"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "By weight or catch weight": 0.08,
+        "Several units of measure": 0.14,
+        "Foreign currencies": 0.08
+      }
+    }
+  ]
+}

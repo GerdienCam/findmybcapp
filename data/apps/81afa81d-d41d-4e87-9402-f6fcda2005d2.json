@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.skybill|AID.skybill|PAPPID.81afa81d-d41d-4e87-9402-f6fcda2005d2",
+  "guid": "81afa81d-d41d-4e87-9402-f6fcda2005d2",
+  "publisherId": "skybill",
+  "offerId": "skybill",
+  "source": {
+    "name": "SkyBill Utility Billing",
+    "publisher": "SkyBill",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.skybill%7CAID.skybill%7CPAPPID.81afa81d-d41d-4e87-9402-f6fcda2005d2",
+    "lastModified": "2026-09-30T13:43:14.1851197+00:00",
+    "appVersion": "2.19.100.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.skybill.info/article-categories/skybill-utility-billing/",
+    "sourceHash": "sha256:8e9522ad2f7bb1fca1264c7774174baf49aaa750c7eacf94aec4cd3b059db698"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8e9522ad2f7bb1fca1264c7774174baf49aaa750c7eacf94aec4cd3b059db698",
+    "mappedOn": null,
+    "summary": "Billing and customer information system for utilities and property managers",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-utilities-energy-waste",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-property",
+      "ng-admin-portals",
+      "ng-subscription-billing"
+    ],
+    "claims": [
+      "Utility billing for electricity, gas, water, heating and sewerage",
+      "Billing on behalf of landlords and property billing",
+      "Complex tariff billing",
+      "Client web onboarding",
+      "Client self-service portal and landlord portal",
+      "Can also be deployed on Dynamics NAV",
+      "On-premises version available on request",
+      "Translation to any language on request"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Energy",
+      "Property management",
+      "Utilities"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.mementosrls1588695843705|AID.globalexchangerates|PAPPID.dc1dec0a-1373-4e97-985f-9b040eaa0e19",
+  "guid": "dc1dec0a-1373-4e97-985f-9b040eaa0e19",
+  "publisherId": "mementosrls1588695843705",
+  "offerId": "globalexchangerates",
+  "source": {
+    "name": "Global Exchange Rates",
+    "publisher": "MEMENTO SRL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mementosrls1588695843705%7CAID.globalexchangerates%7CPAPPID.dc1dec0a-1373-4e97-985f-9b040eaa0e19",
+    "lastModified": "2026-09-30T17:36:53.7552914+00:00",
+    "appVersion": "27.0.0.57",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://bcapps.mementoas.com/en-US/apps/GlobalExchangeRates/intro.html",
+    "sourceHash": "sha256:016bf782adac130f0891ed0835b1c60504163eaeb2c9e4b25dc457476dadb1eb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:016bf782adac130f0891ed0835b1c60504163eaeb2c9e4b25dc457476dadb1eb",
+    "mappedOn": null,
+    "summary": "Imports official exchange rates from central banks",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Official rates from 90+ central banks plus tax authorities",
+      "150+ currencies plus daily blended GLOBAL rate",
+      "Historical exchange rates",
+      "One license covers all companies and environments in tenant",
+      "Hourly automated scheduled import",
+      "No external provider subscription like OANDA or XE needed",
+      "$20/user/month or €300/year flat per tenant"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Central banks",
+      "Tax authorities"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

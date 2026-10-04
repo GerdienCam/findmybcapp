@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.allcloudconsultingsl1611231621550|AID.verifactu_w1_all-cloud|PAPPID.907076ed-461d-4c7a-9d96-e86745b06b1d",
+  "guid": "907076ed-461d-4c7a-9d96-e86745b06b1d",
+  "publisherId": "allcloudconsultingsl1611231621550",
+  "offerId": "verifactu_w1_all-cloud",
+  "source": {
+    "name": "VeriFactu AllCloud - W1",
+    "publisher": "ALL CLOUD CONSULTING S.L.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.allcloudconsultingsl1611231621550%7CAID.verifactu_w1_all-cloud%7CPAPPID.907076ed-461d-4c7a-9d96-e86745b06b1d",
+    "lastModified": "2026-07-30T09:39:33.7458481+00:00",
+    "appVersion": "1.0.1.10",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.allcloud.es/wp-content/uploads/2025/07/Manual-de-configuracion-VeriFactu-Business-Central.pdf",
+    "sourceHash": "sha256:fc83cc47aa63d25d45712646add158e8dd99acf81af165ca091debe202bb3f9e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fc83cc47aa63d25d45712646add158e8dd99acf81af165ca091debe202bb3f9e",
+    "mappedOn": null,
+    "summary": "Spanish VeriFactu e-invoicing compliance",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Imports company or user digital certificates for signing and submission",
+      "Configurable AEAT production or test environments",
+      "Automatic or manual invoice submission",
+      "VeriFactu fields on each sales invoice",
+      "History log with AEAT status: accepted, accepted with errors, rejected, cancelled",
+      "Correct and resubmit invoices from history and view XML messages",
+      "Automatic PDF invoices with optional digital signature",
+      "Handles identification fields, VAT types and operation keys",
+      "Supports simplified invoices and third-party transactions",
+      "Records corrective invoices and full cancellations",
+      "Error messages and rejection codes visible in BC",
+      "Testing environment for pre-production validation"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "AEAT VeriFactu"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

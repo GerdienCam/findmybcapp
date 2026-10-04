@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-edi|PAPPID.c622c3f5-3182-4e8a-a20a-c408855d6fbb",
+  "guid": "c622c3f5-3182-4e8a-a20a-c408855d6fbb",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-edi",
+  "source": {
+    "name": "Powerblox EDI",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-edi%7CPAPPID.c622c3f5-3182-4e8a-a20a-c408855d6fbb",
+    "lastModified": "2025-09-29T18:18:10.4904325+00:00",
+    "appVersion": "24.0.1.49298",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/edi",
+    "sourceHash": "sha256:30ca0d6f2f8c87f894981752923187fb9857e13dbbd58a9894d06dfe78f8a730"
+  },
+  "mapping": {
+    "sourceHash": "sha256:30ca0d6f2f8c87f894981752923187fb9857e13dbbd58a9894d06dfe78f8a730",
+    "mappedOn": null,
+    "summary": "EDI message set for automated transactions",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Uses XML rather than EDIFACT",
+      "Imports stock",
+      "Imports files into incoming sales headers",
+      "Exports sales orders, shipments, invoices and posted credit memos",
+      "XML import and CSV export"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

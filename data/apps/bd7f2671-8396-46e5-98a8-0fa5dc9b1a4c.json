@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.cap_vision|AID.bd7f2671-8396-46e5-98a8-0fa5dc9b1a4c|PAPPID.bd7f2671-8396-46e5-98a8-0fa5dc9b1a4c",
+  "guid": "bd7f2671-8396-46e5-98a8-0fa5dc9b1a4c",
+  "publisherId": "cap_vision",
+  "offerId": "bd7f2671-8396-46e5-98a8-0fa5dc9b1a4c",
+  "source": {
+    "name": "CAP Finance - Parafiscal Taxes",
+    "publisher": "Cap Vision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cap_vision%7CAID.bd7f2671-8396-46e5-98a8-0fa5dc9b1a4c%7CPAPPID.bd7f2671-8396-46e5-98a8-0fa5dc9b1a4c",
+    "lastModified": "2026-09-18T16:00:28.213099+00:00",
+    "appVersion": "28.202609.48210.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://docs.capvision-cloud.fr/fr-FR/cap-finance-parafiscal-taxes/",
+    "sourceHash": "sha256:deedde850294eb0d0fc6dc1eaf03446f38bbee74c652cf58d21bfc8c6aeb0049"
+  },
+  "mapping": {
+    "sourceHash": "sha256:deedde850294eb0d0fc6dc1eaf03446f38bbee74c652cf58d21bfc8c6aeb0049",
+    "mappedOn": null,
+    "summary": "Calculates and posts French parafiscal taxes on document lines",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-epr-packaging",
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Configures parafiscal taxes (in addition to VAT) on sales and purchase document lines",
+      "Automates posting of ecotaxes such as WEEE, alcohol taxes and customs duties",
+      "Defines taxes per customer/vendor group and product group",
+      "Tax calculation by quantity, volume or weight",
+      "Posts parafiscal taxes automatically to the chart of accounts",
+      "Reports data for declaring taxes collected or paid",
+      "Prints taxes on sales documents (requires Cap Vignes)",
+      "Team Member plan can post documents with parafiscal taxes but not set them up",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

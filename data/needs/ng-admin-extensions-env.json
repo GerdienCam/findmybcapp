@@ -1,0 +1,219 @@
+{
+  "id": "ng-admin-extensions-env",
+  "order": 141,
+  "label": "Managing extensions, environments and sandboxes",
+  "description": "Deciding when to customise, managing code and deployments (ALM), environment and sandbox strategy, and retiring old apps.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "low",
+  "statements": [
+    "Managing extensions, environments and sandboxes",
+    "Deciding when to customise, managing code and deployments (ALM), environment and sandbox strategy, and retiring old apps.",
+    "We need source control and automated builds for our per-tenant extensions",
+    "AL-Go GitHub pipeline for BC",
+    "Our partner deploys apps by hand and it breaks production every time",
+    "How do we move an extension from sandbox to production without downtime?",
+    "Two partners develop extensions for us and their versions keep conflicting",
+    "Is there a tool to see which version of each app is installed in each environment?",
+    "Should we build a custom extension or buy an app from AppSource?",
+    "Our partner wants to code everything custom, is that wise?",
+    "extension development guidelines BC",
+    "We have custom code nobody documented and the developer left",
+    "How do we write requirements for a customization so the partner builds the right thing",
+    "Is there a way to keep customizations to a minimum and still fit our processes?",
+    "How many sandboxes do we need for testing and training?",
+    "Should our Danish and German companies be in one BC environment or two?",
+    "sandbox vs production environment strategy",
+    "Our test environment is a year-old copy and useless for testing",
+    "We are adding a new country, does it need its own BC environment with that localization?",
+    "Partner developers keep testing in production because there is no proper sandbox setup",
+    "We have apps installed that nobody uses, can we safely uninstall them?",
+    "How do we turn off the old NAV server but keep the history somewhere?",
+    "uninstall extension remove data BC",
+    "An ISV app we bought is being discontinued, what do we do?",
+    "Which custom objects from the old system can we drop after the upgrade?",
+    "Our old add-on for EDI is replaced, how do we remove it without losing posted data?"
+  ],
+  "questions": [
+    {
+      "id": "task",
+      "text": "What admin job do you mainly need help with?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Environments and Microsoft updates",
+          "patterns": [
+            "environments? (across|on)",
+            "schedul\\w* (microsoft )?updates",
+            "environment and app updates",
+            "manage updates",
+            "environment health",
+            "tenant environments"
+          ]
+        },
+        {
+          "label": "Installing and updating apps / extensions",
+          "patterns": [
+            "install",
+            "extensions",
+            "app versions",
+            "\\bptes?\\b",
+            "deploy"
+          ]
+        },
+        {
+          "label": "Preparing sandboxes",
+          "patterns": [
+            "sandbox"
+          ]
+        },
+        {
+          "label": "Editing or cleaning up data",
+          "patterns": [
+            "edit any table",
+            "record deletion",
+            "cleanup",
+            "find and replace",
+            "bulk delete",
+            "delete records",
+            "tables available for cleanup"
+          ]
+        },
+        {
+          "label": "Getting customizations specified or built",
+          "patterns": [
+            "requirement",
+            "modification",
+            "specification"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Environments and Microsoft updates": 0.27,
+        "Installing and updating apps / extensions": 0.47,
+        "Preparing sandboxes": 0.4,
+        "Editing or cleaning up data": 0.2,
+        "Getting customizations specified or built": 0.13
+      }
+    },
+    {
+      "id": "scale",
+      "text": "How many tenants or environments do you handle?",
+      "help": "Partners often manage many customers' tenants.",
+      "options": [
+        {
+          "label": "Several tenants at once",
+          "patterns": [
+            "multiple tenants",
+            "across tenants",
+            "bulk operations across multiple tenants"
+          ]
+        },
+        {
+          "label": "Several environments in one tenant",
+          "patterns": [
+            "all environments on a tenant",
+            "any environment of the tenant",
+            "across environments",
+            "one or more sandboxes",
+            "across companies"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Several tenants at once": 0.2,
+        "Several environments in one tenant": 0.27
+      }
+    },
+    {
+      "id": "sandbox",
+      "text": "When you copy production to a sandbox, what must happen to the data?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Mask emails, endpoints and integrations",
+          "patterns": [
+            "mask",
+            "replac\\w* email",
+            "endpoint",
+            "smtp",
+            "entra application",
+            "sanitiz",
+            "production data",
+            "setup values"
+          ]
+        },
+        {
+          "label": "Delete or clean out records",
+          "patterns": [
+            "clean",
+            "delet",
+            "purge"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Mask emails, endpoints and integrations": 0.27,
+        "Delete or clean out records": 0.33
+      }
+    },
+    {
+      "id": "safety",
+      "text": "What safeguards matter to you?",
+      "multi": true,
+      "options": [
+        {
+          "label": "A log of who changed what",
+          "patterns": [
+            "audit",
+            "log of",
+            "history",
+            "archiv",
+            "change log"
+          ]
+        },
+        {
+          "label": "Protection against changes in production",
+          "patterns": [
+            "never modifies production",
+            "guards? block",
+            "in production",
+            "password-protected",
+            "access control"
+          ]
+        },
+        {
+          "label": "Testing before go-live",
+          "patterns": [
+            "sandbox for testing",
+            "tests apps",
+            "compatibility",
+            "breaking changes",
+            "before production"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "A log of who changed what": 0.33,
+        "Protection against changes in production": 0.2,
+        "Testing before go-live": 0.2
+      }
+    }
+  ]
+}

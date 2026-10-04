@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.exsba|PAPPID.2ec124c4-aacf-43a7-b7b8-441c92ab8498",
+  "guid": "2ec124c4-aacf-43a7-b7b8-441c92ab8498",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "exsba",
+  "source": {
+    "name": "EV Tecto - EXP",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.exsba%7CPAPPID.2ec124c4-aacf-43a7-b7b8-441c92ab8498",
+    "lastModified": "2026-09-10T16:36:15.2364729+00:00",
+    "appVersion": "10006.80.218813.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbekvejrup.atlassian.net/wiki/spaces/365Con/overview",
+    "sourceHash": "sha256:e28b8f8620d606b7d9da77805785a08186f3a04152123f03c4c9ed2bce858367"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e28b8f8620d606b7d9da77805785a08186f3a04152123f03c4c9ed2bce858367",
+    "mappedOn": null,
+    "summary": "Integrates EV Tecto work cards with ExpandIT Mobile",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-construction",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-proj-time",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-dispatch",
+      "ng-proj-billing"
+    ],
+    "claims": [
+      "Integrates EV Tecto work cards with ExpandIT Mobile",
+      "Planning integration on resources and planning groups",
+      "Lock planning to resource, time or both",
+      "Registration of time and product consumption incl. procured goods",
+      "Synchronizes planning and work card status",
+      "Purchasing integration to work cards",
+      "Links to documentation incl. KLS and photo",
+      "Billing readiness notification when all work cards complete",
+      "Create projects and work cards in ExpandIT",
+      "Reopen completed work cards",
+      "Full piecework management",
+      "Site registration on projects"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Construction"
+    ],
+    "connectsTo": [
+      "ExpandIT Mobile"
+    ],
+    "requires": [
+      "EV Tecto - Core",
+      "ExpandIT Mobile"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

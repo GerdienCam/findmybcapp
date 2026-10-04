@@ -1,0 +1,51 @@
+{
+  "appId": "PUBID.applibra|AID.al_message_passing|PAPPID.5a72e58d-3876-4744-91ad-0a94edab5ba4",
+  "guid": "5a72e58d-3876-4744-91ad-0a94edab5ba4",
+  "publisherId": "applibra",
+  "offerId": "al_message_passing",
+  "source": {
+    "name": "AL Message Passing",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_message_passing%7CPAPPID.5a72e58d-3876-4744-91ad-0a94edab5ba4",
+    "lastModified": "2026-09-22T13:19:02.6240197+00:00",
+    "appVersion": "28.0.26.09211713",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://applibra.com/apps/al-message-passing/help",
+    "sourceHash": "sha256:ff4db00a024fa6c676c6136cc832cc55618f2a7ce101d5d9292dd8984e4bda95"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ff4db00a024fa6c676c6136cc832cc55618f2a7ce101d5d9292dd8984e4bda95",
+    "mappedOn": null,
+    "summary": "Event bus enabling AppLibra apps to communicate",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Event bus decoupling AppLibra apps",
+      "No pages, tables or setup"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": true,
+    "hideReason": "Event bus dependency of the AppLibra apps, no user interface",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

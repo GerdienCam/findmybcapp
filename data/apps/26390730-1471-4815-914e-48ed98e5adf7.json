@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-rental-ecm-connect-365|PAPPID.26390730-1471-4815-914e-48ed98e5adf7",
+  "guid": "26390730-1471-4815-914e-48ed98e5adf7",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-rental-ecm-connect-365",
+  "source": {
+    "name": "Aptean Rental x ECM Connect",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-rental-ecm-connect-365%7CPAPPID.26390730-1471-4815-914e-48ed98e5adf7",
+    "lastModified": "2026-09-01T07:37:15.063858+00:00",
+    "appVersion": "2603.260800.20260826.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.traser-software.de/de-DE",
+    "sourceHash": "sha256:578a5ee995ccc4c896db498951797caeb34cfd13ef415260a5e13d0e6a79a9ed"
+  },
+  "mapping": {
+    "sourceHash": "sha256:578a5ee995ccc4c896db498951797caeb34cfd13ef415260a5e13d0e6a79a9ed",
+    "mappedOn": null,
+    "summary": "Connects Aptean Rental with ECM Connect",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-rental",
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Attachments on all rent documents",
+      "Exports rental document reports or attachments to DMS",
+      "Links from rent documents to the DMS"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [
+      "Aptean ECM Connect"
+    ],
+    "requires": [
+      "Aptean Rental",
+      "Aptean ECM Connect"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.canarytechnologysolutionsptylimited1731475938027|AID.mobile_quick_entry|PAPPID.8a246156-2d46-43ee-b5ae-5088a17f99c9",
+  "guid": "8a246156-2d46-43ee-b5ae-5088a17f99c9",
+  "publisherId": "canarytechnologysolutionsptylimited1731475938027",
+  "offerId": "mobile_quick_entry",
+  "source": {
+    "name": "Mobile Quick Entry for LS Central",
+    "publisher": "Canary Technology Solutions Pty limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.canarytechnologysolutionsptylimited1731475938027%7CAID.mobile_quick_entry%7CPAPPID.8a246156-2d46-43ee-b5ae-5088a17f99c9",
+    "lastModified": "2026-09-30T00:04:46.0115288+00:00",
+    "appVersion": "26.0.9.7",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://info.canaryit.com.au/support-services",
+    "sourceHash": "sha256:ee37d3c922a7ee382c0edbbcc4624ca73f3d7ce53cf6c48824edab52c8ad63fa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ee37d3c922a7ee382c0edbbcc4624ca73f3d7ce53cf6c48824edab52c8ad63fa",
+    "mappedOn": null,
+    "summary": "Mobile scanner data entry for LS Central store inventory worksheets",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-stock-counting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-retail",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Mobile UI for handheld/PDE scanners",
+      "Integrates with LS Central Store Inventory Worksheets",
+      "Stocktaking and cycle counts",
+      "Inventory adjustments and transfers",
+      "Purchase and sales order line entry",
+      "Barcode scanning"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "LS Central"
+    ],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.codeunit|AID.connect2nuorder|PAPPID.037aec1e-9339-46fa-8bcb-c87b3835b1c7",
+  "guid": "037aec1e-9339-46fa-8bcb-c87b3835b1c7",
+  "publisherId": "codeunit",
+  "offerId": "connect2nuorder",
+  "source": {
+    "name": "connect2NuORDER",
+    "publisher": "Codeunit",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2nuorder%7CPAPPID.037aec1e-9339-46fa-8bcb-c87b3835b1c7",
+    "lastModified": "2026-08-25T11:46:28.9117007+00:00",
+    "appVersion": "26.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.codeunit.io/get-in-touch",
+    "sourceHash": "sha256:5dd5eea8a389303ebc77b1acac6b3dce15726faa878d5a588f76cbaf249ce8c8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5dd5eea8a389303ebc77b1acac6b3dce15726faa878d5a588f76cbaf249ce8c8",
+    "mappedOn": null,
+    "summary": "Syncs products, prices, inventory and orders with NuORDER",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-sales-channels",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing",
+      "ng-assortment-catalogs"
+    ],
+    "claims": [
+      "Syncs products with size variants, colors and seasonal data to NuORDER",
+      "Transfers product and sketch images via SFTP with change detection",
+      "Publishes price sheets by brand and currency from BC price lists",
+      "Syncs customer accounts with addresses and buyer contacts",
+      "Pushes inventory per warehouse with location mapping",
+      "Handles prebook inventory with delivery date ranges",
+      "Writes order confirmations back to NuORDER",
+      "Imports approved NuORDER orders as BC sales orders on a schedule",
+      "Marks imported orders as processed to prevent duplicates",
+      "OmniConnect Portal to monitor flows, get notified and resubmit failed transactions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Wholesale"
+    ],
+    "connectsTo": [
+      "NuORDER"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.hamwicomputersoftware1675860549560|AID.bc_finance_reporting|PAPPID.c92cfebe-72bc-4592-866f-bc2d78c0bf57",
+  "guid": "c92cfebe-72bc-4592-866f-bc2d78c0bf57",
+  "publisherId": "hamwicomputersoftware1675860549560",
+  "offerId": "bc_finance_reporting",
+  "source": {
+    "name": "Business Central Finance Reporting",
+    "publisher": "Hamwi Computer Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hamwicomputersoftware1675860549560%7CAID.bc_finance_reporting%7CPAPPID.c92cfebe-72bc-4592-866f-bc2d78c0bf57",
+    "lastModified": "2025-01-20T08:42:26.4461006+00:00",
+    "appVersion": "25.20250120.1.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://power-bi-reporting.ha-consultancy.com/Power%20BI%20-%20App%20Documentation.pdf",
+    "sourceHash": "sha256:80feb055d5d597623136f9d020f5cd48ff21a90064fd18e980e09d6a3906b695"
+  },
+  "mapping": {
+    "sourceHash": "sha256:80feb055d5d597623136f9d020f5cd48ff21a90064fd18e980e09d6a3906b695",
+    "mappedOn": null,
+    "summary": "Syncs BC data to Finance Insights for financial reporting",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs BC financial data to Finance Insights Power BI dashboards in real time",
+      "Dashboards covering financial ratios, the income statement and balance sheet",
+      "No complex configuration required",
+      "Interactive customizable dashboards"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power BI",
+      "Business Central Finance Insights"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

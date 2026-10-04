@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.dynamics-eshop|AID.businesscentral|PAPPID.eb72cc2c-3cb6-41a8-a145-bb64219ad9fb",
+  "guid": "eb72cc2c-3cb6-41a8-a145-bb64219ad9fb",
+  "publisherId": "dynamics-eshop",
+  "offerId": "businesscentral",
+  "source": {
+    "name": "DeS Core for Dynamics 365 Business Central",
+    "publisher": "Dynamics eShop Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamics-eshop%7CAID.businesscentral%7CPAPPID.eb72cc2c-3cb6-41a8-a145-bb64219ad9fb",
+    "lastModified": "2026-09-21T17:56:47.3152828+00:00",
+    "appVersion": "4.8.1.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamicseshop.com/contact-us/",
+    "sourceHash": "sha256:4c9fcc6a0838676c3fe67a6b5df864dc5291b0efb49ea7e74c7ba30fd3147f29"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4c9fcc6a0838676c3fe67a6b5df864dc5291b0efb49ea7e74c7ba30fd3147f29",
+    "mappedOn": null,
+    "summary": "eCommerce and portal platform integrated with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-ai-assistant"
+    ],
+    "claims": [
+      "B2B and B2C storefronts",
+      "Portals by role, for internal users and external users",
+      "Shared framework for DeS apps",
+      "Multi-language, multi-currency, multi-location",
+      "Commerce AI agent for product discovery",
+      "Portal AI agent for self-service",
+      "Image-based product search",
+      "Customer, consumer, sales, vendor and service portals"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "DeS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

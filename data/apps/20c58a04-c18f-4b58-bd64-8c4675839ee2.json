@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.nav2day1602851102644|AID.tariff_management|PAPPID.20c58a04-c18f-4b58-bd64-8c4675839ee2",
+  "guid": "20c58a04-c18f-4b58-bd64-8c4675839ee2",
+  "publisherId": "nav2day1602851102644",
+  "offerId": "tariff_management",
+  "source": {
+    "name": "Tariff Management",
+    "publisher": "nav2day",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nav2day1602851102644%7CAID.tariff_management%7CPAPPID.20c58a04-c18f-4b58-bd64-8c4675839ee2",
+    "lastModified": "2026-08-14T15:49:14.405362+00:00",
+    "appVersion": "28.4.0.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://nav2day.com/docs/tariff-management/",
+    "sourceHash": "sha256:bb66e8b649c25c9b2f2aed3bd12e54022fb2f1d3b6d28c046d5d563d7fd81eb9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bb66e8b649c25c9b2f2aed3bd12e54022fb2f1d3b6d28c046d5d563d7fd81eb9",
+    "mappedOn": null,
+    "summary": "Handles customs tariffs and duties on items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Handles customs declarations in BC",
+      "Registers customs charges on purchase documents",
+      "Digital archive of processed customs documents for audit and reporting"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

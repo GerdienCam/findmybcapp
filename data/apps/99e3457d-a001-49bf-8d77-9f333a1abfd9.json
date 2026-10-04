@@ -1,0 +1,110 @@
+{
+  "appId": "PUBID.cegekaspa|AID.18103460-ww|PAPPID.99e3457d-a001-49bf-8d77-9f333a1abfd9",
+  "guid": "99e3457d-a001-49bf-8d77-9f333a1abfd9",
+  "publisherId": "cegekaspa",
+  "offerId": "18103460-ww",
+  "source": {
+    "name": "Cegeka Advanced Shipment and Receipt",
+    "publisher": "CEGEKA s.p.a",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cegekaspa%7CAID.18103460-ww%7CPAPPID.99e3457d-a001-49bf-8d77-9f333a1abfd9",
+    "lastModified": "2026-09-28T10:47:04.2909111+00:00",
+    "appVersion": "27.0.0.3149",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://cegekabusinesscentral.azurewebsites.net/solution/CGK-GSR/en-US/index.html",
+    "sourceHash": "sha256:885f5f460bb6c5262406753330bbd38ed0fe2858bd0b37fff1a6251205aa7c5a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:885f5f460bb6c5262406753330bbd38ed0fe2858bd0b37fff1a6251205aa7c5a",
+    "mappedOn": null,
+    "summary": "Improves shipment and receipt processing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-freight-cost-audit",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-consignment",
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Shipment matching with carrier",
+      "Inventory at customer side / consignment stock",
+      "Over/under shipping and receiving tolerance",
+      "Accounts for goods not owned (gifts, samples)",
+      "Vehicle load optimization by weight, volume and quantity",
+      "Transport cost calculation by distance, weight, volume, packages, zones, stops",
+      "Carrier invoicing and recharge of costs to end customer",
+      "Planning of incoming and outgoing goods"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "HR",
+      "HU",
+      "ID",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "LT",
+      "LV",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PH",
+      "PL",
+      "RS",
+      "SE",
+      "SG",
+      "SI",
+      "TH",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

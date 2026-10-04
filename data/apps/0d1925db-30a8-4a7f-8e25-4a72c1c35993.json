@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.stampli1608225422715|AID.globalmicbc|PAPPID.0d1925db-30a8-4a7f-8e25-4a72c1c35993",
+  "guid": "0d1925db-30a8-4a7f-8e25-4a72c1c35993",
+  "publisherId": "stampli1608225422715",
+  "offerId": "globalmicbc",
+  "source": {
+    "name": "Stampli Accounts Payable Automation",
+    "publisher": "Stampli",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.stampli1608225422715%7CAID.globalmicbc%7CPAPPID.0d1925db-30a8-4a7f-8e25-4a72c1c35993",
+    "lastModified": "2026-09-17T09:48:55.8827572+00:00",
+    "appVersion": "1.16.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.stampli.com/",
+    "sourceHash": "sha256:c33e907a681602980507de9676921af86b3cda8bde91f7c72320868329aaa2db"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c33e907a681602980507de9676921af86b3cda8bde91f7c72320868329aaa2db",
+    "mappedOn": null,
+    "summary": "Integrates Stampli AP automation",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-supplier-onboarding",
+      "ng-hr-employee-expenses"
+    ],
+    "claims": [
+      "Automates invoice capture, coding and approvals",
+      "AI 'Billy the Bot' automates capture, coding, routing and fraud detection",
+      "2- and 3-way PO matching with partial amounts and line adjustments",
+      "Syncs master data, GLs, dimensions, vendors, locations and POs",
+      "Collaboration and documentation centered on each invoice",
+      "Multi-subsidiary invoice processing and payment",
+      "Vendor onboarding and documentation",
+      "Integrated Direct Pay and credit cards",
+      "AP analytics and reporting",
+      "Deploys in days"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Construction",
+      "Healthcare",
+      "Hospitality",
+      "Manufacturing",
+      "Oil & Gas",
+      "Professional services",
+      "Real estate",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Stampli"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

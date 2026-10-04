@@ -1,0 +1,99 @@
+{
+  "appId": "PUBID.foodware365|AID.foodware_365_sscc|PAPPID.dcb19876-b161-4751-892b-c59839c1b275",
+  "guid": "dcb19876-b161-4751-892b-c59839c1b275",
+  "publisherId": "foodware365",
+  "offerId": "foodware_365_sscc",
+  "source": {
+    "name": "Aptean SSCC for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.foodware_365_sscc%7CPAPPID.dcb19876-b161-4751-892b-c59839c1b275",
+    "lastModified": "2026-09-29T10:03:13.2787384+00:00",
+    "appVersion": "2502.10.344310.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/SSC/",
+    "sourceHash": "sha256:83752b9f99dde65d55dc8ae376a2a5acdbd6eb22811a06a604dbc86d51f84a15"
+  },
+  "mapping": {
+    "sourceHash": "sha256:83752b9f99dde65d55dc8ae376a2a5acdbd6eb22811a06a604dbc86d51f84a15",
+    "mappedOn": null,
+    "summary": "Creates SSCC codes for shipments",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage",
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "SSCC numbers set up at company or customer level",
+      "Customer-specific SSCC requirements with alerts in pre-shipment",
+      "Customer-level SSCC number series differences",
+      "Mixed or homogeneous pallet requirements per customer",
+      "Guided SSCC creation process",
+      "Full history of container contents",
+      "Reprint any label"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.navappyazlmvedanmanlkltdti1582460298798|AID.bc-napppap|PAPPID.a587de03-8d90-4619-8a2c-c24d2bd61007",
+  "guid": "a587de03-8d90-4619-8a2c-c24d2bd61007",
+  "publisherId": "navappyazlmvedanmanlkltdti1582460298798",
+  "offerId": "bc-napppap",
+  "source": {
+    "name": "Payment Plan",
+    "publisher": "Navapp Yazilim ve Danismanlik Anonim Sirketi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navappyazlmvedanmanlkltdti1582460298798%7CAID.bc-napppap%7CPAPPID.a587de03-8d90-4619-8a2c-c24d2bd61007",
+    "lastModified": "2026-09-08T07:56:42.4035744+00:00",
+    "appVersion": "28.0.260716.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navapp.com.tr/microsoft-appsource-applications/business-central-payment-plan",
+    "sourceHash": "sha256:432c11f9844b383cf3af297678ed5b9d891a18ae58580f56e6b49f7e49a68421"
+  },
+  "mapping": {
+    "sourceHash": "sha256:432c11f9844b383cf3af297678ed5b9d891a18ae58580f56e6b49f7e49a68421",
+    "mappedOn": null,
+    "summary": "Installment payment plans on sales and purchase documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-collections",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast",
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Installment payment schedules on sales and purchase documents",
+      "Standard payment templates for partial payments",
+      "Creates multiple customer/vendor ledger entries per installment on posting",
+      "Aging reports and cash flow reflect installment due dates"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

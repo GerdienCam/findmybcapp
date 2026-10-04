@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.universal-inventory-app|PAPPID.ca9b38c0-b2ac-4b0d-b5d7-3cd403e68f17",
+  "guid": "ca9b38c0-b2ac-4b0d-b5d7-3cd403e68f17",
+  "publisherId": "fenwicksoftware",
+  "offerId": "universal-inventory-app",
+  "source": {
+    "name": "Universal Inventory",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.universal-inventory-app%7CPAPPID.ca9b38c0-b2ac-4b0d-b5d7-3cd403e68f17",
+    "lastModified": "2026-02-18T09:25:27.9968926+00:00",
+    "appVersion": "26.0.260217.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/universal-inventory/docs",
+    "sourceHash": "sha256:3b7c15703e984bc3a35aac4e453a0ea3f7e217b5da9700f317ad3c39fc9575cf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3b7c15703e984bc3a35aac4e453a0ea3f7e217b5da9700f317ad3c39fc9575cf",
+    "mappedOn": null,
+    "summary": "Consolidated inventory view across tenants and companies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation",
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Consolidated inventory view across companies, environments and tenants",
+      "Cross-entity stock levels visible during sales order entry",
+      "No company switching or multiple logins needed",
+      "Cross-tenant access via Entra App configuration with central permissions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

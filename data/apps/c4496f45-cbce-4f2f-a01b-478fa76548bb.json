@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.nexorygmbh1628673685026|AID.nx-app-elo-integration|PAPPID.c4496f45-cbce-4f2f-a01b-478fa76548bb",
+  "guid": "c4496f45-cbce-4f2f-a01b-478fa76548bb",
+  "publisherId": "nexorygmbh1628673685026",
+  "offerId": "nx-app-elo-integration",
+  "source": {
+    "name": "Nexory Axis for ELO",
+    "publisher": "NEXORY GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nexorygmbh1628673685026%7CAID.nx-app-elo-integration%7CPAPPID.c4496f45-cbce-4f2f-a01b-478fa76548bb",
+    "lastModified": "2026-10-01T06:12:26.6944333+00:00",
+    "appVersion": "1.0.13.8",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.nexory.de/fileadmin/user_upload/nex_Anwenderdokumentation_Nexory_Axis_for_ELO.pdf",
+    "sourceHash": "sha256:a2464c043f55d60b2bc3583168ad2204e641f9e288b17632fb8fb15ede178d96"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a2464c043f55d60b2bc3583168ad2204e641f9e288b17632fb8fb15ede178d96",
+    "mappedOn": null,
+    "summary": "Shows ELO ECM documents inside Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Integrates ELO ECM Suite with Business Central",
+      "Audit-compliant archiving",
+      "Digital customer, vendor and process files",
+      "Supports cloud, hybrid and on-premises deployments",
+      "Multi-tenant architecture",
+      "Automatically archives invoices, quotations, delivery notes and other documents",
+      "Incoming invoices processed and linked with BC data",
+      "View, store, version and link documents inside BC via integrated ELO client",
+      "Start workflows, search content and edit Office documents without leaving BC",
+      "Optional e-invoice processing, AI data capture, approval workflows, contract management and auto classification",
+      "Requires an existing ELO installation",
+      "Tiered per-user monthly licensing"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ELO ECM"
+    ],
+    "requires": [
+      "ELO ECM Suite"
+    ],
+    "deployment": "both",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

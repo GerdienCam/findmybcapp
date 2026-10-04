@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bccouriersintegrbase-is|PAPPID.a7a4e1e4-1f98-48ad-b5d4-6731b37eaf7e",
+  "guid": "a7a4e1e4-1f98-48ad-b5d4-6731b37eaf7e",
+  "publisherId": "intelligentsystems",
+  "offerId": "bccouriersintegrbase-is",
+  "source": {
+    "name": "Couriers Integration Base",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bccouriersintegrbase-is%7CPAPPID.a7a4e1e4-1f98-48ad-b5d4-6731b37eaf7e",
+    "lastModified": "2025-10-14T06:09:54.8495264+00:00",
+    "appVersion": "24.3.95.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:77029f3881f9506339ad748a9a37ecd15bbf047e30fb0bb0f6a3d932431fc942"
+  },
+  "mapping": {
+    "sourceHash": "sha256:77029f3881f9506339ad748a9a37ecd15bbf047e30fb0bb0f6a3d932431fc942",
+    "mappedOn": null,
+    "summary": "Base framework for courier service integrations",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "No out-of-the-box courier integration; base for courier-specific apps",
+      "Works with FAN Couriers Integration app",
+      "All courier requests on one page",
+      "Automates requests for purchase, sales or transfer shipments",
+      "Combine documents in one shipment request",
+      "Stores and reprints waybill labels",
+      "Shipment tracking",
+      "Test or live mode"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "ro"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "FAN Courier"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Integration base framework; no out-of-the-box courier integrations, used as a basis for courier-specific apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

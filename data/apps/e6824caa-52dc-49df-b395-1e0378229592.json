@@ -1,0 +1,90 @@
+{
+  "appId": "PUBID.armadadynamicsas1615984193301|AID.eqm365rental_re-rent|PAPPID.e6824caa-52dc-49df-b395-1e0378229592",
+  "guid": "e6824caa-52dc-49df-b395-1e0378229592",
+  "publisherId": "armadadynamicsas1615984193301",
+  "offerId": "eqm365rental_re-rent",
+  "source": {
+    "name": "EQM 365 Rental - Re-Rent",
+    "publisher": "Armada Dynamics AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.armadadynamicsas1615984193301%7CAID.eqm365rental_re-rent%7CPAPPID.e6824caa-52dc-49df-b395-1e0378229592",
+    "lastModified": "2026-09-13T17:56:36.9065455+00:00",
+    "appVersion": "28.5.202637.81461",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.armadadynamics.no/en/support/knowledge-database",
+    "sourceHash": "sha256:6769c100a0856536da9711bc92f99f67053ea70e71cc9fad4f35b479bf65c272"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6769c100a0856536da9711bc92f99f67053ea70e71cc9fad4f35b479bf65c272",
+    "mappedOn": null,
+    "summary": "Manages re-rented equipment in EQM 365 Rental",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sourcing-rfq",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Tracks re-rent equipment via agreements and linked purchase orders",
+      "Registers vendor quotations and converts them to re-rent agreements and POs",
+      "Overview of re-rent equipment at customer sites or own locations",
+      "Tracks delivery and pickup dates and shipping responsibility",
+      "Ensures re-rented equipment is returned to its owner"
+    ],
+    "countries": [
+      "AE",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "GB",
+      "IS",
+      "LT",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "PL",
+      "QA",
+      "SE",
+      "SI",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "fi",
+      "fr",
+      "nb",
+      "nl"
+    ],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EQM 365 Rental"
+    ],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "appId": "TYPE.connect|PUBID.incentx1591233914902|AID.incentx|PAPPID.dae6f838-f4e6-48d8-9f8f-a825dac44e9b",
+  "guid": "dae6f838-f4e6-48d8-9f8f-a825dac44e9b",
+  "publisherId": "incentx1591233914902",
+  "offerId": "incentx",
+  "source": {
+    "name": "incentX",
+    "publisher": "incentX",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.incentx1591233914902%7CAID.incentx%7CPAPPID.dae6f838-f4e6-48d8-9f8f-a825dac44e9b",
+    "lastModified": "2026-08-04T15:50:49.5132841+00:00",
+    "appVersion": "1.1.24.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.incentx.com/",
+    "sourceHash": "sha256:da2053360e753a4e6869d56dc48e0283e0f01f6d1487380b297e2bd5a8313b1b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:da2053360e753a4e6869d56dc48e0283e0f01f6d1487380b297e2bd5a8313b1b",
+    "mappedOn": null,
+    "summary": "Manages commissions, rebates, chargebacks and royalties",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-sales-commissions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-rebates",
+      "ng-conn-crm"
+    ],
+    "claims": [
+      "Automated sales commission calculations",
+      "Follows payouts and sales performance in real time",
+      "Customizable commission structures per sales role",
+      "Rebate calculations and payouts with dashboards",
+      "Royalty contract management, calculation and payments",
+      "Vendor chargeback automation with trend insights",
+      "Trade promotion management with analytics",
+      "Integrates with ERP and CRM systems"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "incentX"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_purch_quote_uc|PAPPID.d996e461-b14f-40ea-995d-045729d58294",
+  "guid": "d996e461-b14f-40ea-995d-045729d58294",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_purch_quote_uc",
+  "source": {
+    "name": "m+m Purchase Quote Manager with Unit Conversion",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_purch_quote_uc%7CPAPPID.d996e461-b14f-40ea-995d-045729d58294",
+    "lastModified": "2026-08-11T08:30:31.5035891+00:00",
+    "appVersion": "28.0.373560.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:fc303e30a32384f5db6784377ac416826bfa41c4d6ed8e491c7e4a02523474d4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fc303e30a32384f5db6784377ac416826bfa41c4d6ed8e491c7e4a02523474d4",
+    "mappedOn": null,
+    "summary": "Adds unit conversion fields to purchase quote manager",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Adds KG, meter and piece quantities to purchase quote campaign item lines",
+      "Converts weight, length and quantity into each other automatically",
+      "Reads KG-per-piece and KG-per-meter figures, theoretical or actual, from the item",
+      "Editing any of the three unit fields keeps the others in sync",
+      "Requires Premium edition"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Purchase Quote Manager",
+      "m+m Unit Conversion"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

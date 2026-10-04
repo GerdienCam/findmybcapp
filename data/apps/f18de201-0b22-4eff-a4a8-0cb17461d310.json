@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.styrspf|AID.farpay|PAPPID.f18de201-0b22-4eff-a4a8-0cb17461d310",
+  "guid": "f18de201-0b22-4eff-a4a8-0cb17461d310",
+  "publisherId": "styrspf",
+  "offerId": "farpay",
+  "source": {
+    "name": "FarPay",
+    "publisher": "Stýr Sp/f",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.styrspf%7CAID.farpay%7CPAPPID.f18de201-0b22-4eff-a4a8-0cb17461d310",
+    "lastModified": "2026-09-11T14:29:26.090863+00:00",
+    "appVersion": "1.0.2.66",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.farpay.io/",
+    "sourceHash": "sha256:d5a675542495efc9534ec16a51944eedb7eaa80cb46b3129fc50a56f59a86ca6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d5a675542495efc9534ec16a51944eedb7eaa80cb46b3129fc50a56f59a86ca6",
+    "mappedOn": null,
+    "summary": "Automates receivables collection and payments via FarPay",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-collections",
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Sends invoices, credit notes, reminders and statements via Farpay",
+      "Direct debit agreements with at least 5 days notice",
+      "Payment status fed back to BC and matched to invoice",
+      "Notifies customer of expiring cards",
+      "Tracks whether email was read and invoice paid",
+      "Payment reminders with timeline of penalties and debt collection date",
+      "Custom branding of customer touchpoints",
+      "Split payments, repayment agreements and installments",
+      "Supports Visa, Mastercard, Dankort, MobilePay, Betalingsservice, Leverandørservice, FIK",
+      "MobilePay ePayment and Recurring"
+    ],
+    "countries": [
+      "DK",
+      "FO"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "FarPay",
+      "MobilePay",
+      "Betalingsservice",
+      "Dankort"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_transaction",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

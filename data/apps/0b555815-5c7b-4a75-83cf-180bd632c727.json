@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.datipapro1761231827787|AID.powens-for-bc365|PAPPID.0b555815-5c7b-4a75-83cf-180bd632c727",
+  "guid": "0b555815-5c7b-4a75-83cf-180bd632c727",
+  "publisherId": "datipapro1761231827787",
+  "offerId": "powens-for-bc365",
+  "source": {
+    "name": "Powens",
+    "publisher": "DATAIPA.PRO",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.datipapro1761231827787%7CAID.powens-for-bc365%7CPAPPID.0b555815-5c7b-4a75-83cf-180bd632c727",
+    "lastModified": "2026-09-16T17:33:19.1440479+00:00",
+    "appVersion": "28.2609.15.2150",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dataipa.pro/powens365",
+    "sourceHash": "sha256:b36e1771ac33297eacfbb825c731b1a1ff020ebca42e48bae55020eb07a5c786"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b36e1771ac33297eacfbb825c731b1a1ff020ebca42e48bae55020eb07a5c786",
+    "mappedOn": null,
+    "summary": "Connects bank accounts via Powens open finance for bank operations",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Connects BC to over 1,800 financial institutions",
+      "Automatically retrieves transactions, balances and account details",
+      "Matches bank transactions with accounting entries",
+      "Cash position across all accounts refreshed daily",
+      "Initiates one-time, bulk or recurring payments from BC",
+      "Supports checking, savings and wealth accounts",
+      "PSD2-regulated and ACPR-certified",
+      "Admin console for monitoring connector health with logs"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Powens"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

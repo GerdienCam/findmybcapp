@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.mooreinsight|AID.mi-outofoffice|PAPPID.12182b8d-a68e-4703-9877-3750ec2df078",
+  "guid": "12182b8d-a68e-4703-9877-3750ec2df078",
+  "publisherId": "mooreinsight",
+  "offerId": "mi-outofoffice",
+  "source": {
+    "name": "MI - Out of Office",
+    "publisher": "Moore Insight",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mooreinsight%7CAID.mi-outofoffice%7CPAPPID.12182b8d-a68e-4703-9877-3750ec2df078",
+    "lastModified": "2026-09-07T05:56:09.3397463+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://moore-insight-apps.com/apps/bc-extensions/out-of-office",
+    "sourceHash": "sha256:569f420d1b236832f6e0917bc93accfba37c2f636686eb315bec6673864cc891"
+  },
+  "mapping": {
+    "sourceHash": "sha256:569f420d1b236832f6e0917bc93accfba37c2f636686eb315bec6673864cc891",
+    "mappedOn": null,
+    "summary": "Delegates approvals automatically when approvers are out of office",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "Out Of Office flag on Approval User Setup synced from Outlook automatic replies",
+      "Scheduled sync via Microsoft Graph",
+      "Batches up to 20 requests per call",
+      "Retries throttled and transient errors",
+      "Per-user error log page",
+      "Client secret in encrypted isolated storage",
+      "Excludes service accounts"
+    ],
+    "countries": [
+      "GB"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Graph",
+      "Outlook"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

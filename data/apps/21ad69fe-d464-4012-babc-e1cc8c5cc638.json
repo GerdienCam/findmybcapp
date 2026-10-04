@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.abakion|AID.smartpack_3pl_connector|PAPPID.21ad69fe-d464-4012-babc-e1cc8c5cc638",
+  "guid": "21ad69fe-d464-4012-babc-e1cc8c5cc638",
+  "publisherId": "abakion",
+  "offerId": "smartpack_3pl_connector",
+  "source": {
+    "name": "SmartPack 3PL Connector",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.smartpack_3pl_connector%7CPAPPID.21ad69fe-d464-4012-babc-e1cc8c5cc638",
+    "lastModified": "2026-05-07T06:35:57.2638012+00:00",
+    "appVersion": "28.0.202619.164532",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/smartpack/#howto",
+    "sourceHash": "sha256:91092730877c6a61be0a5023de5420c59b48b7b9507277896c6075aafbf93237"
+  },
+  "mapping": {
+    "sourceHash": "sha256:91092730877c6a61be0a5023de5420c59b48b7b9507277896c6075aafbf93237",
+    "mappedOn": null,
+    "summary": "Manages SmartPack 3PL warehouse locations from sales and purchase",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Built on 3PL Manager app plus a Power Automate connector",
+      "Sends sales orders and warehouse shipments to the 3PL",
+      "Send to 3PL action replaces picking instruction",
+      "Shipment confirmation updates warehouse shipment, inventory pick or sales order",
+      "3PL status shown on document",
+      "Purchase orders sent to 3PL with receipt notification back"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SmartPack",
+      "Power Automate"
+    ],
+    "requires": [
+      "3PL Manager"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

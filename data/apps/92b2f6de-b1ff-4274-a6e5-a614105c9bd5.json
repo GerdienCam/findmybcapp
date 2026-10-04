@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.apptitudesolutionsinc1596042125495|AID.approve_post|PAPPID.92b2f6de-b1ff-4274-a6e5-a614105c9bd5",
+  "guid": "92b2f6de-b1ff-4274-a6e5-a614105c9bd5",
+  "publisherId": "apptitudesolutionsinc1596042125495",
+  "offerId": "approve_post",
+  "source": {
+    "name": "Post upon Approval",
+    "publisher": "Apptitude Solutions, Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apptitudesolutionsinc1596042125495%7CAID.approve_post%7CPAPPID.92b2f6de-b1ff-4274-a6e5-a614105c9bd5",
+    "lastModified": "2025-10-28T06:57:51.1928791+00:00",
+    "appVersion": "27.2025.0.6",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://apptitude.solutions/support",
+    "sourceHash": "sha256:47c58110b25d0fe8109727efa390c48c51e6adc79e08a31c42c83778a1ddf651"
+  },
+  "mapping": {
+    "sourceHash": "sha256:47c58110b25d0fe8109727efa390c48c51e6adc79e08a31c42c83778a1ddf651",
+    "mappedOn": null,
+    "summary": "Posts journals and documents automatically once approved",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-automation",
+      "ng-journals",
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Automatically posts journals, purchase and sales documents on final approval",
+      "Redirects approvals to a backup approver during vacation",
+      "Approval for recurring general, project and fixed asset journals",
+      "Converts approved quotes to sales orders or invoices",
+      "Generates sales orders from approved blanket orders"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

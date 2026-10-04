@@ -1,0 +1,59 @@
+{
+  "appId": "TYPE.connect|PUBID.quantumquadsolutions1768544978440|AID.document_shortclose_id|PAPPID.096c8424-aa31-4d6c-8252-4d8d18004d81",
+  "guid": "096c8424-aa31-4d6c-8252-4d8d18004d81",
+  "publisherId": "quantumquadsolutions1768544978440",
+  "offerId": "document_shortclose_id",
+  "source": {
+    "name": "Document Short Close - Order Closure Control for Business Central",
+    "publisher": "QuantumQuad Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.quantumquadsolutions1768544978440%7CAID.document_shortclose_id%7CPAPPID.096c8424-aa31-4d6c-8252-4d8d18004d81",
+    "lastModified": "2026-02-26T18:22:21.3135933+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.quantumquad.in/contacttoquantumquad",
+    "sourceHash": "sha256:c774b5e9433802e19b8c55a2d46a4c623e2b643e3283a1a498f3cadcd3f97eec"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c774b5e9433802e19b8c55a2d46a4c623e2b643e3283a1a498f3cadcd3f97eec",
+    "mappedOn": null,
+    "summary": "Short-closes partially fulfilled sales and purchase orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Closes whole purchase or sales orders early via short close",
+      "Short close specific lines",
+      "Generates adjustment entries automatically on short close",
+      "Preserves document history",
+      "Register of short-closed documents with number, party, date, amount, status",
+      "No core system modification"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.bricklead1692180953470|AID.bri_qrs|PAPPID.51b65483-81cf-41ee-bc57-f4c3a79c349f",
+  "guid": "51b65483-81cf-41ee-bc57-f4c3a79c349f",
+  "publisherId": "bricklead1692180953470",
+  "offerId": "bri_qrs",
+  "source": {
+    "name": "Quality Requirements & Specifications",
+    "publisher": "BRICKLEAD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bricklead1692180953470%7CAID.bri_qrs%7CPAPPID.51b65483-81cf-41ee-bc57-f4c3a79c349f",
+    "lastModified": "2026-07-16T15:30:05.4557331+00:00",
+    "appVersion": "27.0.9693.58327",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.bricklead.eu/en-us/apps/qrs/",
+    "sourceHash": "sha256:0e84bd29ea57559d232d57c3b096584249eb143eafb8b49e15032be842777c3d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0e84bd29ea57559d232d57c3b096584249eb143eafb8b49e15032be842777c3d",
+    "mappedOn": null,
+    "summary": "Defines product quality specifications and blocks or logs deviations",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking",
+      "ng-nonconformance-capa"
+    ],
+    "claims": [
+      "Quality specifications per customer and vendor",
+      "Checks inbound/outbound lots match specifications",
+      "Physical, chemical, microbiological, sensory characteristics",
+      "Acceptable inspection status and minimum shelf-life",
+      "Requires lot tracking",
+      "Deviation alerts on receipt",
+      "Only matching lots selected for customer sales"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Food",
+      "Process industry"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.insight-works|AID.b0c8bcc7-2924-4cd2-8562-4e71ebd07323|PAPPID.b0c8bcc7-2924-4cd2-8562-4e71ebd07323",
+  "guid": "b0c8bcc7-2924-4cd2-8562-4e71ebd07323",
+  "publisherId": "insight-works",
+  "offerId": "b0c8bcc7-2924-4cd2-8562-4e71ebd07323",
+  "source": {
+    "name": "Insight Works PrintNode Connector",
+    "publisher": "Insight Works",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.b0c8bcc7-2924-4cd2-8562-4e71ebd07323%7CPAPPID.b0c8bcc7-2924-4cd2-8562-4e71ebd07323",
+    "lastModified": "2025-10-31T22:28:41.4949361+00:00",
+    "appVersion": "2.3.8917.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://app.dmsiworks.com/printnode-connector/support/",
+    "sourceHash": "sha256:4e0e0a0ae4a715b1fc36c4a2fac84f9480c72965ef0ee68257528f8b3f936d65"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4e0e0a0ae4a715b1fc36c4a2fac84f9480c72965ef0ee68257528f8b3f936d65",
+    "mappedOn": null,
+    "summary": "Connects local and network printers to BC online via PrintNode",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-printing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Prints reports automatically to a specified local or network printer via PrintNode",
+      "Prints from web client, phone or tablet apps",
+      "Single-field setup with PrintNode API key",
+      "Uses standard BC Printer Administration to assign printers per report",
+      "Supports RAW printing including ZPL label files",
+      "Works with all standard and custom reports including barcode labels",
+      "Connector free; PrintNode service may carry a fee"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "es",
+      "et",
+      "fi",
+      "fr",
+      "is",
+      "it",
+      "nl",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PrintNode"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

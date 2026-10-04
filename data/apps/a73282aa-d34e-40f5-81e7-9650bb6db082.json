@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.smart-businessllc2412077-2412077|AID.smart_pay_ukraine|PAPPID.a73282aa-d34e-40f5-81e7-9650bb6db082",
+  "guid": "a73282aa-d34e-40f5-81e7-9650bb6db082",
+  "publisherId": "smart-businessllc2412077-2412077",
+  "offerId": "smart_pay_ukraine",
+  "source": {
+    "name": "SMART Pay for Ukraine",
+    "publisher": "SMART business LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_pay_ukraine%7CPAPPID.a73282aa-d34e-40f5-81e7-9650bb6db082",
+    "lastModified": "2026-04-10T15:49:40.7883432+00:00",
+    "appVersion": "1.0.131942.260410",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.smart-it.com/",
+    "sourceHash": "sha256:dcae77be165d4ba7c172f7f2617ebd7608f980d5efaddd50c62e99c2587e1a94"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dcae77be165d4ba7c172f7f2617ebd7608f980d5efaddd50c62e99c2587e1a94",
+    "mappedOn": null,
+    "summary": "Customer payments via Monobank or LiqPay acquiring",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Customer payments via Monobank or LiqPay",
+      "Payment by card details or customer's own service account",
+      "Payment link in email body or PDF invoice",
+      "Direct link to service page with invoice attributes",
+      "Hold payment on card until goods ship"
+    ],
+    "countries": [
+      "UA"
+    ],
+    "languages": [
+      "en",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Monobank",
+      "LiqPay"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.enhanced_license_plating_for_tasklet|PAPPID.90b2fe69-1f5d-4ddf-bfa7-9d4539a88e49",
+  "guid": "90b2fe69-1f5d-4ddf-bfa7-9d4539a88e49",
+  "publisherId": "thetasystemslimited",
+  "offerId": "enhanced_license_plating_for_tasklet",
+  "source": {
+    "name": "Advanced License Plating for Tasklet",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.enhanced_license_plating_for_tasklet%7CPAPPID.90b2fe69-1f5d-4ddf-bfa7-9d4539a88e49",
+    "lastModified": "2026-10-01T05:23:44.4821827+00:00",
+    "appVersion": "28.2.57.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/TAE/docs/Introduction",
+    "sourceHash": "sha256:1a776cc0c6efe83581dfa520e832c049f5782374111205382457617f7ed35d99"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1a776cc0c6efe83581dfa520e832c049f5782374111205382457617f7ed35d99",
+    "mappedOn": null,
+    "summary": "License plate validation and traceability in Tasklet",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-stock-movements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability",
+      "ng-stock-counting"
+    ],
+    "claims": [
+      "Keeps an audit trail by retaining license plate entries",
+      "Validates registered license plate data before posting",
+      "Supports full and partial license plate scans with or without line split",
+      "Moves inventory to destination license plates, new or existing",
+      "License plate hierarchies with parent and child levels, including moving a child to a new parent",
+      "Handles positive and negative adjustments",
+      "Queued cleanup of empty license plates after posting",
+      "Utilities for counting, adjusting, merging and cleaning license plates",
+      "Licensed per Tasklet device"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "ja",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "sv",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Tasklet Mobile WMS"
+    ],
+    "requires": [
+      "Tasklet Mobile WMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

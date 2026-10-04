@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex030_handlingunitsmanagement|PAPPID.f6054ab6-161a-4d34-8145-24c72dce4ce3",
+  "guid": "f6054ab6-161a-4d34-8145-24c72dce4ce3",
+  "publisherId": "eos_solutions",
+  "offerId": "ex030_handlingunitsmanagement",
+  "source": {
+    "name": "Handling Units Management",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex030_handlingunitsmanagement%7CPAPPID.f6054ab6-161a-4d34-8145-24c72dce4ce3",
+    "lastModified": "2026-09-07T15:54:12.0598301+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/handling-units-management.html",
+    "sourceHash": "sha256:3f50412b6fb71a5b03c214fce10c41e96950cc92fb996079e280d0692d659cee"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3f50412b6fb71a5b03c214fce10c41e96950cc92fb996079e280d0692d659cee",
+    "mappedOn": null,
+    "summary": "Manages pallets, containers and boxes on shipments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Create handling units",
+      "Packaging instructions with boxes, pallets, containers",
+      "Item entries per handling unit",
+      "Weights calculated including or excluding packaging",
+      "Handling unit states Draft, Loaded, Shipped",
+      "Fill quantity to ship from handling unit selection",
+      "Monitor handling units contained in documents",
+      "Requires EOS Over- and Under-Delivery Quantities"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Over- and Under-Delivery Quantities"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

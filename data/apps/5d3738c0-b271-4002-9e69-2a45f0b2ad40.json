@@ -1,0 +1,60 @@
+{
+  "appId": "TYPE.connect|PUBID.1502980|AID.6949805-amazon|PAPPID.5d3738c0-b271-4002-9e69-2a45f0b2ad40",
+  "guid": "5d3738c0-b271-4002-9e69-2a45f0b2ad40",
+  "publisherId": "1502980",
+  "offerId": "6949805-amazon",
+  "source": {
+    "name": "Amazon Seller Connector for Dynamics 365 Business Central",
+    "publisher": "Dynamics 365 Zone",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.1502980%7CAID.6949805-amazon%7CPAPPID.5d3738c0-b271-4002-9e69-2a45f0b2ad40",
+    "lastModified": "2026-07-27T08:40:29.6030244+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://d365zone.com/business-central/amazon-integration",
+    "sourceHash": "sha256:90fed2211f7d5cb06168f77b9cd887b79dab59f45c098981d546bda0db4ac129"
+  },
+  "mapping": {
+    "sourceHash": "sha256:90fed2211f7d5cb06168f77b9cd887b79dab59f45c098981d546bda0db4ac129",
+    "mappedOn": null,
+    "summary": "Syncs Amazon marketplace orders, inventory and returns",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-3pl",
+      "ng-customer-returns",
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Syncs Amazon orders including MFN and FBA",
+      "Pushes tracking and shipment updates to Amazon as they happen",
+      "Syncs inventory from single or multiple warehouses",
+      "Syncs FBA inventory changes into BC item journals",
+      "Transfer orders synced as Amazon inbound shipment plans",
+      "Delivered FBA shipments posted as transfer receipts",
+      "Syncs FBA customer returns and manages credits"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Amazon Seller Central"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

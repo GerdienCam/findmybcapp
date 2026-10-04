@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.pilaroas1612347732084|AID.pilaro_protime|PAPPID.55ba6a75-65bf-4188-b2b4-c65c7dbb85f9",
+  "guid": "55ba6a75-65bf-4188-b2b4-c65c7dbb85f9",
+  "publisherId": "pilaroas1612347732084",
+  "offerId": "pilaro_protime",
+  "source": {
+    "name": "Evidi Protime",
+    "publisher": "Skill Core AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pilaroas1612347732084%7CAID.pilaro_protime%7CPAPPID.55ba6a75-65bf-4188-b2b4-c65c7dbb85f9",
+    "lastModified": "2026-09-01T12:33:32.1436418+00:00",
+    "appVersion": "28.4.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.evidi.com/support",
+    "sourceHash": "sha256:eefe2822f2804191075883c50f4eba30e98b19aba43aeb74de147f69e2175afe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eefe2822f2804191075883c50f4eba30e98b19aba43aeb74de147f69e2175afe",
+    "mappedOn": null,
+    "summary": "Time registration, stamping and salary calculation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-time",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-absence-leave",
+      "ng-hr-payroll-comp"
+    ],
+    "claims": [
+      "Registers time on service, production and projects",
+      "Mobile time registration",
+      "Work shift handling and shift calendar",
+      "Salary time calculation exported to third-party payroll",
+      "Time bank for overtime and time off settlement",
+      "Daily check in/out",
+      "Manual and automatic absence registration"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "nb"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

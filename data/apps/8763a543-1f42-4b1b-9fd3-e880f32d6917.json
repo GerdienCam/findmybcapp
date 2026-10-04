@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.adacta|AID.be-terna-smart-job-queue-control|PAPPID.8763a543-1f42-4b1b-9fd3-e880f32d6917",
+  "guid": "8763a543-1f42-4b1b-9fd3-e880f32d6917",
+  "publisherId": "adacta",
+  "offerId": "be-terna-smart-job-queue-control",
+  "source": {
+    "name": "Smart Job Queue Control",
+    "publisher": "BE-terna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.adacta%7CAID.be-terna-smart-job-queue-control%7CPAPPID.8763a543-1f42-4b1b-9fd3-e880f32d6917",
+    "lastModified": "2024-12-12T10:32:02.4449245+00:00",
+    "appVersion": "23.0.20240604.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dev.azure.com/BTZGBC/Public/_wiki/wikis/Public.wiki/27/Smart-Job-Queue-Control",
+    "sourceHash": "sha256:16f25c02b10b2a5cc66056c93b8f6e9b7e231bef615d126808f524ebe2a81d41"
+  },
+  "mapping": {
+    "sourceHash": "sha256:16f25c02b10b2a5cc66056c93b8f6e9b7e231bef615d126808f524ebe2a81d41",
+    "mappedOn": null,
+    "summary": "Monitors and controls job queue entries with advanced functions",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Control job that monitors other recurring job queue entries",
+      "Automatically returns failed jobs from Error to Ready",
+      "Configurable action per controlled job on Error status",
+      "Sends email notices on job status and log entries",
+      "Configurable notification frequency, recipient and CC",
+      "Notify multiple responsible persons per shift",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IE",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "PL",
+      "RS",
+      "SE",
+      "SI",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "hr",
+      "sl",
+      "sr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

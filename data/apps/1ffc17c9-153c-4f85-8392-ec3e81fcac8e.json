@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.print-it-with-doc-origin-app|PAPPID.1ffc17c9-153c-4f85-8392-ec3e81fcac8e",
+  "guid": "1ffc17c9-153c-4f85-8392-ec3e81fcac8e",
+  "publisherId": "fenwicksoftware",
+  "offerId": "print-it-with-doc-origin-app",
+  "source": {
+    "name": "Print-It with DocOrigin",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.print-it-with-doc-origin-app%7CPAPPID.1ffc17c9-153c-4f85-8392-ec3e81fcac8e",
+    "lastModified": "2026-07-05T23:32:52.2008328+00:00",
+    "appVersion": "26.0.260701.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/print-it-with-doc-origin/docs/",
+    "sourceHash": "sha256:178188146a5edaa08e16b02b473b7e6ee16b5a46ac157baefc8444bc05804e51"
+  },
+  "mapping": {
+    "sourceHash": "sha256:178188146a5edaa08e16b02b473b7e6ee16b5a46ac157baefc8444bc05804e51",
+    "mappedOn": null,
+    "summary": "Outputs document data to DocOrigin for printing",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-printing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Outputs document data as XML for DocOrigin Merge",
+      "Output folder path per printer integration",
+      "Separate integrations per document type (e.g. invoices, purchase orders)",
+      "Print jobs sent via Fenwick Cloud Companion service"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DocOrigin"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

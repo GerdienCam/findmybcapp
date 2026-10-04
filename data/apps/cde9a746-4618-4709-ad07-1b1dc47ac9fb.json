@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.allium|AID.dld_purchase|PAPPID.cde9a746-4618-4709-ad07-1b1dc47ac9fb",
+  "guid": "cde9a746-4618-4709-ad07-1b1dc47ac9fb",
+  "publisherId": "allium",
+  "offerId": "dld_purchase",
+  "source": {
+    "name": "DLD-Purchase",
+    "publisher": "Allium",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.allium%7CAID.dld_purchase%7CPAPPID.cde9a746-4618-4709-ad07-1b1dc47ac9fb",
+    "lastModified": "2026-08-17T07:30:26.3940508+00:00",
+    "appVersion": "26.0.0.16939",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.allium.eu/en/contact",
+    "sourceHash": "sha256:77ca82c4e07d6f68ad09c88a162dee8bb1d980bdc8e71b58e473a4b0c3ac664e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:77ca82c4e07d6f68ad09c88a162dee8bb1d980bdc8e71b58e473a4b0c3ac664e",
+    "mappedOn": null,
+    "summary": "Goods reception from vendor spreadsheets matched to purchase orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-quality-compliance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-inventory-analysis",
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "Imports vendor Excel files and matches items to orders",
+      "Automatic average delivery times, with estimated delivery dates calculated too",
+      "Replenishment planning by location or product category",
+      "Automatic minimum stock calculation",
+      "MinMax replenishment with forecasts from sales history",
+      "Seasonal product optimization",
+      "Calculates write-offs from the age and quantity of stock",
+      "Identifies excess or unnecessary purchase orders",
+      "Supplier service level and actual delivery time tracking",
+      "Notifications on goods value loss"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Retail and consumer goods"
+    ],
+    "connectsTo": [
+      "Excel"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

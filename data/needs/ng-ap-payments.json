@@ -1,0 +1,306 @@
+{
+  "id": "ng-ap-payments",
+  "order": 1,
+  "label": "Paying suppliers on time and correctly",
+  "description": "Proposing, approving and sending supplier payments, fixing or voiding wrong ones, alternative instruments, and the overview of what is due.",
+  "type": "bpc",
+  "area": "Purchasing & payables",
+  "relevance": "high",
+  "statements": [
+    "Paying suppliers on time and correctly",
+    "Proposing, approving and sending supplier payments, fixing or voiding wrong ones, alternative instruments, and the overview of what is due.",
+    "Every vendor payment run I export to Excel and re-key everything into the online bank",
+    "We want BC to create the bank payment file for suppliers so we can just upload it",
+    "Is there an app that sends supplier payments from BC straight to our bank without file uploads?",
+    "vendor payment bank integration",
+    "Suggest vendor payments in the payment journal picks the wrong invoices",
+    "We keep missing suppliers' early payment discounts because nobody sees the due date in time",
+    "Supplier payments need two people to approve before they go to the bank, how do we enforce that?",
+    "How do we pay suppliers in EUR, USD and SEK from the same payment run?",
+    "After the bank pays we have to manually apply each payment to the vendor invoice in BC",
+    "Suppliers call asking which invoices we paid, we want to send remittance advice automatically",
+    "We still print checks for vendors and the layout never works",
+    "Supplier demands a deposit before shipping, how do we handle a prepayment on the purchase order?",
+    "Purchase prepayment invoices get confusing when the supplier's final invoice comes in",
+    "We buy from and sell to the same company and want to net what they owe us against what we owe them",
+    "Rejected supplier payments from the bank aren't visible in BC, we only find out when the vendor complains",
+    "How do we pay only part of a supplier invoice and keep the rest open?",
+    "We pay vendors from several bank accounts and choosing the right one is manual",
+    "Payment proposals should respect each vendor's payment terms and our cash position",
+    "vendor payment run approval workflow",
+    "Want to schedule supplier payments to go out on fixed weekdays only",
+    "We posted a payment to a supplier by mistake and need to undo it",
+    "How do I void a vendor check that was lost in the post?",
+    "stop payment check vendor BC",
+    "Reversing a posted vendor payment in BC is confusing, the invoice doesn't reopen",
+    "The supplier payment run was sent to the bank twice, how do we reverse the duplicate entries?",
+    "Want an approval step before anyone can reverse a vendor payment",
+    "We applied a supplier payment to the wrong vendor invoice and need to move it",
+    "Paid the supplier the wrong amount, how do I correct it without a mess in the ledger?",
+    "Payment posted to the wrong vendor card in BC",
+    "We underpaid a supplier invoice by a bank fee and need to fix the difference",
+    "Need to reissue a payment to a supplier after their bank rejected it",
+    "Unapplying and reapplying vendor entries takes ages when one payment covers many invoices",
+    "Our Spanish suppliers want to be paid with pagares, how does BC handle that?",
+    "We issue promissory notes to vendors and track maturity dates in a spreadsheet",
+    "promissory notes to vendors BC",
+    "How do I print a bill of exchange for a supplier and settle it on the due date?",
+    "Need to see all outstanding notes we've given suppliers and when they fall due",
+    "When a note we gave a supplier is honored at the bank we want the vendor ledger closed automatically",
+    "Vendor aging in BC does not match the payables account in the general ledger",
+    "Every month end I spend two days reconciling the vendor ledger to the G/L",
+    "How do I see what we owe each supplier, grouped by how overdue it is?",
+    "aged payables report",
+    "We received goods from suppliers weeks ago but the invoice never came, how do I find all of those?",
+    "vendor received not invoiced report Business Central",
+    "Our accountant wants an accrual for goods received from vendors but not yet invoiced at month end",
+    "Is there an app that gives the CFO a payables dashboard with overdue, due this week and due next month?",
+    "We need to know how much cash goes out to suppliers in the next 30 days",
+    "What are our days payable outstanding and is it getting worse?",
+    "How many supplier invoices did we pay late last quarter and how much early payment discount did we lose?",
+    "The open vendor ledger entries are full of old small amounts and I cannot tell what is real",
+    "AP KPI dashboard",
+    "How many supplier invoices go through automatically vs typed in by hand?",
+    "Which vendor invoices are approved but not paid yet, and which are still stuck in approval?",
+    "Auditors want a list of every vendor payment in the year with date and bank account",
+    "How long does a supplier invoice sit between arriving, being posted and being paid?",
+    "Show vendor balances across all our companies in one view",
+    "We want a balance confirmation to send suppliers so they can check our open items agree with theirs",
+    "How big and how old is our backlog of unposted purchase invoices?"
+  ],
+  "questions": [
+    {
+      "id": "send",
+      "text": "How should payments get from BC to your bank?",
+      "help": "Direct means no file to download and upload.",
+      "options": [
+        {
+          "label": "Sent directly from BC to the bank",
+          "patterns": [
+            "direct(ly)? (to )?(the )?bank",
+            "direct bank",
+            "directly (to|from)[^.]*bank",
+            "without (manual file|file handling|web portal)|no file (export|exchange)|without files",
+            "host-?2-?host|host-to-host",
+            "ebics",
+            "\\bapi\\b[^.]*payments|bank(ing)? api\\b|api support for",
+            "pushes payments|push payments|transmits payments|sends? (bulk |supplier |vendor )?payments (directly|to|from)",
+            "open banking|xs2a",
+            "exports? payment files (directly )?to (ponto|cobase)",
+            "initiat\\w* payments?( orders)?( from)"
+          ]
+        },
+        {
+          "label": "Export a payment file and upload it in the web bank",
+          "patterns": [
+            "(export|creat|generat)\\w*[^.]*(payment|bank|bpay|sepa|zengin)[^.]*files?",
+            "payment file export,",
+            "for (manual )?upload|for import into banking",
+            "csv templates?|csv formats",
+            "uploaded to web bank",
+            "bank formats?(?! incl)",
+            "bank-supported formats",
+            "export\\w* [^.]*(bpay|eft|payment proposals|payment batches|payment information)",
+            "import/export bank files",
+            "sepa (ct )?export"
+          ]
+        },
+        {
+          "label": "Cheques (incl. post-dated)",
+          "patterns": [
+            "cheques?",
+            "\\bchecks? (printing|management|stock|audit|processing)",
+            "print\\w* (and void )?checks|prints checks",
+            "post-?dated",
+            "\\bpdc\\b",
+            "outsourced checks",
+            "ach, check"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sent directly from BC to the bank": 0.31,
+        "Export a payment file and upload it in the web bank": 0.27,
+        "Cheques (incl. post-dated)": 0.17
+      }
+    },
+    {
+      "id": "kinds",
+      "text": "Which payments do you make?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Domestic bank transfers (SEPA or local formats)",
+          "patterns": [
+            "\\bsepa\\b",
+            "domestic",
+            "\\bfik\\b|fik ?7|giro",
+            "\\beft\\b",
+            "\\bach\\b",
+            "bpay",
+            "zengin",
+            "local (payment types|formats|banks)|localized payment types",
+            "danish bank|lithuanian banks|bulgarian|romanian banks"
+          ]
+        },
+        {
+          "label": "Foreign and multi-currency payments",
+          "patterns": [
+            "cross-?border",
+            "foreign (currency )?payments",
+            "international payments",
+            "multi-?currency|multiple currencies|all currencies|regardless of currency|\\d+\\+? currencies",
+            "\\(iban/swift\\)|\\(swift/iban\\)",
+            "\\bwires\\b"
+          ]
+        },
+        {
+          "label": "Post-dated cheques or promissory notes",
+          "patterns": [
+            "post-?dated|\\bpdc\\b",
+            "promissory",
+            "densai"
+          ]
+        },
+        {
+          "label": "Direct debit or collections",
+          "patterns": [
+            "direct debit|debit orders",
+            "collections?\\b",
+            "claims? (batches|management)|kröfur"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Domestic bank transfers (SEPA or local formats)": 0.38,
+        "Foreign and multi-currency payments": 0.1,
+        "Post-dated cheques or promissory notes": 0.12,
+        "Direct debit or collections": 0.12
+      }
+    },
+    {
+      "id": "controls",
+      "text": "What controls do you want before money leaves?",
+      "help": "These guard against fraud and mistakes.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Someone approves payments first",
+          "patterns": [
+            "payments? approval",
+            "approval (workflow|process|requests?) for (payment|treasury)",
+            "payment[^.]*approv(al|e)(?!d)",
+            "approv(e|al of)( every)? payment",
+            "approve and execute",
+            "for payment$|approval of posted purchase invoices for payment",
+            "pre-approval",
+            "maker-?checker|signatory",
+            "reviewed before sending",
+            "authoriz\\w* payments|payment authorization",
+            "approved payment runs",
+            "until approval completed"
+          ]
+        },
+        {
+          "label": "Changes to vendor bank details need approval",
+          "patterns": [
+            "(vendor|employee|customer)( and vendor)? bank (account|detail)s?[^.]*(approv|change)|approv\\w*[^.]*(vendor|employee) bank|bank account approval",
+            "released (vendor )?bank accounts|unreleased bank accounts",
+            "changed bank account information",
+            "bank detail changes"
+          ]
+        },
+        {
+          "label": "Check that the bank account really belongs to the vendor",
+          "patterns": [
+            "verif\\w*[^.]*(iban|account|bank)",
+            "iban (lookup|validation)|validates? [^.]*(iban|bank|swift|account no)",
+            "bank validation",
+            "account verification",
+            "compliance screening",
+            "surepay|verification of payee|\\bvop\\b"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Someone approves payments first": 0.27,
+        "Changes to vendor bank details need approval": 0.12,
+        "Check that the bank account really belongs to the vendor": 0.13
+      }
+    },
+    {
+      "id": "scope",
+      "text": "Should the same app also bring bank statements into BC?",
+      "help": "Lets payments and bank reconciliation run in one tool.",
+      "options": [
+        {
+          "label": "Yes, import statements and match them",
+          "patterns": [
+            "(bank )?statements? (import|intelligence)",
+            "import\\w*[^.]*statements?",
+            "receive (bank )?statements",
+            "(fetch|retriev)\\w*[^.]*statements",
+            "payment proposals and bank statements",
+            "reconcil(?!iation columns)",
+            "auto-?match|automatch",
+            "bank feeds|loads bank transactions|imports? (and applies )?bank transactions|fetches [^.]*transactions",
+            "camt"
+          ]
+        },
+        {
+          "label": "Also show live bank balances",
+          "patterns": [
+            "bank balances?",
+            "account balances",
+            "balances of",
+            "balances always"
+          ]
+        },
+        {
+          "label": "No, payments only / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, import statements and match them": 0.4,
+        "Also show live bank balances": 0.06
+      }
+    },
+    {
+      "id": "banks",
+      "text": "Do you pay from several banks?",
+      "help": "Some apps cover hundreds of banks through one connection.",
+      "options": [
+        {
+          "label": "Yes, several banks, maybe in several countries",
+          "patterns": [
+            "multi-?bank|multiple banks|several banks|different banks",
+            "[0-9,]+\\+? (sepa )?banks",
+            "all (ebics-compatible|scandinavian) banks|any bank",
+            "\\bbanks? (worldwide|globally)|global bank (integration|connect)"
+          ]
+        },
+        {
+          "label": "No, one bank / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, several banks, maybe in several countries": 0.13
+      }
+    }
+  ]
+}

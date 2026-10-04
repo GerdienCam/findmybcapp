@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.shop-floor-execution-app|PAPPID.dfa3f161-b5ac-483a-a31f-20ee850a290c",
+  "guid": "dfa3f161-b5ac-483a-a31f-20ee850a290c",
+  "publisherId": "fenwicksoftware",
+  "offerId": "shop-floor-execution-app",
+  "source": {
+    "name": "Shop Floor Execution",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.shop-floor-execution-app%7CPAPPID.dfa3f161-b5ac-483a-a31f-20ee850a290c",
+    "lastModified": "2026-09-28T00:18:33.3578424+00:00",
+    "appVersion": "27.0.260921.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/shop-floor-execution/docs",
+    "sourceHash": "sha256:8485cd7b82854e5cbbbefd69dbf975a83b865c61cdef0e987a525ba7db8ae680"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8485cd7b82854e5cbbbefd69dbf975a83b865c61cdef0e987a525ba7db8ae680",
+    "mappedOn": null,
+    "summary": "Shop floor terminal for production time and output recording",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Single shop floor screen from production order to finished product",
+      "One 'Finish' button posts capacity, consumption and output and finishes the order",
+      "Finish button adapts to component and routing flushing methods",
+      "Setup and run time recording with pauses",
+      "Time recordings converted to capacity and posted using the Shop Floor Calendar",
+      "Managers can edit time recordings before posting",
+      "Recorded vs posted time preserved after order is finished",
+      "Designed for tablets and phones"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

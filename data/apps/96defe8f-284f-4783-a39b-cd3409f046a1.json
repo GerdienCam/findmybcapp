@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.b2f|AID.b2f_mcd|PAPPID.96defe8f-284f-4783-a39b-cd3409f046a1",
+  "guid": "96defe8f-284f-4783-a39b-cd3409f046a1",
+  "publisherId": "b2f",
+  "offerId": "b2f_mcd",
+  "source": {
+    "name": "B2F Manufacturing Cost Distribution",
+    "publisher": "B2F",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.b2f%7CAID.b2f_mcd%7CPAPPID.96defe8f-284f-4783-a39b-cd3409f046a1",
+    "lastModified": "2026-09-24T08:01:11.134219+00:00",
+    "appVersion": "28.0.22819.22819",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.b2f.com.tr/wp-content/uploads/2022/03/Manufacturing-Cost-Distribution-Help.pdf",
+    "sourceHash": "sha256:b83286b982adf55023507b387fc63ab42904fa5e99d4ca713fd5ad5dcfab9b24"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b83286b982adf55023507b387fc63ab42904fa5e99d4ca713fd5ad5dcfab9b24",
+    "mappedOn": null,
+    "summary": "Distributes manufacturing costs such as labor to products",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-cost-allocation"
+    ],
+    "claims": [
+      "Distributes general production expenses and labor costs to production orders",
+      "Applies actual production costs to production orders at period end",
+      "Distribution types defined per expense type",
+      "Amounts registered by inventory period",
+      "Spreads costs by work duration or by a distribution factor",
+      "Requires Premium edition"
+    ],
+    "countries": [
+      "TR"
+    ],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

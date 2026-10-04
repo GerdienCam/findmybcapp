@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_production_order_job_overview_prod_campaign|PAPPID.ad4972b1-5c08-4081-87f8-7a9bd9fe9c09",
+  "guid": "ad4972b1-5c08-4081-87f8-7a9bd9fe9c09",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_production_order_job_overview_prod_campaign",
+  "source": {
+    "name": "m+m Production Order Job Overview with Production Campaign",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_production_order_job_overview_prod_campaign%7CPAPPID.ad4972b1-5c08-4081-87f8-7a9bd9fe9c09",
+    "lastModified": "2026-06-06T17:52:11.5570771+00:00",
+    "appVersion": "28.0.370920.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:a9a7acf97e09f9aca1a254b7fc4994160f252d2d20da85384413de7ce7f62d9b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a9a7acf97e09f9aca1a254b7fc4994160f252d2d20da85384413de7ce7f62d9b",
+    "mappedOn": null,
+    "summary": "Posts production campaigns from job overview",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-production-scheduling"
+    ],
+    "claims": [
+      "Shows the production campaign on the job overview",
+      "Starts the campaign and posts all routings together",
+      "Requires Premium edition"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Production Order Job Overview",
+      "m+m Production Campaign"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

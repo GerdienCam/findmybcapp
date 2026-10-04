@@ -1,0 +1,374 @@
+{
+  "id": "ng-shop-floor-reporting",
+  "order": 90,
+  "label": "Recording materials, time and output on the floor",
+  "description": "Starting jobs and recording material consumption, labor/machine time and finished output.",
+  "type": "bpc",
+  "area": "Manufacturing",
+  "relevance": "high",
+  "statements": [
+    "Recording materials, time and output on the floor",
+    "Starting jobs and recording material consumption, labor/machine time and finished output.",
+    "We have no idea which production orders have actually started on the floor",
+    "Operators should be able to scan a barcode on the job card to start a job",
+    "Is there a shop floor app for BC where workers tap start and stop?",
+    "shop floor terminal start job",
+    "Our supervisor walks around every morning to see which jobs are running",
+    "We want the production order status to change when work actually begins",
+    "Can operators start jobs from a tablet without a full BC license?",
+    "We want to stop operators starting a job when materials are not picked",
+    "Office staff need to see in real time what each machine is working on",
+    "Starting a job should register which operator and which machine",
+    "We want to prevent people from starting jobs out of sequence",
+    "How do we start production in the warehouse app in Business Central?",
+    "Our inventory is always wrong because consumption on production orders is not posted",
+    "Backflushing takes the wrong quantities from stock",
+    "How do we record that we used more material than the BOM says?",
+    "Operators should scan the lot of the raw material they put into the machine",
+    "consumption journal production order",
+    "We want consumption posted automatically when output is reported",
+    "Raw material ends up negative in stock because consumption is posted before the receipt",
+    "Is there an app to register material consumption on a handheld scanner?",
+    "We weigh the actual material used and need that weight posted, not the BOM amount",
+    "Leftover material returned to stock after a job is never posted back",
+    "Our posting the consumption journal takes ages with many lines",
+    "We need to register scrap of raw material during cutting",
+    "Operators take components from a line side store and we never know what they used",
+    "Which batch of flour went into which production run? We don't record it",
+    "We want to flush components per operation, not all at the start",
+    "Too much manual work entering consumption for hundreds of small production orders",
+    "Substitute components used on the floor are not recorded correctly",
+    "Is there a way to see consumption versus expected material per production order?",
+    "Off-cuts from sheet metal should go back into stock as remnants",
+    "Our accountant says WIP is wrong because materials are not consumed on time",
+    "Operators write their hours on paper and someone types them into BC every day",
+    "We want workers to clock on and off jobs on a tablet at the machine",
+    "How do we record machine time separately from labor time on a production order?",
+    "shop floor time registration app",
+    "Our job costs are wrong because hours are booked to the wrong production order",
+    "Is there a cheaper way for shop floor staff to log time than a full BC license?",
+    "We want to track setup time and run time per operation",
+    "Two workers on one machine, how do we register both of them?",
+    "We need to record time spent on cleaning and waiting that isn't tied to a job",
+    "Capacity journal is too slow for 40 operators",
+    "Operators should scan a barcode on the job card to log time",
+    "We want to see live how long a job has been running versus the routing time",
+    "Some operators run three machines at once and their hours get counted three times",
+    "Production hours need to match the hours in our payroll system",
+    "Is there a data collection terminal that posts output and time together?",
+    "Indirect hours like training and meetings should be recorded on the floor too",
+    "We need labor hours per production order to find which jobs lose money",
+    "The output journal makes us enter time and quantity together and it confuses people",
+    "Workers forget to clock off jobs at the end of the shift",
+    "We want machine data from the PLC to post run time automatically",
+    "Finished goods don't show up in stock until someone posts the output journal",
+    "Operators should report how many good parts and how many rejects they made",
+    "How do we report output at the last operation only, not every step?",
+    "output journal production order",
+    "We make co-products from one run and BC only lets us report one item",
+    "Is there an app that prints a pallet label when output is reported?",
+    "We want to register the actual weight of each finished batch",
+    "By-products from our process need to go into stock with a value",
+    "Our production orders stay open for months because nobody finishes them",
+    "Scanning finished goods into stock from the line would save us hours",
+    "We need to assign lot numbers and expiry dates at the point of output",
+    "We produced more than planned, how do we post the extra quantity?",
+    "Finishing production orders in bulk at month end takes forever",
+    "Operators should report output on a terminal next to the machine",
+    "We want to see live how many units each line has produced today",
+    "Serial numbers have to be created for every unit we finish",
+    "Report as finished with catch weight for meat products",
+    "How do we reverse output that was posted on the wrong production order?",
+    "Partial output reported every hour so sales can ship what's ready",
+    "We count finished boxes at the end of the line and want that pushed into BC automatically"
+  ],
+  "questions": [
+    {
+      "id": "device",
+      "text": "What will operators use to report on the shop floor?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Touchscreen terminal at the machine",
+          "patterns": [
+            "touch",
+            "terminal",
+            "workstation",
+            "screen (set up )?at the machine",
+            "production panels",
+            "shop floor screen",
+            "at work cent(er|re)s"
+          ]
+        },
+        {
+          "label": "Phone or tablet",
+          "patterns": [
+            "phone",
+            "tablet",
+            "mobile",
+            "android",
+            "apple",
+            "handheld"
+          ]
+        },
+        {
+          "label": "Barcode scanning",
+          "patterns": [
+            "barcode",
+            "scan",
+            "\\bqr\\b",
+            "badge",
+            "chip login",
+            "datamatrix"
+          ]
+        },
+        {
+          "label": "Data straight from machines or scales",
+          "patterns": [
+            "\\bplc\\b",
+            "\\biot\\b",
+            "machine (data|count)",
+            "scales?\\b",
+            "automated (machine|data) (count )?(data )?collection",
+            "greenhouse automation",
+            "spencer metrics"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Touchscreen terminal at the machine": 0.23,
+        "Phone or tablet": 0.25,
+        "Barcode scanning": 0.24,
+        "Data straight from machines or scales": 0.07
+      }
+    },
+    {
+      "id": "record",
+      "text": "What do you need to record per operation?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Setup and run time",
+          "patterns": [
+            "set-?up (time|and run|and processing)",
+            "setup, run",
+            "start/stop setup",
+            "run ?time",
+            "operation times?",
+            "start(, | and | / )(pause|stop|end)",
+            "start/stop",
+            "start / pause",
+            "time recording",
+            "times? (used|on|output|data|spent|capture|registration|against)",
+            "labou?r",
+            "job time",
+            "processing times"
+          ]
+        },
+        {
+          "label": "Output and material consumption",
+          "patterns": [
+            "output",
+            "consumption",
+            "consumed",
+            "produced quantit",
+            "finished quantit"
+          ]
+        },
+        {
+          "label": "Scrap and reasons",
+          "patterns": [
+            "scrap",
+            "waste",
+            "rework"
+          ]
+        },
+        {
+          "label": "Downtime and stops",
+          "patterns": [
+            "downtime",
+            "stop(page)?s?\\b.{0,15}reason",
+            "stoppage",
+            "stop time",
+            "failure time",
+            "interruption",
+            "breaks",
+            "machine (states|status)",
+            "retooling"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Setup and run time": 0.36,
+        "Output and material consumption": 0.55,
+        "Scrap and reasons": 0.15,
+        "Downtime and stops": 0.16
+      }
+    },
+    {
+      "id": "attendance",
+      "text": "Should the same app handle clock-in and attendance?",
+      "help": "For example feeding hours into payroll.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, clock-in/out and attendance",
+          "patterns": [
+            "clock[- ]?(in|out)",
+            "attendance",
+            "absence",
+            "shift"
+          ]
+        },
+        {
+          "label": "Yes, and calculate hours for payroll",
+          "patterns": [
+            "payroll",
+            "overtime",
+            "pay rules"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, clock-in/out and attendance": 0.18,
+        "Yes, and calculate hours for payroll": 0.05
+      }
+    },
+    {
+      "id": "posting",
+      "text": "Should registrations post straight into BC?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, post automatically in real time",
+          "patterns": [
+            "automatic(ally)? (post|posting)",
+            "posts? (consumption|capacity|output|production|time|the)",
+            "real-time posting",
+            "automatic output journal",
+            "one 'finish' button"
+          ]
+        },
+        {
+          "label": "No, a supervisor reviews first",
+          "patterns": [
+            "approv",
+            "review",
+            "(check|adjust|edit|correct)\\w* .{0,30}before post",
+            "corrected before posting",
+            "before payroll",
+            "optional check"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, post automatically in real time": 0.17,
+        "No, a supervisor reviews first": 0.13
+      }
+    },
+    {
+      "id": "tracking",
+      "text": "What do you track on components and finished goods?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Lot or serial numbers",
+          "patterns": [
+            "\\blots?\\b",
+            "serial",
+            "item tracking",
+            "traceab",
+            "tracked (items|inventory)",
+            "expir"
+          ]
+        },
+        {
+          "label": "Pallets, packages or license plates",
+          "patterns": [
+            "pallet",
+            "package",
+            "handling unit",
+            "license plat",
+            "load carrier",
+            "container"
+          ]
+        },
+        {
+          "label": "Neither / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Lot or serial numbers": 0.17,
+        "Pallets, packages or license plates": 0.14
+      }
+    },
+    {
+      "id": "insight",
+      "text": "What should managers see?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Live status of orders and machines",
+          "patterns": [
+            "real[- ]time",
+            "live",
+            "who is working",
+            "who-is-working",
+            "current status",
+            "dashboard",
+            "overview"
+          ]
+        },
+        {
+          "label": "Performance vs. plan (OEE, actual vs. expected)",
+          "patterns": [
+            "\\boee\\b",
+            "actual vs\\.? (expected|planned)",
+            "expected vs\\.? actual",
+            "target and actual",
+            "(worker|operator|machine) performance",
+            "performance comparison",
+            "vs\\.? estimates",
+            "recorded vs posted",
+            "deviation from planned"
+          ]
+        },
+        {
+          "label": "Work instructions for operators",
+          "patterns": [
+            "instruction",
+            "recipe",
+            "drawings",
+            "production guides"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Live status of orders and machines": 0.4,
+        "Performance vs. plan (OEE, actual vs. expected)": 0.09,
+        "Work instructions for operators": 0.13
+      }
+    }
+  ]
+}

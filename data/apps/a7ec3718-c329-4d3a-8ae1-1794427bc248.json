@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.mercuriusit|AID.mitl_gra|PAPPID.a7ec3718-c329-4d3a-8ae1-1794427bc248",
+  "guid": "a7ec3718-c329-4d3a-8ae1-1794427bc248",
+  "publisherId": "mercuriusit",
+  "offerId": "mitl_gra",
+  "source": {
+    "name": "Goods Return Authorisation",
+    "publisher": "MERCURIUS IT LTD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mercuriusit%7CAID.mitl_gra%7CPAPPID.a7ec3718-c329-4d3a-8ae1-1794427bc248",
+    "lastModified": "2025-12-08T09:06:33.6487408+00:00",
+    "appVersion": "27.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mercuriusit.com/goods-return-authorisation/",
+    "sourceHash": "sha256:b363c428b52cf695ffa9c3677e551c572f974d39d2d6fe14e619d19a678f94ea"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b363c428b52cf695ffa9c3677e551c572f974d39d2d6fe14e619d19a678f94ea",
+    "mappedOn": null,
+    "summary": "Goods return authorisation and exchanges",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-returns",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-case-analytics"
+    ],
+    "claims": [
+      "Unique GRA number per return request",
+      "Single-screen dashboard with return and replacement status",
+      "Structured return reasons (defective, wrong dispatch, pricing, exchange)",
+      "Restock, repair or dispose returned goods by rules",
+      "Attachments and notes for customer communication",
+      "Tracks pricing adjustments, refunds and credit notes"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

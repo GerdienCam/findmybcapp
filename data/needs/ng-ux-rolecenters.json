@@ -1,0 +1,153 @@
+{
+  "id": "ng-ux-rolecenters",
+  "order": 170,
+  "label": "Personal home pages, tiles and headlines",
+  "description": "Configuring role centers per user or role: custom cues and tiles, headlines, embedded charts and cross-company overviews, without development.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "medium",
+  "statements": [
+    "Personal home pages, tiles and headlines",
+    "Configuring role centers per user or role: custom cues and tiles, headlines, embedded charts and cross-company overviews, without development.",
+    "The home page is full of tiles nobody here uses",
+    "Can I add my own cue showing orders not shipped yet?",
+    "custom role center tiles",
+    "Each warehouse guy should see only his own tasks when he opens BC",
+    "Our CFO wants one start page with the numbers she checks every morning",
+    "Can we change the headlines on the role center?",
+    "We'd like a cockpit page across all our companies",
+    "No-code way to build tiles for each department",
+    "Users get lost because the start screen doesn't fit their job",
+    "Embed a Power BI chart on my home page",
+    "configure cues without a developer",
+    "I want a count of overdue invoices net of credit memos on my start page"
+  ],
+  "questions": [
+    {
+      "id": "what",
+      "text": "What do you want on your users' home page?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Tiles with my own counts and KPIs",
+          "patterns": [
+            "tiles?",
+            "\\bcues?\\b",
+            "kpis?"
+          ]
+        },
+        {
+          "label": "Headlines or messages to users",
+          "patterns": [
+            "headlines?",
+            "messages?",
+            "quotes organised|own quotes",
+            "warn users"
+          ]
+        },
+        {
+          "label": "Charts and analysis",
+          "patterns": [
+            "charts?|diagrams?",
+            "analys(is|es)",
+            "dashboards?",
+            "power bi"
+          ]
+        },
+        {
+          "label": "Ready-made role centers for specific jobs",
+          "patterns": [
+            "role cent(er|re) designs|role centres? (placing|tailored)|enhanced standard role centers",
+            "profiles for|role-based layouts"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Tiles with my own counts and KPIs": 0.65,
+        "Headlines or messages to users": 0.19,
+        "Charts and analysis": 0.27,
+        "Ready-made role centers for specific jobs": 0.19
+      }
+    },
+    {
+      "id": "who",
+      "text": "Who should set up the home pages?",
+      "options": [
+        {
+          "label": "Each user builds their own",
+          "patterns": [
+            "users create their own",
+            "user-designed",
+            "configure your own",
+            "personali[sz]ed|per department, team or user",
+            "subscribe to views"
+          ]
+        },
+        {
+          "label": "An admin sets them up per role or group",
+          "patterns": [
+            "admins build",
+            "by permission sets|security groups",
+            "user groups?",
+            "by profile or user|assigned per role|via role profile|view assignment|assign role center|specific user groups|for the 10 most common profiles"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Each user builds their own": 0.12,
+        "An admin sets them up per role or group": 0.38
+      }
+    },
+    {
+      "id": "data",
+      "text": "Do tiles need to count data from other apps or your own customizations?",
+      "help": "For example Continia, ExFlow or your own fields.",
+      "options": [
+        {
+          "label": "Yes, any table including add-ons",
+          "patterns": [
+            "any table|other apps|per-tenant extensions|related tables"
+          ]
+        },
+        {
+          "label": "No, standard BC data is enough",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, any table including add-ons": 0.15
+      }
+    },
+    {
+      "id": "nocode",
+      "text": "Must it be configurable without a developer?",
+      "options": [
+        {
+          "label": "Yes, no code",
+          "patterns": [
+            "no[- ]code",
+            "without (code|coding|development)",
+            "no (coding|developer)",
+            "zero setup|plug-and-play"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, no code": 0.31
+      }
+    }
+  ]
+}

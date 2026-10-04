@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.dbhlogisticsitag1719407880652|AID.dbh2bc4exco|PAPPID.ff44349c-7f9b-409c-983f-15f4189ce182",
+  "guid": "ff44349c-7f9b-409c-983f-15f4189ce182",
+  "publisherId": "dbhlogisticsitag1719407880652",
+  "offerId": "dbh2bc4exco",
+  "source": {
+    "name": "dbh2BC Export Control",
+    "publisher": "dbh Logistics IT AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dbhlogisticsitag1719407880652%7CAID.dbh2bc4exco%7CPAPPID.ff44349c-7f9b-409c-983f-15f4189ce182",
+    "lastModified": "2026-08-28T11:10:41.6263517+00:00",
+    "appVersion": "26.4.3.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dbh.de/kontakt",
+    "sourceHash": "sha256:59a92eef9f654dae4465916594567408334c82cac18a136dabc478850b5301fa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:59a92eef9f654dae4465916594567408334c82cac18a136dabc478850b5301fa",
+    "mappedOn": null,
+    "summary": "Export control compliance checks",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-product-compliance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds",
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Connects BC to dbh Advantage Compliance Export Control",
+      "Checks export restrictions on sales orders and sales quotes",
+      "Automatic data collection from sales orders and quotes",
+      "Automatically blocks documents with manual release",
+      "Role concept for document release",
+      "Recognises export orders",
+      "Supports BC SaaS",
+      "Supported in EU countries"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "dbh Advantage Compliance"
+    ],
+    "requires": [
+      "dbh Advantage Compliance"
+    ],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

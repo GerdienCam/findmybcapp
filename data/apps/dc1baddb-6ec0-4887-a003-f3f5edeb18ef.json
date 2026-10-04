@@ -1,0 +1,71 @@
+{
+  "appId": "TYPE.connect|PUBID.krbersupplychainusinc1652899741673|AID.kmwe|PAPPID.dc1baddb-6ec0-4887-a003-f3f5edeb18ef",
+  "guid": "dc1baddb-6ec0-4887-a003-f3f5edeb18ef",
+  "publisherId": "krbersupplychainusinc1652899741673",
+  "offerId": "kmwe",
+  "source": {
+    "name": "K.Motion Warehouse Edge Integration",
+    "publisher": "Körber Supply Chain US, Inc",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.krbersupplychainusinc1652899741673%7CAID.kmwe%7CPAPPID.dc1baddb-6ec0-4887-a003-f3f5edeb18ef",
+    "lastModified": "2024-11-21T04:08:40.5750115+00:00",
+    "appVersion": "1.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.koerber-supplychain.com/",
+    "sourceHash": "sha256:7c7a0755bc7a83ba98d3cffb83c99f1ee2dc827d4e81d6325337d662ab9e05ed"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7c7a0755bc7a83ba98d3cffb83c99f1ee2dc827d4e81d6325337d662ab9e05ed",
+    "mappedOn": null,
+    "summary": "Integrates K.Motion Warehouse Edge WMS",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-stock-counting",
+      "ng-lot-serial-traceability",
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Integrates BC with K.Motion Warehouse Edge WMS",
+      "Document staging to track transaction progress in the WMS",
+      "Locks BC documents while processed in the WMS",
+      "Integrates items, purchase orders, sales orders, customer and vendor returns",
+      "Integrates inventory adjustments, stock counts, transfers and assembly orders",
+      "Serial and batch tracked items in real time",
+      "Carton contents visible in ERP",
+      "Multi-warehouse support",
+      "Multi-threaded parallel processing",
+      "Multiple units of measure and pack sizes",
+      "Supports BC Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "K.Motion Warehouse Edge"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

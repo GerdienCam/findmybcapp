@@ -1,0 +1,87 @@
+{
+  "appId": "PUBID.wipfli|AID.wipfli-expenseconnect-concur|PAPPID.38a3ef60-33f8-470d-b6f2-72be542cc2ae",
+  "guid": "38a3ef60-33f8-470d-b6f2-72be542cc2ae",
+  "publisherId": "wipfli",
+  "offerId": "wipfli-expenseconnect-concur",
+  "source": {
+    "name": "ExpenseConnect for Concur",
+    "publisher": "Wipfli LLP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wipfli%7CAID.wipfli-expenseconnect-concur%7CPAPPID.38a3ef60-33f8-470d-b6f2-72be542cc2ae",
+    "lastModified": "2026-07-08T13:01:27.6909236+00:00",
+    "appVersion": "1.9.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://wipfliapps.github.io/concurconnect/BusinessCentral.html",
+    "sourceHash": "sha256:03ef6406b10e4b45423c0dd0d089234f72e4bb7c64b020ea84b07afb6f38a6f6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:03ef6406b10e4b45423c0dd0d089234f72e4bb7c64b020ea84b07afb6f38a6f6",
+    "mappedOn": null,
+    "summary": "Imports Concur expense reports",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Integrates Concur expense reports into a BC journal",
+      "Automatic via Concur API without user intervention",
+      "Configurable data mapping from Concur Expense to BC",
+      "Multi-currency transactions",
+      "Multi-company",
+      "Corporate cards and Concur Expense Pay transactions"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CA",
+      "CH",
+      "CN",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "LU",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "SG",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SAP Concur Expense"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.pargeyazilimdanismanlikticas|AID.re-evaluate-capacity-cost|PAPPID.879fd26f-a3ad-4ebd-baf1-6e1c1bdf3a0b",
+  "guid": "879fd26f-a3ad-4ebd-baf1-6e1c1bdf3a0b",
+  "publisherId": "pargeyazilimdanismanlikticas",
+  "offerId": "re-evaluate-capacity-cost",
+  "source": {
+    "name": "Re-evaluate Capacity Cost",
+    "publisher": "Parge Yazilim Danismanlik Tic.A.S.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pargeyazilimdanismanlikticas%7CAID.re-evaluate-capacity-cost%7CPAPPID.879fd26f-a3ad-4ebd-baf1-6e1c1bdf3a0b",
+    "lastModified": "2024-11-21T06:53:16.2499062+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://pargesoft.com.tr/AppsourceHelpDocuments/CostAccReflDoc.pdf",
+    "sourceHash": "sha256:21a3e5697f58394587faf54423f85c89eb73f7c6eb086aee6ac01726fe533b76"
+  },
+  "mapping": {
+    "sourceHash": "sha256:21a3e5697f58394587faf54423f85c89eb73f7c6eb086aee6ac01726fe533b76",
+    "mappedOn": null,
+    "summary": "Re-evaluates capacity costs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-cost-allocation"
+    ],
+    "claims": [
+      "Allocates actual labor cost and manufacturing expenditures into production cost",
+      "Adds labor and other costs into COGS",
+      "Takes balances from specified G/L accounts and revalues item production cost",
+      "Supports online and on-premises"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

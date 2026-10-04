@@ -1,0 +1,288 @@
+{
+  "id": "ng-bom-formula-engineering",
+  "order": 63,
+  "label": "Managing BOMs, recipes and engineering changes",
+  "description": "Designing and maintaining bills of materials and formulas, their versions, and engineering change requests/orders.",
+  "type": "bpc",
+  "area": "Products & items",
+  "relevance": "medium",
+  "statements": [
+    "Managing BOMs, recipes and engineering changes",
+    "Designing and maintaining bills of materials and formulas, their versions, and engineering change requests/orders.",
+    "We sell kits made of several items and need BC to know what's in each kit",
+    "Building a multi-level BOM in BC is painful, is there a better editor?",
+    "Our engineers design in CAD and someone retypes the parts list into BC",
+    "bundle items sales kit",
+    "How do I set up a bill of materials for a product we assemble to order?",
+    "Our two plants build the same product with slightly different components",
+    "We want to see the full BOM tree with all levels in one view",
+    "Import BOM from SolidWorks to Business Central",
+    "Assembly BOM or production BOM, which one do we need for a simple kit?",
+    "New products need a parts list before purchasing can order materials",
+    "Phantom subassemblies keep showing up as separate items we have to stock",
+    "We assemble gift boxes from 5 to 10 items and want BC to deduct the components when we sell the box",
+    "We have to replace one component in 300 BOMs and do it one by one",
+    "BOM versions in BC are confusing, which one is actually used?",
+    "Is there an app to compare two BOM versions side by side?",
+    "Where-used lookup for a component across all products",
+    "Our CAD system and BC BOMs are always out of sync",
+    "We need item revisions like rev A, rev B on the item and BOM",
+    "mass update BOM component",
+    "Someone changed a certified BOM and nobody noticed for a month",
+    "Old BOM versions should be kept for history but not used for new orders",
+    "We want to copy a BOM and only change a few components for a new variant",
+    "PDM integration for BOM maintenance",
+    "How do I see the multi-level BOM as it was on a past date?",
+    "We make food and BC thinks in parts lists, not recipes",
+    "Is there a recipe management app for Business Central?",
+    "Our mixing process produces a co-product we also sell, how do we model that?",
+    "Ingredients are in percentages and the batch size changes every time",
+    "process manufacturing formula BC",
+    "We need yield and loss built into the recipe, not added afterwards",
+    "Our chemists keep formulas in Excel because the ERP cannot handle them",
+    "How do we store work instructions with each recipe for the batch record?",
+    "Same product, different recipe depending on which plant makes it",
+    "We need nutritional values and allergens calculated from the recipe",
+    "Formulation for paint and coatings in BC",
+    "By-products from production like whey or offcuts need to come out at the right cost",
+    "We need recipe versions with history for food safety audits",
+    "Which version of the recipe was used for this batch last year?",
+    "formula version control",
+    "Swapping one ingredient across 40 recipes is all manual",
+    "Is there a way to keep old recipes but block them from new production?",
+    "Our QA manager wants every recipe change logged",
+    "Engineering changes get requested by email and get lost",
+    "We need a form to request a change to a bill of materials",
+    "change request product",
+    "Production finds a better part but nobody knows how to ask for the BOM to be updated",
+    "How do others log requests to change an item before anything is approved?",
+    "Customers ask for product modifications and we don't track the requests",
+    "We need an engineering change order process in BC",
+    "When a component changes we don't know which products are affected",
+    "Is there a PLM app for Business Central that handles ECOs with approvals?",
+    "A design change went live before the old stock was used up",
+    "We want engineering, quality and purchasing to sign off a change before it's active",
+    "ECO workflow",
+    "How do we set an effective date so the new BOM starts on the first of next month?",
+    "Our customers must approve any change to the product we make for them",
+    "Nobody can tell us what changed between revision B and revision C",
+    "What happens to stock of the old part when we switch to a new one in production?",
+    "Changes get made directly on the BOM with no trace of who approved it",
+    "Our auditors want traceability on every product change"
+  ],
+  "questions": [
+    {
+      "id": "product_kind",
+      "text": "What do you make?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Products built from parts (BOMs)",
+          "patterns": [
+            "production bom",
+            "assembly bom",
+            "\\bboms?\\b",
+            "bill of materials"
+          ]
+        },
+        {
+          "label": "Recipes or formulas (food, chemicals...)",
+          "patterns": [
+            "recipe",
+            "ingredient",
+            "co-product",
+            "allergen",
+            "potency",
+            "process manufactur"
+          ]
+        },
+        {
+          "label": "Products we take apart or cut up",
+          "patterns": [
+            "disassembl",
+            "breakdown",
+            "un-assemble",
+            "cut raw"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Products built from parts (BOMs)": 0.72,
+        "Recipes or formulas (food, chemicals...)": 0.22,
+        "Products we take apart or cut up": 0.14
+      }
+    },
+    {
+      "id": "variants",
+      "text": "Do customers order your products in many variants or configurations?",
+      "options": [
+        {
+          "label": "Yes, configured per order",
+          "patterns": [
+            "configur",
+            "super bom",
+            "characteristic"
+          ]
+        },
+        {
+          "label": "Yes, a fixed range of variants",
+          "patterns": [
+            "variant"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, configured per order": 0.22,
+        "Yes, a fixed range of variants": 0.16
+      }
+    },
+    {
+      "id": "cad",
+      "text": "Do your designs come from a CAD, PDM or PLM system?",
+      "options": [
+        {
+          "label": "Yes, CAD/PDM/PLM",
+          "patterns": [
+            "\\bcad\\b",
+            "\\bplm\\b",
+            "\\bpdm\\b",
+            "solidworks",
+            "autodesk",
+            "\\binventor\\b",
+            "eplan",
+            "creo",
+            "windchill",
+            "teamcenter"
+          ]
+        },
+        {
+          "label": "We maintain BOMs in Excel",
+          "patterns": [
+            "excel"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, CAD/PDM/PLM": 0.16,
+        "We maintain BOMs in Excel": 0.06
+      }
+    },
+    {
+      "id": "changes",
+      "text": "How are changes to BOMs or recipes controlled?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Formal change requests and approvals (ECR/ECO)",
+          "patterns": [
+            "engineering change",
+            "change (request|order|note|control)",
+            "\\bec[nor]s?\\b",
+            "approv"
+          ]
+        },
+        {
+          "label": "Versions with valid-from dates",
+          "patterns": [
+            "version",
+            "revision",
+            "date range",
+            "effective",
+            "start and end date"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Formal change requests and approvals (ECR/ECO)": 0.16,
+        "Versions with valid-from dates": 0.28
+      }
+    },
+    {
+      "id": "maintain",
+      "text": "What helps you most in daily BOM upkeep?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Multi-level tree overview",
+          "patterns": [
+            "multi-level",
+            "tree",
+            "structur(e|al) bom",
+            "overview"
+          ]
+        },
+        {
+          "label": "Mass replace or copy components",
+          "patterns": [
+            "mass replace",
+            "replace/delete",
+            "bulk",
+            "copy"
+          ]
+        },
+        {
+          "label": "Cost and price calculation",
+          "patterns": [
+            "cost",
+            "price calculation",
+            "sales price"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Multi-level tree overview": 0.12,
+        "Mass replace or copy components": 0.16,
+        "Cost and price calculation": 0.28
+      }
+    },
+    {
+      "id": "food",
+      "text": "What must you track on recipes or batches?",
+      "options": [
+        {
+          "label": "Allergens and nutrition",
+          "patterns": [
+            "allergen",
+            "nutriti"
+          ]
+        },
+        {
+          "label": "Batches and lots",
+          "patterns": [
+            "batch",
+            "\\blots?\\b",
+            "lot trac"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Allergens and nutrition": 0.08,
+        "Batches and lots": 0.12
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.websan-solutions-inc|AID.reservationenhancer|PAPPID.9ff547bc-15a0-4e43-8193-374cd1c33af5",
+  "guid": "9ff547bc-15a0-4e43-8193-374cd1c33af5",
+  "publisherId": "websan-solutions-inc",
+  "offerId": "reservationenhancer",
+  "source": {
+    "name": "Reservation Enhancer",
+    "publisher": "Rand Group, LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.reservationenhancer%7CPAPPID.9ff547bc-15a0-4e43-8193-374cd1c33af5",
+    "lastModified": "2026-05-20T13:09:20.4199044+00:00",
+    "appVersion": "26.2.92.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/reservation-enhancer/",
+    "sourceHash": "sha256:f28e53cb87f4a33b2beeae33542b3b7ab7211645c89198ef6289db99cd54a975"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f28e53cb87f4a33b2beeae33542b3b7ab7211645c89198ef6289db99cd54a975",
+    "mappedOn": null,
+    "summary": "AI-based inventory reservation for order fulfillment",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-order-allocation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Determines availability and auto-reserves against sales orders",
+      "Customer prioritization",
+      "AI-calculated safety stock",
+      "Overrides MRP to address safety stock violations",
+      "Job queues process updates automatically",
+      "Supports backorders and manual overrides",
+      "Available globally except Czechia",
+      "Free unlimited use in sandbox environments",
+      "Assisted Setup wizard"
+    ],
+    "countries": [],
+    "languages": [
+      "ar",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it",
+      "ja",
+      "ko",
+      "pt",
+      "ru",
+      "vi",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

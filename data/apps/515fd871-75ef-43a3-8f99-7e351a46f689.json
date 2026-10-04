@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.retailitsolutions1607633599823|AID.rts_dvm|PAPPID.515fd871-75ef-43a3-8f99-7e351a46f689",
+  "guid": "515fd871-75ef-43a3-8f99-7e351a46f689",
+  "publisherId": "retailitsolutions1607633599823",
+  "offerId": "rts_dvm",
+  "source": {
+    "name": "RTS Dynamic VAT Management",
+    "publisher": "RTS Business Solutions ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.retailitsolutions1607633599823%7CAID.rts_dvm%7CPAPPID.515fd871-75ef-43a3-8f99-7e351a46f689",
+    "lastModified": "2026-09-11T12:46:26.805641+00:00",
+    "appVersion": "28.0.0.2",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://rts-business-solutions.github.io/dvm-docs/",
+    "sourceHash": "sha256:063c11d0451bebf7896a670f4bca7a8a94d3cdbfd30b76bd8bd471fd6411632b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:063c11d0451bebf7896a670f4bca7a8a94d3cdbfd30b76bd8bd471fd6411632b",
+    "mappedOn": null,
+    "summary": "VAT adjustment based on destination country for international sales",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-retail-pos",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-hospitality"
+    ],
+    "claims": [
+      "Adjusts VAT for international transactions by destination",
+      "Recalculates VAT Business Posting Group in LS Central POS transactions",
+      "Define ports, routes and legs to apply correct VAT per journey stage",
+      "VAT determined by timetable, manual leg change or external vessel systems"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Hospitality",
+      "Travel"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

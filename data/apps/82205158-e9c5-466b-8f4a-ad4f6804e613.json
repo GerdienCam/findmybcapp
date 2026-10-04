@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.brightcom_3111464|AID.brclogistics|PAPPID.82205158-e9c5-466b-8f4a-ad4f6804e613",
+  "guid": "82205158-e9c5-466b-8f4a-ad4f6804e613",
+  "publisherId": "brightcom_3111464",
+  "offerId": "brclogistics",
+  "source": {
+    "name": "BRC Logistics",
+    "publisher": "BrightCom Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.brclogistics%7CPAPPID.82205158-e9c5-466b-8f4a-ad4f6804e613",
+    "lastModified": "2026-10-01T12:48:33.486947+00:00",
+    "appVersion": "28.0.35486.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.brightcom.se/sv/Products/BRCLogistics",
+    "sourceHash": "sha256:df33cc487fb75f660d88c0b7ded503241a54506bb5790c9e34386a55dad02ac7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:df33cc487fb75f660d88c0b7ded503241a54506bb5790c9e34386a55dad02ac7",
+    "mappedOn": null,
+    "summary": "Integrates external WMS with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns"
+    ],
+    "claims": [
+      "Pre-built connectors to 20+ WMS, 3PL and returns platforms",
+      "Sends sales, purchase, transfer and return orders to WMS and receives confirmations",
+      "Keeps inventory aligned via automated adjustments and transfers",
+      "Sync status and errors shown in BC",
+      "Supports multiple providers, countries and warehouses",
+      "Integrates with Ongoing WMS, Bitlog, DSV, ShipHero and others",
+      "Cloud deployment"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "E-commerce",
+      "Logistics",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Ongoing WMS",
+      "Bitlog",
+      "3PL Central",
+      "DSV",
+      "ShipHero",
+      "VeraCore",
+      "Nyce WMS",
+      "Posti",
+      "nShift Return",
+      "Reclaimit",
+      "TurnR"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

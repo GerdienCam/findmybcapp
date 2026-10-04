@@ -1,0 +1,90 @@
+{
+  "appId": "PUBID.simplyd|AID.saas-isvsd-bici|PAPPID.d1df92a6-19f3-4db7-a6e3-a060bf4be3f2",
+  "guid": "d1df92a6-19f3-4db7-a6e3-a060bf4be3f2",
+  "publisherId": "simplyd",
+  "offerId": "saas-isvsd-bici",
+  "source": {
+    "name": "SD BI Inventory Cockpit",
+    "publisher": "Simply Dynamics Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.saas-isvsd-bici%7CPAPPID.d1df92a6-19f3-4db7-a6e3-a060bf4be3f2",
+    "lastModified": "2026-09-23T14:40:58.9558893+00:00",
+    "appVersion": "5.1.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-bi-inventory-cockpit/",
+    "sourceHash": "sha256:9f2cc01344570ff41a964382d19ed4e4c37980aa0defe773216ede87854c2df4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9f2cc01344570ff41a964382d19ed4e4c37980aa0defe773216ede87854c2df4",
+    "mappedOn": null,
+    "summary": "Power BI inventory replenishment dashboards",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Alerts by item or SKU for critical stock, replenishment, overstock and short shelf life",
+      "Alerts when item sales drop by a defined % versus a prior period",
+      "KPIs for sales trends over past and forecast periods",
+      "Flag items as new or established",
+      "Stocking rules based on sales period cover",
+      "Ready-made Power BI dashboards via OData feeds"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "IE",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "NZ",
+      "PT",
+      "SE",
+      "TR",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

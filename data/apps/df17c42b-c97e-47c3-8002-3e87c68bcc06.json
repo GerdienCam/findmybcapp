@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.meo-adv-inv-connector-app|PAPPID.df17c42b-c97e-47c3-8002-3e87c68bcc06",
+  "guid": "df17c42b-c97e-47c3-8002-3e87c68bcc06",
+  "publisherId": "fenwicksoftware",
+  "offerId": "meo-adv-inv-connector-app",
+  "source": {
+    "name": "MEO for Advanced Inventory",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.meo-adv-inv-connector-app%7CPAPPID.df17c42b-c97e-47c3-8002-3e87c68bcc06",
+    "lastModified": "2026-08-16T23:57:31.6379251+00:00",
+    "appVersion": "27.0.260728.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/multiple-entity-operations/",
+    "sourceHash": "sha256:9b749de16e60e0c12d308feea6e78d9a1732f15e334f4063da250b5da72ac03b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9b749de16e60e0c12d308feea6e78d9a1732f15e334f4063da250b5da72ac03b",
+    "mappedOn": null,
+    "summary": "Connects Multiple Entity Operations with Advanced Inventory",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Entity dimension filter on Item Shipped/Received Not Invoiced reports"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Fenwick Multiple Entity Operations",
+      "Fenwick Advanced Inventory"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Connector app between two Fenwick apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

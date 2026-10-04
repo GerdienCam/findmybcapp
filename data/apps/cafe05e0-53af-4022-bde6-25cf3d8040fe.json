@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.bcsitera|AID.finance-pro|PAPPID.cafe05e0-53af-4022-bde6-25cf3d8040fe",
+  "guid": "cafe05e0-53af-4022-bde6-25cf3d8040fe",
+  "publisherId": "bcsitera",
+  "offerId": "finance-pro",
+  "source": {
+    "name": "Finance Pro",
+    "publisher": "BCS Itera",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcsitera%7CAID.finance-pro%7CPAPPID.cafe05e0-53af-4022-bde6-25cf3d8040fe",
+    "lastModified": "2026-02-12T06:48:53.675486+00:00",
+    "appVersion": "23.0.26041.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apps.itera.ee/apps/Finance-Pro/docs/en-US/help",
+    "sourceHash": "sha256:e92bffe679f4437b960fb8b02c5b0a183987b7f9515c6e1e8dd2e5a91f10e8ff"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e92bffe679f4437b960fb8b02c5b0a183987b7f9515c6e1e8dd2e5a91f10e8ff",
+    "mappedOn": null,
+    "summary": "Related dimensions, fixed asset and journal tools for finance users",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-search-navigation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-fa-register",
+      "ng-accruals-deferrals",
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Links dimension values to global dimensions as a dimension tree",
+      "Auto-fills related dimensions from a global dimension",
+      "Deferral entries carry descriptions from source lines",
+      "Customer and vendor balance at any date in list pages",
+      "Source name and balance account name on G/L entries",
+      "Book value, acquisition cost and depreciation fields on fixed asset list",
+      "Logic for Estonian fringe benefits on purchase documents"
+    ],
+    "countries": [
+      "EE"
+    ],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

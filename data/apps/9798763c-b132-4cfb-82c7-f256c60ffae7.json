@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.punjabbullstechnologypvtltd1657690588839|AID.gl_entry_application_same_as_customervendor|PAPPID.9798763c-b132-4cfb-82c7-f256c60ffae7",
+  "guid": "9798763c-b132-4cfb-82c7-f256c60ffae7",
+  "publisherId": "punjabbullstechnologypvtltd1657690588839",
+  "offerId": "gl_entry_application_same_as_customervendor",
+  "source": {
+    "name": "GL Entry Application Same as Customer/Vendor",
+    "publisher": "Punjabbulls Technology Pvt. Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.punjabbullstechnologypvtltd1657690588839%7CAID.gl_entry_application_same_as_customervendor%7CPAPPID.9798763c-b132-4cfb-82c7-f256c60ffae7",
+    "lastModified": "2026-01-06T07:30:22.1830939+00:00",
+    "appVersion": "7.30.2.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.punjabbulls.com/contact.html",
+    "sourceHash": "sha256:0f89254d227cb10dfc9ea510d6b0eeae8f48e02e58b0baed1370a8aff6eb9cf8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0f89254d227cb10dfc9ea510d6b0eeae8f48e02e58b0baed1370a8aff6eb9cf8",
+    "mappedOn": null,
+    "summary": "Applies G/L entries like customer and vendor ledger entries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Bill-to-bill application of G/L entries like customer/vendor ledgers",
+      "Security deposit accounts tracked bill-to-bill",
+      "Imprest/advance account clearing",
+      "Custom duty and statutory account settlement",
+      "Loan account repayment tracking bill-wise",
+      "Does not change standard posting behaviour",
+      "Works with journal-based postings"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

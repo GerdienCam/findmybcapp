@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.simteq1604560163290|AID.revinav|PAPPID.c39c1c0a-a856-4d9a-bb25-d7045c5dc6f8",
+  "guid": "c39c1c0a-a856-4d9a-bb25-d7045c5dc6f8",
+  "publisherId": "simteq1604560163290",
+  "offerId": "revinav",
+  "source": {
+    "name": "ReviNAV by SIMTEQ",
+    "publisher": "SIMTEQ A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simteq1604560163290%7CAID.revinav%7CPAPPID.c39c1c0a-a856-4d9a-bb25-d7045c5dc6f8",
+    "lastModified": "2026-10-01T06:55:42.8614591+00:00",
+    "appVersion": "28.0.78.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://2clickaccounting.support/",
+    "sourceHash": "sha256:7c68f43947566a6bab145c8f9e9e117478c8b788d494b67fd7ff7a8d52c0858b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7c68f43947566a6bab145c8f9e9e117478c8b788d494b67fd7ff7a8d52c0858b",
+    "mappedOn": null,
+    "summary": "OCR capture of purchase invoices and expenses with payments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-employee-expenses"
+    ],
+    "claims": [
+      "Embedded OCR document scanning service",
+      "Accounting robot automates postings",
+      "Bank integration with almost all Danish banks and some international banks",
+      "Daily automatic bank reconciliation",
+      "Expense management for travel receipts and cash purchases",
+      "Mobile apps for iOS and Android",
+      "External accountant/adviser can be given access"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "IE",
+      "IT",
+      "NL",
+      "NO",
+      "PT",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

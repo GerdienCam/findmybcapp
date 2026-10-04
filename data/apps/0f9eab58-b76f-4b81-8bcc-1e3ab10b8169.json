@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.kumavision|AID.healthcare365_global|PAPPID.0f9eab58-b76f-4b81-8bcc-1e3ab10b8169",
+  "guid": "0f9eab58-b76f-4b81-8bcc-1e3ab10b8169",
+  "publisherId": "kumavision",
+  "offerId": "healthcare365_global",
+  "source": {
+    "name": "KUMAVISION healthcare365 (global)",
+    "publisher": "KUMAVISION AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.healthcare365_global%7CPAPPID.0f9eab58-b76f-4b81-8bcc-1e3ab10b8169",
+    "lastModified": "2026-09-29T07:19:58.0253003+00:00",
+    "appVersion": "28.5.274.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.kumavision.de/med/",
+    "sourceHash": "sha256:5942a556e2f613b935161246ec8bfffe2fa034ba3566c5cd82132c59c7fd7d5b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5942a556e2f613b935161246ec8bfffe2fa034ba3566c5cd82132c59c7fd7d5b",
+    "mappedOn": null,
+    "summary": "ERP for healthcare providers",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-care-personal-services",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-life-sciences",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-customer-consignment",
+      "ng-svc-assets"
+    ],
+    "claims": [
+      "Handles patients and prescriptions; electronic billing is optional",
+      "Contract/process manager for process control",
+      "Manages flat-rate cases and prescriptions that run long term",
+      "Electronic billing per SGB V sections 300 and 302",
+      "Commission and consignment warehouses and branch logistics",
+      "Management of pool devices, flat-rate devices and the central warehouse",
+      "Device repair, maintenance and electronic device files",
+      "UDI/EUDAMED data records, label printing and upload",
+      "Audit-proof DMS",
+      "Co-payment checks integrated",
+      "Third-party integration via standard APIs",
+      "Tested country version for Germany"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "fr"
+    ],
+    "industries": [
+      "Homecare",
+      "Medical supply stores",
+      "Orthopedic technology",
+      "Rehabilitation technology"
+    ],
+    "connectsTo": [
+      "EUDAMED"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

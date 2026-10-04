@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.rebates-app|PAPPID.a49e7460-4c88-47dd-ac27-681fc1f5a3f2",
+  "guid": "a49e7460-4c88-47dd-ac27-681fc1f5a3f2",
+  "publisherId": "fenwicksoftware",
+  "offerId": "rebates-app",
+  "source": {
+    "name": "Rebates",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.rebates-app%7CPAPPID.a49e7460-4c88-47dd-ac27-681fc1f5a3f2",
+    "lastModified": "2026-09-13T23:42:10.0254206+00:00",
+    "appVersion": "26.0.260908.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/rebates/docs/",
+    "sourceHash": "sha256:cc136b317ca8729523d19826132725c24af14be0b1017587bd4252523c55314c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cc136b317ca8729523d19826132725c24af14be0b1017587bd4252523c55314c",
+    "mappedOn": null,
+    "summary": "Manages customer and item rebates",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Rebate setup from item and customer cards via Sales Rebates page",
+      "Rebate groups assigned to multiple customers and items",
+      "Controls posting and accrual accounts for rebates",
+      "Rebate posting groups reusable across rebates",
+      "Rebate value entries for posted sales documents, accessible via Navigate"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

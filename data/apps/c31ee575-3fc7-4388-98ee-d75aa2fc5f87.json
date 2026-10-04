@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.withholdingtax|PAPPID.c31ee575-3fc7-4388-98ee-d75aa2fc5f87",
+  "guid": "c31ee575-3fc7-4388-98ee-d75aa2fc5f87",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "withholdingtax",
+  "source": {
+    "name": "Withholding Tax",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.withholdingtax%7CPAPPID.c31ee575-3fc7-4388-98ee-d75aa2fc5f87",
+    "lastModified": "2026-06-05T14:11:54.2522713+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-set-up-withholding-tax",
+    "sourceHash": "sha256:be419bccf6ebdf582746edb1272bf9e67d50701bc0fbd1c99b31ad3bb5cdb96f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:be419bccf6ebdf582746edb1272bf9e67d50701bc0fbd1c99b31ad3bb5cdb96f",
+    "mappedOn": null,
+    "summary": "Calculates, posts and reports withholding tax",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Multiple withholding tax codes and rates",
+      "Thresholds, exemptions and effective dates",
+      "Applies WHT on purchase invoices, payments and journals",
+      "Automatic calculation during posting",
+      "WHT posting groups on vendors",
+      "Manages WHT certificates",
+      "Tracks withheld vs payable amounts separately",
+      "WHT reports for audit and statutory filing export"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

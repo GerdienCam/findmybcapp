@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.mercuriusit|AID.mitl_commitmentaccounting|PAPPID.85d05bb4-c21c-48b2-a5ee-572419a3e17e",
+  "guid": "85d05bb4-c21c-48b2-a5ee-572419a3e17e",
+  "publisherId": "mercuriusit",
+  "offerId": "mitl_commitmentaccounting",
+  "source": {
+    "name": "Commitment Accounting & Budget Control",
+    "publisher": "MERCURIUS IT LTD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mercuriusit%7CAID.mitl_commitmentaccounting%7CPAPPID.85d05bb4-c21c-48b2-a5ee-572419a3e17e",
+    "lastModified": "2026-09-22T11:34:05.0901756+00:00",
+    "appVersion": "28.0.0.3",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.mercuriusit.com/mercurius-ip/commitment-accounting-for-microsoft-dynamics-365-business-central/",
+    "sourceHash": "sha256:cffc31a5a885ecc6502a396dc37142262b692afebea8425bcd1d48c70ad2a986"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cffc31a5a885ecc6502a396dc37142262b692afebea8425bcd1d48c70ad2a986",
+    "mappedOn": null,
+    "summary": "Tracks committed and consumed budgets against approved purchase orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-budget-control",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-budget-vs-actual",
+      "ng-procurement-spend"
+    ],
+    "claims": [
+      "Reserves budget when approved PO is released",
+      "Budget availability check during approval",
+      "Allow or restrict purchases exceeding budget",
+      "Moves committed to consumed on invoice posting",
+      "Shows available budget on the purchase order",
+      "Reverses and recreates commitments on PO changes",
+      "Define, block and control annual G/L budgets",
+      "Commitment and consumption traceability"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcdealerboxportal-is|PAPPID.27deeecf-0786-44b5-90bc-d0c180a8b06e",
+  "guid": "27deeecf-0786-44b5-90bc-d0c180a8b06e",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcdealerboxportal-is",
+  "source": {
+    "name": "DealerBox Portal",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcdealerboxportal-is%7CPAPPID.27deeecf-0786-44b5-90bc-d0c180a8b06e",
+    "lastModified": "2026-09-23T17:00:05.172306+00:00",
+    "appVersion": "25.22.388.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:72f9fc0844e53a7d98d85b348c2ccb259d4f72d05d91acf1b97da47037195c7e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:72f9fc0844e53a7d98d85b348c2ccb259d4f72d05d91acf1b97da47037195c7e",
+    "mappedOn": null,
+    "summary": "Dealer portal for vehicle data, ordering and service history",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-equipment-dealers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns",
+      "ng-svc-parts"
+    ],
+    "claims": [
+      "Dealers view full vehicle profiles and options",
+      "Real-time vehicle reservations from stock lists",
+      "Configure and order vehicles and track fulfillment",
+      "Digital registration data",
+      "Service, recall and repair history per vehicle",
+      "Recall campaign damage cases",
+      "Structured warranty claim forms",
+      "Spare parts ordering with availability and pricing",
+      "Dealer-specific pricing calculated automatically",
+      "API configurator to share IMS data without code",
+      "Event-based notifications to internal teams"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Automotive"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "DealerBox IMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

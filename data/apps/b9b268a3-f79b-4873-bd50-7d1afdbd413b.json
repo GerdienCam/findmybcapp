@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.aia-dmd-connector-app|PAPPID.b9b268a3-f79b-4873-bd50-7d1afdbd413b",
+  "guid": "b9b268a3-f79b-4873-bd50-7d1afdbd413b",
+  "publisherId": "fenwicksoftware",
+  "offerId": "aia-dmd-connector-app",
+  "source": {
+    "name": "Advanced Item Availability for Disc Master Data",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.aia-dmd-connector-app%7CPAPPID.b9b268a3-f79b-4873-bd50-7d1afdbd413b",
+    "lastModified": "2026-04-07T04:24:28.9290349+00:00",
+    "appVersion": "26.0.260401.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/advanced-item-availability/docs",
+    "sourceHash": "sha256:5c87d854470e40e3863b3789045dd75b6e21bb25e3b24006c184f58a338f573c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5c87d854470e40e3863b3789045dd75b6e21bb25e3b24006c184f58a338f573c",
+    "mappedOn": null,
+    "summary": "Filters discontinued items out of Advanced Item Availability",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Filters discontinued items out of item availability pages"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Advanced Item Availability",
+      "Discontinued Master Data"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two Fenwick products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

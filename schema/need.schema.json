@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://findmybc.app/schema/need.schema.json",
+  "title": "Need file (data/needs/<id>.json)",
+  "description": "A business need a customer can be routed to, the statements routing matches against, and the questions that narrow the app list.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "order",
+    "label",
+    "description",
+    "type",
+    "area",
+    "relevance",
+    "statements",
+    "questions"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ng-[a-z0-9-]+$"
+    },
+    "order": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Display and build order."
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "bpc",
+        "vertical",
+        "usability",
+        "connector",
+        "localization",
+        "language"
+      ]
+    },
+    "area": {
+      "type": "string"
+    },
+    "relevance": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "statements": {
+      "description": "Plain-language ways a customer might describe this need. Routing matches the query against these.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "text",
+          "options"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "help": {
+            "type": "string"
+          },
+          "multi": {
+            "type": "boolean"
+          },
+          "coverage": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "number"
+            }
+          },
+          "options": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "label"
+              ],
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "patterns": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "JavaScript regexes, case-insensitive, matched against an app's claims."
+                },
+                "any": {
+                  "type": "boolean",
+                  "description": "The 'Not sure / doesn't matter' option."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "ignoredTopics": {
+      "description": "Claim topics judged not worth a question. Never raised again for this need.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "terms"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "terms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "on": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    }
+  }
+}

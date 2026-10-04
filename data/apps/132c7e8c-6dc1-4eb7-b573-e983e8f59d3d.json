@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.tinx-it|AID.tinx-customer-portal-for-magento|PAPPID.132c7e8c-6dc1-4eb7-b573-e983e8f59d3d",
+  "guid": "132c7e8c-6dc1-4eb7-b573-e983e8f59d3d",
+  "publisherId": "tinx-it",
+  "offerId": "tinx-customer-portal-for-magento",
+  "source": {
+    "name": "Tinx Customer Portal",
+    "publisher": "Tinx-IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-customer-portal-for-magento%7CPAPPID.132c7e8c-6dc1-4eb7-b573-e983e8f59d3d",
+    "lastModified": "2026-08-31T14:36:43.8768392+00:00",
+    "appVersion": "28.0.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.tinx-it.com/",
+    "sourceHash": "sha256:ee448757073a2ff50b3b9c970f0b41e1c823260da482e41166b7ecd7a982aa57"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ee448757073a2ff50b3b9c970f0b41e1c823260da482e41166b7ecd7a982aa57",
+    "mappedOn": null,
+    "summary": "Customer portal in webshops with BC data",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop"
+    ],
+    "claims": [
+      "Self-service portal in the webshop My Account section",
+      "Shows real-time BC data in the webshop",
+      "Exposes quotes, orders, invoices, shipments, credit memos and return receipts",
+      "Customers download PDF documents directly from BC",
+      "Configurable visible columns",
+      "Supports headless Magento",
+      "Quick reorder of previous orders",
+      "Fixed monthly fee from EUR 169"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Magento",
+      "Adobe Commerce",
+      "Shopware",
+      "WooCommerce"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

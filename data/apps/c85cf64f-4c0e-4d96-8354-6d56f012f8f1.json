@@ -1,0 +1,58 @@
+{
+  "appId": "TYPE.connect|PUBID.intelisenseit|AID.iitsharepointconnectbc|PAPPID.c85cf64f-4c0e-4d96-8354-6d56f012f8f1",
+  "guid": "c85cf64f-4c0e-4d96-8354-6d56f012f8f1",
+  "publisherId": "intelisenseit",
+  "offerId": "iitsharepointconnectbc",
+  "source": {
+    "name": "IIT Sharepoint Connect BC",
+    "publisher": "InteliSense IT Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.intelisenseit%7CAID.iitsharepointconnectbc%7CPAPPID.c85cf64f-4c0e-4d96-8354-6d56f012f8f1",
+    "lastModified": "2025-08-26T09:59:28.2143486+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://intelisenseit.com/contact-us",
+    "sourceHash": "sha256:6c1ed30d6af39b35e32f3f40b427edde6aea9adda24f10be1e74b962d70fc046"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6c1ed30d6af39b35e32f3f40b427edde6aea9adda24f10be1e74b962d70fc046",
+    "mappedOn": null,
+    "summary": "SharePoint document management",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Full-text and metadata search across SharePoint libraries and sites",
+      "Workflow-based document lifecycle from creation through review, approval and archiving",
+      "Change tracking, audit history and policy enforcement",
+      "Email templates for reuse, fired by workflow actions",
+      "Drag and drop upload",
+      "Parent-child document linking"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

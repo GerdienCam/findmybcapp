@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.gsgroupas1607944051271|AID.gsgroup_handyman_integration|PAPPID.924993a9-dcd2-4910-bb7b-c6e8245a4ae7",
+  "guid": "924993a9-dcd2-4910-bb7b-c6e8245a4ae7",
+  "publisherId": "gsgroupas1607944051271",
+  "offerId": "gsgroup_handyman_integration",
+  "source": {
+    "name": "Handyman Field-Service Management for Dynamics 365 Business Central",
+    "publisher": "GSGroup AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gsgroupas1607944051271%7CAID.gsgroup_handyman_integration%7CPAPPID.924993a9-dcd2-4910-bb7b-c6e8245a4ae7",
+    "lastModified": "2026-09-07T07:11:01.7459012+00:00",
+    "appVersion": "2.0.0.78",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.gsgroup.de/",
+    "sourceHash": "sha256:019928d196f50364568fdc74f976e16cdbc43a134d076617b8da6fb0bcbaeab4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:019928d196f50364568fdc74f976e16cdbc43a134d076617b8da6fb0bcbaeab4",
+    "mappedOn": null,
+    "summary": "Field service mobile app and dispatch board via Handyman",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-dispatch",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-close-invoice",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Compatible with projects, service orders or sales orders",
+      "Drag-and-drop scheduling of jobs for technicians in Resource Planner",
+      "Mobile time and expense recording",
+      "Records material consumption with or without stock",
+      "Mobile checklists, forms and protocols",
+      "Mobile photo documentation",
+      "Mobile signatures",
+      "Generates digital service report for the customer",
+      "Shows service history of service items on mobile",
+      "Validate and approve mobile entries in Handyman Office or BC",
+      "Mobile entries flow back to BC for posting and invoicing",
+      "Runs on Android, iOS and Windows smartphones, tablets and laptops",
+      "Handyman solution purchased separately",
+      "Mobile app available in many languages"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Handyman"
+    ],
+    "requires": [
+      "GSGroup Handyman"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

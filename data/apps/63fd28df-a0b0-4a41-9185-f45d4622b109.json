@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.it_integro|AID.bc_aca_001|PAPPID.63fd28df-a0b0-4a41-9185-f45d4622b109",
+  "guid": "63fd28df-a0b0-4a41-9185-f45d4622b109",
+  "publisherId": "it_integro",
+  "offerId": "bc_aca_001",
+  "source": {
+    "name": "Advanced Cost Allocations",
+    "publisher": "IT.integro sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.it_integro%7CAID.bc_aca_001%7CPAPPID.63fd28df-a0b0-4a41-9185-f45d4622b109",
+    "lastModified": "2026-09-30T12:52:31.1418408+00:00",
+    "appVersion": "4.1.0.28002",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.it.integro.pl/en-us/advanced-cost-allocations/index.html",
+    "sourceHash": "sha256:00ab3d2858cf13136b9a43a98b8aeba3c599544eb51cc8754505c9ec8d309832"
+  },
+  "mapping": {
+    "sourceHash": "sha256:00ab3d2858cf13136b9a43a98b8aeba3c599544eb51cc8754505c9ec8d309832",
+    "mappedOn": null,
+    "summary": "Allocates production costs and reclassifies variances",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Reclassifies and allocates production costs and variances",
+      "Parallel posting by cost type and business function/cost center",
+      "Defines allocation steps and sequences",
+      "Allocates costs to G/L accounts by defined or calculable allocation keys",
+      "Calculates actual cost of finished products including standard vs actual variances",
+      "Settles variances to open production orders or by adjusting finished product value",
+      "Custom posting and valuation rules without modifications"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

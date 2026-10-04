@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.aia-ps-connector-app|PAPPID.5278c955-b0ad-4676-93e1-45fedc3316b3",
+  "guid": "5278c955-b0ad-4676-93e1-45fedc3316b3",
+  "publisherId": "fenwicksoftware",
+  "offerId": "aia-ps-connector-app",
+  "source": {
+    "name": "Advanced Item Availability for Production Scheduler",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.aia-ps-connector-app%7CPAPPID.5278c955-b0ad-4676-93e1-45fedc3316b3",
+    "lastModified": "2026-04-09T07:08:05.6624152+00:00",
+    "appVersion": "26.0.260409.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/advanced-item-availability/docs/",
+    "sourceHash": "sha256:5ea82dc2f20445805aa25f0f1c14bc22d00c6855b7f9bbc12c393bb60dc109cb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ea82dc2f20445805aa25f0f1c14bc22d00c6855b7f9bbc12c393bb60dc109cb",
+    "mappedOn": null,
+    "summary": "Links Advanced Item Availability with Production Scheduler",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Item availability actions on component shortage and production scheduler pages"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Advanced Item Availability",
+      "Production Scheduler"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two Fenwick products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

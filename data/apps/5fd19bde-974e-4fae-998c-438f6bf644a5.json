@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.1583309078138|AID.dynamic_prod_cost_allocate|PAPPID.5fd19bde-974e-4fae-998c-438f6bf644a5",
+  "guid": "5fd19bde-974e-4fae-998c-438f6bf644a5",
+  "publisherId": "1583309078138",
+  "offerId": "dynamic_prod_cost_allocate",
+  "source": {
+    "name": "Dynamic Production Cost Allocation by Weihan Tech",
+    "publisher": "广州微翰计算机科技有限公司",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1583309078138%7CAID.dynamic_prod_cost_allocate%7CPAPPID.5fd19bde-974e-4fae-998c-438f6bf644a5",
+    "lastModified": "2025-03-13T17:38:44.9090226+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.weihansoft.com/contact-us/",
+    "sourceHash": "sha256:4d927e295ee51a256813a04ccc232f47513301ea92710576c61bc4c254b27432"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4d927e295ee51a256813a04ccc232f47513301ea92710576c61bc4c254b27432",
+    "mappedOn": null,
+    "summary": "Allocates actual overhead costs to production orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-cost-allocation"
+    ],
+    "claims": [
+      "Allocates actual overhead costs to production orders",
+      "Allocation bases are custom averages, fixed rates, production output or work center usage",
+      "Reconciles actual vs standard cost variances automatically",
+      "Tracks costs per item or production order, with drill-down",
+      "Works with standard BC production, inventory and financial modules"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

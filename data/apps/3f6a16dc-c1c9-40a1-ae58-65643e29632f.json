@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evps|PAPPID.3f6a16dc-c1c9-40a1-ae58-65643e29632f",
+  "guid": "3f6a16dc-c1c9-40a1-ae58-65643e29632f",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evps",
+  "source": {
+    "name": "EV Vista - Supply & Logistics",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evps%7CPAPPID.3f6a16dc-c1c9-40a1-ae58-65643e29632f",
+    "lastModified": "2026-09-03T06:03:31.8930746+00:00",
+    "appVersion": "10001.14.0.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support",
+    "sourceHash": "sha256:72998a0114f00ebe4466b772816d99a127b9a9cc3b0e64c577b687b01bc416a0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:72998a0114f00ebe4466b772816d99a127b9a9cc3b0e64c577b687b01bc416a0",
+    "mappedOn": null,
+    "summary": "Supply orders and item shipments from projects",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-materials-subcontract",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking",
+      "ng-proj-planning"
+    ],
+    "claims": [
+      "Creates purchase, production, transfer and assembly orders from projects",
+      "Auto consumption of inventory from supply orders on project",
+      "Shipment sales orders for shipping project items to customer",
+      "Supports warehouse shipments, picks, inventory picks and undo",
+      "Delivery and planning date control",
+      "Requires BC Premium edition"
+    ],
+    "countries": [
+      "CA",
+      "DE",
+      "DK",
+      "NL",
+      "NO",
+      "PL",
+      "SE",
+      "SG"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.n3visionab1614113437854|AID.multi-vat|PAPPID.0e18ee3b-8681-4f62-96b1-0f4aa54be3cc",
+  "guid": "0e18ee3b-8681-4f62-96b1-0f4aa54be3cc",
+  "publisherId": "n3visionab1614113437854",
+  "offerId": "multi-vat",
+  "source": {
+    "name": "Multi-VAT",
+    "publisher": "N3 Vision AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.n3visionab1614113437854%7CAID.multi-vat%7CPAPPID.0e18ee3b-8681-4f62-96b1-0f4aa54be3cc",
+    "lastModified": "2026-09-15T21:02:27.5231531+00:00",
+    "appVersion": "19.0.0.72",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.n3vis.com/",
+    "sourceHash": "sha256:e85c23efc4dc484163568c84cc2a86bf00d042dd3973252ea1d57782412acfce"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e85c23efc4dc484163568c84cc2a86bf00d042dd3973252ea1d57782412acfce",
+    "mappedOn": null,
+    "summary": "Reports VAT for multiple countries and currencies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-tax-reporting"
+    ],
+    "claims": [
+      "Reports VAT for multiple countries in multiple currencies from one legal entity",
+      "Supports EU OSS VAT reporting with a single VAT statement",
+      "Calculates transactions regardless of base and original currency"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CY",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "IE",
+      "IS",
+      "NO",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

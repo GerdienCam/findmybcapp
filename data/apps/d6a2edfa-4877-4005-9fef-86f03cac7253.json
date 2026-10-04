@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.boyumitas1653294915711|AID.boyumit_cloudapps_inspect_connector|PAPPID.d6a2edfa-4877-4005-9fef-86f03cac7253",
+  "guid": "d6a2edfa-4877-4005-9fef-86f03cac7253",
+  "publisherId": "boyumitas1653294915711",
+  "offerId": "boyumit_cloudapps_inspect_connector",
+  "source": {
+    "name": "INSPECT - Connector",
+    "publisher": "Boyum IT Solutions A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.boyumitas1653294915711%7CAID.boyumit_cloudapps_inspect_connector%7CPAPPID.d6a2edfa-4877-4005-9fef-86f03cac7253",
+    "lastModified": "2025-12-17T08:39:07.5693384+00:00",
+    "appVersion": "1.19.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.boyum-it.com/hc/en-us/sections/29000468109597-Netronic-Manufacturing-products-for-Microsoft-Dynamics-365-Business-Central",
+    "sourceHash": "sha256:ad1772180dccca1cef91ca1ab382fca95adc6c2f07814379b8d0c077621dc23c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ad1772180dccca1cef91ca1ab382fca95adc6c2f07814379b8d0c077621dc23c",
+    "mappedOn": null,
+    "summary": "Syncs data with Inspect quality inspection system",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-quality-analysis"
+    ],
+    "claims": [
+      "Syncs master and transaction data between BC and Inspect",
+      "Monitoring of quality-related transactions",
+      "Real-time data exchange between quality and operations",
+      "Quality data available for BC KPIs and reports"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Inspect"
+    ],
+    "requires": [
+      "Inspect - Quality inspection management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

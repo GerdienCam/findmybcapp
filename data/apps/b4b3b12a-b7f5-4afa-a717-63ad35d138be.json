@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.apcommerce|AID.installmentpaymentterms|PAPPID.b4b3b12a-b7f5-4afa-a717-63ad35d138be",
+  "guid": "b4b3b12a-b7f5-4afa-a717-63ad35d138be",
+  "publisherId": "apcommerce",
+  "offerId": "installmentpaymentterms",
+  "source": {
+    "name": "Installment Payment Terms",
+    "publisher": "AP Commerce",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apcommerce%7CAID.installmentpaymentterms%7CPAPPID.b4b3b12a-b7f5-4afa-a717-63ad35d138be",
+    "lastModified": "2026-09-17T21:02:59.5597322+00:00",
+    "appVersion": "1.1.15.0",
+    "pricingTypes": [
+      "Free",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.apcdynamics.com/business-central-add-ons/payment-terms/",
+    "sourceHash": "sha256:d0948aead2fab458b64c3185e6c12088b234830cefa24d1b36cf543d9c0c04a8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d0948aead2fab458b64c3185e6c12088b234830cefa24d1b36cf543d9c0c04a8",
+    "mappedOn": null,
+    "summary": "Splits invoices into installment payment schedules",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments",
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Divides the amount of an invoice into multiple scheduled payments, each with its own due date",
+      "Works for both A/R and A/P entries",
+      "Payment plans on custom terms: due dates, amounts and flexible intervals",
+      "Tracks status of each installment payment",
+      "Up to 5 free sandbox users"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

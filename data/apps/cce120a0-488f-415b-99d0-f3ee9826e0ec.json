@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.remittance_advice_for_document_capture|PAPPID.cce120a0-488f-415b-99d0-f3ee9826e0ec",
+  "guid": "cce120a0-488f-415b-99d0-f3ee9826e0ec",
+  "publisherId": "thetasystemslimited",
+  "offerId": "remittance_advice_for_document_capture",
+  "source": {
+    "name": "Remittance Advice for Document Capture",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.remittance_advice_for_document_capture%7CPAPPID.cce120a0-488f-415b-99d0-f3ee9826e0ec",
+    "lastModified": "2026-05-11T09:12:10.6005929+00:00",
+    "appVersion": "27.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/EIC/docs/Introduction",
+    "sourceHash": "sha256:b49bdbc49943054c848a0948b313f8429efa002d264497329a9d42944c6dd6f6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b49bdbc49943054c848a0948b313f8429efa002d264497329a9d42944c6dd6f6",
+    "mappedOn": null,
+    "summary": "Captures customer remittance advices for payment application",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Captures PDF remittance advices via Continia Document Capture",
+      "Transfers remittance lines to Excellent Importer customer remittance lines",
+      "Comes with an XML setup and a default document category",
+      "Guided setup notifications",
+      "Free per-tenant extension",
+      "Requires Excellent Importer and Continia Document Capture subscriptions"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "ja",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "sv",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia Document Capture",
+      "Excellent Importer"
+    ],
+    "requires": [
+      "Excellent Importer",
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.itstod|AID.cash-it|PAPPID.be5b1a82-43d2-4be6-8e11-d7d0ddd98052",
+  "guid": "be5b1a82-43d2-4be6-8e11-d7d0ddd98052",
+  "publisherId": "itstod",
+  "offerId": "cash-it",
+  "source": {
+    "name": "Cash IT",
+    "publisher": "IT-Stöd Skaraborg AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.itstod%7CAID.cash-it%7CPAPPID.be5b1a82-43d2-4be6-8e11-d7d0ddd98052",
+    "lastModified": "2026-09-02T11:26:46.1204291+00:00",
+    "appVersion": "1.7.5.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.cash-it.se/support/",
+    "sourceHash": "sha256:ccf24a6f37e142d8df2ddacae6c561b36716e2de4ac459436ff130ac3aaf5705"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ccf24a6f37e142d8df2ddacae6c561b36716e2de4ac459436ff130ac3aaf5705",
+    "mappedOn": null,
+    "summary": "Syncs Cash IT POS sales, prices and payments with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing",
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Real-time sync of sales, customers and pricing between Cash IT POS and BC",
+      "API v2.0 that creates or updates sales orders, quotes, invoices, credit memos and service orders",
+      "Customer-specific pricing logic",
+      "Maps Cash IT registers to responsibility centers and employees to salespersons",
+      "Maps payment methods to BC payment terms and G/L accounts",
+      "Creates customers from POS with templates for private and business customers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Cash IT"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.saglobal|AID.chorus_integration|PAPPID.343a4458-ccf3-43af-800a-ab2760b82f52",
+  "guid": "343a4458-ccf3-43af-800a-ab2760b82f52",
+  "publisherId": "saglobal",
+  "offerId": "chorus_integration",
+  "source": {
+    "name": "Chorus Integration",
+    "publisher": "saglobal",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.saglobal%7CAID.chorus_integration%7CPAPPID.343a4458-ccf3-43af-800a-ab2760b82f52",
+    "lastModified": "2026-05-19T07:28:17.7196348+00:00",
+    "appVersion": "28.0.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://saglobalsupport.microsoftcrmportals.com/",
+    "sourceHash": "sha256:cc8d6d1aba632f5362ccde89781651f6c7da9273947eb39295c461228a889113"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cc8d6d1aba632f5362ccde89781651f6c7da9273947eb39295c461228a889113",
+    "mappedOn": null,
+    "summary": "Integrates with French Chorus government e-invoicing portal",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Integrates BC with the French Chorus government site",
+      "Sends invoices and documents electronically (base64) from BC"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "languages": [],
+    "industries": [
+      "Government"
+    ],
+    "connectsTo": [
+      "Chorus Pro"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

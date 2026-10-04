@@ -1,0 +1,137 @@
+{
+  "id": "ng-admin-general-setup",
+  "order": 153,
+  "label": "Number series, search and system settings",
+  "description": "Number series control, search, surveys and other general BC system features.",
+  "type": "bpc",
+  "area": "Administration & IT",
+  "relevance": "medium",
+  "statements": [
+    "Number series, search and system settings",
+    "Number series control, search, surveys and other general BC system features.",
+    "Our number series ran out and nobody could post invoices",
+    "We need separate invoice numbers per company location and per year",
+    "There are gaps in our invoice numbers and the auditor is asking why",
+    "number series setup business central",
+    "Can BC warn us before a number series is about to run out?",
+    "We want item numbers to be generated automatically based on the item category",
+    "Customer numbers should follow a pattern like region plus a running number",
+    "Is there an app that suggests the next free number or lets us reuse unused ones?",
+    "Users keep picking the wrong number series when they create documents",
+    "After the migration from NAV our number series are all over the place",
+    "We need every new financial year to start a fresh invoice number range automatically",
+    "number series per user",
+    "Searching in BC is slow and doesn't find partial matches",
+    "Users can't find customers by phone number or email",
+    "global search business central",
+    "Our webshop search doesn't find products by the codes customers use",
+    "Is there an app that improves search across all BC tables?",
+    "We want to search items by any attribute, not just number and description"
+  ],
+  "questions": [
+    {
+      "id": "need",
+      "text": "What do you want to fix about number series?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Create next year's series automatically",
+          "patterns": [
+            "new (fiscal|calendar)? ?year",
+            "for (a chosen|the) (calendar|fiscal) year",
+            "year-based",
+            "fiscal year is created",
+            "two-digit year"
+          ]
+        },
+        {
+          "label": "Separate numbering per department, location or document type",
+          "patterns": [
+            "responsibility center",
+            "profiles?",
+            "own number series"
+          ]
+        },
+        {
+          "label": "Control external document numbers",
+          "patterns": [
+            "external document no"
+          ]
+        },
+        {
+          "label": "Set up a new company quickly",
+          "patterns": [
+            "initialis|initializ",
+            "setup data"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Create next year's series automatically": 0.5,
+        "Separate numbering per department, location or document type": 0.25,
+        "Control external document numbers": 0.12,
+        "Set up a new company quickly": 0.12
+      }
+    },
+    {
+      "id": "year_trigger",
+      "text": "Do your number series restart each year?",
+      "help": "For example INV-2026-0001.",
+      "options": [
+        {
+          "label": "Yes, following our fiscal year",
+          "patterns": [
+            "fiscal year"
+          ]
+        },
+        {
+          "label": "Yes, following the calendar year",
+          "patterns": [
+            "calendar year",
+            "two-digit year",
+            "reference year"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, following our fiscal year": 0.38,
+        "Yes, following the calendar year": 0.25
+      }
+    },
+    {
+      "id": "split",
+      "text": "Do different parts of the business need their own document numbers?",
+      "options": [
+        {
+          "label": "Yes, per responsibility center or location",
+          "patterns": [
+            "responsibility center"
+          ]
+        },
+        {
+          "label": "Yes, per document profile or business line",
+          "patterns": [
+            "profiles?",
+            "template has its own number series"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, per responsibility center or location": 0.12,
+        "Yes, per document profile or business line": 0.12
+      }
+    }
+  ]
+}

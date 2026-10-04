@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.gmsoftlimited1760036575353|AID.inventory-planning|PAPPID.16b338f4-22c0-4426-8d1b-946290d76d30",
+  "guid": "16b338f4-22c0-4426-8d1b-946290d76d30",
+  "publisherId": "gmsoftlimited1760036575353",
+  "offerId": "inventory-planning",
+  "source": {
+    "name": "Inventory Planning",
+    "publisher": "GMSOFT LIMITED",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gmsoftlimited1760036575353%7CAID.inventory-planning%7CPAPPID.16b338f4-22c0-4426-8d1b-946290d76d30",
+    "lastModified": "2026-08-14T09:16:33.1838126+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://gmsoftdynamics.com/apps/inventory-planning/docs",
+    "sourceHash": "sha256:b0874176d56aa1c5b6219e54524569b8bfa1fe69a8dca63237fc348426701526"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b0874176d56aa1c5b6219e54524569b8bfa1fe69a8dca63237fc348426701526",
+    "mappedOn": null,
+    "summary": "Calculates safety stock, reorder point and EOQ from demand",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-demand-forecast",
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Calculates safety stock at chosen service level",
+      "Calculates reorder point",
+      "Economic order quantity via Wilson formula respecting order modifiers",
+      "Calculates maximum inventory for Maximum Qty. items",
+      "Recommends reordering policy via Syntetos-Boylan classification",
+      "Writes results to standard item fields used by MRP and requisition worksheets",
+      "Planning worksheet comparing current vs proposed values",
+      "Logs every calculation with its statistics",
+      "Warns when demand diverges or is too intermittent",
+      "Can supply fresh values during a planning run",
+      "Run per item, in bulk, from worksheet or nightly job queue",
+      "Free and open source under MIT license"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.dkcore|PAPPID.40d64215-8abc-4d96-87dc-2894e5431115",
+  "guid": "40d64215-8abc-4d96-87dc-2894e5431115",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "dkcore",
+  "source": {
+    "name": "DK Core",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.dkcore%7CPAPPID.40d64215-8abc-4d96-87dc-2894e5431115",
+    "lastModified": "2024-11-19T19:02:32.1318969+00:00",
+    "appVersion": "19.0.29894.29991",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.microsoft.com/en-us/dynamics365/business-central/localfunctionality/denmark/denmark-local-functionality",
+    "sourceHash": "sha256:1b87d8b780c05e4ffc6947e4f11e6050d16347e509d6c47d833d9db4457eda1d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1b87d8b780c05e4ffc6947e4f11e6050d16347e509d6c47d833d9db4457eda1d",
+    "mappedOn": null,
+    "summary": "Core Danish local functionality",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-fa-depreciation",
+      "ng-collections"
+    ],
+    "claims": [
+      "Core Danish localization and foundation for other Danish extensions",
+      "EORI number on vendors",
+      "Imports payroll transactions from General Ledger Setup",
+      "Local versions of finance charge memo, reminder and statement reports",
+      "Fixed asset functions: cancel FA entries, copy depreciation book, index",
+      "Free"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

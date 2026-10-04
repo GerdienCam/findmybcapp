@@ -1,0 +1,70 @@
+{
+  "appId": "TYPE.connect|PUBID.invoiced|AID.invoiced|PAPPID.2df4a8b7-22a8-4785-9095-3cdf6e95f288",
+  "guid": "2df4a8b7-22a8-4785-9095-3cdf6e95f288",
+  "publisherId": "invoiced",
+  "offerId": "invoiced",
+  "source": {
+    "name": "Invoiced by Flywire — A/R Automation for Microsoft Dynamics",
+    "publisher": "Invoiced, Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.invoiced%7CAID.invoiced%7CPAPPID.2df4a8b7-22a8-4785-9095-3cdf6e95f288",
+    "lastModified": "2026-04-20T06:21:44.172811+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.invoiced.com/accounts-receivable/integrations",
+    "sourceHash": "sha256:fca91f38143c45bfe701fb16224c7a64eb8187cc268253538e48875be018ab48"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fca91f38143c45bfe701fb16224c7a64eb8187cc268253538e48875be018ab48",
+    "mappedOn": null,
+    "summary": "Accounts receivable automation for invoicing and collections",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-payment-providers",
+      "ng-admin-portals",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Invoices sync automatically across entities",
+      "Automated reminders and dunning on schedule",
+      "Branded customer self-service payment portal with ACH, card and 1,200+ payment options",
+      "Real-time posting of payments back to Dynamics, with matching and reconciliation done",
+      "A/R dashboard with aging, DSO and collection efficiency across entities",
+      "Multi-entity A/R management",
+      "Invoices in 140+ currencies with local-currency billing",
+      "Locked or real-time exchange rates",
+      "AI cash application with exceptions surfaced for review",
+      "Built-in AML and KYC compliance",
+      "Integration Studio connects CRM, project tools and BI with drag-and-drop",
+      "Compatible with GP, Finance and Business Central"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Invoiced",
+      "Flywire"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

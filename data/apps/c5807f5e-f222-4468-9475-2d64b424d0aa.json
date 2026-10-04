@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evfintercompany|PAPPID.c5807f5e-f222-4468-9475-2d64b424d0aa",
+  "guid": "c5807f5e-f222-4468-9475-2d64b424d0aa",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evfintercompany",
+  "source": {
+    "name": "EV Intercompany",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evfintercompany%7CPAPPID.c5807f5e-f222-4468-9475-2d64b424d0aa",
+    "lastModified": "2026-05-07T05:24:58.7229538+00:00",
+    "appVersion": "10000.6.194801.2400",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
+    "sourceHash": "sha256:bd0d0237db70c19c70134ce95fdc8aa700627ff054ccb7bd522b19bcb646dd95"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bd0d0237db70c19c70134ce95fdc8aa700627ff054ccb7bd522b19bcb646dd95",
+    "mappedOn": null,
+    "summary": "Handles intercompany transactions across companies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-master-data-sync",
+      "ng-vert-fashion"
+    ],
+    "claims": [
+      "Maintain item master data in one company",
+      "Balance customer ledger entries and transfer them electronically to IC company",
+      "Automatically records customer transactions between IC companies",
+      "IC price list for pricing between companies"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "IT",
+      "NL",
+      "NO",
+      "PH",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Fashion"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

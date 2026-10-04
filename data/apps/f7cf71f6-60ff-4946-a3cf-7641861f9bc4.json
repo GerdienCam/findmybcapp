@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.smart-businessllc2412077-2412077|AID.smart_localization_for_poland|PAPPID.f7cf71f6-60ff-4946-a3cf-7641861f9bc4",
+  "guid": "f7cf71f6-60ff-4946-a3cf-7641861f9bc4",
+  "publisherId": "smart-businessllc2412077-2412077",
+  "offerId": "smart_localization_for_poland",
+  "source": {
+    "name": "SMART Core Localization for Poland",
+    "publisher": "SMART business LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_localization_for_poland%7CPAPPID.f7cf71f6-60ff-4946-a3cf-7641861f9bc4",
+    "lastModified": "2026-09-08T15:16:15.0588345+00:00",
+    "appVersion": "1.10.153069.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.smart-it.com/en/",
+    "sourceHash": "sha256:ceb1e321639167fcba3d41912310cb56545f90cd67676d6cc02f292210b28b89"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ceb1e321639167fcba3d41912310cb56545f90cd67676d6cc02f292210b28b89",
+    "mappedOn": null,
+    "summary": "Polish accounting and tax localization",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-currency",
+      "ng-ap-payments",
+      "ng-sales-invoicing",
+      "ng-fa-register"
+    ],
+    "claims": [
+      "Polish chart of accounts",
+      "NBP exchange rate import using previous working date",
+      "Bank file export/import for popular Polish banks",
+      "Polish cash accounting reports and forms",
+      "Prepayment, final and correction invoices",
+      "PKWiU and GTU classification on invoices",
+      "Split payment for sales and purchases",
+      "VAT register and declaration export to tax authorities",
+      "Advance payments in foreign currency and zloty",
+      "Contract management",
+      "FA release, movement, write-off and physical inventory",
+      "G/L turnovers and inventory turnover reports"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Narodowy Bank Polski",
+      "Polish banks"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

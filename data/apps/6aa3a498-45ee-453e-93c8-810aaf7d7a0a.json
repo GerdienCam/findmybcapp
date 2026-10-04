@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visonsecurityforpm|PAPPID.6aa3a498-45ee-453e-93c8-810aaf7d7a0a",
+  "guid": "6aa3a498-45ee-453e-93c8-810aaf7d7a0a",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visonsecurityforpm",
+  "source": {
+    "name": "VisionSecurity for Payment Management",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visonsecurityforpm%7CPAPPID.6aa3a498-45ee-453e-93c8-810aaf7d7a0a",
+    "lastModified": "2026-04-29T13:52:42.1804652+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.visionpeople.dk/loesninger/tillaegsloesninger-og-nav-addons/visionsecurity",
+    "sourceHash": "sha256:83fb80689d127e0682a58ed37968f809fef09d8b9904cf896c88f340a8c553a6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:83fb80689d127e0682a58ed37968f809fef09d8b9904cf896c88f340a8c553a6",
+    "mappedOn": null,
+    "summary": "Blocks payments until approved in Continia Payment Management",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Stops payments in Continia Payment Management until approval completed"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Continia Payment Management"
+    ],
+    "requires": [
+      "VisionSecurity",
+      "Continia Payment Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

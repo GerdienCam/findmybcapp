@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.experlogix|AID.experlogix-cpq-dealer-portal-for-business-central|PAPPID.ecf88ade-12f2-4d4d-ba59-35d236b0bd87",
+  "guid": "ecf88ade-12f2-4d4d-ba59-35d236b0bd87",
+  "publisherId": "experlogix",
+  "offerId": "experlogix-cpq-dealer-portal-for-business-central",
+  "source": {
+    "name": "Experlogix DC CPQ Portal for D365 Business Central",
+    "publisher": "Experlogix",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.experlogix%7CAID.experlogix-cpq-dealer-portal-for-business-central%7CPAPPID.ecf88ade-12f2-4d4d-ba59-35d236b0bd87",
+    "lastModified": "2026-07-20T14:46:54.0588902+00:00",
+    "appVersion": "26.7.7.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://experlogix.com/integrations/microsoft-dynamics-365-business-central",
+    "sourceHash": "sha256:856687e34b9380498cff0a999d937687e35e00fd50536c852558447a0880db7c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:856687e34b9380498cff0a999d937687e35e00fd50536c852558447a0880db7c",
+    "mappedOn": null,
+    "summary": "Self-service CPQ quoting portal for complex products",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Web portal for self-service quoting of complex products",
+      "Prospects, customers, manufacturers and dealers configure custom products and services",
+      "Automates moving from an online web quote to a product configuration, for manufacturers and dealers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Experlogix Digital Commerce"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

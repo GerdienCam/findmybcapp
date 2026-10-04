@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ecb_historical_exchange_rates|PAPPID.5ef3dff7-0eaf-4884-987c-e5c5956df75b",
+  "guid": "5ef3dff7-0eaf-4884-987c-e5c5956df75b",
+  "publisherId": "eos_solutions",
+  "offerId": "ecb_historical_exchange_rates",
+  "source": {
+    "name": "Historical ECB Exchange Rates",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ecb_historical_exchange_rates%7CPAPPID.5ef3dff7-0eaf-4884-987c-e5c5956df75b",
+    "lastModified": "2026-07-22T22:59:36.7323327+00:00",
+    "appVersion": "28.0.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/historical-ecb-exchange-rates.html",
+    "sourceHash": "sha256:e4447c03b541774525da6a5a5b1a00acadb43025848db7159d3e35c6c0acd363"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e4447c03b541774525da6a5a5b1a00acadb43025848db7159d3e35c6c0acd363",
+    "mappedOn": null,
+    "summary": "Downloads historical ECB exchange rates",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Downloads historical ECB exchange rates back to 1999-01-04",
+      "Load rates for specific dates or from a defined start date",
+      "Overwrites existing rates with official ECB data",
+      "Connects to 3 ECB web services: latest, past 90 days, full history",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "European Central Bank"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

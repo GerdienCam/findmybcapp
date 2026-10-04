@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.team-vision-bulgaria|AID.tv_bgx|PAPPID.b024fff5-6ba7-4366-98a1-926485456353",
+  "guid": "b024fff5-6ba7-4366-98a1-926485456353",
+  "publisherId": "team-vision-bulgaria",
+  "offerId": "tv_bgx",
+  "source": {
+    "name": "Bulgarian Localization Extended",
+    "publisher": "Team VISION - BULGARIA Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.team-vision-bulgaria%7CAID.tv_bgx%7CPAPPID.b024fff5-6ba7-4366-98a1-926485456353",
+    "lastModified": "2026-09-24T11:52:35.0683066+00:00",
+    "appVersion": "28.0.2609.01",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://team-vision.bg/en/support/",
+    "sourceHash": "sha256:55ca9283eea2adbdb3c0282dddd7e6dfa03a3ca306c10ed0840d1dee35594f51"
+  },
+  "mapping": {
+    "sourceHash": "sha256:55ca9283eea2adbdb3c0282dddd7e6dfa03a3ca306c10ed0840d1dee35594f51",
+    "mappedOn": null,
+    "summary": "Extended Bulgarian accounting localization",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals",
+      "ng-fa-depreciation",
+      "ng-admin-permissions",
+      "ng-ux-correct-posted"
+    ],
+    "claims": [
+      "A balance account in G/L is required on all G/L entries",
+      "General accounting ledger and account chronological journal reports",
+      "Trial run before posting exchange rate adjustments",
+      "Void posted sales and purchase documents on a voiding date",
+      "Accruals of income and expenses",
+      "Print cash receipt and cash payment orders",
+      "Prompts for a default dimension on journals and documents",
+      "Company and tax depreciation plans for fixed assets",
+      "User permissions per location for shipping, receiving, invoicing",
+      "User permissions per bank account",
+      "Requires Bulgarian Localization Basic"
+    ],
+    "countries": [
+      "BG"
+    ],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Bulgarian Localization Basic"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

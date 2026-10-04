@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcalbanianfiscloclscentral2-is|PAPPID.3fc6f516-7505-464a-ae69-fed26be917c5",
+  "guid": "3fc6f516-7505-464a-ae69-fed26be917c5",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcalbanianfiscloclscentral2-is",
+  "source": {
+    "name": "Albanian Localization and Fiscalization for LS Central",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcalbanianfiscloclscentral2-is%7CPAPPID.3fc6f516-7505-464a-ae69-fed26be917c5",
+    "lastModified": "2025-05-21T10:50:14.5119381+00:00",
+    "appVersion": "25.1.10.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:18ed54c36135ad3f93d7b3f55b738b3def9cc50dadf7b14c50ca72974284a5bc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:18ed54c36135ad3f93d7b3f55b738b3def9cc50dadf7b14c50ca72974284a5bc",
+    "mappedOn": null,
+    "summary": "Albanian fiscalization integration for LS Central",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Fiscalizes LS Central POS transactions with Albanian tax authority",
+      "No physical fiscal devices needed",
+      "Fiscalizes cash and non-cash invoices and corrections",
+      "Resending of non-fiscalized requests",
+      "POS button and page for non-fiscalized transactions",
+      "Fiscalization log"
+    ],
+    "countries": [
+      "AL"
+    ],
+    "languages": [
+      "en",
+      "sq"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "LS Central",
+      "Albanian Fiscalization SelfCare Platform"
+    ],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

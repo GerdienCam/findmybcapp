@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.bi4dynamics|AID.bi4dynamics_businesscentral_connector|PAPPID.499a4759-7727-47ef-a18f-18c884474dc9",
+  "guid": "499a4759-7727-47ef-a18f-18c884474dc9",
+  "publisherId": "bi4dynamics",
+  "offerId": "bi4dynamics_businesscentral_connector",
+  "source": {
+    "name": "BI4Dynamics Connector for Business Central",
+    "publisher": "BI4Dynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bi4dynamics%7CAID.bi4dynamics_businesscentral_connector%7CPAPPID.499a4759-7727-47ef-a18f-18c884474dc9",
+    "lastModified": "2024-11-22T00:31:58.71229+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bi4dynamics.com/support-app-bc-connector/",
+    "sourceHash": "sha256:2f0548d21b53be500557ece0839bc7c83d4b479e49efc5a1eb32b54ef5981f19"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2f0548d21b53be500557ece0839bc7c83d4b479e49efc5a1eb32b54ef5981f19",
+    "mappedOn": null,
+    "summary": "Connects BC data to BI4Dynamics BI",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exposes 150 predefined BC table pages as web services",
+      "Prerequisite for BI4Dynamics data warehouse and Power BI apps",
+      "Data warehouse option exports BC tables as CSV into Azure Data Lake",
+      "Creates a data warehouse and tabular semantic layer",
+      "Power BI apps per business area (sales, receivables, payables, inventory)"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "BI4Dynamics",
+      "Power BI",
+      "Azure Data Lake"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

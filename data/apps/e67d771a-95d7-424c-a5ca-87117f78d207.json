@@ -1,0 +1,81 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.production-sequencing|PAPPID.e67d771a-95d7-424c-a5ca-87117f78d207",
+  "guid": "e67d771a-95d7-424c-a5ca-87117f78d207",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "production-sequencing",
+  "source": {
+    "name": "Production Sequencing",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.production-sequencing%7CPAPPID.e67d771a-95d7-424c-a5ca-87117f78d207",
+    "lastModified": "2026-01-20T08:08:01.5565421+00:00",
+    "appVersion": "27.2.17110.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.nicsystemslearning.com/help/production-sequencing",
+    "sourceHash": "sha256:0b201e3f55d003a80052eafe63ce680e95f292c7b07f3a621b7e7896e4b096a5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0b201e3f55d003a80052eafe63ce680e95f292c7b07f3a621b7e7896e4b096a5",
+    "mappedOn": null,
+    "summary": "Sequences production orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Sequence codes assigned to items to group manufacturing",
+      "Arrange routings from work/machine center task list by order no., start date or sequence code",
+      "Set start date/time of first routing and subsequent routings are rescheduled",
+      "Adjust sequence manually or rerun calculation before applying"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

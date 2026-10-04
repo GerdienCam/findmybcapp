@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.dmd-grc-connector-app|PAPPID.d493de79-2ec2-4cb8-a99b-48563cabc888",
+  "guid": "d493de79-2ec2-4cb8-a99b-48563cabc888",
+  "publisherId": "fenwicksoftware",
+  "offerId": "dmd-grc-connector-app",
+  "source": {
+    "name": "Disc. Master Data for Better Role Centers",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.dmd-grc-connector-app%7CPAPPID.d493de79-2ec2-4cb8-a99b-48563cabc888",
+    "lastModified": "2026-03-24T05:43:48.5054263+00:00",
+    "appVersion": "26.0.260306.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/better-role-centers/docs",
+    "sourceHash": "sha256:a4f760099e5926dd496a5f153c5f510bc6c3eeda195ef77a314449e5cc07999f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a4f760099e5926dd496a5f153c5f510bc6c3eeda195ef77a314449e5cc07999f",
+    "mappedOn": null,
+    "summary": "Bridges Discontinued Master Data and Better Role Centers",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-rolecenters",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Filters discontinued customers/vendors out of blocked cues on role centers"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Fenwick Discontinued Master Data",
+      "Fenwick Better Role Centers"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Connector app between two Fenwick apps",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

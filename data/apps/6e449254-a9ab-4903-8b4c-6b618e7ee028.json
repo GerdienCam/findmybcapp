@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.nm|AID.agrioconnections|PAPPID.6e449254-a9ab-4903-8b4c-6b618e7ee028",
+  "guid": "6e449254-a9ab-4903-8b4c-6b618e7ee028",
+  "publisherId": "nm",
+  "offerId": "agrioconnections",
+  "source": {
+    "name": "Agrio Connections",
+    "publisher": "NEWMINDS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nm%7CAID.agrioconnections%7CPAPPID.6e449254-a9ab-4903-8b4c-6b618e7ee028",
+    "lastModified": "2026-09-14T06:46:51.5350401+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://learn.agrio.software/",
+    "sourceHash": "sha256:96447d0251609c857493d28a8afa19f0282a9f89328d22cad5196377385a2c29"
+  },
+  "mapping": {
+    "sourceHash": "sha256:96447d0251609c857493d28a8afa19f0282a9f89328d22cad5196377385a2c29",
+    "mappedOn": null,
+    "summary": "Imports and exports data with external systems via REST, SQL and files",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-fresh-produce-horticulture"
+    ],
+    "claims": [
+      "Connects to SCADA, SAP, RMA, weighing scales and bridges, REST interfaces",
+      "Sends files to a local fileserver and retrieves them from it",
+      "Change log detects BC data changes and triggers export",
+      "Monitors remote SQL Server, MySQL and file systems and imports data into BC"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SCADA",
+      "SAP",
+      "SQL Server",
+      "MySQL",
+      "REST"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

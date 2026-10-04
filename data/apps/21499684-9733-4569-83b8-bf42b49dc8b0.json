@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.foodware365|AID.backorders|PAPPID.21499684-9733-4569-83b8-bf42b49dc8b0",
+  "guid": "21499684-9733-4569-83b8-bf42b49dc8b0",
+  "publisherId": "foodware365",
+  "offerId": "backorders",
+  "source": {
+    "name": "Aptean Backorder Management for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.backorders%7CPAPPID.21499684-9733-4569-83b8-bf42b49dc8b0",
+    "lastModified": "2026-09-29T11:43:33.1690539+00:00",
+    "appVersion": "2602.1.344916.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/BOR/",
+    "sourceHash": "sha256:5e1935889b52c6441cf11958a2eb44ca1b392628c889cbebef4bf84053ab4232"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5e1935889b52c6441cf11958a2eb44ca1b392628c889cbebef4bf84053ab4232",
+    "mappedOn": null,
+    "summary": "Backorder management for food and beverage orders",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-order-allocation"
+    ],
+    "claims": [
+      "Review unshipped sales order lines and expected availability dates",
+      "Move backorder lines to a new or existing future sales order",
+      "Choose whether backorder prices follow original order or are updated",
+      "Backorder lines traceable to originating sales order"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

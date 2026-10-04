@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.alpha_solutions_ag|AID.aser|PAPPID.a878e400-63c4-4316-a1ff-5c52c03b100d",
+  "guid": "a878e400-63c4-4316-a1ff-5c52c03b100d",
+  "publisherId": "alpha_solutions_ag",
+  "offerId": "aser",
+  "source": {
+    "name": "Aproda Interface for Perk Spend Management (ASER)",
+    "publisher": "Aproda AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alpha_solutions_ag%7CAID.aser%7CPAPPID.a878e400-63c4-4316-a1ff-5c52c03b100d",
+    "lastModified": "2026-01-20T03:52:47.3270382+00:00",
+    "appVersion": "21.0.0.72",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aproda.ch/aproda-interface-yokoy",
+    "sourceHash": "sha256:8521cb9c05fb3977377971cbeb9e2656f62588efc41d8730af786f16d667fc9e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8521cb9c05fb3977377971cbeb9e2656f62588efc41d8730af786f16d667fc9e",
+    "mappedOn": null,
+    "summary": "Imports invoices and expenses from Perk spend management",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "API web service connection between BC and Perk Spend Management",
+      "Exports employees, vendors and cost objects from BC to Perk",
+      "Imports expense entries via an API into the G/L journal",
+      "Takes over VAT posting groups from Perk on bookings",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Perk Spend Management"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

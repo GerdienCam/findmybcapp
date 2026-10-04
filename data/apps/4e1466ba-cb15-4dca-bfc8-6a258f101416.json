@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.erpwareltd|AID.dcx-process-manufacturing|PAPPID.4e1466ba-cb15-4dca-bfc8-6a258f101416",
+  "guid": "4e1466ba-cb15-4dca-bfc8-6a258f101416",
+  "publisherId": "erpwareltd",
+  "offerId": "dcx-process-manufacturing",
+  "source": {
+    "name": "DCX - Process Suite",
+    "publisher": "ERP Ware",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpwareltd%7CAID.dcx-process-manufacturing%7CPAPPID.4e1466ba-cb15-4dca-bfc8-6a258f101416",
+    "lastModified": "2026-08-04T12:32:54.5683657+00:00",
+    "appVersion": "28.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamics-connect.co.uk/apps/dcx-process-suite/",
+    "sourceHash": "sha256:27a5edbb6865015bf334755990888065a9db38dd45e76a94096d4f5dfadcc22e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:27a5edbb6865015bf334755990888065a9db38dd45e76a94096d4f5dfadcc22e",
+    "mappedOn": null,
+    "summary": "Process manufacturing with recipes, formulas and batch production",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-quality-inspection",
+      "ng-product-compliance"
+    ],
+    "claims": [
+      "Recipe management with versions, families, process steps and co-products",
+      "Recipe approval workflows",
+      "Converts recipes into batch production orders",
+      "Controlled ingredient substitutions",
+      "Quality tests recorded against items and production batches",
+      "Item allergen tracking",
+      "Process Role Center with live cues",
+      "Availability matrix buffered for production",
+      "May require BC Premium for full manufacturing"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Chemicals",
+      "Cosmetics",
+      "Food_beverage",
+      "Pharma"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

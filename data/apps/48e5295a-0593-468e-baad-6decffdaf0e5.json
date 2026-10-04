@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.idexalimited1671118537548|AID.idexalimited-pspreconciliation-bconprem-dec23|PAPPID.48e5295a-0593-468e-baad-6decffdaf0e5",
+  "guid": "48e5295a-0593-468e-baad-6decffdaf0e5",
+  "publisherId": "idexalimited1671118537548",
+  "offerId": "idexalimited-pspreconciliation-bconprem-dec23",
+  "source": {
+    "name": "Payment Provider Reconciliation",
+    "publisher": "Idexa Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idexalimited1671118537548%7CAID.idexalimited-pspreconciliation-bconprem-dec23%7CPAPPID.48e5295a-0593-468e-baad-6decffdaf0e5",
+    "lastModified": "2026-04-06T04:09:10.7750199+00:00",
+    "appVersion": "1.0.16.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.idexa.eu/",
+    "sourceHash": "sha256:613240cd2da78655929ccc60d13ad7db4520053683f8c30759003845c7d2a726"
+  },
+  "mapping": {
+    "sourceHash": "sha256:613240cd2da78655929ccc60d13ad7db4520053683f8c30759003845c7d2a726",
+    "mappedOn": null,
+    "summary": "Reconciles payment provider transactions for iGaming",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Reconciles PSP transactions against the iGaming platform",
+      "Controls payment provider fee differences",
+      "Data import templates handling duplicates, merging and skipping",
+      "Handles multiple merchant processing currencies",
+      "Imports and reconciles on a schedule or when requested",
+      "Differences workflow for manual reconciliation with reasons",
+      "Role center KPIs",
+      "Reporting via Power BI or Power Queries"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Gaming",
+      "IGaming"
+    ],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

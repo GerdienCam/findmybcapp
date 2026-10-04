@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.waitinglist|PAPPID.c1f0e8b2-3a1e-4f2d-9a6b-8c7d9e0f1a2b",
+  "guid": "c1f0e8b2-3a1e-4f2d-9a6b-8c7d9e0f1a2b",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "waitinglist",
+  "source": {
+    "name": "Waiting List",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.waitinglist%7CPAPPID.c1f0e8b2-3a1e-4f2d-9a6b-8c7d9e0f1a2b",
+    "lastModified": "2026-05-25T06:36:51.8172942+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/Waiting-List",
+    "sourceHash": "sha256:5dd5c4c1bf6898122b8739c781988ee20d5c14c30f9316ed0581a05ba2972c3a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5dd5c4c1bf6898122b8739c781988ee20d5c14c30f9316ed0581a05ba2972c3a",
+    "mappedOn": null,
+    "summary": "Manages waiting requests from contacts, customers and vendors",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Define one or multiple waiting reasons",
+      "First-served ordering or manual position",
+      "Tracks waiting list entries per contact, customer or vendor",
+      "Shows waiting list positions on contact/customer/vendor cards and lists"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Generic waiting list for contacts/customers/vendors; no dedicated need group"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

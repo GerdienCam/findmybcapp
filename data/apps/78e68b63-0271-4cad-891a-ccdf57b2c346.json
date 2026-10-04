@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.posoneas1663056030259|AID.pos365-bc-integration|PAPPID.78e68b63-0271-4cad-891a-ccdf57b2c346",
+  "guid": "78e68b63-0271-4cad-891a-ccdf57b2c346",
+  "publisherId": "posoneas1663056030259",
+  "offerId": "pos365-bc-integration",
+  "source": {
+    "name": "POS ONE - POS365 BC Integration",
+    "publisher": "POS-ONE A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.posoneas1663056030259%7CAID.pos365-bc-integration%7CPAPPID.78e68b63-0271-4cad-891a-ccdf57b2c346",
+    "lastModified": "2026-09-25T17:55:37.2575189+00:00",
+    "appVersion": "1.10.2.10",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://posone365.com/",
+    "sourceHash": "sha256:2469cdd41f8c11cf11d8037c46630e012f240beebcefd098ef6ccbfc5ccec38d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2469cdd41f8c11cf11d8037c46630e012f240beebcefd098ef6ccbfc5ccec38d",
+    "mappedOn": null,
+    "summary": "Integrates POS365 point of sale with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail",
+      "ng-conn-webshop"
+    ],
+    "claims": [
+      "Posts POS sales transactions to BC",
+      "Syncs inventory, payments, sales and master data almost in real time",
+      "Supports Shopify, click & collect and in-store pickup",
+      "Unlimited registers with central management",
+      "Runs under the BC Device License",
+      "Processes transactions fully offline and syncs automatically",
+      "SaaS pricing"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "POS365",
+      "Shopify"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

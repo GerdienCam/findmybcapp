@@ -1,0 +1,255 @@
+{
+  "id": "ng-ux-attachments",
+  "order": 176,
+  "label": "Attaching, viewing and scanning files on records",
+  "description": "Drag-and-drop attachments onto any record, previewing PDFs and images without download, merging or splitting PDFs, scanning paper into BC and linking files to journals and entries.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "high",
+  "statements": [
+    "Attaching, viewing and scanning files on records",
+    "Drag-and-drop attachments onto any record, previewing PDFs and images without download, merging or splitting PDFs, scanning paper into BC and linking files to journals and entries.",
+    "Why can't I just drag a file onto the order?",
+    "drag and drop attachments",
+    "I have to download every PDF to look at it",
+    "We want to attach the receipt to the journal line, not just to documents",
+    "Preview the vendor invoice next to the purchase lines",
+    "Attachments don't follow the order when it's posted to an invoice",
+    "Can we scan paper delivery notes straight into BC?",
+    "merge PDF attachments",
+    "Drag an email from Outlook onto the customer card",
+    "Our auditors want the voucher attached to every posting",
+    "We need folders for attachments, there are 40 files on some projects",
+    "preview attachments without downloading",
+    "Upload many files at once to an item",
+    "Store a link to a file instead of the file itself",
+    "Split a scanned PDF into separate documents",
+    "Users need to see photos of the item inside BC",
+    "Can attachments be restricted so only HR sees some of them?",
+    "Signed delivery receipts should be on the posted shipment",
+    "Edit Word and Excel attachments without leaving BC",
+    "Old system had a document tab on every record, we miss that"
+  ],
+  "questions": [
+    {
+      "id": "need",
+      "text": "What do you mainly need to do with files?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Attach files by drag and drop",
+          "patterns": [
+            "drag",
+            "drop ?zone"
+          ]
+        },
+        {
+          "label": "Preview files without downloading",
+          "patterns": [
+            "preview",
+            "viewer",
+            "view (and search )?pdf",
+            "shows (the )?pdf",
+            "shows pdfs"
+          ]
+        },
+        {
+          "label": "Scan paper documents",
+          "patterns": [
+            "scan"
+          ]
+        },
+        {
+          "label": "Merge, split, edit or sign PDFs",
+          "patterns": [
+            "merge",
+            "split",
+            "annotat",
+            "edit (workbooks|pdf)",
+            "signature",
+            "sign (receipts|requests)"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Attach files by drag and drop": 0.59,
+        "Preview files without downloading": 0.32,
+        "Scan paper documents": 0.06,
+        "Merge, split, edit or sign PDFs": 0.12
+      }
+    },
+    {
+      "id": "storage",
+      "text": "Where should the files be stored?",
+      "options": [
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "sql database",
+            "bc blob",
+            "stored internally",
+            "internal storage",
+            "storage in database",
+            "stores? (files|documents) in bc",
+            "in bc database",
+            "bc database or"
+          ]
+        },
+        {
+          "label": "SharePoint or OneDrive",
+          "patterns": [
+            "sharepoint",
+            "onedrive"
+          ]
+        },
+        {
+          "label": "Azure, S3, Dropbox or other cloud storage",
+          "patterns": [
+            "azure (blob|file|storage)",
+            "azure account",
+            "azure files",
+            "amazon s3",
+            "dropbox",
+            "sftp",
+            "cloud storage",
+            "external file"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inside Business Central": 0.18,
+        "SharePoint or OneDrive": 0.23,
+        "Azure, S3, Dropbox or other cloud storage": 0.21
+      }
+    },
+    {
+      "id": "posting",
+      "text": "Must attachments follow documents through posting?",
+      "help": "From order to posted invoice, or onto journals and ledger entries.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, carry to posted documents",
+          "patterns": [
+            "on posting",
+            "when posting",
+            "after posting",
+            "during posting",
+            "flows?\\b",
+            "carr(y|ied)",
+            "to posted documents?",
+            "copied automatically"
+          ]
+        },
+        {
+          "label": "Attach to journals and ledger entries",
+          "patterns": [
+            "journal",
+            "ledger entr",
+            "g/l entr",
+            "attach documents to g/l"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, carry to posted documents": 0.15,
+        "Attach to journals and ledger entries": 0.11
+      }
+    },
+    {
+      "id": "source",
+      "text": "Where do your files come from?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Outlook emails",
+          "patterns": [
+            "outlook",
+            "e-?mail (conversations|messages)",
+            "mail inbox",
+            "emails? (into|onto|and documents)",
+            "drag and drop (files, )?emails"
+          ]
+        },
+        {
+          "label": "Paper scanned in",
+          "patterns": [
+            "scan"
+          ]
+        },
+        {
+          "label": "Incoming documents or a shared mailbox",
+          "patterns": [
+            "incoming document",
+            "mailbox",
+            "inbox"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Outlook emails": 0.14,
+        "Paper scanned in": 0.06,
+        "Incoming documents or a shared mailbox": 0.11
+      }
+    },
+    {
+      "id": "types",
+      "text": "Which file types do you need to view?",
+      "multi": true,
+      "options": [
+        {
+          "label": "PDFs",
+          "patterns": [
+            "pdf"
+          ]
+        },
+        {
+          "label": "Word and Excel files",
+          "patterns": [
+            "word",
+            "excel",
+            "office",
+            "docx",
+            "xlsx"
+          ]
+        },
+        {
+          "label": "Images or videos",
+          "patterns": [
+            "image",
+            "picture",
+            "photo",
+            "video",
+            "png",
+            "jpg"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "PDFs": 0.42,
+        "Word and Excel files": 0.15,
+        "Images or videos": 0.27
+      }
+    }
+  ]
+}

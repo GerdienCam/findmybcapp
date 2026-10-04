@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.innovate365gmbh1675872211717|AID.jira_issue_collector|PAPPID.368aae09-1c40-4ca6-8038-45afb76cf1f6",
+  "guid": "368aae09-1c40-4ca6-8038-45afb76cf1f6",
+  "publisherId": "innovate365gmbh1675872211717",
+  "offerId": "jira_issue_collector",
+  "source": {
+    "name": "JIRA Issue Collector",
+    "publisher": "Innovate365 GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.innovate365gmbh1675872211717%7CAID.jira_issue_collector%7CPAPPID.368aae09-1c40-4ca6-8038-45afb76cf1f6",
+    "lastModified": "2024-11-21T09:07:50.0511501+00:00",
+    "appVersion": "1.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://innovate365.github.io/IssueManagement/",
+    "sourceHash": "sha256:9e46cdb90b365464a7eb315a98ed4a7f14abe30395ea755710b04b577b235988"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9e46cdb90b365464a7eb315a98ed4a7f14abe30395ea755710b04b577b235988",
+    "mappedOn": null,
+    "summary": "Creates JIRA issues from BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-support",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Creates Jira issues directly from BC",
+      "Opened via BC search by typing 'JIRA Issue'",
+      "Connects to Jira Issue Collectors"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Jira"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

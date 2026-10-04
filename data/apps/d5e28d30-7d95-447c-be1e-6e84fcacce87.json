@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.venturesinformationtechnologyservices1680161546686|AID.imos_integration|PAPPID.d5e28d30-7d95-447c-be1e-6e84fcacce87",
+  "guid": "d5e28d30-7d95-447c-be1e-6e84fcacce87",
+  "publisherId": "venturesinformationtechnologyservices1680161546686",
+  "offerId": "imos_integration",
+  "source": {
+    "name": "IMOS Integration",
+    "publisher": "TECH VENTURES",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.venturesinformationtechnologyservices1680161546686%7CAID.imos_integration%7CPAPPID.d5e28d30-7d95-447c-be1e-6e84fcacce87",
+    "lastModified": "2025-08-28T12:15:10.633552+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.techventuresglobal.com/imos-integration/",
+    "sourceHash": "sha256:6c25b5be72bcb946e797b9d3c5cd4a78550e8a122d129539c426cd5d95a7c8fc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6c25b5be72bcb946e797b9d3c5cd4a78550e8a122d129539c426cd5d95a7c8fc",
+    "mappedOn": null,
+    "summary": "Two-way integration with IMOS freight operations software",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Two-way connector between IMOS and BC",
+      "Synchronizes transactions, invoices and payment data between IMOS and BC",
+      "Manages customers, payments and voyage transactions in BC",
+      "Built for ship management firms, freight forwarders and shipping companies"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Freight forwarding",
+      "Maritime shipping"
+    ],
+    "connectsTo": [
+      "IMOS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

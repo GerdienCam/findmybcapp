@@ -1,0 +1,282 @@
+{
+  "id": "ng-packing-loading",
+  "order": 75,
+  "label": "Packing orders and loading shipments",
+  "description": "Staging, packing orders into packages/pallets and loading trucks.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "high",
+  "statements": [
+    "Packing orders and loading shipments",
+    "Staging, packing orders into packages/pallets and loading trucks.",
+    "We need to know which items are in which box when a customer order ships in several cartons",
+    "Is there a packing station app for Business Central?",
+    "Packers have to write the box contents on paper and put it inside",
+    "Customers want a packing list per carton",
+    "packing app scan to box",
+    "We want to scan each item into a box to check nothing is missing",
+    "How do we record package weight and dimensions in BC?",
+    "Our packers choose box sizes by guessing",
+    "We want to pack multiple orders for the same customer together",
+    "The packing slip from BC is not what our customers want to see",
+    "Pallets with mixed items need a contents list",
+    "packing slip per package BC",
+    "We need to record the serial numbers going into each box",
+    "Is there a way to suggest the right box size based on item dimensions?",
+    "Our pharma customers need the batch certificate put in the box with their order",
+    "Webshop orders need a pack and ship screen for one person",
+    "Packing errors cost us a lot in returns",
+    "We want to stop shipping half empty boxes",
+    "Packed goods need to be linked to the shipment for tracking",
+    "We need to repack goods from the supplier's cartons into smaller packs",
+    "We need a check that all pallets for a truck are actually loaded",
+    "bill of lading BC",
+    "Drivers leave with the wrong pallets because there is no scan at loading",
+    "How do we record which truck took which orders?",
+    "We want to scan pallets at the dock when loading",
+    "Is there a way to print a loading list per truck?",
+    "We need to see which orders are sitting in the shipping lane waiting for the truck",
+    "Received goods stay at the dock for days and BC says they are available",
+    "staging area outbound orders",
+    "Is there a way to track pallets in a staging zone before they are loaded?",
+    "We want picked orders to go to a staging bin per route",
+    "Goods waiting to be put away are invisible to sales"
+  ],
+  "questions": [
+    {
+      "id": "track",
+      "text": "What packaging do you need to keep track of?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Returnable pallets, crates or empties with balances",
+          "patterns": [
+            "empties",
+            "returnable",
+            "deposit item",
+            "load carrier",
+            "packaging balance",
+            "packaging returns",
+            "pallet accounts",
+            "packaging disposed, invoiced or returned"
+          ]
+        },
+        {
+          "label": "Packaging material stock and cost",
+          "patterns": [
+            "stock of packaging",
+            "packaging ledger",
+            "packaging items inventory",
+            "packaging materials posted",
+            "packaging journals",
+            "package inventory",
+            "invoice actual packaging",
+            "packaging items inventory"
+          ]
+        },
+        {
+          "label": "What is packed on which pallet or box",
+          "patterns": [
+            "handling units?",
+            "license plate",
+            "goods units?",
+            "logistics? units",
+            "packing structure",
+            "nested",
+            "multi-level",
+            "packaging hierarchy",
+            "package flows",
+            "what is packed",
+            "which packaging unit",
+            "history of container contents"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Returnable pallets, crates or empties with balances": 0.12,
+        "Packaging material stock and cost": 0.08,
+        "What is packed on which pallet or box": 0.34
+      }
+    },
+    {
+      "id": "leave",
+      "text": "How do your goods leave the warehouse?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Parcels with carrier labels and tracking",
+          "patterns": [
+            "\\d+\\+? carriers",
+            "nshift",
+            "\\bbring\\b",
+            "cargonizer",
+            "metapack",
+            "ship-it",
+            "\\bups\\b",
+            "fedex",
+            "waybill",
+            "book (transport|shipments|freight)",
+            "rate shopping",
+            "track & trace",
+            "shipping label",
+            "consignment"
+          ]
+        },
+        {
+          "label": "Pallets with SSCC / GS1 labels",
+          "patterns": [
+            "sscc",
+            "gs1"
+          ]
+        },
+        {
+          "label": "Our own planned truck loads or tours",
+          "patterns": [
+            "load order",
+            "truck plan",
+            "tour",
+            "dispatch planning",
+            "load engine",
+            "3d visual",
+            "\\broutes?\\b",
+            "container builder",
+            "loading list"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Parcels with carrier labels and tracking": 0.19,
+        "Pallets with SSCC / GS1 labels": 0.11,
+        "Our own planned truck loads or tours": 0.11
+      }
+    },
+    {
+      "id": "stack",
+      "text": "Do you already run one of these warehouse apps?",
+      "help": "Many packing add-ons extend a specific app.",
+      "options": [
+        {
+          "label": "Tasklet Mobile WMS",
+          "patterns": [
+            "tasklet"
+          ]
+        },
+        {
+          "label": "EOS Solutions apps (Power WMS, Handling Units...)",
+          "patterns": [
+            "\\beos\\b"
+          ]
+        },
+        {
+          "label": "Agriware 365",
+          "patterns": [
+            "agriware"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Tasklet Mobile WMS": 0.06,
+        "EOS Solutions apps (Power WMS, Handling Units...)": 0.17,
+        "Agriware 365": 0.05
+      }
+    },
+    {
+      "id": "record",
+      "text": "How will staff record packing and loading?",
+      "options": [
+        {
+          "label": "Handheld scanners or tablets",
+          "patterns": [
+            "scanner",
+            "handheld",
+            "mobile",
+            "scan",
+            "barcode",
+            "tablet",
+            "touchscreen"
+          ]
+        },
+        {
+          "label": "At a PC, from the order or shipment",
+          "patterns": [
+            "from the sales order",
+            "on sales orders",
+            "one-click",
+            "from sales and warehouse documents",
+            "assign lines",
+            "packing list linked",
+            "compose packing list"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Handheld scanners or tablets": 0.34,
+        "At a PC, from the order or shipment": 0.11
+      }
+    },
+    {
+      "id": "docs",
+      "text": "What shipping paperwork do you need?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Packing lists",
+          "patterns": [
+            "packing list"
+          ]
+        },
+        {
+          "label": "One shipment or delivery note for several orders",
+          "patterns": [
+            "combin(es|ing)? .*orders",
+            "collective",
+            "cumulative",
+            "several orders",
+            "multiple (sales )?orders",
+            "group(s|ed|ing)? (several )?orders",
+            "across multiple orders",
+            "one delivery note"
+          ]
+        },
+        {
+          "label": "CMR, customs or transport documents",
+          "patterns": [
+            "\\bcmr\\b",
+            "transport document",
+            "\\bddt\\b",
+            "forwarding order",
+            "freight documents",
+            "customs",
+            "manifest",
+            "loading list"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Packing lists": 0.11,
+        "One shipment or delivery note for several orders": 0.16,
+        "CMR, customs or transport documents": 0.09
+      }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "id": "ng-vert-utilities-energy-waste",
+  "order": 211,
+  "label": "Solutions for utilities, energy and waste companies",
+  "description": "Industry solutions for utilities and energy suppliers (metering, consumption billing, customer service), biogas plants, fuel distribution and bunkering, and waste and recycling companies.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for utilities, energy and waste companies",
+    "Industry solutions for utilities and energy suppliers (metering, consumption billing, customer service), biogas plants, fuel distribution and bunkering, and waste and recycling companies.",
+    "We bill thousands of households for water consumption",
+    "utility billing on Business Central",
+    "Meter readings into invoices",
+    "Waste collection company with routes and containers",
+    "Biogas plant needs feedstock and gas tracking",
+    "Fuel distribution with truck trips",
+    "Hazardous waste documentation for receiving stations",
+    "District heating company moving to BC",
+    "Recycling company buying and selling materials by weight",
+    "Marine fuel bunkering administration",
+    "Electricity supplier billing",
+    "Municipal utility with projects and maintenance"
+  ],
+  "questions": [
+    {
+      "id": "biz",
+      "text": "What kind of business are you?",
+      "options": [
+        {
+          "label": "Water, power or heating utility",
+          "patterns": [
+            "electric",
+            "water",
+            "district heating",
+            "utilit",
+            "meter",
+            "kwh"
+          ]
+        },
+        {
+          "label": "Waste and recycling",
+          "patterns": [
+            "waste(?! register)",
+            "recycl",
+            "tegossuite"
+          ]
+        },
+        {
+          "label": "Biogas plant",
+          "patterns": [
+            "biogas",
+            "biomass"
+          ]
+        },
+        {
+          "label": "Fuel or energy trading",
+          "patterns": [
+            "fuel",
+            "bunker",
+            "excise",
+            "commodit"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Water, power or heating utility": 0.32,
+        "Waste and recycling": 0.48,
+        "Biogas plant": 0.06,
+        "Fuel or energy trading": 0.13
+      }
+    },
+    {
+      "id": "core",
+      "text": "Do you already run one of these systems?",
+      "options": [
+        {
+          "label": "tegossuite / enwis",
+          "patterns": [
+            "tegossuite",
+            "enwis"
+          ]
+        },
+        {
+          "label": "EV Evita / EV Avero",
+          "patterns": [
+            "evita",
+            "avero"
+          ]
+        },
+        {
+          "label": "FuelVision365",
+          "patterns": [
+            "fuelvision"
+          ]
+        },
+        {
+          "label": "Navtilus Waste Solution",
+          "patterns": [
+            "waste solution",
+            "nws app"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "tegossuite / enwis": 0.32,
+        "EV Evita / EV Avero": 0.16,
+        "FuelVision365": 0.13,
+        "Navtilus Waste Solution": 0.1
+      }
+    },
+    {
+      "id": "mobile",
+      "text": "Do drivers or field staff record work on a phone or tablet?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "driver",
+            "mobile",
+            "handheld",
+            "tablet",
+            "field employees",
+            "offline",
+            "telemetry"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.23
+      }
+    },
+    {
+      "id": "billing",
+      "text": "Do you bill customers for metered consumption?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "meter",
+            "consumption",
+            "tariff",
+            "utility billing"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.19
+      }
+    },
+    {
+      "id": "weigh",
+      "text": "Do you weigh loads in or out?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "weigh"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.19
+      }
+    },
+    {
+      "id": "portal",
+      "text": "Should customers have a self-service web portal?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "portal",
+            "self-service"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.19
+      }
+    },
+    {
+      "id": "projects",
+      "text": "Do you run maintenance or construction projects?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "project",
+            "maintenance"
+          ]
+        },
+        {
+          "label": "Doesn't matter / Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.16
+      }
+    }
+  ]
+}

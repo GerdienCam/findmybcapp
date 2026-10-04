@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.dynamicsondemand|AID.omnify-lightspeed-integration|PAPPID.cae145e0-c934-4a78-ae54-aef93c54ae19",
+  "guid": "cae145e0-c934-4a78-ae54-aef93c54ae19",
+  "publisherId": "dynamicsondemand",
+  "offerId": "omnify-lightspeed-integration",
+  "source": {
+    "name": "Lightspeed Integration (X-Series)",
+    "publisher": "Omni Logic Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicsondemand%7CAID.omnify-lightspeed-integration%7CPAPPID.cae145e0-c934-4a78-ae54-aef93c54ae19",
+    "lastModified": "2026-09-16T21:32:31.021675+00:00",
+    "appVersion": "22.0.0.21",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.omnilogicsolutions.com/",
+    "sourceHash": "sha256:918d9ed84d48f0e75f26c936405e3b92d6f2bf83133f12651fdb3e521f625810"
+  },
+  "mapping": {
+    "sourceHash": "sha256:918d9ed84d48f0e75f26c936405e3b92d6f2bf83133f12651fdb3e521f625810",
+    "mappedOn": null,
+    "summary": "Syncs Lightspeed POS sales, products and taxes",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-vert-retail"
+    ],
+    "claims": [
+      "Synchronizes Lightspeed products, price books, orders, taxes and payment methods with BC",
+      "Keeps inventory consistent between Lightspeed and BC",
+      "Real-time update of sales/return orders, inventory and customers",
+      "Synchronizes payment and tax details for reconciliation",
+      "Supports multiple Lightspeed locations",
+      "Certified Lightspeed integration",
+      "Lightspeed subscription not included"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Hospitality",
+      "Retail"
+    ],
+    "connectsTo": [
+      "Lightspeed X-Series"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

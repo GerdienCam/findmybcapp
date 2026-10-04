@@ -1,0 +1,251 @@
+{
+  "id": "ng-vert-metal-timber-materials",
+  "order": 210,
+  "label": "Solutions for steel, metal, timber and materials trade",
+  "description": "Industry solutions for steel and metal service centres, timber and building materials trade, glass and chemicals: dimensional items, units by length/area/weight, material certificates, cutting and processing.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for steel, metal, timber and materials trade",
+    "Industry solutions for steel and metal service centres, timber and building materials trade, glass and chemicals: dimensional items, units by length/area/weight, material certificates, cutting and processing.",
+    "We sell steel by the ton but customers order in metres",
+    "timber merchant software on BC",
+    "Material certificates must follow every steel bar",
+    "Unit conversion between pieces, metres and kilos",
+    "Cutting to length and keeping the offcuts in stock",
+    "Glass orders with dimensions and edges",
+    "Timber sold in cubic metres, bought in packages",
+    "Steel service center with saws and processing",
+    "Chemical distributor with hazardous goods",
+    "Prices depend on dimensions and alloy surcharges",
+    "Building materials trade with project deliveries",
+    "Remnants and offcuts are invisible in BC"
+  ],
+  "questions": [
+    {
+      "id": "material",
+      "text": "What materials do you trade or process?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Timber and wood",
+          "patterns": [
+            "timber",
+            "wood",
+            "\\blogs?\\b",
+            "board feet"
+          ]
+        },
+        {
+          "label": "Steel and sheet metal",
+          "patterns": [
+            "steel",
+            "sheet metal",
+            "\\bmetals?\\b",
+            "bystronic"
+          ]
+        },
+        {
+          "label": "Glass",
+          "patterns": [
+            "glass"
+          ]
+        },
+        {
+          "label": "Chemicals",
+          "patterns": [
+            "chemical"
+          ]
+        },
+        {
+          "label": "Concrete, aggregates and building materials",
+          "patterns": [
+            "concrete",
+            "gravel",
+            "aggregates",
+            "bricks"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Timber and wood": 0.09,
+        "Steel and sheet metal": 0.61,
+        "Glass": 0.09,
+        "Chemicals": 0.13,
+        "Concrete, aggregates and building materials": 0.09
+      }
+    },
+    {
+      "id": "process",
+      "text": "Which part of the work is the pain point?",
+      "help": "Pick every area you want covered.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Quoting and pricing",
+          "patterns": [
+            "quot",
+            "price calculation",
+            "pricing",
+            "automatic prices",
+            "margin control"
+          ]
+        },
+        {
+          "label": "Cutting, nesting and production",
+          "patterns": [
+            "cutting",
+            "nesting",
+            "production",
+            "manufactur",
+            "blending"
+          ]
+        },
+        {
+          "label": "Delivery, transport and weighing",
+          "patterns": [
+            "deliver",
+            "truck",
+            "driver",
+            "weigh",
+            "shipment planning",
+            "load optimization",
+            "loading"
+          ]
+        },
+        {
+          "label": "Stock by dimensions, packages or lots",
+          "patterns": [
+            "dimension",
+            "length, width",
+            "\\blots?\\b",
+            "package",
+            "species, grade",
+            "multi-location"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Quoting and pricing": 0.22,
+        "Cutting, nesting and production": 0.52,
+        "Delivery, transport and weighing": 0.3,
+        "Stock by dimensions, packages or lots": 0.26
+      }
+    },
+    {
+      "id": "units",
+      "text": "How do you measure what you buy and sell?",
+      "help": "Pick every way your quantities are expressed.",
+      "multi": true,
+      "options": [
+        {
+          "label": "By volume, area or length (m3, m2, board feet, m)",
+          "patterns": [
+            "volume",
+            "board feet",
+            "cubic",
+            "linear",
+            "dimensional",
+            "length, width"
+          ]
+        },
+        {
+          "label": "By weight or a formula per material",
+          "patterns": [
+            "formula calculation",
+            "unit conversion",
+            "material properties",
+            "by weight"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "By volume, area or length (m3, m2, board feet, m)": 0.13,
+        "By weight or a formula per material": 0.17
+      }
+    },
+    {
+      "id": "special",
+      "text": "Do any of these apply to you?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Metal tolling, metal accounts or subcontracting",
+          "patterns": [
+            "tolling",
+            "metal accounts",
+            "subcontract"
+          ]
+        },
+        {
+          "label": "Wood certification (FSC, PEFC, EUDR)",
+          "patterns": [
+            "\\bfsc\\b",
+            "pefc",
+            "eudr"
+          ]
+        },
+        {
+          "label": "Hazardous goods and safety data",
+          "patterns": [
+            "hazardous",
+            "safety data sheet",
+            "legislation"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Metal tolling, metal accounts or subcontracting": 0.22,
+        "Wood certification (FSC, PEFC, EUDR)": 0.09,
+        "Hazardous goods and safety data": 0.09
+      }
+    },
+    {
+      "id": "edition",
+      "text": "Which Business Central edition do you run?",
+      "help": "Many industry apps need Premium.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Essentials",
+          "patterns": [
+            "essentials?\\b"
+          ]
+        },
+        {
+          "label": "Premium",
+          "patterns": [
+            "premium"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Essentials": 0.09,
+        "Premium": 0.7
+      }
+    }
+  ]
+}

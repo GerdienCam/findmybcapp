@@ -1,0 +1,62 @@
+{
+  "appId": "TYPE.connect|PUBID.folio3software|AID.d365_bc_amazon|PAPPID.e23ef779-e4f0-4ee8-ba1c-3abb001e7573",
+  "guid": "e23ef779-e4f0-4ee8-ba1c-3abb001e7573",
+  "publisherId": "folio3software",
+  "offerId": "d365_bc_amazon",
+  "source": {
+    "name": "Amazon Dynamics 365 Business Central Integration",
+    "publisher": "Folio3 Software Inc.,",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.folio3software%7CAID.d365_bc_amazon%7CPAPPID.e23ef779-e4f0-4ee8-ba1c-3abb001e7573",
+    "lastModified": "2024-11-21T09:18:26.9832975+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamics.folio3.com/dynamics-ax-amazon-connector/",
+    "sourceHash": "sha256:b0c56b9702b25308d99d0caf5b1f18cc17474de7b85a34b0196af3369b2571cb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b0c56b9702b25308d99d0caf5b1f18cc17474de7b85a34b0196af3369b2571cb",
+    "mappedOn": null,
+    "summary": "Syncs Amazon store products, orders and inventory",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Syncs products, inventory, orders, returns, coupons, gift cards, store credits, tier pricing and customers with Amazon",
+      "Automatically updates inventory levels as transactions happen",
+      "Syncs orders with customer and billing details",
+      "Product name and description changes synced automatically",
+      "Multi-tier pricing rules set in the ERP",
+      "Supports multiple Amazon stores",
+      "One-time implementation fee plus annual charge",
+      "Available in English (United States)"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Amazon"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

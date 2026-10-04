@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.19403|AID.accpreval365|PAPPID.357ee38d-d551-4a64-9635-786832d9c48f",
+  "guid": "357ee38d-d551-4a64-9635-786832d9c48f",
+  "publisherId": "19403",
+  "offerId": "accpreval365",
+  "source": {
+    "name": "Fraud Prevention 365",
+    "publisher": "BANQR Digital Solutions GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.19403%7CAID.accpreval365%7CPAPPID.357ee38d-d551-4a64-9635-786832d9c48f",
+    "lastModified": "2025-11-26T11:28:24.3007487+00:00",
+    "appVersion": "1.21.72.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.banqr.io/fraud-prevention-365",
+    "sourceHash": "sha256:e27ff1355ac6d4244ff4ed49750a2988713fca58a2f640c34b09115f64933469"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e27ff1355ac6d4244ff4ed49750a2988713fca58a2f640c34b09115f64933469",
+    "mappedOn": null,
+    "summary": "Detects payment fraud by checking data against the bank via API",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bank-reconciliation",
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "API connection to the company's bank for real-time data matching",
+      "Real-time detection of suspicious activities and transactions",
+      "Dashboard with customizable reports and visualizations of suspicious patterns",
+      "Currently supported only in Germany",
+      "Optional basic support plan: 5 hours per month, email response within 24 hours",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Deutsche Bank"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

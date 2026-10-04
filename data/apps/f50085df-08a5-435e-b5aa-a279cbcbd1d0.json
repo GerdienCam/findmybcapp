@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_importfromexcel|PAPPID.f50085df-08a5-435e-b5aa-a279cbcbd1d0",
+  "guid": "f50085df-08a5-435e-b5aa-a279cbcbd1d0",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_importfromexcel",
+  "source": {
+    "name": "Fusion5 Import from Excel",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_importfromexcel%7CPAPPID.f50085df-08a5-435e-b5aa-a279cbcbd1d0",
+    "lastModified": "2026-07-07T13:17:24.3716365+00:00",
+    "appVersion": "2700.5.20260707.213123",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://topaz-gitadmin.github.io/Manual/AddOns-Integration/Import-from-Excel/Manual/",
+    "sourceHash": "sha256:c700007844f9a5bc01c5955b392e3614141ace947d225a2b4c7f5353f192741d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c700007844f9a5bc01c5955b392e3614141ace947d225a2b4c7f5353f192741d",
+    "mappedOn": null,
+    "summary": "Imports journals and master data from Excel templates",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-journals",
+      "ng-proj-budget"
+    ],
+    "claims": [
+      "Imports master data and transactional data (sales/purchase docs, journals) from Excel",
+      "Static templates for master data and general journals; dynamic formats for journals and documents",
+      "Dynamic imports can apply transformation rules and fill in defaults for missing values",
+      "Imports items, resources, vendors and customers",
+      "Imports FA journals and fixed assets",
+      "Imports jobs/tasks, job journals and job budgets",
+      "Imports G/L journals and G/L accounts",
+      "Imports access controls",
+      "Imports dimension values",
+      "Map Excel columns to fields for sales and purchase documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.bydynamicsbv1640103983705|AID.pco_bdy|PAPPID.1dd53278-2e33-433d-abfd-d8d3dffd592b",
+  "guid": "1dd53278-2e33-433d-abfd-d8d3dffd592b",
+  "publisherId": "bydynamicsbv1640103983705",
+  "offerId": "pco_bdy",
+  "source": {
+    "name": "Project Control",
+    "publisher": "bydynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bydynamicsbv1640103983705%7CAID.pco_bdy%7CPAPPID.1dd53278-2e33-433d-abfd-d8d3dffd592b",
+    "lastModified": "2025-10-06T16:42:26.6279051+00:00",
+    "appVersion": "26.0.17.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://github.com/bydynamics/AL-ProjectControl-Support",
+    "sourceHash": "sha256:80e893f34f2128b71c1982b996d636125e1e05ad814f788bbd824eab839120f3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:80e893f34f2128b71c1982b996d636125e1e05ad814f788bbd824eab839120f3",
+    "mappedOn": null,
+    "summary": "Earned value management and fixed price project invoicing",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-billing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-change-scope",
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "EVM metrics PV, EV, AC, CV/SV, CPI/SPI, ETC, EAC, VAC",
+      "Earned value for cost and revenue, in amounts and quantities",
+      "Historical snapshots",
+      "Dashboards combining scope, schedule and cost",
+      "REST API export to Power BI",
+      "Fixed price contracts with installments",
+      "Time & material invoicing with cost caps",
+      "Invoice withdrawal and correction",
+      "Work orders for scope changes with separate cost/revenue",
+      "Approval workflows for work orders"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Construction",
+      "Government",
+      "Professional services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

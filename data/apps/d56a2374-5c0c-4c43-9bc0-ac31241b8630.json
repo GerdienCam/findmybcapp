@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.go4logistics|AID.go4logistics_go4ordersync|PAPPID.d56a2374-5c0c-4c43-9bc0-ac31241b8630",
+  "guid": "d56a2374-5c0c-4c43-9bc0-ac31241b8630",
+  "publisherId": "go4logistics",
+  "offerId": "go4logistics_go4ordersync",
+  "source": {
+    "name": "Go4TMS - Order Sync Offering",
+    "publisher": "Go4Logistics NV",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.go4logistics%7CAID.go4logistics_go4ordersync%7CPAPPID.d56a2374-5c0c-4c43-9bc0-ac31241b8630",
+    "lastModified": "2026-05-13T14:50:18.6074046+00:00",
+    "appVersion": "28.0.2605.1882",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.go4logistics.be/en/help/",
+    "sourceHash": "sha256:2b1977c3d767fc42fe66f76051697ea715cff5635083f88687c14599b2184410"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2b1977c3d767fc42fe66f76051697ea715cff5635083f88687c14599b2184410",
+    "mappedOn": null,
+    "summary": "Syncs Go4TMS transport orders with external hauliers",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Sends transport orders to subcontracted hauliers in XML",
+      "Sends updates and cancellations to hauliers",
+      "Subcontractors fetch orders via API",
+      "Subcontractors send status updates with actual times and quantities",
+      "Subcontractors upload scanned documents via API"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Transport and logistics"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Go4TMS - Transport Software"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

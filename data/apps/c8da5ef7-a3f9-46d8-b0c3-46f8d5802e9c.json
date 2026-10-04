@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-orderbase-time-management-dime-scheduler|PAPPID.c8da5ef7-a3f9-46d8-b0c3-46f8d5802e9c",
+  "guid": "c8da5ef7-a3f9-46d8-b0c3-46f8d5802e9c",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-orderbase-time-management-dime-scheduler",
+  "source": {
+    "name": "Aptean orderbase Time Management x Dime.Scheduler",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-orderbase-time-management-dime-scheduler%7CPAPPID.c8da5ef7-a3f9-46d8-b0c3-46f8d5802e9c",
+    "lastModified": "2026-09-01T07:37:36.2828916+00:00",
+    "appVersion": "2604.260500.20260825.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.traser-software.de/de-DE",
+    "sourceHash": "sha256:47eb23c585315d7d7fa9200e400280672984e08f01f3cf73313d1974bf9d8ccf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:47eb23c585315d7d7fa9200e400280672984e08f01f3cf73313d1974bf9d8ccf",
+    "mappedOn": null,
+    "summary": "Connects Aptean Equipment DMS and orderbase Time Management with Dime.Scheduler",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-svc-capacity",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-absence-leave",
+      "ng-vert-equipment-dealers"
+    ],
+    "claims": [
+      "Syncs absence times per resource from BC to Dime.Scheduler",
+      "Shows absences on Dime.Scheduler planning board"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "Dime.Scheduler",
+      "orderbase Time Management"
+    ],
+    "requires": [
+      "Aptean Equipment DMS",
+      "orderbase Time Management",
+      "Dime.Scheduler"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

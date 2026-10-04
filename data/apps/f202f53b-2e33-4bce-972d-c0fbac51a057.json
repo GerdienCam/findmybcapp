@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.biztechcs|AID.customerportalbycrmjetty|PAPPID.f202f53b-2e33-4bce-972d-c0fbac51a057",
+  "guid": "f202f53b-2e33-4bce-972d-c0fbac51a057",
+  "publisherId": "biztechcs",
+  "offerId": "customerportalbycrmjetty",
+  "source": {
+    "name": "Customer Portal by CRMJetty",
+    "publisher": "Biztech Consulting & Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.biztechcs%7CAID.customerportalbycrmjetty%7CPAPPID.f202f53b-2e33-4bce-972d-c0fbac51a057",
+    "lastModified": "2026-07-07T11:32:51.6925198+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.crmjetty.com/contacts",
+    "sourceHash": "sha256:74c3c21c965bfd0a9496cb7950acf9924973df1dacfdd32297e3fa24bae83cb0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:74c3c21c965bfd0a9496cb7950acf9924973df1dacfdd32297e3fa24bae83cb0",
+    "mappedOn": null,
+    "summary": "B2B customer portal for orders, invoices and account data",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Real-time data sync between portal and BC",
+      "Optional OTP dual authentication and email 2-step verification",
+      "ISO/IEC 27001-certified architecture",
+      "Role-based access control",
+      "Drag-and-drop page builder",
+      "Multiple sites with content segregation",
+      "Multilingual and multi-currency portal",
+      "Dashboards and analytics",
+      "Customers can create and manage quotations plus sales orders",
+      "Essential plan up to 500 users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "CRMJetty"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

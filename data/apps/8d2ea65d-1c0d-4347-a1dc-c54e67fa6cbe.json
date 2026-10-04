@@ -1,0 +1,91 @@
+{
+  "appId": "PUBID.armadadynamicsas1615984193301|AID.eqm365rental-intercompany|PAPPID.8d2ea65d-1c0d-4347-a1dc-c54e67fa6cbe",
+  "guid": "8d2ea65d-1c0d-4347-a1dc-c54e67fa6cbe",
+  "publisherId": "armadadynamicsas1615984193301",
+  "offerId": "eqm365rental-intercompany",
+  "source": {
+    "name": "EQM 365 Rental - Intercompany",
+    "publisher": "Armada Dynamics AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.armadadynamicsas1615984193301%7CAID.eqm365rental-intercompany%7CPAPPID.8d2ea65d-1c0d-4347-a1dc-c54e67fa6cbe",
+    "lastModified": "2026-09-13T17:56:51.6153516+00:00",
+    "appVersion": "28.5.202637.81461",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.armadadynamics.no/en/support/knowledge-database",
+    "sourceHash": "sha256:739393abe7f450ee1aa6440dc4e4dba56e1b6b8907df6fa9290c8313643c3d86"
+  },
+  "mapping": {
+    "sourceHash": "sha256:739393abe7f450ee1aa6440dc4e4dba56e1b6b8907df6fa9290c8313643c3d86",
+    "mappedOn": null,
+    "summary": "Intercompany support for EQM 365 Rental",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Shares rental equipment across companies in the same tenant",
+      "Each object has a single owning company and can be rented out in other companies",
+      "Intercompany inventory movement of rental objects",
+      "Service and maintenance across intercompany partners",
+      "Uses standard BC intercompany functionality"
+    ],
+    "countries": [
+      "AE",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "GB",
+      "IS",
+      "LT",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "PL",
+      "QA",
+      "SE",
+      "SI",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "fi",
+      "fr",
+      "nb",
+      "nl"
+    ],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EQM 365 Rental"
+    ],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

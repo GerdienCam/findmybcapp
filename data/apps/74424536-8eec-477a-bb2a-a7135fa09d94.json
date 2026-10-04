@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.nordtoftconsultingps1599476771501|AID.basicshipping|PAPPID.74424536-8eec-477a-bb2a-a7135fa09d94",
+  "guid": "74424536-8eec-477a-bb2a-a7135fa09d94",
+  "publisherId": "nordtoftconsultingps1599476771501",
+  "offerId": "basicshipping",
+  "source": {
+    "name": "Shipping Core",
+    "publisher": "Nordtoft Consulting P/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nordtoftconsultingps1599476771501%7CAID.basicshipping%7CPAPPID.74424536-8eec-477a-bb2a-a7135fa09d94",
+    "lastModified": "2025-09-15T07:37:53.4341767+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://github.com/nordtoft/NordtoftShippingCore-Documentation/blob/main/README.md",
+    "sourceHash": "sha256:98c80bf82636714db0f5f6eaee357d9ec2a6eaceb1e084b90ef95b0e9ce6784c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:98c80bf82636714db0f5f6eaee357d9ec2a6eaceb1e084b90ef95b0e9ce6784c",
+    "mappedOn": null,
+    "summary": "Shipping base features and Veson VIP/IMOS integration",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Basic features and preparation for Veson VIP integration"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Veson VIP",
+      "IMOS"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

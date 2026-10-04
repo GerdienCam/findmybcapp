@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.simova|AID.dps_by_simova|PAPPID.b4055ad5-5d60-475b-b17f-6c27c27adc2e",
+  "guid": "b4055ad5-5d60-475b-b17f-6c27c27adc2e",
+  "publisherId": "simova",
+  "offerId": "dps_by_simova",
+  "source": {
+    "name": "Business Portals",
+    "publisher": "Simova GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simova%7CAID.dps_by_simova%7CPAPPID.b4055ad5-5d60-475b-b17f-6c27c27adc2e",
+    "lastModified": "2026-09-17T07:27:19.7363817+00:00",
+    "appVersion": "28.1.9.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.simova.de/en/",
+    "sourceHash": "sha256:f9ec529d442abe12a2fa4b78b410f09ead3f9056cc7ecd1feefdde1ba56755cb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f9ec529d442abe12a2fa4b78b410f09ead3f9056cc7ecd1feefdde1ba56755cb",
+    "mappedOn": null,
+    "summary": "Customer and partner portals with BC data",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-case-customer-updates"
+    ],
+    "claims": [
+      "External users access BC data without a BC license",
+      "Real-time access without data replication",
+      "Shows orders, quotes, deliveries, invoices, service data and account balances",
+      "Role-based access and permissions",
+      "Customizable portal branding",
+      "Online request and approval workflows such as order releases",
+      "Mobile app that can carry your own branding",
+      "Optional multi-factor authentication",
+      "Hosted in Microsoft Azure or own environment",
+      "Publishes Document Central documents such as invoices and delivery notes"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Azure"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

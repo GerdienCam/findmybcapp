@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.aitana_management_sl|AID.idynamics_verifactu_intl_edition|PAPPID.6dd8758c-9b63-48ef-afb7-33f25bcc9045",
+  "guid": "6dd8758c-9b63-48ef-afb7-33f25bcc9045",
+  "publisherId": "aitana_management_sl",
+  "offerId": "idynamics_verifactu_intl_edition",
+  "source": {
+    "name": "iDynamics Verifactu Intl. Edition",
+    "publisher": "iDynamics Business Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aitana_management_sl%7CAID.idynamics_verifactu_intl_edition%7CPAPPID.6dd8758c-9b63-48ef-afb7-33f25bcc9045",
+    "lastModified": "2026-05-20T13:05:21.6624226+00:00",
+    "appVersion": "1.0.6.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.idynamics.es/es/verifactu/first-steps.html",
+    "sourceHash": "sha256:4068f836a44514a8f8902f25f11a1c61f0ef7dadc5b589ec5183eaee1a00c3cd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4068f836a44514a8f8902f25f11a1c61f0ef7dadc5b589ec5183eaee1a00c3cd",
+    "mappedOn": null,
+    "summary": "Sends sales invoices to Spanish VeriFactu for non-Spanish localizations",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends sales invoices and credit notes to AEAT VeriFactu",
+      "Review and edit data sent to VeriFactu",
+      "Receives the QR code per invoice and prints it on the invoice",
+      "Creates correction update requests for errors",
+      "For BC companies on non-Spanish localizations",
+      "VeriFactu mandatory from 1 January 2026"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "AEAT VeriFactu"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

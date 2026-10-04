@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex046purchaserequest|PAPPID.f2d14c8d-6f8a-45a6-8c0e-5b3db46aa59e",
+  "guid": "f2d14c8d-6f8a-45a6-8c0e-5b3db46aa59e",
+  "publisherId": "eos_solutions",
+  "offerId": "ex046purchaserequest",
+  "source": {
+    "name": "Purchase Request",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex046purchaserequest%7CPAPPID.f2d14c8d-6f8a-45a6-8c0e-5b3db46aa59e",
+    "lastModified": "2026-10-01T07:20:02.4710901+00:00",
+    "appVersion": "28.0.16.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/ex046-purchase-request.html",
+    "sourceHash": "sha256:b3d3975738b107ac65fe864e6fdd8a60260166a6297597394fe818d323a50ab9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b3d3975738b107ac65fe864e6fdd8a60260166a6297597394fe818d323a50ab9",
+    "mappedOn": null,
+    "summary": "Internal purchase requisitions with AI email intake",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-admin-approval-workflows",
+      "ng-admin-copilot-agents",
+      "ng-procurement-spend"
+    ],
+    "claims": [
+      "AI agent converts incoming emails into structured procurement documents",
+      "One or many POs from one request, or pull request lines into an existing PO",
+      "Turns requests into blanket POs, orders or purchase quotes",
+      "Approval via BC workflows, Power Automate or EOS Data Security",
+      "Team Member licensed users can create requisitions",
+      "Request lines for G/L accounts, items, fixed assets and resources",
+      "Request by description, converted to new master record later",
+      "Different vendor per line, split into multiple purchase documents",
+      "Links preserved from purchase document back to request line",
+      "Request products by description for review before new item creation",
+      "Free trial available"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Food and beverage",
+      "Medical device manufacturing",
+      "Pharmaceuticals"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

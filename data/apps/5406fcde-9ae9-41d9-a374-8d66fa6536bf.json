@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-time-reg|PAPPID.5406fcde-9ae9-41d9-a374-8d66fa6536bf",
+  "guid": "5406fcde-9ae9-41d9-a374-8d66fa6536bf",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-time-reg",
+  "source": {
+    "name": "Powerblox Time Registration",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-time-reg%7CPAPPID.5406fcde-9ae9-41d9-a374-8d66fa6536bf",
+    "lastModified": "2026-05-20T14:32:25.6348167+00:00",
+    "appVersion": "25.0.2.62506",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/time_registration",
+    "sourceHash": "sha256:8f01f6a24d5b12e2e7c0ae3f362d538f08ca7a8275c8fc0f037daf3d8edbe5f8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8f01f6a24d5b12e2e7c0ae3f362d538f08ca7a8275c8fc0f037daf3d8edbe5f8",
+    "mappedOn": null,
+    "summary": "From-until time registration for jobs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-time-shifts",
+      "ng-proj-status-reporting"
+    ],
+    "claims": [
+      "Time registration with from-until times in days-hours-minutes detail on one screen",
+      "Separates billable from non-billable hours",
+      "Assign resources as time sheet approvers",
+      "Daily, weekly, monthly and yearly time overviews",
+      "Automated overtime tracking",
+      "Compares time entries with job budget lines",
+      "Performance assessment per job",
+      "Break-time registration",
+      "Full or Lite user license options",
+      "Supports Essentials and Premium editions",
+      "Available in all countries"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "ArchitectureAndConstruction",
+      "ProfessionalServices"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

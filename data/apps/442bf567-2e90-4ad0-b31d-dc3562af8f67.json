@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex002_docfinanceconnector|PAPPID.442bf567-2e90-4ad0-b31d-dc3562af8f67",
+  "guid": "442bf567-2e90-4ad0-b31d-dc3562af8f67",
+  "publisherId": "eos_solutions",
+  "offerId": "ex002_docfinanceconnector",
+  "source": {
+    "name": "DocFinance connector",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex002_docfinanceconnector%7CPAPPID.442bf567-2e90-4ad0-b31d-dc3562af8f67",
+    "lastModified": "2026-06-29T16:55:30.1885049+00:00",
+    "appVersion": "28.0.11.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/docfinance-connector-dcf.html",
+    "sourceHash": "sha256:c3cd8f12cccea07337bbe8371b23402699331d8e19ec9ae7262209377c2a265a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c3cd8f12cccea07337bbe8371b23402699331d8e19ec9ae7262209377c2a265a",
+    "mappedOn": null,
+    "summary": "Connects BC to DocFinance treasury management",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-cash-forecast",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Connects BC to DocFinance treasury management suite",
+      "Manage account and treasury transactions",
+      "Automates treasury accounting",
+      "Imports and exports financial data between ERP and treasury software",
+      "Web service connection enabling hybrid cloud",
+      "Cash-flow statement and forecast",
+      "Check lines of credit",
+      "Requires DocFinance installed on a separate server"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DocFinance"
+    ],
+    "requires": [
+      "DocFinance"
+    ],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

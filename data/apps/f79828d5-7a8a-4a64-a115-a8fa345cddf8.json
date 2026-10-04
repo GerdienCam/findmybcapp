@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.etiscangmbh1646056859495|AID.bcscan_1|PAPPID.f79828d5-7a8a-4a64-a115-a8fa345cddf8",
+  "guid": "f79828d5-7a8a-4a64-a115-a8fa345cddf8",
+  "publisherId": "etiscangmbh1646056859495",
+  "offerId": "bcscan_1",
+  "source": {
+    "name": "etiscan BC Scan – The Smart WMS for Microsoft Dynamics 365 Business Central",
+    "publisher": "etiscan GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.etiscangmbh1646056859495%7CAID.bcscan_1%7CPAPPID.f79828d5-7a8a-4a64-a115-a8fa345cddf8",
+    "lastModified": "2026-10-02T04:30:05.2767533+00:00",
+    "appVersion": "27.3.0.104",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.etiscan.de/en/kontakt",
+    "sourceHash": "sha256:70757e6053aeb83c64a9087707050fd9d61b9a4039885f07e90650abd699d552"
+  },
+  "mapping": {
+    "sourceHash": "sha256:70757e6053aeb83c64a9087707050fd9d61b9a4039885f07e90650abd699d552",
+    "mappedOn": null,
+    "summary": "Mobile barcode warehouse management system",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-shop-floor-reporting",
+      "ng-packing-loading",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Complete batch and serial number tracking",
+      "Direct communication with BC cloud and on-premises",
+      "Incorrect entries detected immediately and corrected before posting",
+      "Offline functionality",
+      "Receiving of purchase orders and deliveries",
+      "Putaway to storage locations",
+      "Internal warehouse relocation",
+      "Mobile picking of orders",
+      "Shipping and loading registration",
+      "Package creation with label printing",
+      "Real-time stock inquiries",
+      "Paperless stock counting",
+      "Mobile booking of production quantities and times",
+      "Label printing on mobile and stationary printers",
+      "Scales from 2 to 200 devices",
+      "Supports Essential and Premium licences"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE",
+      "GB",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

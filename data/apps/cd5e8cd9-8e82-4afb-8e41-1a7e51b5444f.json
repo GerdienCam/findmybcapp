@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.fidesiousprobv1710687577357|AID.dist_mgt|PAPPID.cd5e8cd9-8e82-4afb-8e41-1a7e51b5444f",
+  "guid": "cd5e8cd9-8e82-4afb-8e41-1a7e51b5444f",
+  "publisherId": "fidesiousprobv1710687577357",
+  "offerId": "dist_mgt",
+  "source": {
+    "name": "Distribution Management",
+    "publisher": "FidesiousPro",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fidesiousprobv1710687577357%7CAID.dist_mgt%7CPAPPID.cd5e8cd9-8e82-4afb-8e41-1a7e51b5444f",
+    "lastModified": "2026-09-01T16:10:39.708312+00:00",
+    "appVersion": "2.3.0.158",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://fidesiouspro.nl/en/distribution-management/help/",
+    "sourceHash": "sha256:3897ad0bc8be2a1e45a8d0d93563c6dbc57704d90cf161148fa5dbd66de896ef"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3897ad0bc8be2a1e45a8d0d93563c6dbc57704d90cf161148fa5dbd66de896ef",
+    "mappedOn": null,
+    "summary": "Consolidated shipments, receipts, transfers and pallet registration",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-movements",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-freight-cost-audit",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Brings incoming receipts, internal transfers and outgoing shipments together",
+      "Registers packaging units like pallets, boxes and containers",
+      "Records carriers, transport references and documentation",
+      "Supports pallet numbers and container numbers",
+      "Records which items are in which packaging unit for traceability",
+      "Distribution costs per carrier processed through purchase invoices",
+      "Central coordination across multiple orders, movements and locations"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

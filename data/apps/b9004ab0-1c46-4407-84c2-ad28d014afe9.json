@@ -1,0 +1,93 @@
+{
+  "appId": "PUBID.improjects1600264753714|AID.im_warehouse|PAPPID.b9004ab0-1c46-4407-84c2-ad28d014afe9",
+  "guid": "b9004ab0-1c46-4407-84c2-ad28d014afe9",
+  "publisherId": "improjects1600264753714",
+  "offerId": "im_warehouse",
+  "source": {
+    "name": "IM Warehouse Basic",
+    "publisher": "IM-PROJECTS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.improjects1600264753714%7CAID.im_warehouse%7CPAPPID.b9004ab0-1c46-4407-84c2-ad28d014afe9",
+    "lastModified": "2026-09-17T15:44:55.8327052+00:00",
+    "appVersion": "1.0.0.230",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://imwarehouse.help.im-projects.com/",
+    "sourceHash": "sha256:e92485daf96cedd0b21462aa989bca3b004a0aa7fa81c0661750ebb2c2ab49de"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e92485daf96cedd0b21462aa989bca3b004a0aa7fa81c0661750ebb2c2ab49de",
+    "mappedOn": null,
+    "summary": "Android handheld warehouse operations for basic locations",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-packing-loading",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Runs warehouse operations from an Android handheld device",
+      "On the handheld it handles stock, inventory, purchasing, sales, transfers, returns, picking, packing lists, shipments, label printing and operator task lists",
+      "Includes packing lists and directed purchase orders",
+      "Supports Essential and Premium editions",
+      "Supports basic locations and shop back-office stock operations"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IS",
+      "IT",
+      "NL",
+      "NZ",
+      "PT",
+      "SE",
+      "SG",
+      "ZA"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [
+      "Distribution",
+      "Food services",
+      "Healthcare",
+      "Hospitality",
+      "Manufacturing",
+      "Retail",
+      "Wholesale"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

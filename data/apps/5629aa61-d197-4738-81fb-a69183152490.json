@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_directdebit|PAPPID.5629aa61-d197-4738-81fb-a69183152490",
+  "guid": "5629aa61-d197-4738-81fb-a69183152490",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_directdebit",
+  "source": {
+    "name": "Fusion5 Direct Debit ANZ",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_directdebit%7CPAPPID.5629aa61-d197-4738-81fb-a69183152490",
+    "lastModified": "2026-06-10T00:03:17.6452571+00:00",
+    "appVersion": "2700.3.20260610.75936",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/430374955/Direct+Debit+ANZ",
+    "sourceHash": "sha256:897d5f8fa0f2dec116de492a6b7104a136364277bd4e9183498f2252bc713497"
+  },
+  "mapping": {
+    "sourceHash": "sha256:897d5f8fa0f2dec116de492a6b7104a136364277bd4e9183498f2252bc713497",
+    "mappedOn": null,
+    "summary": "Creates direct debit files for Australian and New Zealand banks",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Creates direct debit payment files for Australian and New Zealand banks",
+      "Direct-debit mandates per customer with valid from/to and mandate ID",
+      "Generates collections from invoice due dates and mandates",
+      "Exports collections to bank file",
+      "Posts receipts for processed collections or prepares journal lines"
+    ],
+    "countries": [
+      "AU",
+      "NZ"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

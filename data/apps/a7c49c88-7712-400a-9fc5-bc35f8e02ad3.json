@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.zeroblu|AID.bc365_fideuram|PAPPID.a7c49c88-7712-400a-9fc5-bc35f8e02ad3",
+  "guid": "a7c49c88-7712-400a-9fc5-bc35f8e02ad3",
+  "publisherId": "zeroblu",
+  "offerId": "bc365_fideuram",
+  "source": {
+    "name": "APP365 - Transazioni Banca Fideuram",
+    "publisher": "ZeroBlu Srl",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.zeroblu%7CAID.bc365_fideuram%7CPAPPID.a7c49c88-7712-400a-9fc5-bc35f8e02ad3",
+    "lastModified": "2024-11-22T16:03:51.6097048+00:00",
+    "appVersion": "3.0.0.20",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.business-central.app/public/app365fideuram_help.pdf",
+    "sourceHash": "sha256:d538cdb405299e513c8cd087fcfae8fd5c93c6d6e95844b7e1262d735a9bef94"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d538cdb405299e513c8cd087fcfae8fd5c93c6d6e95844b7e1262d735a9bef94",
+    "mappedOn": null,
+    "summary": "Imports Banca Fideuram bank transaction files",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Imports Banca Fideuram transaction XLSX file",
+      "Imported transactions viewable on a dedicated page",
+      "Imports debit and credit card transactions as well as account transactions",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Banca Fideuram"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

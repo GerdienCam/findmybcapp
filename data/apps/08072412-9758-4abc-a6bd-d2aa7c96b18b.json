@@ -1,0 +1,64 @@
+{
+  "appId": "TYPE.connect|PUBID.centerstageinc1690983912338|AID.shipstation|PAPPID.08072412-9758-4abc-a6bd-d2aa7c96b18b",
+  "guid": "08072412-9758-4abc-a6bd-d2aa7c96b18b",
+  "publisherId": "centerstageinc1690983912338",
+  "offerId": "shipstation",
+  "source": {
+    "name": "ShipStation for Microsoft Dynamics 365 Business Central",
+    "publisher": "iPaaS.com",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.centerstageinc1690983912338%7CAID.shipstation%7CPAPPID.08072412-9758-4abc-a6bd-d2aa7c96b18b",
+    "lastModified": "2026-06-12T03:36:19.9750738+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.ipaas.com/en/collections/11328920-shipstation",
+    "sourceHash": "sha256:d4bfcdff96a23c09918c61dc72a022cc953f18a8d62522a9a2d27f34936bb69b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d4bfcdff96a23c09918c61dc72a022cc953f18a8d62522a9a2d27f34936bb69b",
+    "mappedOn": null,
+    "summary": "Order shipping via ShipStation",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Sends orders from BC to ShipStation",
+      "Returns order status and shipment tracking to BC",
+      "Syncs product data to ShipStation",
+      "Shipping label printing in ShipStation",
+      "Handles cancelled lines or orders in data flows"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Consumer Goods",
+      "Manufacturing",
+      "Retail"
+    ],
+    "connectsTo": [
+      "ShipStation",
+      "iPaaS.com"
+    ],
+    "requires": [
+      "iPaaS.com",
+      "ShipStation"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

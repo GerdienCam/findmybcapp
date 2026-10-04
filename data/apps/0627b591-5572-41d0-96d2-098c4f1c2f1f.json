@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.idynbv|AID.sendcloud_shipit|PAPPID.0627b591-5572-41d0-96d2-098c4f1c2f1f",
+  "guid": "0627b591-5572-41d0-96d2-098c4f1c2f1f",
+  "publisherId": "idynbv",
+  "offerId": "sendcloud_shipit",
+  "source": {
+    "name": "ShipIT 365 Sendcloud shipping",
+    "publisher": "IDYN B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idynbv%7CAID.sendcloud_shipit%7CPAPPID.0627b591-5572-41d0-96d2-098c4f1c2f1f",
+    "lastModified": "2026-10-02T08:21:47.4003954+00:00",
+    "appVersion": "28.2.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://idyn.atlassian.net/wiki/spaces/S365M/pages/22151185/Introduction",
+    "sourceHash": "sha256:b68ead5e3b69ff8739210c259815295b644dc969937b7404bf4bc810befc7566"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b68ead5e3b69ff8739210c259815295b644dc969937b7404bf4bc810befc7566",
+    "mappedOn": null,
+    "summary": "Ships orders via Sendcloud with labels",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-freight-cost-audit"
+    ],
+    "claims": [
+      "Compare carrier options and freight charges in BC",
+      "Print shipment labels and track deliveries from BC",
+      "Integrated in sales, warehouse shipment, return and transfer orders",
+      "Adds freight charges automatically to sales orders",
+      "Available on Tasklet Mobile WMS and Multisoft Mobile NAV",
+      "Connects 160+ carriers via Sendcloud",
+      "Requires Sendcloud contract"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Sendcloud",
+      "DHL",
+      "DPD",
+      "UPS",
+      "GLS",
+      "PostNL",
+      "Bpost"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

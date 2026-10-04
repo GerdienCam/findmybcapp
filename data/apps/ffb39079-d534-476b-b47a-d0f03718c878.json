@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.adv-budget-forcast-app|PAPPID.ffb39079-d534-476b-b47a-d0f03718c878",
+  "guid": "ffb39079-d534-476b-b47a-d0f03718c878",
+  "publisherId": "fenwicksoftware",
+  "offerId": "adv-budget-forcast-app",
+  "source": {
+    "name": "Advanced Budgeting and Forecasting",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.adv-budget-forcast-app%7CPAPPID.ffb39079-d534-476b-b47a-d0f03718c878",
+    "lastModified": "2026-08-03T05:29:15.9819546+00:00",
+    "appVersion": "27.0.260720.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/advanced-budgeting-and-forecasting/docs/",
+    "sourceHash": "sha256:d2c15c169cdc7cd2f842ae194d5d2269715b2185972c299dc2a1092f7e0a883e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d2c15c169cdc7cd2f842ae194d5d2269715b2185972c299dc2a1092f7e0a883e",
+    "mappedOn": null,
+    "summary": "Budget and forecast creation and synchronization",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-budget-build",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Default views and filters for sales and purchase budget overviews",
+      "Added filters for reordering policy, location and inventory posting group",
+      "Populates item budgets from prior budgets or ledger entries with averaging and adjustments",
+      "Calculates component budget entries from the production BOM in one click",
+      "Keeps budget and forecast in sync",
+      "Available in Supply Chain Pack"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

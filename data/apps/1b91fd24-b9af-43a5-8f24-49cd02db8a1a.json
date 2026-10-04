@@ -1,0 +1,90 @@
+{
+  "appId": "PUBID.simplyd|AID.saas-isvsd-case|PAPPID.1b91fd24-b9af-43a5-8f24-49cd02db8a1a",
+  "guid": "1b91fd24-b9af-43a5-8f24-49cd02db8a1a",
+  "publisherId": "simplyd",
+  "offerId": "saas-isvsd-case",
+  "source": {
+    "name": "SD Case Manager",
+    "publisher": "Simply Dynamics Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.saas-isvsd-case%7CPAPPID.1b91fd24-b9af-43a5-8f24-49cd02db8a1a",
+    "lastModified": "2026-10-02T09:15:12.6101984+00:00",
+    "appVersion": "7.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-case-manager/",
+    "sourceHash": "sha256:8b6a25e7896aec021fe6feb9e8c01582fa9a0c54b88cf397ec2c5946d3aa9dbe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8b6a25e7896aec021fe6feb9e8c01582fa9a0c54b88cf397ec2c5946d3aa9dbe",
+    "mappedOn": null,
+    "summary": "Logs, tracks and escalates customer cases and tickets",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-case-intake",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-case-routing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-nonconformance-capa",
+      "ng-case-customer-updates",
+      "ng-case-analytics"
+    ],
+    "claims": [
+      "Separate case queues per case type",
+      "Defined workflow steps to resolve cases",
+      "Automated escalation rules for due/overdue actions",
+      "Notify internal and external users on case progress",
+      "Priority rules on cases and queues",
+      "Report issues by category by period",
+      "Email templates with placeholders",
+      "Monitors multiple email inboxes per queue, used to log and update cases",
+      "Tracks items and resources, billable or budgeted, against a case",
+      "Track, bill and schedule time spent on cases",
+      "Use cases include help desk, complaints, NCR and process improvement"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "NL",
+      "NO",
+      "NZ",
+      "PT",
+      "SE",
+      "TR",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

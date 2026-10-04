@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.erpconnectconsultingllc1655482443679|AID.isd-au|PAPPID.1ba4cd28-c0a3-4611-bc21-6baa86dd20b6",
+  "guid": "1ba4cd28-c0a3-4611-bc21-6baa86dd20b6",
+  "publisherId": "erpconnectconsultingllc1655482443679",
+  "offerId": "isd-au",
+  "source": {
+    "name": "Invoice and Statement Delivery",
+    "publisher": "RUX Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpconnectconsultingllc1655482443679%7CAID.isd-au%7CPAPPID.1ba4cd28-c0a3-4611-bc21-6baa86dd20b6",
+    "lastModified": "2026-09-10T05:29:17.0543397+00:00",
+    "appVersion": "27.1.0.37",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://ruxsoftware.com/application/invoice-and-statement-delivery",
+    "sourceHash": "sha256:0a87643f9856f84c4c284c6a7ad37b01dfb5c57365ff8e2f8e31cc93343e74f3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0a87643f9856f84c4c284c6a7ad37b01dfb5c57365ff8e2f8e31cc93343e74f3",
+    "mappedOn": null,
+    "summary": "Automatically emails invoices, statements and reminders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-subscription-billing"
+    ],
+    "claims": [
+      "Auto-email invoices, credit memos and payment receipts on posting",
+      "Bulk sending from dashboard",
+      "Payment receipts with remittance or paid invoice copies",
+      "Scheduled customer statements e.g. month end",
+      "Exclude on-hold invoices and zero-balance statements",
+      "Nightly job queue sending",
+      "Include invoice copies with statements",
+      "Pre-due invoice reminders",
+      "Recurring overdue notices until paid",
+      "Recurring orders and invoices with dashboard"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.alpha_solutions_ag|AID.asps|PAPPID.a75403da-177f-48d9-b118-4e8589b98530",
+  "guid": "a75403da-177f-48d9-b118-4e8589b98530",
+  "publisherId": "alpha_solutions_ag",
+  "offerId": "asps",
+  "source": {
+    "name": "Aproda Print Solution (ASPS)",
+    "publisher": "Aproda AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alpha_solutions_ag%7CAID.asps%7CPAPPID.a75403da-177f-48d9-b118-4e8589b98530",
+    "lastModified": "2026-09-02T10:03:30.8142387+00:00",
+    "appVersion": "24.0.0.46",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aproda.ch/aproda-print-solution",
+    "sourceHash": "sha256:b4db0d095dbaf86fc110751695bd9130bdea04286c85176ed81929904bc8037a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b4db0d095dbaf86fc110751695bd9130bdea04286c85176ed81929904bc8037a",
+    "mappedOn": null,
+    "summary": "Cloud and label printing via PrintNode and Printix",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-printing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Cloud printing via PrintNode and Printix API",
+      "Printer selections for cloud printing",
+      "Label printing via Bartender and NiceLabel API",
+      "Logs all printing actions including reprints",
+      "Out-of-the-box label data sets for items, addresses, sales and purchase orders and lines",
+      "Labels for goods receipts, production, components and assembly orders"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PrintNode",
+      "Printix",
+      "BarTender",
+      "NiceLabel"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

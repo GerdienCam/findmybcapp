@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.navertica|AID.nvr-complaint-mng|PAPPID.33d6a25a-f56c-4e7a-aa16-ee5496c34948",
+  "guid": "33d6a25a-f56c-4e7a-aa16-ee5496c34948",
+  "publisherId": "navertica",
+  "offerId": "nvr-complaint-mng",
+  "source": {
+    "name": "Navertica Complaint Management",
+    "publisher": "NAVERTICA a.s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.nvr-complaint-mng%7CPAPPID.33d6a25a-f56c-4e7a-aa16-ee5496c34948",
+    "lastModified": "2026-09-21T14:15:58.0778659+00:00",
+    "appVersion": "27.1.363683.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.navertica.com/en-us/Complaint%20Management/Index/",
+    "sourceHash": "sha256:e69940685502dec8c311f7c9aee068f64c3b7c71342ff49e3aa476485c7e131e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e69940685502dec8c311f7c9aee068f64c3b7c71342ff49e3aa476485c7e131e",
+    "mappedOn": null,
+    "summary": "Customer and vendor complaints and return claims",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-returns",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-returns-credits",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-nonconformance-capa",
+      "ng-case-resolve"
+    ],
+    "claims": [
+      "Handles both vendor and customer return claims and disagreements",
+      "Covers the complaint process from customer return receipt to supplier complaint settlement",
+      "Automatic e-mail notifications",
+      "Complaint statistics as basis for process improvement",
+      "Advanced description of return claims",
+      "Traceability of any document and parameter",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

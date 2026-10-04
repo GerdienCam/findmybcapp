@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.production_monitoring_agent|PAPPID.e6842aec-8dba-4a47-9ab2-60be70e73857",
+  "guid": "e6842aec-8dba-4a47-9ab2-60be70e73857",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "production_monitoring_agent",
+  "source": {
+    "name": "Production Monitoring Agent",
+    "publisher": "LODESTAR SPA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.production_monitoring_agent%7CPAPPID.e6842aec-8dba-4a47-9ab2-60be70e73857",
+    "lastModified": "2026-09-11T13:08:45.3797791+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:0672fb481638e922e900279f0cb6a6b3412d1abe2bfd80ed037f315f75fd1a58"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0672fb481638e922e900279f0cb6a6b3412d1abe2bfd80ed037f315f75fd1a58",
+    "mappedOn": null,
+    "summary": "AI agent answering manufacturing questions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-copilot-agents",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-ai-assistant",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-shop-floor-reporting"
+    ],
+    "claims": [
+      "Production assistant that turns user requests into agent tasks",
+      "Dedicated input page for submitting questions",
+      "Registers as a Copilot capability",
+      "Public API to activate, deactivate and assign tasks incl. attachments",
+      "Messages can be checked, annotated and enriched for supervision",
+      "KPI tracking of created, pending, completed and stopped tasks",
+      "Role-based access to agent setup"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

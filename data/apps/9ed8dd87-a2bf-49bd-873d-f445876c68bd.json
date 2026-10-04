@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.microcloud360ptyltd1579690308764|AID.microcloud360-001|PAPPID.9ed8dd87-a2bf-49bd-873d-f445876c68bd",
+  "guid": "9ed8dd87-a2bf-49bd-873d-f445876c68bd",
+  "publisherId": "microcloud360ptyltd1579690308764",
+  "offerId": "microcloud360-001",
+  "source": {
+    "name": "Sync Central AD",
+    "publisher": "MicroCloud 360 Pty Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microcloud360ptyltd1579690308764%7CAID.microcloud360-001%7CPAPPID.9ed8dd87-a2bf-49bd-873d-f445876c68bd",
+    "lastModified": "2026-04-22T18:26:09.2196521+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://microcloud360.com.au/contact-us",
+    "sourceHash": "sha256:89f0628a166703db841e84f2b45b19e43a0d81f3d6780f16db8ead3647002e07"
+  },
+  "mapping": {
+    "sourceHash": "sha256:89f0628a166703db841e84f2b45b19e43a0d81f3d6780f16db8ead3647002e07",
+    "mappedOn": null,
+    "summary": "Mobile barcode scanning for warehouse, inventory and production",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking",
+      "ng-stock-movements",
+      "ng-lot-serial-traceability",
+      "ng-barcode-labels"
+    ],
+    "claims": [
+      "Barcode scanning of items, bins, lots, pallets and documents",
+      "Validates scanned data against BC records",
+      "Real-time posting of transactions",
+      "Uses standard BC documents, journals and item tracking",
+      "Runs on handheld terminals and mobile scanners",
+      "Receives purchase orders and warehouse receipts",
+      "Scans barcodes from suppliers to check items and quantities",
+      "Prints barcode labels when supplier labels are missing",
+      "Posts goods received notes",
+      "Picks components for released production orders",
+      "Records consumption by scanning, capturing lot and expiry",
+      "Records production output and posts output journals",
+      "Scans pallet labels for output",
+      "Picks for released sales orders with item tracking validation",
+      "Ad-hoc bin-to-bin movements"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.continia365|AID.52769930-8c7e-4bb1-9306-e0a33a6781ec|PAPPID.52769930-8c7e-4bb1-9306-e0a33a6781ec",
+  "guid": "52769930-8c7e-4bb1-9306-e0a33a6781ec",
+  "publisherId": "continia365",
+  "offerId": "52769930-8c7e-4bb1-9306-e0a33a6781ec",
+  "source": {
+    "name": "Continia Banking - Migration Payment Management",
+    "publisher": "Continia Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.52769930-8c7e-4bb1-9306-e0a33a6781ec%7CPAPPID.52769930-8c7e-4bb1-9306-e0a33a6781ec",
+    "lastModified": "2026-09-18T10:09:22.1535887+00:00",
+    "appVersion": "28.6.0.382447",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.continia.com/en-us/continia-banking",
+    "sourceHash": "sha256:48df03a0d0d83da02dc8654fcf63703ae0b49e1ae4696b41a6a19d7132f574fa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:48df03a0d0d83da02dc8654fcf63703ae0b49e1ae4696b41a6a19d7132f574fa",
+    "mappedOn": null,
+    "summary": "Migrates Payment Management data to Continia Banking",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Pre-validates existing Payment Management data for errors",
+      "Transfers transactions, bank accounts and settings to Continia Banking",
+      "Step-by-step migration wizard",
+      "Deactivates Payment Management and activates Continia Banking automatically",
+      "Checks bank account data, reconciliations and journals ahead of migration",
+      "Historical data preserved after uninstalling Payment Management"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Continia Banking",
+      "Continia Payment Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

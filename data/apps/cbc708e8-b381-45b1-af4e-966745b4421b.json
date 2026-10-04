@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.inventio-it|AID.smartcompanyinfo|PAPPID.cbc708e8-b381-45b1-af4e-966745b4421b",
+  "guid": "cbc708e8-b381-45b1-af4e-966745b4421b",
+  "publisherId": "inventio-it",
+  "offerId": "smartcompanyinfo",
+  "source": {
+    "name": "SMARTcompanyinfo",
+    "publisher": "Inventio.IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.inventio-it%7CAID.smartcompanyinfo%7CPAPPID.cbc708e8-b381-45b1-af4e-966745b4421b",
+    "lastModified": "2026-03-27T10:25:29.3029144+00:00",
+    "appVersion": "1.0.3.7",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://help.inventio.it/en-us/smartcompanyinfo/documentation",
+    "sourceHash": "sha256:56fc74182a3f4c6be4a62da8baf9604d49aec680409af7e29d6b8de9594dc195"
+  },
+  "mapping": {
+    "sourceHash": "sha256:56fc74182a3f4c6be4a62da8baf9604d49aec680409af7e29d6b8de9594dc195",
+    "mappedOn": null,
+    "summary": "Updates B2B customer and vendor company data and ownership changes",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds",
+      "ng-admin-data-migration"
+    ],
+    "claims": [
+      "Creates and maintains Danish customers and vendors from the CVR registry",
+      "Alerts on ownership changes and bankruptcy proceedings",
+      "Alerts when a CVR number is under bankruptcy or goes bankrupt",
+      "Automatically blocks debtors whose CVR is under bankruptcy proceedings",
+      "Cleans up data on current debtors and creditors"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "CVR registry"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

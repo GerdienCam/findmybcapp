@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.hegla-hanic|AID.commaster|PAPPID.fa771679-1200-0500-0600-102b0fdf2c64",
+  "guid": "fa771679-1200-0500-0600-102b0fdf2c64",
+  "publisherId": "hegla-hanic",
+  "offerId": "commaster",
+  "source": {
+    "name": "glass365 ComMaster",
+    "publisher": "Hegla-Hanic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hegla-hanic%7CAID.commaster%7CPAPPID.fa771679-1200-0500-0600-102b0fdf2c64",
+    "lastModified": "2026-09-10T06:28:03.8300441+00:00",
+    "appVersion": "28.0.25.2022",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dev.azure.com/hegla-hanic/Hanic/_wiki/wikis/Anwender%20Dokumentation",
+    "sourceHash": "sha256:b4725bcdb16f94faba6741bb8682e8b409068b34b0408d6c1b393714f7020bad"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b4725bcdb16f94faba6741bb8682e8b409068b34b0408d6c1b393714f7020bad",
+    "mappedOn": null,
+    "summary": "Third-party communication for glass industry companies using glass365",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-metal-timber-materials",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-shop-floor-reporting"
+    ],
+    "claims": [
+      "Add-on that requires glass365",
+      "Webservice integration of BC with MES and external planning systems",
+      "Receives structured production feedback on progress, status and exceptions",
+      "Automates data transfer between BC and external systems",
+      "Premium edition only"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Glass"
+    ],
+    "connectsTo": [
+      "MES",
+      "external capacity planning tools"
+    ],
+    "requires": [
+      "glass365"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

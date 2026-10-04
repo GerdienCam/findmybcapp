@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcrolocfiscalizationlscentral-is|PAPPID.acba099c-e7e1-4473-94a7-439af75b5412",
+  "guid": "acba099c-e7e1-4473-94a7-439af75b5412",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcrolocfiscalizationlscentral-is",
+  "source": {
+    "name": "Romanian Localization and Fiscalization for LS Central",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcrolocfiscalizationlscentral-is%7CPAPPID.acba099c-e7e1-4473-94a7-439af75b5412",
+    "lastModified": "2026-09-29T05:56:28.8423424+00:00",
+    "appVersion": "28.37.177.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:308d721e4f645c1377fd74d79f30695ddc4efbe165e676b4e673f749607ed0a8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:308d721e4f645c1377fd74d79f30695ddc4efbe165e676b4e673f749607ed0a8",
+    "mappedOn": null,
+    "summary": "Romanian localization and fiscal printer integration for LS Central",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Sends fiscal receipt to a connected fiscal printer when posting an LS Central POS transaction",
+      "Fiscal receipt layout per Romanian legislation",
+      "Money in and money out operations",
+      "Prints daily X and Z reports and monthly/yearly periodic reports",
+      "Supports multiple VAT groups and rates",
+      "Additional non-fiscal text on receipts",
+      "Issues invoices directly from the POS per Romanian fiscalization",
+      "Issues credit notes, NIR receipt documents and money orders for POS returns",
+      "Statement posting adapted for 394 Declaration"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "languages": [
+      "en",
+      "ro"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Fiscal printer"
+    ],
+    "requires": [
+      "LS Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

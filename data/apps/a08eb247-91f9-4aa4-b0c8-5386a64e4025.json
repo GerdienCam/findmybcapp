@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.navtilus|AID.a08eb247-91f9-4aa4-b0c8-5386a64e4025|PAPPID.a08eb247-91f9-4aa4-b0c8-5386a64e4025",
+  "guid": "a08eb247-91f9-4aa4-b0c8-5386a64e4025",
+  "publisherId": "navtilus",
+  "offerId": "a08eb247-91f9-4aa4-b0c8-5386a64e4025",
+  "source": {
+    "name": "Waste Solution Reports",
+    "publisher": "Navtilus",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navtilus%7CAID.a08eb247-91f9-4aa4-b0c8-5386a64e4025%7CPAPPID.a08eb247-91f9-4aa4-b0c8-5386a64e4025",
+    "lastModified": "2026-09-21T13:27:21.227629+00:00",
+    "appVersion": "23.7.69.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.navtilus.dk/apps",
+    "sourceHash": "sha256:4e7f39102e0d28a946f68885a5ee1a61616ba48a233aae01d0cf290ed39874e1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4e7f39102e0d28a946f68885a5ee1a61616ba48a233aae01d0cf290ed39874e1",
+    "mappedOn": null,
+    "summary": "Reporting for Waste Solution",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-utilities-energy-waste",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-document-layouts"
+    ],
+    "claims": [
+      "Waste statistics per producer report",
+      "Declarations and collection order reports for hazardous waste",
+      "Requires ForNAV"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Waste Management"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Navtilus Waste Solution",
+      "ForNAV"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.armadadynamicsas1615984193301|AID.eqm365rental_crm|PAPPID.cc155441-bf38-426d-b44b-d7c921547bab",
+  "guid": "cc155441-bf38-426d-b44b-d7c921547bab",
+  "publisherId": "armadadynamicsas1615984193301",
+  "offerId": "eqm365rental_crm",
+  "source": {
+    "name": "EQM 365 Rental - CRM",
+    "publisher": "Armada Dynamics AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.armadadynamicsas1615984193301%7CAID.eqm365rental_crm%7CPAPPID.cc155441-bf38-426d-b44b-d7c921547bab",
+    "lastModified": "2026-09-13T17:56:21.8644146+00:00",
+    "appVersion": "28.5.202637.81461",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.armadadynamics.no/en/support/knowledge-database",
+    "sourceHash": "sha256:b0c8282d1e333a2fa2025231d3db9d1b178a0b11dc90127386de9b395ae71f4a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b0c8282d1e333a2fa2025231d3db9d1b178a0b11dc90127386de9b395ae71f4a",
+    "mappedOn": null,
+    "summary": "Rental-specific CRM features for EQM 365 Rental",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-equipment-rental",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Extends BC CRM with rental-specific features"
+    ],
+    "countries": [
+      "AE",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "GB",
+      "IS",
+      "LT",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "PL",
+      "QA",
+      "SE",
+      "SI",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "fi",
+      "fr",
+      "nb",
+      "nl"
+    ],
+    "industries": [
+      "Equipment rental"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "EQM 365 Rental"
+    ],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

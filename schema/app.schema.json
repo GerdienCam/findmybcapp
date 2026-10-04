@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://findmybc.app/schema/app.schema.json",
+  "title": "App file (data/apps/<stem>.json)",
+  "description": "One file per AppSource listing. Three zones: source (from AppSource, overwritten each refresh), mapping (machine-made, paraphrased, regenerated when the listing changes), curated (yours, never touched by scripts). No verbatim listing text is stored here.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["appId", "guid", "publisherId", "offerId", "source", "mapping", "curated"],
+  "properties": {
+    "appId": {
+      "description": "AppSource uniqueProductId, the real key. Example: PUBID.x|AID.y|PAPPID.<guid>",
+      "type": "string",
+      "pattern": "^(TYPE\\.[^|]+\\|)?PUBID\\.[^|]+\\|AID\\.[^|]+\\|PAPPID\\.[0-9a-fA-F-]{36}$"
+    },
+    "guid": {"type": "string", "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"},
+    "publisherId": {"type": "string", "minLength": 1},
+    "offerId": {"type": "string", "minLength": 1},
+    "source": {
+      "description": "Factual fields from the AppSource catalog. Refreshed monthly. Never edit by hand.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "publisher", "url", "lastModified", "pricingTypes", "sourceHash"],
+      "properties": {
+        "name": {"type": "string"},
+        "publisher": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "lastModified": {"type": "string"},
+        "appVersion": {"type": ["string", "null"]},
+        "pricingTypes": {"type": "array", "items": {"type": "string"}},
+        "freeTrial": {"type": ["string", "null"], "description": "Trial length, e.g. 1 Month"},
+        "helpLink": {"type": ["string", "null"]},
+        "sourceHash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+        "removedOn": {"type": ["string", "null"], "description": "Set when the listing disappears from the catalog."}
+      }
+    },
+    "mapping": {
+      "description": "Machine-made interpretation of the listing, in our own words. Regenerated only when source.sourceHash changes and curated.locked is false.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceHash", "summary", "shape", "primary", "secondary", "claims", "hide"],
+      "properties": {
+        "sourceHash": {"type": "string", "description": "source.sourceHash this mapping was made from. Different = stale."},
+        "mappedOn": {"type": ["string", "null"]},
+        "summary": {"type": ["string", "null"], "description": "One line in our own words. Null until written."},
+        "shape": {"enum": ["process", "connector", "usability", "addon", "vertical", "localization", "language", "other"], "description": "What kind of app: a process app, a connector, a tool, an add-on to another app, an industry solution, a localization, a language pack."},
+        "primary": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["need", "confidence"],
+            "properties": {"need": {"type": "string"}, "confidence": {"enum": ["high", "medium", "low"]}}
+          }
+        },
+        "secondary": {"type": "array", "items": {"type": "string"}},
+        "claims": {"type": "array", "items": {"type": "string", "minLength": 3}, "description": "Paraphrased: what the app claims to do."},
+        "countries": {"type": "array", "items": {"type": "string"}},
+        "languages": {"type": "array", "items": {"type": "string"}},
+        "industries": {"type": "array", "items": {"type": "string"}},
+        "connectsTo": {"type": "array", "items": {"type": "string"}},
+        "requires": {"type": "array", "items": {"type": "string"}},
+        "deployment": {"enum": ["online", "onprem", "both", "not_stated"]},
+        "pricing": {"enum": ["free", "free_trial", "subscription", "per_user", "per_company", "per_transaction", "one_time", "contact", "not_stated"]},
+        "hide": {"type": "boolean"},
+        "hideReason": {"type": "string"},
+        "noFit": {"type": "string"}
+      }
+    },
+    "curated": {
+      "description": "Your corrections. Scripts never write here. overrides win over mapping.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["overrides", "locked", "note"],
+      "properties": {
+        "overrides": {"type": "object", "description": "Any mapping field name -> value that replaces it."},
+        "locked": {"type": "boolean", "description": "True = mapping is never regenerated for this app."},
+        "note": {"type": "string"}
+      }
+    }
+  }
+}

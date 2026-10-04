@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.astral365|AID.astral_gocardless|PAPPID.ab0f5beb-c8b2-4959-9d4a-1fac9e012a49",
+  "guid": "ab0f5beb-c8b2-4959-9d4a-1fac9e012a49",
+  "publisherId": "astral365",
+  "offerId": "astral_gocardless",
+  "source": {
+    "name": "Astral GoCardless",
+    "publisher": "Astral 365",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.astral365%7CAID.astral_gocardless%7CPAPPID.ab0f5beb-c8b2-4959-9d4a-1fac9e012a49",
+    "lastModified": "2026-08-12T16:50:34.1103164+00:00",
+    "appVersion": "2.19.2604.197775",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.astral365.com/Products/AstralGoCardless/Help",
+    "sourceHash": "sha256:86b129d671d4b08dfddee66168019b5f0094a9174c00051af87c75fe829ce636"
+  },
+  "mapping": {
+    "sourceHash": "sha256:86b129d671d4b08dfddee66168019b5f0094a9174c00051af87c75fe829ce636",
+    "mappedOn": null,
+    "summary": "Collects direct debit payments against invoices via GoCardless",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-subscription-billing"
+    ],
+    "claims": [
+      "Sets up customer direct debit mandates and collects against them",
+      "Collects in USD, CAD, NZD, DKK, SEK, AUD, EUR and GBP",
+      "Supported formats: ACH, PAD, PaymentsNZ, Betalingsservice, Autogiro, BECS, SEPA and Bacs",
+      "Select which invoices are paid by direct debit",
+      "Payments collected and reconciled automatically",
+      "Includes Instant Bank Payments",
+      "Migrate direct debits from existing providers",
+      "International payments with spot rate conversion"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "GoCardless"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

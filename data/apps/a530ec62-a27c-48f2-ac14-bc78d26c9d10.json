@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.equerralimited|AID.equerra-elevate-admin|PAPPID.a530ec62-a27c-48f2-ac14-bc78d26c9d10",
+  "guid": "a530ec62-a27c-48f2-ac14-bc78d26c9d10",
+  "publisherId": "equerralimited",
+  "offerId": "equerra-elevate-admin",
+  "source": {
+    "name": "Elevate Admin",
+    "publisher": "Equerra Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.equerralimited%7CAID.equerra-elevate-admin%7CPAPPID.a530ec62-a27c-48f2-ac14-bc78d26c9d10",
+    "lastModified": "2026-07-20T07:10:15.8796949+00:00",
+    "appVersion": "28.1.31.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.equerra.com/docs/ElevateAdmin",
+    "sourceHash": "sha256:f48cc34350f9dde1395b4d6de93f7534a05c6e483e1718f7700352dff64ee850"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f48cc34350f9dde1395b4d6de93f7534a05c6e483e1718f7700352dff64ee850",
+    "mappedOn": null,
+    "summary": "Admin toolkit for data editing, object runs, sandbox prep",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-correct-posted",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-extensions-env",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving",
+      "ng-admin-change-log",
+      "ng-admin-job-queue-failures"
+    ],
+    "claims": [
+      "Admin Hub dashboard of environment, users, email, job queue health and recent edits",
+      "Edit any table in grid or bulk with find/replace, insert, delete",
+      "JSON or Excel import and export in data editor",
+      "Optional audit log of table, field, old and new values",
+      "Runs any table, codeunit, XMLport, report or page given its ID",
+      "Purges old sent and outbox email logs by date rule",
+      "Environment badge and name prefix across companies",
+      "Disables Entra application registrations after sandbox refresh",
+      "Password-protected allowed-users list gates privileged actions",
+      "Guards block company/application changes in production",
+      "Two permission sets included",
+      "No external services or dependencies",
+      "Requires BC online 28.1 or later"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

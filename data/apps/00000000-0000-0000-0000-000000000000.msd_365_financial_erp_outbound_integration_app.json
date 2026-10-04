@@ -1,0 +1,60 @@
+{
+  "appId": "TYPE.connect|PUBID.adp|AID.msd_365_financial_erp_outbound_integration_app|PAPPID.00000000-0000-0000-0000-000000000000",
+  "guid": "00000000-0000-0000-0000-000000000000",
+  "publisherId": "adp",
+  "offerId": "msd_365_financial_erp_outbound_integration_app",
+  "source": {
+    "name": "ADP Workforce Now Outbound Integration",
+    "publisher": "ADP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.adp%7CAID.msd_365_financial_erp_outbound_integration_app%7CPAPPID.00000000-0000-0000-0000-000000000000",
+    "lastModified": "2024-11-21T08:53:33.6714425+00:00",
+    "appVersion": "001.006.05_2018",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "http://ADP_PS_Intergration_Support@adp.com/",
+    "sourceHash": "sha256:f0e5ec46408034b7a6e9e023eef9a11a0fdaafe55ba579bc4ec326619efa5f4f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f0e5ec46408034b7a6e9e023eef9a11a0fdaafe55ba579bc4ec326619efa5f4f",
+    "mappedOn": null,
+    "summary": "Passes ADP Workforce Now payroll data into BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-payroll-comp",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-employee-records",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Passes payroll journal entries from ADP Workforce Now to Business Central",
+      "Payroll journal entries support up to 20 dimensions",
+      "Syncs employee data (ID, name, address, email, title, phone) into BC",
+      "Real-time sync of HR events such as new hires and terminations",
+      "Needs ADP Workforce Now plus its General Ledger Interface",
+      "Supports Business Central and Dynamics NAV 2018"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "ADP Workforce Now"
+    ],
+    "requires": [
+      "ADP Workforce Now"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

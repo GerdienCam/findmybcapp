@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.columbus_eesti|AID.envoice|PAPPID.03ab662a-4083-477e-bd5f-f919145af983",
+  "guid": "03ab662a-4083-477e-bd5f-f919145af983",
+  "publisherId": "columbus_eesti",
+  "offerId": "envoice",
+  "source": {
+    "name": "ENVOICE - Expense and Purchase automation",
+    "publisher": "OIXIO Estonia",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.columbus_eesti%7CAID.envoice%7CPAPPID.03ab662a-4083-477e-bd5f-f919145af983",
+    "lastModified": "2026-09-30T13:22:34.2180123+00:00",
+    "appVersion": "25.0.260930.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.envoice.eu/hc/en-us/articles/360022393393-Dynamics-365-Business-Central",
+    "sourceHash": "sha256:568465232f186c520eb7ee25b0838ff7f3bccbbea636fb44189a5179c887dae8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:568465232f186c520eb7ee25b0838ff7f3bccbbea636fb44189a5179c887dae8",
+    "mappedOn": null,
+    "summary": "OCR capture of purchase invoices, receipts and expense reports",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Extracts data from purchase invoices and receipts (OCR/AI)",
+      "Collects all purchase invoices and receipts in one platform",
+      "Expense reports created and submitted from a mobile app",
+      "Built-in collaboration and approval workflow",
+      "AI-based automation for recording purchases and expenses",
+      "Publishes data to Business Central",
+      "Access levels and permissions per user",
+      "Secure document archive accessible from any device",
+      "Travel reports supported",
+      "14-day free trial",
+      "Unlimited users at no extra fee"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "da",
+      "en",
+      "es",
+      "et",
+      "fi",
+      "no",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ENVOICE"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

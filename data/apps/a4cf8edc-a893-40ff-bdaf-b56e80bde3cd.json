@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.centralpathsolutions|AID.c7d03c8a-b72c-4f1a-a306-eec208654dff|PAPPID.a4cf8edc-a893-40ff-bdaf-b56e80bde3cd",
+  "guid": "a4cf8edc-a893-40ff-bdaf-b56e80bde3cd",
+  "publisherId": "centralpathsolutions",
+  "offerId": "c7d03c8a-b72c-4f1a-a306-eec208654dff",
+  "source": {
+    "name": "DimensionPath (W1)",
+    "publisher": "CentralPath Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralpathsolutions%7CAID.c7d03c8a-b72c-4f1a-a306-eec208654dff%7CPAPPID.a4cf8edc-a893-40ff-bdaf-b56e80bde3cd",
+    "lastModified": "2026-10-01T17:00:10.5556607+00:00",
+    "appVersion": "28.0.10058.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.centralpath.com/dimensionpath/",
+    "sourceHash": "sha256:07d88801d9f07565250954902dab62794e7692cc47171b9c13df4242157ee142"
+  },
+  "mapping": {
+    "sourceHash": "sha256:07d88801d9f07565250954902dab62794e7692cc47171b9c13df4242157ee142",
+    "mappedOn": null,
+    "summary": "Extends dimensions with relationships and analysis",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-dimensions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-financial-statements",
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Shortcut dimensions 3-8 act like global dimensions",
+      "All 8 dimensions available as row/column filters in Financial Reports",
+      "Dimension relations where one value dictates others, cascading",
+      "Dimension subsets limit valid values based on other dimensions",
+      "Replaces BC dimension combinations with tighter controls",
+      "Synchronizes master data (e.g. projects) to dimension values automatically",
+      "Multi-level item category hierarchy linked to dimensions",
+      "Segmented chart of accounts view",
+      "Segmented Account No. field on journals and document lines",
+      "Segmented trial balance reports"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

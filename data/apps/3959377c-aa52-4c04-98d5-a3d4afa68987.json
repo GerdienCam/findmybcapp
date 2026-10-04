@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.esc_bvba|AID.manufacturing_calculation|PAPPID.3959377c-aa52-4c04-98d5-a3d4afa68987",
+  "guid": "3959377c-aa52-4c04-98d5-a3d4afa68987",
+  "publisherId": "esc_bvba",
+  "offerId": "manufacturing_calculation",
+  "source": {
+    "name": "Manufacturing Calculation",
+    "publisher": "ESC bvba",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.esc_bvba%7CAID.manufacturing_calculation%7CPAPPID.3959377c-aa52-4c04-98d5-a3d4afa68987",
+    "lastModified": "2026-09-16T17:31:16.0284514+00:00",
+    "appVersion": "28.1.20260916.132543",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://alistar.net/nl/support/",
+    "sourceHash": "sha256:b2020f5a150f9d6ecf6fe790bb767a333b387eeaadb9921dc6347b83e19bcae2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b2020f5a150f9d6ecf6fe790bb767a333b387eeaadb9921dc6347b83e19bcae2",
+    "mappedOn": null,
+    "summary": "Builds BOM and routing structures for production",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-costing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters"
+    ],
+    "claims": [
+      "Creates BOM and routing (BOL) structures",
+      "Input materials, routings, prices and charges and link them together",
+      "Link complex setups with the production flow",
+      "Requires Premium edition"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

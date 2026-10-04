@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.advania|AID.advania_bokun_connection|PAPPID.28406c68-6644-4430-900b-fcbd109541cd",
+  "guid": "28406c68-6644-4430-900b-fcbd109541cd",
+  "publisherId": "advania",
+  "offerId": "advania_bokun_connection",
+  "source": {
+    "name": "Advania Bókun Connection",
+    "publisher": "Advania",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advania%7CAID.advania_bokun_connection%7CPAPPID.28406c68-6644-4430-900b-fcbd109541cd",
+    "lastModified": "2026-09-30T21:13:34.6865106+00:00",
+    "appVersion": "29.0.44.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.d365bc.is/bokun",
+    "sourceHash": "sha256:4531b0609874e9f3312ce08f805320150390e5d806fb6674bc98927e28611d6f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4531b0609874e9f3312ce08f805320150390e5d806fb6674bc98927e28611d6f",
+    "mappedOn": null,
+    "summary": "Imports bookings from Bókun into BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-hospitality",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Imports bookings from Bókun into BC",
+      "Scheduled booking import",
+      "Booking history",
+      "Overview of bookings by date"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DE",
+      "DK",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "IE",
+      "IS",
+      "NO",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [
+      "Tourism"
+    ],
+    "connectsTo": [
+      "Bókun"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

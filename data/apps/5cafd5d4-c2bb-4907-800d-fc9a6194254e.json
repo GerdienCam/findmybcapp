@@ -1,0 +1,84 @@
+{
+  "appId": "PUBID.korcomptenzinc1581563637242|AID.43032790-16c1-4774-bdb3-6c80773be496|PAPPID.5cafd5d4-c2bb-4907-800d-fc9a6194254e",
+  "guid": "5cafd5d4-c2bb-4907-800d-fc9a6194254e",
+  "publisherId": "korcomptenzinc1581563637242",
+  "offerId": "43032790-16c1-4774-bdb3-6c80773be496",
+  "source": {
+    "name": "Product Configurator",
+    "publisher": "Korcomptenz Inc",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.korcomptenzinc1581563637242%7CAID.43032790-16c1-4774-bdb3-6c80773be496%7CPAPPID.5cafd5d4-c2bb-4907-800d-fc9a6194254e",
+    "lastModified": "2026-04-02T10:27:13.3069137+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.korcomptenz.com/microsoft-dynamics-365/microsoft-dynamics-365-business-central-product-configurator",
+    "sourceHash": "sha256:5e3ed3edc1b6367495c7157f46ff5a9ac63a3d2dc89a561022cc9b70030c5516"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5e3ed3edc1b6367495c7157f46ff5a9ac63a3d2dc89a561022cc9b70030c5516",
+    "mappedOn": null,
+    "summary": "Product configurator for quotes and orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bom-formula-engineering",
+      "ng-production-planning"
+    ],
+    "claims": [
+      "Configures products from variant combinations at multiple levels including subcomponents",
+      "Creates sales orders from selected product features with pricing calculated from the features",
+      "Allows substitute products, parts or materials",
+      "Creates BOM and production order from the configuration",
+      "Automatically generates assembly or production BOMs and routings on sales orders and quotes",
+      "Regroups variants based on client needs",
+      "Supports Dynamics NAV 2016/2017/2018 and Business Central"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

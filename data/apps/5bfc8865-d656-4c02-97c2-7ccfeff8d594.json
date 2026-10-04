@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.bricklead1692180953470|AID.bri_mci|PAPPID.5bfc8865-d656-4c02-97c2-7ccfeff8d594",
+  "guid": "5bfc8865-d656-4c02-97c2-7ccfeff8d594",
+  "publisherId": "bricklead1692180953470",
+  "offerId": "bri_mci",
+  "source": {
+    "name": "Multi Company Inventory",
+    "publisher": "BRICKLEAD",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bricklead1692180953470%7CAID.bri_mci%7CPAPPID.5bfc8865-d656-4c02-97c2-7ccfeff8d594",
+    "lastModified": "2026-03-31T07:33:02.924656+00:00",
+    "appVersion": "27.0.9586.31313",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.bricklead.eu/en-us/apps/mci/",
+    "sourceHash": "sha256:516f321abdbf3e69d2e4a8c7a0e478c09247163be4fe35e17bb2e53211b94757"
+  },
+  "mapping": {
+    "sourceHash": "sha256:516f321abdbf3e69d2e4a8c7a0e478c09247163be4fe35e17bb2e53211b94757",
+    "mappedOn": null,
+    "summary": "Item inventory and availability across companies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Inventory/availability of same item across companies in the database",
+      "Supports replenishment from another group company",
+      "Find location able to answer a customer request",
+      "Supports Essential and Premium"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

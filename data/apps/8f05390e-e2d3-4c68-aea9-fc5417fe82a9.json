@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.cosmoconsultag|AID.advance_payment_opplus_bc|PAPPID.8f05390e-e2d3-4c68-aea9-fc5417fe82a9",
+  "guid": "8f05390e-e2d3-4c68-aea9-fc5417fe82a9",
+  "publisherId": "cosmoconsultag",
+  "offerId": "advance_payment_opplus_bc",
+  "source": {
+    "name": "COSMO Advance Payment OPplus Integration",
+    "publisher": "COSMO CONSULT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.advance_payment_opplus_bc%7CPAPPID.8f05390e-e2d3-4c68-aea9-fc5417fe82a9",
+    "lastModified": "2026-06-19T16:40:04.8676236+00:00",
+    "appVersion": "2.2.263115.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cosmoconsult.com/en-us/business-central/advance-payment/",
+    "sourceHash": "sha256:cb31f5fe0e454e864d599f21b021a2ce0816d3a90c05db55eae7c8d04b139ac9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cb31f5fe0e454e864d599f21b021a2ce0816d3a90c05db55eae7c8d04b139ac9",
+    "mappedOn": null,
+    "summary": "Down payment plans integrated with OPplus",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Integrates COSMO Advance Payment with OPplus",
+      "Installs COSMO Advance Payment automatically",
+      "Down payment plans in foreign currency",
+      "Clears open down payment requests on partial and final invoices",
+      "Handles special tax features of down payments"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE",
+      "DK",
+      "FI",
+      "GR",
+      "HK",
+      "IN",
+      "NO"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "OPplus"
+    ],
+    "requires": [
+      "COSMO Advance Payment",
+      "OPplus"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

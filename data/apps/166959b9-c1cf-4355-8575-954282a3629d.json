@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.oseberg_solutions|AID.oseberg_continuous_deployment|PAPPID.166959b9-c1cf-4355-8575-954282a3629d",
+  "guid": "166959b9-c1cf-4355-8575-954282a3629d",
+  "publisherId": "oseberg_solutions",
+  "offerId": "oseberg_continuous_deployment",
+  "source": {
+    "name": "Oseberg Solutions Continuous Deployment",
+    "publisher": "Oseberg Solutions AS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.oseberg_solutions%7CAID.oseberg_continuous_deployment%7CPAPPID.166959b9-c1cf-4355-8575-954282a3629d",
+    "lastModified": "2026-07-01T05:22:26.7410657+00:00",
+    "appVersion": "28.0.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://oseberg.no/",
+    "sourceHash": "sha256:fb9036412970314b726855cf5a1c6edf3d896ccad2ac5840bdb3550751d8e2f3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fb9036412970314b726855cf5a1c6edf3d896ccad2ac5840bdb3550751d8e2f3",
+    "mappedOn": null,
+    "summary": "Deploys Oseberg Solutions apps on an ongoing basis",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-extensions-env",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Automatically registers the Entra application for CI/CD on install",
+      "Assigns permission set to the Entra app's service user",
+      "Notifies admins when admin consent is missing",
+      "SaaS only"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Oseberg Solutions apps"
+    ],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Helper for deploying Oseberg Solutions' own apps; not a standalone customer solution",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

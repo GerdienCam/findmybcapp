@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.alterna|AID.e12c0a24-94d3-4978-ba3d-67fb45e6141d|PAPPID.e12c0a24-94d3-4978-ba3d-67fb45e6141d",
+  "guid": "e12c0a24-94d3-4978-ba3d-67fb45e6141d",
+  "publisherId": "alterna",
+  "offerId": "e12c0a24-94d3-4978-ba3d-67fb45e6141d",
+  "source": {
+    "name": "User Access Audit",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.e12c0a24-94d3-4978-ba3d-67fb45e6141d%7CPAPPID.e12c0a24-94d3-4978-ba3d-67fb45e6141d",
+    "lastModified": "2026-09-09T19:04:26.9290532+00:00",
+    "appVersion": "1.0.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/user-access-audit/",
+    "sourceHash": "sha256:1b43c129e6515052f75a6cf052eedd925073e1e885e9ee68727142eab98b6074"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1b43c129e6515052f75a6cf052eedd925073e1e885e9ee68727142eab98b6074",
+    "mappedOn": null,
+    "summary": "Monitors and manages user access and permissions",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-users-signin",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance",
+      "ng-admin-licensing"
+    ],
+    "claims": [
+      "Tracks users' last login",
+      "Access statuses are active, expiring, inactive and never logged in",
+      "Shows inactivity period in days",
+      "Suggests actions: expiring/inactivity notifications, disabling users",
+      "Logs executed actions for audit",
+      "Imports history from User Time Register",
+      "Manual or automatic user disabling",
+      "User white list and email exception list",
+      "Assisted setup"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

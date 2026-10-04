@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.lithuaniandynamicspartners|AID.currency-rate-from-lb-localization-lithuania|PAPPID.d1e0af9c-423d-4042-b291-a615a8e762ac",
+  "guid": "d1e0af9c-423d-4042-b291-a615a8e762ac",
+  "publisherId": "lithuaniandynamicspartners",
+  "offerId": "currency-rate-from-lb-localization-lithuania",
+  "source": {
+    "name": "Currency Rate from LB for Lithuania",
+    "publisher": "Lithuanian Dynamics Partners",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lithuaniandynamicspartners%7CAID.currency-rate-from-lb-localization-lithuania%7CPAPPID.d1e0af9c-423d-4042-b291-a615a8e762ac",
+    "lastModified": "2026-01-20T07:01:47.2668249+00:00",
+    "appVersion": "21.0.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicspartners.lt/help/help-for-currency-rate-from-lb/",
+    "sourceHash": "sha256:8b595c694ecc4001201bce5630ff887dc033c98beecd1877b3806a7b4a5827b1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8b595c694ecc4001201bce5630ff887dc033c98beecd1877b3806a7b4a5827b1",
+    "mappedOn": null,
+    "summary": "Imports exchange rates from Bank of Lithuania",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-currency",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-country-pack"
+    ],
+    "claims": [
+      "Imports exchange rates from the Lithuania Central Bank",
+      "Import rates for today, a given date or a date period",
+      "Scheduled periodic exchange rate import",
+      "Compliant with Lithuanian Law on Accounting"
+    ],
+    "countries": [
+      "LT"
+    ],
+    "languages": [
+      "lt"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Bank of Lithuania"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

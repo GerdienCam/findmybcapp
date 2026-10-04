@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.alterna|AID.54efd120-1725-4084-b41f-d5dc51d03028|PAPPID.54efd120-1725-4084-b41f-d5dc51d03028",
+  "guid": "54efd120-1725-4084-b41f-d5dc51d03028",
+  "publisherId": "alterna",
+  "offerId": "54efd120-1725-4084-b41f-d5dc51d03028",
+  "source": {
+    "name": "Quick Flow",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.54efd120-1725-4084-b41f-d5dc51d03028%7CPAPPID.54efd120-1725-4084-b41f-d5dc51d03028",
+    "lastModified": "2026-09-21T07:24:47.1936271+00:00",
+    "appVersion": "1.21.51.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/quick-flow/",
+    "sourceHash": "sha256:360b313db9825ed0d5f4d6a8d9eccdca831d3dfd7f1598ad25e2fcf4245e59f1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:360b313db9825ed0d5f4d6a8d9eccdca831d3dfd7f1598ad25e2fcf4245e59f1",
+    "mappedOn": null,
+    "summary": "Creates custom approval workflows on master data and documents",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-admin-alerts"
+    ],
+    "claims": [
+      "Builds custom workflows for documents and master data",
+      "Checks completeness and mandatory fields",
+      "Email notifications on status changes",
+      "Applies to customer, vendor, item, G/L, resource, job, contact, FA, BOM and routing",
+      "Applies to sales, purchase and service documents and transfer orders",
+      "Per-entity users, field control, function execution and status changes",
+      "User groups/users allowed to perform status change",
+      "Visual flow diagram",
+      "Multiple users required for a single status change",
+      "Copilot drafts new flows and suggests mandatory fields",
+      "Extendable with custom entities and functions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

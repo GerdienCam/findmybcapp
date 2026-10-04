@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex022generalledgerapplication|PAPPID.eea16403-0dc3-4cc7-ab77-a743c0090cc3",
+  "guid": "eea16403-0dc3-4cc7-ab77-a743c0090cc3",
+  "publisherId": "eos_solutions",
+  "offerId": "ex022generalledgerapplication",
+  "source": {
+    "name": "General Ledger Application",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex022generalledgerapplication%7CPAPPID.eea16403-0dc3-4cc7-ab77-a743c0090cc3",
+    "lastModified": "2026-07-08T16:58:08.6468566+00:00",
+    "appVersion": "28.0.11.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/general-ledger-application.html",
+    "sourceHash": "sha256:50494272902d4d04a88cf2783378bc1eb1d2c4c4f77536ef1497740fb4f67f4c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:50494272902d4d04a88cf2783378bc1eb1d2c4c4f77536ef1497740fb4f67f4c",
+    "mappedOn": null,
+    "summary": "Links and marks G/L entries for subtotals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Links G/L entries one at a time or many at once",
+      "Applies already posted G/L entries",
+      "Assigns applied entries a serial number, manually or automatically",
+      "Displays remaining amount and balance for linked entries",
+      "An Item No. can be set on linked entries",
+      "Free version applies up to 5 entries; Pro unlimited"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

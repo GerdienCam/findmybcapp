@@ -1,0 +1,62 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.pdf-to-xml|PAPPID.4b7065b7-ae0c-4d47-ab96-8c68f88a50d7",
+  "guid": "4b7065b7-ae0c-4d47-ab96-8c68f88a50d7",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "pdf-to-xml",
+  "source": {
+    "name": "PDF to XML Converter",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.pdf-to-xml%7CPAPPID.4b7065b7-ae0c-4d47-ab96-8c68f88a50d7",
+    "lastModified": "2026-07-16T05:31:37.1498599+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://knowledgebase.hubbroker.net/article/y8k4x6w4ok-pdf-2-xml",
+    "sourceHash": "sha256:66f77533891f37def798393cc060454d23a371a6c466c2b5c01bdff595a8bb26"
+  },
+  "mapping": {
+    "sourceHash": "sha256:66f77533891f37def798393cc060454d23a371a6c466c2b5c01bdff595a8bb26",
+    "mappedOn": null,
+    "summary": "Extracts PDF purchase orders and invoices to XML",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "Extracts data from PDF purchase orders, invoices and shipping notes into XML",
+      "Picks up prices, order numbers, product codes and quantities and prices",
+      "Imports XML into Microsoft Dynamics, SAP and Uniconta",
+      "Supports invoices, purchase orders, credit notes and shipping documents",
+      "Validation of extracted data before transmission",
+      "Customizable mapping rules for high volumes"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SAP",
+      "Uniconta"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

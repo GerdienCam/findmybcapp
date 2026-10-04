@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.hamwicomputersoftware1675860549560|AID.bc_target_calculator|PAPPID.dca8869e-3302-4b91-a174-95391f96df2d",
+  "guid": "dca8869e-3302-4b91-a174-95391f96df2d",
+  "publisherId": "hamwicomputersoftware1675860549560",
+  "offerId": "bc_target_calculator",
+  "source": {
+    "name": "Target Calculator",
+    "publisher": "Hamwi Computer Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.hamwicomputersoftware1675860549560%7CAID.bc_target_calculator%7CPAPPID.dca8869e-3302-4b91-a174-95391f96df2d",
+    "lastModified": "2026-06-03T06:26:15.1051491+00:00",
+    "appVersion": "2026.06.02.01",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://target-calculator-docs.ha-consultancy.com/",
+    "sourceHash": "sha256:33961d4083646897c59ba0bf091412b510d6ab779ceab1a39eb458dc10d010b1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:33961d4083646897c59ba0bf091412b510d6ab779ceab1a39eb458dc10d010b1",
+    "mappedOn": null,
+    "summary": "Measures performance against sales targets",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-goals-scorecards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-analytics",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-commissions"
+    ],
+    "claims": [
+      "Targets on any BC table including custom tables",
+      "Targets per salesperson, item, customer, location or any other grouping",
+      "Periods daily, weekly, monthly, quarterly or yearly",
+      "Goal tiers such as Bronze, Silver, Gold",
+      "Triggers action plans when goals are met",
+      "Optional approval of calculation results",
+      "Scheduled runs via job queue",
+      "No dependencies, external services or per-transaction fees"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

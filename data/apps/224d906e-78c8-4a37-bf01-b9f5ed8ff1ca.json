@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.to-increasebv|AID.food_distribution|PAPPID.224d906e-78c8-4a37-bf01-b9f5ed8ff1ca",
+  "guid": "224d906e-78c8-4a37-bf01-b9f5ed8ff1ca",
+  "publisherId": "to-increasebv",
+  "offerId": "food_distribution",
+  "source": {
+    "name": "Food Distribution",
+    "publisher": "STAEDEAN",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.to-increasebv%7CAID.food_distribution%7CPAPPID.224d906e-78c8-4a37-bf01-b9f5ed8ff1ca",
+    "lastModified": "2026-09-28T17:42:06.5997212+00:00",
+    "appVersion": "28.5.128490.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.staedean.com/business-central/docs/bc-food-manufacturing-and-distribution",
+    "sourceHash": "sha256:a46a62c769f9b0c6483f473c29427100ff0fffb0fce163485923478d0c3ecc48"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a46a62c769f9b0c6483f473c29427100ff0fffb0fce163485923478d0c3ecc48",
+    "mappedOn": null,
+    "summary": "Food distribution with compliance, traceability and warehouse features",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-quality-inspection",
+      "ng-product-compliance",
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Advanced lot tracking from origin through production to sale",
+      "Lot history with properties and test results",
+      "Allergen information on items and on sales, purchase, production and warehouse documents",
+      "Weight and volume unit conversion",
+      "Cost tracing and source of origin at lot level",
+      "Quality control and quarantine procedures",
+      "Certificates of analysis from QC test results",
+      "Cost-basis pricing tools"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

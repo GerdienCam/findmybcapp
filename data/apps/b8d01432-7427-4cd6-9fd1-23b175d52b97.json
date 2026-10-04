@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.skconsulting|AID.it_00111|PAPPID.b8d01432-7427-4cd6-9fd1-23b175d52b97",
+  "guid": "b8d01432-7427-4cd6-9fd1-23b175d52b97",
+  "publisherId": "skconsulting",
+  "offerId": "it_00111",
+  "source": {
+    "name": "Fisqal - Incognito",
+    "publisher": "SK Consulting S.A.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.skconsulting%7CAID.it_00111%7CPAPPID.b8d01432-7427-4cd6-9fd1-23b175d52b97",
+    "lastModified": "2026-09-17T10:00:08.8154142+00:00",
+    "appVersion": "28.0.62.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://skc.lu/apps/fisqal/incognito",
+    "sourceHash": "sha256:81f815159052704bbf9ac2bd0e77e020dc5bbd8ad3dd59ba567ea824ad5e7590"
+  },
+  "mapping": {
+    "sourceHash": "sha256:81f815159052704bbf9ac2bd0e77e020dc5bbd8ad3dd59ba567ea824ad5e7590",
+    "mappedOn": null,
+    "summary": "Anonymizes data for GDPR-safe test copies",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-privacy-consent",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-extensions-env",
+      "ng-admin-it-compliance",
+      "ng-admin-updates-testing"
+    ],
+    "claims": [
+      "Field-level anonymization rules for any table",
+      "Automatic detection of sensitive fields",
+      "Preserves referential integrity",
+      "Production safety lock against running on live environment",
+      "Audit trail with logs and statistics",
+      "Obfuscation, substitution, randomization and hashing methods",
+      "Supports GDPR, CCPA and NIS2 requirements"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

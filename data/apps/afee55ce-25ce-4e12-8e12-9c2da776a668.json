@@ -1,0 +1,81 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.fcp-lot-algorithms|PAPPID.afee55ce-25ce-4e12-8e12-9c2da776a668",
+  "guid": "afee55ce-25ce-4e12-8e12-9c2da776a668",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "fcp-lot-algorithms",
+  "source": {
+    "name": "Lot Algorithms",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.fcp-lot-algorithms%7CPAPPID.afee55ce-25ce-4e12-8e12-9c2da776a668",
+    "lastModified": "2026-09-28T19:05:40.8532423+00:00",
+    "appVersion": "27.5.19113.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.nicsystemslearning.com/help/lot-algorithms",
+    "sourceHash": "sha256:b3aaece64a00c3eb4a4c58ca6fc1597ba3b031b9c92934beb4a0d4e9cbf58f59"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b3aaece64a00c3eb4a4c58ca6fc1597ba3b031b9c92934beb4a0d4e9cbf58f59",
+    "mappedOn": null,
+    "summary": "Structured, rule-based lot number generation",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Lot numbers built from expiration date, item, location, work center, production date etc.",
+      "Alternate values replace item, location and work center codes to protect sensitive info",
+      "Custom reference values per lot algorithm",
+      "Bulk assign lot algorithm to multiple items",
+      "Include production batch numbers (with Production Batching app)",
+      "Auto-assign production dates to lots (with Inventory Freshness app)"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

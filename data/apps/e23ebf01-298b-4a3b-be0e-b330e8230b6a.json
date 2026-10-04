@@ -1,0 +1,87 @@
+{
+  "appId": "PUBID.youngpartners1588093205397|AID.navitrans_crossdock|PAPPID.e23ebf01-298b-4a3b-be0e-b330e8230b6a",
+  "guid": "e23ebf01-298b-4a3b-be0e-b330e8230b6a",
+  "publisherId": "youngpartners1588093205397",
+  "offerId": "navitrans_crossdock",
+  "source": {
+    "name": "Navitrans 365 Cross-Dock",
+    "publisher": "Navitrans",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.youngpartners1588093205397%7CAID.navitrans_crossdock%7CPAPPID.e23ebf01-298b-4a3b-be0e-b330e8230b6a",
+    "lastModified": "2026-09-30T20:02:35.4819503+00:00",
+    "appVersion": "28.5.0.80053",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navitrans.eu/our-services/tms/",
+    "sourceHash": "sha256:64330caefcf6097b52a526500d967e5f4bf1689b60f4f0116540aeab816ddfec"
+  },
+  "mapping": {
+    "sourceHash": "sha256:64330caefcf6097b52a526500d967e5f4bf1689b60f4f0116540aeab816ddfec",
+    "mappedOn": null,
+    "summary": "Cross-dock terminal scanning",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-movements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices",
+      "ng-receiving-putaway"
+    ],
+    "claims": [
+      "Scans incoming parcels and directs to the right shipping zone",
+      "Registers all terminal movements by scanning parcels, transport units, orders and zones",
+      "Movements are steered by the application",
+      "Anomalies created directly from the scanner",
+      "Connects to Navitrans Transport TMS",
+      "Links to any TMS",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "GB",
+      "HR",
+      "HU",
+      "IE",
+      "IS",
+      "LT",
+      "LV",
+      "NL",
+      "NO",
+      "PL",
+      "SE",
+      "SI"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Navitrans Transport"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

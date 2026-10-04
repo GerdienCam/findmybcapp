@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.fiftytwoas|AID.52powerbileasing|PAPPID.a513d7f2-3295-4505-b978-56135797c4d2",
+  "guid": "a513d7f2-3295-4505-b978-56135797c4d2",
+  "publisherId": "fiftytwoas",
+  "offerId": "52powerbileasing",
+  "source": {
+    "name": "52PowerBI Leasing",
+    "publisher": "Fiftytwo A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fiftytwoas%7CAID.52powerbileasing%7CPAPPID.a513d7f2-3295-4505-b978-56135797c4d2",
+    "lastModified": "2024-11-19T19:38:12.8839788+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fiftytwo.mcoutput.com/poc/da-dk/Content/_LE/le.htm",
+    "sourceHash": "sha256:16ee5e8f8ae99725559c20d748d9dc25cee9af4052b4c0d9374a1547139c31fc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:16ee5e8f8ae99725559c20d748d9dc25cee9af4052b4c0d9374a1547139c31fc",
+    "mappedOn": null,
+    "summary": "Power BI leasing reports from BC data",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-vert-leasing-finance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Power BI reporting on leasing objects",
+      "Pulls BC data into Power BI"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [
+      "Financial services",
+      "Leasing"
+    ],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

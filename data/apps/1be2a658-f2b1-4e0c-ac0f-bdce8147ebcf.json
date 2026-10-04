@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.evo-softlimitedglobal|AID.local-services|PAPPID.1be2a658-f2b1-4e0c-ac0f-bdce8147ebcf",
+  "guid": "1be2a658-f2b1-4e0c-ac0f-bdce8147ebcf",
+  "publisherId": "evo-softlimitedglobal",
+  "offerId": "local-services",
+  "source": {
+    "name": "Local Services",
+    "publisher": "Evo-soft Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.evo-softlimitedglobal%7CAID.local-services%7CPAPPID.1be2a658-f2b1-4e0c-ac0f-bdce8147ebcf",
+    "lastModified": "2025-11-24T22:41:32.8623879+00:00",
+    "appVersion": "25.1.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcn.co.uk/business-applications-and-development/dynamics-365-business-central/local-services/",
+    "sourceHash": "sha256:4fd2b4be357994284c601f4fa81ef4abfd000b1855fa31827b685e82408f28c4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4fd2b4be357994284c601f4fa81ef4abfd000b1855fa31827b685e82408f28c4",
+    "mappedOn": null,
+    "summary": "Connects cloud BC to local files and printers",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-printing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Gives cloud BC direct access to local files and printers",
+      "Reads and writes files on shared drives of local file servers",
+      "Runs, reads and kills processes on local servers",
+      "Optional ScanSnap plug-in scans documents directly into BC",
+      "Helps on-premises instances keep UCI compliance"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Fujitsu ScanSnap"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

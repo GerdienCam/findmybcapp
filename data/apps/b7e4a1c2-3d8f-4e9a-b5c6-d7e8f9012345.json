@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.navitec|AID.nbc|PAPPID.b7e4a1c2-3d8f-4e9a-b5c6-d7e8f9012345",
+  "guid": "b7e4a1c2-3d8f-4e9a-b5c6-d7e8f9012345",
+  "publisherId": "navitec",
+  "offerId": "nbc",
+  "source": {
+    "name": "Navitec BOM Configurator & Price Calculator",
+    "publisher": "Navitec systems s.r.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navitec%7CAID.nbc%7CPAPPID.b7e4a1c2-3d8f-4e9a-b5c6-d7e8f9012345",
+    "lastModified": "2026-08-17T14:08:49.7286778+00:00",
+    "appVersion": "22.0.1.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dokumentace.navitec.cz/NBC",
+    "sourceHash": "sha256:164369bcc5c9d5fedeb8dcf3872db1798f439096e094396afe010ef613ade3d3"
+  },
+  "mapping": {
+    "sourceHash": "sha256:164369bcc5c9d5fedeb8dcf3872db1798f439096e094396afe010ef613ade3d3",
+    "mappedOn": null,
+    "summary": "Configures products from BOM and calculates prices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-costing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-bom-formula-engineering"
+    ],
+    "claims": [
+      "Configuration groups with unlimited variants per item",
+      "Single-select and multi-select within a group",
+      "Configure variants during sales quote or order entry",
+      "Automatically creates derived item cards and production BOMs",
+      "Reuses existing configurations, no duplicate items",
+      "Configuration code column on sales quote and order lines",
+      "Recursive traversal of multi-level BOM",
+      "Sums material costs from all BOM levels using standard, unit or last direct cost",
+      "Calculates operation cost as time x work center rate per minute",
+      "Predefined markup formulas",
+      "Configurable rounding in CZK",
+      "Transfers calculated price to quote or order line in one click",
+      "Make-to-order mode including subassembly costs",
+      "Configuration data carried over when quote is converted to order"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "languages": [
+      "cs"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.alterna|AID.9deb671e-be36-46ec-b309-0f5f773b87a1|PAPPID.9deb671e-be36-46ec-b309-0f5f773b87a1",
+  "guid": "9deb671e-be36-46ec-b309-0f5f773b87a1",
+  "publisherId": "alterna",
+  "offerId": "9deb671e-be36-46ec-b309-0f5f773b87a1",
+  "source": {
+    "name": "Quick Flow for AQM",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.9deb671e-be36-46ec-b309-0f5f773b87a1%7CPAPPID.9deb671e-be36-46ec-b309-0f5f773b87a1",
+    "lastModified": "2026-07-21T15:54:42.2478611+00:00",
+    "appVersion": "1.3.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/quick-flow-for-aqm/",
+    "sourceHash": "sha256:6c89dd8f013945fe9ae1dbd40987ca0871fbf02d47de0eff64d1343f6cb63ca9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6c89dd8f013945fe9ae1dbd40987ca0871fbf02d47de0eff64d1343f6cb63ca9",
+    "mappedOn": null,
+    "summary": "Adds workflows to Alterna AQM quality documents",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-automation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-nonconformance-capa"
+    ],
+    "claims": [
+      "Quick Flow workflows on Advanced Quality Management documents",
+      "Covers quality check, control, master and non-conformity documents",
+      "Free; requires Quick Flow and Advanced Quality Management"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Quick Flow",
+      "Advanced Quality Management"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

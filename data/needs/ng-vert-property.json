@@ -1,0 +1,198 @@
+{
+  "id": "ng-vert-property",
+  "order": 221,
+  "label": "Solutions for property and real estate management",
+  "description": "Property management on BC: properties, units and tenants, lease contracts and rent invoicing, indexation, service charges and utilities, housing associations and commercial real estate.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "medium",
+  "statements": [
+    "Solutions for property and real estate management",
+    "Property management on BC: properties, units and tenants, lease contracts and rent invoicing, indexation, service charges and utilities, housing associations and commercial real estate.",
+    "We own 40 buildings and invoice rent from Excel",
+    "property management software Business Central",
+    "Rent indexation every January",
+    "Service charge settlements with tenants",
+    "Housing association with members and apartments",
+    "Commercial lease management with break clauses",
+    "Utilities recharged to tenants",
+    "Deposits from tenants",
+    "Real estate portfolio reporting per property",
+    "Vacancies and unit availability",
+    "Danish property administration on BC",
+    "Rental contracts for offices and storage units"
+  ],
+  "questions": [
+    {
+      "id": "system",
+      "text": "Do you run a separate property system next to BC?",
+      "options": [
+        {
+          "label": "Yes (Bidrento, Moderan, Boligflow, Dynamics CRM...)",
+          "patterns": [
+            "bidrento",
+            "moderan",
+            "boligflow",
+            "\\bcrm\\b"
+          ]
+        },
+        {
+          "label": "No, we want it all inside BC",
+          "patterns": [
+            "rental contract",
+            "lease (terms?|unit|billing)",
+            "lease contract management",
+            "tenancies and",
+            "rent (collection|schedule)",
+            "tenants?, ",
+            "rental rates",
+            "booking",
+            "native"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes (Bidrento, Moderan, Boligflow, Dynamics CRM...)": 0.31,
+        "No, we want it all inside BC": 0.62
+      }
+    },
+    {
+      "id": "type",
+      "text": "What do you rent out?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Homes / residential",
+          "patterns": [
+            "residential",
+            "housing",
+            "danish rent",
+            "move-in",
+            "rent regulation",
+            "rent legislation"
+          ]
+        },
+        {
+          "label": "Commercial space",
+          "patterns": [
+            "commercial",
+            "\\bcam\\b",
+            "turnover",
+            "office"
+          ]
+        },
+        {
+          "label": "Rooms by the hour or day",
+          "patterns": [
+            "room booking",
+            "bookings?"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Homes / residential": 0.23,
+        "Commercial space": 0.38,
+        "Rooms by the hour or day": 0.08
+      }
+    },
+    {
+      "id": "charges",
+      "text": "Besides rent, what do you bill tenants for?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Utilities and meter readings",
+          "patterns": [
+            "utilit",
+            "meter",
+            "consumption"
+          ]
+        },
+        {
+          "label": "Service charges / shared costs",
+          "patterns": [
+            "service charge",
+            "\\bcam\\b",
+            "common (area|expense)",
+            "provision",
+            "cost pools",
+            "allocates cost",
+            "outgoings",
+            "distribution settlement"
+          ]
+        },
+        {
+          "label": "Yearly rent indexation",
+          "patterns": [
+            "index",
+            "inflation",
+            "rent regulation",
+            "rent increase"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Utilities and meter readings": 0.38,
+        "Service charges / shared costs": 0.31,
+        "Yearly rent indexation": 0.31
+      }
+    },
+    {
+      "id": "tenant-self",
+      "text": "Should tenants get self-service or automatic communication?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "portal",
+            "tenant communication",
+            "self-service",
+            "automated e-?mails",
+            "notices",
+            "notification"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.38
+      }
+    },
+    {
+      "id": "owners",
+      "text": "Do you manage property for several owners or companies?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "owner",
+            "landlord",
+            "many companies"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.23
+      }
+    }
+  ]
+}

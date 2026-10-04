@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.timetrackcentral|AID.ttc_business|PAPPID.c79bf83e-73fe-4680-9662-4d4cea1e49df",
+  "guid": "c79bf83e-73fe-4680-9662-4d4cea1e49df",
+  "publisherId": "timetrackcentral",
+  "offerId": "ttc_business",
+  "source": {
+    "name": "Time Track Central - Business",
+    "publisher": "Time Track Central",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.timetrackcentral%7CAID.ttc_business%7CPAPPID.c79bf83e-73fe-4680-9662-4d4cea1e49df",
+    "lastModified": "2026-09-17T12:00:49.618939+00:00",
+    "appVersion": "25.0.20260917.2",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.timetrackcentral.com/",
+    "sourceHash": "sha256:62374948964601dc66e9df0549d9b557da6be4bd5d10b9b320c4b652462521de"
+  },
+  "mapping": {
+    "sourceHash": "sha256:62374948964601dc66e9df0549d9b557da6be4bd5d10b9b320c4b652462521de",
+    "mappedOn": null,
+    "summary": "Time and absence management with web app",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-svc-close-invoice",
+      "ng-hr-payroll-comp",
+      "ng-proj-planning"
+    ],
+    "claims": [
+      "Web app (SPA) to manage and approve time sheets",
+      "Absence management",
+      "Resource capacity management",
+      "Payroll exports",
+      "Streamlines hour registration in projects",
+      "Builds on standard BC time sheet and absence functionality",
+      "Employees need no BC user or Microsoft license",
+      "Business edition adds work reports"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

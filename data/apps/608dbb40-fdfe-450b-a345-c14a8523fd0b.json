@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.dionixltd|AID.dionix_orasis_capture|PAPPID.608dbb40-fdfe-450b-a345-c14a8523fd0b",
+  "guid": "608dbb40-fdfe-450b-a345-c14a8523fd0b",
+  "publisherId": "dionixltd",
+  "offerId": "dionix_orasis_capture",
+  "source": {
+    "name": "Orasis Capture",
+    "publisher": "Dionix Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dionixltd%7CAID.dionix_orasis_capture%7CPAPPID.608dbb40-fdfe-450b-a345-c14a8523fd0b",
+    "lastModified": "2024-11-21T15:30:33.1586149+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dionix.co.uk/orasiscapture.html",
+    "sourceHash": "sha256:5da42965eb4a0a1e09812428c2b0479aeb3a6912a68129f9e7add701903b2b69"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5da42965eb4a0a1e09812428c2b0479aeb3a6912a68129f9e7add701903b2b69",
+    "mappedOn": null,
+    "summary": "OCR capture and document linking for batch paperwork",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Automatically links incoming PDFs to the right BC document",
+      "Learns customer and vendor document templates",
+      "Matches sales, purchase and shipment documents",
+      "OCR via Azure Vision API",
+      "Batch processing of PDFs"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Vision"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

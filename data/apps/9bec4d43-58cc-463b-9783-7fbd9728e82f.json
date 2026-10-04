@@ -1,0 +1,59 @@
+{
+  "appId": "TYPE.connect|PUBID.nagarro_sap_01|AID.ep_buscen_whatsapp|PAPPID.9bec4d43-58cc-463b-9783-7fbd9728e82f",
+  "guid": "9bec4d43-58cc-463b-9783-7fbd9728e82f",
+  "publisherId": "nagarro_sap_01",
+  "offerId": "ep_buscen_whatsapp",
+  "source": {
+    "name": "Business Central WhatsApp & SMS Integration Application",
+    "publisher": "Nagarro",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.nagarro_sap_01%7CAID.ep_buscen_whatsapp%7CPAPPID.9bec4d43-58cc-463b-9783-7fbd9728e82f",
+    "lastModified": "2025-07-28T03:55:01.6173928+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nagarro.com/en/services/erp/msdynamics-365",
+    "sourceHash": "sha256:a295ce45dc52cdfc809c11ac9429c2bd669e5a2c4c60fccd05c90060ce1c1f45"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a295ce45dc52cdfc809c11ac9429c2bd669e5a2c4c60fccd05c90060ce1c1f45",
+    "mappedOn": null,
+    "summary": "Sends SMS and WhatsApp messages to customers",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Customizable SMS and WhatsApp message templates",
+      "Enable per sales document page incl. quotes, orders, invoices, return orders, posted docs",
+      "Option to send messages automatically on posting",
+      "Attaches BC reports as PDF to WhatsApp messages",
+      "One-click sending",
+      "Requires Twilio API account and Azure Storage for PDFs"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Twilio",
+      "WhatsApp",
+      "Azure Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

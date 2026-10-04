@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.bingmapsintegration|PAPPID.4270bff7-c860-434f-b09a-0f3e37d243fd",
+  "guid": "4270bff7-c860-434f-b09a-0f3e37d243fd",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "bingmapsintegration",
+  "source": {
+    "name": "BingMaps.AppSource",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.bingmapsintegration%7CPAPPID.4270bff7-c860-434f-b09a-0f3e37d243fd",
+    "lastModified": "2026-07-07T13:33:26.9280079+00:00",
+    "appVersion": "4.8.304.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://github.com/businesscentralapps/BingMaps.AppSource",
+    "sourceHash": "sha256:44417f057d05b42f0ca83ec673fdb52f0c04cb91eac2aacaeaf74d2ce8f01ba1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:44417f057d05b42f0ca83ec673fdb52f0c04cb91eac2aacaeaf74d2ce8f01ba1",
+    "mappedOn": null,
+    "summary": "Geocodes customers and shows Bing Maps",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-company-data"
+    ],
+    "claims": [
+      "Adds latitude and longitude fields to customers via Bing Maps geocoding",
+      "Shows all customers on a map in a browser",
+      "Factbox showing customer location on list and card",
+      "Open source"
+    ],
+    "countries": [
+      "DE",
+      "DK",
+      "IT",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Bing Maps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

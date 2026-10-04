@@ -1,0 +1,217 @@
+{
+  "id": "ng-ux-developer-tools",
+  "order": 179,
+  "label": "Tools for developers and partners",
+  "description": "Tools aimed at AL developers, partners and ISVs: test runners, API testers, telemetry, ID range management, XLIFF translation, extension analysis and support consoles.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "low",
+  "statements": [
+    "Tools for developers and partners",
+    "Tools aimed at AL developers, partners and ISVs: test runners, API testers, telemetry, ID range management, XLIFF translation, extension analysis and support consoles.",
+    "Our developers need to test APIs inside BC like Postman",
+    "AL object ID ranges clash between our developers",
+    "translate our extension XLIFF files",
+    "Run automated tests on our customisations before each update",
+    "We want better telemetry signals from our app",
+    "Tool to run a bit of AL code in production for support"
+  ],
+  "questions": [
+    {
+      "id": "need",
+      "text": "What do you need the tool for?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Building or testing APIs and integrations",
+          "patterns": [
+            "api (test|page|endpoint|gateway|url)",
+            "test(s|ing)? (your )?api",
+            "\\brest\\b",
+            "soap",
+            "web ?service",
+            "external system",
+            "data exchange",
+            "multi-erp",
+            "endpoint",
+            "api pages"
+          ]
+        },
+        {
+          "label": "Licensing and selling our own apps",
+          "patterns": [
+            "licens(e|es|ing) (management|validation|model|check|for|log)",
+            "issue, activate",
+            "isv licensing",
+            "subscription (management|plans)",
+            "monetiz",
+            "trial period",
+            "validity check"
+          ]
+        },
+        {
+          "label": "Translating apps (XLIFF)",
+          "patterns": [
+            "xliff",
+            "translat"
+          ]
+        },
+        {
+          "label": "Fixing data and support tasks",
+          "patterns": [
+            "table editor",
+            "edits? database",
+            "batch (update|modif)",
+            "delete records",
+            "deletes records",
+            "run any",
+            "runs any",
+            "object list",
+            "without vs code",
+            "views all records"
+          ]
+        },
+        {
+          "label": "AI / Copilot features",
+          "patterns": [
+            "\\bai\\b",
+            "copilot",
+            "prompt",
+            "openai",
+            "agent"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Building or testing APIs and integrations": 0.25,
+        "Licensing and selling our own apps": 0.16,
+        "Translating apps (XLIFF)": 0.06,
+        "Fixing data and support tasks": 0.09,
+        "AI / Copilot features": 0.19
+      }
+    },
+    {
+      "id": "role",
+      "text": "Who will use it?",
+      "options": [
+        {
+          "label": "AL developers",
+          "patterns": [
+            "\\bal\\b",
+            "vs code",
+            "developer",
+            "object id"
+          ]
+        },
+        {
+          "label": "Consultants / super users (no code)",
+          "patterns": [
+            "no-?code",
+            "without (code|development|vs code)",
+            "super user",
+            "consultant",
+            "drag-and-drop",
+            "setup tables"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "AL developers": 0.47,
+        "Consultants / super users (no code)": 0.19
+      }
+    },
+    {
+      "id": "publisher",
+      "text": "Do you publish apps to other customers?",
+      "help": "I.e. are you an ISV.",
+      "options": [
+        {
+          "label": "Yes, we are an app publisher",
+          "patterns": [
+            "isv",
+            "publisher",
+            "partner apps",
+            "your bc apps",
+            "extensions? usage",
+            "register apps"
+          ]
+        },
+        {
+          "label": "No, internal use",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, we are an app publisher": 0.22
+      }
+    },
+    {
+      "id": "mobile",
+      "text": "Do you need to build mobile or scanner apps?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "mobile",
+            "scanner",
+            "android",
+            "ios",
+            "rfid"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.12
+      }
+    },
+    {
+      "id": "multico",
+      "text": "Do you work across several companies?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "multi-company",
+            "multiple companies",
+            "another company",
+            "company to another",
+            "between companies",
+            "in multiple companies"
+          ]
+        },
+        {
+          "label": "No",
+          "any": true
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.12
+      }
+    }
+  ]
+}

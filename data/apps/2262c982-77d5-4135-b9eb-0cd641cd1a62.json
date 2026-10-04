@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-calculation|PAPPID.2262c982-77d5-4135-b9eb-0cd641cd1a62",
+  "guid": "2262c982-77d5-4135-b9eb-0cd641cd1a62",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-calculation",
+  "source": {
+    "name": "BeyondCalculation",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-calculation%7CPAPPID.2262c982-77d5-4135-b9eb-0cd641cd1a62",
+    "lastModified": "2025-11-20T15:32:57.8793907+00:00",
+    "appVersion": "2025.11.161.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/apps/index.html",
+    "sourceHash": "sha256:637aff48d54a359a16e9e5e577cbb052aa8de82ade5b26ec91be9784e3764a48"
+  },
+  "mapping": {
+    "sourceHash": "sha256:637aff48d54a359a16e9e5e577cbb052aa8de82ade5b26ec91be9784e3764a48",
+    "mappedOn": null,
+    "summary": "Quick precalculation of machine items and configurations for quotes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-quotes",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-equipment-dealers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-cpq",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Pre-calculates machine items along with their configurations",
+      "Add attachments, items, costs, services, texts and trade-in used machines",
+      "Live preview of the precalculation document",
+      "Supervisor approval of the precalculation before sending"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Machinery"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

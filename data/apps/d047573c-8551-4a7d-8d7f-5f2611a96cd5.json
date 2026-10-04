@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.professionaladvantagenorthamerica1583359771647|AID.mdm_for_business_central|PAPPID.d047573c-8551-4a7d-8d7f-5f2611a96cd5",
+  "guid": "d047573c-8551-4a7d-8d7f-5f2611a96cd5",
+  "publisherId": "professionaladvantagenorthamerica1583359771647",
+  "offerId": "mdm_for_business_central",
+  "source": {
+    "name": "Master Data Management 365",
+    "publisher": "Professional Advantage North America",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.professionaladvantagenorthamerica1583359771647%7CAID.mdm_for_business_central%7CPAPPID.d047573c-8551-4a7d-8d7f-5f2611a96cd5",
+    "lastModified": "2026-09-03T03:41:01.8270783+00:00",
+    "appVersion": "26.0.0.65992",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.pa.com.au/client-support/",
+    "sourceHash": "sha256:30ce69758d63a41f0b2f3c7f60de8ac209041bdd7c63310094923dcb2c21b3bd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:30ce69758d63a41f0b2f3c7f60de8ac209041bdd7c63310094923dcb2c21b3bd",
+    "mappedOn": null,
+    "summary": "Synchronizes master data across BC companies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-coa-company-setup",
+      "ng-intercompany-consolidation"
+    ],
+    "claims": [
+      "Replicates add/change/delete of master data from a publisher company to subscriber companies",
+      "Can block subscriber companies from making local changes",
+      "Stop/pause and restart sync without reconfiguration",
+      "Copy setup from sandbox; export/import for promotion to production",
+      "Deletes records for non-transactional record types",
+      "Trace logs of all actions and errors",
+      "Near real-time replication",
+      "Optional validation rules at subscriber company",
+      "Works for companies within one tenant",
+      "Licensed by number of active subscriber companies",
+      "English only"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

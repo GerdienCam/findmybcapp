@@ -1,0 +1,97 @@
+{
+  "appId": "PUBID.foodware365|AID.aptean_compliance_documents|PAPPID.19eb10b5-d114-40c3-9beb-93be998141c9",
+  "guid": "19eb10b5-d114-40c3-9beb-93be998141c9",
+  "publisherId": "foodware365",
+  "offerId": "aptean_compliance_documents",
+  "source": {
+    "name": "Aptean Compliance Documents for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.aptean_compliance_documents%7CPAPPID.19eb10b5-d114-40c3-9beb-93be998141c9",
+    "lastModified": "2026-05-27T05:27:46.9446531+00:00",
+    "appVersion": "2601.2.319749.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/COD/",
+    "sourceHash": "sha256:00e0800cecc386328e1401870e35e52fb47b6cbac4ae0f5a644c4e69cb75155b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:00e0800cecc386328e1401870e35e52fb47b6cbac4ae0f5a644c4e69cb75155b",
+    "mappedOn": null,
+    "summary": "Manages regulatory and financial compliance documents for food and beverage",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-supplier-quality-compliance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage",
+      "ng-product-compliance"
+    ],
+    "claims": [
+      "Tracks vendor quality certifications and expiry status",
+      "Compliance documents per vendor, item or item group",
+      "Attach compliance documents to purchases manually or automatically",
+      "Approval status checks during release, receiving or invoicing",
+      "Visual cues for expiring certificates",
+      "Expiry notifications via Power Automate",
+      "Copies compliance documents to posted records",
+      "Requires Premium edition"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [
+      "Power Automate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

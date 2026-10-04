@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.simplifiedbankstatementimport|PAPPID.79b1a79a-2f66-4736-bc1b-8abb3537eb51",
+  "guid": "79b1a79a-2f66-4736-bc1b-8abb3537eb51",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "simplifiedbankstatementimport",
+  "source": {
+    "name": "Simplified Bank Statement Import",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.simplifiedbankstatementimport%7CPAPPID.79b1a79a-2f66-4736-bc1b-8abb3537eb51",
+    "lastModified": "2024-11-21T20:04:33.1845824+00:00",
+    "appVersion": "18.5.29545.29750",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://go.microsoft.com/fwlink/?linkid=2172520",
+    "sourceHash": "sha256:ed77e06c8c81f9fb69499b5268f55129bac2c892b9fee33a132ecf9eb5923e89"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ed77e06c8c81f9fb69499b5268f55129bac2c892b9fee33a132ecf9eb5923e89",
+    "mappedOn": null,
+    "summary": "Simplified setup of bank statement import formats",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "Assisted setup to define a bank statement file format",
+      "Supports delimited flat files",
+      "Defines format from a sample file",
+      "Automatic header and column detection",
+      "Visual preview of the file",
+      "Attaches format to a bank account for import"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

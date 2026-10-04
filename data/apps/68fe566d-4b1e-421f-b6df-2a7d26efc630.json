@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.foodware365|AID.warehousemanagementsystem|PAPPID.68fe566d-4b1e-421f-b6df-2a7d26efc630",
+  "guid": "68fe566d-4b1e-421f-b6df-2a7d26efc630",
+  "publisherId": "foodware365",
+  "offerId": "warehousemanagementsystem",
+  "source": {
+    "name": "Aptean Warehouse Management System",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.warehousemanagementsystem%7CPAPPID.68fe566d-4b1e-421f-b6df-2a7d26efc630",
+    "lastModified": "2026-09-23T04:45:43.0405222+00:00",
+    "appVersion": "2602.2.344247.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/WMS/",
+    "sourceHash": "sha256:f355dea79fedf0b8f28b3f21f44593b044dd2f8dd9568f7ac55eb97de9de18ea"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f355dea79fedf0b8f28b3f21f44593b044dd2f8dd9568f7ac55eb97de9de18ea",
+    "mappedOn": null,
+    "summary": "Warehouse management with handheld scanners for food ERP",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage",
+      "ng-barcode-labels",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Handheld barcode scanners for receiving, putaway, labeling, license plating and picking",
+      "Prints labels for license plates and mixed content from the scanner",
+      "FEFO picking rules and bin designations",
+      "Warehouse entries tracked by license plate",
+      "Requires BC Premium edition"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "de-CH",
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Aptean Food & Beverage ERP"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

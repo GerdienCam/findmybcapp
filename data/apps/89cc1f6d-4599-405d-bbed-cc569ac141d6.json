@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.succeedit_5140844|AID.container_planning_app|PAPPID.89cc1f6d-4599-405d-bbed-cc569ac141d6",
+  "guid": "89cc1f6d-4599-405d-bbed-cc569ac141d6",
+  "publisherId": "succeedit_5140844",
+  "offerId": "container_planning_app",
+  "source": {
+    "name": "Container Planner",
+    "publisher": "SucceedIT B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.succeedit_5140844%7CAID.container_planning_app%7CPAPPID.89cc1f6d-4599-405d-bbed-cc569ac141d6",
+    "lastModified": "2026-09-30T14:53:07.8198777+00:00",
+    "appVersion": "27.0.20260930.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.succeedit.nl/container-app-in-business-central/",
+    "sourceHash": "sha256:073e46a02175188699763263ecc231b3815739b0b147e31df57eff284504821e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:073e46a02175188699763263ecc231b3815739b0b147e31df57eff284504821e",
+    "mappedOn": null,
+    "summary": "Plans and coordinates incoming container transports",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway"
+    ],
+    "claims": [
+      "Links purchase and sales order lines with an import shipment/container",
+      "Shows impact of a container delay on linked sales order lines",
+      "Changes receipt date of all linked PO lines in one action",
+      "Records container info, transport type, arrival and unloading times",
+      "Creates warehouse receipt per PO or per container",
+      "Creates purchase invoice per supplier or PO from the import shipment",
+      "30-day free trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

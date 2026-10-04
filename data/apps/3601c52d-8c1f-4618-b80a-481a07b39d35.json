@@ -1,0 +1,86 @@
+{
+  "appId": "PUBID.nicsystemsinc1584386633598|AID.fcp-inventory-freshness|PAPPID.3601c52d-8c1f-4618-b80a-481a07b39d35",
+  "guid": "3601c52d-8c1f-4618-b80a-481a07b39d35",
+  "publisherId": "nicsystemsinc1584386633598",
+  "offerId": "fcp-inventory-freshness",
+  "source": {
+    "name": "Inventory Freshness",
+    "publisher": "NIC Systems Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nicsystemsinc1584386633598%7CAID.fcp-inventory-freshness%7CPAPPID.3601c52d-8c1f-4618-b80a-481a07b39d35",
+    "lastModified": "2026-04-10T06:57:31.0845549+00:00",
+    "appVersion": "27.5.17878.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.nicsystemslearning.com/help/inventory-freshness",
+    "sourceHash": "sha256:9a1d1d329c7ab4beb7d12080d2711a07b9dfe778e93359a963f60ea552f7b26b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9a1d1d329c7ab4beb7d12080d2711a07b9dfe778e93359a963f60ea552f7b26b",
+    "mappedOn": null,
+    "summary": "Enforces production-date freshness on receiving and shipping",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-hold",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking",
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Assign production dates at receipt or manufacturing via Item Tracking Code",
+      "Change production dates via Item Reclassification Journal",
+      "Keeps a history of when production dates were assigned or removed",
+      "Freshness codes per item, vendor, customer and item-vendor/item-customer combos",
+      "Real-time validation blocks receiving, picking and shipping of non-compliant stock",
+      "Integrated with warehouse activities"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "MX",
+      "NL",
+      "NZ",
+      "RO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

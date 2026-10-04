@@ -1,0 +1,440 @@
+{
+  "id": "ng-ap-invoice-capture",
+  "order": 0,
+  "label": "Getting supplier invoices in, matched and approved",
+  "description": "Capturing, coding, matching and approving incoming supplier invoices, the rules behind it, and querying wrong invoices with the vendor.",
+  "type": "bpc",
+  "area": "Purchasing & payables",
+  "relevance": "high",
+  "statements": [
+    "Getting supplier invoices in, matched and approved",
+    "Capturing, coding, matching and approving incoming supplier invoices, the rules behind it, and querying wrong invoices with the vendor.",
+    "We type every supplier invoice into BC by hand and it takes days each month",
+    "Half our suppliers email PDF invoices, some still send paper, and a few send e-invoices",
+    "Is there an app that reads PDF vendor invoices and creates the purchase invoice automatically?",
+    "invoice scanning for supplier invoices BC",
+    "Our shared AP inbox is a mess, supplier invoices get lost between reminders and statements",
+    "We need to receive PEPPOL e-invoices from suppliers straight into Business Central",
+    "The AP clerk has to guess which G/L account and department to use on every purchase invoice line",
+    "Invoices from the same vendor should be coded the same way every time without someone remembering it",
+    "Splitting one utility bill from our energy supplier across five departments and two projects is painful",
+    "Supplier invoices sit on managers' desks for weeks waiting for sign-off",
+    "vendor invoice approval on mobile",
+    "How do we route a purchase invoice to the right budget owner based on amount and cost center?",
+    "Our approvers don't have BC licenses, can they approve supplier invoices by email or Teams?",
+    "Matching vendor invoices to purchase orders and receipts is a manual line by line job",
+    "three-way match purchase invoice receipt",
+    "Small price differences between the supplier invoice and the PO; we need a tolerance so we don't chase every cent",
+    "One supplier invoice covers three purchase orders and several partial receipts, getting the receipt lines in takes forever",
+    "Most of our supplier invoices have no PO at all: rent, utilities, subscriptions, consultants",
+    "How can BC warn us when an invoice number from a vendor has already been posted?",
+    "We paid the same supplier invoice twice because it came by post and by email",
+    "We keep losing early payment discounts from suppliers because nobody has decided when we pay what",
+    "What tolerance should we allow between the PO price and the vendor invoice price before we block it?",
+    "We want one rule for how supplier invoices may arrive: e-invoice or email only, no paper",
+    "Every bookkeeper handles price differences on vendor invoices their own way",
+    "AP policy template for a small company",
+    "Our auditor says we have no written rules for who can approve and pay supplier invoices",
+    "When should we pay suppliers in advance, and how do we control those prepayments?",
+    "We need to decide whether to run vendor payments weekly or twice a month and stick to it",
+    "Should we take the 2% cash discount suppliers offer or keep the cash? We need a rule for that",
+    "Supplier invoices without a PO number: do we reject them or process them? Nobody knows",
+    "We want the same payables rules for vendor invoices across our three companies in BC",
+    "vendor payment terms standard policy",
+    "We have no way to track which invoices we've queried with the supplier",
+    "Supplier charged a higher price than agreed and we need to hold the invoice until they send a correction",
+    "How do I stop an invoice we're disputing with the vendor from going into the payment run?",
+    "Disputed supplier invoices live in someone's email and nobody knows the status",
+    "vendor invoice dispute tracking",
+    "We want to log why we disputed a supplier invoice, price, quantity or damage, and who is following up",
+    "The vendor keeps sending reminders for an invoice we told them was wrong months ago",
+    "Is there an app to send the supplier a query directly from the purchase invoice in BC?",
+    "The supplier added freight charges to their invoice that we never agreed to and we want to push back",
+    "Short delivery but full invoice from the supplier, how do we record the discrepancy and chase them?",
+    "We want suppliers to see our questions about their invoice and reply in a portal instead of email ping pong",
+    "Some invoices we disputed with the supplier got paid anyway because someone removed the hold",
+    "We want supplier invoices archived and easy to find later"
+  ],
+  "questions": [
+    {
+      "id": "arrival",
+      "text": "How do supplier invoices reach you today?",
+      "help": "Pick every channel you get in real volume.",
+      "multi": true,
+      "options": [
+        {
+          "label": "PDF attachments by email",
+          "patterns": [
+            "e-?mail (inbox|attachments?)",
+            "from (an |the )?(outlook|e-?mails?\\b|microsoft 365 mailbox)",
+            "mailbox",
+            "emailed",
+            "(receives?|captures?|capture|processes|scanned documents,)\\b[^.]*\\be-?mails?\\b(?! notif)",
+            "upload or e-?mail",
+            "pdf, xml or e-?mails"
+          ]
+        },
+        {
+          "label": "E-invoices (PEPPOL, OIOUBL, XRechnung...)",
+          "patterns": [
+            "peppol",
+            "oioubl",
+            "oioxml",
+            "\\boio\\b",
+            "e-?invoic",
+            "xrechnung",
+            "zugferd",
+            "factur-?x",
+            "\\bubl\\b",
+            "fatturapa",
+            "ksef",
+            "\\bdte\\b",
+            "electronic (invoices|documents)",
+            "xml (e-?invoices|documents)",
+            "(pdf|paper), xml",
+            "unimaze|pagero|sproom"
+          ]
+        },
+        {
+          "label": "Paper that we scan",
+          "patterns": [
+            "paper",
+            "scann(ed|ing) (documents|invoices|pdfs)",
+            "scanning (service|solution|and data|invoices|with)",
+            "scans? physical",
+            "scan from",
+            "multifunction",
+            "transfers scanned"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "PDF attachments by email": 0.16,
+        "E-invoices (PEPPOL, OIOUBL, XRechnung...)": 0.21,
+        "Paper that we scan": 0.14
+      }
+    },
+    {
+      "id": "invoicetype",
+      "text": "What kind of supplier invoices do you get most?",
+      "help": "Pick both if you get both in volume.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Invoices for purchase orders (goods or services ordered in BC)",
+          "patterns": [
+            "purchase orders?\\b[^.]*match|match\\w*[^.]*(purchase order|\\bpo\\b|\\bpos\\b|(purchase|goods|posted) receipt)",
+            "(2|two|3|three)-way (po |invoice )?match",
+            "get receipt lines",
+            "compares purchase order",
+            "validates invoices against pos",
+            "reconciles [^.]*(\\bpo\\b|purchase order)",
+            "invoice your purchase orders",
+            "po-backed|po-based|po invoices|po and non-po|po- and non-po|po and cost"
+          ]
+        },
+        {
+          "label": "Cost invoices without a PO (rent, utilities, services)",
+          "patterns": [
+            "non-?po",
+            "cost invoice",
+            "g/l (account )?coding|cod(e|ing) [^.]*g/l|(predict|suggest)s? [^.]*g/l",
+            "text-to-account",
+            "allocation template",
+            "posting suggestion",
+            "predefined g/l",
+            "recurring bills",
+            "g/l account mapping"
+          ]
+        },
+        {
+          "label": "Employee expenses and receipts",
+          "patterns": [
+            "expense",
+            "receipt photo",
+            "per diem"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Invoices for purchase orders (goods or services ordered in BC)": 0.3,
+        "Cost invoices without a PO (rent, utilities, services)": 0.17,
+        "Employee expenses and receipts": 0.12
+      }
+    },
+    {
+      "id": "matchmethod",
+      "text": "When an invoice is for a PO, what should be checked?",
+      "help": "Line checks catch wrong quantities or prices. Total checks are quicker to set up.",
+      "options": [
+        {
+          "label": "Each line: quantity and price against the PO or receipt",
+          "patterns": [
+            "match\\w* [^.]*\\blines?\\b",
+            "line[- ]level match",
+            "matching down to line level",
+            "(po|purchase order|receipt) lines?[^.]*(match|compar)",
+            "\\blines? [^.]*(match|compar)\\w* [^.]*(\\bpo\\b|purchase order)",
+            "quantities from receipt",
+            "against pos for [^.]*quantit",
+            "line adjustments"
+          ]
+        },
+        {
+          "label": "The total amount, within a tolerance",
+          "patterns": [
+            "toleran",
+            "total amount check",
+            "amounts against purchase order amounts",
+            "variance amount",
+            "maximum difference",
+            "partial amounts"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Each line: quantity and price against the PO or receipt": 0.15,
+        "The total amount, within a tolerance": 0.07
+      }
+    },
+    {
+      "id": "approval",
+      "text": "How should invoice approval work?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Rules by amount, cost centre or several levels",
+          "patterns": [
+            "amount limit",
+            "approval limit",
+            "spending limit",
+            "multi-level",
+            "levels? based on",
+            "by (department, )?amount",
+            "amount-based",
+            "spend thresholds",
+            "4-eye|four-eye|maker/checker",
+            "segregation of duties",
+            "minimum approver",
+            "approval routing by|routing by hierarchy",
+            "cost-centre based approval",
+            "approver groups",
+            "approval matrix",
+            "project (and project task )?approvers|project responsible",
+            "fixed approvers",
+            "approver administrators?"
+          ]
+        },
+        {
+          "label": "Approvers sign off on phone or web, without a BC login",
+          "patterns": [
+            "mobile[^.]*approv",
+            "approv[^.]*(mobile|phone|\\bweb\\b|portal|any device|anywhere|all devices|\\bapps?\\b|by e-?mail)",
+            "approver portal",
+            "web approval",
+            "online approval",
+            "team member licen",
+            "mobile-friendly"
+          ]
+        },
+        {
+          "label": "Auto-approve small or fully matched invoices",
+          "patterns": [
+            "auto-?approv",
+            "touchless",
+            "fully automated create, approve",
+            "blind posting",
+            "automatically books approved|auto-posting"
+          ]
+        },
+        {
+          "label": "Simple approval inside BC",
+          "patterns": [
+            "approv\\w* (inside|in) (bc|business central)",
+            "standard bc approval",
+            "approval in bc",
+            "simplified purchase invoice approval|simple invoice approval|simple 4-eye"
+          ]
+        },
+        {
+          "label": "Not needed / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Rules by amount, cost centre or several levels": 0.16,
+        "Approvers sign off on phone or web, without a BC login": 0.21,
+        "Auto-approve small or fully matched invoices": 0.08,
+        "Simple approval inside BC": 0.05
+      }
+    },
+    {
+      "id": "lines",
+      "text": "Must the app read every invoice line, or are header and totals enough?",
+      "help": "Lines matter if you buy items or want to check quantities and prices.",
+      "options": [
+        {
+          "label": "Every line (items, quantities, prices)",
+          "patterns": [
+            "line[- ]level (data )?(capture|extraction)",
+            "header and lines?",
+            "header and line",
+            "\\b(extract|captur|read|fill)\\w*\\b(?![^.]*journal)[^.]*\\b(line items|lines|line data)\\b",
+            "line items(?! require)",
+            "lines?, tax and totals",
+            "multi-line recognition",
+            "quantities,? (and )?pric",
+            "quantities, descriptions and pricing",
+            "learns on line items",
+            "to items\\b",
+            "matches items by",
+            "item codes"
+          ]
+        },
+        {
+          "label": "Header and totals are enough",
+          "patterns": [
+            "\\bheader",
+            "totals",
+            "invoice number",
+            "due date",
+            "\\bocr\\b",
+            "recogni[sz]",
+            "extract\\w* [^.]*(data|information|invoice|supplier|vendor)",
+            "reads? (vendor|invoice)",
+            "data capture|capture[sd]? invoice|invoice capture"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Every line (items, quantities, prices)": 0.15,
+        "Header and totals are enough": 0.45
+      }
+    },
+    {
+      "id": "coding",
+      "text": "For invoices without a PO, how should G/L accounts and dimensions be filled in?",
+      "options": [
+        {
+          "label": "Suggested by AI from past postings",
+          "patterns": [
+            "historical (posting|patterns|mappings)|based on history|posting history",
+            "(suggest|predict|propos)\\w* [^.]*(account|coding|dimension|g/l|booking|posting)",
+            "ai coding",
+            "coding intelligence",
+            "learns on line items|learns per vendor"
+          ]
+        },
+        {
+          "label": "Fixed rules or templates per vendor",
+          "patterns": [
+            "predefined g/l",
+            "text-to-account",
+            "g/l account mapping|mapping per vendor|account mappings",
+            "allocation template",
+            "posting suggestion template",
+            "coding by rules",
+            "matching rulesets",
+            "posting options per vendor",
+            "approval line templates per vendor"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Suggested by AI from past postings": 0.1,
+        "Fixed rules or templates per vendor": 0.09
+      }
+    },
+    {
+      "id": "platform",
+      "text": "Where should your team work on invoices?",
+      "help": "Some apps run fully inside BC. Others connect BC to a separate AP portal.",
+      "options": [
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "built into bc|inside bc|within bc|runs inside|embedded (directly )?(within|in)|incoming documents?\\b|no external|e-document framework|standard bc approval|from the documents factbox|drag-and-drop attachments in bc"
+          ]
+        },
+        {
+          "label": "In a separate AP system connected to BC",
+          "patterns": [
+            "connector\\b|connects? (bc )?to\\b|integrates? (bc )?with(?![^.]*bank)|integration (with|between)(?![^.]*bank)|approved in|forwarded to bc|transfers? [^.]*(into|to) bc|syncs? to bc|publishes data to|\\bplatform\\b|accessed through"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inside Business Central": 0.16,
+        "In a separate AP system connected to BC": 0.28
+      }
+    },
+    {
+      "id": "archive",
+      "text": "Do invoices need to be archived and easy to find later?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Yes, archived with the posted document in BC",
+          "patterns": [
+            "archiv\\w* (of )?posted",
+            "archives? (documents|received)",
+            "to the matching bc record",
+            "invoice archive"
+          ]
+        },
+        {
+          "label": "Yes, in a searchable or audit-proof archive",
+          "patterns": [
+            "searchable[^.;]{0,30}archive",
+            "archive[^.;]{0,40}(search|filter)",
+            "audit-proof",
+            "long-term archive",
+            "secure document archive"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, archived with the posted document in BC": 0.04,
+        "Yes, in a searchable or audit-proof archive": 0.05
+      }
+    }
+  ],
+  "ignoredTopics": [
+    {
+      "label": "generic 'processing' wording",
+      "terms": [
+        "process"
+      ],
+      "on": "2026-10-04"
+    }
+  ]
+}

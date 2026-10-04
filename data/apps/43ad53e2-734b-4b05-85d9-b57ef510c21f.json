@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evorderstaging|PAPPID.43ad53e2-734b-4b05-85d9-b57ef510c21f",
+  "guid": "43ad53e2-734b-4b05-85d9-b57ef510c21f",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evorderstaging",
+  "source": {
+    "name": "EV Order Staging",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evorderstaging%7CPAPPID.43ad53e2-734b-4b05-85d9-b57ef510c21f",
+    "lastModified": "2026-09-21T10:25:31.8603091+00:00",
+    "appVersion": "10001.5.220419.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
+    "sourceHash": "sha256:4c0329283f0762cafaeaa068d49ce9bd4160866cddf83bfb58cffd11e219ac5b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4c0329283f0762cafaeaa068d49ce9bd4160866cddf83bfb58cffd11e219ac5b",
+    "mappedOn": null,
+    "summary": "Stages and imports sales documents from various sources",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Imports sales documents from B2C webshops, B2B portals and claims systems",
+      "Handles different sales document types supported in BC",
+      "Overview of all incoming sales documents in one place"
+    ],
+    "countries": [
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "IT",
+      "NL",
+      "NO",
+      "PH",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

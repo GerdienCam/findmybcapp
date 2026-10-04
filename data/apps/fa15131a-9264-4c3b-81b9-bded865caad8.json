@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.navtilus|AID.fa15131a-9264-4c3b-81b9-bded865caad8|PAPPID.fa15131a-9264-4c3b-81b9-bded865caad8",
+  "guid": "fa15131a-9264-4c3b-81b9-bded865caad8",
+  "publisherId": "navtilus",
+  "offerId": "fa15131a-9264-4c3b-81b9-bded865caad8",
+  "source": {
+    "name": "Quantified Impacts Connector",
+    "publisher": "Navtilus",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navtilus%7CAID.fa15131a-9264-4c3b-81b9-bded865caad8%7CPAPPID.fa15131a-9264-4c3b-81b9-bded865caad8",
+    "lastModified": "2026-02-25T12:17:48.0099643+00:00",
+    "appVersion": "1.8.27.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navtilus.dk/app-support/",
+    "sourceHash": "sha256:08baf4f26082b9053dea137a5a390fc567cbd1470c772614a692e61bb211d6e0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:08baf4f26082b9053dea137a5a390fc567cbd1470c772614a692e61bb211d6e0",
+    "mappedOn": null,
+    "summary": "Calculates product CO2e via Quantified Impact platform",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-esg",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-product-compliance"
+    ],
+    "claims": [
+      "Product-level CO2e calculation",
+      "Cradle-to-gate carbon footprinting",
+      "Works with BOMs, routings, suppliers and processes",
+      "ISO 14067-aligned calculations",
+      "Integrates Quantified Impact platform through API"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Quantified Impacts"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

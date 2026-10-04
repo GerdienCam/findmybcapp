@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.generic_workflow|PAPPID.5decf48c-fb93-47e1-95c0-53ca22f94872",
+  "guid": "5decf48c-fb93-47e1-95c0-53ca22f94872",
+  "publisherId": "thetasystemslimited",
+  "offerId": "generic_workflow",
+  "source": {
+    "name": "Generic Workflow",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.generic_workflow%7CPAPPID.5decf48c-fb93-47e1-95c0-53ca22f94872",
+    "lastModified": "2026-07-20T01:49:45.7689497+00:00",
+    "appVersion": "27.0.3.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/WF",
+    "sourceHash": "sha256:60403504a5f746f479d4f9dcd5eb7eba3b500f32afb1a94a57c338ae93941646"
+  },
+  "mapping": {
+    "sourceHash": "sha256:60403504a5f746f479d4f9dcd5eb7eba3b500f32afb1a94a57c338ae93941646",
+    "mappedOn": null,
+    "summary": "Approval workflows for sensitive master data changes",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding",
+      "ng-admin-change-log"
+    ],
+    "claims": [
+      "Workflow templates for any table with chosen fields triggering approval",
+      "Approvers see the previous and changed values side by side before they approve or reject",
+      "One approval request covers changes across multiple fields",
+      "Conditional record restrictions on specific fields",
+      "Changes to Approve FactBox showing old and new values",
+      "Pre-configured for vendor, vendor bank account, customer, employee, G/L account and item pages",
+      "Vendor bank account locked from EFT payments while change is pending",
+      "Rejected changes are reverted to previous values",
+      "Page extension templates to add workflow to any page",
+      "Per-tenant pricing for unlimited users",
+      "Free companion plan with the Australia/New Zealand Accelerator"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

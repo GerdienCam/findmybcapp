@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_databridge|PAPPID.c060086c-ddcf-4648-9288-17dadcadcac4",
+  "guid": "c060086c-ddcf-4648-9288-17dadcadcac4",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_databridge",
+  "source": {
+    "name": "Fusion5 DataBridge",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_databridge%7CPAPPID.c060086c-ddcf-4648-9288-17dadcadcac4",
+    "lastModified": "2026-06-01T19:29:47.283214+00:00",
+    "appVersion": "2700.4.20260602.30423",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/503349249/DataBridge",
+    "sourceHash": "sha256:9f5f2c2c83474857918a6fbf2ac2ecf8cf326f0a3bf1060eebcdcd84896c5709"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9f5f2c2c83474857918a6fbf2ac2ecf8cf326f0a3bf1060eebcdcd84896c5709",
+    "mappedOn": null,
+    "summary": "Imports data, item attributes and bulk attachments",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-data-migration",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Imports CSV data faster than standard methods",
+      "Bulk import and bulk delete of attachments",
+      "Imports into Item Attributes where standard packages fail",
+      "Custom import mappings",
+      "Delete attachments across companies in bulk"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

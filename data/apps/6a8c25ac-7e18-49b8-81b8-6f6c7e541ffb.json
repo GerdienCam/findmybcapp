@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.mdc_nordic|AID.ledgerly|PAPPID.6a8c25ac-7e18-49b8-81b8-6f6c7e541ffb",
+  "guid": "6a8c25ac-7e18-49b8-81b8-6f6c7e541ffb",
+  "publisherId": "mdc_nordic",
+  "offerId": "ledgerly",
+  "source": {
+    "name": "MDC Ledgerly",
+    "publisher": "MDC Nordic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mdc_nordic%7CAID.ledgerly%7CPAPPID.6a8c25ac-7e18-49b8-81b8-6f6c7e541ffb",
+    "lastModified": "2026-09-23T07:57:37.2791229+00:00",
+    "appVersion": "28.1.1.3668",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://mdcnordic.com/en/bc-apps/ledgerly/",
+    "sourceHash": "sha256:f093cbbe931c6b3f2fa7404e736133aab61ee2296a98b75a4bfd33bb7b09cc4c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f093cbbe931c6b3f2fa7404e736133aab61ee2296a98b75a4bfd33bb7b09cc4c",
+    "mappedOn": null,
+    "summary": "Account reconciliation, accruals after posting and posting controls",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-journals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals",
+      "ng-ux-dimensions",
+      "ng-financial-statements"
+    ],
+    "claims": [
+      "Account reconciliation with matching, auto-reconciliation, roles and approvals",
+      "Alias posting with predefined posting combinations",
+      "Post-posting accruals",
+      "Indirect posting control rules",
+      "Dimension validation blocking dimensions on specified accounts",
+      "Loads public/standard reporting definitions (row and column definitions)",
+      "Central setup to enable/disable features",
+      "Premium plan includes 2 support hours per month"
+    ],
+    "countries": [],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

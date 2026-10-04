@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.timetrackcentral|AID.ttc_basic|PAPPID.c79bf83e-73fe-4680-9662-5731a778e905",
+  "guid": "c79bf83e-73fe-4680-9662-5731a778e905",
+  "publisherId": "timetrackcentral",
+  "offerId": "ttc_basic",
+  "source": {
+    "name": "Time Track Central - Basic",
+    "publisher": "Time Track Central",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.timetrackcentral%7CAID.ttc_basic%7CPAPPID.c79bf83e-73fe-4680-9662-5731a778e905",
+    "lastModified": "2026-09-17T12:01:19.0284605+00:00",
+    "appVersion": "25.0.20260917.2",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.timetrackcentral.com/",
+    "sourceHash": "sha256:0195d89ffa0abaf2de127844407b72e7369b0c3d19722606bf76ab37f30bbc0f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0195d89ffa0abaf2de127844407b72e7369b0c3d19722606bf76ab37f30bbc0f",
+    "mappedOn": null,
+    "summary": "Time sheets and absence management with web app",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-payroll-comp",
+      "ng-proj-planning"
+    ],
+    "claims": [
+      "Web app (SPA) to manage and approve time sheets",
+      "Absence management",
+      "Resource capacity management",
+      "Payroll exports",
+      "Streamlines hour registration in projects",
+      "Builds on standard BC time sheet and absence functionality",
+      "Employees need no BC user or Microsoft license",
+      "Basic edition excludes work reports and expenses"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

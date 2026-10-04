@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.madhda3303|AID.tdsynnex_dynamics365connector|PAPPID.09a745e1-4a22-4992-b9cc-f917a77107d3",
+  "guid": "09a745e1-4a22-4992-b9cc-f917a77107d3",
+  "publisherId": "madhda3303",
+  "offerId": "tdsynnex_dynamics365connector",
+  "source": {
+    "name": "TD SYNNEX Connector for Dynamics 365",
+    "publisher": "Madhda Business Solutions Private Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.madhda3303%7CAID.tdsynnex_dynamics365connector%7CPAPPID.09a745e1-4a22-4992-b9cc-f917a77107d3",
+    "lastModified": "2026-03-12T05:56:07.3446461+00:00",
+    "appVersion": "26.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://madhda.com/contact/",
+    "sourceHash": "sha256:636f3879ccf07cd719dc4220369a80b8d2222dc17a03eb5f61c3c28b9d96b3a0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:636f3879ccf07cd719dc4220369a80b8d2222dc17a03eb5f61c3c28b9d96b3a0",
+    "mappedOn": null,
+    "summary": "Syncs TD SYNNEX products and invoices into BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Synchronizes TD SYNNEX product catalogs, pricing and purchase invoices into BC",
+      "Stores invoice data in a staging area before posting as purchase orders or purchase invoices",
+      "Maps vendor defaults, item categories, posting groups and tax groups",
+      "Runs inside BC without external databases or middleware",
+      "API-driven integration with TD SYNNEX"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "IT resellers",
+      "Technology distribution"
+    ],
+    "connectsTo": [
+      "TD SYNNEX"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

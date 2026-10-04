@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.pfformula1687443475154|AID.integrationforpostaselfservice|PAPPID.34474b6e-7b46-46b5-ba69-da5be6150dd1",
+  "guid": "34474b6e-7b46-46b5-ba69-da5be6150dd1",
+  "publisherId": "pfformula1687443475154",
+  "offerId": "integrationforpostaselfservice",
+  "source": {
+    "name": "Integration Posta Selfservice",
+    "publisher": "P/f Formula",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pfformula1687443475154%7CAID.integrationforpostaselfservice%7CPAPPID.34474b6e-7b46-46b5-ba69-da5be6150dd1",
+    "lastModified": "2026-06-11T10:02:36.1860346+00:00",
+    "appVersion": "28.0.0.70",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.formula.fo/contact/",
+    "sourceHash": "sha256:66410cc6d306c4d736b6aec0408acc554af74f28a2094c68226e6f2fe97498ca"
+  },
+  "mapping": {
+    "sourceHash": "sha256:66410cc6d306c4d736b6aec0408acc554af74f28a2094c68226e6f2fe97498ca",
+    "mappedOn": null,
+    "summary": "Sends shipments to Faroese Posta self-service",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Sends sales orders directly to Posta for pickup and delivery",
+      "Exclusively for businesses in the Faroe Islands"
+    ],
+    "countries": [
+      "FO"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Posta"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_abl|PAPPID.e69f0cde-8b4b-4a83-a635-4228328d0693",
+  "guid": "e69f0cde-8b4b-4a83-a635-4228328d0693",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_abl",
+  "source": {
+    "name": "Advanced Availability By Location",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_abl%7CPAPPID.e69f0cde-8b4b-4a83-a635-4228328d0693",
+    "lastModified": "2025-11-03T10:47:04.4304753+00:00",
+    "appVersion": "25.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-advanced-availability-by-location/",
+    "sourceHash": "sha256:0d2d8f04303391dc13e1cb7235fcc117d4c1a9a640b7894947049d6af07b66b0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0d2d8f04303391dc13e1cb7235fcc117d4c1a9a640b7894947049d6af07b66b0",
+    "mappedOn": null,
+    "summary": "Item availability by location",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-excel-reporting"
+    ],
+    "claims": [
+      "Calculates stock, needs, loads and availability per item and location",
+      "Filters items by location and groups by bin code",
+      "Dual view: totals and the source documents with dates",
+      "Highlights items without availability in red",
+      "Exports calculated data to Excel"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

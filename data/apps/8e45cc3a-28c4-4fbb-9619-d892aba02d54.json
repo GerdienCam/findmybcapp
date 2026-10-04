@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.powerblox1677140592963|AID.pbl-payment-terminal|PAPPID.8e45cc3a-28c4-4fbb-9619-d892aba02d54",
+  "guid": "8e45cc3a-28c4-4fbb-9619-d892aba02d54",
+  "publisherId": "powerblox1677140592963",
+  "offerId": "pbl-payment-terminal",
+  "source": {
+    "name": "Powerblox Payment Terminal",
+    "publisher": "Powerblox",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.powerblox1677140592963%7CAID.pbl-payment-terminal%7CPAPPID.8e45cc3a-28c4-4fbb-9619-d892aba02d54",
+    "lastModified": "2025-10-27T12:34:33.9777356+00:00",
+    "appVersion": "20.0.5.50918",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.powerblox.io/apps/payment_terminal",
+    "sourceHash": "sha256:3cd23ebcfd0e2f1841c93039859a7e1943ed20b858cbba837a8881b3b3aa3662"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3cd23ebcfd0e2f1841c93039859a7e1943ed20b858cbba837a8881b3b3aa3662",
+    "mappedOn": null,
+    "summary": "Integrates Worldline card payment terminals",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-payment-providers"
+    ],
+    "claims": [
+      "Sends amounts from BC to the Worldline terminal",
+      "Supports Visa, MasterCard, Maestro, Amex, Bancontact, iDEAL",
+      "Contactless Apple Pay and Google Pay",
+      "Payment result returned to BC in real time"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Worldline"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

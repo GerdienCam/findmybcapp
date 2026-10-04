@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.soliteabusinesssolutionssro1584442662364|AID.docsafe_for_sharepoint|PAPPID.41c89e30-26e3-4cef-801d-f0fb56da0744",
+  "guid": "41c89e30-26e3-4cef-801d-f0fb56da0744",
+  "publisherId": "soliteabusinesssolutionssro1584442662364",
+  "offerId": "docsafe_for_sharepoint",
+  "source": {
+    "name": "Seyfor DocSAFE for SharePoint",
+    "publisher": "Seyfor, a. s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.soliteabusinesssolutionssro1584442662364%7CAID.docsafe_for_sharepoint%7CPAPPID.41c89e30-26e3-4cef-801d-f0fb56da0744",
+    "lastModified": "2026-10-01T08:36:12.8171262+00:00",
+    "appVersion": "26.1.2.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docsd365.seyfor.com/en-us/",
+    "sourceHash": "sha256:fd9764845c636dd507b16ec74d705c623492f37ab8cd3285208f8ee2fdfbb6bb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fd9764845c636dd507b16ec74d705c623492f37ab8cd3285208f8ee2fdfbb6bb",
+    "mappedOn": null,
+    "summary": "Stores document attachments in SharePoint",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Drop zone on card FactBox for attaching documents",
+      "Collects attachment attributes from related record",
+      "Uploads attachments with attributes to SharePoint document library"
+    ],
+    "countries": [
+      "CZ",
+      "GB",
+      "SK",
+      "US"
+    ],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

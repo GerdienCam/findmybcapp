@@ -1,0 +1,174 @@
+{
+  "id": "ng-period-close",
+  "order": 55,
+  "label": "Running month end and year end close",
+  "description": "Finalising postings, inventory cost adjustment and closing periods and the year.",
+  "type": "bpc",
+  "area": "Finance & reporting",
+  "relevance": "high",
+  "statements": [
+    "Running month end and year end close",
+    "Finalising postings, inventory cost adjustment and closing periods and the year.",
+    "At month end we never know if all shipments have been invoiced and posted",
+    "Adjust cost item entries runs for hours and blocks everyone",
+    "We need a list of everything that is shipped but not invoiced before we close",
+    "Post inventory cost to G/L is always forgotten at month end",
+    "Received not invoiced purchase orders hang around for months",
+    "Is there an app that shows what is still unposted across sales, purchase and production?",
+    "Finished production orders haven't been closed so cost isn't final",
+    "Unposted journals sitting in batches from three months ago",
+    "Project entries need to be finalized before we can close the month",
+    "Checklist of all the posting steps before month end in BC",
+    "Batch post all the open sales invoices at month end",
+    "Some posting errors only show up at month end when we try to post everything",
+    "Month end close takes us 12 working days and we want it down to 5",
+    "Is there a close management app for BC with a checklist and owners per task?",
+    "Someone posted into last month after we sent the reports to the bank",
+    "How do we stop people posting into closed periods in BC?",
+    "year end close BC",
+    "We track the month end tasks in a spreadsheet and things get missed",
+    "Close the fiscal year and move the result to retained earnings",
+    "Allow only the controller to post into the previous month for a few days",
+    "Want to see the status of the close across all our companies",
+    "Year end adjustments after closing, how do we post them?",
+    "Close inventory, AR and AP separately so sales can keep working",
+    "We need a close calendar with deadlines and reminders",
+    "Period lock per module, purchasing closed but finance still open",
+    "Reopen a closed period to fix a mistake",
+    "Our auditor wants evidence of who did each close step",
+    "The allowed posting dates on user setup are changed by hand every month",
+    "Fast close for a small finance team of two people",
+    "Close checklist template that rolls forward each month",
+    "Carry forward open purchase commitments into the new year",
+    "Month end is chaos because everyone waits on everyone",
+    "We need to write down slow moving stock at year end",
+    "Our standard costs changed and on hand inventory must be revalued",
+    "inventory revaluation journal",
+    "The unit cost on an item is wrong and all our stock is overvalued",
+    "Is there an app to calculate obsolescence provisions on old stock?",
+    "Auditor wants inventory valued at the lower of cost and net realizable value",
+    "Revalue one specific receipt that was booked at the wrong cost",
+    "Average cost on some items is completely off after a bad receipt",
+    "We want to revalue stock in bulk by item category",
+    "Stock value in BC doesn't reflect current market prices",
+    "Raw material prices dropped and we need to revalue on hand stock",
+    "How do we run a revaluation without messing up the cost of goods sold?"
+  ],
+  "questions": [
+    {
+      "id": "pain",
+      "text": "What eats most of your time at month end?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Tracking who has done which close task",
+          "patterns": [
+            "checklist",
+            "task list",
+            "task manager",
+            "close progress",
+            "outstanding month end",
+            "close management",
+            "guided year-end"
+          ]
+        },
+        {
+          "label": "Reconciling balances",
+          "patterns": [
+            "reconcil",
+            "balance preview",
+            "transaction matching",
+            "applications?\\b.*entries"
+          ]
+        },
+        {
+          "label": "Goods received or shipped but not invoiced",
+          "patterns": [
+            "accru",
+            "not invoiced",
+            "without (a posted )?invoice",
+            "without credit memo",
+            "expected cost"
+          ]
+        },
+        {
+          "label": "People posting into the wrong period",
+          "patterns": [
+            "allow(ed)? posting",
+            "posting (date )?range",
+            "vat date",
+            "allow vat",
+            "locks allowed posting"
+          ]
+        },
+        {
+          "label": "Valuing stock and inventory cost",
+          "patterns": [
+            "inventory cost",
+            "costing",
+            "valuation",
+            "item valuation",
+            "inventory inflation"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Tracking who has done which close task": 0.25,
+        "Reconciling balances": 0.35,
+        "Goods received or shipped but not invoiced": 0.25,
+        "People posting into the wrong period": 0.15,
+        "Valuing stock and inventory cost": 0.25
+      }
+    },
+    {
+      "id": "audit",
+      "text": "Do your auditors expect documented evidence from the close?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, evidence and audit trail",
+          "patterns": [
+            "audit",
+            "supporting documentation",
+            "justification",
+            "certified periods",
+            "grc"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, evidence and audit trail": 0.25
+      }
+    },
+    {
+      "id": "ai",
+      "text": "Would you like AI to check entries or match transactions?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, use AI",
+          "patterns": [
+            "\\bAI\\b",
+            "artificial intelligence"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, use AI": 0.1
+      }
+    }
+  ]
+}

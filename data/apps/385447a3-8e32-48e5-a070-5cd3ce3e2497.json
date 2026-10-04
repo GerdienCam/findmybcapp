@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.binarylabptyltd1739437691778|AID.bnlpeachpaymentlinkoffer01|PAPPID.385447a3-8e32-48e5-a070-5cd3ce3e2497",
+  "guid": "385447a3-8e32-48e5-a070-5cd3ce3e2497",
+  "publisherId": "binarylabptyltd1739437691778",
+  "offerId": "bnlpeachpaymentlinkoffer01",
+  "source": {
+    "name": "Peach Payment Link",
+    "publisher": "Binary Lab (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binarylabptyltd1739437691778%7CAID.bnlpeachpaymentlinkoffer01%7CPAPPID.385447a3-8e32-48e5-a070-5cd3ce3e2497",
+    "lastModified": "2026-01-27T18:35:43.8556887+00:00",
+    "appVersion": "2200.260127.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://binarylab.co.za/peach-payment-link",
+    "sourceHash": "sha256:245d6ace34696e0559c1fd70f8f9f89563bbe3018bfce9494843d0db3018fc90"
+  },
+  "mapping": {
+    "sourceHash": "sha256:245d6ace34696e0559c1fd70f8f9f89563bbe3018bfce9494843d0db3018fc90",
+    "mappedOn": null,
+    "summary": "Sends Peach Payments payment links from sales orders and documents",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Create, cancel and query payment links from quotes, orders or invoices",
+      "Send a payment link through Peach Payments by WhatsApp, SMS or email",
+      "Optionally attach the related sales document to the notification",
+      "Print payment link and/or QR code on sales document layouts",
+      "Restricts posting of documents with unpaid payment requests",
+      "Multi-currency, defaulting to ZAR"
+    ],
+    "countries": [
+      "ZA"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Peach Payments"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

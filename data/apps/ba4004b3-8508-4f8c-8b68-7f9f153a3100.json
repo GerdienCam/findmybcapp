@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex06101_productqualityassuranceforcws|PAPPID.ba4004b3-8508-4f8c-8b68-7f9f153a3100",
+  "guid": "ba4004b3-8508-4f8c-8b68-7f9f153a3100",
+  "publisherId": "eos_solutions",
+  "offerId": "ex06101_productqualityassuranceforcws",
+  "source": {
+    "name": "Product Quality Assurance for CWS",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex06101_productqualityassuranceforcws%7CPAPPID.ba4004b3-8508-4f8c-8b68-7f9f153a3100",
+    "lastModified": "2026-04-11T05:13:02.8851646+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/product-quality-assurance.html",
+    "sourceHash": "sha256:c92efcfd933631976600142a212de732505abb0c5e60d7d86ddab217032ad404"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c92efcfd933631976600142a212de732505abb0c5e60d7d86ddab217032ad404",
+    "mappedOn": null,
+    "summary": "Links quality non-compliances to combined warehouse shipments",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-nonconformance-capa",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-quality-inspection"
+    ],
+    "claims": [
+      "Links quality non-compliances to combined warehouse shipments",
+      "Linking is manual",
+      "Free; requires EOS Product Quality Assurance and EOS Combine Warehouse Shipment"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Product Quality Assurance",
+      "EOS Combine Warehouse Shipment"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

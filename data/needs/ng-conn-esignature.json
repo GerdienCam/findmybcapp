@@ -1,0 +1,248 @@
+{
+  "id": "ng-conn-esignature",
+  "order": 197,
+  "label": "Getting documents signed electronically",
+  "description": "Sending quotes, contracts, orders and other documents for e-signature (DocuSign, Adobe Sign, Signicat, Visma Sign, Penneo and others) or capturing signatures on screen, with status back in BC.",
+  "type": "connector",
+  "area": "Connecting other systems",
+  "relevance": "medium",
+  "statements": [
+    "Getting documents signed electronically",
+    "Sending quotes, contracts, orders and other documents for e-signature (DocuSign, Adobe Sign, Signicat, Visma Sign, Penneo and others) or capturing signatures on screen, with status back in BC.",
+    "Customers print, sign and scan our quotes, it's 2026",
+    "DocuSign integration Business Central",
+    "Signed order confirmations should come back into BC automatically",
+    "Driver needs the customer's signature on the delivery on a tablet",
+    "Contracts signed with BankID or MitID",
+    "See in BC whether the customer has signed yet",
+    "Digital signature on PDFs we send",
+    "Service report signed by the customer on site",
+    "Adobe Sign for sales quotes",
+    "Sign rental contracts electronically",
+    "Qualified electronic signatures for legal documents",
+    "Who signed what and when, for the auditors"
+  ],
+  "questions": [
+    {
+      "id": "provider",
+      "text": "Do you already use an e-signature service?",
+      "multi": false,
+      "options": [
+        {
+          "label": "DocuSign",
+          "patterns": [
+            "docu ?sign"
+          ]
+        },
+        {
+          "label": "Adobe, Dropbox Sign, Box Sign or PandaDoc",
+          "patterns": [
+            "adobe",
+            "dropbox",
+            "box sign",
+            "pandadoc"
+          ]
+        },
+        {
+          "label": "Another service (Signicat, Visma Sign, Smart-ID, Signhost, eversign...)",
+          "patterns": [
+            "docubee",
+            "signicat",
+            "visma",
+            "smart-id",
+            "signhost",
+            "docuten",
+            "vchasno",
+            "whitedoc",
+            "eversign"
+          ]
+        },
+        {
+          "label": "No, signing should happen inside Business Central",
+          "patterns": [
+            "capture",
+            "record signatures",
+            "entities inside bc",
+            "signatures stored in bc",
+            "digital certificate",
+            "without usb",
+            "dionix",
+            "api-based",
+            "by image"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "DocuSign": 0.29,
+        "Adobe, Dropbox Sign, Box Sign or PandaDoc": 0.14,
+        "Another service (Signicat, Visma Sign, Smart-ID, Signhost, eversign...)": 0.32,
+        "No, signing should happen inside Business Central": 0.25
+      }
+    },
+    {
+      "id": "who_signs",
+      "text": "Where does the signer usually sign?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Remotely, from an email link",
+          "patterns": [
+            "\\blink\\b",
+            "signing link",
+            "secure link",
+            "e-?mail",
+            "envelope",
+            "recipient",
+            "send(s)? (bc )?documents",
+            "signature requests?"
+          ]
+        },
+        {
+          "label": "In person on a tablet or phone (e.g. at delivery)",
+          "patterns": [
+            "tablet",
+            "phone",
+            "mobile",
+            "signature capture",
+            "confirm delivery"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Remotely, from an email link": 0.61,
+        "In person on a tablet or phone (e.g. at delivery)": 0.14
+      }
+    },
+    {
+      "id": "doc_types",
+      "text": "Which documents need signing?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Sales quotes and orders",
+          "patterns": [
+            "sales (quote|order|document)",
+            "quotes?, orders",
+            "job quotes",
+            "quotes and orders"
+          ]
+        },
+        {
+          "label": "Purchase documents",
+          "patterns": [
+            "purchase"
+          ]
+        },
+        {
+          "label": "Service orders and contracts",
+          "patterns": [
+            "service",
+            "contract"
+          ]
+        },
+        {
+          "label": "Deliveries, shipments or warehouse documents",
+          "patterns": [
+            "shipment",
+            "receipt",
+            "\\bpick",
+            "confirm delivery",
+            "warehouse"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Sales quotes and orders": 0.43,
+        "Purchase documents": 0.14,
+        "Service orders and contracts": 0.54,
+        "Deliveries, shipments or warehouse documents": 0.11
+      }
+    },
+    {
+      "id": "legal",
+      "text": "Do you need a qualified or certificate-based signature (eIDAS, PAdES)?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "eidas",
+            "pades",
+            "certificate",
+            "smart-id",
+            "legally binding"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.25
+      }
+    },
+    {
+      "id": "signers",
+      "text": "Do several people sign the same document in a set order?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "sequenc",
+            "multi-?recipient",
+            "multiple signers",
+            "dual-signature",
+            "internal signers",
+            "recipient structure",
+            "signers for company"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.32
+      }
+    },
+    {
+      "id": "bundle",
+      "text": "Do you send several files together, like terms and conditions with a quote?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "combine several",
+            "multiple documents",
+            "additional attachments",
+            "upload more documents",
+            "bulk"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.36
+      }
+    }
+  ]
+}

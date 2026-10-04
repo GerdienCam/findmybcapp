@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.sbcdynamicserp1637715412860|AID.acumensintercompanyenhancements|PAPPID.6697f4f5-48fc-4a20-b254-64830adc6403",
+  "guid": "6697f4f5-48fc-4a20-b254-64830adc6403",
+  "publisherId": "sbcdynamicserp1637715412860",
+  "offerId": "acumensintercompanyenhancements",
+  "source": {
+    "name": "Acumens Intercompany & MDM Enhancements (NW)",
+    "publisher": "SBC Dynamics ERP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumensintercompanyenhancements%7CPAPPID.6697f4f5-48fc-4a20-b254-64830adc6403",
+    "lastModified": "2026-09-25T06:24:13.2863848+00:00",
+    "appVersion": "27.1023.1.11",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.sbcdynamicserp.com/intercompany-mdm-enhancements-business-central/",
+    "sourceHash": "sha256:f4db379fa868427473755f4a3ed0b964428181cdd4e07a92c919277a5f9199e9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f4db379fa868427473755f4a3ed0b964428181cdd4e07a92c919277a5f9199e9",
+    "mappedOn": null,
+    "summary": "Automates intercompany transactions and master data sync",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "MDM setup centrally and copied to other companies",
+      "Prevents local modification of shared master data",
+      "Blocks master data deletion when subsidiary has transactions",
+      "Syncs all contact changes including company contacts",
+      "Automatically maps dimensions and chart of accounts between companies",
+      "Transfers location code to IC partner documents",
+      "Transfers lot details on IC documents",
+      "Builds IC journals out of lines on posted credit memos and purchase invoices",
+      "Receive from third-party vendor and resell to IC partner",
+      "Auto-posts incoming IC documents on acceptance",
+      "IC Document No. and Find IC Document function",
+      "Auto-send outgoing IC documents on release",
+      "Email notification on incoming IC documents"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

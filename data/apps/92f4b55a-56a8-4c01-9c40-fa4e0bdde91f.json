@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.trasersoftwaregmbh1590406895269|AID.traser-dms-mobile-wms|PAPPID.92f4b55a-56a8-4c01-9c40-fa4e0bdde91f",
+  "guid": "92f4b55a-56a8-4c01-9c40-fa4e0bdde91f",
+  "publisherId": "trasersoftwaregmbh1590406895269",
+  "offerId": "traser-dms-mobile-wms",
+  "source": {
+    "name": "Aptean Equipment DMS x Mobile WMS",
+    "publisher": "TRASER Software GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.trasersoftwaregmbh1590406895269%7CAID.traser-dms-mobile-wms%7CPAPPID.92f4b55a-56a8-4c01-9c40-fa4e0bdde91f",
+    "lastModified": "2026-09-03T06:52:14.8049768+00:00",
+    "appVersion": "2603.260800.20260902.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://academy.traser-software.de/",
+    "sourceHash": "sha256:80263662a9504bb385257ebd3f5b92ef11c986a40a514b725e80a45988677924"
+  },
+  "mapping": {
+    "sourceHash": "sha256:80263662a9504bb385257ebd3f5b92ef11c986a40a514b725e80a45988677924",
+    "mappedOn": null,
+    "summary": "Connects Tasklet Mobile WMS with Aptean Equipment DMS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-vert-equipment-dealers",
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Supports Vendor Item No. in Mobile WMS",
+      "Adds physical inventory recording lines by scanning",
+      "Default target location for unplanned movements for counter sales",
+      "Supports Premium Edition, all BC countries"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [
+      "Equipment dealers"
+    ],
+    "connectsTo": [
+      "Tasklet Factory Mobile WMS"
+    ],
+    "requires": [
+      "Aptean Equipment DMS",
+      "Tasklet Mobile WMS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

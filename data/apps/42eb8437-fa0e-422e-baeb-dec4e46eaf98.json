@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.ecodelas1585264231154|AID.excboligflow|PAPPID.42eb8437-fa0e-422e-baeb-dec4e46eaf98",
+  "guid": "42eb8437-fa0e-422e-baeb-dec4e46eaf98",
+  "publisherId": "ecodelas1585264231154",
+  "offerId": "excboligflow",
+  "source": {
+    "name": "Boligflow Integration",
+    "publisher": "Ecodel",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ecodelas1585264231154%7CAID.excboligflow%7CPAPPID.42eb8437-fa0e-422e-baeb-dec4e46eaf98",
+    "lastModified": "2026-09-12T10:31:13.2059285+00:00",
+    "appVersion": "28.0.260912.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.erphotel.com/hc/da/articles/14106144051229",
+    "sourceHash": "sha256:34271dd258e0eec0d82b0776c0b83109567429979f497f45dbc653ac58f2e748"
+  },
+  "mapping": {
+    "sourceHash": "sha256:34271dd258e0eec0d82b0776c0b83109567429979f497f45dbc653ac58f2e748",
+    "mappedOn": null,
+    "summary": "Integrates Boligflow housing administration with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-property",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals",
+      "ng-ux-dimensions"
+    ],
+    "claims": [
+      "Transfers all Boligflow transactions into BC",
+      "Automatic account mapping from Boligflow to BC chart of accounts",
+      "Enriches transactions with property, tenancy and contract dimensions",
+      "Transfers Boligflow vouchers attached to posted transactions",
+      "Tenant receivables posted to customer and vendor accounts",
+      "Auto-creates customers and vendors from lease contracts",
+      "Transaction register with processing status"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [
+      "Property management"
+    ],
+    "connectsTo": [
+      "Boligflow"
+    ],
+    "requires": [
+      "Boligflow"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

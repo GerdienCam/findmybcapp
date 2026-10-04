@@ -1,0 +1,63 @@
+{
+  "appId": "TYPE.connect|PUBID.centerstageinc1690983912338|AID.shopware|PAPPID.6da422af-7be8-4401-b9fb-183ee1a0fff7",
+  "guid": "6da422af-7be8-4401-b9fb-183ee1a0fff7",
+  "publisherId": "centerstageinc1690983912338",
+  "offerId": "shopware",
+  "source": {
+    "name": "Shopware for Microsoft Dynamics 365 Business Central",
+    "publisher": "iPaaS.com",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.centerstageinc1690983912338%7CAID.shopware%7CPAPPID.6da422af-7be8-4401-b9fb-183ee1a0fff7",
+    "lastModified": "2026-06-12T05:57:54.3198023+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.ipaas.com/en/",
+    "sourceHash": "sha256:b1419df14885b1bf4993b217861ee8989d1645740c3c7a322f2172611945fa45"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b1419df14885b1bf4993b217861ee8989d1645740c3c7a322f2172611945fa45",
+    "mappedOn": null,
+    "summary": "Integrates Shopware B2B ecommerce via iPaaS.com",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Syncs products and categories with variants, inventory and prices to Shopware",
+      "Flows Shopware orders into BC",
+      "Sends shipping and tracking updates back",
+      "Syncs customers including customer groups and B2B company data",
+      "Customer-specific and complex B2B pricing in Shopware"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Shopware",
+      "iPaaS.com"
+    ],
+    "requires": [
+      "iPaaS.com",
+      "Shopware"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

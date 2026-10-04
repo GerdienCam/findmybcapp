@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.pfformula1687443475154|AID.etoll|PAPPID.9c31a91f-4a4e-4f5f-962c-72043940c545",
+  "guid": "9c31a91f-4a4e-4f5f-962c-72043940c545",
+  "publisherId": "pfformula1687443475154",
+  "offerId": "etoll",
+  "source": {
+    "name": "eToll",
+    "publisher": "P/f Formula",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pfformula1687443475154%7CAID.etoll%7CPAPPID.9c31a91f-4a4e-4f5f-962c-72043940c545",
+    "lastModified": "2026-06-11T10:03:07.0063314+00:00",
+    "appVersion": "28.0.0.88",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.formula.fo/contact/",
+    "sourceHash": "sha256:166d99aad00634b7a3352c8c735036fb773e718114f1f9f6f97938adef773e1e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:166d99aad00634b7a3352c8c735036fb773e718114f1f9f6f97938adef773e1e",
+    "mappedOn": null,
+    "summary": "Import customs documentation from purchase orders",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Records tariff number, country of origin, weight and value per purchase order line",
+      "Exports completed orders for import into customs systems",
+      "On posting, stores the customs number, country of origin and net weight on the item card",
+      "Built for the Faroese customs system TAKS"
+    ],
+    "countries": [
+      "FO"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

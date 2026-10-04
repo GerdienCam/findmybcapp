@@ -1,0 +1,232 @@
+{
+  "id": "ng-loc-country-pack",
+  "order": 198,
+  "label": "Making BC fit our country's legal requirements",
+  "description": "Country localization packs and local essentials for countries Microsoft does not localize, or extends thinly: local chart of accounts, statutory documents, local fixed asset rules, cash desks, cheques, local currency rules. Results always filtered by the country answer.",
+  "type": "localization",
+  "area": "Country requirements",
+  "relevance": "high",
+  "statements": [
+    "Making BC fit our country's legal requirements",
+    "Country localization packs and local essentials for countries Microsoft does not localize, or extends thinly: local chart of accounts, statutory documents, local fixed asset rules, cash desks, cheques, local currency rules. Results always filtered by the country answer.",
+    "We're opening a company in Turkey, is BC even legal there?",
+    "Business Central localization for Chile",
+    "Microsoft doesn't have a localization for our country, who does?",
+    "Our Ukrainian subsidiary needs local accounting rules in BC",
+    "Local accountant says the standard reports aren't accepted here",
+    "Is there a Polish localization that covers everything?",
+    "We need the local chart of accounts mapped to our group accounts",
+    "Statutory documents in the local format for Japan",
+    "What do we need to run BC in Saudi Arabia?",
+    "Expanding to Mexico, what partner app handles CFDI and local tax?",
+    "localization pack Lithuania",
+    "Our new Bulgarian company needs local VAT and Intrastat",
+    "Inflation accounting for our Turkish entity",
+    "Cash desk and cheque handling the way it's done in Latin America",
+    "Danish essentials like digital vouchers and bookkeeping act requirements",
+    "Fixed assets must follow local depreciation rules in Japan",
+    "Withholding tax for the Philippines",
+    "BC for a small company in Albania",
+    "Country checklist: what must BC do to be compliant here?",
+    "Local reports in Serbian for the tax authority"
+  ],
+  "questions": [
+    {
+      "id": "need",
+      "text": "What does your local accountant or auditor ask for that BC lacks?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Local VAT ledgers and returns",
+          "patterns": [
+            "vat (return|declaration|ledger|statement|report|register|management|calculation|classification|tables)",
+            "gst (setup|report)",
+            "\\biva\\b",
+            "popdv",
+            "tax report",
+            "tax management",
+            "vat invoices",
+            "vat3"
+          ]
+        },
+        {
+          "label": "Local financial statements and legal reports",
+          "patterns": [
+            "statutory report(s|ing)?(?! changes)",
+            "statutory (financial|forms|report templates)",
+            "balance sheet",
+            "trial balance",
+            "legal (report|printout)",
+            "financial statements",
+            "ledger reports",
+            "chronological journal",
+            "chart of accounts"
+          ]
+        },
+        {
+          "label": "E-invoicing or fiscal numbers from the tax authority",
+          "patterns": [
+            "e-?invoic",
+            "electronic (tax )?invoice",
+            "electronic tax",
+            "fapiao",
+            "fiscal numbers",
+            "online invoicing",
+            "\\bsef\\b",
+            "waybills"
+          ]
+        },
+        {
+          "label": "Local document layouts and printouts",
+          "patterns": [
+            "printouts?",
+            "print layouts",
+            "layouts?",
+            "printed forms",
+            "printing forms",
+            "report layouts"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Local VAT ledgers and returns": 0.31,
+        "Local financial statements and legal reports": 0.31,
+        "E-invoicing or fiscal numbers from the tax authority": 0.13,
+        "Local document layouts and printouts": 0.18
+      }
+    },
+    {
+      "id": "cash",
+      "text": "Which money-handling rules apply to you?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Cash desk or petty cash documents",
+          "patterns": [
+            "cash desk",
+            "petty cash",
+            "cash orders?",
+            "cash (receipt|payment|withdrawal)",
+            "ko-1",
+            "cash book"
+          ]
+        },
+        {
+          "label": "Cheques and promissory notes",
+          "patterns": [
+            "cheque",
+            "promissory",
+            "check administration",
+            "checks"
+          ]
+        },
+        {
+          "label": "Local bank files and statements",
+          "patterns": [
+            "\\bsepa\\b",
+            "bank (file|statement)",
+            "camt",
+            "pain\\.001",
+            "coda",
+            "halkom",
+            "internet banking",
+            "bank payments"
+          ]
+        },
+        {
+          "label": "Official central bank exchange rates",
+          "patterns": [
+            "exchange rates? (import|download|updat|loader|management|from)",
+            "exchange rate updating",
+            "import of nbp",
+            "\\bnbp\\b",
+            "\\bmnb\\b"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Cash desk or petty cash documents": 0.09,
+        "Cheques and promissory notes": 0.08,
+        "Local bank files and statements": 0.11,
+        "Official central bank exchange rates": 0.1
+      }
+    },
+    {
+      "id": "retail",
+      "text": "Do you sell through shops or cash registers?",
+      "help": "Skip if you only invoice businesses.",
+      "options": [
+        {
+          "label": "Receipts printed on a fiscal printer",
+          "patterns": [
+            "fiscal printers?",
+            "fiscal receipt"
+          ]
+        },
+        {
+          "label": "Receipts or invoices registered online with the tax authority",
+          "patterns": [
+            "rksv",
+            "kassensichv",
+            "fiscal numbers",
+            "selfcare platform",
+            "without physical devices"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Receipts printed on a fiscal printer": 0.05,
+        "Receipts or invoices registered online with the tax authority": 0.02
+      }
+    },
+    {
+      "id": "assets",
+      "text": "Which other local rules apply to you?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Local fixed asset rules and forms",
+          "patterns": [
+            "fixed assets?",
+            "depreciation"
+          ]
+        },
+        {
+          "label": "Inflation adjustment",
+          "patterns": [
+            "inflation",
+            "monetary correction"
+          ]
+        },
+        {
+          "label": "Local payroll",
+          "patterns": [
+            "payroll"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Local fixed asset rules and forms": 0.16,
+        "Inflation adjustment": 0.07,
+        "Local payroll": 0.03
+      }
+    }
+  ]
+}

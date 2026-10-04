@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.smart-businessllc2412077-2412077|AID.smart_schedule_rename|PAPPID.aba28e48-3558-46d6-b1f1-7c6808310d42",
+  "guid": "aba28e48-3558-46d6-b1f1-7c6808310d42",
+  "publisherId": "smart-businessllc2412077-2412077",
+  "offerId": "smart_schedule_rename",
+  "source": {
+    "name": "SMART Schedule Rename",
+    "publisher": "SMART business LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_schedule_rename%7CPAPPID.aba28e48-3558-46d6-b1f1-7c6808310d42",
+    "lastModified": "2024-11-22T10:07:54.6897874+00:00",
+    "appVersion": "1.0.49099.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.smart-it.com/",
+    "sourceHash": "sha256:05a62455872dfccbcf1f02c1cef1809e93fee2e2743c03d448ee4235705f06a1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:05a62455872dfccbcf1f02c1cef1809e93fee2e2743c03d448ee4235705f06a1",
+    "mappedOn": null,
+    "summary": "Scheduled and batch renames of master data",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-data-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-setup",
+      "ng-admin-performance"
+    ],
+    "claims": [
+      "Schedules master data renames via job queue",
+      "Batch rename records",
+      "Postpone renames to non-working hours to reduce blocking",
+      "Task list that renames records in any table",
+      "Runs under a dedicated account to reduce user rights"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

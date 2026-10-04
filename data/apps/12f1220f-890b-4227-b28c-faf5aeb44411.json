@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.bcility1636664056498|AID.bcility-price-history|PAPPID.12f1220f-890b-4227-b28c-faf5aeb44411",
+  "guid": "12f1220f-890b-4227-b28c-faf5aeb44411",
+  "publisherId": "bcility1636664056498",
+  "offerId": "bcility-price-history",
+  "source": {
+    "name": "Price History",
+    "publisher": "BCILITY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bcility1636664056498%7CAID.bcility-price-history%7CPAPPID.12f1220f-890b-4227-b28c-faf5aeb44411",
+    "lastModified": "2026-08-04T14:30:33.927304+00:00",
+    "appVersion": "25.0.0.22",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcility.com/about-us/",
+    "sourceHash": "sha256:46a4a3e4005b514912185e69436a0c90651577836f2fd52719d4469ca672d59a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:46a4a3e4005b514912185e69436a0c90651577836f2fd52719d4469ca672d59a",
+    "mappedOn": null,
+    "summary": "Tracks sales and purchase price changes over time",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-pricing",
+      "ng-admin-change-log"
+    ],
+    "claims": [
+      "Automatically logs sales and purchase price changes",
+      "Records date, time and user of each price change",
+      "Compares current prices to historical prices",
+      "Price history reports"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "es",
+      "fi",
+      "fr",
+      "hr",
+      "it",
+      "lt",
+      "nl",
+      "no",
+      "ru",
+      "sl",
+      "sr",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

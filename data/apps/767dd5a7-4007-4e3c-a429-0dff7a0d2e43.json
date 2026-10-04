@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex07002_dcsformes|PAPPID.767dd5a7-4007-4e3c-a429-0dff7a0d2e43",
+  "guid": "767dd5a7-4007-4e3c-a429-0dff7a0d2e43",
+  "publisherId": "eos_solutions",
+  "offerId": "ex07002_dcsformes",
+  "source": {
+    "name": "DocSolutions for MES",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex07002_dcsformes%7CPAPPID.767dd5a7-4007-4e3c-a429-0dff7a0d2e43",
+    "lastModified": "2026-04-13T13:12:42.2057783+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/mes-manufacturing-execution-system.html",
+    "sourceHash": "sha256:6501d78c4246981d5ab40e893eb35b9cce86cf6c7fe33270f6a2020a6b5b4821"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6501d78c4246981d5ab40e893eb35b9cce86cf6c7fe33270f6a2020a6b5b4821",
+    "mappedOn": null,
+    "summary": "Attaches and organizes MES and production order files",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Upload and view production order attachments",
+      "Drag and drop attachments",
+      "Folder and metadata structure defined in setup",
+      "Multiple storages per table with different metadata and permissions",
+      "Requires EOS Power MES and EOS DocSolutions",
+      "Premium edition only"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Power MES",
+      "EOS DocSolutions"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

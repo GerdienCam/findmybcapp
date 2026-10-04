@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex033_expirationmonitorforazuresecrets|PAPPID.d80a15a1-e722-421a-a765-fd52a1eaf70a",
+  "guid": "d80a15a1-e722-421a-a765-fd52a1eaf70a",
+  "publisherId": "eos_solutions",
+  "offerId": "ex033_expirationmonitorforazuresecrets",
+  "source": {
+    "name": "Expiration Monitor for Azure Secrets",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex033_expirationmonitorforazuresecrets%7CPAPPID.d80a15a1-e722-421a-a765-fd52a1eaf70a",
+    "lastModified": "2026-08-17T10:54:01.5972724+00:00",
+    "appVersion": "28.0.10.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/azure-secret-expiration.html",
+    "sourceHash": "sha256:9dca19e68fcc5ad78b2b52023aae9daaeaba1322b5e2bbaf4e58c50dc112ede5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9dca19e68fcc5ad78b2b52023aae9daaeaba1322b5e2bbaf4e58c50dc112ede5",
+    "mappedOn": null,
+    "summary": "Monitors expiry of Azure secrets, tokens and certificates",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-alerts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-failures",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Monitors expiration of Azure secrets in a tenant",
+      "Monitors manually entered tokens or certificates",
+      "Shows expiring and already expired secrets per app",
+      "Email notification when a secret expires",
+      "Notification entries log who was warned and when",
+      "Premium edition only"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

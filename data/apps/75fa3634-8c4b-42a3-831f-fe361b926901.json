@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.jetcubeinc1746139917152|AID.jetcube_gldetail_reports|PAPPID.75fa3634-8c4b-42a3-831f-fe361b926901",
+  "guid": "75fa3634-8c4b-42a3-831f-fe361b926901",
+  "publisherId": "jetcubeinc1746139917152",
+  "offerId": "jetcube_gldetail_reports",
+  "source": {
+    "name": "JetCube GL Detail API Queries",
+    "publisher": "JET CUBE INC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jetcubeinc1746139917152%7CAID.jetcube_gldetail_reports%7CPAPPID.75fa3634-8c4b-42a3-831f-fe361b926901",
+    "lastModified": "2026-06-19T23:18:39.9195754+00:00",
+    "appVersion": "1.1.0.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://jetcubeinc.com/product-jetcube-gldetail-apiqry-msbc/",
+    "sourceHash": "sha256:4d7b7285311c59295f76e968e28f548274e2378fe72a7157f6eddaca96cea317"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4d7b7285311c59295f76e968e28f548274e2378fe72a7157f6eddaca96cea317",
+    "mappedOn": null,
+    "summary": "Adds G/L entry API queries for reporting",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-excel-reporting"
+    ],
+    "claims": [
+      "Adds 10 API queries on G/L Entries",
+      "Makes shortcut dimension codes, vendor name and customer name available",
+      "Calculated posting period field in yyyyMM format",
+      "Grouped/summed import queries reduce data retrieved",
+      "Transactional query returning all rows"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Excel",
+      "Power BI",
+      "JetCube"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

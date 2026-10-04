@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.iskonsolutions|AID.macedonianpurchaserequisition|PAPPID.cebe8d90-cbea-48be-acad-b32bcab4e577",
+  "guid": "cebe8d90-cbea-48be-acad-b32bcab4e577",
+  "publisherId": "iskonsolutions",
+  "offerId": "macedonianpurchaserequisition",
+  "source": {
+    "name": "Macedonian Purchase Requisition",
+    "publisher": "Iskon Reshenija",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.iskonsolutions%7CAID.macedonianpurchaserequisition%7CPAPPID.cebe8d90-cbea-48be-acad-b32bcab4e577",
+    "lastModified": "2026-10-01T20:15:42.728155+00:00",
+    "appVersion": "28.0.0.10",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.iskon.mk/learning-resources-loc",
+    "sourceHash": "sha256:4a09f6284d7372d7191466860ede437e1e18952a4e4549e49b016638333b78bb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4a09f6284d7372d7191466860ede437e1e18952a4e4549e49b016638333b78bb",
+    "mappedOn": null,
+    "summary": "Internal purchase requisitions with approvals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-fa-capex",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Employees create purchase requisitions routed through approval workflows",
+      "Uses standard User Approval Setup with approvers or approval chains",
+      "Four requisition types: New, CAPEX, Emergency, Transport",
+      "Emergency requisitions bypass quotation and go straight to purchase order",
+      "Transport requisitions use charge items",
+      "Automatically creates purchase quotes and orders for one or multiple vendors after approval",
+      "Approved requisitions assigned to a designated purchaser",
+      "Requisitions created from role center activity section",
+      "Specify items, departments, locations and approval path"
+    ],
+    "countries": [
+      "MK"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

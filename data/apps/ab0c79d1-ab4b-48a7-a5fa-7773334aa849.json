@@ -1,0 +1,56 @@
+{
+  "appId": "TYPE.connect|PUBID.atnatechnologies1723633443331|AID.atna_userpostingrange|PAPPID.ab0c79d1-ab4b-48a7-a5fa-7773334aa849",
+  "guid": "ab0c79d1-ab4b-48a7-a5fa-7773334aa849",
+  "publisherId": "atnatechnologies1723633443331",
+  "offerId": "atna_userpostingrange",
+  "source": {
+    "name": "User Posting Range Automation",
+    "publisher": "Atna Technologies",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.atnatechnologies1723633443331%7CAID.atna_userpostingrange%7CPAPPID.ab0c79d1-ab4b-48a7-a5fa-7773334aa849",
+    "lastModified": "2024-11-15T11:38:46.8631774+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://atnatechnologies.com/",
+    "sourceHash": "sha256:38aadffe608b4eb64d28c0935baa97f8fe55c6c523fc5588a020d90c9afd3ffa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:38aadffe608b4eb64d28c0935baa97f8fe55c6c523fc5588a020d90c9afd3ffa",
+    "mappedOn": null,
+    "summary": "Automates user posting date ranges",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-period-close",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-permissions",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-automation"
+    ],
+    "claims": [
+      "Automatically updates user posting date range (Allow Posting From/To) via job queue",
+      "Per-user posting range configured relative to work date in User Setup",
+      "Job queue frequency is configurable"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.alterna|AID.15d9b5b1-e526-4c2f-bf61-3612a982dcea|PAPPID.15d9b5b1-e526-4c2f-bf61-3612a982dcea",
+  "guid": "15d9b5b1-e526-4c2f-bf61-3612a982dcea",
+  "publisherId": "alterna",
+  "offerId": "15d9b5b1-e526-4c2f-bf61-3612a982dcea",
+  "source": {
+    "name": "Suggest Document Lines with AI",
+    "publisher": "Alterna",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.alterna%7CAID.15d9b5b1-e526-4c2f-bf61-3612a982dcea%7CPAPPID.15d9b5b1-e526-4c2f-bf61-3612a982dcea",
+    "lastModified": "2026-07-21T15:49:28.8088695+00:00",
+    "appVersion": "1.1.4.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://alternanet.it/app/suggest-document-lines-with-ai/",
+    "sourceHash": "sha256:10d46cd5489019c8ae6598401d74768705fa12e89559d4e28fd3cebf8ff2ab77"
+  },
+  "mapping": {
+    "sourceHash": "sha256:10d46cd5489019c8ae6598401d74768705fa12e89559d4e28fd3cebf8ff2ab77",
+    "mappedOn": null,
+    "summary": "Creates document lines from natural language with Copilot",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-ai-assistant",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-data-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-admin-copilot-agents"
+    ],
+    "claims": [
+      "Creates document lines from natural language or prompt suggestions via Copilot",
+      "Purchase quotes, orders, invoices, credit memos, return and blanket orders",
+      "Sales quotes, orders, invoices, credit memos, return and blanket orders",
+      "Lines for transfer orders",
+      "Copies lines from any document incl. posted invoices and credit memos",
+      "Line types: items, G/L accounts, resources, fixed assets, item charges",
+      "Prompt handles quantities, UoM, variants, jobs, job tasks, global dimensions",
+      "Extendable to custom documents and fields",
+      "Requires Azure subscription with Azure OpenAI",
+      "30-day free trial then subscription"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [
+      "Azure OpenAI"
+    ],
+    "requires": [
+      "Azure OpenAI subscription"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.applibra|AID.al_mandatory_fields|PAPPID.a818abbb-2381-4b26-b540-5fc629bea858",
+  "guid": "a818abbb-2381-4b26-b540-5fc629bea858",
+  "publisherId": "applibra",
+  "offerId": "al_mandatory_fields",
+  "source": {
+    "name": "AL Mandatory Fields",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_mandatory_fields%7CPAPPID.a818abbb-2381-4b26-b540-5fc629bea858",
+    "lastModified": "2025-11-10T15:05:10.9442422+00:00",
+    "appVersion": "25.0.25.11061227",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsapplab.com/apps",
+    "sourceHash": "sha256:1560e08f69436456f65d3bb6623eaff140f608023f3f03bee7b6f571b4b225d6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1560e08f69436456f65d3bb6623eaff140f608023f3f03bee7b6f571b4b225d6",
+    "mappedOn": null,
+    "summary": "Conditional mandatory field rules for customers, vendors, items",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Required-field rules for items, vendors and customers",
+      "Conditional rules based on other field values using BC filter syntax",
+      "Multiple condition sets per field (OR between sets, AND within)",
+      "Incomplete records automatically blocked until completed",
+      "Validates in real time and shows clear messages to users",
+      "Supports Business Central 22 and later"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

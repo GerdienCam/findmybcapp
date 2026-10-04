@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.asqit|AID.apply-gl-entries|PAPPID.771610c6-b273-4ab4-aa5b-ae979bc5a244",
+  "guid": "771610c6-b273-4ab4-aa5b-ae979bc5a244",
+  "publisherId": "asqit",
+  "offerId": "apply-gl-entries",
+  "source": {
+    "name": "Apply G/L Entries",
+    "publisher": "ASQiT Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.asqit%7CAID.apply-gl-entries%7CPAPPID.771610c6-b273-4ab4-aa5b-ae979bc5a244",
+    "lastModified": "2026-03-20T06:13:14.926193+00:00",
+    "appVersion": "27.0.2.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.asqit.co.uk/knowledgezone/financeapps",
+    "sourceHash": "sha256:81b6e20ec8c476a607d0711793d82e4814fe8dc63d5da459981d3898604d5f56"
+  },
+  "mapping": {
+    "sourceHash": "sha256:81b6e20ec8c476a607d0711793d82e4814fe8dc63d5da459981d3898604d5f56",
+    "mappedOn": null,
+    "summary": "Applies G/L entries to each other to track accruals and prepayments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Apply and unapply G/L entries fully or partially",
+      "Tracks unapplied amount per G/L entry",
+      "Date threshold to ignore old entries",
+      "Dedicated permission sets limit access to specified users",
+      "Tracks accruals, prepayments, loan repayments and bad debts in the G/L",
+      "Unlimited sandbox trial and one month production trial"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

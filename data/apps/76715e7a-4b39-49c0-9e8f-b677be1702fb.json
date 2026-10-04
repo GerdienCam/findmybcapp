@@ -1,0 +1,88 @@
+{
+  "appId": "PUBID.foodware365|AID.adv_lot_attributes|PAPPID.76715e7a-4b39-49c0-9e8f-b677be1702fb",
+  "guid": "76715e7a-4b39-49c0-9e8f-b677be1702fb",
+  "publisherId": "foodware365",
+  "offerId": "adv_lot_attributes",
+  "source": {
+    "name": "Aptean Advanced Lot Attributes for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.adv_lot_attributes%7CPAPPID.76715e7a-4b39-49c0-9e8f-b677be1702fb",
+    "lastModified": "2026-08-26T05:38:18.9602589+00:00",
+    "appVersion": "2501.5.339332.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/ALA/",
+    "sourceHash": "sha256:a5f7435af51eb16bd599d0b89bf9c136e1d543f86898f290a8de081e1726aca2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a5f7435af51eb16bd599d0b89bf9c136e1d543f86898f290a8de081e1726aca2",
+    "mappedOn": null,
+    "summary": "Extended lot attributes for business rules",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Additional in-depth lot attribute fields",
+      "Business rules govern registering, renaming and deleting attributes",
+      "Split purchase order lines by attribute values",
+      "Automatically creates new purchase order lines with provided values"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MY",
+      "NG",
+      "NL",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.on720comas1662298129006|AID.project720_dk|PAPPID.6d653297-308a-4729-98d9-3c1bdded5d05",
+  "guid": "6d653297-308a-4729-98d9-3c1bdded5d05",
+  "publisherId": "on720comas1662298129006",
+  "offerId": "project720_dk",
+  "source": {
+    "name": "Project720 (DK)",
+    "publisher": "ON720.COM",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.on720comas1662298129006%7CAID.project720_dk%7CPAPPID.6d653297-308a-4729-98d9-3c1bdded5d05",
+    "lastModified": "2026-06-25T11:16:34.1499644+00:00",
+    "appVersion": "28.1.260624.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.on720.com/project720",
+    "sourceHash": "sha256:5b8b88c0e7f292a481ec83dba71f8e411b221fff81882f01285fc6aca70d11a0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5b8b88c0e7f292a481ec83dba71f8e411b221fff81882f01285fc6aca70d11a0",
+    "mappedOn": null,
+    "summary": "Extends project functionality for consulting firms",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-billing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-status-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-wip",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Project overview showing usage, invoicing and profit key figures",
+      "Access all projects for a customer from the customer card",
+      "Redesigned project card showing status, total costs and hours to invoice",
+      "Checks all usage entries are posted before a project is closed",
+      "Transfers, groups and summarizes usage entries for invoicing",
+      "Invoice proposals sent for approval",
+      "Marks usage entries as invoiced and calculates WIP",
+      "Hides cost prices from general users",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

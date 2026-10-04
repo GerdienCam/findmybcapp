@@ -1,0 +1,63 @@
+{
+  "appId": "TYPE.connect|PUBID.dynamicpoint|AID.easyexp365|PAPPID.508dd0c1-7fe9-4935-90e6-5a131110e160",
+  "guid": "508dd0c1-7fe9-4935-90e6-5a131110e160",
+  "publisherId": "dynamicpoint",
+  "offerId": "easyexp365",
+  "source": {
+    "name": "Employee Expense Management",
+    "publisher": "DynamicPoint",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.dynamicpoint%7CAID.easyexp365%7CPAPPID.508dd0c1-7fe9-4935-90e6-5a131110e160",
+    "lastModified": "2025-11-30T04:57:45.1687525+00:00",
+    "appVersion": "1.0.0.19",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.dynamicpoint.com/expense-reimbursement/",
+    "sourceHash": "sha256:088b380c428f90d766ec74ebb34526781dd24acf68593d73d187dc3341fb4e11"
+  },
+  "mapping": {
+    "sourceHash": "sha256:088b380c428f90d766ec74ebb34526781dd24acf68593d73d187dc3341fb4e11",
+    "mappedOn": null,
+    "summary": "Employee expense entry and approval via Power Platform",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "Mobile receipt capture via Power Apps",
+      "OCR of receipts with Document Intelligence",
+      "Approval workflows in Power Automate",
+      "Teams app interface",
+      "Classifies and reimburses expenses paid out of pocket, by auto or by credit card",
+      "Data stored in customer's SharePoint Online",
+      "Real-time integration with Business Central",
+      "English, configurable for other languages"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint Online",
+      "Power Platform",
+      "Microsoft Teams"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

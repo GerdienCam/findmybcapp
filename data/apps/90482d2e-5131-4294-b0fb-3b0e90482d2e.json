@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.thetasystemslimited|AID.adv_payment_recon|PAPPID.90482d2e-5131-4294-b0fb-3b0e90482d2e",
+  "guid": "90482d2e-5131-4294-b0fb-3b0e90482d2e",
+  "publisherId": "thetasystemslimited",
+  "offerId": "adv_payment_recon",
+  "source": {
+    "name": "Advanced Bank Reconciliation",
+    "publisher": "Theta Systems Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.thetasystemslimited%7CAID.adv_payment_recon%7CPAPPID.90482d2e-5131-4294-b0fb-3b0e90482d2e",
+    "lastModified": "2026-09-21T05:33:36.4131386+00:00",
+    "appVersion": "28.0.4.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.365extensions.com/docs/APR",
+    "sourceHash": "sha256:4c635130d4565fd1f56166b529047e066564266c743cb8a74a883fd0016c7b2c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4c635130d4565fd1f56166b529047e066564266c743cb8a74a883fd0016c7b2c",
+    "mappedOn": null,
+    "summary": "Bank reconciliation with automatic matching",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Combines bank reconciliation and payment reconciliation in one step",
+      "Automatically matches bank statement lines with configurable rules linking to any table",
+      "Text mapping rules for recurring transactions that cannot be matched automatically",
+      "Transfers unidentified statement lines into a suspense account and tracks them",
+      "Once identified, entries move from the suspense account into the correct account",
+      "Automatically matches bank statement lines lacking a counterpart in bank ledger entries already present",
+      "Supports Essentials and Premium editions",
+      "Offered in every country where BC is available"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

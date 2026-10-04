@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.systemsolutions|AID.requisition-worksheet-with-sales-history|PAPPID.52d7a5fb-7885-4d9f-b76e-5cb02549bc3a",
+  "guid": "52d7a5fb-7885-4d9f-b76e-5cb02549bc3a",
+  "publisherId": "systemsolutions",
+  "offerId": "requisition-worksheet-with-sales-history",
+  "source": {
+    "name": "Requisition Worksheet with Sales History",
+    "publisher": "System Solutions LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemsolutions%7CAID.requisition-worksheet-with-sales-history%7CPAPPID.52d7a5fb-7885-4d9f-b76e-5cb02549bc3a",
+    "lastModified": "2026-06-10T22:36:41.2064966+00:00",
+    "appVersion": "2.1.1.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://syssolutionsllc.com/user-guides/",
+    "sourceHash": "sha256:501f5744b598f0a528ea1739a88ece7678937e546e0e6d2e08c21c49788cbd62"
+  },
+  "mapping": {
+    "sourceHash": "sha256:501f5744b598f0a528ea1739a88ece7678937e546e0e6d2e08c21c49788cbd62",
+    "mappedOn": null,
+    "summary": "Requisition worksheet based on sales history",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Calculates requisition items from prior sales date range",
+      "Time fences like the last 7 days, the last 30 days or last year",
+      "Generate purchase orders for multiple vendors at once",
+      "View and sort tariff number"
+    ],
+    "countries": [
+      "CA",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

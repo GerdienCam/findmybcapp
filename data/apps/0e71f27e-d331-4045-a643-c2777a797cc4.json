@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.belwaregmbh2|AID.connector_365_xrechnung|PAPPID.0e71f27e-d331-4045-a643-c2777a797cc4",
+  "guid": "0e71f27e-d331-4045-a643-c2777a797cc4",
+  "publisherId": "belwaregmbh2",
+  "offerId": "connector_365_xrechnung",
+  "source": {
+    "name": "Connector 365 XRechnung",
+    "publisher": "BELWARE GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4",
+    "lastModified": "2026-09-22T11:43:53.7321761+00:00",
+    "appVersion": "2.42.36969.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.belware.de/en-us/apps/xrechnung/",
+    "sourceHash": "sha256:d2f597bc48413db225c0b3292405794fb361167c3b172e5e8bb48199b9a9a84c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d2f597bc48413db225c0b3292405794fb361167c3b172e5e8bb48199b9a9a84c",
+    "mappedOn": null,
+    "summary": "Sends invoices as German XRechnung XML",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Creates XRechnung XML invoices",
+      "Activated per customer via document layouts",
+      "XML generated automatically with standard BC email",
+      "Validates XRechnung format before sending",
+      "Optional additional PDF",
+      "Shows test report of compliance issues"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

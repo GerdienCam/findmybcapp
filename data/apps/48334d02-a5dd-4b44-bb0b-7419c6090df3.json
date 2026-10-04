@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.idynbv|AID.verify_it_w1|PAPPID.48334d02-a5dd-4b44-bb0b-7419c6090df3",
+  "guid": "48334d02-a5dd-4b44-bb0b-7419c6090df3",
+  "publisherId": "idynbv",
+  "offerId": "verify_it_w1",
+  "source": {
+    "name": "VerifyIT 365",
+    "publisher": "IDYN B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.idynbv%7CAID.verify_it_w1%7CPAPPID.48334d02-a5dd-4b44-bb0b-7419c6090df3",
+    "lastModified": "2026-08-24T13:34:38.3013445+00:00",
+    "appVersion": "28.2.4.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://idyn.atlassian.net/wiki/spaces/DB1/pages/24084481/Introduction",
+    "sourceHash": "sha256:dc5b94392f73d5315e32e4ffae725a07e6c81ca673077fe79fdd5f8540f67acc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dc5b94392f73d5315e32e4ffae725a07e6c81ca673077fe79fdd5f8540f67acc",
+    "mappedOn": null,
+    "summary": "Verifies vendor bank accounts via SurePay to prevent fraud",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-company-data"
+    ],
+    "claims": [
+      "Verifies IBAN belongs to the vendor or customer via SurePay",
+      "Verifies VAT number (NL only), registration number and company ID",
+      "Verification status shown on vendor card",
+      "Handles typos, trade names and legal variations",
+      "Covers PSD2/PSD3 and the EU Instant Payments Regulation (VOP)"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SurePay"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

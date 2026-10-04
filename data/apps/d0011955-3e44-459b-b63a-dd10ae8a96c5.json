@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.zebonaps1675760882754|AID.zexpense_bc_integration_1|PAPPID.d0011955-3e44-459b-b63a-dd10ae8a96c5",
+  "guid": "d0011955-3e44-459b-b63a-dd10ae8a96c5",
+  "publisherId": "zebonaps1675760882754",
+  "offerId": "zexpense_bc_integration_1",
+  "source": {
+    "name": "zExpense integration",
+    "publisher": "Zebon ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.zebonaps1675760882754%7CAID.zexpense_bc_integration_1%7CPAPPID.d0011955-3e44-459b-b63a-dd10ae8a96c5",
+    "lastModified": "2026-09-24T11:53:23.4612552+00:00",
+    "appVersion": "20.0.3.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://zebon.dk/en/bc-integration-documentation/",
+    "sourceHash": "sha256:5a6824c20add72a18221c99a051b476d773b352774c5a363adf485ec6046e15f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5a6824c20add72a18221c99a051b476d773b352774c5a363adf485ec6046e15f",
+    "mappedOn": null,
+    "summary": "Imports approved zExpense settlements and syncs dimensions and vendors",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Syncs dimensions and vendors from BC to zExpense",
+      "Sync manually or automated as Job Queue Entry",
+      "Imports approved settlements and invoices into a BC journal",
+      "Configurable descriptions and posting dates on import",
+      "Available globally for Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "zExpense",
+      "zInvoice"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

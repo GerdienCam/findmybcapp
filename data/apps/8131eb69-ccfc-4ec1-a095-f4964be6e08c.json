@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.splitpayment|PAPPID.8131eb69-ccfc-4ec1-a095-f4964be6e08c",
+  "guid": "8131eb69-ccfc-4ec1-a095-f4964be6e08c",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "splitpayment",
+  "source": {
+    "name": "Split Payment",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.splitpayment%7CPAPPID.8131eb69-ccfc-4ec1-a095-f4964be6e08c",
+    "lastModified": "2026-08-13T05:36:22.0184562+00:00",
+    "appVersion": "1.0.0.16",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/split-payment",
+    "sourceHash": "sha256:37e56f2dc02959389c95981bdc26a075323ddcc2fd3a0a0bc345eea695fd2b99"
+  },
+  "mapping": {
+    "sourceHash": "sha256:37e56f2dc02959389c95981bdc26a075323ddcc2fd3a0a0bc345eea695fd2b99",
+    "mappedOn": null,
+    "summary": "Splits document amounts across multiple payers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-ux-document-layouts"
+    ],
+    "claims": [
+      "Splits sales and purchase documents across multiple customers, vendors and G/L accounts",
+      "Split percentages on customer/vendor cards inherited onto documents",
+      "Line-level split templates",
+      "Split by percentage or amount with validated totals",
+      "Posts split entries via standard posting to customer, vendor and G/L entries",
+      "Line split details on posted documents",
+      "Allocation reports incl. customer-specific allocation document",
+      "Extra sales invoice RDLC layouts showing split details"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

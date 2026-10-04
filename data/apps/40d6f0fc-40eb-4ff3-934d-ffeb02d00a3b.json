@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.ecitbusinesspartneras1713174155675|AID.edkdocumentcapture|PAPPID.40d6f0fc-40eb-4ff3-934d-ffeb02d00a3b",
+  "guid": "40d6f0fc-40eb-4ff3-934d-ffeb02d00a3b",
+  "publisherId": "ecitbusinesspartneras1713174155675",
+  "offerId": "edkdocumentcapture",
+  "source": {
+    "name": "Handicraft Document Capture",
+    "publisher": "ECIT Consulting A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ecitbusinesspartneras1713174155675%7CAID.edkdocumentcapture%7CPAPPID.40d6f0fc-40eb-4ff3-934d-ffeb02d00a3b",
+    "lastModified": "2026-09-23T11:32:35.0751002+00:00",
+    "appVersion": "28.0.2.8",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.ecit.com/business-solutions/erp/",
+    "sourceHash": "sha256:5cf1e678d16dd22467fdad3cb8179c5e03ff3721a273315f9c8876d9a0be85b2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5cf1e678d16dd22467fdad3cb8179c5e03ff3721a273315f9c8876d9a0be85b2",
+    "mappedOn": null,
+    "summary": "Approval flows in Document Capture based on project approvers",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Creates document capture approval flows from project and project task approvers",
+      "Up to 3 approvers per project or task",
+      "Project manager can be the first approver"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Continia Document Capture"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.duvekagmbh1711374674329|AID.0019|PAPPID.ad513112-0b29-4349-9571-d7fe9db6efc6",
+  "guid": "ad513112-0b29-4349-9571-d7fe9db6efc6",
+  "publisherId": "duvekagmbh1711374674329",
+  "offerId": "0019",
+  "source": {
+    "name": "duveka Advanced Purchase Quote",
+    "publisher": "duveka GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0019%7CPAPPID.ad513112-0b29-4349-9571-d7fe9db6efc6",
+    "lastModified": "2026-09-02T07:16:35.6907623+00:00",
+    "appVersion": "26.2.105.26453",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://duveka.net/AdvancedPurchaseQuote",
+    "sourceHash": "sha256:a350f7a82599295f1d88373dec13c457edd11d6cc05d1473c4fe746a39aeb03d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a350f7a82599295f1d88373dec13c457edd11d6cc05d1473c4fe746a39aeb03d",
+    "mappedOn": null,
+    "summary": "Creates and compares vendor purchase quotes from sales documents",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Creates purchase quotes from sales quotes and sales orders",
+      "Requests quotes from multiple vendors",
+      "Compares vendor pricing",
+      "Each sales line shows a purchase status (Requested, Firm Requested, Ordered)",
+      "One-click conversion of purchase quote to purchase order",
+      "Supports drop shipment and special order",
+      "Vendor-specific catalog numbers and item descriptions",
+      "Drill-down from sales lines to purchase documents",
+      "Prevents duplicate vendor orders"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "nl",
+      "uk"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.insight-works|AID.d04cb6c5-68c8-41d7-8e25-824b48e14f04|PAPPID.d04cb6c5-68c8-41d7-8e25-824b48e14f04",
+  "guid": "d04cb6c5-68c8-41d7-8e25-824b48e14f04",
+  "publisherId": "insight-works",
+  "offerId": "d04cb6c5-68c8-41d7-8e25-824b48e14f04",
+  "source": {
+    "name": "Warehouse Insight Advanced WMS",
+    "publisher": "Insight Works",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insight-works%7CAID.d04cb6c5-68c8-41d7-8e25-824b48e14f04%7CPAPPID.d04cb6c5-68c8-41d7-8e25-824b48e14f04",
+    "lastModified": "2026-09-24T22:11:46.7726962+00:00",
+    "appVersion": "2.16.9762.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://app.dmsiworks.com/warehouse-insight/product-help/",
+    "sourceHash": "sha256:4e3d3a2be4392c72bffeaa9123450b0f583347f3aa8d44588160876b82f08b90"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4e3d3a2be4392c72bffeaa9123450b0f583347f3aa8d44588160876b82f08b90",
+    "mappedOn": null,
+    "summary": "Mobile barcode warehouse management with real-time posting",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-shop-floor-reporting",
+      "ng-barcode-labels",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Real-time posting with no separate database or middleware",
+      "Directed picking with bin verification and wrong-item rejection",
+      "Tote, wave and batch picking",
+      "Receiving with photo capture and lot/serial capture",
+      "Prints barcode labels for pallets, lots, bins and items",
+      "License plating of pallets and cartons",
+      "FIFO/FEFO lot picking and expiry date validation",
+      "Cycle, physical and blind counts with multiple counters",
+      "Production consumption, output and picks on device",
+      "Runs on Android scanners and Windows vehicle-mount terminals",
+      "Voice picking and OCR barcode-free scanning via add-ons",
+      "No-code App Designer for custom apps",
+      "Concurrent device licensing",
+      "Dynamic Ship integration for carrier labels"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

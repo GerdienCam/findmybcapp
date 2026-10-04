@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.sbcdynamicserp1637715412860|AID.acumens-mobile-sales-customer-portal|PAPPID.1a61ce10-d0ec-4456-9f37-ce082407a128",
+  "guid": "1a61ce10-d0ec-4456-9f37-ce082407a128",
+  "publisherId": "sbcdynamicserp1637715412860",
+  "offerId": "acumens-mobile-sales-customer-portal",
+  "source": {
+    "name": "Acumens Mobile Salesman & Customer Portal (NW)",
+    "publisher": "SBC Dynamics ERP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumens-mobile-sales-customer-portal%7CPAPPID.1a61ce10-d0ec-4456-9f37-ce082407a128",
+    "lastModified": "2026-09-25T20:14:07.8897195+00:00",
+    "appVersion": "26.1023.1.16",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.sbcdynamicserp.com/acumens-customer-portal/",
+    "sourceHash": "sha256:ca118ee1e6400fec5225338ed03211ebc6f9ba654b560d10c320cc3b72b64ef5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ca118ee1e6400fec5225338ed03211ebc6f9ba654b560d10c320cc3b72b64ef5",
+    "mappedOn": null,
+    "summary": "Mobile sales and customer portal for orders and payments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Mobile access to sales, customer and item data with instant sync",
+      "Customer portal to view orders, invoices and balances and pay",
+      "Customers save card and bank payment details via links",
+      "Pay-by-Link for orders and invoices",
+      "Reseller portal for multi-tier models",
+      "Salesperson portal with customer data and sales history",
+      "Integrates with Acumens e-Payments and e-POS Payments",
+      "Only one payment processor active at a time",
+      "Licensed in 10/20/40 user packs or per user"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Acumens e-Payments",
+      "Acumens e-POS Payments"
+    ],
+    "requires": [
+      "Acumens e-Payments or Acumens e-POS Payments"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

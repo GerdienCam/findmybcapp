@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcromanianetransport-is|PAPPID.f837ef86-7ef1-484a-9452-51a1e0efd443",
+  "guid": "f837ef86-7ef1-484a-9452-51a1e0efd443",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcromanianetransport-is",
+  "source": {
+    "name": "Romanian e-Transport",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcromanianetransport-is%7CPAPPID.f837ef86-7ef1-484a-9452-51a1e0efd443",
+    "lastModified": "2026-03-30T07:44:16.0065508+00:00",
+    "appVersion": "24.20.69.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:a660c17292361b6fa5c1bdd9f1ed4e5d107fbdfd2230641c12856d959b551983"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a660c17292361b6fa5c1bdd9f1ed4e5d107fbdfd2230641c12856d959b551983",
+    "mappedOn": null,
+    "summary": "Submits Romanian e-Transport declarations",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Generates structured XML with sender, recipient, goods, locations and transport mode",
+      "Receives ITU authorization code from ANAF",
+      "Creates e-Transport documents from purchase orders, invoices and credit memos",
+      "Creates e-Transport documents from sales orders, invoices and credit memos",
+      "Creates e-Transport documents from transfer orders",
+      "Automatic validation by ANAF and error message retrieval",
+      "Marks mandatory fields per ANAF requirements",
+      "Sends deletion requests for cancelled documents"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "languages": [
+      "en",
+      "ro"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ANAF e-Transport"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

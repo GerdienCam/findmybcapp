@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.wsb_solutions|AID.hazardous_substances|PAPPID.3ed4eda5-13fa-4315-b939-c1b3fe20e721",
+  "guid": "3ed4eda5-13fa-4315-b939-c1b3fe20e721",
+  "publisherId": "wsb_solutions",
+  "offerId": "hazardous_substances",
+  "source": {
+    "name": "Hazardous Substances",
+    "publisher": "Apportunix",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.hazardous_substances%7CPAPPID.3ed4eda5-13fa-4315-b939-c1b3fe20e721",
+    "lastModified": "2026-05-07T13:05:50.5662149+00:00",
+    "appVersion": "1.22.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://apportunix.com/app/hazardous-substances/",
+    "sourceHash": "sha256:308c88d2f742ac1e65c6fba3fcef20778bf5b14b5fb60ab1cfefb10611f1941f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:308c88d2f742ac1e65c6fba3fcef20778bf5b14b5fb60ab1cfefb10611f1941f",
+    "mappedOn": null,
+    "summary": "Registers hazardous substance data on items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-product-compliance",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data",
+      "ng-shipping-carriers"
+    ],
+    "claims": [
+      "Registers hazardous substance codes and transport categories on the item card",
+      "Prints hazardous data on delivery notes for ADR",
+      "Source for fire brigade warehouse reports",
+      "Registers ADR classes and points to calculate the 1000 points"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

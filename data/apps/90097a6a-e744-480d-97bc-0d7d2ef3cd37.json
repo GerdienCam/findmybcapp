@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.cosmoconsultag|AID.advanced_manufacturing_suite_bc|PAPPID.90097a6a-e744-480d-97bc-0d7d2ef3cd37",
+  "guid": "90097a6a-e744-480d-97bc-0d7d2ef3cd37",
+  "publisherId": "cosmoconsultag",
+  "offerId": "advanced_manufacturing_suite_bc",
+  "source": {
+    "name": "COSMO Advanced Manufacturing Suite",
+    "publisher": "COSMO CONSULT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.cosmoconsultag%7CAID.advanced_manufacturing_suite_bc%7CPAPPID.90097a6a-e744-480d-97bc-0d7d2ef3cd37",
+    "lastModified": "2026-08-20T08:31:40.563238+00:00",
+    "appVersion": "12.4.1.365783",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cosmoconsult.com/de-de/business-central/advanced-manufacturing-suite/",
+    "sourceHash": "sha256:91d7aa4114ecc793152eb515186e7e8b63aa765a26fe36779ad476b0c75e2f1e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:91d7aa4114ecc793152eb515186e7e8b63aa765a26fe36779ad476b0c75e2f1e",
+    "mappedOn": null,
+    "summary": "Integrates COSMO manufacturing apps for discrete, process, project manufacturing",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-industrial-manufacturing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage",
+      "ng-ux-notes-collaboration"
+    ],
+    "claims": [
+      "Integrates COSMO Advanced Manufacturing Pack with Quality Assurance, Text Module and DMS",
+      "Incoming goods and manufacturing inspections",
+      "Extended texts for items, routings and BOMs",
+      "Text lines as pop-up messages",
+      "Document versioning and change notifications",
+      "SharePoint integration for documents",
+      "Requires BC Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hu",
+      "pl",
+      "sv"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [
+      "COSMO Advanced Manufacturing Pack"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

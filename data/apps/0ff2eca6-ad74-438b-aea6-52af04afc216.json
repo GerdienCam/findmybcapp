@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.bittaapps1643615841013|AID.minipos|PAPPID.0ff2eca6-ad74-438b-aea6-52af04afc216",
+  "guid": "0ff2eca6-ad74-438b-aea6-52af04afc216",
+  "publisherId": "bittaapps1643615841013",
+  "offerId": "minipos",
+  "source": {
+    "name": "Bitta Retail POS",
+    "publisher": "Bitta Apps, LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bittaapps1643615841013%7CAID.minipos%7CPAPPID.0ff2eca6-ad74-438b-aea6-52af04afc216",
+    "lastModified": "2026-09-01T03:32:05.7509154+00:00",
+    "appVersion": "1.0.0.141",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://bittaapps.com/solutions/bittapos",
+    "sourceHash": "sha256:51172e345c09bf175a89eacf93e2526a8931320573cc9d24f51bd87e0f36fa5d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:51172e345c09bf175a89eacf93e2526a8931320573cc9d24f51bd87e0f36fa5d",
+    "mappedOn": null,
+    "summary": "Retail POS with payments, loyalty, shifts and end of day in BC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-retail",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loyalty",
+      "ng-conn-payment-providers"
+    ],
+    "claims": [
+      "Scans weighted barcodes, plus barcode, variant and unit-of-measure data",
+      "Park/resume, price check, cancellations and returns at the register",
+      "Payments: cash, on-account, voucher, split tender, Stripe Terminal and Stripe QR",
+      "Opening float, pay-in/out, safe movements, X/Z reports, End of Day",
+      "Uses standard BC pricing, US sales tax, VAT, inventory and G/L posting",
+      "Multi-program loyalty: points, stamps, cashback, tiers, rewards, expiry",
+      "Handles receipts, labels, kitchen tickets and shelf labels, and routes orders across several kitchen stations",
+      "Scale integration via browser serial access",
+      "Multi-store and per-terminal configuration",
+      "No offline operation",
+      "No restaurant table, seat or course management in version 1",
+      "Licensed per Business Central user"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Stripe"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

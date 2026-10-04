@@ -1,0 +1,267 @@
+{
+  "id": "ng-sales-quotes",
+  "order": 28,
+  "label": "Creating quotes and getting them accepted",
+  "description": "Capturing requirements, building quotes, revisions and negotiation, customer sign-off and converting to orders.",
+  "type": "bpc",
+  "area": "CRM & quotes",
+  "relevance": "high",
+  "statements": [
+    "Creating quotes and getting them accepted",
+    "Capturing requirements, building quotes, revisions and negotiation, customer sign-off and converting to orders.",
+    "Our sales quotes in BC look ugly and customers comment on it",
+    "Is there an app for nice quote layouts with pictures and product descriptions?",
+    "quote template Business Central",
+    "Making a quote with 80 lines takes our sales team half a day",
+    "We need a product configurator so reps can't quote combinations we can't build",
+    "CPQ for Business Central",
+    "Want to add text blocks like terms, delivery info and introduction to every quote",
+    "Our customers want quotes in their own language and currency",
+    "Reps quote prices from an old price list in Excel instead of BC",
+    "How do we show options and alternatives on the same quote?",
+    "We need to calculate the price of a custom made product before we quote it",
+    "Want to send the quote as a nice PDF with our branding directly from BC",
+    "Quotes should show the customer's special prices and discounts automatically",
+    "Can we copy an old quote for a similar customer and adjust it?",
+    "We quote service agreements with yearly fees and need a proper layout for that",
+    "Sales reps need to make quotes on a tablet at the customer's site",
+    "Our quotes live in Word and nobody knows which version was sent",
+    "Want to quote kits and bundles with one total price",
+    "Quote needs to include freight cost and installation as separate lines",
+    "Our sales quote number series and validity date are not set up properly",
+    "Customer asked for a lower price and now we have three versions of the same quote",
+    "Is there quote versioning in Business Central?",
+    "Reps give big discounts without asking anyone",
+    "We want discounts over 15% on a quote to be approved by the sales manager",
+    "quote revision history",
+    "How do we compare the original quote with the final one to see what we gave away?",
+    "Need to see margin on the quote while we negotiate the price",
+    "Customer wants longer payment terms in exchange for a bigger order",
+    "Expired quotes still get accepted at old prices",
+    "We need a record of what was agreed in the negotiation, not just the final numbers",
+    "Archive every quote version we send so we can prove what was offered",
+    "Final price agreed by phone, how do we lock the quote so nobody changes it again?",
+    "Customers print our quote, sign it and scan it back, it's slow",
+    "Is there an e-signature app for sales quotes in Business Central?",
+    "We want customers to click accept on the quote online",
+    "quote to order conversion",
+    "When the customer accepts, someone has to retype it as a sales order",
+    "How do we know which quotes have been accepted and which are still waiting?",
+    "Customer accepted by email but we have no record of it on the quote",
+    "Want a customer portal where clients can see and approve their quotes",
+    "DocuSign with BC quotes",
+    "Accepting a quote should automatically create the order and notify the warehouse",
+    "Customer only accepted some lines of the quote, can we convert just those?",
+    "Signed contracts need to be stored with the order in BC",
+    "Customers complain the order confirmation doesn't match what they agreed",
+    "We want to send an order confirmation with the confirmed delivery date automatically",
+    "Need to double-check delivery address and contact person before we ship big orders",
+    "order confirmation email with delivery date",
+    "Is there a way for customers to confirm the order details online before we process?",
+    "We often find out after shipping that the customer wanted a different delivery date",
+    "Our reps write customer requirements on paper and the quote team misreads them",
+    "We need a questionnaire to capture dimensions, quantities and delivery wishes before quoting",
+    "Is there a way to attach the customer's drawings and specs to the request in BC?",
+    "customer requirements form before quote",
+    "Every quote goes back and forth three times because we missed something the customer needed",
+    "We want a structured checklist for technical sales visits"
+  ],
+  "questions": [
+    {
+      "id": "configurable",
+      "text": "Do your products need to be configured per customer (options, sizes, variants)?",
+      "help": "Think windows, machines, furniture built to spec.",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, configured to order",
+          "patterns": [
+            "configur",
+            "guided selling",
+            "variant combination"
+          ]
+        },
+        {
+          "label": "No, mostly standard items",
+          "patterns": [
+            "standard (items|products)",
+            "quote template",
+            "document layouts",
+            "temporary items?"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, configured to order": 0.35,
+        "No, mostly standard items": 0.15
+      }
+    },
+    {
+      "id": "margin",
+      "text": "Do you want to see cost and margin while you build the quote?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, show margin or cost calculation",
+          "patterns": [
+            "margin",
+            "profit",
+            "precalculation",
+            "cost calculation",
+            "calculation schemes",
+            "manufacturing costs?"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, show margin or cost calculation": 0.45
+      }
+    },
+    {
+      "id": "followup",
+      "text": "Do you need to chase open quotes and track why you win or lose?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, follow-ups and win/loss",
+          "patterns": [
+            "win/loss",
+            "follow-?ups?",
+            "reasons why quotes",
+            "conversion rates",
+            "tracks sales results",
+            "opportunit"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, follow-ups and win/loss": 0.2
+      }
+    },
+    {
+      "id": "production",
+      "text": "Should an accepted quote set up production (BOM, routing, production order)?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, create BOM or production order",
+          "patterns": [
+            "\\bboms?\\b",
+            "routings?",
+            "production orders?",
+            "pre-production"
+          ]
+        },
+        {
+          "label": "No, we sell from stock or buy in",
+          "patterns": [
+            "vendor (purchase )?prices",
+            "blanket",
+            "sales quote lines",
+            "temporary item",
+            "quote template"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, create BOM or production order": 0.2,
+        "No, we sell from stock or buy in": 0.25
+      }
+    },
+    {
+      "id": "source",
+      "text": "Where do quote requests or quote work start?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "In a CRM (Dynamics 365 Sales or similar)",
+          "patterns": [
+            "customer engagement",
+            "dynamics 365 sales",
+            "\\bcrm\\b",
+            "contact (card|stages)"
+          ]
+        },
+        {
+          "label": "Customer email or RFQ documents",
+          "patterns": [
+            "rfqs?",
+            "e-?mail"
+          ]
+        },
+        {
+          "label": "Our webshop",
+          "patterns": [
+            "magento",
+            "webshop",
+            "\\bstore\\b"
+          ]
+        },
+        {
+          "label": "At the customer, on a tablet or phone",
+          "patterns": [
+            "tablet",
+            "smartphone",
+            "offline",
+            "during meetings"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "In a CRM (Dynamics 365 Sales or similar)": 0.2,
+        "Customer email or RFQ documents": 0.15,
+        "Our webshop": 0.05,
+        "At the customer, on a tablet or phone": 0.05
+      }
+    },
+    {
+      "id": "layout",
+      "text": "Do your quotes need optional lines, rich texts or special layouts?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "optional",
+            "alternate",
+            "contingent",
+            "rich text",
+            "layouts?",
+            "pre- and post-texts",
+            "subtotals",
+            "branding",
+            "product descriptions and images"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.25
+      }
+    }
+  ]
+}

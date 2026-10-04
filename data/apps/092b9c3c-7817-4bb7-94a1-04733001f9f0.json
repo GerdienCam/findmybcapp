@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.navertica|AID.nvr-contract-billing|PAPPID.092b9c3c-7817-4bb7-94a1-04733001f9f0",
+  "guid": "092b9c3c-7817-4bb7-94a1-04733001f9f0",
+  "publisherId": "navertica",
+  "offerId": "nvr-contract-billing",
+  "source": {
+    "name": "Navertica Contract Billing",
+    "publisher": "NAVERTICA a.s.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navertica%7CAID.nvr-contract-billing%7CPAPPID.092b9c3c-7817-4bb7-94a1-04733001f9f0",
+    "lastModified": "2026-04-15T22:02:14.1797295+00:00",
+    "appVersion": "26.4.319455.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.navertica.com/en-us/Contract%20Billing/Index/",
+    "sourceHash": "sha256:05011a43e28a47248a5408805976b7f3260372bae01bb99f6494512c1d082a77"
+  },
+  "mapping": {
+    "sourceHash": "sha256:05011a43e28a47248a5408805976b7f3260372bae01bb99f6494512c1d082a77",
+    "mappedOn": null,
+    "summary": "Billing of contracts and meter readings",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-svc-contracts",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-equipment-rental",
+      "ng-svc-assets"
+    ],
+    "claims": [
+      "Meter readings per equipment record unit consumption (clicks, watts, kilobytes)",
+      "Meter readings are the basis for service contract invoicing",
+      "Variable invoicing calendar",
+      "Price categories for services",
+      "Invoice controlling tools",
+      "Contract connection types enable batch invoicing or separate price calculation methods",
+      "Supports rental or leasing contracts for equipment",
+      "Requires the Premium edition"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

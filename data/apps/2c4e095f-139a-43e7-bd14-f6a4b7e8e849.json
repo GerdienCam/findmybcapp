@@ -1,0 +1,85 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-carts|PAPPID.2c4e095f-139a-43e7-bd14-f6a4b7e8e849",
+  "guid": "2c4e095f-139a-43e7-bd14-f6a4b7e8e849",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-carts",
+  "source": {
+    "name": "BeyondCarts",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-carts%7CPAPPID.2c4e095f-139a-43e7-bd14-f6a4b7e8e849",
+    "lastModified": "2026-09-09T23:56:07.7463291+00:00",
+    "appVersion": "2026.9.139.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/carts/index.html",
+    "sourceHash": "sha256:f2d4e80e9d6a939bba04bc9f34ce65e7c1e3f01b5b8c7601e960e35ddbe8566d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f2d4e80e9d6a939bba04bc9f34ce65e7c1e3f01b5b8c7601e960e35ddbe8566d",
+    "mappedOn": null,
+    "summary": "Collects items in carts for batch purchase ordering",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-replenishment-planning"
+    ],
+    "claims": [
+      "Shopping cart to collect items inside BC",
+      "Browse and search items to add to the cart",
+      "Adjust quantities and remove items in the cart",
+      "Multiple carts per user or vendor",
+      "Convert cart contents into purchase orders",
+      "Filter carts by vendor at import",
+      "Recurring items stay in the cart after import"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.eone_solutions|AID.smartconnect_ct|PAPPID.5a676050-63c8-4492-838d-53fed19d3653",
+  "guid": "5a676050-63c8-4492-838d-53fed19d3653",
+  "publisherId": "eone_solutions",
+  "offerId": "smartconnect_ct",
+  "source": {
+    "name": "SmartConnect Change Tracking",
+    "publisher": "eOne Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eone_solutions%7CAID.smartconnect_ct%7CPAPPID.5a676050-63c8-4492-838d-53fed19d3653",
+    "lastModified": "2026-09-09T18:30:22.7911951+00:00",
+    "appVersion": "21.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.eonesolutions.com/help-articles/?product=SmartConnect",
+    "sourceHash": "sha256:561932aa58e8bdbc6f387452d5c8ed44a88cf031d5a66dcecce3407578ba4afc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:561932aa58e8bdbc6f387452d5c8ed44a88cf031d5a66dcecce3407578ba4afc",
+    "mappedOn": null,
+    "summary": "Tracks data changes so SmartConnect integrations only process changed records",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Only records changed since the last integration run are used in the next run",
+      "Tracks creates and updates across all BC entities",
+      "Requires the full SmartConnect iPaaS solution",
+      "No-code integration building (SmartConnect)",
+      "Integration error tracking and audit reports by email",
+      "Scheduled integrations",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SmartConnect"
+    ],
+    "requires": [
+      "eOne SmartConnect"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

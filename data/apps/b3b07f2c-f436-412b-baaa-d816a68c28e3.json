@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.d365globalptyltd1665883818849|AID.d365_qc_management|PAPPID.b3b07f2c-f436-412b-baaa-d816a68c28e3",
+  "guid": "b3b07f2c-f436-412b-baaa-d816a68c28e3",
+  "publisherId": "d365globalptyltd1665883818849",
+  "offerId": "d365_qc_management",
+  "source": {
+    "name": "Quality Control Mgmt for D365 Business Central",
+    "publisher": "d365.Global Pty Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.d365globalptyltd1665883818849%7CAID.d365_qc_management%7CPAPPID.b3b07f2c-f436-412b-baaa-d816a68c28e3",
+    "lastModified": "2025-03-04T04:36:31.2702359+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://d365.global/help",
+    "sourceHash": "sha256:a70efcd755ec704b3896c92b753321731fefb7b0eaa18eef9e82b9b56d5b65e6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a70efcd755ec704b3896c92b753321731fefb7b0eaa18eef9e82b9b56d5b65e6",
+    "mappedOn": null,
+    "summary": "Quality inspection management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-quality-analysis",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-nonconformance-capa",
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Records quality metrics for product batches",
+      "Custom KPIs like defect rate and AQL thresholds",
+      "Automated accept/reject decisions based on metrics",
+      "Flags non-conforming batches for corrective action",
+      "KPI tracking for product quality, process efficiency and supplier performance",
+      "Reports and dashboards on inspection results and trends",
+      "Links inspection data to batches, suppliers and production lines"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

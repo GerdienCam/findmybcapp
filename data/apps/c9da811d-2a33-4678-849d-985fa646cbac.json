@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.wisefish1707821097531|AID.wisefishexternalproduction|PAPPID.c9da811d-2a33-4678-849d-985fa646cbac",
+  "guid": "c9da811d-2a33-4678-849d-985fa646cbac",
+  "publisherId": "wisefish1707821097531",
+  "offerId": "wisefishexternalproduction",
+  "source": {
+    "name": "Wisefish External Production API",
+    "publisher": "Wisefish",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wisefish1707821097531%7CAID.wisefishexternalproduction%7CPAPPID.c9da811d-2a33-4678-849d-985fa646cbac",
+    "lastModified": "2026-05-13T08:52:42.3500397+00:00",
+    "appVersion": "27.1.20260512.11",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.wisefish.com/contact",
+    "sourceHash": "sha256:d1890c33b4054cbaa260242624d6a997b46d5d26342e85187658c81e130192f0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d1890c33b4054cbaa260242624d6a997b46d5d26342e85187658c81e130192f0",
+    "mappedOn": null,
+    "summary": "API to import external production data into Wisefish",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-seafood",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Transfers master data from Wisefish",
+      "Imports raw material and production data incl. packs, pallets and repacking",
+      "Data integrity and error-handling guarantees",
+      "Eliminates duplicate entry of orders and batches",
+      "Depends on Wisefish"
+    ],
+    "countries": [
+      "DK",
+      "IS",
+      "NO",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [
+      "Seafood"
+    ],
+    "connectsTo": [
+      "External production systems"
+    ],
+    "requires": [
+      "Wisefish"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

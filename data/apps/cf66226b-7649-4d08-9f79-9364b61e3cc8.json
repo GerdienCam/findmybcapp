@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evsm|PAPPID.cf66226b-7649-4d08-9f79-9364b61e3cc8",
+  "guid": "cf66226b-7649-4d08-9f79-9364b61e3cc8",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evsm",
+  "source": {
+    "name": "EV Storage Management",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evsm%7CPAPPID.cf66226b-7649-4d08-9f79-9364b61e3cc8",
+    "lastModified": "2025-12-18T14:38:40.2146164+00:00",
+    "appVersion": "2.0.167610.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
+    "sourceHash": "sha256:e3bea06dd37c58649b7aa3a72362c8e4f490415696e7d3a39f76940dca3448a8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e3bea06dd37c58649b7aa3a72362c8e4f490415696e7d3a39f76940dca3448a8",
+    "mappedOn": null,
+    "summary": "Handles incoming documents stored in Azure Blob Storage",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-storage-archiving",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Moves document files from BC to Azure Blob Storage",
+      "Supports legal backup requirement of posted documents",
+      "Reduces BC Online storage costs",
+      "Addresses Danish Bookkeeping Act PDF attachment requirements",
+      "Supports Incoming Documents for journals, sales, purchase and service documents",
+      "Supports BC API v2 Attachments endpoint",
+      "Unchanged standard UI",
+      "Fetching an attachment takes 10-100 msec",
+      "Requires a Microsoft Azure Storage Account"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

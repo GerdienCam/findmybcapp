@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.dynasystechnology|AID.dtk-maintenance-manager-s001|PAPPID.93e3d8ec-c984-4788-9b93-884e6d04b3c2",
+  "guid": "93e3d8ec-c984-4788-9b93-884e6d04b3c2",
+  "publisherId": "dynasystechnology",
+  "offerId": "dtk-maintenance-manager-s001",
+  "source": {
+    "name": "Dynasys Maintenance Management",
+    "publisher": "DYNASYS TECHNOLOGY",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynasystechnology%7CAID.dtk-maintenance-manager-s001%7CPAPPID.93e3d8ec-c984-4788-9b93-884e6d04b3c2",
+    "lastModified": "2026-08-09T14:20:37.3940709+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.dynasys.tech/solutions/maintenance-manager/docs",
+    "sourceHash": "sha256:a36584d4b9f25420209f14da2136f0918d42b512a74a1ad214d11eaa827b1691"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a36584d4b9f25420209f14da2136f0918d42b512a74a1ad214d11eaa827b1691",
+    "mappedOn": null,
+    "summary": "Maintenance planning, asset tracking and work orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Machine register with serial number, model, location and warranty",
+      "Preventive maintenance auto-generates work orders on interval",
+      "Operators submit maintenance requests with automatic notification",
+      "Tracks labor hours against technician rates",
+      "Includes external service provider invoices in maintenance cost",
+      "Cost per activity and per machine",
+      "MTTR and MTBF reliability metrics",
+      "SLA compliance tracking",
+      "Technicians attach photos and notes to jobs",
+      "Spare parts stock tied to work order consumption",
+      "Dashboard with Gantt view",
+      "Lightweight requester role for floor operators",
+      "Email notifications to assigner, technician and requester"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

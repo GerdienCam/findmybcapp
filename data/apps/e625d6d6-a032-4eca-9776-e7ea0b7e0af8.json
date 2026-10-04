@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionsecurity|PAPPID.e625d6d6-a032-4eca-9776-e7ea0b7e0af8",
+  "guid": "e625d6d6-a032-4eca-9776-e7ea0b7e0af8",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionsecurity",
+  "source": {
+    "name": "VisionSecurity",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionsecurity%7CPAPPID.e625d6d6-a032-4eca-9776-e7ea0b7e0af8",
+    "lastModified": "2026-09-30T10:13:54.8742983+00:00",
+    "appVersion": "1.0.0.22",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.visionpeople.dk/loesninger/tillaegsloesninger-og-nav-addons/visionsecurity",
+    "sourceHash": "sha256:f14a97cb602ccf918d71ae94b74b28c6b48a04ffd5b336de960cbb59f43bce76"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f14a97cb602ccf918d71ae94b74b28c6b48a04ffd5b336de960cbb59f43bce76",
+    "mappedOn": null,
+    "summary": "Monitors changes and requires approval to prevent fraud",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-change-log",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-ap-payments",
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Monitor specific tables and fields with filters",
+      "Approval for creation, modification or deletion of monitored data",
+      "Shared approvals with multiple approvers per group",
+      "Reports on change logs with originators and approvers",
+      "Monitors fields in tables related to the record, e.g. vendor bank accounts",
+      "Blocks payments and invoice posting for vendor with unapproved changes",
+      "Payments blocked before export or held in separate journal",
+      "Setup by superusers without developer"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

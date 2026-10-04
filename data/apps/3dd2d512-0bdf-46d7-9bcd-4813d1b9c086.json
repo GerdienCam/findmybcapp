@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.bydynamicsbv1640103983705|AID.dde_bdy|PAPPID.3dd2d512-0bdf-46d7-9bcd-4813d1b9c086",
+  "guid": "3dd2d512-0bdf-46d7-9bcd-4813d1b9c086",
+  "publisherId": "bydynamicsbv1640103983705",
+  "offerId": "dde_bdy",
+  "source": {
+    "name": "Dynamic Deferrals",
+    "publisher": "bydynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bydynamicsbv1640103983705%7CAID.dde_bdy%7CPAPPID.3dd2d512-0bdf-46d7-9bcd-4813d1b9c086",
+    "lastModified": "2026-05-07T05:24:00.6933461+00:00",
+    "appVersion": "26.4.45.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://github.com/bydynamics/AL-DynamicDeferrals-Support",
+    "sourceHash": "sha256:9ec51c6c92299907141d539bf271e3fb109ad377a5b4007ef176e66f74f076a5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9ec51c6c92299907141d539bf271e3fb109ad377a5b4007ef176e66f74f076a5",
+    "mappedOn": null,
+    "summary": "Includes line descriptions in deferral lines",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-accruals-deferrals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Copies line descriptions into deferral lines from sales, purchase documents and journals",
+      "Configured per deferral template",
+      "Available in all BC countries"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

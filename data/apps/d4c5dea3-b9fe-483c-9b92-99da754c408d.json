@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.systemsolutions|AID.pick-ticket-to-clickup|PAPPID.d4c5dea3-b9fe-483c-9b92-99da754c408d",
+  "guid": "d4c5dea3-b9fe-483c-9b92-99da754c408d",
+  "publisherId": "systemsolutions",
+  "offerId": "pick-ticket-to-clickup",
+  "source": {
+    "name": "Pick Ticket to ClickUp",
+    "publisher": "System Solutions LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemsolutions%7CAID.pick-ticket-to-clickup%7CPAPPID.d4c5dea3-b9fe-483c-9b92-99da754c408d",
+    "lastModified": "2026-08-12T15:03:53.2264037+00:00",
+    "appVersion": "1.2.3.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://syssolutionsllc.com/user-guides/",
+    "sourceHash": "sha256:95fa227406c3c016e73a0b27113ea612daac7624f2928dd6813d26f533a69f39"
+  },
+  "mapping": {
+    "sourceHash": "sha256:95fa227406c3c016e73a0b27113ea612daac7624f2928dd6813d26f533a69f39",
+    "mappedOn": null,
+    "summary": "Creates ClickUp tasks from sales deliveries",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-warehouse-kpis"
+    ],
+    "claims": [
+      "Creates ClickUp tasks from BC sales needing delivery",
+      "Real-time order tracking from processing to shipment",
+      "Order prioritization by urgency, customer or size",
+      "Customer delivery time slot selection",
+      "Post-delivery feedback collection",
+      "Delivery KPI dashboards",
+      "Delivery route optimization"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "ClickUp",
+      "LS Express"
+    ],
+    "requires": [
+      "ClickUp"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

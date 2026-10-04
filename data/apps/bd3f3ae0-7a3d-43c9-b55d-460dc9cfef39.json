@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.digicodeinc1707417914635|AID.edi_integration|PAPPID.bd3f3ae0-7a3d-43c9-b55d-460dc9cfef39",
+  "guid": "bd3f3ae0-7a3d-43c9-b55d-460dc9cfef39",
+  "publisherId": "digicodeinc1707417914635",
+  "offerId": "edi_integration",
+  "source": {
+    "name": "Omnichannel Integration Suite",
+    "publisher": "Digicode Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.digicodeinc1707417914635%7CAID.edi_integration%7CPAPPID.bd3f3ae0-7a3d-43c9-b55d-460dc9cfef39",
+    "lastModified": "2026-06-08T00:56:03.954135+00:00",
+    "appVersion": "1.0.0.14",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mydigicode.com/privacy-policy-appsource/",
+    "sourceHash": "sha256:0dc046ade6629f93fd4bc20f5656815063550ac58ae73caeabae580ebca3c0a1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0dc046ade6629f93fd4bc20f5656815063550ac58ae73caeabae580ebca3c0a1",
+    "mappedOn": null,
+    "summary": "Exchanges sales and purchase documents with trading partners",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-purchase-orders",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Sends purchase orders to vendors",
+      "Receives purchase orders and invoices from vendors",
+      "Receives and updates sales orders using configurable business rules",
+      "Sends shipment information and invoices to customers",
+      "Exchanges inventory data manually or on schedule",
+      "AI-assisted auto-mapping of document fields",
+      "Supports JSON, TXT and XML",
+      "Supports EDI documents 850, 855, 860, 856, 810, 846",
+      "Readable exchange logging",
+      "No technical specialists needed for new connections"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "EDI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

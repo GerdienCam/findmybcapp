@@ -1,0 +1,69 @@
+{
+  "appId": "PUBID.matchbc1722262378375|AID.applicationagent|PAPPID.f339fd4c-6f1d-4272-8e2b-5a5b8d4f214c",
+  "guid": "f339fd4c-6f1d-4272-8e2b-5a5b8d4f214c",
+  "publisherId": "matchbc1722262378375",
+  "offerId": "applicationagent",
+  "source": {
+    "name": "Application Agent",
+    "publisher": "MatchBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.matchbc1722262378375%7CAID.applicationagent%7CPAPPID.f339fd4c-6f1d-4272-8e2b-5a5b8d4f214c",
+    "lastModified": "2026-05-22T16:53:25.5633665+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://matchbusinesscentral.com/pages/application-agent",
+    "sourceHash": "sha256:59ba26234784c99b5a96bed49c37178b74c3adf936fbb338acea51422c31c70c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:59ba26234784c99b5a96bed49c37178b74c3adf936fbb338acea51422c31c70c",
+    "mappedOn": null,
+    "summary": "Automated justification of deferral accounts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-accruals-deferrals",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-gl-reconciliation"
+    ],
+    "claims": [
+      "Explains remaining balance in deferral balance sheet accounts at any date",
+      "Automatically reviews G/L entries on purchase, sales and G/L deferrals",
+      "Extends standard report with totals to justify balance at date",
+      "Auto G/L review when contract deferrals are fully released",
+      "Runs automatically without intervention"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "id",
+      "it",
+      "ja",
+      "nl",
+      "pl",
+      "pt",
+      "sv",
+      "th",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

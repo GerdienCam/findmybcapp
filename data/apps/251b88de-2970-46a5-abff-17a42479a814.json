@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.elbekvejrupas1591263556858|AID.evlib|PAPPID.251b88de-2970-46a5-abff-17a42479a814",
+  "guid": "251b88de-2970-46a5-abff-17a42479a814",
+  "publisherId": "elbekvejrupas1591263556858",
+  "offerId": "evlib",
+  "source": {
+    "name": "EV Libra",
+    "publisher": "Elbek & Vejrup A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evlib%7CPAPPID.251b88de-2970-46a5-abff-17a42479a814",
+    "lastModified": "2026-09-29T10:27:07.6795188+00:00",
+    "appVersion": "10000.0.222914.2800",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://elbek-vejrup.dk/branche/erhvervsvirksomheder/miljoe-affald/",
+    "sourceHash": "sha256:6125169e3125c3d4bcc2b14bfc0dc796512e6fe1c7dfff7b3056dcb9432567d6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6125169e3125c3d4bcc2b14bfc0dc796512e6fe1c7dfff7b3056dcb9432567d6",
+    "mappedOn": null,
+    "summary": "Weighing solution with scale integration",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-utilities-energy-waste",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-metal-timber-materials"
+    ],
+    "claims": [
+      "Registers weight of items/materials in and out of warehouse",
+      "Role centre with overview of weighing in/out and status",
+      "Template-based setup of weighing matters",
+      "Appointments for weighing matters with attached master data",
+      "Overview of weighed in and out quantities",
+      "Weighing statements and statistics reporting",
+      "Targets waste, recycling, raw materials, soil, concrete, asphalt industries"
+    ],
+    "countries": [
+      "DK",
+      "FO",
+      "GL"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Asphalt",
+      "Concrete",
+      "Raw materials",
+      "Recycling",
+      "Waste"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

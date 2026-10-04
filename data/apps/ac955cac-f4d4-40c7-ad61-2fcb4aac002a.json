@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.tvision|AID.tvtgti|PAPPID.ac955cac-f4d4-40c7-ad61-2fcb4aac002a",
+  "guid": "ac955cac-f4d4-40c7-ad61-2fcb4aac002a",
+  "publisherId": "tvision",
+  "offerId": "tvtgti",
+  "source": {
+    "name": "TVision Generic Table Import",
+    "publisher": "Tvision Technology Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tvision%7CAID.tvtgti%7CPAPPID.ac955cac-f4d4-40c7-ad61-2fcb4aac002a",
+    "lastModified": "2026-06-11T09:18:41.9785604+00:00",
+    "appVersion": "27.0.4.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://tvision.tech/add-ons/tvt/generic-table-import",
+    "sourceHash": "sha256:9b45b8d9a8048a8621f239ee4904ccecffb09ab8c9a77f6db191aad60bf5411e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9b45b8d9a8048a8621f239ee4904ccecffb09ab8c9a77f6db191aad60bf5411e",
+    "mappedOn": null,
+    "summary": "Imports data into any table from JSON",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-data-migration"
+    ],
+    "claims": [
+      "Creates or updates records in any table from JSON",
+      "Exports example JSON from any table",
+      "View imported JSON data inside BC",
+      "Works with custom tables and fields",
+      "Free in sandbox"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

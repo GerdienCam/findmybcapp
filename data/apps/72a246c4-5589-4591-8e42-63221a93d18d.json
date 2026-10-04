@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.erpgruppen|AID.erpg_nemhandel|PAPPID.72a246c4-5589-4591-8e42-63221a93d18d",
+  "guid": "72a246c4-5589-4591-8e42-63221a93d18d",
+  "publisherId": "erpgruppen",
+  "offerId": "erpg_nemhandel",
+  "source": {
+    "name": "NemHandel 365 Integration",
+    "publisher": "ERPgruppen",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.erpgruppen%7CAID.erpg_nemhandel%7CPAPPID.72a246c4-5589-4591-8e42-63221a93d18d",
+    "lastModified": "2026-07-31T07:33:23.6344984+00:00",
+    "appVersion": "2800.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.erpgruppen.dk/kontakt/",
+    "sourceHash": "sha256:46899b2ae0b25b6fb29ff81598600ef347a8f4d4a00d04070f887c071081a8e5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:46899b2ae0b25b6fb29ff81598600ef347a8f4d4a00d04070f887c071081a8e5",
+    "mappedOn": null,
+    "summary": "Sends OIOUBL e-documents via NemHandel",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Sends electronic EAN invoices in OIOUBL format to public and private customers",
+      "Sends EAN invoice directly from BC with one click",
+      "No extra integration or other solutions required",
+      "Overview of status of sent EAN invoices",
+      "Shows FIK code on the EAN invoice",
+      "Multiple delivery addresses on one customer for EAN invoicing",
+      "Line notes and header notes shown on the EAN invoice",
+      "Attach documents such as PDFs and images to the e-invoice",
+      "Correct and resend documents after forgotten information",
+      "Automatic sending via job queue",
+      "One-time price DKK 1,095 incl. installation, plus DKK 49/month per company and DKK 1 per document"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "NemHandel"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "id": "ng-customer-consignment",
+  "order": 70,
+  "label": "Tracking our stock placed at customers",
+  "description": "Our inventory placed at customer sites until used or sold.",
+  "type": "bpc",
+  "area": "Inventory & warehouse",
+  "relevance": "medium",
+  "statements": [
+    "Tracking our stock placed at customers",
+    "Our inventory placed at customer sites until used or sold.",
+    "We put stock on consignment at our customers and lose track of what is still there",
+    "Our customers only pay when they use the goods, how do we invoice that from BC?",
+    "Is there an app for customer consignment stock in Business Central?",
+    "We need a separate location per customer for consignment stock",
+    "Every month we count stock at the customer site and invoice the difference, all in Excel",
+    "consignment to customers invoicing",
+    "Demo units lent out to customers are still on our books but nobody knows where they are",
+    "Employees take tools and samples home and we need to see what each person holds",
+    "We store goods for a customer in our warehouse, but it is theirs, and it shows in our inventory value",
+    "Hospitals hold our implants on consignment and report usage, we need to reconcile that",
+    "When the customer returns unsold consignment goods we need to move them back to our main warehouse",
+    "We want customers to see their consignment stock levels themselves"
+  ],
+  "questions": [
+    {
+      "id": "what",
+      "text": "What do you need to keep track of outside your warehouse?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Goods on consignment",
+          "patterns": [
+            "consign",
+            "customer sites?",
+            "customer inventory",
+            "vendor-managed"
+          ]
+        },
+        {
+          "label": "Pallets, crates and returnable packaging",
+          "patterns": [
+            "pallet",
+            "crate",
+            "returnable",
+            "load carrier",
+            "packaging"
+          ]
+        },
+        {
+          "label": "Equipment you lend out",
+          "patterns": [
+            "loan",
+            "\\blend",
+            "\\blent"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Goods on consignment": 0.44,
+        "Pallets, crates and returnable packaging": 0.44,
+        "Equipment you lend out": 0.11
+      }
+    },
+    {
+      "id": "direction",
+      "text": "Whose stock is on consignment?",
+      "options": [
+        {
+          "label": "My stock, held at customers",
+          "patterns": [
+            "customer consign",
+            "to customers on consignment",
+            "consignment customers",
+            "customer sites?",
+            "customer inventory",
+            "consigned goods are sold"
+          ]
+        },
+        {
+          "label": "Supplier stock, held by me",
+          "patterns": [
+            "supplier consign",
+            "from vendors",
+            "vendor-managed"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "My stock, held at customers": 0.44,
+        "Supplier stock, held by me": 0.11
+      }
+    },
+    {
+      "id": "balance",
+      "text": "Do you need a running balance per customer or partner?",
+      "help": "For example, how many crates each customer still holds.",
+      "options": [
+        {
+          "label": "Yes, balance per partner",
+          "patterns": [
+            "balance",
+            "ledger entr",
+            "load carrier ledger"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, balance per partner": 0.44
+      }
+    },
+    {
+      "id": "posting",
+      "text": "When consigned goods are sold, should invoicing happen automatically?",
+      "options": [
+        {
+          "label": "Yes, post sales automatically",
+          "patterns": [
+            "automatically generates transactions",
+            "posted automatically",
+            "consignment inventory and invoicing",
+            "charges carried into sales price",
+            "auto-added"
+          ]
+        },
+        {
+          "label": "No, just track movements",
+          "patterns": [
+            "without immediate invoicing",
+            "movements",
+            "overview of lent",
+            "tracks returnable"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, post sales automatically": 0.22,
+        "No, just track movements": 0.44
+      }
+    }
+  ]
+}

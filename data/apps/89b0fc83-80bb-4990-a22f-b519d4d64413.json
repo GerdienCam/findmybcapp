@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.navax_consulting|AID.ncgla|PAPPID.89b0fc83-80bb-4990-a22f-b519d4d64413",
+  "guid": "89b0fc83-80bb-4990-a22f-b519d4d64413",
+  "publisherId": "navax_consulting",
+  "offerId": "ncgla",
+  "source": {
+    "name": "NAVAX G/L Application",
+    "publisher": "NAVAX Consulting GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navax_consulting%7CAID.ncgla%7CPAPPID.89b0fc83-80bb-4990-a22f-b519d4d64413",
+    "lastModified": "2026-09-08T10:21:51.4595231+00:00",
+    "appVersion": "28.2.5.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navax.app/help.php?AppID=NCGLA",
+    "sourceHash": "sha256:3cb6942e3df88d16ac139b934949ce6d20b01a85473835aea59f53f44a714207"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3cb6942e3df88d16ac139b934949ce6d20b01a85473835aea59f53f44a714207",
+    "mappedOn": null,
+    "summary": "Applies open G/L entries on selected G/L accounts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Open-item application (clearing) of entries on selected G/L accounts",
+      "Balancing via account or contra account",
+      "Handles G/L application and customer/vendor application within one journal line",
+      "G/L application with currency code",
+      "Posting preview"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.markmannmllerdatensystemegmbh1610701000601|AID.mumdat_calculation_with_aided_data_management|PAPPID.c24ad012-d2ca-4c09-80c3-812eb86e863f",
+  "guid": "c24ad012-d2ca-4c09-80c3-812eb86e863f",
+  "publisherId": "markmannmllerdatensystemegmbh1610701000601",
+  "offerId": "mumdat_calculation_with_aided_data_management",
+  "source": {
+    "name": "m+m Calculation with Aided Data Management",
+    "publisher": "Markmann + Müller Datensysteme GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_calculation_with_aided_data_management%7CPAPPID.c24ad012-d2ca-4c09-80c3-812eb86e863f",
+    "lastModified": "2026-06-08T14:09:05.2734748+00:00",
+    "appVersion": "28.0.371273.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.mumdat.de/appsource",
+    "sourceHash": "sha256:be61f916c12cdc74ff5e8f07cdb6b082f26ac486d1d0097928c086b15b281a97"
+  },
+  "mapping": {
+    "sourceHash": "sha256:be61f916c12cdc74ff5e8f07cdb6b082f26ac486d1d0097928c086b15b281a97",
+    "mappedOn": null,
+    "summary": "Calculates sales prices from defined cost calculation",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-production-costing"
+    ],
+    "claims": [
+      "Sales price calculation with self-defined schemes",
+      "Includes manufacturing costs and rule-based best price",
+      "Used on sales quotes and sales orders",
+      "Supported BC editions as stated"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "FR",
+      "GB",
+      "IT",
+      "LV",
+      "NL",
+      "PL",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "m+m Aided Data Management",
+      "m+m Calculation"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.boyumitas1653294915711|AID.boyumit_cloudapps_produce_connector|PAPPID.ee105a9f-1f31-48af-80f2-7b2d9dcfcc90",
+  "guid": "ee105a9f-1f31-48af-80f2-7b2d9dcfcc90",
+  "publisherId": "boyumitas1653294915711",
+  "offerId": "boyumit_cloudapps_produce_connector",
+  "source": {
+    "name": "PRODUCE - Connector",
+    "publisher": "Boyum IT Solutions A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.boyumitas1653294915711%7CAID.boyumit_cloudapps_produce_connector%7CPAPPID.ee105a9f-1f31-48af-80f2-7b2d9dcfcc90",
+    "lastModified": "2025-04-11T09:57:08.092713+00:00",
+    "appVersion": "1.84.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://boyumcloud.elevio.help/en",
+    "sourceHash": "sha256:4c27f67dce73b126cc0cb5ffdb4696b7c8de4dc432b5c1bd8d4674beadcab658"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4c27f67dce73b126cc0cb5ffdb4696b7c8de4dc432b5c1bd8d4674beadcab658",
+    "mappedOn": null,
+    "summary": "Syncs production orders with Boyum Produce shop floor system",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-production-scheduling"
+    ],
+    "claims": [
+      "Syncs production order details and status with Produce",
+      "Paperless real-time shop floor communication",
+      "One connector license per Produce installation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Produce"
+    ],
+    "requires": [
+      "PRODUCE - Production order processing"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

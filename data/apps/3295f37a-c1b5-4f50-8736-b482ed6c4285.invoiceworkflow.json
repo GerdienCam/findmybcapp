@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.signup-software-ab|AID.invoiceworkflow|PAPPID.3295f37a-c1b5-4f50-8736-b482ed6c4285",
+  "guid": "3295f37a-c1b5-4f50-8736-b482ed6c4285",
+  "publisherId": "signup-software-ab",
+  "offerId": "invoiceworkflow",
+  "source": {
+    "name": "Invoice Workflow",
+    "publisher": "SignUp Software AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.signup-software-ab%7CAID.invoiceworkflow%7CPAPPID.3295f37a-c1b5-4f50-8736-b482ed6c4285",
+    "lastModified": "2025-11-19T13:04:07.9206514+00:00",
+    "appVersion": "6.5.2.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.appsfordynamics365.com/iw/",
+    "sourceHash": "sha256:b1a60dea56f35823a24992a58e8f34757c8893e7256c2cbe7195e9f884d2306f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b1a60dea56f35823a24992a58e8f34757c8893e7256c2cbe7195e9f884d2306f",
+    "mappedOn": null,
+    "summary": "AP invoice approval workflow (older release)",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Older release; superseded by Invoice Workflow 365",
+      "Receives invoices as paper, PDF, XML, OIOXML or OIOUBL",
+      "Automatic data capture and recognition",
+      "Matches received invoice against the purchase order and flags duplicates",
+      "Email notification to approver when an invoice is ready",
+      "Approval in BC or via web portal from any device",
+      "Request comment or review from a colleague before approval",
+      "Digital archive of approved invoices"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

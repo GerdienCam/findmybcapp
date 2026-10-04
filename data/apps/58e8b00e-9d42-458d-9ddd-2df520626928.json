@@ -1,0 +1,76 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-dataimportercatalognridge|PAPPID.58e8b00e-9d42-458d-9ddd-2df520626928",
+  "guid": "58e8b00e-9d42-458d-9ddd-2df520626928",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-dataimportercatalognridge",
+  "source": {
+    "name": "BeyondDataImporterCatalogBridge",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-dataimportercatalognridge%7CPAPPID.58e8b00e-9d42-458d-9ddd-2df520626928",
+    "lastModified": "2025-11-03T05:48:12.57043+00:00",
+    "appVersion": "2025.9.193.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/dataimportercatalogbridge/index.html",
+    "sourceHash": "sha256:5cc564ec4a84259236c1aa7eb9ef61eafd7e0d733329e9fa0001f023f40535ae"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5cc564ec4a84259236c1aa7eb9ef61eafd7e0d733329e9fa0001f023f40535ae",
+    "mappedOn": null,
+    "summary": "Bridges Beyond DataImporter and Beyond Catalog",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Adds a Beyond DataImporter processor to import Beyond Catalog items"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Beyond DataImporter",
+      "Beyond Catalog"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "bridge app that only links two BEYOND products; installed with them, not chosen on its own",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

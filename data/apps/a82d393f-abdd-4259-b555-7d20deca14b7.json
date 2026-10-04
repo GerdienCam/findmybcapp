@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.tinx-it|AID.tinx-zendesk-connector|PAPPID.a82d393f-abdd-4259-b555-7d20deca14b7",
+  "guid": "a82d393f-abdd-4259-b555-7d20deca14b7",
+  "publisherId": "tinx-it",
+  "offerId": "tinx-zendesk-connector",
+  "source": {
+    "name": "Tinx Zendesk Connector",
+    "publisher": "Tinx-IT",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-zendesk-connector%7CPAPPID.a82d393f-abdd-4259-b555-7d20deca14b7",
+    "lastModified": "2026-08-27T11:03:37.3588198+00:00",
+    "appVersion": "28.0.8.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.tinx-it.com/",
+    "sourceHash": "sha256:8530b1643f3571ab7795453a112874a5d1a9acd42dc5507714ebf492d4a79559"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8530b1643f3571ab7795453a112874a5d1a9acd42dc5507714ebf492d4a79559",
+    "mappedOn": null,
+    "summary": "Connects Zendesk customer service with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-case-intake",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "Real-time sync of tickets, customers and support data",
+      "Support tickets synced to BC for service history visibility",
+      "Customer information synced between Zendesk and BC",
+      "Flexible mapping of tickets, contacts/organizations and custom fields"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Zendesk"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

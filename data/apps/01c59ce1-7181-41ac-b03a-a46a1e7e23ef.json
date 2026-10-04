@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.bydynamicsbv1640103983705|AID.agl-bdy|PAPPID.01c59ce1-7181-41ac-b03a-a46a1e7e23ef",
+  "guid": "01c59ce1-7181-41ac-b03a-a46a1e7e23ef",
+  "publisherId": "bydynamicsbv1640103983705",
+  "offerId": "agl-bdy",
+  "source": {
+    "name": "Apply G/L Entries",
+    "publisher": "bydynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bydynamicsbv1640103983705%7CAID.agl-bdy%7CPAPPID.01c59ce1-7181-41ac-b03a-a46a1e7e23ef",
+    "lastModified": "2026-09-28T05:52:27.8929134+00:00",
+    "appVersion": "27.8.27.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://portal.bydynamics.com/",
+    "sourceHash": "sha256:57116fbbdc66d2afe22812fb958b31c82d146bbf4858fc1a09aa70cdd7c984b9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:57116fbbdc66d2afe22812fb958b31c82d146bbf4858fc1a09aa70cdd7c984b9",
+    "mappedOn": null,
+    "summary": "Apply and unapply G/L entries on the same account",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-period-close"
+    ],
+    "claims": [
+      "Applies and unapplies G/L entries that belong to one account",
+      "Open/closed status and remaining amount per entry",
+      "Application history per entry",
+      "Migrates legacy NL localization application data",
+      "Validation: same account, no self-apply, only open entries",
+      "Works on W1 in any country"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.navitec|AID.nfb|PAPPID.96055136-6463-496b-9122-a6ed3e2356d0",
+  "guid": "96055136-6463-496b-9122-a6ed3e2356d0",
+  "publisherId": "navitec",
+  "offerId": "nfb",
+  "source": {
+    "name": "Navitec Fidoo Bridge",
+    "publisher": "Navitec systems s.r.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navitec%7CAID.nfb%7CPAPPID.96055136-6463-496b-9122-a6ed3e2356d0",
+    "lastModified": "2026-09-17T07:27:49.9153247+00:00",
+    "appVersion": "22.0.117.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navitec.cz/digitalizace-a-erp-sluzby/navitec-fidoo-bridge",
+    "sourceHash": "sha256:94c1128709756a9b628db8027e6b3fb4b7265325f4004f9278a654ae3cce34d8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:94c1128709756a9b628db8027e6b3fb4b7265325f4004f9278a654ae3cce34d8",
+    "mappedOn": null,
+    "summary": "Syncs Fidoo expense and payment card data into BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Online connection to Fidoo via web services",
+      "Imports card transactions with scanned receipts into the financial journal",
+      "Imports expenses",
+      "Imports travel statements",
+      "Synchronizes user accounts with Fidoo",
+      "Synchronizes payment cards with Fidoo",
+      "Synchronizes collection account"
+    ],
+    "countries": [
+      "CZ"
+    ],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Fidoo"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

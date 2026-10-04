@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.intelligentsystems|AID.bcromaniansaft-is|PAPPID.f0dae871-705c-46d5-9a78-0aface6de12a",
+  "guid": "f0dae871-705c-46d5-9a78-0aface6de12a",
+  "publisherId": "intelligentsystems",
+  "offerId": "bcromaniansaft-is",
+  "source": {
+    "name": "Romanian SAF-T",
+    "publisher": "Intelligent Systems",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.intelligentsystems%7CAID.bcromaniansaft-is%7CPAPPID.f0dae871-705c-46d5-9a78-0aface6de12a",
+    "lastModified": "2026-07-06T16:12:07.5592004+00:00",
+    "appVersion": "26.18.88.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.isystems-group.com/contacts/",
+    "sourceHash": "sha256:dc1f21315f90df561a2d693ee3d0e222faf2bb08dcf54eb33118e8e7e7577d5a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:dc1f21315f90df561a2d693ee3d0e222faf2bb08dcf54eb33118e8e7e7577d5a",
+    "mappedOn": null,
+    "summary": "Romanian SAF-T tax declarations",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Maps BC data to ANAF SAF-T system",
+      "Exports general ledger, stock movements and fixed assets declarations to XML",
+      "Updates nomenclature from ANAF",
+      "Prepares declaration for validation"
+    ],
+    "countries": [
+      "RO"
+    ],
+    "languages": [
+      "en",
+      "ro"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ANAF SAF-T"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

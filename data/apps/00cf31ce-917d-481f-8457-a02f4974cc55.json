@@ -1,0 +1,78 @@
+{
+  "appId": "PUBID.ebt-middleeastllc1703060727616|AID.ebt_bc_hht_app|PAPPID.00cf31ce-917d-481f-8457-a02f4974cc55",
+  "guid": "00cf31ce-917d-481f-8457-a02f4974cc55",
+  "publisherId": "ebt-middleeastllc1703060727616",
+  "offerId": "ebt_bc_hht_app",
+  "source": {
+    "name": "EBT Hand-Held Terminal for Business Central Warehouse Mgmt.",
+    "publisher": "EBT Middle East LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ebt-middleeastllc1703060727616%7CAID.ebt_bc_hht_app%7CPAPPID.00cf31ce-917d-481f-8457-a02f4974cc55",
+    "lastModified": "2026-07-16T05:42:02.099768+00:00",
+    "appVersion": "1.0.0.14",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://ebt-me.com/wp-content/uploads/2026/05/EBT-Hand-Held-Terminal-for-Business-Central-Warehouse-Mgmt-Manual.pdf",
+    "sourceHash": "sha256:b034aa4a9ea71506e78f3cca8d5d2e84d9461b803d1961b1d20cf9e5263cb3d7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b034aa4a9ea71506e78f3cca8d5d2e84d9461b803d1961b1d20cf9e5263cb3d7",
+    "mappedOn": null,
+    "summary": "Android handheld terminal app for warehouse operations",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting",
+      "ng-stock-movements",
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Android app for rugged handheld terminals",
+      "Barcode and QR code scanning",
+      "Create purchase orders from the handheld",
+      "Receive against purchase orders with quantity validation",
+      "Create and process transfers between locations",
+      "Guided put-away",
+      "Picking with barcode scanning",
+      "Warehouse shipment processing on mobile",
+      "Cycle counting and physical inventory",
+      "Supports BC advanced warehouse processes",
+      "Role-based access per transaction",
+      "Real-time sync with BC"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Android handhelds"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

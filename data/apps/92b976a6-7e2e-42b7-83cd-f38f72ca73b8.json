@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.boschdatagmbh1733998274125|AID.bsd-carrierman|PAPPID.92b976a6-7e2e-42b7-83cd-f38f72ca73b8",
+  "guid": "92b976a6-7e2e-42b7-83cd-f38f72ca73b8",
+  "publisherId": "boschdatagmbh1733998274125",
+  "offerId": "bsd-carrierman",
+  "source": {
+    "name": "carrierMAN",
+    "publisher": "BoSch Data GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.boschdatagmbh1733998274125%7CAID.bsd-carrierman%7CPAPPID.92b976a6-7e2e-42b7-83cd-f38f72ca73b8",
+    "lastModified": "2026-05-01T08:56:39.0949772+00:00",
+    "appVersion": "27.7.3208.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.bosch-data.de/carrierman/",
+    "sourceHash": "sha256:7edfeb3a21cb335fae22364aa5ee9915c3915c4ff40e66791dae0b9fa14a2947"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7edfeb3a21cb335fae22364aa5ee9915c3915c4ff40e66791dae0b9fa14a2947",
+    "mappedOn": null,
+    "summary": "Manages returnable load carriers like pallets and cages",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-consignment",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Manages returnable load carriers (pallets, cages)",
+      "Load carrier balances per partner with accounts for customers, carriers, producers",
+      "Automatic quantity calculation from packaging units or BOMs",
+      "Central load carrier ledger",
+      "Capture load carriers on sales orders",
+      "Track load carriers at goods receipt",
+      "Load carriers on transfer orders",
+      "Load carriers in complaints management",
+      "Balance confirmations for business partners"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

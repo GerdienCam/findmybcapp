@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.softextend|AID.postis_integration|PAPPID.d2150bd1-5a2c-43cf-85bb-a551fc597ad4",
+  "guid": "d2150bd1-5a2c-43cf-85bb-a551fc597ad4",
+  "publisherId": "softextend",
+  "offerId": "postis_integration",
+  "source": {
+    "name": "Postis Integration",
+    "publisher": "Soft Extend SRL",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.softextend%7CAID.postis_integration%7CPAPPID.d2150bd1-5a2c-43cf-85bb-a551fc597ad4",
+    "lastModified": "2026-10-02T05:31:38.5065655+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://github.com/Softextend/public-docs/blob/main/Postis%20Integration/documentation-postis-integration-en.adoc",
+    "sourceHash": "sha256:fb89e8114c7003fa0939e2d8552c602a38f329785a0539a4a27bcbdff0a02d76"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fb89e8114c7003fa0939e2d8552c602a38f329785a0539a4a27bcbdff0a02d76",
+    "mappedOn": null,
+    "summary": "Shipping via Postis platform: AWB, tracking, costs",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-freight-cost-audit"
+    ],
+    "claims": [
+      "Creates courier orders from sales shipments and return orders",
+      "Generates AWB and downloads shipping label as PDF",
+      "Estimated shipping cost before creating shipment",
+      "Handles return services, proof of delivery, insurance and cash on delivery",
+      "Manages envelopes, packages and pallets with weight and dimensions",
+      "Delivery tracking with status history updated via Job Queue",
+      "Links AWBs to carrier invoices to avoid double invoicing",
+      "Courier statistics report with Excel export",
+      "Requires active Postis account and API credentials"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Postis"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

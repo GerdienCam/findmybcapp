@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.eazystock|AID.eazystock_integration|PAPPID.5a2564a8-a6b2-417b-bd10-08b1897f9f67",
+  "guid": "5a2564a8-a6b2-417b-bd10-08b1897f9f67",
+  "publisherId": "eazystock",
+  "offerId": "eazystock_integration",
+  "source": {
+    "name": "EazyStock Integration",
+    "publisher": "Syncron AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eazystock%7CAID.eazystock_integration%7CPAPPID.5a2564a8-a6b2-417b-bd10-08b1897f9f67",
+    "lastModified": "2026-07-16T23:36:04.1898746+00:00",
+    "appVersion": "27.4.20260716.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.eazystock.com/wp-content/uploads/2022/07/set-up-guide-implementation-eazystock-bc-saas-connector-version-20.1.2022060300.pdf",
+    "sourceHash": "sha256:6bb3202f8f5edc5e7c8abcff01240575b7e5e490c49e5ff18622ca7b43f9e12a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6bb3202f8f5edc5e7c8abcff01240575b7e5e490c49e5ff18622ca7b43f9e12a",
+    "mappedOn": null,
+    "summary": "Integrates EazyStock demand forecasting and replenishment",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Statistical demand forecasting",
+      "Seasonality forecasting",
+      "Promotions management",
+      "Dynamic inventory item classifications",
+      "Automated reorder point calculations",
+      "Dynamic supplier lead time management",
+      "KPI dashboard with SKU-level drill-down",
+      "Multi-site and redistribution capabilities",
+      "Order fill-up to optimize container capacity and hit MOQ",
+      "Sends recommended order proposals back to BC",
+      "Computes safety stock, order quantities and reorder points"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "FI",
+      "GB",
+      "IE",
+      "NL",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "EazyStock"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

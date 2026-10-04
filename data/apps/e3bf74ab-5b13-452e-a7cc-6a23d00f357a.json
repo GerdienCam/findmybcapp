@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.abakion|AID.sales_container_handling|PAPPID.e3bf74ab-5b13-452e-a7cc-6a23d00f357a",
+  "guid": "e3bf74ab-5b13-452e-a7cc-6a23d00f357a",
+  "publisherId": "abakion",
+  "offerId": "sales_container_handling",
+  "source": {
+    "name": "Sales Container Handling",
+    "publisher": "Abakion",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.abakion%7CAID.sales_container_handling%7CPAPPID.e3bf74ab-5b13-452e-a7cc-6a23d00f357a",
+    "lastModified": "2026-05-07T06:37:31.3009512+00:00",
+    "appVersion": "28.0.202619.164509",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://abakion.com/dynamics-365/apps/sales-container/#userguide",
+    "sourceHash": "sha256:50a8f61b50fa734e0079df0112e9e504174de1e75e10afae591ebbe111008785"
+  },
+  "mapping": {
+    "sourceHash": "sha256:50a8f61b50fa734e0079df0112e9e504174de1e75e10afae591ebbe111008785",
+    "mappedOn": null,
+    "summary": "Packs and ships containers with lines from multiple orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-transport-planning"
+    ],
+    "claims": [
+      "Pack outbound containers using lines from several transfer orders and sales orders",
+      "Assign lines to a container from the sales order",
+      "Outbound container list with status",
+      "Tracks volume, quantity, net and gross weight per container"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Distribution",
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

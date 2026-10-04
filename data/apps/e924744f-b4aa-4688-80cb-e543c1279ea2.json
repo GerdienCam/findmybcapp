@@ -1,0 +1,80 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-catalog|PAPPID.e924744f-b4aa-4688-80cb-e543c1279ea2",
+  "guid": "e924744f-b4aa-4688-80cb-e543c1279ea2",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-catalog",
+  "source": {
+    "name": "BeyondCatalog",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-catalog%7CPAPPID.e924744f-b4aa-4688-80cb-e543c1279ea2",
+    "lastModified": "2025-11-18T23:50:31.8180108+00:00",
+    "appVersion": "2025.9.193.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/catalog/index.html",
+    "sourceHash": "sha256:2dabc035b98db6b5ed1795eebaabefdabffa6d3a45d51e4ea546395ef928e111"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2dabc035b98db6b5ed1795eebaabefdabffa6d3a45d51e4ea546395ef928e111",
+    "mappedOn": null,
+    "summary": "Shared non-stock item catalog across tenants",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ux-master-data-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "One non-stock item master shared by multiple tenants",
+      "Execute or schedule item price updates centrally"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

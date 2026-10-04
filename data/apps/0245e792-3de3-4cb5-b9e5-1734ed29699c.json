@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.nmatrixconsultingservicespteltd1615266682374|AID.nmxija|PAPPID.0245e792-3de3-4cb5-b9e5-1734ed29699c",
+  "guid": "0245e792-3de3-4cb5-b9e5-1734ed29699c",
+  "publisherId": "nmatrixconsultingservicespteltd1615266682374",
+  "offerId": "nmxija",
+  "source": {
+    "name": "Item Journal Approval",
+    "publisher": "NMATRIX CONSULTING SERVICES PTE. LTD.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nmatrixconsultingservicespteltd1615266682374%7CAID.nmxija%7CPAPPID.0245e792-3de3-4cb5-b9e5-1734ed29699c",
+    "lastModified": "2026-04-10T07:31:57.1369487+00:00",
+    "appVersion": "27.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nmatrixcs.com/Features.html",
+    "sourceHash": "sha256:1f24248f8064875cd5445dad22f593b960eee8fe76604436dd8044fe3665cf6b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1f24248f8064875cd5445dad22f593b960eee8fe76604436dd8044fe3665cf6b",
+    "mappedOn": null,
+    "summary": "Approvals required before item journals are posted",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-stock-counting",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Approval workflow for item journals",
+      "Supervisors give approval or rejection to journal lines ahead of posting",
+      "Entries cannot be posted without authorization",
+      "Free trial or contact for licensing"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "appId": "PUBID.simplyd|AID.sd-utcr|PAPPID.07c19542-5e75-40ab-a6c9-9dffa6fe1157",
+  "guid": "07c19542-5e75-40ab-a6c9-9dffa6fe1157",
+  "publisherId": "simplyd",
+  "offerId": "sd-utcr",
+  "source": {
+    "name": "SD Interface Courier",
+    "publisher": "Simply Dynamics Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.sd-utcr%7CPAPPID.07c19542-5e75-40ab-a6c9-9dffa6fe1157",
+    "lastModified": "2026-06-04T05:45:57.8707575+00:00",
+    "appVersion": "6.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-interface-courier/",
+    "sourceHash": "sha256:d2c9a7ba29b5063b07ecef0388834863064c965acdd84d47555a6da92e6ae87b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d2c9a7ba29b5063b07ecef0388834863064c965acdd84d47555a6da92e6ae87b",
+    "mappedOn": null,
+    "summary": "One-click courier booking for shipments",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-case-customer-updates"
+    ],
+    "claims": [
+      "One-click courier booking against shipments",
+      "Labels and tracking codes returned automatically",
+      "Direct interfaces to DPD, DHL and GLS",
+      "Scurri integration with An Post and 100+ couriers",
+      "Manual option for non-integrated couriers",
+      "Released sales orders appear in courier screen for booking",
+      "Status updates and tracking info sent to customer",
+      "Control report of booking costs"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "IE",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "NO",
+      "NZ",
+      "PT",
+      "SE",
+      "TR",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "DHL",
+      "DPD",
+      "GLS",
+      "Scurri",
+      "An Post"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

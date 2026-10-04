@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.vtsinfosoftprivatelimited1629889534504|AID.valueqcd365bc|PAPPID.58f7050a-c9e1-4b7b-8197-de4081eec33b",
+  "guid": "58f7050a-c9e1-4b7b-8197-de4081eec33b",
+  "publisherId": "vtsinfosoftprivatelimited1629889534504",
+  "offerId": "valueqcd365bc",
+  "source": {
+    "name": "Value QC for D365 BC",
+    "publisher": "VTS Infosoft Private Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.vtsinfosoftprivatelimited1629889534504%7CAID.valueqcd365bc%7CPAPPID.58f7050a-c9e1-4b7b-8197-de4081eec33b",
+    "lastModified": "2025-01-08T17:09:54.1400922+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://vtsinfosoft.com/contact/",
+    "sourceHash": "sha256:eba2fb1b654b32261bc777758fa9235348fdba899c1eaba85b79307739fe2357"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eba2fb1b654b32261bc777758fa9235348fdba899c1eaba85b79307739fe2357",
+    "mappedOn": null,
+    "summary": "Incoming, in-process and final quality control",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-quality-inspection",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-quality-compliance"
+    ],
+    "claims": [
+      "Incoming QC on receipts",
+      "Process QC / line rejection",
+      "Final QC before dispatch",
+      "Setups for QC master, parameters, inspection and accept/reject locations",
+      "Back-tracks faulty raw materials and vendor ratings"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

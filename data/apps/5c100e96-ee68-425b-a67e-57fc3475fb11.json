@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.fusion5|AID.f5_dyn365bc_itpack|PAPPID.5c100e96-ee68-425b-a67e-57fc3475fb11",
+  "guid": "5c100e96-ee68-425b-a67e-57fc3475fb11",
+  "publisherId": "fusion5",
+  "offerId": "f5_dyn365bc_itpack",
+  "source": {
+    "name": "Fusion5 IT Pack",
+    "publisher": "Fusion5 Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fusion5%7CAID.f5_dyn365bc_itpack%7CPAPPID.5c100e96-ee68-425b-a67e-57fc3475fb11",
+    "lastModified": "2026-08-24T05:45:18.5254902+00:00",
+    "appVersion": "2700.64.20260824.132839",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fusion5au.atlassian.net/wiki/spaces/FBCA/pages/486965429/IT+Pack",
+    "sourceHash": "sha256:f77d374904d2965c6db427cbe6261d389245ffc994010cb77501e54be37024f1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f77d374904d2965c6db427cbe6261d389245ffc994010cb77501e54be37024f1",
+    "mappedOn": null,
+    "summary": "IT base pack for import/export and REST support",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-job-queue-failures",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-failures",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-entry",
+      "ng-admin-users-signin"
+    ],
+    "claims": [
+      "Sends notifications when job queues or integration records fail or reach success",
+      "Data modification tool to update or delete records with filters",
+      "Active sessions monitoring",
+      "Unified REST authentication management with multiple methods",
+      "Transformation rules incl. sign changes"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

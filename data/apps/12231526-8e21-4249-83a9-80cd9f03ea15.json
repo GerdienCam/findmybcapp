@@ -1,0 +1,77 @@
+{
+  "appId": "PUBID.beyonditgmbhkiel|AID.beyond-serviceitemtracking|PAPPID.12231526-8e21-4249-83a9-80cd9f03ea15",
+  "guid": "12231526-8e21-4249-83a9-80cd9f03ea15",
+  "publisherId": "beyonditgmbhkiel",
+  "offerId": "beyond-serviceitemtracking",
+  "source": {
+    "name": "BeyondServiceItemTracking",
+    "publisher": "BEYONDIT GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.beyonditgmbhkiel%7CAID.beyond-serviceitemtracking%7CPAPPID.12231526-8e21-4249-83a9-80cd9f03ea15",
+    "lastModified": "2026-09-11T15:20:51.4322108+00:00",
+    "appVersion": "2026.9.296.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.beyond365.de/en-US/serviceitemtracking/index.html",
+    "sourceHash": "sha256:c2b26ae38eb564b35878624f5c170a16cd120b528bc499989d83bfc1a8ce19c8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c2b26ae38eb564b35878624f5c170a16cd120b528bc499989d83bfc1a8ce19c8",
+    "mappedOn": null,
+    "summary": "Records counter readings such as mileage on service items",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-svc-assets",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-maintenance-planned"
+    ],
+    "claims": [
+      "Counters on service items with reading history",
+      "Counter names translatable",
+      "Readings entered in the FactBox"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IN",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

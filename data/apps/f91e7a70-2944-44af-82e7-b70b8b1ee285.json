@@ -1,0 +1,63 @@
+{
+  "appId": "TYPE.connect|PUBID.slimstockbv1603188336036|AID.slimstock-bc-connector|PAPPID.f91e7a70-2944-44af-82e7-b70b8b1ee285",
+  "guid": "f91e7a70-2944-44af-82e7-b70b8b1ee285",
+  "publisherId": "slimstockbv1603188336036",
+  "offerId": "slimstock-bc-connector",
+  "source": {
+    "name": "Slimstock Slim4 Connector",
+    "publisher": "Slimstock B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.slimstockbv1603188336036%7CAID.slimstock-bc-connector%7CPAPPID.f91e7a70-2944-44af-82e7-b70b8b1ee285",
+    "lastModified": "2025-06-17T12:23:13.9975402+00:00",
+    "appVersion": "1.1.1.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.slimstock.com/demo/",
+    "sourceHash": "sha256:2d4a9e2590e4aa94fb59a967eafd542cbbc2bd053ad055d680a7b85f4defafe9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2d4a9e2590e4aa94fb59a967eafd542cbbc2bd053ad055d680a7b85f4defafe9",
+    "mappedOn": null,
+    "summary": "Exchanges data with Slim4 inventory planning",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Exchanges data between Slim4 and BC",
+      "Slim4 provides AI-driven inventory optimization and S&OP"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing",
+      "Retail",
+      "Wholesale"
+    ],
+    "connectsTo": [
+      "Slimstock Slim4"
+    ],
+    "requires": [
+      "Slimstock Slim4"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

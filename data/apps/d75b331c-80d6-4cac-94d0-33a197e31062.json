@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.nav24spzoo1579516366010|AID.n24_powerbox|PAPPID.d75b331c-80d6-4cac-94d0-33a197e31062",
+  "guid": "d75b331c-80d6-4cac-94d0-33a197e31062",
+  "publisherId": "nav24spzoo1579516366010",
+  "offerId": "n24_powerbox",
+  "source": {
+    "name": "N24 PowerBox",
+    "publisher": "Nav24 Sp. z o.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nav24spzoo1579516366010%7CAID.n24_powerbox%7CPAPPID.d75b331c-80d6-4cac-94d0-33a197e31062",
+    "lastModified": "2025-10-08T07:26:18.0505627+00:00",
+    "appVersion": "25.0.1.2",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.nav24.pl/en-US/PowerBox/",
+    "sourceHash": "sha256:6ac128e8a2ac915504264bd89b530ce0325880d197f92b7dd83cee01ba42e8a2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6ac128e8a2ac915504264bd89b530ce0325880d197f92b7dd83cee01ba42e8a2",
+    "mappedOn": null,
+    "summary": "Embeds Power Apps in BC FactBoxes",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-search-navigation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-automation"
+    ],
+    "claims": [
+      "Embeds Power Apps as FactBoxes on BC pages such as customer cards and document lists",
+      "Different Power App per BC page",
+      "Hands context like order number or customer number to the embedded app",
+      "Central PowerBox settings page to manage app assignments",
+      "Users can assign or change Power Apps per page themselves",
+      "Free trial available"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power Apps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

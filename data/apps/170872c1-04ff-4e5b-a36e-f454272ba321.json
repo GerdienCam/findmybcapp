@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.price-by-weight-app|PAPPID.170872c1-04ff-4e5b-a36e-f454272ba321",
+  "guid": "170872c1-04ff-4e5b-a36e-f454272ba321",
+  "publisherId": "fenwicksoftware",
+  "offerId": "price-by-weight-app",
+  "source": {
+    "name": "Price by Weight",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.price-by-weight-app%7CPAPPID.170872c1-04ff-4e5b-a36e-f454272ba321",
+    "lastModified": "2026-06-09T08:23:41.6784517+00:00",
+    "appVersion": "26.0.260527.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/price-by-weight/docs/",
+    "sourceHash": "sha256:e6f307b4539b7e9c03af7d7535d01b57d9eff50b00d8a329931169b9ac09b247"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e6f307b4539b7e9c03af7d7535d01b57d9eff50b00d8a329931169b9ac09b247",
+    "mappedOn": null,
+    "summary": "Catch weight inventory and pricing for random weight items",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-food-beverage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting"
+    ],
+    "claims": [
+      "Transactions in both cartons and weight, fixed or random",
+      "Sell in cartons with price based on weight",
+      "Auto-calculates price from weight per carton",
+      "Enter actual weights at transaction level for random-weight cartons",
+      "Tracks stock in cartons and total weight",
+      "Stocktakes by weight",
+      "Standard costs per weight unit",
+      "Requires Advanced Inventory app"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Meat and poultry"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "Fenwick Advanced Inventory"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

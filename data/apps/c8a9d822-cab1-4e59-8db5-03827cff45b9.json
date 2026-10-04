@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.fenwicksoftware|AID.production-scheduler-app|PAPPID.c8a9d822-cab1-4e59-8db5-03827cff45b9",
+  "guid": "c8a9d822-cab1-4e59-8db5-03827cff45b9",
+  "publisherId": "fenwicksoftware",
+  "offerId": "production-scheduler-app",
+  "source": {
+    "name": "Production Scheduler",
+    "publisher": "Fenwick",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fenwicksoftware%7CAID.production-scheduler-app%7CPAPPID.c8a9d822-cab1-4e59-8db5-03827cff45b9",
+    "lastModified": "2026-09-24T05:02:05.8513178+00:00",
+    "appVersion": "28.0.260924.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fenwick.com.au/solutions/production-scheduler/docs",
+    "sourceHash": "sha256:d1ee5a4c4e8bbaa3194bca7b642a5bdd45cc56bfd474a1a9719f3e64f12496cf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d1ee5a4c4e8bbaa3194bca7b642a5bdd45cc56bfd474a1a9719f3e64f12496cf",
+    "mappedOn": null,
+    "summary": "Schedules production orders from one page",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Lists routing lines and required quantities per production order filtered by work center group",
+      "One-screen overview of all current production orders",
+      "Manages material shortages so only orders with all raw materials are released",
+      "Creates production orders directly from sales orders",
+      "Optional drag-and-drop graphical scheduler web app (separately licensed)",
+      "Recurring capacity absences excluded from capacity planning"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "id": "ng-vert-transport-logistics",
+  "order": 205,
+  "label": "Solutions for transport and logistics providers",
+  "description": "Industry solutions for hauliers, forwarders and 3PL/warehousing providers: transport orders and planning, trips, containers, barge and groupage, freight costs and invoicing, customer warehousing and telematics.",
+  "type": "vertical",
+  "area": "Industry solutions",
+  "relevance": "high",
+  "statements": [
+    "Solutions for transport and logistics providers",
+    "Industry solutions for hauliers, forwarders and 3PL/warehousing providers: transport orders and planning, trips, containers, barge and groupage, freight costs and invoicing, customer warehousing and telematics.",
+    "We're a trucking company and BC has no idea what a trip is",
+    "TMS for Business Central",
+    "We run warehouses for our customers and invoice storage per pallet",
+    "3PL software on BC",
+    "Freight forwarding with multiple legs and carriers",
+    "Container transport dispatch and planning board",
+    "Driver hours, trucks and trailers in one plan",
+    "Invoicing customers for every transport order is manual",
+    "Fuel surcharges and toll costs per shipment",
+    "Groupage and distribution routes",
+    "Our customers want a portal to see their stock in our warehouse",
+    "Barge transport planning",
+    "Telematics data from trucks into BC",
+    "Subcontracted haulers and their invoices",
+    "Proof of delivery photos on the order",
+    "Customs declarations for import shipments",
+    "Ship supply company quoting vessels",
+    "Logistics provider with value-added services like labelling",
+    "Calculate rates by weight, zone and pallet places",
+    "Haulage company with 60 trucks moving off an old system"
+  ],
+  "questions": [
+    {
+      "id": "business",
+      "text": "What kind of logistics business are you?",
+      "help": "Pick all that apply.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Road haulage and distribution",
+          "patterns": [
+            "\\b(ftl|ltl)\\b",
+            "groupage|distribution transport",
+            "truck|haulier",
+            "road(?! map)",
+            "vehicle|fleet",
+            "waybill|way-bill"
+          ]
+        },
+        {
+          "label": "Freight forwarding (air, ocean, multimodal)",
+          "patterns": [
+            "forward(ing|ers?)",
+            "multimodal|intermodal",
+            "air and ocean|sea, rail, air|road, rail, water and air"
+          ]
+        },
+        {
+          "label": "Warehousing for customers (3PL)",
+          "patterns": [
+            "\\b3pl\\b|\\bwms\\b",
+            "warehous(e|ing) (management|services|processes)|warehousing",
+            "cross-?dock",
+            "pallets"
+          ]
+        },
+        {
+          "label": "Containers, ports or barge",
+          "patterns": [
+            "container(?!s and boxes)",
+            "barge",
+            "\\bport\\b|quay|depot"
+          ]
+        },
+        {
+          "label": "Shipping and maritime",
+          "patterns": [
+            "vessels? (management|registry)|port and vessel|vessels, trades|voyage|maritime|shipping compan|ship management|imos|veson"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Road haulage and distribution": 0.46,
+        "Freight forwarding (air, ocean, multimodal)": 0.34,
+        "Warehousing for customers (3PL)": 0.33,
+        "Containers, ports or barge": 0.15,
+        "Shipping and maritime": 0.08
+      }
+    },
+    {
+      "id": "focus",
+      "text": "What do you most need the system to handle?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Taking and planning transport orders",
+          "patterns": [
+            "transport orders?|forwarding orders|freight orders",
+            "planning|dispatch",
+            "bookings?"
+          ]
+        },
+        {
+          "label": "Pricing and invoicing freight",
+          "patterns": [
+            "invoicing|customer invoices|freight invoices|to invoice|invoice documents|sales invoice|invoices? (sync|combining)",
+            "tariffs?|pricing|surcharge|quoting",
+            "self-billing|revenue proposals"
+          ]
+        },
+        {
+          "label": "Running your own vehicles (fuel, documents, maintenance)",
+          "patterns": [
+            "fuel",
+            "maintenance|service book|tyre|tire",
+            "vehicle (register|records|documents)|vehicle and driver documents|fleet maintenance"
+          ]
+        },
+        {
+          "label": "Customs declarations",
+          "patterns": [
+            "customs"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Taking and planning transport orders": 0.41,
+        "Pricing and invoicing freight": 0.41,
+        "Running your own vehicles (fuel, documents, maintenance)": 0.1,
+        "Customs declarations": 0.08
+      }
+    },
+    {
+      "id": "drivers",
+      "text": "How do your drivers get their jobs and report back?",
+      "options": [
+        {
+          "label": "Driver app, onboard computer or GPS tracking",
+          "patterns": [
+            "driver app|transport app",
+            "onboard (computer|units)|trimble|transics",
+            "sign-on-glass|e-signature|sign-off signatures",
+            "driver instructions|tasks automatically to the driver|orders and messages to the driver",
+            "gps|real-time (location|driver position)|telematics"
+          ]
+        },
+        {
+          "label": "Phone or paper is fine",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Driver app, onboard computer or GPS tracking": 0.2
+      }
+    },
+    {
+      "id": "customers",
+      "text": "How do your customers send orders and follow shipments?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Web portal or booking site",
+          "patterns": [
+            "portal|web booking"
+          ]
+        },
+        {
+          "label": "EDI or system-to-system",
+          "patterns": [
+            "\\bedi\\b|\\bxml\\b|\\bapi\\b|web services"
+          ]
+        },
+        {
+          "label": "They want track & trace",
+          "patterns": [
+            "track ?(&|and) ?trace|shipment tracking|real-time updates to customers|status updates"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Web portal or booking site": 0.2,
+        "EDI or system-to-system": 0.08,
+        "They want track & trace": 0.36
+      }
+    },
+    {
+      "id": "subs",
+      "text": "Do you hand transport jobs to subcontracted hauliers?",
+      "options": [
+        {
+          "label": "Yes, regularly",
+          "patterns": [
+            "subcontract",
+            "hauliers|carrier (bills|costs)|pay-to vendor"
+          ]
+        },
+        {
+          "label": "No, we use our own trucks",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, regularly": 0.26
+      }
+    }
+  ]
+}

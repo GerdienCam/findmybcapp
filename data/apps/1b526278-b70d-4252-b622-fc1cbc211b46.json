@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.nvisioncommercesolutions|AID.commerce365-externalpim|PAPPID.1b526278-b70d-4252-b622-fc1cbc211b46",
+  "guid": "1b526278-b70d-4252-b622-fc1cbc211b46",
+  "publisherId": "nvisioncommercesolutions",
+  "offerId": "commerce365-externalpim",
+  "source": {
+    "name": "Commerce 365 for Magento - External PIM Module",
+    "publisher": "NVision Commerce Solutions B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nvisioncommercesolutions%7CAID.commerce365-externalpim%7CPAPPID.1b526278-b70d-4252-b622-fc1cbc211b46",
+    "lastModified": "2026-06-19T15:18:46.2166573+00:00",
+    "appVersion": "102.0.815.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://nvision.freshdesk.com/support/solutions",
+    "sourceHash": "sha256:7f26a8d2c22ffd49936b0d1b04ecd98252f539adf7ebc88f53a35169c755836d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7f26a8d2c22ffd49936b0d1b04ecd98252f539adf7ebc88f53a35169c755836d",
+    "mappedOn": null,
+    "summary": "External PIM module for Commerce 365 for Magento",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Integrates Pimcore PIM with BC for Magento catalogs",
+      "Define per field whether BC or Pimcore maintains it",
+      "Different insert and update strategies"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Magento",
+      "Pimcore"
+    ],
+    "requires": [
+      "Commerce 365 for Magento"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

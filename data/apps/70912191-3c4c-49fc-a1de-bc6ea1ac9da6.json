@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.intrastat_report_w1|PAPPID.70912191-3c4c-49fc-a1de-bc6ea1ac9da6",
+  "guid": "70912191-3c4c-49fc-a1de-bc6ea1ac9da6",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "intrastat_report_w1",
+  "source": {
+    "name": "Intrastat Core",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.intrastat_report_w1%7CPAPPID.70912191-3c4c-49fc-a1de-bc6ea1ac9da6",
+    "lastModified": "2024-11-22T19:48:57.653632+00:00",
+    "appVersion": "21.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://learn.microsoft.com/en-us/dynamics365/business-central/finance-how-setup-report-intrastat",
+    "sourceHash": "sha256:de7b18d7ce321daa2f5ce16419f9e2702c25bb47400c19a68eb5b8ff3f69c244"
+  },
+  "mapping": {
+    "sourceHash": "sha256:de7b18d7ce321daa2f5ce16419f9e2702c25bb47400c19a68eb5b8ff3f69c244",
+    "mappedOn": null,
+    "summary": "EU Intrastat reporting core",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Collects statistics on trade in goods among EU member states",
+      "Prepares and submits Intrastat report files",
+      "Intrastat setup for items and fixed assets",
+      "Checklist for validating Intrastat rules",
+      "Uses Data Exchange Definitions to create file exports",
+      "Usable as-is in Denmark without a country-specific app",
+      "Supports all EU countries plus the UK"
+    ],
+    "countries": [
+      "DK",
+      "GB"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

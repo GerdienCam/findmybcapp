@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.applibra|AID.al_inventory_costing_periods|PAPPID.922c8643-77fc-4321-b05a-b7d303707e48",
+  "guid": "922c8643-77fc-4321-b05a-b7d303707e48",
+  "publisherId": "applibra",
+  "offerId": "al_inventory_costing_periods",
+  "source": {
+    "name": "AL Inventory Costing Periods",
+    "publisher": "Applibra",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.applibra%7CAID.al_inventory_costing_periods%7CPAPPID.922c8643-77fc-4321-b05a-b7d303707e48",
+    "lastModified": "2026-04-03T05:50:09.906389+00:00",
+    "appVersion": "27.0.26.4021053",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dynamicsapplab.com/apps",
+    "sourceHash": "sha256:68f62e9d28724568ee9f5dc53d57380c4555c840134b148c839248d66bfe4c3c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:68f62e9d28724568ee9f5dc53d57380c4555c840134b148c839248d66bfe4c3c",
+    "mappedOn": null,
+    "summary": "Historized inventory valuation and production order costing periods",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-period-close",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Costing periods with custom durations (daily to yearly)",
+      "Dedicated fiscal costing period for statutory valuation",
+      "Certified periods become read-only",
+      "Cost inheritance for periods without movements",
+      "Selective costing for specific items with dependent items",
+      "Valuation methods: average, weighted average, FIFO, LIFO, discrete LIFO",
+      "Actual or standard cost per period",
+      "Standard cost from historized BOM and routing versions",
+      "Production-order breakdown: unit cost, cycle cost, subcontracting/WIP, overhead",
+      "Parallel valuation series (monthly operational + annual statutory)",
+      "Data export for BI"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

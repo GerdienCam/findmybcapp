@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.advania|AID.advania_customer_vendor_application|PAPPID.a3ee7d92-85cc-421b-ac0d-cab786eda0d4",
+  "guid": "a3ee7d92-85cc-421b-ac0d-cab786eda0d4",
+  "publisherId": "advania",
+  "offerId": "advania_customer_vendor_application",
+  "source": {
+    "name": "Advania Customer Vendor Application",
+    "publisher": "Advania",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advania%7CAID.advania_customer_vendor_application%7CPAPPID.a3ee7d92-85cc-421b-ac0d-cab786eda0d4",
+    "lastModified": "2026-09-30T21:27:21.4512595+00:00",
+    "appVersion": "29.0.38.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://help.d365bc.is/customervendor",
+    "sourceHash": "sha256:7ab62729484c328cf4840dc368d56df5f35bd1eea8f16b091ca17e744a5cdb5c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7ab62729484c328cf4840dc368d56df5f35bd1eea8f16b091ca17e744a5cdb5c",
+    "mappedOn": null,
+    "summary": "Finds and offsets unapplied customer and vendor entries",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-gl-reconciliation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Finds unapplied entries from the customer list",
+      "Finds unapplied entries from the vendor list",
+      "Suggests entries to apply"
+    ],
+    "countries": [
+      "AU",
+      "CA",
+      "DE",
+      "DK",
+      "FI",
+      "FO",
+      "FR",
+      "GB",
+      "GL",
+      "IE",
+      "IS",
+      "NO",
+      "PL",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "is"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

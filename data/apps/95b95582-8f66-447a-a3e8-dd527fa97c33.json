@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.pfformula1687443475154|AID.tvimportbc23|PAPPID.95b95582-8f66-447a-a3e8-dd527fa97c33",
+  "guid": "95b95582-8f66-447a-a3e8-dd527fa97c33",
+  "publisherId": "pfformula1687443475154",
+  "offerId": "tvimportbc23",
+  "source": {
+    "name": "Totalview Import to Project",
+    "publisher": "P/f Formula",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pfformula1687443475154%7CAID.tvimportbc23%7CPAPPID.95b95582-8f66-447a-a3e8-dd527fa97c33",
+    "lastModified": "2026-06-11T10:03:22.4352953+00:00",
+    "appVersion": "28.0.0.88",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.formula.fo/contact/",
+    "sourceHash": "sha256:f243354631c797a6fc04c6d90051bf72393dd0506fc7725e9cf3ac6391478f6c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f243354631c797a6fc04c6d90051bf72393dd0506fc7725e9cf3ac6391478f6c",
+    "mappedOn": null,
+    "summary": "Imports Totalview time registration into project journals",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "Totalview reads open BC projects and tasks live",
+      "Employees clock in directly on a project and task",
+      "Imports worked hours to project journal with resource, task, cost and sales price",
+      "Maps employees to resource codes",
+      "Excludes work types such as sick days or holidays from import",
+      "Import log with option to undo and send back to Totalview",
+      "Supports Totalview departments across multiple BC companies"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Totalview"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

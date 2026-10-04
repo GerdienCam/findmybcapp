@@ -1,0 +1,91 @@
+{
+  "appId": "PUBID.foodware365|AID.trading_board|PAPPID.b8079213-c535-4a7e-959a-ec503173f908",
+  "guid": "b8079213-c535-4a7e-959a-ec503173f908",
+  "publisherId": "foodware365",
+  "offerId": "trading_board",
+  "source": {
+    "name": "Aptean Trading Board for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.trading_board%7CPAPPID.b8079213-c535-4a7e-959a-ec503173f908",
+    "lastModified": "2026-02-27T09:41:01.1346769+00:00",
+    "appVersion": "2503.2.299876.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/TRB/",
+    "sourceHash": "sha256:5f54b2192ec1479533936330f964672bdad38875adb8bd5f80da70a645feb4cc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5f54b2192ec1479533936330f964672bdad38875adb8bd5f80da70a645feb4cc",
+    "mappedOn": null,
+    "summary": "Inventory visibility board for production planning",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-inventory-analysis",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-order-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage",
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Shows expected and available inventory across all locations in one view",
+      "Assigns lots to orders or lines using availability date or lot attribute values",
+      "Manual prices or price-list prices with Aptean Advanced Pricing"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MY",
+      "NG",
+      "NL",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

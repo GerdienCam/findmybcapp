@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.succeedit_5140844|AID.advanced_reservations_app|PAPPID.2b923a98-7b05-4d97-a260-67667bd796e6",
+  "guid": "2b923a98-7b05-4d97-a260-67667bd796e6",
+  "publisherId": "succeedit_5140844",
+  "offerId": "advanced_reservations_app",
+  "source": {
+    "name": "Advanced Reservations",
+    "publisher": "SucceedIT B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.succeedit_5140844%7CAID.advanced_reservations_app%7CPAPPID.2b923a98-7b05-4d97-a260-67667bd796e6",
+    "lastModified": "2026-09-30T17:32:58.3732764+00:00",
+    "appVersion": "28.0.20260930.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.succeedit.nl/en/business-central-apps/advanced-reservations/",
+    "sourceHash": "sha256:910bfd011a44ff524a07b5f966e6b09dc05319efa17b42db269956ed1e2853ea"
+  },
+  "mapping": {
+    "sourceHash": "sha256:910bfd011a44ff524a07b5f966e6b09dc05319efa17b42db269956ed1e2853ea",
+    "mappedOn": null,
+    "summary": "Optimizes stock reservations by document sequence or priority",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-order-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking"
+    ],
+    "claims": [
+      "Reserves stock by sales order number sequence, oldest order first",
+      "Reserves stock by considering purchase order and lead time",
+      "Reserves stock when quantity is entered on a sales line, based on promised delivery date",
+      "Reserves against incoming purchase orders",
+      "Checks other sales orders with earlier reservations",
+      "One screen lists every reservation on an item",
+      "Intercompany reservations within a tenant",
+      "30-day free trial",
+      "Unlimited users and companies",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

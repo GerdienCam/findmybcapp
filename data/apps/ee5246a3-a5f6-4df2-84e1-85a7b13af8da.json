@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.advaiya|AID.adv_int_calc_01|PAPPID.ee5246a3-a5f6-4df2-84e1-85a7b13af8da",
+  "guid": "ee5246a3-a5f6-4df2-84e1-85a7b13af8da",
+  "publisherId": "advaiya",
+  "offerId": "adv_int_calc_01",
+  "source": {
+    "name": "InterestCalc Pro",
+    "publisher": "Advaiya Solutions Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.advaiya%7CAID.adv_int_calc_01%7CPAPPID.ee5246a3-a5f6-4df2-84e1-85a7b13af8da",
+    "lastModified": "2026-07-23T01:18:55.289841+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.advaiya.com/contact/",
+    "sourceHash": "sha256:cb0a48f888b0585ee30570a989623ef09a0bdadfb7c568fb825c654202fc33da"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cb0a48f888b0585ee30570a989623ef09a0bdadfb7c568fb825c654202fc33da",
+    "mappedOn": null,
+    "summary": "Manages investments and interest calculations in finance",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-journals",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Calculates and posts interest or fixed dividends on fixed deposits and investments",
+      "Setup of parameters, accounts and journal templates",
+      "Automated interest calculation for savings accounts, fixed deposits and more",
+      "Investment cards with line-level breakdowns",
+      "Automated numbering and journal template creation",
+      "Supports Essential and Premium"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Construction",
+      "Energy",
+      "Professional services",
+      "Real estate"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": "Investment and interest calculation (treasury) has no dedicated group"
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.aasatworkbv1585038694547|AID.inboxmailallocation|PAPPID.32dd6e86-4036-49ef-b791-0143e4915977",
+  "guid": "32dd6e86-4036-49ef-b791-0143e4915977",
+  "publisherId": "aasatworkbv1585038694547",
+  "offerId": "inboxmailallocation",
+  "source": {
+    "name": "AAS Email Inbox",
+    "publisher": "AAS At Work B.V.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.aasatworkbv1585038694547%7CAID.inboxmailallocation%7CPAPPID.32dd6e86-4036-49ef-b791-0143e4915977",
+    "lastModified": "2025-12-03T10:52:17.5016509+00:00",
+    "appVersion": "27.0.0.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.aasatwork.nl/",
+    "sourceHash": "sha256:d3a6b500376d6e004d4c321baa5ed32aa78a1af0bbba2cf5af4efe3faebbd03a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d3a6b500376d6e004d4c321baa5ed32aa78a1af0bbba2cf5af4efe3faebbd03a",
+    "mappedOn": null,
+    "summary": "Allocates incoming emails to Business Central records",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-crm-accounts",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "Connects a mail inbox to Business Central",
+      "Links email messages to customers, vendors and employees",
+      "For each incoming email, proposes the matching contact and document",
+      "Attaches email attachments to posted invoices, receipts, orders and service quotes",
+      "Stores employee-related emails on employee profiles",
+      "Tiered per-user pricing from $4 down to $1.49 per user per month"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

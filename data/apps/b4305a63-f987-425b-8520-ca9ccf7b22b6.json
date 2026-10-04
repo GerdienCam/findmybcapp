@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.microsoftdynsmb|AID.e-documents-connector-b2brouter|PAPPID.b4305a63-f987-425b-8520-ca9ccf7b22b6",
+  "guid": "b4305a63-f987-425b-8520-ca9ccf7b22b6",
+  "publisherId": "microsoftdynsmb",
+  "offerId": "e-documents-connector-b2brouter",
+  "source": {
+    "name": "E-Document Connector - B2Brouter",
+    "publisher": "Microsoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.microsoftdynsmb%7CAID.e-documents-connector-b2brouter%7CPAPPID.b4305a63-f987-425b-8520-ca9ccf7b22b6",
+    "lastModified": "2026-09-09T18:29:53.4242425+00:00",
+    "appVersion": "26.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://aka.ms/bcedocuments",
+    "sourceHash": "sha256:e7176efa342313bd11d4c280323de56d27ad57cd8fcaec31935ca687e3fb952e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e7176efa342313bd11d4c280323de56d27ad57cd8fcaec31935ca687e3fb952e",
+    "mappedOn": null,
+    "summary": "Connects BC E-Documents to B2Brouter Peppol provider",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Connects BC E-Documents to the B2Brouter e-invoicing service",
+      "Adds B2Brouter as a service integration in the E-Document Service page",
+      "Sends outgoing e-documents to the B2Brouter network",
+      "Receives incoming e-documents from B2Brouter",
+      "Sends and receives approval/rejection messages",
+      "Uses B2Brouter as Peppol provider"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "B2Brouter",
+      "PEPPOL"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

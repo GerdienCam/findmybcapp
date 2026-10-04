@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.brightcom_3111464|AID.postnord_freight_integration|PAPPID.226e7cbb-9bfd-4b86-8704-49e17af74327",
+  "guid": "226e7cbb-9bfd-4b86-8704-49e17af74327",
+  "publisherId": "brightcom_3111464",
+  "offerId": "postnord_freight_integration",
+  "source": {
+    "name": "PostNord freight integration",
+    "publisher": "BrightCom Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.postnord_freight_integration%7CPAPPID.226e7cbb-9bfd-4b86-8704-49e17af74327",
+    "lastModified": "2026-10-01T14:41:30.5925196+00:00",
+    "appVersion": "28.0.35616.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.brightcom.se/sv/Products/Postnord",
+    "sourceHash": "sha256:72b1d42c8a10b05659634506522e2d6cc41c9d5997fdc525ab520682561b2e27"
+  },
+  "mapping": {
+    "sourceHash": "sha256:72b1d42c8a10b05659634506522e2d6cc41c9d5997fdc525ab520682561b2e27",
+    "mappedOn": null,
+    "summary": "PostNord shipment creation, labels and tracking",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "Creates shipments from sales orders or warehouse picks",
+      "Prints labels as PDF or via PrintNode, stored in BC",
+      "Retrieves tracking numbers and URLs from PostNord",
+      "Sends tracking to customers by SMS or email",
+      "Mapping rules between warehouses, service codes and order types",
+      "Reprint, resend or cancel consignments",
+      "Logs all request and response files",
+      "Cloud deployment"
+    ],
+    "countries": [
+      "DK",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "PostNord",
+      "PrintNode"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

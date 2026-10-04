@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.anveogroup-1403319|AID.anveo_e_invoicing|PAPPID.9ee94d9a-a21b-4930-a8e1-44ed62631e88",
+  "guid": "9ee94d9a-a21b-4930-a8e1-44ed62631e88",
+  "publisherId": "anveogroup-1403319",
+  "offerId": "anveo_e_invoicing",
+  "source": {
+    "name": "Anvaigo E-Invoice",
+    "publisher": "conion media GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.anveogroup-1403319%7CAID.anveo_e_invoicing%7CPAPPID.9ee94d9a-a21b-4930-a8e1-44ed62631e88",
+    "lastModified": "2026-09-09T18:36:17.2777454+00:00",
+    "appVersion": "5.4.24.270",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://anvaigo.cc/edi-userguide",
+    "sourceHash": "sha256:72d79539a5e189888cd041dfc14181c8a2b7d7d2a6f1ce690d957d6f49167557"
+  },
+  "mapping": {
+    "sourceHash": "sha256:72d79539a5e189888cd041dfc14181c8a2b7d7d2a6f1ce690d957d6f49167557",
+    "mappedOn": null,
+    "summary": "Sends and receives EU e-invoices in standard formats",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Sends and receives e-invoices compliant with EN16931",
+      "Imports XML invoices according to EN16931",
+      "Templates for PEPPOL BIS, XRechnung, UBL and CEFACT invoices",
+      "Other formats such as ZUGFeRD XML can be set up",
+      "Addresses German e-invoicing deadlines from 2025"
+    ],
+    "countries": [
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PEPPOL",
+      "XRechnung",
+      "ZUGFeRD"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

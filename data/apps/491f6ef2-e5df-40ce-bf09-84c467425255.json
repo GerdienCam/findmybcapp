@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.mdc_nordic|AID.project_plus|PAPPID.491f6ef2-e5df-40ce-bf09-84c467425255",
+  "guid": "491f6ef2-e5df-40ce-bf09-84c467425255",
+  "publisherId": "mdc_nordic",
+  "offerId": "project_plus",
+  "source": {
+    "name": "Project Plus",
+    "publisher": "MDC Nordic",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.mdc_nordic%7CAID.project_plus%7CPAPPID.491f6ef2-e5df-40ce-bf09-84c467425255",
+    "lastModified": "2026-08-19T12:15:50.2776462+00:00",
+    "appVersion": "28.1.3.3505",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://mdcnordic.com/en/bc-apps/projectplus/",
+    "sourceHash": "sha256:d4f96076a2a0d8cacb082fbda50b7f2da675427f0ebe9cfd554c4d1faa352a02"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d4f96076a2a0d8cacb082fbda50b7f2da675427f0ebe9cfd554c4d1faa352a02",
+    "mappedOn": null,
+    "summary": "Project prepayments in the Projects module",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Project or task-level prepayment invoices",
+      "Fixed-amount prepayment invoices for deposits or milestones",
+      "Auto-deducts prepayments from final invoices",
+      "Configurable prepayment percentages, methods and posting rules",
+      "Cancel or refund prepayment invoices"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

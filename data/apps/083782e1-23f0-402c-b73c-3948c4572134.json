@@ -1,0 +1,96 @@
+{
+  "appId": "PUBID.pryme|AID.pryme_time|PAPPID.083782e1-23f0-402c-b73c-3948c4572134",
+  "guid": "083782e1-23f0-402c-b73c-3948c4572134",
+  "publisherId": "pryme",
+  "offerId": "pryme_time",
+  "source": {
+    "name": "Pryme Time on PGS",
+    "publisher": "Pryme",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pryme%7CAID.pryme_time%7CPAPPID.083782e1-23f0-402c-b73c-3948c4572134",
+    "lastModified": "2026-09-23T16:40:53.6948333+00:00",
+    "appVersion": "14.1.1055.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.pryme.app/time/",
+    "sourceHash": "sha256:b7688b396f95250758b3ae89614f84fef3af7fb9aeab9b465417b9d4e3ff371f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b7688b396f95250758b3ae89614f84fef3af7fb9aeab9b465417b9d4e3ff371f",
+    "mappedOn": null,
+    "summary": "Tracks time spent on projects",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-proj-planning",
+      "ng-admin-office-teams"
+    ],
+    "claims": [
+      "Start/stop stopwatch timers, minute-wise intervals",
+      "Drag-and-drop time tracking calendar",
+      "Imports time entries from Outlook calendar",
+      "Auto-creates time entries from work assignments",
+      "Email notifications to review and submit timesheets",
+      "Pre-defined descriptions for invoice texts",
+      "Resource time analysis views",
+      "Resource revenue forecast per day/week/month",
+      "Time entry pattern report",
+      "Unsubmitted timesheets notification"
+    ],
+    "countries": [
+      "AE",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "GB",
+      "IE",
+      "KE",
+      "LU",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "da",
+      "en",
+      "es",
+      "sv"
+    ],
+    "industries": [
+      "Legal",
+      "ProfessionalServices"
+    ],
+    "connectsTo": [
+      "Outlook"
+    ],
+    "requires": [
+      "Progressus Advanced Projects"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

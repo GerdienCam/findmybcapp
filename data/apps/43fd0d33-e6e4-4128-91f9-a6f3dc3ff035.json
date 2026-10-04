@@ -1,0 +1,82 @@
+{
+  "appId": "PUBID.golden_edi|AID.goldenedi-business-central-hub|PAPPID.43fd0d33-e6e4-4128-91f9-a6f3dc3ff035",
+  "guid": "43fd0d33-e6e4-4128-91f9-a6f3dc3ff035",
+  "publisherId": "golden_edi",
+  "offerId": "goldenedi-business-central-hub",
+  "source": {
+    "name": "Golden EDI Business Central Hub",
+    "publisher": "Golden EDI AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.golden_edi%7CAID.goldenedi-business-central-hub%7CPAPPID.43fd0d33-e6e4-4128-91f9-a6f3dc3ff035",
+    "lastModified": "2024-11-21T12:27:21.841055+00:00",
+    "appVersion": "23.1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://goldenedi.com/contact",
+    "sourceHash": "sha256:221906c51f1176a8f13fd66a2e2e241b6e9d55037252fe9511203d34b3dbd3a4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:221906c51f1176a8f13fd66a2e2e241b6e9d55037252fe9511203d34b3dbd3a4",
+    "mappedOn": null,
+    "summary": "Document exchange between Business Central companies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-sync",
+      "ng-supplier-pricing"
+    ],
+    "claims": [
+      "Direct integration with trading partners who use BC",
+      "Data moves directly BC to BC via Cloud Integration Platform",
+      "Real-time monitoring of exchanges",
+      "Exchange of items, prices and master data",
+      "Priced monthly per connected trading partner; 100 messages/month included"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HU",
+      "IN",
+      "IS",
+      "IT",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Golden EDI Cloud Integration Platform"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

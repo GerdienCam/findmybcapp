@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.kumavision|AID.dms_interface|PAPPID.7440ceed-cac8-4919-9058-abf1b289e521",
+  "guid": "7440ceed-cac8-4919-9058-abf1b289e521",
+  "publisherId": "kumavision",
+  "offerId": "dms_interface",
+  "source": {
+    "name": "DMS and ECM Interface",
+    "publisher": "KUMAVISION AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.dms_interface%7CPAPPID.7440ceed-cac8-4919-9058-abf1b289e521",
+    "lastModified": "2026-10-01T12:07:16.8130656+00:00",
+    "appVersion": "28.5.1261.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.kumavision.de/docs/en/dms/",
+    "sourceHash": "sha256:341c081d57a9d9d1f3fa0f219ebbbe63f274dfa9d8f2d3f4e402db15a011c4e7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:341c081d57a9d9d1f3fa0f219ebbbe63f274dfa9d8f2d3f4e402db15a011c4e7",
+    "mappedOn": null,
+    "summary": "Connects Saperion, SharePoint or ELO document management",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments"
+    ],
+    "claims": [
+      "Links BC to ELO Digital Office, SharePoint Online or Saperion ECM",
+      "Drag and drop archiving",
+      "Export multiple documents as a zip package",
+      "Automatic document archiving",
+      "Metadata updated automatically when master data changes",
+      "Dynamic structures in factbox, document search and preview",
+      "Setup wizard"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Saperion",
+      "SharePoint Online",
+      "ELO Digital Office"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

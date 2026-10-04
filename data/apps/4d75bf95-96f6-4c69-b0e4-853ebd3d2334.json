@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.naviona_4717541|AID.naviona_business_central_bookings|PAPPID.4d75bf95-96f6-4c69-b0e4-853ebd3d2334",
+  "guid": "4d75bf95-96f6-4c69-b0e4-853ebd3d2334",
+  "publisherId": "naviona_4717541",
+  "offerId": "naviona_business_central_bookings",
+  "source": {
+    "name": "Naviona Bookings",
+    "publisher": "Naviona",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.naviona_4717541%7CAID.naviona_business_central_bookings%7CPAPPID.4d75bf95-96f6-4c69-b0e4-853ebd3d2334",
+    "lastModified": "2026-09-13T13:39:21.8678766+00:00",
+    "appVersion": "1.1.0.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://naviona.com/docs/bookings/",
+    "sourceHash": "sha256:fbd4ec13e0624e7458e900ae434c8fdefd25a7638c5f9d3dd3a3bd3e0bd71efe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fbd4ec13e0624e7458e900ae434c8fdefd25a7638c5f9d3dd3a3bd3e0bd71efe",
+    "mappedOn": null,
+    "summary": "Tracks changes in sales and purchase order bookings over time",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-analytics",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-procurement-spend",
+      "ng-demand-forecast"
+    ],
+    "claims": [
+      "Records sales and purchase booking activity as it happens",
+      "Captures order quantity changes, cancellations and revisions",
+      "Records positive and negative booking activity separately",
+      "Keeps historical booking records for trend analysis",
+      "Analyzes bookings per customer, vendor, booking value and period",
+      "2-month free trial",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.visionpeople_1014640|AID.visionconnector|PAPPID.7aff3844-828f-4132-bab5-fd9547ad090c",
+  "guid": "7aff3844-828f-4132-bab5-fd9547ad090c",
+  "publisherId": "visionpeople_1014640",
+  "offerId": "visionconnector",
+  "source": {
+    "name": "VisionConnector",
+    "publisher": "Vision People A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.visionpeople_1014640%7CAID.visionconnector%7CPAPPID.7aff3844-828f-4132-bab5-fd9547ad090c",
+    "lastModified": "2026-09-28T14:29:36.6542968+00:00",
+    "appVersion": "20.1.0.33",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.visionpeople.dk/help/connector/",
+    "sourceHash": "sha256:b89f5d1ff6ad252775e5bfde195526c8ceac57bbcf4263775253d282f25a2782"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b89f5d1ff6ad252775e5bfde195526c8ceac57bbcf4263775253d282f25a2782",
+    "mappedOn": null,
+    "summary": "Web service access to all BC tables and data sync",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-master-data-sync"
+    ],
+    "claims": [
+      "Web service access to all BC tables",
+      "Customizable web service",
+      "Sync engine exporting to multiple endpoints, companies or tenants",
+      "Supports cloud and on-premise",
+      "Syncs to older BC versions or NAV"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics NAV"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

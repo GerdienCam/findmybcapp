@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.navisys1589454759342|AID.nss_projects_advanced|PAPPID.2efe8ef9-8c51-4dd0-a10a-bfe3ae3304ce",
+  "guid": "2efe8ef9-8c51-4dd0-a10a-bfe3ae3304ce",
+  "publisherId": "navisys1589454759342",
+  "offerId": "nss_projects_advanced",
+  "source": {
+    "name": "NSS Projects (Advanced)",
+    "publisher": "NAVISYS s.r.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navisys1589454759342%7CAID.nss_projects_advanced%7CPAPPID.2efe8ef9-8c51-4dd0-a10a-bfe3ae3304ce",
+    "lastModified": "2026-09-25T10:02:45.8816297+00:00",
+    "appVersion": "1.0.20.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://wiki.solutions.navisys.cz/en/products/nss/nss-projects",
+    "sourceHash": "sha256:7e3ded0719078655a00cb086d79585c32417d015a5afbbb69d1db6c75b045b92"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7e3ded0719078655a00cb086d79585c32417d015a5afbbb69d1db6c75b045b92",
+    "mappedOn": null,
+    "summary": "Advanced project management",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-proj-estimate-contract",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-budget",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast",
+      "ng-proj-time",
+      "ng-proj-status-reporting"
+    ],
+    "claims": [
+      "Records project process from customer/investor inquiry",
+      "Supports offer preparation and opportunity tracking with statuses",
+      "Converts an offer into a job",
+      "Compares job budget against original quote",
+      "Project archiving",
+      "Project cash flow planning",
+      "Records hours and other costs posted to the project",
+      "Links purchase and sales documents to project at header and line level",
+      "Cash flow identification down to item level"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [
+      "Professional Services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

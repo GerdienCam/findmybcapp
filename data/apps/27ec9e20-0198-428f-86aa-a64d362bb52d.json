@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.apcommerce|AID.dailyinvoicingwithglbreakdown|PAPPID.27ec9e20-0198-428f-86aa-a64d362bb52d",
+  "guid": "27ec9e20-0198-428f-86aa-a64d362bb52d",
+  "publisherId": "apcommerce",
+  "offerId": "dailyinvoicingwithglbreakdown",
+  "source": {
+    "name": "Daily Invoicing Report with G/L Breakdown",
+    "publisher": "AP Commerce",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.apcommerce%7CAID.dailyinvoicingwithglbreakdown%7CPAPPID.27ec9e20-0198-428f-86aa-a64d362bb52d",
+    "lastModified": "2025-11-24T16:59:52.7374503+00:00",
+    "appVersion": "2.0.8.0",
+    "pricingTypes": [
+      "Free",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.apcdynamics.com/contact-us/",
+    "sourceHash": "sha256:b76d415613e4ee0a421c36d1d9b89206b0899335e860c03b11bb164aba7868a4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b76d415613e4ee0a421c36d1d9b89206b0899335e860c03b11bb164aba7868a4",
+    "mappedOn": null,
+    "summary": "Daily sales invoicing report with G/L breakdown",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-analytics",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-gl-reconciliation"
+    ],
+    "claims": [
+      "Daily invoicing report showing the G/L impact of posted sales invoices",
+      "Filters on the report for specific analysis",
+      "Free test users in sandbox"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

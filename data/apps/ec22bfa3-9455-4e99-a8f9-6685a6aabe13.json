@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.newwiztech1666371612948|AID.nwt_business_central_stripe|PAPPID.ec22bfa3-9455-4e99-a8f9-6685a6aabe13",
+  "guid": "ec22bfa3-9455-4e99-a8f9-6685a6aabe13",
+  "publisherId": "newwiztech1666371612948",
+  "offerId": "nwt_business_central_stripe",
+  "source": {
+    "name": "NWT Business Central Stripe Connector",
+    "publisher": "New Wiz Tech",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.newwiztech1666371612948%7CAID.nwt_business_central_stripe%7CPAPPID.ec22bfa3-9455-4e99-a8f9-6685a6aabe13",
+    "lastModified": "2026-05-07T09:10:09.0331852+00:00",
+    "appVersion": "26.5.7.104",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://newiztech.com/",
+    "sourceHash": "sha256:9ebc3af2480ddd53d4eaa1a072ab1e7538e4ad33295026f749ab84ec0f777787"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9ebc3af2480ddd53d4eaa1a072ab1e7538e4ad33295026f749ab84ec0f777787",
+    "mappedOn": null,
+    "summary": "Creates Stripe payment links from sales documents",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-collections"
+    ],
+    "claims": [
+      "Supports multiple Stripe accounts in a single BC environment",
+      "Generates Stripe payment link from posted sales invoice or sales order with one click",
+      "Customer pays through Stripe's secure checkout using preferred method",
+      "Completed Stripe transactions are communicated back to BC instantly",
+      "Auto-posts the payment receipt against the invoice",
+      "Optional notification to finance for manual review before posting"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Stripe"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

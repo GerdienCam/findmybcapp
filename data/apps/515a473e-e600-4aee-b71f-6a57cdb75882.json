@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.linccommunicationsptyltd1612428365087|AID.linc_benson_integration|PAPPID.515a473e-e600-4aee-b71f-6a57cdb75882",
+  "guid": "515a473e-e600-4aee-b71f-6a57cdb75882",
+  "publisherId": "linccommunicationsptyltd1612428365087",
+  "offerId": "linc_benson_integration",
+  "source": {
+    "name": "Linc Benson Integration",
+    "publisher": "Linc Communications (Pty) Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.linccommunicationsptyltd1612428365087%7CAID.linc_benson_integration%7CPAPPID.515a473e-e600-4aee-b71f-6a57cdb75882",
+    "lastModified": "2026-09-18T10:42:25.3548828+00:00",
+    "appVersion": "26.26.2452.612",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lincza.github.io/Linc-Benson-Integration",
+    "sourceHash": "sha256:bf12958bf02abcae2d3d9f1a6f8300af421eb6c61b046c7bc0dc1d0e363d48cf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bf12958bf02abcae2d3d9f1a6f8300af421eb6c61b046c7bc0dc1d0e363d48cf",
+    "mappedOn": null,
+    "summary": "Imports Benson transactions as sales or purchase documents",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Imports transactions from Benson via web service/API",
+      "Custom mappings",
+      "Transactions turned into sales or purchase documents",
+      "Automated via job queue"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Benson"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

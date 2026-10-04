@@ -1,0 +1,89 @@
+{
+  "appId": "PUBID.tegosgmbh|AID.tegossuite-systems-apps|PAPPID.b982edbc-5685-4ffa-8a0b-a15d2083d961",
+  "guid": "b982edbc-5685-4ffa-8a0b-a15d2083d961",
+  "publisherId": "tegosgmbh",
+  "offerId": "tegossuite-systems-apps",
+  "source": {
+    "name": "tegossuite - Systems Apps",
+    "publisher": "tegosgroup",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tegosgmbh%7CAID.tegossuite-systems-apps%7CPAPPID.b982edbc-5685-4ffa-8a0b-a15d2083d961",
+    "lastModified": "2026-10-01T15:42:05.3277446+00:00",
+    "appVersion": "7.0.26100103.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.tegos-group.com/documentation/Driver%20App%20Operations%20Worksheet/tegossuite-Driverapp.html",
+    "sourceHash": "sha256:fdc7502a8940ef37866ee81d68a484edde5ea5a0ab875bd0b6d368283a12193d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fdc7502a8940ef37866ee81d68a484edde5ea5a0ab875bd0b6d368283a12193d",
+    "mappedOn": null,
+    "summary": "Offline driver app for waste management",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-vert-utilities-energy-waste",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Driver app works fully offline",
+      "Driver notifications read online",
+      "Push-based sync between tegossuite and the cloud",
+      "Vehicle checks and defect reporting",
+      "Tour and order management for drivers",
+      "Role-based worksheets and exception alerting for management",
+      "Requires tegossuite ERP"
+    ],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CL",
+      "CO",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "PE",
+      "PL",
+      "PT",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [
+      "Waste management"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "tegossuite"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

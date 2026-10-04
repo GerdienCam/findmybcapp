@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.jcdas1740746058749|AID.importjournal|PAPPID.4129d323-89da-4618-bd7b-84cff46a2ffd",
+  "guid": "4129d323-89da-4618-bd7b-84cff46a2ffd",
+  "publisherId": "jcdas1740746058749",
+  "offerId": "importjournal",
+  "source": {
+    "name": "Import Journal",
+    "publisher": "JCD A/S",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.jcdas1740746058749%7CAID.importjournal%7CPAPPID.4129d323-89da-4618-bd7b-84cff46a2ffd",
+    "lastModified": "2026-09-18T12:48:36.4198902+00:00",
+    "appVersion": "1.0.20260918.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://jcd.dk/support/",
+    "sourceHash": "sha256:00ffab508948e12671e9a081c83c09621c25c9e92668196c98077806be392218"
+  },
+  "mapping": {
+    "sourceHash": "sha256:00ffab508948e12671e9a081c83c09621c25c9e92668196c98077806be392218",
+    "mappedOn": null,
+    "summary": "Imports Excel and CSV files into tables via staging journal",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-data-migration",
+      "ng-journals"
+    ],
+    "claims": [
+      "Imports Excel (.xlsx) and CSV files into any BC table without development",
+      "Configurable: CSV separator, text encoding, caption row and header rows",
+      "Multi-table targets in one batch such as sales header and lines from one file",
+      "Existing-record handling: skip, modify or error",
+      "Field mappings with fixed values, filters, priorities and date formats",
+      "Value and enum mappings translate source codes to BC values",
+      "Staging journal to review and correct rows before processing, with row-level errors",
+      "New from File wizard infers columns, data types and proposes mappings with confidence scores",
+      "Import templates cover general journal, purchase order and sales order",
+      "Template export as empty file for users to fill in",
+      "Integrates with the BC change log",
+      "Requires free JCD Core extension"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "JCD Core"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "id": "ng-hr-payroll-comp",
+  "order": 137,
+  "label": "Payroll, salaries and benefits",
+  "description": "Running payroll and posting salaries to the GL, salary bands and changes, benefits, and reconciling and analysing staff costs.",
+  "type": "bpc",
+  "area": "People & payroll",
+  "relevance": "high",
+  "statements": [
+    "Payroll, salaries and benefits",
+    "Running payroll and posting salaries to the GL, salary bands and changes, benefits, and reconciling and analysing staff costs.",
+    "Payroll is run by an external provider and we type the journal into BC by hand",
+    "Is there a payroll app for Business Central in Denmark?",
+    "payroll integration BC",
+    "Import the salary journal from our payroll system with dimensions per department",
+    "We want to run payroll inside BC instead of a separate system",
+    "Every month we split salary cost across departments in a spreadsheet before posting",
+    "Hourly workers' pay needs to be calculated from approved hours",
+    "We pay a few freelancers monthly and want it handled with the rest of payroll",
+    "Commission for our sales reps has to be added to their salary each month",
+    "Salary bank file to pay employees from BC",
+    "Payslips should be sent to employees digitally",
+    "Payroll for our UK and Danish staff runs in two different systems",
+    "Holiday pay and pension contributions are booked wrong in the G/L",
+    "The payroll posting should hit the right G/L accounts and cost centers automatically",
+    "Our payroll file format changed and the import into BC broke",
+    "salary posting journal",
+    "Salary cost should be spread over projects based on hours registered",
+    "Small company with 25 employees, want simple payroll connected to our accounting",
+    "Report salaries to the tax authority every month from the payroll system",
+    "The yearly bonus needs to go through payroll correctly",
+    "What does each employee really cost us including pension and benefits?",
+    "Payroll cost per department compared to budget",
+    "Expense claims per employee this year",
+    "HR cost reporting",
+    "Salaries go to one G/L account so we can't see the cost per team",
+    "Want Power BI on staff costs",
+    "Employee travel spend by department this year",
+    "Overtime cost is rising and we want to see where",
+    "Cost of temps and contractors compared to our own employees",
+    "Which teams have the highest employee expense claims?",
+    "total employment cost per FTE",
+    "Staff cost as a percentage of revenue each month",
+    "The payroll report doesn't match what's posted in the G/L",
+    "Reconcile the pension provider's invoice to the deductions from salaries",
+    "How do our salaries compare to the market?",
+    "Check for pay gaps between men and women in the same roles",
+    "payroll reconciliation",
+    "Review what our employee benefits actually cost per person",
+    "We have no salary bands and pay is decided case by case",
+    "salary structure",
+    "Set pay ranges per job level",
+    "Define how bonuses are calculated for different roles",
+    "Budget for this year's salary increases per department",
+    "Want a transparent pay policy ahead of the EU pay transparency rules",
+    "Salary changes are emailed to payroll and sometimes missed",
+    "Annual salary adjustment for all employees at once",
+    "salary increase approval",
+    "Manager proposes a raise, HR and the CFO approve, payroll gets it",
+    "We need a history of every pay change per employee",
+    "Raise based on the performance review rating",
+    "What benefits should we offer staff: pension, health insurance, phone, car?",
+    "employee benefits setup",
+    "Different benefit packages for managers and staff",
+    "Rules for who qualifies for the company pension after probation",
+    "Define which staff perks are taxable and how they are valued",
+    "We want to list all our employee benefits in one place for new hires",
+    "Sign new employees up for pension and insurance and tell the providers",
+    "benefits enrollment",
+    "Employees choose their benefits once a year and HR collects paper forms",
+    "Benefit deductions need to reach payroll",
+    "Statement per employee showing all their benefits",
+    "Send enrollment changes to our pension company automatically"
+  ],
+  "questions": [
+    {
+      "id": "where",
+      "text": "Where is your payroll calculated?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Inside Business Central",
+          "patterns": [
+            "payroll calculation",
+            "calculates? (and posts )?salary",
+            "salary calculation",
+            "payroll processing",
+            "payroll (for|including)",
+            "gross",
+            "formula",
+            "payroll adapted",
+            "payroll compliant",
+            "automatic payroll",
+            "calculation of earnings",
+            "payroll calculations",
+            "payroll per",
+            "shift and payroll",
+            "payslip layout",
+            "payroll administration"
+          ]
+        },
+        {
+          "label": "In a separate payroll service, posted into BC",
+          "patterns": [
+            "imports? payroll",
+            "payroll (journal )?entries from",
+            "transfers payroll",
+            "posting lists",
+            "data exchange definitions",
+            "imports payroll payment",
+            "import payments",
+            "integrat\\w* 365løn",
+            "syncs employee master",
+            "payroll/salary data from excel",
+            "import payroll",
+            "from visma",
+            "(imports|transfers) payroll g/l",
+            "payroll g/l entries from"
+          ]
+        },
+        {
+          "label": "No / not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Inside Business Central": 0.56,
+        "In a separate payroll service, posted into BC": 0.35
+      }
+    },
+    {
+      "id": "selfservice",
+      "text": "Should employees see payslips and request leave themselves?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, employee self-service or app",
+          "patterns": [
+            "self-service",
+            "portal",
+            "employee app",
+            "mobile app",
+            "e-boks"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, employee self-service or app": 0.24
+      }
+    },
+    {
+      "id": "time",
+      "text": "Is pay based on hours, shifts or attendance?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, time and attendance feed pay",
+          "patterns": [
+            "timesheet",
+            "attendance",
+            "shift",
+            "time registration",
+            "working time",
+            "time management",
+            "work schedules",
+            "overtime"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, time and attendance feed pay": 0.41
+      }
+    },
+    {
+      "id": "projects",
+      "text": "Do employee hours also go on projects or jobs in BC?",
+      "multi": false,
+      "options": [
+        {
+          "label": "Yes, link payroll and projects",
+          "patterns": [
+            "\\bjobs?\\b(?! queue)",
+            "project",
+            "resource"
+          ]
+        },
+        {
+          "label": "No / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, link payroll and projects": 0.26
+      }
+    },
+    {
+      "id": "extras",
+      "text": "Do you pay bonuses, benefits or employee loans?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Bonuses and benefits",
+          "patterns": [
+            "bonus",
+            "incentive",
+            "benefit",
+            "allowance",
+            "gratuit"
+          ]
+        },
+        {
+          "label": "Employee loans or salary advances",
+          "patterns": [
+            "loan",
+            "advance",
+            "deducted from salary"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Bonuses and benefits": 0.24,
+        "Employee loans or salary advances": 0.24
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.smart-businessllc2412077-2412077|AID.smart_cost_allocation|PAPPID.c45d71b0-a9ff-4f14-82ca-efa66ab77ea0",
+  "guid": "c45d71b0-a9ff-4f14-82ca-efa66ab77ea0",
+  "publisherId": "smart-businessllc2412077-2412077",
+  "offerId": "smart_cost_allocation",
+  "source": {
+    "name": "SMART Cost Allocation",
+    "publisher": "SMART business LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.smart-businessllc2412077-2412077%7CAID.smart_cost_allocation%7CPAPPID.c45d71b0-a9ff-4f14-82ca-efa66ab77ea0",
+    "lastModified": "2026-08-11T12:54:27.5915777+00:00",
+    "appVersion": "1.0.145172.260811",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bc.smart-it.com/en/",
+    "sourceHash": "sha256:bdca8dc20170cb086bcbf4fd80b1f743ad5ed6f18153e12bbbfc954ab09c2dce"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bdca8dc20170cb086bcbf4fd80b1f743ad5ed6f18153e12bbbfc954ab09c2dce",
+    "mappedOn": null,
+    "summary": "Allocates costs between accounts, products and WIP by rules",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-costing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-period-close"
+    ],
+    "claims": [
+      "Transfers balances between G/L accounts by account + dimension combination",
+      "Maps dimension values from source to destination",
+      "Allocation across multiple destination accounts with coefficients",
+      "Bulk entry generation from account balances",
+      "Allocation of costs between finished goods and WIP (upcoming release)",
+      "Allocation bases include machine hours, labor hours, labor cost, material cost and volume",
+      "Creates cost adjustment entries like revaluation journals"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

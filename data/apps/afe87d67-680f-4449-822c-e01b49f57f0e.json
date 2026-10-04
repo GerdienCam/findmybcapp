@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.dynavision1639381281437|AID.dynavision_connect|PAPPID.afe87d67-680f-4449-822c-e01b49f57f0e",
+  "guid": "afe87d67-680f-4449-822c-e01b49f57f0e",
+  "publisherId": "dynavision1639381281437",
+  "offerId": "dynavision_connect",
+  "source": {
+    "name": "Dynavision Connect",
+    "publisher": "Dynavision",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynavision1639381281437%7CAID.dynavision_connect%7CPAPPID.afe87d67-680f-4449-822c-e01b49f57f0e",
+    "lastModified": "2026-10-02T09:52:55.5565319+00:00",
+    "appVersion": "28.0.0.46221",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://sadynavisionbc.blob.core.windows.net/data/Dynavision_Connect_Manual.pdf",
+    "sourceHash": "sha256:6ad5eff68fa1e1fa98dbc19d142ad3087fac0676b08515acc4f2eabcfd044b30"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6ad5eff68fa1e1fa98dbc19d142ad3087fac0676b08515acc4f2eabcfd044b30",
+    "mappedOn": null,
+    "summary": "Connectivity to online services like cloud printing and FTP",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-printing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "PrintNode cloud printing integration (requires PrintNode plan)",
+      "Send and receive files over FTP and SFTP",
+      "Message framework for data exchange with third-party systems",
+      "Stores attachments on SharePoint or Azure Blob"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "PrintNode",
+      "FTP",
+      "SFTP",
+      "SharePoint",
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

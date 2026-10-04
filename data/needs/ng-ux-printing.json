@@ -1,0 +1,224 @@
+{
+  "id": "ng-ux-printing",
+  "order": 174,
+  "label": "Printing directly to local printers from the cloud",
+  "description": "Sending documents and reports straight to local, network or warehouse printers from BC online without print dialogs, plus access to local files and devices from the cloud.",
+  "type": "usability",
+  "area": "Working faster in BC",
+  "relevance": "high",
+  "statements": [
+    "Printing directly to local printers from the cloud",
+    "Sending documents and reports straight to local, network or warehouse printers from BC online without print dialogs, plus access to local files and devices from the cloud.",
+    "Since we moved to the cloud every print opens a PDF first",
+    "print directly to local printer from Business Central online",
+    "The warehouse needs the pick list to just come out of the printer",
+    "Universal Print is too complicated for us, is there something simpler?",
+    "How do we print shipping documents automatically when the order is posted?",
+    "One click print without the download step",
+    "Our label printer and our A4 printer are both on the local network",
+    "We need to print to different trays, letterhead and plain paper",
+    "Cloud BC can't see our printers",
+    "print shipment docs on post",
+    "Users waste time saving and opening PDFs just to print",
+    "Each location should print to its own printer",
+    "We need to open local files and folders from BC online",
+    "Printing worked fine on-prem, now it's a mess",
+    "Can BC send print jobs to an email printer?",
+    "Batch print 200 invoices for postal customers",
+    "Need a print agent on our server for BC SaaS",
+    "Remote warehouse printer, no PC next to it",
+    "Print preview takes forever and then I still have to print",
+    "Fax invoices to the few customers who still want it"
+  ],
+  "questions": [
+    {
+      "id": "route",
+      "text": "How are you OK with printers being connected?",
+      "help": "Some apps need a paid third-party print service, others ship their own small Windows agent.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Via PrintNode (paid service)",
+          "patterns": [
+            "via printnode",
+            "printnode (cloud|hosted|integration|api|subscription|account|plan|license|printers|-managed|via api)",
+            "to printnode",
+            "integrates printnode",
+            "connector for printnode"
+          ]
+        },
+        {
+          "label": "Via Microsoft Universal Print, Printix or ezeep",
+          "patterns": [
+            "universal print",
+            "printix",
+            "ezeep"
+          ]
+        },
+        {
+          "label": "Via the vendor's own local agent or service",
+          "patterns": [
+            "local (agent|service|server)",
+            "print agent",
+            "windows app",
+            "relay",
+            "cloud companion",
+            "hardware connector",
+            "service on the print server",
+            "locally installed services",
+            "azure service bus"
+          ]
+        },
+        {
+          "label": "No extra subscription",
+          "patterns": [
+            "no printnode",
+            "no .*subscription required",
+            "includes a printnode license",
+            "without cloud printer accounts",
+            "no volume",
+            "without middleware"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Via PrintNode (paid service)": 0.29,
+        "Via Microsoft Universal Print, Printix or ezeep": 0.1,
+        "Via the vendor's own local agent or service": 0.31,
+        "No extra subscription": 0.12
+      }
+    },
+    {
+      "id": "labels",
+      "text": "Do you print labels on label printers (e.g. Zebra)?",
+      "options": [
+        {
+          "label": "Yes, Zebra / ZPL",
+          "patterns": [
+            "zebra",
+            "\\bzpl\\b",
+            "raw print"
+          ]
+        },
+        {
+          "label": "Yes, via BarTender, NiceLabel or Loftware",
+          "patterns": [
+            "bartender",
+            "nicelabel",
+            "loftware"
+          ]
+        },
+        {
+          "label": "Not sure",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, Zebra / ZPL": 0.19,
+        "Yes, via BarTender, NiceLabel or Loftware": 0.05
+      }
+    },
+    {
+      "id": "auto",
+      "text": "Should documents print automatically, without anyone clicking print?",
+      "help": "E.g. on posting, from the job queue or a warehouse scanner.",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "automatic(ally)? print(s|ing)\\b",
+            "prints? [a-z ]{0,25}automatically",
+            "unattended",
+            "job queue",
+            "post (&|and) print",
+            "post-and-print",
+            "batch",
+            "scheduled",
+            "without user intervention",
+            "background"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.29
+      }
+    },
+    {
+      "id": "settings",
+      "text": "Do you need control of trays, duplex or colour?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "\\btray",
+            "duplex",
+            "colou?r",
+            "paper size",
+            "monochrome"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.24
+      }
+    },
+    {
+      "id": "files",
+      "text": "Do you also need BC online to reach local files, FTP or scanners?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "local (files|file system|directories|folder)",
+            "file system",
+            "shared drives",
+            "\\bs?ftp\\b",
+            "ftp/sftp",
+            "scan(s|ner)?\\b.*documents|scansnap",
+            "local sql",
+            "sql databases"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.17
+      }
+    },
+    {
+      "id": "design",
+      "text": "Do you also want to redesign your document layouts?",
+      "options": [
+        {
+          "label": "Yes",
+          "patterns": [
+            "designer",
+            "layout"
+          ]
+        },
+        {
+          "label": "Doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes": 0.12
+      }
+    }
+  ]
+}

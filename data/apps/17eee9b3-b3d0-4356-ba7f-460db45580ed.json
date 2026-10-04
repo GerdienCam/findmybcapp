@@ -1,0 +1,73 @@
+{
+  "appId": "TYPE.connect|PUBID.web-masters-tech567596|AID.ari-business-central-integration|PAPPID.17eee9b3-b3d0-4356-ba7f-460db45580ed",
+  "guid": "17eee9b3-b3d0-4356-ba7f-460db45580ed",
+  "publisherId": "web-masters-tech567596",
+  "offerId": "ari-business-central-integration",
+  "source": {
+    "name": "POS for Microsoft Dynamics 365 Business Central",
+    "publisher": "Web Masters Technologies",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.web-masters-tech567596%7CAID.ari-business-central-integration%7CPAPPID.17eee9b3-b3d0-4356-ba7f-460db45580ed",
+    "lastModified": "2024-11-21T07:55:26.9901722+00:00",
+    "appVersion": "1.15.5.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://arirms.com/help",
+    "sourceHash": "sha256:20bd98b3419cfa2217cce09c7d4eb67919449150e75f472971c9a092a98bbcbb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:20bd98b3419cfa2217cce09c7d4eb67919449150e75f472971c9a092a98bbcbb",
+    "mappedOn": null,
+    "summary": "POS integrated with BC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-retail-pos",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-retail",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Posts and syncs POS transactions, purchases, returns, dispatch notes, debit/credit notes and stock transfers",
+      "Manual posting option",
+      "Posts cost of goods sold automatically",
+      "Posting by till/store open-close period with configurable batch size",
+      "Error log with correction and repost",
+      "Available in English and Arabic"
+    ],
+    "countries": [
+      "AE",
+      "BH",
+      "CA",
+      "IN",
+      "MX",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "industries": [
+      "Retail"
+    ],
+    "connectsTo": [
+      "Ari POS"
+    ],
+    "requires": [
+      "Ari POS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

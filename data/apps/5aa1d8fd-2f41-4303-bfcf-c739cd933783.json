@@ -1,0 +1,57 @@
+{
+  "appId": "TYPE.connect|PUBID.hubbrokeraps1591310371270|AID.opencart-integration|PAPPID.5aa1d8fd-2f41-4303-bfcf-c739cd933783",
+  "guid": "5aa1d8fd-2f41-4303-bfcf-c739cd933783",
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "opencart-integration",
+  "source": {
+    "name": "OpenCart Integration",
+    "publisher": "HubBroker ApS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.hubbrokeraps1591310371270%7CAID.opencart-integration%7CPAPPID.5aa1d8fd-2f41-4303-bfcf-c739cd933783",
+    "lastModified": "2026-07-16T09:03:59.2567427+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://hubbroker.com/integrations/opencart-edi-integration/",
+    "sourceHash": "sha256:9c813adf4c97b762f44cf6c9def4b70bbea36a5d51472845834e4a606c46fea2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9c813adf4c97b762f44cf6c9def4b70bbea36a5d51472845834e4a606c46fea2",
+    "mappedOn": null,
+    "summary": "Integrates OpenCart store with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Imports OpenCart orders into BC",
+      "Real-time stock level sync",
+      "Syncs customer profiles and purchase history",
+      "Aligns invoices, payments and balances",
+      "Error handling and monitoring",
+      "Supports multi-store operations"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "OpenCart"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

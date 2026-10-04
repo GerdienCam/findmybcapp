@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.adfocomsoftware|AID.greenline-floriday|PAPPID.8f5b624d-8176-4f11-8eb7-1a61dca8c20e",
+  "guid": "8f5b624d-8176-4f11-8eb7-1a61dca8c20e",
+  "publisherId": "adfocomsoftware",
+  "offerId": "greenline-floriday",
+  "source": {
+    "name": "Greenline Floriday",
+    "publisher": "Adfocom Software",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.adfocomsoftware%7CAID.greenline-floriday%7CPAPPID.8f5b624d-8176-4f11-8eb7-1a61dca8c20e",
+    "lastModified": "2026-08-20T14:17:10.5889554+00:00",
+    "appVersion": "26.2.8.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.adfocom.nl/helpdesk/",
+    "sourceHash": "sha256:44a804d9ed4bd9de6d0159bd9193f05078e9fdd7a96a51fd7b6d4c8222efaa1e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:44a804d9ed4bd9de6d0159bd9193f05078e9fdd7a96a51fd7b6d4c8222efaa1e",
+    "mappedOn": null,
+    "summary": "Imports Floriday grower assortment, prices and availability for flower traders",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-pricing"
+    ],
+    "claims": [
+      "Retrieves grower assortment, prices and availability from Floriday",
+      "Places purchase orders through Floriday from BC",
+      "Automatic retrieval of grower supply",
+      "Secure API connections are used, along with an exchange service of its own",
+      "Additional module for Greenline"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Floriculture"
+    ],
+    "connectsTo": [
+      "Floriday",
+      "Royal FloraHolland"
+    ],
+    "requires": [
+      "Greenline"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

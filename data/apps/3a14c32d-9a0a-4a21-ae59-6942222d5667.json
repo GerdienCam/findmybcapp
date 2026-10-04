@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.venturesinformationtechnologyservices1680161546686|AID.customerstatement|PAPPID.3a14c32d-9a0a-4a21-ae59-6942222d5667",
+  "guid": "3a14c32d-9a0a-4a21-ae59-6942222d5667",
+  "publisherId": "venturesinformationtechnologyservices1680161546686",
+  "offerId": "customerstatement",
+  "source": {
+    "name": "Customer Statement",
+    "publisher": "TECH VENTURES",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.venturesinformationtechnologyservices1680161546686%7CAID.customerstatement%7CPAPPID.3a14c32d-9a0a-4a21-ae59-6942222d5667",
+    "lastModified": "2025-08-26T19:34:17.7235573+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.techventuresglobal.com/ksa-einvoicing-for-microsoft-dynamics-365-business-central/",
+    "sourceHash": "sha256:f5381b27f872680588bcc9ba13d1533aa5fbb5ae61f58afd52e32b634e638b46"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f5381b27f872680588bcc9ba13d1533aa5fbb5ae61f58afd52e32b634e638b46",
+    "mappedOn": null,
+    "summary": "Sends customer statements with invoices and reminders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-email-sending",
+      "ng-customer-payments"
+    ],
+    "claims": [
+      "Generates customer statements from BC data",
+      "Tracks payments due and received and identifies overdue balances",
+      "Sends automated payment reminders",
+      "Sends statements and reminders by email with scheduling",
+      "Recurring statements e.g. monthly or quarterly",
+      "Matches payments to invoices with discrepancy alerts"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

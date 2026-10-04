@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.rhythmsoft-global_consulting_pvt_ltd|AID.smart_lot_sequencing|PAPPID.ea12c952-36bc-4f43-8804-c9c9908db7b5",
+  "guid": "ea12c952-36bc-4f43-8804-c9c9908db7b5",
+  "publisherId": "rhythmsoft-global_consulting_pvt_ltd",
+  "offerId": "smart_lot_sequencing",
+  "source": {
+    "name": "Smart Lot Selection Sequencing for Microsoft Dynamics 365 Business Central",
+    "publisher": "Rhythmsoft-Global Consulting Pvt Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.rhythmsoft-global_consulting_pvt_ltd%7CAID.smart_lot_sequencing%7CPAPPID.ea12c952-36bc-4f43-8804-c9c9908db7b5",
+    "lastModified": "2026-09-28T07:41:10.8092482+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://rhythmsoft-global.com/contact",
+    "sourceHash": "sha256:296b9f933d6eec5826ca5a0808188dcd41b3bf10a8c70d7ba1be1b7529fccdee"
+  },
+  "mapping": {
+    "sourceHash": "sha256:296b9f933d6eec5826ca5a0808188dcd41b3bf10a8c70d7ba1be1b7529fccdee",
+    "mappedOn": null,
+    "summary": "Applies FEFO/FIFO when lots are picked",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-lot-serial-traceability",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Enforces FEFO or FIFO lot selection",
+      "Validates manual lot selection during item tracking",
+      "Real-time prompt when a non-preferred lot is selected, with option to proceed or correct",
+      "Check happens before the transaction is posted",
+      "Requires Full User license"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Chemicals",
+      "Food and beverage",
+      "Manufacturing",
+      "Pharmaceuticals",
+      "Retail"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

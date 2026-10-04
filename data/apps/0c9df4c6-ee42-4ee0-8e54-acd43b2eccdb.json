@@ -1,0 +1,56 @@
+{
+  "appId": "PUBID.galaxsolutionslimited1652155003033|AID.galax_gpr|PAPPID.0c9df4c6-ee42-4ee0-8e54-acd43b2eccdb",
+  "guid": "0c9df4c6-ee42-4ee0-8e54-acd43b2eccdb",
+  "publisherId": "galaxsolutionslimited1652155003033",
+  "offerId": "galax_gpr",
+  "source": {
+    "name": "Galax Purchase Requisition",
+    "publisher": "Galax Solutions Limited",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.galaxsolutionslimited1652155003033%7CAID.galax_gpr%7CPAPPID.0c9df4c6-ee42-4ee0-8e54-acd43b2eccdb",
+    "lastModified": "2024-11-22T18:58:02.3373159+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://galax.com.hk/contact-us/",
+    "sourceHash": "sha256:28aaefa09f0e8b6fd4b885d3667b53a1e19b2d0e56cca727367336fbd7d91a0e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:28aaefa09f0e8b6fd4b885d3667b53a1e19b2d0e56cca727367336fbd7d91a0e",
+    "mappedOn": null,
+    "summary": "Purchase requisition with approvals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Approval workflow for purchase requisitions",
+      "Set approver IDs and send approval requests",
+      "Creates purchase orders from approved requisitions",
+      "Copy existing purchase requisitions and purchase records",
+      "Maximum approval limit per order per approver"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

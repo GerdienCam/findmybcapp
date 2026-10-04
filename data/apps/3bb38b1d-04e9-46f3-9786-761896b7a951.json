@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex02803_productonfiguratorforadvdocumentreporting|PAPPID.3bb38b1d-04e9-46f3-9786-761896b7a951",
+  "guid": "3bb38b1d-04e9-46f3-9786-761896b7a951",
+  "publisherId": "eos_solutions",
+  "offerId": "ex02803_productonfiguratorforadvdocumentreporting",
+  "source": {
+    "name": "Product Configurator for Adv Document Reporting",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex02803_productonfiguratorforadvdocumentreporting%7CPAPPID.3bb38b1d-04e9-46f3-9786-761896b7a951",
+    "lastModified": "2026-04-28T15:54:47.0434977+00:00",
+    "appVersion": "28.0.10.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/product-configurator-cfg.html",
+    "sourceHash": "sha256:1c0cf2a244236df316df3eb428998b59d49d6106c30800998e61d0ab7d6b9755"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1c0cf2a244236df316df3eb428998b59d49d6106c30800998e61d0ab7d6b9755",
+    "mappedOn": null,
+    "summary": "Prints configured item attributes on documents",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-ux-document-layouts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-cpq"
+    ],
+    "claims": [
+      "Prints item and variant specification from configured item values",
+      "Prints configuration characteristics, codes and descriptions",
+      "Free; requires EOS Product Configurator and EOS ADR"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Product Configurator",
+      "EOS Advanced Document Reporting"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

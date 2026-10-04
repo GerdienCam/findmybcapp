@@ -1,0 +1,74 @@
+{
+  "appId": "PUBID.9altitudes|AID.a42184c4-a1a1-499b-8f87-7d071519d9fa|PAPPID.c5c0c889-f564-4d97-b153-3ea976337b77",
+  "guid": "c5c0c889-f564-4d97-b153-3ea976337b77",
+  "publisherId": "9altitudes",
+  "offerId": "a42184c4-a1a1-499b-8f87-7d071519d9fa",
+  "source": {
+    "name": "9A Advanced Manufacturing - CAD/PLM Link",
+    "publisher": "9altitudes",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.9altitudes%7CAID.a42184c4-a1a1-499b-8f87-7d071519d9fa%7CPAPPID.c5c0c889-f564-4d97-b153-3ea976337b77",
+    "lastModified": "2026-09-29T11:40:37.9533185+00:00",
+    "appVersion": "28.2.6.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://9altitudes.com/products/9a-advanced-manufacturing-for-bc",
+    "sourceHash": "sha256:83333b1a8b5b98b1fa556031d62fcfa5e350033d085734d153b7a6484bb43cca"
+  },
+  "mapping": {
+    "sourceHash": "sha256:83333b1a8b5b98b1fa556031d62fcfa5e350033d085734d153b7a6484bb43cca",
+    "mappedOn": null,
+    "summary": "Syncs items and BOMs from CAD/PLM systems into BC manufacturing",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters"
+    ],
+    "claims": [
+      "Imports engineered items from CAD/PLM via file upload or API",
+      "Receives multiple revisions of an item and compares them for approval",
+      "Updates existing BOMs and routings via API",
+      "Automates transfer of items, BOMs and routings using templates",
+      "Brings vendor details and vendor item numbers from CAD/PLM",
+      "Publishes selected BC data back to the CAD/PLM system via API"
+    ],
+    "countries": [
+      "BE",
+      "DK",
+      "FR",
+      "NL",
+      "SI"
+    ],
+    "languages": [
+      "da",
+      "en"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "CAD",
+      "PLM",
+      "PDM"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

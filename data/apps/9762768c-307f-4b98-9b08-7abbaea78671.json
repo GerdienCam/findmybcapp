@@ -1,0 +1,53 @@
+{
+  "appId": "PUBID.navtilus|AID.9762768c-307f-4b98-9b08-7abbaea78671|PAPPID.9762768c-307f-4b98-9b08-7abbaea78671",
+  "guid": "9762768c-307f-4b98-9b08-7abbaea78671",
+  "publisherId": "navtilus",
+  "offerId": "9762768c-307f-4b98-9b08-7abbaea78671",
+  "source": {
+    "name": "Mandatory Fields",
+    "publisher": "Navtilus",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navtilus%7CAID.9762768c-307f-4b98-9b08-7abbaea78671%7CPAPPID.9762768c-307f-4b98-9b08-7abbaea78671",
+    "lastModified": "2026-03-10T12:08:30.1692901+00:00",
+    "appVersion": "1.2.23.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.navtilus.dk/navapps/mandatoryfields/",
+    "sourceHash": "sha256:e11a101e2a9183bc13c2c78e0e2917a8ac31352699335b726d0d7fdbfedae0fc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e11a101e2a9183bc13c2c78e0e2917a8ac31352699335b726d0d7fdbfedae0fc",
+    "mappedOn": null,
+    "summary": "Configures mandatory fields and conditional validation",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Define mandatory fields per table",
+      "Conditional mandatory rules based on a field value",
+      "Required value per mandatory field",
+      "Consequence such as blocking the record when rules fail",
+      "Intended for master data and setup tables, not documents",
+      "Banner at top of page instead of pop-up"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

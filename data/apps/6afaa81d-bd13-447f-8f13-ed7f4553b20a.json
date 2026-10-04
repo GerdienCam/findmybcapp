@@ -1,0 +1,75 @@
+{
+  "appId": "PUBID.brightcom_3111464|AID.nshift|PAPPID.6afaa81d-bd13-447f-8f13-ed7f4553b20a",
+  "guid": "6afaa81d-bd13-447f-8f13-ed7f4553b20a",
+  "publisherId": "brightcom_3111464",
+  "offerId": "nshift",
+  "source": {
+    "name": "nShift Connect",
+    "publisher": "BrightCom Solutions AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.brightcom_3111464%7CAID.nshift%7CPAPPID.6afaa81d-bd13-447f-8f13-ed7f4553b20a",
+    "lastModified": "2026-10-01T13:29:32.8244367+00:00",
+    "appVersion": "28.0.35366.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.brightcom.se/sv/Products/nShift",
+    "sourceHash": "sha256:7e4e9d3d342abf140c9ee85dc941afe7ef6ab178c33496ff9c6bfcd2127b5091"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7e4e9d3d342abf140c9ee85dc941afe7ef6ab178c33496ff9c6bfcd2127b5091",
+    "mappedOn": null,
+    "summary": "Shipping labels, bookings and tracking via nShift",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-printing"
+    ],
+    "claims": [
+      "Creates nShift shipments from sales and purchase orders, including dropship",
+      "Prints labels as PDF or directly via PrintNode",
+      "Adds tracking links and shipment numbers to posted shipments and orders",
+      "Shipping can start from sales orders, purchase orders or warehouse picks",
+      "Stores pro forma invoices and customs forms in BC",
+      "Cancel, reprint or resend shipments",
+      "Supports nShift carriers such as PostNord, Bring, DHL",
+      "API log viewer for troubleshooting"
+    ],
+    "countries": [
+      "DK",
+      "NO",
+      "SE"
+    ],
+    "languages": [
+      "en",
+      "sv"
+    ],
+    "industries": [
+      "Distribution",
+      "Retail"
+    ],
+    "connectsTo": [
+      "nShift",
+      "PrintNode",
+      "PostNord",
+      "Bring",
+      "DHL"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

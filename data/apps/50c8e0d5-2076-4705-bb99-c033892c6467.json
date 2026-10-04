@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.dms|AID.dsh_webshop_pim|PAPPID.50c8e0d5-2076-4705-bb99-c033892c6467",
+  "guid": "50c8e0d5-2076-4705-bb99-c033892c6467",
+  "publisherId": "dms",
+  "offerId": "dsh_webshop_pim",
+  "source": {
+    "name": "Product Information Management - Webshop Connector Addon",
+    "publisher": "DMS-Systemhaus GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dms%7CAID.dsh_webshop_pim%7CPAPPID.50c8e0d5-2076-4705-bb99-c033892c6467",
+    "lastModified": "2026-09-07T12:04:15.6996931+00:00",
+    "appVersion": "25.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://dms-sys.de/store/navision-dynamics-nav-365-business-central/schnittstelle/shopware-webshop-anbindung/",
+    "sourceHash": "sha256:cda977689da7632117bd0cc1c904db1e483ca2efb1bff2500d7b4845791dc966"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cda977689da7632117bd0cc1c904db1e483ca2efb1bff2500d7b4845791dc966",
+    "mappedOn": null,
+    "summary": "PIM for multiple webshop channels, extends DMS webshop connector",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-item-master-data",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-assortment-catalogs",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop"
+    ],
+    "claims": [
+      "Extends item card with e-commerce product information",
+      "Supports items and item variants",
+      "Multilingual product information",
+      "Categories and category trees",
+      "Product attributes and properties",
+      "HTML-formatted product content",
+      "No separate external PIM needed"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Shopware",
+      "Shopify",
+      "WooCommerce",
+      "Magento",
+      "eBay"
+    ],
+    "requires": [
+      "DMS Webshop Connector"
+    ],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

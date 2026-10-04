@@ -1,0 +1,98 @@
+{
+  "appId": "PUBID.foodware365|AID.productioncosting|PAPPID.d3245eb9-6ff7-465b-ad3c-4b61aa149661",
+  "guid": "d3245eb9-6ff7-465b-ad3c-4b61aa149661",
+  "publisherId": "foodware365",
+  "offerId": "productioncosting",
+  "source": {
+    "name": "Aptean Production Costing for Food and Beverage",
+    "publisher": "Aptean",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.foodware365%7CAID.productioncosting%7CPAPPID.d3245eb9-6ff7-465b-ad3c-4b61aa149661",
+    "lastModified": "2026-07-22T02:59:39.3344037+00:00",
+    "appVersion": "2501.0.331464.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://fnbdocs.apteancloud.com/bc/PRC/",
+    "sourceHash": "sha256:46f798ec1572ea7317b7af092100ff28b234581587a469000b27ee8840d5a1c0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:46f798ec1572ea7317b7af092100ff28b234581587a469000b27ee8840d5a1c0",
+    "mappedOn": null,
+    "summary": "Production costing for machine centers",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-production-costing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-routings-workcenters",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-vert-food-beverage"
+    ],
+    "claims": [
+      "Specific unit cost per machine center instead of work center level",
+      "Routing costs may cover just the direct part, such as labor",
+      "Direct cost from routing operation, indirect costs from machine or work center",
+      "Cost calculations and reports segregate direct and indirect costs for machine center operations",
+      "Varies direct production costs by item"
+    ],
+    "countries": [
+      "AU",
+      "BE",
+      "BG",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FR",
+      "GB",
+      "GH",
+      "ID",
+      "IE",
+      "IN",
+      "MX",
+      "MY",
+      "NG",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "de-CH",
+      "en",
+      "es",
+      "fr",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Food and beverage"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "appId": "PUBID.navcoredevelopment1768755880289|AID.dgk2|PAPPID.b7d8dc5a-1063-43e9-b5b4-62ef8014dc56",
+  "guid": "b7d8dc5a-1063-43e9-b5b4-62ef8014dc56",
+  "publisherId": "navcoredevelopment1768755880289",
+  "offerId": "dgk2",
+  "source": {
+    "name": "Data Gatekeeper",
+    "publisher": "NAVCore Development",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navcoredevelopment1768755880289%7CAID.dgk2%7CPAPPID.b7d8dc5a-1063-43e9-b5b4-62ef8014dc56",
+    "lastModified": "2026-09-28T02:30:32.6634193+00:00",
+    "appVersion": "2.0.2.0",
+    "pricingTypes": [
+      "Free",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://navcoredev.com/Help/FAQ",
+    "sourceHash": "sha256:6000d176cf76c5736ac33a25cb5c5e3b211cb72db7461478a8f8085019f37912"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6000d176cf76c5736ac33a25cb5c5e3b211cb72db7461478a8f8085019f37912",
+    "mappedOn": null,
+    "summary": "Change control with approvals and audit trail on records",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-change-log",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance",
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Excludes blank, zero-value and empty date fields from the change log until initial values are committed",
+      "Suppresses logging until a meaningful event occurs",
+      "Snapshot logging captures immutable time-stamped states of critical fields",
+      "Automatically restricts changed records and starts approval workflows",
+      "Blocks printing or emailing of reports for restricted documents",
+      "FactBox shows changes and pending approvals",
+      "One-click undo of changes",
+      "Different log retention periods per table",
+      "Conditional field monitoring can fire an event, show a message or block the change",
+      "Workflow wizard builds approval workflows for virtually any table without a developer",
+      "Segregation of duties prevents approvers approving their own changes",
+      "Runs on the native change log with no external connectivity",
+      "Free complimentary plan for 1 to 4 users",
+      "Tiered plans by user count up to 50 users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

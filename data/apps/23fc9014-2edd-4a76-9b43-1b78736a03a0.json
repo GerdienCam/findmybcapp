@@ -1,0 +1,54 @@
+{
+  "appId": "PUBID.simplyd|AID.sd-s3pl|PAPPID.23fc9014-2edd-4a76-9b43-1b78736a03a0",
+  "guid": "23fc9014-2edd-4a76-9b43-1b78736a03a0",
+  "publisherId": "simplyd",
+  "offerId": "sd-s3pl",
+  "source": {
+    "name": "SD Interface 3PL",
+    "publisher": "Simply Dynamics Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simplyd%7CAID.sd-s3pl%7CPAPPID.23fc9014-2edd-4a76-9b43-1b78736a03a0",
+    "lastModified": "2026-08-14T08:52:03.4283575+00:00",
+    "appVersion": "2.0.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.simplydynamics.com/dynamicsshop-product/sd-interface-3pl/",
+    "sourceHash": "sha256:3bbc85b3d220b33b4966b9d0969b46a05e1c8af93887a412bfd29190f6945a50"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3bbc85b3d220b33b4966b9d0969b46a05e1c8af93887a412bfd29190f6945a50",
+    "mappedOn": null,
+    "summary": "Integrates BC with third-party logistics providers",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Receives and processes 3PL inventory movements into BC",
+      "Inbound transactions are validated, tested, posted and archived automatically",
+      "Validates items, locations, UoM, quantities, lots, serials and expiry dates before posting",
+      "Supports sales shipments, purchase receipts, transfers, adjustments and assembly",
+      "Exposes items, customers and vendors master data to 3PL systems"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "3PL providers"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "appId": "TYPE.connect|PUBID.elmo-solutions-1359869|AID.al-erp-d365bc|PAPPID.94354e17-3f2f-479c-a9a8-92514144dccc",
+  "guid": "94354e17-3f2f-479c-a9a8-92514144dccc",
+  "publisherId": "elmo-solutions-1359869",
+  "offerId": "al-erp-d365bc",
+  "source": {
+    "name": "ERP Link for SOLIDWORKS, Autodesk, Siemens, PTC, EPLAN and many more",
+    "publisher": "Elmo Solutions Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.elmo-solutions-1359869%7CAID.al-erp-d365bc%7CPAPPID.94354e17-3f2f-479c-a9a8-92514144dccc",
+    "lastModified": "2024-11-19T20:29:15.7393988+00:00",
+    "appVersion": "7.0.004.0714",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://elmosolutions.com/cad-erp-integration-faqs/",
+    "sourceHash": "sha256:47e2f8af8e41df40b254be4dee4de9f9356e8c2a719dcd61c20a98d0d229e891"
+  },
+  "mapping": {
+    "sourceHash": "sha256:47e2f8af8e41df40b254be4dee4de9f9356e8c2a719dcd61c20a98d0d229e891",
+    "mappedOn": null,
+    "summary": "Links CAD/PLM engineering data and BOMs with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Bidirectional real-time link between BC and CAD, PDM and PLM systems",
+      "Transfers bills of materials from CAD/PDM/PLM via an add-in",
+      "Syncs parts, components, routings, quotes, production orders and purchase orders besides BOMs",
+      "Supports SOLIDWORKS 3D CAD and SOLIDWORKS PDM",
+      "Supports AutoCAD, Autodesk Inventor, Autodesk Vault and Revit",
+      "Supports EPLAN, PTC Creo, PTC Windchill, Siemens SolidEdge and Teamcenter",
+      "Rules automatically resolve discrepancies between systems in real time",
+      "Mappings editable without programming",
+      "Supports BC Essentials and Premium plus Dynamics 365 Finance",
+      "Available in English and French"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "ID",
+      "IS",
+      "IT",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "SOLIDWORKS",
+      "SOLIDWORKS PDM",
+      "AutoCAD",
+      "Autodesk Inventor",
+      "Autodesk Vault",
+      "Revit",
+      "EPLAN",
+      "PTC Creo",
+      "PTC Windchill",
+      "Siemens SolidEdge",
+      "Siemens Teamcenter",
+      "Microsoft Excel"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

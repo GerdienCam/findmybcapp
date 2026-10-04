@@ -1,0 +1,84 @@
+{
+  "appId": "TYPE.connect|PUBID.centerstageinc1690983912338|AID.ipaasd365bc|PAPPID.16857cf4-8d0d-46b9-abb6-8b4a7dc7424d",
+  "guid": "16857cf4-8d0d-46b9-abb6-8b4a7dc7424d",
+  "publisherId": "centerstageinc1690983912338",
+  "offerId": "ipaasd365bc",
+  "source": {
+    "name": "iPaaS.com for Microsoft Dynamics 365 Business Central",
+    "publisher": "iPaaS.com",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.centerstageinc1690983912338%7CAID.ipaasd365bc%7CPAPPID.16857cf4-8d0d-46b9-abb6-8b4a7dc7424d",
+    "lastModified": "2025-06-03T04:53:36.7527076+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.ipaas.com/",
+    "sourceHash": "sha256:223f2da457a5b16fe7caa73d76690d5c4f06e463a74170ed284b844b8df60bc2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:223f2da457a5b16fe7caa73d76690d5c4f06e463a74170ed284b844b8df60bc2",
+    "mappedOn": null,
+    "summary": "Integration platform for ecommerce, POS, CRM, shipping",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-webshop",
+      "ng-conn-crm"
+    ],
+    "claims": [
+      "API connection between BC and the iPaaS.com integration hub",
+      "Hub-and-spoke integration architecture",
+      "Marketplace of CRM integrations (HubSpot, Salesforce, Zoho and more)",
+      "Ecommerce integrations (Magento, BigCommerce, Shopify Plus, Shopware)",
+      "EDI/dropshipping via Orderful and 3PL via ShipBob",
+      "HR/payroll integrations with ADP and UKG",
+      "Marketing integrations with Dotdigital, Klaviyo, Mailchimp",
+      "PIM integrations with Akeneo, Catsy, Jasper, Pimcore",
+      "POS integrations with Clover, Heartland, NCR Counterpoint, Revel",
+      "Avalara exemption certificate management integration",
+      "Shipping integrations with Kuehne & Nagel and ShipStation",
+      "Notifications to Microsoft Teams and Slack"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "iPaaS.com",
+      "HubSpot",
+      "Salesforce",
+      "Shopify Plus",
+      "BigCommerce",
+      "Magento",
+      "Shopware",
+      "Orderful",
+      "ShipBob",
+      "ADP",
+      "UKG",
+      "Klaviyo",
+      "Mailchimp",
+      "Akeneo",
+      "Pimcore",
+      "Avalara",
+      "ShipStation",
+      "Microsoft Teams",
+      "Slack"
+    ],
+    "requires": [
+      "iPaaS.com"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

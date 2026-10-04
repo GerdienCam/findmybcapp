@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.team-vision-bulgaria|AID.tv_mc|PAPPID.934ca51f-a3d0-4512-a01d-59ba0db93af9",
+  "guid": "934ca51f-a3d0-4512-a01d-59ba0db93af9",
+  "publisherId": "team-vision-bulgaria",
+  "offerId": "tv_mc",
+  "source": {
+    "name": "Monthly Closing",
+    "publisher": "Team VISION - BULGARIA Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.team-vision-bulgaria%7CAID.tv_mc%7CPAPPID.934ca51f-a3d0-4512-a01d-59ba0db93af9",
+    "lastModified": "2026-03-24T20:04:05.0741187+00:00",
+    "appVersion": "27.0.2603.02",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://team-vision.bg/en/support/",
+    "sourceHash": "sha256:afff50d47b6c733c952e48b1e4606ef4ead3a7bdf5707e5b820beb0dd57046ec"
+  },
+  "mapping": {
+    "sourceHash": "sha256:afff50d47b6c733c952e48b1e4606ef4ead3a7bdf5707e5b820beb0dd57046ec",
+    "mappedOn": null,
+    "summary": "Monthly closing allocations of income statement accounts",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-period-close",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-cost-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-production-costing"
+    ],
+    "claims": [
+      "Closes income statement accounts to retained earnings monthly or quarterly",
+      "Different closing rules per G/L account",
+      "Allocates costs and revenues to cost centers with static or dynamic keys",
+      "Uses global and two additional dimensions as allocation basis",
+      "Multiple allocation levels",
+      "Allocates indirect manufacturing costs to production units"
+    ],
+    "countries": [],
+    "languages": [
+      "bg",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.fornav|AID.peppol_plus|PAPPID.9a217e38-6091-4d50-9169-672a2896b5d4",
+  "guid": "9a217e38-6091-4d50-9169-672a2896b5d4",
+  "publisherId": "fornav",
+  "offerId": "peppol_plus",
+  "source": {
+    "name": "Peppol Plus",
+    "publisher": "ForNAV",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.fornav%7CAID.peppol_plus%7CPAPPID.9a217e38-6091-4d50-9169-672a2896b5d4",
+    "lastModified": "2026-03-30T20:56:30.6312433+00:00",
+    "appVersion": "1.0.0.9",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.fornav.com/peppol/",
+    "sourceHash": "sha256:9e0e6d12b19be8dc5a2a89d884cfa3606d08ffa31a1cdeeecfa93ac8d236aff4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9e0e6d12b19be8dc5a2a89d884cfa3606d08ffa31a1cdeeecfa93ac8d236aff4",
+    "mappedOn": null,
+    "summary": "Peppol access point for e-document exchange",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Sends and receives UBL e-documents via Peppol",
+      "FORNAV is itself a registered Peppol Access Point",
+      "Automated lookup of partners in Peppol Directory",
+      "Validates e-invoices before sending",
+      "Preview of e-invoices",
+      "Available from BC 25"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Peppol"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

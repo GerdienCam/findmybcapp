@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex08903_powerwmsforoverandunderdelivery|PAPPID.9e581010-5263-4918-b632-b4bb2d59ecda",
+  "guid": "9e581010-5263-4918-b632-b4bb2d59ecda",
+  "publisherId": "eos_solutions",
+  "offerId": "ex08903_powerwmsforoverandunderdelivery",
+  "source": {
+    "name": "Power WMS for Over- and Under-Delivery",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex08903_powerwmsforoverandunderdelivery%7CPAPPID.9e581010-5263-4918-b632-b4bb2d59ecda",
+    "lastModified": "2026-04-13T08:53:40.7021586+00:00",
+    "appVersion": "28.0.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/power-wms.html",
+    "sourceHash": "sha256:7d8da38aa907c1a931768600e8bc8355116bd9fbaf60efe7cdc5d06fbead20ea"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7d8da38aa907c1a931768600e8bc8355116bd9fbaf60efe7cdc5d06fbead20ea",
+    "mappedOn": null,
+    "summary": "Quantity tolerances for over- and under-delivery in warehouse",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-packing-loading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "General or detailed tolerance setups on shipped/received quantities",
+      "Tolerance as quantity or percentage",
+      "Optional alerts when excessive quantity reached",
+      "Barcodes on warehouse activities",
+      "Depends on EOS Power WMS along with EOS Over- and Under-Delivery Quantities",
+      "Premium edition only"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Power WMS",
+      "EOS Over- and Under-Delivery Quantities"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

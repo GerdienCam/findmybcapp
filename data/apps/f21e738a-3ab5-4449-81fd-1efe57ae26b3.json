@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.novasoftfzco1594619964948|AID.nova-bc-006|PAPPID.f21e738a-3ab5-4449-81fd-1efe57ae26b3",
+  "guid": "f21e738a-3ab5-4449-81fd-1efe57ae26b3",
+  "publisherId": "novasoftfzco1594619964948",
+  "offerId": "nova-bc-006",
+  "source": {
+    "name": "NOVAREQ: Requisition app for Business Central",
+    "publisher": "NOVASOFT FZCO",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.novasoftfzco1594619964948%7CAID.nova-bc-006%7CPAPPID.f21e738a-3ab5-4449-81fd-1efe57ae26b3",
+    "lastModified": "2026-09-15T05:29:53.2492904+00:00",
+    "appVersion": "27.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://novasoft.global/support/",
+    "sourceHash": "sha256:bd3a2fe207ae90c2ed8ec1596af2e93da91e35c19ad984179a4df15f88a56e7d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bd3a2fe207ae90c2ed8ec1596af2e93da91e35c19ad984179a4df15f88a56e7d",
+    "mappedOn": null,
+    "summary": "Purchase requisitions with automated approvals",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-stock-movements"
+    ],
+    "claims": [
+      "Creates requisitions and generates purchase orders from them",
+      "Handles transfer order postings from requisitions",
+      "Automates requisition approvals",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

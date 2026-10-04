@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.systemsolutions|AID.revalize-autoquotes-aq-integration|PAPPID.0e1d2bec-436f-4515-b3ba-7324c3779e92",
+  "guid": "0e1d2bec-436f-4515-b3ba-7324c3779e92",
+  "publisherId": "systemsolutions",
+  "offerId": "revalize-autoquotes-aq-integration",
+  "source": {
+    "name": "Revalize AutoQuotes (AQ) Integration",
+    "publisher": "System Solutions LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.systemsolutions%7CAID.revalize-autoquotes-aq-integration%7CPAPPID.0e1d2bec-436f-4515-b3ba-7324c3779e92",
+    "lastModified": "2026-07-13T17:39:29.4184785+00:00",
+    "appVersion": "1.0.2.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://syssolutionsllc.com/user-guides/autoquotes-integration-for-d365-business-central/",
+    "sourceHash": "sha256:78f04696ed37b56d75c4268f2c65f12ff2041b95aece5538702dd63a09dbb22a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:78f04696ed37b56d75c4268f2c65f12ff2041b95aece5538702dd63a09dbb22a",
+    "mappedOn": null,
+    "summary": "Kitchen configuration and quoting via AutoQuotes",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vert-hospitality",
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Posts AutoQuotes projects and quotes into BC",
+      "Converts AQ projects to BC sales orders",
+      "For foodservice equipment manufacturers, dealers, reps and consultants"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Foodservice equipment"
+    ],
+    "connectsTo": [
+      "Revalize AutoQuotes"
+    ],
+    "requires": [
+      "Revalize AutoQuotes"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

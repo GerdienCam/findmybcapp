@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex075_salesandpurchasebonus|PAPPID.571aac41-df6d-48d7-b26b-5f5f270acf8d",
+  "guid": "571aac41-df6d-48d7-b26b-5f5f270acf8d",
+  "publisherId": "eos_solutions",
+  "offerId": "ex075_salesandpurchasebonus",
+  "source": {
+    "name": "Sales and Purchase Bonus",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex075_salesandpurchasebonus%7CPAPPID.571aac41-df6d-48d7-b26b-5f5f270acf8d",
+    "lastModified": "2026-09-29T18:28:32.1798047+00:00",
+    "appVersion": "28.0.22.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/sales-purchase-bonus.html",
+    "sourceHash": "sha256:5fd781e36e00cc87175a654294eea1b9260f6a790deb733b461ac52159926328"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5fd781e36e00cc87175a654294eea1b9260f6a790deb733b461ac52159926328",
+    "mappedOn": null,
+    "summary": "Sales and purchase bonus contracts, forecasting and settlement",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-rebates",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-rebates",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals"
+    ],
+    "claims": [
+      "Bonus contracts and terms per customer or hierarchical group",
+      "Calculates customer and vendor bonuses",
+      "Reconciliation tool to verify settlement document amounts",
+      "Allocates costs of maturing bonuses",
+      "Periodic bonus forecast",
+      "Schedules bonus calculation outside business hours",
+      "Contract logic for recognition thresholds and turnover differences",
+      "Reconciliation dashboard of entries"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "it",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

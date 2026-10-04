@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.eos_solutions|AID.ex05105_dualunitofmeasureforsimulatedglentries|PAPPID.449c15d3-91b0-4eee-a2db-6e6b1d4eb052",
+  "guid": "449c15d3-91b0-4eee-a2db-6e6b1d4eb052",
+  "publisherId": "eos_solutions",
+  "offerId": "ex05105_dualunitofmeasureforsimulatedglentries",
+  "source": {
+    "name": "Dual Unit of Measure for Simulated GL entries",
+    "publisher": "EOS Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex05105_dualunitofmeasureforsimulatedglentries%7CPAPPID.449c15d3-91b0-4eee-a2db-6e6b1d4eb052",
+    "lastModified": "2026-04-13T12:08:33.7670493+00:00",
+    "appVersion": "28.0.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/dual-unit-of-measure.html",
+    "sourceHash": "sha256:b1adb714567ec0edd87d7c09db22c332c6a2a6847620940548dddbaff5954f07"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b1adb714567ec0edd87d7c09db22c332c6a2a6847620940548dddbaff5954f07",
+    "mappedOn": null,
+    "summary": "Posts simulated G/L entries with a second unit of measure",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-accruals-deferrals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Second unit of measure in simulated G/L entries",
+      "Fixed or variable conversion factor per item",
+      "Accrual and deferral templates",
+      "No cost; EOS Accruals and Simulated General Ledger plus EOS Dual Unit of Measure must both be installed"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "EOS Dual Unit of Measure",
+      "EOS Accruals and Simulated General Ledger"
+    ],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

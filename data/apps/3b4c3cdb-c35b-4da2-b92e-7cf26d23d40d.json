@@ -1,0 +1,88 @@
+{
+  "appId": "PUBID.improjects1600264753714|AID.im_paytef|PAPPID.3b4c3cdb-c35b-4da2-b92e-7cf26d23d40d",
+  "guid": "3b4c3cdb-c35b-4da2-b92e-7cf26d23d40d",
+  "publisherId": "improjects1600264753714",
+  "offerId": "im_paytef",
+  "source": {
+    "name": "IM Paytef Connector",
+    "publisher": "IM-PROJECTS",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.improjects1600264753714%7CAID.im_paytef%7CPAPPID.3b4c3cdb-c35b-4da2-b92e-7cf26d23d40d",
+    "lastModified": "2026-05-05T13:35:03.5253002+00:00",
+    "appVersion": "1.0.0.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://imposforretail.help.im-projects.com/",
+    "sourceHash": "sha256:23e9d7c0f19e5f172462d4cef0075b577d9b587d67a82390f575278e7d7beb21"
+  },
+  "mapping": {
+    "sourceHash": "sha256:23e9d7c0f19e5f172462d4cef0075b577d9b587d67a82390f575278e7d7beb21",
+    "mappedOn": null,
+    "summary": "Paytef payment terminal integration for IMPOS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-retail-pos",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Connects Paytef to the IMPOS for Retail touch POS",
+      "IMPOS is an online extension covering retail POS functionality in BC",
+      "Supports Essential and Premium editions"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IS",
+      "IT",
+      "NL",
+      "NZ",
+      "PT",
+      "SE",
+      "SG",
+      "ZA"
+    ],
+    "languages": [
+      "en",
+      "es",
+      "fr",
+      "it"
+    ],
+    "industries": [
+      "Food services",
+      "Hospitality",
+      "Retail",
+      "Wholesale"
+    ],
+    "connectsTo": [
+      "Paytef"
+    ],
+    "requires": [
+      "IMPOS for Retail"
+    ],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

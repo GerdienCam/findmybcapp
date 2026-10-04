@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_copysandbox|PAPPID.7c3a7a79-08c5-47cb-a530-7a5fbdebf2f7",
+  "guid": "7c3a7a79-08c5-47cb-a530-7a5fbdebf2f7",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_copysandbox",
+  "source": {
+    "name": "Copy Sandbox",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_copysandbox%7CPAPPID.7c3a7a79-08c5-47cb-a530-7a5fbdebf2f7",
+    "lastModified": "2026-09-07T10:02:42.5754141+00:00",
+    "appVersion": "26.2609.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://docs.nubetech.it/en_US/copysandbox",
+    "sourceHash": "sha256:d4ed77f230b9c0377d47578a701308d4f928ade996fd8e17e3ce394a649acaab"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d4ed77f230b9c0377d47578a701308d4f928ade996fd8e17e3ce394a649acaab",
+    "mappedOn": null,
+    "summary": "Automates creation of sandbox environments",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-extensions-env",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-job-queue-setup"
+    ],
+    "claims": [
+      "Copies the current environment into one or more sandboxes",
+      "Rules that clean, modify or delete records and fields in sandbox copies",
+      "Schedule copies via job queue or on demand",
+      "Applies rules even to environments created outside the app",
+      "Filters by table, field or company"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

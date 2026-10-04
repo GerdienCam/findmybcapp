@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.prismainformatikag|AID.mailchimpconnector|PAPPID.fbae39c6-6ffb-4103-b611-dd950331c3bc",
+  "guid": "fbae39c6-6ffb-4103-b611-dd950331c3bc",
+  "publisherId": "prismainformatikag",
+  "offerId": "mailchimpconnector",
+  "source": {
+    "name": "Mailchimp Connector",
+    "publisher": "PRISMA Informatik AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.prismainformatikag%7CAID.mailchimpconnector%7CPAPPID.fbae39c6-6ffb-4103-b611-dd950331c3bc",
+    "lastModified": "2026-02-18T19:47:50.6493819+00:00",
+    "appVersion": "1.1.2.8",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.prisma-informatik.ch/",
+    "sourceHash": "sha256:b65bc4a68cc55130832a1eb27e81675ca67d14935e147b7717fe8f1e652daf17"
+  },
+  "mapping": {
+    "sourceHash": "sha256:b65bc4a68cc55130832a1eb27e81675ca67d14935e147b7717fe8f1e652daf17",
+    "mappedOn": null,
+    "summary": "Syncs contacts and segments with Mailchimp",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-mkt-campaigns",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-privacy-consent"
+    ],
+    "claims": [
+      "Syncs selected BC contacts to one or more Mailchimp audiences",
+      "Maps standard and selected custom fields",
+      "Keeps consent-related fields up to date",
+      "Updates Mailchimp contacts when BC data changes",
+      "Selects contacts for lists via filters or flags",
+      "Campaign design, sending and analytics stay in Mailchimp",
+      "Requires Mailchimp account with API key",
+      "BC online only",
+      "Monthly or discounted yearly plan with 1 month free"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Mailchimp"
+    ],
+    "requires": [
+      "Mailchimp"
+    ],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

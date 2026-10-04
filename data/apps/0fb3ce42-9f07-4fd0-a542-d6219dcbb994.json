@@ -1,0 +1,62 @@
+{
+  "appId": "TYPE.connect|PUBID.exigotechptyltd|AID.bc_purchase_order|PAPPID.0fb3ce42-9f07-4fd0-a542-d6219dcbb994",
+  "guid": "0fb3ce42-9f07-4fd0-a542-d6219dcbb994",
+  "publisherId": "exigotechptyltd",
+  "offerId": "bc_purchase_order",
+  "source": {
+    "name": "Business Central Purchase order and approval app",
+    "publisher": "Exigo Tech Pty Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.exigotechptyltd%7CAID.bc_purchase_order%7CPAPPID.0fb3ce42-9f07-4fd0-a542-d6219dcbb994",
+    "lastModified": "2025-03-03T00:29:31.8559618+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://exigotech.com.au/product-support/",
+    "sourceHash": "sha256:d6ccd61dfefe4e7f99cebaef10ec63ed8760b469610fcf6085f546c108562695"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d6ccd61dfefe4e7f99cebaef10ec63ed8760b469610fcf6085f546c108562695",
+    "mappedOn": null,
+    "summary": "Power App for purchase order management and approval",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Power App to create purchase orders",
+      "View all created purchase orders and their status",
+      "Add line items and comment lines to purchase orders",
+      "Request approvals and approve or reject purchase orders",
+      "Email notifications",
+      "View details of pending purchase orders"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power Apps",
+      "Power Automate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

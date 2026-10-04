@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.wsb_solutions|AID.techtrade_essentials|PAPPID.df08c68b-7647-4c94-a316-3335a52689ff",
+  "guid": "df08c68b-7647-4c94-a316-3335a52689ff",
+  "publisherId": "wsb_solutions",
+  "offerId": "techtrade_essentials",
+  "source": {
+    "name": "Price and Item Management",
+    "publisher": "Apportunix",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wsb_solutions%7CAID.techtrade_essentials%7CPAPPID.df08c68b-7647-4c94-a316-3335a52689ff",
+    "lastModified": "2026-07-24T18:48:10.972385+00:00",
+    "appVersion": "1.72.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.priceitemmanagement.apportunix.com/",
+    "sourceHash": "sha256:35358e675b9a7bbaca0d40cb94c3bea6baaa5a5526472a4086075ff4452af964"
+  },
+  "mapping": {
+    "sourceHash": "sha256:35358e675b9a7bbaca0d40cb94c3bea6baaa5a5526472a4086075ff4452af964",
+    "mappedOn": null,
+    "summary": "Imports items and prices, flags price deviations on orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-supplier-pricing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-wholesale-trading",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing",
+      "ng-ux-import-excel"
+    ],
+    "claims": [
+      "CSV import of items and prices; creates missing items, updates existing",
+      "Creates purchase and sales prices and discounts in one run",
+      "Up to five free fields in the import",
+      "Ends old price records automatically",
+      "Shows outdated sales prices in red on documents",
+      "Flags lines and orders with manually changed prices or discounts",
+      "Stores original calculated price and discount",
+      "Integrates with new sales pricing experience"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nb",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Wholesale"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

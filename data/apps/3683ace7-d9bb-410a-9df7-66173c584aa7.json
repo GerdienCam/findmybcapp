@@ -1,0 +1,59 @@
+{
+  "appId": "PUBID.orderbase|AID.ocg_vpb|PAPPID.3683ace7-d9bb-410a-9df7-66173c584aa7",
+  "guid": "3683ace7-d9bb-410a-9df7-66173c584aa7",
+  "publisherId": "orderbase",
+  "offerId": "ocg_vpb",
+  "source": {
+    "name": "orderbase VariPlus",
+    "publisher": "orderbase consulting GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.orderbase%7CAID.ocg_vpb%7CPAPPID.3683ace7-d9bb-410a-9df7-66173c584aa7",
+    "lastModified": "2026-08-07T14:22:48.6666663+00:00",
+    "appVersion": "28.0.26.10",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.orderbase.de/en/addons/variplus/",
+    "sourceHash": "sha256:381d3528bf71f847fbe20c9222e2dedcfd2931266fbfc6f2da56ef4ca385046d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:381d3528bf71f847fbe20c9222e2dedcfd2931266fbfc6f2da56ef4ca385046d",
+    "mappedOn": null,
+    "summary": "Variant configuration with plausibility checks in sales",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Configurable parameter sheet to define variants with plausibility checks",
+      "Automatically creates BOM and routing per variant",
+      "Variants organised under a common item for analysis",
+      "Extended version: global variables, sales line parameters incl. price, extended texts, purchases, variant inheritance",
+      "Requires BC Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

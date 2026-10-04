@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.navisys1589454759342|AID.navsherpa_for_dynamics|PAPPID.59568c35-6b2a-4681-944c-352b649ed17a",
+  "guid": "59568c35-6b2a-4681-944c-352b649ed17a",
+  "publisherId": "navisys1589454759342",
+  "offerId": "navsherpa_for_dynamics",
+  "source": {
+    "name": "NavSherpa",
+    "publisher": "NAVISYS s.r.o.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navisys1589454759342%7CAID.navsherpa_for_dynamics%7CPAPPID.59568c35-6b2a-4681-944c-352b649ed17a",
+    "lastModified": "2026-09-17T12:24:48.5438739+00:00",
+    "appVersion": "28.0.4.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://navsherpa.com/help",
+    "sourceHash": "sha256:bbe5590287a9e10bf44e1a9688e9439b2ffffe9bacda3604e8fb3de414688a44"
+  },
+  "mapping": {
+    "sourceHash": "sha256:bbe5590287a9e10bf44e1a9688e9439b2ffffe9bacda3604e8fb3de414688a44",
+    "mappedOn": null,
+    "summary": "Integration platform for DMS and Office 365 documents",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Drag and drop documents into any BC record",
+      "Uploads documents with metadata to SharePoint",
+      "Initiates and monitors external workflow processes",
+      "Shows all documents associated with a card in one place",
+      "Maps BC user groups per record to SharePoint permission levels",
+      "Deploys the SharePoint structure from BC",
+      "Freemium license available",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "cs",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint",
+      "Power Automate"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

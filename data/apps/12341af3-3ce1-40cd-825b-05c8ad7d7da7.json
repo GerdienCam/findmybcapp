@@ -1,0 +1,79 @@
+{
+  "appId": "PUBID.dynamicsondemand|AID.omnify-purchase-requisitions|PAPPID.12341af3-3ce1-40cd-825b-05c8ad7d7da7",
+  "guid": "12341af3-3ce1-40cd-825b-05c8ad7d7da7",
+  "publisherId": "dynamicsondemand",
+  "offerId": "omnify-purchase-requisitions",
+  "source": {
+    "name": "OmniFY Purchase Requisition",
+    "publisher": "Omni Logic Solutions",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicsondemand%7CAID.omnify-purchase-requisitions%7CPAPPID.12341af3-3ce1-40cd-825b-05c8ad7d7da7",
+    "lastModified": "2026-09-10T18:01:51.9710526+00:00",
+    "appVersion": "25.0.0.11",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.omnilogicsolutions.com/",
+    "sourceHash": "sha256:baf11cc9d9303306fda4aea5c2bc2d7a6bf8daaad1a0c94597f4dd41c6e73531"
+  },
+  "mapping": {
+    "sourceHash": "sha256:baf11cc9d9303306fda4aea5c2bc2d7a6bf8daaad1a0c94597f4dd41c6e73531",
+    "mappedOn": null,
+    "summary": "Purchase requisitions and approval for procurement",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Create and submit purchase requisitions for approval",
+      "Attach documents to requisitions",
+      "Multiple vendors on one requisition",
+      "Approvers with approval limits",
+      "Creates purchase orders from requisitions",
+      "Requisitions can feed the requisition worksheet for central purchasing",
+      "Reimbursement via standard payables process",
+      "30 day trial"
+    ],
+    "countries": [
+      "AE",
+      "AU",
+      "CA",
+      "CH",
+      "CL",
+      "DE",
+      "DK",
+      "GB",
+      "HK",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "SG",
+      "TH",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

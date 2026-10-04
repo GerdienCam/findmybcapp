@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.yazlmvedanmanlkhizmetlerianonimirketi1684754676139|AID.customer_inventory_mgt|PAPPID.01ef270b-7c33-4cf0-a889-af424ba9a875",
+  "guid": "01ef270b-7c33-4cf0-a889-af424ba9a875",
+  "publisherId": "yazlmvedanmanlkhizmetlerianonimirketi1684754676139",
+  "offerId": "customer_inventory_mgt",
+  "source": {
+    "name": "Customer Inventory Management",
+    "publisher": "Myron Yazılım Ve Danışmanlık Hizmetleri Anonim Şirketi",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.yazlmvedanmanlkhizmetlerianonimirketi1684754676139%7CAID.customer_inventory_mgt%7CPAPPID.01ef270b-7c33-4cf0-a889-af424ba9a875",
+    "lastModified": "2026-07-03T11:58:52.439359+00:00",
+    "appVersion": "1.27.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://myronsoft.com.tr/en/contact/",
+    "sourceHash": "sha256:c5099105d23f68bf1e42c4367b7028ae0535fe8027486e3f3620de783c1c6f30"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c5099105d23f68bf1e42c4367b7028ae0535fe8027486e3f3620de783c1c6f30",
+    "mappedOn": null,
+    "summary": "Tracks consignment inventory at customer sites",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-consignment",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Tracks consignment stock at customer sites separately from own warehouse stock",
+      "Logs stock receipts, returns and transfers as movements for customer-owned inventory",
+      "Serial number tracking with location and bin control for customer inventory",
+      "Transfers customer inventory between warehouses or marks it delivered/returned",
+      "Shipments linked to sales orders marked Customer Inventory are tracked automatically",
+      "Works with warehouse shipments as well as sales orders",
+      "Order, recipient, document and posting date traceability in customer inventory ledger entries",
+      "Excel export and Customer Inventory Transactions report",
+      "Supports Essential and Premium editions",
+      "Available in English (US) and Turkish"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.nubetechspa|AID.nbt_power_bi|PAPPID.66f2e43b-5f41-4747-b679-820c2b0f3af3",
+  "guid": "66f2e43b-5f41-4747-b679-820c2b0f3af3",
+  "publisherId": "nubetechspa",
+  "offerId": "nbt_power_bi",
+  "source": {
+    "name": "NBT for PowerBI",
+    "publisher": "Nubetech SpA",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.nubetechspa%7CAID.nbt_power_bi%7CPAPPID.66f2e43b-5f41-4747-b679-820c2b0f3af3",
+    "lastModified": "2026-09-14T14:57:40.5132013+00:00",
+    "appVersion": "26.2609.0.1",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.nubetech.it/documentation-nbt_power_bi/",
+    "sourceHash": "sha256:703bc41f73d343524715aed716541e8d68221b1e5753e3d0fae48923911a96ed"
+  },
+  "mapping": {
+    "sourceHash": "sha256:703bc41f73d343524715aed716541e8d68221b1e5753e3d0fae48923911a96ed",
+    "mappedOn": null,
+    "summary": "Extracts data to a pre-configured Power BI dashboard",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Pre-configured Power BI dashboards for sales, purchase, inventory and accounting",
+      "Connects via web services, works OnPrem and SaaS",
+      "Database and dashboards can be customized"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

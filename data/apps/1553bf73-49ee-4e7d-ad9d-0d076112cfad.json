@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.esc_bvba|AID.advanced_sharepoint_connector|PAPPID.1553bf73-49ee-4e7d-ad9d-0d076112cfad",
+  "guid": "1553bf73-49ee-4e7d-ad9d-0d076112cfad",
+  "publisherId": "esc_bvba",
+  "offerId": "advanced_sharepoint_connector",
+  "source": {
+    "name": "SharePoint Integration",
+    "publisher": "ESC bvba",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.esc_bvba%7CAID.advanced_sharepoint_connector%7CPAPPID.1553bf73-49ee-4e7d-ad9d-0d076112cfad",
+    "lastModified": "2026-09-16T14:43:11.6881823+00:00",
+    "appVersion": "28.1.20260916.134257",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://alistar.net/nl/support/",
+    "sourceHash": "sha256:f4123a62f044948e74806f275f17c5d4d1d23196cd57ff21c387f2abe916776b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f4123a62f044948e74806f275f17c5d4d1d23196cd57ff21c387f2abe916776b",
+    "mappedOn": null,
+    "summary": "Links BC records to SharePoint sites",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-attachments",
+      "ng-ux-email-sending"
+    ],
+    "claims": [
+      "Creates SharePoint sites from BC",
+      "Applies a template to created sites",
+      "Assigns security groups",
+      "Creates folders in SharePoint libraries",
+      "Link to SharePoint site in a factbox",
+      "Shows SharePoint library in a fasttab",
+      "Includes SharePoint files as email attachments",
+      "Available on customer, vendor, item, contact, job, purchase order and sales order",
+      "Supports Essentials and Premium editions"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

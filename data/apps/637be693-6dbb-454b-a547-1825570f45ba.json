@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.kumavision|AID.sales_order_status|PAPPID.637be693-6dbb-454b-a547-1825570f45ba",
+  "guid": "637be693-6dbb-454b-a547-1825570f45ba",
+  "publisherId": "kumavision",
+  "offerId": "sales_order_status",
+  "source": {
+    "name": "Sales Order Status",
+    "publisher": "KUMAVISION AG",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.kumavision%7CAID.sales_order_status%7CPAPPID.637be693-6dbb-454b-a547-1825570f45ba",
+    "lastModified": "2026-09-01T05:53:38.9023513+00:00",
+    "appVersion": "28.4.332.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.kumavision.de/en/sos/",
+    "sourceHash": "sha256:e6367df19710077f6eb8fa167e93411ead2111cff9f873b2e994fbd435f36690"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e6367df19710077f6eb8fa167e93411ead2111cff9f873b2e994fbd435f36690",
+    "mappedOn": null,
+    "summary": "Status signal lights on sales orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-search-navigation"
+    ],
+    "claims": [
+      "Signal-light icons show sales order status at line level",
+      "Availability, warehouse, pick, shipment and invoice statuses",
+      "Views can be filtered several times",
+      "Signal lights replaceable with custom icons",
+      "Free 30-day trial"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl"
+    ],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.tecman|AID.clever-wms-containers|PAPPID.85105d0b-5f0c-440e-9b99-ad5b0d744d54",
+  "guid": "85105d0b-5f0c-440e-9b99-ad5b0d744d54",
+  "publisherId": "tecman",
+  "offerId": "clever-wms-containers",
+  "source": {
+    "name": "Clever WMS Containers",
+    "publisher": "Clever Dynamics",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tecman%7CAID.clever-wms-containers%7CPAPPID.85105d0b-5f0c-440e-9b99-ad5b0d744d54",
+    "lastModified": "2026-09-22T11:32:13.0042452+00:00",
+    "appVersion": "2.0.7.161640",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.cleverdynamics.com/clever-wms/clever-containers/user-guide",
+    "sourceHash": "sha256:a26cec5ad2cfd8a01b9d537a491ec888ca39a4bea838a67a2b609db3ea1cab89"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a26cec5ad2cfd8a01b9d537a491ec888ca39a4bea838a67a2b609db3ea1cab89",
+    "mappedOn": null,
+    "summary": "Container and license plate tracking for Clever WMS",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-stock-movements",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-warehouse-setup",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Assigns unique container numbers (license plating)",
+      "Represents pallets, totes and boxes",
+      "Tracks reusable containers like stillages or jigs inside and outside the warehouse",
+      "Tracking switchable at location, bin and item level",
+      "Processes multiple items in a container in one go",
+      "Stock rotation without full item tracking",
+      "Moves containers between locations internally and externally",
+      "Add containers together, put items in or take them out",
+      "Generates SSCC for ASNs",
+      "Works with Clever WMS Devices for scanning"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

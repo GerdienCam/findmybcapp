@@ -1,0 +1,57 @@
+{
+  "appId": "PUBID.tvision|AID.tvtefa|PAPPID.f35b8747-c18a-4cdd-bfeb-31d754ecc274",
+  "guid": "f35b8747-c18a-4cdd-bfeb-31d754ecc274",
+  "publisherId": "tvision",
+  "offerId": "tvtefa",
+  "source": {
+    "name": "TVision External File Attachments on Azure Blob Storage",
+    "publisher": "Tvision Technology Ltd",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tvision%7CAID.tvtefa%7CPAPPID.f35b8747-c18a-4cdd-bfeb-31d754ecc274",
+    "lastModified": "2025-10-28T16:20:08.3339275+00:00",
+    "appVersion": "26.4.4.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.tvisiontech.co.uk/tvision-bevica-apps/",
+    "sourceHash": "sha256:02059cf77617ce0557cd819a4063f9cae436e663948378caa5fe54e410227aff"
+  },
+  "mapping": {
+    "sourceHash": "sha256:02059cf77617ce0557cd819a4063f9cae436e663948378caa5fe54e410227aff",
+    "mappedOn": null,
+    "summary": "Stores attachments on Azure Blob Storage",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving",
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Stores attachments in Azure Blob Storage via MS External File System framework",
+      "Factbox on items, customers, vendors and more",
+      "Attach files to posted documents",
+      "Drag and drop from desktop",
+      "Free in sandbox"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

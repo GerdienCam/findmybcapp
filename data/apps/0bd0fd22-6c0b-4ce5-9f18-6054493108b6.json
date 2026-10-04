@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.gadgetindustries|AID.bsp4l_offer|PAPPID.0bd0fd22-6c0b-4ce5-9f18-6054493108b6",
+  "guid": "0bd0fd22-6c0b-4ce5-9f18-6054493108b6",
+  "publisherId": "gadgetindustries",
+  "offerId": "bsp4l_offer",
+  "source": {
+    "name": "Browser for Sharepoint File Links",
+    "publisher": "Gadget Industries Inc.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.gadgetindustries%7CAID.bsp4l_offer%7CPAPPID.0bd0fd22-6c0b-4ce5-9f18-6054493108b6",
+    "lastModified": "2026-02-03T03:17:16.7511816+00:00",
+    "appVersion": "1.0.1.2",
+    "pricingTypes": [
+      "Free",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://gadgetindustries.com/contact-us/",
+    "sourceHash": "sha256:1dffa0c7a3c6e1d1083ab80376e416f6cb8bf045db948776ae8c1831e175e18d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1dffa0c7a3c6e1d1083ab80376e416f6cb8bf045db948776ae8c1831e175e18d",
+    "mappedOn": null,
+    "summary": "Adds SharePoint file links to BC cards",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Browse SharePoint from inside BC",
+      "Single and bulk file linking to records",
+      "Links follow SharePoint File ID so rename/move doesn't break",
+      "Setup dialog verifies connection and permissions",
+      "Admin and user permission sets",
+      "Links do not use BC database storage",
+      "Free plan limited to 10 links",
+      "Links to Item Cards"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

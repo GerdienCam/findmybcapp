@@ -1,0 +1,106 @@
+{
+  "appId": "PUBID.k3businesstechnologygroup|AID.k3_landed_cost|PAPPID.b470c09e-b96e-4383-91d5-6fdaf8ccd75b",
+  "guid": "b470c09e-b96e-4383-91d5-6fdaf8ccd75b",
+  "publisherId": "k3businesstechnologygroup",
+  "offerId": "k3_landed_cost",
+  "source": {
+    "name": "K3 Landed Cost",
+    "publisher": "K3 Business Technology Group",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.k3businesstechnologygroup%7CAID.k3_landed_cost%7CPAPPID.b470c09e-b96e-4383-91d5-6fdaf8ccd75b",
+    "lastModified": "2026-07-20T11:31:30.8577889+00:00",
+    "appVersion": "28.1.0.21",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://k3fashionsolutions.com/solutions/smb/k3-pebblestone/",
+    "sourceHash": "sha256:81c31f29ba9fc3636205c4ff038a1616b1028a680d4a29f47394f4dcf50adb08"
+  },
+  "mapping": {
+    "sourceHash": "sha256:81c31f29ba9fc3636205c4ff038a1616b1028a680d4a29f47394f4dcf50adb08",
+    "mappedOn": null,
+    "summary": "Calculates landed costs of shipped products",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-vert-fashion",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-pricing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-production-costing"
+    ],
+    "claims": [
+      "Landed cost groups such as freight, insurance, VAT duty and import duty",
+      "Calculation templates for sales price, landed cost and recommended retail price",
+      "Calculations include wholesale and retail margins",
+      "Item calculation by minimum quantity, vendor and country of origin",
+      "Vendor-specific currency rates",
+      "Updates price information on item card",
+      "Correct calculation applied when creating purchase orders"
+    ],
+    "countries": [
+      "AE",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HK",
+      "ID",
+      "IE",
+      "IT",
+      "JP",
+      "MX",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PH",
+      "PT",
+      "RO",
+      "SE",
+      "SG",
+      "TH",
+      "TW",
+      "US",
+      "VN",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "sv"
+    ],
+    "industries": [
+      "Fashion",
+      "Wholesale"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "K3 Pebblestone"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

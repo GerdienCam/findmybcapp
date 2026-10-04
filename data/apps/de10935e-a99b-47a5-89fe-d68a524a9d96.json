@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.columbus-estonia|AID.globalreader|PAPPID.de10935e-a99b-47a5-89fe-d68a524a9d96",
+  "guid": "de10935e-a99b-47a5-89fe-d68a524a9d96",
+  "publisherId": "columbus-estonia",
+  "offerId": "globalreader",
+  "source": {
+    "name": "GlobalReader connector",
+    "publisher": "OIXIO Estonia",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.columbus-estonia%7CAID.globalreader%7CPAPPID.de10935e-a99b-47a5-89fe-d68a524a9d96",
+    "lastModified": "2025-09-24T08:19:11.1585831+00:00",
+    "appVersion": "26.2.250922.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://globalreader.eu/bchelp",
+    "sourceHash": "sha256:ff6b78aa3b4e841526f916e5fed245015444729b96010cac9741699938a4e7a1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ff6b78aa3b4e841526f916e5fed245015444729b96010cac9741699938a4e7a1",
+    "mappedOn": null,
+    "summary": "Synchronizes BC data with GlobalReader",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-production-scheduling"
+    ],
+    "claims": [
+      "Sends released production orders to GlobalReader",
+      "Imports production feedback from GlobalReader into BC",
+      "Data can be corrected before posting",
+      "Requires BC Premium edition"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "et"
+    ],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "GlobalReader"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

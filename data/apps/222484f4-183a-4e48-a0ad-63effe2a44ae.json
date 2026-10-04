@@ -1,0 +1,70 @@
+{
+  "appId": "PUBID.sbcdynamicserp1637715412860|AID.acumenscustomerportalintegrationr2|PAPPID.222484f4-183a-4e48-a0ad-63effe2a44ae",
+  "guid": "222484f4-183a-4e48-a0ad-63effe2a44ae",
+  "publisherId": "sbcdynamicserp1637715412860",
+  "offerId": "acumenscustomerportalintegrationr2",
+  "source": {
+    "name": "Acumens Customer Portal (NW)",
+    "publisher": "SBC Dynamics ERP",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumenscustomerportalintegrationr2%7CPAPPID.222484f4-183a-4e48-a0ad-63effe2a44ae",
+    "lastModified": "2026-04-21T14:54:54.0931275+00:00",
+    "appVersion": "25.1023.1.107",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.sbcdynamicserp.com/acumens-customer-portal/",
+    "sourceHash": "sha256:ef7aa65a8e588b6e8c95269ee36f046f9fe778f1dc8bf0b5557432c7b39463ac"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ef7aa65a8e588b6e8c95269ee36f046f9fe778f1dc8bf0b5557432c7b39463ac",
+    "mappedOn": null,
+    "summary": "Customer portal for orders, invoices and interactions",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-payment-providers"
+    ],
+    "claims": [
+      "Customers view unshipped orders, posted and unpaid invoices",
+      "Customers save card or bank details through a link",
+      "Supports VISA, MasterCard, American Express and Discover",
+      "Pay-by-link from a sales document",
+      "Three-tier reseller portal",
+      "Salesperson portal with real-time access to customers, items and sales documents",
+      "Integrates with Acumens e-POS and Acumens e-Payments"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Acumens e-Payments",
+      "Acumens e-POS"
+    ],
+    "requires": [
+      "Acumens e-Payments or Acumens e-POS"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

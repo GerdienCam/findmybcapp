@@ -1,0 +1,61 @@
+{
+  "appId": "TYPE.connect|PUBID.daxsoftwaresolutionsinc1587747981381|AID.salesforce-connector-by-aonflow|PAPPID.b6370783-4396-461f-8611-a3a00aa82174",
+  "guid": "b6370783-4396-461f-8611-a3a00aa82174",
+  "publisherId": "daxsoftwaresolutionsinc1587747981381",
+  "offerId": "salesforce-connector-by-aonflow",
+  "source": {
+    "name": "Salesforce Connector by Aonflow",
+    "publisher": "DAX Software Solutions, Inc",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.daxsoftwaresolutionsinc1587747981381%7CAID.salesforce-connector-by-aonflow%7CPAPPID.b6370783-4396-461f-8611-a3a00aa82174",
+    "lastModified": "2025-08-12T10:02:00.7669495+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.aonflow.com/privacy-policy",
+    "sourceHash": "sha256:517257889e156b33b178de9efbc6f530d1e5f547815daa4d9a12f3bbf40082eb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:517257889e156b33b178de9efbc6f530d1e5f547815daa4d9a12f3bbf40082eb",
+    "mappedOn": null,
+    "summary": "Integrates Salesforce with BC via Aonflow iPaaS",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-admin-integration-sync"
+    ],
+    "claims": [
+      "No-code drag-and-drop integration builder",
+      "Near real-time sync between Salesforce and BC",
+      "Auto-creates BC invoices when Salesforce opportunity is closed-won",
+      "Bidirectional customer and account sync",
+      "Syncs order status and fulfillment details",
+      "Customizable field mapping"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Salesforce",
+      "Aonflow"
+    ],
+    "requires": [
+      "Aonflow"
+    ],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

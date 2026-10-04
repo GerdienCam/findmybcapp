@@ -1,0 +1,264 @@
+{
+  "id": "ng-esg",
+  "order": 38,
+  "label": "Tracking sustainability and ESG reporting",
+  "description": "Measuring energy, emissions and sustainability data and producing ESG reports.",
+  "type": "bpc",
+  "area": "Manufacturing",
+  "relevance": "medium",
+  "statements": [
+    "Tracking sustainability and ESG reporting",
+    "Measuring energy, emissions and sustainability data and producing ESG reports.",
+    "Our biggest customer now asks for our CO2 footprint every year and we have no idea how to calculate it",
+    "CSRD reporting app for Business Central",
+    "We need to track scope 1, 2 and 3 emissions from our purchases and energy bills",
+    "How do we put a carbon figure on each purchase invoice line in BC?",
+    "The bank wants ESG data before they renew our loan",
+    "sustainability report from ERP data",
+    "We want to set targets for cutting emissions and see how we are doing each year",
+    "Is there something that calculates emissions from our fuel and electricity accounts?",
+    "Our customers ask for the carbon footprint of the products we sell them and we cannot answer",
+    "We need to report on social things like staff turnover and training hours alongside environment",
+    "Our accountant says we fall under the new EU sustainability reporting rules, where do we start",
+    "Track waste and recycling volumes per site",
+    "We need the CO2 footprint per product we manufacture",
+    "Customers ask for emissions data per unit and we can't produce it",
+    "energy consumption per production order",
+    "Is there an app that tracks waste and energy use per machine?",
+    "We need production data for our CSRD report",
+    "How much water and electricity does each production batch use?"
+  ],
+  "questions": [
+    {
+      "id": "scope",
+      "text": "What do you need to measure?",
+      "multi": true,
+      "options": [
+        {
+          "label": "Our company's total emissions (Scope 1-3)",
+          "patterns": [
+            "scope\\s*1",
+            "ghg",
+            "csrd",
+            "footprint development",
+            "sustainability ledger",
+            "scorecard",
+            "emissions performance"
+          ]
+        },
+        {
+          "label": "The footprint of each product we sell",
+          "patterns": [
+            "product-level",
+            "per (fish )?trade item",
+            "finished product",
+            "cradle",
+            "iso 14067",
+            "co2e/kg",
+            "eco-?label",
+            "substrate",
+            "per sales order"
+          ]
+        },
+        {
+          "label": "Ethics and certificates of suppliers or materials",
+          "patterns": [
+            "certificat",
+            "csr classif",
+            "ethical"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Our company's total emissions (Scope 1-3)": 0.23,
+        "The footprint of each product we sell": 0.31,
+        "Ethics and certificates of suppliers or materials": 0.15
+      }
+    },
+    {
+      "id": "source",
+      "text": "Where should the emission data come from?",
+      "help": "Pick the data you already have in BC.",
+      "multi": true,
+      "options": [
+        {
+          "label": "Purchases and spend",
+          "patterns": [
+            "purchas",
+            "spend"
+          ]
+        },
+        {
+          "label": "Vehicles, machines or fuel use",
+          "patterns": [
+            "counter",
+            "fuel",
+            "kilomet",
+            "electricity",
+            "vessel",
+            "energy used"
+          ]
+        },
+        {
+          "label": "Production, BOMs and routings",
+          "patterns": [
+            "\\bboms?\\b",
+            "routing",
+            "production",
+            "substrate",
+            "job specification"
+          ]
+        },
+        {
+          "label": "An external carbon platform",
+          "patterns": [
+            "rejoose",
+            "quantified impact",
+            "carbonquota",
+            "esmiley",
+            "separate platform"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Purchases and spend": 0.46,
+        "Vehicles, machines or fuel use": 0.15,
+        "Production, BOMs and routings": 0.31,
+        "An external carbon platform": 0.38
+      }
+    },
+    {
+      "id": "standard",
+      "text": "What reporting do you have to deliver?",
+      "multi": true,
+      "options": [
+        {
+          "label": "CSRD / ESRS report",
+          "patterns": [
+            "csrd",
+            "esrs"
+          ]
+        },
+        {
+          "label": "GHG Protocol emissions report",
+          "patterns": [
+            "ghg"
+          ]
+        },
+        {
+          "label": "Footprint figures for customers or labels",
+          "patterns": [
+            "eco-?label",
+            "for customers",
+            "customer downloads",
+            "estimates and invoices",
+            "product passport",
+            "iso 14067",
+            "per-customer"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "CSRD / ESRS report": 0.15,
+        "GHG Protocol emissions report": 0.15,
+        "Footprint figures for customers or labels": 0.46
+      }
+    },
+    {
+      "id": "module",
+      "text": "Should it build on BC's own Sustainability module?",
+      "options": [
+        {
+          "label": "Yes, extend BC's Sustainability module",
+          "patterns": [
+            "sustainability (journal|module|transactions|ledger)",
+            "bc sustainability app"
+          ]
+        },
+        {
+          "label": "No, a separate tool or platform is fine",
+          "patterns": [
+            "separate platform",
+            "portal",
+            "platform through api",
+            "rejoose",
+            "carbonquota",
+            "esmiley",
+            "power bi"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Yes, extend BC's Sustainability module": 0.31,
+        "No, a separate tool or platform is fine": 0.46
+      }
+    },
+    {
+      "id": "industry",
+      "text": "Which industry are you in?",
+      "options": [
+        {
+          "label": "Fishing or seafood",
+          "patterns": [
+            "fish",
+            "seafood",
+            "vessel"
+          ]
+        },
+        {
+          "label": "Printing",
+          "patterns": [
+            "printvis",
+            "substrate"
+          ]
+        },
+        {
+          "label": "Fashion and textiles",
+          "patterns": [
+            "trimit"
+          ]
+        },
+        {
+          "label": "Food service / canteens",
+          "patterns": [
+            "infood",
+            "organic"
+          ]
+        },
+        {
+          "label": "IT products",
+          "patterns": [
+            "\\bit products"
+          ]
+        },
+        {
+          "label": "Not sure / doesn't matter",
+          "any": true
+        }
+      ],
+      "coverage": {
+        "Fishing or seafood": 0.15,
+        "Printing": 0.08,
+        "Fashion and textiles": 0.08,
+        "Food service / canteens": 0.08,
+        "IT products": 0.08
+      }
+    }
+  ]
+}

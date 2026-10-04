@@ -1,0 +1,61 @@
+{
+  "appId": "PUBID.2control|AID.compliance-fieldvalidation|PAPPID.3a298cf4-022e-4157-9b48-f077781d5658",
+  "guid": "3a298cf4-022e-4157-9b48-f077781d5658",
+  "publisherId": "2control",
+  "offerId": "compliance-fieldvalidation",
+  "source": {
+    "name": "Compliance Field Validation",
+    "publisher": "2-Controlware",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.2control%7CAID.compliance-fieldvalidation%7CPAPPID.3a298cf4-022e-4157-9b48-f077781d5658",
+    "lastModified": "2026-09-29T11:22:24.3472985+00:00",
+    "appVersion": "7.2.20261029.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://wiki-apps.2-controlware.com/",
+    "sourceHash": "sha256:340909016e64edc03f842044df70dd85f387ede30dc47f3baed2465011626410"
+  },
+  "mapping": {
+    "sourceHash": "sha256:340909016e64edc03f842044df70dd85f387ede30dc47f3baed2465011626410",
+    "mappedOn": null,
+    "summary": "Enforces mandatory fields and data quality rules on master data",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-data-quality",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-dimensions"
+    ],
+    "claims": [
+      "Validation rules per field: mandatory, filter or length",
+      "Conditional validations, including conditions on related tables",
+      "Validation on related tables, e.g. require a sales price before releasing an item",
+      "Validates default dimension setup on master data",
+      "Init values on insert, e.g. block new items",
+      "Check existing records against new rules",
+      "Regular expression validation",
+      "Rules per company or per permission set",
+      "Dozens of default table relations delivered; live within a day"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

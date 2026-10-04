@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.1683352694737|AID.financial_localization_package|PAPPID.c81fc1b5-a891-49b8-a99a-97c4af2e1257",
+  "guid": "c81fc1b5-a891-49b8-a99a-97c4af2e1257",
+  "publisherId": "1683352694737",
+  "offerId": "financial_localization_package",
+  "source": {
+    "name": "China Financial Localization Package",
+    "publisher": "Xi'an Huamei Soft Co., Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.1683352694737%7CAID.financial_localization_package%7CPAPPID.c81fc1b5-a891-49b8-a99a-97c4af2e1257",
+    "lastModified": "2026-06-01T12:37:52.6671119+00:00",
+    "appVersion": "27.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.huameisoft.com/index.php?c=show&id=110",
+    "sourceHash": "sha256:d60cb5b64b1e0f602c44b18ddd603bab03c3cf875598e5c2f93f765aa367b51e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d60cb5b64b1e0f602c44b18ddd603bab03c3cf875598e5c2f93f765aa367b51e",
+    "mappedOn": null,
+    "summary": "China financial compliance: chart of accounts, vouchers, statutory reports",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-loc-einvoicing"
+    ],
+    "claims": [
+      "China statutory report templates: balance sheet, income statement, cash flow statement, financial notes",
+      "Reports in Chinese and bilingual Chinese-English",
+      "China-style voucher printing aligned with accounting archive requirements",
+      "Prints cash and bank journals, foreign and local currency vouchers, G/L listings and customer/vendor ledgers",
+      "Exports order and invoicing data as interface files to Golden Tax System",
+      "Imports issued invoice data from Golden Tax System back into BC",
+      "Supports SaaS and on-premises deployment",
+      "For Mainland China, Hong Kong, Macau and Taiwan; multi-entity and multi-book",
+      "Parameter-based configuration compatible with standard upgrades"
+    ],
+    "countries": [
+      "CN",
+      "HK",
+      "MO",
+      "TW"
+    ],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Golden Tax System"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

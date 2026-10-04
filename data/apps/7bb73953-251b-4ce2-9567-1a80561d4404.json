@@ -1,0 +1,65 @@
+{
+  "appId": "PUBID.navtilus|AID.7bb73953-251b-4ce2-9567-1a80561d4404|PAPPID.7bb73953-251b-4ce2-9567-1a80561d4404",
+  "guid": "7bb73953-251b-4ce2-9567-1a80561d4404",
+  "publisherId": "navtilus",
+  "offerId": "7bb73953-251b-4ce2-9567-1a80561d4404",
+  "source": {
+    "name": "G/L Tools",
+    "publisher": "Navtilus",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.navtilus%7CAID.7bb73953-251b-4ce2-9567-1a80561d4404%7CPAPPID.7bb73953-251b-4ce2-9567-1a80561d4404",
+    "lastModified": "2026-03-24T17:46:18.1562969+00:00",
+    "appVersion": "24.15.57.0",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.navtilus.dk/GL-Tools.pdf",
+    "sourceHash": "sha256:6c8b21cb277a8cca9a89e600c659bf671a0abea0355da1ebfcb423aac316b15f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6c8b21cb277a8cca9a89e600c659bf671a0abea0355da1ebfcb423aac316b15f",
+    "mappedOn": null,
+    "summary": "General ledger tools for finance teams",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-dimensions",
+      "ng-vat-tax",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Non-working days and national holidays for Danish and US markets",
+      "Bank reconciliation columns Net change at date and Currency Details",
+      "Auto-creates dimension values when creating e.g. a customer",
+      "Approval workflow on customer and vendor bank account changes",
+      "G/L Account No. column on VAT entries usable in analysis mode",
+      "Generates Danish VAT statement schema"
+    ],
+    "countries": [
+      "DK"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

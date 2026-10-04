@@ -1,0 +1,89 @@
+{
+  "appId": "PUBID.n3visionab1614113437854|AID.orderconnect|PAPPID.52022edf-066c-4a61-94c7-2878f77b40ab",
+  "guid": "52022edf-066c-4a61-94c7-2878f77b40ab",
+  "publisherId": "n3visionab1614113437854",
+  "offerId": "orderconnect",
+  "source": {
+    "name": "Order Connect",
+    "publisher": "N3 Vision AB",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.n3visionab1614113437854%7CAID.orderconnect%7CPAPPID.52022edf-066c-4a61-94c7-2878f77b40ab",
+    "lastModified": "2026-09-19T16:58:05.4727693+00:00",
+    "appVersion": "25.0.0.49",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.notion.so/Order-Connect-User-Guide-28db6f70216f81dfb1b0c862bf0125d6?source=copy_link",
+    "sourceHash": "sha256:f36fdb815df19368317e420701b7164a5c1d299797140ebf9727e742a21f8ef1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f36fdb815df19368317e420701b7164a5c1d299797140ebf9727e742a21f8ef1",
+    "mappedOn": null,
+    "summary": "Order management portal for customer service",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-customer-returns",
+      "ng-conn-payment-providers",
+      "ng-ux-search-navigation"
+    ],
+    "claims": [
+      "Portal shows live BC data without storing data outside BC",
+      "Handles quotes, invoices, credit memos, return orders and sales orders",
+      "Global search and advanced filtering",
+      "Freeze, order and sort columns",
+      "View data from multiple BC companies",
+      "Company-specific custom fields displayed and editable",
+      "Actions: send to warehouse, cancel, capture/refund payment, payment request, print",
+      "Segregation of duties for customer service"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "HU",
+      "IE",
+      "IS",
+      "IT",
+      "JP",
+      "KR",
+      "MY",
+      "NL",
+      "NO",
+      "NZ",
+      "PT",
+      "SE",
+      "SG",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

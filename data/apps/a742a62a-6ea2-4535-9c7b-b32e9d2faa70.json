@@ -1,0 +1,73 @@
+{
+  "appId": "PUBID.websan-solutions-inc|AID.autoordermgmt|PAPPID.a742a62a-6ea2-4535-9c7b-b32e9d2faa70",
+  "guid": "a742a62a-6ea2-4535-9c7b-b32e9d2faa70",
+  "publisherId": "websan-solutions-inc",
+  "offerId": "autoordermgmt",
+  "source": {
+    "name": "Automated Order Management",
+    "publisher": "Rand Group, LLC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.websan-solutions-inc%7CAID.autoordermgmt%7CPAPPID.a742a62a-6ea2-4535-9c7b-b32e9d2faa70",
+    "lastModified": "2026-07-22T20:13:18.1319794+00:00",
+    "appVersion": "26.2.104.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.randgroup.com/apps/microsoft/dynamics-365-business-central/automated-order-management/",
+    "sourceHash": "sha256:225b17c2b50a0575bfb6e1b7989fdf1b1105383efeb3c80693c179bea1b525e0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:225b17c2b50a0575bfb6e1b7989fdf1b1105383efeb3c80693c179bea1b525e0",
+    "mappedOn": null,
+    "summary": "Allocates limited inventory to orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-order-allocation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-allocation-picking"
+    ],
+    "claims": [
+      "Allocates sales orders when inventory is limited",
+      "Fulfillment criteria at item and customer level",
+      "Prioritizes most important customers",
+      "Calculates net available quantity",
+      "Auto-creates warehouse shipments, picks and order confirmations",
+      "Available globally except Czechia",
+      "Free unlimited use in sandbox environments",
+      "Assisted Setup wizard",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "ar",
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "it",
+      "ja",
+      "ko",
+      "pt",
+      "ru",
+      "vi",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "per_company",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

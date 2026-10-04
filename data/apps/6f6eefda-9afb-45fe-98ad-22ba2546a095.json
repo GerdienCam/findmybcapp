@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.compusoft|AID.aibased26astdsreconciliation|PAPPID.6f6eefda-9afb-45fe-98ad-22ba2546a095",
+  "guid": "6f6eefda-9afb-45fe-98ad-22ba2546a095",
+  "publisherId": "compusoft",
+  "offerId": "aibased26astdsreconciliation",
+  "source": {
+    "name": "26AS TDS Reconciliation Using AI",
+    "publisher": "Compusoft",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.compusoft%7CAID.aibased26astdsreconciliation%7CPAPPID.6f6eefda-9afb-45fe-98ad-22ba2546a095",
+    "lastModified": "2025-09-30T08:07:23.8235403+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.compusoftadvisors.com/contact-us/",
+    "sourceHash": "sha256:33b17a4b1227c09fba2bb55b35a2eb294ce44462defca7c2803dbe193ec56bbf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:33b17a4b1227c09fba2bb55b35a2eb294ce44462defca7c2803dbe193ec56bbf",
+    "mappedOn": null,
+    "summary": "AI reconciliation of TDS against Form 26AS",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Reconciles TDS with Form 26AS",
+      "Automatically imports Form 26AS data and ERP data",
+      "AI matching: same-day, FIFO, tolerance-based and fuzzy",
+      "Detects shortfall, excess and mismatches in real time",
+      "Configurable escalation and notifications",
+      "Party-wise and transaction-wise audit-ready reports",
+      "Built on Azure Function Apps with Azure Key Vault and App Insights"
+    ],
+    "countries": [
+      "IN"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Azure Function Apps"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "PUBID.ecodelas1585264231154|AID.exctoggl|PAPPID.76d71590-87c7-4af3-bec0-6d5c8cdc40e9",
+  "guid": "76d71590-87c7-4af3-bec0-6d5c8cdc40e9",
+  "publisherId": "ecodelas1585264231154",
+  "offerId": "exctoggl",
+  "source": {
+    "name": "Ecodel Exclusive - Toggl Integration",
+    "publisher": "Ecodel",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.ecodelas1585264231154%7CAID.exctoggl%7CPAPPID.76d71590-87c7-4af3-bec0-6d5c8cdc40e9",
+    "lastModified": "2026-08-04T14:46:55.6587413+00:00",
+    "appVersion": "28.0.260804.3",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.erphotel.com/hc/da/articles/360008621937",
+    "sourceHash": "sha256:33a3a7aa80228a271d3db1907dd3cb4bfc268eee42e05bd984a38ebc82d18184"
+  },
+  "mapping": {
+    "sourceHash": "sha256:33a3a7aa80228a271d3db1907dd3cb4bfc268eee42e05bd984a38ebc82d18184",
+    "mappedOn": null,
+    "summary": "Imports Toggl Track time into BC jobs and tasks",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Imports Toggl clients and links them to BC customers by name",
+      "Imports Toggl projects and tasks linked to BC jobs and job tasks",
+      "Suggested links can be overridden manually",
+      "Exports BC jobs and job tasks to Toggl",
+      "Imports time entries into job journal",
+      "Matches Toggl users to BC resources with resource cost and price",
+      "Changed time entries updated until posted"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Toggl Track"
+    ],
+    "requires": [
+      "Toggl Track"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

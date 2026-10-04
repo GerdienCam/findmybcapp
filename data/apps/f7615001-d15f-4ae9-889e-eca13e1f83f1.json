@@ -1,0 +1,62 @@
+{
+  "appId": "PUBID.insightsoftwarecomlimited1584800919871|AID.jetreports|PAPPID.f7615001-d15f-4ae9-889e-eca13e1f83f1",
+  "guid": "f7615001-d15f-4ae9-889e-eca13e1f83f1",
+  "publisherId": "insightsoftwarecomlimited1584800919871",
+  "offerId": "jetreports",
+  "source": {
+    "name": "insightsoftware Reporting for Business Central",
+    "publisher": "insightsoftware",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.insightsoftwarecomlimited1584800919871%7CAID.jetreports%7CPAPPID.f7615001-d15f-4ae9-889e-eca13e1f83f1",
+    "lastModified": "2026-06-18T08:38:46.3195751+00:00",
+    "appVersion": "1.26.6.1631",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.insightsoftware.com/hc/en-us",
+    "sourceHash": "sha256:c261f802e55b571d8800cf52492d8d2ddde470cc7825c3a4346b8a332ab88d35"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c261f802e55b571d8800cf52492d8d2ddde470cc7825c3a4346b8a332ab88d35",
+    "mappedOn": null,
+    "summary": "Connects insightsoftware reporting tools to BC data",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-excel-reporting",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-financial-statements"
+    ],
+    "claims": [
+      "Connects BC cloud to insightsoftware Excel-based reporting",
+      "Works with multi-factor authentication",
+      "Supports SOAP and OData V4",
+      "Connects to multiple environments",
+      "Automated reporting via service-to-service authentication",
+      "Respects BC permissions",
+      "Compatible with Jet Reports and Reporting Intelligence",
+      "Requires separate insightsoftware subscription"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Jet Reports",
+      "Reporting Intelligence"
+    ],
+    "requires": [
+      "Jet Reports or Reporting Intelligence (insightsoftware)"
+    ],
+    "deployment": "online",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

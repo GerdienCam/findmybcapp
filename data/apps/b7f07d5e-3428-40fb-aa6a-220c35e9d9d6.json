@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.iskonsolutions|AID.b7f07d5e-3428-40fb-aa6a-220c35e9d9d6|PAPPID.b7f07d5e-3428-40fb-aa6a-220c35e9d9d6",
+  "guid": "b7f07d5e-3428-40fb-aa6a-220c35e9d9d6",
+  "publisherId": "iskonsolutions",
+  "offerId": "b7f07d5e-3428-40fb-aa6a-220c35e9d9d6",
+  "source": {
+    "name": "Import Goods Item Charge Automation",
+    "publisher": "Iskon Reshenija",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.iskonsolutions%7CAID.b7f07d5e-3428-40fb-aa6a-220c35e9d9d6%7CPAPPID.b7f07d5e-3428-40fb-aa6a-220c35e9d9d6",
+    "lastModified": "2025-05-29T11:58:06.6106975+00:00",
+    "appVersion": "26.0.0.0",
+    "pricingTypes": [
+      "FreeTrial",
+      "Freemium",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": "https://www.iskon.mk/learning-resources-loc",
+    "sourceHash": "sha256:90df781f0d08bc5007edb510960fdc3f33ccdb6eafdc28ac1e3b2adc0e300922"
+  },
+  "mapping": {
+    "sourceHash": "sha256:90df781f0d08bc5007edb510960fdc3f33ccdb6eafdc28ac1e3b2adc0e300922",
+    "mappedOn": null,
+    "summary": "Creates purchase invoices for item charges when importing goods",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Automatically generates purchase invoices and assigns item charges for an import",
+      "Runs from warehouse receipt or purchase order",
+      "Ties several purchase receipts to a single import"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

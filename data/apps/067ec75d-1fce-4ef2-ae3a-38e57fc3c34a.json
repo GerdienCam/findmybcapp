@@ -1,0 +1,81 @@
+{
+  "appId": "PUBID.webexpenses1628525728307|AID.webexpenses_integration_v1|PAPPID.067ec75d-1fce-4ef2-ae3a-38e57fc3c34a",
+  "guid": "067ec75d-1fce-4ef2-ae3a-38e57fc3c34a",
+  "publisherId": "webexpenses1628525728307",
+  "offerId": "webexpenses_integration_v1",
+  "source": {
+    "name": "Webexpenses Integration",
+    "publisher": "webexpenses",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.webexpenses1628525728307%7CAID.webexpenses_integration_v1%7CPAPPID.067ec75d-1fce-4ef2-ae3a-38e57fc3c34a",
+    "lastModified": "2024-11-21T12:01:09.314597+00:00",
+    "appVersion": "1.0.0.4",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.webexpenses.com/microsoft-dynamics-365-integration/",
+    "sourceHash": "sha256:45c69377d8f9143c5d5d1b8c10427a1b455851e722142086c59baed684aabda0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:45c69377d8f9143c5d5d1b8c10427a1b455851e722142086c59baed684aabda0",
+    "mappedOn": null,
+    "summary": "Two-way expense data integration with Webexpenses",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Two-way automated data transfer between Webexpenses and BC",
+      "Uploads users, spend categories and custom dimensions to Webexpenses",
+      "Sends purchase invoices and general journals to BC",
+      "Supports multi-company systems",
+      "Supports corporate credit cards",
+      "Supports Premium and Essentials"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Webexpenses"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

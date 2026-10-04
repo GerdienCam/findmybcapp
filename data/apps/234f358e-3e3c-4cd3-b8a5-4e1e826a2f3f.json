@@ -1,0 +1,103 @@
+{
+  "appId": "PUBID.elodigitalofficegmbh1627466451063|AID.outlink|PAPPID.234f358e-3e3c-4cd3-b8a5-4e1e826a2f3f",
+  "guid": "234f358e-3e3c-4cd3-b8a5-4e1e826a2f3f",
+  "publisherId": "elodigitalofficegmbh1627466451063",
+  "offerId": "outlink",
+  "source": {
+    "name": "ELO Output Link",
+    "publisher": "ELO Digital Office GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elodigitalofficegmbh1627466451063%7CAID.outlink%7CPAPPID.234f358e-3e3c-4cd3-b8a5-4e1e826a2f3f",
+    "lastModified": "2025-10-27T12:20:04.8232747+00:00",
+    "appVersion": "1.0.3.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.elo.com/user/integrations/en-us/elo-output-link-for-business-central-user-documentation/",
+    "sourceHash": "sha256:de9fe45099464604cf51ac994a1e83b13579897bc88754c140bc5ab7fea9adad"
+  },
+  "mapping": {
+    "sourceHash": "sha256:de9fe45099464604cf51ac994a1e83b13579897bc88754c140bc5ab7fea9adad",
+    "mappedOn": null,
+    "summary": "Files outgoing BC documents into ELO archive",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Files outgoing BC documents in ELO with metadata",
+      "Revision-controlled filing of documents",
+      "Requires ELO Integration Service for Business Central"
+    ],
+    "countries": [
+      "AT",
+      "AU",
+      "BE",
+      "BR",
+      "CH",
+      "CZ",
+      "DE",
+      "DK",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HU",
+      "ID",
+      "IE",
+      "IT",
+      "LU",
+      "NL",
+      "NO",
+      "NZ",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SG",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "ar",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "fi",
+      "fr",
+      "hu",
+      "it",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "sk",
+      "sr",
+      "tr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ELO ECM"
+    ],
+    "requires": [
+      "ELO Integration Service",
+      "ELO ECM"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "appId": "PUBID.entifyoutechnologiesopcprivatelimited1682039191501|AID.rfq_multiple_vendor|PAPPID.f9632d74-5285-4e1b-af85-8223c5ee3607",
+  "guid": "f9632d74-5285-4e1b-af85-8223c5ee3607",
+  "publisherId": "entifyoutechnologiesopcprivatelimited1682039191501",
+  "offerId": "rfq_multiple_vendor",
+  "source": {
+    "name": "Multiple Vendor for RFQ",
+    "publisher": "IDENTIFYOU TECHNOLOGIES (OPC) PRIVATE LIMITED",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.entifyoutechnologiesopcprivatelimited1682039191501%7CAID.rfq_multiple_vendor%7CPAPPID.f9632d74-5285-4e1b-af85-8223c5ee3607",
+    "lastModified": "2026-07-28T07:16:15.3692701+00:00",
+    "appVersion": "1.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://identifyyou.in/services/multi-vendor-for-purchase-quotation/",
+    "sourceHash": "sha256:ccd22b48427a5c6f866f3ab584d3417bba7232b8ca7acc0b1405a04b7d908953"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ccd22b48427a5c6f866f3ab584d3417bba7232b8ca7acc0b1405a04b7d908953",
+    "mappedOn": null,
+    "summary": "RFQs to multiple vendors with quote comparison",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Create RFQ for multiple vendors",
+      "Compare vendor quotations on one page",
+      "Create PO from selected best quotation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

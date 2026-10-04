@@ -1,0 +1,68 @@
+{
+  "appId": "PUBID.simova|AID.di_by_simova|PAPPID.0b68bab2-c490-4dad-a158-1d932417be19",
+  "guid": "0b68bab2-c490-4dad-a158-1d932417be19",
+  "publisherId": "simova",
+  "offerId": "di_by_simova",
+  "source": {
+    "name": "Document Inbound",
+    "publisher": "Simova GmbH",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.simova%7CAID.di_by_simova%7CPAPPID.0b68bab2-c490-4dad-a158-1d932417be19",
+    "lastModified": "2026-09-04T09:16:23.6160896+00:00",
+    "appVersion": "28.1.6.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.simova.de/en/",
+    "sourceHash": "sha256:16ec1fe1717b22a89a7b20451f9d6fbdbe4114d87c38fccdda4c81683a029427"
+  },
+  "mapping": {
+    "sourceHash": "sha256:16ec1fe1717b22a89a7b20451f9d6fbdbe4114d87c38fccdda4c81683a029427",
+    "mappedOn": null,
+    "summary": "Processes incoming documents and stores them in Document Central",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-admin-document-storage",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "AI extraction using Microsoft Document Intelligence and Content Understanding",
+      "Extracts information from PDF, XML or emails",
+      "Automatically creates sales orders or purchase invoices from documents",
+      "Writes extracted data back to existing BC records",
+      "QR and barcode return to link external documents back to BC",
+      "Monitors email inboxes and processes attachments",
+      "Archives documents to the matching BC record",
+      "Filename and sender recognition for returning documents"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure AI Document Intelligence"
+    ],
+    "requires": [
+      "Document Central"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

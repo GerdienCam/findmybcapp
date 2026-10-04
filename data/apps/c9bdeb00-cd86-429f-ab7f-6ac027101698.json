@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.evo-softlimitedglobal|AID.advanced-media|PAPPID.c9bdeb00-cd86-429f-ab7f-6ac027101698",
+  "guid": "c9bdeb00-cd86-429f-ab7f-6ac027101698",
+  "publisherId": "evo-softlimitedglobal",
+  "offerId": "advanced-media",
+  "source": {
+    "name": "Advanced Media",
+    "publisher": "Evo-soft Ltd.",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.evo-softlimitedglobal%7CAID.advanced-media%7CPAPPID.c9bdeb00-cd86-429f-ab7f-6ac027101698",
+    "lastModified": "2025-11-24T14:16:35.8913523+00:00",
+    "appVersion": "25.0.0.8",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://bcn.co.uk/business-applications-and-development/dynamics-365-business-central/advanced-media/",
+    "sourceHash": "sha256:8439c364e782f033fa9a72af16ef21989cd6eb1acf0cfc3feeecd151fbb4a0ed"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8439c364e782f033fa9a72af16ef21989cd6eb1acf0cfc3feeecd151fbb4a0ed",
+    "mappedOn": null,
+    "summary": "Imports, attaches and edits media files",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-attachments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data",
+      "ng-admin-storage-archiving"
+    ],
+    "claims": [
+      "Unlimited media attachments (images and videos) per record",
+      "Media carousel to preview media on a record",
+      "Media gallery with drag-to-sort thumbnails",
+      "Drag-and-drop import of multiple images",
+      "Description and categories on media",
+      "Built-in image editor with crop, scale, rotate",
+      "Add text, callouts and stamps to images",
+      "Connectors to store images in Azure BLOB Storage or Dropbox",
+      "Only low-quality thumbnails stored in BC database when using connectors"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Azure Blob Storage",
+      "Dropbox"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}
