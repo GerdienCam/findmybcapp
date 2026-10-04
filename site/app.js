@@ -156,8 +156,8 @@ function renderAbout(){
       <h2>About findmybc.app</h2>
       <p>A neutral, non-commercial finder for Business Central apps on the Microsoft Marketplace. Describe what isn't working, answer a few questions, and get a short list of apps whose listings say they handle it.</p>
       <h3>Where the information comes from</h3>
-      <p>Only from each app's own Microsoft Marketplace listing. We read every listing and describe it in our own words, with a link to the original. If a listing doesn't mention something, we show it as "not stated": we can't tell whether the app does it. The catalog is refreshed every month.</p>
-      <p>We don't reproduce Marketplace listings. Names and logos are the publishers'; every summary is our own interpretation.</p>
+      <p>Only from each app's own Microsoft Marketplace listing. We read every listing and describe it in our own words, with a link to the original. If a listing doesn't mention something, we show it as "not mentioned": we can't tell whether the app does it. The catalog is refreshed every month.</p>
+      <p>We don't reproduce Marketplace listings. App names belong to their publishers; every summary is our own interpretation.</p>
       <p>The order of results is not a rating. Apps that match more of your answers come first, then apps whose listings describe more capabilities.</p>
       <h3>Privacy</h3>
       <ul>
@@ -168,6 +168,7 @@ function renderAbout(){
       </ul>
       <h3>For publishers</h3>
       <p>The best way to be found is a clear Marketplace listing: what your app does, for which countries and languages, and what it works with. You can also add countries, languages and related apps for your app on <a href="${REPO}" target="_blank" rel="noopener">GitHub</a>.</p>
+      <p><b>Your logo is your choice.</b> We show a publisher's logo only when the publisher asks us to. Until then, your apps show the first letter of their name. To show your logo, set <code>showLogo</code> to true and add a <code>logoUrl</code> to your app's file in <a href="${REPO}/tree/main/publisher-data" target="_blank" rel="noopener">publisher-data</a> on GitHub, then open a pull request.</p>
       <h3>Contact</h3>
       <p>Something wrong or missing? <a href="${REPO}/issues" target="_blank" rel="noopener">Open an issue on GitHub</a>.</p>
       <p class="quiet">Not affiliated with or endorsed by Microsoft.</p>
