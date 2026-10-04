@@ -28,6 +28,7 @@ button{font:inherit;color:inherit}
 :focus-visible{outline:3px solid var(--cyan);outline-offset:2px;border-radius:6px}
 
 .bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 24px;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}
+.badge{margin-right:auto;margin-left:-6px;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--sun-ink);background:var(--sun-wash);border:1px solid var(--sun-soft);border-radius:999px;padding:2px 9px;cursor:default;white-space:nowrap}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:800;font-size:18px;letter-spacing:-.01em}
 .brand .wm{font-weight:800;letter-spacing:-.02em}
 .brand .wm b{color:var(--teal);font-weight:800}
