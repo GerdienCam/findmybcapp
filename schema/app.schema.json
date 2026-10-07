@@ -31,7 +31,7 @@
         "freeTrial": {"type": ["string", "null"], "description": "Trial length, e.g. 1 Month"},
         "helpLink": {"type": ["string", "null"]},
         "sourceHash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
-        "mentionsBC": {"type": "boolean", "description": "Title or description names Business Central or NAV. A SaaS offer with this set is shown as working with Business Central."},
+        "mentionsBC": {"type": "boolean", "description": "Title or description names Business Central (NAV never counts). A SaaS offer is shown only when this is set, and then as working with Business Central."},
         "removedOn": {"type": ["string", "null"], "description": "Set when the listing disappears from the catalog."}
       }
     },

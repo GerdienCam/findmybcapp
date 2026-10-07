@@ -102,6 +102,8 @@ def build(with_vectors=True):
         m = effective_mapping(a)
         if m.get("hide") or a["source"].get("removedOn"):
             continue
+        if a["source"].get("productType") == "SaaS" and not a["source"].get("mentionsBC"):
+            continue
         apps.append((a, m))
     apps.sort(key=lambda am: (am[0]["source"]["name"].lower(), am[0]["appId"]))
     app_index = {a["appId"]: i for i, (a, _) in enumerate(apps)}

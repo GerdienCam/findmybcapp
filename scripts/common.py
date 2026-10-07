@@ -112,12 +112,12 @@ def trial_text(value):
     return f"{d.get('Length')} {d.get('Unit')}" if d else None
 
 
-BC_MENTION = re.compile(r"business central|dynamics 365 bc|d365 ?bc|navision|dynamics nav", re.I)
+BC_MENTION = re.compile(r"business central|dynamics 365 bc|d365 ?bc|\bbc\b", re.I)
 
 
 def mentions_bc(raw):
-    """True when the title or description names Business Central (or NAV).
-    Used to show a SaaS offer as working with BC."""
+    """True when the title or description names Business Central. NAV never counts.
+    A SaaS offer without it is left off the site."""
     text = " ".join(str(raw.get(k) or "") for k in ("displayName", "summary", "longSummary", "description"))
     return bool(BC_MENTION.search(text))
 
