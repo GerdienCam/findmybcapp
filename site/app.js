@@ -508,23 +508,35 @@ function initCountry(){
 }
 
 /* ---------------- coverage notice ----------------
-   Shown once per browser until dismissed. Remove when the full catalog arrives. */
+   A callout under the "Browse" link in the top bar, shown once per browser until dismissed.
+   Remove when the full catalog arrives. */
 function coverageNotice(){
   const KEY = 'af-notice-coverage-1';
-  if (load(KEY)) return;
+  const link = document.querySelector('.topnav a[href="#/browse"]');
+  if (load(KEY) || !link) return;
   const el = document.createElement('aside');
   el.className = 'notice';
   el.setAttribute('role', 'note');
   el.innerHTML = `<button class="x" aria-label="Close">×</button>
     <b>Missing an app?</b>
     <p>Microsoft's public catalog currently gives us fewer than half of the Business Central apps on Marketplace, so some aren't here yet. We've asked Microsoft for full access.</p>
-    <p><b>Publishers:</b> search for your app by name first. If it doesn't show up, it hasn't reached us yet.</p>
+    <p><b>Publishers:</b> search for your app by name under Browse first. If it doesn't show up, it hasn't reached us yet.</p>
     <div class="acts"><a class="btn small" href="#/browse">Search by name</a><button class="btn ghost small">Got it</button></div>`;
-  const close = () => { save(KEY, '1'); el.remove(); };
+  document.body.appendChild(el);
+  const place = () => {
+    const r = link.getBoundingClientRect(), w = el.offsetWidth, vw = document.documentElement.clientWidth;
+    const left = Math.max(12, Math.min(vw - w - 12, r.left + r.width / 2 - w + 40));
+    el.style.top = (r.bottom + 12) + 'px';
+    el.style.left = left + 'px';
+    el.style.setProperty('--arrow', Math.max(16, Math.min(w - 16, r.left + r.width / 2 - left)) + 'px');
+  };
+  place();
+  window.addEventListener('resize', place);
+  const close = () => { save(KEY, '1'); window.removeEventListener('resize', place); el.remove(); };
   el.querySelector('.x').onclick = close;
   el.querySelector('.ghost').onclick = close;
   el.querySelector('a').onclick = close;
-  document.body.appendChild(el);
+  link.addEventListener('click', close);
 }
 
 boot().catch(e => { view.innerHTML = `<div class="empty" style="margin-top:40px">Couldn't load the data. Please reload the page.<br><br>${esc(e.message)}</div>`; });
