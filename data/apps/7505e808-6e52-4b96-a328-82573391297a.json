@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.origo|AID.origo_bifrost_foundation|PAPPID.7505e808-6e52-4b96-a328-82573391297a",
+  "guid": "7505e808-6e52-4b96-a328-82573391297a",
+  "publisherId": "origo",
+  "offerId": "origo_bifrost_foundation",
+  "source": {
+    "name": "Bifrost Foundation",
+    "publisher": "Origo",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.origo%7CAID.origo_bifrost_foundation%7CPAPPID.7505e808-6e52-4b96-a328-82573391297a",
+    "lastModified": "2026-10-06T17:30:16.3232913+00:00",
+    "appVersion": "28.0.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://businesscentralal.github.io/bifrost/en-us/foundation",
+    "sourceHash": "sha256:3850aa816ed3001a15e1ed88c37d2770a052a327744a01dfa17f977813580be7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3850aa816ed3001a15e1ed88c37d2770a052a327744a01dfa17f977813580be7",
+    "mappedOn": "2026-10-07",
+    "summary": "MCP connector letting Claude, ChatGPT, Copilot and other AI agents read and act in BC",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-ai-assistant",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-copilot-agents",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-developer-tools",
+      "ng-admin-data-migration"
+    ],
+    "claims": [
+      "Works with Claude, ChatGPT, Microsoft Copilot or any MCP platform",
+      "BC app plus a secure MCP server",
+      "AI can look up and analyze BC data",
+      "AI can carry out approved actions like creating sales documents and posting invoices",
+      "Add-ons for Icelandic bank connections, document exchange, storage and schedules",
+      "Partners can expose their own extension capabilities",
+      "Respects BC permissions; admins restrict fields and see every call"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Claude",
+      "ChatGPT",
+      "Microsoft Copilot",
+      "MCP"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -6,19 +6,22 @@
   "source": {
     "name": "Wisefish Quality",
     "publisher": "Wisefish",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wisefish1707821097531%7CAID.wisefishquality%7CPAPPID.bc2e3077-2266-4f04-b60c-a1a9c452d846",
-    "lastModified": "2026-08-10T14:06:07.8797005+00:00",
-    "appVersion": "27.1.20260810.28",
-    "pricingTypes": [],
+    "lastModified": "2026-10-02T13:19:35.9977648+00:00",
+    "appVersion": "27.1.20261002.29",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.wisefish.com/contact",
-    "sourceHash": "sha256:87c516d98377a50a5e9efb73a14f0f96b41b8bfabe0b4df8d299f791bada1d7a"
+    "sourceHash": "sha256:353fb46ed0eea4d0001baa9ee6ed66e2098902e33d398fb1d14c552b30e5e069"
   },
   "mapping": {
-    "sourceHash": "sha256:87c516d98377a50a5e9efb73a14f0f96b41b8bfabe0b4df8d299f791bada1d7a",
-    "mappedOn": null,
-    "summary": "Quality management for fish production",
-    "shape": "vertical",
+    "sourceHash": "sha256:353fb46ed0eea4d0001baa9ee6ed66e2098902e33d398fb1d14c552b30e5e069",
+    "mappedOn": "2026-10-07",
+    "summary": "Configurable quality inspection system with HACCP support for seafood and food production",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-quality-inspection",
@@ -26,20 +29,17 @@
       },
       {
         "need": "ng-vert-seafood",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-vert-food-beverage",
-      "ng-quality-hold"
+      "ng-vert-food-beverage"
     ],
     "claims": [
-      "User-defined quality inspections",
-      "Supports HACCP (Hazard Analysis and Critical Control Points)",
-      "Lets users define their own quality inspection parameters",
-      "Applies quality controls to produced goods and production lots",
-      "Suitable for fish, meat, dairy and beverage producers",
-      "Supports Essential and Premium editions"
+      "User-defined quality inspection parameters",
+      "Supports HACCP",
+      "Quality controls on produced goods and production lots",
+      "Suits fish, meat, dairy and beverage producers"
     ],
     "countries": [
       "DK",
@@ -51,14 +51,11 @@
       "en",
       "is"
     ],
-    "industries": [
-      "Food and beverage",
-      "Seafood"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

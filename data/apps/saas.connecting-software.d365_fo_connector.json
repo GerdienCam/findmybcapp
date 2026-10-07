@@ -1,0 +1,54 @@
+{
+  "appId": "connecting-software.d365_fo_connector",
+  "guid": null,
+  "publisherId": "connecting-software",
+  "offerId": "d365_fo_connector",
+  "source": {
+    "name": "Connect from any application to Microsoft Dynamics 365 FO",
+    "publisher": "Connecting Software",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/connecting-software.d365_fo_connector",
+    "lastModified": "2025-12-24T11:57:46.0010254+00:00",
+    "appVersion": "6.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:979195efb56f081f4f69856625aa01f18e9e608544f6298ee69789185aef46ec"
+  },
+  "mapping": {
+    "sourceHash": "sha256:979195efb56f081f4f69856625aa01f18e9e608544f6298ee69789185aef46ec",
+    "mappedOn": "2026-10-07",
+    "summary": "Connector to migrate or sync data into Dynamics 365 Finance and Operations, not BC.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Connects to SQL Server, MySQL, MariaDB, Oracle and SAP HANA",
+      "Prebuilt connectors for Exchange, SharePoint, Office 365, QuickBooks, Salesforce and more",
+      "Talk to the target system with standard SQL statements",
+      "Built on the Connect Bridge platform"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 Finance and Operations"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": true,
+    "hideReason": "Connector for Dynamics 365 Finance and Operations; Business Central appears only as another available connector.",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

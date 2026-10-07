@@ -6,18 +6,21 @@
   "source": {
     "name": "OmniFY for SAP-Concur Invoice",
     "publisher": "Omni Logic Solutions",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicsondemand%7CAID.omnify-concur-invoice%7CPAPPID.6ccaee37-88ea-4245-a96e-b5da179674de",
-    "lastModified": "2026-05-08T21:12:58.553372+00:00",
-    "appVersion": "18.0.0.21",
-    "pricingTypes": [],
+    "lastModified": "2026-10-06T21:08:38.4265197+00:00",
+    "appVersion": "18.0.0.22",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.omnilogicsolutions.com/",
-    "sourceHash": "sha256:f7af22172033447423047834b7f4ec9b9d4db8ee88469f313af152feaef94e05"
+    "sourceHash": "sha256:771ca53e59a9db5809380dc2597760474ba8cc90e2e8a624f965219f9c232432"
   },
   "mapping": {
-    "sourceHash": "sha256:f7af22172033447423047834b7f4ec9b9d4db8ee88469f313af152feaef94e05",
-    "mappedOn": null,
-    "summary": "Integrates SAP Concur Invoice with BC",
+    "sourceHash": "sha256:771ca53e59a9db5809380dc2597760474ba8cc90e2e8a624f965219f9c232432",
+    "mappedOn": "2026-10-07",
+    "summary": "Syncs vendors, POs and receipts to SAP Concur Invoice and downloads approved invoices",
     "shape": "connector",
     "primary": [
       {
@@ -31,13 +34,12 @@
       "ng-ap-payments"
     ],
     "claims": [
-      "Sends vendors and vendor updates to Concur",
-      "Sends purchase orders and receipts to Concur (Professional)",
-      "Downloads approved invoices and images from Concur",
-      "Expense types for items, G/L accounts, fixed assets and resources",
-      "Scheduled sync via job queues",
-      "Creates payment journals",
-      "Requires Concur authorization and activation keys"
+      "Sends vendors and vendor changes to Concur",
+      "Sends purchase orders and receipts to Concur in Professional edition",
+      "Downloads approved invoices with images",
+      "Expense types mapped to items, G/L accounts, fixed assets and resources",
+      "Can create payment journals",
+      "Sync scheduled via job queue or on demand"
     ],
     "countries": [
       "AE",
@@ -65,11 +67,11 @@
     ],
     "industries": [],
     "connectsTo": [
-      "SAP Concur Invoice"
+      "SAP Concur"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

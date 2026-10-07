@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.bluestar|AID.bluestar_for_bc|PAPPID.044ff0b1-9bf6-4bde-973a-44e0bdc20493",
+  "guid": "044ff0b1-9bf6-4bde-973a-44e0bdc20493",
+  "publisherId": "bluestar",
+  "offerId": "bluestar_for_bc",
+  "source": {
+    "name": "Bluestar PLM for Dynamics 365 Business Central",
+    "publisher": "PDM Technology",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.bluestar%7CAID.bluestar_for_bc%7CPAPPID.044ff0b1-9bf6-4bde-973a-44e0bdc20493",
+    "lastModified": "2026-10-07T06:54:15.2646045+00:00",
+    "appVersion": "8.0.0.26412",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://bluestarplm.com/business-central-help/",
+    "sourceHash": "sha256:405ddba0c418e863de2796464b4d44bb2e7d0705ebc7822c661d469dddc821f8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:405ddba0c418e863de2796464b4d44bb2e7d0705ebc7822c661d469dddc821f8",
+    "mappedOn": "2026-10-07",
+    "summary": "PLM with CAD data, revisions, BOM release and document control built inside BC",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage",
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "PLM runs natively in BC with no separate system or middleware",
+      "Manages engineering objects, revisions, classifications, attributes and CAD files",
+      "Releases engineering BOMs to manufacturing BOMs",
+      "Document check-in/check-out, version history and automatic PDF generation",
+      "Change control with approvals, revisions and status tracking",
+      "Aimed at small and mid-sized discrete manufacturers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

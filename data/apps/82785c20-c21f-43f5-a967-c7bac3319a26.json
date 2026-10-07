@@ -1,0 +1,69 @@
+{
+  "appId": "TYPE.connect|PUBID.dynasoftspainsl1676190626942|AID.dyn_integration_avalon_es|PAPPID.82785c20-c21f-43f5-a967-c7bac3319a26",
+  "guid": "82785c20-c21f-43f5-a967-c7bac3319a26",
+  "publisherId": "dynasoftspainsl1676190626942",
+  "offerId": "dyn_integration_avalon_es",
+  "source": {
+    "name": "Dynasoft PMS Avalon Integration",
+    "publisher": "Grupo Dynasoft",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.dynasoftspainsl1676190626942%7CAID.dyn_integration_avalon_es%7CPAPPID.82785c20-c21f-43f5-a967-c7bac3319a26",
+    "lastModified": "2026-10-06T14:04:00.691211+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://docs.grupodynasoft.com/books/pms-gateway-I56",
+    "sourceHash": "sha256:4ca4aaa61fe7fa634e0253b33f1407dc154e8fe57beb22876c820e4022db2185"
+  },
+  "mapping": {
+    "sourceHash": "sha256:4ca4aaa61fe7fa634e0253b33f1407dc154e8fe57beb22876c820e4022db2185",
+    "mappedOn": "2026-10-07",
+    "summary": "Two-way sync between Avalon hotel PMS and BC for invoices, payments, cash and stock",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-vert-hospitality",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-ux-master-data-sync"
+    ],
+    "claims": [
+      "Syncs hotel invoices, prepayments, payments, cash journals, purchases, stock counts and transfers",
+      "Syncs customers, vendors, banks, chart of accounts, dimensions and exchange rates",
+      "API lets Avalon import BC ledger entries for KPIs like RevPAR",
+      "Multi-company and multi-hotel with per-hotel inclusion",
+      "Every sync logged with date, document and company",
+      "Scheduled via job queue",
+      "Supports NAV 2017 onward and BC on-premises and SaaS"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Avalon PMS"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

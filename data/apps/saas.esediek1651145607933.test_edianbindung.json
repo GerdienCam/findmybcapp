@@ -1,0 +1,67 @@
+{
+  "appId": "esediek1651145607933.test_edianbindung",
+  "guid": null,
+  "publisherId": "esediek1651145607933",
+  "offerId": "test_edianbindung",
+  "source": {
+    "name": "Vollintegrierte, durchgängige EDI - Anbindung mit ESlink für Dynamics 365 Business Central/NAV - Mit nur einem Ansprechpartner durch eigenen Rechenzentrumskonverter ESdata",
+    "publisher": "ESedi e.K",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/esediek1651145607933.test_edianbindung",
+    "lastModified": "2025-12-15T18:57:38.7023644+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:6c60ec062ae32dfbae66fce8a545aaca09b1b96bc59bf97c3e1d737ea39ec5ad"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6c60ec062ae32dfbae66fce8a545aaca09b1b96bc59bf97c3e1d737ea39ec5ad",
+    "mappedOn": "2026-10-07",
+    "summary": "Full-service EDI for BC/NAV with own converter, covering EDIFACT, VDA, XRechnung and ZUGFeRD.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Two-way automated document exchange with trading partners",
+      "Formats: EDIFACT, VDA, XML, XRechnung, ZUGFeRD and custom",
+      "Handles nested discount calculations and SSCC packaging structures",
+      "Own data-centre converter ESdata",
+      "Single contact for implementation, operation and support",
+      "Supports all BC and NAV versions",
+      "German only; Germany, Austria, Switzerland"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "languages": [
+      "de"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics NAV"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

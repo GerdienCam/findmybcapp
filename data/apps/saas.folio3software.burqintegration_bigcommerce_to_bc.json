@@ -1,0 +1,56 @@
+{
+  "appId": "folio3software.burqintegration_bigcommerce_to_bc",
+  "guid": null,
+  "publisherId": "folio3software",
+  "offerId": "burqintegration_bigcommerce_to_bc",
+  "source": {
+    "name": "BigCommerce to Dynamics 365 Business Central with BURQ iPaaS",
+    "publisher": "Folio3 Software Inc.,",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/folio3software.burqintegration_bigcommerce_to_bc",
+    "lastModified": "2025-12-24T04:17:57.6271818+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:48e4c365481365423f562fb6bf1c95c5f01d4be595946f9baf990902e1dfc2e8"
+  },
+  "mapping": {
+    "sourceHash": "sha256:48e4c365481365423f562fb6bf1c95c5f01d4be595946f9baf990902e1dfc2e8",
+    "mappedOn": "2026-10-07",
+    "summary": "iPaaS connector syncing BigCommerce store orders, products and stock with Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs orders, customer and billing details",
+      "Syncs stock levels between store and BC",
+      "Syncs products, coupons, returns, gift cards and tier pricing",
+      "Multi-tier pricing rules managed in BC",
+      "Migrates data from BC to BigCommerce",
+      "One-time installation fee plus annual renewal, no per-transaction fees"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "BigCommerce"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

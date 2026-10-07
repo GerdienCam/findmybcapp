@@ -1,0 +1,73 @@
+{
+  "appId": "v-work.wemanagev3",
+  "guid": null,
+  "publisherId": "v-work",
+  "offerId": "wemanagev3",
+  "source": {
+    "name": "WeManage eProcurement",
+    "publisher": "V-Work Sdn Bhd",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/v-work.wemanagev3",
+    "lastModified": "2025-12-21T19:45:12.7448025+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "Free",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:d88181eac80b70ce8e742242243e78e57503f08970ed4f02ea3343c8f3011e94"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d88181eac80b70ce8e742242243e78e57503f08970ed4f02ea3343c8f3011e94",
+    "mappedOn": "2026-10-07",
+    "summary": "Procure-to-pay portal with vendor registration, requisitions, e-tendering, contracts and vendor evaluation",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-quality-compliance",
+      "ng-supplier-contracts"
+    ],
+    "claims": [
+      "Vendor registration and management",
+      "Vendor performance evaluation with automated scoring",
+      "Requisitions, e-quotation and tendering including e-bidding",
+      "Award with purchase order and contract management",
+      "E-fulfilment and e-invoice",
+      "Works with BC, SharePoint and Teams",
+      "Centralized procurement for subsidiaries, unlimited employees and tenders",
+      "Plans differ by tenants and document storage, with 8x5 support"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SharePoint",
+      "Microsoft Teams"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "appId": "iexaps1695895935726.iex_bc_contact",
+  "guid": null,
+  "publisherId": "iexaps1695895935726",
+  "offerId": "iex_bc_contact",
+  "source": {
+    "name": "IEX Integration for Business Central",
+    "publisher": "IEX ApS",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/iexaps1695895935726.iex_bc_contact",
+    "lastModified": "2025-12-17T02:28:26.5412249+00:00",
+    "appVersion": "1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:24d0c73e3d5f1d2a17c75be4dcafafca5d886fb52bd1b2e00b0cc37069067aab"
+  },
+  "mapping": {
+    "sourceHash": "sha256:24d0c73e3d5f1d2a17c75be4dcafafca5d886fb52bd1b2e00b0cc37069067aab",
+    "mappedOn": "2026-10-07",
+    "summary": "Transfers webshop orders, invoices, credit notes and payments into Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-retail-pos"
+    ],
+    "claims": [
+      "Transfers orders and customer data automatically",
+      "Posts invoices automatically",
+      "Transfers credit notes",
+      "Registers payments by webshop payment method",
+      "Matches customers on email, phone or other unique data",
+      "Separate sync methods for B2C, B2B and EAN customers",
+      "Handles small amount differences and validates totals before posting",
+      "Full log of data transfers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

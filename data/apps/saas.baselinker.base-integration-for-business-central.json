@@ -1,0 +1,62 @@
+{
+  "appId": "baselinker.base-integration-for-business-central",
+  "guid": null,
+  "publisherId": "baselinker",
+  "offerId": "base-integration-for-business-central",
+  "source": {
+    "name": "Base integration for Microsoft Dynamics 365 Business Central",
+    "publisher": "Base",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/baselinker.base-integration-for-business-central",
+    "lastModified": "2026-06-01T16:09:10.4883092+00:00",
+    "appVersion": "1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:c580fcbdd233d2bf98bd3016324f9c8e933a818d00a874f353d0daf9e33263dc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:c580fcbdd233d2bf98bd3016324f9c8e933a818d00a874f353d0daf9e33263dc",
+    "mappedOn": "2026-10-07",
+    "summary": "Connects the Base.com multichannel e-commerce hub with BC for items, stock and orders.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Syncs products and attributes between Base.com and BC",
+      "Keeps stock levels aligned to avoid overselling",
+      "Sends orders and sales documents into BC",
+      "Base.com offers over 1,700 integrations with marketplaces, shops and carriers",
+      "Base.com automates order status, notifications, invoicing and shipping",
+      "Supported in all countries"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Base.com"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

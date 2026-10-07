@@ -1,0 +1,64 @@
+{
+  "appId": "vsd.portal_tag",
+  "guid": null,
+  "publisherId": "vsd",
+  "offerId": "portal_tag",
+  "source": {
+    "name": "The Asset Guardian (TAG) EAM-CMMS Mobility Suite",
+    "publisher": "Verosoft Design INC. (VSD)",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/vsd.portal_tag",
+    "lastModified": "2025-12-19T18:13:52.664779+00:00",
+    "appVersion": "2.0.9",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:35c434c047e789c0585361b2c15a7ab5b9b8dab3f0c0be99317ccb0dbbbb1968"
+  },
+  "mapping": {
+    "sourceHash": "sha256:35c434c047e789c0585361b2c15a7ab5b9b8dab3f0c0be99317ccb0dbbbb1968",
+    "mappedOn": "2026-10-07",
+    "summary": "Mobile app suite for technicians and planners using the TAG maintenance (EAM) solution in BC",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Extends TAG's EAM software built into BC",
+      "Role-based interfaces for technicians, managers and requestors",
+      "Manages work orders, requests, preventive maintenance, equipment, schedules, staff and inventory",
+      "Works offline",
+      "Runs on Azure"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Energy & Resources",
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [],
+    "requires": [
+      "The Asset Guardian (TAG) EAM-CMMS"
+    ],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

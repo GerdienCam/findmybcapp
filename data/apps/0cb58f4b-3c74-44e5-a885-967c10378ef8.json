@@ -1,0 +1,58 @@
+{
+  "appId": "PUBID.lodestarspa1707724008317|AID.product_configurator|PAPPID.0cb58f4b-3c74-44e5-a885-967c10378ef8",
+  "guid": "0cb58f4b-3c74-44e5-a885-967c10378ef8",
+  "publisherId": "lodestarspa1707724008317",
+  "offerId": "product_configurator",
+  "source": {
+    "name": "Product Configurator",
+    "publisher": "LODESTAR SPA",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.lodestarspa1707724008317%7CAID.product_configurator%7CPAPPID.0cb58f4b-3c74-44e5-a885-967c10378ef8",
+    "lastModified": "2026-10-07T06:47:41.7681966+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://lodestar.eu/",
+    "sourceHash": "sha256:08bb53be3a12527317a2cb521a4e19edb9d2fe8eaa510e421e516aa61e13e1de"
+  },
+  "mapping": {
+    "sourceHash": "sha256:08bb53be3a12527317a2cb521a4e19edb9d2fe8eaa510e421e516aa61e13e1de",
+    "mappedOn": "2026-10-07",
+    "summary": "Guided sales questionnaires that configure valid products and generate items, BOMs and routings",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-item-master-data"
+    ],
+    "claims": [
+      "Guided sales questionnaires allow only valid combinations",
+      "Configures finished products and accessories",
+      "Creates new items and variants automatically",
+      "Generates BOMs and routings from the configuration"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

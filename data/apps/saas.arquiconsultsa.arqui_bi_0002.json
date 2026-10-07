@@ -1,0 +1,58 @@
+{
+  "appId": "arquiconsultsa.arqui_bi_0002",
+  "guid": null,
+  "publisherId": "arquiconsultsa",
+  "offerId": "arqui_bi_0002",
+  "source": {
+    "name": "B!Sales for Dynamics 365 Business Central",
+    "publisher": "ARQUICONSULT SA",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/arquiconsultsa.arqui_bi_0002",
+    "lastModified": "2025-12-20T00:48:22.3850986+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:7f2840708b2a4fde8c3df77ce72ce9c43fc905589d98a3115bbb6794a10f0494"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7f2840708b2a4fde8c3df77ce72ce9c43fc905589d98a3115bbb6794a10f0494",
+    "mappedOn": "2026-10-07",
+    "summary": "Power BI sales analytics package on top of Business Central data.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-sales-analytics",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pipeline"
+    ],
+    "claims": [
+      "Built on Power BI for BC sales data",
+      "Covers pipeline, customer engagement, revenue and cost, product knowledge and performance",
+      "Flags deviations from sales goals and potential losses",
+      "Supports planning and simulating sales strategies"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

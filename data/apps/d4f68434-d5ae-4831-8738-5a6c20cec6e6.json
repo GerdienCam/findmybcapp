@@ -6,44 +6,42 @@
   "source": {
     "name": "EV Extended Job Queue",
     "publisher": "Elbek & Vejrup A/S",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.elbekvejrupas1591263556858%7CAID.evxj%7CPAPPID.d4f68434-d5ae-4831-8738-5a6c20cec6e6",
-    "lastModified": "2026-06-30T07:23:23.9641037+00:00",
-    "appVersion": "10004.6.3.2800",
-    "pricingTypes": [],
+    "lastModified": "2026-10-02T10:36:52.5551493+00:00",
+    "appVersion": "10004.8.0.2900",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://elbek-vejrup.dk/dynamics-365/generel/business-central-support/",
-    "sourceHash": "sha256:36f981a6074dc76fda92fb0810295730ab3ef57c70d057df99ecfc6e5fd328ba"
+    "sourceHash": "sha256:d7c2c67bd7dd21f2df71ad17dbee28bc504b151a22707655eb43590e95fe0b46"
   },
   "mapping": {
-    "sourceHash": "sha256:36f981a6074dc76fda92fb0810295730ab3ef57c70d057df99ecfc6e5fd328ba",
-    "mappedOn": null,
-    "summary": "Advanced scheduling and execution of batch jobs",
+    "sourceHash": "sha256:d7c2c67bd7dd21f2df71ad17dbee28bc504b151a22707655eb43590e95fe0b46",
+    "mappedOn": "2026-10-07",
+    "summary": "Extended job queue for chained batch jobs with dynamic parameters, logs and notifications",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-admin-job-queue-setup",
         "confidence": "high"
-      },
-      {
-        "need": "ng-admin-job-queue-failures",
-        "confidence": "medium"
       }
     ],
     "secondary": [
+      "ng-admin-job-queue-failures",
       "ng-ux-automation",
       "ng-ux-email-sending"
     ],
     "claims": [
-      "Runs batch jobs in background outside working hours",
-      "Automates sales document posting, VAT reg. no. validation, MRP and adjust cost posting",
-      "Fixed and dynamic parameters, e.g. posting dates via date formula",
+      "Automates posting of sales documents, VAT number validation, MRP and cost adjustment",
+      "Fixed and dynamic parameters such as date formulas",
       "Multi-level job chains with order and dependencies",
-      "Time schedule preserved for recurring jobs",
-      "Mail or role center notifications on job outcome",
-      "Delivers reports as PDF, docx or xlsx by email or Report Inbox",
-      "Detailed job queue log for error handling",
-      "To-do handling based on error log entries",
-      "Bundle jobs in groups"
+      "Keeps time schedule for recurring jobs",
+      "Mail or role center notifications on outcome",
+      "Delivers reports as PDF, docx or xlsx by email or report inbox",
+      "Detailed logs with to-do handling",
+      "Bundles jobs in groups"
     ],
     "countries": [
       "AE",
@@ -82,7 +80,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -1,0 +1,72 @@
+{
+  "appId": "kasadara-technology-solutions-pvt-ltd.lease_nexus",
+  "guid": null,
+  "publisherId": "kasadara-technology-solutions-pvt-ltd",
+  "offerId": "lease_nexus",
+  "source": {
+    "name": "Lease Nexus",
+    "publisher": "Kasadara Technology Solutions Private Limited",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/kasadara-technology-solutions-pvt-ltd.lease_nexus",
+    "lastModified": "2026-07-22T10:27:46.7094993+00:00",
+    "appVersion": "1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:f6f3c7b158035e28bf5fe4327227747a4cb69e3078bc8555239967be0276cbc5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f6f3c7b158035e28bf5fe4327227747a4cb69e3078bc8555239967be0276cbc5",
+    "mappedOn": "2026-10-07",
+    "summary": "Residential property management in BC: units, leases, rent invoicing, maintenance and tenant portal",
+    "shape": "vertical",
+    "primary": [
+      {
+        "need": "ng-vert-property",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-svc-requests",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals",
+      "ng-conn-payment-providers"
+    ],
+    "claims": [
+      "Property and unit records with vacancy tracking",
+      "Create, renew and terminate leases with payment schedules",
+      "Invoices variable utility charges",
+      "Monthly rent invoices via job queue",
+      "Automatic late fees on overdue payments",
+      "Inspections and vendor work orders with purchase invoices",
+      "KPI cues for leases, overdue payments and vacancies",
+      "Tenant portal with Stripe rent payments",
+      "Tenants submit maintenance tickets with photos"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Real estate"
+    ],
+    "connectsTo": [
+      "Stripe"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

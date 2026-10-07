@@ -1,0 +1,58 @@
+{
+  "appId": "425consultinggroup1716230109793.425-checksaverpro",
+  "guid": null,
+  "publisherId": "425consultinggroup1716230109793",
+  "offerId": "425-checksaverpro",
+  "source": {
+    "name": "425 CheckSaverPRO",
+    "publisher": "425_Consulting_Group",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/425consultinggroup1716230109793.425-checksaverpro",
+    "lastModified": "2025-12-16T00:36:46.5730048+00:00",
+    "appVersion": "25.7.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:0955c78291ff328b512877b62b48b523399d55073a320f45f3e6b07e5f8dc742"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0955c78291ff328b512877b62b48b523399d55073a320f45f3e6b07e5f8dc742",
+    "mappedOn": "2026-10-07",
+    "summary": "Prints one check stub plus a remittance advice report when a payment covers many invoices",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-ux-document-layouts"
+    ],
+    "claims": [
+      "Avoids voided checks when more than 10 invoices are applied to one payment",
+      "Prints a single check stub that refers to a separate remittance advice report",
+      "Remittance report lists applied invoices with amounts and dates, optionally currency and discounts",
+      "Remittance advice can be printed in batch for one or all vendors",
+      "Check and remittance layouts can be adapted",
+      "Detects multi-invoice payments automatically and switches format",
+      "Runs as a native BC extension in the payment posting process",
+      "One-time price of 399 USD including setup of one check format"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

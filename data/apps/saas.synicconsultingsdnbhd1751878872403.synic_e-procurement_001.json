@@ -1,0 +1,66 @@
+{
+  "appId": "synicconsultingsdnbhd1751878872403.synic_e-procurement_001",
+  "guid": null,
+  "publisherId": "synicconsultingsdnbhd1751878872403",
+  "offerId": "synic_e-procurement_001",
+  "source": {
+    "name": "E-Procurement",
+    "publisher": "SYNIC Consulting",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/synicconsultingsdnbhd1751878872403.synic_e-procurement_001",
+    "lastModified": "2026-03-26T05:33:06.9882221+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:3303b64a12ad51967a08c8ac81546ec8b53d483f6f7c2ab676de0ac72135ce3b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3303b64a12ad51967a08c8ac81546ec8b53d483f6f7c2ab676de0ac72135ce3b",
+    "mappedOn": "2026-10-07",
+    "summary": "E-procurement for requisitions, approvals, RFQs, PO creation and a supplier portal, integrated with BC",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sourcing-rfq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "Requisitions with configurable approval hierarchies",
+      "Generate, compare and evaluate vendor quotes",
+      "Approved requisitions converted to POs",
+      "Supplier portal for quotes, contract updates and order tracking",
+      "Real-time sync of financial and inventory data with BC"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Energy & Resources",
+      "Professional Services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

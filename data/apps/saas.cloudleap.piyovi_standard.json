@@ -1,0 +1,70 @@
+{
+  "appId": "cloudleap.piyovi_standard",
+  "guid": null,
+  "publisherId": "cloudleap",
+  "offerId": "piyovi_standard",
+  "source": {
+    "name": "Piyovi Multi-Carrier Shipping for Dynamics F&O and Business Central by CloudLeap",
+    "publisher": "CloudLeap",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/cloudleap.piyovi_standard",
+    "lastModified": "2025-12-19T10:47:34.3180253+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:e109349088c884bf3bc60938dc78609f9b22196773ebd7af2b9ddca030d19609"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e109349088c884bf3bc60938dc78609f9b22196773ebd7af2b9ddca030d19609",
+    "mappedOn": "2026-10-07",
+    "summary": "Multi-carrier shipping platform for rating, labels, tracking and freight invoice audit with BC.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-freight-cost-audit",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-conn-3pl"
+    ],
+    "claims": [
+      "Rate shopping across carriers",
+      "Parcel, LTL, international, dangerous goods and 3PL shipments",
+      "Prints labels, BOLs and carrier documents",
+      "Real-time tracking with proof of delivery",
+      "Address validation",
+      "Carrier pickup requests",
+      "Spot quotes",
+      "Carrier invoice audit",
+      "AESDirect filing for US exports",
+      "Rules auto-select the ship method",
+      "Holds SOC 2 Type II certification",
+      "Prebuilt connectors for BC and Finance & Operations",
+      "Offers REST API and webhook access",
+      "24/7 support"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 Finance & Operations"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

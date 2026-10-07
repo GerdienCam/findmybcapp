@@ -1,0 +1,68 @@
+{
+  "appId": "maxtrino.mxd365bc-saas-standard",
+  "guid": null,
+  "publisherId": "maxtrino",
+  "offerId": "mxd365bc-saas-standard",
+  "source": {
+    "name": "MX Connector for Dynamics 365 Business Central",
+    "publisher": "Maxtrino",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/maxtrino.mxd365bc-saas-standard",
+    "lastModified": "2025-12-21T08:23:54.000795+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:94800c5fea10a7e0ff631dea3d757177503a8a3f7079511f6ca588948d9d1518"
+  },
+  "mapping": {
+    "sourceHash": "sha256:94800c5fea10a7e0ff631dea3d757177503a8a3f7079511f6ca588948d9d1518",
+    "mappedOn": "2026-10-07",
+    "summary": "Automates Italian SdI e-invoice intake and issuing, with matching and posting in Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing",
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Receives e-invoices or PDFs automatically",
+      "Extracts data and creates a customizable courtesy invoice",
+      "Checks consistency between order, delivery note and invoice",
+      "Posts to Business Central with automatic ledger entries",
+      "Digital archive in company DMS or Maxtrino archive",
+      "Centralizes sales invoicing from local systems in multi-company groups",
+      "Sends invoices to the SdI exchange system"
+    ],
+    "countries": [
+      "IT"
+    ],
+    "languages": [
+      "it"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "SdI"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "appId": "PUBID.succeedit_5140844|AID.bitlog_container_connector|PAPPID.3f1a2c7e-9d45-4b8f-a6e0-12c3d4e5f678",
+  "guid": "3f1a2c7e-9d45-4b8f-a6e0-12c3d4e5f678",
+  "publisherId": "succeedit_5140844",
+  "offerId": "bitlog_container_connector",
+  "source": {
+    "name": "Container Planner Connector for Bitlog",
+    "publisher": "SucceedIT B.V.",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.succeedit_5140844%7CAID.bitlog_container_connector%7CPAPPID.3f1a2c7e-9d45-4b8f-a6e0-12c3d4e5f678",
+    "lastModified": "2026-10-05T09:17:12.9929147+00:00",
+    "appVersion": "28.0.20260706.9",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.succeedit.nl/business-central-apps/container-planner/",
+    "sourceHash": "sha256:6bc96792d938c87c7929833154c6d1453ceab8c6f03e67addf4d7cf5550c493b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:6bc96792d938c87c7929833154c6d1453ceab8c6f03e67addf4d7cf5550c493b",
+    "mappedOn": "2026-10-07",
+    "summary": "Connects BC with Bitlog WMS for container-based purchase receipts and order status",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Master data like customers, items and terms flow from BC to Bitlog",
+      "Groups purchase lines into a container sent to Bitlog",
+      "Bitlog received quantities posted as BC receipts",
+      "Bitlog status and confirmed date shown on sales lines",
+      "Every sync logged with request, response and retry",
+      "Safe retries without duplicates"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Bitlog WMS"
+    ],
+    "requires": [
+      "Succeedit Container Planner"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

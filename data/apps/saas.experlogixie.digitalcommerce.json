@@ -1,0 +1,62 @@
+{
+  "appId": "experlogixie.digitalcommerce",
+  "guid": null,
+  "publisherId": "experlogixie",
+  "offerId": "digitalcommerce",
+  "source": {
+    "name": "Digital Commerce\\Ecommerce Platform from Experlogix",
+    "publisher": "Experlogix IE",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/experlogixie.digitalcommerce",
+    "lastModified": "2026-02-20T07:05:15.9036814+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:45618f1b0017516c0425158327728d4f3920f52942bba77b5ae1e01ee4da93bf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:45618f1b0017516c0425158327728d4f3920f52942bba77b5ae1e01ee4da93bf",
+    "mappedOn": "2026-10-07",
+    "summary": "Hosted B2B ecommerce site and mobile ordering apps fed by Business Central data",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Runs as a SaaS service with no infrastructure to maintain",
+      "Customers order online without contacting sales",
+      "Search filters on keyword, SKU, brand and product name",
+      "Shows related and suggested products",
+      "Real-time data exchange with Business Central or F&O",
+      "Mobile apps let reps and customers view accounts and place orders"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 Finance and Operations"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

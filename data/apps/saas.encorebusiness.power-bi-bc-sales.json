@@ -1,0 +1,55 @@
+{
+  "appId": "encorebusiness.power-bi-bc-sales",
+  "guid": null,
+  "publisherId": "encorebusiness",
+  "offerId": "power-bi-bc-sales",
+  "source": {
+    "name": "Power BI for Business Central - Sales",
+    "publisher": "Encore Business Solutions",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/encorebusiness.power-bi-bc-sales",
+    "lastModified": "2025-12-21T22:44:30.0710186+00:00",
+    "appVersion": "v1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:42dbdb45d5a5ea32b33e0e92597fe6349adab8c18a759a5c9e8d17f1e75f2b7e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:42dbdb45d5a5ea32b33e0e92597fe6349adab8c18a759a5c9e8d17f1e75f2b7e",
+    "mappedOn": "2026-10-07",
+    "summary": "Power BI app for BC sales and receivables analysis.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-sales-analytics",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Covers sales and accounts receivable",
+      "Eight dimensions available in the filters pane",
+      "Star schema model for performance and refresh"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

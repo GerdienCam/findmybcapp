@@ -1,0 +1,62 @@
+{
+  "appId": "cioadvise1589999092466.aivelocity-command-center",
+  "guid": null,
+  "publisherId": "cioadvise1589999092466",
+  "offerId": "aivelocity-command-center",
+  "source": {
+    "name": "AIVelocity Command Center",
+    "publisher": "CIO Advise",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/cioadvise1589999092466.aivelocity-command-center",
+    "lastModified": "2026-07-01T09:48:26.0815544+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:1f9a6c2a01c7cf2d44ac3b55b055b27f3771ba9c0cb20b919d0ba0f3baf63fb9"
+  },
+  "mapping": {
+    "sourceHash": "sha256:1f9a6c2a01c7cf2d44ac3b55b055b27f3771ba9c0cb20b919d0ba0f3baf63fb9",
+    "mappedOn": "2026-10-07",
+    "summary": "AI executive dashboards per role from BC, D365 Sales, Finance and Project Operations data.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-goals-scorecards"
+    ],
+    "claims": [
+      "Native connectors for BC, D365 Sales, D365 Finance and Project Operations",
+      "Separate dashboards for CEO, CFO, COO and CMO",
+      "CFO view covers cash, AR aging and margin",
+      "Each insight shows confidence score and reasoning",
+      "Recommended actions go through human approval",
+      "AI runs in AWS Bedrock in a private VPC",
+      "Full audit trail of AI calls and actions",
+      "Users sign in with Microsoft Entra ID"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 Sales",
+      "Dynamics 365 Finance",
+      "Dynamics 365 Project Operations"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

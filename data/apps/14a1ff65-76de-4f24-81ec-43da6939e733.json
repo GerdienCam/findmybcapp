@@ -6,18 +6,19 @@
   "source": {
     "name": "Product Quality Assurance",
     "publisher": "EOS Solutions",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eos_solutions%7CAID.ex061_productqqualityassurance%7CPAPPID.14a1ff65-76de-4f24-81ec-43da6939e733",
-    "lastModified": "2026-06-04T13:53:36.9850251+00:00",
+    "lastModified": "2026-10-02T18:05:08.6900535+00:00",
     "appVersion": "28.0.16.0",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://docs.eos-solutions.it/en/docs/apps-func/product-quality-assurance.html",
-    "sourceHash": "sha256:8159fe9b3a8beb1efbc67df30872c43bd3d18817e60a0551a46938bae5008436"
+    "sourceHash": "sha256:33c0aef010faeeee09638aa65e7d6b1b807c8588c5ca708f0a0f21367899b46e"
   },
   "mapping": {
-    "sourceHash": "sha256:8159fe9b3a8beb1efbc67df30872c43bd3d18817e60a0551a46938bae5008436",
-    "mappedOn": null,
-    "summary": "Quality inspection plans for raw materials and finished goods",
+    "sourceHash": "sha256:33c0aef010faeeee09638aa65e7d6b1b807c8588c5ca708f0a0f21367899b46e",
+    "mappedOn": "2026-10-07",
+    "summary": "Quality inspection plans and orders at receipt, production and shipment, with non-compliance and vendor rating",
     "shape": "process",
     "primary": [
       {
@@ -25,23 +26,23 @@
         "confidence": "high"
       },
       {
+        "need": "ng-nonconformance-capa",
+        "confidence": "medium"
+      },
+      {
         "need": "ng-supplier-quality-compliance",
         "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-nonconformance-capa"
-    ],
+    "secondary": [],
     "claims": [
-      "Inspects quality of finished goods, semi-finished goods and raw materials",
+      "AI agent reads incoming emails and starts quality processes",
+      "Inspection of raw materials, semi-finished and finished goods",
       "Manages inspection devices",
-      "Inspection plans, inspection orders and recording results",
-      "Quality checks at receiving, production and shipment",
-      "Automatically generates inspection orders from plans and test types",
-      "Auto-creates non-compliance when parameters are out of range",
-      "Vendor rating from scores on date, quantity and quality",
-      "Navigate to source documents behind inspection orders and non-compliances",
-      "Supports Essential and Premium editions"
+      "Auto-generates inspection orders from plans and test types",
+      "Creates non-compliance when values are out of range",
+      "Vendor rating from date, quantity and quality scores",
+      "Free version, then yearly subscription"
     ],
     "countries": [],
     "languages": [
@@ -52,15 +53,15 @@
       "fi",
       "fr",
       "it",
-      "nb",
       "nl",
+      "no",
       "sv"
     ],
     "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "free_trial",
+    "pricing": "subscription",
     "hide": false,
     "hideReason": "",
     "noFit": ""

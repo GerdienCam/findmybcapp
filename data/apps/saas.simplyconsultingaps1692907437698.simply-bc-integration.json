@@ -1,0 +1,59 @@
+{
+  "appId": "simplyconsultingaps1692907437698.simply-bc-integration",
+  "guid": null,
+  "publisherId": "simplyconsultingaps1692907437698",
+  "offerId": "simply-bc-integration",
+  "source": {
+    "name": "Simply CRM – Business Central Integration (SaaS)",
+    "publisher": "Simply Consulting ApS",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/simplyconsultingaps1692907437698.simply-bc-integration",
+    "lastModified": "2025-12-21T10:16:00.6140203+00:00",
+    "appVersion": "1.0",
+    "pricingTypes": [
+      "Free",
+      "FreeTrial"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:887de97dabefe3a5fc6724411518377462172a72f1f7229e643e3c0ac5ae6ea7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:887de97dabefe3a5fc6724411518377462172a72f1f7229e643e3c0ac5ae6ea7",
+    "mappedOn": "2026-10-07",
+    "summary": "Syncs contacts, companies, invoices and payments between BC and Simply CRM",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Syncs contacts, companies, invoices and payments",
+      "Shows customer status and financials inside Simply CRM",
+      "Requires Simply CRM and BC API access",
+      "No extra cost with a Simply CRM Enterprise account"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Simply CRM"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

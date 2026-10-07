@@ -1,0 +1,64 @@
+{
+  "appId": "PUBID.appower|AID.pwr_rp|PAPPID.f4b84135-07d7-4d73-8aa3-19fa2580b449",
+  "guid": "f4b84135-07d7-4d73-8aa3-19fa2580b449",
+  "publisherId": "appower",
+  "offerId": "pwr_rp",
+  "source": {
+    "name": "Returnable Packaging",
+    "publisher": "APPower",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.appower%7CAID.pwr_rp%7CPAPPID.f4b84135-07d7-4d73-8aa3-19fa2580b449",
+    "lastModified": "2026-10-05T10:48:14.3167961+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://docs.appower.io/",
+    "sourceHash": "sha256:9fd8a0ac5e7e47497337151faaaedafad53eb925a2970579f19dd6963d13f1dc"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9fd8a0ac5e7e47497337151faaaedafad53eb925a2970579f19dd6963d13f1dc",
+    "mappedOn": "2026-10-07",
+    "summary": "Tracks returnable packaging receipts, issues, transfers and returns across own and customer locations",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-consignment",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-stock-movements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Registers incoming packaging as receipts at the receiving location",
+      "Packaging issues recorded within sales order and sales shipment",
+      "Transfers between own BC locations",
+      "Transfers between customer locations, e.g. store to store",
+      "Returns from customers including courier collections",
+      "Balances per own location and per customer location",
+      "Supports Essentials and Premium"
+    ],
+    "countries": [],
+    "languages": [
+      "en",
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

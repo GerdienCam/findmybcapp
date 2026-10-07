@@ -1,0 +1,64 @@
+{
+  "appId": "columbtechnologiessa1592222598605.biala_lista_2",
+  "guid": null,
+  "publisherId": "columbtechnologiessa1592222598605",
+  "offerId": "biala_lista_2",
+  "source": {
+    "name": "Whitelist API - biała lista kont bankowych",
+    "publisher": "Columb Technologies S.A.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/columbtechnologiessa1592222598605.biala_lista_2",
+    "lastModified": "2025-12-24T05:26:41.7014212+00:00",
+    "appVersion": "1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:837e6a063e33059b699b105f909680df262aa21c35ae4cdccc6338dd6344b3fd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:837e6a063e33059b699b105f909680df262aa21c35ae4cdccc6338dd6344b3fd",
+    "mappedOn": "2026-10-07",
+    "summary": "API and Excel add-in that checks supplier bank accounts against Poland's VAT whitelist.",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding"
+    ],
+    "claims": [
+      "API to check counterparties' bank accounts from any ERP including Dynamics and Navision",
+      "No limit on number of queries",
+      "Uses Ministry of Finance flat-file data",
+      "Excel add-in for bulk account checks",
+      "Checks virtual bank accounts",
+      "Full audit log of checks"
+    ],
+    "countries": [
+      "PL"
+    ],
+    "languages": [
+      "pl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

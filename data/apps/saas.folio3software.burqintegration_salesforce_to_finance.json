@@ -1,0 +1,54 @@
+{
+  "appId": "folio3software.burqintegration_salesforce_to_finance",
+  "guid": null,
+  "publisherId": "folio3software",
+  "offerId": "burqintegration_salesforce_to_finance",
+  "source": {
+    "name": "Salesforce Integration for Dynamics 365 - BURQ iPaaS",
+    "publisher": "Folio3 Software Inc.,",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/folio3software.burqintegration_salesforce_to_finance",
+    "lastModified": "2025-12-17T10:58:49.5750085+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:baf820530bd5c42eafe89cfde58409ce44bd8c7f0b41bd790fdf5b824cd250b4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:baf820530bd5c42eafe89cfde58409ce44bd8c7f0b41bd790fdf5b824cd250b4",
+    "mappedOn": "2026-10-07",
+    "summary": "iPaaS connector syncing Salesforce CRM data with Dynamics 365, including Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs leads, opportunities and customer data",
+      "Syncs accounts, contacts, products and price lists",
+      "Supports data migration from Salesforce",
+      "One-time installation fee plus annual renewal, no per-transaction fees"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Salesforce"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

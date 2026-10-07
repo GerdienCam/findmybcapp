@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.zentriqsoftware|AID.zentriq-capture|PAPPID.1ffafeb7-8e95-43bb-b8b9-fc6ed3618b95",
+  "guid": "1ffafeb7-8e95-43bb-b8b9-fc6ed3618b95",
+  "publisherId": "zentriqsoftware",
+  "offerId": "zentriq-capture",
+  "source": {
+    "name": "Zentriq Capture",
+    "publisher": "Zentriq Software",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.zentriqsoftware%7CAID.zentriq-capture%7CPAPPID.1ffafeb7-8e95-43bb-b8b9-fc6ed3618b95",
+    "lastModified": "2026-10-06T14:34:35.361583+00:00",
+    "appVersion": "1.0.0.29",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://www.zentriqsoftware.com/docs/install-capture",
+    "sourceHash": "sha256:eb5ac43ee24eb4739b1d507effd50ca49f70a513886b0718ae96f11faa9f5d51"
+  },
+  "mapping": {
+    "sourceHash": "sha256:eb5ac43ee24eb4739b1d507effd50ca49f70a513886b0718ae96f11faa9f5d51",
+    "mappedOn": "2026-10-07",
+    "summary": "Emailed vendor invoices read by AI, matched to vendors and accounts, checked, then registered",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-loc-einvoicing"
+    ],
+    "claims": [
+      "Invoices forwarded to a company-specific email address",
+      "Reads header, lines, vendor, VAT, IBAN and Swiss QR-bill from PDFs and images",
+      "Reads UBL, CII and Factur-X/ZUGFeRD e-invoices from their data",
+      "Vendor matched by VAT number, IBAN or name; lines placed on items or G/L accounts",
+      "Checks totals, VAT, bank account, duplicates and postability",
+      "Creates invoice or credit memo with PDF attached but never posts",
+      "Learns line placement per vendor",
+      "Role Center tiles for arrived, pending and failed documents",
+      "Free signup with 8 documents, then monthly document packs",
+      "Not available in the US, Canada and Mexico"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Zentriq"
+    ],
+    "requires": [
+      "Zentriq account"
+    ],
+    "deployment": "not_stated",
+    "pricing": "per_transaction",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

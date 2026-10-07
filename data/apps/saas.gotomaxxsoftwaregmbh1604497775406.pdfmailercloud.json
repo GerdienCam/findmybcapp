@@ -1,0 +1,69 @@
+{
+  "appId": "gotomaxxsoftwaregmbh1604497775406.pdfmailercloud",
+  "guid": null,
+  "publisherId": "gotomaxxsoftwaregmbh1604497775406",
+  "offerId": "pdfmailercloud",
+  "source": {
+    "name": "PDFMAILER.CLOUD eInvoice XRechnung ZUGFeRD",
+    "publisher": "gotomaxx software GmbH",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/gotomaxxsoftwaregmbh1604497775406.pdfmailercloud",
+    "lastModified": "2025-12-24T09:55:54.4771487+00:00",
+    "appVersion": "7.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:9cd2228625ab4a4150e2576a03b06c13d65cb284ba37f8e1d117d722785240b6"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9cd2228625ab4a4150e2576a03b06c13d65cb284ba37f8e1d117d722785240b6",
+    "mappedOn": "2026-10-07",
+    "summary": "Hosted dispatch service creating XRechnung and ZUGFeRD e-invoices and sending business mail",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-document-layouts"
+    ],
+    "claims": [
+      "Creates XRechnung and ZUGFeRD e-invoices from a printout",
+      "PDF invoices with letterhead, optional PDF/A",
+      "Postal letters via a print centre, including registered mail",
+      "Handles single mails and large invoice runs",
+      "Multi-client letterheads, attachments and pay-by-link",
+      "Integrates via print, spool and REST interfaces",
+      "Supports Essentials and Premium editions and NAV",
+      "Available in German and English"
+    ],
+    "countries": [
+      "AT",
+      "CH",
+      "DE"
+    ],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

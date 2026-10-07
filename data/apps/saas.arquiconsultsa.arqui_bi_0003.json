@@ -1,0 +1,59 @@
+{
+  "appId": "arquiconsultsa.arqui_bi_0003",
+  "guid": null,
+  "publisherId": "arquiconsultsa",
+  "offerId": "arqui_bi_0003",
+  "source": {
+    "name": "B!Finance for Dynamics 365 Business Central",
+    "publisher": "ARQUICONSULT SA",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/arquiconsultsa.arqui_bi_0003",
+    "lastModified": "2025-12-20T00:48:20.9560478+00:00",
+    "appVersion": "1.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:e57f9e07b649d7c265c80a0b5b72e9916ecf9dcd51829d900a39b0fe0ff3f7cd"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e57f9e07b649d7c265c80a0b5b72e9916ecf9dcd51829d900a39b0fe0ff3f7cd",
+    "mappedOn": "2026-10-07",
+    "summary": "Power BI finance analytics package on top of Business Central data.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-budget-vs-actual",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cost-allocation",
+      "ng-financial-statements"
+    ],
+    "claims": [
+      "Built on Power BI for BC finance data",
+      "Covers financial performance, budgets, costs, investment ROI and risk",
+      "Highlights cost inefficiencies and deviations from financial goals",
+      "Supports planning and simulating financial scenarios"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

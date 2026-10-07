@@ -1,0 +1,57 @@
+{
+  "appId": "dynaexpertsconsultingllp1589289864493.offer_01",
+  "guid": null,
+  "publisherId": "dynaexpertsconsultingllp1589289864493",
+  "offerId": "offer_01",
+  "source": {
+    "name": "Auto Shipment Alert from D365 Business Central",
+    "publisher": "DynaExperts",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/dynaexpertsconsultingllp1589289864493.offer_01",
+    "lastModified": "2025-12-18T06:04:52.4600637+00:00",
+    "appVersion": "1.0.0.8",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:913dbf01a7c0c1fc5f7aa50234412ef9a066b15d2f12c27d918160999e65832d"
+  },
+  "mapping": {
+    "sourceHash": "sha256:913dbf01a7c0c1fc5f7aa50234412ef9a066b15d2f12c27d918160999e65832d",
+    "mappedOn": "2026-10-07",
+    "summary": "Emails customers a tracking link automatically when a sales shipment is posted.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-case-customer-updates"
+    ],
+    "claims": [
+      "Email sent on each posted sales shipment",
+      "Email includes a package tracking URL",
+      "Needs only basic setup before activation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

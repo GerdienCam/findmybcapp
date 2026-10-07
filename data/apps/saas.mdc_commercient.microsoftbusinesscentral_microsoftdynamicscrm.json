@@ -1,0 +1,54 @@
+{
+  "appId": "mdc_commercient.microsoftbusinesscentral_microsoftdynamicscrm",
+  "guid": null,
+  "publisherId": "mdc_commercient",
+  "offerId": "microsoftbusinesscentral_microsoftdynamicscrm",
+  "source": {
+    "name": "Commercient Business Central Sync To Dynamics CRM",
+    "publisher": "Commercient - SYNC",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/mdc_commercient.microsoftbusinesscentral_microsoftdynamicscrm",
+    "lastModified": "2025-12-24T17:47:28.1884336+00:00",
+    "appVersion": "1.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:e97dbdadf7ecf784925c99ac156ba908e5a1f75e587c8d0d863ebfe987e9fddb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e97dbdadf7ecf784925c99ac156ba908e5a1f75e587c8d0d863ebfe987e9fddb",
+    "mappedOn": "2026-10-07",
+    "summary": "Cloud sync between ERP data and Dynamics 365 CRM; listing body describes Exact Globe",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "One-way or two-way data sync",
+      "No ETL, mapping or coding required",
+      "Syncs invoices, customers, products, opportunities and orders"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 CRM",
+      "Exact Globe"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

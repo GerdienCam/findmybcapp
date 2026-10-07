@@ -1,0 +1,58 @@
+{
+  "appId": "adi_data_international-1255630.shipforma",
+  "guid": null,
+  "publisherId": "adi_data_international-1255630",
+  "offerId": "shipforma",
+  "source": {
+    "name": "ShipForma Shipping Documentation",
+    "publisher": "SmartBOL",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/adi_data_international-1255630.shipforma",
+    "lastModified": "2026-04-13T07:44:29.0892193+00:00",
+    "appVersion": "1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:fa8f48c52d82b5b38c556fab0995544e33573fa15493e8c08d4d835e2b519ebb"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fa8f48c52d82b5b38c556fab0995544e33573fa15493e8c08d4d835e2b519ebb",
+    "mappedOn": "2026-10-07",
+    "summary": "Electronic bill of lading service with driver e-signatures and digital document storage",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-shipping-carriers",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-conn-esignature",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Creates VICS and master bills of lading",
+      "Captures driver signatures on devices and applies them to documents",
+      "Electronic repository for remote on-demand access",
+      "Integrates with Business Central"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

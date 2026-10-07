@@ -1,0 +1,62 @@
+{
+  "appId": "ugma.ugma_invoices_paytrace",
+  "guid": null,
+  "publisherId": "ugma",
+  "offerId": "ugma_invoices_paytrace",
+  "source": {
+    "name": "ugma invoice PayTrace - BC",
+    "publisher": "ugma",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/ugma.ugma_invoices_paytrace",
+    "lastModified": "2026-02-24T04:05:11.8870377+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:3bf8a06223064d55424769ab5c8391bc443f9e5087422016e5689e35bee1138a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3bf8a06223064d55424769ab5c8391bc443f9e5087422016e5689e35bee1138a",
+    "mappedOn": "2026-10-07",
+    "summary": "Line-level traceability of how invoices were paid, by bank account, vendor and dimension",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance",
+      "ng-cost-allocation"
+    ],
+    "claims": [
+      "Shows which products or services each payment settled",
+      "Records payment date, posting info, bank account and payment reference",
+      "Includes tax amounts and vendor details per payment",
+      "Dimension data at transaction level",
+      "Filters by date, bank account or vendor",
+      "Analysis by project, cost center or department",
+      "Audit-ready detailed reports"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

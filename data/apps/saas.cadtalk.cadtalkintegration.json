@@ -1,0 +1,66 @@
+{
+  "appId": "cadtalk.cadtalkintegration",
+  "guid": null,
+  "publisherId": "cadtalk",
+  "offerId": "cadtalkintegration",
+  "source": {
+    "name": "CADTALK CAD Integration to Business Central",
+    "publisher": "CADTALK",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/cadtalk.cadtalkintegration",
+    "lastModified": "2025-12-18T21:24:11.3951135+00:00",
+    "appVersion": "3.14.655.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:f5e7b1f7b7f0dbba87049b779e2d9560009d24593be0fca5d7f7b78a07d1214b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f5e7b1f7b7f0dbba87049b779e2d9560009d24593be0fca5d7f7b78a07d1214b",
+    "mappedOn": "2026-10-07",
+    "summary": "Turns CAD, PDM or PLM engineering BOMs into BC items, manufacturing BOMs and routings.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters"
+    ],
+    "claims": [
+      "Uses AI to convert engineering BOMs to manufacturing BOMs and routings",
+      "Creates items, inventory records, BOMs and routings when parts are designed or revised",
+      "Routings include labor operations, cycle times and scrap percentages",
+      "Can choose best vendor and warehouse location for items",
+      "Creates stockkeeping records per location",
+      "Also works with Dynamics 365 Finance"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "CAD",
+      "PDM",
+      "PLM"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

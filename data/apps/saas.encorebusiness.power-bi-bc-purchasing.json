@@ -1,0 +1,55 @@
+{
+  "appId": "encorebusiness.power-bi-bc-purchasing",
+  "guid": null,
+  "publisherId": "encorebusiness",
+  "offerId": "power-bi-bc-purchasing",
+  "source": {
+    "name": "Power BI for Business Central - Purchasing",
+    "publisher": "Encore Business Solutions",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/encorebusiness.power-bi-bc-purchasing",
+    "lastModified": "2025-12-22T14:23:20.6284411+00:00",
+    "appVersion": "v1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:e533b33cde2a50f5e781d8b5e0d6da65e4235f88caced1557be9a8efc7411c84"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e533b33cde2a50f5e781d8b5e0d6da65e4235f88caced1557be9a8efc7411c84",
+    "mappedOn": "2026-10-07",
+    "summary": "Power BI app for BC purchase order and payables analysis.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-procurement-spend",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Covers purchase orders and accounts payable",
+      "Eight dimensions available in the filters pane",
+      "Star schema model for performance and refresh"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

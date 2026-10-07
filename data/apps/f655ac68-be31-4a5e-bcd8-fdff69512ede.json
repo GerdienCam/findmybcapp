@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.duvekagmbh1711374674329|AID.0033|PAPPID.f655ac68-be31-4a5e-bcd8-fdff69512ede",
+  "guid": "f655ac68-be31-4a5e-bcd8-fdff69512ede",
+  "publisherId": "duvekagmbh1711374674329",
+  "offerId": "0033",
+  "source": {
+    "name": "duveka PPWR Supplier Portal",
+    "publisher": "duveka GmbH",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.duvekagmbh1711374674329%7CAID.0033%7CPAPPID.f655ac68-be31-4a5e-bcd8-fdff69512ede",
+    "lastModified": "2026-10-05T10:02:51.3585548+00:00",
+    "appVersion": "26.2.0.28468",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://duveka.de/",
+    "sourceHash": "sha256:ca115793d47c17bca9ef8a53573281039cfe09ad43f621332cc54e5fcfda811e"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ca115793d47c17bca9ef8a53573281039cfe09ad43f621332cc54e5fcfda811e",
+    "mappedOn": "2026-10-07",
+    "summary": "Requests and collects EU PPWR packaging declarations from suppliers via a portal",
+    "shape": "addon",
+    "primary": [
+      {
+        "need": "ng-loc-epr-packaging",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-quality-compliance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "Request a supplier declaration from the packaging type, pre-filled",
+      "Proposes the main material supplier automatically",
+      "Supplier portal answers are written back as data",
+      "Uploaded supplier documents filed as compliance documents",
+      "Optional automatic adoption as new version and compliance check",
+      "Reports whether declaration is signed, binding and has material lines"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "duveka PPWR Compliance",
+      "duveka Supplier Portal"
+    ],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

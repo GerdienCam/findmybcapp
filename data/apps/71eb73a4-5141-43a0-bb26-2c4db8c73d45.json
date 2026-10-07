@@ -1,0 +1,55 @@
+{
+  "appId": "PUBID.tinx-it|AID.tinx-integration-suite|PAPPID.71eb73a4-5141-43a0-bb26-2c4db8c73d45",
+  "guid": "71eb73a4-5141-43a0-bb26-2c4db8c73d45",
+  "publisherId": "tinx-it",
+  "offerId": "tinx-integration-suite",
+  "source": {
+    "name": "Tinx Integration Agent",
+    "publisher": "Tinx-IT",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.tinx-it%7CAID.tinx-integration-suite%7CPAPPID.71eb73a4-5141-43a0-bb26-2c4db8c73d45",
+    "lastModified": "2026-10-05T12:29:51.6765749+00:00",
+    "appVersion": "28.1.1.151",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://support.tinx-it.com/",
+    "sourceHash": "sha256:902eea28964e2674f71864ec6a41f1ecd6495e3f450c4d75059e35c8d3e4a232"
+  },
+  "mapping": {
+    "sourceHash": "sha256:902eea28964e2674f71864ec6a41f1ecd6495e3f450c4d75059e35c8d3e4a232",
+    "mappedOn": "2026-10-07",
+    "summary": "Generic integration agent connecting BC to CRM, webshop, WMS and service systems via GraphQL/REST",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-crm",
+      "ng-conn-webshop"
+    ],
+    "claims": [
+      "Integrates CRM, e-commerce, WMS and customer service software",
+      "Uses GraphQL and REST APIs",
+      "Real-time data synchronization",
+      "UI to map fields, configure workflows and monitor status"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

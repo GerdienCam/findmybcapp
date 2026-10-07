@@ -1,0 +1,70 @@
+{
+  "appId": "meboshpk1766268296644.mebo_erp_ai",
+  "guid": null,
+  "publisherId": "meboshpk1766268296644",
+  "offerId": "mebo_erp_ai",
+  "source": {
+    "name": "MeBoAI ERP — AI-Powered AP & ERP Automation",
+    "publisher": "MeBo",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/meboshpk1766268296644.mebo_erp_ai",
+    "lastModified": "2026-05-25T10:26:16.0020857+00:00",
+    "appVersion": "1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:f205370d153d2d5233fbfaec729bac6faa09ff5ce9d016ccb358a121951bc003"
+  },
+  "mapping": {
+    "sourceHash": "sha256:f205370d153d2d5233fbfaec729bac6faa09ff5ce9d016ccb358a121951bc003",
+    "mappedOn": "2026-10-07",
+    "summary": "AI AP automation for Business Central: invoice extraction, 3-way match, approvals and payment runs",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-ai-assistant",
+      "ng-audit-compliance",
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "Syncs vendors, POs, invoices, receipts and credit memos with BC via OData",
+      "GPT-4o field extraction from PDF, DOCX and images",
+      "3-way match with configurable approval rules",
+      "Approve, reject or escalate invoices by chat",
+      "Fraud and anomaly alerts",
+      "VAT compliance and tax code validation",
+      "AI expense categorization with tax deductibility",
+      "Includes an n8n engine for custom workflows",
+      "Works with BC cloud or on-prem with API access",
+      "Mostly no per-user pricing"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SAP",
+      "Oracle",
+      "NetSuite"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

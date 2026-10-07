@@ -6,18 +6,21 @@
   "source": {
     "name": "Wisefish Quality Cross-Company Connector",
     "publisher": "Wisefish",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wisefish1707821097531%7CAID.wisefishqualitycrosscompanyconnector%7CPAPPID.72d7c2dd-ef9d-4591-8074-1d31bfa3281f",
-    "lastModified": "2026-03-31T18:13:08.7259498+00:00",
-    "appVersion": "24.1.20260331.21",
-    "pricingTypes": [],
+    "lastModified": "2026-10-02T13:20:27.7006484+00:00",
+    "appVersion": "27.1.20261002.29",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.wisefish.com/contact",
-    "sourceHash": "sha256:9a337b06b94419358d5ff26cbc60717293e810c5c230b6c2097498fc65fae006"
+    "sourceHash": "sha256:4d5be16b2b63c578a577f2de846196842648d9bbfc2e8c6aa88ed0fe07124f57"
   },
   "mapping": {
-    "sourceHash": "sha256:9a337b06b94419358d5ff26cbc60717293e810c5c230b6c2097498fc65fae006",
-    "mappedOn": null,
-    "summary": "Connects Wisefish Quality with cross-company solution",
+    "sourceHash": "sha256:4d5be16b2b63c578a577f2de846196842648d9bbfc2e8c6aa88ed0fe07124f57",
+    "mappedOn": "2026-10-07",
+    "summary": "Links Wisefish Quality with the Wisefish cross-company solution",
     "shape": "addon",
     "primary": [
       {
@@ -33,13 +36,10 @@
       "ng-intercompany-consolidation"
     ],
     "claims": [
-      "Connects Wisefish Quality with the Wisefish Cross-Company solution",
-      "User-defined quality inspections",
-      "Supports HACCP (Hazard Analysis and Critical Control Points)",
-      "Lets users define their own quality inspection parameters",
-      "Applies quality controls to produced goods and production lots",
-      "Suitable for fish, meat, dairy and beverage producers",
-      "Supports Essential and Premium editions"
+      "User-defined quality inspection parameters",
+      "Supports HACCP",
+      "Quality controls on produced goods and production lots",
+      "Suits fish, meat, dairy and beverage producers"
     ],
     "countries": [
       "DK",
@@ -51,21 +51,14 @@
       "en",
       "is"
     ],
-    "industries": [
-      "Food and beverage",
-      "Seafood"
-    ],
-    "connectsTo": [
-      "Wisefish Quality",
-      "Wisefish Cross-Company"
-    ],
+    "industries": [],
+    "connectsTo": [],
     "requires": [
-      "Wisefish",
       "Wisefish Quality",
       "Wisefish Cross-Company"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

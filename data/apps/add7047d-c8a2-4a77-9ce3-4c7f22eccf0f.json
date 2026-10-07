@@ -6,18 +6,21 @@
   "source": {
     "name": "Wisefish Quality Fishing and Quota Connector",
     "publisher": "Wisefish",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wisefish1707821097531%7CAID.wisefishqualityfishingquotaconnector%7CPAPPID.add7047d-c8a2-4a77-9ce3-4c7f22eccf0f",
-    "lastModified": "2026-03-31T18:13:18.7706801+00:00",
-    "appVersion": "24.1.20260331.21",
-    "pricingTypes": [],
+    "lastModified": "2026-10-02T13:19:36.2308632+00:00",
+    "appVersion": "27.1.20261002.29",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.wisefish.com/contact",
-    "sourceHash": "sha256:50f4231c2bfe9c5c0b0e04028098095bd3fa3378f66aecd7d4aa30b64b711341"
+    "sourceHash": "sha256:41e8a1fdd49bae9aea31e7fd7d6f87efda82c13ad85c11fac573f36aa7d39ea4"
   },
   "mapping": {
-    "sourceHash": "sha256:50f4231c2bfe9c5c0b0e04028098095bd3fa3378f66aecd7d4aa30b64b711341",
-    "mappedOn": null,
-    "summary": "Quality inspections and quota connector for Wisefish",
+    "sourceHash": "sha256:41e8a1fdd49bae9aea31e7fd7d6f87efda82c13ad85c11fac573f36aa7d39ea4",
+    "mappedOn": "2026-10-07",
+    "summary": "Links Wisefish Quality with the Wisefish fishing and quota solution",
     "shape": "addon",
     "primary": [
       {
@@ -29,17 +32,12 @@
         "confidence": "medium"
       }
     ],
-    "secondary": [
-      "ng-vert-food-beverage"
-    ],
+    "secondary": [],
     "claims": [
-      "Connects Wisefish Quality with the Wisefish Fishing and Quota solution",
-      "User-defined quality inspections",
-      "Supports HACCP (Hazard Analysis and Critical Control Points)",
-      "Lets users define their own quality inspection parameters",
-      "Applies quality controls to produced goods and production lots",
-      "Suitable for fish, meat, dairy and beverage producers",
-      "Supports Essential and Premium editions"
+      "User-defined quality inspection parameters",
+      "Supports HACCP",
+      "Quality controls on produced goods and production lots",
+      "Suits fish, meat, dairy and beverage producers"
     ],
     "countries": [
       "DK",
@@ -51,20 +49,14 @@
       "en",
       "is"
     ],
-    "industries": [
-      "Food and beverage",
-      "Seafood"
-    ],
-    "connectsTo": [
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
       "Wisefish Quality",
       "Wisefish Fishing and Quota"
     ],
-    "requires": [
-      "Wisefish",
-      "Wisefish Quality"
-    ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

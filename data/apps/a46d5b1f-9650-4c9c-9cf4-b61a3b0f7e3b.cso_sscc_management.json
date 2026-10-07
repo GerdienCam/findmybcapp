@@ -1,0 +1,100 @@
+{
+  "appId": "PUBID.centralsolutions1591256491708|AID.cso_sscc_management|PAPPID.a46d5b1f-9650-4c9c-9cf4-b61a3b0f7e3b",
+  "guid": "a46d5b1f-9650-4c9c-9cf4-b61a3b0f7e3b",
+  "publisherId": "centralsolutions1591256491708",
+  "offerId": "cso_sscc_management",
+  "source": {
+    "name": "CS SSCC Management",
+    "publisher": "Central Solutions",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cso_sscc_management%7CPAPPID.a46d5b1f-9650-4c9c-9cf4-b61a3b0f7e3b",
+    "lastModified": "2026-10-06T12:57:16.0779395+00:00",
+    "appVersion": "28.1.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://central-solutions.nl/cs-sscc-management-help-en/",
+    "sourceHash": "sha256:d27151aafea04c0a35fb61d04cfe807d587a66b8570f7402f1268bc1c4801de7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:d27151aafea04c0a35fb61d04cfe807d587a66b8570f7402f1268bc1c4801de7",
+    "mappedOn": "2026-10-07",
+    "summary": "Assigns GS1 SSCC numbers and labels to pallets, parcels and containers on receipts and shipments",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-packing-loading",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway",
+      "ng-lot-serial-traceability"
+    ],
+    "claims": [
+      "Unique IDs for parcels, pallet layers, pallets, crates and containers",
+      "Package details on packing slips, delivery notes and orders",
+      "Configurable package types with own number series",
+      "SSCC on warehouse and purchase receipts, shipments, picks and put-aways",
+      "Can be enabled per location",
+      "Uses supplier-provided SSCC data or creates own labels",
+      "API for scanners and external platforms",
+      "Priced per production environment, 30-day trial"
+    ],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "DO",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "nl"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "appId": "kasadara-technology-solutions-pvt-ltd.procynk",
+  "guid": null,
+  "publisherId": "kasadara-technology-solutions-pvt-ltd",
+  "offerId": "procynk",
+  "source": {
+    "name": "Procynk",
+    "publisher": "Kasadara Technology Solutions Private Limited",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/kasadara-technology-solutions-pvt-ltd.procynk",
+    "lastModified": "2026-07-16T14:15:13.5340097+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:de6c89c2b60dc8b83cf098c49d3f4cb121e83409aa22015559be69930061238a"
+  },
+  "mapping": {
+    "sourceHash": "sha256:de6c89c2b60dc8b83cf098c49d3f4cb121e83409aa22015559be69930061238a",
+    "mappedOn": "2026-10-07",
+    "summary": "Supplier self-service portal for onboarding, POs, invoice submission and payment status",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-onboarding",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Vendor registration and onboarding",
+      "Vendors view purchase orders",
+      "Digital invoice submission",
+      "Invoice approval and payment status tracking",
+      "Role-based access and audit trail",
+      "Automated sync with Business Central"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

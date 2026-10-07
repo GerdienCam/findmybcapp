@@ -6,18 +6,21 @@
   "source": {
     "name": "Vena CPM for Microsoft Dynamics 365 Business Central",
     "publisher": "Vena Solutions Canada",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.venasolutions1606746975530%7CAID.vena_bc_connector%7CPAPPID.a79d77f3-edab-48e9-8ad1-d86a387153ea",
-    "lastModified": "2026-06-30T05:39:38.3918615+00:00",
-    "appVersion": "1.0.20260625.141117",
-    "pricingTypes": [],
+    "lastModified": "2026-10-06T17:21:17.9756807+00:00",
+    "appVersion": "2.0.20261006.72810",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://support.venasolutions.com/hc/en-us",
-    "sourceHash": "sha256:d46da9a7442eb8f899cb69a25612de1a2884d5ddfc0ea4c11ffb8cafc1203ca3"
+    "sourceHash": "sha256:3778898179da5cac589f150c91196093bcbe71cdaa7f74533643be71e80a7bfd"
   },
   "mapping": {
-    "sourceHash": "sha256:d46da9a7442eb8f899cb69a25612de1a2884d5ddfc0ea4c11ffb8cafc1203ca3",
-    "mappedOn": null,
-    "summary": "Connects BC to Vena for planning, forecasting and reporting",
+    "sourceHash": "sha256:3778898179da5cac589f150c91196093bcbe71cdaa7f74533643be71e80a7bfd",
+    "mappedOn": "2026-10-07",
+    "summary": "Connects BC data to Vena FP&A for budgeting, forecasting and financial reporting",
     "shape": "connector",
     "primary": [
       {
@@ -27,31 +30,31 @@
       {
         "need": "ng-budget-vs-actual",
         "confidence": "medium"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-financial-statements",
       "ng-strategy-longrange",
-      "ng-bi-dashboards"
+      "ng-ux-excel-reporting"
     ],
     "claims": [
-      "Native connector integrating BC financial and operational data with Vena",
-      "Consolidates ERP/GL, HRIS and CRM data",
-      "Automated data loads with flexible scheduling",
-      "Integrates with Excel, Power BI and PowerPoint",
-      "Ad-hoc reporting, scenario modeling and variance analysis",
+      "Native connector loading BC financial and operational data",
+      "Combines ERP, HRIS and CRM data",
+      "Scheduled automated loads of actuals",
+      "Works in Excel, Power BI and PowerPoint",
+      "Scenario modeling and variance analysis",
       "Workflows, audit trails and version control",
       "Vena Copilot AI assistant for FP&A",
-      "Free first year and 40% off implementation for new BC Online customers"
+      "Promotion: free first year for BC Online customers"
     ],
     "countries": [],
     "languages": [],
     "industries": [],
     "connectsTo": [
-      "Vena",
-      "Excel",
-      "Power BI",
-      "PowerPoint"
+      "Vena"
     ],
     "requires": [],
     "deployment": "not_stated",

@@ -1,0 +1,78 @@
+{
+  "appId": "illuminatesoftware1669135702673.kart",
+  "guid": null,
+  "publisherId": "illuminatesoftware1669135702673",
+  "offerId": "kart",
+  "source": {
+    "name": "Illuminate Kart – Enterprise B2B eCommerce Platform for Microsoft Dynamics 365, ERP-Integrated Ordering and Wholesale Portal",
+    "publisher": "Illuminate Software",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/illuminatesoftware1669135702673.kart",
+    "lastModified": "2026-02-19T04:49:23.1857765+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": null,
+    "sourceHash": "sha256:26f7401cea2cf73be2c3139f52aeda245b977d06ab08236d25f2b9eee59bfb6f"
+  },
+  "mapping": {
+    "sourceHash": "sha256:26f7401cea2cf73be2c3139f52aeda245b977d06ab08236d25f2b9eee59bfb6f",
+    "mappedOn": "2026-10-07",
+    "summary": "B2B ecommerce and wholesale ordering portal synced with Dynamics 365 and Business Central",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-assortment-catalogs",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing",
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Per-customer price lists come from Dynamics 365",
+      "Contract, tiered and volume pricing",
+      "Catalog and product visibility set per customer",
+      "Multi-company, multi-currency and multi-region",
+      "Bulk ordering by quick order form or file upload",
+      "Reorder lists, saved carts and draft orders",
+      "Quote requests that convert to orders",
+      "Orders can require approval before they are submitted",
+      "Role-based buyer, approver and admin users",
+      "Invite-only storefronts",
+      "Syncs customers, items, pricing, inventory and orders with Business Central",
+      "Optional headless frontend via API",
+      "Standard plan up to 1,000 SKUs for $100 a month"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 Finance",
+      "Dynamics 365 Supply Chain Management"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

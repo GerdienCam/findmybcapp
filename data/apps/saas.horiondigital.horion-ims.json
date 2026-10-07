@@ -1,0 +1,62 @@
+{
+  "appId": "horiondigital.horion-ims",
+  "guid": null,
+  "publisherId": "horiondigital",
+  "offerId": "horion-ims",
+  "source": {
+    "name": "Horion IMS",
+    "publisher": "Horion Digital",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/horiondigital.horion-ims",
+    "lastModified": "2025-12-26T23:29:42.8007328+00:00",
+    "appVersion": "1.5",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:8859c4bffbf172a6489489c99bfd2c954a594d9d4540bf8b86e2fe3a0bcc4abf"
+  },
+  "mapping": {
+    "sourceHash": "sha256:8859c4bffbf172a6489489c99bfd2c954a594d9d4540bf8b86e2fe3a0bcc4abf",
+    "mappedOn": "2026-10-07",
+    "summary": "AI invoice capture and approval system that pushes approved invoices to the ERP",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Captures invoices from company inboxes",
+      "Converts any invoice format into a uniform dataset",
+      "Rule-based invoice approval",
+      "Pushes approved invoices to Xero, NetSuite, Dynamics NAV and others",
+      "Cloud archive of old invoices",
+      "Integrates with SharePoint, Outlook and Flow"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics NAV",
+      "Microsoft SharePoint",
+      "Microsoft Outlook"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

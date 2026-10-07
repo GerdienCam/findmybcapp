@@ -1,0 +1,56 @@
+{
+  "appId": "folio3software.burqintegration_b2b_edi_to_bc",
+  "guid": null,
+  "publisherId": "folio3software",
+  "offerId": "burqintegration_b2b_edi_to_bc",
+  "source": {
+    "name": "B2B/EDI Integration for Business Central-BURQ iPaaS",
+    "publisher": "Folio3 Software Inc.,",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/folio3software.burqintegration_b2b_edi_to_bc",
+    "lastModified": "2026-02-09T17:08:25.7691314+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:2ac048c14689515ceff2a627740b5d665c2e19c8a849f151cac4f65578243cc1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:2ac048c14689515ceff2a627740b5d665c2e19c8a849f151cac4f65578243cc1",
+    "mappedOn": "2026-10-07",
+    "summary": "iPaaS EDI integration exchanging orders, invoices and ASNs with trading partners",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Exchanges purchase orders, invoices, ASNs and acknowledgements",
+      "Supports ANSI X12, EDIFACT, XML and CSV",
+      "Mapping rules configurable per trading partner",
+      "Validation, exception handling and monitoring dashboards",
+      "Runs high-volume transactions in scheduled batches",
+      "Handles 850, 855, 810, 856 and 997 documents"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "EDI trading partners"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

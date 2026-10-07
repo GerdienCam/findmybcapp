@@ -6,18 +6,21 @@
   "source": {
     "name": "NOVAEXP: Expense Management",
     "publisher": "NOVASOFT FZCO",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.novasoftfzco1594619964948%7CAID.nova-bc-005%7CPAPPID.3a2fcb52-1dda-4fb7-9e95-35dcaf14cb02",
-    "lastModified": "2026-06-08T14:32:38.3078387+00:00",
-    "appVersion": "27.0.0.5",
-    "pricingTypes": [],
+    "lastModified": "2026-10-04T12:22:58.1425431+00:00",
+    "appVersion": "27.0.0.7",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://novasoft.global/support/",
-    "sourceHash": "sha256:b2f631dc80bbe3cb1cd82067e991513cafe172061103e6fffc7837d9fcd6a1a6"
+    "sourceHash": "sha256:d446fcb948a534405c6a95c459805a038fee5248a37aaf72f674e797a5c76893"
   },
   "mapping": {
-    "sourceHash": "sha256:b2f631dc80bbe3cb1cd82067e991513cafe172061103e6fffc7837d9fcd6a1a6",
-    "mappedOn": null,
-    "summary": "Employee expense submission and approval",
+    "sourceHash": "sha256:d446fcb948a534405c6a95c459805a038fee5248a37aaf72f674e797a5c76893",
+    "mappedOn": "2026-10-07",
+    "summary": "Employee expense submission with receipt photos, approval workflows, policy checks and mobile app",
     "shape": "process",
     "primary": [
       {
@@ -26,17 +29,16 @@
       }
     ],
     "secondary": [
-      "ng-admin-approval-workflows"
+      "ng-admin-approval-workflows",
+      "ng-procurement-spend"
     ],
     "claims": [
-      "Employees submit expense reports in Business Central",
-      "Capture receipt photos, categorize expenses and add project codes or client names",
-      "Approvers can approve, reject or request more information",
-      "Flags expenses that break company expense policy",
-      "Mobile app to capture receipts, submit reports and check reimbursement status",
-      "Reporting and analytics on spending patterns",
-      "Maintains audit trails for all expense activities",
-      "Supports Essentials and Premium editions"
+      "Receipt photos, categories and project or client codes on expenses",
+      "Approvers can approve, reject or ask for more information",
+      "Flags expenses that break company policy",
+      "Mobile app to capture receipts, submit and track reimbursement",
+      "Spending analytics and reporting",
+      "Audit trail for all expense activity"
     ],
     "countries": [],
     "languages": [
@@ -46,7 +48,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

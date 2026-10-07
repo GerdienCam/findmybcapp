@@ -6,52 +6,51 @@
   "source": {
     "name": "SMARTexpense",
     "publisher": "Inventio.IT",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.inventio-it%7CAID.smartexpense%7CPAPPID.3f4af2e3-5975-4c71-94e3-e89d9fca6d31",
-    "lastModified": "2026-10-01T07:09:19.9225357+00:00",
+    "lastModified": "2026-10-05T12:22:06.8700507+00:00",
     "appVersion": "1.0.20260923.0",
     "pricingTypes": [
       "Payg"
     ],
     "freeTrial": null,
     "helpLink": "https://help.inventio.it/da-dk/smartexpense/documentation/get-started/",
-    "sourceHash": "sha256:34661c0bcb3faa9d41cc4689cd7831fd52d171160d491941eb5de9979dd5fc48"
+    "sourceHash": "sha256:57d240ed6c0e55c6453efa79a87550de72626856aabdb667006427d16ed25fb3"
   },
   "mapping": {
-    "sourceHash": "sha256:34661c0bcb3faa9d41cc4689cd7831fd52d171160d491941eb5de9979dd5fc48",
-    "mappedOn": null,
-    "summary": "Approval and posting workflows for supplier invoices",
+    "sourceHash": "sha256:57d240ed6c0e55c6453efa79a87550de72626856aabdb667006427d16ed25fb3",
+    "mappedOn": "2026-10-07",
+    "summary": "OCR capture, coding suggestions, multi-level approval and posting of supplier invoices and receipts",
     "shape": "process",
     "primary": [
       {
         "need": "ng-ap-invoice-capture",
         "confidence": "high"
+      },
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-approval-workflows"
+      "ng-admin-approval-workflows",
+      "ng-admin-document-storage"
     ],
     "claims": [
-      "Receives invoices via email or drag-and-drop upload",
-      "Merges or splits PDFs",
-      "Online approval workflows with Microsoft 2-factor authentication",
-      "Unlimited web-based approvers and approver profiles",
-      "Forward or hold invoices",
-      "Online archive with search and filters",
-      "AI-powered OCR data extraction",
-      "Automatic vendor matching and posting suggestion",
-      "Multiple posting options per vendor with split by percentage or amount"
+      "OCR of invoices, receipts and vouchers",
+      "AI-based posting and coding suggestions",
+      "Documents received by email, upload or integration",
+      "Automatic vendor recognition",
+      "Multi-level approval flows",
+      "Web approval with Microsoft login and MFA",
+      "Approvers limited to certain accounts, dimensions and projects",
+      "Automatic posting for selected vendors",
+      "PDF split and merge",
+      "Digital archive with search and history",
+      "Priced per user"
     ],
-    "countries": [
-      "DK",
-      "GL",
-      "IS",
-      "NO",
-      "SE"
-    ],
-    "languages": [
-      "da",
-      "en"
-    ],
+    "countries": [],
+    "languages": [],
     "industries": [],
     "connectsTo": [],
     "requires": [],

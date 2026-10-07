@@ -6,18 +6,21 @@
   "source": {
     "name": "ScanPayGo for LS Central",
     "publisher": "LS Retail",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/TYPE.connect%7CPUBID.ls_retail%7CAID.scanpaygo-for-lscentral%7CPAPPID.0bcd2585-b0cd-474c-becd-cc9abfb45528",
-    "lastModified": "2025-02-27T00:08:30.0650144+00:00",
+    "lastModified": "2026-10-07T05:26:04.4739295+00:00",
     "appVersion": "2024.10.0.0",
-    "pricingTypes": [],
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://help.lscentral.lsretail.com/",
-    "sourceHash": "sha256:0026d0747357c686a09725f0e26b70e9fe2e25d34b8fba886f6a597fd58629f6"
+    "sourceHash": "sha256:b7440961ef5b82647f6cbfcc580bf4565705808da5c84459cbd234e3f70d04ce"
   },
   "mapping": {
-    "sourceHash": "sha256:0026d0747357c686a09725f0e26b70e9fe2e25d34b8fba886f6a597fd58629f6",
-    "mappedOn": null,
-    "summary": "Customer mobile self-scanning and payment",
+    "sourceHash": "sha256:b7440961ef5b82647f6cbfcc580bf4565705808da5c84459cbd234e3f70d04ce",
+    "mappedOn": "2026-10-07",
+    "summary": "Self-scanning shopping app for LS Central with in-app payment, lists and loyalty",
     "shape": "addon",
     "primary": [
       {
@@ -25,36 +28,34 @@
         "confidence": "high"
       },
       {
-        "need": "ng-vert-retail",
+        "need": "ng-loyalty",
         "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-loyalty"
+      "ng-vert-retail"
     ],
     "claims": [
-      "Shoppers self-scan items into their basket on their phone",
-      "Customers can pay inside the app or hand the cart over to checkout",
-      "Maintain and share shopping lists",
-      "Collect and spend loyalty points",
-      "Show store offers and promotions",
-      "Item lookup and item information",
-      "Can run on customer devices or retailer-owned devices in store",
-      "Available for Android and iOS"
+      "Shoppers scan items and pay in the app or at checkout",
+      "Customer's own or retailer-owned device",
+      "Shopping lists that can be shared and matched to the basket",
+      "Earn and redeem loyalty points",
+      "In-store offers and product information",
+      "Setup data like items, offers and stores comes from LS Central",
+      "Android and iOS"
     ],
     "countries": [],
     "languages": [],
-    "industries": [
-      "Retail"
-    ],
+    "industries": [],
     "connectsTo": [
       "LS Central"
     ],
     "requires": [
-      "LS Central"
+      "LS Central",
+      "Commerce Service for LS Central"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

@@ -1,0 +1,64 @@
+{
+  "appId": "ceterisag.financecockpit_for_bc",
+  "guid": null,
+  "publisherId": "ceterisag",
+  "offerId": "financecockpit_for_bc",
+  "source": {
+    "name": "FinanceCockpit for BC",
+    "publisher": "Ceteris AG",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/ceterisag.financecockpit_for_bc",
+    "lastModified": "2025-12-19T12:44:17.7801539+00:00",
+    "appVersion": "1.4.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:38725b6db05882203426b3d51de4cc4be91c9bdc2fd3507a220bd87f83378ac0"
+  },
+  "mapping": {
+    "sourceHash": "sha256:38725b6db05882203426b3d51de4cc4be91c9bdc2fd3507a220bd87f83378ac0",
+    "mappedOn": "2026-10-07",
+    "summary": "Ready-made Power BI and Fabric finance reports for Business Central (German only).",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-budget-vs-actual",
+      "ng-cost-allocation"
+    ],
+    "claims": [
+      "Templates for BWA and P&L over time",
+      "Plan-versus-actual and forecasting reports",
+      "Account balance lists",
+      "Cost centre and cost type reports",
+      "Other systems can be added later",
+      "Built on Microsoft Fabric",
+      "German only"
+    ],
+    "countries": [],
+    "languages": [
+      "de"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "appId": "teamcentralinc1692118133272.sap_ariba_bc",
+  "guid": null,
+  "publisherId": "teamcentralinc1692118133272",
+  "offerId": "sap_ariba_bc",
+  "source": {
+    "name": "SAP Ariba to BC No Code Integration",
+    "publisher": "Teamcentral, Inc.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/teamcentralinc1692118133272.sap_ariba_bc",
+    "lastModified": "2025-12-19T09:53:53.3976832+00:00",
+    "appVersion": "Version 1.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": null,
+    "sourceHash": "sha256:5a4cfe48de829ccc93432eddce2685b9900d9d0d66fd9ef083f606b55abab670"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5a4cfe48de829ccc93432eddce2685b9900d9d0d66fd9ef083f606b55abab670",
+    "mappedOn": "2026-10-07",
+    "summary": "No-code iPaaS integration syncing SAP Ariba purchasing, receipts, bills and payments with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-orders",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture",
+      "ng-ap-payments"
+    ],
+    "claims": [
+      "Syncs customers, vendors, items and financial accounts",
+      "Ariba purchase orders created in BC",
+      "Ariba receipts synced to BC",
+      "Supplier bills from Ariba synced to BC",
+      "BC bill payments sent back to Ariba",
+      "Unlimited users, data and transaction volume"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [
+      "SAP Ariba"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "appId": "business_experts_gulf_2427878.inter_company_bc",
+  "guid": null,
+  "publisherId": "business_experts_gulf_2427878",
+  "offerId": "inter_company_bc",
+  "source": {
+    "name": "eXperts Inter Company Integration on Business Central",
+    "publisher": "Business Experts MEA",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/business_experts_gulf_2427878.inter_company_bc",
+    "lastModified": "2025-12-23T01:40:23.6806412+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:cb2199f7761109bf3bb56707fec7d1233c123e00b6bd9364eef86bcfd26cd402"
+  },
+  "mapping": {
+    "sourceHash": "sha256:cb2199f7761109bf3bb56707fec7d1233c123e00b6bd9364eef86bcfd26cd402",
+    "mappedOn": "2026-10-07",
+    "summary": "Global journal that posts one intercompany entry into several BC companies at once.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-intercompany-consolidation",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-journals"
+    ],
+    "claims": [
+      "Posts one entry into multiple companies",
+      "Supports bank-to-bank intercompany transfers",
+      "Handles expense cross-charges and vendor settlements",
+      "Journal lines pick master data from the selected company",
+      "Global journal template and batch setup",
+      "Balancing intercompany account"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

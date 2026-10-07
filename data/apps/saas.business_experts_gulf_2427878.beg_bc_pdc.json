@@ -1,0 +1,62 @@
+{
+  "appId": "business_experts_gulf_2427878.beg_bc_pdc",
+  "guid": null,
+  "publisherId": "business_experts_gulf_2427878",
+  "offerId": "beg_bc_pdc",
+  "source": {
+    "name": "Business Central Post Dated Cheque",
+    "publisher": "Business Experts MEA",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/business_experts_gulf_2427878.beg_bc_pdc",
+    "lastModified": "2025-12-23T01:46:03.5697591+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:a690509cc141587188273c49ce1b8918febdcd4d0359100ea4a27342535aa97b"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a690509cc141587188273c49ce1b8918febdcd4d0359100ea4a27342535aa97b",
+    "mappedOn": "2026-10-07",
+    "summary": "Records customer and vendor post-dated cheques on receipt and posts them when they mature.",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-customer-payments",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Register cheques on the day they are received",
+      "Cash flow view for a chosen period",
+      "PDC report sortable by vendor, customer and status",
+      "Include or exclude post-dated items in accounting reports",
+      "Reminders ahead of the cheque date",
+      "Matured cheques are processed and posted",
+      "Handles reversals, bounces and cancellations",
+      "Ledgers update on collection, deposit, bounce or reversal"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

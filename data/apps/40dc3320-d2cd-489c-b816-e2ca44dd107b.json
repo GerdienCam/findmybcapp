@@ -6,18 +6,21 @@
   "source": {
     "name": "Wisefish Quality Connector",
     "publisher": "Wisefish",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wisefish1707821097531%7CAID.wisefishqualityconnector%7CPAPPID.40dc3320-d2cd-489c-b816-e2ca44dd107b",
-    "lastModified": "2026-08-10T14:20:37.4642457+00:00",
-    "appVersion": "27.1.20260810.28",
-    "pricingTypes": [],
+    "lastModified": "2026-10-02T13:22:02.0055367+00:00",
+    "appVersion": "27.1.20261002.29",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.wisefish.com/contact",
-    "sourceHash": "sha256:561bdda62141eb527748635e237c9dcdf831e5d851c13963b7d6138a104302c9"
+    "sourceHash": "sha256:fc2cb9354e62414ea880748aa96236ee18a984cd8f85482dc7f7afe77f2202cc"
   },
   "mapping": {
-    "sourceHash": "sha256:561bdda62141eb527748635e237c9dcdf831e5d851c13963b7d6138a104302c9",
-    "mappedOn": null,
-    "summary": "Connects Wisefish with Wisefish Quality inspections",
+    "sourceHash": "sha256:fc2cb9354e62414ea880748aa96236ee18a984cd8f85482dc7f7afe77f2202cc",
+    "mappedOn": "2026-10-07",
+    "summary": "Connects Wisefish to Wisefish Quality for HACCP-style inspections on production lots",
     "shape": "addon",
     "primary": [
       {
@@ -33,13 +36,10 @@
       "ng-vert-food-beverage"
     ],
     "claims": [
-      "Connects Wisefish with Wisefish Quality",
-      "User-defined quality inspections",
-      "Supports HACCP (Hazard Analysis and Critical Control Points)",
-      "Lets users define their own quality inspection parameters",
-      "Applies quality controls to produced goods and production lots",
-      "Suitable for fish, meat, dairy and beverage producers",
-      "Supports Essential and Premium editions"
+      "User-defined quality inspection parameters",
+      "Supports HACCP",
+      "Quality controls on produced goods and production lots",
+      "Connector between Wisefish and Wisefish Quality"
     ],
     "countries": [
       "DK",
@@ -51,20 +51,14 @@
       "en",
       "is"
     ],
-    "industries": [
-      "Food and beverage",
-      "Seafood"
-    ],
-    "connectsTo": [
-      "Wisefish",
-      "Wisefish Quality"
-    ],
+    "industries": [],
+    "connectsTo": [],
     "requires": [
       "Wisefish",
       "Wisefish Quality"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

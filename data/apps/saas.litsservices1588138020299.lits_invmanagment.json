@@ -1,0 +1,65 @@
+{
+  "appId": "litsservices1588138020299.lits_invmanagment",
+  "guid": null,
+  "publisherId": "litsservices1588138020299",
+  "offerId": "lits_invmanagment",
+  "source": {
+    "name": "LITS Inventory Management",
+    "publisher": "LITS SERVICES",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/litsservices1588138020299.lits_invmanagment",
+    "lastModified": "2025-12-22T05:14:06.7283387+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:baa754b5283bcf6aa70b0a4e4fe155197174c675a6be17299ee6db6e5e6edd62"
+  },
+  "mapping": {
+    "sourceHash": "sha256:baa754b5283bcf6aa70b0a4e4fe155197174c675a6be17299ee6db6e5e6edd62",
+    "mappedOn": "2026-10-07",
+    "summary": "Mobile warehouse app for receiving, shipping, transfers and counts, working offline",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-stock-counting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-stock-movements",
+      "ng-packing-loading"
+    ],
+    "claims": [
+      "Works online or offline",
+      "Purchase receiving",
+      "Sales shipments",
+      "Inventory transfers and stock movements",
+      "Stock counting",
+      "Out-of-the-box APIs for Business Central"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

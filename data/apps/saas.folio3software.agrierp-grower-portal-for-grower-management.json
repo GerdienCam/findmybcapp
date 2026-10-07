@@ -1,0 +1,73 @@
+{
+  "appId": "folio3software.agrierp-grower-portal-for-grower-management",
+  "guid": null,
+  "publisherId": "folio3software",
+  "offerId": "agrierp-grower-portal-for-grower-management",
+  "source": {
+    "name": "AgriERP Grower Portal for Grower Management",
+    "publisher": "Folio3 Software Inc.,",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/folio3software.agrierp-grower-portal-for-grower-management",
+    "lastModified": "2026-09-17T19:54:33.2225042+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:9b005e2d212d1c2662e3fe93443d8d154a531b23bd6404638a3999a080a96555"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9b005e2d212d1c2662e3fe93443d8d154a531b23bd6404638a3999a080a96555",
+    "mappedOn": "2026-10-07",
+    "summary": "Self-service portal for contracted growers covering onboarding, contracts and settlements",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-vert-fresh-produce-horticulture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-contracts",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-supplier-onboarding",
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Guided self-registration workflow for growers",
+      "Growers see fields, contracts and payments from any device",
+      "Handles advance payments and final settlements per grower",
+      "Ties expenditures and produce cost to each grower contract",
+      "Tracks crop variety, acreage and yield estimates",
+      "Power BI dashboards for grower KPIs",
+      "Built on Business Central and deployed on Azure"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Agriculture"
+    ],
+    "connectsTo": [
+      "Power BI",
+      "Microsoft Fabric"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

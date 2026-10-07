@@ -1,0 +1,67 @@
+{
+  "appId": "neodigitalsolutionsslu1676559601014.neo_notification_system_saas",
+  "guid": null,
+  "publisherId": "neodigitalsolutionsslu1676559601014",
+  "offerId": "neo_notification_system_saas",
+  "source": {
+    "name": "Neo Notification Service",
+    "publisher": "NEO DIGITAL SOLUTIONS S.L.U.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/neodigitalsolutionsslu1676559601014.neo_notification_system_saas",
+    "lastModified": "2025-12-25T10:59:25.7057119+00:00",
+    "appVersion": "1.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:680fc28c2a267ed8a0659712cffee76feefbbd07c4eb3282f0c604943668a9a2"
+  },
+  "mapping": {
+    "sourceHash": "sha256:680fc28c2a267ed8a0659712cffee76feefbbd07c4eb3282f0c604943668a9a2",
+    "mappedOn": "2026-10-07",
+    "summary": "Sends industrial production alarms and events by email, SMS, Telegram, Teams or BC",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-alerts",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-maintenance-breakdown"
+    ],
+    "claims": [
+      "Real-time incident notifications without an operator on site",
+      "Delivery channels include email, Telegram, mobile app, SMS, Teams and Business Central",
+      "Receives events via web API, OPC UA, SQL and Snap7",
+      "Handles events from PLC, SCADA, MES and ERP systems",
+      "Web management interface for the whole platform",
+      "Modular: pick the notification channels you need"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [
+      "Telegram",
+      "Microsoft Teams",
+      "OPC UA",
+      "PLC/SCADA/MES"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

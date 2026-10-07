@@ -1,0 +1,77 @@
+{
+  "appId": "fourvision.hrm-license",
+  "guid": null,
+  "publisherId": "fourvision",
+  "offerId": "hrm-license",
+  "source": {
+    "name": "FourVision Advanced HRM Licenses",
+    "publisher": "FourVision",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/fourvision.hrm-license",
+    "lastModified": "2026-09-19T07:04:29.6234007+00:00",
+    "appVersion": "4",
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:5ae81f5cd8e4af6ead89cc48f851aa0752801e262d201049266fd1b36a96f805"
+  },
+  "mapping": {
+    "sourceHash": "sha256:5ae81f5cd8e4af6ead89cc48f851aa0752801e262d201049266fd1b36a96f805",
+    "mappedOn": "2026-10-07",
+    "summary": "Per-user licenses for the Advanced HRM platform in Core, Plus and Unified Suite tiers",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-hr-performance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-recruiting",
+      "ng-hr-time-shifts",
+      "ng-hr-payroll-comp",
+      "ng-hr-onboard-offboard"
+    ],
+    "claims": [
+      "Recruitment with external job board integration",
+      "Leave plans and absence tracking",
+      "Work hours, attendance and overtime tracking",
+      "Interface to payroll systems",
+      "Workforce planning for key roles",
+      "Three tiers: Core, Plus and Unified Suite",
+      "Enterprise, Team and Staff user license types",
+      "Employee self-service to view pay slips and submit leave requests",
+      "Managers approve requests and time off for their team",
+      "Runs standalone or integrated with Business Central or Finance & SCM"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Teams",
+      "Microsoft Outlook",
+      "Microsoft Entra"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

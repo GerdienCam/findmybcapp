@@ -1,0 +1,66 @@
+{
+  "appId": "litsservices1588138020299.zatca_submission",
+  "guid": null,
+  "publisherId": "litsservices1588138020299",
+  "offerId": "zatca_submission",
+  "source": {
+    "name": "ZATCA e-Invoicing Portal",
+    "publisher": "LITS SERVICES",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/litsservices1588138020299.zatca_submission",
+    "lastModified": "2026-08-13T19:24:06.625886+00:00",
+    "appVersion": "1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:a59363c4caa36f0b32b06fbed97d307243d3592b938bb44b09fa32467b469742"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a59363c4caa36f0b32b06fbed97d307243d3592b938bb44b09fa32467b469742",
+    "mappedOn": "2026-10-07",
+    "summary": "Web portal submitting Saudi ZATCA Phase 2 e-invoices for clearance, integrated with BC",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-vat-tax"
+    ],
+    "claims": [
+      "B2B and B2C invoice submission for Phase 2 clearance and reporting",
+      "Manual or Business Central-integrated submission to FATOORA",
+      "Validates invoice format before submission",
+      "Stores clearance responses",
+      "Invoices are signed digitally per ZATCA rules",
+      "Separate test and live modes",
+      "Submission history and logs",
+      "Solution-based licensing, perpetual or subscription",
+      "Arabic and English"
+    ],
+    "countries": [
+      "SA"
+    ],
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "ZATCA FATOORA"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

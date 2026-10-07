@@ -1,0 +1,65 @@
+{
+  "appId": "connecting-software.d365_bc_connector",
+  "guid": null,
+  "publisherId": "connecting-software",
+  "offerId": "d365_bc_connector",
+  "source": {
+    "name": "Connect from any application to Microsoft Dynamics 365 BC",
+    "publisher": "Connecting Software",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/connecting-software.d365_bc_connector",
+    "lastModified": "2025-12-24T11:57:44.2366056+00:00",
+    "appVersion": "6.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:a774426ac9d4d5ef136e5715db3b2684f3eeaad070b31e924aff60a58a3af7ea"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a774426ac9d4d5ef136e5715db3b2684f3eeaad070b31e924aff60a58a3af7ea",
+    "mappedOn": "2026-10-07",
+    "summary": "SQL-based connector to migrate, sync or query BC data from any database or legacy software.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-data-migration",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-cloud-upgrade"
+    ],
+    "claims": [
+      "Connects to SQL Server, MySQL, MariaDB, Oracle and SAP HANA",
+      "Prebuilt connectors for Exchange, SharePoint, Office 365, QuickBooks, Salesforce and more",
+      "Talk to the target system with standard SQL statements",
+      "Built on the Connect Bridge platform",
+      "Real-time connection to BC from almost any software",
+      "Supports migration from NAV 2018 and older"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SQL Server",
+      "Oracle",
+      "Salesforce",
+      "QuickBooks"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

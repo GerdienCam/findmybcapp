@@ -1,0 +1,66 @@
+{
+  "appId": "agic_technology_1016574.starter_kit_powerbi",
+  "guid": null,
+  "publisherId": "agic_technology_1016574",
+  "offerId": "starter_kit_powerbi",
+  "source": {
+    "name": "Starter Kit with Power BI",
+    "publisher": "Agic Technology S.r.l.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/agic_technology_1016574.starter_kit_powerbi",
+    "lastModified": "2026-07-22T22:43:31.6285213+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:908a460e2e6309a1079ea93303a9e35fc30c44f5b3edd75368c6ebccfd74270c"
+  },
+  "mapping": {
+    "sourceHash": "sha256:908a460e2e6309a1079ea93303a9e35fc30c44f5b3edd75368c6ebccfd74270c",
+    "mappedOn": "2026-10-07",
+    "summary": "Prebuilt Power BI financial report book connected to Business Central",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-budget-vs-actual",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-cost-allocation"
+    ],
+    "claims": [
+      "Connects to any Business Central instance",
+      "General accounting and cost/revenue by dimension",
+      "Financial and income statements",
+      "Actual vs budget analysis",
+      "Multi-company analysis",
+      "Row-level security"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

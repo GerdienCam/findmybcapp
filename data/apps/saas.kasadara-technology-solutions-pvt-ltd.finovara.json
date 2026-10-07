@@ -1,0 +1,66 @@
+{
+  "appId": "kasadara-technology-solutions-pvt-ltd.finovara",
+  "guid": null,
+  "publisherId": "kasadara-technology-solutions-pvt-ltd",
+  "offerId": "finovara",
+  "source": {
+    "name": "Finovara HR",
+    "publisher": "Kasadara Technology Solutions Private Limited",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/kasadara-technology-solutions-pvt-ltd.finovara",
+    "lastModified": "2026-07-20T08:57:26.3233282+00:00",
+    "appVersion": "1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:66cc67996906dd7b76ffe7522e51c20cca19d2e1e7f470362fc705a629d03f80"
+  },
+  "mapping": {
+    "sourceHash": "sha256:66cc67996906dd7b76ffe7522e51c20cca19d2e1e7f470362fc705a629d03f80",
+    "mappedOn": "2026-10-07",
+    "summary": "Employee self-service HR portal synced with Business Central for leave, expenses and payroll info",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-employee-records",
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "Employees view attendance records",
+      "Leave applications",
+      "Expense claim submission",
+      "Payroll information access",
+      "Approval status tracking",
+      "Real-time sync with Business Central",
+      "HR processes run as automated workflows"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

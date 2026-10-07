@@ -1,0 +1,62 @@
+{
+  "appId": "cloudifyaps1641287047700.stripe-msbc-saas",
+  "guid": null,
+  "publisherId": "cloudifyaps1641287047700",
+  "offerId": "stripe-msbc-saas",
+  "source": {
+    "name": "Stripe invoice sync",
+    "publisher": "Cloudify ApS",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/cloudifyaps1641287047700.stripe-msbc-saas",
+    "lastModified": "2025-12-16T17:33:06.8385188+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:a7ac08161cbb3cb52236d52335f5801734108c731adfcd741953a0bd924a6cfe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a7ac08161cbb3cb52236d52335f5801734108c731adfcd741953a0bd924a6cfe",
+    "mappedOn": "2026-10-07",
+    "summary": "Creates BC customers and sales invoices automatically from Stripe invoices.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-payment-providers",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Syncs invoices when they reach a chosen Stripe invoice stage",
+      "Creates new customers in BC",
+      "Invoices created in BC in real time",
+      "Sync status shown in Stripe invoice metadata",
+      "Retry failed syncs from Stripe",
+      "Configurable sync preferences and field mapping"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Stripe"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

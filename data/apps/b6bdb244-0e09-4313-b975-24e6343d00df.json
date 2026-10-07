@@ -6,18 +6,19 @@
   "source": {
     "name": "DYCE Feature Suite for Subscription Billing",
     "publisher": "Singhammer IT Consulting AG",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1020%7CPAPPID.b6bdb244-0e09-4313-b975-24e6343d00df",
-    "lastModified": "2026-09-27T07:24:28.3036754+00:00",
+    "lastModified": "2026-10-06T06:20:01.8156665+00:00",
     "appVersion": "2026.9.0.0",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/appsuites/fssb",
-    "sourceHash": "sha256:faadbf8e4c385bc99e246631a64dc37c47354966236acd57091a51a0bf6913c4"
+    "sourceHash": "sha256:c2cc96c3874304a204ca4a6a76f4abe224d0f322f583c9adb678e08cc1b56e1f"
   },
   "mapping": {
-    "sourceHash": "sha256:faadbf8e4c385bc99e246631a64dc37c47354966236acd57091a51a0bf6913c4",
-    "mappedOn": null,
-    "summary": "Extends Subscription Billing features",
+    "sourceHash": "sha256:c2cc96c3874304a204ca4a6a76f4abe224d0f322f583c9adb678e08cc1b56e1f",
+    "mappedOn": "2026-10-07",
+    "summary": "Bundle extending Microsoft Subscription Billing with tiered prices, price list import and document tools",
     "shape": "process",
     "primary": [
       {
@@ -28,19 +29,17 @@
     "secondary": [
       "ng-supplier-pricing",
       "ng-ux-rolecenters",
-      "ng-ux-document-layouts",
-      "ng-ux-search-navigation"
+      "ng-ux-document-layouts"
     ],
     "claims": [
-      "Tiered pricing covering subscriptions as well as recurring service commitments",
-      "Pre-assignment of subscriptions to contracts",
-      "Direct extension of Microsoft Subscription Billing",
-      "Imports supplier price lists with history and filters",
-      "Configurable role center cues",
-      "Product bundles with control of customer-facing information",
+      "Flat-tier and true-tier pricing for subscriptions",
+      "Optional automatic price change when quantities change",
+      "Assign subscriptions to contracts already at quote and order",
+      "Supplier price list import with history and filters",
+      "Product bundles with control of customer-facing details",
       "Formatted long texts and images in documents",
       "Position numbers and print preview of unposted sales documents",
-      "Sold as bundle only"
+      "Sold only as a bundle"
     ],
     "countries": [],
     "languages": [
@@ -49,9 +48,7 @@
     ],
     "industries": [],
     "connectsTo": [],
-    "requires": [
-      "Microsoft Subscription Billing"
-    ],
+    "requires": [],
     "deployment": "not_stated",
     "pricing": "not_stated",
     "hide": false,

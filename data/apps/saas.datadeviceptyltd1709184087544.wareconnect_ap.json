@@ -1,0 +1,70 @@
+{
+  "appId": "datadeviceptyltd1709184087544.wareconnect_ap",
+  "guid": null,
+  "publisherId": "datadeviceptyltd1709184087544",
+  "offerId": "wareconnect_ap",
+  "source": {
+    "name": "WareConnect Accounts Payable (AP) & Purchase to Pay Automation",
+    "publisher": "WareConnect",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/datadeviceptyltd1709184087544.wareconnect_ap",
+    "lastModified": "2025-12-23T02:55:11.5859095+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:ebb98947aa88aefd5d3e0ba68bf31ecc0e6fd6488c3a9df3c803ac0783978009"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ebb98947aa88aefd5d3e0ba68bf31ecc0e6fd6488c3a9df3c803ac0783978009",
+    "mappedOn": "2026-10-07",
+    "summary": "Cloud AP and purchase-to-pay automation: requisitions, POs, invoice capture, matching and payments.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-budget-control",
+      "ng-purchase-orders"
+    ],
+    "claims": [
+      "Purchase requests check the budget and route for approval",
+      "Approved requests become POs emailed to vendors",
+      "Budgets by department, cost centre and project",
+      "Goods receipts support 3-way matching",
+      "Invoice data extraction with business-rule validation",
+      "2-way and 3-way matching against POs and receipts",
+      "Supplier statement reconciliation highlighting discrepancies",
+      "EFT batches create BC cheques and remittance emails",
+      "Pulls suppliers, accounts, tax codes, jobs and items from BC via API",
+      "Posts invoices and invoice PDFs into BC",
+      "Fraud control in approval workflows"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

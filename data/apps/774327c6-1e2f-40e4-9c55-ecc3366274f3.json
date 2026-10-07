@@ -6,18 +6,19 @@
   "source": {
     "name": "OmniFY Multi-Company Management",
     "publisher": "Omni Logic Solutions",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicsondemand%7CAID.omnify-multi-company-management%7CPAPPID.774327c6-1e2f-40e4-9c55-ecc3366274f3",
-    "lastModified": "2025-03-11T18:46:55.021967+00:00",
-    "appVersion": "19.0.0.8",
+    "lastModified": "2026-10-06T06:54:09.8274485+00:00",
+    "appVersion": "19.0.0.9",
     "pricingTypes": [],
     "freeTrial": null,
-    "helpLink": "https://appsource.omnilogicsolutions.com/omnify-multi-company-management/",
-    "sourceHash": "sha256:e43e1bfbd5d07332a98b219d9cc05209650b8b8c0d7ec683a52c622518db3fb1"
+    "helpLink": "https://www.omnilogicsolutions.com/",
+    "sourceHash": "sha256:b7825864b6aad72c3fda48f0a395c3079fea10d5b6e2975441dfac63bbf61722"
   },
   "mapping": {
-    "sourceHash": "sha256:e43e1bfbd5d07332a98b219d9cc05209650b8b8c0d7ec683a52c622518db3fb1",
-    "mappedOn": null,
-    "summary": "Syncs master data across multiple companies",
+    "sourceHash": "sha256:b7825864b6aad72c3fda48f0a395c3079fea10d5b6e2975441dfac63bbf61722",
+    "mappedOn": "2026-10-07",
+    "summary": "Copies master data and any chosen table from a parent company to other companies",
     "shape": "usability",
     "primary": [
       {
@@ -29,13 +30,12 @@
       "ng-coa-company-setup"
     ],
     "claims": [
-      "Synchronizes customers, vendors, items, dimensions and any selected table from a parent company",
-      "Syncs G/L accounts across companies",
-      "Real-time or scheduled synchronization",
-      "Choose which fields are synchronized",
+      "Syncs customers, vendors, items, dimensions and any selected table",
+      "Enter data once in the parent company",
       "Groups of tables and companies",
-      "Sets up new companies with master data and base setups",
-      "Activation wizard"
+      "Real-time or scheduled sync",
+      "Field-level choice of what to sync",
+      "Creates new companies with base setup and master data"
     ],
     "countries": [],
     "languages": [

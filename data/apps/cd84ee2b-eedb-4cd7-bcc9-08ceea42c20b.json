@@ -6,18 +6,21 @@
   "source": {
     "name": "OmniFY SAP-Concur Expense Professional",
     "publisher": "Omni Logic Solutions",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicsondemand%7CAID.omnify-concur-expense-pro%7CPAPPID.cd84ee2b-eedb-4cd7-bcc9-08ceea42c20b",
-    "lastModified": "2026-07-21T22:37:22.466498+00:00",
-    "appVersion": "19.0.0.31",
-    "pricingTypes": [],
+    "lastModified": "2026-10-06T20:30:51.329684+00:00",
+    "appVersion": "19.0.0.33",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.omnilogicsolutions.com/",
-    "sourceHash": "sha256:22c3e57dea0713ddcceaca2a3020d15d873b63861f2c9f8bbf028606d2b33e1f"
+    "sourceHash": "sha256:59f7b7f0848284e675430ea103837e13cad0beda3e89fc280d1e19fe9fa40f81"
   },
   "mapping": {
-    "sourceHash": "sha256:22c3e57dea0713ddcceaca2a3020d15d873b63861f2c9f8bbf028606d2b33e1f",
-    "mappedOn": null,
-    "summary": "Integrates SAP Concur expenses with BC",
+    "sourceHash": "sha256:59f7b7f0848284e675430ea103837e13cad0beda3e89fc280d1e19fe9fa40f81",
+    "mappedOn": "2026-10-07",
+    "summary": "Imports approved SAP Concur expense reports and receipts for reimbursement through payables",
     "shape": "connector",
     "primary": [
       {
@@ -29,14 +32,13 @@
       "ng-ap-payments"
     ],
     "claims": [
-      "Downloads approved Concur expense reports and receipts",
-      "Processes out-of-pocket reimbursements via payables, check or ACH",
-      "Corporate credit card processing",
-      "Books expenses against G/L accounts, employees or vendors",
+      "Downloads approved expense reports with receipts",
+      "Reimbursements via standard payables, check or ACH",
+      "Handles corporate credit card expenses",
+      "Posts expenses to vendors, employees or G/L accounts",
       "Concur users set up as employees or vendors",
-      "Scheduled background download via job queue",
-      "One-click on-demand download",
-      "Requires authorization letter and activation keys"
+      "Scheduled background downloads via job queue and on-demand download",
+      "Needs Concur authorization and activation keys"
     ],
     "countries": [
       "AE",
@@ -68,7 +70,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

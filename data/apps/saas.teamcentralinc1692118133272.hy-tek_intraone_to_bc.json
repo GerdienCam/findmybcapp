@@ -1,0 +1,64 @@
+{
+  "appId": "teamcentralinc1692118133272.hy-tek_intraone_to_bc",
+  "guid": null,
+  "publisherId": "teamcentralinc1692118133272",
+  "offerId": "hy-tek_intraone_to_bc",
+  "source": {
+    "name": "Hy-Tek IntraOne to BC No Code Integration",
+    "publisher": "Teamcentral, Inc.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/teamcentralinc1692118133272.hy-tek_intraone_to_bc",
+    "lastModified": "2025-12-19T09:53:48.0549122+00:00",
+    "appVersion": "Version 1.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": null,
+    "sourceHash": "sha256:9988e879d388a8731ef7ed37132bce4347f865c5b233c2eca2ae17b5d9ca5aaa"
+  },
+  "mapping": {
+    "sourceHash": "sha256:9988e879d388a8731ef7ed37132bce4347f865c5b233c2eca2ae17b5d9ca5aaa",
+    "mappedOn": "2026-10-07",
+    "summary": "No-code iPaaS integration syncing BC with the Hy-Tek IntraOne WMS",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-receiving-putaway"
+    ],
+    "claims": [
+      "Syncs customers, vendors and items",
+      "BC purchase orders sent to IntraOne, receipts returned",
+      "BC sales orders sent to IntraOne, shipments returned",
+      "Inventory adjustments from IntraOne posted to BC",
+      "Unlimited users, data and transaction volume",
+      "Includes upgrades and break/fix support"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [
+      "Hy-Tek IntraOne"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "appId": "protaconsolutionsoy.production-operations-by-pinja",
+  "guid": null,
+  "publisherId": "protaconsolutionsoy",
+  "offerId": "production-operations-by-pinja",
+  "source": {
+    "name": "Production Operations by Pinja",
+    "publisher": "Pinja Digital Oy",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/protaconsolutionsoy.production-operations-by-pinja",
+    "lastModified": "2026-02-16T08:50:36.0311838+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:ca28e8dd3105cdd32bdc1b65bd3ec35ac2964dff4e5534573399b422f87b5cf5"
+  },
+  "mapping": {
+    "sourceHash": "sha256:ca28e8dd3105cdd32bdc1b65bd3ec35ac2964dff4e5534573399b422f87b5cf5",
+    "mappedOn": "2026-10-07",
+    "summary": "Production planning (APS) and shop-floor execution (MES) platform integrated with BC",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-planning",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "Exchanges items, orders, inventory and production updates with BC via standard APIs",
+      "No modifications to Dynamics needed",
+      "AI builds the schedule against capacity and materials",
+      "Live view of machine data, ERP events and operator updates",
+      "Flags production delays",
+      "Simulates achievable delivery dates from capacity, materials and maintenance",
+      "Prioritised work lists for operators",
+      "Gantt planning, shortage management and MRP",
+      "Shift planning and working time reporting",
+      "Machine connections, dashboards and KPIs",
+      "Designed for complex multi-stage manufacturing"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

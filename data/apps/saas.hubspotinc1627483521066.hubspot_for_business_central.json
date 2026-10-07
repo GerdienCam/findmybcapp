@@ -1,0 +1,56 @@
+{
+  "appId": "hubspotinc1627483521066.hubspot_for_business_central",
+  "guid": null,
+  "publisherId": "hubspotinc1627483521066",
+  "offerId": "hubspot_for_business_central",
+  "source": {
+    "name": "HubSpot for Microsoft Business Central",
+    "publisher": "Hubspot, Inc.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/hubspotinc1627483521066.hubspot_for_business_central",
+    "lastModified": "2025-12-21T22:48:51.5718944+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:3b45196b251957001fb87f319763d0c4576761708f074467431becb18cc1f445"
+  },
+  "mapping": {
+    "sourceHash": "sha256:3b45196b251957001fb87f319763d0c4576761708f074467431becb18cc1f445",
+    "mappedOn": "2026-10-07",
+    "summary": "Two-way real-time sync of customer data between HubSpot and Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Two-way real-time sync",
+      "Default field mappings out of the box",
+      "Existing records sync on setup",
+      "Setup publishes the Customer Card as an OData web service"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "HubSpot"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

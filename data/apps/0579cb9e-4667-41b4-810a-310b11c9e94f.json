@@ -6,32 +6,34 @@
   "source": {
     "name": "Continia Finance - Migration OPplus",
     "publisher": "Continia Software",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.continia365%7CAID.continia-finance-migration-opplus%7CPAPPID.0579cb9e-4667-41b4-810a-310b11c9e94f",
-    "lastModified": "2026-10-02T07:40:44.2301472+00:00",
+    "lastModified": "2026-10-05T15:43:37.6406891+00:00",
     "appVersion": "28.3.0.380564",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://docs.continia.com/en-us/continia-finance/",
-    "sourceHash": "sha256:1eba9c093c31f4e794e12e6c4f763774c9d0670f87925e30769aa07966e59117"
+    "sourceHash": "sha256:907ede0ef48536708e3519c43c6bb5cdbf65aa3ff4168bd7e0b6357fbc8f0c12"
   },
   "mapping": {
-    "sourceHash": "sha256:1eba9c093c31f4e794e12e6c4f763774c9d0670f87925e30769aa07966e59117",
-    "mappedOn": null,
-    "summary": "Migrates OPplus data to Continia Finance",
+    "sourceHash": "sha256:907ede0ef48536708e3519c43c6bb5cdbf65aa3ff4168bd7e0b6357fbc8f0c12",
+    "mappedOn": "2026-10-07",
+    "summary": "Migrates OPplus finance data into Continia Finance and switches the apps over",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-admin-data-migration",
-        "confidence": "medium"
+        "confidence": "high"
       }
     ],
     "secondary": [],
     "claims": [
-      "Pre-validates OPplus data",
-      "Transfers OPplus tables and fields to Continia Finance",
-      "All settings on one page",
-      "Deactivates OPplus and activates Continia Finance",
-      "Payment modules migrated separately via Continia Banking migration app"
+      "Pre-validates existing OPplus data",
+      "Moves OPplus tables and fields to Continia Finance",
+      "Guided migration with settings on one page",
+      "Deactivates OPplus and activates Continia Finance automatically",
+      "Payment module data needs the separate Continia Banking migration app",
+      "OPplus can be uninstalled afterwards with history preserved"
     ],
     "countries": [
       "AT",
@@ -41,6 +43,7 @@
       "ES",
       "GB",
       "NL",
+      "NO",
       "PL",
       "SE"
     ],
@@ -52,8 +55,7 @@
       "OPplus"
     ],
     "requires": [
-      "Continia Finance",
-      "OPplus"
+      "Continia Finance"
     ],
     "deployment": "not_stated",
     "pricing": "not_stated",

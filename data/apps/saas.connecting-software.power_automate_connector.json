@@ -1,0 +1,64 @@
+{
+  "appId": "connecting-software.power_automate_connector",
+  "guid": null,
+  "publisherId": "connecting-software",
+  "offerId": "power_automate_connector",
+  "source": {
+    "name": "Connect Bridge for Power Automate",
+    "publisher": "Connecting Software",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/connecting-software.power_automate_connector",
+    "lastModified": "2026-02-26T17:28:55.8550137+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:7dfe7fa179e4349770ec95fc5b14ee62eb9d4d115388f31692479de0acd785e7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:7dfe7fa179e4349770ec95fc5b14ee62eb9d4d115388f31692479de0acd785e7",
+    "mappedOn": "2026-10-07",
+    "summary": "Lets Power Automate flows read and write on-premises systems such as NAV and BC.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-automation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Data sources include Dynamics NAV, Business Central, AX and FO",
+      "Also Exchange, SharePoint, Salesforce, QuickBooks and OPC UA",
+      "Works where the On-premises Data Gateway lacks support",
+      "Browse connected systems like a SQL database",
+      "SQL queries are translated to API calls, not direct database access",
+      "Free trial or demo available"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Power Automate",
+      "SharePoint",
+      "Exchange",
+      "Salesforce",
+      "QuickBooks"
+    ],
+    "requires": [],
+    "deployment": "both",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

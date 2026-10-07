@@ -1,0 +1,59 @@
+{
+  "appId": "agilevision.sync_my_orders",
+  "guid": null,
+  "publisherId": "agilevision",
+  "offerId": "sync_my_orders",
+  "source": {
+    "name": "SyncMyOrders",
+    "publisher": "AgileVision",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/agilevision.sync_my_orders",
+    "lastModified": "2025-12-16T16:18:20.3556457+00:00",
+    "appVersion": "1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:e199327bb542d571d96e1c82a665f0b3de22977d1d57e3b0fc88c8ff651a86fe"
+  },
+  "mapping": {
+    "sourceHash": "sha256:e199327bb542d571d96e1c82a665f0b3de22977d1d57e3b0fc88c8ff651a86fe",
+    "mappedOn": "2026-10-07",
+    "summary": "No-code workflow platform syncing orders between BC, 3PLs, WMS and webshops",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-automation"
+    ],
+    "claims": [
+      "No-code connection of ERPs, WMS, 3PLs and e-commerce",
+      "Visual execution graph engine with HTTP triggers",
+      "Automates order, inventory, shipment and invoicing flows",
+      "Order sync between BC and 3PLs",
+      "Handles millions of process invocations per month"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -4,20 +4,21 @@
   "publisherId": "glibusinesssolutionsgmbh1593103938587",
   "offerId": "offer_main-tool_maintenance",
   "source": {
-    "name": "MAIN-TOOL Maintenance Management",
-    "publisher": "GLI Business Solutions GmbH",
+    "name": "collana maintool",
+    "publisher": "collana apps GmbH",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.glibusinesssolutionsgmbh1593103938587%7CAID.offer_main-tool_maintenance%7CPAPPID.3f1d56b6-c2e5-4cea-821a-97c178c1d4fa",
-    "lastModified": "2026-07-29T07:57:15.8899108+00:00",
-    "appVersion": "27.0.20260700.0",
+    "lastModified": "2026-10-05T08:12:07.7616703+00:00",
+    "appVersion": "27.0.20260900.2",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://go-apps.collana.com/fwlink/?linkid=2303698",
-    "sourceHash": "sha256:7653dd687424006049a84c1d9514850486a3d50e83a0f6260a39b9e124891024"
+    "sourceHash": "sha256:ce2b3702460b191d7e85c83cd7b5a2bf717d512cec44c6357015fb484817b145"
   },
   "mapping": {
-    "sourceHash": "sha256:7653dd687424006049a84c1d9514850486a3d50e83a0f6260a39b9e124891024",
-    "mappedOn": null,
-    "summary": "Maintenance ticketing, scheduling and technical objects",
+    "sourceHash": "sha256:ce2b3702460b191d7e85c83cd7b5a2bf717d512cec44c6357015fb484817b145",
+    "mappedOn": "2026-10-07",
+    "summary": "Maintenance work orders, technical object hierarchy, recurring schedules and contract-based orders",
     "shape": "process",
     "primary": [
       {
@@ -33,16 +34,12 @@
       "ng-svc-contracts"
     ],
     "claims": [
-      "Creates, processes and escalates maintenance work orders",
-      "Technical objects with checklists",
-      "Manage technical objects like vehicles and components",
-      "Hierarchy structure for technical objects",
-      "Object monitoring of parameters",
-      "Equipment Information Center",
-      "Work orders from recurring events",
-      "Standing orders",
-      "Service contracts for technical objects",
-      "Work orders created from contracts"
+      "Create, process and escalate maintenance work orders",
+      "Technical objects such as components, mounting positions and vehicles",
+      "Object hierarchy and parameter monitoring",
+      "Equipment information center",
+      "Recurring and standing work orders",
+      "Contract-based work orders"
     ],
     "countries": [
       "AE",

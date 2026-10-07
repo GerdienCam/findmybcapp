@@ -1,0 +1,64 @@
+{
+  "appId": "bravent1583444966691.smartdoc",
+  "guid": null,
+  "publisherId": "bravent1583444966691",
+  "offerId": "smartdoc",
+  "source": {
+    "name": "SmartDoc",
+    "publisher": "Bravent",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/bravent1583444966691.smartdoc",
+    "lastModified": "2025-12-19T06:52:32.6825646+00:00",
+    "appVersion": "1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:fec171300d2b2832ce18e31f4a6c702afc875cccb0b2fa6495f1933339d04db4"
+  },
+  "mapping": {
+    "sourceHash": "sha256:fec171300d2b2832ce18e31f4a6c702afc875cccb0b2fa6495f1933339d04db4",
+    "mappedOn": "2026-10-07",
+    "summary": "AI reader that extracts logistics document data and pushes it to BC or other systems.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-vert-transport-logistics",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-ux-import-excel",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-ux-automation"
+    ],
+    "claims": [
+      "Extracts fields from photographed or scanned documents",
+      "Uses OCR, computer vision and LLMs, tolerant of format changes",
+      "Handles customs amounts, delivery notes and loading documents",
+      "Picks up documents from email, SharePoint and OneDrive via advanced triggers",
+      "Can deliver extracted data to Business Central",
+      "Stores images and data in Azure Data Lake Storage",
+      "Power Automate flow pushes data into the target app",
+      "Simple report to check extraction results"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Transport & logistics"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

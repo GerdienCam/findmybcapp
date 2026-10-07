@@ -6,26 +6,35 @@
   "source": {
     "name": "Acumens Licensing & Subscription Management",
     "publisher": "SBC Dynamics ERP",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.sbcdynamicserp1637715412860%7CAID.acumenslicensingsubscriptionmanagement2%7CPAPPID.a5f567ec-9dad-491c-bda1-08a697706a9d",
-    "lastModified": "2026-08-13T14:14:50.3506011+00:00",
+    "lastModified": "2026-10-02T22:05:17.876139+00:00",
     "appVersion": "27.0.0.4",
     "pricingTypes": [],
     "freeTrial": null,
-    "helpLink": "https://acumens.com/AcumensLicensingManagement.php",
-    "sourceHash": "sha256:fb9999bf94fe00077887f40d84c5735fe8d7a4d16bda7dc4d92ff279ebd03d75"
+    "helpLink": "https://www.sbcdynamicserp.com/licensing-subscription-mgt-business-central/",
+    "sourceHash": "sha256:11f61a4778f93c72d901c06688ea909286901c8d8bbf6cc25ee2b98bfbca3212"
   },
   "mapping": {
-    "sourceHash": "sha256:fb9999bf94fe00077887f40d84c5735fe8d7a4d16bda7dc4d92ff279ebd03d75",
-    "mappedOn": null,
-    "summary": "Central license management for Acumens apps",
-    "shape": "other",
-    "primary": [],
-    "secondary": [],
+    "sourceHash": "sha256:11f61a4778f93c72d901c06688ea909286901c8d8bbf6cc25ee2b98bfbca3212",
+    "mappedOn": "2026-10-07",
+    "summary": "Licensing hub for app publishers to manage user entitlements, trials and access across apps",
+    "shape": "usability",
+    "primary": [
+      {
+        "need": "ng-ux-developer-tools",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-licensing"
+    ],
     "claims": [
-      "Manage user licenses, features and expiry dates for multiple apps from one dashboard",
-      "Apps verify user status in real time against the hub",
-      "Revoke or suspend access across the suite with one click",
-      "Automated provisioning on payment"
+      "Manage user licenses, features and expiry dates for multiple apps",
+      "Apps check user status in real time against the hub",
+      "Separate licensing environment per customer organization",
+      "Revoke or suspend access across the suite in one click",
+      "Unlocks entitled apps automatically on payment"
     ],
     "countries": [],
     "languages": [
@@ -36,8 +45,8 @@
     "requires": [],
     "deployment": "not_stated",
     "pricing": "not_stated",
-    "hide": true,
-    "hideReason": "Licensing/entitlement hub for SBC's own Acumens apps, a dependency rather than a customer-facing BC solution",
+    "hide": false,
+    "hideReason": "",
     "noFit": ""
   },
   "curated": {

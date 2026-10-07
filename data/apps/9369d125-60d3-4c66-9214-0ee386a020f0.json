@@ -1,0 +1,66 @@
+{
+  "appId": "PUBID.codeunit|AID.connect2rule|PAPPID.9369d125-60d3-4c66-9214-0ee386a020f0",
+  "guid": "9369d125-60d3-4c66-9214-0ee386a020f0",
+  "publisherId": "codeunit",
+  "offerId": "connect2rule",
+  "source": {
+    "name": "connect2Rule",
+    "publisher": "Codeunit",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.codeunit%7CAID.connect2rule%7CPAPPID.9369d125-60d3-4c66-9214-0ee386a020f0",
+    "lastModified": "2026-10-05T05:17:57.5961065+00:00",
+    "appVersion": "28.0.1.4",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.codeunit.io/get-in-touch",
+    "sourceHash": "sha256:0de368b4988ec62c8f87a45764f971102e2bea49ce20aa1c167fcad9763c8415"
+  },
+  "mapping": {
+    "sourceHash": "sha256:0de368b4988ec62c8f87a45764f971102e2bea49ce20aa1c167fcad9763c8415",
+    "mappedOn": "2026-10-07",
+    "summary": "Sends event-triggered transactional emails from BC through the Rule messaging platform",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ux-email-sending",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-case-customer-updates"
+    ],
+    "claims": [
+      "BC events decide which Rule message is sent",
+      "Subject and sender follow the document; HTML and plain text",
+      "Message design is kept in Rule, BC supplies trigger and data",
+      "Individual send per recipient and duplicate removal",
+      "Configurable Bcc handling: include, skip or flag",
+      "Delivery confirmation and Rule reference stored on the BC record",
+      "Rejections reported on the originating document",
+      "Portal to monitor flows and resubmit failed transactions"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Rule"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

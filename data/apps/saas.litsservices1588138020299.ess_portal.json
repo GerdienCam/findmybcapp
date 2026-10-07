@@ -1,0 +1,72 @@
+{
+  "appId": "litsservices1588138020299.ess_portal",
+  "guid": null,
+  "publisherId": "litsservices1588138020299",
+  "offerId": "ess_portal",
+  "source": {
+    "name": "LITS Employee Self Service Portal",
+    "publisher": "LITS SERVICES",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/litsservices1588138020299.ess_portal",
+    "lastModified": "2026-02-26T09:44:08.4590327+00:00",
+    "appVersion": "10.0.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:774648b2e058ae2bdee8c7ff3398f7b52ae68b661f960f453eaced07787fe4e1"
+  },
+  "mapping": {
+    "sourceHash": "sha256:774648b2e058ae2bdee8c7ff3398f7b52ae68b661f960f453eaced07787fe4e1",
+    "mappedOn": "2026-10-07",
+    "summary": "Employee self-service portal for leave, loans, reimbursements and HR requests, integrated with BC",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-hr-employee-expenses",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-hr-employee-records"
+    ],
+    "claims": [
+      "Requests for leave, loans, attendance, assets and reimbursements",
+      "Configurable approval structure per request type",
+      "Email and in-app notifications",
+      "Employee view of leave balances and pay slips",
+      "HR dashboard of pending and completed requests",
+      "Approved transactions reflected in Business Central or F&O",
+      "Web and mobile apps",
+      "Self-hosted on SQL Server and IIS",
+      "Solution-based licensing, perpetual or subscription",
+      "English and Arabic"
+    ],
+    "countries": [],
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "onprem",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

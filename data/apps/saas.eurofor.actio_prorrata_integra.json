@@ -1,0 +1,63 @@
+{
+  "appId": "eurofor.actio_prorrata_integra",
+  "guid": null,
+  "publisherId": "eurofor",
+  "offerId": "actio_prorrata_integra",
+  "source": {
+    "name": "Actio Prorrata for Dynamics 365 Business Central",
+    "publisher": "INTEGRA",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/eurofor.actio_prorrata_integra",
+    "lastModified": "2026-08-03T22:25:07.9355735+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:a6b32af9d0bcfb5b80188de6c7ae02c986683b34ac4f9b81b5a0b412f0fbd4b7"
+  },
+  "mapping": {
+    "sourceHash": "sha256:a6b32af9d0bcfb5b80188de6c7ae02c986683b34ac4f9b81b5a0b412f0fbd4b7",
+    "mappedOn": "2026-10-07",
+    "summary": "Calculates and posts Spanish VAT pro rata and non-deductible VAT automatically.",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-vat-tax",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Supports pro rata rule and fully non-deductible fees",
+      "Calculates and adjusts final pro rata percentage",
+      "Posts pro rata on the invoice expense or a specific account",
+      "Pro rata cost added to product or fixed asset cost",
+      "Sends correct quotas to SII with Actio SII",
+      "Applied automatically on purchase invoices and credit memos",
+      "Spanish only"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "languages": [
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

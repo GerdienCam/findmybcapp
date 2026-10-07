@@ -6,51 +6,54 @@
   "source": {
     "name": "FuelVision365 Trips",
     "publisher": "Logic Vision B.V.",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.logicvisionbv1659359031668%7CAID.fuelvision365_trips%7CPAPPID.8f3f6ceb-76c1-c77e-2d70-03166a706fe6",
-    "lastModified": "2026-08-19T11:39:12.4898006+00:00",
-    "appVersion": "3.0.0.26080401",
-    "pricingTypes": [],
+    "lastModified": "2026-10-05T14:59:30.5041485+00:00",
+    "appVersion": "3.0.0.26082501",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.logicvision.nl/en/support",
-    "sourceHash": "sha256:a56e70c2a27ea8cb36c9a99fd2ac93725e2aae78d72740befcef33bbcfc4e2c8"
+    "sourceHash": "sha256:bd2a2aaae91bc7b8f9d54ea3e05982cab1a1149937f274e73f865f3e54d1488f"
   },
   "mapping": {
-    "sourceHash": "sha256:a56e70c2a27ea8cb36c9a99fd2ac93725e2aae78d72740befcef33bbcfc4e2c8",
-    "mappedOn": null,
-    "summary": "Truck load and delivery trips for fuel distribution",
+    "sourceHash": "sha256:bd2a2aaae91bc7b8f9d54ea3e05982cab1a1149937f274e73f865f3e54d1488f",
+    "mappedOn": "2026-10-07",
+    "summary": "Trip administration for fuel and gas delivery trucks, with load-based purchase matching and tank telemetry",
     "shape": "vertical",
     "primary": [
       {
         "need": "ng-vert-utilities-energy-waste",
         "confidence": "high"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-transport-planning",
       "ng-ap-invoice-capture",
-      "ng-admin-devices"
+      "ng-purchase-orders"
     ],
     "claims": [
-      "Records products, quantities and times loaded or unloaded",
-      "Automatically generates trip receipts",
-      "Creates purchase order per load entry",
-      "Matches purchase invoice to load by load number",
-      "Integrates with tanker truck onboard computer or handheld",
-      "Imports tank telemetry data",
-      "Alert when customer tank is nearly empty",
+      "Records what is loaded or unloaded, how much and when",
+      "Generates trip receipts automatically",
+      "Creates a purchase order per supplier load",
+      "Matches purchase invoices to loads by load number",
+      "Integrates with truck onboard computers or handhelds",
+      "Imports tank telemetry with low-level alerts",
       "Requires FuelVision365 CORE"
     ],
     "countries": [],
     "languages": [],
-    "industries": [
-      "Energy"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [
-      "FuelVision365 Core"
+      "FuelVision365 CORE"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""
