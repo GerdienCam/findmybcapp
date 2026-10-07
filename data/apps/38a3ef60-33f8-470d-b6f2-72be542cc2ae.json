@@ -6,18 +6,22 @@
   "source": {
     "name": "ExpenseConnect for Concur",
     "publisher": "Wipfli LLP",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.wipfli%7CAID.wipfli-expenseconnect-concur%7CPAPPID.38a3ef60-33f8-470d-b6f2-72be542cc2ae",
-    "lastModified": "2026-07-08T13:01:27.6909236+00:00",
-    "appVersion": "1.9.3.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-07T05:46:46.7557436+00:00",
+    "appVersion": "1.10.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://wipfliapps.github.io/concurconnect/BusinessCentral.html",
-    "sourceHash": "sha256:03ef6406b10e4b45423c0dd0d089234f72e4bb7c64b020ea84b07afb6f38a6f6"
+    "sourceHash": "sha256:11c3478d24c60c52ddb641d79e726902052c30eb121e02ea9072bd32ffb75952",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:03ef6406b10e4b45423c0dd0d089234f72e4bb7c64b020ea84b07afb6f38a6f6",
-    "mappedOn": null,
-    "summary": "Imports Concur expense reports",
+    "sourceHash": "sha256:11c3478d24c60c52ddb641d79e726902052c30eb121e02ea9072bd32ffb75952",
+    "mappedOn": "2026-10-07",
+    "summary": "Imports SAP Concur expense reports into BC journals with configurable mapping",
     "shape": "connector",
     "primary": [
       {
@@ -27,12 +31,10 @@
     ],
     "secondary": [],
     "claims": [
-      "Integrates Concur expense reports into a BC journal",
-      "Automatic via Concur API without user intervention",
-      "Configurable data mapping from Concur Expense to BC",
-      "Multi-currency transactions",
-      "Multi-company",
-      "Corporate cards and Concur Expense Pay transactions"
+      "Concur expense reports integrated into a BC journal",
+      "Automatic via Concur API without user action",
+      "Configurable data mapping from Concur to BC",
+      "Supports multi-currency, multi-company, corporate cards and Expense Pay"
     ],
     "countries": [
       "AT",
@@ -70,11 +72,11 @@
     ],
     "industries": [],
     "connectsTo": [
-      "SAP Concur Expense"
+      "SAP Concur"
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

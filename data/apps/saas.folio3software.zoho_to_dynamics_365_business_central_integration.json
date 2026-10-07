@@ -1,0 +1,62 @@
+{
+  "appId": "folio3software.zoho_to_dynamics_365_business_central_integration",
+  "guid": null,
+  "publisherId": "folio3software",
+  "offerId": "zoho_to_dynamics_365_business_central_integration",
+  "source": {
+    "name": "Zoho to Dynamics 365 Business Central with BURQ iPaaS",
+    "publisher": "Folio3 Software Inc.,",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/folio3software.zoho_to_dynamics_365_business_central_integration",
+    "lastModified": "2026-05-25T18:31:40.4237804+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:41de14f0adcb392edfdd31bb03f2f42a9bc1aa1b1404fc9d63a03c16358c575d",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:41de14f0adcb392edfdd31bb03f2f42a9bc1aa1b1404fc9d63a03c16358c575d",
+    "mappedOn": "2026-10-07",
+    "summary": "iPaaS connector syncing Zoho CRM accounts, products, orders and invoices with Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Zoho accounts create BC customers, with two-way contact and address sync",
+      "BC items publish to Zoho as products with tiered prices in price books",
+      "Zoho sales orders become BC sales orders with status sent back",
+      "BC invoices and payment status sync back to Zoho",
+      "Zoho leads convert to BC prospects",
+      "Auto-retry, dead-letter queues and error alerts",
+      "Visual field mapping without a developer",
+      "One-time installation fee plus annual renewal, no per-transaction fees"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Zoho CRM"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

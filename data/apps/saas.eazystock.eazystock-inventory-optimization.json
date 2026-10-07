@@ -1,0 +1,84 @@
+{
+  "appId": "eazystock.eazystock-inventory-optimization",
+  "guid": null,
+  "publisherId": "eazystock",
+  "offerId": "eazystock-inventory-optimization",
+  "source": {
+    "name": "Inventory Optimization & Demand Forecasting",
+    "publisher": "Syncron AB",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/eazystock.eazystock-inventory-optimization",
+    "lastModified": "2025-12-25T02:19:32.9547709+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:2ace848b6eed1705af2277b3776262c4a5bc8121dc7784ef0a9a3cf236d00c46",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:2ace848b6eed1705af2277b3776262c4a5bc8121dc7784ef0a9a3cf236d00c46",
+    "mappedOn": "2026-10-07",
+    "summary": "Demand forecasting and inventory optimization that sends order proposals back to BC.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-replenishment-planning",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-inventory-analysis"
+    ],
+    "claims": [
+      "Connects with BC and NAV",
+      "Statistical and seasonal demand forecasting",
+      "Promotions management",
+      "Dynamic item classification",
+      "Calculates reorder points, order quantities and safety stock",
+      "Dynamic supplier lead times",
+      "Alerts against over- and under-stocking",
+      "KPI dashboard down to SKU",
+      "Multi-site and redistribution",
+      "Order fill-up to use container capacity and reach MOQ",
+      "Sends recommended orders back to the ERP"
+    ],
+    "countries": [
+      "AT",
+      "BE",
+      "CA",
+      "CH",
+      "DE",
+      "DK",
+      "FI",
+      "GB",
+      "IE",
+      "NL",
+      "NO",
+      "SE",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics NAV"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "appId": "fourvision.advanced-hrm-saas",
+  "guid": null,
+  "publisherId": "fourvision",
+  "offerId": "advanced-hrm-saas",
+  "source": {
+    "name": "Advanced HRM for Dynamics 365 Business Central and Finance & SCM",
+    "publisher": "FourVision",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/fourvision.advanced-hrm-saas",
+    "lastModified": "2025-12-22T18:31:39.5357105+00:00",
+    "appVersion": "4.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:d6cd26fb1286d617775cdcb77bb059b7e79b2c5bb6f4364cb13951ce53de9cfd",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:d6cd26fb1286d617775cdcb77bb059b7e79b2c5bb6f4364cb13951ce53de9cfd",
+    "mappedOn": "2026-10-07",
+    "summary": "End-to-end HR platform connected to Business Central, from recruiting to time and attendance",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-performance",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-onboard-offboard",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-recruiting",
+      "ng-hr-absence-leave",
+      "ng-hr-time-shifts",
+      "ng-hr-payroll-comp"
+    ],
+    "claims": [
+      "Recruitment projects linked to your recruitment system",
+      "Templates for on-, cross- and offboarding",
+      "Request workflows for hiring, transfers and new positions",
+      "Employee document e-profile for HR, managers and employees",
+      "Performance cycles with 360-degree feedback",
+      "Succession planning for key positions",
+      "Merit increases and bonuses tied to performance",
+      "Timesheets, leave and sickness registration",
+      "Works with Business Central and Finance & SCM",
+      "Accessible through Teams and Outlook"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Teams",
+      "Microsoft Outlook",
+      "Dynamics 365 Finance & SCM"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

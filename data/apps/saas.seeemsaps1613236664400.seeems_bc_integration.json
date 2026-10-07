@@ -1,0 +1,61 @@
+{
+  "appId": "seeemsaps1613236664400.seeems_bc_integration",
+  "guid": null,
+  "publisherId": "seeemsaps1613236664400",
+  "offerId": "seeems_bc_integration",
+  "source": {
+    "name": "Business Central Integration",
+    "publisher": "SEEEMS ApS",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/seeemsaps1613236664400.seeems_bc_integration",
+    "lastModified": "2025-12-19T10:51:51.8822805+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:c9f84558dc9a2a302e0c3302d164411e1377d7d96870d0474e3bb727e669a8c8",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:c9f84558dc9a2a302e0c3302d164411e1377d7d96870d0474e3bb727e669a8c8",
+    "mappedOn": "2026-10-07",
+    "summary": "Integrates the SEEEMS B2C/B2B webshop with BC for products, prices, customers, stock and orders",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "Products, prices, discounts and customers maintained in BC",
+      "Webshop orders sent to BC automatically",
+      "Continuous stock sync",
+      "Shop keeps working when BC connection is down via cache",
+      "Navigation built from BC product groups or web categories",
+      "Customer-specific prices and discounts for B2B",
+      "Customer portal shows purchase history and invoices, including store purchases",
+      "Supports both B2C and B2B"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SEEEMS Webshop"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

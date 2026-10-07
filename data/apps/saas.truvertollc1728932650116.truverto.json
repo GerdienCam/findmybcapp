@@ -1,0 +1,72 @@
+{
+  "appId": "truvertollc1728932650116.truverto",
+  "guid": null,
+  "publisherId": "truvertollc1728932650116",
+  "offerId": "truverto",
+  "source": {
+    "name": "Truverto: Speed Up Credit Checks, Find Sales Openings",
+    "publisher": "TRUVERTO LLC",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/truvertollc1728932650116.truverto",
+    "lastModified": "2026-06-25T13:32:08.6008258+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:183b26508baa81e5bc46798e4c597802496baa7b292143185a0e71dfa3aa717d",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:183b26508baa81e5bc46798e4c597802496baa7b292143185a0e71dfa3aa717d",
+    "mappedOn": "2026-10-07",
+    "summary": "AI credit review, collections forecast and customer data enrichment from credit bureaus for BC",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-customer-credit-holds",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-cash-forecast",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-collections"
+    ],
+    "claims": [
+      "Credit reviews through an AI agent in Teams or a dashboard",
+      "Eight-week collections forecast from actual payment behaviour",
+      "Predicts payment date per invoice from average days to pay and risk",
+      "Forecast emailed to the team every Monday",
+      "Validates customer master data with Creditsafe and Dun & Bradstreet",
+      "Keeps corporate hierarchy, industry codes and contacts up to date"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [
+      "Creditsafe",
+      "Dun & Bradstreet",
+      "Microsoft Teams"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

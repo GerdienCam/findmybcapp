@@ -6,26 +6,32 @@
   "source": {
     "name": "CS Sales Costs & Commissions",
     "publisher": "Central Solutions",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cs_salescosts_commissions%7CPAPPID.ff40c9c2-37be-4f95-898a-f4e98f877cb6",
-    "lastModified": "2026-05-12T04:42:24.741258+00:00",
-    "appVersion": "28.0.0.0",
+    "lastModified": "2026-10-06T11:45:17.3590034+00:00",
+    "appVersion": "28.1.0.1",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": null,
     "helpLink": "https://central-solutions.nl/cs-sales-costs-help-en/",
-    "sourceHash": "sha256:20015440f1ecf149ff13e18eae51006068a42898e1b3bd46511ef9397b2f88da"
+    "sourceHash": "sha256:cf83b81dce4ac88102de3f4ed35be9b59b1c6635939d7b26d4b33eb019a5397e",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:20015440f1ecf149ff13e18eae51006068a42898e1b3bd46511ef9397b2f88da",
-    "mappedOn": null,
-    "summary": "Manages sales costs and commissions and sales profitability",
+    "sourceHash": "sha256:cf83b81dce4ac88102de3f4ed35be9b59b1c6635939d7b26d4b33eb019a5397e",
+    "mappedOn": "2026-10-07",
+    "summary": "Accrues and pays sales costs like agent commissions and levies, with profitability views",
     "shape": "process",
     "primary": [
       {
         "need": "ng-sales-commissions",
         "confidence": "high"
+      },
+      {
+        "need": "ng-product-performance",
+        "confidence": "low"
       }
     ],
     "secondary": [
@@ -33,22 +39,63 @@
       "ng-sales-analytics"
     ],
     "claims": [
-      "Reserves sales costs (levies, agent commissions, 3PL) as expected costs",
-      "Posts costs to income statement when invoice posted or paid",
-      "Agent payment only when invoice paid and threshold margin reached",
-      "Creates purchase documents to post costs",
-      "Sales cost entries per customer, item, agent, order",
-      "Unlimited sales cost types",
-      "Rates by threshold on line amount with or without discounts",
-      "Entries marked budgeted, payable and paid"
+      "Reserves expected sales costs on a G/L balance account",
+      "Costs posted to P&L when invoice is posted or paid",
+      "Costs shown per customer, item, sales agent, order or invoice",
+      "Agent payout can depend on payment and a gross margin threshold",
+      "Creates purchase documents to post the costs in the right period",
+      "Separate sales cost entry table marking budgeted, posted and paid",
+      "Unlimited cost types with rate as percentage or amount per agent and vendor",
+      "Thresholds on line amount with or without discounts",
+      "Per-user subscription with 30-day free trial"
     ],
-    "countries": [],
-    "languages": [],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "DO",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "sv"
+    ],
     "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "free_trial",
+    "pricing": "per_user",
     "hide": false,
     "hideReason": "",
     "noFit": ""

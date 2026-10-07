@@ -1,0 +1,73 @@
+{
+  "appId": "briscoesolutionsinc1781288165231.vivid-reports-cpm",
+  "guid": null,
+  "publisherId": "briscoesolutionsinc1781288165231",
+  "offerId": "vivid-reports-cpm",
+  "source": {
+    "name": "Vivid Reports CPM",
+    "publisher": "Vivid Reports",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/briscoesolutionsinc1781288165231.vivid-reports-cpm",
+    "lastModified": "2026-07-01T11:08:59.2356008+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:5108d81544915d6d51289d93967610ec6b313d1495ba441cf9fec9828ff9cf62",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:5108d81544915d6d51289d93967610ec6b313d1495ba441cf9fec9828ff9cf62",
+    "mappedOn": "2026-10-07",
+    "summary": "Excel-based financial reporting, budgeting, forecasting and consolidation platform connected to BC.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-financial-statements",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-budget-build",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ux-excel-reporting",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-intercompany-consolidation",
+      "ng-budget-vs-actual"
+    ],
+    "claims": [
+      "Connects directly to BC, GP, NAV, D365 Finance and 60+ other ERPs",
+      "Converts existing Excel reports into refreshable reports and budget templates",
+      "Consolidates multiple entities, currencies or ERPs",
+      "Drill from statements to transactions and invoice images",
+      "Central definitions of GL accounts and roll-ups reused everywhere",
+      "Automated report distribution",
+      "Self-service reporting with detailed permissions",
+      "Budget collaboration with notes and templates",
+      "Works with PowerPoint and Power BI"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics GP",
+      "Dynamics NAV",
+      "Dynamics 365 Finance"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

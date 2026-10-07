@@ -1,0 +1,61 @@
+{
+  "appId": "business_experts_gulf_2427878.beg_kyriba_bc",
+  "guid": null,
+  "publisherId": "business_experts_gulf_2427878",
+  "offerId": "beg_kyriba_bc",
+  "source": {
+    "name": "Kyriba Bank Integration on Business Central",
+    "publisher": "Business Experts MEA",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/business_experts_gulf_2427878.beg_kyriba_bc",
+    "lastModified": "2025-12-19T00:09:28.9590573+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:9dd91c4935d29f13c06659bbb044b30f378f7ae4671d9bbf266b5b1cec3cf31c",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:9dd91c4935d29f13c06659bbb044b30f378f7ae4671d9bbf266b5b1cec3cf31c",
+    "mappedOn": "2026-10-07",
+    "summary": "Encrypts bank data from BC via Azure and exchanges it through SharePoint for Kyriba.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-ap-payments",
+        "confidence": "low"
+      },
+      {
+        "need": "ng-bank-reconciliation",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Encrypts bank data using Azure Functions",
+      "Encryption to PM7 format",
+      "Files exchanged via SharePoint",
+      "Runs by job queue without user action"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Kyriba",
+      "SharePoint",
+      "Azure"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

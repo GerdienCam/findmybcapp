@@ -1,0 +1,103 @@
+{
+  "appId": "PUBID.centralsolutions1591256491708|AID.cso_ean_barcode_management|PAPPID.1573aaf7-c6bf-40e9-8018-eeaa0fbbc71f",
+  "guid": "1573aaf7-c6bf-40e9-8018-eeaa0fbbc71f",
+  "publisherId": "centralsolutions1591256491708",
+  "offerId": "cso_ean_barcode_management",
+  "source": {
+    "name": "CS GS1 Barcode Management",
+    "publisher": "Central Solutions",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cso_ean_barcode_management%7CPAPPID.1573aaf7-c6bf-40e9-8018-eeaa0fbbc71f",
+    "lastModified": "2026-10-05T11:40:47.7443198+00:00",
+    "appVersion": "28.1.0.2",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://central-solutions.nl/cs-barcode-management-help-en/",
+    "sourceHash": "sha256:65f8e9d53ca72408a4b555e71143687366cebbc956414a0dad139296db4815cd",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:65f8e9d53ca72408a4b555e71143687366cebbc956414a0dad139296db4815cd",
+    "mappedOn": "2026-10-07",
+    "summary": "Enterprise edition: generates GS1 EAN/UPC-A item barcodes and enforces uniqueness on orders",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-barcode-labels",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-item-master-data",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-data-quality"
+    ],
+    "claims": [
+      "Creates EAN and UPC-A barcodes with GS1 check digits",
+      "Number series assign barcodes to items, variants and units of measure",
+      "Checks uniqueness per item, variant and unit of measure",
+      "Blocks orders or shipments without unique, correct barcodes",
+      "Validity checks configurable per order type",
+      "Barcodes shown in factboxes on items, order lines and warehouse documents",
+      "Priced per production environment with unlimited sandboxes and users",
+      "30-day free trial"
+    ],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "DO",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

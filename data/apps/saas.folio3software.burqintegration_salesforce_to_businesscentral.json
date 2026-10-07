@@ -1,0 +1,58 @@
+{
+  "appId": "folio3software.burqintegration_salesforce_to_businesscentral",
+  "guid": null,
+  "publisherId": "folio3software",
+  "offerId": "burqintegration_salesforce_to_businesscentral",
+  "source": {
+    "name": "Salesforce Integration with Dynamics 365 Business Central - BURQ iPaaS",
+    "publisher": "Folio3 Software Inc.,",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/folio3software.burqintegration_salesforce_to_businesscentral",
+    "lastModified": "2025-12-23T22:19:29.3245732+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:ecb64f9806fc6bf641401f50a65fbbd6ea3cb1f6a54f5430e00adc9d71650b62",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:ecb64f9806fc6bf641401f50a65fbbd6ea3cb1f6a54f5430e00adc9d71650b62",
+    "mappedOn": "2026-10-07",
+    "summary": "iPaaS connector syncing Salesforce accounts, leads, opportunities and orders with Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Syncs leads, opportunities and customer data",
+      "Syncs accounts, contacts, products and price lists",
+      "Handles campaigns and custom objects",
+      "Supports migrating data from Salesforce to BC",
+      "One-time installation fee plus annual renewal, no per-transaction fees"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Salesforce"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

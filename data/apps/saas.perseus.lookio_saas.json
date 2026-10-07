@@ -1,0 +1,79 @@
+{
+  "appId": "perseus.lookio_saas",
+  "guid": null,
+  "publisherId": "perseus",
+  "offerId": "lookio_saas",
+  "source": {
+    "name": "Lookio See Your People Clearly",
+    "publisher": "Perseus Enterprises Inc",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/perseus.lookio_saas",
+    "lastModified": "2026-06-04T05:53:32.3835966+00:00",
+    "appVersion": "1.0.6",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:d1aa760c399683743262e272feb51aa511a916f7a40baf74f4e8a507a2ce2039",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:d1aa760c399683743262e272feb51aa511a916f7a40baf74f4e8a507a2ce2039",
+    "mappedOn": "2026-10-07",
+    "summary": "HR platform for employee records, hiring, onboarding, time off, reviews and training, synced with BC",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-recruiting",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-onboard-offboard",
+      "ng-hr-performance",
+      "ng-hr-skills-training"
+    ],
+    "claims": [
+      "Employee directory with org chart and document storage",
+      "More than 25 configurable custom fields per employee",
+      "Employee self-service for profile, contacts and documents",
+      "Ten-stage hiring pipeline with candidate portal and talent bank",
+      "One-click conversion of a hire into an employee",
+      "Time-off requests with approval and manager notifications",
+      "Review cycles with goals, competency frameworks and manager sign-off",
+      "Mandatory certification tracking and learning catalog",
+      "Benefit plan enrollment and deduction reporting",
+      "Entra ID account provisioning on hire and revocation on termination",
+      "Two-way employee sync with BC set up via wizard",
+      "BC integration is optional",
+      "SOC 2 Type II compliant",
+      "Role-based access with 38 permissions and full audit trail",
+      "Priced per employee per month in three tiers, BC sync from Professional tier",
+      "14-day free trial without credit card"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Entra ID"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "per_user",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

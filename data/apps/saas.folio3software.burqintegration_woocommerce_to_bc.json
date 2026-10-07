@@ -1,0 +1,56 @@
+{
+  "appId": "folio3software.burqintegration_woocommerce_to_bc",
+  "guid": null,
+  "publisherId": "folio3software",
+  "offerId": "burqintegration_woocommerce_to_bc",
+  "source": {
+    "name": "WooCommerce to D365 Business Central with BURQ iPaaS",
+    "publisher": "Folio3 Software Inc.,",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/folio3software.burqintegration_woocommerce_to_bc",
+    "lastModified": "2025-12-18T09:53:12.7655379+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:af50c66c9efda97991ab3d631055a34a4c2d062d74fd3d2b4697466aa6e6dd46",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:af50c66c9efda97991ab3d631055a34a4c2d062d74fd3d2b4697466aa6e6dd46",
+    "mappedOn": "2026-10-07",
+    "summary": "iPaaS connector syncing WooCommerce store orders, products and stock with Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs orders, customer and billing details",
+      "Syncs stock levels between store and BC",
+      "Syncs products, coupons, returns, gift cards and tier pricing",
+      "Multi-tier pricing rules managed in BC",
+      "One-time installation fee plus annual renewal, no per-transaction fees"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "WooCommerce"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

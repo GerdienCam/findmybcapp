@@ -1,0 +1,66 @@
+{
+  "appId": "southeastdynamicspteltd1751338472611.d365bc-customerorderenabler-offer-1",
+  "guid": null,
+  "publisherId": "southeastdynamicspteltd1751338472611",
+  "offerId": "d365bc-customerorderenabler-offer-1",
+  "source": {
+    "name": "Conversational Commerce - Customer Order Enabler for Dynamics 365 Business Central",
+    "publisher": "Southeast Dynamics",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/southeastdynamicspteltd1751338472611.d365bc-customerorderenabler-offer-1",
+    "lastModified": "2026-05-13T09:07:57.3778294+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:e73e1dfa5764750ba7f3061885de93816f2c93aed5ddc7d43acfe9959e85fbda",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:e73e1dfa5764750ba7f3061885de93816f2c93aed5ddc7d43acfe9959e85fbda",
+    "mappedOn": "2026-10-07",
+    "summary": "Customers order via WhatsApp into BC sales orders, plus a B2B self-service portal",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-messaging",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Takes and answers orders over WhatsApp into BC sales orders",
+      "B2B customer portal to view and edit orders, download invoices and see statements",
+      "Orders validated against BC inventory, pricing and customer data",
+      "Targets BC online customers in SME and mid-market"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [
+      "WhatsApp"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

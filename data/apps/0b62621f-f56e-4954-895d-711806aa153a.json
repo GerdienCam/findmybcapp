@@ -6,60 +6,56 @@
   "source": {
     "name": "DYCE Business Suite",
     "publisher": "Singhammer IT Consulting AG",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.singhammeritconsultingag1598359803264%7CAID.1022%7CPAPPID.0b62621f-f56e-4954-895d-711806aa153a",
-    "lastModified": "2026-09-28T07:45:08.2110258+00:00",
+    "lastModified": "2026-10-05T15:44:09.9894818+00:00",
     "appVersion": "2026.6.0.0",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://docs.dyce.cloud/docs/appsuites/bs",
-    "sourceHash": "sha256:e3046c25bde60c164cf92026f3b4079199cab1b1a2e9a26723411c0ccf29e287"
+    "sourceHash": "sha256:0f329394b84a08d8d9f8f72131aa525af6a3fd1ff35bd27fd32468c927c67944",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:e3046c25bde60c164cf92026f3b4079199cab1b1a2e9a26723411c0ccf29e287",
-    "mappedOn": null,
-    "summary": "Suite of 70+ process helpers and tools",
-    "shape": "usability",
+    "sourceHash": "sha256:0f329394b84a08d8d9f8f72131aa525af6a3fd1ff35bd27fd32468c927c67944",
+    "mappedOn": "2026-10-07",
+    "summary": "Bundle of 70+ helpers for quotes, order-linked purchasing, payment plans and margin pricing",
+    "shape": "process",
     "primary": [
       {
         "need": "ng-sales-quotes",
         "confidence": "medium"
       },
       {
-        "need": "ng-sales-pricing",
+        "need": "ng-purchase-orders",
         "confidence": "medium"
       },
       {
-        "need": "ng-purchase-orders",
+        "need": "ng-sales-pricing",
         "confidence": "medium"
       }
     ],
     "secondary": [
       "ng-supplier-pricing",
-      "ng-sales-invoicing",
-      "ng-ux-automation",
-      "ng-admin-office-teams"
+      "ng-ux-rolecenters",
+      "ng-ux-document-layouts"
     ],
     "claims": [
       "More than 70 process helpers",
-      "Order-related procurement, payment plans, calculation import and margin calculation for IT retail",
-      "Imports calculations by CSV or interface and creates items/catalog items automatically",
-      "Milestone and prepayment logic with separate number series for prepayments",
-      "Trade margin or calculation surcharge as pricing basis on the sales line",
-      "Document status workflow with Power Automate integration",
-      "Tracks document links between sales and purchasing",
-      "Imports supplier price lists with history",
-      "Product bundles",
-      "Teams and Outlook integrations",
-      "Sold as bundle only"
+      "Order-related procurement with sales/purchase order linking",
+      "Imports supplier calculations into quotes and creates items",
+      "Milestone and prepayment plans with own number series",
+      "Margin or surcharge based pricing in the sales line",
+      "Document status workflow with Power Automate",
+      "Document tracker for sales-purchase links",
+      "Sold only as a bundle"
     ],
     "countries": [],
     "languages": [
       "de",
       "en"
     ],
-    "industries": [
-      "IT companies"
-    ],
+    "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",

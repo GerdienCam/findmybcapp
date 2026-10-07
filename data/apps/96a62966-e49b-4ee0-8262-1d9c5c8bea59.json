@@ -6,30 +6,34 @@
   "source": {
     "name": "m+m Intrastat with Unit Conversion",
     "publisher": "Markmann + Müller Datensysteme GmbH",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.markmannmllerdatensystemegmbh1610701000601%7CAID.mumdat_intrastat_unit_conversion%7CPAPPID.96a62966-e49b-4ee0-8262-1d9c5c8bea59",
-    "lastModified": "2026-06-06T16:14:30.3766513+00:00",
-    "appVersion": "28.0.370908.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-06T12:51:32.0132576+00:00",
+    "appVersion": "28.0.375841.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.mumdat.de/appsource",
-    "sourceHash": "sha256:67b55406ec533e892e0a864a2427da30450fd3dd5e93b56c5872f0f1175482c0"
+    "sourceHash": "sha256:26d95cb8ff83b411e57c948cba4f183278aa1274d40c26794bda1f06fce4ac07",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:67b55406ec533e892e0a864a2427da30450fd3dd5e93b56c5872f0f1175482c0",
-    "mappedOn": null,
-    "summary": "Sets Intrastat weights from m+m unit conversion",
+    "sourceHash": "sha256:26d95cb8ff83b411e57c948cba4f183278aa1274d40c26794bda1f06fce4ac07",
+    "mappedOn": "2026-10-07",
+    "summary": "Fills Intrastat gross and net weights from m+m Unit Conversion data",
     "shape": "addon",
     "primary": [
       {
         "need": "ng-loc-tax-reporting",
-        "confidence": "low"
+        "confidence": "medium"
       }
     ],
     "secondary": [],
     "claims": [
-      "Sets Intrastat gross and net weight from unit conversion",
+      "Sets Intrastat weights from unit conversion fields",
       "Uses item ledger entries as source",
-      "Supported BC editions as stated"
+      "Redefines gross and net weight on Intrastat lines"
     ],
     "countries": [
       "AT",
@@ -43,8 +47,7 @@
       "IT",
       "LV",
       "NL",
-      "PL",
-      "US"
+      "PL"
     ],
     "languages": [
       "de",
@@ -56,7 +59,7 @@
       "m+m Unit Conversion"
     ],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

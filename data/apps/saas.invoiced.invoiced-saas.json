@@ -1,0 +1,65 @@
+{
+  "appId": "invoiced.invoiced-saas",
+  "guid": null,
+  "publisherId": "invoiced",
+  "offerId": "invoiced-saas",
+  "source": {
+    "name": "Invoiced A/R Automation for Business Central",
+    "publisher": "Invoiced, Inc.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/invoiced.invoiced-saas",
+    "lastModified": "2025-12-19T16:39:20.4449628+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:d6159ad12e9713045feb2fa518086eb8f7fc8f85d15c23ac15c5e0d27506af6a",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:d6159ad12e9713045feb2fa518086eb8f7fc8f85d15c23ac15c5e0d27506af6a",
+    "mappedOn": "2026-10-07",
+    "summary": "Cloud accounts receivable automation for invoicing, collections and payments with BC",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-collections",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-customer-payments",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-sales-invoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-subscription-billing",
+      "ng-cash-forecast"
+    ],
+    "claims": [
+      "Customizable invoice templates and automated billing",
+      "Subscription management",
+      "Takes payments within the platform",
+      "Payment tracking and account reconciliation",
+      "Also covers accounts payable automation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

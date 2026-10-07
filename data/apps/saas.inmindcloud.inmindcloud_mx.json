@@ -1,0 +1,70 @@
+{
+  "appId": "inmindcloud.inmindcloud_mx",
+  "guid": null,
+  "publisherId": "inmindcloud",
+  "offerId": "inmindcloud_mx",
+  "source": {
+    "name": "In Mind Cloud CPQ, Costing & B2B Commerce for Dynamics 365 Business Central",
+    "publisher": "In Mind Cloud",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/inmindcloud.inmindcloud_mx",
+    "lastModified": "2026-08-04T05:33:50.3567064+00:00",
+    "appVersion": "2208",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:72c12a7d636e8c4b446034c85629b6c7982a2fd7f659bef9d2505f7e46422002",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:72c12a7d636e8c4b446034c85629b6c7982a2fd7f659bef9d2505f7e46422002",
+    "mappedOn": "2026-10-07",
+    "summary": "CPQ, manufacturing costing and B2B partner and after-sales portals for Business Central",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-costing",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-parts",
+      "ng-sales-quotes",
+      "ng-vert-industrial-manufacturing"
+    ],
+    "claims": [
+      "Partners and customers can order, track orders and register equipment",
+      "Dealer discounts and promotions in the portal",
+      "Cost estimation and simulation for manufactured products",
+      "Pricing across regions, currencies and channels",
+      "Spare parts selected from 2D or 3D views of the installed base",
+      "After-sales checkout or RFQ with customer prices",
+      "Quote workflows and approvals across departments"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "appId": "plmcadutilitiesas1582382573564.vaultbusinesscentralintegration2",
+  "guid": null,
+  "publisherId": "plmcadutilitiesas1582382573564",
+  "offerId": "vaultbusinesscentralintegration2",
+  "source": {
+    "name": "Autodesk Vault & Inventor Business Central Integration",
+    "publisher": "PLM CAD UTILITIES AS",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/plmcadutilitiesas1582382573564.vaultbusinesscentralintegration2",
+    "lastModified": "2025-12-21T20:00:46.1636226+00:00",
+    "appVersion": "3.0.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:e1801ce8c091628810dd3994dc9c39c5763f5e7589c00ebd8a5d005a3443f67e",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:e1801ce8c091628810dd3994dc9c39c5763f5e7589c00ebd8a5d005a3443f67e",
+    "mappedOn": "2026-10-07",
+    "summary": "Transfers items and BOMs from Autodesk Vault and Inventor into BC, with two-way sync options",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-routings-workcenters",
+      "ng-admin-document-storage"
+    ],
+    "claims": [
+      "Transfers items and BOMs on demand or after workflow approval",
+      "Compares Vault/Inventor BOMs with BC BOMs",
+      "Creates item attributes and links",
+      "Uploads PDF drawings to SharePoint and stores the link in BC",
+      "Can create item variants and routings",
+      "Uses BC number series to create items or files in Vault/Inventor",
+      "Imports descriptions from BC into Vault/Inventor",
+      "Adds virtual components such as raw materials to BC BOMs",
+      "Controls which items may be overwritten"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [
+      "Autodesk Vault",
+      "Autodesk Inventor",
+      "AutoCAD",
+      "SharePoint"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

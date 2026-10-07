@@ -6,22 +6,24 @@
   "source": {
     "name": "Dimension Management Transact for D365 BC",
     "publisher": "Binary Stream Software Inc.",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.binary-stream-software%7CAID.dimension_management_transactability_d365bc%7CPAPPID.f795a864-46c6-4118-8d7a-ed23635b35e9",
-    "lastModified": "2026-10-01T11:01:36.1353941+00:00",
-    "appVersion": "1.11.0.0",
+    "lastModified": "2026-10-02T15:25:05.0808913+00:00",
+    "appVersion": "1.12.0.0",
     "pricingTypes": [
       "FreeTrial",
       "Payg"
     ],
     "freeTrial": "1 Month",
     "helpLink": "https://onlinehelpcrm.azurewebsites.net/HelpFiles/DMHelp/DM.htm",
-    "sourceHash": "sha256:1c827271743aaa37f779b6555247982a683f6fe621342ea81f568d77cf1b9bd8"
+    "sourceHash": "sha256:11514832e5d8751745810c2f6e338c048a9a0cb5267f7fb499fab614c87e7f9c",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:1c827271743aaa37f779b6555247982a683f6fe621342ea81f568d77cf1b9bd8",
-    "mappedOn": null,
-    "summary": "Corrects and updates dimensions on posted transactions",
-    "shape": "process",
+    "sourceHash": "sha256:11514832e5d8751745810c2f6e338c048a9a0cb5267f7fb499fab614c87e7f9c",
+    "mappedOn": "2026-10-07",
+    "summary": "Corrects or adds dimension values on posted entries without reversing and reposting",
+    "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-dimensions",
@@ -29,28 +31,26 @@
       }
     ],
     "secondary": [
-      "ng-ux-correct-posted"
+      "ng-audit-compliance"
     ],
     "claims": [
-      "Corrects, adds or updates dimension values after posting",
-      "No need to reverse and repost transactions",
+      "Changes dimension values after posting without reversal",
       "Works across all transaction types",
-      "Batch updates of dimensions",
-      "Applies new dimensions to historical transactions",
+      "Batch updates and applying new dimensions to historical entries",
       "Scheduled dimension updates",
       "Full audit trail of dimension changes",
-      "Applies updates across master records, budgets and ledgers",
-      "Integrates with Binary Stream Multi-Entity Management with protection of MEM global dimensions"
+      "Updates ledgers, budgets and master records",
+      "Protects Multi-Entity Management global dimensions from unauthorized change",
+      "Priced per user"
     ],
     "countries": [],
     "languages": [
       "en"
     ],
-    "industries": [
-      "Financial services",
-      "Professional services"
+    "industries": [],
+    "connectsTo": [
+      "Binary Stream Multi-Entity Management"
     ],
-    "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
     "pricing": "per_user",

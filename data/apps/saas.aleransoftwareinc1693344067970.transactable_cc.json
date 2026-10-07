@@ -1,0 +1,79 @@
+{
+  "appId": "aleransoftwareinc1693344067970.transactable_cc",
+  "guid": null,
+  "publisherId": "aleransoftwareinc1693344067970",
+  "offerId": "transactable_cc",
+  "source": {
+    "name": "Aleran Connected Commerce for D365 – CPQ & B2B Sales",
+    "publisher": "Aleran Software, Inc.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/aleransoftwareinc1693344067970.transactable_cc",
+    "lastModified": "2026-02-10T07:50:57.3816443+00:00",
+    "appVersion": "1.0.25",
+    "pricingTypes": [
+      "Free",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:86ab5501220925ee7b2bfbd502713a658e48b55d022d52bec27a8940b6669fad",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:86ab5501220925ee7b2bfbd502713a658e48b55d022d52bec27a8940b6669fad",
+    "mappedOn": "2026-10-07",
+    "summary": "Hosted CPQ, B2B storefront and customer portal platform for manufacturers, synced with BC.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-conn-cpq",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-quotes",
+      "ng-sales-pricing",
+      "ng-assortment-catalogs"
+    ],
+    "claims": [
+      "Product configurator with pricing rules and guided selling",
+      "B2B storefronts show live ERP prices and stock",
+      "Portals let customers and partners order, reorder and view their account",
+      "Quote and order handling includes approval workflows",
+      "Integrates with Business Central",
+      "Also integrates with Dynamics 365 Finance & Supply Chain Management",
+      "Syncs prices, stock, customers and orders with the ERP",
+      "Supports sales via reps, distributors, partners and online",
+      "Includes an AI assistant in the CPQ plans",
+      "International plans add multiple languages and currencies",
+      "Implementation is quoted separately"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing"
+    ],
+    "connectsTo": [
+      "Dynamics 365 Finance & Supply Chain Management"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

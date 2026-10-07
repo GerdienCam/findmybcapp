@@ -1,0 +1,68 @@
+{
+  "appId": "iotapapps.1dbb275e-430f-46a1-9ab0-02b342fe9963",
+  "guid": null,
+  "publisherId": "iotapapps",
+  "offerId": "1dbb275e-430f-46a1-9ab0-02b342fe9963",
+  "source": {
+    "name": "Subscription Billing Automation for ISVs and SaaS Providers",
+    "publisher": "WORK 365",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/iotapapps.1dbb275e-430f-46a1-9ab0-02b342fe9963",
+    "lastModified": "2025-12-23T15:10:28.4365224+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:4b084a4f08acec05ee88436fc0cc80b27f4eebcb63c029b24625de57ef405f70",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:4b084a4f08acec05ee88436fc0cc80b27f4eebcb63c029b24625de57ef405f70",
+    "mappedOn": "2026-10-07",
+    "summary": "Recurring and usage-based billing automation for ISVs and SaaS providers, integrating with BC",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-subscription-billing",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-conn-payment-providers",
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Bills recurring licenses, usage charges and one-time services",
+      "Handles add-ons, bundles, tiers, prorations, refunds and renewals",
+      "Integrates with Dynamics 365 CRM, Business Central, QuickBooks and MYOB",
+      "Built on Power Platform",
+      "Card and ACH payments via Stripe, GoCardless, Authorize.net and others",
+      "Customer self-service through Power Apps portals",
+      "Priced by number of billing contracts"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Stripe",
+      "GoCardless",
+      "Authorize.net",
+      "QuickBooks",
+      "MYOB",
+      "Microsoft Partner Center"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

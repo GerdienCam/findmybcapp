@@ -1,0 +1,64 @@
+{
+  "appId": "eurofor.actio_irpf_integra",
+  "guid": null,
+  "publisherId": "eurofor",
+  "offerId": "actio_irpf_integra",
+  "source": {
+    "name": "Actio IRPF for Microsoft Dynamics 365 Business Central",
+    "publisher": "INTEGRA",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/eurofor.actio_irpf_integra",
+    "lastModified": "2026-08-03T22:25:13.09773+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:cda4820b84a479c736d98433ade3227fa01516a30a51c329d92ac6473676aa3a",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:cda4820b84a479c736d98433ade3227fa01516a30a51c329d92ac6473676aa3a",
+    "mappedOn": "2026-10-07",
+    "summary": "Handles Spanish IRPF withholding on received and issued invoices for AEAT returns.",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ap-invoice-capture"
+    ],
+    "claims": [
+      "Manages withholding on received and issued invoices",
+      "Supports settlement of AEAT models",
+      "Withholding type, percentage and accounts set per customer and vendor",
+      "Removes manual IRPF posting on invoices",
+      "Spanish only"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "languages": [
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

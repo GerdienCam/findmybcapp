@@ -6,47 +6,53 @@
   "source": {
     "name": "eToll",
     "publisher": "P/f Formula",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pfformula1687443475154%7CAID.etoll%7CPAPPID.9c31a91f-4a4e-4f5f-962c-72043940c545",
-    "lastModified": "2026-06-11T10:03:07.0063314+00:00",
-    "appVersion": "28.0.0.88",
-    "pricingTypes": [],
+    "lastModified": "2026-10-06T12:26:10.3395042+00:00",
+    "appVersion": "28.0.3.94",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.formula.fo/contact/",
-    "sourceHash": "sha256:166d99aad00634b7a3352c8c735036fb773e718114f1f9f6f97938adef773e1e"
+    "sourceHash": "sha256:228209ca6dceb6d1c26e240826b2de5afaa5008acfde6b8e601c11dc2a025c9b",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:166d99aad00634b7a3352c8c735036fb773e718114f1f9f6f97938adef773e1e",
-    "mappedOn": null,
-    "summary": "Import customs documentation from purchase orders",
+    "sourceHash": "sha256:228209ca6dceb6d1c26e240826b2de5afaa5008acfde6b8e601c11dc2a025c9b",
+    "mappedOn": "2026-10-07",
+    "summary": "Captures customs data on purchase orders and exports import declarations to Faroese customs",
     "shape": "localization",
     "primary": [
       {
-        "need": "ng-loc-country-pack",
-        "confidence": "high"
+        "need": "ng-loc-tax-reporting",
+        "confidence": "medium"
       },
       {
         "need": "ng-purchase-orders",
-        "confidence": "medium"
+        "confidence": "low"
       }
     ],
     "secondary": [
-      "ng-item-master-data"
+      "ng-product-compliance"
     ],
     "claims": [
-      "Records tariff number, country of origin, weight and value per purchase order line",
-      "Exports completed orders for import into customs systems",
-      "On posting, stores the customs number, country of origin and net weight on the item card",
-      "Built for the Faroese customs system TAKS"
+      "Tariff number, origin, weight and value on purchase lines",
+      "Export of the order to customs systems",
+      "Saves customs number, net weight and origin on the item card at posting",
+      "Built for the Faroese TAKS customs system"
     ],
     "countries": [
       "FO"
     ],
     "languages": [],
     "industries": [],
-    "connectsTo": [],
+    "connectsTo": [
+      "TAKS"
+    ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

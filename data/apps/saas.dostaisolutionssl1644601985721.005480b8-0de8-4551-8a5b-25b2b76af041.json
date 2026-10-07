@@ -1,0 +1,83 @@
+{
+  "appId": "dostaisolutionssl1644601985721.005480b8-0de8-4551-8a5b-25b2b76af041",
+  "guid": null,
+  "publisherId": "dostaisolutionssl1644601985721",
+  "offerId": "005480b8-0de8-4551-8a5b-25b2b76af041",
+  "source": {
+    "name": "Dost - Intelligence finance automation platform",
+    "publisher": "DOST AI SOLUTIONS S.L.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/dostaisolutionssl1644601985721.005480b8-0de8-4551-8a5b-25b2b76af041",
+    "lastModified": "2026-08-31T18:41:58.6964316+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:54dae6e24f059826b6409708c25644b1430be36aceb66966b2de52c0e435e635",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:54dae6e24f059826b6409708c25644b1430be36aceb66966b2de52c0e435e635",
+    "mappedOn": "2026-10-07",
+    "summary": "AI platform for AP and AR: invoice capture, line-level matching, approvals, payments and e-invoicing.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-payments",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-loc-einvoicing",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-bank-reconciliation",
+      "ng-admin-portals",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Captures documents from email, supplier portal, upload, API, EDI and e-invoicing",
+      "Handles invoices, delivery notes, POs and contracts",
+      "Template-free AI extraction",
+      "Supports Verifactu, SII and SDI",
+      "Learns GL coding to accounts, cost centres and dimensions",
+      "3- and 4-way line matching across PO, delivery note, invoice and contract",
+      "Multi-level approval workflows",
+      "Portals where suppliers and clients handle invoices themselves",
+      "Converts POs to invoices",
+      "Handles several entities, sites and currencies",
+      "Fraud detection and tamper-evident audit log",
+      "Two-way integration with BC, SAP, Oracle and Sage",
+      "Priced by document volume and module"
+    ],
+    "countries": [
+      "ES",
+      "IT"
+    ],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "SAP",
+      "Oracle",
+      "Sage"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

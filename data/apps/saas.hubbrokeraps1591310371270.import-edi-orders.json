@@ -1,0 +1,61 @@
+{
+  "appId": "hubbrokeraps1591310371270.import-edi-orders",
+  "guid": null,
+  "publisherId": "hubbrokeraps1591310371270",
+  "offerId": "import-edi-orders",
+  "source": {
+    "name": "Automatic Import of EDI Orders",
+    "publisher": "HubBroker ApS",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/hubbrokeraps1591310371270.import-edi-orders",
+    "lastModified": "2026-07-15T21:06:55.7617775+00:00",
+    "appVersion": "5.7.7.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:3fb8b3c4490773ea795959342ca4203ad56e0edcb5d82d553bbecbf15d72f1fe",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:3fb8b3c4490773ea795959342ca4203ad56e0edcb5d82d553bbecbf15d72f1fe",
+    "mappedOn": "2026-10-07",
+    "summary": "iPaaS service importing EDI customer orders, including via PEPPOL, into Dynamics 365",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Validates and converts orders from any format",
+      "Receives orders via PEPPOL and Nemhandel networks",
+      "Monitoring and tracking of imported orders in the iPaaS",
+      "Integration setup covers Business Central"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "PEPPOL",
+      "Nemhandel",
+      "Dynamics 365 Finance and Operations"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

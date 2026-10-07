@@ -1,0 +1,60 @@
+{
+  "appId": "beehexacorp1632107602169.hexasync_shopline_365_business_central",
+  "guid": null,
+  "publisherId": "beehexacorp1632107602169",
+  "offerId": "hexasync_shopline_365_business_central",
+  "source": {
+    "name": "Shopline Integration with Dynamics 365 Business Central - HexaSync Profile",
+    "publisher": "Beehexa Corp",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/beehexacorp1632107602169.hexasync_shopline_365_business_central",
+    "lastModified": "2025-12-24T16:18:43.6392121+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:4c23f197f7482ba708f052519222584395dfeb7ff7a687e4940a627be5bea71f",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:4c23f197f7482ba708f052519222584395dfeb7ff7a687e4940a627be5bea71f",
+    "mappedOn": "2026-10-07",
+    "summary": "HexaSync middleware profile syncing a Shopline store with Business Central.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-integration-failures"
+    ],
+    "claims": [
+      "Middleware between BC and Shopline",
+      "Message-queue architecture",
+      "Cell-based field mapping",
+      "Shows whether each sync succeeded or failed and why",
+      "Configurable task schedulers",
+      "Requires a HexaSync account",
+      "No public pricing"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Shopline"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

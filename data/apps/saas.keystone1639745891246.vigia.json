@@ -1,0 +1,82 @@
+{
+  "appId": "keystone1639745891246.vigia",
+  "guid": null,
+  "publisherId": "keystone1639745891246",
+  "offerId": "vigia",
+  "source": {
+    "name": "Vigia",
+    "publisher": "KEYSTONE",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/keystone1639745891246.vigia",
+    "lastModified": "2026-09-03T12:19:08.2029585+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:7ff9daa710e5a53aa9b32ed560cfa9689dd6fc1b7292c0d4a6c248972610f7b0",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:7ff9daa710e5a53aa9b32ed560cfa9689dd6fc1b7292c0d4a6c248972610f7b0",
+    "mappedOn": "2026-10-07",
+    "summary": "Read-only mobile KPI app for BC managers: orders, revenue, margin, receivables and cash forecast",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-cash-forecast",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-budget-vs-actual",
+      "ng-admin-devices"
+    ],
+    "claims": [
+      "Six views: summary, orders, revenue, margin, receivables and cash",
+      "Drill from group to company, customer and invoice",
+      "Compares to budget and last year",
+      "Breakdowns by company, customer, job or salesperson using BC dimensions",
+      "90-day cash forecast from open invoices, POs and payment terms",
+      "Read-only, honoring the user's BC permissions",
+      "Browser app with Microsoft sign-in, nothing to install",
+      "Requires the free Vigia Connector extension",
+      "Ten languages",
+      "Flat monthly plans for 1, 5 or 15 users with 30-day trial"
+    ],
+    "countries": [],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "pl",
+      "pt",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [
+      "Vigia Connector"
+    ],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

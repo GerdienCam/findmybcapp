@@ -1,0 +1,81 @@
+{
+  "appId": "qbuildcorporation1603391385339.cadlink_d365fno_saas",
+  "guid": null,
+  "publisherId": "qbuildcorporation1603391385339",
+  "offerId": "cadlink_d365fno_saas",
+  "source": {
+    "name": "CADLink for Dynamics 365 Finance and Operations",
+    "publisher": "QBuild Corporation",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/qbuildcorporation1603391385339.cadlink_d365fno_saas",
+    "lastModified": "2025-12-16T12:54:38.8467599+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:8945b95ee58d52874d3cc1220348b5ba9ae3d345544eb725bc081dbcfe8062c2",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:8945b95ee58d52874d3cc1220348b5ba9ae3d345544eb725bc081dbcfe8062c2",
+    "mappedOn": "2026-10-07",
+    "summary": "Transfers BOMs and items from CAD, PDM and PLM systems into Dynamics ERP",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-cad-plm",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-bom-formula-engineering",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "States integration of CAD, PDM and PLM with Business Central",
+      "Two-way sync between CAD and ERP",
+      "Creates items and BOMs with one click, no intermediate files",
+      "CAD connectors include SolidWorks, Inventor, Solid Edge, NX, Creo, Onshape, Altium, ePlan and AutoCAD",
+      "PLM/PDM connectors include SolidWorks PDM, 3DExperience, Windchill, Arena, Vault and Teamcenter",
+      "Integrates to production BOMs and projects",
+      "Visual discrepancy check between CAD and ERP",
+      "Live item search to add non-CAD parts and raw materials",
+      "Fixed-fee implementation"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [
+      "SolidWorks",
+      "Autodesk Inventor",
+      "Siemens NX",
+      "Solid Edge",
+      "PTC Creo",
+      "Onshape",
+      "Altium",
+      "ePlan",
+      "AutoCAD",
+      "PTC Windchill",
+      "Arena",
+      "Autodesk Vault",
+      "Fusion 360",
+      "Siemens Teamcenter",
+      "Agile PLM",
+      "3DExperience"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

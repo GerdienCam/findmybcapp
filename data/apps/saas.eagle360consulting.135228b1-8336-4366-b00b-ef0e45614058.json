@@ -1,0 +1,57 @@
+{
+  "appId": "eagle360consulting.135228b1-8336-4366-b00b-ef0e45614058",
+  "guid": null,
+  "publisherId": "eagle360consulting",
+  "offerId": "135228b1-8336-4366-b00b-ef0e45614058",
+  "source": {
+    "name": "Unifii360 EDI Integration",
+    "publisher": "Eagle360 Consulting",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/eagle360consulting.135228b1-8336-4366-b00b-ef0e45614058",
+    "lastModified": "2025-12-20T07:32:47.8403156+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "Free"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:a32e2cf3c1852b4a5940feaac927513ee7247902c7f4d6b358a76b556b0592fe",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:a32e2cf3c1852b4a5940feaac927513ee7247902c7f4d6b358a76b556b0592fe",
+    "mappedOn": "2026-10-07",
+    "summary": "EDI integration in BC for exchanging sales order and back-order documents with trading partners.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-edi",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Generates EDI documents automatically",
+      "Real-time data sync",
+      "Focus on back orders on sales orders",
+      "Reporting"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

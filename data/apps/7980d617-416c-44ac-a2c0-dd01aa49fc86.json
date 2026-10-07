@@ -6,18 +6,22 @@
   "source": {
     "name": "Serbian language (Serbia)",
     "publisher": "NPS d.o.o.",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.npsdoo1580466836471%7CAID.npsserbian%7CPAPPID.7980d617-416c-44ac-a2c0-dd01aa49fc86",
-    "lastModified": "2026-08-18T13:51:43.4273179+00:00",
-    "appVersion": "28.4.153.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-07T00:55:04.2705962+00:00",
+    "appVersion": "28.5.160.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://github.com/NPSBeograd/NPS-Support/wiki",
-    "sourceHash": "sha256:d35c78d95ed88b10c9514de8731b7291c2fa14de6f762d4fd35eaca7b6dde3a4"
+    "sourceHash": "sha256:7cd5aa6c5ffa66b390654bfbebfa39c86001459ac14ff895f6378aad62bdbddf",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d35c78d95ed88b10c9514de8731b7291c2fa14de6f762d4fd35eaca7b6dde3a4",
-    "mappedOn": null,
-    "summary": "Adds Serbian language to Business Central",
+    "sourceHash": "sha256:7cd5aa6c5ffa66b390654bfbebfa39c86001459ac14ff895f6378aad62bdbddf",
+    "mappedOn": "2026-10-07",
+    "summary": "Serbian (Latin) UI language pack for BC base app and key Microsoft apps",
     "shape": "language",
     "primary": [
       {
@@ -27,22 +31,21 @@
     ],
     "secondary": [],
     "claims": [
-      "Translates BC UI into Serbian (Latin)",
-      "Also translates key Microsoft apps like Base App, System App and E-Document Core",
-      "Covers Subscription Billing, Quality management and Sustainability from version 28",
-      "Supports Essentials and Premium"
+      "Serbian Latin translation of the BC interface",
+      "Also translates Microsoft apps such as Base, System and E-Document Core",
+      "Adds Subscription Billing, Data Archive and others from version 28",
+      "Uninstalls without affecting data"
     ],
-    "countries": [
-      "RS"
-    ],
+    "countries": [],
     "languages": [
+      "en",
       "sr"
     ],
     "industries": [],
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

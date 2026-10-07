@@ -1,0 +1,66 @@
+{
+  "appId": "eurofor.actio_sii_integra",
+  "guid": null,
+  "publisherId": "eurofor",
+  "offerId": "actio_sii_integra",
+  "source": {
+    "name": "Actio SII for Microsoft Dynamics 365 Business Central",
+    "publisher": "INTEGRA",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/eurofor.actio_sii_integra",
+    "lastModified": "2026-08-03T22:46:41.9085325+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:f08da5849cf61676aa55f3a11e53775e899578ea0b2ef6aff506c6993a9e33aa",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:f08da5849cf61676aa55f3a11e53775e899578ea0b2ef6aff506c6993a9e33aa",
+    "mappedOn": "2026-10-07",
+    "summary": "Sends Spanish SII VAT invoice records to the AEAT tax agency and tracks responses",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-tax-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vat-tax",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Maps invoice data into the AEAT XML schema",
+      "Records sent and received invoice data in Business Central",
+      "Validates XML syntax before submission",
+      "Submits automatically to AEAT via web services",
+      "Captures AEAT acceptance, partial acceptance or rejection status",
+      "Keeps a log of submissions and AEAT responses",
+      "Available in Spanish only"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "languages": [
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "AEAT"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

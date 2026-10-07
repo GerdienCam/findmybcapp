@@ -1,0 +1,65 @@
+{
+  "appId": "gest_innov_4720745.giecp",
+  "guid": null,
+  "publisherId": "gest_innov_4720745",
+  "offerId": "giecp",
+  "source": {
+    "name": "Explore Company Profiling",
+    "publisher": "GEST'INNOV",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/gest_innov_4720745.giecp",
+    "lastModified": "2026-07-23T12:12:33.3419912+00:00",
+    "appVersion": "1.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:441abdf9d437a529f788e236240ecd0958bed7b9e99b3b31f312d0026d95d31b",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:441abdf9d437a529f788e236240ecd0958bed7b9e99b3b31f312d0026d95d31b",
+    "mappedOn": "2026-10-07",
+    "summary": "Adds French B2B company data and news to Dynamics 365 Sales and BC accounts",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-company-data",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts"
+    ],
+    "claims": [
+      "Shows company news on the account card",
+      "News grouped into 35 themes",
+      "Deduplicated data keyed on SIRET",
+      "Sources include press, websites, legal notices and social networks",
+      "Over 50,000 new items sourced daily",
+      "Covers France",
+      "Available in French only"
+    ],
+    "countries": [
+      "FR"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "EXPLORE",
+      "Dynamics 365 Sales"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "appId": "PUBID.dynamicssolutionandtechnology|AID.dsassetmaintenance|PAPPID.192cab98-8212-43bf-b9d6-59ed892551e9",
+  "guid": "192cab98-8212-43bf-b9d6-59ed892551e9",
+  "publisherId": "dynamicssolutionandtechnology",
+  "offerId": "dsassetmaintenance",
+  "source": {
+    "name": "DS Asset Management",
+    "publisher": "Dynamics Solution and Technology",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.dynamicssolutionandtechnology%7CAID.dsassetmaintenance%7CPAPPID.192cab98-8212-43bf-b9d6-59ed892551e9",
+    "lastModified": "2026-10-06T13:55:41.0811676+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://dynamicssolution.com/contact-us/",
+    "sourceHash": "sha256:737ebf69385da1a0659c4835cbcb429efb744fa2134ff97de6b33220ca0c3dbd",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:737ebf69385da1a0659c4835cbcb429efb744fa2134ff97de6b33220ca0c3dbd",
+    "mappedOn": "2026-10-07",
+    "summary": "Asset maintenance with equipment register, preventive plans, work orders, spare parts and costs",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-maintenance-planned",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-maintenance-breakdown",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-fa-register"
+    ],
+    "claims": [
+      "Equipment register with structures, functional locations and criticality",
+      "Preventive maintenance by date, meter reading, usage or interval",
+      "Work orders with priority, technician or vendor assignment and checklists",
+      "Spare parts reservation and consumption tied to purchasing",
+      "Tracks labour, material and external costs vs estimates",
+      "Logs failures, repairs and downtime"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

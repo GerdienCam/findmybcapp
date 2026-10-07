@@ -1,0 +1,64 @@
+{
+  "appId": "devsysdemxicosadecv1720460889065.listas-negras-sat",
+  "guid": null,
+  "publisherId": "devsysdemxicosadecv1720460889065",
+  "offerId": "listas-negras-sat",
+  "source": {
+    "name": "Compliance Shield - Listas-Negras-SAT",
+    "publisher": "Devsys",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/devsysdemxicosadecv1720460889065.listas-negras-sat",
+    "lastModified": "2025-12-24T02:47:39.5312661+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:cbd34f6fc9a9da0b5b0b07cd87501425f5ba846b9f27c3b142a3629c2dda3645",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:cbd34f6fc9a9da0b5b0b07cd87501425f5ba846b9f27c3b142a3629c2dda3645",
+    "mappedOn": "2026-10-07",
+    "summary": "Checks BC customers and vendors against Mexico's SAT blacklists and blocks their transactions.",
+    "shape": "localization",
+    "primary": [
+      {
+        "need": "ng-loc-country-pack",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-supplier-quality-compliance",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-credit-holds"
+    ],
+    "claims": [
+      "Automatic queries against SAT non-compliant and definitive taxpayer lists",
+      "Blocks invoicing, payments received, purchase orders and vendor payments",
+      "Alerts the team with the reason and next steps",
+      "Configurable rules",
+      "Works with any BC version"
+    ],
+    "countries": [
+      "MX"
+    ],
+    "languages": [
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

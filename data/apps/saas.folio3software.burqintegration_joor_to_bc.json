@@ -1,0 +1,60 @@
+{
+  "appId": "folio3software.burqintegration_joor_to_bc",
+  "guid": null,
+  "publisherId": "folio3software",
+  "offerId": "burqintegration_joor_to_bc",
+  "source": {
+    "name": "Joor Integration with Dynamics 365 Business Central - BURQ iPaaS",
+    "publisher": "Folio3 Software Inc.,",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/folio3software.burqintegration_joor_to_bc",
+    "lastModified": "2025-12-19T13:52:49.916799+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:2374cd5b1fb03ccbf62508a04c38f2d0a60bb24c7ff2ba0a94c640179e99aa8e",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:2374cd5b1fb03ccbf62508a04c38f2d0a60bb24c7ff2ba0a94c640179e99aa8e",
+    "mappedOn": "2026-10-07",
+    "summary": "iPaaS connector syncing Joor fashion wholesale orders and stock with Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-vert-fashion",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Transfers Joor sales orders into BC",
+      "Updates stock quantities in real time",
+      "Syncs listings, shipping info, returns and feedback",
+      "Migrates historical Joor data into BC",
+      "One-time installation fee plus annual renewal, no per-transaction fees"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Joor"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "appId": "PUBID.paper-lessllc1599078796259|AID.mv2mes|PAPPID.dfe39598-c790-4243-86d7-e85f18480df5",
+  "guid": "dfe39598-c790-4243-86d7-e85f18480df5",
+  "publisherId": "paper-lessllc1599078796259",
+  "offerId": "mv2mes",
+  "source": {
+    "name": "MV2 MES to Business Central Integration",
+    "publisher": "Paper-Less, LLC",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.paper-lessllc1599078796259%7CAID.mv2mes%7CPAPPID.dfe39598-c790-4243-86d7-e85f18480df5",
+    "lastModified": "2026-10-02T18:22:10.3138057+00:00",
+    "appVersion": "1.0.14.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": "https://www.iseteam.com/support/",
+    "sourceHash": "sha256:bb433bc44efa25e1a7866a26dae333d34bb19886bd417c818a67669f3af9edad",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:bb433bc44efa25e1a7866a26dae333d34bb19886bd417c818a67669f3af9edad",
+    "mappedOn": "2026-10-07",
+    "summary": "MV2 MES integration for real-time shop floor tracking of jobs, labor, machines and materials",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-shop-floor-reporting",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-production-scheduling",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-production-costing",
+      "ng-scrap-rework"
+    ],
+    "claims": [
+      "Real-time job progress, labor and machine status",
+      "Paperless digital work instructions for operators",
+      "Labor capture against jobs and operations",
+      "Real-time material consumption tracking",
+      "Production data flows into BC for planning, costing and reporting",
+      "Aimed at discrete manufacturers"
+    ],
+    "countries": [],
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "it",
+      "zh"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "MV2 MES"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

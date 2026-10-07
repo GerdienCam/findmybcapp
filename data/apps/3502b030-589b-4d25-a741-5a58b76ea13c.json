@@ -6,20 +6,22 @@
   "source": {
     "name": "PSP Connect",
     "publisher": "N3 Vision AB",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.n3visionab1614113437854%7CAID.pspconnect%7CPAPPID.3502b030-589b-4d25-a741-5a58b76ea13c",
-    "lastModified": "2026-09-29T06:25:58.6600236+00:00",
-    "appVersion": "18.5.29545.822",
+    "lastModified": "2026-10-06T21:37:11.691607+00:00",
+    "appVersion": "18.5.29545.825",
     "pricingTypes": [
       "ContactPublisher"
     ],
     "freeTrial": null,
     "helpLink": "https://www.n3vis.com/",
-    "sourceHash": "sha256:707f999ce0f19ca2c6fe59eb3c25da600bb92f3cb1836e194c1f99ad7bddfd9e"
+    "sourceHash": "sha256:542aa025096078a0e1c23ab8cba2505cfab79b1786317060e6fcf16ceb568094",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:707f999ce0f19ca2c6fe59eb3c25da600bb92f3cb1836e194c1f99ad7bddfd9e",
-    "mappedOn": null,
-    "summary": "Integrates payment service providers with BC",
+    "sourceHash": "sha256:542aa025096078a0e1c23ab8cba2505cfab79b1786317060e6fcf16ceb568094",
+    "mappedOn": "2026-10-07",
+    "summary": "Connects many payment service providers to BC and auto-matches settlements to sales",
     "shape": "connector",
     "primary": [
       {
@@ -35,15 +37,15 @@
       "ng-bank-reconciliation"
     ],
     "claims": [
-      "Supports PSPs including Stripe, PayPal, Adyen, Klarna, Mollie, Nets, Svea, Qliro, Walley, Swish, Vipps",
+      "Supports many PSPs such as Adyen, Klarna, Stripe, Mollie, Vipps and Swish",
       "Create, update, cancel and capture sales orders from BC",
-      "Handles ecommerce and in-store transactions",
+      "Handles webshop and in-store transactions",
       "Multiple payments per order",
       "Auto-imports PSP settlement files",
-      "Auto-matches payments and refunds to sales transactions",
-      "Unmatched payments identified for later processing",
-      "Calculates fees, commissions and VAT automatically",
-      "Multiple PSPs simultaneously"
+      "Auto-matches payments and refunds to sales",
+      "Unmatched payments kept for later processing",
+      "Calculates fees, commissions and VAT",
+      "Several PSPs at once"
     ],
     "countries": [
       "AT",
@@ -84,14 +86,11 @@
       "Svea",
       "Qliro",
       "PayPal",
-      "Shopify",
-      "Briqpay",
+      "Shopify Payments",
       "Stripe",
       "Mollie",
       "Swish",
-      "Vipps",
-      "Avarda",
-      "Checkout.com"
+      "Vipps"
     ],
     "requires": [],
     "deployment": "not_stated",

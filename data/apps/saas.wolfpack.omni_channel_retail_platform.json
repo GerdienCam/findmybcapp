@@ -1,0 +1,90 @@
+{
+  "appId": "wolfpack.omni_channel_retail_platform",
+  "guid": null,
+  "publisherId": "wolfpack",
+  "offerId": "omni_channel_retail_platform",
+  "source": {
+    "name": "Omni-Channel Retail Platform (ORP)",
+    "publisher": "wolfpack",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/wolfpack.omni_channel_retail_platform",
+    "lastModified": "2025-12-17T06:27:57.5426496+00:00",
+    "appVersion": "v1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:821a5e04e0c96d6f07959e866b36df77867bcd12422f7cd592c5ee20bbb07d30",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:821a5e04e0c96d6f07959e866b36df77867bcd12422f7cd592c5ee20bbb07d30",
+    "mappedOn": "2026-10-07",
+    "summary": "Omnichannel order management middleware linking BC with webshops, marketplaces, stores, PSPs and WMS",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-order-allocation",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-retail-pos",
+      "ng-conn-payment-providers",
+      "ng-customer-returns"
+    ],
+    "claims": [
+      "Order management across all online and offline channels",
+      "Enterprise service bus connecting all applications",
+      "Connects to Magento, Salesforce Commerce Cloud, Shopify and Shopware",
+      "Connects to Amazon, Bol, Tradebyte, ChannelEngine and Mirakl",
+      "Connects to Adyen, Mollie, Buckaroo and PayU",
+      "Supports click and collect, ship from store and return in store",
+      "Routes online orders to the closest store with stock",
+      "Omnichannel loyalty",
+      "Aimed at medium and large retailers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [
+      "Magento",
+      "Salesforce Commerce Cloud",
+      "Shopify",
+      "Shopware",
+      "Salesforce",
+      "Zendesk",
+      "Freshdesk",
+      "Adyen",
+      "Mollie",
+      "Buckaroo",
+      "PayU",
+      "Amazon",
+      "Bol",
+      "Tradebyte",
+      "ChannelEngine",
+      "Mirakl",
+      "Cegid"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

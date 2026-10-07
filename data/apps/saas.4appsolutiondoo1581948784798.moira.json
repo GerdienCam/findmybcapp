@@ -1,0 +1,63 @@
+{
+  "appId": "4appsolutiondoo1581948784798.moira",
+  "guid": null,
+  "publisherId": "4appsolutiondoo1581948784798",
+  "offerId": "moira",
+  "source": {
+    "name": "MOIRA",
+    "publisher": "4APP Solution d.o.o.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/4appsolutiondoo1581948784798.moira",
+    "lastModified": "2025-12-19T22:27:13.4003718+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:516b7168682c92f12c956b3464a91bc209b3e8cdff4a4523262811f3c6dd7221",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:516b7168682c92f12c956b3464a91bc209b3e8cdff4a4523262811f3c6dd7221",
+    "mappedOn": "2026-10-07",
+    "summary": "Android barcode scanner app for warehouse transactions posted live into BC or NAV",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-admin-devices",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-receiving-putaway",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-allocation-picking",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-stock-counting"
+    ],
+    "claims": [
+      "Runs on Android handheld scanners",
+      "Covers receiving, shipping, invoicing and inventory transactions",
+      "Scans are registered directly in BC or NAV as the work happens",
+      "Wireless connection between handhelds and BC"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

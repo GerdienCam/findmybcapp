@@ -25,7 +25,11 @@ def parse_app_id(app_id):
 
     'PUBID.x|AID.y|PAPPID.z' -> {'PUBID': 'x', 'AID': 'y', 'PAPPID': 'z'}
     Some IDs also carry a leading 'TYPE.connect' part.
+    SaaS offers use the short form 'publisher.offer' -> {'PUBID': 'publisher', 'AID': 'offer'}.
     """
+    if "|" not in app_id:
+        pub, _, offer = app_id.partition(".")
+        return {"PUBID": pub, "AID": offer}
     parts = {}
     for piece in app_id.split("|"):
         key, _, value = piece.partition(".")
@@ -46,8 +50,15 @@ def safe_token(text):
     return re.sub(r"[^a-z0-9_-]+", "-", (text or "").lower()).strip("-")
 
 
-def app_url(app_id):
-    """Public AppSource page for an app."""
+def is_saas_id(app_id):
+    """SaaS offers have the short ID form 'publisher.offer' (no PAPPID guid)."""
+    return "|" not in app_id
+
+
+def app_url(app_id, product_type=None):
+    """Public Marketplace page for an app. BC apps and SaaS offers live under different paths."""
+    if product_type == "SaaS" or is_saas_id(app_id):
+        return "https://appsource.microsoft.com/en-us/product/web-apps/" + app_id
     return ("https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/"
             + app_id.replace("|", "%7C"))
 
@@ -101,18 +112,30 @@ def trial_text(value):
     return f"{d.get('Length')} {d.get('Unit')}" if d else None
 
 
+BC_MENTION = re.compile(r"business central|dynamics 365 bc|d365 ?bc|\bbc\b", re.I)
+
+
+def mentions_bc(raw):
+    """True when the title or description names Business Central. NAV never counts.
+    A SaaS offer without it is left off the site."""
+    text = " ".join(str(raw.get(k) or "") for k in ("displayName", "summary", "longSummary", "description"))
+    return bool(BC_MENTION.search(text))
+
+
 def source_fields(raw):
     """The factual source zone of an app file, from one raw catalog record."""
     return {
         "name": raw.get("displayName") or "",
         "publisher": raw.get("publisherDisplayName") or "",
-        "url": app_url(raw["uniqueProductId"]),
+        "productType": raw.get("productType") or "DynamicsBC",
+        "url": app_url(raw["uniqueProductId"], raw.get("productType")),
         "lastModified": raw.get("lastModifiedDateTime") or "",
         "appVersion": attr(raw, "AppVersion"),
         "pricingTypes": sorted(raw.get("pricingTypes") or []),
         "freeTrial": trial_text(attr(raw, "FreeTrialDurationInDays")),
         "helpLink": attr(raw, "HelpLink") or None,
         "sourceHash": source_hash(raw),
+        "mentionsBC": mentions_bc(raw),
     }
 
 

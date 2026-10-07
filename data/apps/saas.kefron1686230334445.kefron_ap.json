@@ -1,0 +1,64 @@
+{
+  "appId": "kefron1686230334445.kefron_ap",
+  "guid": null,
+  "publisherId": "kefron1686230334445",
+  "offerId": "kefron_ap",
+  "source": {
+    "name": "Kefron AP",
+    "publisher": "Kefron",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/kefron1686230334445.kefron_ap",
+    "lastModified": "2025-12-19T13:21:04.5923088+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:042affe0f3538b888801c4806f12c9e0c89343bb334719884931104195d067d4",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:042affe0f3538b888801c4806f12c9e0c89343bb334719884931104195d067d4",
+    "mappedOn": "2026-10-07",
+    "summary": "AI invoice capture and approval for Business Central with supplier portal and statement matching",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-approval-workflows",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-gl-reconciliation",
+      "ng-admin-portals"
+    ],
+    "claims": [
+      "AI extraction refined by an in-house extraction team",
+      "No template building required",
+      "Distinguishes invoices from credit notes",
+      "Single central inbox for AP documents",
+      "Approval workflows with approval time reports",
+      "Supplier portal with invoice progress and missing-PO responses",
+      "Matches supplier statements against invoices automatically",
+      "No limit on number of users"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

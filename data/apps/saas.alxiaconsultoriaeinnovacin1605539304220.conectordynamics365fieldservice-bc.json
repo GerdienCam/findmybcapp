@@ -1,0 +1,68 @@
+{
+  "appId": "alxiaconsultoriaeinnovacin1605539304220.conectordynamics365fieldservice-bc",
+  "guid": null,
+  "publisherId": "alxiaconsultoriaeinnovacin1605539304220",
+  "offerId": "conectordynamics365fieldservice-bc",
+  "source": {
+    "name": "Conector Dynamics 365 Field Service-BC",
+    "publisher": "Alxia Microsoft Partner",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/alxiaconsultoriaeinnovacin1605539304220.conectordynamics365fieldservice-bc",
+    "lastModified": "2026-08-04T11:33:11.3349207+00:00",
+    "appVersion": "1.0.1.1.",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:3a9b436b074bb4fc435b2445bb9fe9502f0f4accc180050f16855d1332e4ce85",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:3a9b436b074bb4fc435b2445bb9fe9502f0f4accc180050f16855d1332e4ce85",
+    "mappedOn": "2026-10-07",
+    "summary": "Connects Dynamics 365 Field Service with BC, syncing customers, products, resources and stock.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-svc-field-execution",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-close-invoice"
+    ],
+    "claims": [
+      "Syncs customers between Field Service and BC",
+      "Syncs products, service products, resources, stock and warehouses",
+      "Real-time information on field technician visits",
+      "Requires Business Central plus Dynamics 365 Sales licences",
+      "Supports all BC editions",
+      "Supported in Spain, in English and Spanish"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 Field Service"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

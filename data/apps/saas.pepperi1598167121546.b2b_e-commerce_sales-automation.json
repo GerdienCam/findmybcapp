@@ -1,0 +1,74 @@
+{
+  "appId": "pepperi1598167121546.b2b_e-commerce_sales-automation",
+  "guid": null,
+  "publisherId": "pepperi1598167121546",
+  "offerId": "b2b_e-commerce_sales-automation",
+  "source": {
+    "name": "B2B Sales Platform",
+    "publisher": "Pepperi",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/pepperi1598167121546.b2b_e-commerce_sales-automation",
+    "lastModified": "2025-12-18T07:55:52.1396943+00:00",
+    "appVersion": "Always latest version since it a SaaS App",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:8f67126766a65192d8be32dc311c076fc5459e3d969c2fd612ee671dd7a351e1",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:8f67126766a65192d8be32dc311c076fc5459e3d969c2fd612ee671dd7a351e1",
+    "mappedOn": "2026-10-07",
+    "summary": "B2B sales platform with customer ordering portal, offline rep order taking and trade promotions",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-admin-portals",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-rebates",
+      "ng-sales-analytics",
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Two-way automatic data flow between Pepperi and BC",
+      "Products, inventory and customers fed in real time; field orders written back",
+      "Works offline",
+      "Customers browse catalog with their own prices and check delivery status",
+      "Reps see customer purchase history and open issues before visits",
+      "In-store merchandising activities",
+      "Managers set goals per rep, customer and product",
+      "Different workflows per order type",
+      "Plan and track sales visits",
+      "Includes route accounting, retail execution and mobile CRM"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appId": "alxiaconsultoriaeinnovacin1605539304220.conectordynamics365sales-bc",
+  "guid": null,
+  "publisherId": "alxiaconsultoriaeinnovacin1605539304220",
+  "offerId": "conectordynamics365sales-bc",
+  "source": {
+    "name": "Conector Dynamics 365 Sales para Business Central",
+    "publisher": "Alxia Consultoria e innovación",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/alxiaconsultoriaeinnovacin1605539304220.conectordynamics365sales-bc",
+    "lastModified": "2025-12-17T00:58:35.7848148+00:00",
+    "appVersion": "1.0.1.1.",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:c43b596dcfd4ff1955a2cc9cdd703b2732a22729e68eabd5dbb17ead98ba5117",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:c43b596dcfd4ff1955a2cc9cdd703b2732a22729e68eabd5dbb17ead98ba5117",
+    "mappedOn": "2026-10-07",
+    "summary": "Multi-company connector between Dynamics 365 Sales CRM and BC for contacts, quotes and orders.",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-crm-accounts",
+      "ng-sales-quotes"
+    ],
+    "claims": [
+      "Two-way contact sync across multiple BC companies",
+      "Each company only shares its own linked accounts and contacts",
+      "Products flow from BC to Sales",
+      "Two-way quote sync",
+      "Orders and invoices flow from BC to Sales",
+      "Built on Dataverse (Common Data Service)",
+      "Supported in Spain, in English and Spanish"
+    ],
+    "countries": [
+      "ES"
+    ],
+    "languages": [
+      "en",
+      "es"
+    ],
+    "industries": [],
+    "connectsTo": [
+      "Dynamics 365 Sales"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

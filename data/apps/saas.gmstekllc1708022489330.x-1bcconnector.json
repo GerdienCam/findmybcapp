@@ -1,0 +1,57 @@
+{
+  "appId": "gmstekllc1708022489330.x-1bcconnector",
+  "guid": null,
+  "publisherId": "gmstekllc1708022489330",
+  "offerId": "x-1bcconnector",
+  "source": {
+    "name": "X-1FBO Connector",
+    "publisher": "GMSTEK LLC",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/gmstekllc1708022489330.x-1bcconnector",
+    "lastModified": "2025-12-24T09:09:18.5926673+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:db2106936cf7e268cb592d04aed365b11c109947e22090f844d91782e5964d9f",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:db2106936cf7e268cb592d04aed365b11c109947e22090f844d91782e5964d9f",
+    "mappedOn": "2026-10-07",
+    "summary": "Syncs sales, invoices and payments from the X-1FBO aviation system into Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Automatic sync of sales, invoices, payments and financial data",
+      "Built for X-1FBO customers"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "X-1FBO"
+    ],
+    "requires": [
+      "X-1FBO"
+    ],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

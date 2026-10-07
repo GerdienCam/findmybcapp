@@ -1,0 +1,66 @@
+{
+  "appId": "nubitconsulting.hpbc01",
+  "guid": null,
+  "publisherId": "nubitconsulting",
+  "offerId": "hpbc01",
+  "source": {
+    "name": "Horus Project",
+    "publisher": "NubIT Consulting",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/nubitconsulting.hpbc01",
+    "lastModified": "2025-12-27T01:22:10.5559801+00:00",
+    "appVersion": "1.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:0d9e3ca547905bc27bc386d437eb5d58a103ca4bd50f6bac66b011a2f44121d6",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:0d9e3ca547905bc27bc386d437eb5d58a103ca4bd50f6bac66b011a2f44121d6",
+    "mappedOn": "2026-10-07",
+    "summary": "Web tool for logging project hours and expenses that flow into BC projects",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-proj-costs",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-proj-status-reporting"
+    ],
+    "claims": [
+      "Staff log hours per project and per task",
+      "Captures travel, meal and transport expenses",
+      "Hours are integrated into Business Central",
+      "Time entry manually or with a live stopwatch",
+      "Team leads review tasks and expenses without opening BC",
+      "Spanish only"
+    ],
+    "countries": [],
+    "languages": [
+      "es"
+    ],
+    "industries": [
+      "Media & Entertainment",
+      "Professional Services"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

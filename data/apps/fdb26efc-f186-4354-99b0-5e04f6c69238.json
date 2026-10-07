@@ -6,28 +6,32 @@
   "source": {
     "name": "ReportsWithLineType",
     "publisher": "P/f Formula",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.pfformula1687443475154%7CAID.reportswithlinetype%7CPAPPID.fdb26efc-f186-4354-99b0-5e04f6c69238",
-    "lastModified": "2026-06-11T12:13:29.1631638+00:00",
-    "appVersion": "28.0.0.144",
-    "pricingTypes": [],
+    "lastModified": "2026-10-06T08:55:58.4537292+00:00",
+    "appVersion": "28.0.0.155",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.formula.fo/contact/",
-    "sourceHash": "sha256:40477bf91a0291cc287f5baaff1009342cc298dcd9f7829e641388505b5e8402"
+    "sourceHash": "sha256:eea9ded4b455d7d27882401aa18f14675e5f26105d3ee00b4dd03b04507b1c84",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:40477bf91a0291cc287f5baaff1009342cc298dcd9f7829e641388505b5e8402",
-    "mappedOn": null,
-    "summary": "Document reports respecting line types",
+    "sourceHash": "sha256:eea9ded4b455d7d27882401aa18f14675e5f26105d3ee00b4dd03b04507b1c84",
+    "mappedOn": "2026-10-07",
+    "summary": "Document reports that use line types to control what shows on invoices",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-ux-document-layouts",
-        "confidence": "high"
+        "confidence": "medium"
       }
     ],
     "secondary": [],
     "claims": [
-      "Reports implement edited line types to control what is shown on documents",
+      "Line types control which information appears on documents",
       "Includes Faroese captions"
     ],
     "countries": [],
@@ -38,7 +42,7 @@
     "connectsTo": [],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

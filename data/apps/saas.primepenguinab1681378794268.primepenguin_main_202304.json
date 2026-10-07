@@ -1,0 +1,64 @@
+{
+  "appId": "primepenguinab1681378794268.primepenguin_main_202304",
+  "guid": null,
+  "publisherId": "primepenguinab1681378794268",
+  "offerId": "primepenguin_main_202304",
+  "source": {
+    "name": "Prime Penguin Connector",
+    "publisher": "Prime Penguin AB",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/primepenguinab1681378794268.primepenguin_main_202304",
+    "lastModified": "2025-12-18T18:55:30.3963736+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:9541e86a29040e0e9c8b93af4b9acf05bc0fa96f736d6ec398e1976d5cc285b8",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:9541e86a29040e0e9c8b93af4b9acf05bc0fa96f736d6ec398e1976d5cc285b8",
+    "mappedOn": "2026-10-07",
+    "summary": "eCommerce integration hub routing orders and product data between BC, sales channels and 3PLs",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-3pl",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-invoicing"
+    ],
+    "claims": [
+      "Syncs product information to 3PL or own warehouse",
+      "Tracks inventory levels in BC automatically",
+      "Forwards BC purchase orders to the right warehouse",
+      "Routes sales orders to the right logistics provider",
+      "Converts fulfilled orders to invoices",
+      "Creates invoices for orders from other sales channels"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

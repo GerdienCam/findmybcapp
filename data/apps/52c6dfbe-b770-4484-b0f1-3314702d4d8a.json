@@ -6,18 +6,22 @@
   "source": {
     "name": "Shopify Integration for Dynamics 365 Business Central",
     "publisher": "Celigo Inc - CA, USA",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.celigoinc-causa1621285384596%7CAID.shopify-integration-celigo%7CPAPPID.52c6dfbe-b770-4484-b0f1-3314702d4d8a",
-    "lastModified": "2026-08-04T01:43:31.5450177+00:00",
-    "appVersion": "1.1.2.0",
-    "pricingTypes": [],
+    "lastModified": "2026-10-06T09:50:17.7426026+00:00",
+    "appVersion": "1.3.0.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://docs.celigo.com/hc/en-us",
-    "sourceHash": "sha256:41a933d7be1a3623363d93add4bbc2996b49a0190d3f627802b1450af494edcf"
+    "sourceHash": "sha256:a18a26113edbcc2f7522850f5d4acaf0410fab025eafeeb0a44e11c9d6406b2c",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:41a933d7be1a3623363d93add4bbc2996b49a0190d3f627802b1450af494edcf",
-    "mappedOn": null,
-    "summary": "Syncs Shopify orders, customers, inventory and fulfillment via Celigo",
+    "sourceHash": "sha256:a18a26113edbcc2f7522850f5d4acaf0410fab025eafeeb0a44e11c9d6406b2c",
+    "mappedOn": "2026-10-07",
+    "summary": "Celigo prebuilt Shopify integration syncing orders, stock, products, invoices, returns and payouts",
     "shape": "connector",
     "primary": [
       {
@@ -26,15 +30,21 @@
       }
     ],
     "secondary": [
-      "ng-sales-order-entry"
+      "ng-customer-returns",
+      "ng-customer-payments",
+      "ng-admin-integration-sync"
     ],
     "claims": [
-      "Syncs orders from storefront, POS or social channels",
-      "Sends real-time shipping information to customers",
-      "Syncs inventory from single or multiple warehouses to Shopify",
-      "Syncs new products and updates from BC to Shopify",
+      "Syncs orders from storefront, POS and social channels",
+      "Sends shipping information back to customers",
+      "Syncs stock levels from one or more warehouse locations",
+      "Pushes new and updated products from BC to Shopify",
       "Syncs invoices from BC to Shopify",
-      "Syncs refunds between systems"
+      "Syncs refunds and full or partial cancellations",
+      "Shopify returns become BC sales return orders with status sent back",
+      "Shopify payouts with fees posted to BC deposits and journals",
+      "B2B: syncs companies, publishes price lists as catalogs, imports B2B orders",
+      "Runs on the Celigo iPaaS"
     ],
     "countries": [
       "AE",
@@ -92,7 +102,7 @@
     ],
     "requires": [],
     "deployment": "not_stated",
-    "pricing": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

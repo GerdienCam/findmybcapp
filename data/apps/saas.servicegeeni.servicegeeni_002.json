@@ -1,0 +1,69 @@
+{
+  "appId": "servicegeeni.servicegeeni_002",
+  "guid": null,
+  "publisherId": "servicegeeni",
+  "offerId": "servicegeeni_002",
+  "source": {
+    "name": "Service Geeni - Field Service Management (FSM)",
+    "publisher": "Service Geeni Ltd",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/servicegeeni.servicegeeni_002",
+    "lastModified": "2026-08-12T07:40:28.6660356+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:4c285ee80ea528a1b1d96b2c5f74b7a2d8645c97204d9c35ef44c522c4a84bdf",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:4c285ee80ea528a1b1d96b2c5f74b7a2d8645c97204d9c35ef44c522c4a84bdf",
+    "mappedOn": "2026-10-07",
+    "summary": "Asset-centric field service management with scheduling, maintenance and invoicing synced to BC",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-svc-assets",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-dispatch",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-svc-close-invoice",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-svc-analytics",
+      "ng-svc-contracts"
+    ],
+    "claims": [
+      "Syncs customers, assets, stock, invoices and financials with BC in real time",
+      "Links job history, parts, engineer reports and costs to each asset",
+      "Tracks the asset lifecycle from installation to retirement",
+      "Shows service history, warranty status and parts usage per asset",
+      "Matches jobs to engineers on skill, availability and location with route optimisation",
+      "Live KPIs on jobs, assets, engineers and costs",
+      "Automates job logging, planned maintenance and invoicing",
+      "Pushes completed financial data back to BC",
+      "Also connects to Finance and Operations"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

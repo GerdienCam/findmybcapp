@@ -1,0 +1,63 @@
+{
+  "appId": "regdata1610720161243.regdata_protection_suite_7",
+  "guid": null,
+  "publisherId": "regdata1610720161243",
+  "offerId": "regdata_protection_suite_7",
+  "source": {
+    "name": "RPS for ERP Business central app data protection",
+    "publisher": "REGDATA",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/regdata1610720161243.regdata_protection_suite_7",
+    "lastModified": "2025-12-18T14:28:27.6891435+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:2585fe364b062efc4b2e7c8406dea11d92d2230f33699d5f4e8f5c9244caf638",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:2585fe364b062efc4b2e7c8406dea11d92d2230f33699d5f4e8f5c9244caf638",
+    "mappedOn": "2026-10-07",
+    "summary": "Encrypts, tokenizes or pseudonymizes confidential BC data through an external protection server",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-admin-it-compliance",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-privacy-consent",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-audit-compliance"
+    ],
+    "claims": [
+      "Turns confidential BC data into encrypted, tokenized or pseudonymized values",
+      "Keeps clear data from database administrators",
+      "Addresses US Cloud Act access to data",
+      "Protection server managed by the customer",
+      "Audit evidence in two clicks",
+      "More than 50 encryption and tokenization techniques that keep search and filtering usable",
+      "Around 15 ms latency per field",
+      "Protection settings reusable across BC instances"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

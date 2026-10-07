@@ -1,0 +1,65 @@
+{
+  "appId": "let_lucy.f2832b24-d4e5-4c75-a3b00b5-c1de0d9ce203-lucy",
+  "guid": null,
+  "publisherId": "let_lucy",
+  "offerId": "f2832b24-d4e5-4c75-a3b00b5-c1de0d9ce203-lucy",
+  "source": {
+    "name": "Automated Order Processing",
+    "publisher": "Let Lucy",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/let_lucy.f2832b24-d4e5-4c75-a3b00b5-c1de0d9ce203-lucy",
+    "lastModified": "2025-12-17T05:17:53.2431828+00:00",
+    "appVersion": "2.103",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:2f5ba71769cfec411eb2779039f8e3c43cab1f08ddac874e0f2a063cb5c2c850",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:2f5ba71769cfec411eb2779039f8e3c43cab1f08ddac874e0f2a063cb5c2c850",
+    "mappedOn": "2026-10-07",
+    "summary": "Reads emailed PDF purchase orders and creates validated sales orders in Business Central",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-pricing"
+    ],
+    "claims": [
+      "Opens emails, reads PDF POs and creates sales orders around the clock",
+      "Validates order data before it enters the ERP",
+      "Rule-based handling of price variances",
+      "AI learns from corrected customer mistakes",
+      "Full event log per order",
+      "System-generated PDFs only; scans and faxes left for staff",
+      "Supports Essentials and Premium editions",
+      "Available in US, Australia and New Zealand"
+    ],
+    "countries": [
+      "AU",
+      "NZ",
+      "US"
+    ],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

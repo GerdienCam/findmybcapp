@@ -1,0 +1,78 @@
+{
+  "appId": "illuminatesoftware1669135702673.flow",
+  "guid": null,
+  "publisherId": "illuminatesoftware1669135702673",
+  "offerId": "flow",
+  "source": {
+    "name": "Illuminate Flow – Cloud Order Management Software (OMS) & Middleware for Microsoft Dynamics 365",
+    "publisher": "Illuminate Software",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/illuminatesoftware1669135702673.flow",
+    "lastModified": "2026-02-18T15:23:42.6213666+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": null,
+    "sourceHash": "sha256:674e18297b769a671b0d477660a207cc896bedf0ed65413f065c23241784622b",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:674e18297b769a671b0d477660a207cc896bedf0ed65413f065c23241784622b",
+    "mappedOn": "2026-10-07",
+    "summary": "Cloud order management middleware orchestrating orders between Dynamics 365 and other channels",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-order-allocation",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-integration-sync",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry",
+      "ng-conn-3pl"
+    ],
+    "claims": [
+      "Native integration with Business Central and Finance & SCM",
+      "Two-way sync of orders, customers, inventory and statuses",
+      "Split shipments, partial fulfillment, backorders and cancellations",
+      "Connects Shopify, Magento, WooCommerce, Mailchimp, HubSpot and messaging channels",
+      "Connects WMS, 3PL and logistics providers",
+      "Automated notifications and exception handling",
+      "Role-based access and approvals",
+      "Plans priced by monthly order volume, from 2,500 orders for $100"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Shopify",
+      "Magento",
+      "WooCommerce",
+      "Mailchimp",
+      "HubSpot",
+      "WhatsApp"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

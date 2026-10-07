@@ -1,0 +1,104 @@
+{
+  "appId": "PUBID.centralsolutions1591256491708|AID.cso_salescosts_commissions|PAPPID.ff40c9c2-37be-4f95-898a-f4e98f877cb6",
+  "guid": "ff40c9c2-37be-4f95-898a-f4e98f877cb6",
+  "publisherId": "centralsolutions1591256491708",
+  "offerId": "cso_salescosts_commissions",
+  "source": {
+    "name": "CS Sales Costs & Commissions",
+    "publisher": "Central Solutions",
+    "productType": "DynamicsBC",
+    "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.centralsolutions1591256491708%7CAID.cso_salescosts_commissions%7CPAPPID.ff40c9c2-37be-4f95-898a-f4e98f877cb6",
+    "lastModified": "2026-10-06T11:50:49.3776317+00:00",
+    "appVersion": "28.1.0.1",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": "https://central-solutions.nl/cs-sales-costs-help-en/",
+    "sourceHash": "sha256:472fae8a2350dbf9e0035817f88e7c10731932e8ad03f0e144a6adcaffc93bb2",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:472fae8a2350dbf9e0035817f88e7c10731932e8ad03f0e144a6adcaffc93bb2",
+    "mappedOn": "2026-10-07",
+    "summary": "Enterprise edition: accrues and pays sales costs like agent commissions and levies",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-sales-commissions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-product-performance",
+        "confidence": "low"
+      }
+    ],
+    "secondary": [
+      "ng-accruals-deferrals",
+      "ng-sales-analytics"
+    ],
+    "claims": [
+      "Reserves expected sales costs on a G/L balance account",
+      "Costs posted to P&L when invoice is posted or paid",
+      "Costs shown per customer, item, sales agent, order or invoice",
+      "Agent payout can depend on payment and a gross margin threshold",
+      "Creates purchase documents to post the costs in the right period",
+      "Unlimited cost types with rate as percentage or amount per agent and vendor",
+      "Priced per production environment with unlimited sandboxes and users",
+      "30-day free trial"
+    ],
+    "countries": [
+      "AR",
+      "AT",
+      "AU",
+      "BE",
+      "CA",
+      "CH",
+      "CO",
+      "DE",
+      "DK",
+      "DO",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "IE",
+      "IS",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MX",
+      "NL",
+      "NO",
+      "NZ",
+      "PE",
+      "PL",
+      "SE",
+      "US",
+      "ZA"
+    ],
+    "languages": [
+      "da",
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "nl",
+      "sv"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "subscription",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

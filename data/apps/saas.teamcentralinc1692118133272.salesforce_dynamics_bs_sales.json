@@ -1,0 +1,63 @@
+{
+  "appId": "teamcentralinc1692118133272.salesforce_dynamics_bs_sales",
+  "guid": null,
+  "publisherId": "teamcentralinc1692118133272",
+  "offerId": "salesforce_dynamics_bs_sales",
+  "source": {
+    "name": "Salesforce to Dynamics BC Sales No-Code Integration - SaaS",
+    "publisher": "Teamcentral, Inc.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/teamcentralinc1692118133272.salesforce_dynamics_bs_sales",
+    "lastModified": "2025-12-16T22:34:34.1834231+00:00",
+    "appVersion": "Version 1.1",
+    "pricingTypes": [
+      "FreeTrial",
+      "Payg"
+    ],
+    "freeTrial": "1 Month",
+    "helpLink": null,
+    "sourceHash": "sha256:26abb307b440ac47e2d46540d7c1b66ef029991a45c63f24e29995b14bed23da",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:26abb307b440ac47e2d46540d7c1b66ef029991a45c63f24e29995b14bed23da",
+    "mappedOn": "2026-10-07",
+    "summary": "No-code iPaaS integration syncing Salesforce customers, items and sales orders with BC",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-crm",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-sales-order-entry"
+    ],
+    "claims": [
+      "Syncs customers and items between Salesforce and BC",
+      "Salesforce sales orders with lines created in BC",
+      "No coding required",
+      "Unlimited users, data and transaction volume"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Distribution",
+      "Manufacturing & Mobility"
+    ],
+    "connectsTo": [
+      "Salesforce"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "free_trial",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

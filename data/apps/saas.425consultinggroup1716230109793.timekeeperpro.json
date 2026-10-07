@@ -1,0 +1,61 @@
+{
+  "appId": "425consultinggroup1716230109793.timekeeperpro",
+  "guid": null,
+  "publisherId": "425consultinggroup1716230109793",
+  "offerId": "timekeeperpro",
+  "source": {
+    "name": "425 TimeKeeperPRO",
+    "publisher": "425_Consulting_Group",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/425consultinggroup1716230109793.timekeeperpro",
+    "lastModified": "2025-12-18T20:42:06.8389143+00:00",
+    "appVersion": "2025.03.1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:e5ea024103fc678fe06b08ee17226af0eaa1f25e3badc83f5d7a7e0f91506dd8",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:e5ea024103fc678fe06b08ee17226af0eaa1f25e3badc83f5d7a7e0f91506dd8",
+    "mappedOn": "2026-10-07",
+    "summary": "Power App for employees to submit project timesheets to BC and managers to approve them",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-proj-time",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-admin-approval-workflows",
+      "ng-hr-time-shifts"
+    ],
+    "claims": [
+      "Employees submit time without logging into BC",
+      "Built as a Power App on the Power Platform",
+      "Uses a companion BC extension for real-time data exchange",
+      "Time entry can be tailored to project and resource setups",
+      "Managers get automatic notifications to approve or reject",
+      "Employees see their own submissions and approval status",
+      "Works on PC, tablet and phone"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Microsoft Power Apps"
+    ],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

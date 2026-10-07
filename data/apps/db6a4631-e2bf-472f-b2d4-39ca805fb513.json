@@ -6,18 +6,22 @@
   "source": {
     "name": "CPA Document Processor",
     "publisher": "Consulo",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.consulokfthungary%7CAID.cpa_document_processor%7CPAPPID.db6a4631-e2bf-472f-b2d4-39ca805fb513",
-    "lastModified": "2026-07-13T12:45:18.0267542+00:00",
-    "appVersion": "26.0.1.7",
-    "pricingTypes": [],
+    "lastModified": "2026-10-06T04:47:15.5358645+00:00",
+    "appVersion": "26.0.2.0",
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
     "freeTrial": null,
     "helpLink": "https://www.consulo.hu/contact-us/",
-    "sourceHash": "sha256:79cb8db00258adf2cddc9ba86afaf0f976ec5d5d202291fd993fcc5ee14af588"
+    "sourceHash": "sha256:acebef1ffa2c298ac3f5a470704f91404d01b8d39340b6d089c1e1097c7c19bf",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:79cb8db00258adf2cddc9ba86afaf0f976ec5d5d202291fd993fcc5ee14af588",
-    "mappedOn": null,
-    "summary": "AI document processing of incoming documents into BC",
+    "sourceHash": "sha256:acebef1ffa2c298ac3f5a470704f91404d01b8d39340b6d089c1e1097c7c19bf",
+    "mappedOn": "2026-10-07",
+    "summary": "Reads invoice data with Azure AI Document Intelligence into BC incoming documents",
     "shape": "process",
     "primary": [
       {
@@ -29,19 +33,15 @@
       "ng-ux-attachments"
     ],
     "claims": [
-      "Uses Azure AI Document Intelligence to read invoices",
-      "Extracts vendor name and VAT registration number",
-      "Extracts invoice number, posting date, due date, totals and tax",
+      "Extracts vendor, VAT number, buyer, invoice number, dates and amounts",
       "Per-field confidence scores",
-      "Auto-validation above a confidence threshold writes to Incoming Document fields",
+      "Auto-writes data to incoming document fields above a confidence threshold",
       "Detects purchase vs sales invoice by matching tax IDs",
-      "Links incoming documents to the matching open or posted invoices and credit memos",
-      "No manual job queue setup",
-      "REST API for Logic Apps/Power Automate to create documents from email attachments",
-      "Manual field override preserved on reprocessing",
-      "Supports PDF, JPG, JPEG and PNG",
-      "Batch processing of multiple documents",
-      "Colour-coded confidence indicators"
+      "Links to matching posted or open invoices and credit memos",
+      "No job queue setup needed",
+      "REST API to create incoming documents from email via Logic Apps or Power Automate",
+      "Manual corrections preserved on reprocessing",
+      "Handles PDF, JPG, JPEG and PNG, with batch processing"
     ],
     "countries": [],
     "languages": [
@@ -51,14 +51,11 @@
     "industries": [],
     "connectsTo": [
       "Azure AI Document Intelligence",
-      "Azure Logic Apps",
       "Power Automate"
     ],
-    "requires": [
-      "CPA Base Application"
-    ],
-    "deployment": "online",
-    "pricing": "not_stated",
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
     "hide": false,
     "hideReason": "",
     "noFit": ""

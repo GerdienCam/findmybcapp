@@ -1,0 +1,72 @@
+{
+  "appId": "allforonepoland.beeoffice",
+  "guid": null,
+  "publisherId": "allforonepoland",
+  "offerId": "beeoffice",
+  "source": {
+    "name": "BeeOffice",
+    "publisher": "All for One Poland Sp. z o.o.",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/allforonepoland.beeoffice",
+    "lastModified": "2026-09-25T11:30:50.4382174+00:00",
+    "appVersion": null,
+    "pricingTypes": [
+      "ContactPublisher"
+    ],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:3186e9774b63a2731f6b781d1bd4ddd73ae316cd91465344c882faf0e19d9f32",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:3186e9774b63a2731f6b781d1bd4ddd73ae316cd91465344c882faf0e19d9f32",
+    "mappedOn": "2026-10-07",
+    "summary": "Employee self-service for leave requests, work time changes, approvals and org charts.",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-hr-absence-leave",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-hr-time-shifts",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-hr-employee-records",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-hr-org-policies"
+    ],
+    "claims": [
+      "Org structure of companies, departments, teams and positions",
+      "Graphical org chart showing employee placement",
+      "Keeps history after an employee is deactivated",
+      "Leave approval in one or two stages",
+      "Leave types with or without yearly limits",
+      "Tracks individual allowances and carried-over balances",
+      "Approved absences can be passed on to payroll",
+      "Calculates plus and minus hour balances",
+      "Time off in lieu for extra hours worked",
+      "Notifies managers and requesters",
+      "Exchanges employee data with Business Central"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

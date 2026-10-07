@@ -6,18 +6,20 @@
   "source": {
     "name": "Shipmondo Connector by XtensionIT",
     "publisher": "XtensionIT Aps",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xteshipshipmondo%7CPAPPID.8436bdb9-8cf1-4247-a0c7-d468d6cdbf72",
-    "lastModified": "2026-09-30T07:56:11.537807+00:00",
-    "appVersion": "5.9.0.0",
+    "lastModified": "2026-10-06T05:25:28.2142012+00:00",
+    "appVersion": "5.9.1.0",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://docs.xtensionit.com/en/shipmentconnector/overview/",
-    "sourceHash": "sha256:0480bd39abeaa14a0a0eb2abf4688fb536459fbbb6db96e1969ef1628579fe97"
+    "sourceHash": "sha256:adeb92ef4cbb0c8d9d11c4d03b108c2e552f37f811ef5870b8712fb9808b5f67",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:0480bd39abeaa14a0a0eb2abf4688fb536459fbbb6db96e1969ef1628579fe97",
-    "mappedOn": null,
-    "summary": "Books Shipmondo shipments, tracks parcels, handles customs",
+    "sourceHash": "sha256:adeb92ef4cbb0c8d9d11c4d03b108c2e552f37f811ef5870b8712fb9808b5f67",
+    "mappedOn": "2026-10-07",
+    "summary": "Shipmondo multi-carrier connector for labels, track and trace and customs data",
     "shape": "connector",
     "primary": [
       {
@@ -26,25 +28,24 @@
       }
     ],
     "secondary": [
-      "ng-packing-loading"
+      "ng-case-customer-updates",
+      "ng-customer-returns"
     ],
     "claims": [
-      "Multi-carrier shipping directly from BC via Shipmondo",
-      "Waybill creation, label printing, track & trace and customs documents",
-      "Updates sales documents with parcel numbers and track & trace",
-      "Shipment status lookup from posted shipment for customer service",
+      "Waybill creation, label printing, track and trace and customs documents",
+      "Sales documents updated with parcel numbers and tracking",
+      "Adjust parcels and carrier in warehouse operations",
       "Real-time freight rate comparison",
-      "Automatic printing of shipping documents",
-      "Track & trace links for customers",
-      "Return handling and reverse logistics",
-      "Customs information for carriers",
-      "Extenders available for Dangerous Goods and Tasklet Mobile WMS"
+      "Track and trace links for customers",
+      "Extenders for dangerous goods and Tasklet Mobile WMS",
+      "Return handling"
     ],
     "countries": [
       "BE",
       "DE",
       "DK",
       "FI",
+      "FR",
       "NL",
       "NO",
       "SE"

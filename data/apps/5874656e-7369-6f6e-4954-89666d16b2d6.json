@@ -6,46 +6,46 @@
   "source": {
     "name": "Integration Accelerator by XtensionIT",
     "publisher": "XtensionIT Aps",
+    "productType": "DynamicsBC",
     "url": "https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.xtensionit%7CAID.xteintegrationaccelerator%7CPAPPID.5874656e-7369-6f6e-4954-89666d16b2d6",
-    "lastModified": "2026-07-21T10:34:18.1241834+00:00",
+    "lastModified": "2026-10-07T04:58:17.5351376+00:00",
     "appVersion": "2.7.0.0",
     "pricingTypes": [],
     "freeTrial": null,
     "helpLink": "https://docs.xtensionit.com/en/integrationaccelerator/overview",
-    "sourceHash": "sha256:d46f543d27c852ba387e6b05ba62cce01ac7c793c87b6c3201083eb42dfecbd9"
+    "sourceHash": "sha256:c55e4e7f0cfc87336f30399b813fa265e29c8d9d59392d9736f6d5a381d8a382",
+    "mentionsBC": true
   },
   "mapping": {
-    "sourceHash": "sha256:d46f543d27c852ba387e6b05ba62cce01ac7c793c87b6c3201083eb42dfecbd9",
-    "mappedOn": null,
-    "summary": "Dynamic API and data integration framework",
+    "sourceHash": "sha256:c55e4e7f0cfc87336f30399b813fa265e29c8d9d59392d9736f6d5a381d8a382",
+    "mappedOn": "2026-10-07",
+    "summary": "Configurable API and data integration toolkit, incl. export to Azure Data Lake and Fabric",
     "shape": "usability",
     "primary": [
       {
         "need": "ng-admin-integration-sync",
         "confidence": "high"
-      },
-      {
-        "need": "ng-bi-dashboards",
-        "confidence": "medium"
       }
     ],
     "secondary": [
-      "ng-admin-integration-failures",
-      "ng-ux-developer-tools"
+      "ng-bi-dashboards",
+      "ng-ux-developer-tools",
+      "ng-admin-integration-failures"
     ],
     "claims": [
       "Exports data to Azure Data Lake and Microsoft Fabric",
-      "Publishes data as JSON to generic API endpoints",
-      "Create and manage API endpoints dynamically, including custom extension data",
+      "Publishes JSON to generic API endpoints without code",
+      "Dynamic API endpoints covering all data incl. extensions",
       "Inbound data via unbound API actions",
       "Error logging and monitoring in BC",
-      "Job queue scheduled or real-time export/import",
+      "Job queue scheduling of import and export",
       "Shared setups across multiple companies",
-      "On-prem supported from version 22"
+      "Runs online and on-premises from version 22"
     ],
     "countries": [
       "DE",
       "DK",
+      "ES",
       "FR",
       "GB",
       "IT",

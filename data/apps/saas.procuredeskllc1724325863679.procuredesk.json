@@ -1,0 +1,68 @@
+{
+  "appId": "procuredeskllc1724325863679.procuredesk",
+  "guid": null,
+  "publisherId": "procuredeskllc1724325863679",
+  "offerId": "procuredesk",
+  "source": {
+    "name": "Purchasing and AP automation for Business Central",
+    "publisher": "ProcureDesk LLC",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/procuredeskllc1724325863679.procuredesk",
+    "lastModified": "2025-12-20T17:02:50.2407301+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:a42d0057a2b64af9bd59f1d04df6712f55d8db3e3235c821d0674bfa589a4eb8",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:a42d0057a2b64af9bd59f1d04df6712f55d8db3e3235c821d0674bfa589a4eb8",
+    "mappedOn": "2026-10-07",
+    "summary": "Procurement and AP platform with punchout catalogs, multi-level approvals and spend reporting",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-purchase-requisitions",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-procurement-spend",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-ap-invoice-capture",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-purchase-orders",
+      "ng-admin-approval-workflows"
+    ],
+    "claims": [
+      "Punchout catalogs for more than 200 vendors",
+      "Configurable multi-tier approval processes",
+      "Pulls chart of accounts and dimensions from BC",
+      "Syncs purchase orders and invoices back to BC",
+      "Spend reports and dashboards"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Education",
+      "Healthcare"
+    ],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

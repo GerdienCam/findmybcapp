@@ -1,0 +1,57 @@
+{
+  "appId": "folio3software.burqintegration_magento_to_bc",
+  "guid": null,
+  "publisherId": "folio3software",
+  "offerId": "burqintegration_magento_to_bc",
+  "source": {
+    "name": "Magento to Dynamics365 Business Central with BURQ iPaaS",
+    "publisher": "Folio3 Software Inc.,",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/folio3software.burqintegration_magento_to_bc",
+    "lastModified": "2025-12-23T12:09:58.964576+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:8426da12f7fe03bc629bcae5875bd62310465eb3164c9883092474085563aea2",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:8426da12f7fe03bc629bcae5875bd62310465eb3164c9883092474085563aea2",
+    "mappedOn": "2026-10-07",
+    "summary": "iPaaS connector syncing Magento store orders, products and stock with Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs orders, customer and billing details",
+      "Syncs stock levels between store and BC",
+      "Syncs products, coupons, returns, gift cards and tier pricing",
+      "Multi-tier pricing rules managed in BC",
+      "Migrates data from BC to Magento",
+      "One-time installation fee plus annual renewal, no per-transaction fees"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Magento"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "appId": "prodwarespain.demand_forecasting_pw",
+  "guid": null,
+  "publisherId": "prodwarespain",
+  "offerId": "demand_forecasting_pw",
+  "source": {
+    "name": "Demand Forecasting for D365 Unified Operations",
+    "publisher": "PRODWARE SPAIN",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/prodwarespain.demand_forecasting_pw",
+    "lastModified": "2025-12-26T14:28:47.6898809+00:00",
+    "appVersion": "1.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:bf1324a1715b011ffd658c3a79837c37cf967b1d60ad6338037f20886fc68419",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:bf1324a1715b011ffd658c3a79837c37cf967b1d60ad6338037f20886fc68419",
+    "mappedOn": "2026-10-07",
+    "summary": "Azure AI demand forecasting from sales history, with Power BI reporting",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-demand-forecast",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [
+      "ng-bi-dashboards"
+    ],
+    "claims": [
+      "Works with F&O, Business Central or standalone",
+      "Forecasts demand from historical sales",
+      "Runs on Databricks, Azure Functions and Azure Storage",
+      "Uses Dynamics transaction data without exports",
+      "Power BI reports on top of results"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [
+      "Retail & Consumer Goods"
+    ],
+    "connectsTo": [
+      "Power BI"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

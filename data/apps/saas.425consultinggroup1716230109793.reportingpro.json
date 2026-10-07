@@ -1,0 +1,62 @@
+{
+  "appId": "425consultinggroup1716230109793.reportingpro",
+  "guid": null,
+  "publisherId": "425consultinggroup1716230109793",
+  "offerId": "reportingpro",
+  "source": {
+    "name": "425 ReportingPRO",
+    "publisher": "425_Consulting_Group",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/425consultinggroup1716230109793.reportingpro",
+    "lastModified": "2025-12-22T16:13:58.725081+00:00",
+    "appVersion": "25.3.2.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:27b2e5bb61e2739338703dcfd6403d7df293edc9522d734079710abb2cc968f5",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:27b2e5bb61e2739338703dcfd6403d7df293edc9522d734079710abb2cc968f5",
+    "mappedOn": "2026-10-07",
+    "summary": "Financial reporting pack with account and dimension hierarchies plus prebuilt Power BI dashboards",
+    "shape": "process",
+    "primary": [
+      {
+        "need": "ng-bi-dashboards",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-financial-statements",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-ux-excel-reporting",
+      "ng-coa-company-setup"
+    ],
+    "claims": [
+      "Five-level hierarchy for G/L accounts",
+      "Three-level hierarchy for up to eight shortcut dimensions with custom sort order",
+      "Prebuilt Power BI reports for P&L, balance sheet, sales, receivables and payables",
+      "Refreshable Excel connection through Analyze in Excel",
+      "Adds custom fields and sorting to G/L account and dimension cards",
+      "Provides a G/L entries fact table inside BC for Analysis Mode and Power BI"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "not_stated",
+    "pricing": "contact",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

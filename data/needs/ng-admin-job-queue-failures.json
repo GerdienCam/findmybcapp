@@ -86,9 +86,9 @@
         }
       ],
       "coverage": {
-        "Email": 0.67,
-        "Teams or Slack": 0.08,
-        "Inside BC (Role Center)": 0.08
+        "Email": 0.65,
+        "Teams or Slack": 0.09,
+        "Inside BC (Role Center)": 0.04
       }
     },
     {
@@ -119,8 +119,8 @@
         }
       ],
       "coverage": {
-        "Yes, restart automatically": 0.62,
-        "Yes, with retry limits or delays": 0.12
+        "Yes, restart automatically": 0.65,
+        "Yes, with retry limits or delays": 0.13
       }
     },
     {
@@ -162,9 +162,9 @@
         }
       ],
       "coverage": {
-        "One overview across companies": 0.12,
-        "Set up many jobs at once": 0.21,
-        "Daily or weekly health digest": 0.08
+        "One overview across companies": 0.13,
+        "Set up many jobs at once": 0.22,
+        "Daily or weekly health digest": 0.09
       }
     },
     {
@@ -190,21 +190,13 @@
           ]
         },
         {
-          "label": "Job chains and dependencies",
-          "patterns": [
-            "chain",
-            "dependenc"
-          ]
-        },
-        {
           "label": "Not sure / doesn't matter",
           "any": true
         }
       ],
       "coverage": {
-        "Stuck or hanging jobs": 0.21,
-        "Successful runs": 0.17,
-        "Job chains and dependencies": 0.04
+        "Stuck or hanging jobs": 0.22,
+        "Successful runs": 0.17
       }
     },
     {
@@ -238,8 +230,8 @@
         }
       ],
       "coverage": {
-        "Different people per job or owner": 0.29,
-        "Only for critical jobs or by severity": 0.08
+        "Different people per job or owner": 0.3,
+        "Only for critical jobs or by severity": 0.09
       }
     }
   ]

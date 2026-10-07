@@ -1,0 +1,56 @@
+{
+  "appId": "folio3software.burqintegration_ebay_to_bc",
+  "guid": null,
+  "publisherId": "folio3software",
+  "offerId": "burqintegration_ebay_to_bc",
+  "source": {
+    "name": "eBay Integration with Dynamics 365 Business Central - BURQ iPaaS",
+    "publisher": "Folio3 Software Inc.,",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/folio3software.burqintegration_ebay_to_bc",
+    "lastModified": "2025-12-24T07:18:53.5834201+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:37281d86403c5c466026bfaafb64515a1912e82f9b3470e393849c549b10afe0",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:37281d86403c5c466026bfaafb64515a1912e82f9b3470e393849c549b10afe0",
+    "mappedOn": "2026-10-07",
+    "summary": "iPaaS connector syncing eBay orders, listings and stock with Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-marketplaces",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Transfers eBay sales orders into BC",
+      "Updates stock quantities in real time",
+      "Syncs listings, shipping info, returns and feedback",
+      "Migrates historical eBay data into BC",
+      "One-time installation fee plus annual renewal, no per-transaction fees"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "eBay"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

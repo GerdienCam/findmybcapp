@@ -1,0 +1,73 @@
+{
+  "appId": "litsservices1588138020299.lits_van_sales_mobile_app",
+  "guid": null,
+  "publisherId": "litsservices1588138020299",
+  "offerId": "lits_van_sales_mobile_app",
+  "source": {
+    "name": "LITS Van Sales",
+    "publisher": "LITS SERVICES",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/litsservices1588138020299.lits_van_sales_mobile_app",
+    "lastModified": "2026-03-04T14:55:22.4381548+00:00",
+    "appVersion": "1.0.0.0",
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:6f70e082cac857b647eb700c86f90bd47926b18196ce8da11cedfbee7a1e16fe",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:6f70e082cac857b647eb700c86f90bd47926b18196ce8da11cedfbee7a1e16fe",
+    "mappedOn": "2026-10-07",
+    "summary": "Mobile van sales app for deliveries, on-van selling, payments and van stock",
+    "shape": "platform",
+    "primary": [
+      {
+        "need": "ng-sales-order-entry",
+        "confidence": "high"
+      },
+      {
+        "need": "ng-transport-planning",
+        "confidence": "medium"
+      },
+      {
+        "need": "ng-admin-devices",
+        "confidence": "medium"
+      }
+    ],
+    "secondary": [
+      "ng-customer-payments",
+      "ng-stock-counting",
+      "ng-sales-analytics"
+    ],
+    "claims": [
+      "Sales orders created at the customer",
+      "Live van stock check before confirming sale",
+      "Instant invoicing and cash or credit payments",
+      "Route suggestions with turn-by-turn navigation",
+      "Van stock counts with discrepancy adjustment",
+      "Transfers between warehouse and vans",
+      "Customer credit limit and outstanding invoice view",
+      "Target versus achieved dashboards",
+      "Real-time sync with Business Central",
+      "Solution-based licensing, perpetual or subscription"
+    ],
+    "countries": [],
+    "languages": [
+      "en"
+    ],
+    "industries": [],
+    "connectsTo": [],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "not_stated",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}

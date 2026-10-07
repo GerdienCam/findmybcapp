@@ -1,0 +1,57 @@
+{
+  "appId": "folio3software.burqintegration_shopify_to_bc",
+  "guid": null,
+  "publisherId": "folio3software",
+  "offerId": "burqintegration_shopify_to_bc",
+  "source": {
+    "name": "Shopify to Dynamics365 Business Central with BURQ iPaaS",
+    "publisher": "Folio3 Software Inc.,",
+    "productType": "SaaS",
+    "url": "https://appsource.microsoft.com/en-us/product/web-apps/folio3software.burqintegration_shopify_to_bc",
+    "lastModified": "2025-12-20T00:16:10.9070322+00:00",
+    "appVersion": null,
+    "pricingTypes": [],
+    "freeTrial": null,
+    "helpLink": null,
+    "sourceHash": "sha256:c016d6266d1c4563a9ef1486abf4472719f9c31352aa2ffa4e3ab1aff884cdaf",
+    "mentionsBC": true
+  },
+  "mapping": {
+    "sourceHash": "sha256:c016d6266d1c4563a9ef1486abf4472719f9c31352aa2ffa4e3ab1aff884cdaf",
+    "mappedOn": "2026-10-07",
+    "summary": "iPaaS connector syncing Shopify store orders, products and customers with Business Central",
+    "shape": "connector",
+    "primary": [
+      {
+        "need": "ng-conn-webshop",
+        "confidence": "high"
+      }
+    ],
+    "secondary": [],
+    "claims": [
+      "Syncs orders with client and billing details",
+      "Transfers customer data automatically",
+      "Product description, price and SKU changes flow to the ERP",
+      "Custom pricing rules in BC",
+      "Unlimited order volume for a flat fee",
+      "One-time installation fee plus annual renewal, no per-transaction fees"
+    ],
+    "countries": [],
+    "languages": [],
+    "industries": [],
+    "connectsTo": [
+      "Shopify"
+    ],
+    "requires": [],
+    "deployment": "online",
+    "pricing": "one_time",
+    "hide": false,
+    "hideReason": "",
+    "noFit": ""
+  },
+  "curated": {
+    "overrides": {},
+    "locked": false,
+    "note": ""
+  }
+}
