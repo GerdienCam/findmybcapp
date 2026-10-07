@@ -19,7 +19,7 @@ function save(k,v){ try { localStorage.setItem(k,v); } catch(e){} }
 
 // Free-text labels compare case- and space-insensitively everywhere
 const labelKey = v => String(v).trim().replace(/\s+/g, ' ').toLowerCase();
-const SHAPES = {process:'Apps', connector:'Connectors', usability:'Tools', addon:'Add-ons', vertical:'Industry solutions', localization:'Localizations', language:'Languages', other:'Other'};
+const SHAPES = {process:'Apps', connector:'Connectors', usability:'Tools', addon:'Add-ons', vertical:'Industry solutions', localization:'Localizations', language:'Languages', platform:'Hosted platforms', other:'Other'};
 const PRICING = {free:'Free', free_trial:'Free trial', subscription:'Subscription', per_user:'Per user', per_company:'Per company', per_transaction:'Per transaction', one_time:'One-time', contact:'Contact publisher', not_stated:'Not mentioned'};
 const AREA_ORDER = ['Purchasing & payables','Sales & receivables','Finance & reporting','Inventory & warehouse','Manufacturing','Projects','Field service','CRM & quotes','Customer service','People & payroll','Planning & budgets','Products & items','Fixed assets & maintenance','Marketing','Administration & IT','Working faster in BC','Connecting other systems','Country requirements','Industry solutions'];
 const EXAMPLES = [

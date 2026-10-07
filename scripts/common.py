@@ -25,7 +25,11 @@ def parse_app_id(app_id):
 
     'PUBID.x|AID.y|PAPPID.z' -> {'PUBID': 'x', 'AID': 'y', 'PAPPID': 'z'}
     Some IDs also carry a leading 'TYPE.connect' part.
+    SaaS offers use the short form 'publisher.offer' -> {'PUBID': 'publisher', 'AID': 'offer'}.
     """
+    if "|" not in app_id:
+        pub, _, offer = app_id.partition(".")
+        return {"PUBID": pub, "AID": offer}
     parts = {}
     for piece in app_id.split("|"):
         key, _, value = piece.partition(".")
@@ -46,8 +50,15 @@ def safe_token(text):
     return re.sub(r"[^a-z0-9_-]+", "-", (text or "").lower()).strip("-")
 
 
-def app_url(app_id):
-    """Public AppSource page for an app."""
+def is_saas_id(app_id):
+    """SaaS offers have the short ID form 'publisher.offer' (no PAPPID guid)."""
+    return "|" not in app_id
+
+
+def app_url(app_id, product_type=None):
+    """Public Marketplace page for an app. BC apps and SaaS offers live under different paths."""
+    if product_type == "SaaS" or is_saas_id(app_id):
+        return "https://appsource.microsoft.com/en-us/product/web-apps/" + app_id
     return ("https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/"
             + app_id.replace("|", "%7C"))
 
@@ -106,7 +117,8 @@ def source_fields(raw):
     return {
         "name": raw.get("displayName") or "",
         "publisher": raw.get("publisherDisplayName") or "",
-        "url": app_url(raw["uniqueProductId"]),
+        "productType": raw.get("productType") or "DynamicsBC",
+        "url": app_url(raw["uniqueProductId"], raw.get("productType")),
         "lastModified": raw.get("lastModifiedDateTime") or "",
         "appVersion": attr(raw, "AppVersion"),
         "pricingTypes": sorted(raw.get("pricingTypes") or []),

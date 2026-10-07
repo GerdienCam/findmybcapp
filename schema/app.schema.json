@@ -10,9 +10,9 @@
     "appId": {
       "description": "AppSource uniqueProductId, the real key. Example: PUBID.x|AID.y|PAPPID.<guid>",
       "type": "string",
-      "pattern": "^(TYPE\\.[^|]+\\|)?PUBID\\.[^|]+\\|AID\\.[^|]+\\|PAPPID\\.[0-9a-fA-F-]{36}$"
+      "pattern": "^((TYPE\\.[^|]+\\|)?PUBID\\.[^|]+\\|AID\\.[^|]+\\|PAPPID\\.[0-9a-fA-F-]{36}|[^|.]+\\.[^|]+)$"
     },
-    "guid": {"type": "string", "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"},
+    "guid": {"type": ["string", "null"], "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", "description": "PAPPID of a BC app. null for SaaS offers, which have no app guid."},
     "publisherId": {"type": "string", "minLength": 1},
     "offerId": {"type": "string", "minLength": 1},
     "source": {
@@ -23,6 +23,7 @@
       "properties": {
         "name": {"type": "string"},
         "publisher": {"type": "string"},
+        "productType": {"enum": ["DynamicsBC", "SaaS"], "description": "Marketplace product type: a BC app (extension) or a SaaS offer tagged for Business Central."},
         "url": {"type": "string", "format": "uri"},
         "lastModified": {"type": "string"},
         "appVersion": {"type": ["string", "null"]},
@@ -42,7 +43,7 @@
         "sourceHash": {"type": "string", "description": "source.sourceHash this mapping was made from. Different = stale."},
         "mappedOn": {"type": ["string", "null"]},
         "summary": {"type": ["string", "null"], "description": "One line in our own words. Null until written."},
-        "shape": {"enum": ["process", "connector", "usability", "addon", "vertical", "localization", "language", "other"], "description": "What kind of app: a process app, a connector, a tool, an add-on to another app, an industry solution, a localization, a language pack."},
+        "shape": {"enum": ["process", "connector", "usability", "addon", "vertical", "localization", "language", "platform", "other"], "description": "What kind of app: a process app, a connector, a tool, an add-on to another app, an industry solution, a localization, a language pack, or a hosted platform (SaaS that runs outside BC and integrates with it)."},
         "primary": {
           "type": "array",
           "items": {
