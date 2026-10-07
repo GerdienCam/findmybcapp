@@ -34,7 +34,7 @@ try { const dn = new Intl.DisplayNames(['en'], {type:'region'}); regionName = c 
 
 /* ---------------- data ---------------- */
 async function boot(){
-  view.innerHTML = `<div class="thinking"><span class="dot3"></span>Loading 4,000+ apps…</div>`;
+  view.innerHTML = `<div class="thinking"><span class="dot3"></span>Loading…</div>`;
   const [g, a, st] = await Promise.all(['groups','apps','statements'].map(f => fetch(`data/${f}.json`).then(r => r.json())));
   S.groups = g; S.apps = a; S.stm = st;
   a.forEach(app => {
@@ -53,6 +53,7 @@ async function boot(){
   initEngine();
   window.addEventListener('hashchange', route);
   route();
+  coverageNotice();
 }
 
 /* ---------------- matcher ---------------- */
@@ -504,6 +505,26 @@ function initCountry(){
   $('#country-btn').onclick = e => { e.stopPropagation(); pop.hidden = !pop.hidden; if (!pop.hidden){ inp.value = ''; draw(); inp.focus(); } };
   inp.oninput = draw;
   document.addEventListener('click', e => { if (!pop.hidden && !pop.contains(e.target)) pop.hidden = true; });
+}
+
+/* ---------------- coverage notice ----------------
+   Shown once per browser until dismissed. Remove when the full catalog arrives. */
+function coverageNotice(){
+  const KEY = 'af-notice-coverage-1';
+  if (load(KEY)) return;
+  const el = document.createElement('aside');
+  el.className = 'notice';
+  el.setAttribute('role', 'note');
+  el.innerHTML = `<button class="x" aria-label="Close">×</button>
+    <b>Missing an app?</b>
+    <p>Microsoft's public catalog currently gives us fewer than half of the Business Central apps on Marketplace, so some aren't here yet. We've asked Microsoft for full access.</p>
+    <p><b>Publishers:</b> search for your app by name first. If it doesn't show up, it hasn't reached us yet.</p>
+    <div class="acts"><a class="btn small" href="#/browse">Search by name</a><button class="btn ghost small">Got it</button></div>`;
+  const close = () => { save(KEY, '1'); el.remove(); };
+  el.querySelector('.x').onclick = close;
+  el.querySelector('.ghost').onclick = close;
+  el.querySelector('a').onclick = close;
+  document.body.appendChild(el);
 }
 
 boot().catch(e => { view.innerHTML = `<div class="empty" style="margin-top:40px">Couldn't load the data. Please reload the page.<br><br>${esc(e.message)}</div>`; });

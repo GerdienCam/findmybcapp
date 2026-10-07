@@ -219,3 +219,13 @@ h3{font-size:18px;margin:0}
 /* phones: let the browse link wrap to two lines so the header never scrolls sideways */
 @media (max-width:420px){.topnav a{white-space:normal;max-width:8.5em;line-height:1.15;text-align:right}}
 @media (max-width:520px){.ask{flex-direction:column;align-items:stretch;padding:6px 6px 6px 16px}.ask textarea{font-size:17px;min-height:66px}.ask .btn{width:100%}}
+
+/* Coverage notice: small card, bottom right; full width on phones */
+.notice{position:fixed;right:20px;bottom:20px;z-index:30;max-width:360px;background:#fff;border:1px solid var(--sun-soft);border-left:4px solid var(--sun);border-radius:14px;box-shadow:0 10px 30px rgba(15,42,51,.14);padding:16px 18px 14px;font-size:14px;line-height:1.45}
+.notice>b{display:block;font-size:15px;margin-bottom:4px}
+.notice p{margin:0 0 8px;color:var(--muted)}
+.notice p b{color:var(--ink)}
+.notice .acts{display:flex;gap:8px;margin-top:10px}
+.notice .x{position:absolute;top:6px;right:8px;border:0;background:none;font-size:20px;line-height:1;color:var(--muted);cursor:pointer;padding:4px 6px}
+@media (max-width:520px){.notice{left:16px;right:16px;bottom:16px;max-width:none}}
+.notice a.btn{text-decoration:none;display:inline-block}
