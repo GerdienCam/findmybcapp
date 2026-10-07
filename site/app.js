@@ -179,7 +179,7 @@ function renderAbout(){
 function renderHome(){
   view.innerHTML = `
     <section class="hero">
-      <h1><span class="hl">Describe the business need.</span> <span class="h1sub">Find the Business Central apps that claim to solve it.</span></h1>
+      <h1><span class="hl">Describe the business need.</span> <span class="h1sub">Find the Business Central solutions that claim to solve it.</span></h1>
       <p>You don't need to know what the app is called. It's free, independent and takes about two minutes.</p>
       <form class="ask" id="ask">
         <textarea id="q" rows="1" placeholder="Describe what you need, or what isn't working" aria-label="Describe your business need">${esc(S.query)}</textarea>
@@ -203,7 +203,7 @@ function renderHome(){
         </div>
       </div>
       <div class="proof">
-        <p><b>${S.apps.length.toLocaleString('en')}</b> Business Central apps from <b>${new Set(S.apps.map(a => a.p)).size.toLocaleString('en')}</b> publishers, mapped to the business needs they serve.</p>
+        <p><b>${S.apps.length.toLocaleString('en')}</b> solutions for Business Central from <b>${new Set(S.apps.map(a => a.p)).size.toLocaleString('en')}</b> publishers: ${S.apps.filter(a => !a.h).length.toLocaleString('en')} apps and ${S.apps.filter(a => a.h).length.toLocaleString('en')} hosted platforms, mapped to the business needs they serve.</p>
         <ul class="trust"><li>No sign-up</li><li>No paid rankings</li><li>Refreshed monthly from Microsoft Marketplace</li></ul>
         <p class="partners"><b>Partners:</b> run it together with a customer, then send them the shortlist link.</p>
       </div>
