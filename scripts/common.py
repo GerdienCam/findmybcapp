@@ -112,6 +112,16 @@ def trial_text(value):
     return f"{d.get('Length')} {d.get('Unit')}" if d else None
 
 
+BC_MENTION = re.compile(r"business central|dynamics 365 bc|d365 ?bc|navision|dynamics nav", re.I)
+
+
+def mentions_bc(raw):
+    """True when the title or description names Business Central (or NAV).
+    Used to show a SaaS offer as working with BC."""
+    text = " ".join(str(raw.get(k) or "") for k in ("displayName", "summary", "longSummary", "description"))
+    return bool(BC_MENTION.search(text))
+
+
 def source_fields(raw):
     """The factual source zone of an app file, from one raw catalog record."""
     return {
@@ -125,6 +135,7 @@ def source_fields(raw):
         "freeTrial": trial_text(attr(raw, "FreeTrialDurationInDays")),
         "helpLink": attr(raw, "HelpLink") or None,
         "sourceHash": source_hash(raw),
+        "mentionsBC": mentions_bc(raw),
     }
 
 

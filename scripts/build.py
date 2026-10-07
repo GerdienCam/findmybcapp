@@ -23,6 +23,16 @@ SITE_DATA = ROOT / "site" / "data"
 EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 
 
+def works_with(app, labels):
+    """A SaaS offer that names BC in its listing works with Business Central.
+    BC apps don't need saying."""
+    src = app["source"]
+    if src.get("productType") == "SaaS" and src.get("mentionsBC") \
+            and "Business Central" not in labels:
+        return ["Business Central"] + labels
+    return labels
+
+
 def effective_mapping(app):
     m = dict(app["mapping"])
     m.update(app["curated"].get("overrides") or {})
@@ -122,7 +132,7 @@ def build(with_vectors=True):
             "g2": g2,
             "c": merge(m.get("countries", []), pub_c),
             "l": merge(m.get("languages", []), pub_l),
-            "x": canon_list(m.get("connectsTo") or [], canon["connectsTo"]),
+            "x": works_with(a, canon_list(m.get("connectsTo") or [], canon["connectsTo"])),
             "ind": canon_list(m.get("industries") or [], canon["industries"]),
             "pr": m.get("pricing", "not_stated"),
             "req": canon_list(m.get("requires") or [], canon["requires"]),
