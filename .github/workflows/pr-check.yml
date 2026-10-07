@@ -1,0 +1,71 @@
+# Checks pull requests that change publisher files and comments with the result and a logo preview.
+# Runs on pull_request_target so it can comment on PRs from forks. The PR's files are read as
+# data only: the script and rules come from the base branch, nothing from the PR is executed.
+name: Publisher PR check
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    paths: ["publisher-data/**"]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: pr-check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the base branch (trusted rules)
+        uses: actions/checkout@v4
+        with:
+          path: base
+          persist-credentials: false
+
+      - name: Check out the pull request (data only)
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install "jsonschema>=4.18"
+
+      - name: List changed files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
+            --paginate --jq '.[] | [.status, .filename] | @tsv' > files.tsv
+          cat files.tsv
+
+      - name: Check
+        id: check
+        continue-on-error: true
+        run: python base/scripts/pr_check.py --base base --pr pr --files files.tsv --out comment.md
+
+      - name: Comment on the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          id=$(gh api "repos/${{ github.repository }}/issues/$PR/comments" --paginate \
+               --jq '.[] | select(.body | startswith("<!-- findmybc-pr-check -->")) | .id' | tail -1)
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/${{ github.repository }}/issues/comments/$id" -F body=@comment.md > /dev/null
+          else
+            gh api "repos/${{ github.repository }}/issues/$PR/comments" -F body=@comment.md > /dev/null
+          fi
+
+      - name: Fail when the file needs changes
+        if: steps.check.outcome == 'failure'
+        run: exit 1
