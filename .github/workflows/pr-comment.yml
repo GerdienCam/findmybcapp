@@ -1,0 +1,74 @@
+# Robot 2 of 2: posts the result of "Publisher PR check" (pr-check.yml) as a PR comment.
+# It never checks out or runs anything from the pull request. The result it posts is
+# treated as untrusted text: the PR it comments on is looked up from GitHub, not from the
+# result, and if the PR touches anything outside publisher-data/ the result is not trusted.
+name: Publisher PR comment
+
+on:
+  workflow_run:
+    workflows: ["Publisher PR check"]
+    types: [completed]
+
+permissions:
+  actions: read
+  pull-requests: write
+
+jobs:
+  comment:
+    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion != 'cancelled'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Find the pull request
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          HEAD_OWNER: ${{ github.event.workflow_run.head_repository.owner.login }}
+          HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          pr=$(gh api -X GET "repos/$REPO/pulls" -f state=open -f head="$HEAD_OWNER:$HEAD_BRANCH" \
+               --jq ".[] | select(.head.sha == \"$HEAD_SHA\") | .number" | head -1)
+          if [ -z "$pr" ]; then
+            echo "No open PR at this commit (closed, or a newer push will report). Nothing to post."
+          fi
+          echo "number=$pr" >> "$GITHUB_OUTPUT"
+
+      - name: Get robot 1's result
+        if: steps.pr.outputs.number != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: pr-check-result
+          path: result
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+
+      - name: Post or update the comment
+        if: steps.pr.outputs.number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR: ${{ steps.pr.outputs.number }}
+        run: |
+          marker="<!-- findmybc-pr-check -->"
+          # Files outside publisher-data/ could have changed robot 1 itself, so its result is not trusted
+          other=$(gh api "repos/$REPO/pulls/$PR/files" --paginate --jq '.[].filename' | grep -v '^publisher-data/' || true)
+          {
+            echo "$marker"
+            if [ -n "$other" ]; then
+              echo "## ⚠️ Not checked automatically"
+              echo
+              echo "This pull request changes files outside \`publisher-data/\`, so the automatic check result is not trusted. Review it by hand:"
+              echo
+              echo "$other" | head -50 | sed 's/^/- `/; s/$/`/'
+            else
+              grep -v -F "$marker" result/comment.md | head -c 60000
+            fi
+          } > body.md
+          id=$(gh api "repos/$REPO/issues/$PR/comments" --paginate \
+               --jq ".[] | select(.body | startswith(\"$marker\")) | .id" | tail -1)
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/$REPO/issues/comments/$id" -F body=@body.md > /dev/null
+          else
+            gh api "repos/$REPO/issues/$PR/comments" -F body=@body.md > /dev/null
+          fi
